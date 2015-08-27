@@ -6,3 +6,4 @@
 #
 
 addToEnvVar "$(pwd)/bin" PATH :
+erw-pm activate tw-aggregator
