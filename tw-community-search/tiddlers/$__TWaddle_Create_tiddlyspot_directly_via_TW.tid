@@ -1,0 +1,41 @@
+title: $:/TWaddle/Create tiddlyspot directly via TW
+created: 20150410150005092
+creator: Mat
+modified: 20150725124601378
+modifier: Mat
+recent: 15/07/15
+tags: TWaddle tiddlyspot @JeremyRuston @tiddlyspot TWdev Pie Major
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Create tiddlyspot directly via TW
+source-tiddler-title-as-link: Create%20tiddlyspot%20directly%20via%20TW
+
+Simon and Daniel Baird's fantastic ''Tiddlyspot'' service is a cornerstone for the TW community and the //de facto// go-to place for many people that want a free and great server alternative for their TWs or to just throw up a quickie for something. With TW5 there is even some integration, or at least cooperation, for smooth uploading to tiddlyspot and Jeremy even welcomes pull requests to be posted there. The following picks up on this with a proposal to extend the integration for making things even easier. 
+
+Note: See also the follow up article [[Pull Requests Galore!]] after reading this.
+
+Thus; We have the excellent save/upload to tiddlyspot.com mechanism built into core. It would be even better if you could ''create tiddlyspots from within the TW'' to begin with!
+
+In the Crlpanel > Saving tab, there is currently;
+
+:the //tiddlyspot name// field
+:...and a //password// field
+
+My proposal here is to have the //tiddlyspot name// field be automatically filled by default(!) with the //title// of the TW, i.e fetching it from Ctrlpanel>Info>Basics. You can obviously change the tiddlyspot name from this default.
+
+And you fill in the //password// field (if not already there from previous session) and click save. If there is an existing tiddlyspot and everything is correct this causes saving/uploading as usual.
+
+''...and if the tiddlyspot does not exist, it instead works as a //registration// for a new one! Plus the upload!''
+
+''The fact that you filled in a password is a clear confirmation that you, in deed, do want to save or create to tiddlyspot'' when you click {{$:/core/images/save-button}} Save changes
+
+Newcomers can get an online TW in a snap! It can even be done //directly// from http://tiddlywiki.com/empty. And we should probably also have a "get a tiddlyspot" in the tw.com GettingStarted tiddler (where the Download for dit different browsers are. 
+
+AND, if the user has some issue, you could make a demo //right away in tw.com/empty// and just zap it up. (I extend on this idea in [[Pull Requests Galore!]])
+
+To get the default tiddlyspot title from the TW title, there should be some (local) converter to deal with capital letters, spaces, forbidden characters, etc... so that the TW title "Foo bar" becomes "foobar" or "foo-bar" in the tiddlyspot name field. (BTW, I've noticed that in naming tiddler //fields//, in tiddler edit view, there is already such conversion mechanism to convert upper case letters into lower case.) 
+
+Obviously, if a spot is already taken you get informed. Perhaps offered to use `alreadtakenname#2` etc.
+
+
+<br>''addendum - Single tiddler export''<br>
+Whaddyaknow - I just realized I have touched on this idea before!<br>See; [[The Single Tiddler Webpage]]

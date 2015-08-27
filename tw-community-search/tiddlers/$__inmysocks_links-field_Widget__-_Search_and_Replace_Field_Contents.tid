@@ -1,0 +1,137 @@
+title: $:/inmysocks/links-field Widget - Search and Replace Field Contents
+clear_field: ''
+clear_reveal_state: hide
+created: 20150106031537963
+modified: 20150131212323355
+replace_reveal: hide
+reset: hide
+select_all_reveal_state: hide
+test_store: 1
+tags: inmysocks [[The link-fields Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: links-field Widget - Search and Replace Field Contents
+source-tiddler-title-as-link: links-field%20Widget%20-%20Search%20and%20Replace%20Field%20Contents
+
+\define thisSearchMacro()
+<$list filter='[!is[system]]' variable=useThisOne>
+<$list filter='[<useThisOne>fields[]]-[[title]]-[[created]]-[[modified]]-[[tags]]-[[text]]' variable=thisField>
+<<thisSearchListItem>>
+</$list>
+</$list>
+\end
+
+\define thisSearchListItem()
+<$list filter="[<useThisOne>has<thisField>regexp:$(thisField)$[(?i)$(thisSearch)$]]">
+<$set name='thisTiddler' value={{!!title}}>
+<<thisSearchListItem2>>
+</$set>
+</$list>
+\end
+
+\define thisSearchListItem2()
+<$reveal type=nomatch state="""$:/temp/searchreplacetiddlers##$(thisTiddler)$""" text=$(thisField)$>
+<$button class='tc-btn-invisible'><$action-setfield $tiddler='$:/temp/searchreplacetiddlers' $index=<<currentTiddler>> $value=$(thisField)$/>__"""$(thisTiddler)$"""__ - $(thisField)$</$button><br>
+</$reveal>
+\end
+
+\define thisSelectedList()
+<$list filter='[[$:/temp/searchreplacetiddlers]indexes[]]' variable=indexName>
+<<thisSelectedListEntry>>
+</$list>
+\end
+
+\define thisSelectedListEntry()
+<$reveal type=nomatch state="""$:/temp/searchreplacetiddlers##$(indexName)$""" text="""''""">
+<$reveal type=nomatch state="""$:/temp/searchreplacetiddlers##$(indexName)$""" text=''>
+<$set name=indexValue value={{$:/temp/searchreplacetiddlers##$(indexName)$}}>
+<$button class='tc-btn-invisible'>{{$:/core/images/done-button}}<$action-setfield $tiddler='$:/temp/searchreplacetiddlers' $index=<<indexName>> $value=''/>__<<indexName>>__  - <<indexValue>></$button>
+</$set><br>
+</$reveal>
+</$reveal>
+\end
+
+\define thisSearchReplaceList()
+<$list filter='[[$:/temp/searchreplacetiddlers]indexes[]]' variable=thisTiddler>
+<<thisSearchReplaceListItem>>
+</$list>
+\end
+
+\define thisSearchReplaceListItem()
+<$set name=thisValue value={{$:/temp/searchreplacetiddlers##$(thisTiddler)$}}>
+<$reveal type=nomatch state="""$:/temp/searchreplacetiddlers##$(thisTiddler)$""" text="""''""">
+<<thisSearchReplaceListItem2>>
+</$reveal>
+</$set>
+\end
+
+\define thisSearchReplaceListItem2()
+<$link-fields $sourcetiddler='$:/temp/linkfieldssearchreplace' $sourcefield='replace_string' $storetiddler="""$(thisTiddler)$""" $storefield="""$(thisValue)$"""/>
+\end
+
+\define thisClearSelectionButton()
+<$button set='links-field Widget  - Search and Replace Field Contents!!clear_reveal_state' setTo='show'>Clear Selection</$button>
+<$reveal state='links-field Widget  - Search and Replace Field Contents!!clear_reveal_state' type='match' text='show'>
+<$list filter='[[$:/temp/searchreplacetiddlers]indexes[]]' variable=indexName>
+<<thisClearSelectionButtonListItem>>
+</$list>
+<$link-fields $sourcetiddler='links-field Widget  - Search and Replace Field Contents' $sourcefield='reset' $storetiddler='links-field Widget  - Search and Replace Field Contents' $storefield=clear_reveal_state/>
+</$reveal>
+\end
+
+\define thisClearSelectionButtonListItem()
+<$link-fields $sourcetiddler='links-field Widget  - Search and Replace Field Contents' $sourcefield='clear_field' $storetiddler='$:/temp/searchreplacetiddlers' $storeindex="""$(indexName)$"""/>
+\end
+
+\define thisReplaceAllButton()
+<$button set='links-field Widget  - Search and Replace Field Contents!!select_all_reveal_state' setTo='show'>Replace All</$button>
+<$reveal state='links-field Widget  - Search and Replace Field Contents!!select_all_reveal_state' type='match' text='show'>
+<$list filter='[!is[system]]' variable=useThisOne>
+<$list filter='[<useThisOne>fields[]]-[[title]]-[[created]]-[[modified]]-[[tags]]-[[text]]' variable=thisField>
+<<thisReplaceAllButtonListItem>>
+</$list>
+</$list>
+<$link-fields $sourcetiddler='links-field Widget  - Search and Replace Field Contents' $sourcefield=reset $storetiddler='links-field Widget  - Search and Replace Field Contents' $storefield='select_all_reveal_state'/>
+</$reveal>
+\end
+
+\define thisReplaceAllButtonListItem()
+<$list filter="[<useThisOne>has<thisField>regexp:$(thisField)$[(?i)$(thisSearch)$]]">
+<$set name='thisTiddler' value={{!!title}}>
+<<thisReplaceAllButtonListItem2>>
+</$set>
+</$list>
+\end
+
+\define thisReplaceAllButtonListItem2()
+<$reveal type=nomatch state="""$:/temp/searchreplacetiddlers##$(thisTiddler)$""" text="""$(thisField)$""">
+<$link-fields $sourcetiddler='$:/temp/linkfieldssearchreplace' $sourcefield='replace_string' $storetiddler=<<thisTiddler>> $storefield=<<thisField>>/>
+</$reveal>
+\end
+
+Using this you can search all fields for a string, and then replace that string in all of the fields that it is currently in with another value. Type the search string in the `Search String` text box and the desired replacement in the `Replace With` text box.
+
+Clicking on items that show up in the search result list will select that field to be replaced. ~~Only the entries in the selected fields list with checks next to them will be replaced by clicking the `Replace` button.~~ All fields that match the search will have their values replaced if you click on the `Replace All` button. The replace selected button doesn't work properly at the moment.
+
+I will hopefully write up an explanation of how this works sometime soon.
+
+Search String: <$edit-text tiddler='$:/temp/linkfieldssearchreplace' field='search_string' placeholder='Search String'/>
+
+Replace With: <$edit-text tiddler='$:/temp/linkfieldssearchreplace' field='replace_string' placeholder='Replace String'/>
+
+
+<$set name='thisSearch' value={{$:/temp/linkfieldssearchreplace!!search_string}}>
+
+<<thisClearSelectionButton>> <$button><$action-setfield $tiddler='links-field Widget  - Search and Replace Field Contents' $field='replace_reveal' $value='show'/><$action-setfield $tiddler='links-field Widget  - Search and Replace Field Contents' $field='clear_reveal_state' $value='show'/>Replace Selected</$button> <<thisReplaceAllButton>>
+
+
+Selected Fields:<br>
+<<thisSelectedList>>
+
+Unselected Fields:<br>
+<<thisSearchMacro>>
+
+<$reveal type=match state='links-field Widget  - Search and Replace Field Contents!!replace_reveal' text=show>
+<<thisSearchReplaceList>>
+<$link-fields $sourcetiddler='links-field Widget  - Search and Replace Field Contents' $sourcefield='reset' $storetiddler='links-field Widget  - Search and Replace Field Contents' $storefield=replace_reveal/>
+</$reveal>
+</$set>

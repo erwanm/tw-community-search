@@ -1,0 +1,17 @@
+title: $:/braintest/$:/plugins/tiddlywiki/googleanalytics
+author: JeremyRuston
+core-version: >=5.0.0
+created: 20140723100543264
+creator: Danielo Rodriguez
+dependents: 
+description: Google Analytics plugin for TiddlyWiki5
+modified: 20140723100543264
+modifier: Danielo Rodriguez
+version: 5.0.13-beta
+tags: braintest
+source-wiki-id: braintest
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/googleanalytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgoogleanalytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPlugin}}

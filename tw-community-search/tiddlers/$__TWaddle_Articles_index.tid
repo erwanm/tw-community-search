@@ -1,0 +1,22 @@
+title: $:/TWaddle/Articles index
+created: 20150328100047263
+creator: Mat
+modified: 20150722112342748
+modifier: Mat
+recent: 15/07/15
+summary: A quick summary for (some of) the concepts and articles
+tags: TWaddle About OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Articles index
+source-tiddler-title-as-link: Articles%20index
+
+@@color:crimson; Note@@: The listing is incomplete because it only lists articles that have a summary(-field).
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]has[summary]!prefix[$:/]!tag[Unfinished]]  +[sort[title]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>

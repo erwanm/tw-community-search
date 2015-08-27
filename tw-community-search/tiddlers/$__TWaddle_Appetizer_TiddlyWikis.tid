@@ -1,0 +1,22 @@
+title: $:/TWaddle/Appetizer TiddlyWikis
+created: 20150615185510378
+creator: Mat
+modified: 20150808181359479
+modifier: Mat
+recent: 15/07/09	
+searchwords: eidtion editions
+summary: Identified application areas where customized TWs could attract people to further engage in TW. (See [[Intro|Intro to Appetizer TiddlyWikis]])
+tags: TWaddle Concept Marketing AreaOfConcern
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Appetizer TiddlyWikis
+source-tiddler-title-as-link: Appetizer%20TiddlyWikis
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Appetizer"
+	selectedTiddler="$:/temp/dontpublish/appetizertw"
+	unselectedText="{{Intro to Appetizer TiddlyWikis}}"
+	missingText="<p>Missing tiddler.</p>"
+/>
+
+&nbsp;&nbsp;&nbsp;&nbsp; For more reasoning on ''Appetizer TW''s, see: [[Under the radar gateways into TW]]

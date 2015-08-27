@@ -1,0 +1,24 @@
+title: $:/inmysocks/Dashboard Plugins
+blurb:  Plugins that add features to the dashboard
+created: 20150105174738613
+modified: 20150225200741526
+tags: inmysocks [[My Plugins]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Dashboard Plugins
+source-tiddler-title-as-link: Dashboard%20Plugins
+
+Here are the currently available plugins for the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] with their version numbers and date published. To install a plugin on your wiki click and drag the install link to your wiki.
+
+<table>
+<$list filter='[tag[Plugin twCard]category[Application]]+[limit[1]]'>
+<tr><th>{{!!category}} Plugins</th><th></th><th></th><th></th><th></th><th></th></tr>
+<tr><th>Name</th><th>Version</th><th>Date</th><th>Release</th><th>Description</th><th>Install Link</th></tr>
+<$set name=currentCategory value={{!!category}}>
+<$list filter='[tag[Plugin twCard]category<currentCategory>maintainer[inmysocks]]' template=PlugintwCardDisplayTemplate2>
+
+</$list>
+</$set>
+</$list>
+</table>
+
+<<bottomOfTiddler>>

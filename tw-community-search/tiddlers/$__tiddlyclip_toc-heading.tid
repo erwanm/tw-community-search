@@ -1,0 +1,26 @@
+title: $:/tiddlyclip/toc-heading
+created: 20140807085714264
+modified: 20140807085839920
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: toc-heading
+source-tiddler-title-as-link: toc-heading
+
+\define toc-heading()
+<$reveal type="nomatch" state=<<qualify "$:/state/toc/$(currentTiddler)$">> text="show">
+<$button set=<<qualify "$:/state/toc/$(currentTiddler)$">> setTo="show" class="btn-invisible">{{$:/core/images/right-arrow}} $(currentTiddler)$
+</$button>
+</$reveal>
+<$reveal type="match" state=<<qualify "$:/state/toc/$(currentTiddler)$">> text="show">
+<$button set=<<qualify "$:/state/toc/$(currentTiddler)$">> setTo="hide" class="btn-invisible">{{$:/core/images/down-arrow}} $(currentTiddler)$
+</$button>
+</$reveal>
+<$reveal type="match" state=<<qualify "$:/state/toc/$(currentTiddler)$">> text="show" retain="yes" animate="yes">
+<$list filter="[tag[$(currentTiddler)$]]">
+
+##<$link>{{!!title}}</$link>
+</$list>
+</$reveal>
+\end

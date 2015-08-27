@@ -1,0 +1,21 @@
+title: $:/inmysocks/Add an owner field to the library tracker
+category: Plugin
+created_day: 05
+created_month: 05
+created_year: 2015
+description: So I can have a big listing of books that are shared between my siblings and peope can figure out who is borrowing their books
+due_day: 
+due_month: 
+due_year: 
+modified: 20150505232909589
+start_day: 
+start_month: 
+start_year: 
+subcategory: Library Tracker
+subsubcategory: New Feature
+tags: inmysocks [[New Feature]] [[Planned Update]] [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add an owner field to the library tracker
+source-tiddler-title-as-link: Add%20an%20owner%20field%20to%20the%20library%20tracker
+
+This happens all the time. No one really minds passing around the books, but being able to figure out where a book is when someone else wants to borrow it would be nice.

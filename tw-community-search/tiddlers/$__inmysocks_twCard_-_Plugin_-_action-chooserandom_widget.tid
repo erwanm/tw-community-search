@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - action-chooserandom widget
+audience: 
+category: Widget
+created: 20150106175012859
+date: 07-03-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: neilgriffin
+modified: 20150604041819571
+name: action-chooserandom widget
+plugin_tiddler: 
+release: 
+repository: 
+revision: 
+short_description: A widget that returns a random tiddler from a list
+wiki: http://ng110.tiddlyspot.com/
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - action-chooserandom widget
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20action-chooserandom%20widget
+

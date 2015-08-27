@@ -1,0 +1,20 @@
+title: $:/TWaddle/Thumbnail triggering popup
+created: 20150315054159851
+creator: Mat
+modified: 20150725153624635
+modifier: Mat
+recent: 15/03/15	
+summary: CSS popup on hover
+tags: TWaddle CSS HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Thumbnail triggering popup
+source-tiddler-title-as-link: Thumbnail%20triggering%20popup
+
+<style>
+   #thumbnail { display: block; width: 40px;}
+   #thumbnail:hover + #title {display: block;}
+   #title {display: none; }
+</style>
+
+<div id="thumbnail">[img[img/head]]</div>
+<div id="title">Good day!</div>

@@ -1,0 +1,14 @@
+title: $:/tiddlyclip/Beyond The Basics
+created: 20140825075617569
+list: [[Building Your Own Configurations]] [[Building Configurations -Part 1]] [[Building Configurations -Part 2]] [[Building Configurations -Part 3]]
+modified: 20141211002128706
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip ToC
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: Beyond The Basics
+source-tiddler-title-as-link: Beyond%20The%20Basics
+
+ <$set name="loop1" value=<<qualify "$:/temp/taglist">>>
+<$taglist class="btn btn-primary" nodrop="true" template=taglisttemplate>taglisttemplate</$taglist>
+</$set>

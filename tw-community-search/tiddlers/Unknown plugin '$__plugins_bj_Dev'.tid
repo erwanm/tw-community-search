@@ -1,0 +1,9 @@
+title: Unknown plugin '$:/plugins/bj/Dev'
+name: unknown
+short_description: $:/plugins/bj/Dev
+created: 20150827170747000
+plugin_tiddler: $:/plugins/bj/Dev
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

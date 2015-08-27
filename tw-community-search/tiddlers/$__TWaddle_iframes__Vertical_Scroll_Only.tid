@@ -1,0 +1,25 @@
+title: $:/TWaddle/iframes: Vertical Scroll Only
+created: 20150413125415321
+creator: Mat
+modified: 20150715203319330
+modifier: Mat
+recent: 15/04/13	
+summary: Use styling in iframe to create vertical scroll only
+tags: TWaddle Iframes OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: iframes: Vertical Scroll Only
+source-tiddler-title-as-link: iframes%3a%20Vertical%20Scroll%20Only
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="http://www.zoo.com/search/images?q=tiddler%20fish&fcoid=408&fcop=left&fpid=2"  
+  style="width: 100%; height: 350px; 
+             margin-top: -5px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

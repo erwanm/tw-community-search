@@ -1,0 +1,20 @@
+title: $:/TWaddle/Publish your email bot-safely (?)
+created: 20150506203257901
+creator: Mat
+domain: gmail.com
+modified: 20150728114912560
+modifier: Mat
+myname: boardsmm
+recent: 15/05/08
+tags: TWaddle HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Publish your email bot-safely (?)
+source-tiddler-title-as-link: Publish%20your%20email%20bot-safely%20%28%3f%29
+
+I don't know if this is //really// "bot safe" so you decide. See this:
+
+!{{!!myname}}@{{!!domain}}
+
+This is the real email address of mine that I use for boards etc. Ok, it wouldn't be a disaster to ditch it but still, I've used it for many years and I don't want spam to it. Even if this site was #1 on google I think that just maybe it still would trick the hostile droid tentacles.
+
+Check out the code...

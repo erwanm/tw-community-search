@@ -1,0 +1,14 @@
+title: $:/inmysocks/$:/plugins/AndreasHahn/Message2Action
+author: AndreasHahn
+core-version: >=5.0.8
+dependents: 
+description: A widget that catches a widget message and turns it into an action-widget.
+source: 
+version: 0.0.1
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: $:/plugins/AndreasHahn/Message2Action
+source-tiddler-title-as-link: %24%3a%2fplugins%2fAndreasHahn%2fMessage2Action
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPlugin}}

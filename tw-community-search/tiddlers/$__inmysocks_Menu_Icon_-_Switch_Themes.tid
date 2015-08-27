@@ -1,0 +1,15 @@
+title: $:/inmysocks/Menu Icon - Switch Themes
+created: 20150427181931342
+current_theme: $:/themes/tiddlywiki/snowwhite
+modified: 20150427183125416
+other_theme: $:/themes/inmysocks/Mobile
+tags: inmysocks [[Menu Icon]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Menu Icon - Switch Themes
+source-tiddler-title-as-link: Menu%20Icon%20-%20Switch%20Themes
+
+<$button class='tc-btn-invisible' tooltip='Toggle Theme'><<fa fa-mobile>>
+<$action-setfield $field=current_theme $value={{!!other_theme}}/>
+<$action-setfield $field=other_theme $value={{!!current_theme}}/>
+<$action-setfield $tiddler='$:/theme' $value={{!!other_theme}}/>
+</$button>

@@ -1,0 +1,26 @@
+title: $:/BJTools/basictype
+created: 20141213183527878
+modified: 20141213183542239
+revision: 0
+type: text/vnd.tiddlywiki
+tags: BJTools
+source-wiki-id: BJTools
+source-tiddler-title-as-text: basictype
+source-tiddler-title-as-link: basictype
+
+{
+  "parserrules": {
+    "pragmaRuleList": [],
+    "blockRuleList": [
+      "html"
+    ],
+    "inlineRuleList": [
+      "html",
+      "prettylink",
+      "transcludeinline",
+      "wikilink"
+    ]
+  },
+  "baserules": "",
+  "preparser": "text/x-preparser<B>text/plain"
+}

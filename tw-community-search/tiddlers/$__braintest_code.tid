@@ -1,0 +1,12 @@
+title: $:/braintest/code
+created: 20131223104948433
+creator: Stephan Hradek
+description: Will display a tiddler's code.
+modified: 20140116124216943
+modifier: Stephan Hradek
+tags: braintest template
+source-wiki-id: braintest
+source-tiddler-title-as-text: code
+source-tiddler-title-as-link: code
+
+<pre><$view field="text"/></pre>

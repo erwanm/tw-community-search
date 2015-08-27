@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - TW5-TeXZilla
+audience: 
+category: Fonts/Icons
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: JoeRenes
+modified: 20150218024332350
+name: TW5-TeXZilla
+plugin_tiddler: 
+release: 
+repository: 
+revision: 0.0.1
+short_description: A LaTeX plugin, more advanced than KaTeX
+wiki: http://tw5-texzilla.tiddlyspot.com/
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - TW5-TeXZilla
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TW5-TeXZilla
+

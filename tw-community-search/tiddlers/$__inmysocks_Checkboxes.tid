@@ -1,0 +1,27 @@
+title: $:/inmysocks/Checkboxes
+blurb:  A very simple checkbox example
+created: 20141231072228825
+modified: 20150105194022146
+some_field: bar
+tags: inmysocks [[Wiki Widgets - buttons, filters, etc.]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Checkboxes
+source-tiddler-title-as-link: Checkboxes
+
+Here is a simple checkbox example:
+
+Code:
+
+```
+<$checkbox field=some_field checked='foo' unchecked='bar'>Some Text</$checkbox>
+
+{{!!some_field}}
+```
+
+Result:
+
+<$checkbox field=some_field checked='foo' unchecked='bar'>Some Text</$checkbox>
+
+{{!!some_field}}
+
+<<bottomOfTiddler>>

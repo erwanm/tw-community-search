@@ -1,0 +1,32 @@
+title: $:/inmysocks/The Created Field
+blurb:  
+created: 20141227175945149
+modified: 20141227180045534
+tags: inmysocks [[Special Fields]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: The Created Field
+source-tiddler-title-as-link: The%20Created%20Field
+
+Almost every tiddler has a `created` field that can be referenced using the syntax `{{tiddlerTitle!!created}}`. The title of the `currentTiddler` can be referenced by `{{!!created}}`. The view or transclude widgets can also be used.
+
+The code:
+
+```
+*{{The Title Field!!created}}
+*{{!!created}}
+*<$view field='created'/>
+*<$transclude field='created'/>
+```
+
+Will display as:
+
+*{{The Title Field!!created}}
+*{{!!created}}
+*<$view field='created'/>
+*<$transclude field='created'/>
+
+This can be useful in template tiddlers used with the list widget. Each item in the list will have the variable `currentTiddler` set to the current item on the list, so if you have `{{!!created}}` in the template used by the list it will display the date that tiddler was created in that entry in the list.
+
+Note that the output of the view widget is different from that of the other methods, this is because of differences in how the view and transclude widgets display their output.
+
+<<bottomOfTiddler>>

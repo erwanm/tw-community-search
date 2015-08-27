@@ -1,0 +1,11 @@
+title: $:/inmysocks/Find a way to make the icon menus play well with the mobile theme
+category: Plugin
+description: At the moment they don't play well
+modified: 20150429195820498
+subcategory: Icon Menus
+tags: inmysocks [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Find a way to make the icon menus play well with the mobile theme
+source-tiddler-title-as-link: Find%20a%20way%20to%20make%20the%20icon%20menus%20play%20well%20with%20the%20mobile%20theme
+
+When you switch to the mobile theme both menus appear on top of each other. I may have to make the icon menus a theme, but I would rather not do that. I like how they are just on top of the existing theme now.

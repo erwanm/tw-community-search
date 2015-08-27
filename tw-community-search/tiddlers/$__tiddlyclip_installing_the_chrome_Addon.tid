@@ -1,0 +1,16 @@
+title: $:/tiddlyclip/installing the chrome Addon
+created: 20150224161353584
+modified: 20150307131040550
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: installing the chrome Addon
+source-tiddler-title-as-link: installing%20the%20chrome%20Addon
+
+The chrome addon needs to be added locally.
+Right click the link below to save the addon locally. (unzip it)
+
+https://github.com/buggyj/tiddlyclip/raw/0.0.8/tiddlyclip.zip
+
+click the menu button then click "more tools" then extensions, then load unpacked extension

@@ -1,0 +1,34 @@
+title: $:/inmysocks/twCard - Plugin - MathyThing
+audience: People who want to do simple math things in TiddlyWiki5
+bug_database: https://github.com/inmysocks/TW5-MathyThing/issues
+category: Math
+created: 20150106180739703
+date: 12-03-2015
+description: 
+documenter: inmysocks
+download_page: http://inmysocks.tiddlyspot.com/#My%20Plugins
+homepage: 
+install_link: 
+language: English
+license: MIT License
+maintainer: inmysocks
+modified: 20150313005703222
+name: MathyThing
+platform: TiddlyWiki
+plugin_tiddler: $:/plugins/inmysocks/MathyThing
+programming_language: JavaScript
+release: Beta
+repository: https://github.com/inmysocks/TW5-MathyThing
+revision: 0.2.1
+short_description: Some math widgets for TiddlyWiki5
+wiki: http://inmysocks.tiddlyspot.com/
+tags: inmysocks widget-action-increment widget-action-storecount tiddler-readme tiddler-ActionIncrementWidget [[Plugin twCard]] widget-action-prodfield widget-action-prodfield2 widget-action-sumfield widget-action-sumfield2
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - MathyThing
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MathyThing
+
+MathyThing is a plugin that adds some math functions to TiddlyWiki5. There are widgets to perform sums and products, as well as modified count widgets that store the output value instead of displaying it. One of the modified count widgets updates whenever the count changes, the other widget is an action-widget that only updates on button presses. The plugin also contains a widget that will increment a numeric field of a tiddler by a specified amount.
+
+The sum and product widgets can be thought of as vector operations, where the filter builds a vector of tiddler fields and you take the sum or product of each element of the vector in the case of sumfield and prodfield, and in sumfield2 and prodfield2 are equivalent to multiplying two vectors together element by element.
+
+I tried to come up with a way to use both normal math notation and the powerful filter operators of TiddlyWiki, but I was unable to come up with a good way to do so. 

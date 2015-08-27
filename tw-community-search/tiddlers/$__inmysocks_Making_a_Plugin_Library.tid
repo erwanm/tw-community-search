@@ -1,0 +1,44 @@
+title: $:/inmysocks/Making a Plugin Library
+created: 20150427033106767
+modified: 20150427055605708
+tags: inmysocks Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Making a Plugin Library
+source-tiddler-title-as-link: Making%20a%20Plugin%20Library
+
+You can import the tiddler to add my plugins to the plugin library avaliable on your wiki by importing this tiddler: [[$:/pluginlibrary/inmysocks/TestingPluginLibrary]].
+
+The video from the hangout explaining this is here: https://www.youtube.com/watch?v=t4b7jF0gV8Y starting at about 59:30
+
+#Do the stuff you have to do to make a plugin, including cloning the TiddlyWiki repo (see instructions [[here|http://tiddlywiki.com/dev/#Developing%20plugins%20using%20Node.js%20and%20GitHub]])
+#Put your plugins/themes in the appropriate folders in the repo (under /plugins/inmysocks and /themes/inmysocks in my case)
+#<div>(optional) edit tiddlywiki.info in the pluginlibrary edition folder (./editions/pluginlibrary/tiddlywiki.info in the repo) so that the line with the savelibrarytiddlers command is this: 
+
+<p>
+
+```
+"--savelibrarytiddlers","$:/UpgradeLibrary","[prefix[$:/]] -[prefix[$:/plugins/tiddlywiki/]] -[prefix[$:/themes/tiddlywiki/]] -[prefix[$:/languages/]] -[[$:/plugins/tiddlywiki/upgrade]] -[[$:/plugins/tiddlywiki/translators]] -[[$:/plugins/tiddlywiki/pluginlibrary]] -[[$:/plugins/tiddlywiki/jasmine]]","recipes/library/tiddlers/","$:/UpgradeLibrary/List",
+```
+</p>
+
+That is just adding ` -[prefix[$:/plugins/tiddlywiki/]] -[prefix[$:/themes/tiddlywiki/]] -[prefix[$:/languages/]]` to the filter which removes the core plugins from the plugin library you make (including themes and languages). You don't have to do this, but if you don't than all of the plugins, themes and languages on the main tiddlywiki plugin library will also be in the library you make.
+</div>
+#Open a terminal and run the command `node ./tiddlywiki.js editions/pluginlibrary --build library`. That is assuming you are using a unix type OS. I am using linux mint so that is what I type. If you are using windows it would be something like `node c:\path\to\repo\editions\pluginlibrary --build library`, but it has been long enough since I have used windows that I am not at all certain of that.
+#<div>Make a tiddler like this (My plugin library will be located at `http://ooktech.com/jed/pluginlibrary/testing/`)
+
+<p>
+
+```
+title: $:/pluginlibrary/inmysocks/MainPluginLibarry
+tags: $:/tags/PluginLibrary
+url: http://ooktech.com/jed/pluginlibrary/testing/index.html
+
+The plugin library for the plugins made by inmysocks. This library only contains plugins that are mature enough for general use. Be aware that I update these plugins on occasion.
+```
+</p>
+
+</div>
+#Using your favourite ftp client, copy everything in the folder `./editions/pluginlibrary/output` in your local repo to your site (`http://ooktech.com/jed/pluginlibrary/testing/` in my case)
+#To use the plugin library in a wiki just import the tiddler you created into a wiki and you should be able to access the plugin library through the 'get plugins' part of the $:/ControlPanel
+
+You should be able to do this locally, there is more about that in the hangout video. I don't know much about that part so watch the video for that.

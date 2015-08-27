@@ -1,0 +1,32 @@
+title: $:/TWaddle/Text editors VS Word processors
+created: 20150417125429841
+creator: Mat
+modified: 20150715203200181
+modifier: Mat
+recent: 15/04/18	
+tags: TWaddle Musing
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Text editors VS Word processors
+source-tiddler-title-as-link: Text%20editors%20VS%20Word%20processors
+
+''Difference'' ([[source|https://answers.yahoo.com/question/index?qid=1006031601476]])<br>
+
+A ''word processor'' is a computer application used for the production (including composition, editing, formatting, and possibly printing) of any sort of viewable or printed material. e.g. Word
+
+A ''text editor'' is a piece of computer software for editing plain text. It is distinguished from a word processor in that it does not manage document formatting or other features commonly used in desktop publishing. e.g. Notepad
+
+''Background'' ([[source|https://in.answers.yahoo.com/question/index?qid=20080923070040AAAPpzQ]])
+
+    At one time, there were only editors. All formatting, such as centering text or indenting, had to be coded by hand. This was just fine for those that wrote programs or hypertext files. It was not fine for secretaries and writers. We didn't want to memorize strings of code just to center the title of an article.
+
+    In order to please both programmers and end users, text editors were imbued with added features. This annoyed programmers and consternated secretaries. Then IBM, in a clever marketing ploy, released a new line of business software for their computer system. They dubbed the text editor a "word processor." The term stuck.
+
+    Thus, the text editor and the word processor diverged. The first specialized in producing plain ASCII text and the latter in producing formatted documents.
+
+[...]
+
+    So, a word processor is a type of text editor.
+
+    Text editors, too, have progressed from the simple programs of the previous century. We now have editors for creating web pages (HTML Editors), editors for programmers (Programming Editors), and editors that fall somewhere between notepad and a word processor (Text Editors). As a matter of fact, of the last, there are two basic types, ones that support RTF (rich text formatted) files and those that do not. I classify editors that support RTF as Lite Word Processors.
+
+    To further complicate matters, there are specialty editors. Specialty editors might allow you to publish a newsletter or a make a greeting card. Other editors act as information organizers. Get this, some editors help make "help" files.

@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Trigger Actions
+audience: 
+category: Utility
+created: 20150106175012859
+date: 24-02-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150225004150502
+name: TriggerActions
+plugin_tiddler: 
+release: 
+repository: 
+revision: 0.0.8
+short_description: A plugin that allows you to trigger a set of actions when tiddlers are changed
+wiki: http://ooktech.com/jed/ExampleWikis/TriggerActions/
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Trigger Actions
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Trigger%20Actions
+

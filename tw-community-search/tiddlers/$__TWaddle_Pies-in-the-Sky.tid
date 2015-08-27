@@ -1,0 +1,23 @@
+title: $:/TWaddle/Pies-in-the-Sky
+created: 20150401110216374
+creator: Mat
+modified: 20150728132339902
+modifier: Mat
+tags: TWaddle menu
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Pies-in-the-Sky
+source-tiddler-title-as-link: Pies-in-the-Sky
+
+<<box "//&quot;O'boy, I got this super idea that will revolutionize TW and... no, really, this is IT and... hey guys, are you listening? Hel.. Hellooo..?&quot;//">>
+
+
+<br><<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Pie]] [all[shadows+tiddlers]!has[draft.of]tag[Pies]] [all[shadows+tiddlers]!has[draft.of]tag[Pies-in-the-Sky]] +[!sort[recent]]">>
+
+<style>
+   #opie { position: relative;  width="100%"}
+   #ipie { position: absolute; right: -70px; bottom: -70px;}
+</style>
+
+<div id="opie"><div id="ipie">
+<$image source="img/inventorsmall" width="250px">
+</div></div>

@@ -1,0 +1,31 @@
+title: $:/inmysocks/Add an option to the trigger actions plugin for state based actions
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: so once a certain criteria is met the actions happen, not just on change
+due_day: 
+due_month: 
+due_year: 
+modified: 20150503215451913
+start_day: 
+start_month: 
+start_year: 
+subcategory: Trigger Actions
+subsubcategory: New Feature
+tags: inmysocks [[New Feature]] [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add an option to the trigger actions plugin for state based actions
+source-tiddler-title-as-link: Add%20an%20option%20to%20the%20trigger%20actions%20plugin%20for%20state%20based%20actions
+
+This would have to have the same restriction on changing tiddlers that are listened to for changes or else it could cause infinite loops.
+
+Conditions to use:
+
+a certain date
+
+a certain amount of time since the trigger was added
+
+a field is set to a specific value
+
+others?

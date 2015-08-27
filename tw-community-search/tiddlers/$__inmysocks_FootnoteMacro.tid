@@ -1,0 +1,34 @@
+title: $:/inmysocks/FootnoteMacro
+created: 20140917160958754
+creator: Andreas Hahn
+modified: 20140917180920062
+modifier: Andreas Hahn
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: FootnoteMacro
+source-tiddler-title-as-link: FootnoteMacro
+
+\define hoverRef(label)
+<$hover popup="$:/state/$label$"><sup style="color:red">$label$</sup></$hover>
+\end
+
+\define definition(label,text)
+<$reveal type="popup" state="$:/state/$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define hoverFootnote(label,text)
+<<hoverRef "$label$">>
+<<definition "$label$" "$text$">>
+\end
+
+\define footnotes(label,text)
+<<definition "$label$" "$text$">>
+<sub><span style="color:red">$label$ : </span> $text$</sub>
+\end

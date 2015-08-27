@@ -1,0 +1,28 @@
+title: $:/inmysocks/MathyThing - action-increment Widget Example
+created: 20150106002016553
+increment_field: 7.2
+modified: 20150109214507976
+tags: inmysocks [[MathyThing - action-increment Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: MathyThing - action-increment Widget Example
+source-tiddler-title-as-link: MathyThing%20-%20action-increment%20Widget%20Example
+
+This example takes an increment value as input and then each time the `Increment` button is pressed it will increment the value in the field `increment_field` by that amount and display the contents of the field.
+
+```
+<$edit-text tiddler='$:/temp/incrementValue' field='increment_value'/>
+
+<$button>Increment
+<$action-increment $tiddler=<<currentTiddler>> $field=increment_field $increment={{$:/temp/incrementValue!!increment_value}}/>
+</$button>
+
+{{!!increment_field}}
+```
+
+Increment value: <$edit-text tiddler='$:/temp/incrementValue' field='increment_value'/>
+
+<$button>Increment
+<$action-increment $tiddler=<<currentTiddler>> $field=increment_field $increment={{$:/temp/incrementValue!!increment_value}}/>
+</$button>
+
+Current Value: {{!!increment_field}}

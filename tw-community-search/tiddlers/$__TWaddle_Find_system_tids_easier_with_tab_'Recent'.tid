@@ -1,0 +1,44 @@
+title: $:/TWaddle/Find system tids easier with tab 'Recent'
+created: 20150715220139603
+creator: Mat
+modified: 20150725153120160
+modifier: Mat
+recent: 15/07/24
+tags: TWaddle BlogTool Workflow HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Find system tids easier with tab 'Recent'
+source-tiddler-title-as-link: Find%20system%20tids%20easier%20with%20tab%20%27Recent%27
+
+Why didn't I think of this sooner? It's always been a pain to mess around with system tiddlers and close them only to realize there was "just one more detail I must check". It's difficult to find them again because after closing them they don't appear in //Recent// and I never remember their weird names. Plus the system lists are so long that even if I would remember the names...
+
+Anyway, now solved. I just included this in my //Recent// list: 
+
+```
+<$list filter="[prefix[$:]] -[[$:/HistoryList]] -[prefix[$:/state]] -[prefix[$:/temp]] +[!sort[modified]limit[15]]">
+<li><<linkifytitle "{{!!title}}">></li>
+</$list>
+```
+
+(The linkifytitle macro is just to... ah, I guess it's obvious.)
+
+This is not in the public //Recent// list that you see here because that public one sorts by the articles publication date as I define them, not by "last modified" like normal //recent// lists.
+
+My full (administrators-) //Recent// list is
+
+```
+<$reveal type="nomatch" state="$:/state/oRecentsystemtids" text="show">
+
+&nbsp;<$button set="$:/state/oRecentsystemtids" setTo="show" style="border:0px; background-color:transparent; color:gray;">Systemtids ▷</$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/oRecentsystemtids" text="show">
+
+&nbsp;<$button set="$:/state/oRecentsystemtids" setTo="hide" style="border:0px; background-color:transparent; color:black;">Systemtids showing ◁</$button>
+<$list filter="[prefix[$:]] -[[$:/HistoryList]] -[prefix[$:/state]] -[prefix[$:/temp]] +[!sort[modified]limit[10]]">
+<li><<linkifytitle "{{!!title}}">></li>
+</$list>
+<hr>
+</$reveal>
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>
+```

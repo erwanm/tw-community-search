@@ -1,0 +1,11 @@
+title: $:/braintest//editor/buttons/code
+created: 20140226053238915
+creator: Danielo Rodriguez
+modified: 20140226053247492
+modifier: Danielo Rodriguez
+tags: braintest /editor/buttons
+source-wiki-id: braintest
+source-tiddler-title-as-text: /editor/buttons/code
+source-tiddler-title-as-link: %2feditor%2fbuttons%2fcode
+
+<$macrocall $name="appendButton" now={{Target}} caption="code" add={{$:/snippets/danielo/code}}/>

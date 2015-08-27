@@ -1,0 +1,10 @@
+title: $:/inmysocks/ExampleTemplate
+blurb: an example display template
+created: 20141220222735016
+modified: 20150315195340727
+tags: inmysocks Templates
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: ExampleTemplate
+source-tiddler-title-as-link: ExampleTemplate
+
+<$view field='title'/> - <$view field='blurb'/><br>

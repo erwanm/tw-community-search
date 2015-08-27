@@ -1,0 +1,27 @@
+title: $:/TWaddle/TW Glass: Text on webpage
+created: 20150323000453513
+creator: Mat
+modified: 20150715154121035
+modifier: Mat
+note: Note: You can use this to point out bits needing improvement on e.g tw.com
+recent: 15/03/23	
+tags: TWaddle Glass Annotation
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: TW Glass: Text on webpage
+source-tiddler-title-as-link: TW%20Glass%3a%20Text%20on%20webpage
+
+As stated, you can get direct edit //and// view mode inside the edit view in this tiddler by using the "show preview" feature. See also [[TW Glass: Text on webpage, external editor]]
+
+<div style="position: relative;"><div style="position: absolute; left: 150px; top: 160px;"><div  style="background-color:yellow;">
+
+Go into EDIT MODE for this tiddler
+
+...and click "show preview." 
+
+You can annotate external webpages!
+
+BTW, this Wikipedia page needs updating!
+
+</div></div></div>
+
+<iframe src="http://en.wikipedia.org/wiki/TiddlyWiki" width="800" height="400"></iframe>

@@ -1,0 +1,14 @@
+title: $:/tiddlyclip/localtwjpeg
+created: 20141205024658703
+modified: 20141211011323789
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip [[Tc Local Rules]]
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: localtwjpeg
+source-tiddler-title-as-link: localtwjpeg
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|[[TITLETID]]||||{"$_canonical_uri":"((*@sublink(@linkURL)*))"},{"$type":"image/jpeg"}||

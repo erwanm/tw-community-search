@@ -1,0 +1,11 @@
+title: $:/inmysocks/Fourier Transform
+created: 20140925220638840
+modified: 20140925220701590
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fourier Transform
+source-tiddler-title-as-link: Fourier%20Transform
+
+The Fourier transform is magic and is found using this equation
+
+{{EquationFourierTransform}}

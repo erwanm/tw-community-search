@@ -1,0 +1,18 @@
+title: $:/TWaddle/Nice visual effect for e.g tw.com
+created: 20150414094318500
+creator: Mat
+modified: 20150715203244449
+modifier: Mat
+recent: 15/04/14	
+tags: TWaddle Proposals @tw.com
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Nice visual effect for e.g tw.com
+source-tiddler-title-as-link: Nice%20visual%20effect%20for%20e.g%20tw.com
+
+[[This site|http://arduino.org/]] has a cool zoom-in effect giving much life to the page. Note also that it is limited in size so that you scroll down for further info.
+
+This would be a nice feature for tw.com. I belive Jeremy has expressed that the front of tw.com does not have to appear like standard TW. I don't have any specific thoughts on details like what the image should be or so.
+
+If it is a simple setup then maybe it could be part of a plugin (or core?) in the same gist as the 5.1.8 additions of background images. I believe adding graphic tools is a valuable aspect for popularizing TW.
+
+(BTW, if you're into the subject of that site then you may wonder if the original site shouldn't be on another domain? Apparently, there's some internal [[conflict|http://makezine.com/2015/03/06/arduino-vs-arduino/]]...)

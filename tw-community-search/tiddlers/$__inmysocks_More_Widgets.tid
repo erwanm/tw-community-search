@@ -1,0 +1,15 @@
+title: $:/inmysocks/More Widgets
+blurb:  
+created: 20150103191707469
+modified: 20150304215745069
+tags: inmysocks Ideas
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: More Widgets
+source-tiddler-title-as-link: More%20Widgets
+
+Both of these can be done using the trigger actions plugin, but it would still be nice to have the built in functions.
+
+* a version of the select widget that sets different values in each field. Maybe something that uses a data tiddler and when one field is set to the index name the other field is set to the stored value.
+*A modified select widget that can trigger actions or send messages when it is used
+
+<<bottomOfTiddler>>

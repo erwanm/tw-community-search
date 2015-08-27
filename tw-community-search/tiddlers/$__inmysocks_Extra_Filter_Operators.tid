@@ -1,0 +1,20 @@
+title: $:/inmysocks/Extra Filter Operators
+created: 20150725173542744
+modified: 20150725204205271
+tags: inmysocks [[My Plugins]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Extra Filter Operators
+source-tiddler-title-as-link: Extra%20Filter%20Operators
+
+Plugin tiddler: $:/plugins/inmysocks/extrafilters
+
+Demo Wiki: http://ooktech.com/jed/ExampleWikis/ExtraFilterOperators/
+
+A plugin that contains some extra filter operators I made. Most of these are for my own testing.
+
+Current operators:
+
+*`greaterthan` - returns the tiddler if the numeric value of a field is greater than than the operand. Example filter: `[greaterthan:fieldname[numericvalue]]`. If no `fieldname` is given it defaults to title. This filter can be negated by using `!` as a prefix.
+*`lessthan` - returns the tiddler if the numeric value of a field is less than the operand. Example filter: `[lessthan:fieldname[numericvalue]]`. If no `fieldname` is given it defaults to title. This filter can be negated by using `!` as a prefix.
+*`angreaterthan` - returns the tiddler if the alphanumeric value of the field is greater than the operand. Greater than is defined here as coming after in a list sorted using the `sort` filter operator. Example filter: `[angreaterthan:fieldname[N]]`.
+*`anlessthan` - returns the tiddler if the alphanumeric value of the field is less than the operand. Less than is defined here as coming before in a list sorted using the `sort` filter operator.  Example filter: `[anlessthan:fieldname[N]]`.

@@ -1,0 +1,19 @@
+title: $:/TWaddle/Gefillte Tids
+created: 20150325070050949
+creator: Mat
+modified: 20150715154129941
+modifier: Mat
+recent: 15/03/25	
+tags: TWaddle Twiddle
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Gefillte Tids
+source-tiddler-title-as-link: Gefillte%20Tids
+
+This makes sense... or at least //more// sense... in Firefox than in Chrome.
+
+| `&#x1F41F;` = &#x1F41F; = 🐟 | 〚&#x1F41F;🐟〛 | ［［&#x1F41F;🐟］］ | ⟦&#x1F41F;🐟⟧ ...huh, black? |
+| `&#x1F420;` = &#x1F420; = 🐠 | 〚🐠〛 | ［［🐠］］ | ⟦🐠⟧ ...double huh? |
+| [[img/fish_bright]] = [img width="20%" [img/fish_bright]] | 〚[img width="20%" [img/fish_bright]]〛 | ［［[img width="20%" [img/fish_bright]]］］ | ⟦[img width="20%" [img/fish_bright]]⟧ |
+| [[img/fish_micro]] = {{img/fish_micro}} | ⟦{{img/fish_micro}}⟧ |  ［［{{img/fish_micro}}］］ ..hover! | 〚{{img/fish_micro}}〛..it's magic! |
+
+...what's with those last ones? Bugs or tids?

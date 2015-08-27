@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Library Tracker Plugin
+audience: 
+category: Application
+created: 20150106175012859
+date: 05-03-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150506001331176
+name: Library Tracker Plugin
+plugin_tiddler: $:/plugins/inmysocks/LibraryTracker
+release: Beta
+repository: 
+revision: 0.1.2
+short_description: A thing to help keep track of books
+wiki: http://inmysocks.tiddlyspot.com/
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Library Tracker Plugin
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Library%20Tracker%20Plugin
+

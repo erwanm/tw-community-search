@@ -1,0 +1,25 @@
+title: $:/inmysocks/Learning to Customize TiddlyWiki
+caption: @@color:forestgreen;<<fa fa-star>> Learning to Customize TiddlyWiki <<fa fa-star>>@@
+created: 20150426183825832
+modified: 20150427000652993
+tags: inmysocks Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Learning to Customize TiddlyWiki
+source-tiddler-title-as-link: Learning%20to%20Customize%20TiddlyWiki
+
+Also see [[Learning TiddlyWiki]]
+
+This is going to cover some more advanced or technical aspects of customizing ~TiddlyWiki. I just started making it so there are a lot of gaps and not everything listed is done yet.
+
+If you have any specific requests feel free to ask through the feedback form (the {{Menu Icon - User Feedback}} icon in the upper left of the screen)
+
+If you just want things I have already made for you, go to [[Copy and Paste Custimizations]].
+
+Easy stuff:
+
+*[[Changing Themes]] - Switching between existing themes, possibly the easiest customization possible.
+
+More advanced:
+
+*[[Modifying CSS]] - Change the wiki layout, font sizes, colours, popups and much more.
+*[[Custom View Templates]] - A different sort of changing layout, things like adding new buttons to every tiddler or changing the location of menus, or creating new menus.

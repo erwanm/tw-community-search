@@ -1,0 +1,11 @@
+title: $:/inmysocks/Some paper_BibTex
+modified: 20150207023717969
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Some paper_BibTex
+source-tiddler-title-as-link: Some%20paper_BibTex
+
+@nothing{yep,
+author=somedude,
+year=2525,
+}

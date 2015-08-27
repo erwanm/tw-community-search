@@ -1,0 +1,24 @@
+title: $:/inmysocks/twCard - Plugin - Tiddlyclip
+audience: 
+category: Content Grabbing
+created: 20150106175012859
+date: 17-12-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: BuggyJay
+modified: 20150210030532173
+name: Tiddlyclip
+plugin_tiddler: $:/plugins/bj/tiddlyclip
+release: Alpha
+repository: 
+revision: 0.0.7
+short_description: Clip things from webpages and add them to your wiki
+wiki: http://tiddlyclip.tiddlyspot.com/
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Tiddlyclip
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tiddlyclip
+
+Tiddlyclip (TC) allows parts of webpages to be clipped into a tiddlywiki (TW), and consists of two parts, the browser Addon and the TW plugin. The Addon is completely memoryless, any configuration is determined by the current TW that the user has select to work with (we say that the Addon is docked to the TW). TC is designed to work (in a basic mode) without configuration. Once the Addon and plugin are installed, all the user has to do is select which TW to dock to.

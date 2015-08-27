@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Behold
+created: 20150413132127685
+creator: Mat
+modified: 20150715203257503
+modifier: Mat
+note: Does not seem to work well in iframes
+recent: 15/04/13	
+tags: TWaddle imgsearch
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Behold
+source-tiddler-title-as-link: imgsearch%3a%20Behold
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="http://www.behold.cc/"  
+  style="width: 100%; height: 350px; 
+             margin-top: -5px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

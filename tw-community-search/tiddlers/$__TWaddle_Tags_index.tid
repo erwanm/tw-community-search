@@ -1,0 +1,21 @@
+title: $:/TWaddle/Tags index
+created: 20150404022343188
+creator: Mat
+modified: 20150728133149204
+modifier: Mat
+recent: 15/04/05	
+summary: Tags of potential interest for the reader
+tags: TWaddle OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Tags index
+source-tiddler-title-as-link: Tags%20index
+
+''Tags tagged "tag" so they can appear in this list because I'm thinking they may be of interest.''
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]tag[tag]!prefix[$:/]] +[sort[]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>

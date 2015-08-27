@@ -1,0 +1,14 @@
+title: $:/TWaddle/selectorCSS
+created: 20150712231052449
+creator: Mat
+modified: 20150712232426896
+modifier: Mat
+tags: TWaddle
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: selectorCSS
+source-tiddler-title-as-link: selectorCSS
+
+<style>
+   {} <!-- I have no idea why this must be here -->
+   #seli { position: fixed; right: 200px; top: 10px; }
+</style>

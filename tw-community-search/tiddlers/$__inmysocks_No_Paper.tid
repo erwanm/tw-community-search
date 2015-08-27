@@ -1,0 +1,30 @@
+title: $:/inmysocks/No Paper
+abstract_tiddler: No Paper_Abstract
+bibtex_tiddler: No Paper_BibTex
+modified: 20150211221511284
+on_list: true
+subject_tiddler: No Paper_Subjects
+tags: inmysocks Citations
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: No Paper
+source-tiddler-title-as-link: No%20Paper
+
+Subjects: 
+
+<ul>
+<$list filter='[[No Paper_Subjects]indexes[]]'>
+<li><$view field='title'/></li>
+</$list>
+</ul>
+
+Abstract:<br>
+
+<$view tiddler={{!!abstract_tiddler}} field='text'/>
+
+Bibtex:
+
+---
+
+<$macrocall $name=monoSpacedCodeBlock src={{No Paper_BibTex}}/>
+
+---

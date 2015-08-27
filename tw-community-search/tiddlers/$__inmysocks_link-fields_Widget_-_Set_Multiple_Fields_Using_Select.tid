@@ -1,0 +1,67 @@
+title: $:/inmysocks/link-fields Widget - Set Multiple Fields Using Select
+created: 20150105040108871
+modified: 20150106041449502
+select_value: 2
+test_store: 1
+tags: inmysocks [[The link-fields Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: link-fields Widget - Set Multiple Fields Using Select
+source-tiddler-title-as-link: link-fields%20Widget%20-%20Set%20Multiple%20Fields%20Using%20Select
+
+\define thisMakeSourceField()
+source_field_$(appendNumber)$
+\end
+
+\define thisListItem()
+<$link-fields $sourcetiddler=<<currentTiddler>> $sourcefield=$(sourceField)$ $storetiddler=<<currentTiddler>> $storefield=example_store_field/>
+
+<<currentTiddler>> - {{!!example_store_field}}<br>
+\end
+
+To do this requires a bit of work now, I will hopefully change things so that you can make a data tiddler that defines the different values for each field/tiddler. But that comes later.
+
+How it works:
+
+Each of the tiddlers with fields being set have 3 fields called `source_field_1`, `source_field_2` and `source_field_3`. These fields hold the values that the designated fields will hold when the select widget is set to `1`, `2` or `3` respectively. The `thisMakeSourceField` macro puts the string together from the value picked by the select widget (this could also be done using a value list like described here http://tiddlywiki.com/#SelectWidget). Then the list widget builds the link-fields commands using the `thisListItem` macro. This calls the link-fields widget once for each item returned by the filter used by the list widget, which sets the value of the `example_store_field` to whatever is in the selected source field in each tiddler. You could use the same method as used in the `thisMakeSourceField` macro to select different store fields for each option selected by the select widget, and if you wanted you could pull the values from a data tiddler where the indexes were named the same as each option of the select widget and the value stored in each index was the desired field. You would need one data tiddler per store field. If the data tiddler handling is improved than you would be able to use a single data tiddler for all of them, but that may not happen for a long time.
+
+Code:
+
+```
+\define thisMakeSourceField()
+source_field_$(appendNumber)$
+\end
+
+\define thisListItem()
+<$link-fields $sourcetiddler=<<currentTiddler>> $sourcefield=$(sourceField)$ $storetiddler=<<currentTiddler>> $storefield=example_store_field/>
+
+<<currentTiddler>> - {{!!example_store_field}}<br>
+\end
+
+<$select field='select_value'>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</$select>
+
+<$set name=appendNumber filter='[<currentTiddler>get[select_value]]'>
+<$set name=sourceField value=<<thisMakeSourceField>>>
+<$list filter='[tag[Multiple Fields Select Widget]]'>
+<<thisListItem>>
+</$list>
+</$set>
+</$set>
+```
+
+Select Value: <$select field='select_value'>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+</$select>
+
+<$set name=appendNumber filter='[<currentTiddler>get[select_value]]'>
+<$set name=sourceField value=<<thisMakeSourceField>>>
+<$list filter='[tag[Multiple Fields Select Widget]]'>
+<<thisListItem>>
+</$list>
+</$set>
+</$set>

@@ -1,0 +1,43 @@
+title: $:/inmysocks/Slider - display contents when a button is pressed
+created: 20140912175644725
+creator: inmysocks
+modified: 20150227235036459
+modifier: inmysocks
+tags: inmysocks [[Wiki Widgets - buttons, filters, etc.]] [[Buttons - Tips and Tricks]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Slider - display contents when a button is pressed
+source-tiddler-title-as-link: Slider%20-%20display%20contents%20when%20a%20button%20is%20pressed
+
+There are multiple types of sliders, there are in the GeneralMacros tiddler
+
+<<tiddlerSlider "TextSlider Macro">>
+
+<<tiddlerSlider "TiddlerSlider Macro">>
+
+The `imageSlider` macro is a variation of the tiddlerSliderNoButton macro, but specifically for images. It sets the image width to the full tiddler width, so isn't appropriate in all situations. I use this for image posts [[on my other site|ooktech.com/jed/externalbrain/]].
+
+<<imageSlider PrinnySpin "Spin!!">>
+
+There is also `textSliderNoButton` which is used in the [[What to do]] tiddler, the `tiddlerSliderNoButton` which doesn't have an example yet, but it is the same as the tiddler slider, but doesn't show up as a button.
+
+---
+
+This is a different slider macro that requires more than just the macro itself. Using one of the ones listed above may be better.
+
+To add a button that when you click on it will display the contents of a tiddler in the current tiddler use this 
+
+```
+{{Help||slider}}
+```
+
+{{Help||slider}}
+
+
+Where the part before the || is the full name of the tiddler you want to display. It isn't perfect but it works for now.
+
+To use this on another tiddlywiki click and drag these two things on that tiddlywiki
+
+*[[slider]]
+*[[unwikified]]
+
+<<bottomOfTiddler {{!!title}}>>

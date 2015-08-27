@@ -1,0 +1,9 @@
+title: $:/inmysocks/EquationFourierTransform
+created: 20140925220915590
+modified: 20140925221126027
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: EquationFourierTransform
+source-tiddler-title-as-link: EquationFourierTransform
+
+$$ \displaystyle S(\omega) = \int_{-\infty}^{\infty} x(t) e^{-j 2 \pi \omega t} dt$$

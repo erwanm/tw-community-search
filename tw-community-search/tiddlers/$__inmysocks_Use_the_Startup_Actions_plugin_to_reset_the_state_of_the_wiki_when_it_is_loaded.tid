@@ -1,0 +1,10 @@
+title: $:/inmysocks/Use the Startup Actions plugin to reset the state of the wiki when it is loaded
+category: Wiki Reference Wiki
+description: I keep saving the wiki with the toc hidden and stuff like that
+modified: 20150429201230101
+tags: inmysocks [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Use the Startup Actions plugin to reset the state of the wiki when it is loaded
+source-tiddler-title-as-link: Use%20the%20Startup%20Actions%20plugin%20to%20reset%20the%20state%20of%20the%20wiki%20when%20it%20is%20loaded
+
+The main thing is resetting the TOC state. I am not sure if there is much more to worry about.

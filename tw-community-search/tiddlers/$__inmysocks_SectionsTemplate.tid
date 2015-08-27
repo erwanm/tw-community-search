@@ -1,0 +1,13 @@
+title: $:/inmysocks/SectionsTemplate
+created: 20150409045818049
+modified: 20150409051141359
+tags: inmysocks Templates
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: SectionsTemplate
+source-tiddler-title-as-link: SectionsTemplate
+
+<h1><$view field='caption'/></h1>
+
+<hr>
+
+<$transclude mode=block/>

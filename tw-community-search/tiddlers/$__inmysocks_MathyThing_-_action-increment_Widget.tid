@@ -1,0 +1,44 @@
+title: $:/inmysocks/MathyThing - action-increment Widget
+created: 20150106001806423
+modified: 20150213172124520
+tags: inmysocks [[MathyThing Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: MathyThing - action-increment Widget
+source-tiddler-title-as-link: MathyThing%20-%20action-increment%20Widget
+
+This is part of the [[MathyThing Plugin]].
+
+Github: https://github.com/inmysocks/TW5-MathyThing
+
+Plugin: [[$:/plugins/inmysocks/MathyThing]]
+
+Just this widget: [[$:/plugins/inmysocks/MathyThing/action-increment.js]]
+
+This widget takes the value of a field and increments it by a given amount. Note that the field being incremented has to exist and have a numeric value in it or the widget doesn't do anything. The increment value can be negative or a non-integer.
+
+The widget will clear or create the designated field if it doesn't contain a valid increment-able value according to the current widget inputs. So be careful to not overwrite a field you don't want overwritten.
+
+Usage:
+
+```
+<$action-increment $tiddler=someTiddler $field=someField $increment=someIncrement/>
+```
+
+|!Attribute |!Description |
+|$tiddler |The name tiddler containing the field to increment (defaults to `<<currentTiddler>>` |
+|$field |The field to increment, defaults to `make_sure_you_give_a_field_parameter` |
+|$increment |The amount to increment the field by (defaults to 1) |
+|$length |The minimum length of the numeric output (uses zero padding to get the desired length), defaults to 0 |
+|$prefix |An optional prefix to be appended to the front of the numeric result |
+|$initial |The initial numeric value for the field, defaults to 0 |
+
+Some notes:
+
+*The initial output with `$prefix='pre-'` and `$length=4` would be `pre-0001`
+*The initial value is the value ''before'' the incrementing happens, this means that the first returned value will be the initial value plus the increment value.
+*The input `$length` is the ''minimum'' length, not the total length, so if the current value is 1000 and the length is set to 1 the output will still be 1000.
+*The increment does not need to be positive or an integer. Value such as -1.2 work as expected. But note that negative numbers will have the minus sign __after__ the prefix, which may look strange.
+
+<<tiddlerSlider "MathyThing - action-increment Widget Example">>
+
+<<tiddlerSlider "MathyThing - action-increment Example 2">>

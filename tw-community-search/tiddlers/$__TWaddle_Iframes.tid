@@ -1,0 +1,20 @@
+title: $:/TWaddle/Iframes
+created: 20150413130210342
+creator: Mat
+modified: 20150715202639783
+modifier: Mat
+recent: 15/07/15
+summary: Bits and tips on iframes
+tags: TWaddle Tool AreaOfConcern
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Iframes
+source-tiddler-title-as-link: Iframes
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]!prefix[$:/]tag[Iframes]]">
+<tr>
+<td  valign="top"><<linkify {{!!title}}>></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>

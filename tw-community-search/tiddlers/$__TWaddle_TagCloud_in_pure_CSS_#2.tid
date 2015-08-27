@@ -1,0 +1,25 @@
+title: $:/TWaddle/TagCloud in pure CSS #2
+created: 20150406234538922
+creator: Mat
+modified: 20150715203435094
+modifier: Mat
+recent: 15/04/07	
+tags: TWaddle TagClouds OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: TagCloud in pure CSS #2
+source-tiddler-title-as-link: TagCloud%20in%20pure%20CSS%20%232
+
+See [[$:/_TWaddle/TagCloud/CSS]] for CSS and cred/source.
+
+				<div id="tag_holder">
+<$link to="HelloThere" class="tag">is //this// a link?</$link>
+			<a href="http://code.almeros.com/" class="tag">CSS3</a>
+			<a href="http://code.almeros.com/" class="tag">tag cloud</a>
+			<a href="http://code.almeros.com/" class="tag">Almeros</a>
+			<a href="http://code.almeros.com/" class="tag">code</a>
+			<a href="http://code.almeros.com/" class="tag">blog</a>
+			<a href="http://code.almeros.com/" class="tag">CSS</a>
+			<a href="http://code.almeros.com/" class="tag">HTML</a>
+			<a href="http://code.almeros.com/" class="tag">Visual effects</a>
+			<a href="http://code.almeros.com/" class="tag">W3C</a>			
+		</div>

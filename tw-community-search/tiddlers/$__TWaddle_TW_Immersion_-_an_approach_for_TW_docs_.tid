@@ -1,0 +1,26 @@
+title: $:/TWaddle/TW Immersion - an approach for TW docs?
+created: 20150627153708385
+creator: Mat
+modified: 20150724222350974
+modifier: Mat
+recent: 15/07/11	
+summary: A look at gitimmersion.com, keeping tw.com and documentation in mind
+tags: TWaddle Documentation tw.com
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: TW Immersion - an approach for TW docs?
+source-tiddler-title-as-link: TW%20Immersion%20-%20an%20approach%20for%20TW%20docs%3f
+
+Someone posted a link to [[Git Immersion|http://gitimmersion.com/]]. What an absolutely marvelous name. And the front page looks conceptually great too. I like it for the following reasons;
+
+Basically the front page, all within viewport(!), 
+
+*mentions what it is (//"Git Immersion is a guided tour that walks through the fundamentals of Git"//)
+*gives a very brief description of what Git is
+*features a few "install git" buttons
+*...and lastly, has a clear green , right-pointing arrow at lower right with the teasing text "Start Git Immersion".
+
+Clean, simple. And everything in large, friendly print or symbols.
+
+Clicking the arrow also leads to a very clear page. Over sized numbering for the help steps that in themselves are short and quick to read. I'm a bit hesitant to the ToC being a separate popup thing though. I need more time to decide on this one. 
+
+Anyway, I think a similar front (viewport) page and a //"guided tour that walks through the fundamentals"// is a good staring page for the TW documentation. Or at least as an optional entrance point into the TW documentation. 

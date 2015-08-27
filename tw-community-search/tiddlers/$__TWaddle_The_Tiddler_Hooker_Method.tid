@@ -1,0 +1,13 @@
+title: $:/TWaddle/The Tiddler Hooker Method
+created: 20150714161317683
+creator: Mat
+modified: 20150715205250799
+modifier: Mat
+recent: 15/07/14	
+summary: Technique to float elements on the page, "hooked" to e.g. a tiddler.
+tags: TWaddle Concept Tidbit Tool Major
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The Tiddler Hooker Method
+source-tiddler-title-as-link: The%20Tiddler%20Hooker%20Method
+
+<<list-links "[tag<currentTiddler>prefix<currentTiddler>] +[sort[]]">><<list-links "[tag<currentTiddler>!prefix<currentTiddler>]">>

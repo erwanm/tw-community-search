@@ -1,0 +1,24 @@
+title: $:/TWaddle/CSS lines... probably useless
+created: 20150325133326319
+creator: Mat
+modified: 20150715204328543
+modifier: Mat
+recent: 15/03/25
+tags: TWaddle Formatting Twiddle
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: CSS lines... probably useless
+source-tiddler-title-as-link: CSS%20lines...%20probably%20useless
+
+[[Found|http://stackoverflow.com/questions/7729566/separators-between-elements-without-hacks/7729610#7729610]] cool, pure CSS, way to insert separators:
+
+<style>
+#sepmen span + span { border-left: solid red 1px; }
+</style>
+
+<div id="sepmen">
+    <span>things</span>
+    <span> stuff</span>
+    <span>items</span>
+</div>
+
+Not sure what to make of it. It's really just a left-side border inserted for the last two items. 

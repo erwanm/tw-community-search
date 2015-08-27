@@ -1,0 +1,24 @@
+title: $:/tiddlyclip/isssuesRule2
+created: 20141002220850893
+modified: 20141002221028164
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: isssuesRule2
+source-tiddler-title-as-link: isssuesRule2
+
+[
+  {
+    "#tw2":"((*@htmlToTW2(@web)*))"
+  },
+  {
+    "#rule": "/.*(\\[\\[[\\s\\S]*?\\/issues\\/[0-9]*\\]\\]).*/g"
+  },
+  {
+    "#term": "$1"
+  },
+  {
+    "#newdata": "((*#tw2/#rule/#term*))"
+  }
+]

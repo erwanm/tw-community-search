@@ -1,0 +1,18 @@
+title: $:/TWaddle/sw:Outliner
+created: 20150415070929093
+modified: 20150417154429252
+tags: TWaddle SoftwareCategory sw:Diagramming sw:Editor
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:Outliner
+source-tiddler-title-as-link: sw%3aOutliner
+
+An ''outliner'' is a computer program that allows text to be organized into discrete sections that are related in a tree structure or hierarchy. Text may be collapsed into a node, or expanded and edited.
+
+Outliners are typically used for computer programming, collecting or organizing ideas, as personal information management or for project management. Mind mappers and wikis are related types of software.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Outliner]]@@
+
+See also other Diagramming categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Diagramming]!is[current]]">>
+
+See also other Editor categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Editor]!is[current]]">>

@@ -1,0 +1,24 @@
+title: $:/TWaddle/Public TWs need alternative missing tiddler message
+created: 20150706235015604
+creator: Mat
+modified: 20150725215933944
+modifier: Mat
+recent: 15/07/10	
+tags: TWaddle BlogTool Proposal PublicThemes
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Public TWs need alternative missing tiddler message
+source-tiddler-title-as-link: Public%20TWs%20need%20alternative%20missing%20tiddler%20message
+
+It quite often happens that I write an article and realize it must be split into two and I instead put a link in the text to that article-to-come. However, this means I must finish both articles or there will be dead links. As a compromise I  hope to instead create a plugin so that clicking a dead article links doesn't give the usual;
+
+// "Missing tiddler "~FooBar" - click {{$:/core/images/edit-button}} to create //
+
+but instead something like;
+
+//Aha! An article not yet finished! Come back soon..//
+
+...or, better yet; Clearly the reader does //want// to read about the missing topic. If we had a //search// feature that could take the missing title and process it to come up with alternatives and present them //in// the "missing tiddler" template. That'd be good ;-)
+
+The point is to make something of the missing tiddler. For public wikis it would really be better with //nothing// showing up or some popup message informing that it's missing. I develop this idea in [[Tiddlify or Tildefy... or Poppify?]].
+
+An alternative approach is investigated in [[Need control output for missing in links and transclusions]]

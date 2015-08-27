@@ -1,0 +1,61 @@
+title: $:/inmysocks/MathyThing Plugin
+blurb: a plugin with some math functions 
+count_field: 9
+count_field2: 1
+created: 20141201023806135
+date: 01/08/15
+github: https://github.com/inmysocks/TW5-MathyThing
+increment_field: 4.2
+modified: 20150424013632944
+store_field: 8
+store_field2: 8
+tag_to_count: Fishy Editions
+tag_to_count2: Using Data Tiddlers with link-fields and select Widgets 3
+version_number: 0.0.12
+tags: inmysocks Plugins [[Math Plugins]] [[My Project]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: MathyThing Plugin
+source-tiddler-title-as-link: MathyThing%20Plugin
+
+$:/plugins/inmysocks/MathyThing
+
+At the moment this is under development so more will hopefully be available in the future.
+
+Current contents:
+
+*''The action-storecount widget'' - on a button press it counts the number of items returned by a filter (the same as the count widget) and stores the output in a specified field
+*''The action-increment widget'' - this widget is triggered by a button press and will increment the value in a given field. The increment amount can be specified and may be negative or a non-integer value if desired.
+*''The action-sumfield widget'' - Given a filter and a field to sum, this widget takes ever tiddler returned by the filter and, if the specified field is present and has a numeric value in that tiddler, sums together the given field from all the tiddlers. This value is then stored in a specified tiddler and field.
+*''The action-sumfield2 widget'' - Similar to the sumfield widget, but this widget sums fields inside individual tiddlers. By default the sums for each tiddler are stored in a specified field in that tiddler, but if the filter only returns a single tiddler than a tiddler can be specified to store the value.
+*''The action-prodfield widget'' - Given a filter and a field to take the product over, this widget takes ever tiddler returned by the filter and, if the specified field is present and has a numeric value in that tiddler, takes the product of the values in the given field from all the tiddlers. This value is then stored in a specified tiddler and field.
+*''The action-prodfield2 widget'' - Similar to the prodfield widget, but this widget takes the product of fields inside individual tiddlers. By default the products for each tiddler are stored in a specified field in that tiddler, but if the filter only returns a single tiddler than a tiddler can be specified to store the value.
+
+More information is in [[MathyThing Read Me]]
+
+If you want to look at the github page it is here https://github.com/inmysocks/TW5-MathyThing
+
+!action-storecount widget
+
+<<tiddlerSlider "MathyThing - action-storecount Widget">>
+
+!action-increment widget
+
+<<tiddlerSlider "MathyThing - action-increment Widget">>
+
+!action-sumfield widget
+
+<<tiddlerSlider "MathyThing - action-sumfield Widget">>
+
+!action-sumfield2 widget
+
+<<tiddlerSlider "MathyThing - action-sumfield2 Widget">>
+
+!action-prodfield widget
+
+<<tiddlerSlider "MathyThing - action-prodfield Widget">>
+
+!action-prodfield2 widget
+
+<<tiddlerSlider "MathyThing - action-prodfield2 Widget">>
+
+<<bottomOfTiddler {{!!title}}>>

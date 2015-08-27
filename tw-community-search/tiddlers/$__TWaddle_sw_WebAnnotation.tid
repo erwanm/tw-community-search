@@ -1,0 +1,21 @@
+title: $:/TWaddle/sw:WebAnnotation
+created: 20150415060453426
+modified: 20150416060842606
+tags: TWaddle SoftwareCategory sw:InfoCasting
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:WebAnnotation
+source-tiddler-title-as-link: sw%3aWebAnnotation
+
+With a ''Web annotation system'', a user can add, modify or remove information from a Web resource without modifying the resource itself. The annotations can be thought of as a layer on top of the existing resource, and this annotation layer is usually visible to other users who share the same annotation system. In such cases, the web annotation tool is a type of social software tool.
+
+Web annotation can be used for the following purposes:
+
+*to rate a Web resource, such as by its usefulness, user-friendliness, suitability for viewing by minors.
+*to improve or adapt its contents by adding/removing material, something like a wiki.
+*as a collaborative tool, e.g. to discuss the contents of a certain resource.
+*as a medium of artistic or social criticism, by allowing Web users to reinterpret, enrich or protest *against institution or ideas that appear on the Web.
+*to quantify transient relationships between information fragments.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Web_annotation]]@@
+
+See also other ~InfoCasting software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:InfoCasting]!is[current]]">>

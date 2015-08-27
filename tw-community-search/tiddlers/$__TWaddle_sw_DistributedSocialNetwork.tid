@@ -1,0 +1,13 @@
+title: $:/TWaddle/sw:DistributedSocialNetwork
+created: 20150415070333743
+modified: 20150416061647413
+tags: TWaddle SoftwareCategory Federation sw:InfoExchanging
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:DistributedSocialNetwork
+source-tiddler-title-as-link: sw%3aDistributedSocialNetwork
+
+A ''distributed social network'' or federated social network is an Internet social networking service that is decentralized and distributed across distinct providers. It consists of multiple social websites, where users of each site communicate with users of any of the involved sites. A social website participating in a distributed social network is interoperable with the other sites and is in federation with them. Communication among the social websites is technically conducted over social networking protocols. Software used for distributed social networking is generally portable so it is easily adopted on various website platforms. Distributed social networks contrast with social network aggregation services, which are used to manage accounts and activities across multiple discrete social networks.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Distributed_social_network]]@@
+
+See also other ~InfoExhanging software categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:InfoExchanging]!is[current]]">>

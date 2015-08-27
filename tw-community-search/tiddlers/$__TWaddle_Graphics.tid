@@ -1,0 +1,28 @@
+title: $:/TWaddle/Graphics
+created: 20150404021734179
+creator: Mat
+modified: 20150715203506684
+modifier: Mat
+recent: 15/04/04	
+tags: TWaddle tag AreaOfConcern
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Graphics
+source-tiddler-title-as-link: Graphics
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]has[summary]!prefix[$:/]!tag[Unfinished]tag[Graphics]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]!prefix[$:/]!tag[Unfinished]tag[Graphics]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>

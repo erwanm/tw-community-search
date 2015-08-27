@@ -1,0 +1,9 @@
+title: $:/inmysocks/Calendar widget example
+created: 20150226071442162
+modified: 20150226071507645
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Calendar widget example
+source-tiddler-title-as-link: Calendar%20widget%20example
+
+<$calendar-month year=2000 month=2/>

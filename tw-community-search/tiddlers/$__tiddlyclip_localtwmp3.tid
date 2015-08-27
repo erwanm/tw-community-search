@@ -1,0 +1,14 @@
+title: $:/tiddlyclip/localtwmp3
+created: 20141202232207484
+modified: 20141211011343240
+revision: 0
+type: text/vnd.tiddlywiki
+tags: tiddlyclip [[Tc Local Rules]]
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: localtwmp3
+source-tiddler-title-as-link: localtwmp3
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|[[TITLETID]]||||{"$_canonical_uri":"((*@sublink(@linkURL)*))"},{"$type":"audio/mp3"}||

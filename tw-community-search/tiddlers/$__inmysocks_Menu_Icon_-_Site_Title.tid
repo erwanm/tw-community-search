@@ -1,0 +1,12 @@
+title: $:/inmysocks/Menu Icon - Site Title
+created: 20150219181718490
+left_menu_order: 14
+modified: 20150220025309233
+name: Site Title
+top_middle_menu_order: 2
+tags: inmysocks [[Menu Icon]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Menu Icon - Site Title
+source-tiddler-title-as-link: Menu%20Icon%20-%20Site%20Title
+
+{{$:/SiteTitle}}

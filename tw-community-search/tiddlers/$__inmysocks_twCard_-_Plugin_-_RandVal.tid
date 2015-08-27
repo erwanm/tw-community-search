@@ -1,0 +1,40 @@
+title: $:/inmysocks/twCard - Plugin - RandVal
+audience: Anyone who wants a random number generator in their wiki
+blog: 
+bug_database: 
+category: Math
+created: 20150106175012859
+date: 12-03-2015
+description: 
+documenter: 
+download_mirror: 
+download_page: 
+file_release: 
+helper: 
+homepage: 
+install_link: 
+language: English
+license: 
+mailing_list: 
+maintainer: inmysocks
+modified: 20150312233949772
+name: RandVal
+old_homepage: 
+platform: TiddlyWiki
+plugin_tiddler: $:/plugins/inmysocks/randVal
+programming_language: JavaScript
+release: Beta
+repository: https://github.com/inmysocks/TW5-randVal
+repository_location: 
+revision: 0.1.3
+screenshots: 
+short_description: A random number generator
+tester: 
+translator: 
+wiki: http://inmysocks.tiddlyspot.com/
+tags: inmysocks widget-action-randval [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - RandVal
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20RandVal
+
+A plugin that adds a random number generator to a wiki. It is designed to mimic the behavior of dice, but it isn't limited to only that application. It allows the user to set a lower bound, an upper bound, a step size and the number of random numbers to sum for the output and a field in which to store the output. This is an action widget so the random number generation is trigged by a keypress.

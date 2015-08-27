@@ -1,0 +1,15 @@
+title: $:/TWaddle/A text frame
+created: 20150321132932047
+creator: Mat
+modified: 20150728114632810
+modifier: Mat
+recent: 15/03/21	
+tags: TWaddle Graphics Tidbit
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: A text frame
+source-tiddler-title-as-link: A%20text%20frame
+
+@@.tc-tiddler-frame
+@@width:400px;
+A text frame defined in some core stylesheet. Easy to use for quotes, info-boxes etc. See code.
+@@

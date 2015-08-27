@@ -1,0 +1,46 @@
+title: $:/inmysocks/Why TiddlyWiki?
+created: 20150227235233345
+modified: 20150228003023590
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Why TiddlyWiki?
+source-tiddler-title-as-link: Why%20TiddlyWiki%3f
+
+!What is ~TiddlyWiki and why should you care?
+
+Indexing.
+
+Start by thinking about how you would use the internet if Google didn't exist. If you don't use Google to search than imagine that ~DuckDuckGo or whatever search engine you use didn't exist. Or Wikipedia.
+
+The internet would still be full of very useful information, but there would be no simple way to find it. While Google has spread out into many other domains, their first and most used service is indexing. Search engines make the internet usable by organizing, or attempting to organize, the internet in a way that makes sense.
+
+~TiddlyWiki, if used correctly, can be a tool to achieve the same thing for your own thoughts. This is far from the only use for it, but the largest reason for its existence is that ~TiddlyWiki is a powerful and easy to use tool that can be used to index and cross reference data.
+
+If you aren't someone who has had to try sifting through a large amount of unindexed (or poorly indexed) data than this may not sound like something profound. For anyone younger than about 25 there has never really been a time when the answer couldn't be found using Google. And for searching the internet Google does a very good job of indexing things, especially considering how large the dataset is. What Google is much worse at is sorting and indexing email, or contacts, or just about anything else used in a service Google provides.
+
+How do you use Google, or Facebook, or anything that isn't an SQL database, to find the people in your contacts that are over 21, live in your city and could be your designated driver tonight?
+Granted, the list of people who meet those criteria may be short enough that you don't need to worry about a search, but it gets the general idea across. Google sort of lets you do searches like this through your email, but you are limited to searching the attributes that they find important, not whatever you define.
+The main selling point of using Google (or any similar service) is that you don't have to put any effort or thought into getting your result, and as long as you are ok with only using the services that they make available in the ways that they let you, there is no problem with that.
+
+But, if you want to have a list of hundreds of bookmarked webpages and to be able to find all the links that have to do with both Violin and Cello? Using most available services you would be able to tag links as being about each one, but if you have a large group of both finding the intersection may not be easy. ~TiddlyWiki is a tool that allows you to build (of use something someone else has built, yay open source!) and create something that lets you do that sort of search. Not just through bookmarks (but if you to the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] you can do exactly that) but with any thing from work contact information to the random thoughts that you scribble down at 2am.
+
+Indexing the way you want to is where ~TiddlyWiki truly shines. This does take more work upfront than just asking Google, but it can also be much more powerful.
+
+!And?
+
+If you don't feel that indexing is a good reason to use ~TiddlyWiki than how about being able to control your own data? For this purpose  ~TiddlyWiki has some very important benefits:
+
+*It is portable, it can be used on any device that can use a web browser
+*It is a single file so it isn't difficult to backup or transport
+*It requires no third party services, nor does it require an internet connection
+*It is flexible, if you need something that isn't available you can probably create it
+
+!So?
+
+If all you want is a tool to do some specific narrow task than you still may want ~TiddlyWiki, although I don't find that nearly so interesting. There are some examples shown on the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] of what you could do, and you can get all of them for free from here. There are many [[Other Places to Look]] for things as well, you can also look through the bookmarks tagged ~TiddlyWiki on the dashboard.
+
+I also use ~TiddlyWiki for blogging and socialmedia-type activities, you can see what  I have [[here|ooktech.com/jed/externalbrain/]].
+
+!Still don't like ~TiddlyWiki?
+
+Than I am not sure why you are still here. I don't really sing or dance or anything. Well, I play cello a bit but I am not very good. 

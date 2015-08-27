@@ -1,0 +1,15 @@
+title: $:/BJTools/docsheader
+created: 20140126162338635
+modified: 20140419182622479
+revision: 0
+type: text/plain
+tags: BJTools
+source-wiki-id: BJTools
+source-tiddler-title-as-text: docsheader
+source-tiddler-title-as-link: docsheader
+
+\define bulletList(tag)
+
+
+<ul><$list filter="[tag[$tag$]]"><li><$link to={{!!title}}><$view field="title"/></$link></li></$list></ul>
+\end

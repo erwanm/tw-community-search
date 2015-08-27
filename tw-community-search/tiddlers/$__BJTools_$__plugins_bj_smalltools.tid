@@ -1,0 +1,17 @@
+title: $:/BJTools/$:/plugins/bj/smalltools
+author: JeffreyWilkinson
+core-version: >=5.0.17
+created: 20140918170318846
+dependents: 
+description: Includes 'click trigger' macro
+list: readme license
+revision: 0
+source: https://github.com/buggyj/TW5-smalltools
+version: 0.0.1
+tags: BJTools
+source-wiki-id: BJTools
+source-tiddler-title-as-text: $:/plugins/bj/smalltools
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fsmalltools
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPlugin}}

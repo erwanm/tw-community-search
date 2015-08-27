@@ -1,0 +1,11 @@
+title: $:/inmysocks/Menu Icon - About Me
+caption: Who is this inymocks anyway?
+created: 20150227182539591
+modified: 20150227183258772
+top_left_menu_order: 5
+tags: inmysocks [[Menu Icon]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Menu Icon - About Me
+source-tiddler-title-as-link: Menu%20Icon%20-%20About%20Me
+
+<$button to="About Me" class='tc-btn-invisible' tooltip='Who is this inysocks guy?'><<fa fa-smile-o>></$button>

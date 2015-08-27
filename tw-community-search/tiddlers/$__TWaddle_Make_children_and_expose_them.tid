@@ -1,0 +1,67 @@
+title: $:/TWaddle/Make children and expose them
+created: 20150413224755618
+creator: Mat
+modified: 20150727082630698
+modifier: Mat
+recent: 15/04/14	
+summary: View children via toolbar dropdown, replacing (and including) ~NewHere
+tags: TWaddle Proposals NeededTool Workflow Musing
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Make children and expose them
+source-tiddler-title-as-link: Make%20children%20and%20expose%20them
+
+We should have much more direct ways or options to see the children of a tiddler. It is a bit backwards that it's easier to see a tiddlers siblings than its children, i.e you can click a tagpill to see what other tiddlers are also tagged with that tag but for you to know what tiddlers are tagged with the current tiddler title you must go into //more>info>tagging//... or is it //..>listed//, or perhaps //..>list//? Hm. This article will detail some alternatives for this.
+
+''Toggler''<br>
+Most of them include some sort of //toggler//, e.g a button, to display the child list. Alternatives include;
+
+*show toggle permanent or only if children exist
+*show on hover. E.g either hover over the //toggler// itself or hover over the tiddler, or some section of it.
+
+''Including //New Here//''<br>
+One semi-justification to show the //toggler// permanently, for a consistent appearance, could be to include the "child maker" tool (//New Here//), perhaps as a first element in the list. It would mean a two step process to reach the //New Here//, which is same as default toolbar setting where you must click the //More// tool to access it.
+
+''Popout vs embedded slider''<br>
+A detail is if the list should appear as a popout or slider, as detailed in [[Revealwidget|http://tiddlywiki.com/#RevealWidget]]. The latter "pushes" away the other content to make room, so you must also consider more carefully //where// it should appear. I think the child list is important and spontaneously favor the slider approach because:
+
+*a slider creates a more robust impression than a popup
+*a slider makes more sense if you want to "stick it"
+
+''Plain titles or pills''<br>
+In TWC, and particularly when Simon Baird introduced the [[TagglyTagging|http://mptw.tiddlyspot.com/#TagglyTagging]] concept, tags and tiddler titles were two sides of the same coin. With the intro of //tag pills// there's now a clear(er) separation between the two and a tag is more like a button but with a parameter value (the title). 
+
+As a parent of two, I can say that the kids always seem to be around even when I'm trying to get some peace and just tiddle fiddle. //Decartes// explains: "Children think, therefore they //are//. Tags don't think so they don't have to exist." 
+
+!!Ok, possible manifestations for the child list
+
+''Child pill''<br>
+Include a Child pill as the first item in the //tag pills// row. Obviously colored baby blue or pink. Or icon showing diaper. The tags row becomes place for family reunion and the children meet their grand parents. This should weight up for any concerns conservative people have with child pills.
+
+Pop the pill just like the tag pills to get the dropdown but listing the children. 
+
+Or get the type of //slider// that you see from //More>Info// in the tool bar. That one opens between the title and the tagpills. A child pill button could e.g open a similar slider //under// the tag pill row.
+
+''Tool button''<br>
+Same as //Child pill// but as tool in tiddler toolbar. 
+
+''Bairds minitag''<br>
+Simon Bairds superb MPTW (a theme for TW Classic) has the [[QuickOpenTagPlugin|http://mptw.tiddlyspot.com/#systemConfig%20QuickOpenTagPlugin%20MptwTheme]] (search for "minitag"). This creates a small arrow next to the tiddler title like so;
+
+{{img/childdropdown}}
+
+(...yeah, I know, eight years!)
+
+Clicking the arrow pops up a small dropdown listing the children as well as a an "Open all" button and a "New here". It makes sense to treat tiddler titles and tags in the same way as they often are the sme thing.
+
+By the way, in MPTW such a mini-dropdown is displayed next to all tags so it functions a bit like our tagpills when you click on them.
+
+''Childs field''<br>
+Like the tags field (the "parents field"), there could be a //childs field//. I.e no //toggler// but a permanent horizontal row of pills or just titles. Could be displayed just below the (parent-) tag pill row.
+
+''Childs field with toggle''<br>
+...or such a //childs field// could be the resulting display from clicking a //toggler// after all, like detailed in ''Child pill'' or ''Tool button''. I actually like this idea a lot. Just like you now click the //More>Info// and get a slider to show a field (a bit out of nowhere), you could get the same field but it is dedicated to showing the children.
+
+''~TiddlerSidebar''<br>
+Perhaps seemingly nullifying everything I've written above, I personally intend to use my [[TiddlerSidebar|Presenting the TiddlerSidebar]] plugin, a "tiddler specific mini-sidebar" that appears when you hover over the tiddlers blank left side. This can feature a child list under one of the tabs. This could omit the earlier proposals for pills 'n buttons.
+
+However, the ~TiddlerSidebar is obviously not for core, but IMO a better child access //is// a standard distro isse. Also, the ~TiddlerSidebar concept is less suited for public wikis ... ok, TWaddle is an exception. Third, as touched on, I want the option to //stick// the child list to show permanently  - for some tiddlers. I'm proud of my kids. The whole world should see them! But it's hard work. I do generally advocate the pill.

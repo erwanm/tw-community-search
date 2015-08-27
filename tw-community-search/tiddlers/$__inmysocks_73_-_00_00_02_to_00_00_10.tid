@@ -1,0 +1,20 @@
+title: $:/inmysocks/73 - 00:00:02 to 00:00:10
+auto_play: 1
+created: 20141231075939121
+description: 
+end: 00:00:10
+hours: 
+link: http://www.youtube.com/embed/{{$:/.rich/data/videos##73}}?rel=0&start=00:00:02&end=00:00:10
+minutes: 
+modified: 20150106205806489
+seconds: 
+segment_description: htnsth
+start: 00:00:02
+tags: inmysocks [[Video Segment]] 73
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: 73 - 00:00:02 to 00:00:10
+source-tiddler-title-as-link: 73%20-%2000%3a00%3a02%20to%2000%3a00%3a10
+
+<$macrocall $name="youtube-embed" video={{$:/.rich/data/videos##73}} start="00:00:02" end="00:00:10"/>
+
+test long description

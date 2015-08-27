@@ -1,0 +1,24 @@
+title: $:/inmysocks/twCard - Plugin - Calendar
+audience: 
+category: Data Presentation
+created: 20150106175012859
+date: 30-03-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150331042420085
+name: Calendar
+plugin_tiddler: $:/plugins/inmysocks/Calendar
+release: 
+repository: 
+revision: 0.0.8
+short_description: A calendar and some related macros
+wiki: http://inmysocks.tiddlyspot.com
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Calendar
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Calendar
+
+A widget and some macros to allow you to make calendars in your wiki

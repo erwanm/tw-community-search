@@ -1,0 +1,59 @@
+title: $:/inmysocks/When using a state tiddler to store values used by my math plugins (and maybe other stuff)
+blurb:  
+created: 20141230065121740
+modified: 20141230070348841
+tags: inmysocks [[Helpful Notes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: When using a state tiddler to store values used by my math plugins (and maybe other stuff)
+source-tiddler-title-as-link: When%20using%20a%20state%20tiddler%20to%20store%20values%20used%20by%20my%20math%20plugins%20%28and%20maybe%20other%20stuff%29
+
+The widgets may not update if the tiddler that they are in isn't being rendered. This means that when you press a button that should make something happen it may not work. To avoid this problem you can make your state tiddler include the button that actually initiates the action and transclude the state tiddler, which should only have the button visible, where you want the button on your other (displayed) tiddler. This forces the state tiddler to render each time the button is pressed and will make everything update properly. 
+
+This is the code for the tiddler [[Dice Example]] which uses the MathyThing plugin and the RandVal plugin:
+
+```
+<$edit-text tiddler='$:/state/diceexample' field='num_dice' size=2/> d <$edit-text tiddler='$:/state/diceexample' field='dice_size' size=2/> x <$edit-text tiddler='$:/state/diceexample' field='multiplier' size=2/> + <$edit-text tiddler='$:/state/diceexample' field='bonus' size=2/> = {{$:/state/diceexample!!output2}}
+
+<$prodfield2 filter='[[$:/state/diceexample]]' prodfield='die_roll' prodfield2='multiplier' storefield='output'/>
+
+<$sumfield2 filter='[[$:/state/diceexample]]' sumfield='output' sumfield2='bonus' storefield='output2'/>
+
+{{$:/state/diceexample}}
+```
+
+And [[$:/state/diceexample]] is:
+
+```
+<$button>Roll the Dice
+<$action-randval $tiddler='$:/state/diceexample' $field='die_roll' $lower=1 $upper={{$:/state/diceexample!!dice_size}} $step=1 $numrolls={{$:/state/diceexample!!num_dice}}/>
+</$button>
+```
+
+Here is [[Dice Example]] transcluded:
+
+{{Dice Example}}
+
+
+Here is what doesn't work:
+
+The tiddler [[Broken Dice Example]]:
+
+```
+<$edit-text tiddler='$:/state/diceexample' field='num_dice' size=2/> d <$edit-text tiddler='$:/state/diceexample' field='dice_size' size=2/> x <$edit-text tiddler='$:/state/diceexample' field='multiplier' size=2/> + <$edit-text tiddler='$:/state/diceexample' field='bonus' size=2/> = {{$:/state/diceexample!!output2}}
+
+<$prodfield2 filter='[[$:/state/diceexample]]' prodfield='die_roll' prodfield2='multiplier' storefield='output'/>
+
+<$sumfield2 filter='[[$:/state/diceexample]]' sumfield='output' sumfield2='bonus' storefield='output2'/>
+
+<$button>Roll the Dice
+<$action-randval $tiddler='$:/state/diceexample' $field='die_roll' $lower=1 $upper={{$:/state/diceexample!!dice_size}} $step=1 $numrolls={{$:/state/diceexample!!num_dice}}/>
+</$button>
+```
+
+Transcluded:
+
+{{Broken Dice Example}}
+
+Note that the `Roll the Dice` button does nothing here unless something else changes the tiddler [[$:/state/diceexample]], like changing the values for the number/type of dice or pressing the working button above. Repeatedly pressing this button is what won't work.
+
+<<bottomOfTiddler>>

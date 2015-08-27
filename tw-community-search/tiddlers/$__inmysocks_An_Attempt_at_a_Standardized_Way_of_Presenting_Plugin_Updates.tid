@@ -1,0 +1,29 @@
+title: $:/inmysocks/An Attempt at a Standardized Way of Presenting Plugin Updates
+blurb:  
+created: 20150106172007404
+modified: 20150210014032585
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: An Attempt at a Standardized Way of Presenting Plugin Updates
+source-tiddler-title-as-link: An%20Attempt%20at%20a%20Standardized%20Way%20of%20Presenting%20Plugin%20Updates
+
+Each plugin should have an information tiddler with a standard form that can be displayed on a listing/directory site using a standard template.
+
+It would probably be best to have something like a miniplugin tiddler, that is a tiddler with a standardized set of fields. The text would be a description of the plugin, not necessarily documentation. Each tiddler, or possibly just each widget, will have a field named after them, and the content of the field will be a tiddler devoted to that tiddler or widget.
+
+Of if possible, just a single json data tiddler to it can be dragged and dropped from the source site to the listing site.
+
+For the plugin:
+
+*Current version
+*Date of most recent update
+*Link to github/source
+*A link to the plugin documentation (developers site?)
+
+The tiddlers explaining the individual parts of the plugin, with a standard set of fields.
+
+For each widget/tiddler
+
+*Link to the widget specific documentation (hopefully indepth)
+*A link to examples showing how the widget is used
+

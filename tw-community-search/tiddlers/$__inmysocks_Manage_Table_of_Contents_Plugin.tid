@@ -1,0 +1,17 @@
+title: $:/inmysocks/Manage Table of Contents Plugin
+blurb:  A plugin that adds a table of contents manager to your wiki
+created: 20141210184736132
+date: 12/16/14
+github: https://github.com/inmysocks/TW5-NoLearningRequired-Full
+modified: 20150424013603424
+version_number: 0.1.0
+tags: inmysocks Plugins [[Dashboard Plugins]] [[My Project]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Manage Table of Contents Plugin
+source-tiddler-title-as-link: Manage%20Table%20of%20Contents%20Plugin
+
+[[$:/plugins/inmysocks/ManageTOC]]
+
+Documentation coming at some point. I hope. If I did things correctly not much should be needed. See [[Dashboard]] for how to import the plugin.
+
+<<bottomOfTiddler {{!!title}}>>

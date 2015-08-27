@@ -1,0 +1,20 @@
+title: $:/inmysocks/Create a tool to update existing library entries to the new type when I change the default tag to something other than Book
+category: Plugin
+created_day: 05
+created_month: 05
+created_year: 2015
+description: it also needs to add a type field and fill it in appropriately
+due_day: 
+due_month: 
+due_year: 
+modified: 20150505230525698
+start_day: 
+start_month: 
+start_year: 
+subcategory: Library Tracker
+tags: inmysocks [[New Feature]] [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Create a tool to update existing library entries to the new type when I change the default tag to something other than Book
+source-tiddler-title-as-link: Create%20a%20tool%20to%20update%20existing%20library%20entries%20to%20the%20new%20type%20when%20I%20change%20the%20default%20tag%20to%20something%20other%20than%20Book
+
+Since only books should exist so far it could just make the item_type field and set it to book for every existing item.

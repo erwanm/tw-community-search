@@ -1,0 +1,22 @@
+title: $:/inmysocks/Fix the selective expandable mobile menu TOC
+category: Macro
+created: 20150503183438235
+created_day: 03
+created_month: 05
+created_year: 2015
+description: the start of the tiddler names don't line up because of the icons
+due_day: 
+due_month: 
+due_year: 
+modified: 20150507232040764
+start_day: 
+start_month: 
+start_year: 
+subcategory: Mobile Menu
+subsubcategory: Bug
+tags: inmysocks [[Planned Update]] Bug [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fix the selective expandable mobile menu TOC
+source-tiddler-title-as-link: Fix%20the%20selective%20expandable%20mobile%20menu%20TOC
+
+This will probably be fixed by using the empty image in the core.

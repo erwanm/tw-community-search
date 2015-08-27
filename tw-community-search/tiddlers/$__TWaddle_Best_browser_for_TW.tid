@@ -1,0 +1,21 @@
+title: $:/TWaddle/Best browser for TW
+created: 20150704141719550
+creator: Mat
+modified: 20150715205150580
+modifier: Mat
+recent: 15/07/07	
+summary: My personal and limited experiences with browsers for TW
+tags: TWaddle Tidbit FF Chrome [[3d Part Software]]
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Best browser for TW
+source-tiddler-title-as-link: Best%20browser%20for%20TW
+
+I can only speak about FF, Chrome and IE. And IE can be dismissed right away since there is so much that doesn't work with it. The future will tell if their coming replacement, [[Microsoft Edge|https://en.wikipedia.org/wiki/Microsoft_Edge]], will be better.
+
+So, Chrome and FF, for me on a Windows 8.1 machine. Obviously, my //general// use of browsers,  i.e for surfing, plays in as a "starting point" for which browser I prefer... which is Firefox. Still, there are at least two critical reasons why I //also// bother with Chrome, particularly when using TW;
+
+*FF crashes easily. At least for me. Now, I should mention that having, over he years, seen peoples reactions when they see me use the internet, I've realized that my way of using browsers may not be typical; I regularly have some 3-5 FF windows open in parallel and often with well over a 100 tabs in total. So crashes, it turns out, are just a matter of time. And when FF crashes, it all crashes. Chrome, on the other hand, runs each tab as a separate process meaning it also crashes only the single tab.<br>Crashing can be disastrous because it can erase your TW. Even if it doesn't, you likely loose your unsaved changes. (The FF plugin "Form History Control" has saved me a few times.) 
+*The second downer with FF is that after you create a //new tiddlyspot//, you cannot use FF the first(!) time you save/upload a TW5 to it. This //forced// me to use another browser than FF... and it has simply shown to be the case that I create new tiddlyspots with enough frequency (One per month? For testing stuff.) to simply leave Chrome open... and then I might just as well use it for other stuff too, if FF freezes etc. The result is that I have both browsers open in parallel most of the time.<br><br>
+*Chrome has it's own drawbacks when it comes to TW. For me, the major one is that Chrome can't handle "CSS sticky" as in the standard Theme Tweak //Sticky titles//. It may seem like a detail but it affects the workflow //all the time//, forcing you to scroll a lot to access the toolbar.
+
+So, not the deepest of analysis but... well, that's it.

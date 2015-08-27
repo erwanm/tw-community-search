@@ -1,0 +1,21 @@
+title: $:/TWaddle/Software Categories
+created: 20150416062205447
+creator: Mat
+modified: 20150717222506858
+modifier: Mat
+note: Compare to [[Application Categories]]
+recent: 15/07/15
+summary: General software categories of //possible// relevance for TW
+tags: TWaddle Reference AreaOfConcern
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Software Categories
+source-tiddler-title-as-link: Software%20Categories
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="SoftwareCategoryGroup"
+	selectedTiddler="$:/temp/dontpublish/SoftwareCategories/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+    template='$:/_TWaddle/SeeAlsoTocTemplate'
+/>

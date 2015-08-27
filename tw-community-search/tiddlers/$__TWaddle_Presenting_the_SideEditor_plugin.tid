@@ -1,0 +1,15 @@
+title: $:/TWaddle/Presenting the SideEditor plugin
+created: 20150804084153423
+creator: Mat
+modified: 20150804085056780
+modifier: Mat
+recent: 15/06/25
+summary: Brief pres of the "real time, floating editor" plugin
+tags: TWaddle Creation SideEditor
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Presenting the SideEditor plugin
+source-tiddler-title-as-link: Presenting%20the%20SideEditor%20plugin
+
+The [[SideEditor plugin|http://sideeditor.tiddlyspot.com/]], gives you a floating editor next to your tiddler river column. This enables you to see the changes "real time" in a tiddler as you edit it.
+
+This is overall useful, but I have found it //particularly// useful when you experiment with e.g CSS values or situations where you fiddle to tweak the tiddler content.

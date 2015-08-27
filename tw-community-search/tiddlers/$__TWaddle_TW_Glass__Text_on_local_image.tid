@@ -1,0 +1,23 @@
+title: $:/TWaddle/TW Glass: Text on local image
+created: 20150325120358515
+creator: Mat
+modified: 20150728092328032
+modifier: Mat
+recent: 15/03/25	
+tags: TWaddle Glass
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: TW Glass: Text on local image
+source-tiddler-title-as-link: TW%20Glass%3a%20Text%20on%20local%20image
+
+Annotate straight on an image. The image is in the back and at front is and ''editor that you can type straight in to - try it''.
+
+<style>
+   #oimgann{ position: relative; }
+   #iimgann { position: absolute; left: 0px; top: 30px; width:600px;}
+</style>
+<div id="oimgann">
+   {{img/fish}}
+   <div id="iimgann">
+       <$edit tiddler="SomeText" field="text" class="tc-edit-overlayeditor" />
+   </div>
+</div>

@@ -1,0 +1,17 @@
+title: $:/TWaddle/sw:DistractionFreeEditor
+created: 20150415204135597
+creator: Mat
+modified: 20150612224955586
+modifier: Mat
+tags: TWaddle SoftwareCategory sw:Authoring sw:Editor
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:DistractionFreeEditor
+source-tiddler-title-as-link: sw%3aDistractionFreeEditor
+
+<<boxref "A ''distraction-free editor'' (or a full-screen writing program) or is a text editor that occupies the full display with the purpose of isolating the writer from the operating system (OS) and other applications. In this way one should be able to focus on the writing alone, with no distractions from the OS and a cluttered interface. Often distraction-free editors feature a dark background and a text field, with lighter colored text. However, most distraction-free editors include customisable user interfaces. Some editors support rich text editing." "http://en.wikipedia.org/wiki/Full-screen_writing_program">>
+
+See also other Authoring software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Authoring]!is[current]]">>
+
+See also other Editor software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Editor]!is[current]]">>

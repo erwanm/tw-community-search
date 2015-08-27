@@ -1,0 +1,15 @@
+title: $:/braintest/$:/plugins/danielo/keyboardSnippets
+created: 20140502162931297
+creator: danielo
+dependencies: no dependencies
+description: add keyboard shortcuts to 
+modified: 20140502162932480
+modifier: danielo
+version: 0.0.5
+tags: braintest
+source-wiki-id: braintest
+source-tiddler-title-as-text: $:/plugins/danielo/keyboardSnippets
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fkeyboardSnippets
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPlugin}}

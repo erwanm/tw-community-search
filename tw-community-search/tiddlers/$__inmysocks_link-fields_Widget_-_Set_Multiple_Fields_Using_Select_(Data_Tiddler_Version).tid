@@ -1,0 +1,72 @@
+title: $:/inmysocks/link-fields Widget - Set Multiple Fields Using Select (Data Tiddler Version)
+blurb: A link-fields widget example
+created: 20150105044647255
+modified: 20150106042207210
+select_value: Something else
+test_store: 1
+tags: inmysocks [[The link-fields Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: link-fields Widget - Set Multiple Fields Using Select (Data Tiddler Version)
+source-tiddler-title-as-link: link-fields%20Widget%20-%20Set%20Multiple%20Fields%20Using%20Select%20%28Data%20Tiddler%20Version%29
+
+\define thisGetDataTiddler()
+$(tidName)$ - Data
+\end
+
+\define thisListItem()
+<$link-fields $sourcetiddler=<<thisGetDataTiddler>> $sourceindex="""$(sourceIndexName)$""" $storetiddler=<<tidName>> $storefield='example_store_field'/>
+\end
+
+This example works by having a select widget give all of the indexes of a data tiddler as options. There are 3 data tiddlers with identical index names, [[Using Data Tiddlers with link-fields and select Widgets 1 - Data]], [[Using Data Tiddlers with link-fields and select Widgets 2 - Data]] and [[Using Data Tiddlers with link-fields and select Widgets 3 - Data]]. Each data tiddler is associated with a normal tiddler, [[Using Data Tiddlers with link-fields and select Widgets 1]], [[Using Data Tiddlers with link-fields and select Widgets 1]] and [[Using Data Tiddlers with link-fields and select Widgets 1]]. When the select widget is set to the name of an index, a field in each of the tiddlers is set to the value associated with that index in its paired data tiddler. The list building the link-fields widgets works the same as in the [[link-fields Widget - Iterate Over Tiddlers Example]].
+
+```
+\define thisGetDataTiddler()
+$(tidName)$ - Data
+\end
+
+\define thisListItem()
+<$link-fields $sourcetiddler=<<thisGetDataTiddler>> $sourceindex="""$(sourceIndexName)$""" $storetiddler=<<tidName>> $storefield='example_store_field'/>
+\end
+
+<$select field='select_value'>
+<$list filter='[[Using Data Tiddlers with link-fields and select Widgets 1 - Data]indexes[]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name=sourceIndexName value={{!!select_value}}>
+<$list filter='[tag<currentTiddler>]'>
+<$set name=tidName value=<<currentTiddler>>>
+<$set name=dataTiddlerName value=<<thisGetDataTiddler>>>
+
+<<thisListItem>>
+
+<<currentTiddler>> - {{!!example_store_field}}
+
+</$set>
+</$set>
+</$list>
+</$set>
+```
+
+<$select field='select_value'>
+<$list filter='[[Using Data Tiddlers with link-fields and select Widgets 1 - Data]indexes[]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name=sourceIndexName value={{!!select_value}}>
+<$list filter='[tag<currentTiddler>]'>
+<$set name=tidName value=<<currentTiddler>>>
+<$set name=dataTiddlerName value=<<thisGetDataTiddler>>>
+
+<<thisListItem>>
+
+<<currentTiddler>> - {{!!example_store_field}}
+
+</$set>
+</$set>
+</$list>
+</$set>
+
+<<bottomOfTiddler>>

@@ -1,0 +1,37 @@
+title: $:/inmysocks/ClassNoteTemplate
+created: 20150101034147032
+modified: 20150102000821731
+tags: inmysocks Templates
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: ClassNoteTemplate
+source-tiddler-title-as-link: ClassNoteTemplate
+
+\define thisTheOtherStuff()
+<$reveal type="nomatch" state="$:/reveal/$(currentTitle)$" text="show">
+<$button set="$:/reveal/$(currentTitle)$" setTo='show'>Show Note Section</$button> - Note Name: <$text text="""$(thisNoteName)$"""/>
+</$reveal>
+<$reveal type="match" state="$:/reveal/$(currentTitle)$" text="show">
+<$button set="$:/reveal/$(currentTitle)$" setTo='hide'>Hide Note Section</$button> <<addQuestionButton>><br>Note Name: <$text text="""$(thisNoteName)$"""/>
+<$edit-text tiddler=<<currentTiddler>> class='tc-edit-texteditor' placeholder='Class Notes'/>
+</$reveal>
+\end
+
+\define thisQuestionTiddler()
+$:/questions/$(className)$: $(qualifyId)$
+\end
+
+\define addQuestionButton()
+<$button>Add Question for this Note
+<$action-setfield $field=qualify_id $value=<<now "DDth mmm hh:mm:0ss">>/>
+<$action-setfield $tiddler=<<thisQuestionTiddler>> question=true class="""$(className)$""" date="""$(currentDate)$""" for_note="""$(thisNoteName)$"""/>
+</$button>
+\end
+
+<$set name=qualifyId value={{!!qualify_id}}>
+<$set name=currentTitle value={{!!title}}>
+<$set name=thisNoteName filter='[is[current]]+[removeprefix[$:/notes/]]'>
+<<thisTheOtherStuff>>
+</$set>
+</$set>
+</$set>
+<br>

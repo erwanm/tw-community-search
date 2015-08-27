@@ -1,0 +1,49 @@
+title: $:/inmysocks/link-fields Widget - Iterate Over Tiddlers Example
+created: 20150105043937115
+iterate_value2: joe
+modified: 20150106042740442
+test_store: 1
+tags: inmysocks [[The link-fields Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: link-fields Widget - Iterate Over Tiddlers Example
+source-tiddler-title-as-link: link-fields%20Widget%20-%20Iterate%20Over%20Tiddlers%20Example
+
+This example shows how the link-fields widget can be used to iterate over a list of tiddlers and set values in each tiddler. To see how to set different values for each tiddler see [[here|link-fields Widget - Set Multiple Fields Using Select]] or [[here|link-fields Widget - Set Multiple Fields Using Select (Data Tiddler Version)]].
+
+How it works:
+
+The dropdown menu sets the value that each tiddlers field, called `this_store_field` in each tiddler, will be set to. The list widget is made so it lists all of the desired tiddlers, in this case every tiddler tagged with `Iterate Over Tiddlers Example - link-fields Widget`, and works the way lists normally work.
+
+The link-fields widget is put in each list entry, with `$storetiddler` set to `<<currentTiddler>>` so the link-fields widget will link the source field to fields in each entry of the list. The reason this works is because the link-fields widget works whenever the widget is being rendered, and in the list here each list entry has a link-fields widget for the tiddler being displayed, so the widget works on each entry of the list.
+
+```
+Select value: <$select field='iterate_value2'>
+<option>foo</option>
+<option>bar</option>
+<option>bob</option>
+<option>joe</option>
+<option>eve</option>
+</$select>
+
+<$list filter='[tag[Iterate Over Tiddlers link-fields Example]]'>
+<$link-fields $sourcetiddler='Iterate Over Tiddlers Example - link-fields Widget' $sourcefield='iterate_value2' $storetiddler=<<currentTiddler>> $storefield='this_store_field'/>
+<<currentTiddler>> - {{!!this_store_field}}<br>
+</$list>
+```
+
+This sets the `this_store_field` field of each of the tiddlers returned by the filter ([[Link Fields Iterate Over Tiddlers Example 1]], [[Link Fields Iterate Over Tiddlers Example 2]] and [[Link Fields Iterate Over Tiddlers Example 3]] if nothing has changed) to the value of `iterate_value2` in this tiddler, which is set by this select widget.
+
+Select value: <$select tiddler='Iterate Over Tiddlers Example - link-fields Widget' field='iterate_value2'>
+<option>foo</option>
+<option>bar</option>
+<option>bob</option>
+<option>joe</option>
+<option>eve</option>
+</$select>
+
+Tiddlers and field values:
+
+<$list filter='[tag[Iterate Over Tiddlers link-fields Example]]'>
+<$link-fields $sourcetiddler='Iterate Over Tiddlers Example - link-fields Widget' $sourcefield='iterate_value2' $storetiddler=<<currentTiddler>> $storefield='this_store_field'/>
+<<currentTiddler>> - {{!!this_store_field}}<br>
+</$list>

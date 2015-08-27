@@ -1,0 +1,24 @@
+title: $:/BJTools/test/EditTemplate
+created: 20141203191812791
+modified: 20141204160415122
+revision: 0
+type: text/vnd.tiddlywiki
+tags: BJTools
+source-wiki-id: BJTools
+source-tiddler-title-as-text: test/EditTemplate
+source-tiddler-title-as-link: test%2fEditTemplate
+
+\define frame-classes()
+tc-tiddler-frame tc-tiddler-edit-frame $(missingTiddlerClass)$ $(shadowTiddlerClass)$ $(systemTiddlerClass)$
+\end
+<div class=<<frame-classes>>>
+<$set name="storyTiddler" value=<<currentTiddler>>>
+<$keyboard key="escape" message="tm-cancel-tiddler">
+<$keyboard key="ctrl+enter" message="tm-save-tiddler">
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/EditTemplate]!has[draft.of]!title[$:/core/ui/EditTemplate/fields]!title[$:/core/ui/EditTemplate/body]] + [title[$:/bj/typestemplate/EditTemplate/body]]" variable="listItem">
+<$transclude tiddler=<<listItem>>/>
+</$list>
+</$keyboard>
+</$keyboard>
+</$set>
+</div>

@@ -1,0 +1,19 @@
+title: $:/BJTools/Draft of '$:/plugins/bj/Calendar'
+author: JeffreyWilkinson
+core-version: >=5.1.3
+created: 20141103185750273
+dependents: 
+description: calendar with date formatter addons
+draft.of: $:/plugins/bj/Calendar
+draft.title: $:/plugins/bj/Calendar
+modified: 20141205190352490
+revision: 0
+source: https://github.com/buggyj/TW5-Calendar
+version: 0.0.5
+tags: BJTools
+source-wiki-id: BJTools
+source-tiddler-title-as-text: Draft of '$:/plugins/bj/Calendar'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugins%2fbj%2fCalendar%27
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPlugin}}

@@ -1,0 +1,14 @@
+title: $:/inmysocks/muut Comments Demo
+created: 20150610160607943
+modified: 20150610161323889
+tags: inmysocks
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: muut Comments Demo
+source-tiddler-title-as-link: muut%20Comments%20Demo
+
+Oh look! You should be able to comment on this using muut. There are problems though. Namely, when a new tiddler is opened that has comments embedded in it, the comments won't show up. You have to load the page with the tiddler containing the comments open (using the permalink or permaview) in order for the script to be loaded properly. You may need to reload the page twice for it to work, I had to. Twitter has a function that reloads the javascript as needed which prevents this problem, I don't think that muut has it.
+
+I am probably not leaving this demo up for long, I don't like having unmoderated comments. You can go over to the other demo site [[here|http://ooktech.com/jed/ExampleWikis/TiddlyWiki-muut/]]. I will leave that one up. People will comment whatever they want there and I probably won't ever check it.
+
+<a class="muut" href="https://muut.com/i/inmysocks-tiddlywiki-muut-test/comments:2" type="dynamic">inmysocks-tiddlywiki-muut-test forum</a>
+    

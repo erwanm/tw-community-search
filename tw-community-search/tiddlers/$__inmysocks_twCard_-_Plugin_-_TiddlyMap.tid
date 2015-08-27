@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - TiddlyMap
+audience: 
+category: Data Presentation
+created: 20150106175012859
+date: 09-02-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: felixhayashi
+modified: 20150210030653275
+name: TiddlyMap
+plugin_tiddler: $:/plugins/felixhayashi/tiddlymap
+release: 
+repository: 
+revision: 0.6.5
+short_description: A plugin to make mindmaps using TiddlyWiki
+wiki: http://felixhayashi.github.io/TW5-TiddlyMap/index.html
+tags: inmysocks [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - TiddlyMap
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TiddlyMap
+

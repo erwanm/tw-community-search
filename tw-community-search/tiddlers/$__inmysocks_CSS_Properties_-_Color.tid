@@ -1,0 +1,22 @@
+title: $:/inmysocks/CSS Properties - Color
+caption: Color
+created: 20150426230446613
+modified: 20150426233313262
+tags: inmysocks [[list of some relevant CSS properties]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: CSS Properties - Color
+source-tiddler-title-as-link: CSS%20Properties%20-%20Color
+
+Color has a lot, so it gets its own thing.
+
+|!Name |!Description |!Values Used |
+|color |Sets color of the current element |Hex RGB values, either 3 or 6 long (#xxx or #xxxxxx), or defined colour names (blue, black, forestgreen, burlywood, blanchedalmond, there are many of them) |
+|background-color |Sets the color of the background of the current element |Same as color |
+
+For the hex colors, #000 or #000000 is @@color:#000;black@@ and #fff or #ffffff is @@background-color:#000;color:#fff;white@@, #f00 or #ff0000 is @@color:#f00;pure red@@, #0f0 or #00ff00 is @@color:#0f0;pure green@@ and #00f or #0000ff is @@color:#00f; pure blue@@.
+
+Or you can use named colors:
+
+(Note that while the property is spelled `color`, for the color names both `grey` and `gray` are used.)
+
+<<tiddlerSlider "List of CSS Named Colors">>

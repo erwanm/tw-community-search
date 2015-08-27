@@ -1,0 +1,21 @@
+title: $:/TWaddle/Remote TW as a 'shell' to tiddify things
+created: 20150721125513328
+creator: Mat
+modified: 20150730085044766
+modifier: Mat
+recent: 15/07/21
+tags: TWaddle Pie
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Remote TW as a 'shell' to tiddify things
+source-tiddler-title-as-link: Remote%20TW%20as%20a%20%27shell%27%20to%20tiddify%20things
+
+add: This is now implemented in the //Public// section on [[TiddlerSidebar|http://tiddlersidebar.tiddlyspot.com]] and it works in //that// context.
+
+<hr>
+Could a TW on a remote server be used as a "shell" to encapsulate things into a TW?
+
+The thing is, you an put a filter directly into a permalink to make a TW display filtered stuff. If you in this way filter a title that doesn't exist, you get the "missing tiddler"... but this means the TW //did// read the title (right?)
+
+...so, could it instead of showing "missing tiddler" use this as an //argument// for something?
+
+Then you could iframe this into your own tw but by providing the url to the iframe, you give the url to the shell //and// to some other content site that the shell uses!

@@ -1,0 +1,47 @@
+title: $:/inmysocks/Icon Menus Plugin
+created: 20150220023700527
+modified: 20150424012025214
+tags: inmysocks [[My Plugins]] [[My Project]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Icon Menus Plugin
+source-tiddler-title-as-link: Icon%20Menus%20Plugin
+
+The icon menus plugin is what adds the icon menus at the top and on the left side of this page.
+
+[[Another demo site is here|http://inmysocks.tiddlyspot.com/#Icon%20Menus%20Plugin]], and I use it on [[my homepage|http://ooktech.com/jed/externalbrain/]].
+
+To install this plugin on your wiki drag and drop this link into your wiki:
+
+[[$:/plugins/inmysocks/IconMenus]]
+
+This will add a tab in the control panel that lets you configure the menus however you want. There are many options, here are a few of the most important ones:
+
+*When you open the `Icon Menus Settings` tab in the control panel there is a button at the top that says `Set tiddler top position`. If you click this button it sets the default position of the top of the tiddlers to be even with the bottom of the top bar menu. If you don't do this than tiddlers will open with their titles behind the top bar, also if you have a ribbon like the `Powered by TiddlyWiki` one on this site and don't click on the button than the ribbon will be partly covered by the top bar,
+*Next is a list of checkboxes and dropdown menus. The check boxes turn each menu on or off, there are currently 10 options here:
+**Top Bar - this turns on or off the top bar itself, if this is off than none of the top menus will be visible. If you don't want the bar visible but want the menus you can turn off the top bar border and set the top bar color option to either `transparent` or just make it blank.
+**Top Left menu - this is the menu in the top left, in this wiki it shows the `Width/Font` button and the {{Menu Icon - Help}} icon.
+**Top Middle menu - this toggles the top middle menu, on this wiki it has the home button, the wiki title and the save wiki button.
+**Top Right menu - this toggles the top right menu
+**Right menu - this toggles the menu on the right side of the screen
+**Left menu - this toggles the menu on the left side of the screen
+**Bottom Bar - similar to the top bar, but on the bottom of the screen instead (not turned on in this wiki, you can change the settings in [[$:/ControlPanel]] to see what it looks like)
+**Bottom Left menu - the menu on the bottom left (also not shown in this wiki)
+**Bottom Middle menu - the menu in the middle of the bottom (also not shown in this wiki)
+**Bottom Right menu - the menu on the bottom right (also not shown in this wiki)
+*Next to each option there is a dropdown menu that controls the behavior of that menu. Some of the menus currently only have a single option. In this wiki the top bar uses the basic style, and the left menu uses the appear on hover style. There is also a popout on hover style that hides most of the menu until you hover the mouse over it and then it displays the entire menu.
+*Below all of that there are a bunch of tabs, one for each menu/bar. This is where you control the icons displayed on each menu and the menu appearance. Hopefully the settings are self explanatory, if not play with them to see what they do, it won't break anything.
+*Each menu tab has a list of entries that are currently available to be part of that menu, check the box next to an entry to add it to the menu. The `Order` column determines the order for the menu items. Order goes from top to bottom on the left and right menus and from left to right on all of the others.
+
+Any tiddler tagged with `Menu Icon` will appear on the list of potential menu entries. They don't have to be icons, the `Width/Font Size` button and the wiki title in the top bar are examples of non-icon entries. If you want a menu with text entries you can set the width of the left and right menus to me wide enough for your text and make the menu item tiddlers with the `Menu Icon` tag however you wish. This probably works best with the popout on hover style because the left and right menu widths don't do anything to the position of the tiddlers.
+
+The currently available icons in the plugin are:
+
+<$list filter='[plugintiddlers[]tag[Menu Icon]]'>
+<$link to=<<currentTiddler>>><$view field='caption'><$view field='title'/></$view></$link> - <$transclude/><br>
+</$list>
+
+Other icons used on this wiki (click and drag the link to import them to your wiki if you want them, be aware that some may require other tiddlers to function):
+
+<$list filter='[tag[Menu Icon]!prefix[$:/]]'>
+<$link to=<<currentTiddler>>><$view field='caption'><$view field='title'/></$view></$link> - <$transclude/><br>
+</$list>

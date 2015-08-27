@@ -1,0 +1,47 @@
+title: $:/TWaddle/Cred
+created: 20150406121231544
+creator: Mat
+modified: 20150724001550301
+modifier: Mat
+recent: 15/07/15
+summary: Thank You's to people who make //TWaddle// possible
+tags: TWaddle OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Cred
+source-tiddler-title-as-link: Cred
+
+\define star() <br>@@color:crimson;line-height:200%; ★ @@
+<<note "''I try to give credit'' where it is due. If you see something that //ought// to be credited to someone, //please tell me//. And if you feel //your// name is missing, then you're //likely right// - it's not on purpose and I hope my various attempted contributions can be accepted as a sign of my gratitude to you and our wonderful [[TW project|The TW Project]]. Two people not listed but that I still wish to particularly thank are [[@JeremyRuston]] and [[@MarioPietsch]] for continuous overall help. ">> 
+
+<table id="noborders">
+<<star>> ''Individuals'' 
+<col width="260">
+<$list filter="[each[cred]!cred[]] +[sort[cred]]">
+   <tr><td><<linkify {{!!cred}}>><br> <$transclude tiddler={{!!cred}} field="crednote"/></td>
+      <td nowrap><$list filter="[has[cred]cred{!!cred}]"><li><<linkify {{!!title}}>> <$list filter="[{!!title}!credurl[]]"><a href={{!!credurl}} target="_blank">@@color:lightgray; (url)@@</a></$list> </li></$list><$list filter="[{!!cred}backlinks[]first[]]">@@color:gray;font-size:90%; Mentions@@<br></$list><$list filter="[{!!cred}backlinks[]sort[title]]">@@font-size:90%; <li><<linkify {{!!title}}>></li>@@</$list></td>
+   </tr>
+</$list>
+
+<<star>> ''Sites or discussions''
+<$list filter="[each[credurl]!credurl[]!has[cred]] +[sort[]]">
+   <tr> <td><div id="urlcutter">{{!!credurl}}</div> </td>
+      <td><$list filter="[credurl{!!credurl}]"><li><<linkify {{!!title}}>></li></$list> </td>
+   </tr>
+</$list>
+
+<<star>> ''Creators of imported tiddlers''
+<$list filter="[each[creator]!creator[]!creator[Mat]!creator[M]] +[sort[]]">
+   <tr><td><<linkify {{!!creator}}>></td>
+      <td><$list filter="[creator{!!creator}]"><li><<linkify {{!!title}}>></li></$list> </td>
+   </tr>
+</$list>
+
+</table>
+
+<style> 
+#urlcutter  {  width: 170px;  white-space: nowrap;   overflow: hidden;   text-overflow: ellipsis; }
+#noborders, #noborders th, #noborders tr, #noborders td {border:0; }
+#noborders td {vertical-align:top; border-bottom:1px solid lightgray; }
+</style>
+
+[[Declaration on Contributions to the TW Project]]

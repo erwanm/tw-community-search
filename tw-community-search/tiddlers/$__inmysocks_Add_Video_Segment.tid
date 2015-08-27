@@ -1,0 +1,105 @@
+title: $:/inmysocks/Add Video Segment
+created: 20150106212520644
+modified: 20150107215719371
+tags: inmysocks [[YouTube Video Annotations]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add Video Segment
+source-tiddler-title-as-link: Add%20Video%20Segment
+
+\define thisMakeText()
+{{!!segment_description}}
+
+$(thisVideoIframe)$
+
+$(thisLongDescription)$
+\end
+
+\define thisMakeSegmentName()
+$(selectedVideo)$ - $(startTime)$ to $(endTime)$
+\end
+
+\define getProperTags() [[$(properTag)$]] [[$(selectedVideo)$]]
+
+\define properTag() [[Video Segment]]
+
+\define thisMakeVideoIframe()
+<$set name=videoID value={{$:/.rich/data/videos##$(selectedVideo)$}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start="$(startTime)$" end="$(endTime)$"/>
+</$set>
+\end
+
+<$set name=selectedVideo value={{!!selected_video}}>
+
+<<selectedVideo>>
+
+<!-- inputs for adding a video segment -->
+
+Video Segment (Start and End times should be in hh:mm:ss form):<br>
+Start:
+<$edit-text tiddler='$:/temp/videosegment' field=start size='10'/>
+End:
+<$edit-text tiddler='$:/temp/videosegment' field=end size='10'/> (<$button>Set Video Time<$action-setfield embed_start={{$:/temp/videosegment!!start}} embed_end={{$:/temp/videosegment!!end}}/></$button>, <$button>Reset Video Time<$action-setfield embed_start='00:00:00' embed_end='99:99:99'/></$button>)
+
+Short Description:<br><$edit-text tiddler='$:/temp/videosegment' field='segment_description' class='tc-edit-texteditor' placeholder='Short description for Video Segment' class='tc-edit-texteditor'/><br>
+
+Long Description:<br><$edit-text tiddler='$:/temp/videosegmentlongdescription' field='text' class='tc-edit-texteditor' placeholder='Long description for Video Segment' class='tc-edit-texteditor'/><br>
+
+<!-- Segment tag editor -->
+
+Tags (it will always be tagged with the name of the video by default):<br>
+<$reveal type=match state='$:/state/videosegmenttag!!add_or_create_tag' text='create'>
+New Tag: <$edit-text tiddler='$:/state/videosegmenttag' field='tag_temp' placeholder='New Tag'/><$fieldmangler tiddler='$:/state/videosegmenttag'>
+<$button>Create Tag
+<$action-setfield $tiddler={{$:/state/videosegmenttag!!tag_temp}} $field='video_tag' $value='true'/>
+<$action-setfield $tiddler='$:/state/videosegmenttag' $field='tag_temp' $value=''/>
+</$button>
+</$fieldmangler><$button set='$:/state/videosegmenttag!!add_or_create_tag' setTo='nocreate'>Done</$button><br>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/videosegmenttag!!add_or_create_tag' text='create'>
+Tag to add: 
+<$select tiddler='$:/state/videosegmenttag' field='selected_tag'>
+<$list filter='[video_tag[true]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+<$fieldmangler tiddler='$:/temp/videosegment'>
+<$button>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/state/videosegmenttag!!selected_tag}}/>Add Tag
+</$button><$button set='$:/state/videosegmenttag!!add_or_create_tag' setTo='create'>New Tag</$button>
+</$fieldmangler>
+<br>
+</$reveal>
+List of current tags:<br>
+<$fieldmangler tiddler='$:/temp/videosegment'>
+<$list filter='[[$:/temp/videosegment]tags[]]'><$view field='title'/> <$button>Remove Tag<$action-sendmessage $message='tm-remove-tag' $param=<<currentTiddler>>/></$button><br> </$list>
+</$fieldmangler>
+
+<!-- Button to create tiddler for the video segment -->
+
+<$set name=startTime value={{$:/temp/videosegment!!start}}>
+<$set name=endTime value={{$:/temp/videosegment!!end}}>
+
+<$set name=properTag value="""Video Segment""">
+<$set name=thisLongDescription value={{$:/temp/videosegmentlongdescription!!text}}>
+<$set name=thisVideoIframe value=<<thisMakeVideoIframe>>>
+<$fieldmangler tiddler=<<thisMakeSegmentName>>>
+<$button>Add Video Segment
+<$action-setfield $tiddler='$:/temp/videosegment' title=<<thisMakeSegmentName>>/>
+<$action-sendmessage $message='tm-add-tag' $param=<<properTag>>/>
+<$action-sendmessage $message='tm-add-tag' $param=<<selectedVideo>>/>
+<$action-setfield $tiddler=<<thisMakeSegmentName>> $field='text' $value=<<thisMakeText>>/>
+<$action-setfield $tiddler='$:/temp/videosegment' start='' end='' link='' segment_description=''/>
+<$action-setfield $tiddler='$:/temp/videosegmentlongdescription' text='' tags=<<properTag>>/>
+</$button>
+</$fieldmangler>
+</$set>
+</$set>
+</$set>
+
+</$set>
+
+<!-- List of video segments -->
+
+<$list filter='[tag<selectedVideo>tag[Video Segment]sort[title]]'>
+<$button class='tc-btn-invisible'>__{{!!start}} to {{!!end}} - {{!!segment_description}}__<$action-setfield $tiddler='YouTube Video Annotations' embed_start={{!!start}} embed_end={{!!end}}/></$button> <$link to=<<currentTiddler>>>(Open Tiddler)</$link><br>
+</$list>

@@ -1,0 +1,12 @@
+title: $:/inmysocks/TexZilla plugin for TiddlyWiki
+created: 20150131065340177
+modified: 20150204222755406
+name: TexZilla plugin for TiddlyWiki
+note: Another LaTeX parser for TiddlyWiki, has more features than KaTeX
+url: http://tw5-texzilla.tiddlyspot.com/
+value: 1
+tags: inmysocks Bookmark Math LaTeX TiddlyWiki Plugins
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: TexZilla plugin for TiddlyWiki
+source-tiddler-title-as-link: TexZilla%20plugin%20for%20TiddlyWiki
+

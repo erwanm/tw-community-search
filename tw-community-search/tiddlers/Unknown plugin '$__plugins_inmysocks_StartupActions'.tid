@@ -1,0 +1,9 @@
+title: Unknown plugin '$:/plugins/inmysocks/StartupActions'
+name: unknown
+short_description: $:/plugins/inmysocks/StartupActions
+created: 20150827170747000
+plugin_tiddler: $:/plugins/inmysocks/StartupActions
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

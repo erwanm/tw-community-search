@@ -1,0 +1,28 @@
+title: $:/TWaddle/Quirks
+created: 20150707101523685
+creator: Mat
+modified: 20150715205236920
+modifier: Mat
+recent: 15/07/12	
+tags: TWaddle Reference
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Quirks
+source-tiddler-title-as-link: Quirks
+
+<<note "This is a //draft// not ready for publication but I include it because it is linked to from the article [[Mind the gap]]. Please read that article to understand the context.">>
+
+----
+
+*you modify the tool itself (other editors create output files)
+*you modify a local copy of the stored TW (regardless of if stored on your own computer or on someone elses server)
+*the TW you see is a temporary copy of the stored version (no clickety-click on browser back button)
+*tiddler philosophy - what and why
+*entering edit creates a new individual unit existing in parallel
+
+*~Wikitext, no WYSIWYG
+
+Understanding what something is, accepting it, using it
+
+
+*difference between `[[...]], {{...}}, <<...>>, {{{...}}}, {{!!...}}, <$...>, `
+*animated side swiping from clicking edit or store

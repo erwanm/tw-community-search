@@ -1,0 +1,28 @@
+title: $:/TWaddle/How to install from Github
+created: 20150511062758967
+creator: Mat
+modified: 20150725152815501
+modifier: Mat
+recent: 15/05/14	
+tags: TWaddle GitHub UserHelp HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: How to install from Github
+source-tiddler-title-as-link: How%20to%20install%20from%20Github
+
+Turns out it's not so obvious how to install things from Github, e.g plugins. 
+
+[[Here|https://groups.google.com/forum/#!msg/tiddlywiki/7X5nZR5-w8M/qhnNgrjan58J]] is explanation for a specific case.
+
+Here's Jeremys [[general comment|https://groups.google.com/d/msg/tiddlywiki/I5d14GBG7JM/3AbdWAA2RjUJ]] on the isse:
+
+<<<
+There's no simple answer [for how to install from Github] because it actually depends how the developer has arranged their repository (which is just a folder full of files).
+
+In many cases, developers will publish the Node.js "exploded" plugin folder, where the tiddlers making up the plugin are separate files. That form is easiest for other Node.js developers to consume.
+
+[The specific example of [[EncryptTiddlerPlugin|https://github.com/danielo515/TW5-EncryptTiddlerPlugin]] includes] an HTML file that includes the built plugin, so you can download the ZIP of the repo, open that file and then install the plugin with drag and drop.
+
+Still other developers might use the ~GitHub "Releases" feature which allows you to upload arbitrary ZIPs of stuff.
+
+All of which complexity is why we now have a plugin library :)
+<<<

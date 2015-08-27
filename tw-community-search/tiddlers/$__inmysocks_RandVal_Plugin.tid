@@ -1,0 +1,145 @@
+title: $:/inmysocks/RandVal Plugin
+blurb:  A random number generator for TiddlyWiki
+created: 20141129205201054
+date: 01/08/15
+github: https://github.com/inmysocks/TW5-randVal
+lower_bound: 0.2
+modified: 20150424012325022
+num_rolls: 2
+random_value: 49
+step_size: 1
+test_field: 2
+test_field2: -1.1999999999999997
+upper_bound: 444
+version_number: 0.1.1
+tags: inmysocks Plugins [[Math Plugins]] [[My Project]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: RandVal Plugin
+source-tiddler-title-as-link: RandVal%20Plugin
+
+There is a github repo for this plugin [[here|https://github.com/inmysocks/TW5-randVal]]
+
+The RandVal plugin imports a javascript macro and a widget that allow you to generate random numbers.
+
+You need to import [[$:/plugins/inmysocks/randVal]] to use this.
+
+The widget is a modification of the action-setfield widget that sets a field to a random value. The syntax is:
+
+```
+<$action-randval $tiddler=tiddlerName $field=fieldName $lower=lowerBound $upper=upperBound $step=stepSize $numrolls=numRolls $prefix=prefixString $length=minLength/>
+```
+
+|!Attribute |!Description |
+|$lower |The lower bound of the random numbers generated, defaults to 1. |
+|$upper |The upper bound on the random numbers generated, defaults to 6. |
+|$step |The step size of the random numbers generated (that is all random numbers will be in the form rand = lowerBound+n*stepSize where n is an integer and lowerBound <= rand <= upperBound) stepSize defaults to 1 (so integer outputs). If stepSize > upperBound-lowerBound than the output will always be lowerBound |
+|$numrolls |The number of times to roll a random number and sum the results, defaults to 1 if no value is given. |
+|$tiddler |The tiddler that will contain the random value, defaults to `<<currentTiddler>>` |
+|$field |The field of the specified tiddler that will hold the random value, defaults to `store_field`. |
+|$prefix |An optional prefix to the appended to the front of the output number. No default. |
+|$length |The minimum length of the output, if the output would be shorter than this than zero padding is used. This will not shorten the output. |
+
+This widget can be triggered by a button or anything else that can trigger action widgets. When called this widget will set the value of the specified field to a random number between lowerBound and upperBound.
+
+!Default Values
+
+* The step size `$step` defaults to 1, which will return integers in the specified range (if the lowerBound is set to an integer, see the readme for details [[$:/plugins/inmysocks/randVal/readme]]). 
+* The lower bound `$lower` defaults to 1
+* The upper bound `$upper` defaults to 6
+* The number of random numbers to roll `$numrolls` defaults to 1
+* The tiddler name `$tiddler` defaults to `<<currentTiddler>>`
+
+There is no default value for `$field`. If you use the widget with only the `$field` value set it is equivalent to rolling a single 6 sided die.
+
+''Only `$numrolls` needs to be a positive integer. For the other inputs non-integer and/or negative values work as expected.''
+
+!A simple example:
+
+Code:
+
+```
+<$button>Simple Example
+<$action-randval $field='test_field'/>
+</$button>
+
+{{!!test_field}}
+```
+
+Result:
+
+<$button>Simple Example
+<$action-randval $field='test_field'/>
+</$button>
+
+{{!!test_field}}
+
+!A more complex example:
+
+Code:
+
+```
+Lower Bound: <$edit-text tiddler='$:/temp/randvaltest' field='lower_bound'/><br>
+Upper Bound: <$edit-text tiddler='$:/temp/randvaltest' field='upper_bound'/><br>
+Step Size: <$edit-text tiddler='$:/temp/randvaltest' field='step_size'/><br>
+Number of Rolls: <$edit-text tiddler='$:/temp/randvaltest' field='num_rolls'/><br>
+
+<$button>Roll the Dice
+<$action-randval $tiddler='RandVal Plugin' $field='test_field2' $lower={{$:/temp/randvaltest!!lower_bound}} $upper={{$:/temp/randvaltest!!upper_bound}} $step={{$:/temp/randvaltest!!step_size}} $numrolls={{$:/temp/randvaltest!!num_rolls}}/>
+</$button>
+
+{{!!test_field2}}
+```
+
+Result:
+
+Lower Bound: <$edit-text tiddler='$:/temp/randvaltest' field='lower_bound'/><br>
+Upper Bound: <$edit-text tiddler='$:/temp/randvaltest' field='upper_bound'/><br>
+Step Size: <$edit-text tiddler='$:/temp/randvaltest' field='step_size'/><br>
+Number of Rolls: <$edit-text tiddler='$:/temp/randvaltest' field='num_rolls'/><br>
+
+<$button>Roll the Dice
+<$action-randval $tiddler='RandVal Plugin' $field='test_field2' $lower={{$:/temp/randvaltest!!lower_bound}} $upper={{$:/temp/randvaltest!!upper_bound}} $step={{$:/temp/randvaltest!!step_size}} $numrolls={{$:/temp/randvaltest!!num_rolls}}/>
+</$button>
+
+{{!!test_field2}}
+
+!A more useful example:
+
+This will open a random tiddler from the `Wiki Examples` section of this wiki. It uses the `action-storecount` widget from the [[MathyThing Plugin]]
+
+The code:
+
+```
+<$list filter='[all[]!is[system]nth{!!random_value}]'>
+<$button>
+<$action-storecount $filter='[all[]!is[system]]' $tiddler='RandVal Plugin' $field='upper_bound'/>
+<$action-randval $tiddler='RandVal Plugin' $field='random_value' $lower=1 $upper={{RandVal Plugin!!upper_bound}} $step=1/>
+<$action-navigate $to=<<currentTiddler>>/>
+Open Random Tiddler
+</$button>
+</$list>
+```
+
+Will make a button that will open a random non-system tiddler.
+
+It renders as (press the button):
+
+<$list filter='[all[]!is[system]nth{!!random_value}]'>
+<$button>
+<$action-storecount $filter='[all[]!is[system]]' $tiddler='RandVal Plugin' $field='upper_bound'/>
+<$action-randval $tiddler='RandVal Plugin' $field='random_value' $lower=1 $upper={{RandVal Plugin!!upper_bound}} $step=1/>
+<$action-navigate $to=<<currentTiddler>>/>
+Open Random Tiddler
+</$button>
+</$list>
+
+!!Quirks:
+
+If you use this the way it is demonstrated in the last example the tiddler that is opened will be based on the current value of the field, then the field will be updated with a new random value. So it doesn't generate a random value and then open a tiddler based on that value, it uses the previous random value and then generates a new one.
+
+This means that the first time you press it nothing will happen unless you initialize the value stored in your field.
+
+You can probably get around this somehow, but that is how it works in this example.
+
+
+<<bottomOfTiddler {{!!title}}>>

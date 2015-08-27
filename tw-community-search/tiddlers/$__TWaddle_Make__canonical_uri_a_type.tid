@@ -1,0 +1,14 @@
+title: $:/TWaddle/Make _canonical_uri a type
+created: 20150417222904426
+creator: Mat
+modified: 20150715203159269
+modifier: Mat
+recent: 15/04/18	
+tags: TWaddle Proposals Quirk
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Make _canonical_uri a type
+source-tiddler-title-as-link: Make%20_canonical_uri%20a%20type
+
+_canonical_uri is a quirk. The field name looks weird and it is a one trick pony that the user must just learn.
+
+In [[#1594|https://github.com/Jermolene/TiddlyWiki5/issues/1594]]  there was a good idea to "sniff file extension from the URI to infer the type" . If this is implemented, then we could marginalize the quirkiness of _canonical_uri by making it a selectable as if a type itself! Because a tiddler with a _canonical_uri only accepts that one field+value, we could let the user instead add the value into the //text// field and choose //type// for the tiddler to be _canonical_uri. I don't know if the term "type" has a strict definition, but from a usability perspective it would harmonize with how you add other stuff into the //text// field and then choose a type to have it parsed correctly.
