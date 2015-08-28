@@ -1,0 +1,60 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #068
+created: 20141218211109303
+modified: 20141229013557733
+tags: TWHangouts HangOut_068 License hangouts TaskGraph
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #068
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23068
+
+2014-11-11 ''---''
+[[Youtube Link|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0]] ''---''
+[[Google Hangout|https://plus.google.com/events/cuek4r3dmto6n3haq1na4vh4t6s]] ''---''  [[min to sec 68]]
+
+---
+
+"""
+[[0:00:00|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=000m00s]]	''---''	Intro frtl: Yaka, Branimir, Danielo (later), Ed, Felix, Je
+[[0:05:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=005m20s]]	''---''	Jeremy- agenda, Felix demoes his taskgraph plugin
+[[0:06:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=006m50s]]	''---''	Felix- Taskgraph demo.
+[[0:08:40|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=008m40s]]	''---''	.. idea .. main editor in the right sidebar, views, snapsh
+[[0:09:40|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=009m40s]]	''---''	.. UI, tag filter, more filters to come
+[[0:13:30|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=013m30s]]	''---''	.. using UUIDs to identify the tiddler
+[[0:15:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=015m20s]]	''---''	Jeremy- You could have stored each edge as a tiddler. ...
+[[0:21:45|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=021m45s]]	''---''	Mario- Is there a "textual" notation to define edges.
+[[0:24:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=024m50s]]	''---''	Felix- about node clustering. ... about a possible hirachi
+[[0:26:35|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=026m35s]]	''---''	.. why he used the vis.js library
+[[0:28:35|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=028m35s]]	''---''	.. about his adaptor to the TW datastore
+[[0:30:56|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=030m56s]]	''---''	Mario- Is it possible to create a dataset out of existing
+[[0:35:18|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=035m18s]]	''---''	Jeremy- summary about the configuration tiddlers and the c
+[[0:38:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=038m50s]]	''---''	Felix- about the roadmap. about the plugin history
+[[0:44:10|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=044m10s]]	''---''	.. about the new TW "search tab"
+[[0:46:00|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=046m00s]]	''---''	.. how to create a snapshot. .. multipe graphs in differen
+[[0:47:30|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=047m30s]]	''---''	Jeremy- do you save the x/y position of the nodes. .. not
+[[0:52:00|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=052m00s]]	''---''	.. discussion about the development
+[[0:53:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=053m20s]]	''---''	Mario- vis.js is dynamically loaded at the moment??
+[[0:55:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=055m50s]]	''---''	Felix- questions, about the TW module types. uploading to
+[[1:02:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=062m20s]]	''---''	.. about the community feedback and further development.
+[[1:04:55|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=064m55s]]	''---''	.. about the TW core as a starting point / datastore
+[[1:07:05|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=067m05s]]	''---''	Branimir- about using it as a MindMap ..
+[[1:10:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=070m20s]]	''---''	Felix- idea to create a ticketing system with TaskGraph
+[[1:11:58|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=071m58s]]	''---''	.. discussion about GTD and what TW is used for
+[[1:13:25|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=073m25s]]	''---''	Yaka- will it be possible to change to size of the nodes o
+[[1:15:55|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=075m55s]]	''---''	Jeremy- What relationship do you see between TW and educat
+[[1:16:48|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=076m48s]]	''---''	Felix- about his experience, working with TW. A fast way t
+[[1:21:10|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=081m10s]]	''---''	.. comparing TW with word .. people should know aobut TW
+[[1:24:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=084m20s]]	''---''	Jeremy- short summary ... some general discussion about kn
+[[1:28:25|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=088m25s]]	''---''	.. discussion about organizing your knowledge and organizi
+[[1:33:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=093m50s]]	''---''	.. how can we make TW more prominent / visible to users
+[[1:35:40|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=095m40s]]	''---''	Mario- there is a "hidden" structure in tiddlers. Exposing
+[[1:39:30|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=099m30s]]	''---''	Yaka- reflection about difficulties for new users, how to
+[[1:42:45|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=102m45s]]	''---''	Jeremy- .. the core should have more "refactoring" feature
+[[1:45:30|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=105m30s]]	''---''	Jeremy- Shows the new Export feature. discussion about the
+[[1:52:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=112m20s]]	''---''	Danielo- Is the CSS exported too? yes, as inline CSS
+[[1:53:55|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=113m55s]]	''---''	.. what's about exporting javascritp? no.
+[[1:55:20|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=115m20s]]	''---''	.. export templates could dynamically load js libraries.
+[[1:55:55|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=115m55s]]	''---''	Jeremy- zip file format may be possible in the future.
+[[1:57:45|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=117m45s]]	''---''	Felix- Is it possible to do a "deep export" that contains
+[[1:58:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=118m50s]]	''---''	Mario- When will 5.1.5 be released. .. sooon :) but have a
+[[1:59:50|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=119m50s]]	''---''	Felix- How do you pass the parameters to eg: new-tiddler f
+[[2:03:15|https://www.youtube.com/watch?v=H8G6BEQpvW0&t=0&t=123m15s]]	''---''	Bye! Bye!
+"""

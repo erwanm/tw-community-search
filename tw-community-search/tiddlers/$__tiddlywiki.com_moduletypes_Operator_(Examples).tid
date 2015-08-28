@@ -1,0 +1,10 @@
+title: $:/tiddlywiki.com/moduletypes Operator (Examples)
+created: 20150123221601000
+modified: 20150123221623000
+type: text/vnd.tiddlywiki
+tags: tiddlywiki.com [[moduletypes Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: moduletypes Operator (Examples)
+source-tiddler-title-as-link: moduletypes%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[moduletypes[]]">>

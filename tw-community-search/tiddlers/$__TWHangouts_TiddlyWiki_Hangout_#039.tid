@@ -1,0 +1,48 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #039
+created: 20150106015007069
+modified: 20150106015135755
+tags: TWHangouts HangOut_039 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #039
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23039
+
+\define hangout() 039
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: frtl: Eric, Mario (0:28:00), Jeremy, Matias, Ton">>
+<<topic "0:01:30" "Matias- Advantage of the nodejs / nodejs portable version?">>
+<<topic "0:04:05" "Matias- Is there anything not appropriate in installing nodejs on a google docs drive, using the desktop version. What about in dropbox?">>
+<<topic "0:10:25" "Matias- Where, if anywhere, do I find a list of forbidden characters for tiddler titles? One of those questions I've neglected forever and just limited what I title my tiddlers. Difference between twc and tw5?">>
+<<topic "0:12:07" "Stephan- Are there plans to support multi user editing in the node.js edition of TW5?">>
+<<topic "0:18:25" "Nathan- With google drive, you can run js now, w/ google apps.... full js w/ packages and everything! Could that be applicable?">>
+<<topic "0:21:15" "Nathan- Shouldn't we maybe take questions in topical order? Might get tricky, in either case, heh...">>
+<<topic "0:21:48" "Nathan- What's the status on the NPM packaging and build process? (Seems loosely related?)">>
+<<topic "0:22:26" "Matias- Do I understnad it correct that nodejs should be installed in same folder as TW5nodejs, also meaning that if I want another TW5nodejs then I sould install a new nodejs. Or is nodejs 'global'?">>
+<<topic "0:23:30" "Matias- proposing discussion on tables. Particularly I'm wondering if we could utilize the tab key for tables to lessen the mess in edit mode.">>
+<<topic "0:24:40" "about the tab key / wysiwyg">>
+<<topic "0:29:00" "Jeremy- about the TW development and Open Source (... philosophy)">>
+<<topic "0:31:10" "Matias- What about voting on features?">>
+<<topic "0:34:25" "Eric- About feedback for TW development ... (summary)">>
+<<topic "0:40:00" "Matias- Why is TW not bigger, than it is? ... (It's from dev's, for dev's)">>
+<<topic "0:46:25" "Eric- How Eric explains TW to interested 'guests'">>
+<<topic "0:48:30" ".. Jeremy- about 'What learned with TWclassic' ... about TW5 editions">>
+<<topic "0:51:00" ".. Matias- about a 'central plaice' to explore TW5">>
+<<topic "0:54:20" "Mario- About discussion forums">>
+<<topic "0:55:15" "Eric- About google groups discussions / knowledgebase">>
+<<topic "0:58:15" "Nathan- tiddlywiki+codemirror+ometa is ridiculously good fun and might apply to better wysiwyg, as well as some of the parser/BNFish discussions from earlier. Would there be interest in some rebased patches for it?">>
+<<topic "0:59:25" "Nathan- some of the crazy crypto-currency folks are exploring some very interesting community coordination mechanisms and such (DAOs/DACs) might this be particularly applicable to tiddly in these feedback cycle questions?">>
+<<topic "1:01:15" "Matias- Proposing a discussion on links(!) I'll explain more in hangout but, briefly, going back to where you were in a text after you 'opened a link + read + closed' ought to be smoother.">>
+<<topic "1:05:10" "Jeremy- about different story columns ...">>
+<<topic "1:06:45" "Jeremy- about substance composer">>
+<<topic "1:12:00" "Mario- about TW editions with 'a single purpose'">>
+<<topic "1:12:25" "Jeremy- about 'what IS TiddlyWiki'">>
+<<topic "1:14:00" "Jeremy- what's new in 5.0.9 prerelease">>
+<<topic "1:14:30" ".. NEW: 'Advanced panel' in tiddler info panel">>
+<<topic "1:17:15" "Mario- TODO: about translations and handling 'diffs'">>
+<<topic "1:23:10" "Jeremy/Mario- about upgrading from TiddlyWikiClassic">>
+<<topic "1:29:30" "Jeremy- new colour for the $:/ prefix">>
+<<topic "1:30:40" "Matias/Jeremy- about system tiddlers 'users' need / want to deal with ....">>
+<<topic "1:37:30" "Jeremy- NEW Tag Manager let's you select icons for tags. ... TODO about tag colour manipulation.">>
+<<topic "1:48:55" "Jeremy- NEW an architecture diagram">>
+<<topic "1:56:56" "Bye! Bye!">>

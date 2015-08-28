@@ -1,0 +1,27 @@
+title: $:/demo/Edit All Tags
+created: 20150126104003540
+creator: Tobias Beer
+modified: 20150126104607475
+modifier: Tobias Beer
+tags: demo Tags Demo Lists
+source-wiki-id: demo
+source-tiddler-title-as-text: Edit All Tags
+source-tiddler-title-as-link: Edit%20All%20Tags
+
+The below outputs the tag editor for all tiddlers (requires [[Consolidate Tag Macro]] !)...
+
+```
+<dl>
+<$list filter="[!is[system]sort[title]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd class="no-before">{{||$:/core/ui/EditTemplate/tags}}</dd>
+</$list>
+</dl>
+```
+
+<dl>
+<$list filter="[!is[system]sort[title]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd class="no-before">{{||$:/core/ui/EditTemplate/tags}}</dd>
+</$list>
+</dl>

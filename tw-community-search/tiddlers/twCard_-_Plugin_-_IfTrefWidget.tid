@@ -17,6 +17,10 @@ short_description: An if statement that is triggered by a comparison between two
 title: twCard - Plugin - IfTrefWidget
 wiki: http://gwiz.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: gWiZ
+twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/iftref
+twcs-description: Contains the <$iftref> widget
+twcs-author: 
+twcs-version: 0.0.3
 
 {{||$:/CommunityPluginTemplate}}

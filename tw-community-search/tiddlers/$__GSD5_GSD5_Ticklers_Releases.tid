@@ -1,0 +1,9 @@
+title: $:/GSD5/GSD5 Ticklers Releases
+tags: GSD5
+source-wiki-id: GSD5
+source-tiddler-title-as-text: GSD5 Ticklers Releases
+source-tiddler-title-as-link: GSD5%20Ticklers%20Releases
+
+<$set name="currentRelease" filter="[tag[current release]tag[GSD5Ticklers]]">
+<$macrocall $name="tabs" tabsList="[tag[release]!tag[prerelease]!sort[released]tag[GSD5Ticklers]]" default=<<currentRelease>> state="$:/state/releasetab" class="tc-vertical" template="ReleaseTemplate" />
+</$set>

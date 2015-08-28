@@ -1,0 +1,11 @@
+title: $:/TribalKnowledge/Creating a Tiddler with Tabs
+blurb: How to create tiddlers containing tabs
+created: 20140309180448850
+modified: 20140315195843540
+subtopic: Syntax
+tags: TribalKnowledge [[Knowledge Base]]
+source-wiki-id: TribalKnowledge
+source-tiddler-title-as-text: Creating a Tiddler with Tabs
+source-tiddler-title-as-link: Creating%20a%20Tiddler%20with%20Tabs
+
+<<tabs "[[Creating Tabs From Static Tiddlers]] [[Creating Tabs From Dynamic Tiddlers]]">>

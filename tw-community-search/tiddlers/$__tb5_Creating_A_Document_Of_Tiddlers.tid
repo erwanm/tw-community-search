@@ -1,0 +1,30 @@
+title: $:/tb5/Creating A Document Of Tiddlers
+created: 20150119175103896
+creator: Tobias Beer
+modified: 20150120005038219
+modifier: Tobias Beer
+tags: tb5 Solutions Presentation Text Documentation Lists Filters
+source-wiki-id: tb5
+source-tiddler-title-as-text: Creating A Document Of Tiddlers
+source-tiddler-title-as-link: Creating%20A%20Document%20Of%20Tiddlers
+
+In an [[answer to Joerg|https://groups.google.com/d/msg/tiddlywiki/zbiwXL5orIk/RNqgTXQfJroJ]], I pointed out a rather easy way to construct a document from a number of tiddlers using a [[simple enumeration|http://filters.tiddlyspot.com/#simple%20enumeration]] in a filter.
+
+```
+<$list filter="
+[[Chapter 1]]
+[[Chapter 2]]
+[[Chapter 3]]
+">
+
+!<$link><$view field="title"/></$link>
+
+{{!!text}}
+</$list>
+```
+
+This process can be further simplified and reused using a macro...
+
+! Macro
+
+{{makedoc}}

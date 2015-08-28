@@ -1,0 +1,16 @@
+title: $:/TonGernerPlayground/Searchtab plugin
+created: 20150719185758431
+creator: TonGerner
+modified: 20150719190932332
+modifier: TonGerner
+tags: TonGernerPlayground plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Searchtab plugin
+source-tiddler-title-as-link: Searchtab%20plugin
+
+!!Searchtab plugin v<<pversion "searchtab">>
+[[$:/plugins/tongerner/searchtab]]
+
+This plugin add a 'System tag' tab just below the standard 'Tags' tab and changes 'Search' from above the tabs to a tab (as used here).
+
+For a description, see [[Customization of TW5|http://tw5custom.tiddlyspot.com/]] > Examples: Add a 'System tags' tab & Change search box position.

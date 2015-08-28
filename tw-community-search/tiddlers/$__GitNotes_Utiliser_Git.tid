@@ -1,0 +1,86 @@
+title: $:/GitNotes/Utiliser Git
+created: 20150216103314199
+modified: 20150424081428973
+tags: GitNotes Menu
+source-wiki-id: GitNotes
+source-tiddler-title-as-text: Utiliser Git
+source-tiddler-title-as-link: Utiliser%20Git
+
+__''Toute ces opérations sont réalisées en local sur votre système.''__
+
+!!!@@float:right;text-align:right;color:green; __Dossier de travail__@@
+
+1. Créer le dossier de travail (avec le nom de votre projet)
+
+```c
+$ mkdir mon_projet
+$ cd mon_projet
+```
+
+2. Initialiser un dépôt Git tout neuf dans ce dossier
+
+```c
+$ git init
+```
+
+Retour
+
+```c
+$ git init
+Dépôt Git vide initialisé dans /home/user/mon_projet/.git/
+```
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> La commande `git init` transforme le répertoire courant en un dépôt Git local. Un dossier `.git` est créé dans ce répertoire qui stockera les différentes révisions et informations du projet.
+@@
+
+
+3. Copier un fichier (par exemple `file.txt`) dans le dossier `mon_projet`
+
+!!!@@float:right;text-align:right;color:green; __Zone d'index__@@
+
+4. Ajouter le fichier à l'index
+
+```c
+$ git add file.txt
+```
+
+!!!@@float:right;text-align:right;color:green; __Dépôt local__@@
+
+5. Réaliser son premier commit
+
+```c
+$ git commit -m "First commit"
+```
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> L'option `-m` permet d'ajouter un message au commit. Il faut toujours décrire succinctement les changement apportés aux fichiers (moins de 50 caractères).<br>
+@@
+
+retour:
+
+```c
+$ git commit -m "First commit"
+[master (root-commit) 71c7399] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+```
+
+6. Vérifier que tout est bon avec la commande
+
+```c
+$ git log
+```
+
+retour:
+
+```c
+$ git log
+commit 71c739930fde4efd0746b452115329fdc8b2b38e
+Author: [Votre_pseudo] [Votre_Email]
+Date:   Mon Feb 16 14:02:05 2015 +0100
+
+First Commit
+```
+
+> ''Et voilà! Vous savez maintenant utiliser Git dans ses grandes lignes.''

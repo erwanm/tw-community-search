@@ -1,0 +1,41 @@
+title: $:/t5a/Batch Tags
+created: 20150421132741020
+creator: Andrew Harrison
+modified: 20150503151131791
+modifier: Andrew Harrison
+tags: t5a New NeedsWork [[Under construction]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: Batch Tags
+source-tiddler-title-as-link: Batch%20Tags
+
+{{Under construction}}Resource: [[Fwd: [tw] Re: TW5 Batch Add/Remove Tags.|https://groups.google.com/forum/#!searchin/tiddlywiki/Fwd$3A$20%5Btw%5D$20Re$3A$20TW5$20Batch$20Add$2FRemove$20Tags.%7Csort:relevance/tiddlywiki/3KxvZVFCt9w/xBct1MShbrEJ]]
+
+Per Jed: [[http://ooktech.com/jed/ExampleWikis/Version518Fun/#Search%20and%20Replace%20Tags]]
+
+```
+\define thisSelectTag()
+Tag to replace: <$select field='selected_tag'>
+<$set name=TagSearch value={{$:/temp/changetags!!search_tags}}>
+<$list filter='[tags[]regexp[(?i)$(TagSearch)$]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$set>
+</$select> <$edit-text tiddler='$:/temp/changetags' field='search_tags' class='tc-exit-textexitor' placeholder='Narrow Tags List'/>
+\end
+
+This lets you search for all tiddlers with a specific tag and selectivly replace that tag with another one. Or if the 'Replace With' field is empty just remove the tag from the tiddler(s).
+
+<<thisSelectTag>>
+
+Replace With: <$edit-text tiddler='$:/temp/changetags' field='replace_tag' class='tc-edit-texteditor'/>
+
+<table>
+<tr><th>Tiddler</th><th>Replace?</th></tr>
+<$list filter='[tag{!!selected_tag}]'>
+<$fieldmangler tiddler=<<currentTiddler>>>
+<tr><td><$link to=<<currentTiddler>>><$view field='title'/></$link></td><td><$button>Change Tag<$action-sendmessage $message='tm-add-tag' $param={{$:/temp/changetags!!replace_tag}}/><$action-sendmessage $message='tm-remove-tag' $param={{Search and Replace Tags!!selected_tag}}/></$button></td></tr>
+</$fieldmangler>
+</$list> 
+```
+
+Add the field `selected_tag`.

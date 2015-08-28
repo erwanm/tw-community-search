@@ -1,0 +1,14 @@
+title: $:/dev/Useful Filters
+created: 20141210101702237
+creator: Tobias Beer
+modified: 20141210111418253
+modifier: Tobias Beer
+tags: dev Inspect
+source-wiki-id: dev
+source-tiddler-title-as-text: Useful Filters
+source-tiddler-title-as-link: Useful%20Filters
+
+;`[all[tiddlers+shadows]has[module-type]!prefix[$:/core/]sort[title]]`
+:all plugin modules
+;`[all[shadows]has[module-type]!prefix[$:/core/]sort[title]]`
+:all plugin modules in shadows

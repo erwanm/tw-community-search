@@ -1,0 +1,76 @@
+title: $:/demo/Too Wide Tables
+created: 20141126200819520
+creator: Tobias Beer
+modified: 20141126202141815
+modifier: Tobias Beer
+tags: demo Fails Demo Styles
+source-wiki-id: demo
+source-tiddler-title-as-text: Too Wide Tables
+source-tiddler-title-as-link: Too%20Wide%20Tables
+
+The problem...
+
+|looks|like|it's|way|too|http://tooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooloooooooooooooooooooooooooooooooooooooong.com|
+
+[[@danielo515|https://github.com/danielo515]], would you say the below table is really a satisfying answer to solve [[the  problem above|https://github.com/Jermolene/TiddlyWiki5/issues/1095#issuecomment-64700373]]?
+
+This table will always put columns at equal width, no matter what the content:
+
+@@.the-table
+|looks|like|it's|way|too|http://tooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooloooooooooooooooooooooooooooooooooooooong.com|
+@@
+
+<style>
+.the-table td {
+    /* css-3 */
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+
+.the-table { 
+  table-layout: fixed;
+  width: 100%
+}
+
+.fix-table {
+    overflow-x:auto; 
+}
+</style>
+
+
+!!Styles
+
+```
+<style>
+.the-table td {
+    /* css-3 */
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+
+.the-table { 
+  table-layout: fixed;
+  width: 100%
+}
+
+.fix-table {
+    overflow-x:auto; 
+}
+
+</style>
+```
+
+!! For comparison, the proposed solution
+
+I truly don't see what's wrong with a wrapper. It's been the solution to fix problems ever since there were problems.
+
+<div class="fix-table">
+
+|looks|like|it's|way|too|http://tooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooloooooooooooooooooooooooooooooooooooooong.com|
+</div>

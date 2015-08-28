@@ -1,0 +1,49 @@
+title: $:/let/GettingStarted
+caption: Start
+created: 20141125230000000
+creator: Tobias Beer
+icon: $:/core/images/home-button
+menu-icon: {{$:/core/images/home-button}}
+modified: 20141203230000000
+modifier: Tobias Beer
+tags: let
+source-wiki-id: let
+source-tiddler-title-as-text: GettingStarted
+source-tiddler-title-as-link: GettingStarted
+
+@@color:#dd1144;
+<<<
+''Important!'' I have decided to __[[change the BASIC SYNTAX again (!)|Syntax Changes]]__, for one, to drop the colons. Anyhow, this is still in beta, so please test. It will at some point be packaged as a plugin. So that will / might change soon.
+<<<
+@@
+
+[[LetFilter|$:/plugins/tobibeer/letfilter/let.js]] allows to compare and calculate fields of tiddlers in a filter list, e.g.:
+
+* [[compare|Comparators]] a given [[date|TYPE]] [[field]] against a specified [[date|TYPE]] 
+** by default, both dates are [[compared|OPERATION]] with [[day accuracy|! exact]]
+* [[compare|Comparators]] a [[boolean|TYPE]] [[field]] against a specified [[boolean|TYPE]]
+* [[compare|Comparators]] a [[number|TYPE]] / [[integer|TYPE]] [[field]] against a specified [[number|TYPE]] / [[integer|TYPE]]
+* [[calculate|Arithmetic Operations]] a [[number|TYPE]] / [[integer|TYPE]] [[field]] using [[basic arithmetics|Arithmetic Operations]]
+* [[calculate|Boolean Operations]] a [[boolean|TYPE]] [[field]] using [[basic boolean operations|Boolean Operations]]
+* define whether to consider [[blank field values|BLANKS]] in its operations or not
+* return a [[random|RANDOM]] number of items from a result list
+
+!!Installation
+
+To install, simply drag this link: [[$:/plugins/tobibeer/letfilter/let.js]] onto your TiddlyWiki.
+
+!! A First Example
+
+Tiddlers created the day after the tiddler [[Tobias Beer]] was created...
+
+```
+<<list-links
+filter:"[!is[system][let: DATE created +1D {Tobias Beer!!created}]">>
+```
+
+<<list-links
+filter:"[!is[system]let:DATE created +1D {GettingStarted!!created}]">>
+
+Don't trust the result? Verify against the [[Timeline]].
+
+''Note:'' There does seem to be some core date conversion going on that I haven't quite understood yet being on CET and seeing all created dates are always only stored with day accuracy or by the hour, not sure.

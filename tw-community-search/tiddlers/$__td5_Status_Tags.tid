@@ -1,0 +1,36 @@
+title: $:/td5/Status Tags
+created: 20141117142324780
+creator: Tobias Beer
+modified: 20141117174647886
+modifier: Tobias Beer
+tags: td5
+source-wiki-id: td5
+source-tiddler-title-as-text: Status Tags
+source-tiddler-title-as-link: Status%20Tags
+
+<$fieldmangler>
+    <$button>
+        <$action-sendmessage $message="tm-remove-tag" $param="next"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="wait"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="future"/>
+                reset
+    </$button>
+    <$button>
+        <$action-sendmessage $message="tm-add-tag" $param="next"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="wait"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="future"/>
+                next
+    </$button>
+    <$button>
+        <$action-sendmessage $message="tm-remove-tag" $param="next"/>
+        <$action-sendmessage $message="tm-add-tag" $param="wait"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="future"/>
+                wait
+    </$button>
+    <$button>
+        <$action-sendmessage $message="tm-remove-tag" $param="next"/>
+        <$action-sendmessage $message="tm-remove-tag" $param="wait"/>
+        <$action-sendmessage $message="tm-add-tag" $param="future"/>
+                future
+    </$button>
+</$fieldmangler>

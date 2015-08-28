@@ -1,0 +1,40 @@
+title: $:/LibreNotes/Introduction
+created: 20150420134453342
+modified: 20150711160807322
+tags: LibreNotes transparent
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+<div style="text-align:center; font-size:90%;">
+~LibreNotes est une démonstration de ~TiddlyWiki et un projet de partage de documentation sur les logiciels libres que j'utilise au quotidien.
+</div>
+<br>
+
+<table class="invisibletablea">
+<tr>
+<td>
+<div style="text-align:center; font-size:110%; background-color: rgba(255,255,255,0.5)">
+Chakra<br>
+[img width="46" [chakra_logo.png]]<br>
+</div>
+<div style="text-align:center; font-size:70%; background-color: rgba(255,255,255,0.5)">
+Une distribution GNU/Linux centrée sur KDE
+</div>
+</td>
+<td>
+<div style="text-align:center; font-size:110%; background-color: rgba(255,255,255,0.5)">
+~TiddlyWiki<br>[img width="74" [Motovun Jack.svg]]<br>
+</div>
+<div style="text-align:center; font-size:70%; background-color: rgba(255,255,255,0.5)">
+Un carnet de notes web personnel et non linéaire
+</div>
+</td>
+<td>
+<div style="text-align:center; font-size:110%; background: rgba(255,255,255,0.5)">
+Git<br>[img width="46" [git_logo.png]]<br>
+</div>
+<div style="text-align:center; font-size:70%; background: rgba(255,255,255,0.5)">
+Un logiciel de gestion de version décentralisé
+</div>
+</td>

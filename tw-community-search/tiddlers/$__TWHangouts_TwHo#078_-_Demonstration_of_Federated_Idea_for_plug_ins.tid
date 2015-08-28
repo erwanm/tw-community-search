@@ -1,0 +1,14 @@
+title: $:/TWHangouts/TwHo#078 - Demonstration of Federated Idea for plug ins
+created: 20150204004500725
+modified: 20150204005722878
+tags: TWHangouts demo [[TiddlyWiki Hangout #078]] react.js
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TwHo#078 - Demonstration of Federated Idea for plug ins
+source-tiddler-title-as-link: TwHo%23078%20-%20Demonstration%20of%20Federated%20Idea%20for%20plug%20ins
+
+<<embed "078" "01:42:00 " "01:48:29">>
+
+"""
+It is built with Tiddlywiki and it kinda works and have not run into many problems
+This could be the basics of a query requests to the outside world
+[[react.js]] comes up

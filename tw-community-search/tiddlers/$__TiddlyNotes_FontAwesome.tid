@@ -1,0 +1,20 @@
+title: $:/TiddlyNotes/FontAwesome
+created: 20150119132121656
+modified: 20150123095034610
+tags: TiddlyNotes Plugin
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: FontAwesome
+source-tiddler-title-as-link: FontAwesome
+
+<<<
+Le plugin FontAwesome permet l'intégration des [[icônes Font Awesome|https://fortawesome.github.io/Font-Awesome/icons/]] dans ~TiddlyWiki.
+<<<
+
+*Auteur : ''~TheDiveO''
+*http://thediveo.github.io/TW5FontAwesome/ <i class="fa fa-external-link-square" style="color:#60B643"></i>
+
+Installer le depuis https://thediveo.github.io/TW5FontAwesome/output/fontawesome.html <i class="fa fa-external-link-square" style="color:#60B643"></i> et importer le tiddler suivant:
+
+```
+$:/plugins/TheDiveO/FontAwesome/fonts/FontAwesome
+```

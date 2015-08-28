@@ -1,0 +1,36 @@
+title: $:/TWHangouts/HangOut_047
+created: 20150105202951255
+modified: 20150105203047734
+tags: TWHangouts License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_047
+source-tiddler-title-as-link: HangOut_047
+
+2014-05-27 - [[YouTube|https://www.youtube.com/watch?v=e2rDnFUqlWw]]
+
+---
+"""
+0:00:00 Intro frtl: Jeremy, Mario, Paul, Stephan
+0:02:10 Jeremy- Paul .. anything to share with the community? ... using TWc with tablets
+0:13:37 Danielo joined
+0:13:53 Jeremy- the agenda
+0:14:40 Jeremy- the parsing mechanism needs some refactoring
+0:15:50 Jeremy- GFM ... line break handling
+0:18:08 Jeremy- global macros
+0:20:25 Jeremy- anything else ... ? Stephan & Mario ... Environment variables issue at github
+0:22:50 Ton joined
+0:23:30 Danielo- hi!
+0:23:50 Danielo- What's the usecase for the environment variables?
+0:29:44 Jeremy- IreneKnapp's ticket about multi-users with tiddlyspot
+0:39:35 Jeremy- How do you like the new "permaview" behaviour.
+0:53:50 Jeremy- ... new issue ... vertical tabs don't work
+0:55:45 Danielo- question about node, node-webkit, TiddlyDesktop
+0:59:40 Jeremy- about integrating VexTab ...
+1:03:10 Danielo- question about importing 3rd party libraries into TW
+1:04:25 Jeremy- about 3rd party libs. ...
+1:10:50 Jeremy- any other topics? ... Danielo .. who to use jquery
+1:24:00 ... difficulties using jquery wiht TW. ...
+1:25:45 Jeremy- About the TW article in a swiss newspaper ... TW philosophy in general
+1:28:50 Jeremy- about "independent technology" and the "no backend" movement ...
+1:34:35 ... Bye! Bye"
+"""

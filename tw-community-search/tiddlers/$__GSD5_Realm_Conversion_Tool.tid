@@ -1,0 +1,22 @@
+title: $:/GSD5/Realm Conversion Tool
+tags: GSD5 tools
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Realm Conversion Tool
+source-tiddler-title-as-link: Realm%20Conversion%20Tool
+
+The change from [[version 0.3-beta|v0.3-beta]] to [[version 0.4-beta|v0.4-beta]] resulted in change on how Realms are implemented.  The change involves the switch from system tags to the use of the gsd_type field.  This change can render user-created Realms non-working in version 0.4beta.  This tiddler should make the transition automated as possible with the given tools.
+
+Click the `Convert Realm` button below and your realm tiddlers will be updated to the current schema for GSD5. Once your Realm have been updated, delete this tiddler.
+
+''Tiddlers Needing Conversion''
+
+---
+
+<$list filter="[tag[$:/tags/realm]]">
+<$view field="title"/>
+<$button>
+<$action-deletefield tags/>
+<$action-setfield $field="gsd_type" $value="realm"/>
+Convert Realm
+</$button><br/>
+</$list>

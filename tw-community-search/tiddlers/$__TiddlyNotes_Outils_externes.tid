@@ -1,0 +1,12 @@
+title: $:/TiddlyNotes/Outils externes
+color: #ffff93
+created: 20150119110308361
+modified: 20150226105839681
+tags: TiddlyNotes Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Outils externes
+source-tiddler-title-as-link: Outils%20externes
+
+Pour travailler avec ~TiddlyWiki de manière simple et efficace, il existe TiddlyFox, une extension indispensable pour Firefox et TiddlyDesktop une application dédiée.
+
+<<tabs "[tag[Outils externe]]" "TiddlyFox" "$:/state/tab2" "tc-vertical">>

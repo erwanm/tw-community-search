@@ -1,0 +1,50 @@
+title: $:/TWHangouts/HangOut_011
+created: 20150119002815309
+modified: 20150119002900629
+tags: TWHangouts License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_011
+source-tiddler-title-as-link: HangOut_011
+
+2013-09-03 - [[YouTube|http://www.youtube.com/watch?v=umV13nEJZBk]]
+
+"""
+0:00:00 fltr: Craig Prichard, David Gifford, Eric Shulman, Jeremy Ruston, Kolmar Kafran, Mario Pietsch, Scott Simmons, Simon Harper, Tobias Beer
+0:03:45 Agenda
+0:04:24 Jeremy- New Features TW5 - new WikiInfo tiddler
+0:06:00 Jeremy- ControlPanel - AnimationDuration tiddler
+0:07:35 Jeremy- ThemeTweaks - and how it works with transclusion ...
+0:11:30 Jeremy- ThemeTweaks with FF - change story column and colors
+0:16:05 Jeremy- AndTidWiki app support
+0:19:00 Jeremy/Scott- MathML support
+0:22:45 Mario/Jeremy- What was the problem with MathJax
+0:25:35 Jeremy- "What we need is a LaTeX parser ..."
+0:26:05 Jeremy- Moving from Alpha to Beta
+0:27:20 J- "We should push to NPM" (node package manager)
+0:28:00 J- "We need Release note and Release announcements"
+0:28:40 J- about the update / upgrade mechanism
+0:29:18 Scott/Jeremy - Live cycle of TW-classic / Migration points?
+0:32:23 Jeremy- When switch tiddlywiki.com to TW5
+0:34:20 Jeremy- Analytics about tiddlywiki.com
+0:38:10 Jeremy- "TiddlyWiki-classic is a extremely usefull tool"
+0:40:35 Jeremy- There should be a solid upgrade story for TW5!
+0:42:43 Dave- Browser back/forward button should work
+0:44:45 Dave- about permalinks
+0:46:00 Jeremy- Wikitext changes may be disruptive
+0:47:13 Scott/Jeremy- about Syntax changes, in the middle of beta?!
+0:51:25 Jeremy- summs up from his "take aways"
+0:52:38 Scott/Jeremy- about the show stoppers to beta
+0:54:20 Jeremy- TiddlerLink should not be bold. But this causes some "hickups"
+0:59:53 Jeremy- about TiddlerWidget and TranscludeWidget
+1:06:08 Jeremy- New way of handling the ViewTemplate
+1:11:45 Craig- What defines the order to build the ViewTemplate?
+1:15:15 Jeremy/Kolmar- about MathML with FF
+1:23:23 Jeremy- any questions?
+1:23:40 Kolmar- How to handle images .. eg: SVGs for diagrams
+1:25:10 Jeremy- Inserts an image to TW5 and transclude them
+1:29:10 Jeremy- needs a pause ...
+1:30:27 Jeremy- is back
+1:30:55 Jeremy- Any more questions?
+1:32:40 Jeremy/Kolmar about translation into portuguese
+1:34:34 Kolmar about moneylog ... has an offline version similar to TW
+1:41:08 Bye! Bye!

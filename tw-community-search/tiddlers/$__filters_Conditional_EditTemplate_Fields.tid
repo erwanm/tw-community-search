@@ -1,0 +1,19 @@
+title: $:/filters/Conditional EditTemplate Fields
+created: 20150106230949475
+creator: Tobias Beer
+modified: 20150107110933797
+modifier: Tobias Beer
+tags: filters Templates Examples
+source-wiki-id: filters
+source-tiddler-title-as-text: Conditional EditTemplate Fields
+source-tiddler-title-as-link: Conditional%20EditTemplate%20Fields
+
+; based on...
+: https://groups.google.com/d/msg/tiddlywiki/1eVLcslhmLM/23qcvi8I2Z4J
+; test: an example journal (click edit)
+: [[7th January 2015]] {{7th January 2015||$:/core/ui/Buttons/edit}}
+; field visibility and available values stored in `value` fields
+: [[$:/config/EditTemplateFields/Visibility/exercise]]
+: [[$:/config/EditTemplateFields/Visibility/meditation]]
+; the code — a conditional edit template
+: <<source "$:/.tb/ui/EditTemplate/drop-fields">>

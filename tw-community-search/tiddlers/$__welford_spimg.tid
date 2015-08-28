@@ -1,0 +1,11 @@
+title: $:/welford/spimg
+created: 20150423201212842
+modified: 20150423201347298
+revision: 0
+type: text/vnd.tiddlywiki
+tags: welford
+source-wiki-id: welford
+source-tiddler-title-as-text: spimg
+source-tiddler-title-as-link: spimg
+
+<<spimg src:"http://upload.wikimedia.org/wikipedia/en/c/c0/Les_Horribles_Cernettes_in_1992.jpg"   height:"200px" position:"0% 10%">>

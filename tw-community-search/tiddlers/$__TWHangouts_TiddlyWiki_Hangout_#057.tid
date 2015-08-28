@@ -1,0 +1,45 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #057
+created: 20141228205702646
+modified: 20141229013435718
+tags: TWHangouts HangOut_057 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #057
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23057
+
+\define hangout() 057
+
+<<header>>
+"""
+<<topic "00:00:00" "intro- frtl: Branimir, Jeremy, Mario, Nathan, Ton" >>
+<<topic "00:02:35" "Johannes- How about importing MediaWiki pages into TiddlyWiki? Is that on the priority list of features for TW5?" >>
+<<topic "00:06:05" "Nathan GF asks: Images in stylesheets! Is there a better solution than MakeDataUriMacro?" >>
+<<topic "00:11:40" "Nathan about the usecase .. using TW as a CMS like system" >>
+<<topic "00:14:06" "Nathan- how was the week of?" >>
+<<topic "00:14:27" "GF asks: I'd like to be able to keep my tags 'as is' in my html content, and have them 'just work' when the image is in the wiki, instead of either needing to use the image macro or keep an 'images' directory external to the system." >>
+<<topic "00:17:56" "Branimir- Please, explain and demonstrate for everyone the new tw-home and tw-browser-refresh! Also, show how it will behave in TiddlyDesktop." >>
+<<topic "00:21:35" "Branimir- How can I change the behaviour of clicking on the title of the wiki. Discussion about the 'refresh - button' clears the URL bar. ..." >>
+<<topic "00:32:40" "Branimir- explains his 'refresh' workflow .." >>
+<<topic "00:33:15" "Nathan- Suggests the possibility of a 2 way sync. ... Discussion about a 'file based lock' for syncing multi user editing .." >>
+<<topic "00:35:25" "Jeremy- about TW as a GuerillaWiki .." >>
+<<topic "00:36:20" "Jeremy- about WebDav and TW5" >>
+<<topic "00:39:18" "GF asks pt 2: I'd like to optionally 'file out' and/or serve my content in the form of multi-page applications, but keep a unified administrative single page interface to the system. Is there a better way to handle serving this and linking between 'pages'?" >>
+<<topic "00:45:26" "Jeremy- about the roadmap after the beta period. aka deferred features." >>
+<<topic "00:47:54" "Nathan- bugreport: some titles don't save through the server right now, such as '/css/foo.css' (though their drafts do) or save as an empty file! (I'm still investigating.)" >>
+<<topic "00:50:42" "GF asks pt 2: IMPORT UTILITIES! Can I bulk tag and/or name-prefix on imports? Set fields? Drag and drop a folder and keep paths (chrome)? Loosely related, a tool to tag/rename based on a filter would be super-handy!" >>
+<<topic "00:56:20" ".. drag and drop folders and keep there paths .." >>
+<<topic "00:58:50" "GF asks pt 2: Searching the docs is hard! I spent a lot of time just in realizing that I wanted to be searching for key-word 'clone' and not 'copy' to find out about duplicating a tiddler. Can we get a 'did you mean?' or 'search suggestions' feature? .. discussion about 'improving the docs'" >>
+<<topic "01:09:56" ".. Can we get a 'did you mean?' or 'search suggestions' feature?" >>
+<<topic "01:11:30" "GF asks pt 2: Parser complexity often gets in the way, and figuring out parser rule lines is some sort of cumbersome black magic thing. Can we get some simple macro sets (or something) offering useful and common/sane parser rule lines? (ex 'PageTemplate')" >>
+<<topic "01:19:50" "GF asks: I need a tutorial/reference for 'CMS' use cases! Can we make an edition with simple but pragmatic examples of 2-3 page 'NotAWiki' site(s) parts showing some templates, some simple content, some css and js, and clean static html export render?!?!" >>
+<<topic "01:21:23" "GF asks: I want to transclude html content type, but it either doesn't work at all, or the iframe breaks (or drastically complicates) the content! Can we get more flexibility in transclusion of 'web native' content?" >>
+<<topic "01:28:50" "GF asks: I (critically) need to be able to include alt tags on img and other semantic (or nonstandard) markup like schema.org, aspx, rdfa, etc in my content. Do we have mechanism for attaching arbitrary attributes or container tags to things in rendertree?" >>
+<<topic "01:32:45" "Nathan + GF- both of us ask: Revision control! While 'files in git' is great and all, should tiddlywiki core consider a cannonical model of history? Should we revive Synchrotron? (Maybe even modernize it up with an Operational Transform sync?) 'Out of scope?'" >>
+<<topic "01:42:25" "Armchair Designer- The github route seems viable for non-dev types, provided the intimidating factor of contributing there is lowered : maybe a way to go would be to have a simple howto for github at hand from within TW itself." >>
+<<topic "01:43:30" "Armchair Designer- Do you have a rough idea of which popular classic TW plugins are most likely to be included as built-in modules (or equivalent functionality) in the Five 1.0 release package ?" >>
+<<topic "01:45:50" "Branimir- What's the story, for upgrading from TWclassic" >>
+<<topic "01:51:10" "Jeremy- What will be in 5.0.15-beta ... disable plugins .. saving with the 'client / server' edition ..." >>
+<<topic "01:52:43" ".. new TOC table of content macro" >>
+<<topic "01:55:53" "Jeremy- Release Planning .. RC1 .. weekly releases should be done" >>
+<<topic "01:57:25" "Branimir- During 'update process' Can you explain the meaning of 'blocked' and how the checkboxes actually do." >>
+<<topic "02:07:13" "Bye! Bye!" >>
+"""

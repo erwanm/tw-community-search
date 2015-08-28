@@ -1,0 +1,86 @@
+title: $:/TWHangouts/Add Video Timestamp
+created: 20150106213245006
+modified: 20150108043116689
+tags: TWHangouts [[YouTube Video Annotations]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Add Video Timestamp
+source-tiddler-title-as-link: Add%20Video%20Timestamp
+
+\define thisMakeTiddlerName(TimeStamp)
+$(selectedVideo)$ - $(timeStamp)$
+\end
+
+\define getProperTag() [[$(properTag)$]]
+
+\define thisThing(YoutubeID TimeStampName SelectedVideo TimeStamp)
+<$button>Add Timestamp
+<$action-setfield $tiddler='$:/temp/videotimestamp' title=<<thisMakeTiddlerName $TimeStamp$>>/>
+<$action-setfield $tiddler='$:/temp/videotimestamp' timestamp='' link='' description='' tags=<<getProperTag>>/>
+<$action-sendmessage $message='tm-add-tag' $param={{!!selected_video}}/>
+<$action-setfield $tiddler=<<thisMakeTiddlerName $TimeStamp$>> vidname={{!!selected_video}} youtubeid={{$:/.rich/data/videos##$SelectedVideo$}} timestamp={{$:/temp/videotimestamp!!timestamp}}/>
+</$button>
+\end
+
+\define getYouTubeID(selectedVideo) {{$:/.rich/data/videos##$selectedVideo$}}
+
+\define getYouTubeID2() <$macrocall $name=getYouTubeID selectedVideo={{!!selected_video}}/>
+
+<$set name=selectedVideo value={{!!selected_video}}>
+
+<!-- Timestamp Time -->
+
+Timestamp:
+<$edit-text tiddler='$:/temp/videotimestamp' field=timestamp size='10' placeholder='Timestamp'/>
+
+<!-- Add timestamp button -->
+
+<$set name=timeStamp value={{$:/temp/videotimestamp!!timestamp}}>
+<$set name=timeStampName value=<<thisMakeTiddlerName>>>
+<$set name=properTag value="""Video Timestamp""">
+<$fieldmangler tiddler=<<timeStampName>>>
+<$macrocall $name=thisThing TimeStampName=<<timeStampName>> SelectedVideo={{!!selected_video}} TimeStamp={{$:/temp/videotimestamp!!timestamp}}/>
+</$fieldmangler>
+</$set>
+</$set>
+</$set>
+
+<!-- Timestamp description -->
+
+Description:<br><$edit-text tiddler='$:/temp/videotimestamp' field='description' class='tc-edit-texteditor' placeholder='Description for Timestamp' class='tc-edit-texteditor'/><br>
+
+<!-- Timestamp tag editor -->
+
+Tags (it will always be tagged with the name of the video by default):<br>
+<$reveal type=match state='$:/state/videotag!!add_or_create_tag' text='create'>
+New Tag: <$edit-text tiddler='$:/state/videotag' field='tag_temp' placeholder='New Tag'/><$fieldmangler tiddler='$:/state/videotag'>
+<$button>Create Tag
+<$action-setfield $tiddler={{$:/state/videotag!!tag_temp}} $field='video_tag' $value='true'/>
+<$action-setfield $tiddler='$:/state/videotag' $field='tag_temp' $value=''/>
+</$button>
+</$fieldmangler><$button set='$:/state/videotag!!add_or_create_tag' setTo='nocreate'>Done</$button><br>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/videotag!!add_or_create_tag' text='create'>
+Tag to add: 
+<$select tiddler='$:/state/videotag' field='selected_tag'>
+<$list filter='[video_tag[true]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+<$fieldmangler tiddler='$:/temp/videotimestamp'>
+<$button>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/state/videotag!!selected_tag}}/>Add Tag
+</$button><$button set='$:/state/videotag!!add_or_create_tag' setTo='create'>New Tag</$button>
+</$fieldmangler>
+<br>
+</$reveal>
+List of current tags:<br>
+<$fieldmangler tiddler='$:/temp/videotimestamp'>
+<$list filter='[[$:/temp/videotimestamp]tags[]]'><$view field='title'/> <$button>Remove Tag<$action-sendmessage $message='tm-remove-tag' $param=<<currentTiddler>>/></$button><br> </$list>
+</$fieldmangler>
+
+<br>
+
+<!-- list existing timestamps -->
+<$list filter='[tag<selectedVideo>!tag[Video Segment]sort[title]]'>
+<$button class='tc-btn-invisible'>__{{!!title}} - {{!!description}}__<$action-setfield $tiddler='YouTube Video Annotations' embed_start={{!!timestamp}} embed_end=99:99:99/></$button> <$macrocall $name=youtube-link video={{!!youtubeid}} time={{!!timestamp}} text='(External Link)'/> <$link to=<<currentTiddler>>>(Open Tiddler)</$link><br>
+</$list>

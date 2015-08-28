@@ -1,0 +1,31 @@
+title: $:/tb5/css-classes
+created: 20141203172814134
+creator: Tobias Beer
+modified: 20141203172828874
+modifier: Tobias Beer
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: css-classes
+source-tiddler-title-as-link: css-classes
+
+<dt>
+
+```
+!.h1-class.red CSS
+#.li-class.red classes
+*.li-class.red can be
+;.dt-class.red assigned
+:.dd-class.red like
+>.blockquote-class.red this
+```
+</dt>
+
+<dd>
+
+!.h1-class.red CSS
+#.li-class.red classes
+*.li-class.red can be
+;.dt-class.red assigned
+:.dd-class.red like
+>.blockquote-class.red this
+</dd>

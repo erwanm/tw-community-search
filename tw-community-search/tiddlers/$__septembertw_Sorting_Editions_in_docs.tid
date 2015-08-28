@@ -1,0 +1,11 @@
+title: $:/septembertw/Sorting Editions in docs
+created: 20140920153927964
+creator: AcD
+modified: 20140920164323345
+modifier: AcD
+tags: septembertw TiddlyDocs ToDo
+source-wiki-id: septembertw
+source-tiddler-title-as-text: Sorting Editions in docs
+source-tiddler-title-as-link: Sorting%20Editions%20in%20docs
+
+Some tricks work only in Node.js, other depend on plugins, however common, and docs could reflect that by tagging and sorting accordingly, in addition to IntendedReadership filters.

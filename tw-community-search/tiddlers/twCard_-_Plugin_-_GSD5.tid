@@ -17,6 +17,6 @@ short_description: TiddlyWiki5 Getting Stuff Done plugin
 title: twCard - Plugin - GSD5
 wiki: https://drive.google.com/uc?export=download&id=0Bydfk9tNRJHBc3FvclFBMzRreTQ
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

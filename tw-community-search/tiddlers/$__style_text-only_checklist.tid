@@ -1,0 +1,22 @@
+title: $:/style/text-only checklist
+created: 20150108100118308
+creator: Tobias Beer
+modified: 20150108111652782
+modifier: Tobias Beer
+summary: unordered list with text-only checkmarks using FontAwesome
+tags: style Styles check fa list
+source-wiki-id: style
+source-tiddler-title-as-text: text-only checklist
+source-tiddler-title-as-link: text-only%20checklist
+
+; requires
+: [[$:/fonts/FontAwesome]]
+: [[$:/fonts/FontAwesome/checklist]]
+:: an extension to FontAwesome, holding the css for the checklist
+
+@@.check
+* a one
+* and a two
+* and a three
+* and a four
+@@

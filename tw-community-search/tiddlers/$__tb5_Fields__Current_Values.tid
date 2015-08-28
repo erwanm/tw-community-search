@@ -1,0 +1,14 @@
+title: $:/tb5/Fields: Current Values
+caption: field values
+created: 20141118205012066
+creator: Tobias Beer
+modified: 20150131124501248
+modifier: Tobias Beer
+tags: tb5 Fields Lists
+source-wiki-id: tb5
+source-tiddler-title-as-text: Fields: Current Values
+source-tiddler-title-as-link: Fields%3a%20Current%20Values
+
+all field values of this tiddler:
+
+<<via '{{||$:/core/ui/TiddlerFields}}'>>

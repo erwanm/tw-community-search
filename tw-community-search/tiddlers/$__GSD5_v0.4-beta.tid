@@ -1,0 +1,34 @@
+title: $:/GSD5/v0.4-beta
+creator: Roma
+released: 20141210022600000
+tags: GSD5 release GSD5
+source-wiki-id: GSD5
+source-tiddler-title-as-text: v0.4-beta
+source-tiddler-title-as-link: v0.4-beta
+
+! Added Features
+
+* Assign Contacts to Realms.  Contacts can be now associated with Realms allowing a user with a large number of Contacts to organise and traverse the list quickly.  Contacts are hidden using the same hiding mechanic as Actions/Projects when the non-associated Realm is selected.  For Contacts that transcend one Realm, assigning the Contact with no Realm will make that Contact available to all Realms.
+* Convert actions to projects.  Users can now convert actions that may need to be an project with a click of a button.
+* Waiting Actions are now displayed on a Contacts tiddler.  Selecting a Contact's tiddler displays all actions delegated to them.  Shows actions depending on the selected Realm.
+* Waiting/Future Actions are now displayed on a Contacts tiddler.  Selecting a Contact's tiddler displays all actions delegated to them.  Shows actions depending on the selected Realm.
+* No Realm Action List.  Actions without a Realm can be found using this Dashboard.
+* No Realm Project List.  Projects without a Realm can be found using this Dashboard.
+
+! Notes
+There is one API change that can break existing Realm definitions.  We switched the Realm definitions to use the `gsd_type` model instead of the system tag `$:/tags/realm`.  To correct this break we have provided a simple tool to fix your existing Realms.  Simple import the following tiddler and follow the instruction upgrade you custom Realms.
+
+[[Realm Conversion Tool]]
+
+!! Updating to v0.4-beta
+
+# Download a GSD5 v0.4-beta environment.
+# Import existing user content into the new environment.
+# Import the Realm Conversion Tool into the new environment.
+# Follow the Instructions of the Realm Conversion Tool.
+
+! Corrected Bugs
+
+* Removing contacts from Project/Actions results in link to Contact's tiddler persisting. [[#31|https://github.com/roma0104/gsd5/issues/31]]
+
+{{issues}}

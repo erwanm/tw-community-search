@@ -1,0 +1,30 @@
+title: $:/let/Arithmetic Operations
+created: 20141128230000000
+creator: Tobias Beer
+list: SUM AVG MAX MIN
+modified: 20141129230000000
+modifier: Tobias Beer
+summary: functions that allow to calculate number values of specified fields of matching tiddlers; returning the ''numeric result''
+tags: let OPERATION
+source-wiki-id: let
+source-tiddler-title-as-text: Arithmetic Operations
+source-tiddler-title-as-link: Arithmetic%20Operations
+
+<table>
+<tr>
+<th>Function</th>
+<th>Meaning</th>
+<th>Input<br>[[TYPE]]</th>
+<th>Output<br>[[TYPE]]</th>
+</tr>
+<$list filter="[list[]]">
+<tr>
+<td><$link><$view field=title/></$link></td>
+<td>{{!!summary}}</td>
+<td>{{!!input}}</td>
+<td>{{!!output}}</td>
+</tr>
+</$list>
+</table>
+
+If not specified, the default input type any of these operations is [[NUM|TYPE]].

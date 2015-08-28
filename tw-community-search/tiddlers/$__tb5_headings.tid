@@ -1,0 +1,24 @@
+title: $:/tb5/headings
+created: 20141203172222370
+creator: Tobias Beer
+modified: 20141203172319615
+modifier: Tobias Beer
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: headings
+source-tiddler-title-as-link: headings
+
+<dt>
+
+```
+!Heading 1
+!!Heading 2
+!!!Heading 3
+```
+</dt>
+<dd>
+
+!Heading 1
+!!Heading 2
+!!!Heading 3
+</dd>

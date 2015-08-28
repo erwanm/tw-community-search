@@ -1,0 +1,26 @@
+title: $:/static/Static Sites
+created: 20150105130356386
+modified: 20150105154329663
+tags: static
+source-wiki-id: static
+source-tiddler-title-as-text: Static Sites
+source-tiddler-title-as-link: Static%20Sites
+
+Articles by various [[authors and developers|Authors]] on generating static sites with TiddlyWiki on node.js...
+
+<table>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>URL</th>
+<th>Groups</th>
+</tr>
+<$list filter="[tag[Static]sort[title]]">
+<tr>
+<td><$link to=<<currentTiddler>>><$view field=title/></$link></td>
+<td><$link to={{!!author}}><$view field=author/></$link></td>
+<td><$list filter="[all[current]has[url]]"><a href={{!!url}} target=_blank>»</a></$list></td>
+<td><$list filter="[all[current]has[groups]]"><a href={{!!groups}} target=_blank>»</a></$list></td>
+</tr>
+</$list>
+</table>

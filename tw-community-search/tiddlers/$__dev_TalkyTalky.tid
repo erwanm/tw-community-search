@@ -1,0 +1,17 @@
+title: $:/dev/TalkyTalky
+created: 20141202122352330
+creator: Tobias Beer
+modified: 20141211154015966
+modifier: Tobias Beer
+tags: dev Explore
+source-wiki-id: dev
+source-tiddler-title-as-text: TalkyTalky
+source-tiddler-title-as-link: TalkyTalky
+
+;http://tiddlywiki.com/talkytalky
+:a simple read-only theme for presentations and home pages
+
+;discussion
+:https://groups.google.com/d/msg/tiddlywiki/uKikznl1BxQ/VEoE2PYD7M0J <blockquote>
+TalkyTalky uses the punch theme. You can use the toolbar buttons hovering them. Use the double chevron in the upper right corner to view sidebar. Going to the system tab you will see, two custom view-templates, `$:/_fullscreen-button` and `$:/_talkytalky-styles`. The tiddlers are listed in default tiddlers.
+</blockquote>

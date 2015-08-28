@@ -1,0 +1,13 @@
+title: $:/dev/1127-fix-notification-z-index
+created: 20141126230244515
+creator: Tobias Beer
+modified: 20141213124755538
+modifier: Tobias Beer
+summary: put tc-notification above topbar
+url: <<git5 "pull/1127">>
+tags: dev Pull Accepted 5.1.5
+source-wiki-id: dev
+source-tiddler-title-as-text: 1127-fix-notification-z-index
+source-tiddler-title-as-link: 1127-fix-notification-z-index
+
+z-index for notifications needs to be above top-bar: [[vanilla/base.tid#L1097|https://github.com/Jermolene/TiddlyWiki5/blob/52d29ac0cf1035b73495676ce035ff3e17aa3426/themes/tiddlywiki/vanilla/base.tid#L1097]]

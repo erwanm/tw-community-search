@@ -1,0 +1,49 @@
+title: $:/TWHangouts/HangOut_003
+created: 20150119034751557
+modified: 20150119034833484
+tags: TWHangouts License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_003
+source-tiddler-title-as-link: HangOut_003
+
+2013-06-03 - [[YouTube|http://www.youtube.com/watch?v=jduxruwB5K4]]
+
+"""
+0:00:00 Smalltalk you may want to jump to
+0:04:10 Mario- Question to Eric - about TW2 beta, external files.
+0:05:25 Impact of external files for pmario
+0:07:50 Jeremy kicked of the hangout.
+0:08:45 Eric uses TW5 to build TW2. Some comments. Update to TiddlyTools. All plugins may be at github in the future.
+0:12:15 Discussion about plugin Distribution, the Community, Source Code handling, GitHub ...
+0:17:05 Eric - App store model? Jeremy wants to have a Firefox type model. Mario - listeneing :)
+0:18:30 Jeremy talks about plugin maintenence
+0:19:25 What are the creterias for plugin devs to get plugins accepted by core def (Jeremy :). Who owns plugins. Who maintains them ...
+0:20:50 Jeremy's answer
+0:22:10 Mario- has constrains about all plugins are in TW5 repo.
+0:23:15 Discussion about the contribution workflow.
+0:26:55 Jeremy about criteria for accepting contributions, nees to be testable, automated accept testing
+0:28:05 Jeremy about plugin ownership
+0:29:45 The "new" software structure. Drawings :)
+0:31:45 Jeremy - orphaned plugins, roles in the community, plugin adoption, plugin URLs should not change
+0:33:55 Eric - summary for understanding
+0:35:20 Discussion about Contributor License Agreement - CLA for TiddlyWiki
+0:40:20 Back to the plugins and the repo. TW5 Repo rearangement ..
+0:42:20 Mario confusion about the repo structure.
+0:44:50 Jeremy - All contributor plugins should be in the main repo, Mario - slightly disagrees, Eric - suggestions
+0:45:45 NPM - TW5 installation with NPM, brings all the core plugins, Jeremy wants the URL to be stable ...
+0:49:50 Mario- github submodules ... no > github subtree ... yes
+0:51:40 mario concerns about the plugin adoption process. plugin forking / renaming ...
+0:56:50 Erics - drawing. Contribution / Software structure
+1:12:00 Jeremy about macros in TW5. TW5 will ship with many, many macros ... How do we credit the original authors.
+1:13:40 Eric about plugins, transclusions and ownership in TW2
+1:15:45 user's side of macro / plugin import handling
+1:18:15 Eric - Non guthub based submission process. Jeremy - TiddlySpace as user repos
+1:20:50 We stopped ignoring Jeff ... Change topics to user topics
+1:22:20 Jeff- introduces himself. Talks about his use of TW.
+1:23:00 TW5 and Android
+1:24:45 Eric about TiddlyFox
+1:26:10 About user documentation. Getting users involved. Getting the community involved ...
+1:38:00 Jeremy, about "spread the word"
+1:41:00 Eric about How to discover TiddlyWorld :)
+1:43:20 Facebook haters and the sozial networks :)))
+1:44:55 Russ - About User stories. TW5 editions. Better "First user experience"

@@ -1,0 +1,9 @@
+title: $:/youtube/ytc-no-controls
+created: 20150110114804377
+modified: 20150110123311134
+summary: an optional wrapper to hides the control buttons in [[the list of annotations|$:/plugins/tobibeer/youtube/list/annotations]]
+tags: youtube Styles
+source-wiki-id: youtube
+source-tiddler-title-as-text: ytc-no-controls
+source-tiddler-title-as-link: ytc-no-controls
+

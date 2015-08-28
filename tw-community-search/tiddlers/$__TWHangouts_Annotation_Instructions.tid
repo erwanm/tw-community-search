@@ -1,0 +1,13 @@
+title: $:/TWHangouts/Annotation Instructions
+created: 20150108081731625
+modified: 20150108081752817
+tags: TWHangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Annotation Instructions
+source-tiddler-title-as-link: Annotation%20Instructions
+
+You can select a video using the drop down menu, if you want to add a new video click on the `New Video` button and in the dialog that appears enter the youtube video id and a name for the video and click `add` to add the video and then `done` to get back to the video selection.
+
+If you enter a start and end time then click `Set Video Time` it will set the embedded video to play the segment between the start and end time. `Reset Video Time` resets this.
+
+By entering a start time, an end time, short and long descriptions and any tags you wish then clicking `Add Video Segment` the segment will be saved. If you click on a segment name in the list at the bottom than the video will be set to play that segment (no autoplay though, I am working on it.)

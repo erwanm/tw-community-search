@@ -1,0 +1,32 @@
+title: $:/dev/NoteTaking Apps
+created: 20150302113056484
+creator: Tobias Beer
+modified: 20150302113109098
+modifier: Tobias Beer
+tags: dev
+source-wiki-id: dev
+source-tiddler-title-as-text: NoteTaking Apps
+source-tiddler-title-as-link: NoteTaking%20Apps
+
+https://groups.google.com/d/msg/tiddlywiki/Zx9OJa_Wt30/8MmtNAVYXlgJ
+
+; ConnectedText
+: No android version
+; ResophNotes
+: syncing is unstable
+; Evernote
+: linking is awkward
+; SimpleNote
+: no linking at all
+; TreePad
+: linking is unwieldy
+: the android app requires too many steps to sync
+; Wiki On a Stick
+: obsolete
+: no android version
+; Emacs
+: an even steeper learning curve than TiddlyWiki
+; NoteTab
+: text editor
+: wiki-linking works great
+: no Android text editor that allows for wiki links

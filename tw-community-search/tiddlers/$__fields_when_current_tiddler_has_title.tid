@@ -1,0 +1,35 @@
+title: $:/fields/when current tiddler has title
+created: 20150129195830568
+creator: Tobias Beer
+filter: [[TiddlerTitle]is[current]]
+modified: 20150129200308379
+modifier: Tobias Beer
+summary: returns current tiddler when having a given title
+tags: fields Filters title current is
+source-wiki-id: fields
+source-tiddler-title-as-text: when current tiddler has title
+source-tiddler-title-as-link: when%20current%20tiddler%20has%20title
+
+The below only renders something when the current tiddler is titled ''foo'', as set by the tiddler widget for demonstration purposes.
+
+```
+<$tiddler tiddler="foo">
+<$list filter="[[foo]is[current]]">
+This is shown.
+</$list>
+</$tiddler>
+<$list filter="[[foo]is[current]]">
+This is NOT shown!
+</$list>
+```
+
+<<<
+<$tiddler tiddler="foo">
+<$list filter="[[foo]is[current]]">
+This is shown.
+</$list>
+</$tiddler>
+<$list filter="[[foo]is[current]]">
+This is NOT shown!
+</$list>
+<<<

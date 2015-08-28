@@ -1,0 +1,112 @@
+title: $:/TWHangouts/YouTube Video Annotations
+auto_play: 0
+created: 20141227191757025
+embed_end: 00:13:41
+embed_start: 00:13:30
+modified: 20150224192623613
+modifier: Rich Shumaker
+selected_video: 081
+tags: TWHangouts Dashboard
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: YouTube Video Annotations
+source-tiddler-title-as-link: YouTube%20Video%20Annotations
+
+\define youtubeEmbed(videoName, start, end)
+<$macrocall $name="youtube-embed" video={{$:/.rich/data/videos##$videoName$}} start="$start$" end="$end$"/>
+\end
+
+\define thisMakeSelectVideoOption()
+<option value=<<videoID>>><$view field='title'/></option>
+\end
+
+\define thisExternalMakeURL()
+https://www.youtube.com/watch?v=$(youtubeID)$&t=$(hours)$h$(minutes)$m$(seconds)$s
+\end
+
+\define thisMakeEmbedURL()
+http://www.youtube.com/embed/$(youtubeID)$?rel=0&start=$(startTime)$&end=$(endTime)$&autoplay=$(autoPlay)$
+\end
+
+\define thisMakeTiddlerName()
+$(youtubeID)$ - $(hours)$:$(minutes)$:$(seconds)$
+\end
+
+\define thisMakeSegmentName()
+$(selectedVideo)$ - $(startTime)$ to $(endTime)$
+\end
+
+\define getProperTags() [[$(properTag)$]] [[$(selectedVideo)$]]
+
+\define thisMakeSegmentURL()
+http://www.youtube.com/embed/$(youtubeID)$?rel=0&start=$(startTime)$&end=$(endTime)$
+\end
+
+\define thisMakeVideoIframe()
+<$set name=videoID value={{$:/.rich/data/videos##$(selectedVideo)$}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start=$(startTime)$ end=$(endTime)$/>
+</$set>
+\end
+
+\define thisMakeText()
+{{!!segment_description}}
+
+$(thisVideoIframe)$
+
+$(thisLongDescription)$
+\end
+
+\define thisMakeEmbedIframe()
+<<thisEmbideIframe>>
+\end
+
+\define thisEmbideIframe()
+<$macrocall $name='youtube-embed' video=$(youtubeID)$ start={{!!embed_start}} end={{!!embed_end}}/>
+\end
+
+\define getYouTubeId()
+{{$:/.rich/data/videos##$(selectedVideo)$}}
+\end
+
+{{Notes about the state of development||slider}}
+
+
+{{Annotation Instructions||slider}}
+
+
+
+<$set name=selectedVideo value={{!!selected_video}}>
+<$set name=youtubeID value=<<getYouTubeId>>>
+<$set name=startTime value={{!!embed_start}}>
+<$set name=endTime value={{!!embed_end}}>
+
+<!-- Display the embedded video, with the appropriate start and end times set -->
+
+<$macrocall $name=youtubeEmbed videoName={{!!selected_video}} start={{!!embed_start}} end={{!!embed_end}}/>
+
+<!-- Select or Add video things -->
+
+<$reveal type='nomatch' state='$:/state/videotimestampreveal' text='show'>
+Select Video: <$select field='selected_video'>
+<$list filter='[[$:/.rich/data/videos]indexes[]]'>
+<<thisMakeSelectVideoOption>>
+</$list>
+</$select>
+<$button set='$:/state/videotimestampreveal' setTo='show'>New Video</$button>
+</$reveal>
+<$reveal type='match' state='$:/state/videotimestampreveal' text='show'>
+~YouTube ID:<$edit-text tiddler='$:/temp/videotimestamp' field='youtubeid' placeholder='YouTube ID'/><br>
+Video Name:<$edit-text tiddler='$:/temp/videotimestamp' field='vidname' placeholder='Video Name'/><br>
+<$button>Add Video
+<$action-setfield $tiddler='$:/.rich/data/videos' $index={{$:/temp/videotimestamp!!vidname}} $value={{$:/temp/videotimestamp!!youtubeid}}/>
+<$action-setfield $tiddler='$:/temp/videotimestamp' vidname='' youtubeid=''/>
+</$button>
+<$button set='$:/state/videotimestampreveal' setTo='noshow'>Done</$button>
+</$reveal>
+
+
+<<tabs "[[Add Video Segment]] [[Add Video Timestamp]]">>
+
+</$set>
+</$set>
+</$set>
+</$set>

@@ -1,0 +1,55 @@
+title: $:/LinuxNotes/Utilisation avancée de CCR
+created: 20141130175932378
+modified: 20150419093619266
+tags: LinuxNotes [[Paquets du dépôt CCR]]
+source-wiki-id: LinuxNotes
+source-tiddler-title-as-text: Utilisation avancée de CCR
+source-tiddler-title-as-link: Utilisation%20avancée%20de%20CCR
+
+!!Installation manuelle d'un paquet du dépôt CCR
+1. Télécharger l'archive sur le site de CCR (lien Tarball).
+
+2. Extraire l'archive dans le dossier courant.
+
+3. Entrer dans le dossier que vous venez d'extraire ( `cd ~/chemin/du/dossier`)
+
+4. Construire le paquet et résoudre ses dépendances avec la commande : `makepkg -s`
+
+```c
+$ makepkg -s
+```
+
+Maintenant, vous devriez voir le processus de compilation commencer, et une fois que tout est terminé, un fichier `.pkg.tar.xz` devrait apparaître dans le répertoire de construction.
+
+5. Si la construction a été un succès, installez le paquet avec la commande:
+
+```c
+$ sudo pacman -U Nom_paquet.pkg.tar.xz
+```
+
+!!Installation simple d'un paquet non présent dans le dépôt CCR
+CCR est en fait un clone de <abbr title="Arch User Repository">AUR</abbr> (dépôt communautaire d'Arch Linux) qui dispose d'un grand nombre de paquets. L'installation et l'upload de paquets vers le dépôt CCR est vraiment facile. La plupart du temps, vous devez d'abord tester localement si le paquet se construit et fonctionne avant de le soumettre sur CCR.<br>
+
+1. Recherchez sur [[AUR|http://aur.archlinux.org/]] si le paquet existe.
+
+2. Télécharger l'archive ''Tarball'' du paquet.
+
+3. Extraire l'archive dans le dossier courant. Il contient tous les fichiers nécessaires pour le paquet que vous voulez créer. Vous trouverez toujours le ''PKGBUILD'', et parfois d'autres fichiers comme : .patch, .install...
+
+4. Ouvrez le PKGBUILD et vérifier que les dépendances de ce paquet sont fournis dans les dépôts de Chakra ou de CCR (ligne `depends`). Si non, vous aurez aussi besoin d'uploader les dépendances manquantes sur CCR, suivant la même procédure.<br>
+
+<<<
+Gardez à l'esprit que le nom des paquets pour certains programmes sont différents dans Chakra et dans Arch Linux. Effectuez une recherche minutieuse d'abord et modifier ce qui est différent avec les valeurs correctes.
+<<<
+
+5. Testez la création du paquet avec :
+
+```c
+$ makepkg -s
+```
+
+Si la construction est correct, installez le paquet localement (fichier `.pkg.tar.xz`) pour vérifier que tout fonctionne pour vous.
+
+''Vous pouvez alors'' [[Partager le fichier sur CCR]].
+
+

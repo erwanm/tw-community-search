@@ -1,0 +1,17 @@
+title: $:/tb5/italics
+created: 20141203171720222
+creator: Tobias Beer
+modified: 20141203171843156
+modifier: Tobias Beer
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: italics
+source-tiddler-title-as-link: italics
+
+<dt>
+
+```
+//italics//
+```
+</dt>
+<dd>//italics//</dd>

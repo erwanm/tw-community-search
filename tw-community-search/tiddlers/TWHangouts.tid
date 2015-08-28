@@ -4,5 +4,9 @@ tags: CommunityWikis RichShumaker
 title: TWHangouts
 type: text/vnd.tiddlywiki
 wiki-address: http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html
+wiki-tw-version: 5.1.7
+wiki-latest-modification: 20150314161525567
+
+TW Hangouts <$link to="TiddlyWiki">Powered by ~TiddlyWiki <<version>></$link>
 
 {{||$:/CommunityWikiPresentationTemplate}}

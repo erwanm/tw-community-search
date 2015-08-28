@@ -1,0 +1,12 @@
+title: $:/fields/Fields
+color: #eeeeee
+created: 20150107203407487
+modified: 20150107211209462
+tags: fields
+source-wiki-id: fields
+source-tiddler-title-as-text: Fields
+source-tiddler-title-as-link: Fields
+
+The following wiki markup examples use filters to list implemented fields types and related information...
+
+<<tabs "[[standard fields]] [[core fields]] [[custom fields]] [[fields of current tiddler]] [[custom fields of current tiddler]]" default:"standard" "$:/state/tabs-fields">>

@@ -1,0 +1,49 @@
+title: $:/TiddlyNotes/Filtres
+created: 20150208151541427
+modified: 20150525124752528
+tags: TiddlyNotes Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Filtres
+source-tiddler-title-as-link: Filtres
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: [[http://tiddlywiki.com/#Filters]]
+
+Les filtres constituent un langage particulier intégré à la syntaxe [[WikiText|Formatage de texte]] qui sert à exprimer des listes de tiddlers.
+
+Les filtres sont utilisés par certaines macros et certains widgets et dans beaucoup d'autres zones de ~TiddlyWiki.
+
+!!~ListMacro
+Voici un exemple de [[macro de liste|http://tiddlywiki.com/#ListMacro]] simple et un [[opérateurs de filtre|http://tiddlywiki.com/languages/fr-FR/#FilterOperators]]
+
+```
+<<list-links "[tag[Plugin]]">>
+```
+
+Ce qui permet d'afficher la liste des tiddlers avec le tag `Plugin`:
+
+<<list-links "[tag[Plugin]]">>
+
+Pour masquer une entrée de la liste il faut ajouter `-[[tiddler]]`, ce qui donne dans notre exemple 
+
+```
+<<list-links "[tag[Plugin]] -[[FontAwesome]]">>
+```
+
+!!~ListWidget
+Le [[widget de liste|http://tiddlywiki.com/#ListWidget]] affiche une séquence de tiddlers qui correspondent à un filtre de tiddler.
+
+Cet exemple affiche la liste des tiddlers avec le tag `source` et d'autres informations contenues dans les [[champs des tiddlers|Utiliser les champs]] (`url`, `description`, `summary` et `author`).
+
+```
+<dl>
+<$list filter="[tag[source]] +[sort[title]]">
+<dt><$link>{{!!title}}</$link></dt>
+<dd>{{!!url}}</dd>
+<dd><i class="fa fa-tags"></i> {{!!description}}</dd>
+<dd>&raquo; //{{!!summary}}//</dd>
+<dd><i class="fa fa-male"></i> {{!!author}}</dd>
+</$list>
+</dl>
+```
+
+C'est ce type de liste qui est utilisée dans [[Ressources internet]].

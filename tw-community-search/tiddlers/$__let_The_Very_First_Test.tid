@@ -1,0 +1,22 @@
+title: $:/let/The Very First Test
+created: 20141127230000000
+creator: Tobias Beer
+foo: 1.5
+modified: 20141128230000000
+modifier: Tobias Beer
+tags: let
+source-wiki-id: let
+source-tiddler-title-as-text: The Very First Test
+source-tiddler-title-as-link: The%20Very%20First%20Test
+
+[[$:/plugins/tobibeer/letfilter/let.js]]
+<$set name="f" value="[let:NUM:GT:foo:![1.4]!sort[created]]">
+
+<<f>>
+<$count filter=<<f>>/><$list filter=<<f>>>
+
+;<$link><$view field="title"/></$link><br>
+: modified: {{!!modified}}<br>
+: created: {{!!created}}
+</$list>
+</$set>

@@ -1,0 +1,49 @@
+title: $:/classic/nowiki
+created: 20141126103422770
+creator: Tobias Beer
+modified: 20141126105036599
+modifier: Tobias Beer
+tags: classic Markup
+source-wiki-id: classic
+source-tiddler-title-as-text: nowiki
+source-tiddler-title-as-link: nowiki
+
+!!TW5
+not implemented — <<git5 issues/699>>
+
+!!TWC
+
+```
+"""
+foo
+bar
+"""
+```
+
+or
+
+```
+<nowiki>
+foo
+bar
+</nowiki>
+```
+
+!! @@color:red;Attention@@
+
+TW5 repurposes this notation for [[hard linebreaks|http://tiddlywiki.com/static/Hard%2520Linebreaks%2520in%2520WikiText.html]]!
+
+```
+"""
+foo
+bar
+"""
+```
+
+!! Workaround
+
+You can use the rules pragma on it's own line to turn off italics, which will also prevent you from using `//foo//` in the same tiddler.
+
+```
+\rules except emphasis
+```

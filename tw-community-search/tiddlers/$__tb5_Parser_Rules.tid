@@ -1,0 +1,25 @@
+title: $:/tb5/Parser Rules
+created: 20141115102825947
+creator: Tobias Beer
+modified: 20141125025525244
+modifier: Tobias Beer
+tags: tb5 Developer
+source-wiki-id: tb5
+source-tiddler-title-as-text: Parser Rules
+source-tiddler-title-as-link: Parser%20Rules
+
+!!Parser Rule Configuration
+```
+\rules except bold 
+\rules only bold 
+```
+
+!!Core Parser Rules
+https://github.com/Jermolene/TiddlyWiki5/tree/master/core/modules/parsers/wikiparser/rules
+
+!!List Rules In Console
+```
+Object.keys($tw.Wiki.parsers["text/vnd.tiddlywiki"].prototype.pragmaRuleClasses);
+Object.keys($tw.Wiki.parsers["text/vnd.tiddlywiki"].prototype.blockRuleClasses);
+Object.keys($tw.Wiki.parsers["text/vnd.tiddlywiki"].prototype.inlineRuleClasses);
+```

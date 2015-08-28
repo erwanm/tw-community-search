@@ -1,0 +1,78 @@
+title: $:/t5a/Overlay
+created: 20150125043941442
+creator: Andrew Harrison
+modified: 20150527021455803
+modifier: Andrew Harrison
+tags: t5a New [[Tick Sheet]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: Overlay
+source-tiddler-title-as-link: Overlay
+
+&emsp;&emsp;Mostly from Tobias Beer's [[overlay|http://tobibeer.github.io/tb5/#overlay]] macro (1/18/15). The ''overlay'' macro allows you to overlay or toggle content. As an example...
+
+```
+<<overlay
+{{$:/Examples/Overlay!!what}}
+{{$:/Examples/Overlay!!with}}
+400px 40px overlay-example>>
+```
+
+<<<
+<<overlay
+{{$:/Examples/Overlay!!what}}
+{{$:/Examples/Overlay!!with}}
+400px 40px overlay-example>>
+<<<
+
+
+```
+<<overlay
+{{$:/core/images/storyview-classic}}
+{{$$:/core/images/storyview-pop}}
+32px 32px>>
+```
+
+<<<
+<<overlay
+{{$:/core/images/storyview-classic}}
+{{$$:/core/images/storyview-pop}}
+32px 32px>>
+<<<
+
+!!Installation
+
+To use the ''ovleray'' macro in your tw5, drag this over: [[$:/Macros/Overlay]]
+
+!! Parameters
+
+The following parameters can be specified for the ''overlay'' macro:
+
+|!#|!Parameter|!Description|!Required|
+|1|''what'' |the initial content | X |
+|2|''with'' |the content shown on-hover| X |
+|3|''width'' |the width of the overlay box| X |
+|4|''height'' |the height of the overlay box| X |
+|5|''class''|an additional class assigned to the overlay box||
+
+These css classes are defined by the overlay macro...
+
+;`overlay`
+:the class for the wrapper
+;`overlay-what`
+:the class for the initial content
+;`overlay-with`
+:the class for the overlayed content
+
+!!The Macro
+{{$:/Macros/Overlay||Code}}
+
+!! The Example Tiddler
+[[$:/Examples/Overlay]]:
+
+; what
+:{{$:/Examples/Overlay!!what}}
+; with
+:{{$:/Examples/Overlay!!with}}
+; text
+:abused for styles ;-)
+{{$:/Examples/Overlay}}

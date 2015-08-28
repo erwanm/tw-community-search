@@ -1,0 +1,58 @@
+title: $:/LinuxNotes/Extensions
+created: 20150128142718398
+modified: 20150712145253973
+tags: LinuxNotes [[Mes applications]]
+source-wiki-id: LinuxNotes
+source-tiddler-title-as-text: Extensions
+source-tiddler-title-as-link: Extensions
+
+!Extensions et notes sur les applications
+
+!!!^^1^^ Extension pour ~LibreOffice Writer
+
+*[[Dictionnaire français|http://extensions.libreoffice.org/extension-center/dictionnaires-francais]]
+
+!!!^^2^^  Intégrer PDFsam à KDE
+
+Installer le paquet [[joxy|http://www.denvelop.nl/joxy/home/]] une meilleure intégration des applications java dans KDE. Le paquet `joxy-git` est disponible dans CCR.
+
+!!!^^3^^ Filtres supplémentaires pour GIMP
+
+*[[G'MIC|http://gmic.eu/]] (le paquet `gmic` est disponible dans CCR ou le télécharger et le copier dans ``~/.gimp-2.x/plug-ins/``). D'autres plugins sont disponibles dans CCR.<br>
+*Des scripts et des plugins sur le site [[GIMP Plugin registry|http://registry.gimp.org/]].
+
+!!!^^4^^ Modules complémentaires pour Firefox
+
+''Extensions favorites:''
+
+*__uBlock origin__ pour bloquer les publicités (en remplacement de ~AdblockEdge / ~AdblockPlus qui utilisent beaucoup de mémoire) 
+*__Privacy Badger__ de l'[[EFF|https://www.eff.org/fr]] pour bloquer les trackers (en remplacement de Disconnect / Ghostery)
+*__HTTPS Everywhere__ de l'[[EFF|https://www.eff.org/fr]] pour forcer l'utilisation du HTTPS<br>
+*__~NoScript__ pour bloquer les scripts Java, Flash...<br>
+*__Self-Destructing Cookies__ pour supprimer automatiquement les cookies des pages web visitées<br>
+*__~BetterPrivacy__ pour supprimer les cookies Flash (seulement si vous avez Flash Player installé)
+*__Gnotifier__ pour intégrer les notifications à KDE<br>
+
+L'extention __about:addons-memory__ permet de connaître la mémoire utilisée par les plugins.
+
+''Autres extensions:''
+
+*~AdblockEdge pour bloquer les publicités (en remplacement de ~AdblockPlus) et Adblock plus Pop-up Addon<br>
+*Disconnect pour bloquer les trackers (en remplacement de Ghostery qui est propriétaire)<br>
+*~RequestPolicy pour bloquer les requêtes inter-sites mais sa configuration est fastidieuse<br>
+*~YouTube All HTML5<br>
+*~FlashGot (pour utiliser Kget), KDE Wallet password integration (pour utiliser Kwallet)<br>
+*Flashblock et Flashvideoreplacer<br>
+*Bamboo un lecteur de flux RSS intégré à Firefox
+
+Utiliser des moteurs de recherche anonymes comme [[DuckDuckGo|https://duckduckgo.com/]] et [[Startpage|https://www.startpage.com/]].
+
+!!!^^5^^ Extension supplémentaires pour QGIS
+
+*~OpenLayers Plugin (vue aérienne, OSM...)<br>
+*Table Manager (gestion des tables)<br>
+QGIS intègre une application indépendante QGIS Browser qui est un explorateur des données SIG.
+
+!!!^^6^^ Avoir une Konsole transparente
+
+Configuration →  Gérer les profils → Modifier le profil → Apparence → Modifier → Arrière plan transparent

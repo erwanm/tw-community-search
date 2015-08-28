@@ -1,0 +1,13 @@
+title: $:/ibox/Modal Template
+created: 20141211151349208
+creator: Tobias Beer
+modified: 20141211151442400
+modifier: Tobias Beer
+tags: ibox
+source-wiki-id: ibox
+source-tiddler-title-as-text: Modal Template
+source-tiddler-title-as-link: Modal%20Template
+
+The default template used for the ibox modal.
+
+<<source [[Lightbox]]>>

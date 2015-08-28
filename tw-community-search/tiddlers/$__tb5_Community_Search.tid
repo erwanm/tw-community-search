@@ -1,0 +1,17 @@
+title: $:/tb5/Community Search
+created: 20150106172354665
+creator: Tobias Beer
+icon: $:/core/images/plugin-generic-language
+modified: 20150116171153755
+modifier: Tobias Beer
+summary: an aggregator allowing to search indexed TiddlyWiki community wikis
+url: https://rawgit.com/erwanm/tw-aggregator/master/tw-community-search.html
+tags: tb5 References Search Solutions Community
+source-wiki-id: tb5
+source-tiddler-title-as-text: Community Search
+source-tiddler-title-as-link: Community%20Search
+
+; GitHub
+: https://github.com/erwanm/tw-aggregator
+; discussion
+: https://groups.google.com/d/msg/tiddlywiki/tJjhzDDvk4k/4QuoXDoNqw8J

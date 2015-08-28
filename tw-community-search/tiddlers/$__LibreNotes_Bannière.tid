@@ -1,0 +1,19 @@
+title: $:/LibreNotes/Bannière
+created: 20150608183650371
+modified: 20150711162157559
+tags: LibreNotes ban
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: Bannière
+source-tiddler-title-as-link: Bannière
+
+<table class="invisibletable">
+<tr>
+<td valign="left">
+<div style="text-align:left; margin-top:-0.4em; margin-bottom:-3.2em; margin-left:-3.5em">
+[img width="72" align='left' [logo.svg]]
+</div>
+</td>
+<td>
+<div style="text-align:right; margin-top:-0.2em; margin-bottom:-2.8em; margin-right:-3.5em;">
+[img width="192" align='right' [titre.png]]
+</div>

@@ -1,0 +1,42 @@
+title: $:/TWHangouts/Formatting Options
+created: 20141218194627298
+modified: 20141218200433808
+tags: TWHangouts Format
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Formatting Options
+source-tiddler-title-as-link: Formatting%20Options
+
+Here is an idea I had for formatting the Hangout Notes
+
+```
+[Marker for New Secton - Could use hidden codes]
+##:##:## <Some Kind of Divider> Brief Description
+Details [[Tiddler Links]] [[Outside Links]]
+More Notes
+---End Marker---
+[Marker for New Secton]
+##:##:## <Some Kind of Divider> Brief Description
+Details [[Tiddler Links]] [[Outside Links]]
+More Notes
+---End Marker---
+```
+
++M1 Start+
+
+* ##:##:## | Brief Description
+** Details including Tiddler Links and Links to Outside Content
+** Additional Notes
+** Spacing out the notes makes it easier to read after the fact
+
++M1 End+
+
++M2 Start+
+
+* ##:##:## | Brief Description
+** Details including Tiddler Links and Links to Outside Content
+** Additional Notes
+** Spacing out the notes makes it easier to read after the fact
+
++M2 End+
+
+[[Asked for Help @ TiddlyWiki Dev|https://groups.google.com/forum/#!topic/tiddlywikidev/F8k7jLGSJyg]]

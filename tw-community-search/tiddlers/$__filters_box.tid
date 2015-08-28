@@ -1,0 +1,14 @@
+title: $:/filters/box
+created: 20150105192950629
+modified: 20150105193203125
+tags: filters
+source-wiki-id: filters
+source-tiddler-title-as-text: box
+source-tiddler-title-as-link: box
+
+From <$link to=<<currentTidler>>><$view field=title/></$link>...
+
+<div style="background:#f6f6f6;padding:10px">
+
+{{!!text}}
+</div>

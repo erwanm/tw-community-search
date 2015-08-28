@@ -1,0 +1,75 @@
+title: $:/TWHangouts/<Name Plate>
+created: 20141220034315799
+modified: 20141224015935210
+tags: TWHangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: <Name Plate>
+source-tiddler-title-as-link: %3cName%20Plate%3e
+
+The [[<Name Plate>]] is on the front of your virtual office door.  What do you want your Name Plate to say since you create it.
+
+The format is has a lot in it so you can do a lot.  Just because you do a lot doesn't mean you can't have the name plate you want.
+
+[[vCard|http://en.wikipedia.org/wiki/VCard]] type item that we can easily copy and paste from one TiddlyWiki to another.  It is not in a crazy format or difficult to understand or copy and paste.  It would be your public card you give out to people, if we can figure out how to encrypt to avoid spiders spam then lets do it otherwise omit that kind of stuff.
+
+From Wikipedia
+
+```
+The standard Internet media type for a vCard (often referred to as its mime type) is:[1]
+
+    text/vcard
+
+As of version 4.0 specification, other media types known to have been used previously are now deprecated, including:[1]
+
+    text/x-vcard
+    text/directory;profile=vCard
+    text/directory 
+```
+
+```
+hCard 1.0
+lead to
+jCard
+
+There are several version of vCard
+```
+
+I think we need a twCard type potentially base it on the jCard(Since the insert in the CD is called a JCard there is confusion so a good reason to use twCard)
+
+Code Below for jCard 4.0
+See also the [[Website for jCard|https://tools.ietf.org/html/rfc7095]]
+
+```
+jCard
+
+["vcard",
+  [
+    ["version", {}, "text", "4.0"],
+    ["n", {}, "text", ["Gump", "Forrest", "", "", ""]],
+    ["fn", {}, "text", "Forrest Gump"],
+    ["org", {}, "text", "Bubba Gump Shrimp Co"],
+    ["title", {} ,"text", "Shrimp Man"],
+    ["photo", {"mediatype":"image/gif"}, "uri", "http://www.example.com/dir_photos/my_photo.gif"],
+    ["tel", {"type":["work", "voice"]}, "uri", "tel:+1-111-555-1212"],
+    ["tel", {"type":["home", "voice"]}, "uri", "tel:+1-404-555-1212"],
+    ["adr",
+      {"label":"100 Waters Edge\nBaytown, LA 30314\nUnited States of America", "type":"work"},
+      "text",
+      ["", "", "100 Waters Edge", "Baytown", "LA", "30314", "United States of America"]
+    ],
+    ["adr",
+      {"label":"42 Plantation St.\nBaytown, LA 30314\nUnited States of America", "type":"home"},
+      "text",
+      ["", "", "42 Plantation St.", "Baytown", "LA", "30314", "United States of America"]
+    ],
+    ["email", {}, "text", "forrestgump@example.com"],
+    ["rev", {}, "timestamp", "2008-04-24T19:52:43Z"]
+  ]
+]
+
+
+```
+
+Here are a list of the Tag "people"
+
+{{{ [tag[people]] }}}

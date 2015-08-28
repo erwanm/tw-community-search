@@ -1,0 +1,19 @@
+title: $:/welford/Highlight Example
+created: 20140318214655832
+creator: ジェームス
+modified: 20140318214729239
+modifier: ジェームス
+revision: 0
+type: text/vnd.tiddlywiki
+tags: welford
+source-wiki-id: welford
+source-tiddler-title-as-text: Highlight Example
+source-tiddler-title-as-link: Highlight%20Example
+
+```cpp
+void main(void)
+{
+    //basic example
+    print("hello world")
+}
+```

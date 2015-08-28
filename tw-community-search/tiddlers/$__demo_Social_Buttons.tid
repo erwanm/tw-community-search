@@ -1,0 +1,39 @@
+title: $:/demo/Social Buttons
+created: 20141221084025399
+creator: Tobias Beer
+modified: 20141221094012824
+modifier: Tobias Beer
+tags: demo Demo Fails Buttons
+source-wiki-id: demo
+source-tiddler-title-as-text: Social Buttons
+source-tiddler-title-as-link: Social%20Buttons
+
+Here's an attempt to show social buttons generated via [[simplesharingbuttons|http://simplesharingbuttons.com/]].
+
+@@color:red;
+''Note:'' For some reason, a number of buttons do not show __in Chrome__, e.g. the first one should actually be facebook to the very left, followed by twitter. The problem must be related to the generated target urls as the buttons show if I modify that. o.O
+@@
+
+!!The buttons
+Should actually be more than just the displayed three...
+<ul class="social">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftb5.tiddlyspot.com&t=tb5%20solutions%20for%20TiddlyWiki" target="_blank">{{Facebook.png}}</a></li>
+	<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftb5.tiddlyspot.com&text=tb5%20solutions%20for%20TiddlyWiki:%20http%3A%2F%2Ftb5.tiddlyspot.com&via=beertobias" target="_blank" title="Tweet">{{Twitter.png}}</a></li>
+	<li><a href="https://plus.google.com/share?url=http%3A%2F%2Ftb5.tiddlyspot.com" target="_blank" title="Share on Google+">{{Google+.png}}</a></li>
+	<li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Ftb5.tiddlyspot.com&t=tb5%20solutions%20for%20TiddlyWiki&s=" target="_blank" title="Post to Tumblr">{{Tumblr.png}}</a></li>
+	<li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Ftb5.tiddlyspot.com&media=http://i1178.photobucket.com/albums/x375/tobibeer/img/tiddlywiki/tb5.gif&description=solutions%2C%20plugins%2C%20developer%20info%2C%20core%2C%20references%2C%20markup" target="_blank" title="Pin it">{{Pinterest.png}}</a></li>
+	<li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Ftb5.tiddlyspot.com&title=tb5%20solutions%20for%20TiddlyWiki" target="_blank" title="Submit to Reddit">{{Reddit.png}}</a></li>
+	<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftb5.tiddlyspot.com&title=tb5%20solutions%20for%20TiddlyWiki&summary=solutions%2C%20plugins%2C%20developer%20info%2C%20core%2C%20references%2C%20markup&source=http%3A%2F%2Ftb5.tiddlyspot.com" target="_blank" title="Share on LinkedIn">{{LinkedIn.png}}</a></li>
+	<li><a href="http://wordpress.com/press-this.php?u=http%3A%2F%2Ftb5.tiddlyspot.com&t=tb5%20solutions%20for%20TiddlyWiki&s=solutions%2C%20plugins%2C%20developer%20info%2C%20core%2C%20references%2C%20markup&i=http://i1178.photobucket.com/albums/x375/tobibeer/img/tiddlywiki/tb5.gif" target="_blank" title="Publish on WordPress">{{Wordpress.png}}</a></li>
+	<li><a href="mailto:?subject=tb5%20solutions%20for%20TiddlyWiki&body=solutions%2C%20plugins%2C%20developer%20info%2C%20core%2C%20references%2C%20markup:%20http%3A%2F%2Ftb5.tiddlyspot.com" target="_blank" title="Email">{{Email.png}}</a></li>
+</ul><style>
+.social {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.social li {
+	float:left;
+}
+</style>

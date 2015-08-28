@@ -17,6 +17,10 @@ short_description: Editing tags and the tag field of tiddlers
 title: twCard - Plugin - MangleTagsWidget
 wiki: http://gwiz.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: gWiZ
+twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/mangletags
+twcs-description: Contains the <$mangletags> widget
+twcs-author: 
+twcs-version: 0.0.6
 
 {{||$:/CommunityPluginTemplate}}

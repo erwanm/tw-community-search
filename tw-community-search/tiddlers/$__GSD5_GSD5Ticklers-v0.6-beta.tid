@@ -1,0 +1,33 @@
+title: $:/GSD5/GSD5Ticklers-v0.6-beta
+caption: v0.6-beta
+creator: Roma
+released: 201505160104
+tags: GSD5 release [[current release]] GSD5Ticklers
+source-wiki-id: GSD5
+source-tiddler-title-as-text: GSD5Ticklers-v0.6-beta
+source-tiddler-title-as-link: GSD5Ticklers-v0.6-beta
+
+! Added Features
+
+* Ticklers are back!
+* Directly go to an Action by clicking the link in the Tickler/Alert.
+
+!! Limitations
+
+GSD5 Ticklers is very bare-bones at the moment.
+
+* The GSD5 Ticklers plugin only supports the English/Gregorian calendar at this time.
+* The week starts on Sunday.
+* No repeating occurrences.
+* No snoozing.
+* "One time firing" of alerts.
+* Day granularity only
+* Manual date entry requires <kbd>Enter</kbd> keystroke.
+
+! Notes
+
+Be sure to upgrade to GSD5 v0.6-beta before using plugin.  While it is possible that lesser GSD5 versions will be compatible with Ticklers, I have not tested it.
+
+!! Thanks
+
+Thanks to all who have contributed with bugs, questions and suggestions!

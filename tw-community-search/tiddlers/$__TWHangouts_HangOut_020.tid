@@ -1,0 +1,49 @@
+title: $:/TWHangouts/HangOut_020
+created: 20150118083326033
+modified: 20150118083504585
+tags: TWHangouts License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_020
+source-tiddler-title-as-link: HangOut_020
+
+2013-11-05 - [[YouTube|http://www.youtube.com/watch?v=8_-HhbEMiJ4]]
+
+"""
+0:00:00 Intro: frtl: Mario, Piers, Robin, Sean, Leo (Slonik), Stephan, Ton
+0:03:00 Jeremy- What's new: CodeMirror integration (plugin)
+0:05:45 Leo- uses "It's all text" Will it work with CM?
+0:06:55 Jeremy- There is a new "markdown plugin" for interoperability.
+0:10:15 Jeremy- Short info about markdown plugin integration (code).
+0:12:45 Jeremy- How codemirror was included (code)
+0:13:15 Jeremy- Some discussion about animation and inernal HTML structure
+0:17:27 Intro Nathan
+0:18:25 Jeremy- Are there questions from Piers and Sean? usecase?
+0:20:43 Jeremy- multi column mode lists ... TW5 as a "guitar songbook"
+0:25:37 Leo- External links to MP3?
+0:26:20 about multi column CSS
+0:27:40 Jeremy- does a lot of "skeleton documentation"
+0:30:12 Mario- Are we close to beta? -> upgrade the core is the blocker atm ... general discussion about beta
+0:32:40 Leo- Do we need to write browser specific CSS? ... TW5 does simplify CSS creation ..
+0:34:30 Jeremy- How to create a "CSS macro" for 4 columns
+0:36:40 Mario- What do you think about using microformats. microformats (dot) org
+0:38:20 Jeremy/Mario/Nathan/Leo- thinking about RDFa ... open graph ... schema (dot) org ... using RDF as a "storage format"
+0:50:40 Jeremy/Nathan- reflections about the above (RDF)
+0:54:20 Nathan/Jeremy- about "Federated Querying" ... SPARQL
+0:57:20 Jeremy- reflections about "possibilities to use it"
+0:58:48 Jeremy- "PageMacros" ... "hacky" global macros ... built in macros
+1:00:00 Jeremy- Creating tabs with macros
+1:01:08 Mario- brings back the "sections and slice" discussion ... about "prose / natural data structure"
+1:04:53 Jeremy- "library of core macros" ... text and javascript
+1:08:50 Mario- issue - using TW5 to create TW2 test.html - TW5 npm should be updated.
+1:12:25 Nathan- shows a structure of "Linked open data cloud"
+1:19:29 ... tags and URI ... od items inside TW have an URI? ... text URI ... rendered URI
+1:26:30 Jeremy- TW5 (without javascript) shows the tiddler titles. ... It could be anything.
+1:29:00 Nathan- are the "js macros" global?
+1:34:08 Jeremy/Mario- Animation is back ... for popup's ... adjusting animation speed ... working with tabs
+1:39:40 Jeremy- about keyboard shortcuts
+1:41:35 Nathan- Is there a "command line interface" in TW5
+1:44:40 Jeremy- searches some "early TW UI sketches"
+1:45:20 Nathan- CLI - to manipulate the "server side"
+1:47:52 Jeremy- finally shows some "early TW UI sketches" ... a termKit like CLI for TW
+1:54:10 Bye! Bye!
+"""

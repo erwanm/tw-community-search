@@ -17,6 +17,6 @@ short_description: A tiddlywiki plugin for the vis.js library.
 title: twCard - Plugin - TW5-Vis.js
 wiki: http://felixhayashi.github.io/TW5-TiddlyMap/index.html
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

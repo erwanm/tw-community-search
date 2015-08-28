@@ -1,0 +1,18 @@
+title: $:/TWHangouts/TwHo#076 - Introductions
+created: 20150109032540964
+end: 00:02:10
+modified: 20150113150645740
+segment_description: Introductions
+start: 00:00:00
+tags: TWHangouts [[Video Segment]] 076 [[TiddlyWiki Hangout #076]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TwHo#076 - Introductions
+source-tiddler-title-as-link: TwHo%23076%20-%20Introductions
+
+{{!!segment_description}}
+
+<$set name=videoID value={{$:/.rich/data/videos##076}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start="00:00:00" end="00:02:10"/>
+</$set>
+
+[[Matias Goldman]] <<sep>> [[Tobias Beer]] <<sep>> [[Jeremy Ruston]] <<sep>> [[Jed Carty]] <<sep>> [[Alex Hough]](later) <<sep>> [[Nathan Cain]](later) <<sep>> [[Eric Shulman]](later) <<sep>> [[Arlen Beiler]] <<sep>> [[Rich Shumaker]](later)

@@ -1,0 +1,37 @@
+title: $:/tb5/References
+caption: References
+created: 20141116150120833
+creator: Tobias Beer
+icon: $:/core/images/globe
+menu: main
+menu-icon: {{$:/core/images/globe}}
+modified: 20150206125300310
+modifier: Tobias Beer
+order: 4
+summary: tw5 resources to achieve greateness
+tags: tb5 Welcome
+source-wiki-id: tb5
+source-tiddler-title-as-text: References
+source-tiddler-title-as-link: References
+
+!!@@float:right;text-align:right;color:blue; [[Customizations]] «@@
+!!Main Resources
+<dl>
+<$list filter="[tag[Main]] +[sort[title]]">
+<dt><$link>{{!!title}}</$link></dt>
+<dd>{{!!url}}</dd>
+<dd>{{!!summary}}</dd>
+</$list>
+</dl>
+
+!! Community References
+
+{{{ [tag[Reference]]}}}
+
+<dl>
+<<list-search
+"[tag[Community]][tag[References]][tag[Tobias Beer]]-[tag[Personal]]+[sort[title]]"
+"search:summary"
+"$:/temp/tb/list-refernces"
+"$:/.tb/templates/list-link-summary">>
+</dl>

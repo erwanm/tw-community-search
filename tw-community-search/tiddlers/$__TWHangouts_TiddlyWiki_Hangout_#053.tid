@@ -1,0 +1,50 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #053
+created: 20141229014335884
+modified: 20141229022233181
+tags: TWHangouts HangOut_053 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #053
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23053
+
+\define hangout() 053
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: frtl: Eric, Jeremy, Nathan, Ton" >>
+<<topic "0:01:58" "Paolo- small inconsistency: in the 'Tag Manager', when I choose a colour by html name, the horizontal colour stripe remains black, instead of reflecting the selected colour. Same problem when editing the tiddler of the tag" >>
+<<topic "0:17:40" "mindprism- How do I get an invite to the hangout?" >>
+<<topic "0:23:03" "mindprism- wants to show stuff" >>
+<<topic "0:23:22" "mindprism- about the color picker" >>
+<<topic "0:23:39" "Paolo- tiny suggestions on how to choose a tag from the drop-down list: after activating the tags' list, it would be useful to be able to select the tag with the up-and-down keys (instead of using the mouse). Now, the tab+enter keys also work but requires many" >>
+<<topic "0:32:21" "minprism- There is another issue with that tag menu — when it is contained in a div that has overflow:scroll or overflow hidden, it can be clipped to the container — it needs to be elevated in the dom." >>
+<<topic "0:40:30" "mindprism- Can you post that join like please?" >>
+<<topic "0:41:00" "mindprism- There is no css solution for that, the inner div will always be clipped." >>
+<<topic "0:41:15" "Ton- Tagging a tiddler with a 'system' tag adds the tiddler as a tab, button, part, filter, macro, etc. But at the moment I don't see any practical use for $:/tags/Image. Is there practical use or is this tag only for 'internal' use?" >>
+<<topic "0:43:47" "Matabele- gwiz.tiddlyspot. com about stacking widgets around the button widget." >>
+<<topic "0:47:20" "Mark joined (aka mindprism)" >>
+<<topic "0:49:15" "... Jeremy about wikitext used to build the UI .." >>
+<<topic "0:50:44" "Jeremy- back to Matabele's widget stacking approach" >>
+<<topic "0:51:28" "Jeremy- Richer Message Parameters for buttons and widgets in general" >>
+<<topic "0:55:25" ".. about the 'stories' selector .. storiy becomes an entity" >>
+<<topic "0:57:10" "Jeremy- what's new .." >>
+<<topic "0:57:50" ".. The release tiddler was 'awful'" >>
+<<topic "0:58:43" ".. the tabs macro has to be improved" >>
+<<topic "0:59:28" "Eric- making something similar to the 'tags grid' ?!" >>
+<<topic "1:00:15" "Jeremy- How to customize the 'story river'. .. Make tiddlywiki. com a 'more common' page" >>
+<<topic "1:05:38" "Jeremy- There's a new theme tweak ... the sidebar breakpoint .. splitting TW settings into seperate tiddlers." >>
+<<topic "1:07:48" "Jeremy- fixing some bugs ... HistoryList not saved anymore" >>
+<<topic "1:08:56" "Jeremy- improving the animations .." >>
+<<topic "1:09:57" "Jeremy- about the 'Indie Tech Summit' by Aral Balkan" >>
+<<topic "1:10:50" ".. The 'Indie Tech Manifesto' ... One question is: 'How to creat a new business model'?" >>
+<<topic "1:14:30" ".. about 'federated tools' .. and there UI" >>
+<<topic "1:17:33" ".. TalkyTalky Shout-outs" >>
+<<topic "1:21:12" ".. about the manifesto" >>
+<<topic "1:23:26" "Mark has some demos." >>
+<<topic "1:25:40" ".. screensharing is working .. make it keyboard accessible .. very interesting UI .. especially the tag input" >>
+<<topic "1:44:30" "Jeremy- feedback .." >>
+<<topic "1:46:45" "Jeremy- How many different wikis do you use? some general discussion about a 'killer app' .. about contribution" >>
+<<topic "1:52:35" "Mark- Does tiddlyspot save the whole file everytime? yes. How do I host my own version?" >>
+<<topic "1:54:00" "Mark- What is the largest, in megabytes, TW you've seen?" >>
+<<topic "1:56:25" "Jeremy- Short summary for Mark" >>
+<<topic "1:58:12" "Bye! Bye!" >>
+"""

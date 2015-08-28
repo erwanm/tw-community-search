@@ -17,6 +17,10 @@ short_description: A plugin to make railroad diagrams
 title: twCard - Plugin - Railroad Plugin
 wiki: http://ae-railroad.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: ae-railroad
+twcs-extracted-plugin-tiddler: $:/ae-railroad/$:/plugins/tiddlywiki/railroad
+twcs-description: Plugin for generating SVG railroad diagrams
+twcs-author: Astrid Elocson
+twcs-version: 5.1.8-prerelease
 
 {{||$:/CommunityPluginTemplate}}

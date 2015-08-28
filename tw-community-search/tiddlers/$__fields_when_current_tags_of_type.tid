@@ -1,0 +1,35 @@
+title: $:/fields/when current tags of type
+created: 20150117100344593
+creator: Tobias Beer
+filter: [all[current]tags[]tag[type]]
+modified: 20150122173346101
+modifier: Tobias Beer
+summary: conditionally show information depending on the current tiddler's tags
+tags: fields Filters [[Tobias Beer]] tag all current tags limit when
+source-wiki-id: fields
+source-tiddler-title-as-text: when current tags of type
+source-tiddler-title-as-link: when%20current%20tags%20of%20type
+
+When current tag has a tag itself tagged [[Developer]], show developer information...
+
+```
+<$list filter="[all[current]tags[]tag[Developer]limit[1]]" variable=none>
+<h2>Developer</h2>
+<$list filter="[all[current]tags[]tag[Developer]]">
+<dl>
+<dt><$link><$view field=title/></$link></dt>
+<dd>{{!!url}}</dd>
+</dl>
+</$list>
+</$list>
+```
+
+<$list filter="[all[current]tags[]tag[Developer]limit[1]]" variable=none>
+<h2>Developer</h2>
+<$list filter="[all[current]tags[]tag[Developer]]">
+<dl>
+<dt><$link><$view field=title/></$link></dt>
+<dd>{{!!url}}</dd>
+</dl>
+</$list>
+</$list>

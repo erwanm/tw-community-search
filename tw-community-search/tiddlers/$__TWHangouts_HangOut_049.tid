@@ -1,0 +1,56 @@
+title: $:/TWHangouts/HangOut_049
+created: 20150105200612970
+modified: 20150105200743441
+tags: TWHangouts License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_049
+source-tiddler-title-as-link: HangOut_049
+
+2014-06-10 -    [[YouTube|https://www.youtube.com/watch?v=3h8RGv0E9Uc]]
+
+---
+
+"""
+
+0:00:00 Intro- frtl: Jerem, Mario, Stephan, Ton
+0:01:27 The most recent changes
+0:02:05 Jeremy's ToDo notes
+0:03:39 Jeremy- NEW external image support ... _cannonical_uri
+0:10:30 about the implementation (techy :)
+0:12:35 Mario- Is it possible to create this kind of tiddler by hand? New tiddler?
+0:17:45 Mario- The image tiddler transclusion works ... yes!
+0:18:57 Jeremy and Mario about youtube links and the time stamp handling ...
+0:19:19 Mario- about the annotation timestamps ...
+0:19:41 Jeremy- about Mario writing annotations about the discussion about annotations ...
+0:20:02 Jeremy-
+0:20:10 Nathan joined
+0:20:31 Jeremy- about the parsers implementations.
+0:25:40 Jeremy- how the _cannonical_uri influents the EditTemplates
+0:28:00 Jeremy- new CLI savetiddler command to save / create external image tiddlers
+0:31:38 Jeremy- The "old" tiddler type dropdown is back.
+0:32:45 Jeremy- some documentation updates
+0:33:15 Nathan ?
+0:33:37 Jeremy- What's next for
+0:33:53 Ton- about the external image functions ... are thumbnails possible?
+0:36:58 Jeremy- about extended image presentations functions.
+0:41:10 Jeremy- about fixing up the relative date widget.
+0:46:45 Nathan- templated image links would be cool
+0:47:38 Jeremy- thinks we need tools to visualize the parse- and render-tree (for devs)
+0:50:45 Jeremy- about the creation of talky-talky ..
+0:52:20 Intro Danielo
+0:53:00 Danielo- has some proposals
+0:53:20 TiddlyWiki Desktop should be listed on the Node WebKit project page
+0:57:50 Danielo- proposal to "track tiddler usage data" eg: how often a tiddler was viewed
+1:03:00 Jeremy / Danielo- about tiddler syncing / import mechanism (new plugin)
+1:03:54 Danielo requests some plugin management functions in the ControlPanel
+1:06:20 Danielo would like to have a "save as" button somewhere.
+1:09:50 Mario- about the problem in FireFox with "save as" UUID name. May be the TiddlyFox backups handling should do it.
+1:12:52 Danielo- would like to have a dropdown list for fields similar to tags input box
+1:17:10 Danielo shows his new "import / sync" plugin. (some screen share problems)
+1:19:50 D. back-
+1:24:25 Danielo- shows how he changed the code. ... Discussion about sync and import
+1:29:50 ... Mario- suggests 3 different import reports ... Jeremy, Danielo, Nathan, Mario discussion about the workflow ...
+1:47:10 Jeremy- about a sync command line option ... shows some code, where Danielo could start
+2:03:20 Jeremy- shows how to inspect code with the "debugger" option ... discussion about syncing
+2:13:00 Bye! Bye!
+"""

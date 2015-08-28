@@ -1,0 +1,27 @@
+title: $:/tb5/html-elements
+created: 20141203173618521
+creator: Tobias Beer
+modified: 20141203173628494
+modifier: Tobias Beer
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: html-elements
+source-tiddler-title-as-link: html-elements
+
+<dt>
+
+```
+<article class="hello">
+HTML tags work like that.
+<!-- even comments -->
+</article>
+```
+</dt>
+
+<dd>
+
+<article class="hello">
+HTML tags work like that.
+<!-- even comments -->
+</article>
+</dd>

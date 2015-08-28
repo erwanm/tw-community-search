@@ -1,0 +1,54 @@
+title: $:/demo/Conditional Macro Parameters
+created: 20141225151240579
+creator: Tobias Beer
+modified: 20141225151958929
+modifier: Tobias Beer
+tags: demo Demo Macros
+source-wiki-id: demo
+source-tiddler-title-as-text: Conditional Macro Parameters
+source-tiddler-title-as-link: Conditional%20Macro%20Parameters
+
+\define foo(bar, baz)
+<$reveal type=nomatch text="$baz$" default="">
+$baz$
+</$reveal>
+<$reveal type=match text="$baz$" default="">
+No baz!!!
+</$reveal>
+\end
+
+This experiment tries to do something depending on whether or not a macro parameter is declared...
+
+```
+\define foo(bar, baz)
+<$reveal type=nomatch text="$baz$" default="">
+$baz$
+</$reveal>
+<$reveal type=match text="$baz$" default="">
+No baz!!!
+</$reveal>
+\end
+```
+
+!!Test
+
+```
+<<foo>>
+```
+<<<
+<<foo>>
+<<<
+
+```
+<<foo bar>>
+```
+<<<
+<<foo bar>>
+<<<
+
+```
+<<foo bar baz>>
+```
+<<<
+<<foo bar baz>>
+<<<

@@ -1,0 +1,26 @@
+title: $:/GSD5/GSD5ContactPlugin
+caption: $:/tags/GSD5ContactPlugin
+tags: GSD5 BlueBoxTags API
+source-wiki-id: GSD5
+source-tiddler-title-as-text: GSD5ContactPlugin
+source-tiddler-title-as-link: GSD5ContactPlugin
+
+! Summary
+
+Adds custom controls to the BlueBox for Contacts.
+
+! Detail
+
+The `$:/tags/GSD5ContactPlugin` tag is used to provide a end-user interface in [[Contact]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+
+! Best Practice
+
+* If creating custom controls prefer this tag over [[$:/tags/GSD5ContactCore|GSD5ContactCore]].
+* {{BestPractice OrderedList!!text}}
+* {{BestPractice CustomCSS!!text}}
+
+---
+
+__''Also See:''__
+
+* [[$:/tags/GSD5ContactCore|GSD5ContactCore]]

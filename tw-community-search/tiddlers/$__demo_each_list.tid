@@ -1,0 +1,44 @@
+title: $:/demo/each:list
+created: 20150126124344216
+creator: Tobias Beer
+list: missing
+modified: 20150126130649394
+modifier: Tobias Beer
+tags: demo
+source-wiki-id: demo
+source-tiddler-title-as-text: each:list
+source-tiddler-title-as-link: each%3alist
+
+; implements
+: <<git5  issues/1369>> — each filter and list field(s)
+; pull request
+: <<git5 pull/1422>> — added list suffix for each filter
+; modified
+: [[$:/core/modules/filters/each.js]]
+
+When the suffix is `list`, the ''each'' filter interprets the field as a list of individual tiddler titles equivalent to the core list field and returns all titles referenced in the list field of the source list, existing or not.
+
+!! Example
+The below lists all missing tiddlers that are referenced in a list field as terms and the tiddlers where they are referenced as definitions.
+
+```
+<dl>
+<$list filter="[each:list[list]is[missing]sort[]]">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link>
+</dt>
+<$list filter="[<currentTiddler>listed[]]">
+<dd><$link to=<<currentTiddler>>><$view field=title/></$link></dd>
+</$list>
+</$list>
+</dl>
+```
+
+<dl>
+<$list filter="[each:list[list]is[missing]sort[]]">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link>
+</dt>
+<$list filter="[<currentTiddler>listed[]]">
+<dd><$link to=<<currentTiddler>>><$view field=title/></$link></dd>
+</$list>
+</$list>
+</dl>

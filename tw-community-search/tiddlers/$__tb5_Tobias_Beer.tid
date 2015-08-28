@@ -1,0 +1,23 @@
+title: $:/tb5/Tobias Beer
+caption: My Stuff
+course: English
+created: 20141113132734200
+creator: Tobias Beer
+icon: $:/core/images/plugin-generic-language
+level: B2
+modified: 20150207085713853
+modifier: Tobias Beer
+summary: wikis I created and maintain<!--Tobias Beer, tb5-->
+url: [[tobibeer.github.io|https://tobibeer.github.io]] / [[github.com/tobibeer|https://github.com/tobibeer]]
+tags: tb5 Community
+source-wiki-id: tb5
+source-tiddler-title-as-text: Tobias Beer
+source-tiddler-title-as-link: Tobias%20Beer
+
+<dl>
+<<list-search
+"[all[current]tagging[]sort[title]]"
+"search"
+"$:/temp/list-search-my-stuff"
+"$:/.tb/templates/list-search-me">>
+</dl>

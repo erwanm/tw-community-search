@@ -1,0 +1,15 @@
+title: $:/TiddlyMap/$:/plugins/danielo515/ContextPlugin
+author: Danielo Rodrigez
+core-version: >=5.1.0
+dependents: 
+description: Context search - provides visual highlight of search results
+list: readme
+source: https://github.com/danielo515/TW5-contextPlugin
+version: 2.1.0
+tags: TiddlyMap
+source-wiki-id: TiddlyMap
+source-tiddler-title-as-text: $:/plugins/danielo515/ContextPlugin
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2fContextPlugin
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,18 @@
+title: $:/LibreNotes/ListeTags
+created: 20150617205125041
+modified: 20150618172029414
+tags: LibreNotes transblack
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: ListeTags
+source-tiddler-title-as-link: ListeTags
+
+<div style="margin-top:-1.8em; margin-bottom:-1.2em;">
+
+<div style="font-size:0.8em; color:#474747;">
+<i class="fa fa-tags"></i> Tous les tags
+</div>
+
+<div style="font-size:0.7em; color:black;">
+<$list filter="[tags[]!is[system]each[color]]">
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+</$list>

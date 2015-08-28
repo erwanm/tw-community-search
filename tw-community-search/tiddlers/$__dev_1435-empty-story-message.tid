@@ -1,0 +1,24 @@
+title: $:/dev/1435-empty-story-message
+created: 20150203131135841
+creator: Tobias Beer
+modified: 20150203132853069
+modifier: Tobias Beer
+summary: implements emptyStoryMessage to define behaviour when last tiddler in story is closed
+url: <<git5 issues/1435>>
+tags: dev Pull 5.1.8 Open
+source-wiki-id: dev
+source-tiddler-title-as-text: 1435-empty-story-message
+source-tiddler-title-as-link: 1435-empty-story-message
+
+; replaces
+: [[1407-open-default-on-empty]]
+
+added ''~ControlPanel'' settings => reordered ''~ControlPanel / Basics'' a bit to have ''~DefaultTiddlers'' next to ''~EmptyMessage'' but not shifting important stuff too far down.
+
+<<<
+There is the emptyMessage attribute of the list widget that could be used to display custom content in case the story river is empty. The content wouldn't be displayed as a tiddler (there'd be no toolbar buttons etc.). So, one possibility is to update the list widget for the main story river to read an empty message from $:/config/EmptyStoryMessage. We should also expose it in control panel.
+<<<
+
+!! Discussion
+
+https://groups.google.com/d/msg/tiddlywiki/-qevGMkbWBQ/lgUu0j_wlnkJ

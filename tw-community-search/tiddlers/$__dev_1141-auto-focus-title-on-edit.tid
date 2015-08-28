@@ -1,0 +1,17 @@
+title: $:/dev/1141-auto-focus-title-on-edit
+created: 20141126230704620
+creator: Tobias Beer
+modified: 20141213124841534
+modifier: Tobias Beer
+summary: focus title field on edit
+url: <<git5 pull/1141>>
+tags: dev Pull Accepted 5.1.5
+source-wiki-id: dev
+source-tiddler-title-as-text: 1141-auto-focus-title-on-edit
+source-tiddler-title-as-link: 1141-auto-focus-title-on-edit
+
+* enhanced edit-text widget with `focus="true"` attribute
+* modified title template to make it `focus()` and `select()` by default
+
+!!Discussion
+https://github.com/Jermolene/TiddlyWiki5/issues/371#issuecomment-64169500

@@ -1,0 +1,20 @@
+title: $:/tb5/All Solutions
+created: 20141220144245668
+creator: Tobias Beer
+modified: 20141220144933435
+modifier: Tobias Beer
+tags: tb5
+source-wiki-id: tb5
+source-tiddler-title-as-text: All Solutions
+source-tiddler-title-as-link: All%20Solutions
+
+<<list-search
+"[tag[Solutions]!sort[created]]"
+search
+"$:/temp/tb/solutions"
+"$:/template/tagged-timeline"
+"Filter solutions...">><style>
+.solutions input {
+display:none;
+}
+</style>

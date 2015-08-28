@@ -1,0 +1,43 @@
+title: $:/welford/Filters
+created: 20141221111642457
+modified: 20150111233827928
+revision: 0
+type: text/vnd.tiddlywiki
+tags: welford tiddlywiki filters
+source-wiki-id: welford
+source-tiddler-title-as-text: Filters
+source-tiddler-title-as-link: Filters
+
+I always struggle with anything but the most basic of tiddlers when writing list. It always feels like a bit of guess work so I will write a few examples too. I will be using the ``<<list-links "[[filter ]]">>`` macro.
+
+!tag
+``[tag[filters]]``
+<<list-links "[tag[filters]]">>
+
+!tags
+``[tags[]]``
+<<list-links "[tags[]]">>
+
+``[all[current]tags[]]``
+<<list-links "[all[current]tags[]]">>
+
+!is
+Selects tidders from the current list, useful within filters itself. Unlike all it doesn't generate lists, rather it selects from the current list.
+
+!
+
+``[is[current]]``
+<<list-links "[is[current]]">>
+
+``[is[missing]]``
+<<list-links "[is[missing]]">>
+
+!all
+``[all[current]]``
+<<list-links "[all[current]]">>
+``[all[missing]]``
+<<list-links "[all[missing]]">>
+``[all[orphans]]``
+<<list-links "[all[orphans]]">>
+``[all[tiddlers]]``
+<<list-links "[all[tiddlers]]">>

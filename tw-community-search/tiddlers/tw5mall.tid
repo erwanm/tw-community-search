@@ -4,5 +4,7 @@ tags: CommunityWikis DavidGifford
 title: tw5mall
 type: text/vnd.tiddlywiki
 wiki-address: http://www.giffmex.org/tw5mall.htm
+empty-wiki: true
+
 
 {{||$:/CommunityWikiPresentationTemplate}}

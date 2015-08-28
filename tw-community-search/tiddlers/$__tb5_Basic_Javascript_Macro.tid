@@ -1,0 +1,15 @@
+title: $:/tb5/Basic Javascript Macro
+created: 20141118125909409
+creator: Tobias Beer
+modified: 20141125025526905
+modifier: Tobias Beer
+tags: tb5 Macros JavaScript Developer
+source-wiki-id: tb5
+source-tiddler-title-as-text: Basic Javascript Macro
+source-tiddler-title-as-link: Basic%20Javascript%20Macro
+
+To create a basic javascript macro take a look at the example below, most importantly setting its `type` field to `application/javascript`.
+
+`<<examplemacro "foo bar">>` renders as: <<examplemacro "foo bar">>
+
+<<source $:/macros/example.js>>

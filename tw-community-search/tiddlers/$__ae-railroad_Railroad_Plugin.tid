@@ -1,0 +1,28 @@
+title: $:/ae-railroad/Railroad Plugin
+created: 20150112200815871
+modified: 20150120090943700
+tags: ae-railroad
+source-wiki-id: ae-railroad
+source-tiddler-title-as-text: Railroad Plugin
+source-tiddler-title-as-link: Railroad%20Plugin
+
+<$railroad text="""
+[:optional] {repeated +","}
+"""/>
+
+The [[railroad diagram|http://en.wikipedia.org/wiki/Syntax_diagram]] above is created using a plugin that will form part of ~TiddlyWiki5's core starting from version 5.1.8.
+
+; Plugin documentation
+: [[Introduction|$:/plugins/tiddlywiki/railroad/readme]]
+: [[Notation|$:/plugins/tiddlywiki/railroad/syntax]]
+: [[Example|$:/plugins/tiddlywiki/railroad/example]]
+
+This site contains the latest development version of the plugin, with arrows on the repeat arcs and a less heavy style.
+
+The plugin now offers a dedicated content type – `text/vnd.tiddlywiki.railroad`. Raw diagram notation can be stored in a tiddler of that type and transcluded into other tiddlers as required:
+
+:[[Transclusion Examples]]
+
+The notation has been extended to support several pragmas for fine-tuning the diagram's appearance.
+
+[[Global configuration|$:/config/railroad]]

@@ -1,0 +1,18 @@
+title: $:/tb5/Community
+created: 20141125025807090
+creator: Tobias Beer
+icon: $:/core/images/plugin-generic-language
+modified: 20150116141628338
+modifier: Tobias Beer
+tags: tb5
+source-wiki-id: tb5
+source-tiddler-title-as-text: Community
+source-tiddler-title-as-link: Community
+
+<dl>
+<<list-search
+"[tag[Community]]+[sort[title]]"
+"search:summary"
+"$:/temp/tb/list-refernces"
+"$:/.tb/templates/list-link-summary">>
+</dl>

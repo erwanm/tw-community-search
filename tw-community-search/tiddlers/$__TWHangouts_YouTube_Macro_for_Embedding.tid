@@ -1,0 +1,32 @@
+title: $:/TWHangouts/YouTube Macro for Embedding
+created: 20141221200954805
+modified: 20150106043918728
+tags: TWHangouts YouTube Archive
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: YouTube Macro for Embedding
+source-tiddler-title-as-link: YouTube%20Macro%20for%20Embedding
+
+!!This is no longer being used.
+
+This is from [[Jeremy|JeremyRuston]]
+Thanks Tobias for bumping this.
+
+```
+Here's a basic YouTube macro that autoplays a video at a specified start point:
+
+\define yt(id,start)
+<iframe width="640" height="360" src="http://www.youtube.com/embed/$id$?autoplay=1&start=$start$" frameborder="0" allowfullscreen></iframe>
+\end
+
+<<yt EU-H0xhga08 1850>>
+
+As discussed above, the start point needs to be specified as a number of seconds, not 30m25s.
+
+Here's the documentation on the parameters that YouTube accepts:
+
+https://developers.google.com/youtube/player_parameters#Parameters
+
+Best wishes
+
+Jeremy.
+```

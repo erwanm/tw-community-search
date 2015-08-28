@@ -4,5 +4,9 @@ tags: CommunityWikis DanieloRodriguez
 title: Encrypt Tiddler Plugin
 type: text/vnd.tiddlywiki
 wiki-address: http://danielo515.github.io/TW5-EncryptTiddlerPlugin
+wiki-tw-version: 5.1.8-prerelease
+wiki-latest-modification: 20150404210915824
+
+Encrypt single tiddlers
 
 {{||$:/CommunityWikiPresentationTemplate}}

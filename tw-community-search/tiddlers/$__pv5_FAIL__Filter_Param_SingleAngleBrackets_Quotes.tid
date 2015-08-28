@@ -1,0 +1,29 @@
+title: $:/pv5/FAIL? Filter Param SingleAngleBrackets Quotes
+created: 20141119200426892
+creator: Tobias Beer
+modified: 20141121073519222
+modifier: Tobias Beer
+tags: pv5 Test
+source-wiki-id: pv5
+source-tiddler-title-as-text: FAIL? Filter Param SingleAngleBrackets Quotes
+source-tiddler-title-as-link: FAIL%3f%20Filter%20Param%20SingleAngleBrackets%20Quotes
+
+\define foo(bar)
+<<list-links filter:"<bar>">>
+\end
+
+```
+\define foo(bar)
+<<list-links filter:"<baz>">>
+\end
+```
+
+output:
+
+<<foo GettingStarted>>
+
+expected:
+
+* [[GettingStarted]]
+
+@@color:red; Someone suggested that variables should work in filters using single angle brackets. o.O@@

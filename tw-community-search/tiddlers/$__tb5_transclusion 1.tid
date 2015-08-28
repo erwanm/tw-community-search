@@ -1,0 +1,38 @@
+title: $:/tb5/transclusion
+created: 20141203173927301
+creator: Tobias Beer
+modified: 20141206141731598
+modifier: Tobias Beer
+url: http://tiddlywiki.com/#Transclusion%20in%20WikiText
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: transclusion
+source-tiddler-title-as-link: transclusion
+
+<dt>
+
+```
+{{Foo}}
+{{Foo||Bar}}
+{{||Foo}}
+{{Foo!!bar}}
+{{!!bar}}
+{{Foo##index}}
+{{##index}}
+{{{ [tag[Foo]] }}}
+{{{ [tag[Foo]] ||Bar}}}
+```
+</dt>
+
+<dd>
+
+» [[transcludes|http://tiddlywiki.com/#Transclusion%20in%20WikiText]] tiddler `Foo`<br>
+» `Foo` with template `Bar`<br>
+» template `Foo` for `CurrentTiddler`<br>
+» field `bar` of `Foo`<br>
+» field `bar` of `CurrentTiddler`<br>
+» `index` of datatiddler `Foo`<br>
+» `index` of `CurrentTiddler` (=data)<br>
+» list of tiddlers tagged `Foo`<br>
+» same using template `Bar`
+</dd>

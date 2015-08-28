@@ -1,0 +1,17 @@
+title: $:/dev/1404-toc-filter
+created: 20150121192040875
+creator: Tobias Beer
+modified: 20150203120745409
+modifier: Tobias Beer
+summary: toc filter
+url: <<git5 issues/1404>>
+tags: dev Pull 5.1.8 Rejected
+source-wiki-id: dev
+source-tiddler-title-as-text: 1404-toc-filter
+source-tiddler-title-as-link: 1404-toc-filter
+
+a filter returning a toc as a flat list (based on tagging)<br>
+will allow paging with offset via `[limit:<offset>[<limit>]]`
+
+; published
+: http://tb5.tiddlyspot.com/#filter%3A%20toc

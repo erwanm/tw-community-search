@@ -1,0 +1,36 @@
+title: $:/TWHangouts/Hangout Error - SOLUTION FOUND
+created: 20150110195919653
+modified: 20150112070024578
+tags: TWHangouts FAIL CloudFlare
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Hangout Error - SOLUTION FOUND
+source-tiddler-title-as-link: Hangout%20Error%20-%20SOLUTION%20FOUND
+
+So locally I don't have a hangout error.
+BUT when I post it on the server I do.
+So Tobias has given me some help on where to find what I am looking for
+
+I need to txt edit the HTML File and remove some code and then send it over to the debugger.
+
+*This is my first time in the HTML of TW5 on a Txt editor.  I have done basic HTML page building but TW is a bit bigger than that.
+*I also have only used debug a few times
+
+```
+Hi Rich,
+ 
+Any help on what I am looking for in the code.
+
+The title of that system tiddler in the store section where it is followed by a <pre> for the tiddler body.
+At that tiddler, remove the attribute "type=applciation/javascript".
+Save, reload... debug.
+
+Best wishes, Tobias.
+```
+
+"""
+[[BJ from the Google Groups|https://groups.google.com/forum/#!topic/tiddlywiki/5FugIFRgYLs]] suggested Spam Filter.
+Then I remembered that I just added something to my website in the last few days.  I didn't make the connection until he said Spam Filter.  I added CloudFlare because I wanted the site to be faster.  I am in the US and wanted the site closer to people around the world leveraging the CloudFlare servers.
+
+Did NOT know they would inject code into my uploads.  It is pretty coincidental that I disabled the service and the very next upload works perfectly.
+
+Not sure if this is intentional or if there is a malicious attack either on my server the CloudFlare server or at my hosting company.

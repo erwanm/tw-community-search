@@ -1,0 +1,18 @@
+title: $:/style/Styles
+created: 20150108094429781
+creator: Tobias Beer
+modified: 20150108095936242
+modifier: Tobias Beer
+tags: style
+source-wiki-id: style
+source-tiddler-title-as-text: Styles
+source-tiddler-title-as-link: Styles
+
+<dl class="overview">
+<<list-search
+"[[Styles]tagging[]sort[title]]"
+"search"
+"$:/temp/list-search-styles"
+"$:/.tb/template/styles-overview"
+placeholder:"Filter all examples..." >>
+</dl>

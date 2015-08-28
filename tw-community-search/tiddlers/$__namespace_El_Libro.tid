@@ -1,0 +1,20 @@
+title: $:/namespace/El Libro
+created: 20141122161422086
+creator: Tobias Beer
+modified: 20141122195835099
+modifier: Tobias Beer
+tags: namespace Books
+source-wiki-id: namespace
+source-tiddler-title-as-text: El Libro
+source-tiddler-title-as-link: El%20Libro
+
+<br>
+
+
+Following the instructions at [[Conditional ViewTemplate Section|http://tb5.tiddlyspot.com/#Conditional%20ViewTemplate%20Section]] the above toc is displayed above the body of each tiddler having subtiddlers under the same "namespace" and is automatically generated via <<source [[$:/template/chapter-toc]]>>
+
+<br>
+
+A more toc without truncation could be generated using <<source [[$:/template/chapter-toc-basic]]>>
+
+{{||$:/template/chapter-toc-basic}}

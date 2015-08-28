@@ -1,0 +1,12 @@
+title: $:/dev/1135-move-autosave-to-saving
+created: 20141126231047867
+creator: Tobias Beer
+modified: 20141213124808410
+modifier: Tobias Beer
+summary: Moves ~AutoSave from Settings to Saving Tab in [[$:/ControlPanel]]
+url: <<git5 pull/1135>>
+tags: dev Pull Rejected 5.1.5
+source-wiki-id: dev
+source-tiddler-title-as-text: 1135-move-autosave-to-saving
+source-tiddler-title-as-link: 1135-move-autosave-to-saving
+

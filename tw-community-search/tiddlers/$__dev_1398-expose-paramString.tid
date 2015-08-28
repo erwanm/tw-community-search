@@ -1,0 +1,17 @@
+title: $:/dev/1398-expose-paramString
+created: 20150120234640477
+creator: Tobias Beer
+modified: 20150120235109631
+modifier: Tobias Beer
+summary: exposes paramString as variable in macro scope
+url: <<git5 issues/1398>>
+tags: dev Pull Open 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1398-expose-paramString
+source-tiddler-title-as-link: 1398-expose-paramString
+
+; implements
+: <<git5 issues/1373>>
+: useful in js macros that do their own parsing, if any
+; demo
+: http://tbdemo.tiddlyspot.com/#paramString

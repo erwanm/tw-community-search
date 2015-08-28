@@ -1,0 +1,66 @@
+title: $:/demo/Iterator
+created: 20150106132248913
+creator: Tobias Beer
+modified: 20150106134440965
+modifier: Tobias Beer
+tags: demo Demo Lists
+source-wiki-id: demo
+source-tiddler-title-as-text: Iterator
+source-tiddler-title-as-link: Iterator
+
+; github issue
+: <<git5 1328>>
+; modified
+: [[$:/core/modules/widgets/list.js]]
+
+!! Test Default Iterator
+
+```
+<dl>
+<$list filter="one two three">
+<dt><<currentTiddler>></dt>
+<dd>`<<iterator>>` = <<iterator>></dd>
+<dd>`<<iterator-even>>` = <<iterator-even>></dd>
+<dd>`<<iterator-last>>` = <<iterator-last>></dd>
+</$list>
+</dl>
+```
+
+...displays as:
+
+<<<
+<dl>
+<$list filter="one two three">
+<dt><<currentTiddler>></dt>
+<dd>`<<iterator>>` = <<iterator>></dd>
+<dd>`<<iterator-even>>` = <<iterator-even>></dd>
+<dd>`<<iterator-last>>` = <<iterator-last>></dd>
+</$list>
+</dl>
+<<<
+
+!! Test Custom Iterator
+
+```
+<dl>
+<$list filter="one two three" iterator=foo>
+<dt><<currentTiddler>></dt>
+<dd>`<<foo>>` = <<foo>></dd>
+<dd>`<<foo-even>>` = <<foo-even>></dd>
+<dd>`<<foo-last>>` = <<foo-last>></dd>
+</$list>
+</dl>
+```
+
+...displays as:
+
+<<<
+<dl>
+<$list filter="one two three" iterator=foo>
+<dt><<currentTiddler>></dt>
+<dd>`<<foo>>` = <<foo>></dd>
+<dd>`<<foo-even>>` = <<foo-even>></dd>
+<dd>`<<foo-last>>` = <<foo-last>></dd>
+</$list>
+</dl>
+<<<

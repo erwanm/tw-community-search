@@ -1,0 +1,13 @@
+title: $:/tb5/UserName
+created: 20150128140633231
+creator: Tobias Beer
+modified: 20150128140812074
+modifier: Tobias Beer
+tags: tb5
+source-wiki-id: tb5
+source-tiddler-title-as-text: UserName
+source-tiddler-title-as-link: UserName
+
+Please review your username first:
+
+<$edit-text tiddler="$:/status/UserName" tag="input" type="text"/>

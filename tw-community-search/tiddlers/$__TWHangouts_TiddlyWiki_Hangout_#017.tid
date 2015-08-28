@@ -1,0 +1,28 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #017
+created: 20150118214105521
+modified: 20150118214148781
+tags: TWHangouts HangOut_017 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #017
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23017
+
+\define hangout() 017
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: fltr: Eric Shulman, Jeremy Ruston, Mario Pietsch, Nathan Cain, Scott Simmons">>
+<<topic "0:01:50" "Jeremy- about the TW5 widget refactoring / refactoring in general">>
+<<topic "0:02:40" "Jeremy- template 'readability' ... after the widget refactoring">>
+<<topic "0:04:15" "Jeremy- about the TW5 widget refactoring ... ./nbld.sh">>
+<<topic "0:09:58" "... FireFox 3D DOM model comparison">>
+<<topic "0:12:25" "Jeremy- 'macro' and 'context' template mechanism eg: tag background coloring">>
+<<topic "0:17:20" "... ViewTemplate uses the same mechanism now">>
+<<topic "0:19:50" "Jeremy- comparing the new/old folder structure">>
+<<topic "0:22:40" "Jeremy- TW5 commit history">>
+<<topic "0:24:30" "mario's mic is muted :/ communication problems">>
+<<topic "0:25:30" "audio back ... Jeremy- about the '3rd' refactoring">>
+<<topic "0:28:20" "Scott/Jeremy- sharing tiddlers among different TWs. ... What's the nature of TW5?">>
+<<topic "0:33:30" "Mario- nodejs will be interesting for dev's and if you need 'single file tiddlers'">>
+<<topic "0:34:15" "Jeremy- about Dropbox, OwnCloud, 'command line action' and possibilities to make it easy">>
+<<topic "0:36:30" "... TW5 as an 'application' ... eg: Appify">>
+<<topic "0:39:20" "Bye! Bye!">>

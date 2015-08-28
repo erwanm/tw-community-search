@@ -1,0 +1,20 @@
+title: $:/tb5/Delete Button In ViewMode
+created: 20150129120636936
+creator: Tobias Beer
+modified: 20150129121727082
+modifier: Tobias Beer
+tags: tb5 Buttons Toolbar Solutions
+source-wiki-id: tb5
+source-tiddler-title-as-text: Delete Button In ViewMode
+source-tiddler-title-as-link: Delete%20Button%20In%20ViewMode
+
+To make the delete button also available in view-mode, simply open 
+[[$:/core/ui/Buttons/delete]] and add [[$:/tags/ViewToolbar]], see <<tw SystemTags>>.
+
+To place it under the more dropdown, go to...
+
+: ''[[ControlPanel|$:/ControlPanel]] / Appearance / Toolbars / View Toolbar''
+
+...and uncheck the delete button.
+
+{{ShadowTiddlers}}

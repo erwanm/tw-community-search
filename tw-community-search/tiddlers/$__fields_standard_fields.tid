@@ -1,0 +1,17 @@
+title: $:/fields/standard fields
+caption: standard
+created: 20150107195753617
+creator: Tobias Beer
+filter: [[title]][[text]][[tags]][[modified]][[modifier]][[created]][[creator]][[list]]
+modified: 20150122173023417
+modifier: Tobias Beer
+summary: all [[standard fields|http://tiddlywiki.com/#TiddlerFields]] of a tiddler
+tags: fields title Variable Filters Fields
+source-wiki-id: fields
+source-tiddler-title-as-text: standard fields
+source-tiddler-title-as-link: standard%20fields
+
+{{$:/.tb/template/fields-standard}}
+
+Rendered via...
+<pre><$view tiddler="$:/.tb/template/fields-standard"/></pre>

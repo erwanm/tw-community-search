@@ -1,0 +1,13 @@
+title: $:/TiddlyNotes/Dernière modification
+created: 20141204145431106
+modified: 20141204145458862
+tags: TiddlyNotes
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Dernière modification
+source-tiddler-title-as-link: Dernière%20modification
+
+<$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]">
+<$link>
+<$view field="modified" format="date" template="DD MMM YYYY à 0hh:0mm"/>
+</$link>
+</$list>

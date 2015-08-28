@@ -1,0 +1,31 @@
+title: $:/let/LE
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141203230000000
+modifier: Tobias Beer
+summary: matches all where the value of a field is ''less than or equal to'' that of the operand
+types: [[INT|TYPE]], [[NUM|TYPE]], [[DATE|TYPE]]
+unsupported: [[BOOL|TYPE]]
+tags: let Comparators
+source-wiki-id: let
+source-tiddler-title-as-text: LE
+source-tiddler-title-as-link: LE
+
+!! Number Example
+;`<$list filter="[let:NUM number LE[5.5]]"/>`
+:get all tiddlers where the field ''number'' of [[TYPE]] [[NUM|TYPE]] is less than or equal to 5.5
+;result
+:.tb-links <$list filter="[let:NUM number LE[5.5]]"/>
+
+!! Integer Example
+;`<$list filter="[let:INT count LE[3]]"/>`
+:get all tiddlers where the field ''count'' of [[TYPE]] [[INT|TYPE]] is less than or equal to 3
+;result
+:.tb-links <$list filter="[let:INT count LE[3]]"/>
+
+!! Date Example
+
+;`<$list filter="[tag[TYPE]let:DATE LE ![20141129000000]]"/>`
+:all tagged [[TYPE]] modified before the dawn of 29 Nov. 2014, midnight up to the second
+;result
+:.tb-links <$list filter="[tag[TYPE]let:DATE LE ![20141129000000]]"/>

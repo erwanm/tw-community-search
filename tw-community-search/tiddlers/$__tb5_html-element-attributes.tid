@@ -1,0 +1,43 @@
+title: $:/tb5/html-element-attributes
+created: 20141203173650262
+creator: Tobias Beer
+modified: 20141203173731895
+modifier: Tobias Beer
+tags: tb5 Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: html-element-attributes
+source-tiddler-title-as-link: html-element-attributes
+
+<dt>
+
+```
+<a href={{TiddlerWithURL}}>link</a>
+<b class=<<getClass>>>bold</b>
+```
+</dt>
+
+<dd>
+
+<a href={{TiddlerWithURL}}>link</a>
+<b class=<<version>>>bold</b>
+
+set attributes via transclusion or macro
+</dd>
+
+<dt>
+
+```
+<div address="""attribute,
+"quoted",
+with,
+linebreaks.""">inspect me!</div>
+```
+</dt>
+
+<dd>
+
+<div address="""attribute,
+"quoted",
+with,
+linebreaks.""">inspect me!</div>
+</dd>

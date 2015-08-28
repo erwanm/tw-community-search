@@ -1,0 +1,33 @@
+title: $:/pv5/FAIL? Wiki Set ParamDollar NoQuotes To VarDollarBracket
+created: 20141119202819153
+modified: 20141121073417119
+tags: pv5 Test
+source-wiki-id: pv5
+source-tiddler-title-as-text: FAIL? Wiki Set ParamDollar NoQuotes To VarDollarBracket
+source-tiddler-title-as-link: FAIL%3f%20Wiki%20Set%20ParamDollar%20NoQuotes%20To%20VarDollarBracket
+
+\define foo(bar)
+<$set name="myvar" value="$bar$">
+$(myvar)$
+</$set>
+\end
+
+```
+\define foo(bar)
+<$set name="myvar" value="$bar$">
+$(myvar)$
+</$set>
+\end
+
+<<foo GettingStarted>>
+```
+
+output:
+
+<<foo GettingStarted>>
+
+expected:
+
+GettingStarted
+
+@@color:red; Is there a case where $(~ParamOrVar)$ ever works?@@

@@ -1,0 +1,14 @@
+title: $:/t5a/TagPill3b
+color: #00ff00
+created: 20150303061734827
+creator: Andrew Harrison
+label: Toggle Tag Pill 3
+modified: 20150315162341583
+modifier: Andrew Harrison
+target: TagPill3c
+tags: t5a New
+source-wiki-id: t5a
+source-tiddler-title-as-text: TagPill3b
+source-tiddler-title-as-link: TagPill3b
+
+{{TagPill3b!!label||$:/ToggleTagTemplate}} some text

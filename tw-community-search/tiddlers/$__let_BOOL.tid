@@ -1,0 +1,18 @@
+title: $:/let/BOOL
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141130230000000
+modifier: Tobias Beer
+summary: a field containing boolean values as either ''false'' / ''true'' or ''0'' / ''1''; empty is interpreted ''false''
+tags: let TYPE
+source-wiki-id: let
+source-tiddler-title-as-text: BOOL
+source-tiddler-title-as-link: BOOL
+
+Boolean fields are interpreted in a case-insensitive manner as ''true'' or ''false'' when...
+
+|!|>|![[! exact]]|
+|~|!No<br>@@font-weight:normal;(default)@@|!Yes<br>&nbsp;|
+|![[Falsy]] w/o [[BLANKS]] |all `"0"` or `"false"`|all `"0"` or `"false"`|
+|![[Falsy]] w/ [[BLANKS]] |all `"0"`, `"false"` or `""`|all `"0"`, `"false"` or  `""`|
+|![[Truthy]] |all not `"0"` or `"false"`|all `"1"` or `"true"` |

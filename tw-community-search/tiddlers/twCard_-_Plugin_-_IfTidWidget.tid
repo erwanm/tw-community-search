@@ -17,6 +17,10 @@ short_description: conditionally perform an action based on the existance of a f
 title: twCard - Plugin - IfTidWidget
 wiki: http://gwiz.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: gWiZ
+twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/iftid
+twcs-description: Contains the <$iftid> widget
+twcs-author: 
+twcs-version: 0.0.5
 
 {{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,25 @@
+title: $:/demo/tagging:all
+created: 20150119133648298
+creator: Tobias Beer
+modified: 20150126184047725
+modifier: Tobias Beer
+mumble: baz
+tags: demo Demo Tags Filters
+source-wiki-id: demo
+source-tiddler-title-as-text: tagging:all
+source-tiddler-title-as-link: tagging%3aall
+
+; modified
+: $:/core/modules/filters/tagging.js
+: $:/core/modules/utils/utils.js
+
+; other tiddler tagged like this one?
+: `<<list-links filter:"[all[current]tagging:all[]]">>`
+:> <<list-links filter:"[all[current]tagging:all[]]">>
+
+;all tagging to both `Filters` and `Demo`
+:`<<list-links filter:"[[Filters]][[Demo]]+[tagging:all[]]">>`
+:> <<list-links filter:"[[Filters]][[Demo]]+[tagging:all[]]">>
+
+; relevant / required for
+: http://tagfilter.tiddlyspot.com

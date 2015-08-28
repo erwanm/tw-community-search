@@ -1,0 +1,35 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #047
+created: 20150105203217591
+modified: 20150105211508336
+tags: TWHangouts HangOut_047 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #047
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23047
+
+\define hangout() 047
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Jeremy, Mario, Paul, Stephan">>
+<<topic "0:02:10" "Jeremy- Paul .. anything to share with the community? ... using TWc with tablets">>
+<<topic "0:13:37" "Danielo joined">>
+<<topic "0:13:53" "Jeremy- the agenda">>
+<<topic "0:14:40" "Jeremy- the parsing mechanism needs some refactoring">>
+<<topic "0:15:50" "Jeremy- GFM ... line break handling">>
+<<topic "0:18:08" "Jeremy- global macros">>
+<<topic "0:20:25" "Jeremy- anything else ... ? Stephan & Mario ... Environment variables issue at github">>
+<<topic "0:22:50" "Ton joined">>
+<<topic "0:23:30" "Danielo- hi!">>
+<<topic "0:23:50" "Danielo- What's the usecase for the environment variables?">>
+<<topic "0:29:44" "Jeremy- IreneKnapp's ticket about multi-users with tiddlyspot">>
+<<topic "0:39:35" "Jeremy- How do you like the new 'permaview' behaviour.">>
+<<topic "0:53:50" "Jeremy- ... new issue ... vertical tabs don't work">>
+<<topic "0:55:45" "Danielo- question about node, node-webkit, TiddlyDesktop">>
+<<topic "0:59:40" "Jeremy- about integrating VexTab ...">>
+<<topic "1:03:10" "Danielo- question about importing 3rd party libraries into TW">>
+<<topic "1:04:25" "Jeremy- about 3rd party libs. ...">>
+<<topic "1:10:50" "Jeremy- any other topics? ... Danielo .. who to use jquery">>
+<<topic "1:24:00" "... difficulties using jquery wiht TW. ...">>
+<<topic "1:25:45" "Jeremy- About the TW article in a swiss newspaper ... TW philosophy in general">>
+<<topic "1:28:50" "Jeremy- about 'independent technology' and the 'no backend' movement ...">>
+<<topic "1:34:35" "... Bye! Bye'">>

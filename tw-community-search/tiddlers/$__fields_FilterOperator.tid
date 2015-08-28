@@ -1,0 +1,23 @@
+title: $:/fields/FilterOperator
+color: #c6e1b5
+created: 20150106213631789
+icon: 
+modified: 20150107205642162
+tags: fields
+source-wiki-id: fields
+source-tiddler-title-as-text: FilterOperator
+source-tiddler-title-as-link: FilterOperator
+
+http://tiddlywiki.com/#FilterOperators
+
+<div style="float:right;font-size:1.2em;">
+[[« All Examples|Filter Examples]]
+</div>
+<div class="by-operator overview">
+<<list-search
+"[all[current]tagging[]sort[title]]"
+"search"
+"$:/temp/list-search-list-by-operator"
+"$:/.tb/template/list-by-operator"
+placeholder:"Filter by operator name..." >>
+</div>

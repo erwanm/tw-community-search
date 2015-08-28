@@ -1,0 +1,58 @@
+title: $:/TWHangouts/HangOut_016
+created: 20150118214216014
+modified: 20150118214259308
+tags: TWHangouts http://hangouts.tiddlyspace.com/ License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_016
+source-tiddler-title-as-link: HangOut_016
+
+2013-10-09 - [[YouTube|http://www.youtube.com/watch?v=fUV4Qzj_7Jw]]
+
+"""
+0:00:00 Intro- fltr: Jeremy Ruston, Kamil Jellenek, Kolmar Kafran, Mario Pietsch, Nathan Cain
+0:02:30 Kamil- How to get started with TW5? (Chrome)
+0:06:00 Kolmar- short intro. ... When is the empty.html updated?
+0:07:20 Jeremy- How to get started with TW5? (FireFox w. TiddlyFox)
+0:09:40 Kolmar- Is the "BLOB API" updated in empty.html? (needed for saving)
+0:11:10 Kamil- How does the "password" work? TiddlyWiki encryption
+0:12:35 Kamil- Is there a possibility to "write protect" the TW? (Users should not change content by acident)
+0:15:50 Jeremy- TW5 in dropbox - "How to create a view only mode link"
+0:20:40 Kolmar- How to hide the "save ... buttons" ...
+0:21:50 Jeremy- Dicussion about "read only mode"
+0:24:10 Jeremy- TW5 static version
+0:24:40 Jeremy- Creates a "read only theme" on the fly! (+ some browser problems :)
+0:36:00 Jeremy- Create a "save button" for the "read only theme" ;) ... kind of tricky :)
+0:39:00 Jeremy- Deploy - the "ReadOnly" theme! well done :)
+0:39:40 - discussion "how to toggle read only mode"
+0:41:17 Mario- question about "drag and drop" tagging ...
+0:42:20 Jeremy- Edit tags without edit mode ... possible improvements for tagging.
+0:45:00 Kamil- discussion about "keyboard shortcuts" and endusers needs.
+0:46:27 Kamil- about "tag colors" and categorisation
+0:48:16 Mario- Concerns about "automatically changing" UI elements. (eg: automatic resorting of tag lists)
+0:49:30 discussion about UI and UX ... tablet - drag and drop ... desktop - mouse and keyboard ...
+0:53:20 Kolmar- shares his TW5 and what it means to him.
+0:55:30 Jeremy- possibilities to use TW with mobile devices.
+0:56:30 Jeremy- about TW5 and TWEdit
+0:57:00 Kolmar- Is "TiddlyWiki in the Sky with Dropbox" with TW5 a possibility?
+1:00:50 Kolmar- About his dropbox experience with Mon..Log
+1:03:55 discussion about "What makes TW5 unique"
+1:05:30 Jeremy- TW5 and git ... as a backend
+1:06:28 Jeremy- TiddlyWiki local even in Oxford ... planning phase
+1:10:40 Kamil- What is the "result" of eg: tw hangouts? ...
+1:12:40 Mario- About "hangout annotations" and topics for discussion
+1:13:40 Jeremy- github issues ... community pull requests
+1:15:40 Jeremy- About the local meetup ... eventually community meetups ...
+1:19:00 Kolmar- about internationalisation - TW translation.
+1:20:55 Mario- A TW5 Logo is missing :)
+1:21:30 Jeremy- Thoughts ... How a TW log should be .. and .. how it should _not_ be
+1:25:35 Kolmar- Is it possible to contribute documentation with github or TW5?
+1:27:13 Mario- What's about CDent's relation to Osmosoft?
+1:28:00 Jeremy- about the community Logo discussion
+1:31:30 Jeremy- "TiddlyWiki is all about tiddlers"
+1:34:20 Kamil- Where is the TW5 syntax documentation? We can here Jeremy's voice and see Kolmar's TW5
+1:37:50 discussion about empty.html ... and built in "wiki syntax info tiddler"
+1:41:00 Kamil- about contributing, testing and translation ....
+1:44:25 Nathan- Should there be a TW5 edition just for documentation?
+1:45:40 Mario- about handling pictures with TW5 and 3rd party services (eg: trovebox (dot) com)
+1:47:55 Jeremy- about resizing images in the browser.
+1:50:45 Bye! Bye!

@@ -1,0 +1,63 @@
+title: $:/fields/iterate field values
+created: 20150107095132380
+creator: Tobias Beer
+exercise: boot camp
+filter: [get[some-field]]
+meditation: 15 mins
+modified: 20150122172104482
+modifier: Tobias Beer
+summary: nest lists to use the output of the outer as a filter for the inner list
+tags: fields get Filters nested
+source-wiki-id: fields
+source-tiddler-title-as-text: iterate field values
+source-tiddler-title-as-link: iterate%20field%20values
+
+\define drop-values() $:/config/EditTemplateFields/Visibility/$(field)$
+
+In the below example, the output of the macro `drop-values` is used as a variable to construct a reference to the following tiddler...
+
+; [[$:/config/EditTemplateFields/Visibility/exercise]]
+: sets the gobal visibility of the field `exercise` to hidden
+: also defines `values` to be used for the select box in a `values` field
+
+Subsequently, its field `values` is extracted using the [[get]] FilterOperator. Another nested list then uses the thus retrieved values to evaluate them as a filter expression...
+
+```
+\define drop-values() $:/config/EditTemplateFields/Visibility/$(field)$
+
+<$set name=field value=exercise>
+<$select field=<<field>>>
+<$list filter="[<drop-values>get[values]]">
+<$list filter=<<currentTiddler>>>
+<option value=<<currentTiddler>>><$text text=<<currentTiddler>>/></option>
+</$list>
+</$list>
+</$select>
+</$set>
+```
+
+Renders as...
+
+<<<
+<$set name=field value=exercise>
+<$select field=<<field>>>
+<$list filter="[<drop-values>get[values]]">
+<$list filter=<<currentTiddler>>>
+<option value=<<currentTiddler>>><$text text=<<currentTiddler>>/></option>
+</$list>
+</$list>
+</$select>
+</$set>
+<<<
+
+''proof''
+
+```
+{{!!exercise}}
+```
+
+<<<
+{{!!exercise}}
+<<<
+
+For the full example, see [[Conditional EditTemplate Fields]]...

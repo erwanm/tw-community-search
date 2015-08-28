@@ -1,0 +1,25 @@
+title: $:/tb5/Welcome
+caption: Start
+created: 20150206124521246
+creator: Tobias Beer
+icon: $:/core/images/home-button
+img: Jack.jpg
+list: Latest Solutions Plugins Developer Core References Markup [[Tobias Beer]]
+list-before: Solutions
+menu: main
+menu-icon: {{$:/core/images/home-button}}
+modified: 20150206124751562
+modifier: Tobias Beer
+summary: A collection of references and sandbox for testing concepts around TiddlyWiki:<br><<tagline>>
+tags: tb5
+source-wiki-id: tb5
+source-tiddler-title-as-text: Welcome
+source-tiddler-title-as-link: Welcome
+
+<div class="tb5-home">
+<$list filter="[list[]]">
+<div class="tb5-home-title"><$link><$transclude field=caption><$view field="title"/></$transclude></$link></div>
+<div class="tb5-home-summary">{{!!summary}}</div>
+</$list>
+</div>
+<div class="tb5-fish">{{$:/.img/fish.svg}}</div>

@@ -1,0 +1,12 @@
+title: $:/dev/1145-allow-to-break-each
+created: 20141126225850685
+creator: Tobias Beer
+modified: 20141213124741844
+modifier: Tobias Beer
+summary: allows to break out of $tw.utils.each
+url: <<git5 pull/1145>>
+tags: dev Pull Accepted 5.1.5
+source-wiki-id: dev
+source-tiddler-title-as-text: 1145-allow-to-break-each
+source-tiddler-title-as-link: 1145-allow-to-break-each
+

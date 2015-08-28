@@ -1,0 +1,50 @@
+title: $:/let/compute
+created: 20141126230000000
+creator: Tobias Beer
+modified: 20141204132100905
+modifier: Tobias Beer
+summary: defines a simple math operation performed for [[dates|DATE]] before comparison, e.g. + -
+tags: let Suboperators
+source-wiki-id: let
+source-tiddler-title-as-text: compute
+source-tiddler-title-as-link: compute
+
+!! Dates
+Then a target date to be compared against is given via the filter operand:
+
+*`[let:DATE[20141231]]`
+
+ ...the date can be shifted using addition or subtraction:
+
+;`+1Y`
+:plus one year
+;`-10D`
+:minus 10 days
+;full example
+:`[let:DATE GE +1M[20141231]]`
+:get all where ''modified'' date is greater or equal one month after 31. Dec 2014
+
+!! In Gerneral
+
+;`<operation><value><type>`
+:<div>
+
+;operation
+:`+` or `-`
+;value
+:any integer
+;type
+:<div>
+
+`Y` Years<br>
+`M` Months<br>
+`D` Days<br>
+`h` hours<br>
+`m` minutes<br>
+`s` seconds
+</div>
+</div>
+
+!! Date Examples
+;`[let: DATE GE +1Y{Version1!!created}]`
+:all modified 1 year and later after ''Version1'' was created

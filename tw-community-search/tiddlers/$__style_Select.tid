@@ -1,0 +1,15 @@
+title: $:/style/Select
+created: 20141211100719106
+creator: Tobias Beer
+modified: 20141211114601158
+modifier: Tobias Beer
+tags: style
+source-wiki-id: style
+source-tiddler-title-as-text: Select
+source-tiddler-title-as-link: Select
+
+[[Inspecting|Inspect]] an element opens your browser's «developer tools», so does hitting F12.
+
+Make sure the element you want is selected by hovering over the tree to the bottom left and selecting the one you think is your target. Perhaps repeat Step 1 to be sure. Now have a look at the bottom right and see all the [[css style rules|http://www.w3schools.com/css/]] that apply to it.
+
+<<btn-img "select.gif">>

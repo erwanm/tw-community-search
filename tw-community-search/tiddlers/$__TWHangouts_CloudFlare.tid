@@ -1,0 +1,16 @@
+title: $:/TWHangouts/CloudFlare
+created: 20150112065712321
+modified: 20150112065847378
+tags: TWHangouts [[Hangout Error - SOLUTION FOUND]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: CloudFlare
+source-tiddler-title-as-link: CloudFlare
+
+[[CloudFlare|http://www.cloudflare.com]]
+
+So I disabled ~CloudFlare and my next upload was unscathed.
+
+Not sure if my hosting company, CloudFlare, or a hacker are aware of this code injection on upload.
+I am sure there was fine print in the 'You Accept these terms' that I didn't know about.
+
+Well my TW5's are working again now that I have disabled this feature.

@@ -1,0 +1,13 @@
+title: $:/icons/MFG-Labs
+created: 20150130024105739
+font: [[$:/fonts/MfgLabs]]
+modified: 20150130170351149
+prefix: mfglabs
+summary: easily embeddable, using webfont and css, shared with everyone, inspired by FontAwesome
+url: http://mfglabs.github.io/mfglabs-iconset
+tags: icons picto font Fontello
+source-wiki-id: icons
+source-tiddler-title-as-text: MFG-Labs
+source-tiddler-title-as-link: MFG-Labs
+
+<<font>>

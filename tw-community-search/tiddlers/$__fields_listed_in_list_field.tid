@@ -1,0 +1,59 @@
+title: $:/fields/listed in list field
+created: 20150106215648069
+creator: Tobias Beer
+filter: [[foo]listed[]]
+modified: 20150122172528788
+modifier: Tobias Beer
+summary: filter tiddlers referenced in list fields
+tags: fields listed Filters
+source-wiki-id: fields
+source-tiddler-title-as-text: listed in list field
+source-tiddler-title-as-link: listed%20in%20list%20field
+
+''lists all tiddlers where `foo` is listed in the standard `list` field''
+
+```
+<$list filter="[[foo]listed[]]">
+<<currentTiddler>><br>
+</$list>
+```
+
+<<<
+<$list filter="[[foo]listed[]]">
+<<currentTiddler>><br>
+</$list>
+<<<
+
+''proof''
+
+```
+{{ExampleTiddler!!list}}
+```
+
+<<<
+{{ExampleTiddler!!list}}
+<<<
+
+''lists all tiddlers where `bar` is listed in a field called `reverse`''
+
+```
+<$list filter="[[bar]reverse[]]">
+<<currentTiddler>><br>
+</$list>
+```
+
+<<<
+<$list filter="[[bar]listed[reverse]]">
+<<currentTiddler>><br>
+</$list>
+<<<
+
+''proof''
+
+```
+{{ExampleTiddler!!reverse}}
+```
+
+<<<
+{{ExampleTiddler!!reverse}}
+<<<

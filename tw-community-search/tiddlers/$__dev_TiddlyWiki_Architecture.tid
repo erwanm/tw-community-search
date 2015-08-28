@@ -1,0 +1,11 @@
+title: $:/dev/TiddlyWiki Architecture
+created: 20141204153613094
+creator: Tobias Beer
+modified: 20141204153632436
+modifier: Tobias Beer
+tags: dev TidU
+source-wiki-id: dev
+source-tiddler-title-as-text: TiddlyWiki Architecture
+source-tiddler-title-as-link: TiddlyWiki%20Architecture
+
+<<git5 pull/680>>

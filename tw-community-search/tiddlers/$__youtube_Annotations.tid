@@ -1,0 +1,32 @@
+title: $:/youtube/Annotations
+created: 20150109115705562
+modified: 20150110154315383
+summary: working with the annotations list of a video
+tags: youtube Documentation
+source-wiki-id: youtube
+source-tiddler-title-as-text: Annotations
+source-tiddler-title-as-link: Annotations
+
+In general, annotations are associated with a video tiddler by having the `yt-id` field set to the same value as the video. The list of annotations below a video allows you to...
+
+* ''delete'' an annotation tiddler
+* ''clone'' an annotation tiddler
+* ''set'' the video player to the start / end time, clicking [[00:00:00 - 00:00:17|Intro — 00:00:00 - 00:00:17]]
+* ''open'' the annotation tiddler, clicking the [[annotation title|Intro — 00:00:00 - 00:00:17]]
+* ''edit'' the annotation tiddler
+* ''toggle'' the visibility of tags for annotations
+* ''add'' a new annotation tiddler using the form below the video opened via [[+|AddAnnotation]] 
+
+!! Example Annotations
+
+<$set name=yt-video value="Introduction To TiddlyWiki">
+<$set name=yt-id value={{Introduction To TiddlyWiki!!yt-id}}>
+{{||$:/plugins/tobibeer/youtube/list/annotations}}
+</$set>
+</$set>
+
+@@color:grey;//for video [[Introduction To TiddlyWiki]]//@@
+
+<div class="hide-annotations">
+{{Introduction To TiddlyWiki||$:/plugins/tobibeer/youtube/ViewTemplate/video}}
+</div>

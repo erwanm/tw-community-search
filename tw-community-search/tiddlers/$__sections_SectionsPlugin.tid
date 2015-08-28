@@ -1,0 +1,21 @@
+title: $:/sections/SectionsPlugin
+created: 20141125124611242
+creator: Tobias Beer
+modified: 20141125125628241
+modifier: Tobias Beer
+tags: sections
+source-wiki-id: sections
+source-tiddler-title-as-text: SectionsPlugin
+source-tiddler-title-as-link: SectionsPlugin
+
+;Write draft for SectionsPlugin
+: » [[TW5 and sections ...revisited|https://groups.google.com/forum/#!topic/tiddlywiki/23PzU2qCsj4]]
+: » [[part vs. section|https://github.com/Jermolene/TiddlyWiki5/issues/1086#issuecomment-64186508]] / [[cont.|https://github.com/Jermolene/TiddlyWiki5/issues/1086#issuecomment-64296046]]
+;Make a widget which implements...
+: » section-toc for tiddler ''foo'', providing clickable links! (w/ ^ back to toc)
+: » $link to section ''foo'', from tiddler ''bar'', too
+: » $list section ''foo'' of tiddlers tagged ''bar''
+: » (edit section ''foo'' of tiddler ''bar'')
+;read up on David's gallery concept
+:http://giffmex.org/experiments/test.html
+:https://groups.google.com/forum/#!msg/tiddlywiki/RpGJClG1dq4/mPXSuVpvtf8J

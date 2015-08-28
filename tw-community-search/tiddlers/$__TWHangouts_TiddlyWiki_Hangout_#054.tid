@@ -1,0 +1,45 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #054
+created: 20141229013339697
+modified: 20141229025041471
+tags: TWHangouts HangOut_054 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #054
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23054
+
+\define hangout() 054
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Dave, Eddie, Mark, Ton" >>
+<<topic "0:02:50" "Branemir- With the new address bar behviour (current story sequence), it becomes hard to refresh a wiki. Whats about a Home button. Or the Title may be a home link? General discussion about the URL refresh behaviour." >>
+<<topic "0:10:07" "Mark- Have you considered to switch on/off 'advanced menue' features" >>
+<<topic "0:12:15" "Jeremy- Shows Ton's page as an example for extended menu icons." >>
+<<topic "0:15:00" "Jeremy- Shows TW's customization possibilities" >>
+<<topic "0:16:15" "Jeremy- points to tw5.scholars. com custom TW from Alberto ... especially the automatic TOC (table of content)" >>
+<<topic "0:21:43" "Jeremy- The remaining work that 'needs' to be done ... 'The update process' ... and 'road blockers'" >>
+<<topic "0:24:10" "Jeremy- Shows the 'new' upgrade / import process. (TODO video / no network traffic)" >>
+<<topic "0:27:47" ".. Upgrade: behind the curtain. .. new upgrade plugin" >>
+<<topic "0:30:15" ".. import process details ... custom fields ... The import tiddler itself is a 'temporary plugin'" >>
+<<topic "0:33:24" "Jeremy- The same approach (0:24:10) will be used for search / replace" >>
+<<topic "0:34:10" "Jeremy- A new type of module is introduced to the core. Techy details!" >>
+<<topic "0:37:47" ".. example how upgraders could deal with eg: tags/stylesheet" >>
+<<topic "0:39:10" "Mario joined, Charlie joined" >>
+<<topic "0:39:55" "Eddie- How do I get WYSIWYG text into TW?" >>
+<<topic "0:40:17" "Jeremy- shows Charly's docs for the Forth language for a PET" >>
+<<topic "0:41:50" "back to the upgrade process. .. The upgrade UI .. techy" >>
+<<topic "0:45:08" "Chris joined .. 10 users ... max reached" >>
+<<topic "0:46:40" "Eddie ... WYSYWIG plain text ... poetry" >>
+<<topic "0:50:35" "Mark- What needs to be done to deal with SVG files in different ways? SVG as an image. SVG as part of the TW layout. SVG edited with a text editor." >>
+<<topic "1:00:59" "Charly- Still struggling with automatic style sheets and automatic wikitext links." >>
+<<topic "1:08:55" "Mark- Editing a tiddler updates the display with every keystroke. How to disable this behaviour?" >>
+<<topic "1:13:22" "Charly's screenshare ... techy techy .." >>
+<<topic "1:19:32" "Jeremy- How to modify themes ... techy discussion" >>
+<<topic "1:28:10" "Jeremy- about file names and tiddler names in 'creating TW'" >>
+<<topic "1:39:12" "Dave- what's new .. how to deal with bookmarks ... tidmarks" >>
+<<topic "1:47:10" "Jeremy- about fargo. io ... outliner ... and its relation to TW" >>
+<<topic "1:51:40" "... discussion about 'TiddlySnip' for TW5 ... part of TiddlyFox and TiddlyDesktop" >>
+<<topic "1:53:40" "Dave- What will be next? ... upgrade ... RoadMap" >>
+<<topic "1:56:52" "Dave- Will you do some more promotion! ... screen casts" >>
+<<topic "1:57:54" "Charly- issue with tiddler title with sqare backets .. its an open question" >>
+<<topic "2:02:45" "Bye! Bye!" >>
+"""

@@ -1,0 +1,17 @@
+title: $:/filters/overwritten shadows
+created: 20150114094709522
+creator: Tobias Beer
+filter: [is[shadow]]
+modified: 20150122172930667
+modifier: Tobias Beer
+summary: lists all overwritten shadow tiddlers
+tags: filters Filters is shadow
+source-wiki-id: filters
+source-tiddler-title-as-text: overwritten shadows
+source-tiddler-title-as-link: overwritten%20shadows
+
+```
+<<list-links filter:"[is[shadow]]">>
+```
+
+> <<list-links filter:"[is[shadow]]">>

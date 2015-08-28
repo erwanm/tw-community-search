@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/limit Operator (Examples)
+created: 20150118134611000
+modified: 20150123214304000
+type: text/vnd.tiddlywiki
+tags: tiddlywiki.com [[limit Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: limit Operator (Examples)
+source-tiddler-title-as-link: limit%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[sort[modified]!limit[20]]" "the 20 most recently modified tiddlers">>
+<<.operator-example 2 "[has[created]sort[created]limit[10]]" "the oldest 10 tiddlers in the wiki">>

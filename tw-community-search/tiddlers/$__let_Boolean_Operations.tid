@@ -1,0 +1,24 @@
+title: $:/let/Boolean Operations
+created: 20141128230000000
+creator: Tobias Beer
+list: AND OR NOR
+modified: 20141130230000000
+modifier: Tobias Beer
+summary: operations calculating truth values for boolean fields of matching tiddlers; returning the ''boolean result''
+tags: let OPERATION
+source-wiki-id: let
+source-tiddler-title-as-text: Boolean Operations
+source-tiddler-title-as-link: Boolean%20Operations
+
+<table>
+<tr>
+<th>Function</th>
+<th>Meaning</th>
+</tr>
+<$list filter="[list[]]">
+<tr>
+<td><$link><$view field=title/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>

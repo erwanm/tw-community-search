@@ -4,5 +4,9 @@ tags: CommunityWikis Svink
 title: LinuxNotes
 type: text/vnd.tiddlywiki
 wiki-address: http://librenotes.bitbucket.org/linuxnotes
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20150712150114674
+
+Un guide sur Chakra, KDE et les Logiciels Libres
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,0 +1,56 @@
+title: $:/TWHangouts/HangOut_013
+created: 20150119001912000
+modified: 20150119001948240
+tags: TWHangouts http://hangouts.tiddlyspace.com/ License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_013
+source-tiddler-title-as-link: HangOut_013
+
+2013-09-17 - [[YouTube|http://www.youtube.com/watch?v=aLJH2F9zyqk]]
+
+"""
+0:00:00 Intro: fltr: Bauwe Bijl, David Johnston, Javid Lakha, Eric Shulman (later), Jeremy Ruston, Mario Pietsch, Nathan Cain, Scott Simmons, Slonik Az (Leo), Tobias Beer (later),
+0:03:27 Bauwe- Shows his RaspberryPi experiments- short intro
+0:05:50 Bauwe- Screen sharing TW5 hosted on RPi
+0:07:30 Bauwe- terminal action :)
+0:08:45 Jeremy- How did you get the IP address
+0:09:25 Jeremy- You did use express.js to serve a static TW5 ...
+0:11:25 Bauwe- shows the script files and directory structure
+0:25:40 Jeremy- How does the CPU gauge get its data.
+0:26:00 Jeremy/Bauwe- What kind of app do you see in the future ...?
+0:27:30 Jeremy/Bauwe- About TW5 possibilities using/manipulating "data" + TW as a wiki
+0:29:33 Jeremy/Bauwe- Advantages of the RPi? sensors ...
+0:30:35 Jeremy- Summary about his take aways
+0:33:05 Jeremy- About CLA "Contributor License Agreement"... automating the procedure... with github
+0:37:25 Jeremy/Nathan- Request for help in this regard. Nathan suggests a handy github based method.
+0:39:30 David/Jeremy- Data tiddlers as JSON. JSONT or "JSONselect" to pull out data of data tiddlers ... (some microphone problems)
+0:45:40 Jeremy- short summary about data tiddlers, because of "lag" problems.
+0:47:05 David- Is there a TW mechanism to check for new tiddler files on the filesystem? "fs.watch in nodejs"
+0:49:20 Jeremy- shows syncer.js and filesystemadaptor.js code. TW5 based docs ...
+0:52:30 Jeremy- any other questions? ... Nathan want to help with "fs.watch nodejs code"
+0:53:22 Jeremy- about his plans to have a hardware TW. ...
+0:54:00 Intro: Eric Shulman, Kolmar Kafran, Tobias Beer
+0:56:45 Jeremy- about "state tiddlers" in TW (about state tiddler names)
+1:02:20 Leo- Is it possible to "shorten" the visual tiddler name?
+1:04:25 Tobias/Mario- Why do we need state tiddlers.
+1:05:20 Mario/David- There is a problem with long win2003 server file names with ntfs
+1:06:55 Jeremy- back- Jeremy favors the "hashing" approach
+1:07:38 Jeremy- we can't use cookies anymore for state info because of "file cookies"
+1:07:55 Jeremy- about local storage and TW5
+1:09:10 Jeremy- "the thing is the tiddler" for consistency
+1:13:15 Jeremy- Javid(no mic) want's to have a "private" TW in the cloud.
+1:14:50 Jeremy- about TW5 server and hosting
+1:18:38 Jeremy- Nathan suggests a "git sync plugin"
+1:19:15 Jeremy/David about David's pull request, the "code readability" and contribution management
+1:24:10 David- about his "getting started guide" and about handling it
+1:25:36 Jeremy- Any other topic
+1:26:03 David- Do you have scripts for "sublime text" editor, to speed up writing.
+some "small talk"
+1:33:20 David- What are you working on in TW - the focus?
+1:39:08 David- With TWc there is too much stuff at too many different places ...
+1:40:30 Eric/David/Jeremy- about TWc plugins and history
+1:45:27 David/Jermy- ... talk about a TW "revenue model"
+1:47:15 Bauwe- shows the use of TWS to save TW2 files with chrome and as a chrome extension
+1:52:10 Jeremy- summs it up ... reflections about saving tiddlers or saving "containers" and "how to take over the world :)"
+1:56:50 Leo- about the concept of tiddlers, files, directories and TW5
+1:58:25 Bye! Bye!

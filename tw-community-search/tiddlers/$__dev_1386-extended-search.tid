@@ -1,0 +1,29 @@
+title: $:/dev/1386-extended-search
+created: 20150120234024613
+creator: Tobias Beer
+modified: 20150203115800465
+modifier: Tobias Beer
+summary: extended search filter
+url: <<git5 issues/1386>>
+tags: dev Pull Open 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1386-extended-search
+source-tiddler-title-as-link: 1386-extended-search
+
+Extends search and search filter, implementing <<git5 issues/1195>>.
+
+Allows...
+
+; `[search:foo:bar:title[baz]]`
+: search custom fields foo & bar and title field
+; `[search:$custom[foo]]`
+: search all custom fields
+; `[search:$standard[foo]]`
+: search all standard fields
+; `[search:$text[foo]]`
+: search all standard text fields — the above minus modified / creator
+; `[search:$all[foo]]`
+: search all fields
+
+; demo
+: http://tbdemo.tiddlyspot.com/#search%3A%24custom

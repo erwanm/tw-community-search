@@ -1,0 +1,35 @@
+title: $:/pv5/FAIL: Filter ParamDollar And VariableDollarBrackets
+created: 20141119193048197
+creator: Tobias Beer
+modified: 20141121073330279
+modifier: Tobias Beer
+tags: pv5 Test
+source-wiki-id: pv5
+source-tiddler-title-as-text: FAIL: Filter ParamDollar And VariableDollarBrackets
+source-tiddler-title-as-link: FAIL%3a%20Filter%20ParamDollar%20And%20VariableDollarBrackets
+
+\define foo(bar)
+<$set name="baz" value="mumble">
+<<list-links filter:"[[$bar$]] [[$(baz)$]]">>
+</$set>
+\end
+
+```
+\define foo(bar)
+<$set name="baz" value="mumble">
+<<list-links filter:"[[$bar$]] [[$(baz)$]]">>
+</$set>
+\end
+
+<<foo GettingStarted>>
+```
+output:
+
+<<foo GettingStarted>>
+
+expected:
+
+* [[GettingStarted]]
+* [[mumble]]
+
+@@color:red; Interestingly, the param gets replaced within the quotes but not the variable.@@

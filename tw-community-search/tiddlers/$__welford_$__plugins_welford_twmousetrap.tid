@@ -1,0 +1,15 @@
+title: $:/welford/$:/plugins/welford/twmousetrap
+author: James W. Anderson
+core-version: >=5.0.0
+dependents: 
+description: global shortcuts
+revision: 0
+source: https://github.com/Welford/twmoustrap
+version: 0.0.1
+tags: welford
+source-wiki-id: welford
+source-tiddler-title-as-text: $:/plugins/welford/twmousetrap
+source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwmousetrap
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
