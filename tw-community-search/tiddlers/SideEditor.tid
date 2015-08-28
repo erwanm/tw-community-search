@@ -4,7 +4,5 @@ tags: CommunityWikis Mat
 title: SideEditor
 type: text/vnd.tiddlywiki
 wiki-address: http://sideeditor.tiddlyspot.com/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

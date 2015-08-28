@@ -4,7 +4,5 @@ tags: JeremyRuston CommunityWikis
 title: tiddlywiki.com
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlywiki.com
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

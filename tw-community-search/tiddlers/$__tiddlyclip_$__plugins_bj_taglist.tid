@@ -13,4 +13,4 @@ source-tiddler-title-as-text: $:/plugins/bj/taglist
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftaglist
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/inmysocks/TaskList
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fTaskList
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -4,7 +4,5 @@ tags: CommunityWikis DanieloRodriguez
 title: Context Plugin
 type: text/vnd.tiddlywiki
 wiki-address: http://contextplugin.tiddlyspot.com/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

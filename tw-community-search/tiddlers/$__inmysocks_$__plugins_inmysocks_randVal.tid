@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/inmysocks/randVal
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2frandVal
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -16,4 +16,4 @@ source-tiddler-title-as-text: Draft of '$:/plugins/bj/Calendar'
 source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugins%2fbj%2fCalendar%27
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

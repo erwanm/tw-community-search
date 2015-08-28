@@ -4,7 +4,5 @@ tags: CommunityWikis JamesAnderson
 title: welford
 type: text/vnd.tiddlywiki
 wiki-address: http://welford.github.io/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

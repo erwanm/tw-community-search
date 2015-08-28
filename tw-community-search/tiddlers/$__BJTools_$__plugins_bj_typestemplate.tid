@@ -14,4 +14,4 @@ source-tiddler-title-as-text: $:/plugins/bj/typestemplate
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftypestemplate
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

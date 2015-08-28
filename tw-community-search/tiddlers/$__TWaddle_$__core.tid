@@ -12,4 +12,4 @@ source-tiddler-title-as-text: $:/core
 source-tiddler-title-as-link: %24%3a%2fcore
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

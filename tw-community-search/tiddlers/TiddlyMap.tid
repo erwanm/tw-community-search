@@ -4,7 +4,5 @@ tags: CommunityWikis FelixKuppers
 title: TiddlyMap
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlymap.org/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

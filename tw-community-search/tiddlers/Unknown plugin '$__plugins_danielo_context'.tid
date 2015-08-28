@@ -1,9 +1,0 @@
-title: Unknown plugin '$:/plugins/danielo/context'
-name: unknown
-short_description: $:/plugins/danielo/context
-created: 20150827170747000
-plugin_tiddler: $:/plugins/danielo/context
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -4,7 +4,5 @@ tags: CommunityWikis DanieloRodriguez
 title: searchNreplace
 type: text/vnd.tiddlywiki
 wiki-address: http://danielorodriguez.com/TW5-searchNreplace
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

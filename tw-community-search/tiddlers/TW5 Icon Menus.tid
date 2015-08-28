@@ -1,9 +1,11 @@
-created: 20150827170649000
+created: 20150828131511000
 title: TW5 Icon Menus
 tags: CommunityWikis JedCarty
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/iconmenus/
-empty-wiki: true
+wiki-tw-version: 5.1.7
+wiki-latest-modification: 20150130023013778
 
+An alternate menu for ~TiddlyWiki
 
 {{||$:/CommunityWikiPresentationTemplate}}

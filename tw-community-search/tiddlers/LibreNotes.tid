@@ -4,7 +4,5 @@ tags: CommunityWikis Svink
 title: LibreNotes
 type: text/vnd.tiddlywiki
 wiki-address: http://librenotes.bitbucket.org/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -4,7 +4,5 @@ tags: CommunityWikis TobiasBeer
 title: tb5
 type: text/vnd.tiddlywiki
 wiki-address: http://tobibeer.github.io/tb5
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

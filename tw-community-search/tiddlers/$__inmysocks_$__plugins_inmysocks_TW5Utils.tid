@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/inmysocks/TW5Utils
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fTW5Utils
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

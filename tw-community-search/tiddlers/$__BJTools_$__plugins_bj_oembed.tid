@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/bj/oembed
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2foembed
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

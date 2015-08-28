@@ -13,4 +13,4 @@ source-tiddler-title-as-text: $:/plugins/danielo/packPlugin
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fpackPlugin
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

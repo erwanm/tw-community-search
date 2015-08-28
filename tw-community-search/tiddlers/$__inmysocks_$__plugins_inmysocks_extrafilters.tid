@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/inmysocks/extrafilters
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fextrafilters
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

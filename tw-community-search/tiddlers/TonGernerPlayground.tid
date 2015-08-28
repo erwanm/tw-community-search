@@ -4,7 +4,5 @@ tags: CommunityWikis TonGerner
 title: TonGernerPlayground
 type: text/vnd.tiddlywiki
 wiki-address: http://tongerner.tiddlyspot.com/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

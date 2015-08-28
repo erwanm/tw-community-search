@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/tiddlywiki/markdown
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fmarkdown
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

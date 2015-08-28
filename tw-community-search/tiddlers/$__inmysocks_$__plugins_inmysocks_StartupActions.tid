@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/inmysocks/StartupActions
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fStartupActions
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

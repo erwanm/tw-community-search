@@ -4,7 +4,5 @@ tags: CommunityWikis Mat
 title: ThankYouPlugin
 type: text/vnd.tiddlywiki
 wiki-address: http://thankyou.tiddlyspot.com/
-empty-wiki: true
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

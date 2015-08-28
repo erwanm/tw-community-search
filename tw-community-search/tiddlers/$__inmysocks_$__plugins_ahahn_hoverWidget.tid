@@ -15,4 +15,4 @@ source-tiddler-title-as-text: $:/plugins/ahahn/hoverWidget
 source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2fhoverWidget
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

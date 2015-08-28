@@ -13,4 +13,4 @@ source-tiddler-title-as-text: $:/plugins/danielo/encryptTiddler
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fencryptTiddler
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

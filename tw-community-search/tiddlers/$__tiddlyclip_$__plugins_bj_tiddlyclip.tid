@@ -13,4 +13,4 @@ source-tiddler-title-as-text: $:/plugins/bj/tiddlyclip
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftiddlyclip
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}

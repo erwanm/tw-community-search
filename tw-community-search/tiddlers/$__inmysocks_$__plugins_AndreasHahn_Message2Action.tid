@@ -11,4 +11,4 @@ source-tiddler-title-as-text: $:/plugins/AndreasHahn/Message2Action
 source-tiddler-title-as-link: %24%3a%2fplugins%2fAndreasHahn%2fMessage2Action
 extracted-plugin: true
 
-{{||$:/CommunityExtractedPlugin}}
+{{||$:/CommunityExtractedPluginTemplate}}
