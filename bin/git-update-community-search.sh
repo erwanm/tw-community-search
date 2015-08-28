@@ -12,7 +12,6 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 git pull
-git merge master
 
 echo "step 2: backup previous node.js content"
 rm -rf tw-community-search.bak
@@ -22,7 +21,7 @@ echo "step 3: run the aggregator"
 workDir=$(mktemp -d)
 #tw-community-search.sh -d "$workDir"
 # DEBUG VERSION below:
-rmdir "$workDir";  cp -R test-dir "$workDir"
+tw-community-search.sh -t -d "$workDir"
 
 
 echo "step 4: extract the output wiki (node.js and html)"
@@ -48,3 +47,4 @@ git add index.html
 git commit -m "automatic update"
 git push
 
+git checkout automatic
