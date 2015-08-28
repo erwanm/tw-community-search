@@ -19,9 +19,9 @@ mv tw-community-search tw-community-search.bak
 
 echo "step 3: run the aggregator"
 workDir=$(mktemp -d)
-#tw-community-search.sh -d "$workDir"
+tw-community-search.sh -d "$workDir"
 # DEBUG VERSION below:
-tw-community-search.sh -t -d "$workDir"
+#tw-community-search.sh -t -d "$workDir"
 
 
 echo "step 4: extract the output wiki (node.js and html)"
