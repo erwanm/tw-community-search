@@ -5,6 +5,7 @@
 
 # must be run from the project dir
 
+date
 echo "step 1: set git repo right"
 git checkout automatic
 if [ $? -ne 0 ]; then
@@ -48,3 +49,6 @@ git commit -m "automatic update"
 git push
 
 git checkout automatic
+
+echo "All done."
+date
