@@ -1,0 +1,22 @@
+audience: 
+category: Utility
+created: 20150106175012859
+date: 24-02-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150225004150502
+name: TriggerActions
+plugin_tiddler: 
+release: 
+repository: 
+revision: 0.0.8
+short_description: A plugin that allows you to trigger a set of actions when tiddlers are changed
+title: twCard - Plugin - Trigger Actions
+wiki: http://ooktech.com/jed/ExampleWikis/TriggerActions/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+
+{{||$:/CommunityPluginTemplate}}

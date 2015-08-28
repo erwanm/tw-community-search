@@ -1,0 +1,22 @@
+audience: 
+category: Widget
+created: 20150106175012859
+date: 29-05-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Matabele
+modified: 20150210031814598
+name: SetFieldWidget
+plugin_tiddler: $:/plugins/matabele/setfield
+release: 
+repository: 
+revision: 0.0.5
+short_description: set a field using a widget
+title: twCard - Plugin - SetFieldWidget
+wiki: http://gwiz.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+
+{{||$:/CommunityPluginTemplate}}

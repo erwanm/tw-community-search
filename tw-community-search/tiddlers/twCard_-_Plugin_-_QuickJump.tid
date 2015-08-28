@@ -1,0 +1,22 @@
+audience: 
+category: Interface
+created: 20150106175012859
+date: 18-09-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: EucalyJ
+modified: 20150210024425704
+name: QuickJump
+plugin_tiddler: $:/plugins/eucaly/quickjump
+release: 
+repository: 
+revision: 0.0.3
+short_description: Quick jump to tiddlers in story list
+title: twCard - Plugin - QuickJump
+wiki: http://eucaly-tw5.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+
+{{||$:/CommunityPluginTemplate}}
