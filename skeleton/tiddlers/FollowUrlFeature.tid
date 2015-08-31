@@ -1,6 +1,6 @@
 created: 20150201163952179
 description: With this feature you can have multiple wikis indexed without registering each individually to this search engine. You can add or remove a wiki from indexing anytime you want.
-modified: 20150825223210372
+modified: 20150831201155688
 tags: AuthorDocumentation
 title: FollowUrlFeature
 type: text/vnd.tiddlywiki
@@ -26,5 +26,5 @@ Of course, you can create such tiddlers for as many wikis as you want. And becau
 
 !! Example
 
-TobiasBeer creates many enlightening topic-specific wikis. These are indexed from his main wiki using this feature: http://tb5.tiddlyspot.com/#%24%3A%2Ffollow.
+TobiasBeer creates many enlightening topic-specific wikis. These are indexed from his main wiki using this feature: http://tobibeer.github.io/tb5/#%24%3A%2Ffollow.
 
