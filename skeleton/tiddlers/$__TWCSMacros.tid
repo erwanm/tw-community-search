@@ -1,0 +1,22 @@
+created: 20150902234056703
+modified: 20150902234203428
+tags: TWCSCore
+title: $:/TWCSMacros
+type: text/vnd.tiddlywiki
+
+\define listRecentTiddlers(filter: "[all[current]]")
+  <table>
+  <$list filter=$filter$ emptyMessage="unknown">
+    <tr>
+      <td>
+        @@font-size: 75%;
+          <$view field="modified" format="relativedate"/>
+        @@
+      </td>
+      <td>
+        <$transclude tiddler="$:/core/ui/ListItemTemplate"/>
+      </td>
+    </tr>
+  </$list>
+  </table>
+\end
