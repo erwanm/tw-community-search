@@ -1,12 +1,12 @@
 created: 20150902234056703
-modified: 20150903001814736
+modified: 20150903231801931
 tags: TWCSCore $:/tags/Macro
 title: $:/TWCSMacros
 type: text/vnd.tiddlywiki
 
 \define listRecentTiddlers(filter: "[all[current]]")
   <table>
-  <$list filter=$filter$ emptyMessage="unknown">
+  <$list filter="""$filter$""" emptyMessage="unknown">
     <tr>
       <td>
         @@font-size: 75%;
