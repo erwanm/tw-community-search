@@ -1,35 +1,26 @@
 color: #1cc975
 created: 20150131141105441
-modified: 20150827153453068
+modified: 20150904003626790
 tags: TWCSCore TWCSDocumentation
 title: UserDocumentation
 type: text/vnd.tiddlywiki
 
-! Main usage
+!! Purpose
 
 This wiki lets you search for some specific content among a preselected list of {{TiddlyWiki}} wikis. The indexed content is mostly focused on {{TiddlyWiki}} usage, so you would typically use this search system to find information about a particular aspect of {{TiddlyWiki}}. Say for example that you want to learn how to make a table of content, type "table of content" in the [[CommunitySearch box|CommunitySearch]] (also accessible in the default tiddler GettingStarted). The search results are links to various wikis, and point directly to the specific tiddlers containing your request.
 
-! Community Search or official documentation?
+!! Features
 
-The community search makes more content accessible than the [[official documentation|http://tiddlywiki.com]] (notice that the official documentation is indexed as well). 
+The main feature is of course the CommunitySearch. But the Community Search wiki also lets you:
 
-Advantages:
+* Browse the [[list of wikis|CommunityWikis]]
+* Browse the [[list of author|CommunityAuthors]]
+* Browse the [[list of plugins|CommunityPlugins]]
+* Access content by [[tag|CommunityTags]] (see also BookmarkingTags)
 
-* More details, 
-* More examples, 
-* Different explanations, 
-* Specific use-cases,
-* Original developments
-* ...
 
-Disadvantages:
+!! Other user documentation
 
-* Unstructured content
-* Variable level of expertise
-* Variable quality in the explanations
-* Possible outdated material
-* ...
+{{{[tag[UserDocumentation]]}}}
 
-! Other usages
 
-You can also browse the indexed content [[by tags|CommunityTags]], [[by wiki|CommunityWikis]] or [[by author|CommunityAuthors]].

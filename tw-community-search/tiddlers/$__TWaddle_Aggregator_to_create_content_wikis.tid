@@ -1,7 +1,7 @@
 title: $:/TWaddle/Aggregator to create content wikis
 created: 20150420164003865
 creator: Mat
-modified: 20150724225508077
+modified: 20150903085715264
 modifier: Mat
 recent: 15/07/15
 summary: Further thoughts on [[content communities|Content Community]] and aggregators
@@ -10,7 +10,7 @@ source-wiki-id: TWaddle
 source-tiddler-title-as-text: Aggregator to create content wikis
 source-tiddler-title-as-link: Aggregator%20to%20create%20content%20wikis
 
-As proposed [[here|https://groups.google.com/d/msg/tiddlywiki/eZqoogwCrZ0/imK4qf34mY0J]], one alternative to begin building [[Content Communities|Content Community]] could perhaps be done with a tiddler aggregator engine somewhat like what fellow Erwan has created for his [[Community Search Engine|https://rawgit.com/erwanm/tw-aggregator/master/tw-community-search.html]].
+As proposed [[here|https://groups.google.com/d/msg/tiddlywiki/eZqoogwCrZ0/imK4qf34mY0J]], one alternative to begin building [[Content Communities|Content Community]] could perhaps be done with a tiddler aggregator engine somewhat like what fellow Erwan has created for his [[Community Search Engine|http://erwanm.github.io/tw-community-search]].
 
 Might it be an idea to start thinking about how sites are best designed for this? Maybe it's possible to set up arbitrary sites that aggregate content and where anyone can contribute. A bit like e.g google groups. So they (at least a few) get a life of their own, serving the group //and// working as a marketing tool for TW.
 
