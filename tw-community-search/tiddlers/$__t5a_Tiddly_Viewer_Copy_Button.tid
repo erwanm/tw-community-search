@@ -1,13 +1,13 @@
 title: $:/t5a/Tiddly Viewer Copy Button
 created: 20150902062712418
 creator: Andrew Harrison
-modified: 20150902062802745
+modified: 20150904131357901
 modifier: Andrew Harrison
-tags: t5a New Contents
+tags: t5a New [[Under construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Tiddly Viewer Copy Button
 source-tiddler-title-as-link: Tiddly%20Viewer%20Copy%20Button
 
-[[$:/plugin/ajh/tiddlycopy]]
+Need to refresh because added source field.[[$:/plugin/ajh/tiddlycopy]]
 
 {{$:/plugin/ajh/tiddlycopy/readme}}

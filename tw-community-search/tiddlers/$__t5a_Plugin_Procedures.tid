@@ -1,7 +1,7 @@
 title: $:/t5a/Plugin Procedures
 created: 20150422131919192
 creator: Andrew Harrison
-modified: 20150422132211591
+modified: 20150904141111874
 modifier: Andrew Harrison
 tags: t5a New NeedsWork Wishlist
 source-wiki-id: t5a
@@ -9,3 +9,7 @@ source-tiddler-title-as-text: Plugin Procedures
 source-tiddler-title-as-link: Plugin%20Procedures
 
 {{Under construction}}Procedures and links for creating and experimenting with plugins.
+
+Possibly explore the tiddlywiki library to create my own library.
+
+Tried tinka, but doesn't work very well.
