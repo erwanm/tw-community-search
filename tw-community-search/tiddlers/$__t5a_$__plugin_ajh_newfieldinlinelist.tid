@@ -4,9 +4,10 @@ creator: Andrew
 dependents: $:/core/ui/EditTemplate/fields $:/language/EditTemplate/Field/Dropdown/Caption $:/language/EditTemplate/Field/Dropdown/Hint $:/plugin/ajh/newfieldinlinelist/fields $:/plugin/ajh/newfieldinlinelist/readme $:/plugin/ajh/newfieldinlinelist/stylesheet
 description: New field Inline list
 list: readme
-modified: 20150819022709589
+modified: 20150904131554966
 modifier: Andrew
-version: 0.0.2
+source: http://newfieldinlinelist.tiddlyspot.com
+version: 0.0.3
 tags: t5a
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/newfieldinlinelist

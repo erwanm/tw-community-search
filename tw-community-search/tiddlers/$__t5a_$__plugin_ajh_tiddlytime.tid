@@ -3,8 +3,9 @@ created: 20150818132745299
 dependents: time $:/info/timestamp $:/language/Buttons/Time/Caption $:/language/Buttons/Time/Hint $:/plugin/ajh/tiddlytime/DateTime.js $:/plugin/ajh/tiddlytime/images/time $:/plugin/ajh/tiddlytime/readme $:/plugin/ajh/tiddlytime/stylesheet $:/plugin/ajh/tiddlytime/Time.js
 description: Tiddlytime button
 list: readme
-modified: 20150819023749754
-version: 0.0.6
+modified: 20150904132217684
+source: http://tiddlytime.tiddlyspot.com
+version: 0.0.7
 tags: t5a
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlytime

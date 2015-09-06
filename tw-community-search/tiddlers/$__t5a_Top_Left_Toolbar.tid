@@ -1,14 +1,13 @@
 title: $:/t5a/Top Left Toolbar
 created: 20141129054154196
 creator: Andrew Harrison
-modified: 20150904132415437
+modified: 20150905142115799
 modifier: Andrew Harrison
-tags: t5a New [[Under construction]]
+tags: t5a New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Top Left Toolbar
 source-tiddler-title-as-link: Top%20Left%20Toolbar
 
-Need to refresh because added source field
 [[$:/plugin/ajh/toplefttoolbar]]
 
 {{$:/plugin/ajh/toplefttoolbar/readme}}
