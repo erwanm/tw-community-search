@@ -5,7 +5,7 @@ description: Tiddly Viewer Copy button
 list: readme
 modified: 20150904130741956
 source: http://tiddlycopy.tiddlyspot.com
-version: 0.0.8
+version: 0.0.11
 tags: t5a
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlycopy
