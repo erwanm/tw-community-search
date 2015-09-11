@@ -1,28 +1,16 @@
 title: $:/braintest/Encrypt-Tiddler
-created: 20140406153742691
-creator: pepito
+created: 20150910071400546
+creator: Danielo Rodriguez
 description: add the hability to encrypt individual tiddlers
-modified: 20141029152631265
+modified: 20150910071434030
 modifier: Danielo Rodriguez
 tags: braintest index plugins
 source-wiki-id: braintest
 source-tiddler-title-as-text: Encrypt-Tiddler
 source-tiddler-title-as-link: Encrypt-Tiddler
 
-This widget adds the ability to encrypt your tiddlers individually. This have several advantages:
+This plugin has been moved to it's own demonstration page:
 
-* You can specify a different password for each tiddler if you want.
-* You don't have to encrypt your whole wiky.
-* If you forget your password, you only lose a tiddler.
-* It's possible to edit the tiddler content , tags and fields ''except the encrypt field'' after encryption. Decrypting your tiddler will restore it to its original state when you encrypted it. This way you can hide the encrypted tiddlers as a "different" thing.
-* You can even encrypt images.
-* You can have sensible data in a day to day wiky.
-* I didn't try this, but theoretically you can apply double encryption by encrypting your wiki too.
+http://danielorodriguez.com/TW5-EncryptTiddlerPlugin/
 
-Tried in TW 5.1.4
-
-[[$:/plugins/danielo/encryptTiddler]]
-
-''Try it out!'' Here you have an encrypted tiddler. The password is: `tiddlywiki`
-
-[[Encrypt-test]]
+Check it out there!
