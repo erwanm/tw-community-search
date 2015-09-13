@@ -1,9 +1,8 @@
 color: #1cc975
 created: 20150912220209880
-modified: 20150912222134991
+modified: 20150913125709039
 tags: TWCSCore
 title: CommunityNews
 type: text/vnd.tiddlywiki
 
-
-<<listRecentTiddlers "[tag[CommunityNews]]" "$:/WikiLinkAndContentTemplate">>
+<<listRecentTiddlers "[tag[CommunityNews]!sort[modified]]" "$:/WikiLinkAndContentTemplate">>
