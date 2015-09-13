@@ -5,7 +5,7 @@ filter: [all[current]tags[]tag[type]]
 modified: 20150122171728244
 modifier: Tobias Beer
 summary: returns a list of tags that are of a given type, e.g. tagged a certain way or having a certain field
-tags: fields Filters [[Tobias Beer]] tag all current has tags
+tags: fields  Filters [[Tobias Beer]] tag all current has tags
 source-wiki-id: fields
 source-tiddler-title-as-text: all current tags of type
 source-tiddler-title-as-link: all%20current%20tags%20of%20type

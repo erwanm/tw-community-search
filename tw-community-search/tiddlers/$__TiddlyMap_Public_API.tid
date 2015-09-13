@@ -5,7 +5,7 @@ modified: 20150712151338024
 order.challenges: 3
 type: text/vnd.tiddlywiki
 warning: <i class="fa fa-exclamation-triangle" /> The public API is still experimental: Concepts may not be described well or are subject to change!
-tags: TiddlyMap Documentation Challenges
+tags: TiddlyMap  Documentation Challenges
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Public API
 source-tiddler-title-as-link: Public%20API

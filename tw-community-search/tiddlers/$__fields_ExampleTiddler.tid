@@ -3,7 +3,7 @@ created: 20150106215015621
 list: foo bar baz
 modified: 20150106215243571
 reverse: baz bar foo
-tags: fields
+tags: fields 
 source-wiki-id: fields
 source-tiddler-title-as-text: ExampleTiddler
 source-tiddler-title-as-link: ExampleTiddler

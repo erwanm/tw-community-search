@@ -5,7 +5,7 @@ dependents:
 description: A table of contents manager for TiddlyWiki
 source: https://github.com/inmysocks/TW5-NoLearningRequired-Full
 version: 0.1.1
-tags: inmysocks
+tags: inmysocks 
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: $:/plugins/inmysocks/ManageTOC
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fManageTOC

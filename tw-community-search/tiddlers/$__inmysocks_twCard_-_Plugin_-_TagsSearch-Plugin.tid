@@ -16,7 +16,7 @@ repository:
 revision: 1.0.2
 short_description: This plugin allows you to refine searches using tags.
 wiki: http://braintest.tiddlyspot.com/
-tags: inmysocks [[Plugin twCard]]
+tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - TagsSearch-Plugin
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TagsSearch-Plugin

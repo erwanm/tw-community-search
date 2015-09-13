@@ -7,7 +7,7 @@ replace_reveal: hide
 reset: hide
 select_all_reveal_state: hide
 test_store: 1
-tags: inmysocks [[The link-fields Widget]]
+tags: inmysocks  [[The link-fields Widget]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: links-field Widget - Search and Replace Field Contents
 source-tiddler-title-as-link: links-field%20Widget%20-%20Search%20and%20Replace%20Field%20Contents

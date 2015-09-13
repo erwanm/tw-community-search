@@ -22,7 +22,7 @@ repository: https://github.com/inmysocks/TW5-MathyThing
 revision: 0.2.1
 short_description: Some math widgets for TiddlyWiki5
 wiki: http://inmysocks.tiddlyspot.com/
-tags: inmysocks widget-action-increment widget-action-storecount tiddler-readme tiddler-ActionIncrementWidget [[Plugin twCard]] widget-action-prodfield widget-action-prodfield2 widget-action-sumfield widget-action-sumfield2
+tags: inmysocks  widget-action-increment widget-action-storecount tiddler-readme tiddler-ActionIncrementWidget [[Plugin twCard]] widget-action-prodfield widget-action-prodfield2 widget-action-sumfield widget-action-sumfield2
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - MathyThing
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MathyThing

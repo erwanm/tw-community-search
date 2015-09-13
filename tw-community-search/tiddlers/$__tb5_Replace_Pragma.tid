@@ -5,7 +5,7 @@ modified: 20141125165048808
 modifier: Tobias Beer
 summary: allows to use regular expressions to search and replace in wikitext before parsing
 url: http://tiddlystuff.tiddlyspot.com#ReplacePragma
-tags: tb5 Text Parser [[Stephan Hradek]] Plugin
+tags: tb5  Text Parser [[Stephan Hradek]] Plugin
 source-wiki-id: tb5
 source-tiddler-title-as-text: Replace Pragma
 source-tiddler-title-as-link: Replace%20Pragma

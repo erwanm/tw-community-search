@@ -6,7 +6,7 @@ modified: 20150620173240343
 rank: 1
 tmap.edges: {"250837f6-dec6-4dd1-8128-a0c6e0c3f7b4":{"to":"9d97c1e8-9458-44f9-97c5-82253da987c0","type":"belongs to"}}
 type: text/vnd.tiddlywiki
-tags: TiddlyMap Examples
+tags: TiddlyMap  Examples
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: TaskManagementExample 2.0
 source-tiddler-title-as-link: TaskManagementExample%202.0

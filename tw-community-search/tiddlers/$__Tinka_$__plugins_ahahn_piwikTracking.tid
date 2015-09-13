@@ -6,7 +6,7 @@ description: A simple Piwik Analytics plugin
 list: readme
 modified: 20150430105011426
 version: 0.0.1
-tags: Tinka
+tags: Tinka 
 source-wiki-id: Tinka
 source-tiddler-title-as-text: $:/plugins/ahahn/piwikTracking
 source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2fpiwikTracking

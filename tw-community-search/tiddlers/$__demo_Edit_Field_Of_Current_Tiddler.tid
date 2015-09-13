@@ -5,7 +5,7 @@ foo:
 modified: 20150107093853199
 modifier: Tobias Beer
 my-field: foo
-tags: demo Demo Templates Fails Fields
+tags: demo  Demo Templates Fails Fields
 source-wiki-id: demo
 source-tiddler-title-as-text: Edit Field Of Current Tiddler
 source-tiddler-title-as-link: Edit%20Field%20Of%20Current%20Tiddler

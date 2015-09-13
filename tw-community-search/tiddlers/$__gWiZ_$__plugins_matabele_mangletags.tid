@@ -6,7 +6,7 @@ description: Contains the <$mangletags> widget
 modified: 20140530095105087
 modifier: Matabele
 version: 0.0.6
-tags: gWiZ
+tags: gWiZ 
 source-wiki-id: gWiZ
 source-tiddler-title-as-text: $:/plugins/matabele/mangletags
 source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fmangletags

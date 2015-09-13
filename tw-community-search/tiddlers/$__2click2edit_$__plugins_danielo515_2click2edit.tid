@@ -1,0 +1,16 @@
+title: $:/2click2edit/$:/plugins/danielo515/2click2edit
+author: Danielo Rodriguez
+core-version: >=5.1.0
+dependents: 
+description: double click to edit tiddlers
+list: readme
+revision: 0
+source: https://github.com/danielo515/TW5-2click2edit
+version: 0.1
+tags: 2click2edit 
+source-wiki-id: 2click2edit
+source-tiddler-title-as-text: $:/plugins/danielo515/2click2edit
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2f2click2edit
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

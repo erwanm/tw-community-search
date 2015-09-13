@@ -9,7 +9,7 @@ op-parameter-name: F
 op-purpose: select one of each group of input titles by field
 op-suffix: optionally, `list`
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Group Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Group Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: each Operator
 source-tiddler-title-as-link: each%20Operator

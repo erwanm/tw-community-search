@@ -8,7 +8,7 @@ op-parameter: a tiddler title
 op-parameter-name: T
 op-purpose: find which titles in a <<.field list>> field precede the input ones
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Field Operators]] [[Order Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Field Operators]] [[Order Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: previous Operator
 source-tiddler-title-as-link: previous%20Operator

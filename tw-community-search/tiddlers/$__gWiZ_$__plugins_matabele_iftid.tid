@@ -6,7 +6,7 @@ description: Contains the <$iftid> widget
 modified: 20140602123155278
 modifier: Matabele
 version: 0.0.5
-tags: gWiZ
+tags: gWiZ 
 source-wiki-id: gWiZ
 source-tiddler-title-as-text: $:/plugins/matabele/iftid
 source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fiftid

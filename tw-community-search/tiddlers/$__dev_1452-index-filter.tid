@@ -5,7 +5,7 @@ modified: 20150203112736158
 modifier: Tobias Beer
 summary: for a data tiddler, returns the value at the index specified in the operand
 url: <<git5 issues/1452>>
-tags: dev Pull 5.1.8 Open
+tags: dev  Pull 5.1.8 Open
 source-wiki-id: dev
 source-tiddler-title-as-text: 1452-index-filter
 source-tiddler-title-as-link: 1452-index-filter

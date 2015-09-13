@@ -5,7 +5,7 @@ dependents:
 description: Some widgets for TiddlyWiki
 source: https://github.com/inmysocks/TW5-TW5Utils
 version: 0.0.8
-tags: inmysocks
+tags: inmysocks 
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: $:/plugins/inmysocks/TW5Utils
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fTW5Utils

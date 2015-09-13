@@ -5,7 +5,7 @@ creator: Tobias Beer
 modified: 20141125033251034
 modifier: Tobias Beer
 summary: with [[a little help|https://groups.google.com/d/msg/tiddlywiki/KwOcmtm7Z4s/X4FvzNnZAmwJ]] from [[Jeremy Ruston]] this example demonstrates how to make use of DataTiddlers for a select widget in order to display static content from TiddlyWiki.com
-tags: tb5 Widgets Solutions DataTiddlers Lists Presentation [[Jeremy Ruston]] Developer
+tags: tb5  Widgets Solutions DataTiddlers Lists Presentation [[Jeremy Ruston]] Developer
 source-wiki-id: tb5
 source-tiddler-title-as-text: Widget Browser
 source-tiddler-title-as-link: Widget%20Browser

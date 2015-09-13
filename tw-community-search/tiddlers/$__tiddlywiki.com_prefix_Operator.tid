@@ -9,7 +9,7 @@ op-parameter: a string of characters
 op-parameter-name: S
 op-purpose: filter the input titles by how they start
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[String Operators]] [[Negatable Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[String Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: prefix Operator
 source-tiddler-title-as-link: prefix%20Operator

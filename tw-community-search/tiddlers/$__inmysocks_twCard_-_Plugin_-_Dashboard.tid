@@ -32,7 +32,7 @@ short_description: A unified interface for my dashboard plugnis
 tester: 
 translator: 
 wiki: http://inmysocks.tiddlyspot.com/
-tags: inmysocks tiddler-Contents tiddler-Dashboard tiddler-DashboardTemplate tiddler-Introduction tiddler-RemoveIntroModalMessage [[tiddler-Wiki Settings]] [[Plugin twCard]]
+tags: inmysocks  tiddler-Contents tiddler-Dashboard tiddler-DashboardTemplate tiddler-Introduction tiddler-RemoveIntroModalMessage [[tiddler-Wiki Settings]] [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Dashboard
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Dashboard

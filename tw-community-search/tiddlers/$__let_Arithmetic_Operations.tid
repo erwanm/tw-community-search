@@ -5,7 +5,7 @@ list: SUM AVG MAX MIN
 modified: 20141129230000000
 modifier: Tobias Beer
 summary: functions that allow to calculate number values of specified fields of matching tiddlers; returning the ''numeric result''
-tags: let OPERATION
+tags: let  OPERATION
 source-wiki-id: let
 source-tiddler-title-as-text: Arithmetic Operations
 source-tiddler-title-as-link: Arithmetic%20Operations

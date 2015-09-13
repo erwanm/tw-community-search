@@ -5,7 +5,7 @@ modified: 20150120235009862
 modifier: Tobias Beer
 summary: allows custom html element to be created by RevealWidget
 url: <<git5 issues/1380>>
-tags: dev Pull Open 5.1.8
+tags: dev  Pull Open 5.1.8
 source-wiki-id: dev
 source-tiddler-title-as-text: 1380-reveal-custom-html-element
 source-tiddler-title-as-link: 1380-reveal-custom-html-element

@@ -4,7 +4,7 @@ dependents:
 description: Corner ribbon
 list: readme usage
 version: 5.1.10-prerelease
-tags: TiddlyMap
+tags: TiddlyMap 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/github-fork-ribbon
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgithub-fork-ribbon

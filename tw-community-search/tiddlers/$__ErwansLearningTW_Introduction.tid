@@ -1,0 +1,23 @@
+title: $:/ErwansLearningTW/Introduction
+created: 20140712195150620
+creator: Erwan
+modified: 20140718221411336
+modifier: Erwan
+tags: ErwansLearningTW  guide
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+This guide is intended for people who wish to learn the basics of [[TiddlyWiki|http://tiddlywiki.com]]. The reader I have in mind is someone who has discovered TW recently, thinks it might be the right tool for what they want to do, or simply finds the concept appealing, but maybe struggles to understand the (somewhat unusual) way things work in ~TiddlyWiki. 
+
+The general idea is to make TW more accessible: TW is a great tool which can certainly fit the needs of many users, but its non-standardness makes it a bit difficult to apprehend. More to the point, a new user might feel lost due to the current gap(s) in documentation: at the time of writing, the [[official documentation|http://tiddlywiki.com#Docs]] is a good entry point to get you started, but it is probably not enough to make you perfectly comfortable using TW; similarly the various resources and tutorials [[offered by the community|http://tiddlywiki.com/#Community]] are rich and diverse, but that also means more or less unstructured, not necessarily adapted to your level, and often too specific. This is the kind of gap that I will try to address in this guide, with the following principles:
+
+* It is a rather detailed step by step explanations of the main features and their usage:
+** structured in chapters and sections, so that the reader can jump to the part that they are interested in;
+** organized in a traditional order, starting from most basic concepts, and (maybe!) later addressing more sophisticated aspects of TW.
+* It is intended ''for beginners'', more specifically:
+** the reader ''does not need any skills in programming'' and/or particular knowledge about how things work under the hood;
+** nevertheless, ''it is assumed that the reader is comfortable with the basic usage of a browser, knows the basic concepts of a [[wiki|http://en.wikipedia.org/wiki/Wiki]]'' (typically has already used one), and more generally is curious enough to try something which is not exactly standard (otherwise I don't know what you're doing here!).
+** On the contrary, ''the expert reader will probably not find here what they are looking for''.
+
+//Remark: this guide is about ~TiddlyWiki 5.*, not to be confused with the previous version [[TiddlyWikiClassic|http://classic.tiddlywiki.com/]].//

@@ -12,7 +12,7 @@ store_field2: 8
 tag_to_count: Fishy Editions
 tag_to_count2: Using Data Tiddlers with link-fields and select Widgets 3
 version_number: 0.0.12
-tags: inmysocks Plugins [[Math Plugins]] [[My Project]]
+tags: inmysocks  Plugins [[Math Plugins]] [[My Project]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: MathyThing Plugin
 source-tiddler-title-as-link: MathyThing%20Plugin

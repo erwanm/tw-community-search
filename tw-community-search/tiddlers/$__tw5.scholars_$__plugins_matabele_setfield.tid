@@ -6,7 +6,7 @@ description: Contains the <$setfield> widget
 modified: 20140529104351050
 modifier: Matabele
 version: 0.0.5
-tags: tw5.scholars
+tags: tw5.scholars 
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: $:/plugins/matabele/setfield
 source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fsetfield

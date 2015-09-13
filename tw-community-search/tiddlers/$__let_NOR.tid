@@ -6,7 +6,7 @@ modified: 20141204132035306
 modifier: Tobias Beer
 output: [[BOOL]]
 summary: determines whether a field is true for none of the matching tiddlers
-tags: let Test [[Boolean Operations]]
+tags: let  Test [[Boolean Operations]]
 source-wiki-id: let
 source-tiddler-title-as-text: NOR
 source-tiddler-title-as-link: NOR

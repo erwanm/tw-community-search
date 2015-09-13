@@ -7,7 +7,7 @@ op-output: all shadow titles contained in the input plugins
 op-parameter: none
 op-purpose: select all shadow titles in the input plugins
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Special Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Special Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: plugintiddlers Operator
 source-tiddler-title-as-link: plugintiddlers%20Operator

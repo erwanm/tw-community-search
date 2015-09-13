@@ -16,7 +16,7 @@ repository:
 revision: 0.0.6
 short_description: Editing tags and the tag field of tiddlers
 wiki: http://gwiz.tiddlyspot.com/
-tags: inmysocks [[Plugin twCard]]
+tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - MangleTagsWidget
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MangleTagsWidget

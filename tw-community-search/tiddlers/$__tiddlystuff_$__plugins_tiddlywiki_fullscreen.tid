@@ -2,7 +2,7 @@ title: $:/tiddlystuff/$:/plugins/tiddlywiki/fullscreen
 dependents: 
 description: Adds support for HTML5 full screen mode
 version: 5.0.8-beta
-tags: tiddlystuff
+tags: tiddlystuff 
 source-wiki-id: tiddlystuff
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/fullscreen
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2ffullscreen

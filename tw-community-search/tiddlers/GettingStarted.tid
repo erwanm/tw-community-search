@@ -1,6 +1,6 @@
 created: 20141214005400000
 creator: Erwan
-modified: 20150903232802051
+modified: 20150912232956964
 tags: TWCSCore TWCSContents
 title: GettingStarted
 type: text/vnd.tiddlywiki
@@ -11,10 +11,15 @@ type: text/vnd.tiddlywiki
 
 You can also browse the index [[by tags|CommunityTags]], [[by wiki|CommunityWikis]] or [[by author|CommunityAuthors]].
 
-* ''New!'' A [[list of plugins from the community|CommunityPlugins]] is now available!
-** Thanks to JedCarty for providing <a href="http://inmysocks.tiddlyspot.com/#Plugin%20twCard">the list used as reference</a>!
-* ''New!'' You can now [[bookmark your favourite tags|BookmarkingTags]] from the community. 
-**Thanks to FelixKuppers for the idea!
+
+! Latest news from the community
+
+
+<<listRecentTiddlers "[tag[CommunityNews]!sort[modified]limit[5]]" "$:/WikiLinkAndContentTemplate">>
+
+[[More community news...|CommunityNews]]
+
+
 
 ! Version
 

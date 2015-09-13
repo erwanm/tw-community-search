@@ -7,7 +7,7 @@ filter2: <<sorted>>
 modified: 20150128140049049
 modifier: Tobias Beer
 summary: reads a filter as (dynamically) set to a field
-tags: filters TextReference sort all is system shadow shadows Filters Fields
+tags: filters  TextReference sort all is system shadow shadows Filters Fields
 source-wiki-id: filters
 source-tiddler-title-as-text: filter from field
 source-tiddler-title-as-link: filter%20from%20field

@@ -5,7 +5,7 @@ modified: 20150128190139551
 modifier: Tobias Beer
 summary: place topbars first in page-layout
 url: <<git5 issues/1383>>
-tags: dev Pull 5.1.8 Accepted
+tags: dev  Pull 5.1.8 Accepted
 source-wiki-id: dev
 source-tiddler-title-as-text: 1383-fix-topbar-position
 source-tiddler-title-as-link: 1383-fix-topbar-position

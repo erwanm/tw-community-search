@@ -7,7 +7,7 @@ op-output: the name of each story view
 op-parameter: none
 op-purpose: select the names of all the story views
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Special Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Special Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: storyviews Operator
 source-tiddler-title-as-link: storyviews%20Operator

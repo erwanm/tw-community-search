@@ -5,7 +5,7 @@ filter: [list[AnotherTiddler!!text]]
 modified: 20150122173306095
 modifier: Tobias Beer
 summary: iterate over tiddler titles listed in another tiddler's text
-tags: fields Filters list TextReference
+tags: fields  Filters list TextReference
 source-wiki-id: fields
 source-tiddler-title-as-text: title list from tiddler text
 source-tiddler-title-as-link: title%20list%20from%20tiddler%20text

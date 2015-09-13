@@ -5,7 +5,7 @@ modified: 20150203114045507
 modifier: Tobias Beer
 summary: extended tagging.js to get all tagged to the current list
 url: <<git5 issues/1385>>
-tags: dev Pull Open 5.1.8
+tags: dev  Pull Open 5.1.8
 source-wiki-id: dev
 source-tiddler-title-as-text: 1385-tagged-all
 source-tiddler-title-as-link: 1385-tagged-all

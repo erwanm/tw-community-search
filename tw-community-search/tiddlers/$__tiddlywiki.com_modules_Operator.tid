@@ -7,7 +7,7 @@ op-output: the title of each module with any of the input types
 op-parameter: none
 op-purpose: select the names of all modules of the input module types
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Special Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Special Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: modules Operator
 source-tiddler-title-as-link: modules%20Operator

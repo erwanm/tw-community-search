@@ -7,7 +7,7 @@ op-output: the description string of each edition in the input
 op-parameter: none
 op-purpose: select the descriptions of the input editions
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Special Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Special Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: editiondescription Operator
 source-tiddler-title-as-link: editiondescription%20Operator

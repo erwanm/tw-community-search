@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: TiddlyWiki5 Getting Stuff Done plugin
 wiki: https://drive.google.com/uc?export=download&id=0Bydfk9tNRJHBc3FvclFBMzRreTQ
-tags: inmysocks [[Plugin twCard]]
+tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - GSD5
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20GSD5

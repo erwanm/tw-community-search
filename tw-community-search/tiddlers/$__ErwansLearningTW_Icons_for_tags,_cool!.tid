@@ -1,0 +1,13 @@
+title: $:/ErwansLearningTW/Icons for tags, cool!
+created: 20141026200825425
+creator: Erwan
+modified: 20141112190305007
+modifier: Erwan
+tags: ErwansLearningTW  customize answered question
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Icons for tags, cool!
+source-tiddler-title-as-link: Icons%20for%20tags%2c%20cool%21
+
+An icon (as well as a coulour of course) can be associated with a tag in the tag manager (found in the sidebar, "more" tab, "Tags" sub-tab).
+
+See also the tiddler [[customize]], with the icon in the title (see in particular how it is implemented with the fields)

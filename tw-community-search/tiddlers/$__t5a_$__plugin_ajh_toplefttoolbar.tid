@@ -6,7 +6,7 @@ list: readme
 modified: 20150904130355096
 source: http://toplefttoolbar.tiddlyspot.com
 version: 0.0.3
-tags: t5a
+tags: t5a 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/toplefttoolbar
 source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2ftoplefttoolbar

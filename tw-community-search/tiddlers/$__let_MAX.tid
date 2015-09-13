@@ -6,7 +6,7 @@ modified: 20141204131849422
 modifier: Tobias Beer
 output: [[NUM|TYPE]], [[INT|TYPE]]
 summary: calculates the maximum value of a field for matching tiddlers
-tags: let Test [[Arithmetic Operations]]
+tags: let  Test [[Arithmetic Operations]]
 source-wiki-id: let
 source-tiddler-title-as-text: MAX
 source-tiddler-title-as-link: MAX

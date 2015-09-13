@@ -1,0 +1,42 @@
+title: $:/ErwansLearningTW/TW on Node.js: pros and cons
+created: 20140802145704719
+creator: Erwan
+modified: 20140805191117731
+modifier: Erwan
+tags: ErwansLearningTW  node.js
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: TW on Node.js: pros and cons
+source-tiddler-title-as-link: TW%20on%20Node.js%3a%20pros%20and%20cons
+
+! Benefits
+
+!!! Nested TW folders
+
+See [[TW on Node.js: nested TW folders]]
+
+
+!!! Synchronization speed 
+
+If the TW instance is synchronized in one way or another (using e.g. Dropbox, Google Drive, ~OwnCloud, rsync...), the synchronization is much faster with TW folders because only the modified tiddlers (individual files) will be synchronized, as opposed to always transmitting the complete standalone HTML file.
+
+!!! External manipulation of tiddlers, scripting
+
+The way TW folders and individual tiddlers files work is very straightforward: regular directories containing regular text files. For the coder-but-not-at-all-web-developper guy that I happen to be, this opens a lot of possibilities:
+
+* move/copy tiddlers manually
+* The possibility to automatize some tasks using external scripts:
+** backups, automatic export for publication
+** using ``cron`` to do some particular tasks, like generating "reminder" tiddlers
+** using scripts to do any tedious tasks, like modifying the name of a tiddler and all the links that point to it
+** (possibly?) versioning operations with git
+** ...
+
+!!! Auto-save with any browser
+
+Under Node.js, any modification is saved automatically to the file system: there is no need to manually download the file or for a browser-specific plugin like TiddlyFox.
+
+
+
+! Drawbacks
+
+Using TW on Node.js is not as easy and simple as the standalone HTML version: the latter is self-contained, immediately usable and command-line free, three reasons which make it accessible to anyone without any prior knowledge. On the contrary, the Node.js version loses these advantages to provide the user with more flexibility and control; this is why it is probably more adapted to tech-savvy users.

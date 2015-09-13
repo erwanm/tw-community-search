@@ -5,7 +5,7 @@ modified: 20141125165033861
 modifier: Tobias Beer
 summary: enables you to use tiddlers that are written in standard Markdown markup
 url: http://tiddlywiki.com/plugins/tiddlywiki/markdown/
-tags: tb5 Core Parser Plugin
+tags: tb5  Core Parser Plugin
 source-wiki-id: tb5
 source-tiddler-title-as-text: Markdown Plugin
 source-tiddler-title-as-link: Markdown%20Plugin

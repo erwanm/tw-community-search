@@ -6,7 +6,7 @@ foo: bar
 modified: 20150122173419804
 modifier: Tobias Beer
 summary: conditionally show information depending on whether the current tiddler has a given field
-tags: fields has current field Filters all when
+tags: fields  has current field Filters all when
 source-wiki-id: fields
 source-tiddler-title-as-text: when current tiddler has field
 source-tiddler-title-as-link: when%20current%20tiddler%20has%20field

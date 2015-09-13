@@ -7,7 +7,7 @@ op-output: the name of each ~TiddlyWiki edition, in alphabetical order
 op-parameter: none
 op-purpose: select the names of all the ~TiddlyWiki editions
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: editions Operator
 source-tiddler-title-as-link: editions%20Operator

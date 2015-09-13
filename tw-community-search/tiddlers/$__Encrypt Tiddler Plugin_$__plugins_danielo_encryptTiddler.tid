@@ -7,7 +7,7 @@ list: Encrypt-Tiddler Changelog
 revision: 0
 source: https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin
 version: 2.1
-tags: Encrypt Tiddler Plugin
+tags: Encrypt Tiddler Plugin 
 source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: $:/plugins/danielo/encryptTiddler
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fencryptTiddler

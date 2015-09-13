@@ -5,7 +5,7 @@ modified: 20141203230000000
 modifier: Tobias Beer
 summary: matches all where the value of a field ''equals'' that of the operand
 types: [[any|TYPE]]
-tags: let Comparators
+tags: let  Comparators
 source-wiki-id: let
 source-tiddler-title-as-text: EQ
 source-tiddler-title-as-link: EQ

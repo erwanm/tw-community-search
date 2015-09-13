@@ -6,7 +6,7 @@ creator: Tobias Beer
 foo: bar
 modified: 20150119163754113
 modifier: Tobias Beer
-tags: demo Demo Search Filters Fields
+tags: demo  Demo Search Filters Fields
 source-wiki-id: demo
 source-tiddler-title-as-text: search:$custom
 source-tiddler-title-as-link: search%3a%24custom

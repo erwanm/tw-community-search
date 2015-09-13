@@ -9,7 +9,7 @@ released: Fri, 17 Jul 2015 17:52:22 +0200
 source: https://github.com/felixhayashi/TW5-TiddlyMap
 suggested: $:/plugins/felixhayashi/topstoryview
 version: 0.8.5+4946
-tags: TiddlyMap
+tags: TiddlyMap 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/tiddlymap
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2ftiddlymap

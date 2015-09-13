@@ -7,7 +7,7 @@ op-output: all the tags carried by the input tiddlers
 op-parameter: none
 op-purpose: select all tags of the input tiddlers
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com [[Filter Operators]] [[Tag Operators]]
+tags: tiddlywiki.com  [[Filter Operators]] [[Tag Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: tags Operator
 source-tiddler-title-as-link: tags%20Operator

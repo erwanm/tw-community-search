@@ -5,7 +5,7 @@ filter: [all[current]tags[]tag[type]]
 modified: 20150122173346101
 modifier: Tobias Beer
 summary: conditionally show information depending on the current tiddler's tags
-tags: filters Filters [[Tobias Beer]] tag all current tags limit when
+tags: filters  Filters [[Tobias Beer]] tag all current tags limit when
 source-wiki-id: filters
 source-tiddler-title-as-text: when current tags of type
 source-tiddler-title-as-link: when%20current%20tags%20of%20type

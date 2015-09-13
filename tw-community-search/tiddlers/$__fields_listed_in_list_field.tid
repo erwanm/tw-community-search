@@ -5,7 +5,7 @@ filter: [[foo]listed[]]
 modified: 20150122172528788
 modifier: Tobias Beer
 summary: filter tiddlers referenced in list fields
-tags: fields listed Filters
+tags: fields  listed Filters
 source-wiki-id: fields
 source-tiddler-title-as-text: listed in list field
 source-tiddler-title-as-link: listed%20in%20list%20field
