@@ -1,8 +1,0 @@
-title: $:/GSD5/GSD5SystemTags
-caption: GSD5 System Tags
-tags: GSD5  GSD5Basics
-source-wiki-id: GSD5
-source-tiddler-title-as-text: GSD5SystemTags
-source-tiddler-title-as-link: GSD5SystemTags
-
-System tags provide another means of intergrating your plugin with ~TiddlyWiki5 and GSD5.  System tags are used extensively throughout the ~TiddlyWiki5 environment and a similar model is used to give GSD5 a modular design.

@@ -1,8 +1,0 @@
-created: 20150912221740979
-modified: 20150912222316360
-tags: TWCSCore
-title: $:/WikiLinkAndContentTemplate
-type: text/vnd.tiddlywiki
-
-<$transclude tiddler="$:/core/ui/ListItemTemplate"/>
-{{!!text}}

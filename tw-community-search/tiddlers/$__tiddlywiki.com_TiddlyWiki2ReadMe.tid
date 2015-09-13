@@ -1,9 +1,0 @@
-title: $:/tiddlywiki.com/TiddlyWiki2ReadMe
-tags: tiddlywiki.com 
-source-wiki-id: tiddlywiki.com
-source-tiddler-title-as-text: TiddlyWiki2ReadMe
-source-tiddler-title-as-link: TiddlyWiki2ReadMe
-
-\define tv-wikilinks() no
-! Building TiddlyWikiClassic
-{{Building TiddlyWikiClassic}}

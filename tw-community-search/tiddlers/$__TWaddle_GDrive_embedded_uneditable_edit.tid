@@ -1,9 +1,0 @@
-title: $:/TWaddle/GDrive embedded uneditable_edit
-created: 20150402200331651
-modified: 20150402221623894
-tags: TWaddle  supporttiddler
-source-wiki-id: TWaddle
-source-tiddler-title-as-text: GDrive embedded uneditable_edit
-source-tiddler-title-as-link: GDrive%20embedded%20uneditable_edit
-
-<$edit tiddler="GDrive embedded uneditable" field="text" class="tc-edit-texteditor" />

@@ -1,9 +1,0 @@
-title: $:/inmysocks/Extending the tag structure
-created: 20150509010025097
-modified: 20150509010043723
-tags: inmysocks  Ideas
-source-wiki-id: inmysocks
-source-tiddler-title-as-text: Extending the tag structure
-source-tiddler-title-as-link: Extending%20the%20tag%20structure
-
-If the idea is that you could have something like nested tags, where if the path is IT -> Support -> A rather than IT -> A then the two 'A's are treated differently. The problems are that I am not sure how to articulate the idea in a way that makes the uses immediately apparent, and I have no idea how it would be accomplished with the way tags are handled in tiddlywiki. The best explanation I have for what I am talking about is how in the category list I have here (http://inmysocks.tiddlyspot.com/#Change%20Log) going plugin -> calendar -> bugs is completely different set than plugin -> library tracker -> bugs
