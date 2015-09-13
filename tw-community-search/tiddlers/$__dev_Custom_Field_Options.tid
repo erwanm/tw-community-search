@@ -1,0 +1,16 @@
+title: $:/dev/Custom Field Options
+created: 20150201153309965
+creator: Tobias Beer
+modified: 20150204130210269
+modifier: Tobias Beer
+tags: dev  Data #next
+source-wiki-id: dev
+source-tiddler-title-as-text: Custom Field Options
+source-tiddler-title-as-link: Custom%20Field%20Options
+
+; discussion
+: https://groups.google.com/d/msg/tiddlywikidev/PoKze6ZoDfA/ozhWnr7ceG0J
+
+Make fields configurable, i.e. editor, etc...
+
+=> compare to color-picker

@@ -1,0 +1,36 @@
+title: $:/LinuxNotes/Synchroniser ses contacts et agendas avec ownCloud
+created: 20141027213038206
+modified: 20150329110031210
+tags: LinuxNotes  [[Configurer Thunderbird]]
+source-wiki-id: LinuxNotes
+source-tiddler-title-as-text: Synchroniser ses contacts et agendas avec ownCloud
+source-tiddler-title-as-link: Synchroniser%20ses%20contacts%20et%20agendas%20avec%20ownCloud
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i>
+ Source: [[article sur ophyde.com|http://www.ophyde.com/synchroniser-contacts-agenda-owncloud-thunderbird/]]
+
+Avec le support de [[CalDAV|https://fr.wikipedia.org/wiki/CalDAV]] et [[CardDAV|https://fr.wikipedia.org/wiki/CardDAV]] sur ownCloud vous pouvez synchroniser vos contacts et agendas avec un client de messagerie.
+
+!!Etape 1 : Installation des extensions
+Vous aurez besoin de deux extensions, la première ''Lightning'' pour la synchronisation de l’agenda et la seconde ''SOgo Connector'' pour la synchronisation de votre carnet d’adresse.
+
+Ouvrez le gestionnaire de modules dans Thunderbird, recherchez l’extension [[Lightning|https://addons.mozilla.org/fr/thunderbird/addon/lightning/]] et installer là. Pour installer SOGo Connector il faut [[télécharger l’extension|http://www.sogo.nu/fr/downloads/frontends.html]] sur le site du projet.
+Sous Thunderbird retourner dans le gestionnaire de modules et cliquez sur “installez un module depuis un fichier”.
+
+Redémarrez Thunderbird, vos deux extensions devraient maintenant être activées.
+
+!!Etape 2 : Configuration de la synchronisation du carnet d’adresse
+Nous allons créer un nouveau carnet d’adresses:<br>
+Fichier > Nouveau > Carnet d’adresses distant
+
+Il ne reste plus qu’à rentrer votre login et mot de passe ownCloud pour synchroniser votre carnet d’adresse.
+L’url ~CardDAV est disponible dans l’onglet contact de votre ownCloud: cliquez sur la molette puis sur ~CardDAV, il ne vous reste plus qu’à copier le lien.
+
+!!Etape 3 : Configuration de la synchronisation du calendrier
+Nous allons maintenant créer un nouvel agenda sous Thunderbird:<br>
+Fichier > Nouveau > Agenda
+
+Sélectionnez le format “~CalDAV” et ajouter l’adresse de synchronisation ~CalDAV de votre agenda.
+Elle est disponible sur ownCloud dans l’onglet Calendrier, cliquez sur la molette puis sur ~CalDAV de votre agenda. Donnez un nom à votre agenda.
+
+Votre nouvel agenda est maintenant créé il ne vous reste plus qu’à le synchroniser <i class="fa fa-smile-o"></i>

@@ -1,0 +1,25 @@
+title: $:/TWaddle/Style your first letter like this
+created: 20150622090346604
+creator: Mat
+credurl: https://css-tricks.com/almanac/selectors/f/first-letter/
+modified: 20150622090614812
+modifier: Mat
+tags: TWaddle  Twiddle
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Style your first letter like this
+source-tiddler-title-as-link: Style%20your%20first%20letter%20like%20this
+
+Here, put this in a tiddler and tag it with $:/tags/Stylesheet
+
+```
+p::first-letter {
+  font-weight: bold;
+  color: red;
+}
+```
+
+I'm considering having the initial letter in all TWaddle tiddlers be "Gothic" or whatever it is like in old bibles. Maybe I should print out TWaddle and bind it in leather too. In 400 years people will read TWaddle and wonder over my wisdom.
+
+<br>
+
+//- Mom, I wonder where the wisdom is?//

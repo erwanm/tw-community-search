@@ -1,0 +1,24 @@
+title: $:/TiddlyNotes/Utilisation des tags
+created: 20150210135844666
+modified: 20150607144355339
+tags: TiddlyNotes  Tags Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Utilisation des tags
+source-tiddler-title-as-link: Utilisation%20des%20tags
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: http://tiddlywiki.com/#Tagging
+
+Le système de tag dans ~TiddlyWiki permet d'assigner une catégorie à un tiddler. Plusieurs tags différents peuvent être assignés sur un même tiddler.<br> Les tags sont utilisés principalement de gérer une [[Table des matières]] car ils permettent de hiérarchiser votre menu avec un système //parents/enfants//.
+
+>Cliquer sur un tag permet d'afficher tous les tiddlers associés à ce tag: <<tag CSS>>
+
+!!Gestion des tags
+Vous pouvez visualiser l'ensemble des tags de votre wiki en passant par la barre latérale (//~SideBar//), onglet ''Plus'' > ''Tags'' qui affiche la liste des tags utilisés et le nombre de tiddler associés.
+
+Le bouton ''gestionnaire de tags'' (qui correspond au tiddler système [[$:/TagManager]]) permet de gérer et de personnaliser les tags dans TiddlyWiki. Il est possible de changer leurs couleurs et d'ajouter des icônes.
+
+!!Chercher et remplacer un tag
+{{Chercher et remplacer un tag}}
+
+ 
+

@@ -1,0 +1,17 @@
+title: $:/TWaddle/sw:EmailClient
+created: 20150415195733927
+modified: 20150416061815854
+tags: TWaddle  SoftwareCategory sw:InfoExchanging
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:EmailClient
+source-tiddler-title-as-link: sw%3aEmailClient
+
+An ''email client'', email reader or more formally mail user agent (MUA) is a computer program used to access and manage a user's email.
+
+Popular locally installed email clients include Microsoft Outlook, Windows Live Mail, IBM Lotus Notes, Pegasus Mail, Mozilla's Thunderbird, The Bat!, Eudora, KMail in the Kontact suite, Evolution and Apple Inc.'s Mail.
+
+A web application that provides message management, composition, and reception functions is sometimes also considered an email client, but more commonly referred to as webmail. Popular web-based email clients include Gmail, Lycos Mail, Mail.com, Outlook.com and Yahoo! Mail.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Email_client]]@@
+
+See also other InfoExchanging software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:InfoExchanging]!is[current]]">>

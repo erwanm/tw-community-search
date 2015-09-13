@@ -1,0 +1,11 @@
+title: $:/tb5/plain
+created: 20141124103900351
+creator: Tobias Beer
+modified: 20141210081644024
+modifier: Tobias Beer
+tags: tb5 
+source-wiki-id: tb5
+source-tiddler-title-as-text: plain
+source-tiddler-title-as-link: plain
+
+<$view field="title"/>

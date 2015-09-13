@@ -1,0 +1,42 @@
+title: $:/demo/Edit Field Of Current Tiddler
+created: 20150106184254187
+creator: Tobias Beer
+foo: 
+modified: 20150107093853199
+modifier: Tobias Beer
+my-field: foo
+tags: demo  Demo Templates Fails Fields
+source-wiki-id: demo
+source-tiddler-title-as-text: Edit Field Of Current Tiddler
+source-tiddler-title-as-link: Edit%20Field%20Of%20Current%20Tiddler
+
+; for a workaround, see...
+: https://groups.google.com/d/msg/tiddlywiki/qtlNxMkmfPs/Z6Kz446WePUJ
+
+Trying to edit a field of a tiddler you may run into the problem that the input loses focus with every letter you type.
+
+```
+<$edit field="my-field"/><br>''my-field'': {{!!my-field}}
+```
+
+<<<
+<$edit field="my-field"/><br>''my-field'': {{!!my-field}}
+<<<
+
+As [[Jeremy|Jeremy Ruston]] [[suggests here|https://groups.google.com/forum/#!folder/TiddlyWiki/tiddlywiki/qtlNxMkmfPs]], you can use a template tiddler so as to decouple the refreshing from the containing tiddler, e.g.:
+
+using <<source $:/.tb/template/my-field>>
+
+via...
+
+```
+{{||$:/.tb/template/my-field}}
+```
+
+renders as...
+
+<<<
+{{||$:/.tb/template/my-field}}
+<<<
+
+@@color:red;Problem solved? — Well, I actually thought so. — But then it's not!@@

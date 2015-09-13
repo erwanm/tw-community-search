@@ -1,0 +1,26 @@
+title: $:/TWaddle/Table cell blocker or row separator
+created: 20150602214126233
+creator: Mat
+modified: 20150725154157570
+modifier: Mat
+recent: 15/06/03	
+tags: TWaddle  Formatting Tables HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Table cell blocker or row separator
+source-tiddler-title-as-link: Table%20cell%20blocker%20or%20row%20separator
+
+On [[BJtools|http://bjtools.tiddlyspot.com/#Welcome%20to%20my%20collection%20of%20tiddlywiki%20related%20projects]], I found a neat way of creating separators in a wikitext table. 
+
+Entering `<hr>` (short for, I believe, "header row") in a cell gives a stretching line.<br>
+Entering instead `!<hr>` gives the line but also shading of the whole cell.
+
+
+|!Header|!Header|
+| Ini | mini |
+| miny | moe |
+| <hr> | <hr> |
+| Ini | mini |
+| miny | moe |
+|! <hr> |! <hr> |
+| Ini | mini |
+| miny | moe |

@@ -1,0 +1,68 @@
+title: $:/inmysocks/link-fields Widget - Iterate Over Fields
+created: 20150105043547943
+field_to_add: 
+iterate_value: bob
+modified: 20150106041449501
+test_store: 1
+tags: inmysocks  [[The link-fields Widget]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: link-fields Widget - Iterate Over Fields
+source-tiddler-title-as-link: link-fields%20Widget%20-%20Iterate%20Over%20Fields
+
+\define thisMakeListEntry()
+<<currentTiddler>> - {{Iterate Over Fields Example Tiddler!!$(thisTiddler)$}}<br>
+\end
+
+This will set all of the fields in the tiddler [[Iterate Over Fields Example Tiddler]] to be whatever value is stored in the `iterate_value` field in this tiddler. The `iterate_value` field is set by the select widget. This works regardless of how many fields are in [[Iterate Over Fields Example Tiddler]] or what the fields are called. It may be possible to have this set the fields to different values, but that may get complex.
+
+The fields are updated whenever the `iterate_value` field is changed.
+
+```
+\define thisMakeListEntry()
+<<currentTiddler>> - {{Iterate Over Fields Example Tiddler!!$(thisTiddler)$}}
+\end
+
+<$select tiddler=<<currentTiddler>> field='iterate_value'>
+<option>foo</option>
+<option>bar</option>
+<option>bob</option>
+<option>joe</option>
+<option>eve</option>
+</$select>
+
+You can add any fields you want:
+
+<$edit-text tiddler=<<currentTiddler>> field='field_to_add' class='tc-edit-texteditor'/>
+<$button>Add field<$action-setfield $tiddler='Iterate Over Fields Example Tiddler' $field={{!!field_to_add}} $value=''/></$button>
+
+<$set name=tidName vaule=<<currentTiddler>>>
+<$list filter='[[Iterate Over Fields Example Tiddler]fields[]]-[[title]]-[[created]]-[[modified]]-[[text]]-[[tags]]'>
+<$link-fields $sourcetiddler='link-fields Widget - Iterate Over Fields' $sourcefield='iterate_value' $storetiddler='Iterate Over Fields Example Tiddler' $storefield=<<currentTiddler>>/>
+<$set name=thisTiddler value=<<currentTiddler>>>
+<<thisMakeListEntry>>
+</$set>
+</$list>
+</$set>
+```
+
+<$select tiddler=<<currentTiddler>> field='iterate_value'>
+<option>foo</option>
+<option>bar</option>
+<option>bob</option>
+<option>joe</option>
+<option>eve</option>
+</$select>
+
+You can add any fields you want:
+
+<$edit-text tiddler='$:/temp/iterateoverfieldsaddfield' field='field_to_add' class='tc-edit-texteditor'/>
+<$button>Add field<$action-setfield $tiddler='Iterate Over Fields Example Tiddler' $field={{'$:/temp/iterateoverfieldsaddfield'!!field_to_add}} $value=''/></$button>
+
+<$set name=tidName vaule=<<currentTiddler>>>
+<$list filter='[[Iterate Over Fields Example Tiddler]fields[]]-[[title]]-[[created]]-[[modified]]-[[text]]-[[tags]]'>
+<$link-fields $sourcetiddler='link-fields Widget - Iterate Over Fields' $sourcefield='iterate_value' $storetiddler='Iterate Over Fields Example Tiddler' $storefield=<<currentTiddler>>/>
+<$set name=thisTiddler value=<<currentTiddler>>>
+<<thisMakeListEntry>>
+</$set>
+</$list>
+</$set>

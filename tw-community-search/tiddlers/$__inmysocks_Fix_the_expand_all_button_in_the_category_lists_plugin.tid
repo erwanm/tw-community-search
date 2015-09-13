@@ -1,0 +1,24 @@
+title: $:/inmysocks/Fix the expand all button in the category lists plugin
+category: Plugin
+created: 20150503183505755
+created_day: 03
+created_month: 05
+created_year: 2015
+description: If a category hasn't been manually expanded yet than the expand all button won't open it
+due_day: 
+due_month: 
+due_year: 
+modified: 20150511182320323
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: Bugs
+tags: inmysocks  [[Planned Update]] Bug
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fix the expand all button in the category lists plugin
+source-tiddler-title-as-link: Fix%20the%20expand%20all%20button%20in%20the%20category%20lists%20plugin
+
+This is going to be an annoying problem, the state tiddlers don't exist before a category has been expanded so I need to find some other way to find the categories.
+
+The easiest solution (and the only one I can think of) is to create the show/hide state tiddler when an item is created.

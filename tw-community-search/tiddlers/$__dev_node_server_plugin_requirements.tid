@@ -1,0 +1,29 @@
+title: $:/dev/node server plugin requirements
+created: 20150204232221224
+creator: Tobias Beer
+modified: 20150204232329731
+modifier: Tobias Beer
+tags: dev  node
+source-wiki-id: dev
+source-tiddler-title-as-text: node server plugin requirements
+source-tiddler-title-as-link: node%20server%20plugin%20requirements
+
+; TiddlyWeb plugins required to run node.js server
+: https://groups.google.com/d/msg/tiddlywiki/uycBwgEkDqQ/Gw1XkEAisnIJ
+
+''Mario''
+
+<<<
+
+```
+"plugins": [
+     "tiddlywiki/tiddlyweb",
+     "tiddlywiki/filesystem"
+   ]
+
+```
+
+Those 2 plugins are needed, that the server can access the OS file system and knows about the TiddlyWeb API. If the plugins are not loaded, the mechanism fails silently. ... which is a problem. 
+
+In the future, there are plans to include those functions into the core, which will remove this problem. ... But there is no roadmap yet. 
+<<<

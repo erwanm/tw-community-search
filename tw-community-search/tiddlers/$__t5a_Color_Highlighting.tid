@@ -1,0 +1,73 @@
+title: $:/t5a/Color Highlighting
+created: 20150423005359496
+creator: Andrew Harrison
+modified: 20150503200910665
+modifier: Andrew Harrison
+tags: t5a  New
+source-wiki-id: t5a
+source-tiddler-title-as-text: Color Highlighting
+source-tiddler-title-as-link: Color%20Highlighting
+
+!Color highlighting in a snippet of code
+Let's say you have a tiddler that displays a code block (you're writing an article on some coding technique or whatnot):
+<pre>ˋˋˋ
+var foo = 1;
+var bar = gonculate(foo);
+alert(bar);
+ˋˋˋ</pre>
+Which renders like:
+
+```
+var foo = 1;
+var bar = gonculate(foo);
+alert(bar);
+```
+Now you want to show a change, highlighting the changed part in red, like so:
+<pre>var foo = 1;
+var bar =<span class='tc-inline-style' style='color:red;'> xyzzy(foo)</span>;
+alert(bar);
+</pre>
+How do you do that in TW?
+
+Well, you can't use the three back ticks any more, because that would make the //@⁠@color:red;// wikitext (or //&lt;span style=&quot;color:red&quot;&gt;//) show up as code, e.g.,
+
+<pre>ˋˋˋ
+var foo = 1;
+var bar = @⁠@color:red;xyzzy(foo)@⁠@;
+alert(bar);
+ˋˋˋ</pre>
+
+...renders as:
+
+```
+var foo = 1;
+var bar = @@color:red;xyzzy(foo)@@;
+alert(bar);
+```
+Not what we want.
+
+You also can't use the single back tick ˋ at the beginning and end of the entire block, because everything in that inline code style has red text already.
+
+Instead, you simply use the HTML //&lt;pre&gt;// element, which has most of the same styling you already need for a wikitext code block. Then you can use //@⁠@color:red;// (or //&lt;span style=&quot;color:red&quot;&gt;//) just fine:
+<pre>&lt;pre&gt;var foo = 1;
+var bar = @⁠@color:red;xyzzy(foo)@⁠@;
+alert(bar);&lt;/pre&gt;</pre>
+...renders as:
+<pre>var foo = 1;
+var bar = @@color:red;xyzzy(foo)@@;
+alert(bar);</pre>
+Problem solved.
+
+''HOWEVER:'' If your sample code has HTML or TW widgets with angle brackets, you have to take another step and make sure all the starting "angle brackets" are escaped into the HTML //&amp;lt;// entity, or else they will be interpreted by TW during rendering because they are no longer fenced by ˋˋˋ. In other words, if you have something like:
+<pre>ˋˋˋ
+&lt;$view field=&quot;modified&quot; format=&quot;relativedate&quot;/&gt;
+ˋˋˋ</pre>
+...which renders as:
+<pre>&lt;$view field=&quot;modified&quot; format=&quot;relativedate&quot;/&gt;</pre>
+...and you now want to show a change in part of it using the //&lt;pre&gt;// trick, you have to escape the opening angle bracket as follows:
+<pre>&lt;pre&gt;&amp;lt;$view field=&quot;modified&quot; @⁠@color:red;format=&quot;date&quot; template=&quot;DDD, MMM DD, YYYY&quot;@⁠@/&gt;&lt;/pre&gt;
+</pre>
+...to get:
+<pre>&lt;$view field="modified" @@color:red;format="date" template="DDD, MMM DD, YYYY"@@/></pre>
+
+Sources: [[Color highlighting in a snippet of code|https://groups.google.com/forum/?hl=en#!searchin/tiddlywiki/Color$20highlighting$20in$20a$20snippet$20of$20code%7Csort:relevance/tiddlywiki/P0RtvM24SEg/MV7N41cyexEJ]] and [[http://dullroar.com/Color%2520highlighting%2520in%2520a%2520snippet%2520of%2520code.html]]

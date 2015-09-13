@@ -1,0 +1,18 @@
+title: $:/TWaddle/Hide toolbuttons on public TWs
+created: 20150603130753200
+creator: Mat
+modified: 20150725152755812
+modifier: Mat
+recent: 15/06/03	
+tags: TWaddle  PublicThemes HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Hide toolbuttons on public TWs
+source-tiddler-title-as-link: Hide%20toolbuttons%20on%20public%20TWs
+
+I'm using this trick to make you guys not get a clone button on this tiddler;
+
+In Controlpanel you can checkbox hide/show for the tool buttons for e.g viewmode. This sets the word "hide" or "show" in the //state tiddler// for the button. For example, the clone button has the state tiddler:
+
+[[$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/clone]]
+
+I have instead manually edited this to instead of //show//, read `{{$:/.state/CloneButton}}` which in turns has the text //show//... but it is also tagged //DontPublish// which ensures this tiddler is not published (that's another matter I'll explain elsewhere).

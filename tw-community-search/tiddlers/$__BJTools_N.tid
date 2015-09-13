@@ -1,0 +1,11 @@
+title: $:/BJTools/N
+created: 20141214194220591
+modified: 20141214200249659
+revision: 0
+type: text/vnd.tiddlywiki
+tags: BJTools 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: N
+source-tiddler-title-as-link: N
+
+<$link><span class="tw-taglist"><$view field="title"/></span></$link><$fieldmangler><$link to=<<tcc1>> class="tc-btn-invisible">{{$:/core/images/cancel-button}}</$link></$fieldmangler>

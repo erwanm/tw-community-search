@@ -1,0 +1,22 @@
+title: $:/TWaddle/Pen Scanner: From Paper to TW
+created: 20150321141445312
+creator: Mat
+modified: 20150715154104475
+modifier: Mat
+recent: 15/03/21	
+tags: TWaddle  Tidbit Tool Major
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Pen Scanner: From Paper to TW
+source-tiddler-title-as-link: Pen%20Scanner%3a%20From%20Paper%20to%20TW
+
+There is a type of //scanners// called pen scanners.
+
+They are about the size of an oversized marker pen and lets you combine the concept of scanning with that of //highlighting//! In other words, you scan by dragging the scanner across  the text - and it immediately shows on your computer screen (at least using the penscanner I have)!
+
+As touched on in other write ups here, highlighting is (IMO) very closedly related to the whole philosophy of tiddlers; "to split up texts in to their smallest, semantically meaningful, chunks".
+
+Using these type of scanners you can effectively tiddlify physical text into summaries. At first thougth the ideal might seem to be to tiddlify every individual scanned snip, but there are two practical reasons why this is not the case; to be a "semantically meaningful" tiddler, you might need to combine a few such snips. The other reason may be a limitation with the hardware; the scanner, or at least mine, is toggled to scan by pressing it's tip to the page. This means that when you reach the end of the line and jump down to continue on the next, this starts a second scanning - i.e likely not desirable to be a new tiddler.
+
+In other words, the scanned text will require some manual editing afterwards - but this is not least also becaue it doesn not always mirror the text 100% correct, like all OCR scanning. Because of the manual handling of the scanner, this error frequency increases but I have found it to be surprisingly accurate.
+
+The model I acquired is ~WorldPenScan BT. BT stands for Bluetooth. This product gets decent reviews on Amazon.com but lousy reviews on Amazon.co.uk (by a lot fewer people though). A recurring complaint is the BT aspect. I got mine recently so I can't really give a review yet.

@@ -1,0 +1,90 @@
+title: $:/dev/GitHub
+caption: GitHub
+created: 20141126223614628
+creator: Tobias Beer
+modified: 20150127131056883
+modifier: Tobias Beer
+tags: dev 
+source-wiki-id: dev
+source-tiddler-title-as-text: GitHub
+source-tiddler-title-as-link: GitHub
+
+;[[Simon Baird suggests to read...|https://github.com/Jermolene/TiddlyWiki5/pull/1016#issuecomment-60742019]]
+: [[fork a repo|https://help.github.com/articles/fork-a-repo]]
+: [[syncing a fork|https://help.github.com/articles/syncing-a-fork]]
+;Dev Wiki
+: [[developing plugins using Node.js and GitHub|http://tiddlywiki.com/dev/#Developing%20plugins%20using%20Node.js%20and%20GitHub]]
+;Setup
+:see bottom section (thanks, [[PMario|https://groups.google.com/d/msg/tiddlywiki/jj8gAZZGWOU/E39VUB202sMJ]])
+
+!!Working With Git
+checking status and making sure things are clean
+
+`git status`
+
+get updates from upstream master
+
+`git fetch upstream`
+
+also uses tags? => fetch
+
+`git fetch upstream --tags`
+
+check out master and merge updates
+
+`git checkout master`<br>
+`git merge upstream/master`
+
+working on features => create branch
+
+`git checkout -b new-feature-branch`
+
+some work done, some commits happen, some time passes...
+
+getting stuff from master up to date...
+
+`git fetch upstream`<br>
+`git rebase upstream/master`
+
+getting it up in my repo
+
+`git add .`
+`git commit -m "here a concise commit message" `
+`git push origin new-feature-branch`
+
+needs more polishing, changes happen on upstream?<br>
+
+rebase local branch on top of the updates from upstream...<br>
+
+`git fetch upstream`<br>
+`git rebase upstream/master`
+
+force push onto your remote branch....
+
+`git push -f origin new-feature-branch`
+
+want to make a pull request? => go to [[GitHub|https://github.com/Jermolene/TiddlyWiki5]] and do it
+
+!!Setup
+
+http://blogs.atlassian.com/2013/07/git-upstreams-forks
+
+Have a remote?
+
+`git remote -v`
+
+Only origin?
+
+`origin https://github.com/tobibeer/TiddlyWiki5.git (push)`
+
+Add remote via...
+
+`git remote add upstream https://github.com/Jermolene/TiddlyWiki5.git`
+
+or
+
+`git remote add jermolene https://github.com/Jermolene/TiddlyWiki5.git`
+
+!! Pull Requests
+
+> It's OK to send a pull request on your master, but it means that you'll need to create a fork for any further unrelated modifications you might make. @@float:right;[[Jeremy Ruston|https://github.com/Jermolene/TiddlyWiki5/pull/1396#issuecomment-71644734]]@@

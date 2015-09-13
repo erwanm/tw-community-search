@@ -1,0 +1,19 @@
+title: $:/tb5/Commenting Macros
+created: 20141122215606919
+creator: Tobias Beer
+modified: 20141125025529741
+modifier: Tobias Beer
+tags: tb5  Macros Developer
+source-wiki-id: tb5
+source-tiddler-title-as-text: Commenting Macros
+source-tiddler-title-as-link: Commenting%20Macros
+
+For code comments in macros use general purpose html comments but pay attention that any white space or line-breaks before or after them do matter...
+
+```
+<!-- param is ... -->
+\define foo(param:default)
+<!-- we're outputting the title of this tiddler
+-->{{!!title}}
+\end
+```

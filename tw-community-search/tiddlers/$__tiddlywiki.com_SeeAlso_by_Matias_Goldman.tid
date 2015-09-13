@@ -1,0 +1,17 @@
+title: $:/tiddlywiki.com/SeeAlso by Matias Goldman
+created: 20150430154234863
+modified: 20150430154355656
+type: text/vnd.tiddlywiki
+url: http://seealso.tiddlyspot.com
+tags: tiddlywiki.com  Resources
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: SeeAlso by Matias Goldman
+source-tiddler-title-as-link: SeeAlso%20by%20Matias%20Goldman
+
+A simple technique for adding tag-based cross references to the default view template.
+
+{{!!url}}
+
+<<<
+See also: - is a feature to generate a "See also:" section after the tiddler text, somewhat like in Wikipedia articles.
+<<<

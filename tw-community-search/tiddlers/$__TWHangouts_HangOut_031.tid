@@ -1,0 +1,45 @@
+title: $:/TWHangouts/HangOut_031
+created: 20150115042145114
+modified: 20150115042250336
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_031
+source-tiddler-title-as-link: HangOut_031
+
+2014-01-22 - [[YouTube|http://www.youtube.com/watch?v=gpRYHzHCj6w]]
+
+"""
+0:00:00 Intro: frtl: Jeremy, Mario, Stephan
+0:01:12 Mario- Intro: tw5-vagrant on github
+0:02:40 .. about the Vagrantfile
+0:04:50 .. how to download the stuff from github
+0:05:18 .. how to start the procedure with "vagrant up"
+0:05:40 .. access the TW5 client/server edition from the host browser
+0:07:18 .. -> commands for contributors, some more internals
+0:09:33 .. -> how to build the single file TWs, that static tiddlers and all the demos
+0:10:20 Jeremy- Can we create a version, that does "npm install tiddlywiki" -> yes
+0:12:00 .. the build finally finished with the tests!
+0:13:00 Jeremy- There should be a website with some info about TW5 related projects
+0:16:45 Jeremy- There was a request, how to upgrade TW5 with drag and drop ...
+0:18:20 Mario/Jeremy- general discussion about TiddlyDesktop and multi user TWs, sharing .. TiddlyWeb
+0:20:25 Jeremy- about the "extended" build scripts "./bld.sh" or use "npm start" "npm build" ..
+0:23:44 Jeremy- the TW5 repo may need to be splitted into the "docs" and the "code"
+0:26:35 .. general discussion about managing TW5 repos. code and docs.
+0:30:20 Mario- thoughts about, how to handle a "custom editions" that should be in there own repos
+0:33:10 Jeremy- block mode html handling ... (with a little journey to find the issue :)
+0:36:30 .. found it \o/ issue #82 and #345 (related) ... will need to refactor the parser
+0:38:15 All- brainstorming about an /import pragma .. transclusion .. inclusion .. /rules ..
+0:47:30 Mario- .. is this a "global" import?
+0:48:30 Jeremy- about the "role" of tags in TW5 at the moment. .. it's just conventions
+0:50:03 .. about "missing" documentation and "reading" existing documentation.
+0:52:45 Mario- "standard macros" evolving into "user defined macros"
+0:54:20 Jeremy- Stephan's pull requests for 5.0.7
+0:59:20 Jeremy- Some new docs about the "coding style" .. rules for pull requests
+1:00:50 Jeremy- docs .. "Saving to a PHP" server, similar to tiddlyspot
+1:03:50 Jeremy- docs .. naming conventions for "user defined" system tiddlers
+1:06:05 Jeremy- upcomming changes for the ControlPanel
+1:07:40 .. importing encrypted TWs
+1:10:00 Jeremy/Mario- .. discussion about using TW as a password vault.
+1:13:38 ... your computer is not broken - this silence is by intention :) ...
+1:14:48 Jeremy- There should be some warings / info about security.
+1:16:20 Bye! Bye!

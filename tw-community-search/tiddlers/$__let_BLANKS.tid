@@ -1,0 +1,71 @@
+title: $:/let/BLANKS
+created: 20141130230000000
+creator: Tobias Beer
+modified: 20141204132433997
+modifier: Tobias Beer
+summary: when specified, also interprets field values that are &lt;blank&gt; as either ''0'' or ''false''
+tags: let  Suboperators Test
+source-wiki-id: let
+source-tiddler-title-as-text: BLANKS
+source-tiddler-title-as-link: BLANKS
+
+Declared in @@color:#dd1144; UPPERCASE@@ letters, ''BLANKS'' interprets fields that are defined yet don't have a value as...
+
+|![[TYPE]] |!Interpreted As |
+|[[NUM]] |0 |
+|[[INT]] |0 |
+|[[BOOL]] |false |
+
+!!Default
+
+;&lt;undefined&gt;
+:by default, blanks are ignored in any [[OPERATION]]
+
+!!Boolean Example
+
+;`<$list filter="[[1]][[blank]]
++[let:check AND BLANKS[]]">{{!!title}}</$list>`
+:checks [[tiddlers|Boolean]] [[1]], and [[blank = 0 or false]] if field ''check'' set to [[Truthy]], ignoring blanks
+;result
+:<$list filter="[[1]][[blank = 0 or false]]
++[let:check AND BLANKS[]]">{{!!title}}</$list>
+:<br>
+
+;`<$list filter="[[1]][[blank = 0 or false]]
++[let:check AND[]]">{{!!title}}</$list>`
+:checks [[tiddlers|Boolean]] [[1]], and [[blank = 0 or false]] if field ''check'' set to [[Truthy]], ignoring blanks
+;result
+:<$list filter="[[1]][[blank = 0 or false]]
++[let:check AND[]]">{{!!title}}</$list>
+
+!! Integer Example
+;`<$list filter="[[3]][[blank]]
++[let:AVG INT count BLANKS[]]">{{!!title}}</$list>`
+:calculates the average of field ''count'' for [[tiddlers|Integer]] [[3]], and [[blank = 0 or false]], ''not'' ignoring blanks
+;result
+:<$list filter="[[3]][[blank = 0 or false]]
++[let: AVG INT count BLANKS[]]">{{!!title}}</$list>
+:<br>
+
+;`<$list filter="[[3]][[blank = 0 or false]]
++[let: AVG INT count[]]">{{!!title}}</$list>`
+:calculates the average of [[INT]] field ''count'' for [[tiddlers|Integer]] [[3]], and [[blank = 0 or false]], ignoring blanks
+;result
+:<$list filter="[[3]][[blank = 0 or false]]
++[let:AVG INT count[]]">{{!!title}}</$list>
+
+!! Number Example
+;`<$list filter="[[2.2]][[blank = 0 or false]]
++[let: AVG NUM number BLANKS[]]">{{!!title}}</$list>`
+:calculates the average of [[NUM]] field ''number'' for [[tiddlers|Integer]] [[2.2]], and [[blank = 0 or false]], ''not'' ignoring blanks
+;result
+:<$list filter="[[2.2]][[blank = 0 or false]]
++[let:AVG NUM number BLANKS[]]">{{!!title}}</$list>
+:<br>
+
+;`<$list filter="[[2.2]][[blank = 0 or false]]
++[let:AVG NUM number[]]">{{!!title}}</$list>`
+:calculates the average of field ''count'' for [[tiddlers|Integer]] [[2.2]], and [[blank = 0 or false]], ignoring blanks
+;result
+:<$list filter="[[2.2]][[blank = 0 or false]]
++[let:AVG NUM number[]]">{{!!title}}</$list>

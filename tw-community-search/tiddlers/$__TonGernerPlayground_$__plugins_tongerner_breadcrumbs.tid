@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tongerner/breadcrumbs
+author: TonGerner
+core-version: 5.1.9
+created: 20150706124121509
+creator: TonGerner
+description: Creates breadcrumbs of open tiddlers
+list: readme
+modified: 20150708093119572
+modifier: TonGerner
+version: 0.0.7
+tags: TonGernerPlayground 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tongerner/breadcrumbs
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fbreadcrumbs
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

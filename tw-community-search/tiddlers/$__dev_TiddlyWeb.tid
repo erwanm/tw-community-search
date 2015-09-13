@@ -1,0 +1,15 @@
+title: $:/dev/TiddlyWeb
+created: 20150116191421952
+creator: Tobias Beer
+modified: 20150204232207415
+modifier: Tobias Beer
+tags: dev  Server
+source-wiki-id: dev
+source-tiddler-title-as-text: TiddlyWeb
+source-tiddler-title-as-link: TiddlyWeb
+
+; TW5 & TiddlyWeb — instructions by Chris
+: https://groups.google.com/d/msg/tiddlyweb/UcYrnvGwNUQ/UJRgSn4VjfYJ
+
+; TiddlyWeb plugins required to run node.js server
+: https://groups.google.com/d/msg/tiddlywiki/uycBwgEkDqQ/Gw1XkEAisnIJ

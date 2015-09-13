@@ -1,0 +1,17 @@
+title: $:/gWiZ/$:/plugins/tiddlywiki/googleanalytics
+author: JeremyRuston
+core-version: >=5.0.0
+created: 20140714064010942
+creator: Matabele
+dependents: 
+description: Google Analytics plugin for TiddlyWiki5
+modified: 20140714064010942
+modifier: Matabele
+version: 5.0.13-beta
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/googleanalytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgoogleanalytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

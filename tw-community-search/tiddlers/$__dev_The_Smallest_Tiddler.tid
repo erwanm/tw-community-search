@@ -1,0 +1,20 @@
+title: $:/dev/The Smallest Tiddler
+created: 20141130232123442
+creator: Tobias Beer
+modified: 20141130232220294
+modifier: Tobias Beer
+tags: dev  TidU
+source-wiki-id: dev
+source-tiddler-title-as-text: The Smallest Tiddler
+source-tiddler-title-as-link: The%20Smallest%20Tiddler
+
+Understanding the paradigm and its implications...
+https://github.com/Jermolene/TiddlyWiki5/issues/1171#issuecomment-65002806
+
+<<<
+If we used a state field on the tiddler containing the toc then that tiddler would be modified each time a new tiddler was selected. If the tiddler containing the toc were a shadow tiddler, that would mean that the shadow value would be cloned, meaning that future upgrades wouldn't come through.
+
+In a similar vein, an edition might want to provide a default for the selected tiddler; if we used a field then the edition would need to ship a copy of the entire tiddler containing the toc.
+
+The question of determining the "tiddler containing the toc" is actually quite tricky. The toc might be invoked from a shared global macro; then perhaps we'd want to identify the tiddler containing that macro, not the one containing the toc.
+<<<

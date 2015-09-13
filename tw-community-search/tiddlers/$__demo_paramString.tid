@@ -1,0 +1,33 @@
+title: $:/demo/paramString
+created: 20150120231902939
+creator: Tobias Beer
+modified: 20150127012917344
+modifier: Tobias Beer
+tags: demo  Demo Parsers Macros Variables
+source-wiki-id: demo
+source-tiddler-title-as-text: paramString
+source-tiddler-title-as-link: paramString
+
+\define foo()
+<<paramString>>
+\end
+
+; <<git5 issues/1373>>
+: expose paramString to macro
+
+; modified
+: [[$:/core/modules/widgets/macrocall.js]]
+: [[$:/core/modules/parsers/wikiparser/rules/macrocallinline.js]]
+: [[$:/core/modules/parsers/wikiparser/rules/macrocallblock.js]]
+
+```
+\define foo()
+<<paramString>>
+\end
+
+* "<<foo bar baz>>"
+```
+
+<<<
+* "<<foo bar baz>>"
+<<<

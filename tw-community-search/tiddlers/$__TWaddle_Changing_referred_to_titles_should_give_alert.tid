@@ -1,0 +1,17 @@
+title: $:/TWaddle/Changing referred to titles should give alert
+created: 20150410151238070
+creator: Mat
+modified: 20150726191714554
+modifier: Mat
+recent: 15/04/10	
+tags: TWaddle  Proposals Major Feature
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Changing referred to titles should give alert
+source-tiddler-title-as-link: Changing%20referred%20to%20titles%20should%20give%20alert
+
+Apparently, there are some good reasons why changing a tiddler title cannot automatically change the places where you've typed this title elsewhere e.g in another tiddlers text or in transclusions.
+
+I propose we should at least get an alert when we change a title that appears elsewhere. This //must// be doable because we already have the //References// list (under //Info//).
+
+See also:<br>
+[[Missing transclusion should give indication]]

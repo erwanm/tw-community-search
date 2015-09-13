@@ -1,0 +1,12 @@
+title: $:/braintest/EditorStyles
+created: 20140216222555921
+creator: Danielo Rodriguez
+modified: 20140216222737083
+modifier: Danielo Rodriguez
+tags: braintest 
+source-wiki-id: braintest
+source-tiddler-title-as-text: EditorStyles
+source-tiddler-title-as-link: EditorStyles
+
+.editorArea{
+width:100%;}

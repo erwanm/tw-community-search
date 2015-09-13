@@ -1,0 +1,14 @@
+title: $:/inmysocks/Startup Script
+created: 20150525173948940
+modified: 20150525184903336
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Startup Script
+source-tiddler-title-as-link: Startup%20Script
+
+<$action-storecount $filter='[tag[Awesome Thing]]' $tiddler='$:/state/Awesome Things Listing' $field=count_field/>
+<$action-randval $tiddler='$:/state/Awesome Things Listing' $field=first $lower=1 $upper={{$:/state/Awesome Things Listing!!count_field}} $step=1 $numrolls=1/>
+<$action-randval $tiddler='$:/state/Awesome Things Listing' $field=second $lower=1 $upper={{$:/state/Awesome Things Listing!!count_field}} $step=1 $numrolls=1/>
+<$action-randval $tiddler='$:/state/Awesome Things Listing' $field=third $lower=1 $upper={{$:/state/Awesome Things Listing!!count_field}} $step=1 $numrolls=1/>
+<$action-randval $tiddler='$:/state/Awesome Things Listing' $field=fourth $lower=1 $upper={{$:/state/Awesome Things Listing!!count_field}} $step=1 $numrolls=1/>
+<$action-randval $tiddler='$:/state/Awesome Things Listing' $field=fifth $lower=1 $upper={{$:/state/Awesome Things Listing!!count_field}} $step=1 $numrolls=1/>

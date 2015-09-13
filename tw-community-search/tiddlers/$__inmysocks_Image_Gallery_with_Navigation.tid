@@ -1,0 +1,110 @@
+title: $:/inmysocks/Image Gallery with Navigation
+created: 20150205052639262
+modified: 20150205054459778
+tags: inmysocks  [[Wiki Examples]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Image Gallery with Navigation
+source-tiddler-title-as-link: Image%20Gallery%20with%20Navigation
+
+This won't work until I version 5.1.8 is released.
+
+I have put in comments to explain how it works.
+
+This won't work even then because the comments break the macro definitions.
+
+```
+<!-- For this currentTiddler is set to the previous tiddler in the gallery, and ImageTiddler is set to the tiddler currently being viewed -->
+\define thisBackButton()
+<$button class='tc-btn-invisible'>
+<!-- Open the previous tiddler -->
+<$action-navigate $to=<<currentTiddler>>/>
+<!-- The button image -->
+{{$:/core/images/chevron-left}}
+<!-- Close the current tiddler -->
+<$action-sendmessage $message='tm-close-tiddler' $param="""$(ImageTiddler)$"""/>
+</$button>
+\end
+
+<!-- For this currentTiddler is set to the next tiddler in the gallery and ImageTiddler is set to the tiddler currently being viewed-->
+\define thisForwardButton()
+<$button class='tc-btn-invisible'>
+<!-- Open the next tiddler -->
+<$action-navigate $to=<<currentTiddler>>/>
+<!-- The button image -->
+{{$:/core/images/chevron-right}}
+<!-- Close the current tiddler -->
+<$action-sendmessage $message='tm-close-tiddler' $param="""$(ImageTiddler)$"""/>
+</$button>
+\end
+
+\define thisGallery()
+<!-- Only display if the current tiddler in the list is the tiddler being viewed -->
+<$reveal type=match state='!!title' text=<<ImageTiddler>>>
+<!-- use the calc macro to set indicies of the current and next tiddlers in the gallery -->
+<$set name=thisMinusOne value=<<calc $(currentListIndex)$ -1>>>
+<$set name=thisPlusOne value=<<calc $(currentListIndex)$ +1>>>
+<!-- Set the width for the div that holds the buttons -->
+<div style='width:100%'>
+<!-- This only displays if the tiddler being viewed isn't the first one. ImageDisplayViewTemplate!!one is just the numeral 1 so it can be checked against -->
+<$reveal type=nomatch state='ImageDisplayViewTemplate!!one' text=<<currentListIndex>>>
+<!-- This pulls out the previous tiddler in the gallery -->
+<$list filter='[sort<GallerySort>tag<GalleryTag>$(GalleryFilter)$nth<thisMinusOne>]'>
+<!-- The div holding the back button -->
+<div style='width:70%;z-index:99;position:absolute'>
+<!-- The back button is created using the previous tiddler in the gallery as the variable currentTiddler -->
+<<thisBackButton>>
+</div>
+</$list>
+</$reveal>
+<!-- This pulls out the tiddler that is next in the gallery, this only returns something when the next tiddler exists, so at the end of the gallery there is nothing on this list and the button isn't displayed -->
+<$list filter='[sort<GallerySort>tag<GalleryTag>$(GalleryFilter)$nth<thisPlusOne>]'>
+<!-- This is the div holding the forward button -->
+<div style='text-align:right;position:absolute;width:80%;z-index:98'>
+<!-- This makes the forward button using the next tiddler in the gallery as the variable currentTiddler -->
+<<thisForwardButton>>
+</div>
+</$list>
+<!-- This is the div that says Navigate Gallery: -->
+<div style='text-align:center;position:absolute;z-index:1;width:80%'>
+Navigate Gallery: {{!!gallery}}
+<hr>
+</div>
+</div>
+<br>
+</$set>
+</$set>
+</$reveal>
+\end
+
+<!-- This macro makes the navigation buttons -->
+\define thisList()
+<!-- This sorts and list the tiddlers with the optional GalleryFilter added on. It sets the iterator and variable as well. -->
+<$list filter="[sort<GallerySort>tag<GalleryTag>$(GalleryFilter)$]" iterator=currentListIndex variable=ThisOne>
+<!-- Using the built in iterator-last variable we set the number for the last tiddler in the gallery -->
+<$set name=LastTiddler value=<<iterator-last>>>
+<!-- Show this only if the current tiddler isn't the last tiddler in the gallery, this is the part that removes the next button from the last tiddler -->
+<$reveal type=nomatch state=<<LastTiddler>> text=<<currentListIndex>>>
+<!-- This uses the same filter as above, but it pulls out the nth tiddler, where n is the currentListIndex, set my the iterator from the above list and sets the variable to ImageTiddler. This is the tiddler currently being viewed -->
+<$list filter="[sort<GallerySort>tag<GalleryTag>$(GalleryFilter)$nth<currentListIndex>]" variable=ImageTiddler>
+<!-- This macro makes the display -->
+<<thisGallery>>
+</$list>
+</$reveal>
+</$set>
+</$list>
+\end
+
+<!-- Set the GalleryTag variable based on the settings in the control panel -->
+<$set name=GalleryTag value={{$:/settings/TiddlerGallerySettings!!gallery_tag}}>
+<!-- This is the list that makes the view template only show up on the correct tiddlers -->
+<$list filter="[is[current]tag<GalleryTag>]">
+<!-- Set the GallerySort and GalleryFilter variables, this is inside the list because that may reduce the amount of rendering done. I am not actually sure about that. -->
+<$set name=GallerySort value={{$:/settings/TiddlerGallerySettings!!gallery_sort}}>
+<$set name=GalleryFilter value={{$:/settings/TiddlerGallerySettings!!filter}}>
+<!-- This is the macro that makes the navigation buttons -->
+<<thisList>>
+</$set>
+</$set>
+</$list>
+</$set>
+```

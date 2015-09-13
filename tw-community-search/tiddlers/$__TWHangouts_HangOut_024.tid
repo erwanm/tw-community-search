@@ -1,0 +1,50 @@
+title: $:/TWHangouts/HangOut_024
+created: 20150115071036240
+modified: 20150115071155774
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_024
+source-tiddler-title-as-link: HangOut_024
+
+2013-12-04 - [[YouTube|http://www.youtube.com/watch?v=xlXdKMj70yM]]
+
+"""
+0:00:00 Intro: frtl: Jim + background, Jeremy, Mario, Michael, Paul, Stephan, Ton
+0:07:30 Jeremy / Paul- about "OXTWIG" meeting in Oxford.
+0:11:35 Jeremy- User-TWs in action (Jim screenshare won't work)
+0:17:40 Michael- TW in action (actually nothing to show :)
+0:18:50 Ton- about tw5toolbar(.)tiddlyspot(.)com new buttons: home, full screen, close all, close others, clone, search, help, ... StyleSheets ... ToggelTheme ... hide sidebar
+0:26:55 Jeremy- about how Ton does the editing?
+0:29:30 Michael- about single file TW vs node version (conversion back and forth) ginsu.sh
+0:35:10 Jim- about his TW5 usecase ... create "reference material" .... (Jeremy's screenshare wasn't recorded) :/ (see Jim's TW at hangout#25)
+0:47:50 Jeremy- Preperation for the Beta - about version numbering
+0:50:40 Jeremy- How the "upgrade process works"
+0:57:00 Jeremy- about "Getting Started with TiddlyWiki5" on youtube and a "youtube widget"
+0:58:40 Jeremy- Nathan joins the talk.
+0:59:50 Jeremy- How to import eg: markdown plugin.
+1:00:55 Michael- How to open several tiddlers at once?
+1:02:10 Mario- Would it be possible that a "open all tiddlers" also looks a the "list" field to open them in the right order?
+1:03:00 Stephan/Jeremy- about automatic loading in "DefaultTiddlers"
+1:06:00 Michael- Will it be possible to sort tiddlers in the "story river"?
+1:07:50 Jeremy- about borrowing "Trello" functionality.
+1:09:55 Jeremy- conditionally show/hide the sidebar
+1:10:30 Stephan- do we have a "storyline" plugin/button?
+1:11:00 Jim- about "conditionally" change the layout
+1:15:40 Jeremy- Eric joined the session
+1:17:40 Jeremy- about moving TW5 to tiddlywiki(.)com
+1:19:10 Mario- complains about the TW5 "HelloThere" link to TiddlyWikiClassic
+1:21:50 Jeremy/Eric- about moving TWc and TW5 frontpages ...
+1:24:40 Mario- about the "migration path" from TWc to TW5
+1:26:50 Paul- about "HelloThere" wording ...
+1:28:30 Stephan- should we talk about the TW syntax for "quotes" skeeve(.)tiddlyspot(.)com
+1:39:50 Jeremy- Question: Will quotes work with lists?
+1:43:28 Stephan- about "radio buttons"
+1:45:40 Michael- How to switch of CamelCase rendering?
+1:51:30 Eric- about "black listing" CamelCase links, that should not be links
+1:53:20 Mario- about tiddler aliasing
+1:54:20 Eric- about "corner cases" if automatic wiki linking is globally switched of
+1:57:10 Jeremy- about aliases ... being "symbolic links"
+2:00:50 Jeremy- about aliases and regular expressions (regexp)
+2:04:50 Bye! Bye!
+
+"""

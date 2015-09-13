@@ -1,0 +1,35 @@
+created: 20141214005400000
+creator: Erwan
+modified: 20150913111341982
+tags: TWCSCore TWCSContents
+title: GettingStarted
+type: text/vnd.tiddlywiki
+
+! Search
+
+{{CommunitySearch}}
+
+* You can also browse the index [[by tags|CommunityTags]], [[by wiki|CommunityWikis]] or [[by author|CommunityAuthors]]. 
+* See also the list of CommunityPlugins. 
+* Discover more features in the [[documentation|TWCSDocumentation]].
+
+
+! Latest news from the community
+
+
+<<listRecentTiddlers "[tag[CommunityNews]!sort[modified]limit[5]]" "$:/WikiLinkAndContentTemplate">>
+
+[[More community news...|CommunityNews]]
+
+
+
+! Version
+
+{{Version}}
+
+! See also
+
+* [[What is this?]]
+* [[About]]
+
+

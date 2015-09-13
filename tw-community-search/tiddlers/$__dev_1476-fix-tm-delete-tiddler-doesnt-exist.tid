@@ -1,0 +1,22 @@
+title: $:/dev/1476-fix-tm-delete-tiddler-doesnt-exist
+created: 20150209230104906
+creator: Tobias Beer
+modified: 20150209230206409
+modifier: Tobias Beer
+summary: Fix issue deleting non-existent tiddler
+url: <<git5 "pull/1476">>
+tags: dev  Pull Accepted 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1476-fix-tm-delete-tiddler-doesnt-exist
+source-tiddler-title-as-link: 1476-fix-tm-delete-tiddler-doesnt-exist
+
+Currently ''tm-delete-tiddler'' throws a red error box:
+
+```
+<$button>
+<$action-sendmessage $message="tm-delete-tiddler" $param="DoesntExist"/>
+delete non-existing
+</$button>
+```
+
+`Uncaught TypeError: Cannot read property 'fields' of undefined`

@@ -1,0 +1,84 @@
+title: $:/inmysocks/Make Plugin twCard
+created: 20150106180109481
+modified: 20150210014416596
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Make Plugin twCard
+source-tiddler-title-as-link: Make%20Plugin%20twCard
+
+\define pluginInfoTiddlerName()
+twCard - Plugin - $(pluginName)$
+\end
+
+\define thisAddWidgetsThing()
+<$fieldmangler tiddler='$:/temp/addplugininformation/widgetsandtiddlers'>
+<$button>Add Widget
+<$action-setfield $tiddler='$:/temp/addplugininformation/widgetsandtiddlers' $field=dummy_field $value=''/>
+<$action-sendmessage $message='tm-add-tag' $param="""widget-$(widgetTag)$"""/>
+<$action-setfield $tiddler='$:/temp/addplugininformation/temp' $field=add_widget $value=''/>
+</$button>
+</$fieldmangler>
+\end
+
+\define thisAddTiddlersThing()
+<$fieldmangler tiddler='$:/temp/addplugininformation/widgetsandtiddlers'>
+<$button>Add Other Tiddler
+<$action-setfield $tiddler='$:/temp/addplugininformation/widgetsandtiddlers' $field=dummy_field $value=''/>
+<$action-sendmessage $message='tm-add-tag' $param="""tiddler-$(tiddlerTag)$"""/>
+<$action-setfield $tiddler='$:/temp/addplugininformation/temp' $field=add_tiddler $value=''/>
+</$button>
+</$fieldmangler>
+\end
+
+\define thisCreatePlugintwCard()
+<$button>Create Plugin twCard
+<$action-setfield $tiddler='$:/temp/addplugininformation' $field=title $value="""$(pluginInfoName)$"""/>
+<$action-setfield $tiddler="""$(pluginInfoName)$""" $field=tags $value="""$(theseTags)$"""/>
+<$action-setfield $tiddler='Plugin Info Template' $field=title $value='$:/temp/addplugininformation'/>
+<$action-setfield $tiddler='$:/temp/addplugininformation/temp' $field='plugin_name' $value=''/>
+<$action-setfield $tiddler='$:/temp/addplugininformation/temp' $field='tags' $value=''/>
+<$action-setfield $tiddler='$:/temp/addplugininformation/widgetsandtiddlers' $field='tags' $value=''/>
+</$button>
+\end
+
+Enter Plugin Information Here:
+
+Plugin Name: <$edit-text tiddler='$:/temp/addplugininformation/temp' field='plugin_name'/>
+
+Long Description:
+
+<$edit-text tiddler='$:/temp/addplugininformation' field=text class='tc-edit-texteditor'/>
+
+<$set name=pluginName value={{$:/temp/addplugininformation/temp!!plugin_name}}>
+<$set name=pluginInfoTiddler value=<<pluginInfoTiddlerName>>>
+
+<$set name=widgetTag value={{$:/temp/addplugininformation/temp!!add_widget}}>
+<<thisAddWidgetsThing>></$set> : <$edit-text tiddler='$:/temp/addplugininformation/temp' field='add_widget'/><br>
+<$set name=tiddlerTag value={{$:/temp/addplugininformation/temp!!add_tiddler}}>
+<<thisAddTiddlersThing>></$set> : <$edit-text tiddler='$:/temp/addplugininformation/temp' field='add_tiddler'/>
+
+<table>
+<tr><th>Widget List</th></tr>
+<$list filter='[[$:/temp/addplugininformation/widgetsandtiddlers]tags[]]+[removeprefix[widget-]]'>
+<tr><td><<currentTiddler>></td></tr>
+</$list>
+<tr><th>Other Tiddler List</th></tr>
+<$list filter='[[$:/temp/addplugininformation/widgetsandtiddlers]tags[]]+[removeprefix[tiddler-]]'>
+<tr><td><<currentTiddler>></td></tr>
+</$list>
+</table>
+
+<table>
+<$list filter='[[Plugin Info Template]fields[]sort[title]]-[[text]]-[[modified]]-[[created]]-[[tags]]-[[title]]'>
+<tr><td><<currentTiddler>></td><td><$edit-text tiddler='$:/temp/addplugininformation' field=<<currentTiddler>> class='tc-edit-texteditor' size=70/></td></tr>
+</$list>
+</table>
+
+<$set name=theseTags filter='[[Plugin twCard]][[$:/temp/addplugininformation/widgetsandtiddlers]tags[]]'>
+<$set name=pluginInfoName value=<<pluginInfoTiddlerName>>>
+<<thisCreatePlugintwCard>>
+</$set>
+</$set>
+
+</$set>
+</$set>

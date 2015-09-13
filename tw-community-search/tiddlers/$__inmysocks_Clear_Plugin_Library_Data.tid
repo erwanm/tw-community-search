@@ -1,0 +1,15 @@
+title: $:/inmysocks/Clear Plugin Library Data
+created: 20150427212138956
+modified: 20150427215225957
+tags: inmysocks  [[Work in progress]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Clear Plugin Library Data
+source-tiddler-title-as-link: Clear%20Plugin%20Library%20Data
+
+<$navigator story='$:/StoryList' history='$:/HistoryList'>
+<$button>Clear Plugin Library Data
+<$list filter='[prefix[$:/temp/ServerConnection/]][prefix[$:/temp/RemoteAssetInfo/]]'>
+<$action-sendmessage $message='tm-delete-tiddler' $param=<<currentTiddler>>/>
+</$list>
+</$button>
+</$navigator>

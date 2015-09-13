@@ -1,0 +1,13 @@
+title: $:/inmysocks/Changing Themes
+created: 20150426184914714
+modified: 20150426190809341
+tags: inmysocks  [[Learning to Customize TiddlyWiki]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Changing Themes
+source-tiddler-title-as-link: Changing%20Themes
+
+Themes are complete packages that contain style information for a TiddlyWiki. They can do everything from changing the colours of text to completely changing the layout of the wiki (the mobile theme in this wiki is one example. It is also shown [[here|http://ooktech.com/jed/ExampleWikis/NewBrainTest/]]).
+
+To change the theme of your wiki go to the $:/ControlPanel and click on the `Apperance` tab, then under that click on the `Theme` tab. There will be a list of themes currently available for your wiki. Clicking on one will change to that theme. Changing the theme can be easily undone by changing back to the previous one, so feel free to try out new themes, you won't break anything.
+
+You can get new themes using the plugin library. To access the plugin library go to $:/ControlPanel and click on the `Plugins` tab and click on the button that says `Get More Plugins`.

@@ -1,0 +1,18 @@
+title: $:/ibox/GettingStarted
+created: 20141211130122394
+creator: Tobias Beer
+modified: 20141211185151092
+modifier: Tobias Beer
+tags: ibox 
+source-wiki-id: ibox
+source-tiddler-title-as-text: GettingStarted
+source-tiddler-title-as-link: GettingStarted
+
+This wiki shows how to display images in lightboxes in TiddlyWiki version <<version>> using the `<<ibox>>` macro.
+
+* [[Examples]]
+* [[Parameters]]
+* [[Installation]]
+* [[Modal Template]] — [[Lightbox]]
+
+[[References]]

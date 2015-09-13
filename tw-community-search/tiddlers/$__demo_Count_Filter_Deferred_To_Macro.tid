@@ -1,0 +1,47 @@
+title: $:/demo/Count Filter Deferred To Macro
+created: 20141124072201014
+creator: Tobias Beer
+groups: tiddlywiki/14jpknjceTY
+modified: 20141208131149491
+modifier: Tobias Beer
+summary: Count tiddlers as determined by a deferred macro call...
+url: 
+tags: demo  Demo Macros Filters Fails
+source-wiki-id: demo
+source-tiddler-title-as-text: Count Filter Deferred To Macro
+source-tiddler-title-as-link: Count%20Filter%20Deferred%20To%20Macro
+
+\define getCount() <$count filter='[tag[Demo]]'/>
+
+A quote from Jeremy in the above discussion as to why the below does not work:
+
+<<<
+There is no way at the moment to store the results of wikifying text into a variable or a tiddler. Transcluded attributes on widgets/HTML elements are never wikified; the attribute gets the raw value of the variable or tiddler field.
+<<<
+
+So, this construct will fail...
+
+```
+\define getCount() <$count filter='[tag[Demo]]'/>
+<$button><$action-setfield $field=count $value=<<getCount>>/>set via "$field"</$button>
+<$button><$action-setfield count=<<getCount>>/>set via "count"</$button>
+<$button><$action-deletefield count/>reset "count"</$button>
+```
+
+renders:
+
+<<<
+<$button><$action-setfield $field=count $value=<<getCount>>/>set via "$field"</$button>
+<$button><$action-setfield count=<<getCount>>/>set via "count"</$button>
+<$button><$action-deletefield count/>reset "count"</$button>
+<<<
+
+!!Validation
+;count field as text
+:<$view field="count" format="text"/> <$list filter="[all[current]has[count]]">@@color:red; This is wong!@@</$list>
+;count field wikified
+:{{!!count}}
+
+!!Sources
+* http://tiddlywiki.com/prerelease/#ActionSetFieldWidget
+* http://tiddlywiki.com/prerelease/#ActionDeleteFieldWidget

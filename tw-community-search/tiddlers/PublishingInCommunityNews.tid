@@ -1,0 +1,34 @@
+created: 20150912224440104
+description: This feature allows a wiki author to have their news show up in CommunityNews. The very latest news also appear in the GettingStarted plugin. For example, you can announce the release of a plugin on your wiki.
+modified: 20150913002525407
+tags: AuthorDocumentation
+title: PublishingInCommunityNews
+type: text/vnd.tiddlywiki
+
+ 
+
+{{!!description}}
+
+!! How?
+
+The instructions below assume that your wiki is already in the [[list of indexed wiki|CommunityWikis]]. If not, [[send me an email|Contact]]).
+
+Create a  a system tiddler named ``$:/CommunityNewsTiddlers`` in your wiki. This tiddler should only contain a list of your "news tiddlers". The easiest way is to use a [[filter||http://tiddlywiki.com/#Introduction%20to%20Filters]]. For instance, the filter
+
+```
+{{{[tag[news]]}}}
+```
+
+will include any tiddler tagged ``news``, and the TWCS indexing script will simply collect your news from these tiddlers. 
+
+You can of course use any other filter or tag label depending on the way you organize your wiki.
+
+!! Guidelines
+
+The content of the news tiddlers is shown as simple wikitext, so please be careful not to include any image or any call to custom widgets/macros/plugins in your news tiddlers. Any wikitext or html formatting is fine, however. 
+
+Additionally, please try to keep your news tiddlers short: the goal is to invite users to visit your wiki, not to give them the full story!
+
+!! About news freshness
+
+You do not need to remove old "news" tiddlers from your wiki (but you can of course). If you leave them, they will simply appear at the bottom of the list in CommunityNews, since it is ordered by most recent modification date.

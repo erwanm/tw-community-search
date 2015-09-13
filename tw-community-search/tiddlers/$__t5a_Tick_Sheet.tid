@@ -1,0 +1,21 @@
+title: $:/t5a/Tick Sheet
+created: 20140517051247689
+creator: Andrew Harrison
+modified: 20150803230231244
+modifier: Andrew Harrison
+tags: t5a  New Contents NeedsWork Examples
+source-wiki-id: t5a
+source-tiddler-title-as-text: Tick Sheet
+source-tiddler-title-as-link: Tick%20Sheet
+
+{{Under construction}}&emsp;&emsp;This tiddler will help me take notes and quickly remember great amounts of information temporarily all in one place. Inspired by Stephan Hradek's slider. Also, designed to be dynamic so it can be cloned. It stores the states from the slider buttons and text field in a temp tiddler. The reset button deletes the temp tiddler to reset everything from this tiddler. Cloned forms have reset buttons that clear their own forms.<br>
+{{!!title||$:/Here}}
+<<overlay {{$:/Examples/Overlay!!what}} {{$:/Examples/Overlay!!with}} 100% 40px overlay-example>>
+
+{{Tiddlywiki||copy}}
+
+<<toggletag "TagPill1a" "TagPill1b" "TagPill1c">><<toggletag "TagPill2a" "TagPill2b">><<toggletag "TagPill3a" "TagPill3b" "TagPill3c" "TagPill3d">>
+
+<<edit-text>>
+
+<<reset>>

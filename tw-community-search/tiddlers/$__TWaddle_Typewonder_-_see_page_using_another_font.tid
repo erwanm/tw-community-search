@@ -1,0 +1,16 @@
+title: $:/TWaddle/Typewonder - see page using another font
+created: 20150410124354888
+creator: Mat
+modified: 20150715203404539
+modifier: Mat
+recent: 15/04/10	
+tags: TWaddle  Tidbits Non-TW
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Typewonder - see page using another font
+source-tiddler-title-as-link: Typewonder%20-%20see%20page%20using%20another%20font
+
+http://typewonder.com/home
+
+Super smooth: just type in the url, say cnn.com, choose font from the list and see how it appears.
+
+Unfortunately it creates an error for tw.com. Apparently a [[fault of the service|https://groups.google.com/forum/?fromgroups=#!topic/tiddlywikidev/6JCgZ5MEsLI]] but can be circumvented if you apply it to a static TW.

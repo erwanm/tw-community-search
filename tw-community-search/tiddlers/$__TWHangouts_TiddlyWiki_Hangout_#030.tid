@@ -1,0 +1,47 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #030
+created: 20150115045759628
+modified: 20150115045854593
+tags: TWHangouts  HangOut_030 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #030
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23030
+
+\define hangout() 030
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Carlos, Jeremy, Mario, Paul, Stephan, Ton">>
+<<topic "0:02:20" "Stephan- Contact handling .. 'database' .. NewTiddler plugin">>
+<<topic "0:12:45" "Jeremy- about contributions to the code / documentation base">>
+<<topic "0:14:50" "- - - short break - - -">>
+<<topic "0:16:30" "Stephan- about transcluding the 'full' tiddler content ... title and content">>
+<<topic "0:19:20" "Stephan- shows his 'transclusion experiment'">>
+<<topic "0:22:20" "Jeremy- about 'credits' in the release notes. There may be Gravatar Widget">>
+<<topic "0:33:50" "Carlos- would like to have GraphMl implemented.">>
+<<topic "0:41:30" "Carlos- What about a 'bounty system' for TW plugins?">>
+<<topic "0:45:05" "Jeremy- TW5 should and will be free for end users ... about funding TW5 development">>
+<<topic "0:49:45" "Mario- Carlos - Is there a special reason, why you want to use graphML? — yEd">>
+<<topic "0:51:05" "Jeremy- future features / development for TiddlyDesktop!">>
+<<topic "0:56:10" "Carlos- What kind of advantages do you see, for this type of app?">>
+<<topic "0:59:50" "Jeremy- It would be even possible to integrate a 'source code' editor">>
+<<topic "1:00:15" "Mario- about the Brackets project.">>
+<<topic "1:05:00" "Jeremy- about 'p' paragraph handling ... 'block mode' rendering in general">>
+<<topic "1:07:15" "Jeremy- some new markup / syntax proposals ... brainstorming">>
+<<topic "1:24:50" "- -> kind of an agreement about the new 'paragraph - block mode'">>
+<<topic "1:27:15" "Ton- What's about Paul's 'multiline table proposal'">>
+<<topic "1:29:25" "Jeremy- ... releases are slowing down.">>
+<<topic "1:29:58" "Mario- CodeMirror is activated for the 'client-server edition' by default now?">>
+<<topic "1:32:20" "Paul- Jeremy, did you think more about the extended table syntax? .. it should be part of the core">>
+<<topic "1:33:00" "Jeremy- about the TiddlyWiki for Android video">>
+<<topic "1:33:60" "Jeremy- about the PHP server configuration to save TW5 as a single file">>
+<<topic "1:36:19" "Mario- nodejs server uses the ip address as the parameter number 6. ...">>
+<<topic "1:38:45" "Mario/Jeremy- about the build process in general">>
+<<topic "1:40:20" "Jeremy- suggests the editions .info file should contain build instructions.">>
+<<topic "1:44:18" "Jeremy- new docs tiddler: 'Naming of System Tiddlers' ... there are some inconsistencies.">>
+<<topic "1:48:28" "Mario- Would it be possible to have 'tabs or sliders' for the namespaces lists?">>
+<<topic "1:52:25" "Mario- About user defined naming conventions for system tiddlers.">>
+<<topic "1:53:35" "Jeremy- shows the TitlesPolicy tiddler for some naming conventions">>
+<<topic "1:55:07" "Carlos- Is the TitlesPolicy live allready ... yes">>
+<<topic "1:55:45" "Paul- about NodeWebkit versioning .. what's about the updating / deployment handling?">>
+<<topic "1:59:40" "Jeremy- about new GitHub's traffic graphs">>
+<<topic "2:01:18" "Bye! Bye!">>

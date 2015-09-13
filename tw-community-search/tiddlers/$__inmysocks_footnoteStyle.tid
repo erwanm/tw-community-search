@@ -1,0 +1,19 @@
+title: $:/inmysocks/footnoteStyle
+created: 20140825085705112
+creator: Andreas Hahn
+modified: 20140918045626923
+modifier: Andreas Hahn
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: footnoteStyle
+source-tiddler-title-as-link: footnoteStyle
+
+.tc-drop-down {
+padding: 10px;
+}
+
+.tc-drop-down dd {
+max-width:500px; 
+word-break: break; 
+white-space:normal; 
+}

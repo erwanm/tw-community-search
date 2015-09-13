@@ -1,0 +1,39 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #022
+created: 20150116230400145
+modified: 20150116230502589
+tags: TWHangouts  HangOut_022 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #022
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23022
+
+\define hangout() 022
+
+<<header>>
+"""
+<<topic "0:00:00" "intro: frtl: Jeremy, Mario, Nathan, Stephan, Ton">>
+<<topic "0:01:40" "Jeremy- What do you think of the 'Fork me on GitHub' ribbon">>
+<<topic "0:08:55" "Nathan- 'Download me as a file' instead of 'Fork me on Github'">>
+<<topic "0:10:30" "Jeremy- The link color changed a bit.">>
+<<topic "0:13:30" "Jeremy- About 'vanilla' CSS styling and a new 'Vanilla Theme'">>
+<<topic "0:15:40" "Jeremy- about page layout configurability">>
+<<topic "0:16:40" "Mario- 'Complains' about text edit performance">>
+<<topic "0:22:00" "Jeremy- About testing and avoid regressions">>
+<<topic "0:23:45" "Jeremy- Control Panel now has a TiddlySpot setting tab.">>
+<<topic "0:26:30" "Jeremy- Save to TiddlySpot will be part of the core ... code review.">>
+<<topic "0:28:20" "... About IE ... TW5 should work with IE10+">>
+<<topic "0:29:10" "Julio- What's the difference between macros and widgets">>
+<<topic "0:29:50" "Mario- about the difference between macros and widgets.">>
+<<topic "0:31:50" "Stephan- macros are 'kind of a template'">>
+<<topic "0:32:10" "Jeremy- summs up the above">>
+<<topic "0:32:40" "Mario- about managing 'user specific' macros">>
+<<topic "0:33:10" "Jeremy- Proposal - about extending the MIME type of tiddlers to handle 'export/import' of macros.">>
+<<topic "0:37:10" "Jeremy- The goal is that ordinary users don't need to deal with widget syntax.">>
+<<topic "0:38:25" "Jeremy- Which macros are needed for 'users' .. 9">>
+<<topic "0:39:50" "Jeremy- shows the 'tab macro' code">>
+<<topic "0:41:03" "Jeremy- Summary about macros and widgets">>
+<<topic "0:42:30" "Jeremy- Macros should be 'self documenting'">>
+<<topic "0:44:15" "Jeremy- Moving to 'beta' ... how to do the 'core upgrade'">>
+<<topic "0:47:00" "Jeremy- The boot mechanism should be able to load 'external files'">>
+<<topic "0:49:00" "Jeremy- How to do the core upgrade with eg: npm, visit ..tw5/upgrade, download the upgrade mechanism TW, extend TiddlyFox possibilities.">>
+<<topic "0:52:20" "Jeremy- move to beta and TW5 will be the frontpage for tiddlywiki.com">>
+<<topic "1:04:45" "small talk, managing lists :)">>

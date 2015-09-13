@@ -1,0 +1,43 @@
+title: $:/ErwansLearningTW/Export a static HTML snapshot
+created: 20140805201858329
+creator: Erwan
+modified: 20140807123916906
+modifier: Erwan
+tags: ErwansLearningTW  question answered node.js
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Export a static HTML snapshot
+source-tiddler-title-as-link: Export%20a%20static%20HTML%20snapshot
+
+!! Save a snapshot from a tiddler in a standalone HTML TW
+
+Copy the following code in a tiddler; this will create a convenient button to generate a static HTML snapshot.
+
+```
+<$button message="tw-download-file" param="$:/core/templates/static.template.html" class="btn-big-green">Save snapshot {{$:/core/images/save-button}}</$button>
+```
+
+* Note: the resulting HTML file is "frozen": the links are broken and only the open tiddlers are visible. 
+
+!! With TW on Node.js
+
+* Note: the output is located in ``<TW-folder>/output`` by default. See command line help for more options.
+
+!!! Version 1: snapshot with individual tiddlers as distinct HTML pages
+
+```
+tiddlywiki <TW-folder> --rendertiddler $:/core/templates/static.template.html static.html text/plain --rendertiddler $:/core/templates/static.template.css static/static.css text/plain --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain
+```
+
+This command will create a static file ``static.html`` and individual HTML pages for every tiddler, in which the links between tiddlers work. However all other TW interactions are impossible of course. This means in particular that the set of open tiddlers is frozen. 
+
+!!! Version 2: all tiddlers in a single HTML page (with anchor links)
+
+```
+tiddlywiki <TW-folder> --rendertiddler $:/core/templates/alltiddlers.template.html alltiddlers.html text/plain
+```
+
+
+!! Sources 
+
+* https://groups.google.com/forum/#!searchin/tiddlywiki/export$20story$20as$20html/tiddlywiki/Oz__Wbtf918/Cs_wXdTLmGYJ
+* [[http://tiddlywiki.com/#Generating Static Sites with TiddlyWiki]]

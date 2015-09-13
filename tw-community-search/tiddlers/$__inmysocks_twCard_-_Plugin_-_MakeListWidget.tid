@@ -1,0 +1,30 @@
+title: $:/inmysocks/twCard - Plugin - MakeListWidget
+audience: 
+category: Widget
+created: 20150106175012859
+date: 22-06-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Matabele
+modified: 20150210031807901
+name: MakeListWidget
+plugin_tiddler: $:/plugins/matabele/makelist
+release: 
+repository: 
+revision: 0.0.2
+short_description: A widget that sets fields to the output of a filter
+wiki: http://gwiz.tiddlyspot.com/
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - MakeListWidget
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MakeListWidget
+
+The MakeList Widget traps WidgetMessage: tw-make-list dispatched within its child content by performing any or all of these actions:
+
+    *setting the value of a TextReference to the output of a filter expression
+    *setting a new value for the target tiddler
+    *passing on or sending a different widget message
+
+The widget may be used to set the value of a field to a list of titles selected with the specified filter expression.

@@ -1,0 +1,13 @@
+title: $:/tb5/$:/plugins/tiddlywiki/tw2parser
+authors: JeremyRuston, JeffreyWilkinson
+core-version: >=5.0.15
+dependents: 
+description: TiddlyWiki Classic-compatible wikitext parser
+version: 5.1.4
+tags: tb5 
+source-wiki-id: tb5
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/tw2parser
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2ftw2parser
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

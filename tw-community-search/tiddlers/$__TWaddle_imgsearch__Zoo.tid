@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Zoo
+created: 20150413130723108
+creator: Mat
+modified: 20150715203310504
+modifier: Mat
+note: Opens new tab when image clicked
+recent: 15/04/13	
+tags: TWaddle  imgsearch
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Zoo
+source-tiddler-title-as-link: imgsearch%3a%20Zoo
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="http://www.zoo.com/search/images?q="  
+  style="width: 100%; height: 350px; 
+             margin-top: -5px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

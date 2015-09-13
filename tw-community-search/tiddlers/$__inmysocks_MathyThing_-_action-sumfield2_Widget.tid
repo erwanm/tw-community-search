@@ -1,0 +1,33 @@
+title: $:/inmysocks/MathyThing - action-sumfield2 Widget
+created: 20150105235827981
+modified: 20150313011258279
+tags: inmysocks  [[MathyThing Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: MathyThing - action-sumfield2 Widget
+source-tiddler-title-as-link: MathyThing%20-%20action-sumfield2%20Widget
+
+This is part of the [[MathyThing Plugin]].
+
+Github: https://github.com/inmysocks/TW5-MathyThing
+
+Plugin: [[$:/plugins/inmysocks/MathyThing]]
+
+This widget takes a filter and in each tiddler returned by the filter takes the sum of two given fields and stores the result in a third field. If the filter returns a single tiddler than a tiddler for storing the result can be specified as well.
+
+Hopefully I will be able to extend this to an arbitrary number of fields in the future, but for now you are limited to two fields.
+
+Usage:
+
+```
+<$sumfield2 $filter=<<someFilter>> $sumfield='sum_field' $sumfield2='sum_field2' $tiddler=someTiddler $storefield='store_field'/>
+```
+
+|!Attribute |!Description |
+|$filter |The filter that returns the tiddlers with the fields to sum |
+|$sumfield |The name of the first field field to sum |
+|$sumfield2 |The name of the second field field to sum |
+|$tiddler | (optional) The name of the tiddler in which to store the output |
+|$storefield |The name of the field in which to store the output |
+|$defaultvalue |The value to return if the output has an invalid value, or if the filter returns no tiddlers |
+
+<<tiddlerSlider "MathyThing - action-sumfield2 Widget Example">>

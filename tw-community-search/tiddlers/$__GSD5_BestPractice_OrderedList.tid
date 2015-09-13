@@ -1,0 +1,7 @@
+title: $:/GSD5/BestPractice OrderedList
+tags: GSD5 
+source-wiki-id: GSD5
+source-tiddler-title-as-text: BestPractice OrderedList
+source-tiddler-title-as-link: BestPractice%20OrderedList
+
+Ordering of control rendering can be done through creating a ordered list using the tag as the title.  However, this can be overwritten by other plugins.  Do not depend on controls maintaining order.

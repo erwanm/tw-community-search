@@ -1,0 +1,12 @@
+title: $:/dev/SectionsPlugin
+created: 20141125234214117
+creator: Tobias Beer
+modified: 20141125234237234
+modifier: Tobias Beer
+url: http://sections.tiddlyspot.com
+tags: dev  Plugin
+source-wiki-id: dev
+source-tiddler-title-as-text: SectionsPlugin
+source-tiddler-title-as-link: SectionsPlugin
+
+port ~SectionLinkPlugin to tw5

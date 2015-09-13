@@ -1,0 +1,12 @@
+title: $:/inmysocks/There is no linebreak between the selecte subsubcategory and select tag when a subsubcategory is selected
+category: Plugin
+description: It should just be a matter of adding a `<br>`
+modified: 20150503163948717
+subcategory: Category Lists
+subsubcategory: Bugs
+tags: inmysocks  [[Planned Update]] [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: There is no linebreak between the selecte subsubcategory and select tag when a subsubcategory is selected
+source-tiddler-title-as-link: There%20is%20no%20linebreak%20between%20the%20selecte%20subsubcategory%20and%20select%20tag%20when%20a%20subsubcategory%20is%20selected
+
+Not a big deal

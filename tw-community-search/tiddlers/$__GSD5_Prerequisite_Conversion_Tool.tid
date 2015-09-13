@@ -1,0 +1,24 @@
+title: $:/GSD5/Prerequisite Conversion Tool
+tags: GSD5  tools
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Prerequisite Conversion Tool
+source-tiddler-title-as-link: Prerequisite%20Conversion%20Tool
+
+The change from [[version 0.5-beta|v0.5-beta]] to [[version 0.6-beta|v0.6-beta]] resulted in change on how dependent Actions are implemented.  The change involves a name change from gsd_prereq to gsd_action; this is a result from implementing an on-the-fly tiddler creation feature.  This change renders Actions that are dependent on other Actions non-working in version 0.5beta.  This tool should make the transition automated as possible.
+
+Click the `Convert Field` button below and your fields will be updated to the current schema for GSD5. Once your fields have been updated, delete this tiddler.
+
+//Note:// This tool will only convert the `gsd_prereq` fields that currently in use.  
+
+''Tiddlers Needing Conversion''
+
+---
+
+<$list filter="[has[gsd_prereq]]">
+<$view field="title"/>
+<$button>
+<$action-setfield $field="gsd_action" $value={{!!gsd_prereq}}/>
+<$action-deletefield gsd_prereq/>
+Convert Field
+</$button><br/>
+</$list>

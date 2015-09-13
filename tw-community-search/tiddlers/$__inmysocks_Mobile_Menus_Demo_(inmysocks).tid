@@ -1,0 +1,18 @@
+title: $:/inmysocks/Mobile Menus Demo (inmysocks)
+caption: Mobile app menus
+category: Example Wiki
+created: 20150421045757679
+description: Macros to make menus like those on moblie apps
+modified: 20150421045955360
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/Text%20Menus/
+tags: inmysocks  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Mobile Menus Demo (inmysocks)
+source-tiddler-title-as-link: Mobile%20Menus%20Demo%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

@@ -1,0 +1,60 @@
+title: $:/TWHangouts/HangOut_008
+created: 20150119023047815
+modified: 20150119023142190
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_008
+source-tiddler-title-as-link: HangOut_008
+
+2013-08-06 - [[YouTube|https://www.youtube.com/watch?v=a0UZfd48Ixc]]
+
+"""
+0:00:00 attendees introduction (ltr: Craig, Eric, Jeremy, Mario, (Marty later on), Scott)
+0:01:20 mario/jeremy - tiddlyweb and TW5 with "tiddlyweb at home - new possibility" (techie stuff :)
+0:03:03 jeremy - demoes, whats possible atm. TW5 with tiddlyspace. TW polls for server updates every now and than.
+0:11:27 TW5 is lazy loading the tiddlers, so search works for tiddler titles ...
+0:11:55 mario - wants to ship TW5 with "tweb at home" with vagrant
+0:14:05 mario/jeremy - about TW5, nodejs and heroku
+0:16:00 mario - is it possible to split TW5 into different files. eg: core, themes ...
+0:18:49 jeremy/mario about tw5, native tiddlyweb, vagrant, virtualbox, pro and cons
+0:21:40 erics clinik
+0:22:00 jeremy - question about splitting tiddlytools into individual tiddlers.
+0:22:30 erics response - tiddlytools, github, status, tiddlytools internal structure.
+0:25:50 eric elements that are "aged out", elements that can be fixed: eg. file drop plugin ...
+0:27:29 ... fix import tiddlers plugin ...
+0:32:00 jeremy - good to see that eric works on TWclassic and TW5
+0:32:35 eric - "TWclassic needs to remain viable for several years"!
+0:33:00 eric - about the migration story.
+0:37:20 jeremy - about dave's experiences, working with very large TW5 files. (~80MB)
+0:39:35 scott/jeremy/eric - question about file size issue and embeded images
+0:42:07 about base64 encoded tiddlers ...
+0:44:45 eric/scott - about base64 tiddlers and TWclassic (AttachFilePlugin)
+0:53:09 jeremy - about daves 80MB TW5 .. "how far can we go with embedded multimedia in TW5", embedding videos
+0:55:50 eric - idea about detaching tiddlers and security implications ...
+0:58:05 jeremy - TW5 as a "multipurpose, multimedia scrap book"
+0:59:27 eric - presentations, slideshow ... display order?
+1:02:30 jeremy - ideas about TW5 edit, display possibilities and sorting ...
+1:07:10 jeremy - TW5 story list
+1:08:35 jeremy - "card sorting" with drag and drop
+1:09:05 eric - (lisp) and lists and TW content representation
+1:10:25 jeremy - about ZigZag structure xanadu (dot) com/zigzag/
+1:12:44 eric - "interesting aspects of TW in general" ... "discovery"
+1:14:10 jeremy - "capturing needs to be super smooth"
+1:14:42 mario - TWclassic has "secions and slices" what's about TW5
+1:16:16 jeremy - response
+1:17:44 eric - background info about "slice, section" in TWclassic
+1:19:25 jeremy - with TW5, writing back to slices would be possible
+1:20:45 mario - usecase for content splitting and aggregation
+1:21:50 jeremy - either invest in "intra-tiddler handling" or "aggregating and composing" small tiddlers
+1:24:53 scott/jeremy - a users perspective about content "re-organisation"
+1:25:50 mario/jeremy - mario would like a "data tiddler plugin" functionality done with sections and slices.
+1:27:00 mario shows a usecase ... (codemirror plugin config tiddler)
+1:30:20 jeremy - want's to be able to "edit transclusions" - edit in place
+1:30:50 jeremy - ideas for "editor add ons" ... "magic editing"
+1:32:12 eric - responds to the above
+1:33:50 scott - uses TW like ervernote. accumulating information. discribes his usecase.
+1:35:51 jeremy - shows TW5 json tiddlers
+1:38:10 craig - what's the difference between JSON and XML?
+1:40:10 craig/jeremy - displaying "external information" in realtime ...
+1:43:15 jeremy - shows IFTTT - it's awsome
+1:44:50 Bye! Bye!

@@ -1,0 +1,16 @@
+title: $:/filters/custom fields
+caption: custom
+created: 20150107200528125
+creator: Tobias Beer
+filter: [all[tiddlers]fields[]sort[title]] -[all[shadows]removeprefix[$:/language/Docs/Fields/]]
+modified: 20150122171800228
+modifier: Tobias Beer
+summary: all custom fields that are not [[part of the TiddlyWiki core|all core fields]] (not documented)
+tags: filters  removeprefix Filters Variable tiddlers fields shadows all Fields
+source-wiki-id: filters
+source-tiddler-title-as-text: custom fields
+source-tiddler-title-as-link: custom%20fields
+
+{{$:/.tb/template/fields-non-standard}}
+
+Rendered via <<source "$:/.tb/template/fields-non-standard">>

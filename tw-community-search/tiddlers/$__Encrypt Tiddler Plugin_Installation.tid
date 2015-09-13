@@ -1,0 +1,13 @@
+title: $:/Encrypt Tiddler Plugin/Installation
+created: 20150404110553072
+modified: 20150404110618430
+revision: 0
+type: text/vnd.tiddlywiki
+tags: Encrypt Tiddler Plugin 
+source-wiki-id: Encrypt Tiddler Plugin
+source-tiddler-title-as-text: Installation
+source-tiddler-title-as-link: Installation
+
+Just drag and drop the following ling to your tiddlywiki:
+
+[[$:/plugins/danielo/encryptTiddler]]

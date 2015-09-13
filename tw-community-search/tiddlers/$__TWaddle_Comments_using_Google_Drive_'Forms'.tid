@@ -1,0 +1,18 @@
+title: $:/TWaddle/Comments using Google Drive 'Forms'
+created: 20150727232039014
+creator: Mat
+modified: 20150727235322753
+modifier: Mat
+recent: 15/07/28
+tags: TWaddle  Tidbit Major
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Comments using Google Drive 'Forms'
+source-tiddler-title-as-link: Comments%20using%20Google%20Drive%20%27Forms%27
+
+I will give a detailed explanation for how to can set up a commenting system like I have but for now this overview is all there is (but do feel free to snoop around):
+
+*The thing is based on Google Drive //Forms//. You need a common Google account to use this (if you have a gmail address, then you have a google account). The commenter (//commenteur//?) does //not// have to have any account or register for anything.
+*Google Drive features //forms// which are "questionnaires" that you can put up on the web and set access rights to. The killer is that the answers people fill in for one such public form are all automatically collected into a standard Excel-type spreadsheet in your Google Drive. Really a fantastic service from Google.
+*So, in the commenting system here, what you see is an //iframed// such form. But the iframe is cut down to only display the "answer field" for a single question. This can be found in [[$:/_TWaddle/Buttons/Comment]], which is a remade "more" toolbar button.
+*The iframe takes the current tiddler title as part of its src, so the comment really is tiddler specific and I get this info in that spreadsheet summary.
+

@@ -1,0 +1,29 @@
+title: $:/LibreNotes/LesWikis
+created: 20150614195327708
+modified: 20150711161826248
+tags: LibreNotes 
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: LesWikis
+source-tiddler-title-as-link: LesWikis
+
+<table class="invisibletable">
+<tr>
+<td valign="center">
+<div style="font-size:0.6em;">
+<$link to="LinuxNotes"></$link>
+<$button class="tc-btn-big-green" style="background-color:#474747;" tooltip='Les Wikis'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[LinuxNotes]]
+[[TiddlyNotes]]
+[[GitNotes]]"/>
+<$action-navigate $to="LinuxNotes" $scroll="yes"/>
+<i class="fa fa-flask"></i> Les Wikis
+</$button>
+</div>
+<div style="font-size:75%;text-align:center; color:#D4D4D4; margin-top:1em;">
+~LibreNotes regroupe une collection de wikis sur les logiciels libres.
+</div>
+</td>
+
+<td valign="center">
+[img width="320" align='left' [icone_log.png]]

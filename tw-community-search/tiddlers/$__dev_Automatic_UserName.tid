@@ -1,0 +1,25 @@
+title: $:/dev/Automatic UserName
+created: 20150128022534220
+creator: Tobias Beer
+modified: 20150128022539979
+modifier: Tobias Beer
+tags: dev  Collaboration
+source-wiki-id: dev
+source-tiddler-title-as-text: Automatic UserName
+source-tiddler-title-as-link: Automatic%20UserName
+
+<<<
+I don't know if it might be helpful, but in TWC with Internet Explorer in Windows I figured out how to automatically set it using [[ActiveXObject("WScript.Network");|http://bit.ly/1y3I4D6]]
+— [[Andrew|https://groups.google.com/d/msg/tiddlywiki/mip6gql_VVU/rVsCjOaM_AcJ]]
+<<<
+
+```
+var ax = new ActiveXObject("WScript.Network");
+merge(config.options,{
+     txtUserName: ax.UserName});
+var sys = new ActiveXObject("ADSysteminfo");
+var username = sys.UserName;
+var CN = username.split(" ");
+config.options.txtSurName = CN[1];
+config.options.txtSurID = CN[3].substring(0,7);
+```

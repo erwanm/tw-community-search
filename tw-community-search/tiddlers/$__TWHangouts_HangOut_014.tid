@@ -1,0 +1,63 @@
+title: $:/TWHangouts/HangOut_014
+created: 20150119001119212
+modified: 20150119001255596
+tags: TWHangouts  http://hangouts.tiddlyspace.com/ License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_014
+source-tiddler-title-as-link: HangOut_014
+
+2013-09-25 - [[YouTube|http://www.youtube.com/watch?v=kraMtDEiu7Y]]
+
+"""
+0:00:00 Intro: fltr: David Johnston, Eric Shulman (later), Jeremy Ruston, Kamil Jellonek, Mario Pietsch, Tobias Beer
+0:02:10 Jeremy- about Kamil's usecase for documentation and images.
+0:02:59 Kamil- introduces his usecase. Creating / Editing - User Guides, ...
+0:04:15 Jeremy- screenshare. "Tiddlymanuals" project ...
+0:08:00 Jeremy- Ambit basic manual
+0:11:15 Jeremy- create screenshot tiddlers with TW5
+0:14:05 Kamil- about the desired workflow
+0:16:40 Jeremy- the benefit of tiddler images / images as tiddlers.
+0:17:10 Jeremy- about TW "mental model"
+0:21:20 Hello: Eric Shulman
+0:21:30 Jeremy- What is TiddlyWiki.
+0:23:15 Jeremy- What does the audience think?
+0:23:20 David/Jeremy- short summary about the possible workflow.
+0:25:30 Kamil's feedback ... Mario's concerns about picture size.
+0:28:34 Eric- about image handling / including in TWc.
+0:30:40 Jeremy- TW client/server mode flexibility
+0:33:05 Eric- comparing TW "modes" ...
+0:36:00 Kamil- "understanding summary"
+0:36:45 Jeremy- optimizing images and TW (size) limits
+0:37:55 Kamil- How to notify users about eg: "TW usage hints"?
+0:39:30 Eric- ...a TW "notification bar" and message logging.
+0:43:20 Tobias- shares some of his latest spaces, plugins, ...
+0:43:45 customize (dot) tiddlyspace (dot) com ... "all stuff TiddlyWiki"
+0:49:15 .. how a plugin space should look like.
+0:49:35 Mario- How do you keep the customize up to date?
+0:51:45 tiddlywiki (dot) org ... "How TiddlyWiki Works"
+0:52:34 scripts (dot) tiddlyspace (dog) com ... code snippest
+0:53:20 the "white theme flavors" ... white (dot) tiddlyspace (dot) com
+0:55:40 untagged (dot) tiddlyspace (dot) com
+0:57:14 pagr (dot) tiddlyspace (dot) com
+1:00:04 listfiltr (dot) tiddlyspace (dot) com
+1:02:00 tagfiltr (dot) tiddlyspace (dot) com
+1:05:20 Mario- has a problem with "hiding information" with eg: the tag "no-tag"
+1:06:33 filtr (dot) tiddlyspace (dot) com
+1:09:45 Jeremy- short summary (praise the work!)
+1:11:00 David- "hobby related" questions ... RPG
+1:12:00 David- creating seeded, "real random numbers"
+1:14:48 David- shares his RPG work.
+1:19:30 David- shares the "randomize" code.
+1:25:05 David- "slider input range" and "number line" (touch optimized)
+1:29:00 David- modify a tiddler "on save" - UUIDs
+1:35:20 David- How to "hook" into the save mechanism?
+1:39:57 Mario- Is the "in place editing" a possibility?
+1:41:50 Jeremy- ... how to solve the "original problem".
+1:44:12 discussion about the "number line"
+1:46:50 Jeremy- about "web components spec" ... polymer ... x-tags
+1:48:25 some code refactoring
+1:50:25 plugins may be on github
+1:54:00 Jeremy- "his take away's"
+1:54:30 Jeremy- about refactoring the rendering tree code
+1:57:20 Mario- some elements have "hardcoded styles" ..
+1:59:58 Bye! Bye!

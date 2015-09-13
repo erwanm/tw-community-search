@@ -1,0 +1,26 @@
+title: $:/t5a/zTXt
+created: 20150317024720222
+creator: Andrew Harrison
+modified: 20150819035218043
+modifier: Andrew Harrison
+tags: t5a  New [[Under construction]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: zTXt
+source-tiddler-title-as-link: zTXt
+
+{{Under construction}}&emsp;&emsp;This button will compress text into a blob with duplicate words and spaces removed. When used with Tiddly Viewer, the text from the external page can be searchable within the wiki while conserving file size.<br>
+&emsp;&emsp;I'm working on a button for the edit template and exploring options like Stephan's bookmarklets at: http://tw5magick.tiddlyspot.com/.<br>
+&emsp;&emsp;For now my procedure will be:<br>
+1. Copy any text from external file.<br>
+2. Paste into ztxt and compress.<br>
+3. It removes all punctuation and duplicate words and spaces.<br>
+4. Copy the compressed ztxt text blob and paste into a new tiddler inside comment marks &#60;!&#45;- and &#45;-&#62;.<br>
+5. Add tiddly field set to the path of the file.<br>
+5. TA DA! after alot of adding external files and pages, I have a thousand+ external indexed files that are searchable, viewable, compressed, but still TW5 is fast.
+
+&emsp;&emsp;There are still problems with my work flow such as dead links and loosing some indexing when the external files change. It would be cool if there was a drag and drop method. As always, any suggestions are welcome.
+
+<$button param={{$:/temp/zTXt}} message="tm-ztxt">
+Compress</$button>
+
+<$edit field="text" class="tc-edit-texteditor" tiddler="$:/temp/zTXt" />

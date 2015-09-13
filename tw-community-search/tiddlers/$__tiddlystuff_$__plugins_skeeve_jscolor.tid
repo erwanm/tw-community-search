@@ -1,0 +1,16 @@
+title: $:/tiddlystuff/$:/plugins/skeeve/jscolor
+created: 20140410053447764
+creator: Stephan Hradek
+dependents: 
+description: jscolor plugin
+modified: 20140410053447764
+modifier: Stephan Hradek
+revision: 0
+version: 0.1.0
+tags: tiddlystuff 
+source-wiki-id: tiddlystuff
+source-tiddler-title-as-text: $:/plugins/skeeve/jscolor
+source-tiddler-title-as-link: %24%3a%2fplugins%2fskeeve%2fjscolor
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

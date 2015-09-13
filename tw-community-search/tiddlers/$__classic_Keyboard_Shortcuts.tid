@@ -1,0 +1,33 @@
+title: $:/classic/Keyboard Shortcuts
+created: 20141126120746819
+creator: Tobias Beer
+modified: 20141126124203758
+modifier: Tobias Beer
+tags: classic  Usability
+source-wiki-id: classic
+source-tiddler-title-as-text: Keyboard Shortcuts
+source-tiddler-title-as-link: Keyboard%20Shortcuts
+
+!!TW5
+| !Context | !Action | !Shortcut | !Details |
+|editing|save tiddler|~Ctrl-Enter|for Macs: Ctrl => Cmd|
+|editing|cancel|Esc|leave edit-mode|
+|search|clear|Esc|clears the search term|
+
+!!TWC
+
+See http://tiddlywiki.org/#AccessKeys:
+
+| !Context | !Action | !Shortcut | !Details |
+|editing|save tiddler|~Ctrl-Enter|for Macs: Ctrl => Cmd|
+|editing|minor change|~Shift-Ctrl-Enter|does not update modified timestamp|
+|editing|cancel|Esc|leave edit-mode|
+|search|clear|Esc|clears the search term|
+
+Some core macros define [[access keys|http://en.wikipedia.org/wiki/Access_key]], whose invocation is browser-specific:
+
+| !Action | !PC | !Mac |h
+|search|SHIFT+ALT+F| CTRL+F|
+|saveChanges|SHIFT+ALT+S| CTRL+S|
+|newTiddler|SHIFT+ALT+N| CTRL+N|
+|newJournal|SHIFT+ALT+J| CTRL+J|

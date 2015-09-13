@@ -1,0 +1,12 @@
+title: $:/inmysocks/Example Stylesheet
+created: 20150427000218009
+modified: 20150427000314061
+type: text/css
+tags: inmysocks  [[Modifying CSS]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Example Stylesheet
+source-tiddler-title-as-link: Example%20Stylesheet
+
+.stylesheet-example-blue {
+    color:blue;
+}

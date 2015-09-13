@@ -1,0 +1,14 @@
+title: $:/TWaddle/GenericEditor
+created: 20150403090807839
+creator: Mat
+modified: 20150715204424890
+modifier: Mat
+note: Easy access editor used under Tools tab
+recent: 15/04/03	
+tags: TWaddle  TWaddle
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: GenericEditor
+source-tiddler-title-as-link: GenericEditor
+
+<$edit tiddler="GenericEditorTitle" field="titletoedit" class="tc-edit-texteditor" /><br>
+<$edit field="text" class="tc-edit-texteditor" tiddler={{GenericEditorTitle!!titletoedit}} />

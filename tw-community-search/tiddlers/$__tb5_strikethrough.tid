@@ -1,0 +1,17 @@
+title: $:/tb5/strikethrough
+created: 20141203171951807
+creator: Tobias Beer
+modified: 20141203172120482
+modifier: Tobias Beer
+tags: tb5  Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: strikethrough
+source-tiddler-title-as-link: strikethrough
+
+<dt>
+
+```
+~~strikethrough~~
+```
+</dt>
+<dd>~~strikethrough~~</dd>

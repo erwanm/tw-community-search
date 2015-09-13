@@ -1,0 +1,47 @@
+title: $:/TWHangouts/HangOut_015
+created: 20150118220151845
+modified: 20150118234456736
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_015
+source-tiddler-title-as-link: HangOut_015
+
+2013-10-01 - [[YouTube|http://www.youtube.com/watch?v=DZiU4uSGFnQ]]
+
+"""
+0:00:00 Intro: fltr: David Gifford, David Johnston, Jeremy Ruston, Eric Shulman (had a short look), Kamil Jellonek (later), Keith Bruckner, Mario Pietsch
+0:03:38 Dave/Dave- smalltalk
+0:04:20 Jeremy- shows "Tiddlers on the Web" presentation from Ben Paddock
+0:05:55 Dave J.- shows his additional filters
++- 0:07:03 "list next" - filter add on
++- 0:08:40 "previous" list filter
++- 0:10:20 "before" ...
++- 0:12:10 ... some info about "limit bug"
++- 0:13:10 "before plus limit 1"
++- 0:13:45 "after" -> "!before"
++- 0:14:25 now combining the possibilities
++- 0:15:20 "position" filter
++- 0:15:45 "numberof"
++- 0:17:05 "real world" examples ...
++- 0:18:30 "real world usecase" as a macro
+0:21:20 Jeremy- comments on Dave's filters (some audio problems)
+0:24:55 David G.- expresses his ideas for some more "new filters" :)
+0:26:58 David G./DJ- is there a way to convert DJ's filters to "pills" similar to tags? ... some more usecases ...
+0:30:40 Jeremy- Do you intend to create "hirarchy lists"
+0:31:42 Jeremy- What about the filter API (filters may be able to take multiple parameters)
+0:32:40 Jeremy- (autio problems) ... Hangout broken 10sec
+0:33:30 Dave J./Jeremy- more filter info for Dave G.
+0:34:33 David G.- Page numbers and printing?
+0:37:00 Jeremy- about code refactoring going on, to clean up the rendered DOM
+0:38:00 ... audio problems for 2:20min ... Jeremy
+0:40:40 some smalltalk
+0:41:10 Dave G.- shares some info about a discussion with Jeremy
+0:43:30 Dave J./Dave G.- shows the "fly out" nav bar (hangout 14 contains some more info)
+0:47:10 Dave G./Jeremy- about "non hirarchical related lists"
+0:49:13 Dave J./Jeremy- discussion about "filter syntax and programming"
+0:52:15 Mario- questions ... about "word count" - "character count" ... plugin ... (low level stuff)
+1:00:00 Jeremy- hints about, how to create the "word count" widget. plus some low level background info for parsing and rendering.
+1:12:00 Jeremy's- computer crashed ... :/
+1:12:50 Jeremy- audio only ... real crash
+1:13:45 David J./Mario .. smalltalk
+1:14:50 ... hangout broken ... 

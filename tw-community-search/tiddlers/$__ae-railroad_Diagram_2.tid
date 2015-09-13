@@ -1,0 +1,13 @@
+title: $:/ae-railroad/Diagram 2
+created: 20150119221000943
+modified: 20150119221111577
+type: text/vnd.tiddlywiki.railroad
+tags: ae-railroad 
+source-wiki-id: ae-railroad
+source-tiddler-title-as-text: Diagram 2
+source-tiddler-title-as-link: Diagram%202
+
+\arrow no
+\start none
+\end double
+[:optional] {(him | "her" | :them) +","}

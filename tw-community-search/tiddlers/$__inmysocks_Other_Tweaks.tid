@@ -1,0 +1,12 @@
+title: $:/inmysocks/Other Tweaks
+created: 20150124133255599
+creator: inmysocks
+modified: 20150130004141800
+modifier: inmysocks
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Other Tweaks
+source-tiddler-title-as-link: Other%20Tweaks
+
+<$checkbox tiddler='Black Line' tag='$:/tags/ViewTemplate'>Show Horizontal Rule Under Tiddler Titles</$checkbox><br>
+<$checkbox tiddler='$:/core/ui/PageTemplate/sidebar' tag='$:/tags/PageTemplate'>Toggle Old Sidebar</$checkbox> (This only hides the menu, it doesn't change the size of the tiddlers)

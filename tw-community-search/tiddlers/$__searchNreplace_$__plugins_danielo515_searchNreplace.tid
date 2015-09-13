@@ -1,0 +1,15 @@
+title: $:/searchNreplace/$:/plugins/danielo515/searchNreplace
+author: Danielo Rodriguez Rivero
+core-version: >=5.1.4
+dependents: 
+description: searchNreplace for TiddlyWiki
+list: readme
+revision: 0
+version: 1.2
+tags: searchNreplace 
+source-wiki-id: searchNreplace
+source-tiddler-title-as-text: $:/plugins/danielo515/searchNreplace
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2fsearchNreplace
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

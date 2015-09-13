@@ -1,0 +1,50 @@
+title: $:/GSD5/gsd5-list
+tags: GSD5  GSD5Macros
+source-wiki-id: GSD5
+source-tiddler-title-as-text: gsd5-list
+source-tiddler-title-as-link: gsd5-list
+
+The GSD5 List Macro unifies previous list macros under a single macro that creates a titled list of desired gsd_type with several desired options.
+
+|>|>| !gsd5-list |
+| !Field | !Values | !Note |
+|title |<span style="font-style:italic">user-defined</span> | |
+|gsd_type |action |<span style="font-style:italic">Default</span> |
+|~|project | |
+|~|contact | |
+|~|reference | |
+|~|context | |
+|~|realm | |
+|gsd_status |next |<span style="font-style:italic">Default; Action Only</span> |
+|~|waiting |<span style="font-style:italic">Action Only</span> |
+|~|future |<span style="font-style:italic">Action and Project</span> |
+|~|active |<span style="font-style:italic">Project Only</span> |
+|~|none |<span style="font-style:italic">Ignores value of gsd_status</span> |
+|gsd_complete |false |<span style="font-style:italic">Default</span> |
+|~|true |Ignores the value of gsd_status. |
+|realmAware |false |<span style="font-style:italic">Default</span> |
+|~|true | |
+|sort |title |<span style="font-style:italic">Default</span> |
+|~|<span style="font-style:italic">user-defined</span> | |
+|order |ascending |<span style="font-style:italic">Default</span> |
+|~|descending | |
+|groupBy |none |<span style="font-style:italic">Default; no grouping</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is a tiddler field.</span> |
+|customFilter |none |<span style="font-style:italic">Default; no custom filter applied.</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Filter operands appended to gsd_type filtering. No outside brackets.</span> |
+|dateTemplate |DDth MMM YYYY |<span style="font-style:italic">Default</span> |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">String conforming to ~TiddlyWiki <a href="http://tiddlywiki.com/#DateFormat">date template syntax</a>.</span> |
+
+!! Examples
+
+Show Completed Projects
+
+```
+<<gsd5-list title:"Completed Projects" gsd_type:"project" gsd_complete:"true" realmAware:"true" sort:"title" order:"ascending" groupBy:"none" customFilter:"none">>
+```
+
+Show Waiting Actions By Contact
+
+```
+<<gsd5-list title:"Delegated Actions By Contact" gsd_type:"action" gsd_status:"waiting" gsd_complete:"false" realmAware:"true" sort:"title" order:"ascending" groupBy:"gsd_contact" customFilter:"none">>
+```

@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Dogpile
+created: 20150413124343962
+creator: Mat
+modified: 20150715203320302
+modifier: Mat
+note: Opens new tab when image selected
+recent: 15/04/13	
+tags: TWaddle  imgsearch
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Dogpile
+source-tiddler-title-as-link: imgsearch%3a%20Dogpile
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="http://www.dogpile.com/?qc=images"  
+  style="width: 100%; height: 350px; 
+             margin-top: -5px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

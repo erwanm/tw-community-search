@@ -1,0 +1,15 @@
+title: $:/TonGernerPlayground/Bluish theme
+caption: Bluish
+created: 20150719185602942
+creator: TonGerner
+modified: 20150719190431126
+modifier: TonGerner
+tags: TonGernerPlayground  plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Bluish theme
+source-tiddler-title-as-link: Bluish%20theme
+
+!!!Bluish theme  v<<tversion "bluish">>
+[[$:/themes/tongerner/bluish]].
+
+A theme with mainly bluish colors (as used here).

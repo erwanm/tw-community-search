@@ -1,0 +1,23 @@
+title: $:/inmysocks/Tiddlers With Tabs
+created: 20140913182058912
+creator: inmysocks
+modified: 20150227234229905
+modifier: inmysocks
+tags: inmysocks  [[Wiki Widgets - buttons, filters, etc.]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Tiddlers With Tabs
+source-tiddler-title-as-link: Tiddlers%20With%20Tabs
+
+To create tabs inside a single tiddler you use this code
+
+```
+<<tabs "[[GettingStarted]] [[What to do]] [[Help]]" "[[Help]]">>
+```
+
+Which displays as
+<<tabs "[[GettingStarted]] [[What to do]] [[Help]]" "[[Help]]">>
+
+
+Each tab shows the contents of a tiddler, the first 3 thing are the names of the tiddlers that are displayed in each tab, you can add more than 3. The last one in the default tab, so when you open the tiddler that tab is being displayed.
+
+<<bottomOfTiddler {{!!title}}>>

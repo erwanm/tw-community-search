@@ -1,0 +1,14 @@
+title: $:/TWHangouts/TiddlyClip
+created: 20141217203549318
+modified: 20141217203947144
+tags: TWHangouts 
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyClip
+source-tiddler-title-as-link: TiddlyClip
+
+!!The Basics of TiddlyClip
+
+Tiddlyclip (TC) allows parts of webpages to be clipped into a tiddlywiki (TW), and consists of two parts, the browser Addon and the TW plugin. The Addon is completely memoryless, any configuration is determined by the current TW that the user has select to work with (we say that the Addon is docked to the TW). TC is designed to work (in a basic mode) without configuration. Once the Addon and plugin are installed, all the user has to do is select which TW to dock to.
+
+[[TiddlyClip Website|http://tiddlyclip.tiddlyspot.com/]]
+"""

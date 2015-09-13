@@ -1,0 +1,18 @@
+title: $:/dev/IterateWidget
+created: 20150217114732822
+creator: Tobias Beer
+modified: 20150217114847910
+modifier: Tobias Beer
+url: https://github.com/Jermolene/TiddlyWiki5/pull/1330#issuecomment-74655932
+tags: dev  Plugin
+source-wiki-id: dev
+source-tiddler-title-as-text: IterateWidget
+source-tiddler-title-as-link: IterateWidget
+
+; implements list iterator variables
+: <<git5 issues/1330>>
+
+* standalone "iterate" widget
+* feature-set it begs for
+* required refresh logic
+* format to publish

@@ -1,0 +1,15 @@
+title: $:/gWiZ/$:/plugins/matabele/maketid
+created: 20140527061814888
+creator: Matabele
+dependents: 
+description: Contains the <$maketid> widget
+modified: 20140527062711484
+modifier: Matabele
+version: 0.0.4
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: $:/plugins/matabele/maketid
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fmaketid
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

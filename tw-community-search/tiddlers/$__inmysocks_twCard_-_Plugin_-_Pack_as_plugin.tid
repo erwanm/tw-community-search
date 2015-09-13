@@ -1,0 +1,26 @@
+title: $:/inmysocks/twCard - Plugin - Pack as plugin
+audience: 
+category: Utility
+created: 20150106175012859
+date: 19-04-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Danielo Rodriguez
+modified: 20150210030247627
+name: Pack as plugin
+plugin_tiddler: $:/plugins/danielo/packPlugin
+release: 
+repository: 
+revision: 0.0.1
+short_description: Pack tiddlers as plugnis
+wiki: http://braintest.tiddlyspot.com/
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Pack as plugin
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Pack%20as%20plugin
+
+Yes, a plugin to pack tiddlers as plugins. This is a a beta test for early adopt. There is not very good documentation because it was for personal use. But I think that some other people could find it useful.
+
+If you don't know what is this for, the you don't need it.

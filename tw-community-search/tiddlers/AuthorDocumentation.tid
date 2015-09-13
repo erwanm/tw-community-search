@@ -1,0 +1,26 @@
+color: #1cc975
+created: 20150131144602353
+modified: 20150913002354942
+tags: TWCSCore TWCSDocumentation
+title: AuthorDocumentation
+type: text/vnd.tiddlywiki
+
+
+If you are a wiki author, please consider registering your wiki! 
+
+* About [[Author's consent]]
+* Please read [[Why your content is well taken care of!]] if you are worried about your content not being displayed as you intended it to be.
+
+! Features
+
+In order to make the process as automatized as possible, the following features allow the wiki author to control several aspects of the indexing:
+
+<ul>
+<$list filter="[tag[AuthorDocumentation]has[description]]">
+  <li>
+    <$link><$view field="title"/></$link>:
+    <$view field="description"/> 
+  <br/>
+  </li>
+</$list>
+</ul>

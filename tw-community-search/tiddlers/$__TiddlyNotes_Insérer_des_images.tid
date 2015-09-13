@@ -1,0 +1,61 @@
+title: $:/TiddlyNotes/Insérer des images
+created: 20150129155739992
+modified: 20150226105840782
+tags: TiddlyNotes  Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Insérer des images
+source-tiddler-title-as-link: Insérer%20des%20images
+
+Vous pouvez importer des images directement dans votre ~TiddlyWiki par glissé-déposé ce qui va créer un tiddler de l'image que vous pourrez insérer facilement. Cependant, cela alourdi votre fichier source. Il vaut donc mieux privilégier les images externes.
+
+La syntaxe de base est:
+
+```
+[img[image.jpg]] (image interne)
+[img[chemin-de-l-image/image.png]] (image externe)
+```
+
+!!Image externe, redimensionnée
+
+```
+[img width="taille-en-pixels" [tooltip-de-l'image|chemin-de-l-image/image.png]]
+```
+
+[img width="128" [TiddlyWiki cat|https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png]]
+
+!!Image cliquable
+
+```
+<a href="chemin-de-l-image/image.png" target="_blank"><img src="chemin-de-l-image/image.png" width="taille-en-pixels" align='position'></a>
+```
+
+<a href="https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png" width="128" align='left'></a>
+<br><br><br><br><br><br>
+
+!!!Avec une syntaxe ~WikiText
+
+```
+<a href="chemin-de-l-image/image.png" target="_blank">[img width="taille-en-pixels" [tooltip-de-l-image|chemin-de-l-image/image.png]]</a>
+```
+
+﻿﻿<a href="https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png " target="_blank">[img width=128  [TiddlyWiki cat|https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png]]</a>
+
+!!Image cliquable affichée dans une Lightbox
+
+#Installation: http://ibox.tiddlyspot.com/#Installation
+#Importer l'image par glisser-déposé dans votre TW (pas dans un tiddler mais directement).
+#Spécifier le type d'image (ex: `image/png`), vous pouvez aussi ajouter une légende en ajoutant un champ `caption`.
+#Pour afficher la miniature ajoutez le code:
+```
+<<ibox image.png>>
+```
+
+!!!ibox avec image externe
+
+```
+<<ibox "chemin-de-l-image/image.png" "nom-affiché-dans-la-lightbox">>
+```
+
+<<ibox "https://data.eu1.younitedcontent.com/v2/data/share%3A35e18523-2911-fac8-4a3d-c841f7726c93/files/tiddlywiki.png" "~TiddlyWiki cat">>
+
+

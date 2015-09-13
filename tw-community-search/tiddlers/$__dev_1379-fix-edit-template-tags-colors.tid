@@ -1,0 +1,24 @@
+title: $:/dev/1379-fix-edit-template-tags-colors
+created: 20150120233454771
+creator: Tobias Beer
+modified: 20150120234959049
+modifier: Tobias Beer
+summary: fixes edit-mode tags and consolidates tag macro
+url: <<git5 issues/1379>>
+tags: dev  Pull Open 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1379-fix-edit-template-tags-colors
+source-tiddler-title-as-link: 1379-fix-edit-template-tags-colors
+
+the tag button styles in edit mode were not updated yet ...bright backgrounds were entirely unreadable
+
+[img[https://cloud.githubusercontent.com/assets/97566/5788863/e6f0dbe6-9e4f-11e4-97d7-47b7d9c61212.jpg]]
+
+; consolidated all tag button output in `$:/core/macros/tag`
+: introduces `mode` parameter
+; simplified templates
+: `$:/core/ui/TagTemplate` — also put under **Components**?
+: `$:/core/ui/Components/tag-link`
+: simplified `EditTemplate/tags`
+; demo
+: http://tbdemo.tiddlyspot.com/#Consolidate%20Tag%20Macro

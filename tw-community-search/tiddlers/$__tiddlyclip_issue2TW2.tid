@@ -1,0 +1,25 @@
+title: $:/tiddlyclip/issue2TW2
+_hash: 042cb104c096cecc49603c56edc081a115115dd7
+created: 20140913185755000
+creator: buggyj
+modified: 20141002185739356
+modifier: buggyj
+revision: 0
+server.bag: tiddlyclip_public
+server.content-type: 
+server.etag: "tiddlyclip_public/html2TW2/1888296:bc9222ae31c200a718cdeb1839238e556d484512"
+server.host: http://tiddlyclip.tiddlyspace.com
+server.page.revision: 1888296
+server.permissions: read, write, create, delete
+server.recipe: tiddlyclip_private
+server.title: html2TW2
+server.type: tiddlyweb
+server.workspace: bags/tiddlyclip_public
+type: text/vnd.tiddlywiki
+tags: tiddlyclip 
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: issue2TW2
+source-tiddler-title-as-link: issue2TW2
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@pageTitle*))|[[isssuesRule]]|||{"$location":"((*@pageRef*))"},{"$caption":"((*@pageTitle*))"},{"$when":"((*@dateTimeShort*))"}|append add|

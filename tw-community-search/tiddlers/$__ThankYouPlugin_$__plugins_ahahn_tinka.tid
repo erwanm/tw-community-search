@@ -1,0 +1,16 @@
+title: $:/ThankYouPlugin/$:/plugins/ahahn/tinka
+author: Andreas Hahn
+core-version: >=5.1.8
+created: 20150518071039425
+description: Tinka - an easy plugin packer
+list: readme usage
+modified: 20150518102025489
+source: http://twguides.org/tinka
+version: 0.1.0
+tags: ThankYouPlugin 
+source-wiki-id: ThankYouPlugin
+source-tiddler-title-as-text: $:/plugins/ahahn/tinka
+source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2ftinka
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

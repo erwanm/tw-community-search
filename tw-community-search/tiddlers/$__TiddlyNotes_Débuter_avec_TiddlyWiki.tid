@@ -1,0 +1,38 @@
+title: $:/TiddlyNotes/Débuter avec TiddlyWiki
+color: #e3b3f7
+created: 20150119130101546
+list: [[Ressources internet]] [[Formatage de texte]] [[Insérer des images]] ContenuExterne [[Utilisation des tags]] Personnalisation Plugins Filtres [[Trucs et astuces]] [[Outils externes]]
+modified: 20150607145705848
+tags: TiddlyNotes  Menu [[Mises à jour]]
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Débuter avec TiddlyWiki
+source-tiddler-title-as-link: Débuter%20avec%20TiddlyWiki
+
+<br>
+[[TiddlyWiki|http://tiddlywiki.com/]] est un //''carnet de notes web personnel et non linéaire''// développé par [[Jeremy Ruston|https://github.com/Jermolene]]. C'est une application web dédiée à la prise de notes et d'une grande souplesse d'utilisation. L'ensemble du wiki est contenu dans un ''unique fichier HTML'', ne nécessitant aucune installation.<br> ~TiddlyWiki est un projet [[Open Source|https://fr.wikipedia.org/wiki/Open_source]] sous licence <abbr title="Berkeley Software Distribution">BSD</abbr> soutenu par une grande communauté.
+
+<div class="pretty">
+
+~TiddlyWiki peut être utilisé comme un bloc notes, un wiki, un blog, pour gérer ses marques page, rédiger une documentation... et bien d'autres choses. A vous d'imaginer l'utilisation que vous pouvez en faire.
+</div>
+<br>
+
+La [[documentation officielle|http://tiddlywiki.com/]] est la référence pour tout connaître sur ~TiddlyWiki. De plus, elle est [[partiellement traduite|http://tiddlywiki.com/languages/fr-FR/]].<br>
+Le meilleur moyen pour apprendre à utiliser ~TiddlyWiki est de visiter [[différents sites|Ressources internet]] et d'éditer les tiddlers pour connaître le [[Formatage de texte]]. Le [[guide de prise en main|http://sylvain.naud.in/public/TiddlyWiki/tiddlywiki-guide-fr-CCbysa.html]] de Sylvain Naudin est un très bon début, je m'en suis beaucoup inspiré.
+
+!!~TiddlyWiki dans votre poche
+Vous pouvez stocker votre ~TiddlyWiki en local où dans un cloud pour y accéder partout mais aussi le mettre en ligne sur un service d'hébergement classique où spécialisé comme [[TiddlySpot|http://tiddlywiki.com/languages/fr-FR/#Saving%20on%20TiddlySpot]] qui permet un accès public ou privé à son wiki. Une autre approche un peu plus complexe consiste à [[Héberger son TiddlyWiki]] dans un dépôt Git distant.
+<br><br>
+
+<div class="tb5-fish">{{$:/.img/fish.svg}}</div>
+
+!!À propos
+
+{{A propos}}
+
+<br>
+
+-----
+@@.no-border
+|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence CC BY-SA 4.0</a> <i class="fa fa-external-link-square" style="color:#60B643"></i>|
+@@

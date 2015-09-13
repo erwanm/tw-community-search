@@ -1,0 +1,28 @@
+title: $:/demo/Autolink System Tiddlers
+created: 20150111092450925
+creator: Tobias Beer
+modified: 20150111110413607
+modifier: Tobias Beer
+tags: demo  Demo Parsers RegExp
+source-wiki-id: demo
+source-tiddler-title-as-text: Autolink System Tiddlers
+source-tiddler-title-as-link: Autolink%20System%20Tiddlers
+
+$:/core/modules/parsers/wikiparser/rules/syslink.js
+
+* `this.matchRegExp = /~?\$:[^\s<>|]+(?:\/|\b)/mg;`
+* $:/foo — $:/foo/ — $:/foo/bar — $:/foo bar — $:/foo|bar
+* [[$:/foo/bar]] — [[$:/foo/bar/]]
+* $:/config/NewJournal/Tags
+* $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home
+* $:/state/tab--1498284803
+* $:/§$&/%``´´~+*#'-_.:,;&/("§! — $:/bar<foo — $:/foo§"$%<*'*
+
+```
+* $:/foo — $:/foo/ — $:/foo/bar — $:/foo bar — $:/foo|bar
+* [[$:/foo/bar]] — [[$:/foo/bar/]]
+* $:/config/NewJournal/Tags
+* $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home
+* $:/state/tab--1498284803
+* $:/§$&/%``´´~+*#'-_.:,;&/("§! — $:/bar<foo — $:/foo§"$%<*'*
+```

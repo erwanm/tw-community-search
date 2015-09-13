@@ -1,0 +1,9 @@
+title: $:/fields/ListWidget
+created: 20150107112748647
+modified: 20150107112829460
+tags: fields 
+source-wiki-id: fields
+source-tiddler-title-as-text: ListWidget
+source-tiddler-title-as-link: ListWidget
+
+<<static ListWidget 800px yes>>

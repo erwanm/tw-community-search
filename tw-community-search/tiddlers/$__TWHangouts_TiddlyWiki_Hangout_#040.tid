@@ -1,0 +1,46 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #040
+created: 20150105224728186
+modified: 20150105224813687
+tags: TWHangouts  HangOut_040 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #040
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23040
+
+\define hangout() 040
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Arlen, Chinarut, Eric, Jeremy, Mario, Nathan">>
+<<topic "0:01:50" "Matias- Proposal for design changes in edittemplate.">>
+<<topic "0:04:50" ".. discussion about how the tag input field works. ...">>
+<<topic "0:06:45" ".. handling of custom fields">>
+<<topic "0:08:08" ".. tag handling again">>
+<<topic "0:09:50" "Eric- .. summary about input strategies ..">>
+<<topic "0:10:28" "Eric- about the problem with 'invisible' shadow tags">>
+<<topic "0:13:57" "Mario- idea how to handle system tags">>
+<<topic "0:16:35" "Jeremy- about the general design ...">>
+<<topic "0:19:58" "Stephan joined ..">>
+<<topic "0:20:53" "Mathias- According to tiddler 'TiddlerFields' on tw.com, field names must only contain some a-z plus three other explicitly typed characters. However, typing in !'#¤%&/() seems to work? Change instrux or do validation check.">>
+<<topic "0:28:00" "Matias introduced himself">>
+<<topic "0:29:33" "Stephan- discussion about special tag / field $()$ and the newTiddler widget">>
+<<topic "0:33:08" "Jeremy- about cheap TiddlyWiki infrastructure .. TW cloud">>
+<<topic "0:34:58" "Mario- introducing OpenShift to use with tiddlyweb and TW5">>
+<<topic "0:47:25" "Nathan- Likes the 'no backend / unhosted' stuff">>
+<<topic "0:50:54" "Mario- about CamilStore as a future backend">>
+<<topic "0:55:01" "Jeremy- recent changes to TW, new home button, right sidebar on/off">>
+<<topic "0:57:52" "Jeremy- Curved Text with an SVG path">>
+<<topic "1:00:40" "Jeremy- first iteration of Cecily list view">>
+<<topic "1:02:50" "Jeremy- new scrollable widget, multi column story view">>
+<<topic "1:09:13" "Matias- about the TiddlerTabsPlugin">>
+<<topic "1:13:21" "Jeremy- general discussion about UI">>
+<<topic "1:15:55" "Jeremy- about translations and plugin management / documentation">>
+<<topic "1:17:04" "Jeremy- about blacklisting of unsafe HTML features">>
+<<topic "1:19:20" "Mario- Eric what's going on with the TWclassic development.">>
+<<topic "1:22:24" "Jeremy- about blocking of javascript">>
+<<topic "1:23:12" "Jeremy- the new TiddlyWiki Architecture diagram">>
+<<topic "1:27:55" "Mario- about the problem with the tiddler object being immutable.">>
+<<topic "1:30:40" "Jeremy- about a fix with the syncer">>
+<<topic "1:31:04" "Matias- When will we see the next release?">>
+<<topic "1:32:37" "Matias- What does the 'house/home' icon do?">>
+<<topic "1:35:45" "Nathan- What group is it? LNUG?">>
+<<topic "1:39:05" "Bye! Bye!">>

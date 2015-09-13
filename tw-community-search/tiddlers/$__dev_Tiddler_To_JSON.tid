@@ -1,0 +1,14 @@
+title: $:/dev/Tiddler To JSON
+created: 20141206181142039
+creator: Tobias Beer
+modified: 20141206181209587
+modifier: Tobias Beer
+url: https://groups.google.com/d/msg/tiddlywiki/c7gGcP1ZI_Q/KwTvDnJelIgJ
+tags: dev  Patterns
+source-wiki-id: dev
+source-tiddler-title-as-text: Tiddler To JSON
+source-tiddler-title-as-link: Tiddler%20To%20JSON
+
+To get a JSON representation of a tiddler you should call `wiki.getTiddlerAsJson(title)`.
+
+The reason is that the tiddler object supports fields of types other than strings. The modified and created fields are JavaScript Date() objects, and the list and tags fields are arrays of strings. So, if you convert the tiddler object directly to JSON you'll end up with those data types used for the fields.

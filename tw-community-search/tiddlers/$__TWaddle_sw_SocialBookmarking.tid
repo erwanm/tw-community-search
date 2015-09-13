@@ -1,0 +1,16 @@
+title: $:/TWaddle/sw:SocialBookmarking
+created: 20150415060615993
+modified: 20150416111759291
+tags: TWaddle  SoftwareCategory sw:Collaboration sw:InfoExchanging
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:SocialBookmarking
+source-tiddler-title-as-link: sw%3aSocialBookmarking
+
+A ''social bookmarking service'' [...] enables users to add, annotate, edit, and share bookmarks of web documents. [...] Delicious, founded in 2003, popularized the terms "social bookmarking" and "tagging". Tagging is a significant feature of social bookmarking systems, enabling users to organize their bookmarks in flexible ways and develop shared vocabularies known as folksonomies.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Social_bookmarking]]@@
+
+See also other Collaboration software categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Collaboration]!is[current]]">>
+
+See also other ~InfoExchanging software categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:InfoExchanging]!is[current]]">>

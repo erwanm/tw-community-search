@@ -1,0 +1,43 @@
+title: $:/TiddlyNotes/Formatage de texte
+created: 20150119110045385
+modified: 20150413191631057
+tags: TiddlyNotes  Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Formatage de texte
+source-tiddler-title-as-link: Formatage%20de%20texte
+
+!Le texte
+~TiddlyWiki utilise la syntaxe [[WikiText|http://tiddlywiki.com/#WikiText]] qui est un langage de balisage léger et simple qui permet de se concentrer sur l'écriture avec de nombreuses fonctions interactives. La syntaxe [[HTML|http://tiddlywiki.com/#HTML%20in%20WikiText]] est aussi supportée, ainsi que [[Markdown|http://daringfireball.net/projects/markdown/]] grâce à ce [[plugin|http://tiddlywiki.com/plugins/tiddlywiki/markdown/]].
+
+Exemple de syntaxe ~WikiText :
+
+```
+''gras'' //italique// __souligné__ ~~barré~~ `code`
+```
+
+sera affiché comme ceci:
+
+> ''gras'' //italique// __souligné__ ~~barré~~ `code`
+<br>
+
+!!Références de formatage
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: https://tobibeer.github.io/tb5/#Markup
+
+<$scrollable class='tc-scrollable'>
+{{Markup Reference}}
+</$scrollable>
+<br>
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i>__Sources complémentaires:__<br>
+Cheat Sheet [[formatage|http://www.cheatography.com/simon-fermor/cheat-sheets/tiddlywiki/]] et l'aide mémoire complet sur [[TiddlyWikifr|http://www.tiddlywiki.fr/#%5B%5BAide%20M%C3%A9moire%5D%5D]].
+@@
+
+!!Les tableaux
+La création et l'utilisation des tableaux est très bien décrite dans ce [[guide de prise en main|http://sylvain.naud.in/public/TiddlyWiki/tiddlywiki-guide-fr-CCbysa.html#Tableau]]. Un fois la syntaxe comprise, il est facile de [[Personnaliser les tableaux]].
+
+!Les icônes
+Le plugin FontAwesome permet l'intégration des  [[icônes Font Awesome|https://fortawesome.github.io/Font-Awesome/icons/]] <i class="fa fa-flag"></i> dans ~TiddlyWiki.
+
+!Les couleurs
+Chaque couleur HTML possède un [[code|http://www.w3schools.com/tags/ref_colorpicker.asp]] et un [[nom|http://www.w3schools.com/tags/ref_colornames.asp]] associé qui permet de l'utiliser simplement.

@@ -1,0 +1,35 @@
+title: $:/inmysocks/CSS Properties - Text and Fonts
+caption: Text and Fonts
+created: 20150426224314772
+modified: 20150426230210474
+tags: inmysocks  [[list of some relevant CSS properties]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: CSS Properties - Text and Fonts
+source-tiddler-title-as-link: CSS%20Properties%20-%20Text%20and%20Fonts
+
+''Text''
+
+|!Name |!Use |!Values Used |
+|word-spacing |The spacing between words, this is in addition to the space taken up by space characters | em px vh vw (can be negative)|
+|letter-spacing |Spacing between letters, space characters are counted as letters in this case | em px vh vw (can be negative)|
+|white-space | | |
+|word-wrap | | |
+|text-align |Text justification in the text area |left right center |
+|text-align-last | | |
+|text-decoration | | |
+|text-transform | | |
+|text-shadow | | |
+|text-indent | | |
+|text-underline-position | | |
+
+''Fonts'' - not all fonts support all options
+
+|!Name |!Use |!Values Used |
+|font-size-adjust | | |
+|font-stretch | | |
+|font |You can put values for any of the properties listed below for this one | |
+|font-style |Font style options |normal italic oblique inherit (others?) |
+|font-variant | | |
+|font-weight |How heavy the font is |lighter normal bold bolder 100 200 300 400 500 600 700 800 900 |
+|font-size |How large the font is |xx-small x-small small medium large x-large xx-large smaller larger px % em vh vw (can't be negative) |
+|font-family | | |

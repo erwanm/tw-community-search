@@ -1,0 +1,14 @@
+title: $:/let/Falsy
+created: 20141129230000000
+creator: Tobias Beer
+modified: 20141130230000000
+modifier: Tobias Beer
+tags: let  [[Test Data]]
+source-wiki-id: let
+source-tiddler-title-as-text: Falsy
+source-tiddler-title-as-link: Falsy
+
+;with or without [[! exact]]
+:all values that are `0` or any variant of `false`, `FALSE`, `faLSE` are falsy
+;with [[BLANKS]]
+:with this suboperator blanks `""` are also considered falsy

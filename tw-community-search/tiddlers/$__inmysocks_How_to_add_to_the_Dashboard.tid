@@ -1,0 +1,115 @@
+title: $:/inmysocks/How to add to the Dashboard
+caption: Importing functions to your wiki
+created: 20141204033623338
+modified: 20141219213529608
+no_edit: true
+tags: inmysocks  Dashboard
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: How to add to the Dashboard
+source-tiddler-title-as-link: How%20to%20add%20to%20the%20Dashboard
+
+Similar to the table of contents, if you want something to appear on the list on the 'Main Dashboard' tab tag it with `Dashboard`. The main dashboard tab transcludes the tiddler DashboardTemplate, so if you want to make any changes go there. Dashboand template is just the macrocall to make the tabbed table of contents. I put it separately to be consistent so I can have each tab be a separate tiddler. That and it is simpler to understand this way.
+
+Note that the plugins requier 5.1.6 or later to work. If you copy the tiddlers individually than earlier versions work.
+
+For those of you who just want the parts as plugins, here is a list of all of them:<br>
+
+*[[$:/plugins/inmysocks/Dashboard]] - The Dashboard interface
+*[[$:/plugins/inmysocks/Citations]] - the citation database
+*[[$:/plugins/inmysocks/Contacts]] - the contacts database
+*[[$:/plugins/inmysocks/CreateEditTiddlers]] - the create or edit tiddlers tool
+*[[$:/plugins/inmysocks/ManageTOC]] - the table of contents manager
+*[[$:/plugins/inmysocks/MinimalTaskList]] - a minimal task list
+*[[$:/plugins/inmysocks/QuickNotes]] - a searchable note taking tool
+*[[$:/plugins/inmysocks/SearchableDictionary]] - a simple dictionary tool
+*[[$:/plugins/inmysocks/TaskList]] - a not so minimal task list
+
+
+!!If you are interested in the individal tiddlers they are listed below by the function the are part of
+
+
+Below is a list of everything that is used for the dashboard.
+
+---
+
+!Basic Functions:
+
+*[[Dashboard]]
+*[[DashboardTemplate]]
+*[[Contents]]
+*[[Introduction]]
+*[[RemoveIntroMessageModal]]
+
+Or bundled together:
+
+[[$:/plugins/inmysocks/Dashboard]]
+
+---
+
+!Documentation and miscellaneous
+
+*[[How to add to the Dashboard]]
+
+---
+
+!Contacts
+
+{{Tiddlers Needed for Contacts}}
+
+---
+
+!Create or Edit Tiddlers
+
+{{Tiddlers Needed for Create or Edit Tiddlers}}
+
+---
+
+!Manage Table of Contents
+
+{{Tiddlers Needed for Manage Table of Contents}}
+
+---
+
+!!To-Do List - minimal
+
+This is just a single tiddler
+
+*[[Minimal Task List]]
+
+Or, if for some reason you prefer to import it as a plugin:
+
+[[$:/plugins/inmysocks/MinimalTaskList]]
+
+---
+
+!!Task List
+
+{{Tiddlers Needed for Task List}}
+
+---
+
+!!Citation Library
+
+{{Tiddlers Needed for Citation Library}}
+
+---
+
+!!Searchable Dictionary
+
+{{Tiddlers Needed for Dictionary}}
+
+---
+
+{{Tiddlers Needed for Quick Notes}}
+
+---
+
+Anything added to the dashboard (at least added here) should:
+
+*Require no knowledge of WikiText
+*Only require plugins available on tiddlywiki.com
+*Not break using from using any of the functions in the dashboard, seed the note about the `no_edit` field below.
+*Not break any existing pieces of the dashboard. Some may need to be updated for this, but they all need to be able to work together without trouble.
+*Either:
+**Have good easy to understand documentation with a very gentle learning curve
+**Be intuitive enough that someone who is able to navigate the internet but has no coding experience can use without documentation

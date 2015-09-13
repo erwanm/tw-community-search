@@ -1,0 +1,42 @@
+title: $:/tiddlyclip/isssuesRule
+created: 20141002184052475
+modified: 20141007081907257
+revision: 0
+type: text/plain
+tags: tiddlyclip 
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: isssuesRule
+source-tiddler-title-as-link: isssuesRule
+
+[
+  {
+    "#tw2":"((*@htmlToTW2(@web)*))"
+  },
+  {
+    "#rule": "\\[\\[([^\\[]*?)\\|([^\\|]*?\\/issues\\/[0-9]+)\\]\\]/g"
+  },
+  {
+    "#term": "\n££££ \n* [[Fixed|$2]] $1ᏜᏜᏜᏜ\n"
+  },
+  {
+    "#newdata1": "((*#tw2/#rule/#term*))"
+  },
+  {
+    "#rule2": "/ᏜᏜᏜᏜ([\\s\\S]*?)££££/g"
+  },
+  {
+    "#term2": ""
+  },
+  {
+    "#newdata2": "((*#newdata1/#rule2/#term2*))"
+  },
+  {
+    "#rule3": "/[\\s\\S]*££££([\\s\\S]*?)ᏜᏜᏜᏜ[\\s\\S]*/g"
+  },
+  {
+    "#term3": "\n!! Bug Fixes\n$1"
+  },
+  {
+    "#newdata": "((*#newdata2/#rule3/#term3*))"
+  }
+]

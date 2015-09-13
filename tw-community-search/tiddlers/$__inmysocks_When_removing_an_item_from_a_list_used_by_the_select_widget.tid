@@ -1,0 +1,26 @@
+title: $:/inmysocks/When removing an item from a list used by the select widget
+blurb:  
+created: 20141230065101026
+modified: 20141230065112573
+tags: inmysocks  [[Helpful Notes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: When removing an item from a list used by the select widget
+source-tiddler-title-as-link: When%20removing%20an%20item%20from%20a%20list%20used%20by%20the%20select%20widget
+
+!When removing an item from a list used by the select widget
+You probably want to set the value of the select widget (or where ever the state is) to another value on the list. Otherwise, despite a value being displayed on the widget, there will be no value stored and if there is only one item left one the list you can't actually set the value using the widget.
+
+This code is used for removing a book from the book list in the [[Library Tracker]] as an example. It picks the first book that gets listed by the list widget and sets the value of the select widget to that book when a book is deleted.
+
+```
+<$set name=newBook filter='[tag[Book]]+[first[]]'>
+<$button>Yes, delete {{Manage Books!!book_title}}.
+<$action-sendmessage $message='tm-delete-tiddler' $param={{Manage Books!!book_title}}/>
+<$action-sendmessage $message='tm-close-tiddler'/>
+<$action-setfield $tiddler='Manage Books' $field='book_title' $value=<<newBook>>/>
+</$button>
+<$button>No<$action-sendmessage $message='tm-close-tiddler'/></$button>
+</$set>
+```
+
+<<bottomOfTiddler>>

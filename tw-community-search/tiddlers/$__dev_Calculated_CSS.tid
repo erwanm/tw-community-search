@@ -1,0 +1,18 @@
+title: $:/dev/Calculated CSS
+created: 20141201115921720
+creator: Tobias Beer
+modified: 20141201115956269
+modifier: Tobias Beer
+tags: dev  TidU
+source-wiki-id: dev
+source-tiddler-title-as-text: Calculated CSS
+source-tiddler-title-as-link: Calculated%20CSS
+
+[[Yes you can...|http://css-tricks.com/a-couple-of-use-cases-for-calc/]]
+
+```
+.thing {
+  width: 90%; /* fallback if needed */
+  width: calc(100% - 3em);
+}
+```

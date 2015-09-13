@@ -1,0 +1,20 @@
+title: $:/TWaddle/Fastest way to create a new tiddlyspot
+created: 20150506062803851
+creator: Mat
+modified: 20150725215557804
+modifier: Mat
+recent: 15/05/08
+tags: TWaddle  tiddlyspot UserHelp HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Fastest way to create a new tiddlyspot
+source-tiddler-title-as-link: Fastest%20way%20to%20create%20a%20new%20tiddlyspot
+
+In setting up a new tiddlyspot you can't use FF for the //first// upload of TW5. So I have set up my ''Chromes startpage'' to show the url:
+
+ //tw.com/empty > tiddler Ctrlpanel > tab Saving//, i.e [[this direct link|http://tiddlywiki.com/empty#%24%3A%2Fcore%2Fui%2FControlPanel%2FSaving]]
+
+This way, to create a new tiddlyspot fast:
+
+*In FF I go to tiddlyspot and create register a new name. Leave it at the confirmation page, i.e that shows the link to your new tiddlyspot.
+*Open Chrome (to the directlink), fill in the name and password, click upload. Wait for save then close.
+*Back in FF, click that confirmation page link.

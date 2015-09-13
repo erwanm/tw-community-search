@@ -1,0 +1,24 @@
+title: $:/inmysocks/BookDisplayTemplate
+created: 20150122113645557
+modified: 20150122120914839
+tags: inmysocks  Templates
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: BookDisplayTemplate
+source-tiddler-title-as-link: BookDisplayTemplate
+
+<table>
+<tr>
+<th>Title</th>
+<th><$reveal type=match text=true state='Library Tracker Settings!!show_author'>Author</$reveal></th>
+<th><$reveal type=match text=true state='Library Tracker Settings!!show_location'>Location</$reveal></th>
+<th><$reveal type=match text=true state='Library Tracker Settings!!show_series'>Series</$reveal></th>
+<th><$reveal type=match text=true state='Library Tracker Settings!!show_genre'>Genre</$reveal></th>
+</tr>
+<tr>
+<td>{{!!title}}</td>
+<td><$reveal type=match text=true state='Library Tracker Settings!!show_author'>{{!!author}}</$reveal></td>
+<td><$reveal type=match text=true state='Library Tracker Settings!!show_location'>{{!!location}}</$reveal></td>
+<td><$reveal type=match text=true state='Library Tracker Settings!!show_series'>{{!!series}}</$reveal></td>
+<td><$reveal type=match text=true state='Library Tracker Settings!!show_genre'>{{!!genre}}</$reveal></td>
+</tr>
+</table>

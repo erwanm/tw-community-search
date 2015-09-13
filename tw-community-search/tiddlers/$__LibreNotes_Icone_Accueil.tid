@@ -1,0 +1,20 @@
+title: $:/LibreNotes/Icone Accueil
+created: 20150417125340070
+modified: 20150424095800274
+tags: LibreNotes 
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: Icone Accueil
+source-tiddler-title-as-link: Icone%20Accueil
+
+<div style="font-size:0.9em;text-align:left;margin-top:3em;margin-bottom:1em;">
+<$button class="tc-btn-invisible" message="tw-make-list">
+<$action-setfield $tiddler="$:/StoryList" list=" LibreNotes
+[[Présentation]]
+[[Mes projets de wiki]]
+[[A propos]]"/>
+<$action-navigate $to="LibreNotes" $scroll="yes"/>
+<a class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank">
+<i class="fa fa-home"></i> ''Accueil''
+</a>
+</$button>
+</div>

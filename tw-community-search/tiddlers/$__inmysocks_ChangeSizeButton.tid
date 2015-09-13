@@ -1,0 +1,15 @@
+title: $:/inmysocks/ChangeSizeButton
+created: 20141207055754110
+modified: 20150217194609822
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: ChangeSizeButton
+source-tiddler-title-as-link: ChangeSizeButton
+
+<$button popup="$:/state/changetiddlerwidthpopup">Change Tiddler Width/Font Size</$button>
+<$reveal type="popup" state="$:/state/changetiddlerwidthpopup">
+<div class="tc-drop-down">
+
+{{TiddlerWidthSettings}}
+</div>
+</$reveal>

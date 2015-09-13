@@ -1,0 +1,15 @@
+title: $:/tb5/SVG In A Tiddler
+created: 20141115103144916
+creator: Tobias Beer
+modified: 20150211163620913
+modifier: Tobias Beer
+tags: tb5  Solutions Images
+source-wiki-id: tb5
+source-tiddler-title-as-text: SVG In A Tiddler
+source-tiddler-title-as-link: SVG%20In%20A%20Tiddler
+
+Use add directly or use [[Typed Blocks]]...
+
+{{$:/.tb/demo/svg-circle}}
+
+via <<source "$:/.tb/demo/svg-circle">>

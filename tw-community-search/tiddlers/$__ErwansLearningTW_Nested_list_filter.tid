@@ -1,0 +1,27 @@
+title: $:/ErwansLearningTW/Nested list filter
+created: 20140830183341954
+creator: Erwan
+list: question resource menu
+modified: 20140830185724556
+modifier: Erwan
+tags: ErwansLearningTW  question
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Nested list filter
+source-tiddler-title-as-link: Nested%20list%20filter
+
+Print a two-levels list tag/tiddlers from the list of tags specified as a filed named //list// in the current tiddler: 
+
+```
+<ul><$list filter ="[list[]]" variable="mytag"><li><<mytag>></li><ul><$list filter="[all[tiddlers]tag<mytag>]"><li>{{!!title}}</li></$list></ul></$list></ul>
+```
+
+!!! Example 
+
+<ul><$list filter ="[list[]]" variable="mytag">
+  <li><<mytag>></li>
+  <ul><$list filter="[all[tiddlers]tag<mytag>]">
+    <li>{{!!title}}</li>
+  </$list></ul>
+</$list></ul>
+
+Source: https://groups.google.com/forum/#!searchin/Tiddlywiki/ListWidget$20values$20to$20lower$20level$20filters/tiddlywiki/QPl42U8ohhU/7ENn5YIf7xEJ

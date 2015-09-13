@@ -1,0 +1,63 @@
+title: $:/TWHangouts/HangOut_065
+created: 20141218230448380
+modified: 20141218231214751
+tags: TWHangouts  http://hangouts.tiddlyspace.com/ License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_065
+source-tiddler-title-as-link: HangOut_065
+
+2014-10-21 ''---''
+[[YouTube Link|https://www.youtube.com/watch?v=hJ4feiD6iuY]] ''---'' [[Google Hangout|https://plus.google.com/events/cd8h7qbbtethtk44i98cq2fmmis]]
+
+---
+
+```
+2014-10-21 ''---''
+[[YouTube Link|https://www.youtube.com/watch?v=hJ4feiD6iuY]] ''---'' [[Google Hangout|https://plus.google.com/events/cd8h7qbbtethtk44i98cq2fmmis]]
+```
+---
+
+"""
+
+0:00:00 Intro: frtl: Alex, Eric, Jeremy, Mario, Ton
+0:03:15 Alex- Borders and Border images for TW. expains the usecase.
+0:05:28 Jeremy- about visualizing relations between tiddlers.
+0:07:12 Alex- about the Viable System Model ... wikipedia search for: Viable_system_model.
+0:11:29 Jeremy- about js-sequence-digrams ... Alex about the usecase
+0:17:08 Eric- about 2 possible workflows to get the drawings into TW
+0:19:03 Jeremy- about SVG drawings in the TalkyTalky wiki. From drawing to SVG.
+0:21:04 Eric- about clickable "hot zones" in the drawings.
+0:23:05 Jeremy- about using bitmaps in CSS style sheets.
+0:26:15 Mario- About the Global Learning X-Prize - competition
+0:27:17 Mario- about his opinions. ... all
+0:29:35 Eric- about authoring systems and the basic concepts for learning materials.
+0:32:05 Mario- about the needed frameworks and the target group.
+0:33:20 Eric- about "in game upgrades" ..
+0:34:35 Eric- Some education designers need to be involved. ... Mario
+0:36:35 Jeremy- has concerns about TW is seen in the "wrong light" by the judges.
+0:42:05 Nathan- his point of view. About the pros and cons, how TW is seen by
+0:43:42 Jeremy- TW could be a great tools. But there are concerns about how TW would do in the competition.
+0:45:33 Mario- the development in the competition is kind of closed source. ..
+0:49:34 all- discussion about gamification ... discussion ... learning with all senses. a
+0:51:35 Jeremy- the random chooser filter and dice roles ...
+0:53:02 Jeremy- about Twine and interactive fiction
+0:54:25 Alex- about Dickens Manual. ... but target group is children from 6-12
+0:55:56 Jeremy- about sliders in HTML5 and input element.
+0:59:55 Jeremy- shows the sliders.
+1:02:55 Jeremy- Yaka's feature request: ... word count, character count ...
+1:06:54 Nathan- Is there an "idle" event?
+1:08:20 Jeremy- The relative dates should be dynamic.
+1:09:03 Mario- What's the difference of eg: image "lazy" loading and the "normal" loading
+1:19:20 Jeremy- about the export icon change
+1:23:12 Jeremy- TW has some audio support now.
+1:25:25 Mario- What's planned next. .. fixing a strange new bug :(
+1:28:02 Mario- about the server command feedback.
+1:29:30 - no conversation for a minute. Jeremy is away.
+1:30:47 Jeremy- ... plans ... 5.0.4 will be fast bufix. Export should come ...
+1:32:00 ... several buttons to export different set of tiddlers. working TW, json, .tid, .cvs, skinny tiddler store. ... build TWs with a different theme.
+1:34:10 Mario- What do you think about the discussion in the group about the DefaultTiddlers?
+1:38:18 Eric- A very common question is "reordering tiddlers" in the story
+1:42:28 Jeremy- Drag a tiddler title to a text editor, takes the whole content too. Should we change this ... yes ... but import will be not touched.
+1:46:38 Jeremy- about authoring tools. edit toolbars, codemirror, auto completion, keyboard shortcuts, ...
+1:53:30 Paul Q&A- Is a Vanguard about the Global X-Prize and thinks we would have a chance.
+1:54:57 Bye! Bye!

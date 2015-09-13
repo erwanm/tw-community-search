@@ -1,0 +1,46 @@
+title: $:/dev/LetFilter
+created: 20141127032041710
+creator: Tobias Beer
+modified: 20141203002127166
+modifier: Tobias Beer
+tags: dev  Plugin Filters
+source-wiki-id: dev
+source-tiddler-title-as-text: LetFilter
+source-tiddler-title-as-link: LetFilter
+
+;<<git5 issues/1176>> !!!
+:storing the output of a filter in a field
+
+
+Turn [[DateFilter|http://datefilter.tiddlyspot.com/]] into [[LetFilter|http://letfilter.tiddlyspot.com]] ...to compare tiddlers and could also do basic math, etc.
+
+!! extend with
+* boolean
+* integer
+* real
+
+!! accuracy
+calculation accuracy for ''num'' as setting
+
+!! calculations
+
+* `let[100+=5*]`
+* `let[100-=5*]`
+* `let[10*=3]`
+* `let[10*=2]`
+* `let[100/=10]`
+* `let[100/=10]`
+* `let:*10:price:func=sum[]`
+* `let:+1000:price:func=avg[]`
+
+!! storing results
+
+* `let:set=foo/bar[]`
+
+!! max + 1
+
+;set taskid
+:https://groups.google.com/d/msg/tiddlywiki/vz491ej7EcA/5U36k7LstnsJ
+
+;sum fields
+:https://groups.google.com/forum/#!topic/tiddlywiki/bjludozbMqY

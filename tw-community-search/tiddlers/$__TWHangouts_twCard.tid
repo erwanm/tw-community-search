@@ -1,0 +1,27 @@
+title: $:/TWHangouts/twCard
+created: 20141224020331479
+modified: 20141226213216964
+tags: TWHangouts 
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: twCard
+source-tiddler-title-as-link: twCard
+
+This Tiddler is for [[my|Rich Shumaker]] ideas on twCards.
+I use a twCard for the idea of [[<Name Plate>]]
+
+The idea behind the twCard is an Everything Card that follows a standard format that can easily be shared between TiddlyWiki's(and the world).
+
+Base them on [[jCards 4.0|https://tools.ietf.org/html/rfc7095]]
+
+Ideas in no particular order about twCards
+
+* [[Customizable|twCard Options]] so that you can have the fields you want, you want (Facebook, YouTube, Email) you got it.  You want (Nickname, IRQ Handle, favorite site to attend the forum of) you goit it
+* you can add your name plate(twCard) to a Tiddler
+* It can include an image
+* Multimedia inclusion to allow Avatars in different formats
+* Do we impose a maximum size and can you compress the data?
+* Easily transferred from one TiddlyWiki to another - Drag and Drop
+
+Tagged twCard
+
+{{{ [tag[twCard]!sort[title]] }}}

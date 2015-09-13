@@ -1,0 +1,22 @@
+title: $:/let/Suboperators
+caption: Suboperators
+color: #98b0f8
+created: 20141126230000000
+creator: Tobias Beer
+icon: $:/core/images/permaview-button
+list: TYPE OPERATION compute field [[! exact]] BLANKS RANDOM
+menu-icon: {{$:/core/images/permaview-button}}
+modified: 20141130230000000
+modifier: Tobias Beer
+tags: let 
+source-wiki-id: let
+source-tiddler-title-as-text: Suboperators
+source-tiddler-title-as-link: Suboperators
+
+<dl>
+<$list filter="[list<currentTiddler>]">
+
+<dt><$link>{{!!title}}</$link></dt>
+<dd>{{!!summary}}</dd>
+</$list>
+</dl>

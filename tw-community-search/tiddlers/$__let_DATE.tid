@@ -1,0 +1,19 @@
+title: $:/let/DATE
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141203230000000
+modifier: Tobias Beer
+summary: for fields containing valid date values
+tags: let  TYPE
+source-wiki-id: let
+source-tiddler-title-as-text: DATE
+source-tiddler-title-as-link: DATE
+
+!!Examples
+
+;`[let:DATE[]]`
+:all modified today
+:same as `[let: DATE EQ []]` or `[let: DATE modified EQ []]`
+;`[let: DATE [20141224120000]]`
+:all from 24 Dec. 2014
+:same as `[sameday[20141224120000]]`, or `[let: DATE EQ [20141224120000]]`

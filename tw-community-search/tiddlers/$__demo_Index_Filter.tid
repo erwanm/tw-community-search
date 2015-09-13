@@ -1,0 +1,25 @@
+title: $:/demo/Index Filter
+created: 20150117110627003
+creator: Tobias Beer
+modified: 20150204004628869
+modifier: Tobias Beer
+tags: demo  Demo Filters [[New Feature]]
+source-wiki-id: demo
+source-tiddler-title-as-text: Index Filter
+source-tiddler-title-as-link: Index%20Filter
+
+<<git5 pull/1375>> — for a data tiddler, returns the value at the index specified in the operand
+
+```
+; [[ExampleData]]
+: {{ExampleData##B}} = <$list filter="[[ExampleData]getIndex[B]]"><$view field=title/></$list>
+```
+
+<<<
+; [[ExampleData]]
+: {{ExampleData##B}} = <$list filter="[[ExampleData]getIndex[B]]"><$view field=title/></$list>
+<<<
+
+!! Code
+
+<<source $:/core/modules/filters/getindex.js>>

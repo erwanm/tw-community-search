@@ -1,0 +1,28 @@
+title: $:/dev/1407-open-default-on-empty
+created: 20150122145342810
+creator: Tobias Beer
+modified: 20150203131119214
+modifier: Tobias Beer
+summary: allows to define behaviour when last tiddler in story is closed
+url: @@color:red; ''repaced by:'' <<git5 issues/1435>>@@ (was <<git5 issues/1407>>)
+tags: dev  Pull 5.1.8 Rejected
+source-wiki-id: dev
+source-tiddler-title-as-text: 1407-open-default-on-empty
+source-tiddler-title-as-link: 1407-open-default-on-empty
+
+This modification to [[$:/core/modules/widgets/navigator.js]] allows to define the behaviour of TiddlyWiki when the last tiddler in the story is closed by setting the text of [[$:/config/Story/OnEmpty]] to either of:
+
+; keep
+: will keep the last tiddler open
+; default
+: will open the default tiddler(s)
+; open:foo
+; show:foo
+; keep:foo
+: either will open the tiddler ''foo''
+
+demo: http://tbdemo.tiddlyspot.com/#OnEmpty
+
+!! Discussion
+
+https://groups.google.com/d/msg/tiddlywiki/-qevGMkbWBQ/lgUu0j_wlnkJ

@@ -1,0 +1,19 @@
+title: $:/LibreNotes/AnciensPosts
+created: 20150613114448832
+modified: 20150707191226489
+tags: LibreNotes  transparent
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: AnciensPosts
+source-tiddler-title-as-link: AnciensPosts
+
+!!!Archives
+---
+
+<div style="text-align:left; font-size:0.7em;">
+<$list filter='[tag[Blog]has[annee]each[annee]get[annee]nsort[annee]]' variable=CurrentYear>
+''__<<CurrentYear>>__''<br>
+<dl><$list filter='[tag[Blog]!nsort[created]rest[3]]'>
+<dt>{{!!date}} - <$link>{{!!title}}</$link></dd>
+<dt>{{!!summary}}</dt>
+</$list>
+</dl>

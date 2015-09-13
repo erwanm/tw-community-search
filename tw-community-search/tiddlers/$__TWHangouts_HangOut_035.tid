@@ -1,0 +1,53 @@
+title: $:/TWHangouts/HangOut_035
+created: 20150113212759334
+modified: 20150113214916186
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_035
+source-tiddler-title-as-link: HangOut_035
+
+2014-02-18 - [[YouTube|http://www.youtube.com/watch?v=gAjKKI9Rkis]]
+
+"""
+0:00:00 Intro- rtl: Jeremy, Mario, Paul, Ton
+0:01:30 Ton- Update on latest changes of his themes.
+0:06:00 Jeremy- Explanation of the HistoryMechanism. The HistoryList tiddler.
+0:08:55 Mario- Question about creating a CSS class witht the new mechanism.
+0:10:16 Mario- Short overview about: TW5 Ubuntu Unity integration.
+0:18:30 Jeremy- Short summary about the internal "message handling". Feneral discussion about the message system.
+0:23:00 ... mario's icon is active all the time. ... Google didn't switch anymore ... ticket ... navigator event should be global.
+0:23:00 Jeremy- thinks it would be nice if someone did thsi for Win8 too.
+0:23:33 short break.
+0:24:05 Jeremy- Intro new member ... no response
+0:25:00 Jeremy- We saw the screen, but google didn't record it sry. Next 35 minutes are audio only. till 1:02:02
+0:25:20 Jeremy- Autosave will come with 5.0.8
+0:26:58 - about the translations
+0:26:20 - about palettes handling similarity with theme switching.
+0:27:00 - about building plugins in the browser. New tiddler "how to create plugins in the browser"
+0:33:40 Jeremy- "Ctrl-click" .. opens the tiddler, but doesn't scroll to the tiddler.
+0:35:00 Jeremy- "Close all" link is a bit darker now.
+0:35:40 Jeremy- Short intro of TANK from Chris Dent. TANK is based on TiddlyWeb
+0:39:25 Mario- Does Chris intned to render TW5 syntax on the server? .. it's planned!
+0:41:00 Jeremy- About the difference of TiddlySpace and TANK
+0:44:45 Jeremy- How you can configure a "sub story" ... a story inside a tiddler.
+0:46:40 Jeremy- about fixing a problem ... pasting pictures
+0:47:25 Jeremy- Intro of the "autosave" feature. TW now keeps track of unsaved tiddlers.
+0:50:30 Mario- Would it be possible to temporarily store the stuff locally?
+0:53:10 Jeremy- New feature: Alert Message: Visual error messages. So more info, if something gets wrong with the eg: network.
+0:58:15 Carlos- What's about the system messages? .. Notifications.
+1:01:00 Jeremy- about translations.
+1:02:02 Mario- Shows the german tW version.
+1:11:25 Carlos- Is there any progress in migration from TWc to TW5
+1:12:48 Jeremy- Intro- Palette switching.
+1:16:50 Mario- Is it similar to the TWc mechanism? .. some code review.
+1:20:10 Mario- about problems with the colon translations ...
+1:21:35 Jeremy- about the number of shadow tiddlers. General discussion about performance in the text editor.
+1:26:20 Jeremy- about a fix with parsing html ..
+1:29:40 Jeremy- about the release of 5.0.8 and 5.0.9
+1:32:20 Mario- about debugging with chrome and single step the code.
+1:34:25 Jeremy- about the tooling in TW to "see what's going on in the code"
+1:36:50 Jeremy- ... it's time it create global macros again ... so users should be able to work with macros. There should be no need to use widgets.
+1:38:35 Jeremy- about the "tabs" macro ... how to structure the docs. some discussion about Ton's tabs macros and the state tiddlers ...
+1:45:35 Jeremy- short summary, of the chat window text. Request for new Paletts !!
+1:47:05 Bye! Bye!
+"""

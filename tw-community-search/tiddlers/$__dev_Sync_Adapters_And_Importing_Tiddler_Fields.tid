@@ -1,0 +1,23 @@
+title: $:/dev/Sync Adapters And Importing Tiddler Fields
+created: 20141127142711953
+creator: Tobias Beer
+modified: 20141127143116653
+modifier: Tobias Beer
+tags: dev  Learn
+source-wiki-id: dev
+source-tiddler-title-as-text: Sync Adapters And Importing Tiddler Fields
+source-tiddler-title-as-link: Sync%20Adapters%20And%20Importing%20Tiddler%20Fields
+
+;~CouchDB Discussion
+:https://groups.google.com/forum/#!topic/tiddlywikidev/TSwYsd0ZxFw
+;<<git5 issues/238>> — fixed in 5.1.5
+:JSON deserialiser doesn't import custom fields<blockquote>
+
+The JSON deserialiser only imports the following fields: title, text, created, creator, modified, modifier, type, tags. It should import all fields, including custom ones.
+
+The reason that it doesn't already import all fields is that the TW2 build process requires us to import tiddlers from TiddlySpace, but we don't want to consume all the TiddlySpace-related custom fields that come with each tiddler. So any fix for this issue will have to leave a way for the TW2 import process to continue to ignore custom fields from the JSON data pulled down from TiddlySpace.
+<blockquote>
+if someone imports tiddlers from a TW with a backend. What happens with the "server." fields?
+</blockquote>
+If they exported from the backend TW via JSON then only the core fields would be imported, and the server.* fields would be dropped. But the referenced thread is about syncing.
+</blockquote>

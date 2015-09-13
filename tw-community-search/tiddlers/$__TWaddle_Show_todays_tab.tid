@@ -1,0 +1,20 @@
+title: $:/TWaddle/Show todays tab
+created: 20150506054946330
+creator: Mat
+cred: EricShulman
+modified: 20150725153134506
+modifier: Mat
+recent: 15/05/08
+tags: TWaddle  Automation HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Show todays tab
+source-tiddler-title-as-link: Show%20todays%20tab
+
+Erics super elegant [[solution|https://groups.google.com/d/msg/tiddlywiki/hMM6PC3Xt-8/zMjUODeTzjMJ]] for how to make //todays// tab shows automatically. (If I had a tiddler titled <<now DDD>>, its content would show below)
+
+<$macrocall
+   $name="tabs"
+   state="$:/state/tabs/today-date"
+   tabsList="Sunday Monday Tuesday Wednesday Thursday Friday Saturday"
+   default=<<now DDD>>
+   class="tc-vertical"/>

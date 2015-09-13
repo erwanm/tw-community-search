@@ -1,0 +1,16 @@
+title: $:/tiddlyclip/$:/plugins/bj/tiddlyclip
+author: Jeffrey Wilkinson (aka BJ)
+core-version: >=5.1.5
+created: 20141217223019682
+dependents: 
+description: include web content
+revision: 0
+source: https://github.com/buggyj/tiddlyclip-plugin
+version: 0.0.7-alpha
+tags: tiddlyclip 
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: $:/plugins/bj/tiddlyclip
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftiddlyclip
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

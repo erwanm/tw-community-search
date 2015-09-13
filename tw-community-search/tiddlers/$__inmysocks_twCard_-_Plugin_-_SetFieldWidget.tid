@@ -1,0 +1,30 @@
+title: $:/inmysocks/twCard - Plugin - SetFieldWidget
+audience: 
+category: Widget
+created: 20150106175012859
+date: 29-05-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Matabele
+modified: 20150210031814598
+name: SetFieldWidget
+plugin_tiddler: $:/plugins/matabele/setfield
+release: 
+repository: 
+revision: 0.0.5
+short_description: set a field using a widget
+wiki: http://gwiz.tiddlyspot.com/
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - SetFieldWidget
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20SetFieldWidget
+
+The SetField Widget traps WidgetMessage: tw-set-field dispatched within its child content by performing any or all of these actions:
+
+    *setting the value of a TextReference
+    *setting a new value for the target tiddler
+    *passing on or sending a different widget message
+
+The widget may be used in a stack to set several fields, either in the same target tiddler or in different target tiddlers (the title of the target is passed up through the stack by default.)

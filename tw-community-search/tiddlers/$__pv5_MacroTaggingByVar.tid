@@ -1,0 +1,11 @@
+title: $:/pv5/MacroTaggingByVar
+created: 20141121091105595
+modified: 20141121091739058
+tags: pv5 
+source-wiki-id: pv5
+source-tiddler-title-as-text: MacroTaggingByVar
+source-tiddler-title-as-link: MacroTaggingByVar
+
+\define taggingByVar()
+<$list filter="[tag<var>]"/>
+\end

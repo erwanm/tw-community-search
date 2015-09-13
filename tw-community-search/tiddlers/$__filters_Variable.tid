@@ -1,0 +1,19 @@
+title: $:/filters/Variable
+color: #eeeeee
+created: 20150107000430477
+height: 660px
+modified: 20150107211234525
+static: Variables%2520in%2520WikiText
+tags: filters 
+source-wiki-id: filters
+source-tiddler-title-as-text: Variable
+source-tiddler-title-as-link: Variable
+
+```
+<$list filter="[tag<currentTiddler>]"/>
+```
+
+<<<
+<$list filter="[tag<currentTiddler>]"/>
+
+<<<

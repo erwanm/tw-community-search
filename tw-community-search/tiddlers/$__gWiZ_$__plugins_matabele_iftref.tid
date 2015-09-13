@@ -1,0 +1,15 @@
+title: $:/gWiZ/$:/plugins/matabele/iftref
+created: 20140604171542295
+creator: Matabele
+dependencies: 
+description: Contains the <$iftref> widget
+modified: 20140604171646986
+modifier: Matabele
+version: 0.0.3
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: $:/plugins/matabele/iftref
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fiftref
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

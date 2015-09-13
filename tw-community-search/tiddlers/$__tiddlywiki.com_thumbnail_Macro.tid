@@ -1,0 +1,17 @@
+title: $:/tiddlywiki.com/thumbnail Macro
+caption: thumbnail
+created: 20150325172203603
+modified: 20150325172336079
+type: text/vnd.tiddlywiki
+tags: tiddlywiki.com  Macros [[Core Macros]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: thumbnail Macro
+source-tiddler-title-as-link: thumbnail%20Macro
+
+The <<.def thumbnail>> [[macros|Macros]] are used to create linkable thumbnail panels.
+
+!! Parameters
+
+(none)
+
+<<.macro-examples "thumbnail">>

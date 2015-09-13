@@ -1,0 +1,41 @@
+title: $:/TiddlyNotes/Ressources internet
+created: 20150119105635312
+modified: 20150530185204585
+tags: TiddlyNotes  Menu
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Ressources internet
+source-tiddler-title-as-link: Ressources%20internet
+
+Il existe beaucoup de sites créés par la  [[communauté|http://tiddlywiki.com/#Community]] autour de ~TiddlyWiki avec des guides, des astuces... Visitez les et obtenez le meilleur de ~TiddlyWiki: plugins, macros et bien plus encore. En voici une petite sélection...
+
+@@.sim
+Le site [[TiddlyWiki Community Search|https://rawgit.com/erwanm/tw-aggregator/master/tw-community-search.html#]] propose un moteur de recherche de wikis créés par la communauté.
+@@
+
+!!Apprendre à utiliser ~TiddlyWiki
+<dl>
+<$list filter="[tag[Source]] +[sort[title]]">
+<dt><$link>{{!!title}}</$link></dt>
+<dd>{{!!url}}</dd>
+<dd><i class="fa fa-tags"></i> {{!!description}}</dd>
+<dd>&raquo; //{{!!summary}}//</dd>
+<dd><i class="fa fa-male"></i> {{!!author}}</dd>
+</$list>
+</dl>
+
+!!Actu et Forum
+:<i class="fa fa-twitter"></i> [[TiddlyWiki sur Twitter|https://twitter.com/TiddlyWiki]]
+::pour suivre les dernières news
+:<i class="fa fa-users"></i> [[Forum de la communauté|https://groups.google.com/forum/#!forum/tiddlywiki]]
+::pour toutes vos questions
+
+!!Wikis de la Communauté
+<dl>
+<$list filter="[tag[Communauté]] +[sort[author]]">
+<dt><$link>{{!!title}}</$link></dt>
+<dd>{{!!url}}</dd>
+<dd><i class="fa fa-tag"></i> {{!!description}}</dd>
+<dd>&raquo; //{{!!summary}}//</dd>
+<dd><i class="fa fa-male"></i> {{!!author}}</dd>
+</$list>
+</dl>

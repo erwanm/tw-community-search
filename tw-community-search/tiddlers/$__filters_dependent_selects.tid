@@ -1,0 +1,63 @@
+title: $:/filters/dependent selects
+1: foo bar baz
+2: mumble frotz gronk
+3: apple cider vinegar
+4: doo de li do
+5: jabba dabba ding dong
+created: 20150122165937825
+creator: Tobias Beer
+filter: [all[current]get<primary>]
+filter2: <<currentTiddler>>
+modified: 20150122233412396
+modifier: Tobias Beer
+primary: 4
+secondary: do
+summary: shows secondary select options depending on primary
+tags: filters  title Filters current Variable conditional get
+source-wiki-id: filters
+source-tiddler-title-as-text: dependent selects
+source-tiddler-title-as-link: dependent%20selects
+
+Depending on what you chose at the first select, the below example dynamcally retrieves the secondary options from the fields of the current tiddler. It uses the set widget to store the primary selection in a variable thus accessible to the get filter in the secondary select. A nested list then loops the options retrieved via the outer list filter.
+
+```
+<$select field='primary'>
+<$list filter="1 2 3 4 5">
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name="primary" value={{!!primary}}>
+<$select field='secondary'>
+<$list filter="[all[current]get<primary>]">
+<$list filter=<<currentTiddler>>>
+<option><<currentTiddler>></option>
+</$list>
+</$list>
+</$select>
+</$set>
+
+''first:'' {{!!primary}}<br>
+''second:'' {{!!secondary}}
+```
+
+<<<
+<$select field='primary'>
+<$list filter="1 2 3 4 5">
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name="primary" value={{!!primary}}>
+<$select field='secondary'>
+<$list filter="[all[current]get<primary>]">
+<$list filter=<<currentTiddler>>>
+<option><<currentTiddler>></option>
+</$list>
+</$list>
+</$select>
+</$set>
+
+''first:'' {{!!primary}}<br>
+''second:'' {{!!secondary}}
+<<<

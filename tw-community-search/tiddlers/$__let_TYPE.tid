@@ -1,0 +1,29 @@
+title: $:/let/TYPE
+created: 20141126230000000
+creator: Tobias Beer
+modified: 20141130230000000
+modifier: Tobias Beer
+summary: specifies the field type for the comparision or calculation
+tags: let  Suboperators
+source-wiki-id: let
+source-tiddler-title-as-text: TYPE
+source-tiddler-title-as-link: TYPE
+
+!!Example
+
+;`[let:DATE[20140101]]`
+:all modified at 01. Jan 2014 (using [[EQ|OPERATION]], the default comparision [[OPERATION]])
+
+!! Specification
+
+Required to be specified in @@color:#dd1144; UPPERCASE@@, supported field types are...
+
+|!Type|!Meaning|!Example|
+|[[DATE]]|a valid date|`20140102030405`|
+|[[NUM]]|a floating point number|`3.33`|
+|[[INT]]|an integer value|`3`|
+|[[BOOL]]|a truth value|`false`|
+
+!!Default
+
+[[NUM]]

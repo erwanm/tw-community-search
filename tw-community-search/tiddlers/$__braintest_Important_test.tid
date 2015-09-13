@@ -1,0 +1,13 @@
+title: $:/braintest/Important/test
+created: 20140220122759919
+creator: Danielo Rodriguez
+modified: 20140220125527474
+modifier: Danielo Rodriguez
+tags: braintest 
+source-wiki-id: braintest
+source-tiddler-title-as-text: Important/test
+source-tiddler-title-as-link: Important%2ftest
+
+<div class="roundedDiv yellowDiv">
+{{warning.svg}}  thing
+</div>

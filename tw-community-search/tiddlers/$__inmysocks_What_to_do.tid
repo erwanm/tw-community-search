@@ -1,0 +1,87 @@
+title: $:/inmysocks/What to do
+created: 20140924171126295
+modified: 20150721190032453
+num_recent: 10
+tags: inmysocks  Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: What to do
+source-tiddler-title-as-link: What%20to%20do
+
+<<fa fa-star>> ''I have a question!'' Some people (a whole 2 of them!) have asked about what new things I have been working on. Is there any actual interest in me setting up some sort of notification system? It would probably be using twitter because that is quick and easy. I would rather not spam my personal twitter feed with whatever I am playing with in tiddlywiki. If you want to answer you can use the [[user feedback form|User Feedback]] or [[the other ways to contact me|About Me]].
+
+The list below gets updated pretty often, I add new things to the end of the list so you may need to scroll down to see them.
+
+You can skip directly to [[Learning TiddlyWiki]] if you would like. Just be warned that like the rest of the site, it is a work in progress and is continually updated.
+
+If you are looking for something new and interesting, you can also to the [[Random List of Awesome Things]], a list of interesting TiddlyWiki things that other people have made. The list is randomly generated each time the wiki is loaded, so it should have different content every time you visit this site.
+
+!First:
+
+If you can't see the entire tiddler, or if you can't see the table of contents to the right you can click on the `Width/Font Size` button in the top right of the page to adjust the width so you can see everything. You can adjust the font and text spacing by clicking on the {{Menu Icon - Font Options}} button text to the change width button.
+
+If you want to get back to this view, press the home button in the middle of the top bar or above the table of contents to the right  to go back to the default tiddlers. it looks like this: {{$:/plugins/inmysocks/iconmenus/icon/Home}}.
+
+!Things I have made:
+
+[[Searchable list of most of my things|http://ooktech.com/jed/ExampleWikis/Directory.html]].
+From now on I am going to be using the [[Category Lists Plugin]] I made to both list things that I am planning on doing and as a change log. You can see it in the [[plans and change log|Change Log]]. Newest: [[Range Widget Plugin]], added ISBN field and custom user fields to the [[Library Tracker|http://inmysocks.tiddlyspot.com/#Dashboard%20Plugins]], see a demo on the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]]
+
+!Don't know what to do? Do you...
+(click on a list item to get help with that item)
+
+<ul>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Need help using this site?''" "Click the black {{Menu Icon - Help}} icon in the top menu and it will open the help page any time.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Have questions/comments about the site?''" "Click on the {{Menu Icon - User Feedback}} icon next to the help button to go to the user feedback form. Your responses won't be public.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Have questions that aren't answered on this site?''" "Go to the [[TiddlyWiki google group|https://groups.google.com/forum/#!forum/tiddlywiki]] and you can ask there.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want things that work without having to know how to edit a ~TiddlyWik?''" "Check out the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] for the thing I currently have available. They can be installed on your wiki by going to [[Dashboard Plugins]]. Demo Wikis:
+<ul><li>http://nolearningrequired-full.tiddlyspot.com/  - Everything that is currently available that uses my dashboard setup </li><li>http://nolearning-contactsdb.tiddlyspot.com/ - The contacts database by itself</li></ul>">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to know how to navigate this wiki?''" "The [[Table of Contents|Contents]] tab to the right (or possibly above this if you have a smaller screen) has a table of contents. Using the table of contents is probably the easiest way to navigate this wiki.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to know where to start looking for examples?''" "Start by going through the [[Wiki Examples]] to get a feel for what is possible, also http://tiddlywiki.com/ uses a tiddlywiki and has other examples of how they can be used. You can also look at my [[other example wikis|Other Wikis I Have]].">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to see a simple interactive fiction engine I made using ~TiddlyWiki?''" "Check out http://zorklike.tiddlyspot.com/">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want more resources for learning ~TiddlyWiki?''" "[[Other Places to Look]] lists other resources that have been very helpful for me when learning tiddlywiki. You can also look at the [[Bookmarks|$:/plugins/inmysocks/Bookmarks/Bookmarks]] on the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] for things tagged ~TiddlyWiki to get a long list of ~TiddlyWiki related links.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want an important message you should remember when using ~TiddlyWiki?''" "BACK UP YOUR WIKI!! DO IT!! Make sure you make at least one backup of your wiki when you are editing it. There can be weirdness that makes you lose all of your data so having a backup will save lots of work. Make a folder wherever your wiki is called `backups` and make a copy of your wiki in that folder before you start editing it every time you are going to edit it. And after you have made any significant edits make a backup copy. ''This is important.'' When I make a backup I add the date to the end of the name, so like `WikiReferenceWiki092514` and keep multiple old copies. You should probably do the same thing.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to know how to get the top bar and left menu on your wiki?''" "Go check out the [[Icon Menus Plugin]] tiddler for more information. You can configure the menu in the `Icon Menu Settings` tab of the [[Control Panel|$:/ControlPanel]]. There is also a demo of the icon menus at http://ooktech.com/iconmenus/.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to see what has been recently changed on this wiki?''" "{{Recent Changes}}">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to check if a you should update a plugin I made?''" "[[My Plugins]] has a list of my plugins and lists the current version and date it was updated, as well as the link to install it on your wiki.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to see a list of community pulgins?''" "[[Plugin twCard]] has a list of plugins and lists the current version and date it was updated along with a link to where it is available. This list is incomplete and some entries may be out of date. If you have a plugin you would like listed please email me or leave a comment using the feedback button in the upper left.">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton "''Want to see a list of other wikis I have made?''" "{{Other Wikis I Have}}">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton """''Want to see a list of currently unindexed questions and answers?''""" """[[Unindexed Miscellanea]]""">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton """''Want to see a list of the way too many projects I am currently working on?''""" """[[My List Of Way Too Many Projects]]""">>
+</li>
+<li style='list-style-type:none'>
+  <<textSliderNoButton """''Want to read my thoughts on the licensing issues surrounding creative works created using TiddlyWiki?''""" """[[Thoughts about TiddlyWiki and Licensing]]""">>
+</li>
+</ul>
+
+<<bottomOfTiddler {{!!title}}>>

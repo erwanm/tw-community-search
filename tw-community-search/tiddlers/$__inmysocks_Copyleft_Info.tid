@@ -1,0 +1,23 @@
+title: $:/inmysocks/Copyleft Info
+created: 20150721164910658
+modified: 20150723005506070
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Copyleft Info
+source-tiddler-title-as-link: Copyleft%20Info
+
+I have written a bit about what I see as the problems with licensing content for TiddlyWiki caused by it being a single page application in [[Thoughts about TiddlyWiki and Licensing]], read that for more information.
+
+For the purposes of this site I am going to mostly ignore the problems caused by single page applications and licensing and claim that plugins and wiki content are distinct entities as far as licenses are concerned. I know that not everyone shares this view.
+
+With that said here is how I am going to claim is the copyright/license status of things on this site:
+
+*The HTML code that isn't in one of the other categories here falls under [[the normal tiddlywiki license on github|https://github.com/Jermolene/TiddlyWiki5/blob/master/licenses/copyright.md]].
+*The core plugin (the $:/core tiddler itself) also falls under the normal TiddlyWiki license.
+*Any official TiddlyWiki plugins also use the normal TiddlyWiki license.
+*Any plugins that aren't by me on this site have whatever license their original creators gave them.
+*Non-plugin tiddlers that aren't created by me (there aren't many on this site) are copyright their respective creators.
+*Any plugins I created can be used however you wish, if you must attach a license for some reason use whichever of the permissive licenses best suits your needs as long as it allows modification and distribution. Note that if you use TiddlyWiki the source code is necessarily available to anyone who uses the wiki your create, this is a consequence of how TiddlyWiki works and is unavoidable.
+*As much as it is possible to legally do so without violating the above, the content that I have created on this wiki, with content defined as any non-shadow tiddlers (modified or otherwise), is under a Creative Commons Attribution-ShareAlike 4.0 International License. ~~Until I get answers to the questions raised in [[Thoughts about TiddlyWiki and Licensing]] I am going to assume that this works and is legal.~~ (From discussions on the TiddlyWiki forum it was explained to me that this is indeed legal, and not even really in question.)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Wiki Reference Wiki</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">inmysocks</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

@@ -1,0 +1,32 @@
+title: $:/taggly5/GettingStarted
+created: 20141117113416536
+modified: 20141117150906125
+tags: taggly5 
+source-wiki-id: taggly5
+source-tiddler-title-as-text: GettingStarted
+source-tiddler-title-as-link: GettingStarted
+
+This wiki explores how to leverage the basic concepts of TagglyTagging for ~TiddlyWiki5. TagglyTagging starts from the premise of tiddlers being tags, thus forming a tag hierarchy where — for speedy content creation — you extensively use the NewHere command.
+
+In [[classic TiddlyWiki|http://classic.tiddlywiki.com]], TagglyTagging implied a tagging structure similar to the following...
+
+!!!<<taginfo "My Degree">>
+* <<taginfo "Class A">>
+**  <<taginfo "Class A — Abstract">>
+**  <<taginfo "Class A — Schedule">>
+* <<taginfo "Class B">>
+**  <<taginfo "Class B — Abstract">>
+**  <<taginfo "Class B — Schedule">>
+
+!!to do
+
+Use the [[toc|http://tiddlywiki.com/#TableOfContentsMacro]] macro to [[conditionally|http://tb5.tiddlyspot.com/#Conditional%20ViewTemplate%20Section]] to list tocs for all tagging tiddlers at the bottom of a tiddler.
+
+!!references
+
+;MPTW
+:http://mptw.tiddlyspot.com/#TagglyTagging
+:the birthplace of TagglyTagging
+;Notestorm
+:http://notestorm.giffmex.org
+:tag based notetaking with dynamic toc

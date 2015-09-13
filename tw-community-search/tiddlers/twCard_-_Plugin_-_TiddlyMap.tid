@@ -1,0 +1,22 @@
+audience: 
+category: Data Presentation
+created: 20150106175012859
+date: 09-02-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: felixhayashi
+modified: 20150210030653275
+name: TiddlyMap
+plugin_tiddler: $:/plugins/felixhayashi/tiddlymap
+release: 
+repository: 
+revision: 0.6.5
+short_description: A plugin to make mindmaps using TiddlyWiki
+title: twCard - Plugin - TiddlyMap
+wiki: http://felixhayashi.github.io/TW5-TiddlyMap/index.html
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+
+{{||$:/CommunityPluginTemplate}}

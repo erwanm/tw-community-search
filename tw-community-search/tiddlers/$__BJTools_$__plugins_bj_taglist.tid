@@ -1,0 +1,16 @@
+title: $:/BJTools/$:/plugins/bj/taglist
+author: Jeffrey Wilkinson
+core-version: >=5.1.8
+created: 20150430164830277
+dependents: 
+description: (re-orderable) list on a tag
+revision: 0
+source: https://github.com/buggyj/TW5-taglist
+version: 0.0.7
+tags: BJTools 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: $:/plugins/bj/taglist
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftaglist
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

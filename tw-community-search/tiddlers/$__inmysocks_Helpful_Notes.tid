@@ -1,0 +1,16 @@
+title: $:/inmysocks/Helpful Notes
+blurb: Bits to remember
+created: 20141228003012947
+modified: 20150108190627106
+tags: inmysocks  Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Helpful Notes
+source-tiddler-title-as-link: Helpful%20Notes
+
+Because I keep forgetting this stuff. Some of these may be a bit more advanced.
+
+<$list filter='[tag<currentTiddler>]'>
+
+</$list>
+
+<<bottomOfTiddler>>

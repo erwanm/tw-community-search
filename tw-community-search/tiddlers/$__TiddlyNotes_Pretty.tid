@@ -1,0 +1,42 @@
+title: $:/TiddlyNotes/Pretty
+created: 20150204084523222
+modified: 20150220130202183
+tags: TiddlyNotes  Style
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Pretty
+source-tiddler-title-as-link: Pretty
+
+<<<
+Le style [[Pretty]] permet de mettre en avant un tiddler ou du texte.
+<<<
+
+*Auteur: ''Tobias Beer''
+*[[http://style.tiddlyspot.com/#.tb styles|http://style.tiddlyspot.com/#%24%3A%2F.tb%2Fstyles]] <i class="fa fa-external-link-square" style="color:#60B643"></i>
+
+Importer le tiddler suivant: [[$:/.s/styles/pretty]]
+
+Utilisation
+
+```
+<div class="pretty">
+
+{{Tiddler}} ou texte
+</div>
+```
+
+Ce qui donne (avec une transclusion)
+
+<div class="pretty">
+
+{{A propos}}
+</div>
+
+Ou avec du texte
+
+<div class="pretty">
+
+:Avec du texte
+</div>
+<br>
+
+Et vous pouvez très bien combiner ce style avec une [[scrollbox|Insérer un tiddler dans une scrollbox]].

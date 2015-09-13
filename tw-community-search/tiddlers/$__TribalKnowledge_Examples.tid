@@ -1,0 +1,24 @@
+title: $:/TribalKnowledge/Examples
+created: 20140305053327392
+modified: 20140307065307447
+type: text/vnd.tiddlywiki
+tags: TribalKnowledge 
+source-wiki-id: TribalKnowledge
+source-tiddler-title-as-text: Examples
+source-tiddler-title-as-link: Examples
+
+\define MyFilter()
+[tag[$(MyTag)$]subtopic{!!subtopic}sort[title]]
+\end
+
+<$set name="MyTag" value={{!!title}}>
+<$list filter="[is[current]tagging[]has[subtopic]each[subtopic]sort[subtopic]]">
+<div class="tw-menu-list-item">
+<strong><$view field="subtopic"/></strong>
+</div>
+<$list filter=<<MyFilter>>>
+<div class="tw-menu-list-subitem">
+<$link to={{!!title}}><$view field="title"/></$link><br>
+<div class="tw-menu-list-subitem">
+<$transclude field="blurb"/>
+</div></div></$list></$list></$set>

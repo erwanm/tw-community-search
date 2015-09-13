@@ -1,0 +1,24 @@
+title: $:/ThankYouPlugin/Detailed description
+created: 20150805172926263
+modified: 20150805173016697
+tags: ThankYouPlugin 
+source-wiki-id: ThankYouPlugin
+source-tiddler-title-as-text: Detailed description
+source-tiddler-title-as-link: Detailed%20description
+
+A ''detailed description'', presented to appear more or less like a resulting ~ThankYou table:
+
+<table  id="thankyoutable">
+<tr><td>@@color:crimson;line-height:200%; ★ @@''Individuals''<br>[[$:/plugins/ThankYou/Individuals]]<br>Lists each ''name'' appearing in ''thankyou'' fields that are added manually by you to tiddlers.<br>For example: `thankyou : MotovunJack`.</td><td><br>Next to each name, all tiddlers are listed where the //thankyou// field contains this name<br><br>@@color:gray; __The "mentions" section__ @@<br>This lists each tiddler where the name occurs in the text (i.e "references" or "backlinks")</td></tr>
+<tr><td>@@color:crimson;line-height:200%; ★ @@''Sites''<br>[[$:/plugins/ThankYou/Urls]]<br>(for "sites", e.g external sites or google discussions)<br>Lists each ''url'' appearing in ''thankurl'' fields that are added manually by you to tiddlers.<br>For example: `thankurl : https://groups.google.com/for...`.<br>Urls are automatically //displayed// truncated (but still link)<br></td><td><br>Next to each url, all tiddlers are listed where the //thankurl// field contains this url</td></tr>
+<tr><td>@@color:crimson;line-height:200%; ★ @@''Creators''<br>[[$:/plugins/ThankYou/Creators]]<br>Lists each ''name'' appearing in the (automatically created) ''creator'' fields. This mostly concerns imported tiddlers, e.g plugins.</td><td><br>Next to each name, all tiddlers are listed where the //creator// field contains this name</td></tr>
+</table>
+
+<br>''Three more'' tiddlers are included in the plugin:
+<<star>>[[$:/plugins/ThankYou]] - the actual table
+<<star>>$:/plugins/ThankYou/macros
+<<star>>$:/plugins/ThankYou/Stylesheet
+
+
+<br>''Note''<br>
+Each name/url/creator is only listed once in a section even if it occurs as the field value in many tiddlers. But if a value occurs for //different// thank fields, it will be listed for all those fields - for example; if you add MotovunJack to a //thankyou// field and our dear Motovun is also a //creator// of some tiddler, then he will be listed in both those sections.

@@ -1,0 +1,39 @@
+title: $:/TWHangouts/HangOut_076
+created: 20150113150327614
+modified: 20150113150455293
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_076
+source-tiddler-title-as-link: HangOut_076
+
+2015-01-06 - [[YouTube|https://www.youtube.com/watch?v=uUtfd0gA_jk]]
+
+"""
+0:00:00 Intro: frtl: Alex (later), Eric (later), Jed, Jeremy, Mat, Nathan (later), Rich (later), Tobias
+0:02:08 Jeremy- about the agenda
+0:03:12 Jeremy- about a post from Neil in the group: "How do we present TW to new users". Who is or should be our target group at the moment.
+0:08:40 .. aobut a "guided edition" for absolute beginners.
+0:10:17 .. status quo at the moment.
+0:11:00 Intro- Alex and Rich
+0:12:00 .. status quo at the moment. ... What does the HO audience think? ... discussion
+0:19:06 Jeremy- To whom, do we want to sell TW? ... discussion
+0:22:25 .. How can we make it easier for beginners? ... The first impression
+0:24:15 Rich- Can / Should there be other sites to learn TW? ..
+0:25:25 Intro- Eric, Nathan
+0:26:24 all- final thoughts / discussion ...
+0:41:17 Jeremy- Mat's questions- about federation ... What happens if TW has a break through and a lot of new users. What will happen?
+0:45:22 Jeremy- about GitHub pull requests and discussions. Should I make a pull request? ... If they are actionable.
+0:49:25 Jeremy- summary about "what is a pull request"
+0:50:20 Mat- about github. ... Some guidelines, how to contribute to GitHub.
+0:52:30 Jeremy- short intro about the new "railroad" diagrams
+0:57:10 Jeremy- would like to have somebody in the community, who creates a "news bullitin board" for TiddlyWiki. ... discussion
+1:01:50 Mat- about federation .. What could we do, if there would be TW federation. The minimum requirement to participate, should be a static web server. ...
+1:13:55 Rich ... How does the RSS stuff work?
+1:17:52 Intro Arlen (no mic)
+1:18:07 Mat ... discussion about iframes, and security concerns.
+1:22:10 .. Is it possible to target only one tiddler? .. yes TiddlyWeb
+1:26:39 .. discussion about how to get one tiddler with a node.js server.
+1:45:30 Nicholas Q&A- may be next time
+1:47:40 next handgout will be 27th of Jan. 2015
+1:48:30 Bye! Bye!
+"""

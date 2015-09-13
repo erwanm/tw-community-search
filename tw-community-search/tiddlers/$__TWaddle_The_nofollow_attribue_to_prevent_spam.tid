@@ -1,0 +1,15 @@
+title: $:/TWaddle/The nofollow attribue to prevent spam
+created: 20150417225855113
+creator: Mat
+modified: 20150715203158281
+modifier: Mat
+recent: 15/04/18	
+tags: TWaddle  Federation
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The nofollow attribue to prevent spam
+source-tiddler-title-as-link: The%20nofollow%20attribue%20to%20prevent%20spam
+
+Of possible use when we go Federation might be the attribute (rel="nofollow") on hyperlinks.
+
+[[more info|http://googleblog.blogspot.se/2005/01/preventing-comment-spam.html]]
+

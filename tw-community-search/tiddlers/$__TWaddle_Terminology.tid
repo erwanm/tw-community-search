@@ -1,0 +1,21 @@
+title: $:/TWaddle/Terminology
+created: 20150403000358435
+creator: Mat
+modified: 20150715202857196
+modifier: Mat
+note: ...and, yes, I make up words. So did Shakespeare.
+recent: 15/07/15
+summary: List of TWaddle-specific terms or just specific terminology used on TWaddle
+tags: TWaddle  tag
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Terminology
+source-tiddler-title-as-link: Terminology
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[Term]!tag[Unfinished]] [all[shadows+tiddlers]!has[draft.of]tag[Terminology]!tag[Unfinished]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!text}}</td>
+</tr>
+</$list>
+</table>

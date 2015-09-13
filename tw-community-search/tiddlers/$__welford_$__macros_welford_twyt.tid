@@ -1,0 +1,15 @@
+title: $:/welford/$:/macros/welford/twyt
+author: James W. Anderson
+core-version: >=5.0.0
+dependents: 
+description: simple youtube macro
+list: readme
+revision: 0
+version: 5.1.10-prerelease
+tags: welford 
+source-wiki-id: welford
+source-tiddler-title-as-text: $:/macros/welford/twyt
+source-tiddler-title-as-link: %24%3a%2fmacros%2fwelford%2ftwyt
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

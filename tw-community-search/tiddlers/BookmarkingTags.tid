@@ -1,0 +1,37 @@
+created: 20150903002032914
+modified: 20150904001926794
+tags: UserDocumentation
+title: BookmarkingTags
+type: text/vnd.tiddlywiki
+
+!! Idea
+
+This functionality helps you follow the content about specific topics published in the community, provided it is tagged appropriately.
+
+!! Usage
+
+For every tag found in the community wikis, a "~CommunityTag tiddler" is created with this tag. The list of all tags is visible in CommunityTags (remark: this tiddler might be slow to open  because the list it contains is big). 
+
+As usual, you can click on the tag pill to see the list of all tiddlers with this tag (with links to the original wiki). You can also click on the top item in the list: this opens the corresponding ~CommunityTag tiddler itself. It contains:
+
+* The list of all tiddlers tagged wit this tag (sorted by modification time, most recent first).
+* The most recent tiddlers contaning the text in the tag. This way you have access to anything recent related (even vaguely) to the topic.
+
+If you are interested in following content tagged and/or related to this tag, you can use the <a href="http://tiddlywiki.com/#PermaLinks">permalink</a> icon (or the permaview icon) to bookmark the ~CommunityTag tiddler. This way you can access directly the content you are interested in.
+
+
+
+!! Example
+
+Imagine that you want to follow everything related to images in TW. You can see that there are two tags about that in CommunityTags:
+
+
+{{images||$:/core/ui/TagTemplate}} {{Images||$:/core/ui/TagTemplate}}
+
+You can open these two ~CommunityTag tiddlers tiddlers (click on the first link from the tag pill), close all the other open tiddlers (optional), and then click the permaview icon: {{$:/core/images/permaview-button}}
+
+The address bar in your browser changes to a link to the ~CommunitySearch wiki with these two tiddlers open. You can bookmark it; when you come back later you arrive directly on the same two ~CommunityTag tiddlers, updated with any change which happened in the meantime.
+
+!! Acknowledgements
+
+//Thanks to FelixKuppers for the idea!//

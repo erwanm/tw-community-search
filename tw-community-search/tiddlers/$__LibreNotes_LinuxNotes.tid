@@ -1,0 +1,22 @@
+title: $:/LibreNotes/LinuxNotes
+created: 20150530120329512
+modified: 20150611091423931
+tags: LibreNotes  transblack
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: LinuxNotes
+source-tiddler-title-as-link: LinuxNotes
+
+<table class="invisibletable">
+<tr>
+<td valign="center">
+<div style="font-size:0.7em; vertical-align: text-top; margin-top:0em;margin-bottom:0em;">
+<<list-thumbnails filter:"[tag[thumbnail_LN]]" width:"336" height:"190">>
+</div>
+</td>
+<td>
+<div style="text-align:center;font-size:80%;"><div style="font-size:0.7em;text-align:center;margin-top:0em;margin-bottom:2em;">
+<a href="http://librenotes.bitbucket.org/linuxnotes" class="tc-btn-big-green" style="text-decoration:none; background-color:#0066CC;" target="_blank">
+''~LinuxNotes'' <i class="fa fa-external-link-square"></i></a>
+</div>
+
+Un guide d'utilisation de Chakra, une distribution GNU/Linux centrée sur KDE

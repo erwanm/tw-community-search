@@ -1,0 +1,32 @@
+title: $:/TWaddle/Idea for listificator
+created: 20150701100215156
+creator: Mat
+modified: 20150715205136418
+modifier: Mat
+recent: 15/07/01	
+tags: TWaddle  Proposal Nitpicks
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Idea for listificator
+source-tiddler-title-as-link: Idea%20for%20listificator
+
+Not a huuuge deal, but sometimes I paste in ready made lists e.g that I found on the internet, in this format
+
+aaa<br>
+bbb<br>
+ccc
+
+etc. They can be long. The problem is that then I must manually add asterisks to them to make it into bullet lists or colons for indentation. It would be nice with some macro or something that would let you do this;
+
+```
+<<listify "*" "
+aaa
+bbb
+ccc
+">>
+```
+
+...in other words it takes as first argument the bullet type (asterisk for bullets, hashtag for number, colon for indentation, ...more?) and as second argument the raw list. Maybe it could even accept a horizontal set as second argument (i.e words like in a sentence).
+
+This has a benefit of still clearly showing the list in edit mode.
+
+Maybe some way to specify a class for styling? Or that should perhaps be a surrounding div.

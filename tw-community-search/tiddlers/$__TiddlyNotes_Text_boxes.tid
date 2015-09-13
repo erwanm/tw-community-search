@@ -1,0 +1,28 @@
+title: $:/TiddlyNotes/Text boxes
+created: 20150225154643932
+modified: 20150225155704645
+tags: TiddlyNotes  Style
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Text boxes
+source-tiddler-title-as-link: Text%20boxes
+
+*Auteur: ''David Gifford''
+*http://notestorm.giffmex.org/
+
+Importer le tiddler suivant: [[$:/.s/styles/textboxes]]
+
+Utilisation
+
+```
+<span class="textboxwhite">
+
+{{Tiddler}} ou texte
+</span>
+```
+
+Ce qui donne
+
+<span class="textboxwhite">
+
+Avec du texte
+</span>

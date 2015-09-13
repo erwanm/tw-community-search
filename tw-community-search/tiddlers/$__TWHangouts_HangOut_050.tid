@@ -1,0 +1,50 @@
+title: $:/TWHangouts/HangOut_050
+created: 20141229023628007
+modified: 20141229023719464
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_050
+source-tiddler-title-as-link: HangOut_050
+
+2014-06-17 - [[YouTube|https://www.youtube.com/watch?v=FdNDuF4UnlA]]
+
+"""
+0:00:00 Intro: Jeremy, Stephan, Mario (later)
+0:00:40 What's new .. accessibility + discussion
+0:08:42 Mario joined ... intro
+0:10:12 back to the accessibility discussion. ... page title is an h1 now. tiddler title is h2 now. How do others do it.
+0:16:10 Nathan joined
+0:17:10 Jeremy- NEW: state tiddlers are not saved anymore, which should fix some strange UI behaviour for new users
+0:21:19 Mario- The TiddlyIE extension didn't work with IE11
+0:22:38 Jeremy- NEW: external images functions should be finished now
+0:24:00 Jeremy- new "build" command options in the tiddlywiki .info file
+0:24:50 Jeremy- external links for html-tiddlers can be included as iframes now.
+0:29:28 copy / paste html fragments also inlcude an iframe
+0:31:40 Jeremy- there should be a possibility to handle "semless iframes"
+0:32:23 Jeremy- NEW: extending the server path, for better route handling.
+0:34:32 Jeremy- NEW: global macros work now
+0:40:08 Nathan- Does it scope macros?
+0:41:32 Jeremy- is working on the "Environment Variables" ticket atm.
+0:42:10 Jeremy- What's next .. (modifying the roadmap tiddler :)
+0:42:47 Stephan- missed the "Environment Variables" info
+0:44:35 ... skimming the issue list
+0:45:01 Stephan- What about the "new filters" proposal issue?
+0:47:20 Jeremy- what needs to be done ... backups, upgrade wizard
+0:51:20 Danielo joined
+0:52:00 ... about the upgrade process
+0:53:15 Jeremy / Danielo issue with codemirror ... discussion (problem with the hangout focus)
+1:02:55 Jeremy- Let's talk about the future
+1:05:14 Jeremy- want's to make a hirachical table of content (widgets/template/global macros)
+1:06:24 Danielo-? (sry I can't understand the question - jeremy did - something with external plugins)
+1:07:30 Jeremy- a concept picture about library handling ( ( (Core) Core Library) 3rd party Libraris)
+1:14:00 ... we want to solve the "orphan plugins" problem ...
+1:18:35 Mario- sees the central repository as the "stable branch"
+1:20:25 Jeremy- ... more details (about the workflow)
+1:27:05 ... how others do there plugin management (doku-wiki, atom, brackets)
+1:33:24 Danielo- has a new "import plugin" ... (some problems with screen sharing)
+1:35:51 ... jeremy back online
+1:40:25 Jeremy / Danielo- discussion about the implementation and Jeremy's point of view (ideas)
+1:47:15 Jeremy- ... "philosophical" discussion about open source and the TW project and plugin mechanism.
+1:56:35 Jeremy- about TW language contributions
+1:59:20 Bye! Bye!
+"""

@@ -1,0 +1,22 @@
+title: $:/inmysocks/Change Tiddler Width Button
+blurb:  Things for the button in the upper left that changes the width of the wiki
+created: 20150106224345122
+modified: 20150409234104362
+tags: inmysocks  Tools
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Change Tiddler Width Button
+source-tiddler-title-as-link: Change%20Tiddler%20Width%20Button
+
+The button uses these tiddlers (this was updated 03-03-2015):
+
+*[[TiddlerWidthSettings]] - the tiddler that pops up when you click the button
+*[[ChangeSizeButton]] - the button itself, you have to add the tag `$:/tags/TopLeftBar` to always show the button in the top left corner.
+*[[Alternative Story Style CSS]] - hold the css classes that override the default classes. This should work for other themes. I think.
+*[[$:/settings/apperance/TiddlerWidthSettings]]
+*[[$:/settings/apperance/TiddlerWidthSettings/sidebar_scrollable]]
+*[[$:/settings/apperance/TiddlerWidthSettings/story_river]]
+*[[$:/settings/apperance/TiddlerWidthSettings/tiddler_frame]]
+
+If you import those tiddlers into your wiki than you will have a working button.
+
+<<bottomOfTiddler>>

@@ -1,0 +1,13 @@
+title: $:/gWiZ/$:/plugins/tiddlywiki/fullscreen
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Adds support for HTML5 full screen mode
+version: 5.0.13-beta
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/fullscreen
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2ffullscreen
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,22 @@
+title: $:/demo/Better Tag Select
+created: 20150110194406591
+creator: Tobias Beer
+modified: 20150110213925207
+modifier: Tobias Beer
+tags: demo  Filters Templates Buttons
+source-wiki-id: demo
+source-tiddler-title-as-text: Better Tag Select
+source-tiddler-title-as-link: Better%20Tag%20Select
+
+With the below modification, the tag popup lists of both, titles used tags as well as non-system tiddlers matching the title. Try searching for `button` in the ''Demo'' below.
+
+As suggested at <<git5 issues/1333#issuecomment-69458861>>, I modified the filter in [[$:/core/ui/EditTemplate/tags]] to try and also list existing tiddler titles matching the search term in the title...
+
+```
+<$list filter="[tags[]search{$:/temp/NewTagName}][!is[system]search:title{$:/temp/NewTagName}] +[sort[]]">
+```
+
+!! Demo
+
+[[$:/core/ui/EditTemplate/tags]]
+{{$:/core/ui/EditTemplate/tags}}

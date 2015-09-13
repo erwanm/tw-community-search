@@ -1,0 +1,18 @@
+title: $:/fontawesome/tagging
+created: 20141130161339216
+creator: Tobias Beer
+modified: 20141202145719811
+modifier: Tobias Beer
+tags: fontawesome 
+source-wiki-id: fontawesome
+source-tiddler-title-as-text: tagging
+source-tiddler-title-as-link: tagging
+
+<$list filter="[all[current]tagging[]sort[title]]">
+
+<h1><$link><$view field=title/></$link></h1>
+<span class="fa fa-5x preview-fa-icon">{{!!awe}}
+</span><span class="preview-fa">
+<$view field="awe" format="text/plain"/>
+</span>
+</$list>

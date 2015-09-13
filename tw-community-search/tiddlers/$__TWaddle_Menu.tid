@@ -1,0 +1,29 @@
+title: $:/TWaddle/Menu
+created: 20150330232737719
+creator: Mat
+modified: 20150728162956161
+modifier: Mat
+recent: 15/03/31	
+tags: TWaddle  TWaddle OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Menu
+source-tiddler-title-as-link: Menu
+
+<div id="leftbar2">
+{{img/logo}}
+
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[menu]]">
+<br> &nbsp;@@color:grey; ⚬@@&nbsp;&nbsp;<$link to={{!!title}}><$view field="title" format="text">{{!!title}}</$view></$link>
+</$list>
+
+<div id="lowmenu">[[@you|@ttention]]<br>[[Cred]]<br>[[Index|Reference & Index]]<br>[[About|About this webpage]]<br><<linkimg "Bigger community ⇄ Better TW" "img/fish_small" "click me!" clickme 40px>>
+</div>
+</div>
+
+{{FastNewInMenu}}
+
+<style>
+   #leftbar2 {position: fixed !important; left:5px; top: 5px; bottom:0px; font-size:large;  line-height: 150%; }
+   #newtid  {position:fixed; background-color:white; width: 250px; height:20px; left:0px; top: -20px; }
+   #lowmenu {font-size:90%; position: absolute; bottom:20px; text-align:center; width:{{$:/themes/tiddlywiki/vanilla/metrics/storyleft}}; }
+</style>

@@ -1,0 +1,12 @@
+title: $:/fields/Examples
+color: #eeeeee
+created: 20150107110949046
+modified: 20150107211203037
+tags: fields 
+source-wiki-id: fields
+source-tiddler-title-as-text: Examples
+source-tiddler-title-as-link: Examples
+
+<$list filter="[all[current]tagging[]]">
+
+</$list>

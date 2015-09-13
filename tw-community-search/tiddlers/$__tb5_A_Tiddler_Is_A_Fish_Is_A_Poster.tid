@@ -1,0 +1,13 @@
+title: $:/tb5/A Tiddler Is A Fish Is A Poster
+created: 20150113182000480
+creator: Tobias Beer
+modified: 20150113182552628
+modifier: Tobias Beer
+summary: <<tagline>>
+url: {{$:/.img/fish.svg!!url}}
+tags: tb5  Images
+source-wiki-id: tb5
+source-tiddler-title-as-text: A Tiddler Is A Fish Is A Poster
+source-tiddler-title-as-link: A%20Tiddler%20Is%20A%20Fish%20Is%20A%20Poster
+
+<div style="margin:0 -45px 0 -43px">{{$:/.img/fish.svg}}</div>

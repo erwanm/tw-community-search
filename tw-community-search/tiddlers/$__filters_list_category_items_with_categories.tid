@@ -1,0 +1,20 @@
+title: $:/filters/list category items with categories
+created: 20150120112109640
+creator: Tobias Beer
+filter: [all[current]tagging[]tagging[]sort[title]]
+filter2: [<item>tags[]] +[tag<currentTiddler>]
+modified: 20150122174004678
+modifier: Tobias Beer
+summary: filter parent tags by having a matching property, e.g. tag or field
+tags: filters  Filters tagging current sort nested Variable
+source-wiki-id: filters
+source-tiddler-title-as-text: list category items with categories
+source-tiddler-title-as-link: list%20category%20items%20with%20categories
+
+Below, the outer list gathers all items, e.g. publications, tagging to any tiddler tagged [[Author]] sorted by title. The inner list then loops all [[Author]] associated with a publication.
+
+Example <<source Author>>
+
+`{{Author}}`
+
+> {{Author}}

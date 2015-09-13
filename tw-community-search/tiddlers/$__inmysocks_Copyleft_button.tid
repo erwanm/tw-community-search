@@ -1,0 +1,12 @@
+title: $:/inmysocks/Copyleft button
+created: 20150721164450110
+modified: 20150721180707589
+top_left_menu_order: 10
+tags: inmysocks  [[Menu Icon]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Copyleft button
+source-tiddler-title-as-link: Copyleft%20button
+
+<$button class='tc-btn-invisible' to='Copyleft Info' tooltip='Copyleft Info'>
+[img height=20px [Copyleft.svg]]
+</$button>

@@ -1,0 +1,52 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #048
+created: 20150105202755000
+modified: 20150105211706598
+tags: TWHangouts  HangOut_048 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #048
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23048
+
+\define hangout() 048
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro- frtl: Dave, Jeremy, Stephan, Ton">>
+<<topic "0:02:00" "Dave- shares some new experiments .. notes templates, todo's ... creating tiddler hirachies">>
+<<topic "0:05:55" "Jeremy- about Dave's navigation buttons, ... some discussion about the interface">>
+<<topic "0:08:30" "Dave- shows his 'tabbed interface' ... table of contents ... improved search">>
+<<topic "0:10:45" "Jeremy- about TW as an IDE?!">>
+<<topic "0:11:55" "Jeremy- about more svg icons, ... help requested!">>
+<<topic "0:13:12" "Jeremy- 3rd party plugins, from 'JSXGraph Widget'">>
+<<topic "0:18:20" "Mario- intro: hi!">>
+<<topic "0:18:55" "Jeremy- about Danielo's plugins .. context search plugin">>
+<<topic "0:21:15" "Jeremy- question from Stephan: Is there a widget guideline?">>
+<<topic "0:24:17" "Mario- about tiddlywiki.org .. and docs">>
+<<topic "0:25:38" "Jeremy- recent changes in 5.0.13 ... the new 'select widget' ...">>
+<<topic "0:29:42" "Mario- can you show the content of the 'select target tiddler'">>
+<<topic "0:32:52" "dicussion with Stephan about his usecase. ... a select widget should be able to enumerate the content of a data-tiddler">>
+<<topic "0:34:25" "About the ControlPanel: Advanced tab ... discussion about 'hidden and visible configuration' with mario">>
+<<topic "0:29:50" "Jeremy- tiddler types with the select widget ... intro and some tweaking ...">>
+<<topic "0:46:18" "Jeremy- about html5 'combo box control'">>
+<<topic "0:47:15" "Jeremy- about the tiddler layout refactoring and the select widget 'grayed out text'">>
+<<topic "0:48:30" "Jeremy- tweaks to the 'permalink' behaviour + discussion about 'user problems'">>
+<<topic "0:54:37" "Jeremy- Escape as shortcut is back">>
+<<topic "0:55:35" "Mario- Idea about a 'notification mechanism for new functions' ...">>
+<<topic "0:57:40" "Jeremy- about the update process, upgrade widget">>
+<<topic "0:58:56" "Jeremy- is speaking at a company conference in germany ...">>
+<<topic "1:01:15" "Jeremy- things to do in the next version, tiddlyspot as a plugin,">>
+<<topic "1:05:53" "any questions - no">>
+<<topic "1:06:00" "Jeremy- tiddlywiki(.)com documentation should be updated independently to the TW version">>
+<<topic "1:07:45" "Jeremy- about VaxTab ... there are licensing problems">>
+<<topic "1:09:04" "Jeremy- about the Indie Tech Manifesto / Summit">>
+<<topic "1:14:11" "CSS print question from Dave">>
+<<topic "1:20:11" "Jeremy- .. New feature - horizontal tabs ... can handle looooong titles">>
+<<topic "1:24:35" "Jeremy- about the flex box layout for the whole tw page (in the future) ...">>
+<<topic "1:31:55" "Jeremy- about the problem with FireFox and the toolbar buttons. ..">>
+<<topic "1:35:10" "Mario- Some more feedback from IE users?">>
+<<topic "1:37:13" "Jeremy- was playing with IOS 8 .. and Safari WebGL support.">>
+<<topic "1:41:21" "Mario- Have you seen famo(.)us?">>
+<<topic "1:46:00" "Jeremy- Apple's new language 'swift'">>
+<<topic "1:49:25" "Mario- How does swift affect TW? ... Jeremy- about a CLI for TW.">>
+<<topic "1:52:14" "Dave- Will entering the search string be more performant in the future - again?">>
+<<topic "1:58:10" "Bye! Bye!">>
+"""

@@ -1,0 +1,36 @@
+title: $:/fields/field starting with current title
+created: 20150109193239366
+creator: Tobias Beer
+filter: [regexp:my-field<regexp>]
+modified: 20150122171943061
+modifier: Tobias Beer
+my-field: field starting with current title and then some
+summary: regexp filtering based on a field value
+tags: fields  Filters Variable current regexp
+source-wiki-id: fields
+source-tiddler-title-as-text: field starting with current title
+source-tiddler-title-as-link: field%20starting%20with%20current%20title
+
+\define starts-with() ^$(currentTiddler)$
+
+The following example uses a ''starts-with'' macro concatenating a regular expression string into a variable then used in a filter to match field-values starting with the current tiddlers title...
+
+```
+\define starts-with() ^$(currentTiddler)$
+
+<$set name=regexp value=<<starts-with>>>
+<$list filter="[regexp:my-field<regexp>]" mode=block/>
+</$set>
+
+; proof
+: <code>{{!!my-field}}</code>
+```
+
+<<<
+<$set name=regexp value=<<starts-with>>>
+<$list filter="[regexp:my-field<regexp>]" mode=block/>
+</$set>
+
+; proof
+: <code>{{!!my-field}}</code>
+<<<

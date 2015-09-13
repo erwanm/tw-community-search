@@ -1,0 +1,91 @@
+title: $:/welford/My Plugins
+created: 20150423201907932
+modified: 20150423203034176
+revision: 0
+type: text/vnd.tiddlywiki
+tags: welford 
+source-wiki-id: welford
+source-tiddler-title-as-text: My Plugins
+source-tiddler-title-as-link: My%20Plugins
+
+!!twexe
+<<<
+only works in offline hta versions of TW. Very useful for windows users. It lets you register and run exes from tiddlywiki
+
+Source: https://github.com/welford/twexe
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/twexe]]
+<<<
+
+!!twpin
+<<<
+It lets you pin and unpin tiddlers to the home page via these buttons {{$:/plugins/welford/twpin/images/pinned}} {{$:/plugins/welford/twpin/images/unpinned}}
+
+Very handy!
+
+Source: https://github.com/welford/twpin
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/twpin]]
+<<<
+
+!!twstaticblog
+<<<
+Lets you export a static blog from tiddlywiki posts 
+
+Source: https://github.com/welford/twstaticblog
+
+Example: http://www.phasersonkill.com for a complex example or http://welford.github.io/static-sample/example.html and http://welford.github.io/static-sample/blog/index.html for a barebones tutorial one.
+
+
+<<<
+
+
+!!twspimg
+<<<
+lets you add images to tidders as the background-image element of a span. (pronounced like spinach?)
+
+Source: https://github.com/welford/twspimg
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/twspimg]]
+
+Exammple: [[spimg]]
+
+<<<
+
+!!twyt
+
+<<<
+lets you embed youtube videos in a tiddler and have links jump to specific times within that embedded video.
+
+Source: https://github.com/welford/twyt
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/twyt]]
+
+Example: [[twyt]]
+
+<<<
+
+!!htalink
+
+<<<
+
+Will only work in offline hta editions of this page. Launches external links in your default browser and not IE.
+
+Source: https://github.com/welford/htalink 
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/htalink]]
+
+<<<
+
+!!mousetrap
+
+<<<
+
+a port of Mousetrap http://craig.is/killing/mice
+
+Source: https://github.com/welford/twmousetrap
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/plugins/welford/twmousetrap]]
+
+Example: Press / on your keyboard and the focus should jump to the search bar at the top.
+<<<

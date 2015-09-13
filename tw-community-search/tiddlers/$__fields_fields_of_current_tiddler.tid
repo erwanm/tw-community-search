@@ -1,0 +1,27 @@
+title: $:/fields/fields of current tiddler
+caption: field values
+created: 20150107200214288
+creator: Tobias Beer
+filter: [all[current]fields[]sort[title]] -text
+modified: 20150213155626586
+modifier: Tobias Beer
+summary: output all fields and field values for the current tiddler
+tags: fields  Variable current fields Filters all Fields
+source-wiki-id: fields
+source-tiddler-title-as-text: fields of current tiddler
+source-tiddler-title-as-link: fields%20of%20current%20tiddler
+
+{{||$:/core/ui/TiddlerFields}}
+
+rendered via <<source "$:/core/ui/TiddlerFields">>
+
+!!Definition List
+
+An [[example from Stephan Hradek|https://groups.google.com/d/msg/tiddlywiki/0EKGTWfzm6E/58WMaUeZ5NwJ]] to render the above using a definition list...
+
+<$macrocall $name="`" text="""<dl>
+<$list filter="[is[current]fields[]sort[title]] -[[text]]" variable="fieldname">
+<dt><$text text=<<fieldname>>/></dt>
+<dd><$view field=<<fieldname>>/></dd>
+</$list>
+</dl>"""/>

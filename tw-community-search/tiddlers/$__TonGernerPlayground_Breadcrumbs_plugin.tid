@@ -1,0 +1,16 @@
+title: $:/TonGernerPlayground/Breadcrumbs plugin
+caption: Breadcrumbs
+created: 20150719185845785
+creator: TonGerner
+modified: 20150719190910713
+modifier: TonGerner
+tags: TonGernerPlayground  plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Breadcrumbs plugin
+source-tiddler-title-as-link: Breadcrumbs%20plugin
+
+!!Breadcrumbs plugin v<<pversion "breadcrumbs">>
+[[$:/plugins/tongerner/breadcrumbs]]
+
+A plugin to create breadcrumbs of open tiddlers. It works best in Zoomin view.<br>
+A button can be added to the Page Toolbar and/or View Toolbar to toggle the breadcrumbs on/off.

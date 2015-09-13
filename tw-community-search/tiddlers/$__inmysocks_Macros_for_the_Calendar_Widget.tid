@@ -1,0 +1,49 @@
+title: $:/inmysocks/Macros for the Calendar Widget
+created: 20150301025851271
+modified: 20150331040521028
+tags: inmysocks  [[Calendar Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Macros for the Calendar Widget
+source-tiddler-title-as-link: Macros%20for%20the%20Calendar%20Widget
+
+A macro for the [[calendar-month widget|Calendar Plugin]] is given the day of the month as input in the from of a number between 1 and 31 corresponding to the date the macro is contained in.
+
+Currently this is the only input given to the calendar widget, if you have suggestions or requests for additional parameters that can be passed used the [[feedback form|User Feedback]] or post to the [[google group|https://groups.google.com/forum/#!forum/tiddlywiki]].
+
+In order to be useful a macro used should generally have behavior that is specific to each date (using the day, month and year), otherwise there will be no difference in what is displayed on each date, or in what happens when you click on a date (if you have anything happen).
+
+The default macro used is:
+
+```
+\define CalendarListDailyThings(day month year)
+<$button class='tc-btn-invisible' style='width:100%;height:100%'>
+<$action-navigate $to="""$day$-$month$-$year$"""/>
+<div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'>
+''$day$''<br>
+<$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'>
+<$view field='title'/><br>
+</$list>
+</div>
+</$button>
+\end
+```
+
+This macro:
+
+*Sets the entire area of the cell for each date as a button
+*This button opens up a tiddler named in the form day-month-year, where the day, month and year correspond to the date clicked on
+*Lists all tiddlers that have a fields called `day` `month` and `year` that match the date on the calendar.
+
+The macro is passed the day, month and year as parameters.
+
+!Custom Macros
+
+If you want your calendar to list different things or to have dates do something different when clicked on (or have them do nothing) you can create a custom macro to use.
+
+The macros are passed 3 parameters by the widget, `day`, `month` and `year`, which correspond to the day, month and year of the calendar date. The parameter `month` given to the macro is in the same form as what is passed to the widget.
+
+Note that you don't have to have the month or the year, but if you omit them than you will have the same content displayed in every month.
+
+If you have a specific macro, or a detailed description of a macro you want, that you think would be generally useful and would like it added to the plugin leave a message using the [[feedback form|User Feedback]]. Remember that I unless you give a detailed description of what you are asking for I probably won't be much help, and I will follow any suggestions or not at my discretion and there is no guarantee I will provide any response or assistance.
+
+''Note that if you do this than you give me permission to add any macros you give to the plugin which will be distributed freely.''

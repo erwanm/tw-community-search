@@ -1,0 +1,18 @@
+title: $:/TWaddle/GDrive iframe editable
+created: 20150402204928859
+creator: Mat
+modified: 20150715204431144
+modifier: Mat
+recent: 15/04/03	
+tags: TWaddle  [[Twoogle Drive]]
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: GDrive iframe editable
+source-tiddler-title-as-link: GDrive%20iframe%20editable
+
+<style>
+   #o_doc_editable {position: relative; width: 100%; }
+   #i_doc_editable {position: absolute; left: -110px; top: -210px; clip:rect(215px 605px 705px 90px); display:block; }
+</style>
+<div id="o_doc_editable"><div id="i_doc_editable" >
+   <iframe  src="https://docs.google.com/document/d/1UqUuHk_LpHO-26b7-K-PrO5e6-VVd3FXxaKhNdJOvU0/edit?usp=sharing" scrolling="no" frameborder="1" overflow="hidden" width="700px" height="400px"  ></iframe>
+</div></div><br><br><br><br><br><br><br><br>

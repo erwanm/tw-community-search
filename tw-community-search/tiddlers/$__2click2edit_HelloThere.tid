@@ -1,0 +1,14 @@
+title: $:/2click2edit/HelloThere
+creator: danielo515
+revision: 0
+type: text/vnd.tiddlywiki
+tags: 2click2edit 
+source-wiki-id: 2click2edit
+source-tiddler-title-as-text: HelloThere
+source-tiddler-title-as-link: HelloThere
+
+This plugin adds the ability to edit tiddlers by double clicking on its body.
+Just try to edit any tiddler shown here by double clicking on it.
+
+This can be considered a fast solution. It is only to fill the gap until TiddlyWiki adds support 
+for it officially.

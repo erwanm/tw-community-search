@@ -1,0 +1,67 @@
+title: $:/fields/dependent selects via system tiddlers
+1: foo bar baz
+2: mumble frotz gronk
+3: apple cider vinegar
+4: doo de li do
+5: jabba dabba ding dong
+created: 20150122195630715
+creator: Tobias Beer
+filter: [<secondary>get[text]]
+filter2: <<currentTiddler>>
+modified: 20150122232926353
+modifier: Tobias Beer
+primary: 2
+secondary: gronk
+summary: shows secondary select options depending on primary as constructied via macro concatenation of a tiddler path
+tags: fields  title Filters current Variable conditional get
+source-wiki-id: fields
+source-tiddler-title-as-text: dependent selects via system tiddlers
+source-tiddler-title-as-link: dependent%20selects%20via%20system%20tiddlers
+
+\define secondary() $:/.tb/dummy/$(primary)$
+
+The below example gets the secondary options from tiddlers whose name correspond to the selected primary option, e.g. [[$:/.tb/dummy/2]].
+
+```
+\define secondary() $:/dummy/$(primary)$
+
+<$select field='primary'>
+<$list filter="1 2 3 4 5">
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name="primary" value={{!!primary}}>
+<$select field="secondary">
+<$list filter="[<secondary>get[text]]">
+<$list filter=<<currentTiddler>>>
+<option><<currentTiddler>></option>
+</$list>
+</$list>
+</$select>
+</$set>
+
+''first:'' {{!!primary}}<br>
+''second:'' {{!!secondary}}
+```
+
+<<<
+<$select field='primary'>
+<$list filter="1 2 3 4 5">
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name="primary" value={{!!primary}}>
+<$select field="secondary">
+<$list filter="[<secondary>get[text]]">
+<$list filter=<<currentTiddler>>>
+<option><<currentTiddler>></option>
+</$list>
+</$list>
+</$select>
+</$set>
+
+''first:'' {{!!primary}}<br>
+''second:'' {{!!secondary}}
+<<<

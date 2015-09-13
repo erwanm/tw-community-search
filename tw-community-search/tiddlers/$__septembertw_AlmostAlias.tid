@@ -1,0 +1,16 @@
+title: $:/septembertw/AlmostAlias
+color: #009999
+created: 20140919134524775
+creator: AcD
+modified: 20140920001722409
+modifier: AcD
+tags: septembertw  WorkAround
+source-wiki-id: septembertw
+source-tiddler-title-as-text: AlmostAlias
+source-tiddler-title-as-link: AlmostAlias
+
+A crude workaround that doesn't require plugins to get by without TrueAliasing in coreTW.
+
+Here be the AlmostAlias presently in use on SeptemberTW :
+
+<<list-links filter:"[all[current]tagging[]]">>

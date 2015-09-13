@@ -1,0 +1,21 @@
+title: $:/TWaddle/Calculate screen location
+created: 20150320190936484
+creator: Mat
+modified: 20150715154053277
+modifier: Mat
+recent: 15/03/20
+tags: TWaddle  Tidbits
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Calculate screen location
+source-tiddler-title-as-link: Calculate%20screen%20location
+
+In a github [[issue|https://github.com/Jermolene/TiddlyWiki5/issues/1284#issuecomment-82086340]] there was a link to a [[site|http://sheep.art.pl/Textarea%20Scrolling#72]] describing a supposedly very simple idea so you can;
+
+//"click anywhere on a [wiki-] page, and the editor will come up scrolled to that spot. "//
+
+The text refers to the problem with editing in wikis smoothly when the "double-click to edit" is active, as for TWc. The problem is that if you found, say, a misspelling in a long document and double click then focus is lost as the top of the tex is scrolled into view. 
+
+The proposed (and demonstrated!) solution appearently calculates where on the page you are //physically// clicking and then resets the cursor at that point. Something along those lines.
+
+Very interesting.
+

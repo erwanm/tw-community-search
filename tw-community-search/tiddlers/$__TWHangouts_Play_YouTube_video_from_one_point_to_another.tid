@@ -1,0 +1,20 @@
+title: $:/TWHangouts/Play YouTube video from one point to another
+created: 20141219073301506
+modified: 20141221050146977
+tags: TWHangouts  YouTube
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Play YouTube video from one point to another
+source-tiddler-title-as-link: Play%20YouTube%20video%20from%20one%20point%20to%20another
+
+[[Website Discussion playing part of a YouTube Video|http://www.techtipsforall.com/2013/05/embed-part-of-youtube-video-from.html]]
+<iframe width="640" height="360" src="http://www.youtube.com/embed/EU-H0xhga08?rel=0&start=300&end=620&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
+!!That Worked Wow.  And it is embedded, even cooler.
+
+Here is the code behind it and the time is in seconds not minutes and seconds like the direct links are.
+
+```
+<iframe width="640" height="360" src="http://www.youtube.com/embed/EU-H0xhga08?rel=0&start=300&end=620&autoplay=0" frameborder="0" allowfullscreen></iframe>
+```
+
+See also [[YouTube Video Links for Start and End Times]]

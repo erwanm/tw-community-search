@@ -1,0 +1,15 @@
+title: $:/BJTools/EditBoost
+created: 20140225084815384
+modified: 20140322081523834
+revision: 0
+type: text/vnd.tiddlywiki
+tags: BJTools 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: EditBoost
+source-tiddler-title-as-link: EditBoost
+
+Modification to the edit, and edit-text widget. Added option "onkeyupdate" with values "yes", "no" that set the update event to each key press or once the user move off the entry (yes is the  default). Also modified the 'body' template to select onkeyupdate only in preview mode.
+
+WARNING: there is currently a bug related to this plugin that will stop files syncing between node.js and the browser, do not use this plugin if you are going to use "server.js" or something similar
+
+This approach was first proposed by Stephan Hradek in a pull request

@@ -1,0 +1,43 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #056
+created: 20141228211550476
+modified: 20141229013430534
+tags: TWHangouts  License hangouts HangOut_056
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #056
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23056
+
+\define hangout() 056
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: frtl: Branemir, Jeremy, Mario, Nathan, Ton" >>
+<<topic "0:01:51" "Jeremy- Latest changes for 5.0.14 - New Tiddler Info tab," >>
+<<topic "0:03:10" ".. Toolbar button configuration in Control Panel" >>
+<<topic "0:09:50" "Control Panel: Advanced Settings .. icons + text settings .. discussion about the info button .. discussion about the default UI" >>
+<<topic "0:14:58" "Branemir- likes double click to select text and not open the tiddler in edit mode." >>
+<<topic "0:15:23" "Jeremy- discussion about the default drag and drop behaviour." >>
+<<topic "0:16:58" "Branemir- Should 'story river' be added as a 'Concept' in the docs (and be explained)? There is a StoryView tiddler but it is not defined." >>
+<<topic "0:18:15" "Branemir- What are the possibilities for printing in TiddlyWiki, i.e. printing a story river? What about making a tiddler a page?" >>
+<<topic "0:27:36" "Branemir- What would be a useful usecase for list-before and list-after fields? What should be put in these fields?" >>
+<<topic "0:34:15" "Branemir- What do you think about a new WidgetMessage like tw-reaload or tw-refresh?" >>
+<<topic "0:39:29" "Branemir- Will there be a 'renaming tags' functionality for the stable version?" >>
+<<topic "0:42:20" "Branemir- Drag&Drop an image from a website or another browser creates a tiddler with the link to that image. Can TW be modified so that an image tiddler is created instead?" >>
+<<topic "0:46:20" ".. using the _cannonical_uri field .. imaged, image links ..." >>
+<<topic "0:51:10" "Jeremy- some code review about drag and drop 'browser data'" >>
+<<topic "0:53:00" "Jeremy- new 'widget functionality' Variable operands for filters." >>
+<<topic "0:54:30" "Jeremy- about improved documentation from Steven ... some more dev docs ..." >>
+<<topic "0:58:35" "Jeremy- about new TW usecases and users questions, that come up. ... about install in nodejs ..." >>
+<<topic "1:00:40" "Jeremy- about possible future functions for TiddlyDesktop" >>
+<<topic "1:02:07" "Alex joined ..." >>
+<<topic "1:03:45" "Nathan- About usability questions. 'linear flow of documentation is missing' ... about the 'documentation mission'" >>
+<<topic "1:08:35" "Jeremy- about short screencasts to answer some FAQ's ... some youtube TW video statistics." >>
+<<topic "1:14:15" "Jeremy- Alex suggested kumu. io ..." >>
+<<topic "1:15:23" "Alex introduces himself and talks a little bit about kumu" >>
+<<topic "1:17:20" "... general discussion about tiddler relation visualisation .." >>
+<<topic "1:20:48" "Jeremy- about visjs. org" >>
+<<topic "1:22:50" "Jeremy- about waldly maps" >>
+<<topic "1:25:30" "Jeremy- about Ted Nelson's ZigZag Structure ... working with lists and visualisations" >>
+<<topic "1:34:44" "Jeremy- what's planned next .. finishing 5.0.14" >>
+<<topic "1:35:35" "Mario- about his 'splitting emphasis' pull request" >>
+<<topic "1:37:30" "Bye! Bye!" >>
+"""

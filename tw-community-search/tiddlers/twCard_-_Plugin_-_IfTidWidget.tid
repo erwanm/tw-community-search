@@ -1,0 +1,26 @@
+audience: 
+category: Widget
+created: 20150106175012859
+date: 02-06-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Matabele
+modified: 20150210031343117
+name: IfTidWidget
+plugin_tiddler: $:/plugins/matabele/iftid
+release: 
+repository: 
+revision: 0.0.5
+short_description: conditionally perform an action based on the existance of a field or tiddler
+title: twCard - Plugin - IfTidWidget
+wiki: http://gwiz.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: gWiZ
+twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/iftid
+twcs-description: Contains the <$iftid> widget
+twcs-author: 
+twcs-version: 0.0.5
+
+{{||$:/CommunityPluginTemplate}}

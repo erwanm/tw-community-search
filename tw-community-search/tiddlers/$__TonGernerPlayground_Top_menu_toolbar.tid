@@ -1,0 +1,25 @@
+title: $:/TonGernerPlayground/Top menu toolbar
+created: 20140203085533289
+creator: TonGerner
+modified: 20150709161414697
+modifier: TonGerner
+tags: TonGernerPlayground  documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Top menu toolbar
+source-tiddler-title-as-link: Top%20menu%20toolbar
+
+@@.BROWN How to create a top menu toolbar@@
+
+{{Under construction_}}
+{{Upgraded}}
+This guide describes how to:
+
+* define buttons
+* add a top menu toolbar
+* add buttons to the top menu toolbar
+
+It shows the relevant code and styles involved.
+
+As a demo it shows ''all'' described toolbar buttons added to the top menu.
+
+''Guide at ~TiddlySpot:''<br>[[How to make a top menu toolbar|http://tw5toolbar.tiddlyspot.com/]]

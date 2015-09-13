@@ -1,0 +1,16 @@
+title: $:/icons/icons
+created: 20150130020659113
+modified: 20150130170658868
+tags: icons 
+source-wiki-id: icons
+source-tiddler-title-as-text: icons
+source-tiddler-title-as-link: icons
+
+<dl class="preview">
+<<list-search
+"[tag[icons]sort[]]"
+"search"
+"$:/temp/list-search-icons"
+"$:/.tb/template/preview-item"
+placeholder:"Filter..." >>
+</dl>

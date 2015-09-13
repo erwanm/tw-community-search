@@ -1,0 +1,26 @@
+title: $:/inmysocks/Help
+created: 20150217202633809
+modified: 20150227182035524
+tags: inmysocks  Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Help
+source-tiddler-title-as-link: Help
+
+!The help tiddler for the Wiki Reference Wiki! 
+
+This is currently under construction and hopefully will be improved as time goes on.
+
+This is help for how to use this site, not ~TiddlyWiki. Help using ~TiddlyWiki is what the rest of the site is for.
+
+!!Site organization
+---
+
+This site is organized using the table of contents to the right. If you can't see the table of contents than you may need to adjust the width of the tiddlers by clicking on the button that says `Width/Font Size` in the upper right and selecting a smaller width from the list that appears.
+
+In the table of contents clicking on any entry will open up the associated tiddler. Clicking on the plus sign (<<fa fa-plus>>) next to a name will open up the sub-heading showing the tiddlers listed under that topic. Clicking on the empty circle (<<fa fa-circle-o>>) that replaces the plus sign will collapse that portion of the table of contents. The most useful part for new users is probably the `Wiki Examples` section of the table of contents.
+
+The [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]] section has demos of some things that I have made for my wikis, most of what is shown there is packaged as a plugin that you can import into your own wiki. See [[My Plugins]] for a listing of what I currently have available in plugin form.
+
+There are also menus at the top of the screen and on the left side of the screen. In any of the menus clicking on the {{$:/core/ui/Buttons/home}} icon will bring you back to what was displayed when you loaded this site. Clicking the {{Icon Menu - Help}} icon next to the `Width/Font Size` button in the upper left will open up this message.
+
+If you are looking for something specific you can use the search function. By typing something in the text box above the table of contents you can search for specific tiddlers in this wiki.

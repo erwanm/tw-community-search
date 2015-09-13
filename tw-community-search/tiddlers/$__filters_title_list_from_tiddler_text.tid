@@ -1,0 +1,33 @@
+title: $:/filters/title list from tiddler text
+created: 20150115215548816
+creator: Tobias Beer
+filter: [list[AnotherTiddler!!text]]
+modified: 20150122173306095
+modifier: Tobias Beer
+summary: iterate over tiddler titles listed in another tiddler's text
+tags: filters  Filters list TextReference
+source-wiki-id: filters
+source-tiddler-title-as-text: title list from tiddler text
+source-tiddler-title-as-link: title%20list%20from%20tiddler%20text
+
+In the example below, all tiddlers listed in [[$:/config/Hide/TagButtons]] will be removed from the filter and thus excluded from the tags, e.g...
+
+```
+excluded: <code>{{$:/config/Hide/TagsButtons}}</code>
+<<list-links filter:"[all[current]tags[]]-[list[$:/config/Hide/TagButtons!!text]]+[sort[title]]">>
+```
+
+<<<
+excluded: <code>{{$:/config/Hide/TagButtons}}</code>
+<<list-links filter:"[all[current]tags[]]-[list[$:/config/Hide/TagButtons!!text]]+[sort[title]]">>
+<<<
+
+If you add the following text at [[$:/core/ui/ViewTemplate/tags]], the tags listed in [[$:/config/Hide/TagButtons]] will be excluded for all tiddlers...
+
+```
+<div class="tc-tags-wrapper">
+<$list filter="[all[current]tags[]]-[list[$:/config/Hide/TagButtons!!text]]+[sort[title]]"
+template="$:/core/ui/TagTemplate"
+storyview="pop"/>
+</div>
+```

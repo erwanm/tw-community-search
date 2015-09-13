@@ -1,0 +1,24 @@
+title: $:/tb5/external-links
+created: 20141203172950069
+creator: Tobias Beer
+modified: 20141203173001974
+modifier: Tobias Beer
+tags: tb5  Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: external-links
+source-tiddler-title-as-link: external-links
+
+<dt>
+
+```
+http://tiddlywiki.com
+[[pretty|http://pretty.com]]
+~http://not.alink.com
+```
+</dt>
+<dd>
+
+http://tiddlywiki.com<br>
+[[google|http://google.com]]<br>
+~http://not.alink.com
+</dd>

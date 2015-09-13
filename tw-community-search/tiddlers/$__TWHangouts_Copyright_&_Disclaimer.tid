@@ -1,0 +1,24 @@
+title: $:/TWHangouts/Copyright & Disclaimer
+created: 20141220032946289
+modified: 20150106153541577
+tags: TWHangouts  License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Copyright & Disclaimer
+source-tiddler-title-as-link: Copyright%20%26%20Disclaimer
+
+"""
+This is a fan site for [[TiddlyWiki 5|TiddlyWiki]].
+This site was created to help people explore the topics discussed on the [[TiddlyWiki Google Hangouts|Google Hangouts]].  The videos of the Hangouts are posted on YouTube.
+
+Special Thanks to [[Astrid|aelocson]] for creating the [[Macros|Macros for Hangout Wiki Project]] that make the site easier and faster to create and duplicate.
+
+This site uses content from [[Mario Pietsch]] and Tobias Beer and that content has been Tagged [[License]].
+
+Some Content was provided by [[TiddlyWiki.com|http://www.tiddlywiki.com]] - [[Tobias Beer|http://tb5.tiddlyspot.com/#Tobias%20Beer]] - and the entire TiddlyWiki community.  This site currently uses very few Macros or add on's.  Not to self I need to figure out all the extras I use and list them one example is the corner banner [[Powered by TiddlyWiki]].
+
+[[Rich Shumaker]] created the site content with the intent purpose of making ~TiddlyWiki more AWEsome!!!  Originally this site used [[US Version License]] to show the differences between Mario and Tobias's work and this sites.  Now all content is covered under the same license.  The TAG [[License]] is still used for all of Mario and Tobias's work to allow better sorting moving forward.
+
+<html>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>..
+</html>
+"""

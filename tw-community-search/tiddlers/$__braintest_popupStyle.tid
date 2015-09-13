@@ -1,0 +1,25 @@
+title: $:/braintest/popupStyle
+created: 20140217181235341
+creator: Danielo Rodriguez
+modified: 20141030074255312
+modifier: Danielo Rodriguez
+type: text/css
+tags: braintest 
+source-wiki-id: braintest
+source-tiddler-title-as-text: popupStyle
+source-tiddler-title-as-link: popupStyle
+
+.tc-drop-down dd
+{
+max-width:300px;
+word-break: break;
+white-space:normal;
+padding :0;
+padding-left: 5px;}
+
+.tc-drop-down dl
+{
+padding: 5px;
+}
+
+tc-drop-down a {display:inline;padding:0}

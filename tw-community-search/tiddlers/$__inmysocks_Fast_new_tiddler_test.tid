@@ -1,0 +1,92 @@
+title: $:/inmysocks/Fast new tiddler test
+created: 20150502152901694
+modified: 20150502155004991
+tags: inmysocks  [[Work in progress]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fast new tiddler test
+source-tiddler-title-as-link: Fast%20new%20tiddler%20test
+
+\define getTagPill() {{$(tagPill)$||$:/core/ui/EditTemplate/tags}} 
+
+\define thisLockIcon()
+<$reveal type='nomatch' state='$:/state/FastNewTiddler!!locked' text='locked'>
+  <$button class="tc-btn-invisible">
+    {{$:/core/images/unlocked-padlock}}
+    <$action-setfield $tiddler='$:/state/FastNewTiddler' $field='locked' $value='locked'/>
+    <$action-setfield $tiddler='$:/state/FastNewTiddler' $field='current_title' $value={{$:/temp/FastNewTiddler!!newtitle}}/>
+  </$button>
+</$reveal>
+<$reveal type='match' state='$:/state/FastNewTiddler!!locked' text='locked'>
+  <$tiddler tiddler={{$:/state/FastNewTiddler!!current_title}}>
+    <$button class='tc-btn-invisible'>
+      {{$:/core/images/locked-padlock}}
+      <$action-setfield $tiddler='$:/state/FastNewTiddler' $field='locked' $value='unlocked'/>
+      <$action-setfield $tiddler='$:/temp/FastNewTiddler' $field='newtitle' $value={{!!title}}/>
+    </$button>
+  </$tiddler>
+</$reveal>
+\end
+
+<div class="tc-tiddler-frame">
+  @@float:right;margin-left:-25px;
+    <span class="tc-tiddler-controls tc-titlebar">
+      <$fieldmangler>
+        <$button class="tc-btn-invisible" message='tm-delete-tiddler' param={{$:/temp/FastNewTiddler!!newtitle}}>
+          {{$:/core/images/delete-button}}
+        </$button>
+        <$button class="tc-btn-invisible" message='tm-edit-tiddler' param={{$:/temp/FastNewTiddler!!newtitle}}>
+          {{$:/core/images/export-button}}
+        </$button>
+        <$button class="tc-btn-invisible" message="tm-remove-tag" param="$:/tags/AboveStory">{{$:/core/images/close-button}}</$button>
+      </$fieldmangler>
+    </span>
+  @@
+
+  <style type="text/css">
+  .fnt  {border-collapse:collapse;border-spacing:0; border-width:0px; width:100%; margin-left:-25px;}
+  .fnt td{border-style:solid;border-width:0px;overflow:hidden;}
+  </style>
+
+  <!-- This should have the title lock (go from edit to view) once there is text in the new tiddler. Lock should let you edit the title of the new tiddler. This may cause many new tiddlers to be created. We should be careful. -->
+  <!-- The locked/unlocked would be irrelevant if there is no title typed in. -->
+
+  <table class="fnt">
+    <tr>
+      <td>
+        <<thisLockIcon>>
+      </td>
+      <td colspan="2">
+        <$reveal type='nomatch' state='$:/state/FastNewTiddler!!locked' text='locked'>
+          <$edit tiddler="$:/temp/FastNewTiddler" field="newtitle" class="tc-edit-texteditor" placeholder="title"/>
+        </$reveal>
+        <$reveal type='match' state='$:/state/FastNewTiddler!!locked' text='locked'>
+          <$edit-text tiddler={{$:/state/FastNewTiddler!!current_title}} field='title' class='tc-edit-texteditor'/>
+        </$reveal>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        <$reveal type='nomatch' state='$:/state/FastNewTiddler!!locked' text='locked'>
+          <$edit field="tags" class="tc-edit-texteditor" tiddler={{$:/temp/FastNewTiddler!!newtitle}} placeholder="tags" />
+        </$reveal>
+        <$reveal type='match' state='$:/state/FastNewTiddler!!locked' text='locked'>
+          <$edit field="tags" class="tc-edit-texteditor" tiddler={{$:/temp/FastNewTiddler!!newtitle}} placeholder="tags" />
+        </$reveal>
+      </td>
+      <td>
+        <$set name="tagPill" value={{$:/temp/FastNewTiddler!!newtitle}}>
+          <<getTagPill>>
+        </$set>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td colspan="2">
+        <$edit field="text" class="tc-edit-texteditor" tiddler={{$:/temp/FastNewTiddler!!newtitle}} placeholder="text"/>
+      </td>
+    </tr>
+  </table>
+</div>

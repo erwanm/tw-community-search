@@ -1,0 +1,56 @@
+title: $:/TiddlyNotes/Configurer son dépôt Git
+created: 20150226133514547
+modified: 20150426153359795
+tags: TiddlyNotes  [[Héberger son TiddlyWiki]] Git
+source-wiki-id: TiddlyNotes
+source-tiddler-title-as-text: Configurer son dépôt Git
+source-tiddler-title-as-link: Configurer%20son%20dépôt%20Git
+
+!!!1. Créer un compte
+Créer un compte sur Bitbucket à l'adresse suivante: https://bitbucket.org/account/signup/<br>
+''Attention votre futur site aura pour nom //username//.bitbucket.org''
+
+!!!2. Créer un nouveau répertoire (en ligne)
+Nommé ce répertoire ''//username//.bitbucket.org''
+
+Puis choisir les options suivantes:
+
+*Accès public ou privé (visible ou pas à tout le monde)
+*Entrer une brêve description
+*Choisir Git
+*Langage HTML/CSS
+
+!!!3. Aller dans votre boite mail et confirmer l'adresse
+
+!!!4. Cloner le dépôt
+4.1 Récupérer l'URL du dépôt sur votre page<br>
+Cliquer sur clone, mettez le protocole HTTPS et copier l'adresse: `https://bitbucket.org/username/username.bitbucket.org.git`
+
+4.2 Cloner le dépôt localement (dans un dossier où sera stocké votre projet).
+
+```c
+$ cd chemin/ou-stocker/votre-projet
+$ git clone https://bitbucket.org/username/username.bitbucket.org.git
+```
+
+La commande `git clone` créée un nouveau répertoire nommé `username.bitbucket.org` dans le dossier courant.
+
+retour:
+
+```c
+$ git clone https://bitbucket.org/username/username.bitbucket.org.git
+Cloning into 'username.bitbucket.org'...
+Password
+warning: You appear to have cloned an empty repository.
+```
+
+Git sait désormais qu’il existe un dépôt distant et que c’est là où vous voulez envoyer vos modifications du dépôt local. Pour confirmer cela, on utilise la commande `git remote -v`:
+
+```c
+$ git remote -v
+origin https://bitbucket.org/username/username.bitbucket.org.git (fetch)
+origin https://bitbucket.org/username/username.bitbucket.org.git (push)
+```
+<br>
+
+>''Le dépôt local et le dépôt distant sont maintenant connectés, il ne reste plus qu'a mettre des fichiers dedans.''

@@ -1,0 +1,41 @@
+title: $:/inmysocks/Make Calendar Entry
+created: 20150202030645473
+modified: 20150305191326648
+new_activity: hide
+selected_activity: Yoga
+tags: inmysocks  [[Calendar Demo]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Make Calendar Entry
+source-tiddler-title-as-link: Make%20Calendar%20Entry
+
+\define thisMakeDateString()
+$(SelectedYear)$_$(SelectedMonth)$_$(SelectedDay)$
+\end
+
+|Year |<$edit-text tiddler='$:/temp/MakeCalendarEntry' field='year'/>|
+|Month |<$select tiddler='$:/temp/MakeCalendarEntry' field='month'><option value=january>January</option><option value=february>February</option><option value=march>March</option><option value=april>April</option><option value=may>May</option><option value=june>June</option><option value=july>July</option><option value=august>August</option><option value=september>September</option><option value=october>October</option><option value=november>November</option><option value=december>December</option></$select>|
+|Day |<$edit-text tiddler='$:/temp/MakeCalendarEntry' field='date'/>|
+
+<$reveal type='nomatch' state='$:/state/MakeCalendarEntry!!new_activity' text='show'>
+Activity: <$select tiddler='$:/state/MakeCalendarEntry' field='selected_activity'>
+<$list filter='[tag[Calendar Activity]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select> (<$button set='$:/state/MakeCalendarEntry!!new_activity' setTo='show'>New Activity</$button>)
+</$reveal>
+
+<$reveal type="match" state="$:/state/MakeCalendarEntry!!new_activity" text="show">
+Name: <$edit-text tiddler='$:/temp/MakeCalendarEntry' field='new_activity'/> <$fieldmangler tiddler={{$:/temp/MakeCalendarEntry!!new_activity}}><$button>Add<$action-setfield $tiddler={{$:/temp/MakeCalendarEntry!!new_activity}} dummy=1/><$action-sendmessage $message='tm-add-tag' $param="""Calendar Activity"""/><$action-setfield $tiddler='$:/temp/MakeCalendarEntry' new_activity=''/></$button></$fieldmangler> <$button set='$:/state/MakeCalendarEntry!!new_activity' setTo='hide'>Done</$button>
+</$reveal>
+
+Number of times: <$edit-text tiddler='$:/temp/MakeCalendarEntry' field='number_of_times'/>
+
+<$set name=SelectedYear value={{$:/temp/MakeCalendarEntry!!year}}>
+<$set name=SelectedMonth value={{$:/temp/MakeCalendarEntry!!month}}>
+<$set name=SelectedDay value={{$:/temp/MakeCalendarEntry!!date}}>
+<$button>Add Entry
+<$action-setfield $tiddler={{$:/state/MakeCalendarEntry!!selected_activity}} $field=<<thisMakeDateString>> $value={{$:/temp/MakeCalendarEntry!!number_of_times}}/>
+</$button>
+</$set>
+</$set>
+</$set>

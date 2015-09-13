@@ -1,0 +1,36 @@
+title: $:/classic/Lists
+created: 20150118212124735
+creator: Tobias Beer
+modified: 20150118212432030
+modifier: Tobias Beer
+tags: classic  Markup
+source-wiki-id: classic
+source-tiddler-title-as-text: Lists
+source-tiddler-title-as-link: Lists
+
+In TW5, lists require to either bei at the beginning of a tiddler or block, or otherwise be preceded by a blank line, e.g.
+
+```
+This fails in TW5, but not in TWc...
+* foo
+* bar
+
+This is howTW5 expects it...
+
+* foo
+* bar
+```
+
+<<<
+This fails in TW5, but not in TWc...
+* foo
+* bar
+
+This is howTW5 expects it...
+
+* foo
+* bar
+<<<
+
+; discussion
+: https://groups.google.com/d/msg/tiddlywiki/2eqXBsxC8BM/-XzbynrkgoUJ

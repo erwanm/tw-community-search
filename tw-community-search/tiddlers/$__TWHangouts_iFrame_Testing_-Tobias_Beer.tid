@@ -1,0 +1,12 @@
+title: $:/TWHangouts/iFrame Testing -Tobias Beer
+created: 20150209190026082
+modified: 20150209190425058
+tags: TWHangouts 
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: iFrame Testing -Tobias Beer
+source-tiddler-title-as-link: iFrame%20Testing%20-Tobias%20Beer
+
+!Don't like the way I get more then just the Tiddler.  I want just the Tiddler.  Also the render times take a bit.
+
+<iframe src="http://tobibeer.github.io/tb5/#Tobias%20Beer"
+style="width:100%;height:800px;border:0;"/>

@@ -1,0 +1,15 @@
+title: $:/namespace/WorkingChapterToc
+created: 20141122185025949
+creator: Tobias Beer
+modified: 20141122185139116
+modifier: Tobias Beer
+tags: namespace 
+source-wiki-id: namespace
+source-tiddler-title-as-text: WorkingChapterToc
+source-tiddler-title-as-link: WorkingChapterToc
+
+<$list filter="[prefix[El Libro]sort[title]]-[[El Libro]]" variable="sub">
+<$list filter="[<sub>removeprefix[El Libro / ]]" variable="truncated">
+<$link to=<<sub>>><<truncated>></$link><br>
+</$list>
+</$list>

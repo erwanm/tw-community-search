@@ -1,0 +1,31 @@
+title: $:/inmysocks/Naming Conventions
+created: 20150108181235682
+modified: 20150108184545914
+tags: inmysocks  Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Naming Conventions
+source-tiddler-title-as-link: Naming%20Conventions
+
+Because I am horrible at remaining consistent with this, I am going to list naming conventions here and stick to them.
+
+!Tiddler names:
+
+General rule: `$:/state/` prefix is used for (semi-)persistent states, like reveal states, select widgets or which tab is selected in a tabs macro. The `$:/temp/` prefix is used for form inputs and other non-persistent states. Any `$:/temp/` tiddler should be able to be deleted without any effects other than losing the information entered into forms.
+
+*Non-system/non-shadow tiddlers: Capitalize the first letter of all words other than prepositions and articles
+*System tiddlers: Where reasonable avoid spaces in the tiddler names. Use camel case for removing spaces from tiddler names and use underscores for field names.
+*Tiddlers used to hold information typed into forms: The tiddler name should be in the form `$:/temp/(tiddler form name)` with the exited field corresponding to the use of the entered text. If there are multiple long inputs where editing a text field would be appropriate than use `$:/temp/(tiddler form name)/(field name)` to distinguish between them
+*Tiddlers used to hold reveal states: should have names in the form `$:/state/reveal/(tiddlername)/(tiddler section, if any)` with further `(name)` parts added as needed to ensure unique names
+*Plugin tiddlers: follow the standard form `$:/plugins/(username)/(pluginname)`
+*System tiddlers used to hold data for other applications: use `$:/data/(application name)/(specific name)`, this means that `$:/data/BookAuthors` should be renamed `$:/data/LibraryTracker/BookAuthors`
+*The various forms I have that allow you to add tags to tiddlers you will create (like the library tracker giving tags to books), those tags should be stored in the same `$:/temp/(tiddler form name)` tiddler as tags, unless there is a compelling reason otherwise.
+
+!Macros
+
+*Macro names should be camel case, that is they have no spaces, start with a lower case letter and each other word in the title should start with an uppercase letter.
+*Non-global macro names should always start with `this`, and no global macros may start with `this`, to avoid the possibility that a global and local macro have the same name.
+*Parameters in macro definitions should use camel case, but the first letter of the parameter name should be capitalized
+
+!Variables
+
+*Variables set by the set widget should always be in camel case and shouldn't start with `this`

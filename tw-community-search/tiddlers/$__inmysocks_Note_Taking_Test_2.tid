@@ -1,0 +1,97 @@
+title: $:/inmysocks/Note Taking Test 2
+created: 20150102014526940
+modified: 20150102021010091
+note_count: 2
+question_count: 2
+selected_class: Numbers in Counting
+test: true
+tags: inmysocks  Tools
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Note Taking Test 2
+source-tiddler-title-as-link: Note%20Taking%20Test%202
+
+\define thisMakeTable()
+<table>
+<tr><td><<addNoteButton>></td><td><<addQuestionButton>> (Specific to this class, but not to any note)</td></tr>
+<tr>
+<td style='width:$(width1)$'>
+<div class='tc-tiddler-frame' style='width:100%'>
+<$list filter="""[is[system]note[true]class[$(className)$]]""" template=ClassNoteTemplate2>
+
+</$list>
+</div>
+</td>
+<td style='width:$(width2)$'>
+<div class='tc-tiddler-frame' style='width:100%'>
+<$list filter="""[is[system]question[true]class[$(className)$]]""" template=ClassQuestionTemplate2>
+
+</$list>
+</div>
+</td>
+</tr>
+</table>
+\end
+
+\define thisNoteTiddler()
+$:/notes/$(className)$: $(qualifyId)$
+\end
+
+\define thisQuestionTiddler()
+$:/questions/$(className)$: $(qualifyId2)$
+\end
+
+\define addNoteButton()
+<$button>Add Note
+<$action-setfield $tiddler=<<thisNoteTiddler>> note=true class="""$(className)$""" date="""$(currentDate)$"""/>
+<$action-setfield $tiddler=<<currentTiddler>> test=true/>
+</$button>
+\end
+
+\define addQuestionButton()
+<$button>Add Question
+<$action-setfield $tiddler=<<thisQuestionTiddler>> question=true class="""$(className)$""" date="""$(currentDate)$""" for_note='No Specific Note'/>
+<$action-setfield $tiddler=<<currentTiddler>> test=true/>
+</$button>
+\end
+
+<$reveal type="nomatch" state='$:/reveal/notetakingtestaddclass' text='addclass'>
+Select Class: <$select field='selected_class' >
+<$list filter='[school_class[true]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select> 
+(<$button set='$:/reveal/notetakingtestaddclass' setTo='addclass'>Add Class</$button>)
+</$reveal>
+<$reveal type="match" state='$:/reveal/notetakingtestaddclass' text='addclass'>
+Class Name: <$edit-text tiddler='$:/state/notetakingtestaddclass' field='add_class_name'/><br>
+<$button>
+<$action-setfield $tiddler={{$:/state/notetakingtestaddclass!!add_class_name}} $field='school_class' $value='true'/>
+<$action-setfield $tiddler='$:/state/notetakingtestaddclass' $field='add_class_name' $value=''/>
+Add Class</$button>
+<$button set='$:/reveal/notetakingtestaddclass' setTo='selectclass'>Done</$button>
+
+</$reveal>
+
+Note Width: <$edit-text tiddler='$/temp/notetakingtest1' field='width' size=10/> Question Width: <$edit-text tiddler='$/temp/notetakingtest2' field='width' size=10/>
+
+<$button>Refresh
+<$action-setfield $field=test $value=true/>
+</$button>
+
+''The `Add Question` button on the right adds a note with the class field filled in, the `Add Question for this Note` button adds a question with both the class field and the note field filled in so that you can select a note and get questions for it, or select a question and get the relevant note and have questions for a class that aren't associated with any specific note. I will get the searching stuff done eventually.''
+
+<$storecount $filter='[is[system]class{!!selected_class}note[true]]' $tiddler=<<currentTiddler>> $field=note_count/>
+<$storecount $filter='[is[system]class{!!selected_class}question[true]]' $tiddler=<<currentTiddler>> $field=question_count/>
+
+<$set name=currentDate value=<<now "DDth mmm">>>
+<$set name=qualifyId value={{!!note_count}}>
+<$set name=qualifyId2 value={{!!question_count}}>
+<$set name=className value={{!!selected_class}}>
+<$set name=width1 value={{$/temp/notetakingtest1!!width}}>
+<$set name=width2 value={{$/temp/notetakingtest2!!width}}>
+<<thisMakeTable>>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>

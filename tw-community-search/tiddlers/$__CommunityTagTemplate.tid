@@ -1,0 +1,14 @@
+created: 20150902233959466
+modified: 20150903231821277
+tags: TWCSCore
+title: $:/CommunityTagTemplate
+type: text/vnd.tiddlywiki
+
+!! Tiddlers tagged {{!!title}}
+
+<<listRecentTiddlers "[all[current]tagging[]sort[modified]] +[reverse[]]">>
+
+!! Recent tiddlers containing {{!!title}}
+
+<<listRecentTiddlers "[is[system]has[source-wiki-id]!has[extracted-plugin]search{!!title}sort[modified]!limit[25]] +[reverse[]]">>
+

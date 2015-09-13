@@ -1,0 +1,21 @@
+title: $:/demo/Consolidate Tag Macro
+created: 20150117122545173
+creator: Tobias Beer
+modified: 20150126103817184
+modifier: Tobias Beer
+summary: fixes edit-mode tags and consolidates tag macro
+url: <<git5 pull/1379>>
+tags: demo  Tags Demo Enhancement
+source-wiki-id: demo
+source-tiddler-title-as-text: Consolidate Tag Macro
+source-tiddler-title-as-link: Consolidate%20Tag%20Macro
+
+The following modifications provide a more unified tagging experience between edit-mode and view-mode...
+
+* [[$:/core/macros/tag]] — extended
+* [[$:/core/ui/EditTemplate/tags]] — simplified, now uses qualify for temp-new-tag
+* [[$:/core/ui/TagTemplate]] — simplified
+* [[$:/core/modules/macros/contrastcolour.js]] — enhanced
+* [[$:/core/ui/Components/tag-link]] — @@color:red;DELETED@@
+
+''Note'': Notice how on [[tiddlywiki.com|http://tiddlywiki.com]] edit-mode colors do not match view-mode, which is very problematic with bright backgrounds!

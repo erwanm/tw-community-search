@@ -1,0 +1,24 @@
+title: $:/inmysocks/twCard - Plugin - Font Awesome (Tobias Beer)
+audience: 
+category: Fonts/Icons
+created: 20150106175012859
+date: 24-01-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Tobias Beer
+modified: 20150210023826176
+name: Font Awesome (Tobias Beer)
+plugin_tiddler: http://tobibeer.github.io/tw/fa/#GettingStarted
+release: 
+repository: 
+revision: 
+short_description: Lets you use icons from font awesome in your wiki (tobibeer version)
+wiki: http://tobibeer.github.io/tw/fa/#GettingStarted
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Font Awesome (Tobias Beer)
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Font%20Awesome%20%28Tobias%20Beer%29
+
+A plugin that adds the ability to use the font awesome icons in your wiki.

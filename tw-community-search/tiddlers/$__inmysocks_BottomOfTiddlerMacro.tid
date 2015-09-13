@@ -1,0 +1,49 @@
+title: $:/inmysocks/BottomOfTiddlerMacro
+created: 20140926184609452
+creator: inmysocks
+modified: 20141222170324127
+modifier: inmysocks
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: BottomOfTiddlerMacro
+source-tiddler-title-as-link: BottomOfTiddlerMacro
+
+\define getState()
+$:/state/bottom/$(properTag)$
+\end
+
+\define getProperTag() [[$(properTag)$]]
+
+\define bottomOfTiddler()
+
+---
+
+<$tiddler tiddler=<<currentTiddler>>>
+
+<$set name="properTag" value={{!!title}}>
+<$button>New Topic
+<$action-sendmessage $message="tm-new-tiddler" title="New" text="<<bottomOfTiddler>>" blurb=" " tags=<<getProperTag>>/>
+</$button>
+
+<$reveal state=<<getState>> type='match' text='show'>
+<$button>
+<$action-setfield $tiddler=<<getState>> $field='text' $value='hide'/>
+Hide</$button> entries tagged <$list filter="[all[current]]"/>
+
+<$list filter="[all[current]tagging[]!has[draft.of]]">
+
+<$link to={{!!title}}><$view field="title"/></$link> - <$view field="blurb"/>
+
+</$list>
+</$reveal>
+<$reveal state=<<getState>> type='nomatch' text='show'>
+<$button>
+<$action-setfield $tiddler=<<getState>> $field='text' $value='show'/>
+Show</$button> entries tagged <$list filter="[all[current]]"/>
+</$reveal>
+
+</$set>
+
+</$tiddler>
+
+\end

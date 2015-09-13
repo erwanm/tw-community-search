@@ -1,0 +1,55 @@
+title: $:/TWHangouts/HangOut_044
+created: 20150105205649291
+modified: 20150105205741001
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_044
+source-tiddler-title-as-link: HangOut_044
+
+2014-04-22 - [[YouTube|https://www.youtube.com/watch?v=AvyWdz3WbsM]]
+
+---
+"""
+0:00:00 Intro: frtl: Jeremy, Mario, Nathan
+0:00:50 ... fixing the invitation links ...
+0:01:45 Jeremy- What's new in 5.0.10
+0:02:20 Jeremy- short interuption, ... the lnug TW5 presentation
+0:03:30 Jeremy- What's new in 5.0.10 ... "safe mode"
+0:06:45 Jeremy- Additional info about the safe mode
+0:07:40 Jeremy- the image TW syntax - ]] and formatting
+0:11:38 Jeremy- image support for markdown syntax in markdown tiddlers
+0:12:28 Jeremy- new support for sorting with accented characters
+0:13:53 Jeremy- hiding the sidebar frees space for the tiddler now
+0:14:35 Jeremy- some minor bugfixes, ... ordering of style sheets
+0:16:10 .. questions .. the RoadMap .. ARIA roles - help wanted!
+0:19:56 .. further wikitext features
+0:20:40 .. productivity functions .. may be after 1.0
+0:22:08 Jeremy- 5.0.11 Whishlist .. global macros
+0:25:54 Nathan- masstree (prototype) proof of concept implementation with TW.
+0:30:40 Jeremy- ideas about the wiki-store ... tiddler hashmap is private member to the wiki object now
+0:34:11 Mario- ArangoDB as a TW backend and app server
+0:35:05 Jeremy- about PouchDB as a TW browser based backend
+0:38:10 Mario- about a "one click install"
+0:40:00 Jeremy- about TW security ... (Danielo joined) ... internet security in general
+0:43:30 Eric- joined
+0:43:47 Jeremy- Danielo should demo the "custom key bindings"
+0:44:17 Mario- feature request for "system fields" ...
+0:46:30 Jeremy- points to a github issue #487
+0:49:25 Arlen- joined
+0:50:10 Danielo- screenshares the new key bindings ...
+0:54:55 .. the plugin packaging plugin ... the key binding configuration
+0:59:00 Mario- Is there a possibility to create buttons for the key strokes? yes .. should be there.
+1:01:10 Jeremy- This doesn't work with the codemirror plugin.
+1:03:10 Jeremy- Did you use TW with nodejs? ... D. needs a portable option.
+1:04:44 Jeremy- Eric you did TiddlyTools in the browser?
+1:05:40 Danielo- created the "plugin creator" ...
+1:06:16 Danielo- question, about additional info for codemirror plugins ... general discussion.
+1:11:30 .. about the existing codemirror key bindings at the tw5 repo
+1:15:25 Arlen: question about outstanding pull requests. "new tiddler with a skeleton template" ... These pull request actually require changes in the TW core.
+1:23:35 - pause -
+1:25:20 Jeremy- discussion with Arlen ...
+1:28:35 Jeremy- any questions or comments.
+1:29:30 Jeremy- about TW usage ...
+1:29:55 Mario- What about a hangout to "shorten the issue list"? ... some discussion
+1:38:10 Bye! Bye!
+"""

@@ -1,0 +1,20 @@
+created: 20150913111405025
+modified: 20150913113236300
+tags: DeveloperDocumentation
+title: TWCSWikiStructure
+type: text/vnd.tiddlywiki
+
+
+! Principle
+
+This wiki is built from the ~CommunitySearch //skeleton// basis. The skeleton part is defined in the ~GitHub project at https://github.com/erwanm/tw-community-search/tree/master/skeleton. The skeleton contains:
+
+* A set of tiddlers tagged {{TWCSCore||$:/core/ui/TagTemplate}}, which together form the static basis of the system.
+* A set of tiddlers tagged {{CommunityAuthors||$:/core/ui/TagTemplate}} and {{CommunityWikis||$:/core/ui/TagTemplate}}, which together define the indexable wikis from which the content is collected.
+
+! Tagging structure
+
+* Every author in CommunityAuthors tiddler has a ''licence'' field, which indicates whether the author agrees to have their wiki(s) content indexed. If left empty, then the system will only look for existing plugins.
+* For every wiki in  CommunityWikis tagged with an author with with a non-empty ''licence'' field, the content is extracted from the wiki.
+* The CommunityPlugins are tagged with the wiki they come from (see PluginsCollection for details about this specific mechanism).
+

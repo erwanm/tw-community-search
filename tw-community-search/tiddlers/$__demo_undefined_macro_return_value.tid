@@ -1,0 +1,19 @@
+title: $:/demo/undefined macro return value
+created: 20150109235723977
+creator: Tobias Beer
+modified: 20150110000238282
+modifier: Tobias Beer
+tags: demo  Demo Fails Macros
+source-wiki-id: demo
+source-tiddler-title-as-text: undefined macro return value
+source-tiddler-title-as-link: undefined%20macro%20return%20value
+
+Make js macros more failsafe by allowing non-string, undefined or null return value.
+
+{{$:/.tb/macros/undefined.js||$:/core/ui/Buttons/delete}} <<source [[$:/.tb/macros/undefined.js]]>>
+
+!!Test
+
+`<<undefined>>`
+
+> <<undefined>>

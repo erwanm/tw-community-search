@@ -1,0 +1,8 @@
+title: Unknown plugin '$:/plugins/felixhayashi/hotzone'
+name: unknown
+created: 20150913133527000
+plugin_tiddler: $:/plugins/felixhayashi/hotzone
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

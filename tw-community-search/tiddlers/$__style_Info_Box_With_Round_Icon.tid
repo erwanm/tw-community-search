@@ -1,0 +1,72 @@
+title: $:/style/Info Box With Round Icon
+created: 20150108092322443
+creator: Tobias Beer
+modified: 20150108100019909
+modifier: Tobias Beer
+summary: info box with a round css-only box icon
+tags: style  Styles box icon
+source-wiki-id: style
+source-tiddler-title-as-text: Info Box With Round Icon
+source-tiddler-title-as-link: Info%20Box%20With%20Round%20Icon
+
+; inspiration
+: https://www.nodejitsu.com/paas
+
+@@.info
+; a headline
+: some info text
+@@
+
+@@.info
+@@.info-only
+: info text without headline
+@@
+
+<style>
+dl.info,
+dl.info dt,
+dl.info dd{
+margin:0;
+}
+
+dl.info {
+padding: 10px 10px 10px 60px!important;
+position: relative;
+border-radius:10px;
+margin: 10px 0 20px 0;
+
+-webkit-box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+-moz-box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+}
+
+dl.info:before {
+display: inline-block;
+position: absolute;
+top: 15px;
+left: 10px;
+height: 35px;
+width: 35px;
+line-height: 35px;
+text-align: center;
+content: "i";
+color: #b5b4b4;
+font-weight: 700;
+
+border: 1px solid #eaeaea;
+border-radius: 200px;
+background: #fff;
+background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(238,238,238,.4)),color-stop(1,#fff));
+background-image: -webkit-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+background-image: -moz-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+background-image: -o-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+background-image: -ms-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+background-image: linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+-webkit-border-radius: 200px;
+}
+
+dl.info-only{
+padding: 20px 10px 20px 60px!important;
+}
+
+</style>

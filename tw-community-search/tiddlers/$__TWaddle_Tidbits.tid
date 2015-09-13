@@ -1,0 +1,38 @@
+title: $:/TWaddle/Tidbits
+created: 20150401145359547
+creator: Mat
+modified: 20150804090724839
+modifier: Mat
+tags: TWaddle  menu
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Tidbits
+source-tiddler-title-as-link: Tidbits
+
+<<box "Tiddle bits for your pleasure. Not that I'm the originator of each single one but anyway.<br>And yeah, you're right, the categorizations are not 100% consistent...">>
+
+''Proudly...''<br>
+@@color:grey;font-style:italic; some of my creations outside of TWaddle, e.g my plugins@@<br>
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Creation]] [all[shadows+tiddlers]!has[draft.of]tag[Creations]] +[!sort[recent]]">>
+
+''Majorly cool''
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Tidbit]tag[Major]] [all[shadows+tiddlers]!has[draft.of]tag[Tidbits]tag[Major]] +[!sort[recent]]">>
+
+''Cool, too''<br>
+&nbsp; &nbsp; &nbsp; ● &nbsp; [[List of valuable links|Tidbit Links]] @@color:gray;font-size:90%; //- quick links from the discussion group or external sites// @@
+
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Tidbit]] [all[shadows+tiddlers]!has[draft.of]tag[Tidbits]] -[tag[Major]] -[tag[Non-TW]] +[!sort[recent]]">>
+
+''How To...''
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[HowTo]] +[!sort[recent]]">>
+
+''Cool Non-TW stuff'' 
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Tidbit]tag[Non-TW]] [all[shadows+tiddlers]!has[draft.of]tag[Tidbits]tag[Non-TW]] -[tag[Major]] +[!sort[recent]]">>
+
+<style>
+   #otidbits { position: relative; display:block;}
+   #itidbits { position: absolute; right: -70px; bottom: 0px; }
+</style>
+
+<div id="otidbits"><div id="itidbits">
+<$image source="img/tidbits" width="150px;">
+</div></div>

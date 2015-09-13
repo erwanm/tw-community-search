@@ -1,0 +1,57 @@
+title: $:/TWHangouts/HangOut_066
+created: 20141218222231017
+modified: 20141218222937997
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_066
+source-tiddler-title-as-link: HangOut_066
+
+2014-10-28 ''---'' [[YouTube Link|https://www.youtube.com/watch?v=OBoZzqu7tYg]] ''---'' [[Google Hangout|https://plus.google.com/events/cou1l99mf4j9uomjg9kkcn5ug20]]
+
+---
+```
+2014-10-28 ''---'' [[YouTube Link|https://www.youtube.com/watch?v=OBoZzqu7tYg]] ''---'' [[Google Hangout|https://plus.google.com/events/cou1l99mf4j9uomjg9kkcn5ug20]]
+```
+
+---
+"""
+
+0:00:00 Intro frtl: Jeremy, Mario, Nathan
+0:01:14 Jeremy- TiddlyWiki Translations made easy
+0:03:40 Jeremy- screen shares the new Translators Edition
+0:10:45 Jeremy- How can users send there translations. eg: Dropbox.
+0:12:35 Jeremy- How do we extract the translations from the TW file.
+0:14:55 Mario- Should the new file structure reflect the translators edition? For easy maintenence. Some general discussion.
+0:17:40 .. documentation improvements should be possible to use the same mechanism.
+0:19:40 Jeremy- short summary
+0:20:00 Mario- shows a short proof of concept, to improve the workflow, with a live preview.
+0:25:25 Mario- There would be a possibility to have an interactive tutorial for the TW UI.
+0:27:20 Jeremy / Mario- general discussion about improvements.
+0:30:30 Jeremy- about a new tooltip mechanism
+0:32:12 Mario- Suggests a new layout for the translators tiddler. Multi line layout, similar to the TagsManager.
+0:34:10 Jeremy- Can you create a pull request for the tag manager again.
+0:36:00 Jeremy- about the next steps.
+0:37:00 Mario- Some more ideas about multi line display. ... just some ideas.
+0:40:45 Jeremy- Wants some more info about the german translation.
+0:41:25 Jeremy- Nathan any topics from your side? ... no
+0:42:00 Jeremy- About developing the Translators Edition UI.
+0:43:53 Jeremy- About the documentation of the CLI for TW.
+0:45:45 .. description field in the tiddlywiki.info file. Discussion about the editions. ... eg: de-AT, de-DE, de-AT-empty ....
+0:57:10 Jeremy- may be the init command needs to be improved, to use the "regional" flavors of translations.
+1:00:00 ... we want a mechanism similar to the twguides customize function.
+1:01:50 Jeremy- short summary about handling editions.
+1:04:31 Jeremy- About the tiddlywiki command line and "novice users"
+1:06:00 Jeremy- about including some plugins into the core, to make editions handling easier. tiddlyweb and filesystem
+1:10:54 Mario- about his proposals at the github issue.
+1:18:00 Mario- How do you want to deal with special cases, like the google analytics plugins.
+1:19:55 ... short pause ...
+1:20:55 Mario- dicussion about the setfield parameter in the tiddlywiki.info file. the "load" command would be an option. or a new .multids file.
+1:25:00 ... setfield is still flaged experimental. ...
+1:29:55 Jeremy- have a look at the recent changes. ... customizing the search result tabs is now possible.
+1:34:50 discussion about the TOC table of content in empty.html
+1:36:10 Jeremy- blog post about ghost and what really matters for conversion. discussion about improve the first impression ...
+1:44:00 Jeremy- about a new and easier landing page.
+1:47:10 Jeremy- what's next ... make the translation workflow work.
+1:50:28 Jeremy- about a discussion about using "standard toolkits" or tiddlywiki to do the translations. ... a long time ago.
+1:53:00 Jeremy- There may be some weekend hangouts in the future.
+1:53:50 Bye! Bye!

@@ -1,0 +1,18 @@
+title: $:/inmysocks/Ordering Things
+created: 20150409045256665
+modified: 20150409050208253
+tags: inmysocks  Tools
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Ordering Things
+source-tiddler-title-as-link: Ordering%20Things
+
+This sets the order field of tiddlers tagged with a selected tag.
+
+Select tag: <$select tiddler='$:/state/Ordering Things' field='selected_tag'><$list filter='[!is[system]tags[]sort[title]]'><option><<currentTiddler>></option></$list></$select>
+
+<table>
+<tr><th>Tiddler</th><th>Order</th></tr>
+<$list filter='[tag{$:/state/Ordering Things!!selected_tag}]'>
+<tr><td style='width:100%'><$view field='title'/></td><td><$edit-text field='order' size=5/></td></tr>
+</$list>
+</table>

@@ -1,0 +1,24 @@
+title: $:/inmysocks/My Macros
+created: 20150629200855101
+modified: 20150629204228022
+tags: inmysocks  [[Things I Made]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: My Macros
+source-tiddler-title-as-link: My%20Macros
+
+<table>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Demo Site</th>
+<th>Install Link</th>
+</tr>
+<$list filter='[tag[My Macros]]'>
+<tr>
+<td><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td><$view field='description'/></td>
+<td>{{!!demo_site}}</td>
+<td>{{!!install_link}}</td>
+</tr>
+</$list>
+</table>

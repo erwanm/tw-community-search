@@ -1,0 +1,22 @@
+title: $:/LibreNotes/GitNotes
+created: 20150530132450605
+modified: 20150611091531248
+tags: LibreNotes  transblack
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: GitNotes
+source-tiddler-title-as-link: GitNotes
+
+<table class="invisibletable">
+<tr>
+<td valign="center">
+<div style="font-size:0.7em;text-align:center;margin-top:0em;margin-bottom:0em;">
+<<list-thumbnails filter:"[tag[thumbnail_GN]]" width:"336" height:"190">>
+</div>
+</td>
+<td>
+<div style="text-align:center;font-size:80%;"><div style="font-size:0.7em;text-align:center;margin-top:0em;margin-bottom:2em;">
+<a href="http://librenotes.bitbucket.org/gitnotes" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank">
+''~GitNotes'' <i class="fa fa-external-link-square"></i></a>
+</div>
+
+Les bases de Git, un logiciel de gestion de version décentralisé

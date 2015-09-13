@@ -1,0 +1,7 @@
+title: $:/GSD5/BestPractice InterRealm
+tags: GSD5 
+source-wiki-id: GSD5
+source-tiddler-title-as-text: BestPractice InterRealm
+source-tiddler-title-as-link: BestPractice%20InterRealm
+
+This item can work inter-realm on tiddlers.  To use this ability the item's Realm must be set to `all`.

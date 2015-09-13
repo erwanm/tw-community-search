@@ -1,0 +1,18 @@
+title: $:/tw5.scholars/cit
+created: 20140422115346864
+creator: Alberto Molina
+modified: 20140628201603250
+modifier: Alberto Molina
+tags: tw5.scholars  nouveau
+source-wiki-id: tw5.scholars
+source-tiddler-title-as-text: cit
+source-tiddler-title-as-link: cit
+
+<div class="cit">
+
+{{!!text}}
+
+<cite>
+<$link>{{!!title}}</$link>
+</cite>
+</div>

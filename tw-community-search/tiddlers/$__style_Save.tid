@@ -1,0 +1,21 @@
+title: $:/style/Save
+created: 20141211101052931
+creator: Tobias Beer
+modified: 20141211155119602
+modifier: Tobias Beer
+tags: style 
+source-wiki-id: style
+source-tiddler-title-as-text: Save
+source-tiddler-title-as-link: Save
+
+[[Create or open your custom stylesheet|Custom StyleSheets]] and enter the styles in this format, classnames start with a `.dot`:
+
+```
+.some-class {
+font-family: "Comic Sans MS";  /*please, just don't ;D */
+border: 1px solid purple;
+}
+```
+
+The styles you have tested and copied should immediately apply to the selectors (classes) to which you assign them.
+

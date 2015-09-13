@@ -1,0 +1,29 @@
+title: $:/tb5/mixed-lists
+created: 20141203172748108
+creator: Tobias Beer
+modified: 20141203172801373
+modifier: Tobias Beer
+tags: tb5  Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: mixed-lists
+source-tiddler-title-as-link: mixed-lists
+
+<dt>
+
+```
+# mixed
+#* lists
+#;you
+#:know
+#>like so
+```
+</dt>
+
+<dd>
+
+# mixed
+#* lists
+#;you
+#:know
+#>like so
+</dd>

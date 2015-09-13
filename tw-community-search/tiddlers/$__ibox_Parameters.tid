@@ -1,0 +1,18 @@
+title: $:/ibox/Parameters
+created: 20141211151101895
+creator: Tobias Beer
+modified: 20141211181139256
+modifier: Tobias Beer
+tags: ibox 
+source-wiki-id: ibox
+source-tiddler-title-as-text: Parameters
+source-tiddler-title-as-link: Parameters
+
+`<<ibox image [caption] [template] [btn-class]>>`
+
+|!#|!Parameter|!Description|!Default|
+|1|''image'' |the image tiddler| |
+|2|''caption'' |a custom caption<br>» defaults to ''caption'' field at image| |
+|3|''template'' |the template for the modal dialog|[[Lightbox]]|
+|4|''btn-class'' |the css class for the image button|`ibox-btn`|
+|5|''direct'' |when set to `direct:yes` use the image tiddler as the modal template||

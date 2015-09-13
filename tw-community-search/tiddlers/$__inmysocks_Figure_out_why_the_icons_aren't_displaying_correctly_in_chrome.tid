@@ -1,0 +1,21 @@
+title: $:/inmysocks/Figure out why the icons aren't displaying correctly in chrome
+category: Plugin
+created_day: 02
+created_month: 07
+created_year: 2015
+description: They work just fine in firefox. Ask someone to check them in safari.
+due_day: 
+due_month: 
+due_year: 
+modified: 20150702164027196
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: Bugs
+tags: inmysocks  Bug [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Figure out why the icons aren't displaying correctly in chrome
+source-tiddler-title-as-link: Figure%20out%20why%20the%20icons%20aren%27t%20displaying%20correctly%20in%20chrome
+
+In chrome, the edit and delete task buttons don't show up on my computer, the info button also didn't show up on my tablet.

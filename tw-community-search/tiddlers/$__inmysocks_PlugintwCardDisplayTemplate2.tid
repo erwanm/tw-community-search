@@ -1,0 +1,11 @@
+title: $:/inmysocks/PlugintwCardDisplayTemplate2
+created: 20150128225506817
+modified: 20150221165959784
+tags: inmysocks  Templates [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: PlugintwCardDisplayTemplate2
+source-tiddler-title-as-link: PlugintwCardDisplayTemplate2
+
+<$set name=pluginTitle filter='[<currentTiddler>get[title]]+[removeprefix[twCard - Plugin - ]]'>
+<tr><td><$view field='name'/></td><td>{{!!revision}} </td><td>{{!!date}}</td><td>{{!!release}}</td><td>{{!!short_description}}</td><td><$link to={{!!plugin_tiddler}}><$view field='plugin_tiddler'/></$link></td></tr>
+</$set>

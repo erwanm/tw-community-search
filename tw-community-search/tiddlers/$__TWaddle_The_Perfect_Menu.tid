@@ -1,0 +1,16 @@
+title: $:/TWaddle/The Perfect Menu
+created: 20150403004436881
+creator: Mat
+modified: 20150725215332919
+modifier: Mat
+recent: 15/06/25
+tags: TWaddle  Project Musing
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The Perfect Menu
+source-tiddler-title-as-link: The%20Perfect%20Menu
+
+The Perfect Menu is still not created.
+
+It should be like the Table of Contents macro, generating an accordion tree structure, but it should also generically allow for "stuff" to be inserted in a controlled way for each element, such as a small toolbar next to each menu item (with commands like //Delete, Create child, etc//).
+
+It should be simple to rearrange internally, ideally drag'n drop of branches, and to add or remove new tiddlers  and branches to it.

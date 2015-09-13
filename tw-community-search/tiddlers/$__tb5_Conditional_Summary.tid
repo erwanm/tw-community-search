@@ -1,0 +1,18 @@
+title: $:/tb5/Conditional Summary
+created: 20141113122245204
+creator: Tobias Beer
+modified: 20150217113232324
+modifier: Tobias Beer
+summary: this is an example summary
+tags: tb5  Examples
+source-wiki-id: tb5
+source-tiddler-title-as-text: Conditional Summary
+source-tiddler-title-as-link: Conditional%20Summary
+
+Right above this text you should see the following example summary...
+
+* `this is an example summary`
+
+...rendered via <<source [[$:/.tb/ui/ViewTemplate/summary-link]]>>
+
+more at: [[Conditional ViewTemplate Section]]

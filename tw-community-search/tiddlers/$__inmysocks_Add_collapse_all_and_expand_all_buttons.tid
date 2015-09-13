@@ -1,0 +1,13 @@
+title: $:/inmysocks/Add collapse all and expand all buttons
+category: Plugin
+description: It would be useful
+modified: 20150503183654211
+subcategory: Category Lists
+subsubcategory: New Feature
+tags: inmysocks  [[Planned Update]] [[Change Log]] [[New Feature]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add collapse all and expand all buttons
+source-tiddler-title-as-link: Add%20collapse%20all%20and%20expand%20all%20buttons
+
+All of the show/hide states have the prefix `$:/state/TaskList/ShowCategory/`, so if we just use a list inside a button that sets all of the returned tiddlers to show or hide than that would work.
+The problem with this is that if you have multiple lists it will affect every list. I could avoid this by giving lists names so the states would be prefixed with `$:/state/TaskList/<<ListName>>/ShowCategory/`.

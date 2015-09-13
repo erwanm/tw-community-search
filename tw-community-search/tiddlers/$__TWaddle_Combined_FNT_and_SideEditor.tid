@@ -1,0 +1,20 @@
+title: $:/TWaddle/Combined FNT and SideEditor
+created: 20150628212131929
+creator: Mat
+modified: 20150715205125000
+modifier: Mat
+recent: 15/06/28	
+tags: TWaddle  Pie Conept
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Combined FNT and SideEditor
+source-tiddler-title-as-link: Combined%20FNT%20and%20SideEditor
+
+When I came up with the [[SideEditor|http://sideeditor.tiddlyspot.com/]] concept, fellow Andreas Hahn showed his [[Unibar|http://twguides.org/wiki/unibar.html]] concept which has many similiarties. But it also includes my [[FastNewTiddler|http://fastnewtiddler.tiddlyspot.com/]] idea - brilliant! It really makes sense.
+
+[Note: To understand the following you'll probably have to be somewhat familiar with my two concepts mentioned above.]
+
+Here are some thoughts for a combined variant;
+
+Clicking the "chevron arrow symbol" from the sidebar (or wherever it is  supposed to reside, and whatever symbol it's supposed to be) opens an (empty) FNT editor.  If you instead clicked the same from within a tiddler, the toggled thingy is now a side editor. You can, using some button somewhere (e.g at side editor top),  toggle between the two, i.e between an empty FNT and the last there displayed tiddler. Or, like in Andreas version, there could be two //tabs// instead of a toggle.
+
+Not sure there is much more to say. If you're familiar with the 

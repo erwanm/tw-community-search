@@ -1,0 +1,33 @@
+title: $:/t5a/URL Field
+created: 20150421134823150
+creator: Andrew Harrison
+modified: 20150521132918808
+modifier: Andrew Harrison
+tags: t5a  New NeedsWork Examples [[Under construction]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: URL Field
+source-tiddler-title-as-link: URL%20Field
+
+{{Under construction}} Need links to original threads.
+
+Turn url field into a link or image<br>
+Resource: Displaying image with path in a field (Eric Shulman 3/23/15)
+
+```
+<a href={{!!url}} target="blank"><$image source={{!!url}}/></a>
+```
+Resource: External Link from a viewed field (Jeremy Ruston 10/27/14)<br>
+
+```
+<a href={{!!url}} target="_blank"><$view field="url"/></a>
+```
+Resource: List filters and external links (Jeremy Ruston 9/13/14)
+
+```
+<$list filter="[tag[Philosophy]sort[title]]"><a href={{!!url}} target="_blank"><$view field="title"/></a>
+```
+Resource: NEWBIE question - Open Files (Jeremy Ruston 7/31/14)
+
+```
+[ext[my link text|https://dl.dropboxusercontent.com/u/83055414/booktemplate.html]]
+```

@@ -1,0 +1,21 @@
+title: $:/inmysocks/Find a way to have startup actions act differently depending on certain conditions
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: like it being a specific date
+due_day: 
+due_month: 
+due_year: 
+modified: 20150503215637062
+start_day: 
+start_month: 
+start_year: 
+subcategory: Startup Actions
+subsubcategory: New Feature
+tags: inmysocks  [[New Feature]] [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Find a way to have startup actions act differently depending on certain conditions
+source-tiddler-title-as-link: Find%20a%20way%20to%20have%20startup%20actions%20act%20differently%20depending%20on%20certain%20conditions
+
+This may not be very hard to do, but I may need to make a new widget that tests the date. Or use the date tools that I have already made. I should stop forgetting about those.

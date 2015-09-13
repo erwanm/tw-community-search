@@ -1,0 +1,24 @@
+title: $:/inmysocks/twCard - Plugin - Range Widget
+audience: 
+category: Widget
+created: 20150106175012859
+date: 03-06-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150604041759019
+name: Range Widget
+plugin_tiddler: $:/plugin/inmysocks/rangewidget/range.js
+release: 
+repository: 
+revision: 
+short_description: A plugin that adds an html range slider input
+wiki: http://inmysocks.tiddlyspot.com/#Range%20Widget%20Plugin
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Range Widget
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Range%20Widget
+
+A plugin that adds an html range slider input

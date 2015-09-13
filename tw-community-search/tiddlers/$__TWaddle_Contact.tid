@@ -1,0 +1,23 @@
+title: $:/TWaddle/Contact
+created: 20150405231624871
+creator: Mat
+modified: 20150717195158137
+modifier: Mat
+recent: 15/04/07	
+tags: TWaddle 
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Contact
+source-tiddler-title-as-link: Contact
+
+Here is a contact form via Google Docs ([[how?|Twoogle Docs contact form]])<br>
+Do please post a message to me. State ''which tiddler'' it concerns, if any.
+
+Wait a few seconds for this to laod.
+<style>
+   #ocontact {position: relative; width: 200%; }
+   #icontact {position: absolute; left: -30px; top: -230px; clip:rect(213px 490px 405px 30px); display:block; overflow:hidden; }
+</style>
+<div id="ocontact"><div id="icontact" >
+   <iframe  src="https://docs.google.com/forms/d/1e5Bu0aHjQjqCuouPokwVdy1Qa1BXY8dCk_rLSUafgiM/viewform?usp=send_form" scrolling="no" frameborder="0" overflow="hidden" width="700px" height="460px"  ></iframe>
+</div></div>
+<br><br><br><br><br><br><br>

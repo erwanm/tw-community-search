@@ -1,0 +1,36 @@
+title: $:/GSD5/Action
+tags: GSD5  GSD5TiddlerTypes
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Action
+source-tiddler-title-as-link: Action
+
+! Summary
+
+Actions are the basic unit of the GSD5 core plugin.  The Action is used to represent a basic action or task to be performed.
+
+! Detail
+
+!! Field Variables
+The following field variables are used by Actions.
+
+| !Field | !Values | !Note |
+|gsd_type |action |Required value. |
+|gsd_complete |false | |
+|~|true | |
+|gsd_contact |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_project |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_realm |all | |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_status |next | |
+|~|waiting | |
+|~|future | |
+
+!! UI Controls
+Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls can be added to the Blue-Box using the following system tags.
+
+* [[$:/tags/GSD5ActionCore|GSD5ActionCore]]
+* [[$:/tags/GSD5ActionPlugin|GSD5ActionPlugin]]
+
+! Best Practice
+
+//--none--//

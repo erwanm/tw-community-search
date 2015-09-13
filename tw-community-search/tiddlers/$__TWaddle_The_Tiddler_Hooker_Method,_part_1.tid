@@ -1,0 +1,82 @@
+title: $:/TWaddle/The Tiddler Hooker Method, part 1
+created: 20150318144400800
+creator: Mat
+modified: 20150715203014249
+modifier: Mat
+note: A [[The Tiddler Hooker Method, part 2]] will eventually follow this.
+recent: 15/07/15
+summary: Part 1 in explanations for [[The Tiddler Hooker Method]]
+tags: TWaddle  [[The Tiddler Hooker Method]]
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The Tiddler Hooker Method, part 1
+source-tiddler-title-as-link: The%20Tiddler%20Hooker%20Method%2c%20part%201
+
+Ah, the previlege of introducing titles for concepts!
+
+I found a way to "hook" elements so that they move in tandem with the tiddler. Possibly old hat for some but I haven't seen it used and it enables  some pretty cool things.
+
+Here's the basic idea:
+
+```
+<style>
+   #outer { position: relative; }
+   #inner { position: absolute; left: -60px; top: -40px; }
+</style>
+
+<div id="outer"><div id="inner">
+   {{img/fish_small}}
+</div></div>
+```
+<----- And that's el resulto! The tiddler boundaries are no limitation. 
+
+<style>
+#outer_fish { position: relative; }
+#inner_fish { position: absolute; left: -60px; top: -40px; }
+</style>
+<div id="outer_fish"><div id="inner_fish">
+{{img/fish_small}}
+</div></div>
+
+The outer div (here called "outer") sets the position to be relative to the tiddler (and not the page). Given that, the //inner// then tells where it should go (CSS values -60px left and -40px top).... relative to where it is called in the tiddler code. I.e had that code appeared higher up in this tiddler, then the fish would also have appeared higher up.
+
+The specific left and top positioning can be iffy. I hope to create some genereic solution using [[Range sliders]] some day. CSS values are defined a bit backwards so that adding more to left moves the image to the right adding more to top moves it down. Ask the html consortium if curious.
+
+Be careful so that a larger image, or other content, doesn't cover the toolbar menu! If the edit button gets covered you can't go in to correct the position and you'll have to erase your whole TW. Ok, just kidding. One workaround is to rename the image temporarily, i.e that tiddler. If you're really showing an external image, or messed up in some other way, create a new tiddler and put a "remote editor" in it: 
+
+`<$edit tiddler="MessedUpTiddler" field="text" class="tc-edit-texteditor" />`
+
+This also makes it much easier to experiment with positioning and other stuff in the styling and definition. I.e have the tiddler with the hooked content and then have the editor in the tiddler just above it and edit "live". You can also use my [[SideEditor|http://sideeditor.tiddlyspot.com/]].
+
+We'll get back to the "remote editor" in a moment for some extremely cool things, but let me first mention how the Hooker Technique
+
+
+''Text content'' - when hooking text, you'll likely want to include //width: 100%;// in the #outer div, so that text spreads across the full tiddler.
+
+
+ The viewtemplate could pick up an address from a field and a format form another field.
+
+''A portable button''
+
+<style>
+#oportbutt { position: relative; }
+#iportbutt { position: absolute; height: 10px; width: 20%;  left: -130px; top: -30px; }
+</style>
+
+<div id="oportbutt"><div id="iportbutt">
+<<linkimg "Oh yeah..." img/button "click me!" clickme>>
+</div></div>
+
+```
+<style>
+#oportbutt { position: relative; }
+#iportbutt { position: absolute; height: 10px; width: 20%;  left: -130px; top: -80px; }
+</style>
+
+<div id="oportbutt"><div id="iportbutt">
+<<linkimg "Oh yeah..." img/button "click me!" clickme>>
+</div></div>
+
+```
+
+<br><br>
+More to follow.

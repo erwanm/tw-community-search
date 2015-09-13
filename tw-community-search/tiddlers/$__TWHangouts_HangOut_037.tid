@@ -1,0 +1,65 @@
+title: $:/TWHangouts/HangOut_037
+created: 20150106020145550
+modified: 20150106020232412
+tags: TWHangouts  License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_037
+source-tiddler-title-as-link: HangOut_037
+
+2014-03-04 - [[YouTube|http://www.youtube.com/watch?v=kwxGS8aphT8]]
+
+---
+"""
+0:00:00 Intro: rtl: Eric, Felippe, Jeremy, Mario, Stephan, Ton
+0:02:00 Jeremy- Ageda - Upcoming in 5.0.9
+0:03:00 Jeremy- Help Environment on tiddlystuff(.)tiddlyspot.com An experiment, how plugins can handle there docs. one more step to a self documenting wiki.
+0:06:10 Jeremy- TW core docs may become a plugin.
+0:07:05 Jeremy- Request for a contribution of a "Reverence Card"
+0:07:35 Jeremy- Upcoming in 5.0.9 - missing tiddler "link handling". live editing :)
+0:14:40 Jeremy- New visitor ...
+0:16:20 Jeremy- ... missing link text ... what about translations ...
+0:18:00 .. discussion about make documentation buttons clickable ... no
+0:20:40 Mario- What's about the RoadMap
+0:21:12 Stephan- discussion about autosave "default on" setting
+0:22:50 Jeremy- With "autosave", what does the "save icon" do?
+0:24:20 Mario- Sugggests, an "indicator" for "unsaved tiddlers" on the "save button"
+0:26:12 Jeremy- Idea to indicate the "need to save" with a progress bar.
+0:28:10 Jeremy- Default behaviour for line break handling. ... :)
+0:29:50 Jeremy- about testing GFM linebreak behaviour for TW syntax.
+0:33:40 Jeremy- Introduction to the TW test suite.
+0:35:23 .. about tests on the server
+0:36:40 .. test.sh file
+0:37:23 .. test editoin with the .js files. ... uses "jasmin" test system. test-filters.js is a simple one
+0:41:50 .. test-html-parser is a complicated one.
+0:44:30 .. test-widget ... tests the refresh mechanism.
+0:48:10 .. testing the macro call widget. ... how to "copy/paste/create" a new test. .
+0:50:20 .. test-wikitext .. the simplest one
+0:51:05 .. short pause :) ..
+0:51:35 Jeremy- ... Mario short summary, what he needs
+0:52:25 Mario- What about a convention for "global macro" CSS class names?
+0:54:45 Jeremy- about a language tools edition.
+0:57:05 Jeremy- Any questions ?? ... no
+0:57:45 Jeremy- about the "big parser refactoring"
+0:58:20 Stephan- There needs to be a different / easier "filter syntax" documentation.
+1:03:00 Jeremy- about tw-close-other-tiddlers documentation
+1:05:30 Mario- Every widget should have at least one example.
+1:07:35 Mario- Suggests to copy the Date format docs from stephan.
+1:08:40 Mario- about codemirror movie plugin to create interactive tutorials.
+1:10:30 Mario- Using filters ... the start should be simple.
+1:11:53 Jeremy- About the basic "core concepts", that are needed to understand TW.
+1:13:15 Mario- Intro of codemirror movie.
+1:16:25 Jeremy- about highlighter plugin.
+1:19:35 Jeremy- codemirror should be used in TiddlyDesktop for "wiki folders"
+1:19:55 Mario- is happe with the Brackets editor atm.
+1:20:45 Mario- Is it necessary, that popups stay open? ... discussion
+1:23:45 Mario- What, if a popup has a "tick" to lock it?
+1:24:27 Jeremy- about Notifications, Wizards, Alerts ...
+1:27:20 Jeremy- how to change popup behaviour. ...
+1:28:40 Mario- is experimenting with the "info area" for tagging ...
+1:30:22 Jeremy- Tagging linked into the tag manager.
+1:31:57 Mario- mentions BJ's Drag and Drop sorting for tiddlers ...
+1:37:10 Jeremy- Drag and drop should create a hirachical list.
+1:37:47 Jeremy- The "stack trace" would be worth including.
+1:39:00 Jeremy/Mario- about debugging exernal library stuff.
+1:42:45 Bye! Bye!
+"""

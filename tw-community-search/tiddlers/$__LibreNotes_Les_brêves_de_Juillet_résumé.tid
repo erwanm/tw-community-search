@@ -1,0 +1,18 @@
+title: $:/LibreNotes/Les brêves de Juillet résumé
+annee: 2015
+created: 20150707165209230
+date: 6 juillet 2015
+modified: 20150707173054142
+post: Les brêves de Juillet
+summary: En ce début du mois de Juillet petit tour des sorties de Mai et Juin...
+template: BlogTemplate
+tags: LibreNotes  semi Resume
+source-wiki-id: LibreNotes
+source-tiddler-title-as-text: Les brêves de Juillet résumé
+source-tiddler-title-as-link: Les%20brêves%20de%20Juillet%20résumé
+
+<div style="text-align: left; font-size:0.7em;">
+{{!!summary}}
+
+<br><br>
+<$link to={{!!post}}>Lire la suite</$link>

@@ -1,0 +1,30 @@
+title: $:/inmysocks/Random List of Awesome Things
+count_field: 4
+created: 20150525180654057
+modified: 20150525195837730
+tags: inmysocks 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Random List of Awesome Things
+source-tiddler-title-as-link: Random%20List%20of%20Awesome%20Things
+
+The things on this list are supposed to be immediately interesting. This list is a random selection of 5 items from the [[full list|List of Awesome Things]]. There may be duplicates, it is updated every time the wiki is loaded.
+
+<$list filter='[tag[Awesome Thing]sort[title]nth{$:/state/Awesome Things Listing!!first}]'>
+<$link to=<<currentTiddler>>><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}}>Go to site</a>)
+</$list>
+
+<$list filter='[tag[Awesome Thing]sort[title]nth{$:/state/Awesome Things Listing!!second}]'>
+<$link to=<<currentTiddler>>><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}}>Go to site</a>)
+</$list>
+
+<$list filter='[tag[Awesome Thing]sort[title]nth{$:/state/Awesome Things Listing!!third}]'>
+<$link to=<<currentTiddler>>><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}}>Go to site</a>)
+</$list>
+
+<$list filter='[tag[Awesome Thing]sort[title]nth{$:/state/Awesome Things Listing!!fourth}]'>
+<$link to=<<currentTiddler>>><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}}>Go to site</a>)
+</$list>
+
+<$list filter='[tag[Awesome Thing]sort[title]nth{$:/state/Awesome Things Listing!!fifth}]'>
+<$link to=<<currentTiddler>>><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}}>Go to site</a>)
+</$list>

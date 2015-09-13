@@ -1,0 +1,51 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #025
+created: 20150115070844659
+modified: 20150115070935775
+tags: TWHangouts  HangOut_025 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #025
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23025
+
+\define hangout() 025
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: frtl: Jim, Jeremy, Mario, Paul, Stephan, Ton">>
+<<topic "0:02:50" "Jim's- usecase: 'TW5 in the wild'. Using tags to create a 'parent - child' structure. ... 1-1, 1-many relations">>
+<<topic "0:08:20" "Jim- question: 'How to get backlinks'">>
+<<topic "0:10:05" "Jeremy's- explanation">>
+<<topic "0:13:20" "Mario- suggests to use tags ... similar to 'TagglyTagging' ... that's not, what Jim wants.">>
+<<topic "0:15:30" "Jeremy- shows how to add the 'backlink' to the ViewTemplate.">>
+<<topic "0:21:40" "Jeremy- about 'asking questions is _important_' because it is valuable feedback.">>
+<<topic "0:23:50" "Jim- What does !!parent}} mean? ... about 'text references'">>
+<<topic "0:30:15" "Jim- Is 'parent' a core field? ... no">>
+<<topic "0:31:30" "Jeremy- documentation about 'backlinks'">>
+<<topic "0:32:55" "Jeremy- about 'Philosophy of Tiddlers'">>
+<<topic "0:34:00" "Jeremy- about TW Editions">>
+<<topic "0:38:18" "Paul- about 'documentation inconsistencies' ... that may be confusing for newbies">>
+<<topic "0:41:00" "Jeremy- about the use of 'TiddlyWiki' as TW5 and TiddlyWikiClassic">>
+<<topic "0:43:15" "Paul- 'What is a tiddler' ... which tiddler fields are part of the 'core'. What's default for TWc, TW5 and eg: TiddlyWeb / TiddlySpace">>
+<<topic "0:49:00" "Mario- about fields that are part of the core.">>
+<<topic "0:52:20" "Jeremy- about 'Going to beta'">>
+<<topic "0:54:20" "about browser 'back / forward' button integration">>
+<<topic "-> 0:56	“ “	:40 Jeremy- about the five(.)tiddlywiki(.)com/static/RoadMap ... (google video recording is kind of broken till: the end :(">>
+<<topic "0:58:10" ".. multi language support">>
+<<topic "0:59:40" ".. aliases ... (may affect the 'store' structure'">>
+<<topic "1:01:40" ".. search / replace">>
+<<topic "1:02:55" ".. rich links tooltips">>
+<<topic "1:03:35" ".. keyboard shortcuts and focus ... bookmarklets as a workaround">>
+<<topic "1:06:00" ".. quoting ...">>
+<<topic "1:07:00" "about 'social' widgets .. eg: youtube widget">>
+<<topic "1:09:10" ".. syntax highlighting">>
+<<topic "1:13:45" ".. plugin minification">>
+<<topic "1:17:10" ".. list editor drag and drop">>
+<<topic "1:18:10" ".. display JSON data .. TW should be 'self documenting'">>
+<<topic "1:19:20" "general TW usability">>
+<<topic "1:22:30" "about 'depricating widgets' in the future">>
+<<topic "1:24:50" "Paul- .. about $tw.document in the code">>
+<<topic "1:31:20" "Kamil- .. drag and drop importing pictures">>
+<<topic "1:33:50" "... Google recording problems ...">>
+<<topic "1:37:10" "Jeremy is back .. image support question ...">>
+<<topic "1:40:20" "Jeremy/Eric- about move to beta and necessary 'dot com' changes.">>
+<<topic "1:45:40" "Ton- There is a problem with five(.)tiddlyspace(.)com">>
+<<topic "1:52:35" "Bye! Bye!">>

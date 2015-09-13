@@ -1,0 +1,22 @@
+title: $:/inmysocks/CSS Properties - Positioning
+created: 20150426234537702
+modified: 20150426235524780
+tags: inmysocks  [[list of some relevant CSS properties]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: CSS Properties - Positioning
+source-tiddler-title-as-link: CSS%20Properties%20-%20Positioning
+
+Here are properties that have to do with positioning elements
+
+|!Name |!Description |!Values Used |
+|position |This sets how the positioning is determined |inherit static relative absolute fixed |
+|top |The vertical offset between the top of the element and the top of the parent |inherit auto px em vh vw % (can be negative) |
+|right |The offset from the right edge of the element and the right edge of the parent |inherit auto px em vh vw % (can be negative) |
+|bottom |The vertical offset between the bottom of the element and the bottom of the parent |inherit auto px em vh vw % (can be negative) |
+|left |The offset from the left edge of the element and the left edge of the parent |inherit auto px em vh vw % (can be negative) |
+|vertical-align |The vertical alignment of the element inside it's parent |inherit baseline middle top bottom text-top text-bottom super sub px em vh vw % (can be negative) |
+|overflow |How to handle content that goes outside the parent container |inherit visible hidden scroll auto |
+|overflow-x |Same as overflow, but only horizontally | |
+|overflow-y |Same as overflow, but only vertically | |
+|z-index |The positioning of the element on the z-axis. If two elements take up the same space on the screen, the element with the larger z-index is shown. |inherit auto (integer value) (can be negative) |
+

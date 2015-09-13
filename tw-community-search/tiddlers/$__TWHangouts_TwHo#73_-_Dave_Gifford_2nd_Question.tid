@@ -1,0 +1,18 @@
+title: $:/TWHangouts/TwHo#73 - Dave Gifford 2nd Question
+created: 20141219083803760
+modified: 20141230235006850
+tags: TWHangouts  [[TiddlyWiki Hangout #73]] [[Dave Gifford]] [[TiddlyWiki Hangout #073]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TwHo#73 - Dave Gifford 2nd Question
+source-tiddler-title-as-link: TwHo%2373%20-%20Dave%20Gifford%202nd%20Question
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/EU-H0xhga08?rel=0&start=1884&end=2760&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
+"""
+[[31:24|http://www.youtube.com/watch?v=EU-H0xhga08&t=31m24s]] ''---''  [[Dave Gifford]] 2^^nd^^ Question          
+Q - As Part of the clean up and documentation process perhaps you can clean up the default style sheet base.  This would help us find and make changes to our local files
+A - It is Rendered Output and that is the way it looks - Screen Share of [[$:/themes/tiddlywiki/vanilla/base]]  If you look at this in a text editor it is pretty straight forward.
+Discussion about extending the core and extending this to style sheets and things like this.
+Discussion of making the NOTES BOLD to make them stand out.
+In the Future we can look at breaking each section out into individual [[Tiddlers]] to make both customizing and understanding easier.
+"""

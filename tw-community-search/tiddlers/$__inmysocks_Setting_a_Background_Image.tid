@@ -1,0 +1,19 @@
+title: $:/inmysocks/Setting a Background Image
+created: 20150311161916246
+modified: 20150311163008800
+tags: inmysocks  [[Wiki Customization]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Setting a Background Image
+source-tiddler-title-as-link: Setting%20a%20Background%20Image
+
+!Using an image given the url:
+
+Create a tiddler with a descriptive name, the name isn't important, and put this in the text field:
+
+```
+html body.tc-body { background: url("http://www.nasa.gov/sites/default/files/styles/946xvariable_height/public/thumbnails/image/pia19312.jpg") no-repeat center center fixed; background-size: cover; height: 100%;}
+```
+
+and replace the url (in this case `http://www.nasa.gov/sites/default/files/styles/946xvariable_height/public/thumbnails/image/pia19312.jpg`) with the url of the image you would like as your background.
+
+Tag the tiddler with `$:/tags/Stylesheet` and save it. If things worked correctly you should see the background change as soon as you save the tiddler.

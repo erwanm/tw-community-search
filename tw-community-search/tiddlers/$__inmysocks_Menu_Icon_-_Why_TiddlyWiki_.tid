@@ -1,0 +1,10 @@
+title: $:/inmysocks/Menu Icon - Why TiddlyWiki?
+created: 20150227235140840
+modified: 20150227235358913
+top_left_menu_order: 5
+tags: inmysocks  [[Menu Icon]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Menu Icon - Why TiddlyWiki?
+source-tiddler-title-as-link: Menu%20Icon%20-%20Why%20TiddlyWiki%3f
+
+<$button class='tc-btn-invisible' to="Why TiddlyWiki?" tooltip='Why use TiddlyWiki?'>Why ~TiddlyWiki?</$button>

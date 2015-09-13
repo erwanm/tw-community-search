@@ -1,0 +1,18 @@
+title: $:/TWHangouts/Example Hangout Tiddler
+created: 20141223074954174
+creator: aelocson
+modified: 20141228192234835
+modifier: aelocson
+tags: TWHangouts 
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Example Hangout Tiddler
+source-tiddler-title-as-link: Example%20Hangout%20Tiddler
+
+\define hangout() 073
+
+<<header>>
+
+"""
+<<topic "00:01:25" "Q & A Start">>
+<<topiclink "02:08:08" "Eric Discusses how he creates the Wiki Way">>
+"""

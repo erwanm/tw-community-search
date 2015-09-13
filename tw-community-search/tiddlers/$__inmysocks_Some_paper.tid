@@ -1,0 +1,30 @@
+title: $:/inmysocks/Some paper
+abstract_tiddler: Some paper_Abstract
+bibtex_tiddler: Some paper_BibTex
+modified: 20150211221510254
+on_list: true
+subject_tiddler: Some paper_Subjects
+tags: inmysocks  Citations
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Some paper
+source-tiddler-title-as-link: Some%20paper
+
+Subjects: 
+
+<ul>
+<$list filter='[[Some paper_Subjects]indexes[]]'>
+<li><$view field='title'/></li>
+</$list>
+</ul>
+
+Abstract:<br>
+
+<$view tiddler='Some paper_Abstract' field='text'/>
+
+Bibtex:
+
+---
+
+<$macrocall $name=monoSpacedCodeBlock src={{Some paper_BibTex}}/>
+
+---

@@ -1,0 +1,35 @@
+title: $:/let/GT
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141203230000000
+modifier: Tobias Beer
+summary: matches all where the value of a field is ''greater than'' that of the operand
+types: [[INT|TYPE]], [[NUM|TYPE]], [[DATE|TYPE]]
+tags: let  Comparators
+source-wiki-id: let
+source-tiddler-title-as-text: GT
+source-tiddler-title-as-link: GT
+
+!! Number Example
+;`<$list filter="[let:NUM number GT[3]]"/>`
+:get [[all tiddlers|Number]] where the field ''number'' of [[TYPE]] [[NUM|TYPE]] is ''greater than'' 3
+;result
+:.tb-links <$list filter="[let:NUM number GT[3]]"/>
+!! Integer Example
+;`<$list filter="filter="[let:INT count GT[3]]"/>`
+:get [[all tiddlers|Number]] where the field ''count'' of [[TYPE]] [[INT|TYPE]] is ''greater than'' 3
+;result
+:.tb-links <$list filter="[let:INT count GT[3]]"/>
+
+
+!! Date Examples
+;`<$list filter="[!is[system]let:DATE created GT[20141129]sort[title]]"/>`
+:get all non-system tiddlers that were modified after 29 Nov. 2014
+;result (<$count filter="[!is[system]let:DATE created GT[20141129]sort[title]]"/>)
+:.tb-links <$list filter="[!is[system]let:DATE created GT[20141129]sort[title]]"/>
+:<br>
+
+;`<$list filter="[!is[system]let:DATE GT{GettingStarted!!modified}sort[title]]"/>`
+:get all non-system tiddlers that were modified after GettingStarted was last modified
+;result (<$count filter="[!is[system]let:DATE GT{GettingStarted!!modified}]"/>)
+:.tb-links <$list filter="[!is[system]let:DATE GT{GettingStarted!!modified}sort[title]]"/>
