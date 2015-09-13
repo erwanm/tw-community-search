@@ -1,10 +1,10 @@
 created: 20150902234056703
-modified: 20150903231801931
+modified: 20150912222412051
 tags: TWCSCore $:/tags/Macro
 title: $:/TWCSMacros
 type: text/vnd.tiddlywiki
 
-\define listRecentTiddlers(filter: "[all[current]]")
+\define listRecentTiddlers(filter: "[all[current]]" template: "$:/core/ui/ListItemTemplate")
   <table>
   <$list filter="""$filter$""" emptyMessage="unknown">
     <tr>
@@ -14,9 +14,10 @@ type: text/vnd.tiddlywiki
         @@
       </td>
       <td>
-        <$transclude tiddler="$:/core/ui/ListItemTemplate"/>
+        <$transclude tiddler="""$template$"""/>
       </td>
     </tr>
   </$list>
   </table>
 \end
+

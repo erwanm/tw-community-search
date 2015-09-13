@@ -1,5 +1,5 @@
 created: 20141221191203963
-modified: 20150827153559643
+modified: 20150912232249089
 tags: TWCSCore DeveloperDocumentation
 title: ImplementationOverview
 type: text/vnd.tiddlywiki
@@ -14,4 +14,7 @@ Pure {{TiddlyWiki}}: the user can search the content gathered from the indexed w
 
 !! Project
 
-The whole project is available on Github: https://github.com/erwanm/tw-aggregator
+The whole project is available on Github: 
+
+* https://github.com/erwanm/tw-aggregator contains all the indexing scripts
+* https://github.com/erwanm/tw-community-search contains the specific Community Search wiki skeleton, as well as the script needed to update and upload the resulting wiki to github.io.
