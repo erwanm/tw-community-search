@@ -1,0 +1,20 @@
+title: $:/PublicSidebar/Sidebar CSS overview
+created: 20150819222240787
+modified: 20150821072220267
+tags: PublicSidebar 
+source-wiki-id: PublicSidebar
+source-tiddler-title-as-text: Sidebar CSS overview
+source-tiddler-title-as-link: Sidebar%20CSS%20overview
+
+This is a runthrough of the default TW stylings to the default sidebar elements, i.e these are the stylings which values you can change for different effects.
+
+#$:/core/ui/PageTemplate/sidebar with the style ''.tc-sidebar-scrollable'' for all content and contains...
+##''sidebar header'' (no separate tiddler) with ''.tc-sidebar-header'' that in turn contains..
+###the TW title - ''.tc-site-title''
+###subtitle - ''.tc-site-subtitle''
+##$:/core/ui/PageTemplate/pagecontrols with ''.tc-page-controls'' for all pagecontrol buttons
+##$:/core/ui/SideBarLists with ''.tc-sidebar-lists'' for all its content which includes...<br>
+###the search engine - ''.tc-search''<br>$:/core/ui/SearchResults - ''.tc-search-results''
+###a direct macro call for the tabs lists that unfortunately does not specify a class so we can't manipulate them directly/specifically
+
+A tip for playing around with styling in an easy way is to use my [[SideEditor|http://sideeditor.tiddlyspot.com/]] plugin. This lets you edit the $:/PublicSidebar/main "live" so you see the effects without having to save the tiddler all the time.

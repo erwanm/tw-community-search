@@ -1,6 +1,6 @@
 title: $:/LibreNotes/Introduction
 created: 20150420134453342
-modified: 20150711160807322
+modified: 20150913120332524
 tags: LibreNotes  transparent
 source-wiki-id: LibreNotes
 source-tiddler-title-as-text: Introduction
@@ -16,7 +16,7 @@ source-tiddler-title-as-link: Introduction
 <td>
 <div style="text-align:center; font-size:110%; background-color: rgba(255,255,255,0.5)">
 Chakra<br>
-[img width="46" [chakra_logo.png]]<br>
+[img width="46" [chakralog]]<br>
 </div>
 <div style="text-align:center; font-size:70%; background-color: rgba(255,255,255,0.5)">
 Une distribution GNU/Linux centrée sur KDE
@@ -32,7 +32,7 @@ Un carnet de notes web personnel et non linéaire
 </td>
 <td>
 <div style="text-align:center; font-size:110%; background: rgba(255,255,255,0.5)">
-Git<br>[img width="46" [git_logo.png]]<br>
+Git<br>[img width="46" [gitlog]]<br>
 </div>
 <div style="text-align:center; font-size:70%; background: rgba(255,255,255,0.5)">
 Un logiciel de gestion de version décentralisé

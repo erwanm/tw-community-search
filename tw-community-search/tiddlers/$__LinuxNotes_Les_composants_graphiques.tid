@@ -1,6 +1,6 @@
 title: $:/LinuxNotes/Les composants graphiques
 created: 20141205160207270
-modified: 20150131154943544
+modified: 20150913174556253
 tags: LinuxNotes  [[L'espace de travail]]
 source-wiki-id: LinuxNotes
 source-tiddler-title-as-text: Les composants graphiques
@@ -9,9 +9,7 @@ source-tiddler-title-as-link: Les%20composants%20graphiques
 Les composants graphiques ou plasmoids sont des widgets placés sur le bureau ou dans les panneaux.<br>
 Le lanceur d'application //Kickoff//, //l'horloge numérique//... sont des plasmoids.
 
-<a href="https://data.eu1.younitedcontent.com/v2/data/share%3A8dfe162e-3dc3-e99e-accf-d94405d14c3b
-/files/plasmoid.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3A8dfe162e-3dc3-e99e-accf-d94405d14c3b
-/files/plasmoid.png"></a>
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh" target="_blank">[img [Plasmoids|https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh&download]]</a>
 
 <<<
 On y accède par clic droit ou par la //boîte à outils Plasma// → //Ajouter des composants graphiques//<br>
@@ -40,7 +38,9 @@ Clic droit sur le plasmoid → //Configurer//<br>
 Ceux sur le bureau ont les options au sein d'une « poignée ». On peut les agrandir, les faire pivoter...
 <<<
 
-<a href="https://data.eu1.younitedcontent.com/v2/data/share%3A48288c4e-102f-0469-1d63-682d2077831b/files/menu.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3A48288c4e-102f-0469-1d63-682d2077831b/files/menu.png" align='right' width="350"></a>
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b" target="_blank">[img align="right" width="300" [Editeur de menu|https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b&download]]</a>
+@@
 
 !!!Le lanceur d'application Kickoff
 
@@ -52,6 +52,8 @@ Clic droit sur le menu → //Modifier les applications//
 Pour revenir à un menu classique :<br>
 Clic droit sur le menu → //Style de menu classique//
 <<<
+
+<br>
 
 !!!Zoom sur le Gestionnaire de tâches à icônes
 Il peut remplacer le gestionnaire de tâches classique par des icônes (ou peut être utilisé comme un dock).

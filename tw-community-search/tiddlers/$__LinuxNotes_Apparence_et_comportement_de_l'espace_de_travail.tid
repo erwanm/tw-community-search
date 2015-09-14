@@ -1,6 +1,6 @@
 title: $:/LinuxNotes/Apparence et comportement de l'espace de travail
 created: 20141216135946969
-modified: 20150219082524320
+modified: 20150913140220444
 tags: LinuxNotes  [[La configuration du système]]
 source-wiki-id: LinuxNotes
 source-tiddler-title-as-text: Apparence et comportement de l'espace de travail
@@ -12,22 +12,27 @@ source-tiddler-title-as-link: Apparence%20et%20comportement%20de%20l%27espace%20
 Kwin est le gestionnaire de fenêtre de KDE. Une fois les effets du bureau activés, Kwin offre beaucoup de façons
 d'interagir avec les fenêtres.
 
-<a href="https://data.eu1.younitedcontent.com/v2/data/share%3A910fca65-e9e6-9b18-9bc3-a5f94df7ed4b
-/files/effets.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3A910fca65-e9e6-9b18-9bc3-a5f94df7ed4b
-/files/effets.png" align='right' width="300"></a>
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
+" target="_blank">[img width="350" [Configuration générale|https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
+&download]]</a>
+@@
 
 !!Configuration générale
 Les effets de base de Kwin se configure ici (animations...).
 Suivant la configuration on peut activer ou désactiver les effets de bureau de manière générale.
 
 >Effets de bureau → Cocher ou décocher //Activer les effets de bureau au démarrage//
-<br>
+<br><br><br>
 
 !!Configuration avancée des effets de bureau (Tous les effets)
-<a href="https://data.eu1.younitedcontent.com/v2/data/share%3Ac2412835-5c5d-d2f3-748e-e40e830ff349
-/files/touseffets.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3Ac2412835-5c5d-d2f3-748e-e40e830ff349
-/files/touseffets.png" align='right' width="300"></a>
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
+" target="_blank">[img width="350" [Tous les effets|https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
+&download]]</a>
+@@
 
+<br>
 L'ensemble des effets de Kwin se configure ici, on peut gérer par exemple la transparence des fenêtre, leur comportement et différents effets. Les effets de base se règles automatiquement en fonction des capacités.
 
 Certains effets sont assez gourmands en ressources, on peut les désactiver ou régler l'effet de manière individuelle (en cliquant sur l'icône clé) :
@@ -75,10 +80,11 @@ Ajouter le bouton  → menu déporté (voir [[Apparence et comportement généra
 @@
 
 !!Thème de bureau
-<a href="https://data.eu1.younitedcontent.com/v2/data/share%3Ab9259c65-fdfe-6275-759a-5ea64e4d7b86
-/files/themebureau.png" target="_blank"><img src="https://data.eu1.younitedcontent.com/v2/data/share%3Ab9259c65-fdfe-6275-759a-5ea64e4d7b86
-/files/themebureau.png" align='right' width="300"></a>
-
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
+" target="_blank">[img width="350" [Thème de bureau|https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
+&download]]</a>
+@@
 
 ''Air'' est le thème par défaut. On peut installer de nouveaux thèmes de bureau ou "Plasma themes" (ex : Caledonia par défaut sur Chakra).
 
@@ -86,6 +92,7 @@ Directement depuis le gestionnaire de thème ou le télécharger sur [[kde-look|
 
 <i class="fa fa-folder-open"></i> Les thèmes de bureau sont stockés dans les dossiers<br>
 `~/.kde4/share/apps/desktoptheme`  et<br> `/usr/share/apps/desktoptheme`
+<br><br>
 
 !!Thème de curseur
 Permet de modifier le thème du curseur de la

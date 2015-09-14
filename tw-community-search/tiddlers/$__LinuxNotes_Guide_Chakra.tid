@@ -2,7 +2,7 @@ title: $:/LinuxNotes/Guide Chakra
 color: #acacac
 created: 20141026192227368
 list: [[Les dépôts]] [[Les miroirs]] [[La gestion des paquets]] [[Mes applications]]
-modified: 20150502162025255
+modified: 20150913125926710
 tags: LinuxNotes  Menu
 source-wiki-id: LinuxNotes
 source-tiddler-title-as-text: Guide Chakra
@@ -14,7 +14,7 @@ L'objectif est de fournir une distribution Linux “vitrine des logiciels libres
 
 Chakra utilise un modèle de //publication semi-roulante// (half-rolling release) pour ses mises à jours. Les paquets important du système sont mis à jour tous les 6 mois pour plus de stabilité, tandis que les applications sont mises à jour continuellement.
 
-<<ibox "https://data.eu1.younitedcontent.com/v2/data/share%3Afa65c19c-aff8-c029-e95f-ad5c2472c83f/files/chakradescartes.png" "Chakra 2014.11 Euler">>
+<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=BWJtHWwofivpG4X&download" "Chakra 2014.11 Euler">>
 
 <br>
 Le site du projet est très bien fait, avec les [[news|http://chakraos.org/news/]] de la distribution, le [[wiki|http://chakraos.org/wiki/index.php?title=Main_Page]] pour la documentation (avec celui d'Arch Linux en complément) et la possibilité de parcourir la liste des [[paquets|http://rsync.chakraos.org/packages/]] disponibles en ligne.<br>
