@@ -1,11 +1,12 @@
-Mon Sep 14 20:05:14 IST 2015
+Mon Sep 14 20:37:54 IST 2015
 step 1: set git repo right
 Already on 'automatic'
+M	git-update-tw-community-search.log
 Your branch is up-to-date with 'origin/automatic'.
 Already up-to-date.
 step 2: backup previous node.js content
 step 3: run the aggregator
-Warning: removing any previous content in '/tmp/tmp.V3aXBVW5ye'
+Warning: removing any previous content in '/tmp/tmp.dYMQEktWh8'
 Reading 53 wikis...
 wiki 1/53: '2click2edit'; fetching 'http://danielorodriguez.com/TW5-2click2edit/'
 wiki 2/53: 'AutoTag'; fetching 'http://danielorodriguez.com/TW5-AutoTag/'
@@ -37,7 +38,7 @@ wiki 25/53: 'TiddlyMap'; fetching 'http://tiddlymap.org/'
 wiki 26/53: 'TiddlyNotes'; fetching 'http://librenotes.bitbucket.org/tiddlynotes'
 wiki 27/53: 'TiddlyQuickly'; fetching 'http://giffmex.org/TiddlyQuickly.html'
 Warning: an error occured when trying to fetch wiki at 'http://giffmex.org/TiddlyQuickly.html'
-Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.V3aXBVW5ye" "http://giffmex.org/TiddlyQuickly.html"' returned exit code 1
+Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.dYMQEktWh8" "http://giffmex.org/TiddlyQuickly.html"' returned exit code 1
 wiki 28/53: 'Tinka'; fetching 'http://twguides.org/wiki/tinka.html'
 wiki 29/53: 'TonGernerPlayground'; fetching 'http://tongerner.tiddlyspot.com/'
 wiki 30/53: 'TribalKnowledge'; fetching 'http://dl.dropboxusercontent.com/u/118970/wiki/tw5tribalknowledge.html'
@@ -66,7 +67,7 @@ wiki 49/53: 'tw5magick'; fetching 'http://tw5magick.tiddlyspot.com/'
 Warning: no presentation tiddler in 'tw5magick'
 wiki 50/53: 'tw5mall'; fetching 'http://www.giffmex.org/tw5mall.htm'
 Warning: an error occured when trying to fetch wiki at 'http://www.giffmex.org/tw5mall.htm'
-Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.V3aXBVW5ye" "http://www.giffmex.org/tw5mall.htm"' returned exit code 1
+Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.dYMQEktWh8" "http://www.giffmex.org/tw5mall.htm"' returned exit code 1
 wiki 51/53: 'tweb.at'; fetching 'https://tweb.at/'
 wiki 52/53: 'welford'; fetching 'http://welford.github.io/'
 wiki 53/53: 'willsQ&DgTiD'; fetching 'http://wills.tiddlyspot.com/'
@@ -88,8 +89,8 @@ Processing wiki 'MobileTW5': listing; converting; checking for news.
 Processing wiki 'braintest': listing; converting; checking for news. 
 Processing wiki 'mathmacros': listing; converting; checking for news. 
 Processing wiki 'searchNreplace': listing; converting; checking for news. 
-Warning: no directory '/tmp/tmp.V3aXBVW5ye/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
-Warning: no directory '/tmp/tmp.V3aXBVW5ye/tw5mall', wiki 'tw5mall' ignored.
+Warning: no directory '/tmp/tmp.dYMQEktWh8/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
+Warning: no directory '/tmp/tmp.dYMQEktWh8/tw5mall', wiki 'tw5mall' ignored.
 Processing wiki 'ErwansLearningTW': listing; converting; checking for news. 
 Processing wiki 'TiddlyMap': listing; converting; checking for news. 
 Processing wiki 'welford': listing; converting; checking for news. 
@@ -206,19 +207,19 @@ Processing wiki 'twiz': listing; converting; checking for news.
 Processing wiki 'youtube': listing; converting; checking for news. 
  0 sub-wikis to follow.
 Generating tags tiddlers
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/About.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/classic.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/demo.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/fields.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/filters.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/FontAwesome.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/GettingStarted.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/GSD5.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/icons.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/SideEditor.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/TiddlyWiki.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/TWaddle.tid' already exists, no community tag tiddler written.
-Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/Version.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/About.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/classic.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/demo.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/fields.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/filters.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/FontAwesome.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/GettingStarted.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/GSD5.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/icons.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/SideEditor.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/TiddlyWiki.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/TWaddle.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.dYMQEktWh8/output-wiki/tiddlers/Version.tid' already exists, no community tag tiddler written.
 Generating the plugins directory, part 1: searching extracted plugins
 Processing wiki '2click2edit'
 Processing wiki 'AutoTag'
@@ -246,7 +247,7 @@ Processing wiki 'TWaddle'
 Processing wiki 'ThankYouPlugin'
 Processing wiki 'TiddlyMap'
 Processing wiki 'TiddlyNotes'
-Warning: no directory '/tmp/tmp.V3aXBVW5ye/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
+Warning: no directory '/tmp/tmp.dYMQEktWh8/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
 Processing wiki 'Tinka'
 Processing wiki 'TonGernerPlayground'
 Processing wiki 'TribalKnowledge'
@@ -269,82 +270,21 @@ Processing wiki 'tiddlywiki.com'
 Processing wiki 'tw5.scholars'
 Processing wiki 'tw5flashcards'
 Processing wiki 'tw5magick'
-Warning: no directory '/tmp/tmp.V3aXBVW5ye/tw5mall', wiki 'tw5mall' ignored.
+Warning: no directory '/tmp/tmp.dYMQEktWh8/tw5mall', wiki 'tw5mall' ignored.
 Processing wiki 'tweb.at'
 Processing wiki 'welford'
 Processing wiki 'willsQ&DgTiD'
 Generating the plugins directory, part 2: extracting curated list of plugins for matching
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//An_Attempt_at_a_Standardized_Way_of_Presenting_Plugin_Updates.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Make_Plugin_twCard.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Plugin_Info_Template.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//PlugintwCardDisplayTemplate2.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//PluginTWcardDisplayTemplate.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Tiddlers_Used_for_twCards.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//twCard_Listing_-_Plugins.tid (not a plugin twCard tiddler)
-INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Update_Plugin_twCard.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//An_Attempt_at_a_Standardized_Way_of_Presenting_Plugin_Updates.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//Make_Plugin_twCard.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//Plugin_Info_Template.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//PlugintwCardDisplayTemplate2.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//PluginTWcardDisplayTemplate.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//Tiddlers_Used_for_twCards.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//twCard_Listing_-_Plugins.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.dYMQEktWh8/inmysocks/tiddlers//Update_Plugin_twCard.tid (not a plugin twCard tiddler)
 Converting the output wiki to standalone html
 Done. 6656 tiddlers harvested, result in tw-community-search.html
 step 4: extract the output wiki (node.js and html)
 step 5: send the single html output somewhere else
 step 6: committing and pushing changes for node.js version
-[automatic 21d36b2] automatic update
- 1485 files changed, 2125 insertions(+), 1573 deletions(-)
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_$__plugins_spangenhelm_enhancedsearch.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Ad.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Attributions___Acknowlegements.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Dostojevskij.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Draft_of_'New_Tiddler'.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Draft_of_'TiddlyWiki'.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_EdgeType.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_ElementType.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Franz_Kafka.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_GitHub.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Jeremy_Ruston.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_New_node.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_NodeType.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Plane.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Special_Thanks.tid
- delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Special_thanks.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Styling_Nodes.tid
- delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Styling_of_groups.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_Brothers_Karamazov.tid
- delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_TiddlyWiki_Project.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_Trial.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Channel.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Community.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Version_0.9_Released!.tid
- delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyWiki_Community.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Version_0.9.x.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Vis.js_Developers.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_World.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_comp_extend.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getAdjacencyList.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getEdges.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getEdgesForSet.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getGraph.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getNeighbours.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_makeNode.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodeById.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByFilter.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByIds.tid
- create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByReferences.tid
- create mode 100644 tw-community-search/tiddlers/Literature.tid
- create mode 100644 tw-community-search/tiddlers/Unknown plugin '$__plugins_spangenhelm_enhancedsearch'.tid
- rename tw-community-search/tiddlers/{family.tid => important.tid} (53%)
-To git@github.com:erwanm/tw-community-search.git
-   5fd09b1..21d36b2  automatic -> automatic
-step 7: switching to gh-pages
-error: Your local changes to the following files would be overwritten by checkout:
-	skeleton/tiddlers/$__WikiLinkAndContentTemplate.tid
-Please, commit your changes or stash them before you can switch branches.
-Aborting
-step 8: committing and pushing changes for single html
-[automatic 2297902] automatic update
- 1 file changed, 60170 insertions(+), 50296 deletions(-)
-To git@github.com:erwanm/tw-community-search.git
-   21d36b2..2297902  automatic -> automatic
-Already on 'automatic'
-M	skeleton/tiddlers/$__WikiLinkAndContentTemplate.tid
-Your branch is up-to-date with 'origin/automatic'.
-All done.
-Mon Sep 14 20:15:29 IST 2015
