@@ -35,7 +35,6 @@ mv tw-community-search.html "$tmpFile"
 
 echo "step 6: committing and pushing changes for node.js version"
 git add -A tw-community-search/tiddlers/
-git add git-update-tw-community-search.log
 git commit -m "automatic update" 
 git push
 
