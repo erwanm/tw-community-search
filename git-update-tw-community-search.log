@@ -1,0 +1,350 @@
+Mon Sep 14 20:05:14 IST 2015
+step 1: set git repo right
+Already on 'automatic'
+Your branch is up-to-date with 'origin/automatic'.
+Already up-to-date.
+step 2: backup previous node.js content
+step 3: run the aggregator
+Warning: removing any previous content in '/tmp/tmp.V3aXBVW5ye'
+Reading 53 wikis...
+wiki 1/53: '2click2edit'; fetching 'http://danielorodriguez.com/TW5-2click2edit/'
+wiki 2/53: 'AutoTag'; fetching 'http://danielorodriguez.com/TW5-AutoTag/'
+wiki 3/53: 'BJTools'; fetching 'http://bjtools.tiddlyspot.com/'
+wiki 4/53: 'Context Plugin'; fetching 'http://contextplugin.tiddlyspot.com/'
+wiki 5/53: 'Encrypt Tiddler Plugin'; fetching 'http://danielo515.github.io/TW5-EncryptTiddlerPlugin'
+wiki 6/53: 'ErwansLearningTW'; fetching 'http://erwans-learning-tw.bitballoon.com/'
+wiki 7/53: 'EucalysTiddlyWorld'; fetching 'http://eucaly-tw5.tiddlyspot.com/'
+wiki 8/53: 'FileToTid'; fetching 'http://filetotid.tiddlyspot.com/'
+wiki 9/53: 'FlowNotes'; fetching 'http://flownotes.tiddlyspot.com/'
+wiki 10/53: 'FontAwesome'; fetching 'http://thediveo.github.io/TW5FontAwesome/output/fontawesome.html'
+wiki 11/53: 'GSD5'; fetching 'http://gsd5.tiddlyspot.com/'
+Warning: no presentation tiddler in 'GSD5'
+wiki 12/53: 'GitNotes'; fetching 'http://librenotes.bitbucket.org/gitnotes'
+wiki 13/53: 'JSONEditor'; fetching 'https://btheado.github.io/jsoneditor.html'
+Warning: no presentation tiddler in 'JSONEditor'
+wiki 14/53: 'LibreNotes'; fetching 'http://librenotes.bitbucket.org/'
+wiki 15/53: 'LinuxNotes'; fetching 'http://librenotes.bitbucket.org/linuxnotes'
+wiki 16/53: 'ListManagement'; fetching 'http://cpalists.tiddlyspot.com/'
+wiki 17/53: 'MobileTW5'; fetching 'http://mobiletw5.tiddlyspot.com/'
+wiki 18/53: 'PublicSidebar'; fetching 'http://publicsidebar.tiddlyspot.com/'
+wiki 19/53: 'SideEditor'; fetching 'http://sideeditor.tiddlyspot.com/'
+wiki 20/53: 'SolarFlair'; fetching 'http://solar-flair.tiddlyspot.com/'
+wiki 21/53: 'TW5Square'; fetching 'http://larigot.avarts.ionio.gr/users/iani/wikis/tw5square.html'
+wiki 22/53: 'TWHangouts'; fetching 'http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html'
+wiki 23/53: 'TWaddle'; fetching 'http://twaddle.tiddlyspot.com'
+wiki 24/53: 'ThankYouPlugin'; fetching 'http://thankyou.tiddlyspot.com/'
+wiki 25/53: 'TiddlyMap'; fetching 'http://tiddlymap.org/'
+wiki 26/53: 'TiddlyNotes'; fetching 'http://librenotes.bitbucket.org/tiddlynotes'
+wiki 27/53: 'TiddlyQuickly'; fetching 'http://giffmex.org/TiddlyQuickly.html'
+Warning: an error occured when trying to fetch wiki at 'http://giffmex.org/TiddlyQuickly.html'
+Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.V3aXBVW5ye" "http://giffmex.org/TiddlyQuickly.html"' returned exit code 1
+wiki 28/53: 'Tinka'; fetching 'http://twguides.org/wiki/tinka.html'
+wiki 29/53: 'TonGernerPlayground'; fetching 'http://tongerner.tiddlyspot.com/'
+wiki 30/53: 'TribalKnowledge'; fetching 'http://dl.dropboxusercontent.com/u/118970/wiki/tw5tribalknowledge.html'
+wiki 31/53: 'ae-railroad'; fetching 'http://ae-railroad.tiddlyspot.com'
+wiki 32/53: 'braintest'; fetching 'http://braintest.tiddlyspot.com/'
+wiki 33/53: 'cjhunt'; fetching 'http://cjhunt.github.io/'
+Warning: no presentation tiddler in 'cjhunt'
+wiki 34/53: 'dullroar.com'; fetching 'http://dullroar.com/'
+Warning: no presentation tiddler in 'dullroar.com'
+wiki 35/53: 'gWiZ'; fetching 'http://gwiz.tiddlyspot.com/'
+wiki 36/53: 'inmysocks'; fetching 'http://inmysocks.tiddlyspot.com/'
+wiki 37/53: 'mathjax-tw5.kantorsite'; fetching 'http://mathjax-tw5.kantorsite.net/'
+Warning: no presentation tiddler in 'mathjax-tw5.kantorsite'
+wiki 38/53: 'mathmacros'; fetching 'http://mathmacros.tiddlyspot.com/'
+wiki 39/53: 'rboue plugins'; fetching 'http://rboue.tiddlyspot.com/'
+wiki 40/53: 'searchNreplace'; fetching 'http://danielorodriguez.com/TW5-searchNreplace'
+wiki 41/53: 'septembertw'; fetching 'http://septembertw.tiddlyspot.com/'
+wiki 42/53: 't5a'; fetching 'http://t5a.tiddlyspot.com'
+wiki 43/53: 'tb5'; fetching 'http://tobibeer.github.io/tb5'
+wiki 44/53: 'tiddlyclip'; fetching 'http://tiddlyclip.tiddlyspot.com/'
+wiki 45/53: 'tiddlystuff'; fetching 'http://tiddlystuff.tiddlyspot.com/'
+wiki 46/53: 'tiddlywiki.com'; fetching 'http://tiddlywiki.com'
+wiki 47/53: 'tw5.scholars'; fetching 'http://tw5.scholars.tiddlyspot.com/'
+wiki 48/53: 'tw5flashcards'; fetching 'http://tw5flashcards.tiddlyspot.com/'
+wiki 49/53: 'tw5magick'; fetching 'http://tw5magick.tiddlyspot.com/'
+Warning: no presentation tiddler in 'tw5magick'
+wiki 50/53: 'tw5mall'; fetching 'http://www.giffmex.org/tw5mall.htm'
+Warning: an error occured when trying to fetch wiki at 'http://www.giffmex.org/tw5mall.htm'
+Warning: something went wrong: 'tw-harvest-wiki.sh "/tmp/tmp.V3aXBVW5ye" "http://www.giffmex.org/tw5mall.htm"' returned exit code 1
+wiki 51/53: 'tweb.at'; fetching 'https://tweb.at/'
+wiki 52/53: 'welford'; fetching 'http://welford.github.io/'
+wiki 53/53: 'willsQ&DgTiD'; fetching 'http://wills.tiddlyspot.com/'
+Warning: no presentation tiddler in 'willsQ&DgTiD'
+Preparing output wiki...
+Processing wiki 'tw5.scholars': listing; converting; checking for news. 
+Processing wiki 'Tinka': listing; converting; checking for news. 
+Processing wiki 't5a': listing; converting; checking for news. 
+Processing wiki 'septembertw': listing; converting; checking for news. 
+Processing wiki 'ae-railroad': listing; converting; checking for news. 
+Processing wiki 'BJTools': listing; converting; checking for news. 
+Processing wiki 'tiddlyclip': listing; converting; checking for news. 
+Processing wiki 'JSONEditor': listing; converting; checking for news. 
+Processing wiki '2click2edit': listing; converting; checking for news. 
+Processing wiki 'AutoTag': listing; converting; checking for news. 
+Processing wiki 'Context Plugin': listing; converting; checking for news. 
+Processing wiki 'Encrypt Tiddler Plugin': listing; converting; checking for news. 
+Processing wiki 'MobileTW5': listing; converting; checking for news. 
+Processing wiki 'braintest': listing; converting; checking for news. 
+Processing wiki 'mathmacros': listing; converting; checking for news. 
+Processing wiki 'searchNreplace': listing; converting; checking for news. 
+Warning: no directory '/tmp/tmp.V3aXBVW5ye/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
+Warning: no directory '/tmp/tmp.V3aXBVW5ye/tw5mall', wiki 'tw5mall' ignored.
+Processing wiki 'ErwansLearningTW': listing; converting; checking for news. 
+Processing wiki 'TiddlyMap': listing; converting; checking for news. 
+Processing wiki 'welford': listing; converting; checking for news. 
+Processing wiki 'inmysocks': listing; Warning: no tiddler titled 'Add an option to limit the size of the list in the dictionary part. It would just be a select or radio widget that picks a number to be used with a limit[n] addition to the filter.' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Add some information about how you can use &lt;abbr title=thing&gt;other thing&lt;/abbr&gt; to make stuff appear on hover.' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Add the stuff from [[this thread|https://groups.google.com/forum/#!topic/tiddlywiki/3KxvZVFCt9w]] to my search and replace tags tool' found in wiki 'inmysocks'
+Warning: no tiddler titled 'AyeAye' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes doc-* (?)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-btn-* (Buttons)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-edit* (Editors)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-image-* (Images)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-plugin-info-* (Plugin List)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-tab-* (Tabs)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-tag* (Tags)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-thumbnail-* (Thumbnails)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-tiddler-* (Tiddlers)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-tiddlylink* (Links)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Builtin CSS Classes tc-view-field-* (View Field)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Bulitin CSS Classes tc-modal* (Modals)' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:00:00' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:00:41 to 00:00:50' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:01:00' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:02:00' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:03:09 to 00:03:12' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:05:33 to 00:06:00' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:21:36 to 00:26:43' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Fry on &quot;Star Trek&quot;, 42 and whatnot - 00:29:47 to 00:30:45' found in wiki 'inmysocks'
+Warning: no tiddler titled 'Put `class=&quot;tc-edit-texteditor&quot;` in all of our text editing boxes so they are sized in a sane way.' found in wiki 'inmysocks'
+Warning: no tiddler titled '&lt;Name Plate&gt; Macro' found in wiki 'inmysocks'
+Warning: no tiddler titled 'let the link-fields widget take a hash map to set the value of one field based on the value of another, but not necessarily the same value.' found in wiki 'inmysocks'
+Warning: no tiddler titled 'look into making a select widget that can set multiple fields at once, hopefully with different values in each field. maybe using a data tiddler.' found in wiki 'inmysocks'
+converting; checking for news. 
+Processing wiki 'tiddlywiki.com': listing; converting; checking for news. 
+Processing wiki 'PublicSidebar': listing; converting; checking for news. 
+Processing wiki 'SideEditor': listing; converting; checking for news. 
+Processing wiki 'TWaddle': listing; converting; checking for news. 
+Processing wiki 'ThankYouPlugin': listing; converting; checking for news. 
+Processing wiki 'TWHangouts': listing; converting; checking for news. 
+Processing wiki 'GSD5': listing; converting; checking for news. 
+Processing wiki 'TribalKnowledge': listing; converting; checking for news. 
+Processing wiki 'GitNotes': listing; converting; checking for news. 
+Processing wiki 'LibreNotes': listing; converting; checking for news. 
+Processing wiki 'LinuxNotes': listing; converting; checking for news. 
+Processing wiki 'TiddlyNotes': listing; converting; checking for news. 
+Processing wiki 'tb5': listing; converting; checking for news. 
+Processing wiki 'TonGernerPlayground': listing; converting; checking for news. 
+ 22 sub-wikis to follow.
+  Generating new community wiki tiddler: 'TW5 Icon Menus' by 'JedCarty' at 'http://ooktech.com/iconmenus/'
+  Generating new community wiki tiddler: 'classic' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/classic'
+  Generating new community wiki tiddler: 'demo' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/demo'
+  Generating new community wiki tiddler: 'dev' by 'TobiasBeer' at 'https://tobibeer.github.io/tw/dev'
+  Generating new community wiki tiddler: 'fields' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/fields'
+  Generating new community wiki tiddler: 'filters' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/filters'
+  Generating new community wiki tiddler: 'focus' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/focus'
+  Generating new community wiki tiddler: 'fontawesome' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/fa'
+  Generating new community wiki tiddler: 'ibox' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/ibox'
+  Generating new community wiki tiddler: 'icons' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/icons'
+  Generating new community wiki tiddler: 'let' by 'TobiasBeer' at 'http://let.tiddlyspot.com'
+  Generating new community wiki tiddler: 'namespace' by 'TobiasBeer' at 'http://namespace.tiddlyspot.com'
+  Generating new community wiki tiddler: 'pv5' by 'TobiasBeer' at 'http://pv5.tiddlyspot.com'
+  Generating new community wiki tiddler: 'sections' by 'TobiasBeer' at 'http://sections.tiddlyspot.com'
+  Generating new community wiki tiddler: 'static' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/static/'
+  Generating new community wiki tiddler: 'style' by 'TobiasBeer' at 'http://style.tiddlyspot.com'
+  Generating new community wiki tiddler: 'tagfilter' by 'TobiasBeer' at 'http://tagfilter.tiddlyspot.com'
+  Generating new community wiki tiddler: 'taggly5' by 'TobiasBeer' at 'http://taggly5.tiddlyspot.com'
+  Generating new community wiki tiddler: 'td5' by 'TobiasBeer' at 'http://tobibeer.github.io/tw/td5'
+  Generating new community wiki tiddler: 'tidtoc' by 'TobiasBeer' at 'http://tidtoc.tiddlyspot.com'
+  Generating new community wiki tiddler: 'twiz' by 'TobiasBeer' at 'http://twiz.tiddlyspot.com'
+  Generating new community wiki tiddler: 'youtube' by 'TobiasBeer' at 'http://youtube.tiddlyspot.com'
+Reading 22 wikis...
+wiki 1/22: 'TW5 Icon Menus'; fetching 'http://ooktech.com/iconmenus/'
+wiki 2/22: 'classic'; fetching 'http://tobibeer.github.io/tw/classic'
+wiki 3/22: 'demo'; fetching 'http://tobibeer.github.io/tw/demo'
+wiki 4/22: 'dev'; fetching 'https://tobibeer.github.io/tw/dev'
+wiki 5/22: 'fields'; fetching 'http://tobibeer.github.io/tw/fields'
+wiki 6/22: 'filters'; fetching 'http://tobibeer.github.io/tw/filters'
+wiki 7/22: 'focus'; fetching 'http://tobibeer.github.io/tw/focus'
+wiki 8/22: 'fontawesome'; fetching 'http://tobibeer.github.io/tw/fa'
+wiki 9/22: 'ibox'; fetching 'http://tobibeer.github.io/tw/ibox'
+wiki 10/22: 'icons'; fetching 'http://tobibeer.github.io/tw/icons'
+wiki 11/22: 'let'; fetching 'http://let.tiddlyspot.com'
+wiki 12/22: 'namespace'; fetching 'http://namespace.tiddlyspot.com'
+wiki 13/22: 'pv5'; fetching 'http://pv5.tiddlyspot.com'
+wiki 14/22: 'sections'; fetching 'http://sections.tiddlyspot.com'
+wiki 15/22: 'static'; fetching 'http://tobibeer.github.io/tw/static/'
+wiki 16/22: 'style'; fetching 'http://style.tiddlyspot.com'
+wiki 17/22: 'tagfilter'; fetching 'http://tagfilter.tiddlyspot.com'
+wiki 18/22: 'taggly5'; fetching 'http://taggly5.tiddlyspot.com'
+wiki 19/22: 'td5'; fetching 'http://tobibeer.github.io/tw/td5'
+wiki 20/22: 'tidtoc'; fetching 'http://tidtoc.tiddlyspot.com'
+wiki 21/22: 'twiz'; fetching 'http://twiz.tiddlyspot.com'
+wiki 22/22: 'youtube'; fetching 'http://youtube.tiddlyspot.com'
+Processing wiki 'TW5 Icon Menus': listing; converting; checking for news. 
+Processing wiki 'classic': listing; converting; checking for news. 
+Processing wiki 'demo': listing; converting; checking for news. 
+Processing wiki 'dev': listing; converting; checking for news. 
+Processing wiki 'fields': listing; converting; checking for news. 
+Processing wiki 'filters': listing; converting; checking for news. 
+Processing wiki 'focus': listing; converting; checking for news. 
+Processing wiki 'fontawesome': listing; converting; checking for news. 
+Processing wiki 'ibox': listing; converting; checking for news. 
+Processing wiki 'icons': listing; converting; checking for news. 
+Processing wiki 'let': listing; converting; checking for news. 
+Processing wiki 'namespace': listing; converting; checking for news. 
+Processing wiki 'pv5': listing; converting; checking for news. 
+Processing wiki 'sections': listing; converting; checking for news. 
+Processing wiki 'static': listing; converting; checking for news. 
+Processing wiki 'style': listing; converting; checking for news. 
+Processing wiki 'tagfilter': listing; converting; checking for news. 
+Processing wiki 'taggly5': listing; converting; checking for news. 
+Processing wiki 'td5': listing; converting; checking for news. 
+Processing wiki 'tidtoc': listing; converting; checking for news. 
+Processing wiki 'twiz': listing; converting; checking for news. 
+Processing wiki 'youtube': listing; converting; checking for news. 
+ 0 sub-wikis to follow.
+Generating tags tiddlers
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/About.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/classic.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/demo.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/fields.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/filters.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/FontAwesome.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/GettingStarted.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/GSD5.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/icons.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/SideEditor.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/TiddlyWiki.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/TWaddle.tid' already exists, no community tag tiddler written.
+Warning: tiddler file '/tmp/tmp.V3aXBVW5ye/output-wiki/tiddlers/Version.tid' already exists, no community tag tiddler written.
+Generating the plugins directory, part 1: searching extracted plugins
+Processing wiki '2click2edit'
+Processing wiki 'AutoTag'
+Processing wiki 'BJTools'
+Processing wiki 'Context Plugin'
+Processing wiki 'Encrypt Tiddler Plugin'
+Processing wiki 'ErwansLearningTW'
+Processing wiki 'EucalysTiddlyWorld'
+Processing wiki 'FileToTid'
+Processing wiki 'FlowNotes'
+Processing wiki 'FontAwesome'
+Processing wiki 'GSD5'
+Processing wiki 'GitNotes'
+Processing wiki 'JSONEditor'
+Processing wiki 'LibreNotes'
+Processing wiki 'LinuxNotes'
+Processing wiki 'ListManagement'
+Processing wiki 'MobileTW5'
+Processing wiki 'PublicSidebar'
+Processing wiki 'SideEditor'
+Processing wiki 'SolarFlair'
+Processing wiki 'TW5Square'
+Processing wiki 'TWHangouts'
+Processing wiki 'TWaddle'
+Processing wiki 'ThankYouPlugin'
+Processing wiki 'TiddlyMap'
+Processing wiki 'TiddlyNotes'
+Warning: no directory '/tmp/tmp.V3aXBVW5ye/TiddlyQuickly', wiki 'TiddlyQuickly' ignored.
+Processing wiki 'Tinka'
+Processing wiki 'TonGernerPlayground'
+Processing wiki 'TribalKnowledge'
+Processing wiki 'ae-railroad'
+Processing wiki 'braintest'
+Processing wiki 'cjhunt'
+Processing wiki 'dullroar.com'
+Processing wiki 'gWiZ'
+Processing wiki 'inmysocks'
+Processing wiki 'mathjax-tw5.kantorsite'
+Processing wiki 'mathmacros'
+Processing wiki 'rboue plugins'
+Processing wiki 'searchNreplace'
+Processing wiki 'septembertw'
+Processing wiki 't5a'
+Processing wiki 'tb5'
+Processing wiki 'tiddlyclip'
+Processing wiki 'tiddlystuff'
+Processing wiki 'tiddlywiki.com'
+Processing wiki 'tw5.scholars'
+Processing wiki 'tw5flashcards'
+Processing wiki 'tw5magick'
+Warning: no directory '/tmp/tmp.V3aXBVW5ye/tw5mall', wiki 'tw5mall' ignored.
+Processing wiki 'tweb.at'
+Processing wiki 'welford'
+Processing wiki 'willsQ&DgTiD'
+Generating the plugins directory, part 2: extracting curated list of plugins for matching
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//An_Attempt_at_a_Standardized_Way_of_Presenting_Plugin_Updates.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Make_Plugin_twCard.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Plugin_Info_Template.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//PlugintwCardDisplayTemplate2.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//PluginTWcardDisplayTemplate.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Tiddlers_Used_for_twCards.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//twCard_Listing_-_Plugins.tid (not a plugin twCard tiddler)
+INFO: ignoring /tmp/tmp.V3aXBVW5ye/inmysocks/tiddlers//Update_Plugin_twCard.tid (not a plugin twCard tiddler)
+Converting the output wiki to standalone html
+Done. 6656 tiddlers harvested, result in tw-community-search.html
+step 4: extract the output wiki (node.js and html)
+step 5: send the single html output somewhere else
+step 6: committing and pushing changes for node.js version
+[automatic 21d36b2] automatic update
+ 1485 files changed, 2125 insertions(+), 1573 deletions(-)
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_$__plugins_spangenhelm_enhancedsearch.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Ad.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Attributions___Acknowlegements.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Dostojevskij.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Draft_of_'New_Tiddler'.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Draft_of_'TiddlyWiki'.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_EdgeType.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_ElementType.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Franz_Kafka.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_GitHub.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Jeremy_Ruston.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_New_node.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_NodeType.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Plane.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Special_Thanks.tid
+ delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Special_thanks.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Styling_Nodes.tid
+ delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Styling_of_groups.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_Brothers_Karamazov.tid
+ delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_TiddlyWiki_Project.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_The_Trial.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Channel.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Community.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyMap_Version_0.9_Released!.tid
+ delete mode 100644 tw-community-search/tiddlers/$__TiddlyMap_TiddlyWiki_Community.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Version_0.9.x.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_Vis.js_Developers.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_World.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_comp_extend.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getAdjacencyList.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getEdges.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getEdgesForSet.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getGraph.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_getNeighbours.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_makeNode.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodeById.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByFilter.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByIds.tid
+ create mode 100644 tw-community-search/tiddlers/$__TiddlyMap_selectNodesByReferences.tid
+ create mode 100644 tw-community-search/tiddlers/Literature.tid
+ create mode 100644 tw-community-search/tiddlers/Unknown plugin '$__plugins_spangenhelm_enhancedsearch'.tid
+ rename tw-community-search/tiddlers/{family.tid => important.tid} (53%)
+To git@github.com:erwanm/tw-community-search.git
+   5fd09b1..21d36b2  automatic -> automatic
+step 7: switching to gh-pages
+error: Your local changes to the following files would be overwritten by checkout:
+	skeleton/tiddlers/$__WikiLinkAndContentTemplate.tid
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+step 8: committing and pushing changes for single html
+[automatic 2297902] automatic update
+ 1 file changed, 60170 insertions(+), 50296 deletions(-)
+To git@github.com:erwanm/tw-community-search.git
+   21d36b2..2297902  automatic -> automatic
+Already on 'automatic'
+M	skeleton/tiddlers/$__WikiLinkAndContentTemplate.tid
+Your branch is up-to-date with 'origin/automatic'.
+All done.
+Mon Sep 14 20:15:29 IST 2015
