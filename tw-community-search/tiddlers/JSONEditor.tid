@@ -4,5 +4,8 @@ tags: CommunityWikis BrianTheado
 title: JSONEditor
 type: text/vnd.tiddlywiki
 wiki-address: https://btheado.github.io/jsoneditor.html
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20150830213921635
+
 
 {{||$:/CommunityWikiPresentationTemplate}}

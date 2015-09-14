@@ -1,7 +1,7 @@
 title: $:/TiddlyMap/Node and edge-type filters
 created: 20150408193831749
-id: 336511aa-c981-4a5d-8f32-0bde79c7a578
 modified: 20150408200537971
+tmap.id: 336511aa-c981-4a5d-8f32-0bde79c7a578
 type: text/vnd.tiddlywiki
 tags: TiddlyMap  [[View configuration]]
 source-wiki-id: TiddlyMap
@@ -24,7 +24,7 @@ Just like you would usually filter a set of tiddlers, you can use a node filter 
 
 All edge-types are internally stored below the path
 
-<pre><<map-macro "option" "path.edgeTypes">></pre>
+<pre><<tmap "option" "path.edgeTypes">></pre>
 
 For example information about the "tmap:link" edge-type is stored in a tiddler with the title
 

@@ -2,10 +2,10 @@ title: $:/TiddlyMap/$:/plugins/felixhayashi/vis
 author: Felix Küppers
 core-version: >=5.0.0
 dependents: 
-description: Visjs - TiddlyWiki5 plugin for the vis.js library
+description: Visjs – TiddlyWiki5 plugin for the vis.js library
 list: readme
 source: https://github.com/felixhayashi/TW5-Vis.js
-version: 4.4.0
+version: 4.8.0
 tags: TiddlyMap 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/vis

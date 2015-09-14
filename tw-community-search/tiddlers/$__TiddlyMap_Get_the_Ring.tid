@@ -1,10 +1,11 @@
 title: $:/TiddlyMap/Get the Ring
-color: #e2e3ab
+color: #e1e38e
 created: 20130825143100000
-id: E255F767-A447-46D7-865C-494C782FC034
-modified: 20150401213137778
+modified: 20150911182135460
+tmap.fa-icon: f10c
+tmap.id: E255F767-A447-46D7-865C-494C782FC034
 type: text/vnd.tiddlywiki
-tags: TiddlyMap  Task
+tags: TiddlyMap  Task important
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Get the Ring
 source-tiddler-title-as-link: Get%20the%20Ring
