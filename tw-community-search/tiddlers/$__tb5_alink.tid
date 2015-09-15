@@ -2,14 +2,14 @@ title: $:/tb5/alink
 alink: |alink|alias|aliases|
 created: 20150109160713594
 creator: Tobias Beer
-modified: 20150131122151877
+modified: 20150915095502945
 modifier: Tobias Beer
 tags: tb5 
 source-wiki-id: tb5
 source-tiddler-title-as-text: alink
 source-tiddler-title-as-link: alink
 
-The [[alink]] macro or its shorthand `a:` simplify pretty-linking tiddlers in a case-insensitive manner, rendering a link to a target tiddler. To use it, define a `|piped|list|` field called `alink` at the target, encapsulating each `alias` with pipes `|`, e.g. `|alias|aliases|`.
+The [[alink]] macro or its shorthand `a:` simplify pretty-linking tiddlers in a case-insensitive manner, rendering a link to a target tiddler. To use it, define a `|piped|list|` field called `alink` at the target, encapsulating each `alias` in lowercase letters only with pipes `|`, e.g. `|alias|aliases|`.
 
 !! Parameters
 
