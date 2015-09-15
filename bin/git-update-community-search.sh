@@ -33,18 +33,29 @@ echo "step 5: send the single html output somewhere else"
 tmpFile=$(mktemp)
 mv tw-community-search.html "$tmpFile"
 
-echo "step 6: committing and pushing changes for node.js version"
+echo "step 6: generate the static community-news wiki"
+workDir=$(mktemp -d)
+tw-generate-community-news-static.sh -o "$workDir/tw-community-news" tw-community-search
+
+echo "step 7: committing and pushing changes for node.js version"
 git add -A tw-community-search/tiddlers/
 git commit -m "automatic update" 
 git push
 
-echo "step 7: switching to gh-pages"
+echo "step 8: switching to gh-pages"
 git checkout gh-pages
 rm -f index.html
 mv "$tmpFile" index.html
+if [ -d "news-static" ]; then
+    rm -rf "news-static"/*
+else
+    mkdir "news-static"
+fi
+mv "$workDir/tw-community-news"/output/* "news-static"
 
-echo "step 8: committing and pushing changes for single html"
+echo "step 9: committing and pushing changes"
 git add index.html
+git add news-static/*
 git commit -m "automatic update"
 git push
 
