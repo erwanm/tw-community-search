@@ -1,7 +1,7 @@
 title: $:/tb5/Embedding A Text File
 created: 20150114102951794
 creator: Tobias Beer
-modified: 20150131124554324
+modified: 20150915104655480
 modifier: Tobias Beer
 tags: tb5  Embed Text Files
 source-wiki-id: tb5
@@ -11,6 +11,8 @@ source-tiddler-title-as-link: Embedding%20A%20Text%20File
 You can use the html object element to embed a text file. For a local text file in the same directory as your TiddlyWiki, use...
 
 `data="./example.txt"`
+
+''Note:'' Local file references won't work when using [[TiddlyWiki on node.js|http://tiddlywiki.com/#TiddlyWiki%20on%20Node.js]].
 
 !!Example
 
