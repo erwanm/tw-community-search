@@ -1,7 +1,7 @@
 title: $:/fontawesome/Installation
 created: 20150108111018330
 creator: Tobias Beer
-modified: 20150124023424163
+modified: 20150916063510793
 modifier: Tobias Beer
 tags: fontawesome 
 source-wiki-id: fontawesome
@@ -32,6 +32,7 @@ For custom extension classes to FontAwesome, tag your stylesheet [[$:/tags/FontA
 #* `src: local("FontAwesome"), url(data:application/font-woff;base64,``...``) format("woff");`
 #* the three dots signal where to insert the base64-encoded font data later
 # go to a base64 encoding web service
-#* e.g. http://i-tools.org/base64/exec
+#* e.g. http://www.giftofspeed.com/base64-encoder
 #* make sure the base64 result is on a ''single'' line
+#* base64-encode the woff file
 # paste the Base64-encoded result into the ``src`` definition from the ``@font-face`` rule in [[$:/fonts/FontAwesome]]
