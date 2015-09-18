@@ -2,8 +2,9 @@ title: $:/tb5/$:/plugins/tiddlywiki/tw2parser
 authors: JeremyRuston, JeffreyWilkinson
 core-version: >=5.0.15
 dependents: 
-description: TiddlyWiki Classic-compatible wikitext parser
-version: 5.1.4
+description: TiddlyWiki Classic parser
+list: readme
+version: 5.1.9
 tags: tb5 
 source-wiki-id: tb5
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/tw2parser

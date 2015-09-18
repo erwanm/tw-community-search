@@ -1,0 +1,34 @@
+title: $:/tb5/Tab For Recently Created Tiddlers
+created: 20150917110513675
+creator: Tobias Beer
+modified: 20150917113754547
+modifier: Tobias Beer
+tags: tb5  Solutions Timeline Dates Tabs
+source-wiki-id: tb5
+source-tiddler-title-as-text: Tab For Recently Created Tiddlers
+source-tiddler-title-as-link: Tab%20For%20Recently%20Created%20Tiddlers
+
+To display a tab for recently created tiddlers rather than recently modified tiddlers, create a [ext[system tiddler|http://tiddlywiki.com/static/SystemTiddlers.html]] by cloning [[$:/core/ui/MoreSideBar/Recent]], then declaring the ''dateField'' for the [[timeline macro|http://tiddlywiki.com/static/timeline%2520Macro.html]], and setting all other fields according to your needs:
+
+; title
+: whichever you prefer, e.g. [[$:/.tb/ui/MoreSideBar/Created]]
+; caption
+: `Created`
+; text
+
+```
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}} dateField="created"/>
+```
+;tags
+
+<<<
+
+; [[$:/tags/SideBar]]
+: for a new tab in the sidebar
+; [[$:/tags/MoreSideBar]]
+: for a new tab under sidebar / more
+<<<
+
+; list-after
+; list-before
+: to control the placement of the tab in the tab sequence
