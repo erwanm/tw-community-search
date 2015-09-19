@@ -1,0 +1,18 @@
+title: $:/tb5/Toggling And Moving Sidebar-Tabs
+created: 20150918044339124
+creator: Tobias Beer
+modified: 20150918050947620
+modifier: Tobias Beer
+tags: tb5  Tabs Sidebar Config Solutions Metabele
+source-wiki-id: tb5
+source-tiddler-title-as-text: Toggling And Moving Sidebar-Tabs
+source-tiddler-title-as-link: Toggling%20And%20Moving%20Sidebar-Tabs
+
+Inspired by [[this post|https://groups.google.com/d/msg/tiddlywiki/dQbt-JFdRR8/gzglQDdmAQAJ]] from [[Metabele]], the following table allows you to toggle all standard and also custom sidebar tabs...
+
+> {{$:/.tb/config/sidebar-tabs}}
+
+{{$:/.tb/msg/core-overwrite}}
+
+This method works according to [[these instructions|http://tiddlywiki.com/static/How%2520to%2520add%2520a%2520new%2520tab%2520to%2520the%2520sidebar.html]]. The field `custom` at the tiddler providing the above table specifies a namespace for custom tabs you defined. To adapt to and use in your TiddlyWiki, you can drag this tiddler over...
+<<source [[$:/.tb/config/sidebar-tabs]]>>
