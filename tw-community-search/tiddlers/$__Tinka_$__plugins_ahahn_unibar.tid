@@ -1,0 +1,13 @@
+title: $:/Tinka/$:/plugins/ahahn/unibar
+author: Andreas Hahn
+core-version: >=5.1.8
+description: Unibar - Sidebar Editor
+list: readme,
+version: 0.0.4
+tags: Tinka 
+source-wiki-id: Tinka
+source-tiddler-title-as-text: $:/plugins/ahahn/unibar
+source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2funibar
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

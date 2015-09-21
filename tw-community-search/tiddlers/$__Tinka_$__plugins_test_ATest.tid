@@ -1,8 +1,11 @@
 title: $:/Tinka/$:/plugins/test/ATest
 author: Andreas Hahn
+created: 20150919221549058
 description: A simple test plugin
 list: readme
-version: 0.0.3
+modified: 20150919221550230
+name: Sample Name
+version: 0.0.6
 tags: Tinka 
 source-wiki-id: Tinka
 source-tiddler-title-as-text: $:/plugins/test/ATest
