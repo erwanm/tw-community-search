@@ -1,16 +1,16 @@
 title: $:/t5a/Fields Tag
 created: 20150423010847093
 creator: Andrew Harrison
-modified: 20150919223359146
+description: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler is tagged with  {{fields||$:/core/ui/TagTemplate}}. [[Fields Tag Example]].
+modified: 20150921030717103
 modifier: Andrew Harrison
-overview: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler is tagged with {{fields||$:/core/ui/TagTemplate}}. [[Fields Tag Example]].
 tags: t5a  New Contents fields
 source-wiki-id: t5a
 source-tiddler-title-as-text: Fields Tag
 source-tiddler-title-as-link: Fields%20Tag
 
 \define renderfield(title)
-<tr class="tc-view-field"><td class="tc-view-field-name">''$title$'':</td><td class="tc-view-field-value"><$view field=<<listItem>>/></td></tr>
+<tr class="tc-view-field"><td class="tc-view-field-name">''$title$'':</td><td class="tc-view-field-value">{{!!$title$}}</td></tr>
 \end
 <$list filter="[all[current]tag[fields]]">
 <table class="tc-view-field-table"><tbody><$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -modified -modifier -tags -text -title -type" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
