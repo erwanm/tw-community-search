@@ -1,7 +1,7 @@
 title: $:/t5a/Show-fields
 created: 20150922131711733
 creator: Andrew Harrison
-modified: 20150923133425987
+modified: 20150924062810907
 modifier: Andrew Harrison
 tags: t5a  [[Under construction]] New
 source-wiki-id: t5a
@@ -9,8 +9,23 @@ source-tiddler-title-as-text: Show-fields
 source-tiddler-title-as-link: Show-fields
 
 {{Under construction}}
-Add a global setting to the settings tab in control panel by tagging the configuration tiddler with $:/tags/ControlPanel/Settings tag.
+Add a global setting to the settings tab in control panel by tagging the new configuration tiddler $:/core/ui/ControlPanel/Settings/ShowFields with $:/tags/ControlPanel/Settings tag.
+
+```
+\define lingo-base() $:/language/ControlPanel/Settings/ShowFields/
+<<lingo Hint>>
+<$list filter...
+caption: {{$:/language/ControlPanel/Settings/ToolbarButtons/Caption}}
+```
+
+Need to define $:/language/ControlPanel/Settings/ShowFields/Caption with Global Show Field List
+
+Need to define $:/language/ControlPanel/Settings/ShowFields/Description with: List filter
+
+Need to define $:/language/ControlPanel/Settings/ShowFields/Hint with Add field to global list filter:
 
 Add an edit field for the global setting to add remove globally which fields are displayed.
 
 Show-field field locally adds or removes in current tiddler only.
+
+Resource: "the checkbox widget already has logic for adding and removing members of a list, but of course it's currently tied to using the "tags" field for the list." (Jeremy 9/23/15)

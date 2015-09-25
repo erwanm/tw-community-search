@@ -1,7 +1,7 @@
 title: $:/tb5/Variable Parameter Defaults
 created: 20150120152223576
 creator: Tobias Beer
-modified: 20150121115943042
+modified: 20150924063406954
 modifier: Tobias Beer
 tags: tb5  Macros Variables TextReferences
 source-wiki-id: tb5
@@ -11,6 +11,8 @@ source-tiddler-title-as-link: Variable%20Parameter%20Defaults
 \define concat(1 2 3 4 5) $1$$2$$3$$4$$5$
 
 You can initialize macro parameters using either a <<tw Variables Variable>> or a <<tw TextReference>>.
+
+''Important:'' In the macro, such parameters will be replaced as either variables or text-references, not as the values thereof, see <<git5 issues/1958>>.
 
 !! Example
 

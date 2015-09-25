@@ -1,0 +1,22 @@
+title: $:/tb5/Mouseover Toolbar Visibility
+created: 20150924063539052
+creator: Tobias Beer
+modified: 20150924065555137
+modifier: Tobias Beer
+tags: tb5  Presentation Tiddlers CSS Styles
+source-wiki-id: tb5
+source-tiddler-title-as-text: Mouseover Toolbar Visibility
+source-tiddler-title-as-link: Mouseover%20Toolbar%20Visibility
+
+As [[Jeremy|Jeremy Ruston]] explains [[here|https://groups.google.com/d/msg/tiddlywiki/c6bWhRyUPBA/Ge0Gd5z1-WYJ]], if you wanted to show the tiddler toolbar buttons only when you actually hover or focus a tiddler's titlebar, add the following to a [[custom stylesheet|Custom Stylesheets]]:
+
+```
+.tc-titlebar button {
+opacity: 0;
+}
+.tc-titlebar:hover button {
+opacity: 1;
+}
+```
+
+The version below provides a smooth transition effect, showing the toolbar when you hover a tiddler rather than just its titlebar, see <<source [[$:/.tb/demo/onhover-toolbar-styles]]>>
