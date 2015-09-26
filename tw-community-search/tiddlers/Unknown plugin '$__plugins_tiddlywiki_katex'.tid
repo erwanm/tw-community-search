@@ -1,6 +1,6 @@
 title: Unknown plugin '$:/plugins/tiddlywiki/katex'
 name: unknown
-created: 20150925034015000
+created: 20150926034003000
 plugin_tiddler: $:/plugins/tiddlywiki/katex
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
