@@ -1,9 +1,11 @@
 title: $:/tb5/Create From Selected Template
 created: 20150206160411005
 creator: Tobias Beer
-modified: 20150206165152254
+modified: 20150926091408027
 modifier: Tobias Beer
-selected-template: new-recipe
+revision: 0
+selected-template: new-foo
+type: text/vnd.tiddlywiki
 tags: tb5  Templates Buttons Select Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: Create From Selected Template

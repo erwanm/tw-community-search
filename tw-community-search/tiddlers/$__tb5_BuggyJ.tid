@@ -1,9 +1,6 @@
 title: $:/tb5/BuggyJ
-created: 20141121231715705
-creator: Tobias Beer
 icon: $:/core/images/plugin-generic-language
-modified: 20150117151444599
-modifier: Tobias Beer
+revision: 0
 summary: BJ's tools — flexitype: extended types, extendable calendar, taglist, visual editor, json editor, click action <!--BuggyJ-->
 url: http://bjtools.tiddlyspot.com
 tags: tb5  Community

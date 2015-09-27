@@ -3,7 +3,9 @@ created: 20141115113614252
 creator: Tobias Beer
 modified: 20141125200243435
 modifier: Tobias Beer
+revision: 0
 summary: renders months or year calendars allowing to or create journal tiddlers
+type: text/vnd.tiddlywiki
 url: http://bjtools.tiddlyspot.com/#ExtendableCalendar
 tags: tb5  Dates Calendars Plugin Solutions
 source-wiki-id: tb5

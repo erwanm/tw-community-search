@@ -1,9 +1,7 @@
 title: $:/tb5/dev5
-created: 20150204084806981
-creator: Tobias Beer
-modified: 20150207090129349
-modifier: Tobias Beer
+revision: 0
 summary: notes about developing with TiddlyWiki
+type: text/vnd.tiddlywiki
 url: http://tobibeer.github.io/dev5
 tags: tb5  [[Tobias Beer]] Developer
 source-wiki-id: tb5

@@ -1,15 +1,12 @@
 title: $:/tb5/Welcome
 caption: Start
-created: 20150206124521246
-creator: Tobias Beer
 icon: $:/core/images/home-button
 img: Jack.jpg
 list: Latest Solutions Plugins Developer Core References Markup [[Tobias Beer]]
 list-before: Solutions
 menu: main
 menu-icon: {{$:/core/images/home-button}}
-modified: 20150206124751562
-modifier: Tobias Beer
+revision: 0
 summary: A collection of references and sandbox for testing concepts around TiddlyWiki:<br><<tagline>>
 tags: tb5 
 source-wiki-id: tb5

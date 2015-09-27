@@ -3,7 +3,9 @@ created: 20141113122245204
 creator: Tobias Beer
 modified: 20150217113232324
 modifier: Tobias Beer
+revision: 0
 summary: this is an example summary
+type: text/vnd.tiddlywiki
 tags: tb5  Examples
 source-wiki-id: tb5
 source-tiddler-title-as-text: Conditional Summary

@@ -5,7 +5,9 @@ creator: Tobias Beer
 in-field: Here, the toggle state is actually stored in a "toggle" field at this very tiddler.<br>However, this will make your TiddlyWiki dirty: {{$:/core/ui/Buttons/save-wiki}}
 modified: 20150118175149764
 modifier: Tobias Beer
+revision: 0
 toggle: show
+type: text/vnd.tiddlywiki
 tags: tb5  Solutions Macros Sliders Presentation Toggle
 source-wiki-id: tb5
 source-tiddler-title-as-text: Toggle Contents

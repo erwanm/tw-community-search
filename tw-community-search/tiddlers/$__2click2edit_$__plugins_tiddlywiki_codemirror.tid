@@ -4,7 +4,7 @@ dependents:
 description: CodeMirror: text editor
 list: readme usage
 revision: 0
-version: 5.1.8
+version: 5.1.9
 tags: 2click2edit 
 source-wiki-id: 2click2edit
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror

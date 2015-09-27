@@ -3,9 +3,11 @@ counter: 1
 created: 20150126150739422
 creator: Tobias Beer
 foo: foo value
-modified: 20150209210341706
+modified: 20150917063241698
 modifier: Tobias Beer
 order: 1
+revision: 0
+type: text/vnd.tiddlywiki
 tags: tb5  Macros Calculation Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: calc
@@ -38,7 +40,7 @@ Calculated values can be used as widget attributes so as to assign them to tiddl
 
 !! Installation
 
-Drag to your wiki: [[$:/.tb/macros/calc]] — version: ''<$view tiddler="$:/.tb/macros/calc" field="modified" format="date" template="YYYY-0MM-0DD-0hh-0mm-0ss"/>''
+Drag to your wiki, save, reload: [[$:/.tb/macros/calc]] — version: ''<$view tiddler="$:/.tb/macros/calc" field="modified" format="date" template="YYYY-0MM-0DD-0hh-0mm-0ss"/>''
 
 !! Examples 
 

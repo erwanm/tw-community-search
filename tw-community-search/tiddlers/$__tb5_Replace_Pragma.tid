@@ -3,7 +3,9 @@ created: 20141116163605040
 creator: Tobias Beer
 modified: 20141125165048808
 modifier: Tobias Beer
+revision: 0
 summary: allows to use regular expressions to search and replace in wikitext before parsing
+type: text/vnd.tiddlywiki
 url: http://tiddlystuff.tiddlyspot.com#ReplacePragma
 tags: tb5  Text Parser [[Stephan Hradek]] Plugin
 source-wiki-id: tb5

@@ -4,9 +4,7 @@ tags: CommunityWikis Svink
 title: GitNotes
 type: text/vnd.tiddlywiki
 wiki-address: http://librenotes.bitbucket.org/gitnotes
-wiki-tw-version: 5.1.9
-wiki-latest-modification: 20150913144833810
+empty-wiki: true
 
-Les bases de Git
 
 {{||$:/CommunityWikiPresentationTemplate}}

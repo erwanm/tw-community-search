@@ -4,9 +4,9 @@ core-version: >=5.1.8
 created: 20150518071039425
 description: Tinka - an easy plugin packer
 list: readme usage
-modified: 20150518102025489
+modified: 20150920124250720
 source: http://twguides.org/tinka
-version: 0.1.0
+version: 0.2.0-beta
 tags: Tinka 
 source-wiki-id: Tinka
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka

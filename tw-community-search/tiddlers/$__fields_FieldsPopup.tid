@@ -1,0 +1,20 @@
+title: $:/fields/FieldsPopup
+created: 20150201193358493
+creator: Tobias Beer
+modified: 20150209083941307
+modifier: Tobias Beer
+summary: make adding fields easier via popup for existing field names or values
+tags: fields  Idea
+source-wiki-id: fields
+source-tiddler-title-as-text: FieldsPopup
+source-tiddler-title-as-link: FieldsPopup
+
+; #1448 field editing popups
+: https://github.com/Jermolene/TiddlyWiki5/issues/1448
+; modified
+: [[$:/core/ui/EditTemplate/fields]]
+; try
+: editing this tiddler and focusing the new field title input
+; problems
+: the popup closes as soon as it's opened
+: when selected, a new field is immediately added rather than the value set to the input

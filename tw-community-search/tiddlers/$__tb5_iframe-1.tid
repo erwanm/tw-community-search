@@ -1,9 +1,6 @@
 title: $:/tb5/iframe-1
-created: 20150105231913568
-creator: Tobias Beer
 follow: no
-modified: 20150108114142058
-modifier: Tobias Beer
+revision: 0
 summary: testing how two ~TiddlyWikis behave which mutually iframe their contents
 url: http://iframe-1.tiddlyspot.com
 tags: tb5  [[Tobias Beer]]
