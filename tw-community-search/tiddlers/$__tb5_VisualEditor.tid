@@ -3,7 +3,9 @@ created: 20150210195027742
 creator: Tobias Beer
 modified: 20150210195346256
 modifier: Tobias Beer
+revision: 0
 summary: this widget uses the ckeditor lib for WYSIWYG editing<!--buggyj, VisualEditor-->
+type: text/vnd.tiddlywiki
 url: http://bjtools.tiddlyspot.com/#VisualEditor
 tags: tb5  Plugin Editing Solutions BuggyJ WYSIWYG
 source-wiki-id: tb5

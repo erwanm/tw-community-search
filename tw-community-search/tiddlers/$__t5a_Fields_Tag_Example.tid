@@ -1,0 +1,13 @@
+title: $:/t5a/Fields Tag Example
+color: #ff0000
+created: 20150919173153164
+creator: Andrew Harrison
+description: Example of tiddler with fields tag
+modified: 20150919215428195
+modifier: Andrew Harrison
+tags: t5a  fields New Examples
+source-wiki-id: t5a
+source-tiddler-title-as-text: Fields Tag Example
+source-tiddler-title-as-link: Fields%20Tag%20Example
+
+This tiddler is tagged with {{fields||$:/core/ui/TagTemplate}}

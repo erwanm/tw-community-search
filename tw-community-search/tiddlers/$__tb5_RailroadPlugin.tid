@@ -1,8 +1,5 @@
 title: $:/tb5/RailroadPlugin
-created: 20150116140438057
-creator: Tobias Beer
-modified: 20150116140817290
-modifier: Tobias Beer
+revision: 0
 summary: provides [[railroad type syntax diagrams|http://en.wikipedia.org/wiki/Syntax_diagram]] for TiddlyWiki
 url: http://tiddlywiki.com/prerelease/#Railroad%20Plugin
 tags: tb5  Solutions Plugins Plugin Diagrams

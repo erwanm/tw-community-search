@@ -52,6 +52,7 @@ else
     mkdir "news-static"
 fi
 mv "$workDir/tw-community-news"/output/* "news-static"
+mv news-static/static.html news-static/index.html
 
 echo "step 9: committing and pushing changes"
 git add index.html

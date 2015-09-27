@@ -1,10 +1,8 @@
 title: $:/tb5/demo
-created: 20141203000412753
-creator: Tobias Beer
 follow: yes
-modified: 20150208124324257
-modifier: Tobias Beer
+revision: 0
 summary: demonstrating things at work for group discussions and github <<git5 issues>><!--tbdemo-->
+type: text/vnd.tiddlywiki
 url: http://tobibeer.github.io/tw/demo
 tags: tb5  [[Tobias Beer]]
 source-wiki-id: tb5

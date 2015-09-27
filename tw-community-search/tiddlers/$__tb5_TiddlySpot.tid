@@ -4,7 +4,9 @@ creator: Tobias Beer
 icon: $:/core/images/globe
 modified: 20150118223351764
 modifier: Tobias Beer
+revision: 0
 summary: host your tw5 online, [[simple|http://tiddlywiki.com/#Saving%20on%20TiddlySpot]]<!--Simon Baird-->
+type: text/vnd.tiddlywiki
 url: http://tiddlyspot.com
 tags: tb5  References
 source-wiki-id: tb5

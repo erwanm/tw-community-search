@@ -4,6 +4,8 @@ creator: Tobias Beer
 folder: bar
 modified: 20150201152922416
 modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
 tags: tb5  Macros Variables Text Links [[Jed Carty]] Files Folders Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: Variable Substitution In Folder Path

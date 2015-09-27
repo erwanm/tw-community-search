@@ -1,15 +1,18 @@
 title: $:/tb5/AND Logic Using Nested Lists
 created: 20141121102550597
 creator: Tobias Beer
-modified: 20150131123000072
+modified: 20150926103258733
 modifier: Tobias Beer
-type: 
+revision: 0
+type: text/vnd.tiddlywiki
 tags: tb5  Lists Filters Solutions Fields [[Stephan Hradek]]
 source-wiki-id: tb5
 source-tiddler-title-as-text: AND Logic Using Nested Lists
 source-tiddler-title-as-link: AND%20Logic%20Using%20Nested%20Lists
 
 \define getBooks() <$list filter="[tag[Resource]field:courses<course> +tag[Resource]field:level<level>]" />
+
+''Update:'' A more versatile solution to the below approach is the [[xlist]] macro.
 
 As [[proposed|https://groups.google.com/forum/#!topic/tiddlywiki/CwDOwfQju0E]] by [[Stephan Hradek]], the following example shows you how you can use nested lists to query for two different tag-like fields using AND logic, meaning where the field ''courses'' contains ''French'' out of a number of courses AND the field ''levels'' contains ''A1'' out of a number of levels:
 
