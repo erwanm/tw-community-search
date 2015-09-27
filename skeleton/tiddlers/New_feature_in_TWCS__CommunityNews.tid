@@ -1,9 +1,9 @@
 created: 20150912224104400
-modified: 20150912224424766
+modified: 20150927182747712
 tags: CommunityNews
 title: New feature in TWCS: CommunityNews
 type: text/vnd.tiddlywiki
 
-This feature is for authors of wikis indexed in the ~TiddlyWiki Community Search. Now you can publish your news directly in the TWCS "latest news" section! See the [[documentation|PublishingInCommunityNews]]
+This feature is for authors of wikis indexed in the ~TiddlyWiki Community Search. Now you can publish your news directly in the TWCS "latest news" section! See the [[documentation|http://erwanm.github.io/tw-community-search/#PublishingInCommunityNews]]
 
-//Thanks to FelixKuppers for the idea!//
+//Thanks to [[FelixKuppers|http://erwanm.github.io/tw-community-search/#FelixKuppers]] for the idea!//
