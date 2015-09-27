@@ -1,0 +1,16 @@
+title: $:/LibreNote/Menu Icon - A propos
+created: 20150517191158513
+modified: 20150628114703246
+top_right_menu_order: 3
+tags: LibreNote  icone
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu Icon - A propos
+source-tiddler-title-as-link: Menu%20Icon%20-%20A%20propos
+
+<$link to="ContactSources"></$link>
+<$button class="tc-btn-invisible" tooltip='Contact et Sources'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[ContactSources]]"/>
+<$action-navigate $to="ContactSources" $scroll="yes"/>
+<i class="fa fa-user"></i> A propos
+</$button>

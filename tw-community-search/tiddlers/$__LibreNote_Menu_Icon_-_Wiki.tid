@@ -1,0 +1,18 @@
+title: $:/LibreNote/Menu Icon - Wiki
+created: 20150517200623418
+modified: 20150921085729915
+top_right_menu_order: 2
+tags: LibreNote  icone
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu Icon - Wiki
+source-tiddler-title-as-link: Menu%20Icon%20-%20Wiki
+
+<$link to="LinuxNote"></$link>
+<$button class="tc-btn-invisible" tooltip='Les Wikis'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[LinuxNote]]
+[[TiddlyNote]]
+[[GitNote]]"/>
+<$action-navigate $to="LinuxNote" $scroll="yes"/>
+<i class="fa fa-flask"></i> Wikis
+</$button>

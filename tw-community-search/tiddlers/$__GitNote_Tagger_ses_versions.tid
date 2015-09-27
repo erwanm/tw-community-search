@@ -1,0 +1,63 @@
+title: $:/GitNote/Tagger ses versions
+created: 20150217083353300
+modified: 20150423103144486
+tags: GitNote  Menu
+source-wiki-id: GitNote
+source-tiddler-title-as-text: Tagger ses versions
+source-tiddler-title-as-link: Tagger%20ses%20versions
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: [[http://git-scm.com/book/fr/v1/Les-bases-de-Git-Etiquetage|http://git-scm.com/book/fr/v1/Les-bases-de-Git-%C3%89tiquetage]]
+
+Git permet d'ajouter des étiquettes (tags en anglais) pour marquer certains états dans l'historique. Elles sont généralement utilisées pour marquer les versions publiables du projet.
+
+Les tags sont traités comme des éléments à part entière, c'est à dire qu'il peuvent être ajoutés indépendamment même après un commit.
+
+!!!Ajouter une étiquette légère
+```c
+$ git tag v1.0 code_SHA
+```
+
+Pour connaître le SHA, utilisez la commande `git hist`
+
+```c
+$ git hist
+* b24f3ff 2014-10-25 | Using ARGV [Votre_pseudo]
+* cf466b4 2014-10-25 | First Commit [Votre_pseudo]
+```
+
+La somme de contrôle SHA des commits correspond aux 7 chiffres et lettres au début de chaque ligne.
+
+Pour ajouter le tag v1.0 au "First commit" il faut lancer:
+
+```c
+$ git tag v1.0 cf466b4
+```
+
+On peut visualiser tous les tags avec la commande
+
+```c
+$ git tag
+```
+
+!!!Partager les étiquettes
+Il faut explicitement pousser les étiquettes après les avoir créées localement.
+
+```c
+$ git push origin v1.0
+```
+
+```c
+$ git push origin v1.0
+Counting objects: 50, done.
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (44/44), 4.56 ~KiB, done.
+Total 44 (delta 18), reused 8 (delta 1)
+To git@github.com:schacon/simplegit.git
+* [new tag]         v1.0 -> v1.0
+```
+
+Si vous avez plusieurs étiquettes, vous pouvez toutes les pousser en une fois vers le serveur distant:
+
+```c
+$ git push origin --tags
+```

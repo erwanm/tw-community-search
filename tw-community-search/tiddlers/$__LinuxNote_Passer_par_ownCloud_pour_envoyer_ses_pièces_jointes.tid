@@ -1,0 +1,35 @@
+title: $:/LinuxNote/Passer par ownCloud pour envoyer ses pièces jointes
+created: 20141027213239598
+modified: 20150329110126570
+tags: LinuxNote  [[Configurer Thunderbird]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Passer par ownCloud pour envoyer ses pièces jointes
+source-tiddler-title-as-link: Passer%20par%20ownCloud%20pour%20envoyer%20ses%20pièces%20jointes
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i>
+ Source: [[article de Dada sur Planet Libre|http://www.planet-libre.org/index.php?post_id=15710&go=external]]
+
+La méthode utilise le protocole [[WebDAV|https://fr.wikipedia.org/wiki/WebDAV]] avec uniquement l'extension [[WebDAV for Filelink|https://addons.mozilla.org/fr/thunderbird/addon/webdav-for-filelink/]] compatible avec Thunderbird 13 et plus et c'est tout. Téléchargez l'extension et ajoutez-la à Thunderbird.
+
+!!Configuration avec un accès publique aux pièces jointes
+
+On va d'abord s'attaquer à ownCloud puisqu'il faut configurer l'extension de Thunderbird avec deux liens tirés d'ownCloud.
+
+Dans mon cas, j'ai décidé de créer un répertoire unique qui servira à recevoir les fichiers partagés via ownCloud. Ce dernier s'appelle tout simplement "partages".
+
+__Le premier lien__<br>
+Le premier lien qu'il nous faut est l’accès ~WebDAV à ownCloud. Pour l'avoir, il faut se balader dans le menu Personnel d'ownCloud.
+Dans mon cas, il s'agit de : https://cloud.openmailbox.org/remote.php/webdav
+Mais puisque j'ai décidé de partager les fichiers dans un répertoire spécifique "partages", on se retrouve donc avec :<br> https://cloud.openmailbox.org/remote.php/webdav/partages
+
+__Le deuxième lien__<br>
+Le deuxième lien qu'il nous faut est celui obtenu en activant le partage par lien d'un répertoire ("partages" dans mon cas).
+Dans mon cas, on se retrouve avec quelque chose comme ça :<br> https://cloud.openmailbox.org/public.php?service=files&t=8248571af18591ca0e5cf1243500ed57
+
+Mais, pour que ça fonctionne avec l’extension, il faut rajouter &download&path=/ à la fin de celui-ci.
+Nous voici donc avec :<br> https://cloud.openmailbox.org/public.php?service=files&t=8248571af18591ca0e5cf1243500ed57&download&path=/
+
+Nous avons maintenant les deux liens magiques qui vont nous permettre de configurer l'extension de Thunderbird.
+
+Une fois que vous avez installé l'extension, allez dans le menu Édition, puis Préférences, Pièces Jointes et dans l'onglet Sortant.
+Une fois que vous êtes là, vous pouvez ajouter ownCloud en appuyant sur Ajouter/Add, choisissez le protocole ~WebDAV et collez dans l'ordre les deux liens que vous avez extraits. L'extension est configurée. 

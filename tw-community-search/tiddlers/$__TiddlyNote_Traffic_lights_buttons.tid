@@ -1,0 +1,21 @@
+title: $:/TiddlyNote/Traffic lights buttons
+created: 20150125115655441
+list-before: Pretty
+modified: 20150225155751450
+tags: TiddlyNote  Style
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Traffic lights buttons
+source-tiddler-title-as-link: Traffic%20lights%20buttons
+
+<<<
+Le style [[Traffic lights buttons]] permet d'ajouter les couleurs d'un feu tricolore aux bouttons affichés en mode édition.
+<<<
+
+*Auteur: ''David Gifford''
+*http://www.giffmex.org/tw5mall.htm <i class="fa fa-external-link-square" style="color:#60B643"></i>
+
+Installer le depuis [[http://tb5.tiddlyspot.com/#Edit Buttons As Traffic Lights|http://tb5.tiddlyspot.com/#Edit%20Buttons%20As%20Traffic%20Lights]] <i class="fa fa-external-link-square" style="color:#60B643"></i> et importer le tiddler suivant:
+
+```
+ $:/styles/traffic-light-buttons
+```

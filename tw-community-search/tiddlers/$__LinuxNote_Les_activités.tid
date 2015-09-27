@@ -1,0 +1,21 @@
+title: $:/LinuxNote/Les activités
+created: 20141206185619617
+modified: 20150913133744348
+tags: LinuxNote  [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Les activités
+source-tiddler-title-as-link: Les%20activités
+
+Pour faire simple, cela permet de modifier les composants graphiques et la disposition du bureau en fonction d'une activité en cours. Ainsi on peut associer un agencement de plasmoids, un fond d'écran et des applications dédiés à une fonction précise (retouche photo, multimédia...) et passer d’une activité à une autre en 2 clics. On dispose pour chaque activité du nombre de bureau virtuel par défaut.
+
+Les fenêtres d’une application qui sont lancées dans une activité ne sont pas apparentes dans les autres activités par défaut. L’avantage est ce cloisonnement possible entre les activités qui permet d’organiser par thématique ses applications lancées.
+
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=jnZhuoRw3AC2Q8K" target="_blank">[img [Activités|https://cloud.openmailbox.org/public.php?service=files&t=jnZhuoRw3AC2Q8K&download]]</a>
+
+<<<
+On accède facilement aux activités par clic droit → //Activités// ou par la //Boîte à outils Plasma// qui permet de gérer les activités.<br> La boite de dialogue permet de //Créer une activité//. Il existe des modèles d'activités (activité photographique...) ou on peut en créer des personnelles.
+<<<
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Il existe différents plasmoids pour gérer au mieux les activités : Activités (par défaut), Activity Manager ou Work Flow (voir [[Les composants graphiques]] section "Liste de quelques plasmoids").
+@@

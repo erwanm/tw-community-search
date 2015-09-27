@@ -1,0 +1,17 @@
+title: $:/TiddlyNote/Styles personnalisés
+created: 20150204082204525
+modified: 20150607144724019
+tags: TiddlyNote  Personnalisation CSS
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Styles personnalisés
+source-tiddler-title-as-link: Styles%20personnalisés
+
+Vous pouvez définir des styles personnalisés qui sont en fait des tiddlers avec le tag <<tag $:/tags/Stylesheet>>
+
+On retrouve souvent les styles personnalisés sous la forme $:/style/auteur/nom-du-style
+ou simplement $:/style/nom-du-style
+
+Pour masquer vos tiddlers de feuille de style de la recherche ou des listes, il est d'usage de les mettre comme des tiddlers système, en les nommant `$:/.mes-initiales/Style/nom-du-style`. Vous les trouverez désormais dans la barre latérale, onglet ''Plus'' > ''Système''.<br>
+Si vous importez un style sans le modifier, vous pouvez simplement le renommer `$:/_style/nom-du-style`
+
+<<tabs "[tag[Style]]" "Traffic lights buttons" "$:/state/tab1">>

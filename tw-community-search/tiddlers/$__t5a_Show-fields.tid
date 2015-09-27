@@ -1,8 +1,10 @@
 title: $:/t5a/Show-fields
 created: 20150922131711733
 creator: Andrew Harrison
-modified: 20150924062810907
+description: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler has the show-fields field. Add fields by including the field name or remove fields by including the name preceded with a negative.
+modified: 20150927172945325
 modifier: Andrew Harrison
+show-field: 
 tags: t5a  [[Under construction]] New
 source-wiki-id: t5a
 source-tiddler-title-as-text: Show-fields
@@ -29,3 +31,12 @@ Add an edit field for the global setting to add remove globally which fields are
 Show-field field locally adds or removes in current tiddler only.
 
 Resource: "the checkbox widget already has logic for adding and removing members of a list, but of course it's currently tied to using the "tags" field for the list." (Jeremy 9/23/15)
+
+
+\define renderfield(title)
+<tr class="tc-view-field"><td class="tc-view-field-name">''$title$'':</td><td class="tc-view-field-value">{{!!$title$}}</td></tr>
+\end
+<$list filter="<$list filter="[all[current]has[show-field]]">
+<table class="tc-view-field-table"><tbody><$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -modified -modifier -tags -text -title -type {{!!show-field}}" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
+</tbody></table>
+</$list>

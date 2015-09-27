@@ -1,0 +1,9 @@
+title: $:/TiddlyNote/Lightbox
+created: 20150129090854382
+modified: 20150129092154123
+tags: TiddlyNote 
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Lightbox
+source-tiddler-title-as-link: Lightbox
+
+<$image source=<<image>> width="100%" height="100%"/><$reveal type=match text="" default=<<caption>>><$transclude tiddler=<<image>> field=caption/></$reveal><$reveal type=nomatch text="" default=caption><<caption>></$reveal>

@@ -1,0 +1,37 @@
+title: $:/LibreNote/LeBlog
+created: 20150614154750487
+modified: 20150924142111826
+tags: LibreNote 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: LeBlog
+source-tiddler-title-as-link: LeBlog
+
+<table class="invisibletable">
+<tr>
+<td>
+<div style="font-size:1.1em;color:#D4D4D4; text-align:left; margin-bottom:1.5em;">
+&nbsp; <i class="fa fa-rss-square" style="color:#FF8330"></i> __Dernières nouvelles__
+</div>
+
+<$scrollable class='tc-scrollable'>
+{{News}}
+</$scrollable>
+
+<div style="text-align:left; font-size:0.9em;">
+<$link to="BannièreBlog"></$link>
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-setfield $tiddler="$:/StoryList" list="
+[[BannièreBlog]]
+[[DerniersPosts]]
+[[ListeTags]]"/>
+<$action-navigate $to="BannièreBlog" $scroll="yes"/>
+<div style="color:#D4D4D4;">
+&nbsp; __Plus d'articles sur le blog__
+</div>
+</$button>
+</div>
+</td>
+
+<td valign="center">
+<div style="font-size:1.1em ;color:#D4D4D4;">
+<br>Le blog est un exemple d'utilisation de ~TiddlyWiki qui retrace l'actu de mes logiciels favoris.

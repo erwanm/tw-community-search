@@ -1,0 +1,23 @@
+title: $:/TiddlyNote/TOC exemple extensible
+caption: Extensible
+created: 20150529085343814
+modified: 20150529180942575
+order: 2
+tags: TiddlyNote  toc
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: TOC exemple extensible
+source-tiddler-title-as-link: TOC%20exemple%20extensible
+
+```
+<div class="tc-table-of-contents">
+<<toc-expandable "Nom-du-tag">>
+</div>
+```
+
+>Produit un arbre hiérarchique de liens où les sous entrées peuvent être développées et réduites.
+
+<br>__Exemple__
+
+<div class="tc-table-of-contents">
+<<toc-expandable "toc exemple">>
+</div>

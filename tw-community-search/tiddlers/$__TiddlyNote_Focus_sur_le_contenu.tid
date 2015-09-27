@@ -1,0 +1,14 @@
+title: $:/TiddlyNote/Focus sur le contenu
+created: 20150224142504041
+description: Masquer la barre latérale et les boutons
+modified: 20150226095332157
+tags: TiddlyNote  [[Trucs et astuces]]
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Focus sur le contenu
+source-tiddler-title-as-link: Focus%20sur%20le%20contenu
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: https://tobibeer.github.io/tw/focus/
+
+Cette astuce permet de masquer la barre latérale et les boutons dans ~TiddlyWiki. Ils apparaissent en passant la souris dessus.
+
+Il suffit d'importer [[ce style|https://tobibeer.github.io/tw/focus/]] dans votre ~TiddlyWiki.

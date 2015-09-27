@@ -1,0 +1,47 @@
+title: $:/TiddlyNote/Créer une ToDo liste
+created: 20150224125752109
+description: Mettre en place une liste de tâches à faire
+modified: 20150607151004461
+tags: TiddlyNote  [[Trucs et astuces]]
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Créer une ToDo liste
+source-tiddler-title-as-link: Créer%20une%20ToDo%20liste
+
+Il est assez simple de mettre en place une liste de choses à faire (//~ToDo list//) dans ~TiddlyWiki.
+
+
+Insérez le code suivant dans un tiddler:
+
+```
+A faire
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+<$checkbox tag="done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br />
+</$list>
+
+C'est fait
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+<$checkbox tag="done"> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox><br />
+</$list>
+```
+
+Pour qu'un tiddler apparaisse dans la liste des tâches, il faut de lui ajouter le tag <<tag task>>
+
+Quand la tâche est réalisée, vous pouvez cocher le tiddler dans la liste "A faire" pour qu'il soit déplacé et barré dans la liste "C'est fait". Le tag <<tag done>> sera automatiquement ajouté.
+
+Pour enlever la tâche de la liste, il faut supprimer les tags `task` et `done` en éditant le tiddler.
+
+<br>
+
+!!<i class="fa fa-square-o" style="color:#E74C3C"></i> Article à compléter ou à créer
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+<$checkbox tag="done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br />
+</$list>
+
+!!<i class="fa fa-check-square-o" style="color:#2ECC71"></i> C'est fait !
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+<$checkbox tag="done"> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox><br />
+</$list>

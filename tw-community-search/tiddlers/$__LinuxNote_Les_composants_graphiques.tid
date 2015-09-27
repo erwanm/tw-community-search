@@ -1,0 +1,89 @@
+title: $:/LinuxNote/Les composants graphiques
+created: 20141205160207270
+modified: 20150913174556253
+tags: LinuxNote  [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Les composants graphiques
+source-tiddler-title-as-link: Les%20composants%20graphiques
+
+Les composants graphiques ou plasmoids sont des widgets placés sur le bureau ou dans les panneaux.<br>
+Le lanceur d'application //Kickoff//, //l'horloge numérique//... sont des plasmoids.
+
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh" target="_blank">[img [Plasmoids|https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh&download]]</a>
+
+<<<
+On y accède par clic droit ou par la //boîte à outils Plasma// → //Ajouter des composants graphiques//<br>
+<<<
+
+@@.info
+<i class="fa fa-info-circle fa-2x pull-left"></i> Il faut penser à //''Déverrouiller les composants graphiques''// avant de les manipuler.
+@@
+
+!!Installer/supprimer des plasmoids
+
+<<<
+Par la boite de dialogue //Obtenir de nouveaux composants graphiques//
+<<<
+On peut aussi installer de nouveaux composants graphiques en cherchant les paquets `kdeplasma-addons-applets-*` (plasmoids KDE SC) et `kdeplasma-applets-*` dans le gestionnaire de paquets.<br> Par exemple: `kdeplasma-addons-applets-news`
+
+@@.att
+<i class="fa fa-exclamation-triangle fa-2x pull-left" style="color:#2C3E50"></i> Avoir trop de plasmoids peut réduire les performances et l'utilisation du CPU.
+@@
+
+!!Configurer les plasmoids
+Tous les plasmoids peuvent être configurés de manière individuelle.
+
+<<<
+Clic droit sur le plasmoid → //Configurer//<br>
+Ceux sur le bureau ont les options au sein d'une « poignée ». On peut les agrandir, les faire pivoter...
+<<<
+
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b" target="_blank">[img align="right" width="300" [Editeur de menu|https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b&download]]</a>
+@@
+
+!!!Le lanceur d'application Kickoff
+
+On peut configurer complètement les raccourcis des applications du menu avec //L'éditeur du menu KDE//.
+
+<<<
+Clic droit sur le menu → //Modifier les applications//
+
+Pour revenir à un menu classique :<br>
+Clic droit sur le menu → //Style de menu classique//
+<<<
+
+<br>
+
+!!!Zoom sur le Gestionnaire de tâches à icônes
+Il peut remplacer le gestionnaire de tâches classique par des icônes (ou peut être utilisé comme un dock).
+
+<<<
+Pour ajouter des icônes :<br> Lancer l'application depuis le Menu puis Clic droit sur l'icône → //Afficher un lanceur lorsqu'elle n'est pas démarrée//.<br> Pour déplacer les icônes: Clic droit → //Déverrouiller les lanceurs// et les déplacer.<br>
+Pour configurer son apparence : Clic droit → //Configurer: gestionnaire de tâches à icônes//
+<<<
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Le comportement au survol du curseur se configure dans les effets de bureau (voir [[Apparence et comportement de l'espace de travail]] section "Tous les effets").<br>''Décocher //mise en évidence de la fenêtre// et cocher //aperçu du gestionnaire des tâches//.''
+@@
+
+!!!La Boite à miniature
+
+C'est un plasmoid où sont stockés les miniatures des programmes en arrière plan.<br>
+
+<<<
+Pour la configurer : Clic droit → //Configurer boite à miniatures//
+<<<
+
+!!Liste de quelques plasmoids
+
+|''Kickoff'', ~AppMenu QML, Lancelot, Quick Menu |Lanceur d'applications |
+|''Homerun'' (//kdeplasma-applets-homerun//)<br> Takeoff (//kdeplasma-addons-applets-takeoff//)  |Lanceur d'applications plein écran<br> Menu des applications  |
+|''Menubar''<br> (//kdeplasma-applets-menubar//) |Afficher le menu des applications dans un panneau |
+|''Gestionnaire de taches à icônes'' //kdeplasma-addons-applets-icontasks// |Remplace le gestionnaire de tâches classique par des<br> icônes ou peut être utilisé comme un dock |
+|''Vue de dossier''<br> //kdeplasma-applets-folderview// |Afficher le contenu d'un dossier, les icônes d'applications sur le bureau |
+|''Dashboard''<br> //kdeplasma-addons-applets-showdashboard// |Afficher des  composants graphiques indépendamment du bureau |
+|''Activity Manager''<br> //kdeplasma-applets-activitymanager// |Plasmoid léger pour gérer les activités de manière efficace |
+|Work Flow<br> //kdeplasma-addons-applets-workflow// |Plasmoid qui intègre les activités, bureaux virtuels et les fonctionnalités de tâches de Plasma dans un seul composant |
+|''Veromix''<br> (//kdeplasma-addons-applets-veromix//)<br> Actos ~SoundMenu |Contrôle indépendant du volume des applications |
+|Picture Frame<br> //kdeplasma-addons-applets-frame// |Afficher vos photos préférées |

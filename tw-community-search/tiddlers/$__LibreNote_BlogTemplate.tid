@@ -1,0 +1,26 @@
+title: $:/LibreNote/BlogTemplate
+created: 20150618122118224
+modified: 20150924142602774
+tags: LibreNote  Template
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: BlogTemplate
+source-tiddler-title-as-link: BlogTemplate
+
+<div style="font-size:1.2em;">
+<$button class="tc-btn-invisible"><$view field='title'/>
+<$action-navigate $to={{!!title}}/>
+</$button>
+<br><br>
+
+<div style="text-align:left; font-size:0.7em;">
+__Posté le {{!!date}}__
+
+</div>
+
+<div style="text-align:left; font-size:0.8em;">
+
+{{!!summary}}
+
+<$link to=<<currentTiddler>>>Lire la suite <i class="fa fa-angle-right"></i></$link>
+
+<hr>

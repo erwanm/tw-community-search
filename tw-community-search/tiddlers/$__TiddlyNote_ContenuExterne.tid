@@ -1,0 +1,14 @@
+title: $:/TiddlyNote/ContenuExterne
+caption: Insérer des contenus externes
+color: #e3b3f7
+created: 20150130141127015
+list: [[Insérer une page web]] [[Insérer une vidéo]] [[Insérer un fichier PDF]] [[Insérer une carte OpenStreetMap]]
+modified: 20150226105841190
+tags: TiddlyNote  Menu
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: ContenuExterne
+source-tiddler-title-as-link: ContenuExterne
+
+Il est possible d'intégrer (//embed en anglais//) facilement le support externe de tout type de média (vidéo, son...) grâce à la balise HTML ``iframe``.
+
+<<list-links "[tag[ContenuExterne]]">>

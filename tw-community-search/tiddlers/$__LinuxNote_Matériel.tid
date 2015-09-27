@@ -1,0 +1,27 @@
+title: $:/LinuxNote/Matériel
+created: 20141217144108400
+modified: 20150219083702912
+tags: LinuxNote  [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Matériel
+source-tiddler-title-as-link: Matériel
+
+!Gestion de l'énergie
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Paramètres globaux pour le gestionnaire d'alimentation: configurer la luminosité, la mise en veille...''
+
+<<<
+__Enlever le verrouillage de l'écran à la reprise__<br>
+Paramètres avancés → Décocher //Verrouiller l'écran lors de la reprise//
+
+__Utiliser l'hibernation quand l'écran est rabattu__<br>
+Économie d'énergie → Prise en charge des événements de bouton → Lorsque l'écran du portable est rabattu //en veille// (cela active l'hibernation sur mon pc !!). A adapter en fonction.
+<<<
+
+!Périphériques d'entrée
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Permet de configurer le comportement du clavier, touchpad, souris, joystick ou tablette graphique.''
+
+<<<
+__Configurer le clavier pour les PC portables__<br>
+Pour activer le verrouillage majuscule (Caps Lock) pour les chiffres sur un portable (majuscules accentuées par défaut).<br>
+Périphérique d'entrée → onglet clavier → avancé → //Comportement de la touche Verr Maj// → //Verr. maj. active ou désactive maj. ce qui affecte toutes les touches//
+<<<

@@ -1,0 +1,46 @@
+title: $:/LinuxNote/Utilisation avancée
+created: 20150105145515944
+description: Quelques astuces d'utilisation
+modified: 20150219090428934
+tags: LinuxNote  [[Guide KDE 4]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Utilisation avancée
+source-tiddler-title-as-link: Utilisation%20avancée
+
+!Les paquets
+Vous pouvez supprimer les paquets inutiles, les applications et les services en fonction de ce dont vous avez besoin.<br>
+Ex: //bluedevil// (si pas de bluetooth), //kde-wallpapers// (fond d'écran) qui est long à mettre à jour, les paquets liés à l'accessibilité...
+
+!Mieux utiliser KRunner
+KRunner est une petite ligne de commande versatile. Vous pouvez l'utiliser pour démarrer des applications, ouvrir des pages web, accéder aux favoris,
+rechercher dans les données du bureau, calculer de courtes équations et plus encore.
+
+>En appuyant sur ''Alt+F2'' ou Clic droit → Exécuter une commande, la boîte de dialogue KRunner s'ouvre.
+
+KRunner est extensible à l'aide de plugins appelés //runners//. Les //runners// sont activables / désactivables en cliquant sur l'icône clé (fenêtre de configuration de KRunner).
+
+@@.info
+<i class="fa fa-info-circle fa-2x pull-left"></i> La désactivation des plugins que vous n'utilisez pas permet de réduire l'utilisation des ressources.
+@@
+
+On peut installer / supprimer des plugins en cherchant `kdeplasma-addons-runners` dans le gestionnaire de paquets. Par exemple le paquet `kdeplasma-addons-runners-browsefirefoxbookmarks` permet d'accéder aux marques-pages de Firefox dans KRunner.
+
+On peur étendre les fonctionnalités de KRunner en installant le paquet `krunner-appmenu` qui permet de lancer une commande (copier, supprimer...) à partir de KRunner.
+
+@@.ast
+<i class="fa fa-lightbulb-o fa-3x pull-left"></i> La commande  `kdesu` (ou `kdesudo` pour kubuntu) peut être utilisée avec KRunner ou en mode console. Elle permet l'accès à une fenêtre qui offre les droits administrateur en mode graphique.<br>
+Par exemple, pour éditer un fichier on va exécuter la commande  `kdesu kate /Chemindufichier`.<br>
+La commande  `sudo` (« superuser do ») est à utiliser en mode texte.
+@@
+
+!Les KIO Slaves
+KIO (pour KDE Input/Output) sont des modules d'entrée/sortie qui permettent l'accès aux ressources matérielles au sein d'une unique API. Les KIO slaves (ou esclaves) fournissent ainsi à KIO le support pour un protocole d'accès à une ressource particulière (matérielle ou logicielle) comme le support du protocole MTP (périphériques mobiles).<br>
+On y accède par la barre de navigation de Dolphin ou du navigateur web.<br>
+Les plus pratiques : //sysinfo:/, settings:/, audiocd:/, info:/, fonts:/, man:/, ftp:/, applications:/ ou programs:/ //
+
+!La gestion des utilisateurs
+L'application KUser permet une gestion simple et graphique des comptes utilisateurs. On peut ajouter, supprimer et modifier des comptes utilisateurs.
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> La vue par défaut répertorie tous les comptes du système que l'on peut masquer en cliquant sur le menu //Paramètres// et décocher //Montrer Utilisateurs / Groupes système//.
+@@
