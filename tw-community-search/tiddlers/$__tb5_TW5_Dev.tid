@@ -1,8 +1,5 @@
 title: $:/tb5/TW5 Dev
-created: 20141121235019027
-creator: Tobias Beer
-modified: 20141121235054525
-modifier: Tobias Beer
+revision: 0
 summary: the tw5 developer wiki
 url: http://tiddlywiki.com/dev
 tags: tb5  Main
@@ -10,3 +7,7 @@ source-wiki-id: tb5
 source-tiddler-title-as-text: TW5 Dev
 source-tiddler-title-as-link: TW5%20Dev
 
+; official
+: http://tiddlywiki.com/dev
+; update by Nicholas Spies
+: https://github.com/nicholas-spies/TW_Doc_for_Dev

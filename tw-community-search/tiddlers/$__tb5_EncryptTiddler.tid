@@ -3,7 +3,9 @@ created: 20141124145235347
 creator: Tobias Beer
 modified: 20141203193754559
 modifier: Tobias Beer
+revision: 0
 summary: adds the ability to encrypt and password-protect tiddlers individually
+type: text/vnd.tiddlywiki
 url: http://braintest.tiddlyspot.com/#Encrypt-Tiddler
 tags: tb5  [[Danielo Rodríguez]] Encryption Plugin Solutions
 source-wiki-id: tb5

@@ -3,6 +3,8 @@ created: 20150917110513675
 creator: Tobias Beer
 modified: 20150917113754547
 modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
 tags: tb5  Solutions Timeline Dates Tabs
 source-wiki-id: tb5
 source-tiddler-title-as-text: Tab For Recently Created Tiddlers
@@ -11,7 +13,7 @@ source-tiddler-title-as-link: Tab%20For%20Recently%20Created%20Tiddlers
 To display a tab for recently created tiddlers rather than recently modified tiddlers, create a [ext[system tiddler|http://tiddlywiki.com/static/SystemTiddlers.html]] by cloning [[$:/core/ui/MoreSideBar/Recent]], then declaring the ''dateField'' for the [[timeline macro|http://tiddlywiki.com/static/timeline%2520Macro.html]], and setting all other fields according to your needs:
 
 ; title
-: whichever you prefer, e.g. [[$:/.tb/ui/MoreSideBar/Created]]
+: whichever you prefer, e.g. [[$:/.tb/ui/SideBar/Created]]
 ; caption
 : `Created`
 ; text

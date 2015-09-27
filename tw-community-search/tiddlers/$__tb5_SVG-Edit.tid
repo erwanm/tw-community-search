@@ -3,7 +3,9 @@ created: 20150121123004098
 creator: Tobias Beer
 modified: 20150206130041955
 modifier: Tobias Beer
+revision: 0
 summary: a web-enabled editor for svg files — or go with a much more powerful desktop app: [[inkscape|https://inkscape.org]]
+type: text/vnd.tiddlywiki
 url: http://svg-edit.googlecode.com
 tags: tb5  Editing SVG Images
 source-wiki-id: tb5

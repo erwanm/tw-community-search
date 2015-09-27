@@ -3,6 +3,7 @@ created: 20150118164553583
 creator: Tobias Beer
 modified: 20150119102132150
 modifier: Tobias Beer
+revision: 0
 tags: tb5  Solutions Presentation Toggle Macros Styles
 source-wiki-id: tb5
 source-tiddler-title-as-text: overlay
@@ -12,15 +13,15 @@ The ''overlay'' macro allows you to overlay or toggle content. As an example...
 
 ```
 <<overlay
-{{$:/.tb/examples/overlay!!what}}
-{{$:/.tb/examples/overlay!!with}}
+{{$:/.tb/demo/overlay!!what}}
+{{$:/.tb/demo/overlay!!with}}
 400px 40px overlay-example>>
 ```
 
 <<<
 <<overlay
-{{$:/.tb/examples/overlay!!what}}
-{{$:/.tb/examples/overlay!!with}}
+{{$:/.tb/demo/overlay!!what}}
+{{$:/.tb/demo/overlay!!with}}
 400px 40px overlay-example>>
 <<<
 
@@ -68,11 +69,11 @@ These css classes are defined by the overlay macro...
 
 !! The Example Tiddler
 
-[[$:/.tb/examples/overlay]]:
+[[$:/.tb/demo/overlay]]:
 
 ; what
-: {{$:/.tb/examples/overlay!!what}}
+: {{$:/.tb/demo/overlay!!what}}
 ; with
-: {{$:/.tb/examples/overlay!!with}}
+: {{$:/.tb/demo/overlay!!with}}
 ; text
-: abused for styles ;-){{$:/.tb/examples/overlay}}
+: abused for styles ;-){{$:/.tb/demo/overlay}}

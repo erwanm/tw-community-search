@@ -1,12 +1,11 @@
 title: $:/tb5/TiddlyMap
 category: Plugins
-created: 20141122082050235
-creator: Tobias Beer
+created: 20150926195513524
 icon: $:/core/images/plugin-generic-plugin
-modified: 20150915104949099
-modifier: Tobias Beer
-summary: TiddlyMap (experimental) — a powerful vis.js implementation by [[Felix Küppers]] visualising tiddler relations via nodes and edges
-url: http://felixhayashi.github.io/TW5-TiddlyMap/index.html / http://bit.ly/tiddlymap
+modified: 20150926195514662
+revision: 0
+summary: TiddlyMap — a powerful vis.js implementation by [[Felix Küppers]] visualising tiddler relations via nodes and edges
+url: http:tiddlymap.org
 tags: tb5  Graph Visualization Mindmaps References [[Felix Küppers]] Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: TiddlyMap

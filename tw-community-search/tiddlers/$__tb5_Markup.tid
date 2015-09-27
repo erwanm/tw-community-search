@@ -1,14 +1,11 @@
 title: $:/tb5/Markup
 caption: Markup
-created: 20141121120436484
-creator: Tobias Beer
 icon: $:/core/images/edit-button
 list: bold italics bold-italics underline strikethrough superscript subscript dashes headings horizontal-rules code monospaced-codeblock hard-linebreaks paragraphs blockquotes unordered-lists ordered-lists definition-lists mixed-lists css-classes internal-links wiki-links external-links filesystem-links external-links-forced images external-images attribute-transclusion css-class-wrappers styled-wrappers combined-style-wrappers inline-styles tables html-elements html-element-attributes multiline-nested-html transclusion macros typed-blocks
 menu: main
 menu-icon: {{$:/core/images/edit-button}}
-modified: 20150126165957437
-modifier: Tobias Beer
 order: 3
+revision: 0
 summary: a destillation of [[WikiText|http://tiddlywiki.com/#WikiText]] formatting in tw5
 tags: tb5 
 source-wiki-id: tb5

@@ -4,7 +4,9 @@ creator: Tobias Beer
 follow: no
 modified: 20150108112355771
 modifier: Tobias Beer
+revision: 0
 summary: a wiki experimenting with a storyview to always open tiddlers on top
+type: text/vnd.tiddlywiki
 url: http://storyviewtop.tiddlyspot.com
 tags: tb5  [[Tobias Beer]]
 source-wiki-id: tb5

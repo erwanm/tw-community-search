@@ -4,7 +4,9 @@ creator: Tobias Beer
 icon: $:/core/images/plugin-generic-language
 modified: 20150915083303601
 modifier: Tobias Beer
+revision: 0
 summary: an aggregator allowing to search indexed TiddlyWiki community wikis
+type: text/vnd.tiddlywiki
 url: http://erwanm.github.io/tw-community-search
 tags: tb5  References Search Solutions Community
 source-wiki-id: tb5
