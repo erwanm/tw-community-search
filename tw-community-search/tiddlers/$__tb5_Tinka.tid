@@ -1,0 +1,15 @@
+title: $:/tb5/Tinka
+category: Plugins
+created: 20150927160818541
+creator: Tobias Beer
+icon: $:/core/images/plugin-generic-plugin
+modified: 20150927194522468
+revision: 0
+summary: Tinka allows to package plugins right in the browser version of TiddlyWiki
+type: text/vnd.tiddlywiki
+url: http://twguides.org/wiki/tinka.html
+tags: tb5  Plugin Utilities Workflows [[Andreas Hahn]] Solutions
+source-wiki-id: tb5
+source-tiddler-title-as-text: Tinka
+source-tiddler-title-as-link: Tinka
+

@@ -1,42 +1,20 @@
 title: $:/t5a/Show-fields
-created: 20150922131711733
+created: 20150927215454772
 creator: Andrew Harrison
-description: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler has the show-fields field. Add fields by including the field name or remove fields by including the name preceded with a negative.
-modified: 20150927172945325
+description: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler has the ''show-fields'' field and something in the field even a space.
+modified: 20150927230259908
 modifier: Andrew Harrison
-show-field: 
-tags: t5a  [[Under construction]] New
+show-field: tags
+tags: t5a  New [[Under construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Show-fields
 source-tiddler-title-as-link: Show-fields
 
-{{Under construction}}
-Add a global setting to the settings tab in control panel by tagging the new configuration tiddler $:/core/ui/ControlPanel/Settings/ShowFields with $:/tags/ControlPanel/Settings tag.
-
-```
-\define lingo-base() $:/language/ControlPanel/Settings/ShowFields/
-<<lingo Hint>>
-<$list filter...
-caption: {{$:/language/ControlPanel/Settings/ToolbarButtons/Caption}}
-```
-
-Need to define $:/language/ControlPanel/Settings/ShowFields/Caption with Global Show Field List
-
-Need to define $:/language/ControlPanel/Settings/ShowFields/Description with: List filter
-
-Need to define $:/language/ControlPanel/Settings/ShowFields/Hint with Add field to global list filter:
-
-Add an edit field for the global setting to add remove globally which fields are displayed.
-
-Show-field field locally adds or removes in current tiddler only.
-
-Resource: "the checkbox widget already has logic for adding and removing members of a list, but of course it's currently tied to using the "tags" field for the list." (Jeremy 9/23/15)
-
-
 \define renderfield(title)
 <tr class="tc-view-field"><td class="tc-view-field-name">''$title$'':</td><td class="tc-view-field-value">{{!!$title$}}</td></tr>
 \end
-<$list filter="<$list filter="[all[current]has[show-field]]">
-<table class="tc-view-field-table"><tbody><$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -modified -modifier -tags -text -title -type {{!!show-field}}" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
+
+<$list filter="[all[current]!show-field[]]">
+<table class="tc-view-field-table"><tbody><$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -modified -modifier -show-field -tags -text -title -type {{!!show-field}}" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
 </tbody></table>
 </$list>

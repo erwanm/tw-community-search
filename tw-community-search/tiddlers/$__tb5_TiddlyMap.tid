@@ -1,8 +1,6 @@
 title: $:/tb5/TiddlyMap
 category: Plugins
-created: 20150926195513524
 icon: $:/core/images/plugin-generic-plugin
-modified: 20150926195514662
 revision: 0
 summary: TiddlyMap — a powerful vis.js implementation by [[Felix Küppers]] visualising tiddler relations via nodes and edges
 url: http:tiddlymap.org

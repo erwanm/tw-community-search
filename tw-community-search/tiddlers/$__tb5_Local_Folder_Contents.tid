@@ -10,7 +10,7 @@ source-wiki-id: tb5
 source-tiddler-title-as-text: Local Folder Contents
 source-tiddler-title-as-link: Local%20Folder%20Contents
 
-When in a local TiddlyWiki, the following simple macro will allow you to list the contents of a local folder within an iframe.
+When in a local TiddlyWiki, the following simple macro will allow you to list the contents of a local directory within an iframe.
 
 ```
 <<local path height>>
