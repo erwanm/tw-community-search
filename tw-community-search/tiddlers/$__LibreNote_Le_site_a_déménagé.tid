@@ -1,0 +1,58 @@
+title: $:/LibreNote/Le site a déménagé
+annee: 2015
+author: svink
+created: 20150928124903357
+date: 28 septembre 2015
+date_court: 28/09/15
+modified: 20150928135047358
+summary: ~LibreNote change de solution d'hébergement.
+template: BlogTemplate
+titre_news: ~LibreNote a déménagé 
+tags: LibreNote  Blog semi LibreNote
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Le site a déménagé
+source-tiddler-title-as-link: Le%20site%20a%20déménagé
+
+<div style="text-align:center">
+
+!!{{!!title}}
+</div>
+<div style="text-align:center; font-size:0.8em; color:#7C7C7C">
+<i class="fa fa-clock-o"></i> <$view field='date'/> &nbsp; &nbsp;
+<i class="fa fa-user"></i> <$view field='author'/> &nbsp; &nbsp;
+<i class="fa fa-tags"></i> <<tag LibreNote>>
+</div>
+<br>
+
+Depuis le 21 septembre le site ~LibreNote a changé d'hébergement. Il est désormais sous [[aerobatic|http://bitbucket.aerobatic.com/]] et accessible à cette nouvelle adresse:
+
+>http://librenote.aerobatic.io
+
+Et les wikis ont suivis :
+
+*~LinuxNote: http://librenote.aerobatic.io/linuxnote
+*~TiddlyNote: http://librenote.aerobatic.io/tiddlynote
+*~GitNote: http://librenote.aerobatic.io/gitnote
+
+Durant le déménagement tout le monde a perdu son "S".
+<br><br>
+
+<div style="text-align:center;">
+
+@@background-color:#FFCC66;
+@@margin:10px;
+@@padding:10px;
+@@border-radius: 5px;
+<i class="fa fa-exclamation-triangle fa-2x pull-center"></i><br>
+L'ancienne adresse affiche une page de redirection qui ne sera plus accessible à partir du mois de novembre.
+@@
+</div>
+<br>
+
+!!!Un nouveau //workflow// sous Git
+
+Au passage, je revois ma façon de travailler sous Git avec ~TiddlyWiki. Je ne vais plus faire des commits pour chaque changement apporté car cela me fait perdre en productivité.<br>
+Commiter proprement toutes les modifications est assez long et n'est pas adapté à mon utilisation. Désormais je ferais généralement juste un commit par wiki mais qui comprendra plusieurs modifications. 
+<br><br>
+
+---

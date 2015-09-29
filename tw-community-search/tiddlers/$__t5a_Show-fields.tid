@@ -1,20 +1,30 @@
 title: $:/t5a/Show-fields
 created: 20150927215454772
 creator: Andrew Harrison
-description: This template causes tiddlers to display the field(s) and value(s) except system fields if the tiddler has the ''show-fields'' field and something in the field even a space.
-modified: 20150927230259908
+description: This template causes tiddlers to display the field(s) and value(s) and suppressing the display of system fields if the tiddler has the ''show-fields'' field and something in the field. To display only one field, you can remove it and add it back.
+modified: 20150928232909963
 modifier: Andrew Harrison
-show-field: tags
-tags: t5a  New [[Under construction]]
+show-field: -description description
+tags: t5a  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Show-fields
 source-tiddler-title-as-link: Show-fields
 
-\define renderfield(title)
-<tr class="tc-view-field"><td class="tc-view-field-name">''$title$'':</td><td class="tc-view-field-value">{{!!$title$}}</td></tr>
+\define body()
+<$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -show-field -tags -text -title -modified -modifier $(showfield)$" variable="listItem">
+<tr class="tc-view-field">
+<td class="tc-view-field-name">''<<listItem>>'':</td>
+<td class="tc-view-field-value"><$transclude field=<<listItem>>/></td>
+</tr>
+</$list>
 \end
 
-<$list filter="[all[current]!show-field[]]">
-<table class="tc-view-field-table"><tbody><$list filter="[is[current]fields[]sort[]] -created -creator -draft.of -draft.title -modified -modifier -show-field -tags -text -title -type {{!!show-field}}" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
-</tbody></table>
+<$list filter="[all[current]has[show-field]]">
+<table class="tc-view-field-table">
+<tbody>
+<$set name="showfield" value={{!!show-field}}>
+<<body>>
+</$set>
+</tbody>
+</table>
 </$list>

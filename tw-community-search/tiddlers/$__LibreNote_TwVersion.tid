@@ -1,6 +1,6 @@
 title: $:/LibreNote/TwVersion
 created: 20150705113137241
-modified: 20150924143105378
+modified: 20150928130745111
 tags: LibreNote 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: TwVersion
@@ -15,5 +15,5 @@ source-tiddler-title-as-link: TwVersion
 </td>
 
 <td valign="center">
-<div style="font-size:0.85em;text-align:left;margin-left:5em;"> &nbsp; <<version>>
+<div style="font-size:0.85em;text-align:left; margin-left:4em;"> &nbsp; <<version>>
 </div>
