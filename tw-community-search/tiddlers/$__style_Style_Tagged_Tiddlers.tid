@@ -1,10 +1,10 @@
 title: $:/style/Style Tagged Tiddlers
 created: 20150918122341002
 creator: Tobias Beer
-modified: 20150918124927682
+modified: 20150929155050477
 modifier: Tobias Beer
 summary: how to style tiddlers having a given tag
-tags: style  Styles [[Pillow Patterns]]
+tags: style  Styles [[Notebook Style]]
 source-wiki-id: style
 source-tiddler-title-as-text: Style Tagged Tiddlers
 source-tiddler-title-as-link: Style%20Tagged%20Tiddlers
@@ -16,9 +16,9 @@ For each tag of a tiddler, the tiddler element is given a css class that you can
 For example, this applies a notebook style.
 
 <<` "<style>
-/* http://lea.verou.me/css3patterns */
+/* http://lea.verou.me/css3patterns/#lined-paper */
 
-.tc-tagged-Pillow\%20Patterns {
+.tc-tagged-Notebook\%20Style {
 background-image: 
 linear-gradient(90deg, transparent 25px, #abced4 25px, #abced4 27px, transparent 27px),
 linear-gradient(#eee .01em, transparent .1em);
@@ -26,4 +26,6 @@ background-size: 100% 1.2em;
 }
 </style>">>
 
-''Note:'' To make it work for tag names containing spaces, escape it to `\%20`, not `%20`.
+''Note:'' To make it work for tag names containing spaces, you need to escape the space to `\%20`, not `%20` when addressing the css class.
+
+Also see [[How to apply custom styles by tag|http://tiddlywiki.com/#How%20to%20apply%20custom%20styles%20by%20tag]].

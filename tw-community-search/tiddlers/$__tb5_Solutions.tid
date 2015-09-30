@@ -1,12 +1,16 @@
 title: $:/tb5/Solutions
 caption: Solutions
 catlist: GTD ToC
+created: 20150929155615384
+creator: Tobias Beer
 icon: $:/core/images/star-filled
 menu: main
 menu-icon: {{$:/core/images/star-filled}}
+modified: 20150929155712685
 order: 3
 revision: 0
 summary: setting up tw5 to meet your needs
+type: text/vnd.tiddlywiki
 tags: tb5  Welcome
 source-wiki-id: tb5
 source-tiddler-title-as-text: Solutions
@@ -15,7 +19,7 @@ source-tiddler-title-as-link: Solutions
 <div class="tb-taglist">
 
 <<list-search
-"[tag[Solutions]tags[]sort[title]!is[system]] -[tag[Community]] -[tag[Main]] -[tag[Welcome]] -Task -picture "
+"[tag[Solutions]tags[]sort[title]!is[system]] -[tag[Community]] -[tag[Main]] -[tag[Welcome]] -Task -picture -Test "
 search
 "$:/temp/tb/solutions"
 "$:/.tb/templates/solution-tags"

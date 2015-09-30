@@ -1,8 +1,11 @@
 title: $:/tb5/Core
 caption: Core
+created: 20150929113328405
+creator: Tobias Beer
 icon: $:/core/icon
 menu: main
 menu-icon: {{$:/core/icon}}
+modified: 20150929113344998
 revision: 0
 summary: functional elements and constructs of the tw5 core
 type: text/vnd.tiddlywiki
@@ -14,9 +17,11 @@ source-tiddler-title-as-link: Core
 ;[[WikiText|http://tiddlywiki.com/#WikiText]]
 :[[TW5 markup|Markup]], syntax, hypertext, formatting
 ;[[Widgets|http://tiddlywiki.com/#Widgets]]
-:the basic functional elements on which tw5 runs, see [[Widget Browser]]
+:the basic functional elements on which tw5 runs
+:see [[Widget Browser]]
 ;[[Filters|http://tiddlywiki.com/#Filters]]
-:gather tiddlers matching expressions for use in widgets, e.g. ''list'' or ''count''
+:gather tiddlers matching expressions in widgets, e.g. ''list'' or ''count''
+:see [[Filter Reference]]
 ;[[Macros|http://tiddlywiki.com/#Macros]]
 :functional snippets using text, core macros, templates invoked via `<<shortcuts>>`
 
