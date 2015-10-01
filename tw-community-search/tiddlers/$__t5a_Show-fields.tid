@@ -1,10 +1,10 @@
 title: $:/t5a/Show-fields
 created: 20150927215454772
 creator: Andrew Harrison
-description: This template causes tiddlers to display the field(s) and value(s) and suppressing the display of system fields if the tiddler has the ''show-fields'' field and something in the field. To display only one field, you can remove it and add it back.
-modified: 20150928232909963
+description: This template causes tiddlers to display the field(s) and value(s) and suppressing the display of system fields if the tiddler has the ''show-fields'' field and something in the field. List only one non-system field to display only one field.
+modified: 20150930121355785
 modifier: Andrew Harrison
-show-field: -description description
+show-field: show-field
 tags: t5a  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Show-fields
@@ -18,7 +18,7 @@ source-tiddler-title-as-link: Show-fields
 </tr>
 </$list>
 \end
-
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
 <$list filter="[all[current]has[show-field]]">
 <table class="tc-view-field-table">
 <tbody>
@@ -28,3 +28,4 @@ source-tiddler-title-as-link: Show-fields
 </tbody>
 </table>
 </$list>
+</$reveal>

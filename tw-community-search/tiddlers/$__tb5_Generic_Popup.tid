@@ -1,0 +1,13 @@
+title: $:/tb5/Generic Popup
+created: 20150930080515193
+creator: Tobias Beer
+modified: 20150930112326308
+revision: 0
+summary: provides a macro to render a popup
+type: text/vnd.tiddlywiki
+tags: tb5  Popup Macros Solutions Presentation Images
+source-wiki-id: tb5
+source-tiddler-title-as-text: Generic Popup
+source-tiddler-title-as-link: Generic%20Popup
+
+{{pop}}

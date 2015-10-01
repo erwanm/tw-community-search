@@ -8,14 +8,14 @@ install_link:
 language: 
 license: 
 maintainer: Danielo Rodriguez
-modified: 20150210030014210
+modified: 20150930200657338
 name: Context Plugin
 plugin_tiddler: $:/plugins/danielo515/ContextPlugin
 release: 
 repository: 
 revision: 2.1.0
 short_description: Search text in a tiddler with some context
-wiki: http://braintest.tiddlyspot.com/
+wiki: http://contextplugin.tiddlyspot.com/
 tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Context Plugin
