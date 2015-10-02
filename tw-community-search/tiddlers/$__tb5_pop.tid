@@ -1,7 +1,7 @@
 title: $:/tb5/pop
 created: 20150930072206029
 creator: Tobias Beer
-modified: 20150930083340787
+modified: 20151001072258024
 revision: 0
 type: text/vnd.tiddlywiki
 tags: tb5 
@@ -15,9 +15,13 @@ The [[<<pop>>|$:/.tb/macros/pop]] macro implements a generic popup as based on t
 
 ''simple''
 
-Opens the tiddler [[Jack.jpg]] in a popup styled with the [[pretty|$:/styles/pretty]] class:
+Opens the tiddler [[Jack.jpg]] in a popup styled with the [[classes|$:/.tb/macros/pop/styles]] ''pretty'' and ''pop-img'':
 
-<$macrocall $name="`" text="""<<pop Click! Jack.jpg pretty>>"""/>
+<$macrocall $name="`" text="""<<pop Click! Jack.jpg "pretty pop-img">>"""/>
+
+''a tiddler''
+
+<$macrocall $name="`" text="""<<pop Click! "Style Tagged Tiddlers" "pretty pop-tiddler">>"""/>
 
 ''complex'' — (as link, with some @@color:deeppink;pink@@)
 
@@ -36,7 +40,7 @@ Many of the available parameters correspond 1:1 to those coming from the <<tw Bu
 
 | !# | !Parameter | !Description | !Default | !Widget |
 |1|''label''|the popup button label, transcluded |||
-|2|''content''|the popup contents, transcluded |||
+|2|''content''|the popup contents via <<tw TextReference>>, transcluded |||
 |3|''pop-class''|a custom popup class; always `pop-popup` ||<<tw RevealWidget $reveal>>|
 |4|''animate''|whether to animate the popup ||<<tw RevealWidget $reveal>>|
 |5|''position''|where to open the popup ||<<tw RevealWidget $reveal>>|
@@ -48,4 +52,14 @@ Many of the available parameters correspond 1:1 to those coming from the <<tw Bu
 
 !! Installation
 
-Drag to your wiki: <<source [[$:/.tb/macros/pop]]>>
+Drag the macro and styles into your wiki...
+
+<<source "$:/.tb/macros/pop" yes>>
+<<source [[$:/.tb/macros/pop/styles]] yes>>
+
+!! Styles
+
+| !class | !description |
+|''pretty''|adds a dropshadow to the popup |
+|''pop-img''|removes nasty bottom padding when displaying just an image|
+|''pop-tiddler''|removes awkward translucency and sets default padding|

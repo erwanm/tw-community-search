@@ -1,8 +1,8 @@
 title: $:/t5a/Show-fields
 created: 20150927215454772
 creator: Andrew Harrison
-description: This template causes tiddlers to display the field(s) and value(s) and suppressing the display of system fields if the tiddler has the ''show-fields'' field and something in the field. List only one non-system field to display only one field.
-modified: 20150930121355785
+description: This template causes tiddlers to display the field(s) and value(s) and suppressing the display of system fields if the tiddler has the ''show-field'' field and something in the field.<br>List only one non-system field except show-field to display only one field.
+modified: 20151001131618046
 modifier: Andrew Harrison
 show-field: show-field
 tags: t5a  New Contents

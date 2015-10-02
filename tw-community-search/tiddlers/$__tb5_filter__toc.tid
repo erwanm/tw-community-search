@@ -42,6 +42,4 @@ The ''toc'' filter returns a flat list for a <<tw TableOfContentsMacro "table of
 
 !!Installation
 
-version: ''<$view tiddler="$:/.tb/modules/filters/toc.js" field="modified" format="date" template="YYYY-0MM-0DD-0hh-0mm-0ss"/>''
-
-drag to your wiki <<source [[$:/.tb/modules/filters/toc.js]]>>
+drag to your wiki: <<source [[$:/.tb/modules/filters/toc.js]] yes>>

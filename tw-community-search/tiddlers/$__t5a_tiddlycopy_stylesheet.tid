@@ -1,0 +1,92 @@
+title: $:/t5a/tiddlycopy/stylesheet
+created: 20151001024140828
+creator: Andrew Harrison
+modified: 20151002001742325
+modifier: Andrew Harrison
+tags: t5a  Stylesheet New [[Tiddly Copy]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: tiddlycopy/stylesheet
+source-tiddler-title-as-link: tiddlycopy%2fstylesheet
+
+```
+html .tc-titlebar > .tc-tiddly-controls {
+    position: absolute;
+    right: 0px;
+    top: 36px;
+    z-index: 1;
+}
+
+@media (max-width: 959.5px) {
+    html .tc-titlebar > .tc-tiddly-controls {
+        position: absolute;
+        right: 15px;
+        z-index: 1;
+    }
+}
+
+/* HOVER TIDDLER TITLE */
+html .tc-tiddly-title, .tc-tiddly-title-icon {
+    position: relative;
+    z-index: 0;
+}
+
+html .tc-tiddly-show {
+    position: absolute;
+    z-index:0;
+}
+
+/* TIDDLYVIEWER EXPAND AND ROUND CORNERS */
+html .tc-tiddly {
+    margin: -149px -43px -48px -43px;
+    width: calc(100% + 86px);
+    z-index=-2;
+    border-radius: 1em;
+}
+
+@media (max-width: 960px) {
+    html .tc-tiddly {
+    margin: -125px -15px -21px -15px;
+        width: calc(100% + 30px);
+        height: 60vh;
+    }
+}
+
+/* HOVER TIDDLER INFO */
+html .tc-tiddler-info {
+    position: absolute;
+    width: calc(100% - 86px);
+    z-index: 101;
+}
+
+@media (max-width: 959.5px) {
+html .tc-tiddler-info {
+    width: 100%;
+    }
+}
+
+/* HOVER TIDDLER CONTROLS */
+/*html .tc-titlebar > .tc-tiddler-controls {
+    position: absolute;
+    right: 18px;
+    z-index: 1;
+}
+
+@media (max-width: 959.5px) {
+    html .tc-titlebar > .tc-tiddly-controls {
+        position: absolute;
+        right: 15px;
+        z-index: 1;
+    }
+}*/
+
+/* HOVER TIDDLER TITLE */
+/*html .tc-tiddly-title, .tc-tiddly-title-icon {
+    position: relative;
+    z-index: 0;
+}
+
+html .tc-tiddly-show {
+    position: absolute;
+    z-index:0;
+}*/
+```

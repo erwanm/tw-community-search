@@ -40,7 +40,7 @@ Calculated values can be used as widget attributes so as to assign them to tiddl
 
 !! Installation
 
-Drag to your wiki, save, reload: [[$:/.tb/macros/calc]] — version: ''<$view tiddler="$:/.tb/macros/calc" field="modified" format="date" template="YYYY-0MM-0DD-0hh-0mm-0ss"/>''
+Drag to your wiki, save, reload: [[$:/.tb/macros/calc]] (version: <<date-version "$:/.tb/macros/calc">>)
 
 !! Examples 
 
