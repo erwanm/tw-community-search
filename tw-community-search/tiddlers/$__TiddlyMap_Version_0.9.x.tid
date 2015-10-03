@@ -1,11 +1,11 @@
 title: $:/TiddlyMap/Version 0.9.x
 caption: v0.9.x
 created: 20150726142912155
-modified: 20150901173329867
+modified: 20151002100143269
 released: not really
 tmap.id: 16976ded-1d7e-4798-b7ef-a12fc5cdaeef
 type: text/x-markdown
-tags: TiddlyMap  ReleaseNote [[Map Constructs]] Usability Configurability Storage
+tags: TiddlyMap  ReleaseNote [[Map Constructs]] Usability Configurability Storage Performance
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.9.x
 source-tiddler-title-as-link: Version%200.9.x
@@ -13,6 +13,13 @@ source-tiddler-title-as-link: Version%200.9.x
 Major enhancements
 ----------------------------
 
+### v0.9.7
+
+* Tries to cater for #171. The user always has a chance to create a
+  new tiddler on the fly and then link to it when searching.
+* Again related to #171: All TiddlyMap popups are now closed when
+  the user is clicking outside.
+  
 ### v0.9.3
 
 * #168  Enhanced the create view dialog; Allow moving portions of a
@@ -45,6 +52,21 @@ Major enhancements
 
 Important Bugfixes
 ----------------------------
+
+### v0.9.8
+
+* Fixed installation issues: In new wikis, the config was not read
+  because the getTiddlerData function was used on tiddlers that
+  were not marked as data tiddlers.
+* By accident a wrong edge filter was added to the default view. wtf?
+* Fixed bug that a node inserted with the adapter was not immediately
+  inserted into the node-index, only after refresh!
+
+### v0.9.6
+
+* In v0.9.5 I introduced a very ugly node highlighting. Removed! :)
+* Fixes #174: Keylisteners of the clipboard feature swallow letters.
+* Fixed some visjs css
 
 ### v0.9.5
 

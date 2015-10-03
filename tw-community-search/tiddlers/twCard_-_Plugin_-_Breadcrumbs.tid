@@ -1,0 +1,22 @@
+audience: 
+category: Interface
+created: 20150106175012859
+date: 08-07-2015
+homepage: http://tw5breadcrumbs.tiddlyspot.com/
+install_link: 
+language: 
+license: 
+maintainer: TonGerner
+modified: 20151002204128687
+name: Breadcrumbs
+plugin_tiddler: 
+release: 
+repository: 
+revision: 0.0.7
+short_description: Puts a list of open tiddlers at the top of the screen showing the order they have been looked at.
+title: twCard - Plugin - Breadcrumbs
+wiki: http://tw5breadcrumbs.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+
+{{||$:/CommunityPluginTemplate}}
