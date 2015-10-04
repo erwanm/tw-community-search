@@ -1,5 +1,9 @@
 title: $:/tb5/static
+created: 20150106173523021
+creator: Tobias Beer
 follow: yes
+modified: 20150217191333021
+modifier: Tobias Beer
 revision: 0
 summary: a collection of references to articles on implementing static sites on node.js
 url: http://tobibeer.github.io/tw/static

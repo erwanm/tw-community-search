@@ -1,10 +1,14 @@
 title: $:/tb5/Tobias Beer
-caption: My Stuff
+caption: More
 course: English
+created: 20151003133225976
+creator: Tobias Beer
 icon: $:/core/images/plugin-generic-language
 level: B2
+modified: 20151003133228670
 revision: 0
 summary: wikis I created and maintain<!--Tobias Beer, tb5-->
+type: text/vnd.tiddlywiki
 url: [[tobibeer.github.io|https://tobibeer.github.io]] / [[github.com/tobibeer|https://github.com/tobibeer]]
 tags: tb5  Community
 source-wiki-id: tb5

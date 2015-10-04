@@ -7,11 +7,11 @@ description: using a filter or a widget or something
 due_day: 
 due_month: 
 due_year: 
-modified: 20150506215600881
+modified: 20151003140141049
 start_day: 
 start_month: 
 start_year: 
-tags: inmysocks  [[Planned Update]]
+tags: inmysocks  [[Planned Update]] [[Change Log]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Make a plugin that can somehow return the length of a string
 source-tiddler-title-as-link: Make%20a%20plugin%20that%20can%20somehow%20return%20the%20length%20of%20a%20string

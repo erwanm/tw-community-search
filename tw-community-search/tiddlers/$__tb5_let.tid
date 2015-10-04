@@ -1,5 +1,9 @@
 title: $:/tb5/let
+created: 20141203003326406
+creator: Tobias Beer
 follow: yes
+modified: 20150108114144123
+modifier: Tobias Beer
 revision: 0
 summary: a filter to compare and calculate with field values for basic arithmetic or boolean computations
 url: http://let.tiddlyspot.com
