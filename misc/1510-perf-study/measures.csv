@@ -207,3 +207,63 @@ series,device,wikiVersion,element,sizeList,styleRefresh,styleRefreshFilter,mainR
 2,A,search-filter-no-issystem,search “plugin”,682,26,20,1898,528,NA,NA
 2,A,search-filter-no-issystem,search “plugin”,682,24,18,1807,512,NA,NA
 2,A,search-filter-no-issystem,search “plugin”,682,32,18,2347,592,NA,NA
+3,A,vanilla,reloading wiki,NA,54,27,361,323,1016,428
+3,A,vanilla,reloading wiki,NA,58,31,400,360,1083,463
+3,A,vanilla,reloading wiki,NA,58,29,372,332,1113,538
+3,A,vanilla,reloading wiki,NA,64,29,396,351,1004,450
+3,A,vanilla,reloading wiki,NA,57,29,477,433,1015,456
+3,A,original,reloading wiki,NA,64,29,481,438,1014,448
+3,A,original,reloading wiki,NA,58,28,465,339,1076,460
+3,A,original,reloading wiki,NA,57,27,472,427,1007,444
+3,A,original,reloading wiki,NA,63,28,480,426,1016,435
+3,A,original,reloading wiki,NA,60,27,479,434,1023,451
+3,A,vanilla,reloading wiki,NA,56,28,391,348,987,446
+3,A,vanilla,reloading wiki,NA,59,28,385,342,1029,458
+3,A,vanilla,reloading wiki,NA,58,28,392,350,1019,446
+3,A,vanilla,reloading wiki,NA,57,28,382,340,1013,456
+3,A,vanilla,reloading wiki,NA,56,27,392,350,1021,454
+3,A,original,reloading wiki,NA,74,29,460,339,1068,459
+3,A,original,reloading wiki,NA,60,30,415,356,959,430
+3,A,original,reloading wiki,NA,54,26,369,326,939,421
+3,A,original,reloading wiki,NA,58,28,360,320,1101,425
+3,A,original,reloading wiki,NA,72,28,479,435,997,438
+3,A,vanilla,open tiddler CommunityWikis,56,71,45,2377,856,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,47,35,2246,883,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,35,26,2113,814,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,62,38,2340,901,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,38,24,2275,853,NA,NA
+3,A,original,open tiddler CommunityWikis,56,60,35,2224,807,NA,NA
+3,A,original,open tiddler CommunityWikis,56,61,35,2317,819,NA,NA
+3,A,original,open tiddler CommunityWikis,56,31,21,1917,740,NA,NA
+3,A,original,open tiddler CommunityWikis,56,38,23,2181,748,NA,NA
+3,A,original,open tiddler CommunityWikis,56,31,23,1988,730,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,49,35,2507,921,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,31,23,2109,817,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,31,24,1948,828,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,38,25,2314,844,NA,NA
+3,A,vanilla,open tiddler CommunityWikis,56,32,24,1990,826,NA,NA
+3,A,original,open tiddler CommunityWikis,56,47,32,2259,794,NA,NA
+3,A,original,open tiddler CommunityWikis,56,56,31,2345,809,NA,NA
+3,A,original,open tiddler CommunityWikis,56,30,21,1966,726,NA,NA
+3,A,original,open tiddler CommunityWikis,56,29,22,1950,716,NA,NA
+3,A,original,open tiddler CommunityWikis,56,58,33,2270,819,NA,NA
+3,A,vanilla,search “widget”,488,28,22,1990,588,NA,NA
+3,A,vanilla,search “widget”,488,28,22,2007,585,NA,NA
+3,A,vanilla,search “widget”,488,36,23,2419,671,NA,NA
+3,A,vanilla,search “widget”,488,36,23,2436,726,NA,NA
+3,A,vanilla,search “widget”,488,30,23,2052,625,NA,NA
+3,A,original,search “widget”,488,34,19,2406,656,NA,NA
+3,A,original,search “widget”,488,33,19,2438,643,NA,NA
+3,A,original,search “widget”,488,27,19,2053,684,NA,NA
+3,A,original,search “widget”,488,25,19,1906,539,NA,NA
+3,A,original,search “widget”,488,42,23,2382,622,NA,NA
+3,A,vanilla,search “widget”,488,36,23,2380,668,NA,NA
+3,A,vanilla,search “widget”,488,36,23,2527,711,NA,NA
+3,A,vanilla,search “widget”,488,30,23,2190,651,NA,NA
+3,A,vanilla,search “widget”,488,29,22,1913,598,NA,NA
+3,A,vanilla,search “widget”,488,60,35,2502,739,NA,NA
+3,A,original,search “widget”,488,33,19,2548,680,NA,NA
+3,A,original,search “widget”,488,27,19,2300,615,NA,NA
+3,A,original,search “widget”,488,26,18,1969,541,NA,NA
+3,A,original,search “widget”,488,32,19,2381,639,NA,NA
+3,A,original,search “widget”,488,33,19,2400,629,NA,NA
