@@ -1,6 +1,6 @@
 title: $:/TiddlyMap/The editor menu
 created: 20150119190507345
-modified: 20150401212353462
+modified: 20151004135334488
 tmap.id: 2b517bc2-f857-42bb-b769-d22b9a2aa257
 type: text/vnd.tiddlywiki
 tags: TiddlyMap  Interface
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: The%20editor%20menu
 
 !! The editor's drop-down menu
 
-{{Selection_566.png}}
+{{editor_menu.png}}
 
 ; View selection
 : You can select an existing view to be displayed in the editor via the selectbox on the very left.

@@ -13,6 +13,11 @@ source-tiddler-title-as-link: Version%200.9.x
 Major enhancements
 ----------------------------
 
+### v0.9.10
+
+* Allowing the `tmap.fa-icon` field to hold different unicode
+  representations (e.g. `&#xf007;`, `&#xf007` or `f007`).
+
 ### v0.9.9
 
 * Improved the closing behaviour of dropdowns (focus button and
@@ -60,6 +65,15 @@ Major enhancements
 Important Bugfixes
 ----------------------------
 
+### v0.9.11
+
+* Fixes #174: Not all edges are displayed in live view and in the
+  TMap toolbar button.
+
+### v0.9.10
+
+* Fixed bug that select style was not assigned when dragging a node.
+
 ### v0.9.9
 
 * Adding node borders is now allowed and working.
@@ -77,7 +91,7 @@ Important Bugfixes
 ### v0.9.6
 
 * In v0.9.5 I introduced a very ugly node highlighting. Removed! :)
-* Fixes #174: Keylisteners of the clipboard feature swallow letters.
+* Fixes #172: Keylisteners of the clipboard feature swallow letters.
 * Fixed some visjs css
 
 ### v0.9.5

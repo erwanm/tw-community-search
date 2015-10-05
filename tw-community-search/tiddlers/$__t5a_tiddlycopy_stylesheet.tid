@@ -1,14 +1,23 @@
 title: $:/t5a/tiddlycopy/stylesheet
 created: 20151001024140828
 creator: Andrew Harrison
-modified: 20151003214834791
+modified: 20151005014359123
 modifier: Andrew Harrison
-tags: t5a  Stylesheet New [[Tiddly Copy]]
+tags: t5a 
 source-wiki-id: t5a
 source-tiddler-title-as-text: tiddlycopy/stylesheet
 source-tiddler-title-as-link: tiddlycopy%2fstylesheet
 
 ```
+/* TIDDLYVIEWER EXPAND AND ROUND CORNERS */
+html .tc-tiddly-viewer {
+    margin: -95px -43px -48px -43px;
+    width: calc(100% + 86px);
+    z-index: -2;
+    border-radius: 1em;
+}
+
+/* HOVER TIDDLER CONTROLS */
 html .tc-titlebar > .tc-tiddly-controls {
     position: absolute;
     right: 42px;
@@ -23,71 +32,16 @@ html .tc-titlebar > .tc-tiddly-controls {
     }
 }
 
-/* HOVER TIDDLER TITLE */
-/*html .tc-tiddly-title, .tc-tiddly-title-icon {
-    position: relative;
-    z-index: 0;
-}*/
-
-/*html .tc-tiddly-show {
-    position: absolute;
-    z-index:0;
-}*/
-
-/* TIDDLYVIEWER EXPAND AND ROUND CORNERS */
-html .tc-tiddly {
-    margin: -91px -43px -48px -43px;
-    width: calc(100% + 86px);
-    z-index: -2;
-    border-radius: 1em;
-    -moz-border-radius: 1em;
-    webkit-border-radius: 1em;
-}
-
-@media (max-width: 960px) {
-    html .tc-tiddly {
-    margin: -141px -15px -21px -15px;
-        width: calc(100% + 30px);
-        height: 60vh;
-    }
-}
-
 /* HOVER TIDDLER INFO */
-html .tc-tiddler-info {
+html .tc-tiddler-info-hide {
     position: absolute;
-    width: 100%; /*calc(100% - 86px);*/
+    width: 100%;
     z-index: 101;
 }
 
-@media (max-width: 959.5px) {
-html .tc-tiddler-info {
-    width: 100%;
-    }
-}
-
-/* HOVER TIDDLER CONTROLS */
-/*html .tc-titlebar > .tc-tiddler-controls {
+html .tc-tiddler-info-show {
     position: absolute;
-    right: 18px;
-    z-index: 1;
+    width: calc(100% + 86px);
+    z-index: 101;
 }
-
-@media (max-width: 959.5px) {
-    html .tc-titlebar > .tc-tiddly-controls {
-        position: absolute;
-        right: 15px;
-        z-index: 1;
-    }
-}*/
-
-/* HOVER TIDDLER TITLE */
-/*html .tc-tiddly-title, .tc-tiddly-title-icon {
-    position: relative;
-    z-index: 0;
-}
-
-html .tc-tiddly-show {
-    position: absolute;
-    z-index:0;
-}*/
 ```
