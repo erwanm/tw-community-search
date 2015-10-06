@@ -1,10 +1,14 @@
 title: $:/tb5/Developer
-caption: Developer
+caption: Dev
+created: 20151005065549213
+creator: Tobias Beer
 icon: $:/core/images/permalink-button
 menu: main
 menu-icon: {{$:/core/images/permalink-button}}
+modified: 20151005065549525
 revision: 0
 summary: tidbits for [[developing|http://tiddlywiki.com/dev]] in and for tw5
+type: text/vnd.tiddlywiki
 tags: tb5  Welcome
 source-wiki-id: tb5
 source-tiddler-title-as-text: Developer
