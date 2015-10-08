@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: JoeRenes
-modified: 20150218024332350
+modified: 20151007210950326
 name: TW5-TeXZilla
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/joerenes/TW5-TeXZilla
 release: 
 repository: 
 revision: 0.0.1

@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: Danielo Rodriguez
-modified: 20151002203624428
+modified: 20151007205214361
 name: 2click2edit
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/danielo515/2click2edit
 release: 
 repository: https://github.com/danielo515/TW5-2click2edit
 revision: 0.1

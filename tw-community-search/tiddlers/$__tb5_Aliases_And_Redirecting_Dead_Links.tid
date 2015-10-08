@@ -17,7 +17,7 @@ Sparked from [[this issue|https://github.com/Jermolene/TiddlyWiki5/issues/948#is
 You can simply drag these two to your wiki and start right away:
 
 * [[$:/config/Redirected]] — edit redirects here, see below
-* [[$:/template/redirected]]
+* [[$:/.tb/template/redirected]]
 
 !! Step 1 — define redirects
 
@@ -31,7 +31,7 @@ As explained before, you can create [[a conditional view-template section|Condit
 
 Here's one that displays a redirect message at the top of a tiddler...
 
-<<source [[$:/template/redirected]]>>
+<<source [[$:/.tb/template/redirected]]>>
 
 The template is displayed at the top of each indexed tiddler because...
 

@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: Tobias Beer
-modified: 20150210023826176
+modified: 20151007205536064
 name: Font Awesome (Tobias Beer)
-plugin_tiddler: http://tobibeer.github.io/tw/fa/#GettingStarted
+plugin_tiddler: $:/fonts/FontAwesome
 release: 
 repository: 
 revision: 
@@ -17,6 +17,6 @@ short_description: Lets you use icons from font awesome in your wiki (tobibeer v
 title: twCard - Plugin - Font Awesome (Tobias Beer)
 wiki: http://tobibeer.github.io/tw/fa/#GettingStarted
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

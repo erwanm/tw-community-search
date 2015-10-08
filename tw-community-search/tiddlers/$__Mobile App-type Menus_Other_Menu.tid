@@ -1,0 +1,12 @@
+title: $:/Mobile App-type Menus/Other Menu
+created: 20150420032023074
+list: [[Item 4 sub 1]] [[Item 2]]
+modified: 20150421005702698
+tags: Mobile App-type Menus  [[Menu Icon]]
+source-wiki-id: Mobile App-type Menus
+source-tiddler-title-as-text: Other Menu
+source-tiddler-title-as-link: Other%20Menu
+
+---
+
+<<MobileMenu "Top Level" "Other Test" Menu "This menu shows both the body and the subtitle" Subtitle Body>>

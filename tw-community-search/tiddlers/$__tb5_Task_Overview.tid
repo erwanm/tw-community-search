@@ -19,12 +19,12 @@ source-tiddler-title-as-link: Task%20Overview
 
 <br>
 
-{{$:/template/tasklist-tags}}
+{{$:/.tb/template/tasklist-tags}}
 
 <br><br>
 rendered by transcluding:
-<<source $:/template/tasklist-tags>>
+<<source $:/.tb/template/tasklist-tags>>
 
 also using these two templates for the table rows, which are needed to avoid state-collisions, i.e. same tag pills opening up at once...
 
-[[$:/template/tasklist-tags/open]] and here's a preview of <<source [[$:/template/tasklist-tags/closed]]>>
+[[$:/.tb/template/tasklist-tags/open]] and here's a preview of <<source [[$:/.tb/template/tasklist-tags/closed]]>>

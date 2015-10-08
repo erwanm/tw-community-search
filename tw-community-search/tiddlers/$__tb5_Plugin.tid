@@ -11,5 +11,5 @@ source-tiddler-title-as-link: Plugin
 filter:"[tag[Plugin]sort[title]]"
 search:search
 state:"$:/temp/tb/list-plugins"
-template:"$:/template/tagged-summary">>
+template:"$:/.tb/template/tagged-summary">>
 </$set>

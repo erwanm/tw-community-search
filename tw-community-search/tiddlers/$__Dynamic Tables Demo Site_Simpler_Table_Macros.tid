@@ -1,0 +1,20 @@
+title: $:/Dynamic Tables Demo Site/Simpler Table Macros
+created: 20150327041125202
+modified: 20150327055253724
+tags: Dynamic Tables Demo Site 
+source-wiki-id: Dynamic Tables Demo Site
+source-tiddler-title-as-text: Simpler Table Macros
+source-tiddler-title-as-link: Simpler%20Table%20Macros
+
+!Each column is a tiddler, rows are fields
+
+code: `<<ColumnTable '[tag[Column Data]]'>>`
+
+<<ColumnTable '[tag[Column Data]]'>>
+
+
+!Each row is a tiddler, columns are fields
+
+code: `<<RowTable '[tag[Column Data]]'>>`
+
+<<RowTable '[tag[Column Data]]'>>

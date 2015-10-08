@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: JoeRenes
-modified: 20150218024332350
+modified: 20151007210950326
 name: TW5-TeXZilla
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/joerenes/TW5-TeXZilla
 release: 
 repository: 
 revision: 0.0.1
@@ -17,6 +17,6 @@ short_description: A LaTeX plugin, more advanced than KaTeX
 title: twCard - Plugin - TW5-TeXZilla
 wiki: http://tw5-texzilla.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

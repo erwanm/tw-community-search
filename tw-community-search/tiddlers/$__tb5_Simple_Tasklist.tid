@@ -13,8 +13,8 @@ source-tiddler-title-as-link: Simple%20Tasklist
 
 Here is a simple tasklist:
 
-{{$:/template/tasklist-simple}}
+{{$:/.tb/template/tasklist-simple}}
 
 <br><br>
 Also see [[Tiddlers By Due Date]], the above lists were rendered by transcluding:
-<<source $:/template/tasklist-simple>>
+<<source $:/.tb/template/tasklist-simple>>

@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: neilgriffin
-modified: 20150930201931992
+modified: 20151007205329104
 name: action-chooserandom widget
-plugin_tiddler: 
+plugin_tiddler: $:/ng110/widgets/action-chooserandom.js
 release: 
 repository: 
 revision: 

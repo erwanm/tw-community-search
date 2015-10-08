@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: Andreas Hahn
-modified: 20151002204414478
+modified: 20151007205649734
 name: Tinka
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/ahahn/tinka
 release: 
 repository: 
 revision: 0.2.0

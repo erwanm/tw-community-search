@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: TonGerner
-modified: 20151002204128687
+modified: 20151007205417797
 name: Breadcrumbs
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/tongerner/breadcrumbs
 release: 
 repository: 
 revision: 0.0.7
@@ -17,6 +17,6 @@ short_description: Puts a list of open tiddlers at the top of the screen showing
 title: twCard - Plugin - Breadcrumbs
 wiki: http://tw5breadcrumbs.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

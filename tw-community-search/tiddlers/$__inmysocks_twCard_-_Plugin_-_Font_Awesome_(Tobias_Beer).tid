@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: Tobias Beer
-modified: 20150210023826176
+modified: 20151007205536064
 name: Font Awesome (Tobias Beer)
-plugin_tiddler: http://tobibeer.github.io/tw/fa/#GettingStarted
+plugin_tiddler: $:/fonts/FontAwesome
 release: 
 repository: 
 revision: 

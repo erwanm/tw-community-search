@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - tw5-checklist
+audience: 
+category: Widget
+created: 20150106175012859
+date: 
+homepage: http://grosinger.net/tw5-checklist/
+install_link: 
+language: 
+license: 
+maintainer: Tony Grosinger
+modified: 20151007205100742
+name: Checklist Widget
+plugin_tiddler: $:/plugins/tgrosinger/tw5-checklist
+release: 
+repository: https://github.com/tgrosinger/tw5-checklist
+revision: 0.0.3
+short_description: An easy to use checklist widget
+wiki: http://grosinger.net/tw5-checklist/
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - tw5-checklist
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20tw5-checklist
+

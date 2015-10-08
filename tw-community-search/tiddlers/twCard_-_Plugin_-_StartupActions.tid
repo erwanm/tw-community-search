@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: inmysocks
-modified: 20150225004337655
+modified: 20151007205613897
 name: StartupActions
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/inmysocks/StartupActions
 release: 
 repository: 
 revision: 0.0.8
@@ -17,6 +17,6 @@ short_description: Allows you to run startup scripts made of action widgets
 title: twCard - Plugin - StartupActions
 wiki: http://ooktech.com/jed/ExampleWikis/StartupActions/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

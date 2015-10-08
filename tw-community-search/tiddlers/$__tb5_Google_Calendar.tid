@@ -23,19 +23,19 @@ To embed your google calendar in tw5...
 
 !!Example
 
-{{$:/template/sidebar-calendar}}
+{{$:/.tb/template/sidebar-calendar}}
 
-via <<source $:/template/sidebar-calendar>>
+via <<source $:/.tb/template/sidebar-calendar>>
 
 !!Sidebar Calendar
-To display [[your calendar|$:/template/sidebar-calendar]] in the sidebar...
+To display [[your calendar|$:/.tb/template/sidebar-calendar]] in the sidebar...
 
 # tag it [[$:/tags/SideBar]]
 # give it a `caption` field to display an alternative tab title, e.g. ''Calendar''
 # define the field `list-before` to display it before any other tab
 #* ''list-before'': [[$:/core/ui/SideBar/More]]
 
-''Tip:'' Go and try tagging [[this calendar|$:/template/sidebar-calendar]] with [[$:/tags/SideBar]]!
+''Tip:'' Go and try tagging [[this calendar|$:/.tb/template/sidebar-calendar]] with [[$:/tags/SideBar]]!
 
 !! Full Page Calendar
 

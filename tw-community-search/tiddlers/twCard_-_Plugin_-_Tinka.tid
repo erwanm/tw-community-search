@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: Andreas Hahn
-modified: 20151002204414478
+modified: 20151007205649734
 name: Tinka
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/ahahn/tinka
 release: 
 repository: 
 revision: 0.2.0
@@ -17,6 +17,10 @@ short_description: A plugin that gives a simple way to create plugins.
 title: twCard - Plugin - Tinka
 wiki: http://twguides.org/wiki/tinka.html
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-wiki-id: Tinka
+twcs-extracted-plugin-tiddler: $:/Tinka/$:/plugins/ahahn/tinka
+twcs-description: Tinka - an easy plugin packer
+twcs-author: Andreas Hahn
+twcs-version: 0.2.0-beta
 
 {{||$:/CommunityPluginTemplate}}

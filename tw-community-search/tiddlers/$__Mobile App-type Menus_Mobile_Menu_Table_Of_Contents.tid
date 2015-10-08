@@ -1,0 +1,65 @@
+title: $:/Mobile App-type Menus/Mobile Menu Table Of Contents
+created: 20150418055241367
+modified: 20150420032734801
+tags: Mobile App-type Menus 
+source-wiki-id: Mobile App-type Menus
+source-tiddler-title-as-text: Mobile Menu Table Of Contents
+source-tiddler-title-as-link: Mobile%20Menu%20Table%20Of%20Contents
+
+\define inmysocksMobileMenusTOCMakeState(MenuName)
+$:/state/Menu/$MenuName$/$(CurrentTiddler)$
+\end
+
+\define inmysocksMobileMenusTOCMakeParentState(MenuName)
+$:/state/Menu/$MenuName$/$(ParentTiddler)$
+\end
+
+\define inmysocksMobileMenusTOCEmptyMessage(MenuName)
+<$button class='tc-btn-invisible'>{{$:/core/images/chevron-left}}<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=''/></$button><$link to={{$:/state/Menu/$MenuName$/current}}>''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler='$:/state/Menu/$MenuName$/current' field=text/></$view>''</$link>
+\end
+
+\define inmysocksMobileMenusTOCEmptyMessage2(MenuName)
+<$list filter='[tag<CurrentTiddler>]'>
+<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusTOCMakeState """$MenuName$""">> setTo=<<currentTiddler>>>{{$:/core/images/right-arrow}}<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/></$button><$link to=<<currentTiddler>>><$view tiddler=<<currentTiddler>> field='caption'><$view tiddler=<<currentTiddler>> field='title'/></$view></$link><br>
+</$list>
+\end
+
+\define inmysocksMobileMenusTOCTemplate(MenuName)
+<$set name=CurrentTiddler value={{$:/state/Menu/$MenuName$/current}}>
+<$list filter='[text<CurrentTiddler>removeprefix[$:/state/Menu/$MenuName$/]]-[[current]]+[limit[1]]' variable=ParentTiddler emptyMessage=<<inmysocksMobileMenusTOCEmptyMessage2 """$MenuName$""">>>
+
+<$list filter='[tag<CurrentTiddler>]' variable=ThisTiddler2>
+<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusTOCMakeState """$MenuName$""">> setTo=<<ThisTiddler2>>>{{$:/core/images/right-arrow}}<$tiddler tiddler=<<ThisTiddler2>>><$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/></$tiddler></$button><$link to=<<ThisTiddler2>>><$view tiddler=<<ThisTiddler2>> field='caption'><$view tiddler=<<ThisTiddler2>> field='title'/></$view></$link><br>
+</$list>
+
+</$list>
+</$set>
+\end
+
+\define MakeTOCMenu(RootTag:"RootTag" MenuName:Menu)
+<$reveal type='match' state='$:/state/Menu/$MenuName$/current' text=''>
+
+<$list filter='[tag[$RootTag$]]'>
+<$button class='tc-btn-invisible' set='$:/state/Menu/$MenuName$/current' setTo={{!!title}}>{{$:/core/images/right-arrow}}<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/></$button><$link><$view field='caption'><$view field='title'/></$view></$link><br>
+</$list>
+
+</$reveal>
+
+<$reveal type='nomatch' state='$:/state/Menu/$MenuName$/current' text=''>
+
+<$list filter='[is[system]prefix[$:/state/Menu/$MenuName$/]has[text]]-[[$:/state/Menu/$MenuName$/current]]+[limit[1]]' emptyMessage=<<inmysocksMobileMenusTOCEmptyMessage """$MenuName$""">>>
+'' ''
+</$list>
+
+<$list filter='[text{$:/state/Menu/$MenuName$/current}removeprefix[$:/state/Menu/$MenuName$/]]-[[current]]+[limit[1]]' variable=ParentTiddler>
+
+<$button class='tc-btn-invisible'>{{$:/core/images/chevron-left}}<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ParentTiddler>>/><$action-setfield $tiddler=<<inmysocksMobileMenusTOCMakeParentState """$MenuName$""">> $value=''/></$button><$link to={{$:/state/Menu/$MenuName$/current}}>''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler='$:/state/Menu/$MenuName$/current' field=text/></$view>''</$link>
+
+</$list>
+
+<$list filter='[tag{$:/state/Menu/$MenuName$/current}limit[1]]' variable=ThisTiddler>
+<<inmysocksMobileMenusTOCTemplate """$MenuName$""">>
+</$list>
+
+</$reveal>
+\end

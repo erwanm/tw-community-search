@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: inmysocks
-modified: 20150225004150502
+modified: 20151007205717622
 name: TriggerActions
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/inmysocks/TriggerActions
 release: 
 repository: 
 revision: 0.0.8

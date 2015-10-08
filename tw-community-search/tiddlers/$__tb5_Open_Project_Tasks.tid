@@ -19,4 +19,4 @@ Open the project [[GTD]] and take a look at the ''Open Project Tasks'' section a
 !!The Solution
 This solution was implemented as explained in [[Conditional ViewTemplate Section]] using the following conditional template:
 
- <<source $:/template/gtd-project-tasks>>
+ <<source $:/.tb/template/gtd-project-tasks>>

@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: TonGerner
-modified: 20151002204128687
+modified: 20151007205417797
 name: Breadcrumbs
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/tongerner/breadcrumbs
 release: 
 repository: 
 revision: 0.0.7

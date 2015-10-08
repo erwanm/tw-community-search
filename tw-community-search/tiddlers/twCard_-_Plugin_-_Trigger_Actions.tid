@@ -7,9 +7,9 @@ install_link:
 language: 
 license: 
 maintainer: inmysocks
-modified: 20150225004150502
+modified: 20151007205717622
 name: TriggerActions
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/inmysocks/TriggerActions
 release: 
 repository: 
 revision: 0.0.8
@@ -17,6 +17,6 @@ short_description: A plugin that allows you to trigger a set of actions when tid
 title: twCard - Plugin - Trigger Actions
 wiki: http://ooktech.com/jed/ExampleWikis/TriggerActions/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 1: invalid/missing value for field 'plugin_tiddler'
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

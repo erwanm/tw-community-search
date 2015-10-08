@@ -15,21 +15,21 @@ As [[Stephan Hradek]] pointed out [[here|https://groups.google.com/d/msg/tiddlyw
 ```
 <$set name="var1" value="val1">
 <$set name="var2" value=<<currentTiddler>>>
-{{foo||$:/template/example-variables}}
+{{foo||$:/.tb/demo/template/example-variables}}
 </$set>
 </$set>
 ```
 
 The variables `var1` and `var2` are now accessible in the ''template'' via `<<val1>>` and whatever the name of the tiddler embedding the set widget.
 
-The above markup along with <<source $:/template/example-variables>>
+The above markup along with <<source $:/.tb/demo/template/example-variables>>
 
 renders as:
 
 <blockquote>
 <$set name="var1" value="val1">
 <$set name="var2" value=<<currentTiddler>> >
-{{foo||$:/template/example-variables}}
+{{foo||$:/.tb/demo/template/example-variables}}
 </$set>
 </$set>
 </blockquote>

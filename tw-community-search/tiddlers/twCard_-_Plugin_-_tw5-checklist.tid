@@ -1,0 +1,22 @@
+audience: 
+category: Widget
+created: 20150106175012859
+date: 
+homepage: http://grosinger.net/tw5-checklist/
+install_link: 
+language: 
+license: 
+maintainer: Tony Grosinger
+modified: 20151007205100742
+name: Checklist Widget
+plugin_tiddler: $:/plugins/tgrosinger/tw5-checklist
+release: 
+repository: https://github.com/tgrosinger/tw5-checklist
+revision: 0.0.3
+short_description: An easy to use checklist widget
+title: twCard - Plugin - tw5-checklist
+wiki: http://grosinger.net/tw5-checklist/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+
+{{||$:/CommunityPluginTemplate}}

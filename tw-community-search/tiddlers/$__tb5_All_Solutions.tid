@@ -14,7 +14,7 @@ source-tiddler-title-as-link: All%20Solutions
 "[tag[Solutions]!sort[created]]"
 search
 "$:/temp/tb/solutions"
-"$:/template/tagged-timeline"
+"$:/.tb/template/tagged-timeline"
 "Filter solutions...">><style>
 .solutions input {
 display:none;

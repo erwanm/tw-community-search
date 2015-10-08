@@ -8,9 +8,9 @@ install_link:
 language: 
 license: 
 maintainer: inmysocks
-modified: 20150225004337655
+modified: 20151007205613897
 name: StartupActions
-plugin_tiddler: 
+plugin_tiddler: $:/plugins/inmysocks/StartupActions
 release: 
 repository: 
 revision: 0.0.8
