@@ -1,13 +1,15 @@
 title: $:/tb5/Hiding The Sidebar On Startup
 created: 20151007170453626
-modified: 20151007201823423
-revision: 5
+creator: Tobias Beer
+modified: 20151007171131766
+revision: 0
+type: text/vnd.tiddlywiki
 tags: tb5  Solutions Presentation Sidebar
 source-wiki-id: tb5
 source-tiddler-title-as-text: Hiding The Sidebar On Startup
 source-tiddler-title-as-link: Hiding%20The%20Sidebar%20On%20Startup
 
-In [[this discussion|https://groups.google.com/d/msg/tiddlywiki/dQbt-JFdRR8/P0zR0njIAQAJ]], Evan asks how to hide the sidebar on startup. Motivated by just having helped out ~FrD over [[setting some fields at startup|https://groups.google.com/d/msg/tiddlywiki/l8fhn6EJB88/2KwbNbSrDAAJ]] a few minutes earlier, I realized that this can quickly be achieved via a javascript module of type startup.
+In [[this discussion|https://groups.google.com/d/msg/tiddlywiki/dQbt-JFdRR8/P0zR0njIAQAJ]], Evan asks how to hide the sidebar on startup. Motivated by just having helped out FrD over [[setting some fields at startup|https://groups.google.com/d/msg/tiddlywiki/l8fhn6EJB88/2KwbNbSrDAAJ]] a few minutes earlier, I realized that this can quickly be achieved via a javascript module of type startup.
 
 !!Installation
 

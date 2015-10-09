@@ -14,4 +14,4 @@ To create a basic javascript macro take a look at the example below, most import
 
 `<<examplemacro "foo bar">>` renders as: <<examplemacro "foo bar">>
 
-<<source $:/macros/example.js>>
+<<source $:/.tb/demo/example.js>>
