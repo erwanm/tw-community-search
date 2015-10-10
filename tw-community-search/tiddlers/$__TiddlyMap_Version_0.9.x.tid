@@ -13,6 +13,11 @@ source-tiddler-title-as-link: Version%200.9.x
 Major enhancements
 ----------------------------
 
+### v0.9.14
+
+* Resolves #179: Add an option to render widget in plain design feature
+* Resolves #178: Enhance export image dialog.
+
 ### v0.9.13
 
 * Now allowing the user to change the central gravity and damping
