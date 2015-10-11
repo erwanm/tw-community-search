@@ -1,9 +1,9 @@
 color: #db4a9a
 created: 20150819150957964
-licence: 
-modified: 20150819151008069
+licence: email
+modified: 20151011133751089
 tags: CommunityAuthors
-title: rboue
+title: RenéBoué
 type: text/vnd.tiddlywiki
 
 {{||$:/CommunityWikiAuthorTemplate}}
