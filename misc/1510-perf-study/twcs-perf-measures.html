@@ -5876,7 +5876,7 @@ Error message and password prompt
 <div modified="20151002175707507" title="$:/state/sidebar">
 <pre>no</pre>
 </div>
-<div list="GettingStarted Results Setup" title="$:/StoryList">
+<div list="GettingStarted Setup" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -5998,7 +5998,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20151002175451062" modified="20151003125357602" title="GettingStarted">
+<div created="20151002175451062" modified="20151003150334707" title="GettingStarted">
 <pre>In this wiki I will try to report about various aspects of TW performance, using the [[CommunitySearch|http://erwanm.github.io/tw-community-search/]] wiki. This is carried out in the perspective of issue https://github.com/erwanm/tw-community-search/issues/9.
 
 Measures were done on October the 2nd, on the full ~CommunitySearch wiki which includes:
@@ -6009,7 +6009,8 @@ Measures were done on October the 2nd, on the full ~CommunitySearch wiki which i
 *    120 plugins
 *    from 21 wiki authors
 
-The exact wiki used in these experiments can be found on Github: https://github.com/erwanm/tw-community-search/tree/067adf510d6563ece1500ad20c49c47024540385
+The wikis and data used in these experiments can be found on Github: 
+https://github.com/erwanm/tw-community-search/tree/master/misc/1510-perf-study
 
 * [[Setup]]
 * [[Results]]
@@ -6056,7 +6057,7 @@ The exact wiki used in these experiments can be found on Github: https://github.
 |~| 16| 14| 3129| 205|
 |~| 13| 9| 3497| 233|</pre>
 </div>
-<div created="20151002180250053" modified="20151003122608245" title="Setup">
+<div created="20151002180250053" modified="20151004145717852" title="Setup">
 <pre>Using the following instructions to perform the measurements:
 
 # edit $:/core/modules/startup.js and set true instead of false in the line var ``PERFORMANCE_INSTRUMENTATION = false;``
@@ -6081,10 +6082,12 @@ This is from https://groups.google.com/d/msg/Tiddlywiki/-AdwCjE0wgI/3ZyozEB1BAAJ
 !! Remarks
 
 * taking several measures to account for the variance.
-* closing all tiddlers except GettingStarted before measuring, to the extent that's possible (don't sure that matters much though).
+* closing all tiddlers except GettingStarted before measuring, to the extent that's possible (searching is done from the GettingStarted box).
 * for measuring search time, the search term is copy-pasted so that it is counted as a single operation (i.e. to avoid multiple key strokes temporary results).
-* ''IMPORTANT'': it turns out that even under the same (or a very similar) environment, series of measures made at different times can show huge differences. This is probably due to hardly controllable parameters, e.g. whether the computer has been swiched on for a long time, memory load, heat... As a consequence, only results obtained from the series of measures are really comparable.
-* reloading wiki = browser refresh. Additional &quot;mainRender&quot; column is apparently the important value here, I assume that the others correspond only to rendering GettingStarted.</pre>
+* ''IMPORTANT'': it turns out that even under the same (or a very similar) environment, series of measures made at different times can show huge differences. This is probably due to hardly controllable parameters, e.g. whether the computer has been swiched on for a long time, memory load, caching... As a consequence, only results obtained from the same series of measures are really comparable.
+** Apparently even within a series of measures there are variations which bias the values. Now trying to do comparisons by pairs, 5 by 5 sub-series.
+* reloading wiki = browser refresh. Additional &quot;mainRender&quot; column is apparently the important value here, I assume that the others correspond only to rendering GettingStarted.
+* Error in series 2: didn't check if there was a term in the search box (and whether it was the same) when measuring &quot;reloading wiki&quot;</pre>
 </div>
 
 </div>
