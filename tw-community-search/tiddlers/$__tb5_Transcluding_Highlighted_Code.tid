@@ -1,0 +1,16 @@
+title: $:/tb5/Transcluding Highlighted Code
+created: 20151010153220557
+creator: Tobias Beer
+modified: 20151010153857544
+modifier: Tobias Beer
+revision: 0
+summary: using the codeblock widget right
+type: text/vnd.tiddlywiki
+tags: tb5  Code Solutions Presentation Transclusion
+source-wiki-id: tb5
+source-tiddler-title-as-text: Transcluding Highlighted Code
+source-tiddler-title-as-link: Transcluding%20Highlighted%20Code
+
+To transclude a tiddler as code with syntax highlighting, install [[Highlight Plugin|http://tiddlywiki.com/plugins/tiddlywiki/highlight/]] and then use the ''codeblock'' widget specifying the language used to highlight your code...
+
+<<` """<$codeblock language=“javascript” code={{$:/.tb/demo/example.js}}/>""">>

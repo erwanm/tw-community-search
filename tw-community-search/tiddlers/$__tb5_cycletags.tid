@@ -2,7 +2,7 @@ title: $:/tb5/cycletags
 created: 20151008073052220
 creator: Tobias Beer
 modified: 20151008200438271
-revision: 34
+revision: 0
 summary: {{$:/.tb/modules/macros/cycletags.js!!summary}}
 type: text/vnd.tiddlywiki
 tags: tb5 
