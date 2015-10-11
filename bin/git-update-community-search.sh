@@ -56,7 +56,7 @@ mv news-static/static.html news-static/index.html
 
 echo "step 9: committing and pushing changes"
 git add index.html
-git add news-static/*
+git add -A news-static
 git commit -m "automatic update"
 git push
 
