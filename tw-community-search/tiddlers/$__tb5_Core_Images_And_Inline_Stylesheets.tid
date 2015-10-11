@@ -20,7 +20,7 @@ Here it's used to render all svg icon images that ship with the core tagged {{$:
 <<`
 '<style>.my-gallery svg {width:3em; height:3em; margin:7px;}</style>
 <div class="thumbs">
-<$list filter="[all[tiddlers+shadows]tag[$:/tags/Image]]">
+<$list filter="[all[tiddlers+shadows]tag[$:/tags/Image]prefix[$:/core]]">
 <$link><$transclude/></$link>
 </$list>
 </div>'>>

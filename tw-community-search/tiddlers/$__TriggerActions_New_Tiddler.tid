@@ -1,0 +1,11 @@
+title: $:/TriggerActions/New Tiddler
+created: 20150223005603591
+modified: 20150223005614061
+tags: TriggerActions 
+source-wiki-id: TriggerActions
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+\define thisThing()
+Yay!
+\end

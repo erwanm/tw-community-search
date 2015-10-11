@@ -1,0 +1,10 @@
+title: $:/TiddlerTools/addprefix Operator (Examples)
+created: 20150118132851000
+modified: 20150118183116000
+type: text/vnd.tiddlywiki
+tags: TiddlerTools  [[addprefix Operator]] [[Operator Examples]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: addprefix Operator (Examples)
+source-tiddler-title-as-link: addprefix%20Operator%20%28Examples%29
+
+<<.operator-example 1 "Cat Garden [[Favourite Armchair]] +[addprefix[My ]]">>

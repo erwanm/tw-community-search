@@ -17,6 +17,10 @@ short_description: A plugin that allows you to trigger a set of actions when tid
 title: twCard - Plugin - Trigger Actions
 wiki: http://ooktech.com/jed/ExampleWikis/TriggerActions/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: TriggerActions
+twcs-extracted-plugin-tiddler: $:/TriggerActions/$:/plugins/inmysocks/TriggerActions
+twcs-description: A daemon that will trigger actions widgets when a tiddler changes
+twcs-author: inmysocks
+twcs-version: 0.0.8
 
 {{||$:/CommunityPluginTemplate}}

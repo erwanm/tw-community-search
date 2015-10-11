@@ -1,0 +1,22 @@
+title: $:/TiddlerTools/Formatting in WikiText
+caption: Formatting
+created: 20131205155959399
+modified: 20131230120942930
+type: text/vnd.tiddlywiki
+tags: TiddlerTools  WikiText
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Formatting in WikiText
+source-tiddler-title-as-link: Formatting%20in%20WikiText
+
+Available character formatting includes:
+
+* <code>&#96;backticks&#96;</code> for `code`
+** Alternatively, <code>&#96;&#96;double backticks allows &#96;embedded&#96; backticks&#96;&#96;</code>
+* `''bold''` for ''bold text''
+* `//italic//` for //italic text//
+* `__underscore__` for __underscored text__
+* `^^superscript^^` for ^^superscript^^ text
+* `,,subscript,,` for ,,subscripted,, text
+* `~~strikethrough~~` for ~~strikethrough~~ text
+
+See also: [[Code Blocks in WikiText]]

@@ -17,6 +17,10 @@ short_description: Some extra filter operators
 title: twCard - Plugin - extrafilters
 wiki: http://ooktech.com/jed/ExampleWikis/ExtraFilterOperators
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: ExtraFiltersOperators
+twcs-extracted-plugin-tiddler: $:/ExtraFiltersOperators/$:/plugins/inmysocks/extrafilters
+twcs-description: Some extra filters for TiddlyWiki
+twcs-author: inmysocks
+twcs-version: 0.0.1
 
 {{||$:/CommunityPluginTemplate}}

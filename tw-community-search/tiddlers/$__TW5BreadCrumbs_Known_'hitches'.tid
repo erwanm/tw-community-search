@@ -1,0 +1,35 @@
+title: $:/TW5BreadCrumbs/Known 'hitches'
+created: 20140225125952361
+creator: TonGerner
+modified: 20150709124422682
+modifier: TonGerner
+tags: TW5BreadCrumbs  documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Known 'hitches'
+source-tiddler-title-as-link: Known%20%27hitches%27
+
+@@.sliderBG
+
+<div>
+
+The appearance of styled breadcrumbs is not perfect.<br>
+There is a difference in height of breadcrumb and 'x'-part dependent on theme and browser used.<br>
+It looks quite good when using my 'Bluish' theme and Firefox but changing theme and/or browser (e.g. Chrome) gives differences in height of breadcrumb and 'x'-part.
+
+So the styles have to be optimized for the preferred theme/browser combination; default styles ($:/plugins/tongerner/breadcrumbs/styles):
+
+```
+.tc-breadcrumbs a.tc-tiddlylink {
+     padding: 1px 5px 3px 5px;
+}
+
+.tc-btn-top {
+     padding: 1px 5px 3px 0px;
+}
+```
+
+---
+
+</div>
+
+@@

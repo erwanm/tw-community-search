@@ -1,0 +1,17 @@
+title: $:/TiddlerTools/tv-config-toolbar-class Variable
+caption: tv-config-toolbar-class
+created: 20150228134732000
+modified: 20150228135803000
+type: text/vnd.tiddlywiki
+tags: TiddlerTools  Variables [[Core Variables]] [[Configuration Variables]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: tv-config-toolbar-class Variable
+source-tiddler-title-as-link: tv-config-toolbar-class%20Variable
+
+The <<.def tv-config-toolbar-class>> [[variable|Variables]] controls the value of the [[CSS|Cascading Style Sheets]] `class` attribute on the HTML element for a toolbar button.
+
+It can be set prior to transcluding such a button.
+
+In most environments, it defaults to <<.value tc-btn-invisible>>, which removes the button's background colour and border.
+
+<<.variable-examples "tv-config-toolbar-class">>

@@ -1,0 +1,10 @@
+title: $:/TiddlerTools/Base64
+created: 20150221180826000
+modified: 20150221181700000
+type: text/vnd.tiddlywiki
+tags: TiddlerTools  Definitions
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Base64
+source-tiddler-title-as-link: Base64
+
+<<.dlink-ex Base64 "http://en.wikipedia.org/wiki/Base64">> is a way of representing binary data, such an image, as a string of text.

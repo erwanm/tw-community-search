@@ -1,0 +1,8 @@
+title: Unknown plugin '$:/plugins/inmysocks/TiddlerTool'
+name: unknown
+created: 20151011182404000
+plugin_tiddler: $:/plugins/inmysocks/TiddlerTool
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

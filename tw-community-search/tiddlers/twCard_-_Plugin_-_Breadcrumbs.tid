@@ -17,6 +17,10 @@ short_description: Puts a list of open tiddlers at the top of the screen showing
 title: twCard - Plugin - Breadcrumbs
 wiki: http://tw5breadcrumbs.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: TW5BreadCrumbs
+twcs-extracted-plugin-tiddler: $:/TW5BreadCrumbs/$:/plugins/tongerner/breadcrumbs
+twcs-description: Creates breadcrumbs of open tiddlers
+twcs-author: TonGerner
+twcs-version: 0.0.7
 
 {{||$:/CommunityPluginTemplate}}

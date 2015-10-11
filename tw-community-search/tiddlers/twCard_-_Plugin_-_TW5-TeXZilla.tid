@@ -17,6 +17,10 @@ short_description: A LaTeX plugin, more advanced than KaTeX
 title: twCard - Plugin - TW5-TeXZilla
 wiki: http://tw5-texzilla.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: TW5Texzilla
+twcs-extracted-plugin-tiddler: $:/TW5Texzilla/$:/plugins/joerenes/TW5-TeXZilla
+twcs-description: Mathematics typesetting plugin wrapping TeXZilla, a LaTeX to MathML parser
+twcs-author: JoeRenes
+twcs-version: 0.0.1
 
 {{||$:/CommunityPluginTemplate}}

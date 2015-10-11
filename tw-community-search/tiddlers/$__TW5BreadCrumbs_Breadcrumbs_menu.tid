@@ -1,0 +1,21 @@
+title: $:/TW5BreadCrumbs/Breadcrumbs_menu
+created: 20140630093638109
+creator: TonGerner
+limit: 4
+modified: 20140905173906367
+modifier: TonGerner
+tags: TW5BreadCrumbs 
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Breadcrumbs_menu
+source-tiddler-title-as-link: Breadcrumbs_menu
+
+\define myfilter()
+[list[$:/StoryList]limit[&fieldparam$]]
+\end
+
+<div class="tc-breadcrumbs">
+<$set name="fieldparam" value={{!!limit}}>
+<$list filter=<<myfilter>>>
+<$set>
+</$link><$button message="tc-close-tiddler" class="tc-btn-invisible btn-top">&times;</$button></$list></div>
+

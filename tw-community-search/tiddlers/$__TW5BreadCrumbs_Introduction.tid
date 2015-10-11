@@ -1,0 +1,35 @@
+title: $:/TW5BreadCrumbs/Introduction
+created: 20140121171138645
+creator: TonGerner
+modified: 20150709160526152
+modifier: TonGerner
+tags: TW5BreadCrumbs  documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+@@.BROWN Introduction@@
+
+<<<
+''Note:''
+
+* @@.BLUE Available as a plugin (v<<pversion "breadcrumbs">>).<br>Just drag & drop [[$:/plugins/tongerner/breadcrumbs]] to your wiki to add the breadcrumbs plugin@@
+* @@.BLUE The breadcrumbs work best in zoomin mode.@@
+<<<
+
+This guide describes how <<slider "breadcrumbs »" "{{Breadcrumbs info}}">> can be added.
+
+The breadcrumbs can be toggled ''on/off'' with the {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} button (in Page Toolbar or View Toolbar).
+
+To see the breadcrumbs in action in this demo, open a few tiddlers (Sidebar, tab 'Recent').<br>After that you can go to opened tiddlers by clicking a breadcrumb and/or close them by clicking the 'x' at the right of the breadcrumb (the same functionality as in the Sidebar, tab 'Open').
+
+This guide describes how the breadcrumbs menu is made (code and styles involved).
+
+<<<
+''Note:''
+
+* This TW uses:
+** My Searchtab plugin which changes 'Search' from above the tabs to a tab and adds a 'System tags' tab below the 'Tags' tab
+** My Bluish theme (see <<slider "Known 'hitches' »" "{{Known 'hitches'}}">>).
+<<<
+

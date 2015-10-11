@@ -1,0 +1,16 @@
+title: $:/TiddlerTools/Translate TiddlyWiki into your language
+created: 20141126153016142
+modified: 20141126153016142
+type: text/vnd.tiddlywiki
+tags: TiddlerTools  Community
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Translate TiddlyWiki into your language
+source-tiddler-title-as-link: Translate%20TiddlyWiki%20into%20your%20language
+
+There is a special edition of TiddlyWiki that simplifies creating and maintaining translations:
+
+http://tiddlywiki.com/editions/translators/
+
+Note that no knowledge of Node.js or GitHub is required.
+
+See http://tiddlywiki.com/dev for technical details of creating and maintaining translations.
