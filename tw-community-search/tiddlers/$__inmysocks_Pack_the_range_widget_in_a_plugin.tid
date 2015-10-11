@@ -1,0 +1,20 @@
+title: $:/inmysocks/Pack the range widget in a plugin
+category: Plugin
+created_day: 11
+created_month: 10
+created_year: 2015
+description: It is currently just the widget
+due_day: 
+due_month: 
+due_year: 
+modified: 20151011184545534
+start_day: 
+start_month: 
+start_year: 
+subcategory: Range Widget
+tags: inmysocks  [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Pack the range widget in a plugin
+source-tiddler-title-as-link: Pack%20the%20range%20widget%20in%20a%20plugin
+
+Making it a plugin makes things easier for people using it and upgrading it.

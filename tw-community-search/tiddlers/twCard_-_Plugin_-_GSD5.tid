@@ -7,16 +7,20 @@ install_link:
 language: 
 license: 
 maintainer: RomaHicks
-modified: 20150210034116670
+modified: 20151011184148340
 name: GSD5
 plugin_tiddler: $:/plugins/gsd5/core
 release: 
 repository: 
-revision: 
+revision: 0.6
 short_description: TiddlyWiki5 Getting Stuff Done plugin
 title: twCard - Plugin - GSD5
-wiki: https://drive.google.com/uc?export=download&id=0Bydfk9tNRJHBc3FvclFBMzRreTQ
+wiki: http://gsd5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: GSD5
+twcs-extracted-plugin-tiddler: $:/GSD5/$:/plugins/gsd5/core
+twcs-description: TiddlyWiki5 Getting Stuff Done plugin
+twcs-author: Roma Hicks
+twcs-version: 0.6.0-beta
 
 {{||$:/CommunityPluginTemplate}}

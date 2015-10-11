@@ -17,6 +17,10 @@ short_description: Allows you to run startup scripts made of action widgets
 title: twCard - Plugin - StartupActions
 wiki: http://ooktech.com/jed/ExampleWikis/StartupActions/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: StartupActions
+twcs-extracted-plugin-tiddler: $:/StartupActions/$:/plugins/inmysocks/StartupActions
+twcs-description: A daemon that will trigger actions when the wiki is opened or reloaded.
+twcs-author: inmysocks
+twcs-version: 0.0.7
 
 {{||$:/CommunityPluginTemplate}}
