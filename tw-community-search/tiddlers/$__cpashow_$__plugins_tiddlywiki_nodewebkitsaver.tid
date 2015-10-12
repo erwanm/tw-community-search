@@ -1,11 +1,12 @@
-title: $:/TW5Square/$:/plugins/tiddlywiki/nodewebkitsaver
+title: $:/cpashow/$:/plugins/tiddlywiki/nodewebkitsaver
 author: JeremyRuston
 core-version: >=5.0.0
 dependents: 
-description: Native saving for node-webkit
-version: 5.1.7
-tags: TW5Square 
-source-wiki-id: TW5Square
+description: NW.js saver
+list: readme
+version: 5.1.8
+tags: cpashow 
+source-wiki-id: cpashow
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/nodewebkitsaver
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fnodewebkitsaver
 extracted-plugin: true

@@ -8,14 +8,14 @@ install_link:
 language: 
 license: 
 maintainer: felixhayashi
-modified: 20150210033036002
+modified: 20151011215921918
 name: TW5-Vis.js
 plugin_tiddler: $:/plugins/felixhayashi/vis
 release: 
 repository: 
-revision: 3.8.1-SNAPSHOT
+revision: 4.9.0
 short_description: A tiddlywiki plugin for the vis.js library.
-wiki: http://felixhayashi.github.io/TW5-TiddlyMap/index.html
+wiki: http://tiddlymap.org/
 tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - TW5-Vis.js

@@ -1,0 +1,15 @@
+title: $:/gWiZ/$:/plugins/matabele/extended-button-widgets
+author: matabele
+core-version: >5.1.8
+created: 20151009194033542
+description: Extended button widgets
+modified: 20151011135634871
+revision: 0
+version: 0.0.3
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: $:/plugins/matabele/extended-button-widgets
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fextended-button-widgets
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

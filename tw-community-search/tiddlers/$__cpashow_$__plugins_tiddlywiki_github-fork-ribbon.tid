@@ -1,11 +1,11 @@
-title: $:/TW5Square/$:/plugins/tiddlywiki/github-fork-ribbon
+title: $:/cpashow/$:/plugins/tiddlywiki/github-fork-ribbon
 author: Simon Whitaker, adapted for TiddlyWiki by JeremyRuston
 dependents: 
-description: GitHub-style ribbon in pure CSS
-list: readme
-version: 5.1.7
-tags: TW5Square 
-source-wiki-id: TW5Square
+description: Corner ribbon
+list: readme usage
+version: 5.1.8
+tags: cpashow 
+source-wiki-id: cpashow
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/github-fork-ribbon
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgithub-fork-ribbon
 extracted-plugin: true
