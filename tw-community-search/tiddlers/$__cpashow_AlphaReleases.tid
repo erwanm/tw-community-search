@@ -1,0 +1,12 @@
+title: $:/cpashow/AlphaReleases
+created: 20131109105400007
+modified: 20140701201607494
+type: text/vnd.tiddlywiki
+tags: cpashow  Releases
+source-wiki-id: cpashow
+source-tiddler-title-as-text: AlphaReleases
+source-tiddler-title-as-link: AlphaReleases
+
+Here are the details of the alpha releases of TiddlyWiki5. See [[TiddlyWiki5 Versioning]] for details of how releases are named.
+
+<<tabs "[tag[AlphaReleaseNotes]!sort[created]]" "Release 5.0.1-alpha" "$:/state/tab2" "tc-vertical" "ReleaseTemplate">>

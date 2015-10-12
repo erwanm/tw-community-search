@@ -1,0 +1,11 @@
+title: $:/cpashow/HelpCommand
+caption: help
+created: 20140225195548209
+modified: 20140225195738745
+type: text/vnd.tiddlywiki
+tags: cpashow  Commands
+source-wiki-id: cpashow
+source-tiddler-title-as-text: HelpCommand
+source-tiddler-title-as-link: HelpCommand
+
+{{$:/language/Help/help}}

@@ -1,0 +1,28 @@
+title: $:/ListManagement/List Samples
+created: 20150731040712564
+modified: 20150817212004200
+test: that another this [[Try me]] [[To do]] [[Import instructions]] [[Import instructions]]
+tags: ListManagement 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: List Samples
+source-tiddler-title-as-link: List%20Samples
+
+!! Work with lists contained in fields in this tiddler
+&lt;&lt;listHere test&gt;&gt;<br/>
+This example works from a macro that allows you to add items to a field list  (in this case test)
+
+<<listHere test>>
+----
+&lt;&lt;taskListHere test&gt;&gt;<br/>
+This example does the same thing but adds the ability to manage the done state for the list (Click on the reveal button to see the done tasks)
+<<taskListHere test>>
+
+----
+`* {{do this||todo}}`
+Another method, managing the items in a foreign table
+
+* {{do this||todo}}
+----
+In addition, you can use the (more actions) drop down to access journals and to do items using the add items macro from there
+----
+I'm really not sure where the code for the more actions plugins is hiding. The code for the field management is in the macros beginning with $:/_cpa available from the more / System list in the sidebar

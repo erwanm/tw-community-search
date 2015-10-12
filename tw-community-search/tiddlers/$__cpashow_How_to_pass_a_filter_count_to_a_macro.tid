@@ -1,0 +1,36 @@
+title: $:/cpashow/How to pass a filter count to a macro
+created: 20150630141654291
+modified: 20150701031305493
+test: one two threee four five six
+tags: cpashow 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: How to pass a filter count to a macro
+source-tiddler-title-as-link: How%20to%20pass%20a%20filter%20count%20to%20a%20macro
+
+\define getCountOfItemsInList(tiddlerName, fieldName)
+<$count filter="[list[$tiddlerName$!!$fieldName$]]" />
+\end
+\define generateSelectWithNumberOptions(xnum)
+    <br/>''executing generateSelectWithNumberOptions(xnum="$xnum$")''
+    <$select>
+        <$list filter="1 2 3 4 $xnum$">
+            <option value=<<currentTiddler>> >
+                <<currentTiddler>>
+            </option>
+        </$list>
+    </$select>
+\end
+    Can I generate a number using a macro that calls &lt;$count&gt;?
+        <<getCountOfItemsInList "What_s_wrong_with_this" "test">>
+    (Yes)<br/>
+    Can I generate a select containing a list of options by passing a number?
+        <$macrocall $name="generateSelectWithNumberOptions" 
+                xnum=6 
+        />
+    (Yes)<br/>
+    Can I generate a select containing a list of options by passing a value from a macro that calls &lt;$count&gt;?
+        <$macrocall $name="generateSelectWithNumberOptions" 
+                xnum=<<filterCount "[list[How to pass a filter count to a macro!!test]]">> 
+        />
+    (Yes)<br/>
+<<filterCount "[list[How to pass a filter count to a macro!!test]]">> This is done with the javascropt macr [[filterCount|$:/_cpa/macros/filterCount.js]] Drag into your tiddler to import

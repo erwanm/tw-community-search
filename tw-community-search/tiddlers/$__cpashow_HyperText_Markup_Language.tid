@@ -1,0 +1,14 @@
+title: $:/cpashow/HyperText Markup Language
+created: 20150228132723000
+modified: 20150228133925000
+type: text/vnd.tiddlywiki
+tags: cpashow  Definitions
+source-wiki-id: cpashow
+source-tiddler-title-as-text: HyperText Markup Language
+source-tiddler-title-as-link: HyperText%20Markup%20Language
+
+<<.dlink-ex HTML "http://en.wikipedia.org/wiki/HTML">> is a standard plain-text format used for defining the content of a web page.
+
+It consists of a tree of elements expressed using a system of special <<.def tags>> enclosed in angle brackets.
+
+Almost the whole of HTML can be used unchanged in the WikiText of a tiddler.
