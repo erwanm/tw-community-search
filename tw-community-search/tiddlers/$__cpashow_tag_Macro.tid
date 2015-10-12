@@ -1,0 +1,18 @@
+title: $:/cpashow/tag Macro
+caption: tag
+created: 20141206130540337
+modified: 20150221224326000
+type: text/vnd.tiddlywiki
+tags: cpashow  Macros [[Core Macros]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: tag Macro
+source-tiddler-title-as-link: tag%20Macro
+
+The <<.def tag>> [[macro|Macros]] generates a tag pill for a specified tag.
+
+!! Parameters
+
+;tag
+: The title of the tag, defaulting to the [[current tiddler|Current Tiddler]]
+
+<<.macro-examples "tag">>

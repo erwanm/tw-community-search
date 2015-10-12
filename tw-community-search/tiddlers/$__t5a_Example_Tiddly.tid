@@ -1,7 +1,7 @@
 title: $:/t5a/Example Tiddly
 created: 20150724025820046
 creator: Andrew Harrison
-modified: 20150930213400560
+modified: 20151012173207375
 modifier: Andrew Harrison
 tiddly: http://www.tiddlywiki.com
 tags: t5a  New Examples [[Tiddly Viewer]]
@@ -9,4 +9,4 @@ source-wiki-id: t5a
 source-tiddler-title-as-text: Example Tiddly
 source-tiddler-title-as-link: Example%20Tiddly
 
-<!--Textual data in a zTXt chunk with duplicate words and spaces removed and hidden in comment tags-->
+Textual data in a zTXt chunk with duplicate words and spaces removed

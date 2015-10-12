@@ -1,0 +1,4 @@
+title: taglist
+tags: CommunityTags
+
+{{||$:/CommunityTagTemplate}}

@@ -4,5 +4,12 @@ tags: CommunityWikis Matabele
 title: gWiZ
 type: text/vnd.tiddlywiki
 wiki-address: http://production.gwiz-beta.divshot.io/
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151011164529163
+
+::: widgets for multi-function buttons :::
+
+
+
 
 {{||$:/CommunityWikiPresentationTemplate}}

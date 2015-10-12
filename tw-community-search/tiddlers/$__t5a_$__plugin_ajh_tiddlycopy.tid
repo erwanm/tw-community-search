@@ -1,11 +1,11 @@
 title: $:/t5a/$:/plugin/ajh/tiddlycopy
 created: 20150902052640307
-dependents: $:/plugin/ajh/tiddlycopy/example $:/plugin/ajh/tiddlycopy/icon $:/plugin/ajh/tiddlycopy/readme $:/plugin/ajh/tiddlycopy/stylesheet $:/plugin/ajh/tiddlycopy/template/hide $:/plugin/ajh/tiddlycopy/template/show $:/plugin/ajh/tiddlycopy/template/toolbar
+dependents: $:/plugin/ajh/tiddlycopy/icon $:/plugin/ajh/tiddlycopy/readme $:/plugin/ajh/tiddlycopy/stylesheet $:/plugin/ajh/tiddlycopy/template/hide $:/plugin/ajh/tiddlycopy/template/show $:/plugin/ajh/tiddlycopy/template/toolbar
 description: Tiddly Viewer Copy button
 list: readme
-modified: 20151003182649296
+modified: 20151012225431302
 source: http://tiddlycopy.tiddlyspot.com
-version: 0.0.24
+version: 0.0.26
 tags: t5a 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlycopy

@@ -1,0 +1,15 @@
+title: $:/cpashow/sourceTable
+created: 20150418144010829
+fields: pk:field1 pk:field2 fk:field3 field4 field5
+modified: 20150426173018488
+targets: targetTable1 targetTable2
+tags: cpashow  source
+source-wiki-id: cpashow
+source-tiddler-title-as-text: sourceTable
+source-tiddler-title-as-link: sourceTable
+
+* {{Figure out how to wikify arbitrary text.||task}}
+* {{Create display macro for each migration action||task}}
+* {{Modify source view template to display source migration actions||task}}
+* {{Modify target view template to display target migration actions||task}}
+* {{Modify xlate view template to display xlate migration actions||task}}

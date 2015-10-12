@@ -1,0 +1,26 @@
+title: $:/gWiZ/X-SetRefs Demo
+created: 20140529073308846
+creator: Matabele
+modified: 20151007193404294
+modifier: Matabele
+revision: 0
+state1: hide
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: X-SetRefs Demo
+source-tiddler-title-as-link: X-SetRefs%20Demo
+
+In this demo -- the values of the text field of two tiddlers are toggled between values using the $x-setrefs widget.
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$reveal type="nomatch" state="!!state1" text="show">
+<$button  set="!!state1" setTo="show">
+<$x-setrefs $tiddler="target" !!text="2" other-target!!text="your-content" ++1="this is a new tag"/>
+Set</$button>
+</$reveal>
+<$reveal type="match" state="!!state1" text="show">
+<$button set="!!state1" setTo="hide" message="tm-setref">
+<$x-setrefs $tiddler="target" !!text="other-content" other-target!!text="1" --1="this is a new tag"/>
+Reset</$button>
+</$reveal>"""/>

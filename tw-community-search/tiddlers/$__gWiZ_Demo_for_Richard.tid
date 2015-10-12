@@ -1,0 +1,27 @@
+title: $:/gWiZ/Demo for Richard
+created: 20140714134006752
+creator: Matabele
+current: three
+list: one two three
+modified: 20151011142917482
+modifier: Matabele
+revision: 2
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Demo for Richard
+source-tiddler-title-as-link: Demo%20for%20Richard
+
+This demo cycles through a list of tiddlers, switching tags.
+
+<$list filter="[list[]after{!!current}][list[]first[]]+[first[]]" variable="getnexttiddler">
+<$button set="!!current"  setTo=<<getnexttiddler>> >
+<$action-mangletags $tiddler={{!!current}} $remove="oldtag" $add="newtag"/>
+Cycle Tiddlers</$button>
+</$list>
+
+<$list filter="[list[]last[]][list[]before{!!current}]+[last[]]" variable="getnexttiddler">
+<$button set="!!current"  setTo=<<getnexttiddler>> >
+<$action-mangletags $tiddler={{!!current}} $remove="newtag" $add="oldtag"/>
+And Back</$button>
+</$list>

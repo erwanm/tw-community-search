@@ -1,0 +1,32 @@
+title: $:/gWiZ/Test Mangletags
+created: 20150922115444219
+creator: Matabele
+modified: 20151004230057486
+modifier: Matabele
+revision: 0
+type: text/vnd.tiddlywiki
+tags: gWiZ  older old
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Test Mangletags
+source-tiddler-title-as-link: Test%20Mangletags
+
+<$button>
+<$action-mangletags add="old"/>
+Add old
+</$button>
+
+<$button>
+<$action-mangletags remove="old" add="new"/>
+Replace old with new
+</$button>
+
+<$button>
+<$action-mangletags remove="new" add="old"/>
+Replace new with old
+</$button>
+
+<$button>
+<$action-mangletags remove="old"/>
+<$action-mangletags remove="new"/>
+Remove old and new
+</$button>

@@ -1,0 +1,25 @@
+title: $:/cpashow/Headings in WikiText
+caption: Headings
+created: 20131205161234909
+modified: 20131205161256525
+type: text/vnd.tiddlywiki
+tags: cpashow  WikiText
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Headings in WikiText
+source-tiddler-title-as-link: Headings%20in%20WikiText
+
+Headings are specified with one or more leading `!` characters:
+
+```
+! This is a level 1 heading
+
+!! This is a level 2 heading
+
+!!! This is a level 3 heading
+```
+
+CSS classes can be assigned to individual headings like this:
+
+```
+!.myStyle This heading has the class `myStyle`
+```

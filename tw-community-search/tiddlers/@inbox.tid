@@ -1,0 +1,4 @@
+title: @inbox
+tags: CommunityTags
+
+{{||$:/CommunityTagTemplate}}

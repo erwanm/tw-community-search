@@ -1,6 +1,5 @@
 title: Unknown plugin '$:/plugins/tiddlywiki/stacked-view'
 name: unknown
-created: 20151012034308000
 plugin_tiddler: $:/plugins/tiddlywiki/stacked-view
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found

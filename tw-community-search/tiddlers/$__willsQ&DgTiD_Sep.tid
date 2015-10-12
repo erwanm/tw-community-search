@@ -1,0 +1,17 @@
+title: $:/willsQ&DgTiD/Sep
+color: #89C6AF
+created: 20140505031102868
+creator: Matabele
+modified: 20140512160805828
+modifier: Matabele
+qad-gtd: month
+revision: 0
+tagbar: month
+type: text/vnd.tiddlywiki
+tags: willsQ&DgTiD 
+source-wiki-id: willsQ&DgTiD
+source-tiddler-title-as-text: Sep
+source-tiddler-title-as-link: Sep
+
+<$transclude tiddler="$:/_display-panel"/>
+<$transclude tiddler="$:/_tagbar"/>

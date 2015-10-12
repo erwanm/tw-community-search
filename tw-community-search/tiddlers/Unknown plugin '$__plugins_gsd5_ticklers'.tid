@@ -1,6 +1,5 @@
 title: Unknown plugin '$:/plugins/gsd5/ticklers'
 name: unknown
-created: 20151012034308000
 plugin_tiddler: $:/plugins/gsd5/ticklers
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found

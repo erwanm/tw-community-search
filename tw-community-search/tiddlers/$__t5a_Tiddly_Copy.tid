@@ -1,7 +1,7 @@
 title: $:/t5a/Tiddly Copy
 created: 20150919154031954
 creator: Andrew Harrison
-modified: 20151011202753706
+modified: 20151012225936056
 modifier: Andrew Harrison
 tags: t5a  New Contents
 source-wiki-id: t5a
@@ -9,3 +9,4 @@ source-tiddler-title-as-text: Tiddly Copy
 source-tiddler-title-as-link: Tiddly%20Copy
 
 {{$:/plugin/ajh/tiddlycopy/readme}}
+[[Tiddly Example]]

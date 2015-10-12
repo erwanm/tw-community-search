@@ -1,0 +1,14 @@
+title: $:/cpashow/rest Operator (Examples)
+created: 20150118134611000
+modified: 20150123211722000
+type: text/vnd.tiddlywiki
+tags: cpashow  [[rest Operator]] [[Operator Examples]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: rest Operator (Examples)
+source-tiddler-title-as-link: rest%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[list[Days of the Week]rest[]]">>
+<<.operator-example 2 "[list[Days of the Week]rest[3]]">>
+<<.operator-example 3 "Z Y X W V U T S R Q P O +[rest[5]]">>
