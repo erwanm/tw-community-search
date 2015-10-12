@@ -1,11 +1,18 @@
 created: 20150822215235564
-modified: 20150827174256040
+modified: 20151011235724038
 tags: DeveloperDocumentation
 title: PluginsCollection
 type: text/vnd.tiddlywiki
 
-
 A collection of available plugins is provided in CommunityPlugins. 
+
+!! Definition
+
+Historically there have been "add-on" components for TW which were called "plugins" but do not correspond to the technical definition of a plugin. For example, there are two versions ([[this one here|FontAwesome]] and [[that one there|fontawesome]]) of the so-called "~FontAwesome plugin" which actually both consist of a single [[StyleSheet tiddler|http://tiddlywiki.com/#Using%20Stylesheets]].
+
+The collection of plugins presented in CommunityPlugins contains only real plugins, i.e. for which the plugin tiddler follows the [[official definition|http://tiddlywiki.com/#PluginMechanism]]. In particular, the extraction process requires a plugin tiddler to have a ``plugin-type`` field with value ``plugin``. 
+
+* Remark: If you have some code for TW that you'd like to package as a plugin but are not comfortable using the node.js version, there is also a TW plugin for that! Please check the [[Tinka plugin| twCard - Plugin - Tinka]]. 
 
 !! Method
 

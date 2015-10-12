@@ -17,10 +17,6 @@ short_description: set a field using a widget
 title: twCard - Plugin - SetFieldWidget
 wiki: http://gwiz.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: gWiZ
-twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/setfield
-twcs-description: Contains the <$setfield> widget
-twcs-author: 
-twcs-version: 0.0.5
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,15 @@
+title: $:/cpashow/$:/plugins/_cpa/Allow_Tiddler_Tasks
+author: C PA
+core-version: 5.18
+created: 20150623232821493
+description: Tiddler Related Tasks
+modified: 20150623233233117
+name: Tiddler Related Tasks
+version: 0.0.10
+tags: cpashow 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: $:/plugins/_cpa/Allow_Tiddler_Tasks
+source-tiddler-title-as-link: %24%3a%2fplugins%2f_cpa%2fAllow_Tiddler_Tasks
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

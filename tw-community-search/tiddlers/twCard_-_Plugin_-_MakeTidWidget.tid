@@ -17,10 +17,6 @@ short_description: A widget for making tiddlers
 title: twCard - Plugin - MakeTidWidget
 wiki: http://gwiz.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: gWiZ
-twcs-extracted-plugin-tiddler: $:/gWiZ/$:/plugins/matabele/maketid
-twcs-description: Contains the <$maketid> widget
-twcs-author: 
-twcs-version: 0.0.4
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}
