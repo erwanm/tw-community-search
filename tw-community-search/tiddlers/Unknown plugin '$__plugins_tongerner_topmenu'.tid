@@ -1,6 +1,5 @@
 title: Unknown plugin '$:/plugins/tongerner/topmenu'
 name: unknown
-created: 20151012221631000
 plugin_tiddler: $:/plugins/tongerner/topmenu
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
