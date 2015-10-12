@@ -1,0 +1,34 @@
+title: $:/gWiZ/Tabular Search & Replace Tags
+created: 20150922023315742
+creator: Matabele
+modified: 20151004230057535
+modifier: Matabele
+revision: 0
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Tabular Search & Replace Tags
+source-tiddler-title-as-link: Tabular%20Search%20%26%20Replace%20Tags
+
+Remove Tag: <span title="Select a Tag to Find"><$select tiddler="$:/data" index="remove" default='(none)'>
+<option value="null">(none)</option>
+<$list filter="[all[tiddlers]tags[]sort[title]]">
+<option value=<<currentTiddler>>><$view field="title"/></option>
+</$list>
+</$select></span>
+
+Replace With: <$edit-text tiddler="$:/data"  index="add" tag="input" type="text" placeholder="Add Me" />
+
+<table>
+<tr><td> Tiddler Title </td> <td>
+<$button tooltip="Modify All" class="tc-btn-invisible">
+<$list filter="[tag{$:/data##remove}]">
+<$action-mangletags tiddler=<<currentTiddler>> add={{$:/data##add}} remove={{$:/data##remove}}/>
+</$list>
+{{$:/core/images/close-all-button}}
+</$button>
+</td></tr>
+
+<$list filter="[tag{$:/data##remove}]">
+<tr><td>{{!!title}}</td><td><$button tooltip="Modify Me" class="tc-btn-invisible"><$action-mangletags tiddler=<<currentTiddler>> add={{$:/data##add}} remove={{$:/data##remove}}/>{{$:/core/images/close-button}}</$button></td></tr></$list>
+</table>

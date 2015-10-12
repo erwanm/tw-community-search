@@ -1,0 +1,32 @@
+title: $:/gWiZ/Another Demo
+created: 20140603053649102
+creator: Matabele
+modified: 20151009191802840
+modifier: Matabele
+revision: 0
+state1: add
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Another Demo
+source-tiddler-title-as-link: Another%20Demo
+
+In this demo -- both the tags and the text field of the target tiddler are manipulated with X-SetRefs widgets.
+
+<$reveal state="!!state1" type="match" text="add">
+<$button set="!!state1" setTo="mangle">
+<$x-setrefs $tiddler="Test" !!text="This is a variable: ''{{!!field1}}''" !!field1="Hello" ++1="one" ++2="two" ++3="three"/>
+Add</$button>
+</$reveal>
+
+<$reveal state="!!state1" type="match" text="mangle">
+<$button set="!!state1" setTo="clear">
+<$x-setrefs $tiddler="Test" !!field1="Hello again" --1="one" --2="two" --3="three" ++1="four"/>
+Mangle</$button>
+</$reveal>
+
+<$reveal state="!!state1" type="match" text="clear">
+<$button set="!!state1" setTo="add" >
+<$x-setrefs $tiddler="Test" !!text="" --1="four"/>
+Clear</$button>
+</$reveal>

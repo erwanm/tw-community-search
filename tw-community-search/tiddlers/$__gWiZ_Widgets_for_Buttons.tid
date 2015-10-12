@@ -1,0 +1,51 @@
+title: $:/gWiZ/Widgets for Buttons
+created: 20140602110523307
+creator: Matabele
+modified: 20151011143042290
+modifier: Matabele
+revision: 1
+toggle: demos
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Widgets for Buttons
+source-tiddler-title-as-link: Widgets%20for%20Buttons
+
+\define openSnapshot(text,snapshot)
+<$button set="$:/StoryList!!list" setTo={{$:/_snapshots##$snapshot$}} tooltip="Open Snapshot" class="tc-btn-invisible">$text$</$button>
+\end
+
+!! Introduction
+
+This site explores the creation and use of multifunction buttons. I have,  in general, replaced my legacy stacked widgets (MakeTid, MangleTags and SetField) with action widgets, as I find the action widget mechanism more direct, more easily understood and easier to use than widgets based upon widget messaging.
+
+My old site, along with the legacy widgets, may be found [[here | http://gwiz.tiddlyspot.com]]
+
+I have also condensed the functionality of several widgets into only three widgets:
+
+* the ActionMakeTid widget -- designed to create new tiddlers in the background and includes extensions to the functionality of my legacy MakeTid widget
+* the ActionMangleTags widget -- designed to manipulate text strings in list fields (such as the 'tags' field) and includes extensions to the functionality of my legacy MangleTags widget
+* the ActionSetRefs widget -- designed as a 'jack-of-all-trades' widget for the setting of TextReferences and includes numerous changes to my legacy SetField widget, as much of the original functionality has been superseded by the ActionSetField widget.
+
+In this way, the same widget may be used for various different purposes and may be used (with care) for several purposes at once. 
+
+I include a widget messaging version of the SetRefs widget -- the purpose of this is to extend the functionality of the ActionMakeTid widget; should this be necessary. The messaging version is necessary as the name of a newly created tiddler is not known at the time of coding, and becomes known only upon creation of the new tiddler. 
+
+The title of the new tiddler is carried through the stack via the parameter to the 'tm-setrefs' widget message. I find this mechanism preferable to setting the 'currentTiddler' parameter to the title of the target (which has the unpleasant side effect of effecting all other TextReferences used within the button widget stack.)
+
+The site has itself been built entirely in the form of a standalone ~TiddlyWiki, making use of these button widgets for creating the desired functionality.
+
+*<<openSnapshot "The Extended Button Widgets" "Extended Action Widgets">>
+
+!! The Widget Plugins
+
+These button widgets are currently available in the plugin:
+
+*<<openSnapshot "The ~ActionMakeTid Widget" "ActionMakeTidWidget">>
+*<<openSnapshot "The ~ActionSetRefs Widget" "ActionSetRefsWidget">>
+*<<openSnapshot "The ~ActionMangleTags Widget" "ActionMangleTagsWidget">>
+
+Drag this plugin over to your TW5: [[$:/plugins/matabele/extended-button-widgets]]
+
+---
+// {{$:/core/ui/Buttons/save-wiki}} To return to this menu click the 'Home' button//

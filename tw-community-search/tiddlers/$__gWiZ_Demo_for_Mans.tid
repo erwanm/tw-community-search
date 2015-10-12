@@ -1,0 +1,35 @@
+title: $:/gWiZ/Demo for Mans
+created: 20140531172057581
+creator: Matabele
+modified: 20151009192240371
+modifier: Matabele
+revision: 0
+state1: show
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Demo for Mans
+source-tiddler-title-as-link: Demo%20for%20Mans
+
+In this demo -- the first click of the button will tag each of two tiddlers with the title of the other tiddler -- the second click clears the tags.
+
+;Teacher: <$edit-text tiddler="temp" field="teacher"/>
+;Task: <$edit-text tiddler="temp" field="task"/>
+
+<$reveal type="match" state="!!state1" text="show">
+<$button  set="!!state1" setTo="hide">
+<$action-mangletags $tiddler={{temp!!task}} $add={{temp!!teacher}}/>
+<$action-mangletags $tiddler={{temp!!teacher}} $add={{temp!!task}}/>
+Set</$button>
+
+</$reveal>
+<$reveal type="match" state="!!state1" text="hide">
+<$button  set="!!state1" setTo="show">
+<$action-mangletags $tiddler={{temp!!task}} $remove={{temp!!teacher}} />
+<$action-mangletags $tiddler={{temp!!teacher}} $remove={{temp!!task}} />
+Reset</$button>
+</$reveal>
+
+
+
+

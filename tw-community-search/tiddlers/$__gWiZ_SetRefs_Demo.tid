@@ -1,0 +1,22 @@
+title: $:/gWiZ/SetRefs Demo
+created: 20150921101749414
+creator: Matabele
+modified: 20151010010010576
+modifier: Matabele
+revision: 0
+temp: set
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: SetRefs Demo
+source-tiddler-title-as-link: SetRefs%20Demo
+
+<$reveal type="match" state="!!temp" text="set">
+<$button set="!!temp" setTo="reset">
+<$x-setrefs $tiddler="WikitextTarget" !!field1="one" !!text="""Note: This exposes the Q&D nature of the widget -- to avoid separation of the title into separate tags (for the 'New Here' type functionality), rather use the MangleTags Widget""" DataTableTarget##entry1="first value" DataTableTarget##entry2="second value"/>
+Set</$button></$reveal>
+
+<$reveal type="match" state="!!temp" text="reset">
+<$button set="!!temp" setTo="set">
+<$x-setrefs $tiddler="WikitextTarget" !!field1="" !!tags="" !!text="" DataTableTarget!!text=""/>
+Reset</$button></$reveal>

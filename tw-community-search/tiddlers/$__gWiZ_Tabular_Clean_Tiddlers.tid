@@ -1,0 +1,32 @@
+title: $:/gWiZ/Tabular Clean Tiddlers
+created: 20150922024138555
+creator: Matabele
+modified: 20151007160904771
+modifier: Matabele
+revision: 0
+type: text/vnd.tiddlywiki
+tags: gWiZ 
+source-wiki-id: gWiZ
+source-tiddler-title-as-text: Tabular Clean Tiddlers
+source-tiddler-title-as-link: Tabular%20Clean%20Tiddlers
+
+Find & Remove Filter: <span title="Select a Filter"><$select tiddler="$:/data" index="filter" default='(none)'>
+<option value="null">(none)</option>
+<option value="[prefix[$:/state/]]">prefix[$:/state/]</option>
+<option value="[prefix[$:/temp/]]">prefix[$:/temp/]</option>
+</$list>
+</$select></span>
+
+<table>
+<tr><td> Tiddler Title </td> <td>
+<$button tooltip="Modify All" class="tc-btn-invisible">
+<$list filter={{$:/data##filter}}>
+<$action-deletetiddler $tiddler=<<currentTiddler>>/>
+</$list>
+{{$:/core/images/close-all-button}}
+</$button>
+</td></tr>
+
+<$list filter={{$:/data##filter}}>
+<tr><td>{{!!title}}</td><td><$button tooltip="Modify Me" class="tc-btn-invisible"><$action-deletetiddler $tiddler=<<currentTiddler>>/>{{$:/core/images/close-button}}</$button></td></tr></$list>
+</table>
