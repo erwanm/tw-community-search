@@ -1,8 +1,0 @@
-title: $:/TiddlerTools/VersionCommand
-caption: version
-tags: TiddlerTools  Commands
-source-wiki-id: TiddlerTools
-source-tiddler-title-as-text: VersionCommand
-source-tiddler-title-as-link: VersionCommand
-
-{{$:/language/Help/version}}

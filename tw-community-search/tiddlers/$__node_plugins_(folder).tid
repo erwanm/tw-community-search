@@ -1,0 +1,11 @@
+title: $:/node/plugins (folder)
+caption: plugins
+created: 20151013092602950
+is: optional
+modified: 20151013100128154
+summary: a ''folder'' containing <<tw PluginMechanism "plugin folders">> to be included in the [[wiki]]
+tags: node  wiki
+source-wiki-id: node
+source-tiddler-title-as-text: plugins (folder)
+source-tiddler-title-as-link: plugins%20%28folder%29
+

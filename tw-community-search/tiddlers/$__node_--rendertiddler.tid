@@ -1,0 +1,14 @@
+title: $:/node/--rendertiddler
+created: 20151014052217560
+modified: 20151014103115346
+p.filename: (required) the filename
+p.title: (required) the title of the tiddler
+p.type: (optional) the content type into which to render the tiddler<br>» default: `text/html`
+params: <title> <filename> [<type>]
+params-clean: <title> <filename> <type>
+summary: renders an individual tiddler as a specified [[content-type]] and save it to the specified filename
+tags: node  commands
+source-wiki-id: node
+source-tiddler-title-as-text: --rendertiddler
+source-tiddler-title-as-link: --rendertiddler
+

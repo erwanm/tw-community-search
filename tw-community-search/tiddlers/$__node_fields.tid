@@ -1,0 +1,10 @@
+title: $:/node/fields
+created: 20151013145759009
+modified: 20151014130517663
+summary: a tiddler is a bundle of fields, [[tiddlywiki]] [[core]] fields can be extended with user-defined fields
+tags: node  core
+source-wiki-id: node
+source-tiddler-title-as-text: fields
+source-tiddler-title-as-link: fields
+
+Also see <<tw TiddlerFields>>.

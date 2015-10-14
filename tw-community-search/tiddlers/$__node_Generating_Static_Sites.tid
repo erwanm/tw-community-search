@@ -1,0 +1,36 @@
+title: $:/node/Generating Static Sites
+caption: static
+created: 20130828190200000
+modified: 20151014140312618
+summary: using [[tiddlywiki]] to generate static [[html]] representations of your [[wiki]] that don't require [[javascript]]
+tags: node  workflows
+source-wiki-id: node
+source-tiddler-title-as-text: Generating Static Sites
+source-tiddler-title-as-link: Generating%20Static%20Sites
+
+To explore a static representation of <<twcom>>, see <a href="http://tiddlywiki.com/static.html" target="_blank">static.html</a>. This is a static snapshot of the wiki as it is displayed on startup.
+
+Links to other tiddlers point to static snapshots of the  tiddlers in the form `/static/HelloThere.html`. Each [[static]] tiddler [[html]] file  references a `static.css` stylesheet file.
+
+The following commands generate the sample static version of <<twcom>>:
+
+```
+--rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain
+--rendertiddler $:/core/templates/static.template.html static.html text/plain
+--rendertiddler $:/core/templates/static.template.css static/static.css text/plain
+```
+
+* the first [[--rendertiddlers]] [[command|commands]] generates the [[html]] representation of all tiddlers
+* the second [[--rendertiddler]] command saves the static version of $:/DefaultTiddlers
+* the final [[--rendertiddler]] command saves the stylesheet
+* all static files are placed in the ''output'' folder of the [[wiki]] folder
+
+! Full Wiki Snapshot
+
+You can produce a single [[html]] file containing a [[static]] representation of all tiddlers using standard [[html]] anchor links to jump between them.
+
+For an example, see <a href="http://tiddlywiki.com/alltiddlers.html">alltiddlers.html</a> which is built with the following [[command|commands]]:
+
+```
+--rendertiddler $:/core/templates/alltiddlers.template.html alltiddlers.html text/plain
+```

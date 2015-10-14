@@ -1,0 +1,31 @@
+title: $:/node/lazy-loading
+created: 20140206214608586
+modified: 20151013192717363
+summary: fetching a full tiddler only when needed
+type: text/vnd.tiddlywiki
+tags: node  concepts
+source-wiki-id: node
+source-tiddler-title-as-text: lazy-loading
+source-tiddler-title-as-link: lazy-loading
+
+In a [[standalone]] [[tiddlywiki]] [[html]] file, all tiddlers are fully embedded. By contrast, in a client-server environment, lazy loading refers to serving only metadata about a tiddler, that is all fields except the `text` field which is served only when requested.
+
+Currently, lazy loading is only implemented for a [[tiddlywiki]] running in a browser talking to a [[tiddlyweb]]-compatible server in one of the following configurations:
+
+# for [[tiddlywiki]] served via [[node.js]], image tiddlers can be subject to lazy loading
+#* to enable, use the [[--server]] [[command|commands]] as follows:<div>
+`tiddlywiki --server 8080 $:/core/save/lazy-images`
+</div>
+# when syncing with [[tiddlyweb]], all tiddlers are subject to lazy loading
+
+!! Node.js
+
+For lazy loading via the [[--server]] [[command|commands]] for [[node.js]], the [[tiddlywiki]] core provides a template that enables images to be lazily loaded while other tiddlers are packaged into the initial html file in the usual way.
+
+!! ~TiddlyWeb
+
+The [[tiddlyweb]] plugin implements lazy loading by first requesting a "skinny" version of each tiddler, that is all fields of a tiddler except `text`. Subsequently, reading from skinny tiddlers via `wiki.getTiddler()` returns just the skinny fields whereas. Only a call to `wiki.getTiddlerText()` triggers an asynchronous load of the full tiddler text, in turn refreshing the display to reflect the newly loaded tiddler.
+
+!! Search
+
+The browser-based search in [[tiddlywiki]] only searches the text of fully loaded tiddlers. In a client-server configuration the expectation is that is should be the server that handles search operations, as it only the server has access to the text field. For the future, the plan is to integrate the built in search with the [[tiddleweb]] search apo. In a basic approach, a local search triggers an asynchronous server side search. The results of the search is asynchronously loaded and dynamically appears in the local search results.

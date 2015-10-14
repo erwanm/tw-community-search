@@ -1,0 +1,15 @@
+title: $:/node/--build
+created: 20140425085548209
+modified: 20151014102939418
+p.target: the name of a build (optional)<br>» with no targets specified all available targets are built
+params: <target> [<target> ...]
+params-clean: <target>
+summary: automatically run configured commands to build specified [[targets|<target>]] for the current [[wiki]]
+tags: node  commands
+source-wiki-id: node
+source-tiddler-title-as-text: --build
+source-tiddler-title-as-link: --build
+
+<<hl "Defining Builds">>
+
+See [[tiddlywiki.info]] for defining build targets.

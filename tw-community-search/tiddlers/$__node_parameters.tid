@@ -1,0 +1,21 @@
+title: $:/node/parameters
+created: 20151013054023691
+modified: 20151014053152733
+summary: All parameter used with [[commands]] for TiddlyWiki on [[Node.js]].
+tags: node 
+source-wiki-id: node
+source-tiddler-title-as-text: parameters
+source-tiddler-title-as-link: parameters
+
+\define param-link() <$link to="<$(param)$>"><$text text="<$(param)$>"></$link>
+\define param-field() p.$(param)$
+\define param-commands()
+<$list filter="[has<param-field>sort[title]]"><$link><$view field=title/></$link> &nbsp; </$list>
+\end
+
+<dl>
+<$list filter="[tag[parameters]removeprefix[<]removesuffix[>]sort[title]]" variable="param">
+<dt><<param-link>></dt>
+<dd><<param-commands>></dd>
+</$list>
+</dl>

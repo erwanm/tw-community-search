@@ -1,0 +1,10 @@
+created: 20151014171642256
+modified: 20151014172103300
+tags: CommunityNews
+title: Duplicate tiddlers from tiddlywiki.com now removed
+type: text/vnd.tiddlywiki
+
+
+The aggregator process now removes tiddlers which are also found on [[tiddlywiki.com]]. This way authors can use the [[tiddlywiki.com]] content on their wiki, and it won't be indexed as "their" content. Additionally that makes the ~CommunitySearch wiki a bit faster.
+
+See DuplicateTiddlerDetection.

@@ -1,8 +1,0 @@
-title: $:/cpashow/VersionCommand
-caption: version
-tags: cpashow  Commands
-source-wiki-id: cpashow
-source-tiddler-title-as-text: VersionCommand
-source-tiddler-title-as-link: VersionCommand
-
-{{$:/language/Help/version}}

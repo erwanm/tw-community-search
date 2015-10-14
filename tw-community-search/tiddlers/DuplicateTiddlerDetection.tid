@@ -1,0 +1,15 @@
+created: 20151014170600755
+modified: 20151014171619044
+tags: DeveloperDocumentation
+title: DuplicateTiddlerDetection
+type: text/vnd.tiddlywiki
+
+
+Some wikis contain the full content from [[tiddlywiki.com]]. This is an issue because:
+
+* It makes the ~CommunitySearch wiki contain duplicate tiddlers, which probably slows down the wiki a little.
+* The search returns duplicate matches from different wikis for the same tiddler. First this is not user-friendly, and it might send users to another wiki than [[tiddlywiki.com]] even though this where the content came from in the first place.
+
+However it makes sense for some wikis to use the content from [[tiddlywiki.com]]... and even if it didn't that's up to the author!
+
+This is why duplicate detection was [[implemented in the aggregator process|https://github.com/erwanm/tw-aggregator/issues/89]]. Currently it is applied only to the content from [[tiddlywiki.com]] (i.e. [[tiddlywiki.com]] is the only possible source of duplicated content on other wiki; obviously the duplicate is removed from the other wiki). Duplicates between other wikis is probably much less likely, and there would be no way to know the original source in this case.

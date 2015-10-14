@@ -1,8 +1,0 @@
-title: $:/TiddlerTools/RenderTiddlersCommand
-caption: rendertiddlers
-tags: TiddlerTools  Commands
-source-wiki-id: TiddlerTools
-source-tiddler-title-as-text: RenderTiddlersCommand
-source-tiddler-title-as-link: RenderTiddlersCommand
-
-{{$:/language/Help/rendertiddlers}}
