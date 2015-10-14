@@ -1,0 +1,11 @@
+title: $:/CopyPlugin/Repack
+created: 20150806051342294
+creator: Andrew
+modified: 20150806051630217
+modifier: Andrew
+tags: CopyPlugin 
+source-wiki-id: CopyPlugin
+source-tiddler-title-as-text: Repack
+source-tiddler-title-as-link: Repack
+
+Paste {{RepackCommand||copy}} into developer console.

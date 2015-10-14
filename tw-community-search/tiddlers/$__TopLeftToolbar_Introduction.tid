@@ -1,0 +1,13 @@
+title: $:/TopLeftToolbar/Introduction
+created: 20150819124703955
+modified: 20151013001807935
+tags: TopLeftToolbar 
+source-wiki-id: TopLeftToolbar
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin adds the ''Top Left Toolbar'' tab to the ''Toolbars'' tab on the ''Appearance'' tab in the control panel. It provides a list of buttons that have the $:/tags/PageControls tag and can be selected to appear in the Top left toolbar.<br>
+&emsp;&emsp;Simply drag [[$:/plugin/ajh/toplefttoolbar]] to the top of your tiddlywiki display, save and reload.<br>
+&emsp;&emsp;It includes the tiddlers below packed for easy use:<br>
+[[$:/plugin/ajh/toplefttoolbar/icon]]<br>
+[[$:/plugin/ajh/toplefttoolbar/stylesheet]]<br>[[$:/plugin/ajh/toplefttoolbar/template]]<br>[[$:/plugin/ajh/toplefttoolbar/toolbar]]
