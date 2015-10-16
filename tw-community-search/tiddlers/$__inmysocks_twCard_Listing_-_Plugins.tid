@@ -1,8 +1,8 @@
 title: $:/inmysocks/twCard Listing - Plugins
 category: 
 created: 20150107035806475
-maintainer: maintainer[EucalyJ]
-modified: 20150221170037164
+maintainer: 
+modified: 20151015085433495
 tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard Listing - Plugins
@@ -19,11 +19,13 @@ category[$(ThisCategory)$]
 \define thisMakeList()
 <table>
 <$list filter='[$(CategoryEntry)$$(MaintainerEntry)$tag[Plugin twCard]has[category]sort[category]each[category]]'>
+<$set name=currentCategory value={{!!category}}>
+<$list filter='[$(MaintainerEntry)$tag[Plugin twCard]category<currentCategory>regexp[(?i)$(SearchString)$]limit[1]]'>
 <tr><th>{{!!category}} Plugins</th><th></th><th></th><th></th><th></th><th></th></tr>
 <tr><th>Name</th><th>Version</th><th>Date (DD-MM-YYYY)</th><th>Maintainer</th><th>Description</th><th>Wiki</th></tr>
-<$set name=currentCategory value={{!!category}}>
-<$list filter='[$(MaintainerEntry)$tag[Plugin twCard]category<currentCategory>sort[title]]' template=PluginTWcardDisplayTemplate>
+<$list filter='[$(MaintainerEntry)$tag[Plugin twCard]category<currentCategory>sort[title]regexp[(?i)$(SearchString)$]]' template=PluginTWcardDisplayTemplate>
 
+</$list>
 </$list>
 </$set>
 </$list>
@@ -44,22 +46,13 @@ Select category: <$select field='category'>
 </$list>
 </$select>
 
+Search by title:
+<$edit-text tiddler='$:/temp/twCard Listing - Plugins/Title Search' field='search_string' class='tc-edit-texteditor'/>
+
 <$set name=MaintainerEntry value={{!!maintainer}}>
 <$set name=CategoryEntry value={{!!category}}>
+<$set name=SearchString value={{$:/temp/twCard Listing - Plugins/Title Search!!search_string}}>
 <<thisMakeList>>
 </$set>
 </$set>
-
-<!--
-<table>
-<$list filter='[tag[Plugin twCard]sort[category]each[category]]-[[Plugin Info Template]]+[rest[]]'>
-<tr><th>{{!!category}} Plugins</th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
-<tr><th>Name</th><th>Version</th><th>Date</th><th>Release</th><th>Maintainer</th><th>Description</th><th>Wiki</th></tr>
-<$set name=currentCategory value={{!!category}}>
-<$list filter='[tag[Plugin twCard]category<currentCategory>sort[title]]' template=PluginTWcardDisplayTemplate>
-
-</$list>
 </$set>
-</$list>
-</table>
--->

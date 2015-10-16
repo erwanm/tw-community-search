@@ -1,0 +1,4 @@
+title: Community News
+tags: CommunityTags
+
+{{||$:/CommunityTagTemplate}}

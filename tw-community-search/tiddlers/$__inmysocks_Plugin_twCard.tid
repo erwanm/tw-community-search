@@ -3,7 +3,7 @@ blurb: TWcards for plugins
 category: 
 created: 20150107223147193
 maintainer: 
-modified: 20151011182036002
+modified: 20151015084024958
 tags: inmysocks  Tools [[My Project]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Plugin twCard
@@ -13,4 +13,4 @@ If you see something wrong on this list, or have a plugin that should be include
 
 This list is one of the sources used for the list of plugins on the community search site [[here|http://erwanm.github.io/tw-community-search/#CommunityPlugins]]. If you can't find what you are looking for here that is a good place to look.
 
-<<tabs "[[twCard Listing - Plugins]][[Make Plugin twCard]][[Update Plugin twCard]][[Tiddlers Used for twCards]]">>
+<<tabs "[[twCard Listing - Plugins]][[Make Plugin twCard]][[Update Plugin twCard]][[Tiddlers Used for twCards]][[A Note to Plugin Authors]]">>

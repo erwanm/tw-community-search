@@ -1,0 +1,19 @@
+title: $:/TiddlyMap/TiddlyWiki images as node icons
+created: 20151015115029519
+modified: 20151015121537204
+tmap.id: 5cfaccd2-f7c6-4e98-a2ac-b0fa79b16373
+type: text/vnd.tiddlywiki
+tags: TiddlyMap 
+source-wiki-id: TiddlyMap
+source-tiddler-title-as-text: TiddlyWiki images as node icons
+source-tiddler-title-as-link: TiddlyWiki%20images%20as%20node%20icons
+
+TiddlyWiki <<version>> is shipped with a bunch of images. You can use these images as icons for TiddlyMap.
+
+Here is a list of images available in TiddlyWiki <<version>>:
+
+<$list filter="[all[shadows]prefix[$:/core/images/]] -[[$:/core/images/blank]]">
+
+{{!!text}} {{!!title}} <br />
+
+</$list>
