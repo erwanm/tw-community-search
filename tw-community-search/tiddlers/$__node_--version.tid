@@ -1,0 +1,9 @@
+title: $:/node/--version
+created: 20151014051232135
+modified: 20151014051309209
+summary: displays the [[tiddlywiki]] version number
+tags: node  commands
+source-wiki-id: node
+source-tiddler-title-as-text: --version
+source-tiddler-title-as-link: --version
+

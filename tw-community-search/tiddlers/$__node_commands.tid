@@ -1,0 +1,24 @@
+title: $:/node/commands
+created: 20150117174359000
+modified: 20151014135433999
+p.wikipath: an optional path to the [[wiki]] folder to be loaded<br>» default: if not defined, the current working directory is used
+summary: commands prefixed `--` for [[tiddlywiki]] on the [[node.js]] command-line 
+tags: node  concepts
+source-wiki-id: node
+source-tiddler-title-as-text: commands
+source-tiddler-title-as-link: commands
+
+Any [[tiddlywiki]] [[commands]] run from the <<cl>> are interpreted from left to right with their available [[parameters]], all arguments separated with spaces.
+
+Available [[commands]] are prefixed `--`, their parameters are not:
+
+```
+tiddlywiki [<wikipath>] [--<command> [<arg>[,<arg>]]]
+```
+
+; [[<wikipath>]]
+: {{!!p.wikipath}}
+
+''available commands''
+
+<<summaries "[tag[commands]sort[title]]">>

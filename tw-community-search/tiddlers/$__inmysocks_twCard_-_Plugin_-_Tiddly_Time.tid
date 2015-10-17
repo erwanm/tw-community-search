@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Tiddly Time
+audience: 
+category: Utility
+created: 20151015075959708
+date: 12.10.2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andrew
+modified: 20151015083939811
+name: Tiddly Time
+plugin_tiddler: $:/plugin/ajh/tiddlytime
+release: 
+repository: 
+revision: 0.0.8
+short_description: A nicely integrated clock for tiddlywiki
+wiki: http://tiddlytime.tiddlyspot.com/
+tags: inmysocks  [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Tiddly Time
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tiddly%20Time
+

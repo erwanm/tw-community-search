@@ -1,6 +1,6 @@
 title: $:/inmysocks/Make Plugin twCard
 created: 20150106180109481
-modified: 20150210014416596
+modified: 20151015082502126
 tags: inmysocks  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Make Plugin twCard
@@ -69,7 +69,10 @@ Long Description:
 </table>
 
 <table>
-<$list filter='[[Plugin Info Template]fields[]sort[title]]-[[text]]-[[modified]]-[[created]]-[[tags]]-[[title]]'>
+<$list filter='[[name]][[category]][[revision]][[date]][[maintainer]][[short_description]][[wiki]][[plugin_tiddler]]'>
+<tr><td><<currentTiddler>></td><td><$edit-text tiddler='$:/temp/addplugininformation' field=<<currentTiddler>> class='tc-edit-texteditor' size=70/></td></tr>
+</$list>
+<$list filter='[[Plugin Info Template]fields[]sort[title]]-[[text]]-[[modified]]-[[created]]-[[tags]]-[[title]]-[[name]]-[[revision]]-[[date]]-[[maintainer]]-[[short_description]]-[[wiki]]-[[plugin_tiddler]]-[[category]]'>
 <tr><td><<currentTiddler>></td><td><$edit-text tiddler='$:/temp/addplugininformation' field=<<currentTiddler>> class='tc-edit-texteditor' size=70/></td></tr>
 </$list>
 </table>

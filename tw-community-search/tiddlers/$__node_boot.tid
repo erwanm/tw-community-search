@@ -1,0 +1,46 @@
+title: $:/node/boot
+created: 20130825142900000
+modified: 20151013190021863
+summary: <<tw>> has a relatively small boot kernel that runs either under [[node.js]] or in the browser, all other functionality added via dynamically loaded [[modules]]
+tags: node  core
+source-wiki-id: node
+source-tiddler-title-as-text: boot
+source-tiddler-title-as-link: boot
+
+The kernel boots just enough of the [[tiddlywiki]] environment to allow it to load and execute module tiddlers. The module system is compatible with CommonJS and [[node.js]].
+
+There are many different types of [[modules]]: parsers, deserializers, widgets etc. Even the core fields are defined via a modules; one specifies how the `tags` field is handled, and others for the `modified` and `created` fields. Some modules have sub-modules, e.g. the wikitext parser accepts parsing rules as individual plugin modules.
+
+The tiddler [[$:/boot/boot.js]] is a barebones [[tiddlywiki]] kernel that is just sufficient to load the core plugin [[modules]] and trigger a [[startup]] module to load up the rest of the application.
+
+Each module is an ordinary CommonJS module, using the `require()` function to access other modules and the `exports` global to return [[javascript]] values.
+
+The [[boot]] kernel smooths over the differences between [[node.js]] and the browser, allowing the same plugin modules to execute in both environments.
+
+The boot kernel includes:
+
+* several short shared utility functions
+* methods implementing the module mechanism
+* the `$tw.Tiddler` class and field definition plugins
+* the `$tw.Wiki` class, and tiddler deserialization methods
+* code for the browser to load tiddlers from the HTML DOM
+* code for the server to load tiddlers from the file system
+
+!! Browser
+
+In the browser, `core/boot.js` is packed into a template HTML file that contains the following elements in order:
+
+* ordinary and system tiddlers, packed as [[html]] `<div>` elements
+* `core/bootprefix.js`, containing a few lines to set up the plugin environment
+* optional [[javascript]] [[modules]], packed as [[html]] `<script>` blocks
+* `core/boot.js`, containing the boot kernel
+
+!! Server
+
+On the server, `core/boot.js` is executed directly. It uses the [[node.js]] local file API to load plugins directly from the file system in the `core/modules` directory. The code loading is performed synchronously for brevity and because the system is in any case inherently blocked until [[plugins]] are loaded.
+
+The boot process sets up the `$tw` global variable that is used to store all the state data of the system.
+
+At the end of the boot process the [[startup]] mechanism schedules the execution of startup modules to bring up the rest of [[tiddlywiki]].
+
+Also see [[plugins]].

@@ -1,0 +1,26 @@
+title: $:/node/Updating TiddlyWiki
+caption: updating
+created: 20131202102427114
+modified: 20151014140213532
+summary: updating the [[tiddlywiki]] executable via [[npm]] command-line
+type: text/vnd.tiddlywiki
+tags: node  workflows
+source-wiki-id: node
+source-tiddler-title-as-text: Updating TiddlyWiki
+source-tiddler-title-as-link: Updating%20TiddlyWiki
+
+With any core update, please remember ''The First Rule Of Using ~TiddlyWiki'':
+
+<<<
+//You are responsible for looking after your own data; take care to make backups, especially when upgrading the ~TiddlyWiki core.//
+<<<
+
+To update [[tiddlywiki]] on [[node.js]], run as an administrator from your command-line:
+
+`npm update -g tiddlywiki`
+
+To run as admin on linux / mac:
+
+`sudo npm update -g tiddlywiki`
+
+For upgrading a [[standalone]] wiki, see <<tw Upgrading>>.

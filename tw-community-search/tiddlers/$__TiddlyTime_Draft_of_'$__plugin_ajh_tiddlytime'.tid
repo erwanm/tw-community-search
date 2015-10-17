@@ -1,0 +1,17 @@
+title: $:/TiddlyTime/Draft of '$:/plugin/ajh/tiddlytime'
+created: 20150818132745299
+dependents: time $:/info/timestamp $:/language/Buttons/Time/Caption $:/language/Buttons/Time/Hint $:/plugin/ajh/tiddlytime/DateTime.js $:/plugin/ajh/tiddlytime/icon $:/plugin/ajh/tiddlytime/images/time $:/plugin/ajh/tiddlytime/readme $:/plugin/ajh/tiddlytime/stylesheet $:/plugin/ajh/tiddlytime/Time.js
+description: Tiddlytime Button
+draft.of: $:/plugin/ajh/tiddlytime
+draft.title: $:/plugin/ajh/tiddlytime
+list: readme
+modified: 20151016133733874
+source: http://tiddlytime.tiddlyspot.com
+version: 0.0.8
+tags: TiddlyTime 
+source-wiki-id: TiddlyTime
+source-tiddler-title-as-text: Draft of '$:/plugin/ajh/tiddlytime'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugin%2fajh%2ftiddlytime%27
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,8 +1,0 @@
-title: $:/cpashow/RenderTiddlersCommand
-caption: rendertiddlers
-tags: cpashow  Commands
-source-wiki-id: cpashow
-source-tiddler-title-as-text: RenderTiddlersCommand
-source-tiddler-title-as-link: RenderTiddlersCommand
-
-{{$:/language/Help/rendertiddlers}}

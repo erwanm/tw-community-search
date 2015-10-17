@@ -1,0 +1,22 @@
+title: $:/node/saving
+created: 20150709150749755
+modified: 20151014124900658
+summary: the mechanism by which [[tiddlywiki]] generates a new [[html]] file and stores it as compared to [[syncing]] where changes to individual tiddlers are synchronised back to a server
+type: text/vnd.tiddlywiki
+tags: node  core
+source-wiki-id: node
+source-tiddler-title-as-text: saving
+source-tiddler-title-as-link: saving
+
+The following steps are involved:
+
+# the filter in $:/config/SaverFilter specifies which tiddlers when modified trigger the dirty state for the [[wiki]] in a browser, "dirty" meaning: the wiki needs saving
+# the ''save button'' {{$:/core/ui/Buttons/save}} is used to dispatch a <<tw "WidgetMessage%3A%20tm-save-wiki" tm-save-wiki>> message that triggers the saving operation
+# the optional parameter for ''tm-save-wiki'' specifies the template used for generating the [[html]] file, defaulting to $:/core/save/all
+#* in the client-server configuration, the [[tiddlyweb]] plugin uses the template [[$:/plugins/tiddlywiki/tiddlyweb/save/offline|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/tiddlyweb/save-offline.tid]] instead
+# a variable assignment in the template specifies a filter for all tiddlers to be included in the saved file while transcluding the main page template [[$:/core/templates/tiddlywiki5.html]]
+#* the template includes a reference that allows you to customise the filter by defining a global variable called ''publishFilter''
+# eventually, ''tm-save-wiki'' renders the template to generate the [[html]] file chosing the highest priority saver module to handle saving the file
+
+
+For more details, see: http://tiddlywiki.com/dev/#Saver

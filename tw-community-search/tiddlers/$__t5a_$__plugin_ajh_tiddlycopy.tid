@@ -1,11 +1,13 @@
 title: $:/t5a/$:/plugin/ajh/tiddlycopy
 created: 20150902052640307
+creator: Andrew Harrison
 dependents: $:/plugin/ajh/tiddlycopy/icon $:/plugin/ajh/tiddlycopy/readme $:/plugin/ajh/tiddlycopy/stylesheet $:/plugin/ajh/tiddlycopy/template/hide $:/plugin/ajh/tiddlycopy/template/show $:/plugin/ajh/tiddlycopy/template/toolbar
-description: Tiddly Viewer Copy button
+description: Tiddly Link Copy Button
 list: readme
-modified: 20151012225431302
+modified: 20151016133132494
+modifier: Andrew Harrison
 source: http://tiddlycopy.tiddlyspot.com
-version: 0.0.26
+version: 0.0.28
 tags: t5a 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlycopy
