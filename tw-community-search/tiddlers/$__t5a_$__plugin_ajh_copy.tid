@@ -2,10 +2,10 @@ title: $:/t5a/$:/plugin/ajh/copy
 created: 20150806001821444
 creator: Andrew
 dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugin/ajh/copy/Copy.js $:/plugin/ajh/copy/icon $:/plugin/ajh/copy/images/copy $:/plugin/ajh/copy/readme $:/plugin/ajh/copy/stylesheet
-description: Copy button
+description: Copy Button
 list: readme
-modified: 20151014022755710
-modifier: Andrew
+modified: 20151016132542799
+modifier: Andrew Harrison
 source: http://copy.tiddlyspot.com/
 version: 0.0.18
 tags: t5a 

@@ -1,14 +1,16 @@
 title: $:/t5a/Auto-username
 created: 20150423130435297
 creator: Andrew Harrison
-modified: 20150719173118067
+modified: 20151016134728726
 modifier: Andrew Harrison
-tags: t5a  New NeedsWork [[Under construction]]
+tags: t5a  Template [[Under construction]] New NeedsWork [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Auto-username
 source-tiddler-title-as-link: Auto-username
 
-{{Under construction}}Figure out how to set username automatically. Resource: [["aliasing" a username|https://groups.google.com/forum/m/#!topic/tiddlywiki/zqJlW8jEaT4]] (Eric Shulman 3/4/15)
+{{Under Construction}}
+
+Figure out how to set username automatically. Resource: [["aliasing" a username|https://groups.google.com/forum/m/#!topic/tiddlywiki/zqJlW8jEaT4]] (Eric Shulman 3/4/15)
 
 1) The username is really just a text string, the value of which is copied into the "modifier" field of a tiddler whenever that tiddler is edited.<br>
 2) The *display* of the username is defined in the core shadow: [[$:/core/ui/ViewTemplate/subtitle]], which contains:

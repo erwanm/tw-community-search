@@ -5,7 +5,8 @@ title: TiddlyTime
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlytime.tiddlyspot.com/
 wiki-tw-version: 5.1.9
-wiki-latest-modification: 20151012223859333
+wiki-latest-modification: 20151017011054981
 
+for current time and transcluding it where needed
 
 {{||$:/CommunityWikiPresentationTemplate}}

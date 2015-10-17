@@ -19,7 +19,7 @@ wiki: http://copy.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-wiki-id: CopyPlugin
 twcs-extracted-plugin-tiddler: $:/CopyPlugin/$:/plugin/ajh/copy
-twcs-description: Copy button
+twcs-description: Copy Button
 twcs-author: 
 twcs-version: 0.0.18
 
