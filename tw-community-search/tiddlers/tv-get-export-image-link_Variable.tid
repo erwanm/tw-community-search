@@ -1,4 +1,5 @@
 title: tv-get-export-image-link Variable
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

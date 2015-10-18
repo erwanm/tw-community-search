@@ -1,15 +1,11 @@
 title: $:/t5a/Tiddlytime Button
 created: 20141130065713572
 creator: Andrew Harrison
-modified: 20151016134221518
+modified: 20151017153124187
 modifier: Andrew Harrison
-tags: t5a  [[Under Construction]] New [[Under construction]] NeedsWork
+tags: t5a  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Tiddlytime Button
 source-tiddler-title-as-link: Tiddlytime%20Button
-
-{{Under Construction}}
-
-Need to update subtitle of all plugin sites,also look for any templates and make them system tiddlers
 
 {{$:/plugin/ajh/tiddlytime/readme}}

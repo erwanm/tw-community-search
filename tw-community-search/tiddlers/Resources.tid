@@ -1,4 +1,5 @@
 title: Resources
 tags: CommunityTags
+community-tag-count: 40
 
 {{||$:/CommunityTagTemplate}}

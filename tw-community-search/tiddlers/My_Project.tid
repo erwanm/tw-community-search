@@ -1,4 +1,5 @@
 title: My Project
 tags: CommunityTags
+community-tag-count: 27
 
 {{||$:/CommunityTagTemplate}}

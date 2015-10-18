@@ -1,4 +1,5 @@
 title: Config
 tags: CommunityTags
+community-tag-count: 8
 
 {{||$:/CommunityTagTemplate}}

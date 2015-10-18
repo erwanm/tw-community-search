@@ -1,4 +1,5 @@
 title: Item 4 sub 2 sub 1
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

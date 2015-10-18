@@ -1,4 +1,5 @@
 title: tiddler-ContactDisplayTemplate1 Settings
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

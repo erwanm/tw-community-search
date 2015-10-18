@@ -1,4 +1,5 @@
 title: store.php
 tags: CommunityTags
+community-tag-count: 3
 
 {{||$:/CommunityTagTemplate}}

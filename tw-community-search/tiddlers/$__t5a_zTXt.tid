@@ -1,14 +1,12 @@
 title: $:/t5a/zTXt
 created: 20150317024720222
 creator: Andrew Harrison
-modified: 20151016134924479
+modified: 20151017154805812
 modifier: Andrew Harrison
-tags: t5a  [[Tiddly Viewer]] [[Under construction]] zTXt New [[Under Construction]]
+tags: t5a  [[Tiddly Viewer]] zTXt New [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: zTXt
 source-tiddler-title-as-link: zTXt
-
-{{Under Construction}}
 
 &emsp;&emsp;This button will compress text into a blob with duplicate words and spaces removed. When used with Tiddly Viewer, the text from the external page can be searchable within the wiki while conserving file size.<br>
 &emsp;&emsp;I'm working on a button for the edit template and exploring options like Stephan's bookmarklets at: http://tw5magick.tiddlyspot.com/.<br>

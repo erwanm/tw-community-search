@@ -19,8 +19,8 @@ wiki: http://tiddlytime.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-wiki-id: TiddlyTime
 twcs-extracted-plugin-tiddler: $:/TiddlyTime/$:/plugin/ajh/tiddlytime
-twcs-description: Tiddlytime button
+twcs-description: Tiddlytime Button
 twcs-author: 
-twcs-version: 0.0.8
+twcs-version: 0.0.6
 
 {{||$:/CommunityPluginTemplate}}

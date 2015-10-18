@@ -1,14 +1,12 @@
 title: $:/t5a/Delete Non-essential
 created: 20150421125423206
 creator: Andrew Harrison
-modified: 20151016134830966
+modified: 20151017154843475
 modifier: Andrew Harrison
-tags: t5a  fields [[Under construction]] NeedsWork New [[Under Construction]]
+tags: t5a  fields NeedsWork New [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Delete Non-essential
 source-tiddler-title-as-link: Delete%20Non-essential
-
-{{Under Construction}}
 
 Delete non-essential shadow tiddlers using text editor to delete the text field and then edit within Tiddlywiki and add tag with trash can icon with hint saying deleted.
 

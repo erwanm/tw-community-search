@@ -1,4 +1,5 @@
 title: Musing
 tags: CommunityTags
+community-tag-count: 15
 
 {{||$:/CommunityTagTemplate}}

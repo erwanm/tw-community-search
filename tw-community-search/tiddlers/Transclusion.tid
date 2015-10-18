@@ -1,4 +1,5 @@
 title: Transclusion
 tags: CommunityTags
+community-tag-count: 9
 
 {{||$:/CommunityTagTemplate}}

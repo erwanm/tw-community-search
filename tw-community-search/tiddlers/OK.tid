@@ -1,4 +1,5 @@
 title: OK
 tags: CommunityTags
+community-tag-count: 26
 
 {{||$:/CommunityTagTemplate}}

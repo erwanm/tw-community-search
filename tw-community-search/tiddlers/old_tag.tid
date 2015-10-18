@@ -1,4 +1,5 @@
 title: old tag
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

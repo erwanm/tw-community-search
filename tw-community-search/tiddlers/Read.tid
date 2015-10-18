@@ -1,4 +1,5 @@
 title: Read
 tags: CommunityTags
+community-tag-count: 10
 
 {{||$:/CommunityTagTemplate}}

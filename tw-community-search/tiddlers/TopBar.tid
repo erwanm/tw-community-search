@@ -1,4 +1,5 @@
 title: TopBar
 tags: CommunityTags
+community-tag-count: 3
 
 {{||$:/CommunityTagTemplate}}

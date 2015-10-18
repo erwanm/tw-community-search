@@ -1,4 +1,5 @@
 title: answered
 tags: CommunityTags
+community-tag-count: 30
 
 {{||$:/CommunityTagTemplate}}

@@ -1,4 +1,5 @@
 title: tiddler-Contact Group Selector
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

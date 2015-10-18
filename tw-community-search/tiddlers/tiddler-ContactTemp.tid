@@ -1,4 +1,5 @@
 title: tiddler-ContactTemp
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

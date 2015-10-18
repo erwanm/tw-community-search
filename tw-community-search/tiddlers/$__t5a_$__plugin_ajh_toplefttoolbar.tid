@@ -1,9 +1,11 @@
 title: $:/t5a/$:/plugin/ajh/toplefttoolbar
 created: 20150821063313530
+creator: Andrew Harrison
 dependents: $:/plugin/ajh/toplefttoolbar/icon $:/plugin/ajh/toplefttoolbar/readme $:/plugin/ajh/toplefttoolbar/stylesheet $:/plugin/ajh/toplefttoolbar/template $:/plugin/ajh/toplefttoolbar/toolbar
-description: Top left toolbar
+description: Top Left Toolbar
 list: readme
-modified: 20151013002204127
+modified: 20151017025443636
+modifier: Andrew Harrison
 source: http://toplefttoolbar.tiddlyspot.com
 version: 0.0.5
 tags: t5a 

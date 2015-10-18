@@ -1,12 +1,51 @@
 created: 20141222175528807
-modified: 20150826180901766
+min-frequency: 10
+modified: 20151018003800519
+sort-by: frequency
 tags: TWCSCore TWCSContents
 title: CommunityTags
 type: text/vnd.tiddlywiki
 
-<$list filter="[has[source-wiki-id]tags[]!is[system]sort[title]] -[<currentTiddler>]">
-  <$transclude tiddler="$:/core/ui/TagTemplate"/>
-  <small class="tc-menu-list-count">
-    <$count filter="[all[current]tagging[]]"/>
-  </small><br/>
+
+\define displayTag()
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+      <small class="tc-menu-list-count">
+        {{!!community-tag-count}}
+      </small><br/>
+\end
+
+\define displayList(myFilter)
+ <$list filter=$myFilter$>
+   <<displayTag>>
+  </$list>
+\end
+
+
+
+
+//Show tags used at least
+<$select field="min-frequency" default=5>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>5</option>
+  <option>10</option>
+  <option>20</option>
+</$select>
+ times, sort by 
+<$select field="sort-by" default="frequency">
+  <option>name</option>
+  <option>frequency</option>
+</$select>
+//
+
+''<$count filter="[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}]"/> tags'' are used at least {{!!min-frequency}} times.
+
+
+<$list filter="[all[current]field:sort-by[frequency]]">
+  <<displayList "[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}!nsort[community-tag-count]]">>
 </$list>
+<$list filter="[all[current]field:sort-by[name]]">
+  <<displayList "[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}sort[title]]">>
+</$list>
+

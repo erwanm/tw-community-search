@@ -1,4 +1,5 @@
 title: TiddlyWeb
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

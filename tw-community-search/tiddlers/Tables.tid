@@ -1,4 +1,5 @@
 title: Tables
 tags: CommunityTags
+community-tag-count: 10
 
 {{||$:/CommunityTagTemplate}}

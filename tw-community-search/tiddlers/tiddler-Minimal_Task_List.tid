@@ -1,4 +1,5 @@
 title: tiddler-Minimal Task List
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

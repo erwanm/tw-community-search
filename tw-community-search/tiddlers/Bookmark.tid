@@ -1,4 +1,5 @@
 title: Bookmark
 tags: CommunityTags
+community-tag-count: 108
 
 {{||$:/CommunityTagTemplate}}

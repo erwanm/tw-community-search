@@ -1,4 +1,5 @@
 title: Comic
 tags: CommunityTags
+community-tag-count: 12
 
 {{||$:/CommunityTagTemplate}}

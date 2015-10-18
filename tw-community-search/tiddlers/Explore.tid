@@ -1,4 +1,5 @@
 title: Explore
 tags: CommunityTags
+community-tag-count: 16
 
 {{||$:/CommunityTagTemplate}}

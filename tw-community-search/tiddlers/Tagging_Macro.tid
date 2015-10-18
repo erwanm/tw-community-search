@@ -1,4 +1,5 @@
 title: Tagging Macro
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

@@ -1,4 +1,5 @@
 title: Render A Tag Button
 tags: CommunityTags
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

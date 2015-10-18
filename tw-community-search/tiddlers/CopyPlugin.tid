@@ -4,7 +4,7 @@ tags: CommunityWikis Andrew
 title: CopyPlugin
 type: text/vnd.tiddlywiki
 wiki-address: http://copy.tiddlyspot.com/
-wiki-tw-version: 5.1.9
+wiki-tw-version: 5.1.10-prerelease
 wiki-latest-modification: 20151016131628426
 
 for capturing rich text format to the clipboard

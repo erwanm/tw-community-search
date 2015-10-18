@@ -1,4 +1,5 @@
 title: Select
 tags: CommunityTags
+community-tag-count: 9
 
 {{||$:/CommunityTagTemplate}}

@@ -1,4 +1,5 @@
 title: prod
 tags: CommunityTags
+community-tag-count: 3
 
 {{||$:/CommunityTagTemplate}}

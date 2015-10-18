@@ -1,4 +1,5 @@
 title: People
 tags: CommunityTags
+community-tag-count: 6
 
 {{||$:/CommunityTagTemplate}}

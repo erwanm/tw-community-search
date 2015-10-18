@@ -1,4 +1,5 @@
 title: UI
 tags: CommunityTags
+community-tag-count: 20
 
 {{||$:/CommunityTagTemplate}}
