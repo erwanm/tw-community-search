@@ -1,5 +1,5 @@
 created: 20141221163448239
-modified: 20151011180924006
+modified: 20151017230955374
 tags: TWCSCore
 title: Version
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 \end
 
 \define nbTags()
-  <$count filter="[has[source-wiki-id]tags[]!is[system]sort[title]] -[<currentTiddler>]">
+  <$count filter="[tag[CommunityTags]]">
 \end
 
 \define nbWikis()
