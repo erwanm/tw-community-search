@@ -3,12 +3,12 @@ color: #ff0000
 created: 20150303040000787
 creator: Andrew Harrison
 label: Toggle Tag Pill 1
-modified: 20151018235239229
+modified: 20151019062713523
 modifier: Andrew Harrison
 target: TagPill1b
-tags: t5a  New
+tags: t5a  Template New
 source-wiki-id: t5a
 source-tiddler-title-as-text: TagPill1a
 source-tiddler-title-as-link: TagPill1a
 
-Some text.
+{{TagPill1a!!label||$:/ToggleTagTemplate}}Some text.
