@@ -1,9 +1,9 @@
 title: $:/t5a/TagPill1a
-color: #ffb300
+color: #ff0000
 created: 20150303040000787
 creator: Andrew Harrison
 label: Toggle Tag Pill 1
-modified: 20151018003652136
+modified: 20151018235239229
 modifier: Andrew Harrison
 target: TagPill1b
 tags: t5a  New
