@@ -45,7 +45,7 @@ git push
 echo "step 8: switching to gh-pages"
 git checkout gh-pages
 rm -f index.html
-mv "$tmpFile" index.html
+add-google-analytics-snippet.sh "UA-69035624-1" "$tmpFile" "index.html"
 if [ -d "news-static" ]; then
     rm -rf "news-static"/*
 else
