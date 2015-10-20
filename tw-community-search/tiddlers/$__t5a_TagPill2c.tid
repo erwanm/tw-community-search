@@ -1,0 +1,14 @@
+title: $:/t5a/TagPill2c
+color: #80ff00
+created: 20151020052134978
+creator: Andrew Harrison
+label: Toggle Tag Pill 2
+modified: 20151020052202736
+modifier: Andrew Harrison
+target: TagPill2d
+tags: t5a  Template New
+source-wiki-id: t5a
+source-tiddler-title-as-text: TagPill2c
+source-tiddler-title-as-link: TagPill2c
+
+{{TagPill2c!!label||$:/ToggleTagTemplate}}Some text.
