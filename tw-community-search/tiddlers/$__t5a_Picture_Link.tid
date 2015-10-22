@@ -1,0 +1,11 @@
+title: $:/t5a/Picture Link
+created: 20151021125538085
+creator: Andrew Harrison
+modified: 20151021125759773
+modifier: Andrew Harrison
+tags: t5a  Example New
+source-wiki-id: t5a
+source-tiddler-title-as-text: Picture Link
+source-tiddler-title-as-link: Picture%20Link
+
+`[img[path/to/image.jpg]ext[http://www.url.com/]]` or `[img[path/to/image.jpg]link[TiddlerTitle]]`
