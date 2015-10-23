@@ -1,12 +1,12 @@
-title: $:/tiddlyclip/TiddlyClipConfig
+title: $:/tiddlyclip/TiddlyClipConfig1
 created: 20140920195158911
-modified: 20141218120600560
+modified: 20150307182600618
 revision: 0
 type: text/vnd.tiddlywiki
 tags: tiddlyclip 
 source-wiki-id: tiddlyclip
-source-tiddler-title-as-text: TiddlyClipConfig
-source-tiddler-title-as-link: TiddlyClipConfig
+source-tiddler-title-as-text: TiddlyClipConfig1
+source-tiddler-title-as-link: TiddlyClipConfig1
 
 !default
 |!Category|!Tip|!Tags|!Rule Tid|!Modes|

@@ -1,6 +1,6 @@
 title: $:/tiddlyclip/Upgrade Instructions
 created: 20141217223703194
-modified: 20150307131209768
+modified: 20151022181206429
 revision: 0
 type: text/vnd.tiddlywiki
 tags: tiddlyclip 
@@ -12,11 +12,11 @@ To updrage the plugin to version 0.08:-
 
 > drop this link onto your tiddlywiki - [[$:/plugins/bj/tiddlyclip]], then reload your tiddlywiki .
 
-You should also upgrade the firefox plugin to 0.0.8 :-
+You should also upgrade the firefox plugin to 0.0.9 :-
 
 >{{Installing the Firefox Addon}}
 
-See [[The Release Notes|Release 0.08]]
+See [[The Release Notes|Release 0.09]]
 
 installing the chrome Addon
 

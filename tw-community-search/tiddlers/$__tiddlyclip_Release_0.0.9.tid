@@ -1,0 +1,16 @@
+title: $:/tiddlyclip/Release 0.0.9
+created: 20151022180412455
+modified: 20151022181556306
+revision: 1
+type: text/vnd.tiddlywiki
+tags: tiddlyclip 
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: Release 0.0.9
+source-tiddler-title-as-link: Release%200.0.9
+
+!! Bug Fixes
+ 
+* [[Fixed|https://github.com/buggyj/tiddlyclip/issues/18]] addon fails mozilla online sigining with version 41
+  
+
+See [[Release 0.08]]

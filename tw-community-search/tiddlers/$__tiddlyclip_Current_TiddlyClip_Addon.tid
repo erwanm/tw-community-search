@@ -1,6 +1,6 @@
 title: $:/tiddlyclip/Current TiddlyClip Addon
 created: 20141218162657389
-modified: 20150307131022730
+modified: 20151022181455324
 revision: 0
 type: text/vnd.tiddlywiki
 tags: tiddlyclip 
@@ -8,4 +8,4 @@ source-wiki-id: tiddlyclip
 source-tiddler-title-as-text: Current TiddlyClip Addon
 source-tiddler-title-as-link: Current%20TiddlyClip%20Addon
 
-[[https://github.com/buggyj/tiddlyclip/raw/0.0.8/tiddlyclip.xpi]]
+[[https://github.com/buggyj/tiddlyclip/raw/0.0.9/tiddlyclip.xpi]]
