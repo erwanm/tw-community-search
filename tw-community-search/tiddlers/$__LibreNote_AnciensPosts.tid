@@ -1,19 +1,18 @@
 title: $:/LibreNote/AnciensPosts
 created: 20150613114448832
-modified: 20150924144440723
+creator: svink
+modified: 20151023133252144
+modifier: svink
 tags: LibreNote  transparent
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: AnciensPosts
 source-tiddler-title-as-link: AnciensPosts
 
-!!!Archives
+!!!<i class="fa fa-archive"></i> Archives
 ---
 
 <div style="text-align:left; font-size:0.9em;">
-<$list filter='[tag[Blog]has[annee]each[annee]get[annee]nsort[annee]]' variable=CurrentYear>
-''__<<CurrentYear>>__''<br>
-<dl><$list filter='[tag[Blog]!nsort[created]rest[3]]'>
-<dt>{{!!date}} - <$link>{{!!title}}</$link></dd>
-<dt>{{!!summary}}</dt>
-</$list>
-</dl>
+<$list filter='[tag[Blog]!nsort[created]rest[2]]'>
+''<$view field="created" format="date" template="DDth MMM YYYY"/>'' - <$link>{{!!title}}</$link>
+<dt>{{!!resume}}</dt>
+<br>

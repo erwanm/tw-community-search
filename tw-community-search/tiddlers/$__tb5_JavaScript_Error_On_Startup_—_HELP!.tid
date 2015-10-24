@@ -22,7 +22,7 @@ First things first. If you have your TiddlyWiki to update the URL whenever a tid
 
 If that does not allow you to remove the offending bits, try loading your TiddlyWiki in safe-mode by appending `#:safe` to the url of your wiki.
 
-This should disable all plugins amongst others and allows you to edit or delete whatever you suspect the culprit to be. Reaload without safe-mode and see if the error is gone.
+<<tw SafeMode>> should disable all plugins amongst others and allows you to edit or delete whatever you suspect the offending tidbits to be. Save your changes and reaload without safe-mode enabled to see if the error is gone.
 
 !! 3. Import Into Empty
 

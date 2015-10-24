@@ -1,0 +1,15 @@
+title: $:/LibreNote/$:/plugins/svink/newpost
+author: svink
+core-version: 5.1.9
+created: 20151016123222252
+description: A new post button
+modified: 20151016123304863
+name: NewPost
+version: 0.0.2
+tags: LibreNote 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: $:/plugins/svink/newpost
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsvink%2fnewpost
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

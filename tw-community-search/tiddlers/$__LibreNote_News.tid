@@ -1,6 +1,8 @@
 title: $:/LibreNote/News
 created: 20150614135816901
-modified: 20150924142331214
+creator: svink
+modified: 20151023083715274
+modifier: svink
 tags: LibreNote 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: News
@@ -8,7 +10,7 @@ source-tiddler-title-as-link: News
 
 <div style="text-align:left; font-size:0.8em; color:black;">
 <dl><$list filter='[tag[Blog]!nsort[created]limit[3]]'>
-<dt>{{!!date_court}} - <$button class="tc-btn-invisible tc-tiddlylink">
+<dt><$view field="created" format="date" template="0DD/0MM/YY"/> - <$button class="tc-btn-invisible tc-tiddlylink">
 <$action-setfield $tiddler="$:/StoryList" list="
 [[DerniersPosts]]
 [[ListeTags]]"/>

@@ -24,14 +24,9 @@ Create a [[tiddler|$:/.tb/ui/ViewTemplate/summary-link]] tagged [[$:/tags/ViewTe
 !!Step 2
 Create a `list-after` field with the value "[[$:/core/ui/ViewTemplate/tags]]" to make the summary segment appear immediately after the tags.
 
-!Examples
+!Example
 
-!!Summary Field
-The [[$:/.tb/ui/ViewTemplate/summary]] serves as a template for a conditional ~ViewTemplate section that displays the value of the `summary` field for all tiddlers having a summary field defined, see [[Conditional Summary]].
-
-!!URL
-
-The [[$:/.tb/ui/ViewTemplate/url]] serves as a template for a conditional ~ViewTemplate section that displays the link referenced in a `url` field for any tiddlers having this field defined, see [[Tobias Beer]].
+The [[$:/.tb/ui/ViewTemplate/summary-link]] serves as a template for a conditional ~ViewTemplate section that displays the value of the ''summary'' field for all tiddlers having a `summary` field defined, see [[Conditional Summary]] and / or a link referenced in a ''url'' field for any tiddlers having this field defined, see [[Tobias Beer]].
 
 !Tagging List
 For all tiddlers tagged ''Project'', lists tiddlers tagging to them.

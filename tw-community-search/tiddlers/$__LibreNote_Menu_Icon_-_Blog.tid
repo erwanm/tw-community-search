@@ -1,12 +1,15 @@
 title: $:/LibreNote/Menu Icon - Blog
 created: 20150611083036820
-modified: 20150617210437519
+creator: svink
+modified: 20151023094926333
+modifier: svink
 top_right_menu_order: 2
 tags: LibreNote  icone
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Menu Icon - Blog
 source-tiddler-title-as-link: Menu%20Icon%20-%20Blog
 
+@@.tc-icon-menu
 <$link to="BannièreBlog"></$link>
 <$button class="tc-btn-invisible" tooltip='Le Blog'>
 <$action-setfield $tiddler="$:/StoryList" list="
@@ -16,3 +19,4 @@ source-tiddler-title-as-link: Menu%20Icon%20-%20Blog
 <$action-navigate $to="BannièreBlog" $scroll="yes"/>
 <i class="fa fa-comments"></i> Blog
 </$button>
+@@
