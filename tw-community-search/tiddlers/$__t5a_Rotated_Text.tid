@@ -1,11 +1,12 @@
 title: $:/t5a/Rotated Text
 created: 20150505133223969
 creator: Andrew Harrison
-modified: 20150505133352628
+modified: 20151024180554168
 modifier: Andrew Harrison
-tags: t5a  Examples New
+tags: t5a  New Example [[Under Construction]] [[Needs Work]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Rotated Text
 source-tiddler-title-as-link: Rotated%20Text
 
-Use the CSS "transform" attribute, like this:@@display:block;transform: rotate(-90deg); your text here @@
+Use the CSS "transform" attribute, like this:
+@@display:block;transform: rotate(-90deg); your text here @@

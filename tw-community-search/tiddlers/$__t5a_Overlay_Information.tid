@@ -1,12 +1,12 @@
-title: $:/t5a/Overlay
+title: $:/t5a/Overlay Information
 created: 20150125043941442
 creator: Andrew Harrison
-modified: 20150527021455803
+modified: 20151024174904089
 modifier: Andrew Harrison
-tags: t5a  New [[Tick Sheet]]
+tags: t5a  Example New [[Tick Sheet]]
 source-wiki-id: t5a
-source-tiddler-title-as-text: Overlay
-source-tiddler-title-as-link: Overlay
+source-tiddler-title-as-text: Overlay Information
+source-tiddler-title-as-link: Overlay%20Information
 
 &emsp;&emsp;Mostly from Tobias Beer's [[overlay|http://tobibeer.github.io/tb5/#overlay]] macro (1/18/15). The ''overlay'' macro allows you to overlay or toggle content. As an example...
 

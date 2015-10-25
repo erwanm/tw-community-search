@@ -1,15 +1,15 @@
 title: $:/t5a/TagPill1b
-color: #00ff00
+color: #ffff00
 created: 20150303040100554
 creator: Andrew Harrison
 label: Toggle Tag Pill 1
-modified: 20151022133504441
+modified: 20151024171716559
 modifier: Andrew Harrison
 target: TagPill1c
 tooltip: Second state of button.
-tags: t5a  Template
+tags: t5a  New
 source-wiki-id: t5a
 source-tiddler-title-as-text: TagPill1b
 source-tiddler-title-as-link: TagPill1b
 
-{{TagPill1b!!label||$:/ToggleTagTemplate}}<br>Some text!
+{{TagPill1b!!label||$:/TagStyleButton}}Some text!

@@ -1,5 +1,5 @@
 title: Examples
 tags: CommunityTags
-community-tag-count: 30
+community-tag-count: 22
 
 {{||$:/CommunityTagTemplate}}
