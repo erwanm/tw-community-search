@@ -1,6 +1,6 @@
 title: $:/Dynamic Tables Demo Site/Instructions
 created: 20150319035653818
-modified: 20150626191734835
+modified: 20151026094443104
 tags: Dynamic Tables Demo Site 
 source-wiki-id: Dynamic Tables Demo Site
 source-tiddler-title-as-text: Instructions
@@ -10,7 +10,23 @@ All of the macros are in [[Table Macros]], so you should only have to import tha
 
 !Simple Row/Column Tables
 
-The two macros `ColumnTable` and `RowTable` each take a filter as input. This filter defines which tiddlers are the columns for the `ColumnTable` macro and the rows for the `RowTable` macro. For the `ColumnTable` macro the rows of the table are defined by the fields in each tiddler returned by the filter, for the`RowTable` macro the columns are defined by the fields in the returned tiddlers.
+Row table:
+
+```
+<<RowTable "row tiddler filter" "field filter">>
+```
+
+Column table:
+
+```
+<<ColumnTable "column tiddler filter" "field filter">>
+```
+
+The two macros `ColumnTable` and `RowTable` each take a filter listing tiddlers as input, with an optional second filter listing fields. 
+
+The tiddler filter defines which tiddlers are the columns for the `ColumnTable` macro and the rows for the `RowTable` macro. 
+
+If the second filter is left out, the rows of the `ColumnTable` macro are defined by the fields in each tiddler returned by the tiddler filter, the columns for the`RowTable` macro are defined by the fields in the returned tiddlers.
 
 For row tables you can click on a column header and sort the table by that column, for column tables you can click on the row label and sort the columns by that row. Unfortunately sorting column tables by the columns or row tables by the rows is probably going to take some javascript that I don't feel like dealing with right now. It requires sorting the fields of a tiddler by their contents.
 

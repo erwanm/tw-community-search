@@ -1,6 +1,6 @@
 title: $:/Dynamic Tables Demo Site/Table Macros
 created: 20150319034848355
-modified: 20150626192350949
+modified: 20151026094051616
 tags: Dynamic Tables Demo Site 
 source-wiki-id: Dynamic Tables Demo Site
 source-tiddler-title-as-text: Table Macros
@@ -351,23 +351,14 @@ Empty cell message:
 \end
 
 \define TableMacrosInnerColumnTable()
-<$set name=FieldsList filter='$(ColumnList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[created]]-[[tags]]'>
+<$set name=FieldsList1 filter='$(ColumnList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[created]]-[[tags]]'>
+<$set name=FieldsList filter='[is[system]!is[system]]$(FieldsUsed)$' emptyValue=<<FieldsList1>>>
 <$set name=RowOrColumn value=Column>
 <$set name=TableSortState value=<<TableMacrosMakeTableSortState>>>
   <table>
-  <!--
-    <tr>
-      <th>
-      </th>
-      <$list filter='$(ColumnList)$+[sort<TableSortState>]'>
-        <th>
-          <<currentTiddler>>
-        </th>
-      </$list>
-    </tr>
-    -->
     <<TableMacrosColumnInnerInnerRows>>
   </table>
+</$set>
 </$set>
 </$set>
 </$set>
@@ -397,7 +388,8 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
 \end
 
 \define TableMacrosInnerRowTable()
-<$set name=FieldsList filter='$(RowList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[created]]-[[tags]]'>
+<$set name=FieldsList1 filter='$(RowList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[created]]-[[tags]]'>
+<$set name=FieldsList filter='[is[system]!is[system]]$(FieldsUsed)$' emptyValue=<<FieldsList1>>>
 <$set name=RowOrColumn value=Row>
 <$set name=TableSortState value=<<TableMacrosMakeTableSortState>>>
   <table>
@@ -416,21 +408,26 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
 </$set>
 </$set>
 </$set>
+</$set>
 \end
 
-\define ColumnTable(filter)
+\define ColumnTable(filter fields)
 <$set name='ColumnList' value='$filter$'>
+<$set name='FieldsUsed' value='$fields$'>
 
 <<TableMacrosInnerColumnTable>>
 
 </$set>
+</$set>
 \end
 
-\define RowTable(filter)
+\define RowTable(filter fields)
 <$set name='RowList' value='$filter$'>
+<$set name='FieldsUsed' value='$fields$'>
 
 <<TableMacrosInnerRowTable>>
 
+</$set>
 </$set>
 \end
 

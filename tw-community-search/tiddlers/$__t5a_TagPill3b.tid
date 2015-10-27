@@ -1,0 +1,16 @@
+title: $:/t5a/TagPill3b
+color: #ff0000
+created: 20151026132504790
+creator: Andrew Harrison
+description: More text to be copied to the text area.
+label: Copy2Text Tag Pill
+modified: 20151026132613384
+modifier: Andrew Harrison
+target: TagPill3a
+tooltip: Copy to the text area.
+tags: t5a  New
+source-wiki-id: t5a
+source-tiddler-title-as-text: TagPill3b
+source-tiddler-title-as-link: TagPill3b
+
+{{TagPill3b||$:/TagStyleButton}}
