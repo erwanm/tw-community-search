@@ -2,8 +2,9 @@ title: $:/t5a/TagPill1a
 color: #00ff00
 created: 20150303040000787
 creator: Andrew Harrison
+description: Some text
 label: Toggle Tag Pill 1
-modified: 20151025173207114
+modified: 20151028031042858
 modifier: Andrew Harrison
 target: TagPill1b
 tooltip: Initial state of button.
