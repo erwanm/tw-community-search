@@ -6,7 +6,7 @@ description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0
 revision: 0
-version: 5.1.9-prerelease
+version: 5.1.9
 tags: BJTools 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/core
