@@ -1,0 +1,23 @@
+title: $:/VecmapPlugin/vecmap Test CSS
+created: 20151026054558101
+creator: ihm4u
+modified: 20151026063816687
+modifier: ihm4u
+type: text/css
+tags: VecmapPlugin 
+source-wiki-id: VecmapPlugin
+source-tiddler-title-as-text: vecmap Test CSS
+source-tiddler-title-as-link: vecmap%20Test%20CSS
+
+.vmap-node {
+   background-color: blue;
+   color: white;
+}
+
+.vmap-link {
+   stroke: red;
+}
+
+.vmap-arrow {
+   fill: red;
+}

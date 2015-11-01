@@ -3,13 +3,15 @@ caption: Introduction
 created: 20141129170848534
 creator: Andrew Harrison
 list-before: 
-modified: 20151031182304647
+modified: 20151101174631579
 modifier: Andrew Harrison
 tags: t5a  Contents New
 source-wiki-id: t5a
 source-tiddler-title-as-text: My Adventure
 source-tiddler-title-as-link: My%20Adventure
 
-&emsp;&emsp;<mark>@@.tc-red Hello@@</mark>, my name is [[Andrew Harrison]] and this is my web site for my work in progress modifying Tiddlywiki 5. Tiddlywiki 5 is the genius work of Jeremy Ruston.<br>
-&emsp;&emsp;I started using Tiddlywiki (now referred to as Tiddlywiki Classic or TWC) back in 2008.<br>
-&emsp;&emsp;My plan for this page is to upgrade to Tiddlywiki 5 at work when I've found the same or better usefulness then TWC.
+<mark>@@.tc-red Hello@@</mark>, my name is [[Andrew Harrison]] and this is my web site for my work in progress modifying Tiddlywiki 5. Tiddlywiki 5 is the genius work of Jeremy Ruston.
+
+I started using Tiddlywiki (now referred to as Tiddlywiki Classic or TWC) back in 2008.<br>
+
+My plan for this page is to upgrade to Tiddlywiki 5 at work when I've found the same or better usefulness then TWC.

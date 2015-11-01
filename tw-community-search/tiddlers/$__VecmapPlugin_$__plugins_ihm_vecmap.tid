@@ -1,0 +1,17 @@
+title: $:/VecmapPlugin/$:/plugins/ihm/vecmap
+author: IHM4U
+core-version: 5.1.9
+created: 20151024161804175
+creator: ihm4u
+description: Vector Map - SVG Map of tiddlers
+list: readme Changelog
+modified: 20151025053554498
+modifier: ihm4u
+version: 0.8.9
+tags: VecmapPlugin 
+source-wiki-id: VecmapPlugin
+source-tiddler-title-as-text: $:/plugins/ihm/vecmap
+source-tiddler-title-as-link: %24%3a%2fplugins%2fihm%2fvecmap
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
