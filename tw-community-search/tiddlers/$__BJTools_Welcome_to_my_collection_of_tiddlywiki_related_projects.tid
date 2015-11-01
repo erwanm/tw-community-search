@@ -1,6 +1,6 @@
 title: $:/BJTools/Welcome to my collection of tiddlywiki related projects
 created: 20140216101316280
-modified: 20150913155541321
+modified: 20151031214358396
 revision: 0
 type: text/vnd.tiddlywiki
 tags: BJTools 
@@ -15,6 +15,7 @@ source-tiddler-title-as-link: Welcome%20to%20my%20collection%20of%20tiddlywiki%2
 |! <hr> |! <hr> |! <hr> |
 |TagList|[[$:/plugins/bj/taglist]] |list by tag that is re-orderable by drag/drop |
 |VisualEditor|[[$:/plugins/bj/visualeditor]] |Enable html based content to be created or edited|
+|MarKed|[[$:/plugins/bj/plugins/marked]]|alternative markdown syntax |
 |! <hr> |! <hr> |! <hr> |
 |JsonEditor|[[$:/plugins/bj/jsoneditor]]|display and edit jsons as trees|
 |ClickAction|[[$:/plugins/bj/smalltools]]|allows multiple actions on a lists to be activated at the same time|
