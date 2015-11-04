@@ -1,5 +1,5 @@
-title: News
+title: Temple
 tags: CommunityTags
-community-tag-count: 4
+community-tag-count: 2
 
 {{||$:/CommunityTagTemplate}}

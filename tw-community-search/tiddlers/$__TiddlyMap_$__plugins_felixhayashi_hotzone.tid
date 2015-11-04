@@ -2,11 +2,11 @@ title: $:/TiddlyMap/$:/plugins/felixhayashi/hotzone
 author: Felix Küppers
 core-version: >=5.1.5
 dependents: 
-description: HotZone - Be notified when tiddlers are scrolled into view
+description: HotZone – Be notified when tiddlers are scrolled into view
 list: Configuration License Readme
 released: 
 source: https://github.com/felixhayashi/TW5-HotZone
-version: 0.0.2
+version: 0.0.3
 tags: TiddlyMap 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/hotzone
