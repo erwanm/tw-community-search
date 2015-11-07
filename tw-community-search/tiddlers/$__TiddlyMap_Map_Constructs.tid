@@ -1,10 +1,10 @@
 title: $:/TiddlyMap/Map Constructs
 created: 20150711234909575
-modified: 20150914161306052
+modified: 20151106173835293
 order.challenges: 7
 tmap.id: b37abde1-4fa2-4ce6-896b-05eb694c5718
 type: text/vnd.tiddlywiki
-tags: TiddlyMap  Challenges
+tags: TiddlyMap  Challenges Insight
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Map Constructs
 source-tiddler-title-as-link: Map%20Constructs
@@ -25,11 +25,11 @@ Map constructs may be understood as the conceptual building blocks of TiddlyMap.
 
 <div id="construct-table-wrapper">
 
-| !Views|[[Views|Graph views]] are rules that determine which nodes and edges are displayed in a graph |
+| !|[[Views]] are rules that determine which nodes and edges are displayed in a graph |
 | !Nodes|Representations of tiddlers in a graph |
 | !Edges|Connect nodes with each other |
-| !Edge Types|[[Edge-Types]] are the blueprint for edge instances |
-| !Node Types| Are the blueprint for node instances |
+| !Edge Types|[[Edge types]] are the blueprint for edge instances |
+| !Node Types|[[Node types]] are the blueprint for node instances |
 | !Edge-Type Namespaces|Define the contexts of edge-types |
 
 </div>

@@ -1,19 +1,19 @@
-title: $:/TiddlyMap/Moving nodes between graphs
+title: $:/TiddlyMap/Copy & paste nodes between views
 created: 20150930165724213
-modified: 20150930172314035
+modified: 20151106172217572
 tmap.id: 171dd7c4-b0e4-4737-9daa-4ada5ecc55de
 type: text/vnd.tiddlywiki
-tags: TiddlyMap  [[Basic concepts]]
+tags: TiddlyMap  Views
 source-wiki-id: TiddlyMap
-source-tiddler-title-as-text: Moving nodes between graphs
-source-tiddler-title-as-link: Moving%20nodes%20between%20graphs
+source-tiddler-title-as-text: Copy & paste nodes between views
+source-tiddler-title-as-link: Copy%20%26%20paste%20nodes%20between%20views
 
 \rules except wikilink
 
-<i class="fa fa-exclamation-triangle" /> This feature is available as of TiddlyMap v0.9.3.
+{{This feature is available as of TiddlyMap v0.9.3.||$:/me/info}}
 
 ! Selection of nodes
-Select multiple nodes By holding down the control key and clicking on the nodes. Alternatively, you can hold down the left mouse-key on a node for one second to select this node along with other nodes.
+Select multiple nodes By holding down the control key and clicking on the nodes. Alternatively, you can hold down the left mouse-key on a node for one second to select this node along with other nodes. To select all nodes use `ctrl+a`.
 
 ! Cut or copy nodes
 After selection, press `ctrl+x` to cut nodes or `ctrl+c` to copy nodes from the current view. The nodes will be copied into your clipboard and can be pasted via `ctrl+v` into another graph.

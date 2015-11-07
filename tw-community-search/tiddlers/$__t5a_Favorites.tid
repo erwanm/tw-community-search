@@ -1,12 +1,11 @@
 title: $:/t5a/Favorites
-created: 20150424001622923
+created: 20151106131925668
 creator: Andrew Harrison
-modified: 20151102125318798
+modified: 20151106132016459
 modifier: Andrew Harrison
-resource: http://favorites.tiddlyspot.com/
-tags: t5a  New [[Needs Work]] [[Under Construction]]
+tags: t5a  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Favorites
 source-tiddler-title-as-link: Favorites
 
-{{Under construction}}Create favorites mechanism
+{{$:/plugin/ajh/favorites/readme}}

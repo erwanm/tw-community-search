@@ -1,9 +1,11 @@
 title: $:/t5a/Troubleshooting Macros
 created: 20150423003117817
 creator: Andrew Harrison
-modified: 20151024180453976
+modified: 20151107014701894
 modifier: Andrew Harrison
-tags: t5a  New [[Wish List]] [[Needs Work]]
+resource: Another resource: https://tobibeer.github.io/tb5/#Conditional%20ViewTemplate%20Section<br>Another resource: http://inmysocks.tiddlyspot.com/#How%20to%20make%20macros
+show-field: resource
+tags: t5a  New [[Needs Work]] [[Under Construction]] Example
 source-wiki-id: t5a
 source-tiddler-title-as-text: Troubleshooting Macros
 source-tiddler-title-as-link: Troubleshooting%20Macros
@@ -14,8 +16,4 @@ Here's one useful trick. Let's say that you're working on a macro `<<myFancyMacr
 
 The `<<dumpvariables>>` macro can also be useful. It shows the variable values in force at the point where the macro is invoked, so you can check that variables used in your macros have the expected values.
 
-http://tiddlywiki.com/#DumpVariablesMacro
-
-Another resource: https://tobibeer.github.io/tb5/#Conditional%20ViewTemplate%20Section
-
-Another resource: http://inmysocks.tiddlyspot.com/#How%20to%20make%20macros
+http://tiddlywiki.com/#dumpvariables%20Macro

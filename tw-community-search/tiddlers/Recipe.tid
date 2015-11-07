@@ -1,5 +1,5 @@
 title: Recipe
 tags: CommunityTags
-community-tag-count: 2
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}

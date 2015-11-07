@@ -1,18 +1,20 @@
-title: $:/TiddlyMap/Dealing with interferences between graphs
+title: $:/TiddlyMap/Dealing with interferences between views
 created: 20150119180138081
-modified: 20150401212618582
+modified: 20151106174637172
 tmap.id: a6cd2976-7837-4eb0-b43e-e6163a823121
 type: text/vnd.tiddlywiki
 tags: TiddlyMap  Recipe
 source-wiki-id: TiddlyMap
-source-tiddler-title-as-text: Dealing with interferences between graphs
-source-tiddler-title-as-link: Dealing%20with%20interferences%20between%20graphs
+source-tiddler-title-as-text: Dealing with interferences between views
+source-tiddler-title-as-link: Dealing%20with%20interferences%20between%20views
+
+{{$:/me/docs/outdated}}
 
 Tiddlers (including their relationships) may be shared by different graphs and thus a tiddler-update may affect multiple graphs at once - same goes for adding relations - if the filters (views) are not disjunct. 
 
 if you don't want that, make sure tiddlers exclusively match a single filter and configure your view to operate in //private edge mode//.
 
-Generally, it is regarded as best practice to group tiddlers that you want to be displayed together in a graph by using a certain tag that delimits the group and which may be used as filter component in the view.
+Generally, it is regarded as best practice to group tiddlers that you want to be displayed together in a graph by using a certain tag that delimits the group and which may be used as filter in the view.
 
 For example, if you want to create a graph that is concerned with the topic //cooking//.
 

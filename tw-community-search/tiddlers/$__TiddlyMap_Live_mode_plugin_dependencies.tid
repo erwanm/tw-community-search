@@ -1,12 +1,14 @@
-title: $:/TiddlyMap/Live View plugin dependencies
+title: $:/TiddlyMap/Live mode plugin dependencies
 created: 20150516165140567
-modified: 20150930180143196
+modified: 20151106201922935
 tmap.id: 72b15ed6-6eff-443e-89b1-28c46a8d884d
 type: text/x-markdown
-tags: TiddlyMap 
+tags: TiddlyMap  Installation
 source-wiki-id: TiddlyMap
-source-tiddler-title-as-text: Live View plugin dependencies
-source-tiddler-title-as-link: Live%20View%20plugin%20dependencies
+source-tiddler-title-as-text: Live mode plugin dependencies
+source-tiddler-title-as-link: Live%20mode%20plugin%20dependencies
+
+The "live tab" and the "live view" feature depend on some plugins in order to function correctly. If you followed the standard installation routine, most likely, you will have all plugins installed. In case you are unsure, open the TiddlyWiki control panel and see which plugins are currently active in your wiki.
 
 |  | Story view | Installed plugins | Experience | Remark |
 |---|------------|-------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
