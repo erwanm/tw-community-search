@@ -1,5 +1,0 @@
-title: home
-tags: CommunityTags
-community-tag-count: 1
-
-{{||$:/CommunityTagTemplate}}

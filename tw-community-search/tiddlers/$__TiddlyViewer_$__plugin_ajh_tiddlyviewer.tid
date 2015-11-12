@@ -5,7 +5,7 @@ description: Tiddly Viewer
 list: readme
 modified: 20150913015625500
 source: http://tiddlyviewer.tiddlyspot.com/
-version: 0.0.12
+version: 0.0.13
 tags: TiddlyViewer 
 source-wiki-id: TiddlyViewer
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlyviewer

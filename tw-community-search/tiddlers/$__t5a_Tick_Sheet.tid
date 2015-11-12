@@ -1,10 +1,10 @@
 title: $:/t5a/Tick Sheet
-color: LightGray
-created: 20151031022942653
+color: #ccc
+created: 20151111185646576
 creator: Andrew Harrison
 description: This tiddler will help me take notes and quickly remember great amounts of information temporarily all in one place. Inspired by Stephan Hradek's slider. Also, designed to be dynamic so it can be cloned. It stores the states from the slider buttons and text field in a temp tiddler. The reset button deletes the temp tiddler to reset everything from this tiddler. Cloned forms have reset buttons that clear their own forms.<br>{{!!title||$:/Here}}
 icon: $:/core/images/done-button
-modified: 20151107051658353
+modified: 20151111185659387
 modifier: Andrew Harrison
 show-field: description -color -icon
 tags: t5a  New Contents

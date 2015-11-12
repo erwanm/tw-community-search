@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/ihm/bible'
-name: unknown
-plugin_tiddler: $:/plugins/ihm/bible
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

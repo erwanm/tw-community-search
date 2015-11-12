@@ -5,7 +5,7 @@ description: Tiddlytime Button
 list: readme
 modified: 20151017151701938
 source: http://tiddlytime.tiddlyspot.com
-version: 0.0.6
+version: 0.0.7
 tags: TiddlyTime 
 source-wiki-id: TiddlyTime
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlytime

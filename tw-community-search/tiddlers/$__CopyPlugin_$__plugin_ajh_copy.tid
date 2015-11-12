@@ -7,7 +7,7 @@ list: readme
 modified: 20151016131628426
 modifier: Andrew
 source: http://copy.tiddlyspot.com/
-version: 0.0.18
+version: 0.0.21
 tags: CopyPlugin 
 source-wiki-id: CopyPlugin
 source-tiddler-title-as-text: $:/plugin/ajh/copy
