@@ -1,6 +1,8 @@
 title: $:/LibreNote/Sources
 created: 20150704165307661
-modified: 20150924143011821
+creator: svink
+modified: 20151112185752047
+modifier: svink
 tags: LibreNote 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Sources
@@ -16,6 +18,6 @@ L'ensemble des sources sont disponibles sur le dépôt Git du projet.
 
 <td valign="center">
 <div style="font-size:0.7em;text-align:left;margin-left:5em;">
-<a href="https://bitbucket.org/librenotes/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
+<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
 <i class="fa fa-bitbucket"></i> Dépôt Git</a>
 </div>

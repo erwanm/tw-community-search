@@ -1,9 +1,9 @@
 title: $:/node/--output
 created: 20140425085548209
-modified: 20151014051016301
+modified: 20151111060122165
 p.pathname: (optional) the output directory<br>» default: the ''output'' folder in the current [[wiki]] / [[edition|editions]] folder
 params: <pathname>
-summary: sets the base output directory for subsequent commands
+summary: sets the base output directory for __subsequent__ commands
 tags: node  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --output

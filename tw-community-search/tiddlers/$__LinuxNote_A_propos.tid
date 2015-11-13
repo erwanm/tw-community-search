@@ -1,6 +1,6 @@
 title: $:/LinuxNote/A propos
 created: 20150128080335075
-modified: 20150921094823318
+modified: 20151112185254137
 tags: LinuxNote 
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: A propos
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: A%20propos
 <a href="mailto:svink@openmailbox.org" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank"> <i class="fa fa-envelope"></i> Contact mail
 </a>
 
-<a href="https://bitbucket.org/librenotes/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
+<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
 <i class="fa fa-bitbucket"></i> Dépôt Bitbucket
 </a>
 {{$:/snippets/download-wiki-button}}

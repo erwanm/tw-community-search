@@ -1,7 +1,7 @@
 title: $:/GitNote/Git c'est quoi ?
 created: 20150216085058617
 list: [[Installer et configurer Git]] [[Utiliser Git]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]] [[Travailler avec un dépôt distant]] [[Exemple de mise en œuvre]] [[Tagger ses versions]]
-modified: 20150913141437634
+modified: 20151112182551800
 tags: GitNote  Menu [[Mises à jour]]
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Git c'est quoi ?
@@ -33,7 +33,7 @@ Ces trois éléments expliquent que les fichiers peuvent être sous 3 états dis
 *''Indexé'': signifie que le fichier a été marqué pour être ajouté au prochain instantané de votre projet
 *''Validé'': signifie que les données sont stockées dans votre base de données locale.
 
-<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=rorKScGHP8jiMqW&download" "Fonctionnement de Git (Source: https://thkoch2001.github.io/whygitisbetter/)">>
+<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=rorKScGHP8jiMqW&download" "Fonctionnement de Git (Source: https://git-scm.com)">>
 
 Tout ceci est quasi transparent pour l'utilisateur, retenez simplement les commandes et Git se charge du reste. L'utilisation standard de Git se passe comme suit :
 
