@@ -39,7 +39,7 @@ tw-generate-community-news-static.sh -o "$workDir/tw-community-news" tw-communit
 
 echo "step 7: committing and pushing changes for node.js version"
 git add -A tw-community-search/tiddlers/
-git commit -m "automatic update" 
+git commit --author="auto <>"  -m "automatic update"
 git push
 
 echo "step 8: switching to gh-pages"
@@ -57,7 +57,7 @@ mv news-static/static.html news-static/index.html
 echo "step 9: committing and pushing changes"
 git add index.html
 git add -A news-static
-git commit -m "automatic update"
+git commit --author="auto <>" -m "automatic update"
 git push
 
 git checkout automatic
