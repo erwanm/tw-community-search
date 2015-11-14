@@ -1,7 +1,7 @@
 title: $:/TiddlyNote/Héberger son TiddlyWiki
 created: 20150216135212745
 list: [[Configurer son dépôt Git]] [[Ajouter son TiddlyWiki]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]]
-modified: 20150921100147763
+modified: 20151113163558778
 tags: TiddlyNote  Git Menu
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Héberger son TiddlyWiki
@@ -16,7 +16,7 @@ Une solution intéressante pour héberger son ~TiddlyWiki est d'utiliser un serv
 Un des avantages est qu'ils offrent gratuitement un service d’hébergement de Pages ([[GitHub Pages|https://pages.github.com/]] et [[Bitbucket Pages|http://pages.bitbucket.org/]]), qui vous permet d’héberger votre site web très facilement et directement depuis votre dépôt en ligne.
 
 <div style="font-size:0.7em;text-align:left;margin-top:3em;margin-bottom:3em;">
-<a href="https://bitbucket.org/librenotes/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
+<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
 <i class="fa fa-bitbucket"></i> Mon dépôt Bitbucket
 </a>
 </div>

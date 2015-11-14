@@ -3,7 +3,7 @@ counter: 1
 created: 20150126150739422
 creator: Tobias Beer
 foo: foo value
-modified: 20151027082111991
+modified: 20151113090249926
 modifier: Tobias Beer
 order: 1
 revision: 0
@@ -79,6 +79,14 @@ Here's a rudimentary example to reorder lists using the ''calc'' macro...
 
 ><<calc calc!!order +1>>
 
+`<<calc !!order / by:10>>`
+
+><<calc !!order / by:10>>
+
+`<<calc !!order * by:!!order>>`
+
+><<calc !!order * by:!!order>>
+
 `<<calc !!order -2>>`
 
 ><<calc !!order -2>>
@@ -147,16 +155,10 @@ Here's a rudimentary example to reorder lists using the ''calc'' macro...
 
 ><<calc !!order -1 0 true>>
 
-`<<calc !!order / by:10>>`
-
-><<calc !!order / by:10>>
-
-`<<calc !!order * by:!!order>>`
-
-><<calc !!order * by:!!order>>
-
 !! Release Notes
 
+; 2015-11-13
+: [[fixed minor bug|http://bit.ly/1Ldi79B]]
 ; 2015-10-27
 : added ''by''
 

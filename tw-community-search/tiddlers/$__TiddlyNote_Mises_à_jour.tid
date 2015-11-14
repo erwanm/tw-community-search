@@ -2,12 +2,16 @@ title: $:/TiddlyNote/Mises à jour
 color: 
 created: 20141028235539032
 icon: $:/core/images/refresh-button
-modified: 20151112184922277
+modified: 20151113163732815
 num_recent: 10
 tags: TiddlyNote 
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Mises à jour
 source-tiddler-title-as-link: Mises%20à%20jour
+
+<i class="fa fa-refresh"></i> 13/11/2015
+
+*Changement URL dépôt dans [[Héberger son TiddlyWiki]]
 
 <i class="fa fa-refresh"></i> 12/11/2015
 
