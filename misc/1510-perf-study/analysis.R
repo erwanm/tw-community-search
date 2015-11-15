@@ -20,5 +20,5 @@ filterElements <- function(data, seriesV, deviceV, wikiVersionProbe, wikiVersion
 }
 
 boxPlotsFreeY <- function(df, xVar='wikiVersion', yVar='mainRefresh') {
-  ggplot(df, aes_string(x=xVar,y=yVar)) +geom_boxplot() + facet_grid(element ~ ., scales='free_y')
+  ggplot(df, aes_string(x=xVar,y=yVar,fill=xVar)) +geom_boxplot() + facet_grid(element ~ ., scales='free_y')
 }
