@@ -1,11 +1,13 @@
 created: 20151013200813050
 modified: 20151013201051887
-tags: CommunityWikis Andrew
+tags: CommunityWikis
+author: Andrew
 title: CopyPlugin
 type: text/vnd.tiddlywiki
 wiki-address: http://copy.tiddlyspot.com/
 wiki-tw-version: 5.1.10-prerelease
 wiki-latest-modification: 20151016131628426
+wiki-nb-tiddlers: 5
 
 for capturing rich text format to the clipboard
 

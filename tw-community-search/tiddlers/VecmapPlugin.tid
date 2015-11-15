@@ -1,10 +1,12 @@
 created: 20151101145741571
 modified: 20151101145857478
-tags: CommunityWikis ihm4u
+tags: CommunityWikis
+author: ihm4u
 title: VecmapPlugin
 type: text/vnd.tiddlywiki
 wiki-address: https://ihm4u.github.io/vecmap/
 wiki-tw-version: wiki-latest-modification: 
+wiki-nb-tiddlers: 1
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

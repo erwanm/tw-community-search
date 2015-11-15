@@ -1,9 +1,10 @@
 title: Dynamic Tables Demo Site
-tags: CommunityWikis JedCarty
+tags: CommunityWikis 
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/DynamicTables/
 wiki-tw-version: 5.1.7
 wiki-latest-modification: 20151026095147993
+wiki-nb-tiddlers: 24
 
 dynamically created tables that are filterable, sortable, and in-line editable
 

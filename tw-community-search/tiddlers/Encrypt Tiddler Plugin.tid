@@ -1,11 +1,13 @@
 created: 20150531205309380
 modified: 20151011150323317
-tags: CommunityWikis DanieloRodriguez
+tags: CommunityWikis
+author: DanieloRodriguez
 title: Encrypt Tiddler Plugin
 type: text/vnd.tiddlywiki
 wiki-address: http://danielorodriguez.com/TW5-EncryptTiddlerPlugin/
 wiki-tw-version: 5.1.8-prerelease
 wiki-latest-modification: 20150404210915824
+wiki-nb-tiddlers: 9
 
 Encrypt single tiddlers
 

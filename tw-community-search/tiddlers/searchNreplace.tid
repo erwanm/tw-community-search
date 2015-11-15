@@ -1,11 +1,13 @@
 created: 20150531205519237
 modified: 20150531205541798
-tags: CommunityWikis DanieloRodriguez
+tags: CommunityWikis
+author: DanieloRodriguez
 title: searchNreplace
 type: text/vnd.tiddlywiki
 wiki-address: http://danielorodriguez.com/TW5-searchNreplace
 wiki-tw-version: 5.1.8-prerelease
 wiki-latest-modification: 20150409195540885
+wiki-nb-tiddlers: 6
 
 searchNreplace plugin for ~TiddlyWiki5
 
