@@ -1,5 +1,5 @@
 created: 20150105002709937
-modified: 20150819171820406
+modified: 20151114214748201
 tags: TWCSCore
 title: $:/CommunityWikiShortDescription
 type: text/vnd.tiddlywiki
@@ -19,8 +19,7 @@ TW version {{||$:/CommunityWikiTWVersionInfo
 }}<br/>
 
 @@font-style: italic;
-<$count filter="[source-wiki-id<currentTiddler>sort[title]]" /> 
-tiddlers. Latest modification <$view field="wiki-latest-modification" format="relativedate"/>.
+{{!!wiki-nb-tiddlers}} tiddlers. Latest modification <$view field="wiki-latest-modification" format="relativedate"/>.
 @@
 <br/>
 <$transclude tiddler="$:/core/ui/TagTemplate"/>
