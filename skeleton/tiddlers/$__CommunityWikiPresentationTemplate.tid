@@ -1,5 +1,5 @@
 created: 20141222174553788
-modified: 20150902234413479
+modified: 20151114214711313
 tags: TWCSCore
 title: $:/CommunityWikiPresentationTemplate
 type: text/vnd.tiddlywiki
@@ -38,7 +38,7 @@ type: text/vnd.tiddlywiki
 
 !!! Tiddlers
 
-<$count filter="[source-wiki-id<currentTiddler>sort[title]]" /> indexed tiddlers.
+{{!!wiki-nb-tiddlers}} indexed tiddlers.
 
 <$button set="$:/PresentationTiddlerShowTiddlers" setTo="show">Show tiddlers</$button>
 <$button set="$:/PresentationTiddlerShowTiddlers" setTo="hide">Hide tiddlers</$button>
