@@ -1,0 +1,20 @@
+title: $:/cpashow/Task 2
+created: 20151016004102386
+end: <<addDays [[Task 1]] start 9>>
+modified: 20151016014224939
+start: <<addDays [[Task 1]] start 4>>
+tags: cpashow  task
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Task 2
+source-tiddler-title-as-link: Task%202
+
+Start: {{!!start}}
+
+End: {{!!end}}
+
+Start field contents: `<<addDays [[Task 1]] start 4>>`
+
+End field contents: `<<addDays [[Task 1]] start 9>>`
+
+
+This relies on [[$:/_cpa/macros/addDays]] which makes a call to [[$:/plugin/ajh/tiddlytime/DateTime.js]]

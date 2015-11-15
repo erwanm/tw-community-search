@@ -1,0 +1,15 @@
+title: $:/cpashow/concat_error
+created: 20150401045551145
+modified: 20150416034319025
+tags: cpashow  taglist
+source-wiki-id: cpashow
+source-tiddler-title-as-text: concat_error
+source-tiddler-title-as-link: concat_error
+
+Fixed in <<version>>
+<$list filter="[[jsonlist]indexes[]]">
+<$list filter="[[jsonlist]getindex<currentTiddler>]+[addprefix[GetThis ]]">
+
+<$view field='title'/>
+</$list>
+</$list>
