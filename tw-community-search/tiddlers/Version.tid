@@ -1,5 +1,5 @@
 created: 20141221163448239
-modified: 20151017230955374
+modified: 20151115142713618
 tags: TWCSCore
 title: Version
 type: text/vnd.tiddlywiki
@@ -20,7 +20,7 @@ type: text/vnd.tiddlywiki
 \end
 
 \define nbWikis()
-  <$count filter="[tag[CommunityAuthors]has[licence]tagging[]!has[empty-wiki]]"/>
+  <$count filter="[tag[CommunityWikis]has[wiki-latest-modification]]"/>
 \end
 
 A full re-indexing of the content is performed daily. The last update was done on the <<getMostRecent>> 
