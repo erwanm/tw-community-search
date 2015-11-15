@@ -1,0 +1,22 @@
+created: 20151115162407042
+modified: 20151115164717655
+tags: CommunityNews
+title: CommunitySearch: (modest) performance improvement
+type: text/vnd.tiddlywiki
+
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graph-wikis-authors-list.svg" target="_blank">
+<img src="http://erwanm.github.io/tw-community-search/img/perf-graph-wikis-authors-list.svg" alt="Perf graph" width="100
+" border=/> </a>
+
+
+One might not be able to notice it, but the [[CommunityWikis|http://erwanm.github.io/tw-community-search/#CommunityWikis]] and [[CommunityAuthors|http://erwanm.github.io/tw-community-search/#CommunityAuthors]] lists are now displayed about 20% faster.
+
+
+The [[CommunityTags|http://erwanm.github.io/tw-community-search/#CommunityTags]] list has also been improved, by allowing the user to select the amount of tags they want to see.
+
+<style>
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+</style>
