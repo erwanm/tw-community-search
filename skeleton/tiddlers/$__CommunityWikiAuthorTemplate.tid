@@ -1,12 +1,11 @@
 created: 20150104141304073
-modified: 20150105011806634
+modified: 20151115143330933
 tags: TWCSCore
 title: $:/CommunityWikiAuthorTemplate
 type: text/vnd.tiddlywiki
 
-
 <ul>
-<$list filter="[all[current]tagging[]tag[CommunityWikis]]">
+<$list filter="[tag[CommunityWikis]field:author<currentTiddler>]">
   <li>{{||$:/CommunityWikiShortDescription}}</li>
 </$list>
 </ul>
