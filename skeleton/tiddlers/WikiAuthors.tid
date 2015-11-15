@@ -1,6 +1,6 @@
 color: #1cc975
 created: 20150104160233908
-modified: 20150826181035574
+modified: 20151115005828597
 tags: TWCSCore TWCSContents
 title: CommunityAuthors
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
       </$link>
     </li>
     <ul>
-      <$list filter="[tag<currentAuthor>tag[CommunityWikis]]">
+      <$list filter="[tag[CommunityWikis]field:author<currentAuthor>]">
         <li>{{||$:/CommunityWikiShortDescription}}</li>
       </$list>
     </ul>
