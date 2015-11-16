@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/howwownow/bundles'
+name: unknown
+plugin_tiddler: $:/plugins/howwownow/bundles
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

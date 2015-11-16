@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/Interactive Fiction Engine (inmysocks)
+caption: Interactive Fiction Engine
+category: Website
+created: 20150203205341970
+description: An interactive fiction engine using I made using TiddlyWiki
+modified: 20150604182816364
+name_plate_type: TiddlyWiki
+type: 
+url: http://zorklike.tiddlyspot.com/
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-link: Interactive%20Fiction%20Engine%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

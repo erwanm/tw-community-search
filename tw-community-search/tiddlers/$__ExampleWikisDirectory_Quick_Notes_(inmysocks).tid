@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/Quick Notes (inmysocks)
+caption: Quick Notes
+category: Plugin
+created: 20150604165944718
+description: A simple note taking tool for tiddlywiki
+modified: 20150604183813902
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Quick%20Notes%20Plugin
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Quick Notes (inmysocks)
+source-tiddler-title-as-link: Quick%20Notes%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

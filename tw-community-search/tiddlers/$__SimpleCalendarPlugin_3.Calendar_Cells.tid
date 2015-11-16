@@ -1,0 +1,33 @@
+title: $:/SimpleCalendarPlugin/3.Calendar Cells
+created: 20151115193709985
+modified: 20151115204344982
+tags: SimpleCalendarPlugin  CalendarDoc
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 3.Calendar Cells
+source-tiddler-title-as-link: 3.Calendar%20Cells
+
+The output of the calendar macro is an html `<table>` element :
+
+*First row : it contains the buttons (unless `buttons:none` is used in the call) and the title. From left to right, you have the following buttons :
+**previous year
+**previous month,
+**title : brings you back to the current year/month,
+**next month,
+**next year.
+*Second row : Days of the week, the starting day is defined by `startingDay:n` where n = 0 (Sunday), 1 (Monday), ... , 6 (Saturday). The names are defined in the [[config tiddler|$:/plugins/frd/calendar/calendarConfig]].
+*The other rows contain the "ordinary" calendar cells.
+
+The html content of a cell is something like :
+
+`<td class = <<calendarCellCss ... args>>>  <<cellContentMacro ... args>> </td>`
+
+<<<
+''So you can define your own macros for the content and the css applied to a cell.''
+<<<
+Anyway the default macros which are provided along with the calendar macro will cover most use cases (At least I hope so !).
+
+More details :
+
+[[3.1.Cell Content]]
+
+[[3.2.Cell Css]]

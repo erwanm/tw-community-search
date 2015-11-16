@@ -1,0 +1,14 @@
+author: MatthewLauber
+created: 20151115194137502
+modified: 20151116005340596
+tags: CommunityWikis
+title: MathJSPlugin
+type: text/vnd.tiddlywiki
+wiki-address: http://mklauber.github.io/tiddly-mathjs/latest.html
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151115200949718
+wiki-nb-tiddlers: 2
+
+Widget for calculating mathematical expressions 
+
+{{||$:/CommunityWikiPresentationTemplate}}

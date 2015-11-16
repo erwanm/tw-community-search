@@ -1,0 +1,17 @@
+title: $:/SimpleCalendarPlugin/2.State Tiddler
+created: 20151115193625985
+modified: 20151115204259217
+tags: SimpleCalendarPlugin  CalendarDoc
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 2.State Tiddler
+source-tiddler-title-as-link: 2.State%20Tiddler
+
+The state tiddler contains the two fields (year and month) the calendar macro uses to display the calendar.
+
+When a button is clicked (previou/next year/month or current month/year) the field's value changes and the calendar is updated accordingly.
+
+You may specify the state tiddler this way : `<<calendar state:myCalendarState>>`. You can define a state tiddler for one or many calendars. You can even use your personalized [[config tiddler|$:/plugins/frd/calendar/calendarConfig]] as state tiddler as well.
+
+If you don't define a state tiddler, the current tiddler is used to hold the year and month fields.
+
+You don't need to create the state tiddler before calling the calendar macro ; if it doesn't exist or if the fields are not defined, it will be created at the first click on a calendar button.

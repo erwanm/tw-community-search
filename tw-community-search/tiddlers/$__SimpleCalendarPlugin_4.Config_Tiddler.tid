@@ -1,0 +1,15 @@
+title: $:/SimpleCalendarPlugin/4.Config Tiddler
+created: 20151115194035671
+modified: 20151115204438274
+tags: SimpleCalendarPlugin  CalendarDoc
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 4.Config Tiddler
+source-tiddler-title-as-link: 4.Config%20Tiddler
+
+The config tiddler store the configuration values for the calendar. As for the state tiddler, you can define a config tiddler for your calendar or use the default one.
+
+To declare a config tiddler : `<<calendar config:myConfigTiddler>>`
+
+If you want to use a config tiddler, iy's safer for you to clone the default one, rename it and modify the values. A it is a JSON tiddler, it's easier to use an editor oe even a code editor to work on it.
+
+See  [[4.1.Config Tiddler More]]  for more details.

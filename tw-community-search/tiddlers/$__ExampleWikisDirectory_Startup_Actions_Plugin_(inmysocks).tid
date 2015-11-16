@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/Startup Actions Plugin (inmysocks)
+caption: Startup Actions
+category: Plugin
+created: 20150604171102919
+description: A plugin that runs startup scripts for tiddlywiki
+modified: 20150604183905024
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Startup%20Actions%20Plugin
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Startup Actions Plugin (inmysocks)
+source-tiddler-title-as-link: Startup%20Actions%20Plugin%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

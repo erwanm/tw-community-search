@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/Library Tracker (inmysocks)
+caption: Library Tracker
+category: Plugin
+created: 20150604165259917
+description: A multimedia library tracker and manager plugin
+modified: 20150604182832463
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Library%20Tracker%20Plugin
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Library Tracker (inmysocks)
+source-tiddler-title-as-link: Library%20Tracker%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

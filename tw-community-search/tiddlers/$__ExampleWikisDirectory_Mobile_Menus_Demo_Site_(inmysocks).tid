@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/Mobile Menus Demo Site (inmysocks)
+caption: Mobile Menus Demo Site
+category: Site
+created: 20150721202753620
+description: A site that demonstrates the mobile type menus
+modified: 20150721202907753
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/Text%20Menus/
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Menu Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Mobile Menus Demo Site (inmysocks)
+source-tiddler-title-as-link: Mobile%20Menus%20Demo%20Site%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

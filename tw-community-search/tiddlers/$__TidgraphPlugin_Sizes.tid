@@ -1,0 +1,12 @@
+title: $:/TidgraphPlugin/Sizes
+created: 20151024163558704
+modified: 20151024164113911
+tags: TidgraphPlugin 
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: Sizes
+source-tiddler-title-as-link: Sizes
+
+<$list filter="[prefix[$:/plugins/ihm]]">
+<$macrocall $name="length" tiddler={{!!title}}/>
+<$link><$view field=title/></$link><br>
+</$list>

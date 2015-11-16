@@ -1,0 +1,49 @@
+title: $:/SimpleCalendarPlugin/4.1.Config Tiddler More
+created: 20151115194218060
+modified: 20151115203707186
+tags: SimpleCalendarPlugin  [[4.Config Tiddler]]
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 4.1.Config Tiddler More
+source-tiddler-title-as-link: 4.1.Config%20Tiddler%20More
+
+The default config tiddler is [[$:/_frd/macros/calendar/calendarConfig]]. It's a one level deep JSON tiddler except for the last part about the css.
+
+!!Description
+
+|!Index|!Description|
+|startingDay|Starting day for the calendar from "0" (Sunday), "1" (Monday) to "6" (Saturday|
+|days|Name of the days of the week. Change the values for your language. Always start with Sunday or the translation in your language.|
+|months|Not used for now|
+|monthabr|abbreviation for the month names. Used in the title of the calendar|
+|buttons|"none" for no buttons, any other value leads to buttons on the first row.|
+|buttonsImages|Images or text for the buttons. Here the core images are used.|
+|cellContentPreDef|Predefined values for the macro used for the cell content. If the value of the parameter `cellContent` is in this list, the macro `calendarCellContent_"value"` is used. It's a list of shortcuts for the macros.|
+|cellContent|When the value is in the lisof shortcuts  above, the corresponding macro is called. For now two values have de corresponding macro : basic and linkFormat.|
+|dateFormat|Format used when `cellContent:linkFormat` is used. This is the format of the tiddler title when clicking on a day. If empty, the default format define for journal tiddlers is used.|
+|cellCss|Not used for now|
+|cellCssConfig|See below|
+
+!!The css config part
+
+!!!Description
+The value of the `cellCssConfig` index is an array of arrays.
+
+Each array has the following structure :
+
+*a name for a group of days, for instance "holidays", "restdays", ... . This name is also the name of a function that is called on the values for the cell of year, month, day and numDay, and the arguments (see below).
+*a name of a css class to be added to the list for the cell, if the test function returns true
+*the arguments according to the test function.
+
+For now there are 3 predefined test functions : 
+
+*"restdays" to test a date according to numDay,
+*"holidays" to test a date against a list of dates,
+*"today" to test if the cell contains the current date.
+
+You can add as many arrays of this type inside the main array. They are read and applied in the order they are listed.
+
+!!!Writing a new test function
+
+<<<
+''to do''
+<<<

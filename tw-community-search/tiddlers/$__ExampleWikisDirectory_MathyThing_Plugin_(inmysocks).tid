@@ -1,0 +1,18 @@
+title: $:/ExampleWikisDirectory/MathyThing Plugin (inmysocks)
+caption: MathyThing
+category: Plugin
+created: 20150604170524191
+description: A plugin that adds some math operations to tiddlywiki
+modified: 20150604182906482
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#MathyThing%20Plugin
+tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: MathyThing Plugin (inmysocks)
+source-tiddler-title-as-link: MathyThing%20Plugin%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

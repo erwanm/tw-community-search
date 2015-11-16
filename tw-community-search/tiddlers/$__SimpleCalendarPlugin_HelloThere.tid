@@ -1,0 +1,15 @@
+title: $:/SimpleCalendarPlugin/HelloThere
+created: 20151016165936348
+modified: 20151115202734477
+tags: SimpleCalendarPlugin 
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: HelloThere
+source-tiddler-title-as-link: HelloThere
+
+This is the home page of the simple calendar plugin, v0.1.10.
+
+The big change from the previous version is a datePicker macro (in wikitext).
+
+''If you want to give it a try, grab this link : [[$:/plugins/frd/calendar]]''
+
+See : [[Calendar Documentation]]
