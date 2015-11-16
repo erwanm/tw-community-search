@@ -3,8 +3,10 @@ author: Brian Theado
 core-version: >=5.0.8
 dependents: 
 description: JSONEditor: Generate html forms from JSON schema
+list: readme usage
+revision: 0
 source: https://github.com/btheado/jsoneditor
-version: 0.0.1
+version: 0.0.2
 tags: JSONEditor 
 source-wiki-id: JSONEditor
 source-tiddler-title-as-text: $:/plugins/btheado/jsoneditor

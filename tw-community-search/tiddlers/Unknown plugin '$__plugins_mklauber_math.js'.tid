@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/mklauber/math.js'
-name: unknown
-plugin_tiddler: $:/plugins/mklauber/math.js
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
