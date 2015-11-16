@@ -1,0 +1,19 @@
+title: $:/howwownow/Goodies
+created: 20151111094856961
+creator: Christopher Mann <christopher@mann.fr>
+list-after: HowWowNowPluginLibrary
+modified: 20151116030044575
+modifier: Christopher Mann <christopher@mann.fr>
+plugout: ChristopherMann/HowWowNow
+revision: 3
+type: text/vnd.tiddlywiki
+tags: howwownow  Plugins ChristopherMann/HowWowNow Goodies
+source-wiki-id: howwownow
+source-tiddler-title-as-text: Goodies
+source-tiddler-title-as-link: Goodies
+
+Goodies is a collection of tiddlers I commonly use.
+
+[[$:/plugins/howwownow/goodies]]
+
+Github repository here: https://github.com/chris2fr/tiddlywiki-goodies
