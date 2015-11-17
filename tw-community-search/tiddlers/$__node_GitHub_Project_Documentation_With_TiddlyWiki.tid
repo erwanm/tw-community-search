@@ -3,7 +3,7 @@ caption: github project documentation
 created: 20130825150100000
 modified: 20151014140348694
 summary: use [[tiddlywiki]] to maintain the documentation for your [[github]] project based on a [[wiki]] containing separate tiddler [[files]] under full source code control
-tags: node  workflows
+tags: [[node]]  workflows
 source-wiki-id: node
 source-tiddler-title-as-text: GitHub Project Documentation With TiddlyWiki
 source-tiddler-title-as-link: GitHub%20Project%20Documentation%20With%20TiddlyWiki

@@ -1,0 +1,46 @@
+title: $:/External Brain (inmysocks)/Getting and setting up a Raspberry Pi
+created: 20150512220837016
+modified: 20150512230413245
+tags: [[External Brain (inmysocks)]]  Tutorials
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Getting and setting up a Raspberry Pi
+source-tiddler-title-as-link: Getting%20and%20setting%20up%20a%20Raspberry%20Pi
+
+Required items:
+
+* A [[raspberry pi|https://www.raspberrypi.org/products/]], it should cost about US$35, plus whatever shipping costs. I think it was about US$40 for me with taxes and shipping.
+* A USB keyboard and mouse. These are only needed for the initial setup, if you can borrow them from another computer for half an hour or so you should be fine.
+* A connection to the internet
+* A class 10 or better microsd card, I think you need at least a 4gig card, people recomend at least an 8gig card. Due to weird prices an 8gig card costs about the same as a 4gig card. The 8gig class 10 card I got cost me about US$5
+* A display that can take HDMI input and an HDMI cable, or a display with component input and a 3.5mm to component video cable. This is only needed for setup, if you have access to one for half an hour than you should be just fine. I used the monitor for my desktop computer, but most modern tvs would work.
+* An eithernet cable and a place you can leave the raspberry pi plugged into a router or somewhere else it can access the internet. You should be able to do this using a wireless dongle too.
+* A powersupply that can give 5V at between around 400mA to 1A through a micro usb cable. I am using a cell phone charger. I tried with a 150mA charger and it wasn't enough to even turn on the pi, so you need more than that. Somewhere in the small text on the charger should something that looks sort of like 5V = 0.7A (it isn't actually an equals sign, it is a solid line with a dotted line above it, I just don't have that symbol here). If the second number has `A` after it than you want the number to be between 0.4 and 1 (you can go above 1, but I burned out a pi because of a faulty power supply so I am paranoid), if the second number is followed by `mA` the number should be between 400 and 1000. Some of the newer tablet chargers use 2A, which shouldn't break anything, but it may trip the fuse on the pi, so I wouldn't use one.
+* (''Optional'') a case for your pi. Since my router is in a protected place I just have my pi sitting in the anti-static bag it came in inside a small cardboard box. As long as it is protected from moisture it should be ok. Dust shouldn't hurt anything, but to be careful you want to keep it somewhere mostly free of dust. If yours is going to be somewhere you are worried about it getting disturbed you may want a case. If you are going to have reason to carry around your pi you may also want a case.
+
+Steps:
+
+# Collect the reqired items listed above.
+# Download a [[raspbian noobs image|https://www.raspberrypi.org/downloads/]] and uncompress the archive onto your microsd card. The card should be newly formatted before doing this. For most cards if you just bought them they will be fine.
+# Connect the mouse, keyboard, eithernet cable and hdmi cable to the appropriate ports on the pi and plug in the eithernet and hdmi cable to your router and display respectively.
+# Plug the power supply into the raspberry pi. While it shouldn't be a problem, having your display on before you power up the raspberry pi is a good idea. Since everything is solid state there is no on or off button on the pi, once it is plugged in you should see a red led and a green led. The red led should be on all the time when the pi has power, the green led lights up when it is reading from the SD card. So if you see the two LEDs that is good.
+# You should see a colorful splash screen on the display, and once the pi starts up (it should only take a few seconds) you should see a menu asking what you want to install. Just pick raspbian and go with the defualt options and tell it to install.
+# After the installation is complete you should see another menu, you can change some settings and add users, but for the purposes of this you don't need to worry about that. You should go to advanced settings and make sure that ssh is enabled (it should be by default, so don't worry too much) then select finish in the menu. You may need to use the tab key to get to the finish option.
+# After the linux boot sequence has finished it will ask you to log in, unless you changed it in the configuration menu the username is `pi` and the password is `raspberry`. So log in. As you type in the password nothing on the screen will change, this is a security feature of linux so don't worry about it.
+
+You have the basic set up now. If you are going to run your pi headless (that is without a keyboard, mouse or monitor) and have it plugged into your router with an ethernet cable than you are finished. I will put up steps for how to set up wireless access from the command line at some point. 
+
+Setting up wireless internet access using the graphical interface (remember that you have to have a usb wifi thing for this to work, the pi doesn't have any builtin wifi support):
+
+First start the gui by typing
+
+```
+startx
+```
+
+this should make a bunch of text scroll on the screen and eventually you should see a graphical desktop.
+
+Click on the menu, then go to internet, then select wireless connections. There should be a button that says `scan`, click on that. After a moment a list of available wireless networks should appear, select your network and enter the password (if there is a password. If not than you should put a password on your wireless network.)
+
+Once that is done your pi should connect to the network, you can open up the browser (menu->internet->browser) and check. If that worked than you are good and you can shut down the pi (menu->shutdown) and remove the keyboard, mouse and display. If you are running your pi headless than you won't need them connected anymore.
+
+For everything else I am going to assume that your pi is connected to the internet and that you are [[accessing it via ssh|Logging into your Raspberry Pi via SSH]] from another computer.

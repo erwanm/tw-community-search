@@ -1,0 +1,5 @@
+title: Month
+tags: CommunityTags
+community-tag-count: 12
+
+{{||$:/CommunityTagTemplate}}

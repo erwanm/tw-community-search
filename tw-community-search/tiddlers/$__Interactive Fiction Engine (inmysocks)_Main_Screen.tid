@@ -1,0 +1,22 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Main Screen
+created: 20141110061446865
+modified: 20141129052241118
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Main Screen
+source-tiddler-title-as-link: Main%20Screen
+
+<$reveal type='match' state='$:/state/game_state' text=start>
+
+{{IntroductionMessage}}
+
+<$button><$action-setfield $tiddler='$:/state/game_state' $field=text $value=notStart/>{{IntroductionMessage!!button_text}}</$button>
+
+</$reveal>
+<$reveal type='nomatch' state='$:/state/game_state' text=start>
+
+|Room Description |Inventory |h
+|<div class='tc-tiddler-frame' style='width:600px; background-color:#ffffff; box-shadow:none; height:400px'><$scrollable class='tc-scrollable'><$transclude tiddler=RoomDisplayTemplate/></$scrollable></div>|<div class='tc-tiddler-frame' style='width:400px; background-color:#ffffff; box-shadow:none; height:200px'><$transclude tiddler=Inventory/></div> |
+
+{{Map}}
+</$reveal>

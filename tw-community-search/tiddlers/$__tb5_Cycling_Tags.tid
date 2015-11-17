@@ -5,7 +5,7 @@ modified: 20151008090439691
 revision: 0
 summary: {{$:/.tb/modules/macros/cycletags.js!!summary}}
 type: text/vnd.tiddlywiki
-tags: tb5  Macros Solutions Tags Workflows
+tags: [[tb5]]  Macros Solutions Tags Workflows
 source-wiki-id: tb5
 source-tiddler-title-as-text: Cycling Tags
 source-tiddler-title-as-link: Cycling%20Tags

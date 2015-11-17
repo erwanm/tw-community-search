@@ -1,0 +1,21 @@
+title: $:/Category List (inmysocks)/Make the library tracker only add attributes that are visible when the item is created.
+category: Plugin
+created_day: 06
+created_month: 05
+created_year: 2015
+description: so if authors are hidden, don't add an author field to any new items created.
+due_day: 
+due_month: 
+due_year: 
+modified: 20150506190218419
+start_day: 
+start_month: 
+start_year: 
+subcategory: Library Tracker
+subsubcategory: Bugs
+tags: [[Category List (inmysocks)]]  Bug [[Planned Update]] [[Change Log]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Make the library tracker only add attributes that are visible when the item is created.
+source-tiddler-title-as-link: Make%20the%20library%20tracker%20only%20add%20attributes%20that%20are%20visible%20when%20the%20item%20is%20created.
+
+otherwise Alastair Reynolds will be the author of everything.

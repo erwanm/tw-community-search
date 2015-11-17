@@ -6,7 +6,7 @@ description: Files to help customize a blog before it is exported
 list: README
 revision: 0
 version: 5.1.10-prerelease
-tags: welford 
+tags: [[welford]] 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/plugins/welford/twstaticblog/helper
 source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwstaticblog%2fhelper

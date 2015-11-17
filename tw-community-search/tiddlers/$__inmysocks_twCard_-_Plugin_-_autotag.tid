@@ -16,7 +16,7 @@ repository: https://github.com/danielo515/TW5-AutoTag
 revision: 0.1.9
 short_description: Automatically tag tiddlers based on content
 wiki: http://danielorodriguez.com/TW5-AutoTag/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - autotag
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20autotag

@@ -4,7 +4,7 @@ creator: Tobias Beer
 modified: 20141204132433997
 modifier: Tobias Beer
 summary: when specified, also interprets field values that are &lt;blank&gt; as either ''0'' or ''false''
-tags: let  Suboperators Test
+tags: [[let]]  Suboperators Test
 source-wiki-id: let
 source-tiddler-title-as-text: BLANKS
 source-tiddler-title-as-link: BLANKS

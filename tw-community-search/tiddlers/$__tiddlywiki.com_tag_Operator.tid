@@ -9,7 +9,7 @@ op-parameter: the title of a [[tag|Tagging]]
 op-parameter-name: T
 op-purpose: filter the input by tag
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Common Operators]] [[Tag Operators]] [[Negatable Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Common Operators]] [[Tag Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: tag Operator
 source-tiddler-title-as-link: tag%20Operator

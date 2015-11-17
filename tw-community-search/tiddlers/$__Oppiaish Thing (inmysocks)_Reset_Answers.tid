@@ -1,0 +1,13 @@
+title: $:/Oppiaish Thing (inmysocks)/Reset Answers
+created: 20150410033937542
+modified: 20150410034208780
+tags: [[Oppiaish Thing (inmysocks)]] 
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: Reset Answers
+source-tiddler-title-as-link: Reset%20Answers
+
+<$button>Reset
+<$list filter='[suffix[selected response]]'>
+<$action-setfield show_response=hide/>
+</$list>
+</$button>

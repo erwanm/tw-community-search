@@ -1,0 +1,17 @@
+title: $:/External Brain (inmysocks)/Left Menu Text CSS
+created: 20150310223802102
+modified: 20150310231842386
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Left Menu Text CSS
+source-tiddler-title-as-link: Left%20Menu%20Text%20CSS
+
+.left-menu-text {
+width: {{$:/plugins/inmysocks/iconmenus/icon_menu_settings!!left_menu_width}};
+color:lightblue;
+padding-top:0px;
+}
+
+.left-menu-text:hover {
+background:grey;
+}

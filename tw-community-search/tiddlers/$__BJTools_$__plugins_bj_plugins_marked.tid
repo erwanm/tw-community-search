@@ -8,7 +8,7 @@ list: readme license
 revision: 0
 source: https://github.com/buggyj/Tw5-plugins
 version: 0.0.2
-tags: BJTools 
+tags: [[BJTools]] 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/plugins/marked
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fplugins%2fmarked

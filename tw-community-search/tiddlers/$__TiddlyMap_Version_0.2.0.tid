@@ -6,7 +6,7 @@ released: 20141107
 tmap.edges: {"FB94C642-C4FE-47B9-93DD-4B7398362DAC":{"to":"DDEBD365-03CF-4040-B542-63B2341D8340","type":"then"}}
 tmap.id: 3F023113-895B-4ACE-83BF-A882EAC1932C
 type: text/vnd.tiddlywiki
-tags: TiddlyMap  ReleaseNote [[Map Constructs]] Integration Storage
+tags: [[TiddlyMap]]  ReleaseNote [[Map Constructs]] Integration Storage
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.2.0
 source-tiddler-title-as-link: Version%200.2.0

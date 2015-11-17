@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/BlogDisplayTemplate1_creation_template
+created: 20150208173323186
+creator: inmysocks
+modified: 20150629212201394
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: BlogDisplayTemplate1_creation_template
+source-tiddler-title-as-link: BlogDisplayTemplate1_creation_template
+
+<$reveal type='match' state='$:/temp/New Blog Post/type' text='Small Thing'>
+Character count: <$word-count tiddler='$:/temp/NewBlogPost' mode=character colors='green:0,indianred:80,red:102'/>
+</$reveal>
+
+Post Body:
+<$edit-text class='tc-edit-texteditor' tiddler='$:/temp/NewBlogPost' placeholder='Post Body'/>

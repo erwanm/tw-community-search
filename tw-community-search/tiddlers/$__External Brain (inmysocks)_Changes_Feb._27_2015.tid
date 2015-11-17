@@ -1,0 +1,14 @@
+title: $:/External Brain (inmysocks)/Changes Feb. 27 2015
+created: 20150227190836331
+modified: 20150228015932148
+tags: [[External Brain (inmysocks)]]  Changes
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Changes Feb. 27 2015
+source-tiddler-title-as-link: Changes%20Feb.%2027%202015
+
+The Dashboard now uses tabbed-toc-external-nav and I changed the templates so that clicking on a post title opens the tiddler and lets you get a permalink to that post.
+
+ I added the calendar plugin I made to the site and used this to add the calendar based blog archives (icon in the upper left).
+In order to allow this I changed how blog posts are labeled with the date, now it is just a number for the date so 1 2 instead of 1st 2nd etc.
+
+I added some h-card stuff and some rel=me links so I can now use this site for [[IndieAuth|https://indieauth.com/]] web sign-in things.

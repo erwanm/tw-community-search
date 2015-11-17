@@ -1,0 +1,22 @@
+title: $:/Control Panel Addon (inmysocks)/Add CSS Property
+created: 20150602223959624
+modified: 20150603010118948
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Add CSS Property
+source-tiddler-title-as-link: Add%20CSS%20Property
+
+\define thisOption()
+<option tooltip={{CSS Properties##$(Property)$}}><<Property>></option>
+\end
+
+---
+
+Add other properties:
+
+<$select tiddler='$:/state/CSS Properties' field='selected_property' default=''>
+<option value=''>--</option>
+<$list filter='[[CSS Properties]indexes[]]' variable=Property>
+<<thisOption>>
+</$list>
+</$select> <$button>Add Property<$action-setfield $tiddler=<<CSSTiddler>> $field={{$:/state/CSS Properties!!selected_property}} $value=' '/></$button>

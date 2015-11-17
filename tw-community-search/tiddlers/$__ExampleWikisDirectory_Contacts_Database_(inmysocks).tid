@@ -3,11 +3,12 @@ caption: Contacts Database
 category: Plugin
 created: 20150604164832372
 description: A plugin for sorting and managing contacts
-modified: 20150604182607432
+follow: yes
+modified: 20151116091125268
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Contacts%20Database%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Contacts Database (inmysocks)
 source-tiddler-title-as-link: Contacts%20Database%20%28inmysocks%29

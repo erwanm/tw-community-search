@@ -1,0 +1,153 @@
+title: $:/Language Flash Cards (inmysocks)/Flash Cards
+created: 20151015094830591
+current_card: argentine
+modified: 20151016105240772
+tags: [[Language Flash Cards (inmysocks)]] 
+source-wiki-id: Language Flash Cards (inmysocks)
+source-tiddler-title-as-text: Flash Cards
+source-tiddler-title-as-link: Flash%20Cards
+
+\define thisDisplayNounCard()
+<$transclude tiddler='$:/templates/Noun Template' mode=block/>
+\end
+
+\define thisDisplayNumberCard()
+<$transclude tiddler='$:/templates/Number Template' mode=block/>
+\end
+
+\define thisDisplayVerbCard()
+<$transclude tiddler='$:/templates/Verb Template' mode=block/>
+\end
+
+\define thisDisplayAdjectiveCard()
+<$transclude tiddler='$:/templates/Adjective Template' mode=block/>
+\end
+
+\define thisStartButton()
+<$button style='border:1px solid black;'>
+Back to Start
+<$action-setfield $tiddler='Flash Cards' $field='current_card' $value="""$(FirstWord)$"""/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/state/View Current Card' $field='show_answers' $value='false'/>
+</$button>
+
+<<thisNavigationBar>>
+<hr>
+
+\end
+
+\define thisNavigationBar()
+<table style='width:100%; border:0px;border-top:0px;border-left:0px;padding-bottom:0;margin-bottom:0;'>
+<tr>
+<td style='border-top:0px;border-left:0px;'>
+<$reveal type='nomatch' state='$:/sometiddilerthatshouldntexistseriouslywhydoyouhavethingisth' text="""$(PreviousWord)$""">
+<$button class='tc-btn-invisible'>
+{{$:/core/images/chevron-left}} <$view tiddler="""$(PreviousWord)$""" field=english/>
+<$action-setfield $tiddler='Flash Cards' $field='current_card' $value="""$(PreviousWord)$"""/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/state/View Current Card' $field='show_answers' $value='false'/>
+</$button>
+</$reveal>
+</td>
+<td style='text-align:right;align:right;border-top:0px;border-left:0px;'>
+<$reveal type='nomatch' state='$:/sometiddilerthatshouldntexistseriouslywhydoyouhavethingisth' text="""$(NextWord)$""">
+<$button class='tc-btn-invisible'>
+<$view tiddler="""$(NextWord)$""" field=english/> {{$:/core/images/chevron-right}}
+<$action-setfield $tiddler='Flash Cards' $field='current_card' $value="""$(NextWord)$"""/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Noun Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=feminin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_masculin $value=''/>
+<$action-setfield $tiddler='$:/temp/Adjective Card Answers' $field=pluriel_feminin $value=''/>
+<$action-setfield $tiddler='$:/state/View Current Card' $field='show_answers' $value='false'/>
+</$button>
+</$reveal>
+</td>
+</tr>
+</table>
+\end
+
+\define thisInsideList()
+<<thisStartButton>>
+
+<$list filter='[{Flash Cards!!current_card}tag[Noun]]'>
+<<thisDisplayNounCard>>
+</$list>
+<$list filter='[{Flash Cards!!current_card}tag[Verb]]'>
+<<thisDisplayVerbCard>>
+</$list>
+<$list filter='[{Flash Cards!!current_card}tag[Number]]'>
+<<thisDisplayNumberCard>>
+</$list>
+<$list filter='[{Flash Cards!!current_card}tag[Adjective]]'>
+<<thisDisplayAdjectiveCard>>
+</$list>
+
+<hr>
+<<thisNavigationBar>>
+\end
+
+\define thisMakeCard()
+<$list variable=FirstWord filter="""[!is[system]tag[Word]$(SelectedTag)$$(SelectedSubCategory)$first[]limit[1]]""">
+<$list variable=NextWord filter="""[!is[system]tag[Word]$(SelectedTag)$$(SelectedSubCategory)$after{Flash Cards!!current_card}limit[1]]""" emptyMessage=<<thisInsideList>>>
+<$list variable=PreviousWord filter="""[!is[system]tag[Word]$(SelectedTag)$$(SelectedSubCategory)$before{Flash Cards!!current_card}limit[1]]""" emptyMessage=<<thisInsideList>>>
+<$list variable=CurrentCard filter="""[{Flash Cards!!current_card}]""">
+
+<<thisInsideList>>
+
+</$list>
+</$list>
+</$list>
+</$list>
+\end
+
+\define thisSubCategoryOptionsList()
+<$list filter='[!is[system]tag[Word]$(SelectedTag)$tags[]]-[[Word]]' variable=ThisSubcategory>
+<<thisSubCategoryListItem>>
+</$list>
+\end
+
+\define thisSubCategoryListItem()
+<option value='tag[$(ThisSubcategory)$]'><<ThisSubcategory>></option>
+\end
+
+Select category:
+<$select tiddler='$:/state/Flash Cards' field='category'>
+<option value=''>All</option>
+<option value='tag[Adjective]'>Adjective</option>
+<option value='tag[Noun]'>Noun</option>
+<option value='tag[Number]'>Number</option>
+<option value='tag[Verb]'>Verb</option>
+</$select>
+
+<$set name=SelectedTag value={{$:/state/Flash Cards!!category}}>
+
+Select sub-category:
+<$select tiddler='$:/state/Flash Cards' field='subcategory'>
+<option value=''>All</option>
+<<thisSubCategoryOptionsList>>
+</$select>
+
+<$set name=SelectedSubCategory value={{$:/state/Flash Cards!!subcategory}}>
+
+<<thisMakeCard>>
+
+</$set>
+</$set>

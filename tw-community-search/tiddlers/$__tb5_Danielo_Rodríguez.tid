@@ -3,7 +3,7 @@ icon: $:/core/images/plugin-generic-language
 revision: 0
 summary: braintest — popup footnotes, context plugin, encrypt tiddler, keyboard snippets, pack as plugin, tagssearch plugin<!--Danielo Rodriguez-->
 url: http://braintest.tiddlyspot.com
-tags: tb5  Community
+tags: [[tb5]]  Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: Danielo Rodríguez
 source-tiddler-title-as-link: Danielo%20Rodríguez

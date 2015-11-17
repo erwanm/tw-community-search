@@ -1,0 +1,19 @@
+title: $:/Tiddler Gallery (inmysocks)/addprefix Operator
+caption: addprefix
+created: 20140410103123179
+modified: 20150124172110000
+purpose: extend each input title with a prefix
+type: text/vnd.tiddlywiki
+tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[String Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: addprefix Operator
+source-tiddler-title-as-link: addprefix%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="a string of characters"
+paramName="s"
+output="the input, but with <<.place s>> added to the start of each title"
+/>
+
+<<.operator-examples "addprefix">>

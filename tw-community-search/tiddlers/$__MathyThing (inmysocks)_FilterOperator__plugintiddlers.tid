@@ -1,0 +1,18 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: plugintiddlers
+caption: plugintiddlers
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: plugintiddlers
+source-tiddler-title-as-link: FilterOperator%3a%20plugintiddlers
+
+The ''plugintiddlers'' filter operator returns the titles of the shadow tiddlers within any plugin tiddlers in the current list.
+
+For example:
+
+|!Filter String |!Description |
+|`[[$:/core]plugintiddlers[]]` |Returns a list of the shadow tiddlers within the [[$:/core]] module |
+
+See also [[FilterOperator: shadowsource]].

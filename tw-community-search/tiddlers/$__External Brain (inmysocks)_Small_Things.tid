@@ -1,0 +1,83 @@
+title: $:/External Brain (inmysocks)/Small Things
+created: 20150224183148163
+modified: 20150304231038437
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Small Things
+source-tiddler-title-as-link: Small%20Things
+
+\define thisDisplayWithTemplate()
+{{$(TiddlerToDisplay)$||$(TemplateToUse)$}}
+\end
+
+!Recent Small Things:
+---
+
+<$list filter='[tag[Small Thing]!nsort[time]limit{$:/settings/Blog Settings!!num_recent_posts}]'>
+
+<$set name=TiddlerToDisplay value=<<currentTiddler>>>
+<$set name=TemplateToUse value={{!!template}}>
+<<thisDisplayWithTemplate>>
+</$set>
+</$set>
+
+</$list>
+
+
+
+<h2>Older Things:</h2>
+
+---
+
+Year: <$select tiddler='$:/state/My Blog/Small Things/Older Posts' field=year>
+<option>All</option>
+<$list filter='[tag[My Blog]tag[Small Thing]has[year]each[year]get[year]nsort[year]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+Month: <$select tiddler='$:/state/My Blog/Small Things/Older Posts' field=month>
+<option>All</option>
+<$list filter='[tag[My Blog]tag[Small Thing]has[month]each[month]get[month]nsort[month]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$reveal type=match state='$:/state/My Blog/Small Things/Older Posts!!year' text='All'>
+<$list filter='[tag[My Blog]tag[Small Thing]has[year]each[year]get[year]nsort[year]]' variable=CurrentYear>
+''__<<CurrentYear>>__''<br>
+<$reveal type=match state='$:/state/My Blog/Small Things/Older Posts!!month' text='All'>
+<$list filter='[tag[My Blog]tag[Small Thing]has[month]each[month]get[month]nsort[month]]' variable=CurrentMonth>
+&nbsp;&nbsp;&nbsp;&nbsp;__<<CurrentMonth>>__<br>
+
+<$list filter='[tag[My Blog]tag[Small Thing]!tag[Templates]month<CurrentMonth>!nsort[time]]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$view field='posted'/>: <$link to=<<currentTiddler>>><$view field='title'/> - <$view field='summary'/></$link><br>
+</$list>
+
+</$list>
+</$reveal>
+<$reveal type=nomatch state='$:/state/My Blog/Small Things/Older Posts!!month' text='All'>
+&nbsp;&nbsp;&nbsp;&nbsp;__{{$:/state/My Blog/Small Things/Older Posts!!month}}__<br>
+<$list filter='[tag[My Blog]tag[Small Thing]!tag[Templates]month{$:/state/My Blog/Small Things/Older Posts!!month}!nsort[time]]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$view field='posted'/>: <$link to=<<currentTiddler>>><$view field='title'/> - <$view field='summary'/></$link><br>
+</$list>
+</$reveal>
+</$list>
+</$reveal>
+<$reveal type=nomatch state='$:/state/My Blog/Small Things/Older Posts!!year' text='All'>
+''__{{$:/state/My Blog/Small Things/Older Posts!!year}}__''<br>
+<$reveal type=match state='$:/state/My Blog/Small Things/Older Posts!!month' text='All'>
+<$list filter='[tag[My Blog]tag[Small Thing]has[month]each[month]get[month]nsort[month]]' variable=CurrentMonth>
+&nbsp;&nbsp;&nbsp;&nbsp;__<<CurrentMonth>>__<br>
+
+<$list filter='[tag[My Blog]tag[Small Thing]!tag[Templates]month<CurrentMonth>!nsort[time]]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$view field='posted'/>: <$link to=<<currentTiddler>>><$view field='title'/> - <$view field='summary'/></$link><br>
+</$list>
+
+</$list>
+</$reveal>
+<$reveal type=nomatch state='$:/state/My Blog/Small Things/Older Posts!!month' text='All'>
+<$list filter='[tag[My Blog]tag[Small Thing]!tag[Templates]month{$:/state/My Blog/Small Things/Older Posts!!month}!nsort[time]]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$view field='posted'/>: <$link to=<<currentTiddler>>><$view field='title'/> - <$view field='summary'/></$link><br>
+</$list>
+</$reveal>
+</$reveal>

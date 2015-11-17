@@ -1,0 +1,109 @@
+title: $:/Interactive Fiction Engine (inmysocks)/RoomDisplayTemplate
+created: 20141113060048665
+modified: 20141129041130012
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: RoomDisplayTemplate
+source-tiddler-title-as-link: RoomDisplayTemplate
+
+\define ItemList()
+
+<$list filter="[tag[Item]location[$(roomTitle)$]limit[1]]">
+You see:<br>
+</$list>
+<$list filter="[tag[Item]location[$(roomTitle)$]]" template=ItemsInRoomListTemplate>
+
+</$list>
+
+\end
+
+\define ContainerList()
+
+<$list filter="[tag[Container]location[$(roomTitle)$]limit[1]]">
+Places to look:
+</$list>
+<$list filter="[tag[Container]location[$(roomTitle)$]]" template=ContainersInRoomTemplate>
+
+</$list>
+
+\end
+
+\define ExitList()
+
+<$list filter='[is[current]has[north]]'>
+North
+</$list>
+<$list filter='[is[current]has[south]]'>
+South
+</$list>
+<$list filter='[is[current]has[east]]'>
+East
+</$list>
+<$list filter='[is[current]has[west]]'>
+West
+</$list>
+<$list filter='[is[current]has[up]]'>
+Up
+</$list>
+<$list filter='[is[current]has[down]]'>
+Down
+</$list>
+
+\end
+
+\define RoomEventList()
+<$list filter="[tag[Event]location[$(roomTitle)$]]" template=EventDisplayTemplate>
+</$list>
+\end
+
+\define RoomTriggerList()
+<$list filter="[tag[Trigger]location[$(roomTitle)$]text[inactive]] [tag[Trigger]location2[$(roomTitle)$]text[active]]" template=EventTriggerTemplate>
+
+</$list>
+\end
+
+\define RoomPopupList()
+<$list filter='[tag[Popup]location[$(roomTitle)$]]' template=PopupListTemplate>
+
+</$list>
+\end
+
+<$tiddler tiddler={{MapState!!text}}>
+<$transclude field='text'/>
+<br>
+
+
+<$set name='roomTitle' value={{MapState!!text}}>
+
+<<RoomPopupList>><br>
+
+</$set>
+
+<$set name='roomTitle' value={{MapState!!text}}>
+
+<<RoomTriggerList>>
+
+</$set>
+
+<$set name='roomTitle' value={{MapState!!text}}>
+
+<<RoomEventList>>
+
+</$set>
+
+<$set name='roomTitle' value={{MapState!!text}}>
+
+<<ContainerList>>
+
+</$set>
+
+<$set name='roomTitle' value={{MapState!!text}}>
+
+<<ItemList>>
+
+</$set>
+<br>
+Room exits are:<br>
+<<ExitList>>
+
+</$tiddler>

@@ -1,7 +1,7 @@
 title: $:/MathJSPlugin/Introduction
 created: 20151115195956492
-modified: 20151115200949718
-tags: MathJSPlugin 
+modified: 20151116202149841
+tags: [[MathJSPlugin]] 
 source-wiki-id: MathJSPlugin
 source-tiddler-title-as-text: Introduction
 source-tiddler-title-as-link: Introduction
@@ -11,3 +11,5 @@ The <$text text="""<$calc>""" /> widget is a simple wrapper around [ext[math.js|
 In addition to just being able to evaluate standard expressions, I've added support for TextReferences among the code, so now you can store data in fields or data tiddlers and write expressions based on that data.
 
 To import this plugin drag this link: [[$:/plugins/mklauber/math.js]]
+
+Development on this plugin is managed at https://github.com/mklauber/tiddly-mathjs.  Feel free to open a issue or PR.

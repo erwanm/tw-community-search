@@ -1,0 +1,40 @@
+title: $:/External Brain (inmysocks)/Jed Carty (inmysocks)
+created: 20141220034050640
+modified: 20150407180318445
+tags: [[External Brain (inmysocks)]]  [[<Name Plate>]] people
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Jed Carty (inmysocks)
+source-tiddler-title-as-link: Jed%20Carty%20%28inmysocks%29
+
+ ''Jed Carty'' preferred online nickname: inmysocks
+
+--''Email''--
+
+inmysocks -At- G mail Dot Com (Weirdness to avoid spam)
+
+--''Phone''--
+
+People sometimes try to call me on my texting device. It is better to talk to me online.
+
+<$list filter='[tag{!!title}tag[<Name Plate>]has[name_plate_type]each[name_plate_type]]' variable=ThisTiddler>
+
+--<b><$view tiddler=<<ThisTiddler>> field='name_plate_type'/></b>--
+
+<$set name=CurrentPerson value={{!!title}}>
+<$tiddler tiddler=<<ThisTiddler>>>
+<$list filter='[tag<CurrentPerson>tag[<Name Plate>]name_plate_type{!!name_plate_type}]' template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$tiddler>
+</$set>
+
+</$list>
+
+--''IM Things''--
+
+AIM - JedMee (I almost never use this anymore, but pidgin is still set to log in)<br>
+Google chat thing whatever it is called - same as my email
+
+!!!__Tiddlers with Jed Carty Tags__
+
+{{{ [tag[Jed Carty]] }}}

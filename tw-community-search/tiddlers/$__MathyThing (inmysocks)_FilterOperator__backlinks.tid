@@ -1,0 +1,19 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: backlinks
+caption: backlinks
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: backlinks
+source-tiddler-title-as-link: FilterOperator%3a%20backlinks
+
+The ''backlinks'' filter operator replaces the current list with a list of the non-system tiddlers that link to them.
+
+For example:
+
+|!Filter String |!Description |
+|`[[HelloThere]backlinks[]]` |Selects all tiddlers that contain links to the tiddler `HelloThere` |
+|`[tag[Personal]backlinks[]]` |Selects all tiddlers that contain links to tiddlers tagged `Personal` |
+|`[all[current]backlinks[]]` |Selects all tiddlers that contain links to the current tiddler |
+

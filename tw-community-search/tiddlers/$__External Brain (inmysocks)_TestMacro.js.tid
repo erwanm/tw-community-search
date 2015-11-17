@@ -1,0 +1,32 @@
+title: $:/External Brain (inmysocks)/TestMacro.js
+created: 20150516135309637
+modified: 20150516151130171
+module-type: 
+type: 
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: TestMacro.js
+source-tiddler-title-as-link: TestMacro.js
+
+/*\
+title: TestMacro.js
+type: application/javascript
+module-type: macro
+
+\*/
+
+(function(){
+
+exports.name = "TestMacro";
+
+exports.params = [
+	{ name: "postname" }
+];
+
+
+exports.run = function(postname) {
+
+$.getScript('http://ooktech.com/hashover.php',function()){};
+
+};
+})();

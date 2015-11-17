@@ -1,0 +1,9 @@
+title: $:/Control Panel Addon (inmysocks)/CSSOptionsListTemplate
+created: 20150602225326337
+modified: 20150604004603579
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: CSSOptionsListTemplate
+source-tiddler-title-as-link: CSSOptionsListTemplate
+
+<$view field='title'/> (<$fieldmangler tiddler=<<CSSTiddler>>><$button>Remove<$action-sendmessage $message='tm-remove-field' $param=<<currentTiddler>>/></$button></$fieldmangler>): <$edit-text tiddler=<<CSSTiddler>> field=<<currentTiddler>> class='tc-edit-texteditor'/><br>

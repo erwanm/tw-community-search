@@ -1,0 +1,21 @@
+title: $:/Category List (inmysocks)/Check out the fast new tiddler title bug
+category: Tools
+created_day: 11
+created_month: 05
+created_year: 2015
+description: Things aren't updating the way they should
+due_day: 
+due_month: 
+due_year: 
+modified: 20150511182240499
+start_day: 
+start_month: 
+start_year: 
+subcategory: Fast New Tiddler
+subsubcategory: Bug
+tags: [[Category List (inmysocks)]]  Bug [[Planned Update]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Check out the fast new tiddler title bug
+source-tiddler-title-as-link: Check%20out%20the%20fast%20new%20tiddler%20title%20bug
+
+I'm afraid this happened a few days ago to me too so I carefully removed and reloaded each tiddler, on http://fastnewdev.tiddlyspot.com, and got it to function properly... but it seems to have "reverted". I have no idea why and it must be a bug - @Jed, do you think you could take a look at it?

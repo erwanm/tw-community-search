@@ -1,0 +1,32 @@
+title: $:/Version 5.1.8 Fun (inmysocks)/Search and Replace Tags
+created: 20150314205804374
+modified: 20150327033139605
+selected_tag: Tools
+tags: [[Version 5.1.8 Fun (inmysocks)]] 
+source-wiki-id: Version 5.1.8 Fun (inmysocks)
+source-tiddler-title-as-text: Search and Replace Tags
+source-tiddler-title-as-link: Search%20and%20Replace%20Tags
+
+\define thisSelectTag()
+Tag to replace: <$select field='selected_tag'>
+<$set name=TagSearch value={{$:/temp/changetags!!search_tags}}>
+<$list filter='[tags[]regexp[(?i)$(TagSearch)$]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$set>
+</$select> <$edit-text tiddler='$:/temp/changetags' field='search_tags' class='tc-exit-textexitor' placeholder='Narrow Tags List'/>
+\end
+
+This lets you search for all tiddlers with a specific tag and selectivly replace that tag with another one. Or if the 'Replace With' field is empty just remove the tag from the tiddler(s).
+
+<<thisSelectTag>>
+
+Replace With: <$edit-text tiddler='$:/temp/changetags' field='replace_tag' class='tc-edit-texteditor'/>
+
+<table>
+<tr><th>Tiddler</th><th>Replace?</th></tr>
+<$list filter='[tag{!!selected_tag}]'>
+<$fieldmangler tiddler=<<currentTiddler>>>
+<tr><td><$link to=<<currentTiddler>>><$view field='title'/></$link></td><td><$button>Change Tag<$action-sendmessage $message='tm-add-tag' $param={{$:/temp/changetags!!replace_tag}}/><$action-sendmessage $message='tm-remove-tag' $param={{Search and Replace Tags!!selected_tag}}/></$button></td></tr>
+</$fieldmangler>
+</$list>

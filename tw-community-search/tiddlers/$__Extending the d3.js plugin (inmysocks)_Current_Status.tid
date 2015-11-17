@@ -1,0 +1,38 @@
+title: $:/Extending the d3.js plugin (inmysocks)/Current Status
+created: 20150726201633131
+modified: 20150727184946995
+tags: [[Extending the d3.js plugin (inmysocks)]] 
+source-wiki-id: Extending the d3.js plugin (inmysocks)
+source-tiddler-title-as-text: Current Status
+source-tiddler-title-as-link: Current%20Status
+
+This is work I am doing on extending the d3.js plugin past being just a proof of concept. I know next to nothing about all of this so I am learning as I go.
+
+For now I am only working on extending the bar chart widget from the proof of concept plugin so that you can interact with it using native tiddlywiki interfaces. And because of my flailing around trying to learn how it works I broke the stacked version so you only have the grouped version to play with.
+
+If you have datasets that are larger than other sets the largest set is used to determine the values for the independent variable (the x variable) and if one of the sets doesn't have a value than it just isn't displayed.
+
+*The current demo of the bar chart is in the [[Display]] tiddler 
+*Controls for what to display are in [[Control]], the tiddler holding the data is [[$:/datasets/Chart1]]. 
+*The settings are in [[TestSettings]], they can be edited using [[Edit Barchart Settings Tiddler]]
+
+Chart Data Tiddlers:
+
+*[[$:/data/Dataset1]]
+*[[$:/data/Dataset 2]]
+*[[$:/data/Dataset 3]]
+
+you can add more datasets, the easiest way would be cloning one of the existing sets and editing the content of the tiddler. I will hopefully have a tool to help create these tiddlers at some point.
+
+!!Current problems:
+
+*The display tiddler is really long. Like hundreds of pages long. I have no idea why. Any help would be greatly appreciated.
+*If you set the transition time too low than the chart will be displayed incorrectly. I am assuming that this is because the browser doesn't have time to calculate all of the numbers and just makes guesses. The bar width is the most noticeable error when you do this.
+
+!!Planned improvements
+
+*Use range slider inputs for changing chart height/width and maybe other options. Make sure to have a text editor area next to the slider so you can manually set the number too.
+*Make a tool for adding datasets, this may be outside tiddlywiki using perl or openoffice.
+*Other chart/graph types
+*Add the parts so it can all be interactive.
+*Add options for chart decoration (titles, grids, etc.). 

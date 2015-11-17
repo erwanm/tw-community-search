@@ -1,0 +1,28 @@
+title: $:/External Brain (inmysocks)/Today in Jed's coding adventures: for loops namespaces and matlab is terrible
+created: 20150203221158869
+day: 21
+image: 
+image_caption: 
+link: 
+modified: 20150526124400792
+modifier: inmysocks
+month: May
+number_of_comments: 3
+posted: 11:49, 21st May 2015
+summary: stupid for loops
+template: BlogDisplayTemplate1
+time: 20150521114949
+tooltip: 
+width: 
+year: 2015
+tags: [[External Brain (inmysocks)]]  [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Today in Jed's coding adventures: for loops namespaces and matlab is terrible
+source-tiddler-title-as-link: Today%20in%20Jed%27s%20coding%20adventures%3a%20for%20loops%20namespaces%20and%20matlab%20is%20terrible
+
+Between initializing variables and namespaces C++ is going to kill me.
+
+As a note for the future, starting a for loop with 'for (unsigned int a; a < LENGTH; a++)' isn't helpful.
+Also, 'using namespace arma' has to come BEFORE function prototypes that use Armadillo data types.
+
+I rant about matlab a lot so I will keep this brief. Code to do the same thing in matlab and in c++ using armadillo results in about 200 lines of code in matlab and about 40 in c++, it takes about 2 minutes to run in matlab and runs in about 0.005 seconds in c++. WHY DO PEOPLE INSIST ON USING MATLAB????? It isn't significantly easier, costs way too much and runs slow enough that even with the time to learn how to code you can do everything faster because of the performance boost. I don't think that this is an argument I will ever win. This bothers me. Stupid vendor lock.

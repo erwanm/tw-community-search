@@ -1,0 +1,18 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: limit
+caption: limit
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters CommonFilters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: limit
+source-tiddler-title-as-link: FilterOperator%3a%20limit
+
+The ''limit'' filter operator trims the current list to the length specified in the operator. Usually the first tiddlers in the list are returned; preceding the operator with ''!'' causes it to instead return the last tiddlers in the list.
+
+For example:
+
+|!Filter String |!Description |
+|`[sort[modified]!limit[20]]` |Returns the titles of the last 20 tiddlers to have been modified |
+|`[has[created]sort[created]limit[10]]` |Returns the titles of the oldest 10 tiddlers to have been created |
+

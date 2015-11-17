@@ -1,0 +1,15 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Items Documentation
+created: 20141129023842751
+modified: 20141129024303002
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Items Documentation
+source-tiddler-title-as-link: Items%20Documentation
+
+Items are objects that the player can pick up and put down. When an item is picked up it will be listed in the players inventory. An item has a description that can be viewed by clicking the `View Item` button in normal game play.
+
+Items can hold events and triggers.
+
+An items has a name, a description and a location. If you want to create an item select the `Items` option in the `Type to edit` menu and select `Create New Item` in the dropdown menu there. Give the item a name and description using the provided text boxes and set the items initial location using the dropdown menu. Then click `Create Item` and the item will be made.
+
+To edit existing items select `Edit Existing Items` in the drop down menu and then in the new drop down menu that appears select the item you wish to edit. You can change the items name, description and location this way.

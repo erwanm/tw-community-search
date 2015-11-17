@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/Changes March 8th 2015
+created: 20150308235757453
+modified: 20150308235949903
+tags: [[External Brain (inmysocks)]]  Changes
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Changes March 8th 2015
+source-tiddler-title-as-link: Changes%20March%208th%202015
+
+I can now post to twitter from the new blog post page. If it is short enough I can post the entire content, if it isn't than I can post the title and summary with a link to the original post. The URL is also conditioned to work. The URL part was really annoying.
+
+You can't try posting when the title field is empty.
+
+The post button now triggers saving the wiki.

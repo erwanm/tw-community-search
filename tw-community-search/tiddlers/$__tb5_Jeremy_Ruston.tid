@@ -3,7 +3,7 @@ icon: $:/core/images/globe
 revision: 0
 summary: the TiddlyWiki source of sources<!--Jeremy Ruston, official-->
 url: https://github.com/Jermolene
-tags: tb5  Community
+tags: [[tb5]]  Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: Jeremy Ruston
 source-tiddler-title-as-link: Jeremy%20Ruston

@@ -1,0 +1,20 @@
+title: $:/Invoking Actions (inmysocks)/tagging Operator
+caption: tagging
+created: 20140410103123179
+modified: 20150124205941000
+purpose: find the tiddlers that have the input tags
+type: text/vnd.tiddlywiki
+tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Tag Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: tagging Operator
+source-tiddler-title-as-link: tagging%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection|Title Selection]] of [[tags|Tagging]]"
+parameter="none"
+output="the titles of any tiddlers that carry the input tags"
+/>
+
+Each input tag is processed in turn. The list of tiddlers carrying that tag is generated, [[sorted|Order of Tagged Tiddlers]], and then [[dominantly appended|Dominant Append]] to the operator's overall output.
+
+<<.operator-examples "tagging">>

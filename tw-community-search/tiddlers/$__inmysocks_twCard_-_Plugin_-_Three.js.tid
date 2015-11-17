@@ -16,7 +16,7 @@ repository:
 revision: 1.0.0
 short_description: Adds the ability to use three.js to make 3d visualizations and animations in tiddlywiki
 wiki: http://rboue.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Three.js
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Three.js

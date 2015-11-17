@@ -3,7 +3,7 @@ created: 20150110150850038
 modified: 20150110150903066
 summary: wraps the player in an annotation tiddler
 templates: $:/plugins/tobibeer/youtube/ViewTemplate/annotation
-tags: youtube  Styles
+tags: [[youtube]]  Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-tiddler-anno-video
 source-tiddler-title-as-link: ytc-tiddler-anno-video

@@ -1,0 +1,40 @@
+title: $:/Interactive Fiction Engine (inmysocks)/EventListTemplate
+created: 20141116232628726
+modified: 20141129041945796
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: EventListTemplate
+source-tiddler-title-as-link: EventListTemplate
+
+\define thisFilter()
+[tag[Event]trigger[$(currentTriggerName)$]event_order[second]]
+\end
+
+\define thisFilter2()
+[tag[Event]trigger[$(currentTriggerName)$]event_order[first]]
+\end
+
+\define triggerState()
+{{$(currentTriggerName)$!!location1}}
+\end
+
+
+<$set name='currentTriggerName' value={{!!title}}>
+<$list filter=<<thisFilter>>>
+<$view field=text/><br>
+</$list>
+
+<$list filter=<<thisFilter2>>>
+<$view field=text/><br>
+</$list>
+
+---
+
+trigger:<br>
+<<triggerState>>
+
+---
+
+</$set>
+
+

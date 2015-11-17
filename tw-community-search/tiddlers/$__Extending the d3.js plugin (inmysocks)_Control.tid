@@ -1,0 +1,35 @@
+title: $:/Extending the d3.js plugin (inmysocks)/Control
+created: 20150726212300429
+modified: 20150727201303927
+tags: [[Extending the d3.js plugin (inmysocks)]] 
+source-wiki-id: Extending the d3.js plugin (inmysocks)
+source-tiddler-title-as-text: Control
+source-tiddler-title-as-link: Control
+
+\define thisMakeInnerTable()
+<tr><td><$reveal type='nomatch' state='$:/datasets/Chart1##$(currentTiddler)$' text=true><$button class='tc-btn-invisible'><input type=checkbox/><$action-setfield $tiddler='$:/datasets/Chart1' $index=<<currentTiddler>> $value=true/></$button></$reveal><$reveal type='match' state='$:/datasets/Chart1##$(currentTiddler)$' text=true><$button class='tc-btn-invisible'><input type=checkbox checked=true/><$action-setfield $tiddler='$:/datasets/Chart1' $index=<<currentTiddler>> $value=false/></$button></$reveal></td><td><$view index="data set name"><$view field='title'/></$view></td>
+<td>
+<$view index='x name'/>
+</td>
+<td>
+<$view index='y name'/>
+</td>
+</tr>
+\end
+
+<table>
+<tr><th>Use Data Set?</th><th>Data Set Name</th><th>Independent Variable</th><th>Dependent Variable</th></tr>
+<$list filter='[tag[DataSet]]'>
+<<thisMakeInnerTable>>
+</$list>
+</table>
+
+<!--
+Selected Data:
+
+<$list filter='[[$:/datasets/Chart1]indexes[]]' variable=ThisIndex>
+<$list filter='[[$:/datasets/Chart1]getindex<ThisIndex>]+[prefix[true]]'>
+<$view tiddler=<<ThisIndex>> index="data set name"><$view tiddler=<<ThisIndex>> field='title'/></$view><br>
+</$list>
+</$list>
+-->

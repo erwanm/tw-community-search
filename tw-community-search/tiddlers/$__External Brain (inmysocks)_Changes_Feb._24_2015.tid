@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/Changes Feb. 24 2015
+created: 20150224192625872
+modified: 20150224235957325
+tags: [[External Brain (inmysocks)]]  Changes
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Changes Feb. 24 2015
+source-tiddler-title-as-link: Changes%20Feb.%2024%202015
+
+The blog now has two categories, one for long posts one for short things. You can also now sort through the archive part by year and month.
+
+I added a mechanism that prevents you from overwriting an existing tiddler with a new blog post.
+
+I fixed the search in the library tracker so that you can type more than one letter now.

@@ -1,0 +1,18 @@
+title: $:/Invoking Actions (inmysocks)/commands Operator
+caption: commands
+created: 20140410103123179
+modified: 20150124155303000
+purpose: select the titles of all the Node.js commands
+type: text/vnd.tiddlywiki
+tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: commands Operator
+source-tiddler-title-as-link: commands%20Operator
+
+<$macrocall $name=".operator-def"
+input="ignored"
+parameter="none"
+output="the [[command words|Commands]] that can be given to [[TiddlyWiki on Node.js]]"
+/>
+
+<<.operator-examples "commands">>

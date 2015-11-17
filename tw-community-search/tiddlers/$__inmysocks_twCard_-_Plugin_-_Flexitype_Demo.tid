@@ -16,7 +16,7 @@ repository:
 revision: 0.0.3
 short_description: Extended Types
 wiki: http://bjtools.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Flexitype Demo
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Flexitype%20Demo

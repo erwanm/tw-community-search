@@ -1,0 +1,28 @@
+title: $:/Language Flash Cards (inmysocks)/List/Search Adjectives
+created: 20151014123111182
+modified: 20151016094925034
+tags: [[Language Flash Cards (inmysocks)]]  Tool
+source-wiki-id: Language Flash Cards (inmysocks)
+source-tiddler-title-as-text: List/Search Adjectives
+source-tiddler-title-as-link: List%2fSearch%20Adjectives
+
+\define thisCheckboxItem()
+<$checkbox tiddler='$:/state/List/Search Nouns/Selected Classes' tag="""$(CurrentClass)$""">$(CurrentClass)$</$checkbox>
+\end
+
+\define thisList()
+<$list filter='[!is[system]tag[Adjective]]'>
+
+</$list>
+\end
+
+<!--
+<$list filter='[tag[Adjective]tags[]]
+-[[Noun]]' variable=CurrentClass>
+<<thisCheckboxItem>>
+</$list>
+-->
+
+<$vars ProfessionTag='!tag[Profession]'>
+<<thisList>>
+</$vars>

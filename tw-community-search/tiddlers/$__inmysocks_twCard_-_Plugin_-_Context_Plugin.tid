@@ -16,7 +16,7 @@ repository:
 revision: 2.1.0
 short_description: Search text in a tiddler with some context
 wiki: http://contextplugin.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Context Plugin
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Context%20Plugin

@@ -1,0 +1,51 @@
+title: $:/External Brain (inmysocks)/Tutorials
+created: 20150510194359324
+creator: inmysocks
+modified: 20150730162021290
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]]  Dashboard
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Tutorials
+source-tiddler-title-as-link: Tutorials
+
+Currently this is a placeholder. I have started way too many projects and getting around to this may take a while. I am going to be filling out the tutorials as I complete each thing on my own. I am mainly doing this so I have instructions on how to do it again later.
+
+''All of this is done on the Raspberry Pi 2'' - GitLab may not work on the old raspberry pi but syncthing and node shouldn't have any trouble. Someone should try GitLab on one of the older ones and let me know.
+
+I will try to add screen shots to each of these. They shouldn't be needed but things tend to be a bit nicer when there are images.
+
+If you use any of this please let me know, there are [[many|Who is this inmysocks guy?]] [[options|Comments]] for how to do this. Any comments, requests, suggestions or secret recipes for your grandmothers famous coleslaw are welcome. Also let me know if you have trouble with any of the parts so I can fix it.
+
+!!''BIG IMPORTANT NOTE OF DOOM:''
+If you are going to do any of these things that lets you connect to your pi from outside your local network make sure to change the password to something other than the default `raspberry`, otherwise anyone on the internet will be able to ssh into your pi and do whatever they want with it. ''THIS IS IMPORTANT.''
+
+!List of stuff
+
+This is a list of the things I have done, or things I am planning on doing, and written instructions that other people may find useful.
+
+*For most ~TiddlyWiki related stuff, go to my [[other site|http://inmysocks.tiddlywiki.com]].
+*[[Adding comments sections to tiddlers on a tiddlywiki using hashover]] (I am hoping to have a version of this for hosting on a raspberry pi soon, this is how there are comments on the blog part of this site.)
+*Raspberry Pi
+**[[Getting and setting up a Raspberry Pi]] (since everything is on a pi, this is required before you do the others. It is missing how to set up a wireless connection from the command line)
+**[[Logging into your Raspberry Pi via SSH]] (this is required to do the rest on a headless raspberry pi, incomplete, only linux commands, I have no idea how to do this in windows or on a mac)
+***[[Some helpful commands]] (Useful commands for controlling your raspberry pi via ssh)
+**[[How to change the default password of your Raspberry Pi]] (THIS IS VERY IMPORTANT IF YOU DO ANY OF THE STUFF BELOW)
+**[[Setting up dynamic DNS on your Raspberry Pi]] (required to be able to access your pi from outside your local network. Make sure you [[change your password|How to change the default password of your Raspberry Pi]] first if you left it as the default `raspberry`. Seriously, change your password.)
+**[[Installing syncthing on a Raspberry Pi]] (only command line instructions and cheating because I point you to another site.)
+**[[Installing GitLab on a Raspberry Pi]] (this is missing how to set up port forwarding)
+**[[Setting up node on a Raspberry Pi for TiddlyWiki]]
+*[[Setting up a redirect from a dreamhost domain to a dynamic dns thing]] (very simple, nothing at all profound, probably the laziest way to do it.)
+
+planned or incomplete tutorials:
+
+*Finding the ip address of your raspberry pi so you can connect to it
+*Setting up port forwarding
+
+*~~Setting up a Raspberry Pi as a mail server~~ - this isn't going to happen any time soon because my isp blocks port 25 so the simple options won't work.
+*Using a Raspberry Pi as an XMPP (instant messaging) server
+
+---
+
+[[About Me|Who is this inmysocks guy?]] [[About this site]] [[Leave a comment|Comments]]
+
+Do you find this helpful? Want to help me pay rent/eat so I can continue making stuff like this? You can [[donate here|Donate]].

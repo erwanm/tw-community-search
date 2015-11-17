@@ -1,0 +1,5 @@
+title: No Cat Photos
+tags: CommunityTags
+community-tag-count: 4
+
+{{||$:/CommunityTagTemplate}}

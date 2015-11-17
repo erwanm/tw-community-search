@@ -4,7 +4,7 @@ modified: 20150712144041567
 tmap.edges: {"6BB4F5FD-C031-4722-839D-6D3D5CB70A2C":{"to":"A9995A40-BAA5-4F26-9909-28C73FE097A1","type":"demo:uses"}}
 tmap.id: 5E82CA80-199F-4EBA-BC59-77C672978697
 type: text/vnd.tiddlywiki
-tags: TiddlyMap  component [[Public API]]
+tags: [[TiddlyMap]]  component [[Public API]]
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: The TiddlyMap Macro
 source-tiddler-title-as-link: The%20TiddlyMap%20Macro

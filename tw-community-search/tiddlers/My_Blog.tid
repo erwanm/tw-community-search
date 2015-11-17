@@ -1,0 +1,5 @@
+title: My Blog
+tags: CommunityTags
+community-tag-count: 162
+
+{{||$:/CommunityTagTemplate}}

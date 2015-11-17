@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/BlogPostCommentTemplate
+created: 20150518212657000
+creator: inmysocks
+modified: 20150518213344080
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]]  Templates
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: BlogPostCommentTemplate
+source-tiddler-title-as-link: BlogPostCommentTemplate
+
+<h2><b><$view field='author'/></b></h2>
+__<$view field='readable_date'/>__
+<br>
+<div class='tc-tiddler-frame' style='width:100%;background-color:beige'>
+<$transclude mode='block'/>
+</div>

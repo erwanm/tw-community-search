@@ -2,7 +2,7 @@ title: $:/node/Server Doesn't Serve Static Resources
 created: 20151013085119427
 modified: 20151014141235057
 summary: the tiddlywiki [[--server]] cannot serve static resources like images as referenced in a `_canonical_uri` field
-tags: node  issues
+tags: [[node]]  issues
 source-wiki-id: node
 source-tiddler-title-as-text: Server Doesn't Serve Static Resources
 source-tiddler-title-as-link: Server%20Doesn%27t%20Serve%20Static%20Resources

@@ -2,7 +2,7 @@ title: $:/node/filesystem
 created: 20151013063220372
 modified: 20151013190250541
 summary: how [[tiddlywiki]] on [[node.js]] interacts with the filesystem
-tags: node  ecosystem
+tags: [[node]]  ecosystem
 source-wiki-id: node
 source-tiddler-title-as-text: filesystem
 source-tiddler-title-as-link: filesystem

@@ -1,0 +1,10 @@
+title: $:/Category List (inmysocks)/Find a way to interface between the category list plugin and the calendar plugin
+category: Plugin
+description: so tasks from the category lists show up in the calendar
+modified: 20150429195225218
+tags: [[Category List (inmysocks)]]  [[Planned Update]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Find a way to interface between the category list plugin and the calendar plugin
+source-tiddler-title-as-link: Find%20a%20way%20to%20interface%20between%20the%20category%20list%20plugin%20and%20the%20calendar%20plugin
+
+This will require you to add date information to tasks. And probably many other things.

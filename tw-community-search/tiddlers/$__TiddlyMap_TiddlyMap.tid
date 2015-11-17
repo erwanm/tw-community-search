@@ -5,7 +5,7 @@ tmap.edges: {"1fc78225-3618-4d3d-a5b4-cee181af3a11":{"to":"D0B54F1D-8D7A-4C2E-94
 tmap.id: 77ee9fd0-95ce-4d78-a28a-7e43887ae686
 tmap.style: {}
 type: text/vnd.tiddlywiki
-tags: TiddlyMap 
+tags: [[TiddlyMap]] 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: TiddlyMap
 source-tiddler-title-as-link: TiddlyMap

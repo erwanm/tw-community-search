@@ -1,0 +1,20 @@
+title: $:/Invoking Actions (inmysocks)/fields Operator
+caption: fields
+created: 20140924115616653
+modified: 20150124184835000
+purpose: select all field names of the input titles
+type: text/vnd.tiddlywiki
+tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Field Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: fields Operator
+source-tiddler-title-as-link: fields%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="none"
+output="all the field names contained in the input tiddlers"
+/>
+
+Each input title is processed in turn. Its list of field names is retrieved (in no particular order) and then [[dominantly appended|Dominant Append]] to the operator's output.
+
+<<.operator-examples "fields">>

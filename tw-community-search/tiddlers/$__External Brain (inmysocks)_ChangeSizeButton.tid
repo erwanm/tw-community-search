@@ -1,0 +1,15 @@
+title: $:/External Brain (inmysocks)/ChangeSizeButton
+created: 20141207055754110
+modified: 20150218013240552
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: ChangeSizeButton
+source-tiddler-title-as-link: ChangeSizeButton
+
+<$button popup="$:/state/changetiddlerwidthpopup">Change Tiddler Width</$button>
+<$reveal type="popup" state="$:/state/changetiddlerwidthpopup">
+<div class="tc-drop-down">
+
+{{TiddlerWidthSettings}}
+</div>
+</$reveal>

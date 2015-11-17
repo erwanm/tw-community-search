@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugin/ajh/favorites'
-name: unknown
-plugin_tiddler: $:/plugin/ajh/favorites
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

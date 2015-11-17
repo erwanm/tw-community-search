@@ -1,0 +1,11 @@
+title: $:/Interactive Fiction Engine (inmysocks)/ItemsInRoomListTemplate
+created: 20141113055236505
+modified: 20141129050753838
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: ItemsInRoomListTemplate
+source-tiddler-title-as-link: ItemsInRoomListTemplate
+
+<!-- <$view field="title"/> <$button message="tm-modal" param={{!!title}}>View Item</$button><$fieldmangler tiddler={{!!title}}><$button><$action-setfield $field=location $value=inventory/><$action-sendmessage $message="tm-remove-tag" $param={{MapState!!text}}/>Pick Up</$button></$fieldmangler><br> -->
+
+<$view field="title"/> <$button><$action-sendmessage $message="tm-modal" $param=ModalItemViewTemplate ItemName={{!!title}}/>View Item</$button><$fieldmangler tiddler={{!!title}}><$button><$action-setfield $field=location $value=inventory/><$action-sendmessage $message="tm-remove-tag" $param={{MapState!!text}}/>Pick Up</$button></$fieldmangler><br>

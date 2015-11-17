@@ -1,0 +1,12 @@
+title: $:/External Brain (inmysocks)/Menu Icon - People
+created: 20150310225703360
+left_menu_order: 6
+modified: 20150310231652537
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - People
+source-tiddler-title-as-link: Menu%20Icon%20-%20People
+
+<$button class='left-menu-text tc-btn-invisible'>People
+<$action-navigate $to='people'/>
+</$button>

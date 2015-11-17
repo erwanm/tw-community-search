@@ -16,7 +16,7 @@ repository:
 revision: 0.9.15
 short_description: A plugin to make mindmaps using TiddlyWiki
 wiki: http://tiddlymap.org/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - TiddlyMap
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TiddlyMap

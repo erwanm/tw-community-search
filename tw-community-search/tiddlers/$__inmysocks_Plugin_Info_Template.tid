@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: 
 wiki: 
-tags: inmysocks  Templates [[Plugin twCard]]
+tags: [[inmysocks]]  Templates [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Plugin Info Template
 source-tiddler-title-as-link: Plugin%20Info%20Template

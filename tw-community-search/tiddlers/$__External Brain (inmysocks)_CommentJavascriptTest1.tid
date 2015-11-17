@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/CommentJavascriptTest1
+created: 20150515230446174
+modified: 20150516024108454
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: CommentJavascriptTest1
+source-tiddler-title-as-link: CommentJavascriptTest1
+
+I think that by editing the html template used I can make the permalinks work correctly. Mostly, they won't go to specific comments, they will bring you to the correct tiddler. This isn't very useful but it should work. I am also hoping that I can make the javascript macro take inputs that will identify the current tiddler and this will be used to separate the different comment threads.
+
+The biggest problem is that the comments var in the javascript needs to be updated every time a new comment is made. Currently the only way to do this is manually. Hopefully I can make something different. Like when the page is reloaded that part is saved to a tiddler which is read and inserted into the javascript. I may be able to actually make this work.
+
+With some simple edits I could make this so that people could leave comments but they wouldn't be visible. That would be better than the google forms approach I am using now.

@@ -9,7 +9,7 @@ op-parameter: the name of a [[field|TiddlerFields]], defaulting to <<.field titl
 op-parameter-name: F
 op-purpose: sort the input by text field, treating upper and lower case as different
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: sortcs Operator
 source-tiddler-title-as-link: sortcs%20Operator

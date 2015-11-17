@@ -1,0 +1,28 @@
+title: $:/External Brain (inmysocks)/Embedded Video CSS
+created: 20150303005740112
+modified: 20150303011422372
+type: text/css
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Embedded Video CSS
+source-tiddler-title-as-link: Embedded%20Video%20CSS
+
+.video-wrapper-16-9 {
+	position: relative;
+	padding-bottom: 56%;
+	height: 0;
+}
+
+.video-wrapper-4-3 {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+}
+
+.video-iframe-css {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

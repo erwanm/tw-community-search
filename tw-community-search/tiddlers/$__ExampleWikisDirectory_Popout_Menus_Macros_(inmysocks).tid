@@ -3,11 +3,12 @@ caption: Popout Menus
 category: Macro
 created: 20150604180628389
 description: Some simple popout menus
-modified: 20150604204443192
+follow: yes
+modified: 20151116091125270
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Popup%20Macros%20for%20the%20Icon%20Menus
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro Menu
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro Menu
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Popout Menus Macros (inmysocks)
 source-tiddler-title-as-link: Popout%20Menus%20Macros%20%28inmysocks%29

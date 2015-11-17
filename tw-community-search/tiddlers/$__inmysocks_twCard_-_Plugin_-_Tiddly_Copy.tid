@@ -16,7 +16,7 @@ repository:
 revision: 0.0.26
 short_description: A plugin that combines the features of the Tiddly Viewer and Copy plugins
 wiki: http://tiddlycopy.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Tiddly Copy
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tiddly%20Copy

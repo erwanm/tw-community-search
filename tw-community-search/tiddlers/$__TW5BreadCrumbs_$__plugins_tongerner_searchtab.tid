@@ -8,7 +8,7 @@ list: readme
 modified: 20150708090535078
 modifier: TonGerner
 version: 0.0.5
-tags: TW5BreadCrumbs 
+tags: [[TW5BreadCrumbs]] 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/searchtab
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fsearchtab

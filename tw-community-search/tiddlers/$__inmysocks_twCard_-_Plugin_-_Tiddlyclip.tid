@@ -16,7 +16,7 @@ repository:
 revision: 0.0.7
 short_description: Clip things from webpages and add them to your wiki
 wiki: http://tiddlyclip.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Tiddlyclip
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tiddlyclip

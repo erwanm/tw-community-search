@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Font Options
+created: 20150303051931001
+left_menu_order: 90
+modified: 20150310225408643
+top_left_menu_order: 2
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Font Options
+source-tiddler-title-as-link: Menu%20Icon%20-%20Font%20Options
+
+@@color:skyblue;
+<$button class='tc-btn-invisible' to='Font Options' tooltip='Change font options'><<fa fa-font>></$button>
+@@

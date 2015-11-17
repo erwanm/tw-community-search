@@ -1,0 +1,19 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Change Tiddler Size
+caption: Change Tiddler Width/Font SIze
+created: 20150217192205116
+left_menu_order: 0
+modified: 20150508031228423
+top_left_menu_order: 3
+top_right_menu_order: 1
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Change Tiddler Size
+source-tiddler-title-as-link: Menu%20Icon%20-%20Change%20Tiddler%20Size
+
+<$button class='tc-btn-invisible' popup="$:/state/changetiddlerwidthpopup" tooltip='Change Tiddler Width'>{{$:/core/images/right-arrow}}</$button>
+<$reveal type="popup" state="$:/state/changetiddlerwidthpopup">
+<div class="tc-drop-down tc-popup-keep" style='position:relative;left:1em;top:-1em'>
+
+{{TiddlerWidthSettings}}
+</div>
+</$reveal>

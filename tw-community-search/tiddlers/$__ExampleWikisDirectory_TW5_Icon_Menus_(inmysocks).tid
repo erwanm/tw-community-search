@@ -3,11 +3,12 @@ caption: Icon Menus
 category: Website
 created: 20150203204722891
 description: Some alternate menus for TiddlyWiki that can go on top of other themes.
-modified: 20150604204110895
+follow: yes
+modified: 20151116091125272
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/iconmenus/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: TW5 Icon Menus (inmysocks)
 source-tiddler-title-as-link: TW5%20Icon%20Menus%20%28inmysocks%29

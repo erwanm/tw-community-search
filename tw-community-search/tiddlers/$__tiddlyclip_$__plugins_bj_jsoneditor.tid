@@ -8,7 +8,7 @@ modified: 20140726080916246
 revision: 0
 source: https://github.com/buggyj/TW5-jsoneditor
 version: 0.0.3
-tags: tiddlyclip 
+tags: [[tiddlyclip]] 
 source-wiki-id: tiddlyclip
 source-tiddler-title-as-text: $:/plugins/bj/jsoneditor
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fjsoneditor

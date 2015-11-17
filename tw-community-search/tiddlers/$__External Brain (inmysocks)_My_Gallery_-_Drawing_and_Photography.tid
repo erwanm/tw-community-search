@@ -1,0 +1,23 @@
+title: $:/External Brain (inmysocks)/My Gallery - Drawing and Photography
+created: 20150131040050337
+list-after: Dashboard
+modified: 20150414023017652
+tags: [[External Brain (inmysocks)]]  Contents
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: My Gallery - Drawing and Photography
+source-tiddler-title-as-link: My%20Gallery%20-%20Drawing%20and%20Photography
+
+Click on one of the images to open up its tiddler, at the top of the images tiddler there will be left and right arrows that you can click to go to the previous and next images.
+
+<style>
+.my-gallery jpg {
+width: 6em;
+height: 6em;
+margin: 1em;
+}
+</style>
+<div class="my-gallery">
+<$list filter="[tag[My Drawing]sort[title]][tag[Photograph]sort[title]]" template=GalleryImageTemplate>
+
+</$list>
+</div>

@@ -3,11 +3,12 @@ caption: Twitter Integration
 category: Plugin
 created: 20150604171008047
 description: A plugin that adds things needed for integrating twitter into tiddlywiki
-modified: 20150604204050199
+follow: yes
+modified: 20151116091125272
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Twitter%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Twitter Integration (inmysocks)
 source-tiddler-title-as-link: Twitter%20Integration%20%28inmysocks%29

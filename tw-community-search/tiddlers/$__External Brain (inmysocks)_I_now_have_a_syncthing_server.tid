@@ -1,0 +1,27 @@
+title: $:/External Brain (inmysocks)/I now have a syncthing server
+created: 20150203221158869
+day: 2
+image: 
+image_caption: 
+link: 
+modified: 20150518212428000
+modifier: inmysocks
+month: May
+number_of_comments: 0
+posted: 17:14, 2nd May 2015
+summary: running on my headless raspberry pi
+template: BlogDisplayTemplate1
+time: 20150502171419
+tooltip: 
+width: 
+year: 2015
+tags: [[External Brain (inmysocks)]]  [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: I now have a syncthing server
+source-tiddler-title-as-link: I%20now%20have%20a%20syncthing%20server
+
+I have a new toy! I finally got around to using the raspberry pi with the broken video out ports. I used my working pi to set up an sd card with [[syncthing|https://syncthing.net/]] configured on a vanilla raspbian install and just put it into the headless pi. It is sitting on top of the router at the moment. This works fine for my desktop and the pi, but my tablet doesn't seem to want to cooperate. The android version of the client is in alpha, so this isn't surprising, it just means that the syncthing server isn't all that helpful. I am going to get it set up on Felicity's computer, which should actually make it useful.
+
+While it does have a web interface, at the moment you can't get single files without syncing one of the defined folders clusters they way you can using the web version of dropbox. But I suppose that is what ftp is for.
+
+The next project for the pi is setting up a node.js server to see how I can get tiddlywiki working. If I am lucky that there will be some good way to set it up as a multi-user wiki and when I move to Paris and have to start doing the tabletop games online we can use it to keep track of everything in more or less real time as we play. If I remember correctly Rich Shumaker has some instructions for setting tiddlywiki stuff up on a raspberry pi, so that part may even be easy.

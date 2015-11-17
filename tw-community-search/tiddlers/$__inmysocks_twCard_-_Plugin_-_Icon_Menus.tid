@@ -16,7 +16,7 @@ repository:
 revision: 0.0.4
 short_description: A set of icon menus that can go ontop of other themes, demo: http://ooktech.com/iconmenus/
 wiki: http://inmysocks.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Icon Menus
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Icon%20Menus

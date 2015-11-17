@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Wiki MetaTags (inmysocks)
+caption: Wiki MetaTags
+category: Website
+created: 20151116085500896
+description: A site showing one way to add metatags to a wiki. This should be mostly ignored in favour of just using $:/tags/RawMarkup
+follow: yes
+modified: 20151116091125273
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/MetaTags/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-link: Wiki%20MetaTags%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

@@ -16,7 +16,7 @@ repository:
 revision: 0.0.5
 short_description: set a field using a widget
 wiki: http://gwiz.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - SetFieldWidget
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20SetFieldWidget

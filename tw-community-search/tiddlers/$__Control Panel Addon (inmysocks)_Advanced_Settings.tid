@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Advanced Settings
+created: 20150602171812454
+modified: 20150602234700487
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Advanced Settings
+source-tiddler-title-as-link: Advanced%20Settings
+
+This is defined in the tiddler [[Advanced Settings]], see [[About Advanced Settings]] for more information.
+
+<<MobileMenu RootTag:"$:/tags/Advanced Settings" MenuName:"Advanced Settings" Type:Menu MenuTitle:"" Subtitle:"" ShowBody:Body>>

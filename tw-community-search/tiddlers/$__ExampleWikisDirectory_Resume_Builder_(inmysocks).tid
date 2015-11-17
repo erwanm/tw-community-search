@@ -3,11 +3,12 @@ caption: Resume Builder Wiki
 category: Wiki Edition
 created: 20150620123006840
 description: A tool for making resumes using tiddlywiki
-modified: 20150620162932145
+follow: yes
+modified: 20151116091125271
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/ResumeBuilderWiki/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Menu Edition
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Menu Edition
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Resume Builder (inmysocks)
 source-tiddler-title-as-link: Resume%20Builder%20%28inmysocks%29

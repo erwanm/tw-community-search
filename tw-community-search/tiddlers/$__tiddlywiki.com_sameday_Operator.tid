@@ -10,7 +10,7 @@ op-purpose: filter the input by date
 op-suffix: the name of a [[date field|Date Fields]], defaulting to <<.field modified>>
 op-suffix-name: F
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Date Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Date Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: sameday Operator
 source-tiddler-title-as-link: sameday%20Operator

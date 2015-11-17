@@ -7,7 +7,7 @@ revision: 0
 summary: adds a sophisticated web-based editor to TiddlyWiki
 type: text/vnd.tiddlywiki
 url: http://tiddlywiki.com/plugins/tiddlywiki/codemirror/
-tags: tb5  Core Code Developer Plugin Solutions
+tags: [[tb5]]  Core Code Developer Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: CodeMirror Plugin
 source-tiddler-title-as-link: CodeMirror%20Plugin

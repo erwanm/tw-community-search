@@ -1,0 +1,18 @@
+title: $:/Interactive Fiction Engine (inmysocks)/room6
+created: 20141110055551398
+east: room7
+east_button: <<eastButton>>
+explored: false
+modified: 20141129062020064
+north: room1
+north_button: <<northButton>>
+south: room11
+south_button: <<southButton>>
+west: 
+west_button: 
+tags: [[Interactive Fiction Engine (inmysocks)]]  Room
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: room6
+source-tiddler-title-as-link: room6
+
+You are standing in front of your dresser. It has 3 drawers.

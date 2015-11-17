@@ -1,0 +1,44 @@
+title: $:/Control Panel Addon (inmysocks)/Add CSS Class
+created: 20150602222857138
+modified: 20150603194445832
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Add CSS Class
+source-tiddler-title-as-link: Add%20CSS%20Class
+
+\define thisMakeButton()
+<$button>Add Class
+<$fieldmangler tiddler={{$:/temp/Add CSS Class!!name}}>
+<$action-setfield $tiddler={{$:/temp/Add CSS Class!!name}} description={{$:/temp/Add CSS Class!!description}} css_tiddler="""$(ClassName)$ Class Override""" tags="[[Advanced Settings Category]]" text='{{$(TiddlerTitle)$||CSS Options Template}}'/>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/temp/Add CSS Class!!location}}/>
+<$action-navigate $to={{$:/temp/Add CSS Class!!name}}/>
+<$action-setfield $tiddler="""$(ClassName)$ Class Override""" tags="$:/tags/Stylesheet" text="""{{$(ClassName)$ Class Override||CSS Creation Template}}"""/>
+<$action-setfield $tiddler='$:/temp/Add CSS Class' description='' name='' class-name='' tags="Advanced Settings Category" text="""{{||CSS Options Template}}"""/>
+</$fieldmangler>
+</$button>
+\end
+
+Fill in the fields then click 'Add Class', the tiddler will be created and the tiddler where you can add properties and set their values.
+
+Name:
+<$edit-text tiddler='$:/temp/Add CSS Class' field='name' class='tc-edit-texteditor' placeholder="""Something descriptive like 'Tiddler Title' or 'SVG Buttons'"""/>
+
+CSS Class:
+<$edit-text tiddler='$:/temp/Add CSS Class' field='class-name' class='tc-edit-texteditor' placeholder="""The full thing, like '.tc-title' or '.tc-image-down-arrow .tc-image-button svg'"""/>
+
+Description:
+<$edit-text tiddler='$:/temp/Add CSS Class' field='description' class='tc-edit-texteditor' placeholder='A short description'/>
+
+Location (select parent node):
+<$select tiddler='$:/temp/Add CSS Class' field='location'>
+<option value='$:/tags/Advanced Settings'>Root Layer</option>
+<$list filter='[tag[Advanced Settings Category]]'>
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+
+<$set name=ClassName value={{$:/temp/Add CSS Class!!class-name}}>
+<$set name=TiddlerTitle value={{$:/temp/Add CSS Class!!name}}>
+<<thisMakeButton>>
+</$set>
+</$set>

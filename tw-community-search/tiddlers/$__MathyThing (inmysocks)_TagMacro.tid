@@ -1,0 +1,30 @@
+title: $:/MathyThing (inmysocks)/TagMacro
+caption: tag
+created: 20141206130540337
+modified: 20141206130540337
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Macros
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: TagMacro
+source-tiddler-title-as-link: TagMacro
+
+The 'tag' macro displays a tag pill for a specified tag.
+
+! Parameters
+
+|!Position |!Name |!Description |!Default |
+|1st |tag |Title of tag |The current tiddler |
+
+! Examples
+
+For example:
+
+```
+* <<tag>>
+* <<tag "HelloThere">>
+```
+
+Returns:
+
+* <<tag>>
+* <<tag "HelloThere">>

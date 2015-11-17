@@ -3,11 +3,12 @@ caption: Searchable Dictionary
 category: Plugin
 created: 20150604170040894
 description: A simple searchable dictionary for TiddlyWiki
-modified: 20150604183855448
+follow: yes
+modified: 20151116091125271
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Searchable%20Dictionary%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Searchable Dictionary (inmysocks)
 source-tiddler-title-as-link: Searchable%20Dictionary%20%28inmysocks%29

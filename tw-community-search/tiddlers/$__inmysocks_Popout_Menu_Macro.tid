@@ -4,7 +4,7 @@ demo_site: http://ooktech.com/jed/ExampleWikis/Text%20Menus/upgrade.html
 description: Macros to create and display popout menus
 install_link: [[$:/macros/inmysocks/Popout Menu Macro]]
 modified: 20150629204929045
-tags: inmysocks  [[My Macros]]
+tags: [[inmysocks]]  [[My Macros]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Popout Menu Macro
 source-tiddler-title-as-link: Popout%20Menu%20Macro

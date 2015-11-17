@@ -6,7 +6,7 @@ description: ThankYou - a plugin to express your gratitude
 modified: 20150805170402779
 source: http://thankyou.tiddlyspot.com/
 version: 0.0.2
-tags: ThankYouPlugin 
+tags: [[ThankYouPlugin]] 
 source-wiki-id: ThankYouPlugin
 source-tiddler-title-as-text: $:/plugins/Mat/ThankYou
 source-tiddler-title-as-link: %24%3a%2fplugins%2fMat%2fThankYou

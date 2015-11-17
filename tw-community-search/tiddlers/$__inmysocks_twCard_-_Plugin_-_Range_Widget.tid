@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: A plugin that adds an html range slider input
 wiki: http://inmysocks.tiddlyspot.com/#Range%20Widget%20Plugin
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Range Widget
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Range%20Widget

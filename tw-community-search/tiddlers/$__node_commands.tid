@@ -3,7 +3,7 @@ created: 20150117174359000
 modified: 20151014135433999
 p.wikipath: an optional path to the [[wiki]] folder to be loaded<br>» default: if not defined, the current working directory is used
 summary: commands prefixed `--` for [[tiddlywiki]] on the [[node.js]] command-line 
-tags: node  concepts
+tags: [[node]]  concepts
 source-wiki-id: node
 source-tiddler-title-as-text: commands
 source-tiddler-title-as-link: commands

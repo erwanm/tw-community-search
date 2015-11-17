@@ -3,11 +3,12 @@ caption: Input Range Slider Widget
 category: Website
 created: 20150604155617117
 description: A widget that adds the html range input type
-modified: 20150604182810787
+follow: yes
+modified: 20151116091125269
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/InputRangeSliderWidget/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Input Range Slider Widget (inmysocks)
 source-tiddler-title-as-link: Input%20Range%20Slider%20Widget%20%28inmysocks%29

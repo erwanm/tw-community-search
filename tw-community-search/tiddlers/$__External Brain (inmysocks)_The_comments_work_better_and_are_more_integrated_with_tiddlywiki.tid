@@ -1,0 +1,28 @@
+title: $:/External Brain (inmysocks)/The comments work better and are more integrated with tiddlywiki
+created: 20150203221158869
+day: 18
+image: 
+image_caption: 
+link: 
+modified: 20150521205553132
+modifier: inmysocks
+month: May
+number_of_comments: 1
+posted: 17:29, 18th May 2015
+sort_comments: newest
+summary: But there is still more to do!
+template: BlogDisplayTemplate1
+time: 20150518172950
+tooltip: 
+width: 
+year: 2015
+tags: [[External Brain (inmysocks)]]  [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: The comments work better and are more integrated with tiddlywiki
+source-tiddler-title-as-link: The%20comments%20work%20better%20and%20are%20more%20integrated%20with%20tiddlywiki
+
+I should be able to make every visible part of the comment system use native tiddlywiki things and just have hashover take care of the backend. This would give people control over things like how to take the input and what things to ask for.
+
+Depending on how much is required I may be able to just write something new to use instead of hashover since I have some idea of how things work now. TiddlyWiki does give a very good way to set up the frontend so it may work out well. And if I make something new I can have the comments stored in json to play with tiddlywiki better. Remaking the backend is probably a bit too ambitious a goal for the moment. I will worry about all of that later. 
+
+For now I have comments and some comment moderation and stuff. Yay! I still need to write usable instructions for how to put this stuff into someone else's wiki. In the meantime if anyone wants to use this and needs help let me know. I can use that to figure out what needs to go into writing more general instructions. And now you can use the comments to leave messages! I am still very excited about this. I should update the leave a message thing to use this as well instead of the google form.

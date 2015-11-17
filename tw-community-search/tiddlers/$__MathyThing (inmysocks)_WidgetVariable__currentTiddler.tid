@@ -1,0 +1,25 @@
+title: $:/MathyThing (inmysocks)/WidgetVariable: currentTiddler
+caption: currentTiddler
+created: 20141001232824187
+modified: 20141002161518301
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Variables
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: WidgetVariable: currentTiddler
+source-tiddler-title-as-link: WidgetVariable%3a%20currentTiddler
+
+! Mechanism
+
+The ''currentTiddler'' variable contains the title of the current tiddler. 
+
+The ListWidget assigns the list result to the ''currentTiddler'' variable, unless the `variable` attribute is specified.
+
+A couple of [[Widgets]] and [[Macros]] by default apply to the tiddler according to the ''currentTiddler'' variable. 
+
+The TranscludeWidget (or WikiText `{{||TemplateTitle}}`) transcludes a tiddler without changing the ''currentTiddler'' variable.
+
+! Using currentTiddler Variable
+
+These mechanisms together allow you to write references like `<$view field="title" format="link"/>` in TemplateTiddlers or inside the ListWidget hierarchy without explicitly specifying the tiddler that it applies to.
+
+See also [[WidgetVariable: storyTiddler]] and [[WidgetVariable: currentTiddler]]

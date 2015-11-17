@@ -7,7 +7,7 @@ description: editor of json!
 revision: 0
 source: https://github.com/buggyj/TW5-jsoneditor
 version: 0.0.5
-tags: BJTools 
+tags: [[BJTools]] 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/jsoneditor
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fjsoneditor

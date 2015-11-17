@@ -3,11 +3,12 @@ caption: muut integration
 category: Website
 created: 20150620130144267
 description: A demo of adding the muut commenting system into a tiddlywiki
-modified: 20150620130224607
+follow: yes
+modified: 20151116091125267
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/TiddlyWiki-muut/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Adding muut to TiddlyWiki (inmysocks)
 source-tiddler-title-as-link: Adding%20muut%20to%20TiddlyWiki%20%28inmysocks%29

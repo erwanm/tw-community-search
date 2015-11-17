@@ -7,7 +7,7 @@ op-output: all the field names contained in the input tiddlers
 op-parameter: none
 op-purpose: select all field names of the input titles
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Field Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Field Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: fields Operator
 source-tiddler-title-as-link: fields%20Operator

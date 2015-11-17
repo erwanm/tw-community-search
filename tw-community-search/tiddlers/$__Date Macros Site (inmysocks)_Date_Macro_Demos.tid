@@ -1,0 +1,71 @@
+title: $:/Date Macros Site (inmysocks)/Date Macro Demos
+created: 20150225073027611
+modified: 20150225202332178
+test: 10727
+tags: [[Date Macros Site (inmysocks)]] 
+source-wiki-id: Date Macros Site (inmysocks)
+source-tiddler-title-as-text: Date Macro Demos
+source-tiddler-title-as-link: Date%20Macro%20Demos
+
+There are currently 3 macros:
+
+*[[$:/inmysocks/macros/day-diff.js]]
+*[[$:/inmysocks/macros/year-diff.js]]
+*[[$:/inmysocks/macros/add-time.js]]
+
+`day-diff` and `year-diff` both take up to 6 inputs:
+
+|!Name |!Purpose |
+|year1 |The starting year (default: 1900) |
+|month1 |The starting month (default: 1 for January) |
+|day1 |The starting day (default: 1) |
+|year2 |The ending year (default: 1900) |
+|month2 |The ending month (default: 1 for January) |
+|day2 |The ending day (default 1) |
+
+`add-time` takes up to 6 inputs:
+
+|!Name |!Purpose |
+|years |The number of years to add (default 0) |
+|months |The number of months to add (default 0) |
+|days |The number of days to add (default 0) |
+|hours |The number of hours to add (default 0) |
+|minutes |The number of minutes to add (default 0) |
+|seconds |The number of seconds to add (default 0) |
+
+All are numeric values. Years should be 4 digits (YYYY), months should be values in the range 1-12, with 1 being January and 12 being December, days should be in the range 1-31 to correspond to the day of the month. If you give a day that is outside of a given month, like 31 for February, it will treat it as March 3rd.
+
+day-diff returns the number of days rounded to the closes full day, year-diff returns the number of years rounded to the closest full year.
+
+Inputs can be given in order or in name:value pairs, so  `<<day-diff year1:1985 year2:2015>>` gives <<day-diff year1:1985 year2:2015>> and `<<day-diff 1985 1 1 2015 1 1>>` gives <<day-diff 1985 1 1 2015 1 1>>, which should be the same result.
+
+```
+There are <<day-diff 1985 10 9 2015 2 25>> days between Oct. 9th 1985 and Feb. 25th 2015
+
+There are <<year-diff 1985 10 9 2015 2 25>> years between Oct. 9th 1985 and Feb. 25th 2015
+
+It will be <<add-time 5 3 2>> 5 years 3 months and 2 days from now.
+
+Days and months roll over as expected:
+
+`<<add-time 0 36 200>>` gives <<add-time 0 36 200>>
+```
+
+Difference between two dates in days: (this may not be completely accurate, I think it is a few days off.)
+
+There are <<day-diff 1985 10 9 2015 2 25>> days between Oct. 9th 1985 and Feb. 25th 2015
+
+Difference between two dates in years:
+
+There are <<year-diff 1985 10 9 2015 2 25>> years between Oct. 9th 1985 and Feb. 25th 2015
+
+Date a set time from now:
+
+It will be <<add-time 5 3 2>> 5 years 3 months and 2 days from now.
+
+
+Days and months roll over as expected:
+
+`<<add-time 0 36 200>>` gives <<add-time 0 36 200>>
+
+<!--<$button>test<$action-setfield test=<<day-diff 1985 10 9 2015 2 25>>/></$button>-->

@@ -1,0 +1,26 @@
+audience: 
+category: Data Presentation
+created: 20151015075959708
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: ihm4u
+modified: 20151117124313996
+name: Tidgraph
+plugin_tiddler: $:/plugins/ihm/tidgraph
+release: 
+repository: 
+revision: 0.9.0
+short_description: Displays a tiddler tree with organization similar to the TOC macros
+title: twCard - Plugin - Tidgraph
+wiki: http://ihm4u.github.io/tw5plugs/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: TidgraphPlugin
+twcs-extracted-plugin-tiddler: $:/TidgraphPlugin/$:/plugins/ihm/tidgraph
+twcs-description: Tidgraph - Easy tiddler graphs for TW5
+twcs-author: ihm4u
+twcs-version: 0.9.0-rc2
+
+{{||$:/CommunityPluginTemplate}}

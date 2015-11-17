@@ -1,0 +1,24 @@
+title: $:/Version 5.1.8 Fun (inmysocks)/Add or Remove Tags
+blurb:  Search using a filter and add tags
+created: 20150227011244336
+modified: 20150327035151404
+tags: [[Version 5.1.8 Fun (inmysocks)]]  Tools
+source-wiki-id: Version 5.1.8 Fun (inmysocks)
+source-tiddler-title-as-text: Add or Remove Tags
+source-tiddler-title-as-link: Add%20or%20Remove%20Tags
+
+Enter a filter and all tiddlers returned by that filter will be listed. Enter a tag and the checkboxes will indicate if each tiddler has that tag or not. Checking a box adds the tag, unchecking a box removes it. The buttons do exactly what they say.
+
+Filter:
+<$edit-text tiddler='$:/temp/BatchAddTags' field='filter' class='tc-edit-texteditor'/>
+
+Tag: <$edit-text tiddler='$:/temp/BatchAddTags' field='add_tag' class='tc-edit-texteditor'/>
+
+<table>
+<tr><th>Tiddler Name</th><th>Has Tag?</th></tr>
+<$list filter={{$:/temp/BatchAddTags!!filter}}>
+<$fieldmangler tiddler=<<currentTiddler>>>
+<tr><td><$link to=<<currentTiddler>>><$view field='title'/></$link></td><td><$checkbox tiddler=<<currentTiddler>> tag={{$:/temp/BatchAddTags!!add_tag}}/></td></tr>
+</$fieldmangler>
+</$list>
+</table>

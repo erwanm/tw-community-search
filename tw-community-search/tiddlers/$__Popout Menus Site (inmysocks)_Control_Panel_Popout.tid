@@ -1,0 +1,18 @@
+title: $:/Popout Menus Site (inmysocks)/Control Panel Popout
+caption: Control Panel Popout
+created: 20150418214619623
+creator: inmysocks
+left_menu_order: 2
+modified: 20150424050252737
+modifier: inmysocks
+order: 3
+right_menu_order: 
+top_left_menu_order: 0
+top_middle_menu_order: 3
+top_right_menu_order: 0
+tags: [[Popout Menus Site (inmysocks)]]  [[Menu Icon]] [[Icon Menus]]
+source-wiki-id: Popout Menus Site (inmysocks)
+source-tiddler-title-as-text: Control Panel Popout
+source-tiddler-title-as-link: Control%20Panel%20Popout
+
+<<PopoutMenuScrollable "{{$:/core/images/options-button}}" "ControlPanelPopout" "$:/ControlPanel">>

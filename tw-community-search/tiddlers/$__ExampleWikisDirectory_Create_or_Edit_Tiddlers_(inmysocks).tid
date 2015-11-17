@@ -3,11 +3,12 @@ caption: Create or Edit Tiddlers
 category: Plugin
 created: 20150604165046331
 description: A plugin for creating or editing tiddlers
-modified: 20150604182625604
+follow: yes
+modified: 20151116091125268
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Create%20or%20Edit%20Tiddlers%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Create or Edit Tiddlers (inmysocks)
 source-tiddler-title-as-link: Create%20or%20Edit%20Tiddlers%20%28inmysocks%29

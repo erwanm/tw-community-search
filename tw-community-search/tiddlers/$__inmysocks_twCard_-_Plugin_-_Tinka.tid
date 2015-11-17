@@ -16,7 +16,7 @@ repository:
 revision: 0.2.0
 short_description: A plugin that gives a simple way to create plugins.
 wiki: http://twguides.org/wiki/tinka.html
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Tinka
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tinka

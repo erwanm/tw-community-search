@@ -9,7 +9,7 @@ link_fields_example_source_field: Hola!
 modified: 20150106014455164
 other_example_store_field: Hello!
 version_number: 0.0.8
-tags: inmysocks  Plugins [[Utility Plugins]]
+tags: [[inmysocks]]  Plugins [[Utility Plugins]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: TW5Utils Plugin
 source-tiddler-title-as-link: TW5Utils%20Plugin

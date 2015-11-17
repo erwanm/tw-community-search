@@ -6,7 +6,7 @@ modifier: Matabele
 revision: 0
 state1: hide
 type: text/vnd.tiddlywiki
-tags: gWiZ 
+tags: [[gWiZ]] 
 source-wiki-id: gWiZ
 source-tiddler-title-as-text: X-SetRefs Demo
 source-tiddler-title-as-link: X-SetRefs%20Demo

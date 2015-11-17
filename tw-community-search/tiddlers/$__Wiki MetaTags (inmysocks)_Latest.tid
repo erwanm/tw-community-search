@@ -1,0 +1,26 @@
+title: $:/Wiki MetaTags (inmysocks)/Latest
+created: 20140321090511826
+modified: 20140919170549958
+type: text/vnd.tiddlywiki
+tags: [[Wiki MetaTags (inmysocks)]]  Community
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: Latest
+source-tiddler-title-as-link: Latest
+
+The latest news, articles, resources and examples.
+
+<div class="tc-link-info">
+
+<$list filter="[tag[Articles]] [tag[Examples]] [tag[Resources]] [tag[Tutorials]] +[!sort[modified]limit[8]]">
+
+<div class="tc-link-info-item">
+
+! <$link><$view field="title"/></$link>
+
+<div class="tc-subtitle">Posted <$view field="modified" format="relativedate"/></div>
+
+<$transclude/>
+
+</div>
+
+</$list>

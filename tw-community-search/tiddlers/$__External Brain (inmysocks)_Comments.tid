@@ -1,0 +1,21 @@
+title: $:/External Brain (inmysocks)/Comments
+created: 20150303003050021
+creator: inmysocks
+modified: 20150520171330384
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Comments
+source-tiddler-title-as-link: Comments
+
+These are just general comments/messages to me. They won't be displayed on a post but you should assume that they will be accessible by the people reading the wiki if they put effort into looking, but I am not going to list them here or anything. If you want to send me a private message there are [[plenty of ways to do that|Who is this inmysocks guy?]].
+
+<div id='hashover'>
+
+<$macrocall $name=hashoverComments postname=<<currentTiddler>> kickback="ooktech.com/jed/externalbrain/"/>
+
+</div>
+
+<!--
+<iframe src="https://docs.google.com/forms/d/1cKQSTSrMxA9hLPv99hgJ54UPfdgMt4Bpf-wGh7udSZA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+-->

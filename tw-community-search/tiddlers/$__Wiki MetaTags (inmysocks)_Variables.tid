@@ -1,0 +1,16 @@
+title: $:/Wiki MetaTags (inmysocks)/Variables
+created: 20141002133113496
+modified: 20150107121000000
+type: text/vnd.tiddlywiki
+tags: [[Wiki MetaTags (inmysocks)]]  Reference
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: Variables
+source-tiddler-title-as-link: Variables
+
+[[Variables]] are an essential component of dynamic WikiText, as are [[Widgets]] and [[Macros]]. In fact, a variable is a shorthand of a macro.
+
+You can define custom [[Variables in WikiText]] or use one of the standard variables...
+
+<<list-links "[tag[Variables]]">>
+
+The [[<<dumpvariables>>|DumpVariablesMacro]] macro lists all variables defined in the current scope, allowing you to see and edit their values.

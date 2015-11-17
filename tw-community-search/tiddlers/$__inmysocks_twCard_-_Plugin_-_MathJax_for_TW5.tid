@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: A plugin to add MathJax typesetting to TW5
 wiki: http://mathjax-tw5.kantorsite.net/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - MathJax for TW5
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MathJax%20for%20TW5

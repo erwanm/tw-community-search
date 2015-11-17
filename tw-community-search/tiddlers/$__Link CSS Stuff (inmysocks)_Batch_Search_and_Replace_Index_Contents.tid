@@ -1,0 +1,152 @@
+title: $:/Link CSS Stuff (inmysocks)/Batch Search and Replace Index Contents
+created: 20150222215532926
+modified: 20150227012558328
+tags: [[Link CSS Stuff (inmysocks)]] 
+source-wiki-id: Link CSS Stuff (inmysocks)
+source-tiddler-title-as-text: Batch Search and Replace Index Contents
+source-tiddler-title-as-link: Batch%20Search%20and%20Replace%20Index%20Contents
+
+\define thisMakeSelectionButton()
+<$reveal type=nomatch state=&#39;$:/state/SearchAndReplaceIndexContents/SelectedTiddlers##$(ThisIndexName)$&#39; text=selected>
+<$button class=&#39;tc-btn-invisible&#39;><$text text="""$(ThisOne)$"""/>
+<$action-setfield $tiddler="""$:/state/SearchAndReplaceIndexContents/SelectedTiddlers""" $index="""$(ThisIndexName)$""" $value=selected/>
+</$button>
+</$reveal>
+<$reveal type=match state=&#39;$:/state/SearchAndReplaceIndexContents/SelectedTiddlers##$(ThisIndexName)$&#39; text=selected>
+<$button class=&#39;tc-btn-invisible&#39;>{{$:/core/images/done-button}}<$text text="""$(ThisOne)$"""/>
+<$action-setfield $tiddler="""$:/state/SearchAndReplaceIndexContents/SelectedTiddlers""" $index="""$(ThisIndexName)$""" $value=unselected/>
+</$button>
+</$reveal>
+\end
+
+\define thisMakeIndexName()
+$(ThisOne)$$(ThisIndex)$
+\end
+
+\define thisClearSelectionButton()
+<$button>Clear Selections
+<$list filter=&#39;[[$:/state/SearchAndReplaceIndexContents/SelectedTiddlers]indexes[]]&#39;>
+<$action-setfield $tiddler=&#39;$:/state/SearchAndReplaceIndexContents/SelectedTiddlers&#39; $index=<<currentTiddler>> $value=&#39;unselected&#39;/>
+</$list>
+</$button>
+\end
+
+\define thisMakeTables()
+Selected matches (<$button>Replace Selected Matches
+<$list filter=&#39;$(IncludeSystemTiddlers)$+[regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>
+<!--<$list filter=&#39;[!is[system]regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>-->
+<$list filter=&#39;[<ThisOne>indexes[]regexp<IndexNameSearchRegExp>]&#39; variable=ThisIndex>
+<$set name=ThisIndexName value=<<thisMakeIndexName>>>
+<$list filter=&#39;[<ThisOne>getindex<ThisIndex>regexp<IndexContentsSearchRegExp>]&#39;>
+<$list filter=&#39;[[$:/state/SearchAndReplaceIndexContents/SelectedTiddlers]getindex<ThisIndexName>prefix[selected]]&#39;>
+<$action-setfield $tiddler=<<ThisOne>> $index=<<ThisIndex>> $value={{$:/temp/SearchAndReplaceIndexContents/Search!!replace_text}}/>
+</$list>
+</$list>
+</$set>
+</$list>
+</$list>
+</$button> <<thisClearSelectionButton>>):
+<table>
+<tr><th>Tiddler</th><th>Index Name</th><th>Index Value</th></tr>
+<$list filter=&#39;$(IncludeSystemTiddlers)$+[regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>
+<!--<$list filter=&#39;[!is[system]regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>-->
+<$list filter=&#39;[<ThisOne>indexes[]regexp<IndexNameSearchRegExp>]&#39; variable=ThisIndex>
+<$set name=ThisIndexName value=<<thisMakeIndexName>>>
+<$list filter=&#39;[<ThisOne>getindex<ThisIndex>regexp<IndexContentsSearchRegExp>]&#39;>
+<$list filter=&#39;[[$:/state/SearchAndReplaceIndexContents/SelectedTiddlers]getindex<ThisIndexName>prefix[selected]]&#39;>
+<tr><td><<thisMakeSelectionButton>></td><td><<ThisIndex>></td><td><$view tiddler=<<ThisOne>> index=<<ThisIndex>>/></td></tr>
+</$list>
+</$list>
+</$set>
+</$list>
+</$list>
+</table>
+
+All matches (<$button>Replace All Matches
+<$list filter=&#39;$(IncludeSystemTiddlers)$+[regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>
+<!--<$list filter=&#39;[!is[system]regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>-->
+<$list filter=&#39;[<ThisOne>indexes[]regexp<IndexNameSearchRegExp>]&#39; variable=ThisIndex>
+<$set name=ThisIndexName value=<<thisMakeIndexName>>>
+<$list filter=&#39;[<ThisOne>getindex<ThisIndex>regexp<IndexContentsSearchRegExp>]&#39; variable=ThisFilteredIndexValue>
+<$action-setfield $tiddler=<<ThisOne>> $index=<<ThisIndex>> $value={{$:/temp/SearchAndReplaceIndexContents/Search!!replace_text}}/>
+</$list>
+</$set>
+</$list>
+</$list>
+</$button>):
+<table>
+<tr><th>Tiddler</th><th>Index Name</th><th>Index Value</th></tr>
+<$list filter=&#39;$(IncludeSystemTiddlers)$+[regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>
+<!--<$list filter=&#39;[!is[system]regexp<TiddlerNameSearchRegExp>]&#39; variable=ThisOne>-->
+<$list filter=&#39;[<ThisOne>indexes[]regexp<IndexNameSearchRegExp>]&#39; variable=ThisIndex>
+<$set name=ThisIndexName value=<<thisMakeIndexName>>>
+<$list filter=&#39;[<ThisOne>getindex<ThisIndex>regexp<IndexContentsSearchRegExp>]&#39; variable=ThisFilteredIndexValue>
+<tr><td><<ThisFilteredIndex>><<thisMakeSelectionButton>></td><td><<ThisIndex>></td><td><$view tiddler=<<ThisOne>> index=<<ThisIndex>>/></td></tr>
+</$list>
+</$set>
+</$list>
+</$list>
+</table>
+\end
+
+<$reveal type="nomatch" state="$:/state/SearchAndReplaceIndexContents/ShowInstructions" text="show">
+
+<$button set="$:/state/SearchAndReplaceIndexContents/ShowInstructions" setTo="show">Show instructions</$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/SearchAndReplaceIndexContents/ShowInstructions" text="show">
+
+<$button set="$:/state/SearchAndReplaceIndexContents/ShowInstructions" setTo="hide">Hide instructions</$button>
+
+&#39;&#39;How to use this:&#39;&#39;
+
+Type in your search string into the Search text box. Note that this search only reduces the number of returned entries so if you type `a` //ALL// indexes in non-system tiddlers that contain `a` or `A` will be listed. This uses regular expressions and some characters may cause strange behaviour, namely `$`, `[`, `]` and `.` and possibly others. 
+
+Type the string you want the index/indicies to have into the replace box. Note that this will replace the entire contents of the index, not just the string in the search box. So typing in `foo` will list all indexes that have the (case insensitive) string `foo` anywhere in the string in that index. Putting `bar` as the replace string will set the value of all of the selected indexes to `bar`, even if `foo` was only part of the previous value.
+
+You can select specific tiddlers to change the index values of, or you can change the value in all the listed tiddlers. To select or unselect a tiddler click on its name and a checkmark will be put beside the tiddler name and it will appear in the selected tiddlers list.
+
+</$reveal>
+
+Search by tiddler name: 
+<$edit-text tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; placeholder=&#39;Search Tiddlers&#39; field=tiddler_search_text class=&#39;tc-edit-texteditor&#39;/><br>
+Search by index name: 
+<$edit-text tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; placeholder=&#39;Search Index Names&#39; field=index_name_search_text class=&#39;tc-edit-texteditor&#39;/><br>
+Search by index contents: 
+<$edit-text tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; placeholder=&#39;Search Index Contents&#39; field=search_text class=&#39;tc-edit-texteditor&#39;/><br>
+Replace: 
+<$edit-text tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; placeholder=&#39;Replacement Contents&#39; field=replace_text class=&#39;tc-edit-texteditor&#39;/>
+
+<$reveal type="nomatch" state="$:/state/SearchAndReplaceIndexContents/ShowOptions" text="show">
+
+<$button set="$:/state/SearchAndReplaceIndexContents/ShowOptions" setTo="show">Show Options</$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/SearchAndReplaceIndexContents/ShowOptions" text="show">
+
+<$button set="$:/state/SearchAndReplaceIndexContents/ShowOptions" setTo="hide">Hide Options</$button>
+
+<$checkbox tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; field=include_system_tiddlers checked="""[all[]]""" unchecked="""[!is[system]]"""> Check this to include system tiddlers</$checkbox>
+
+<$checkbox tiddler=&#39;$:/temp/SearchAndReplaceIndexContents/Search&#39; field=case_sensitive checked=&#39;&#39; unchecked=&#39;(?i)&#39;>Case sensitive search</$checkbox>
+</$reveal>
+
+<$set name=IndexContentsSearchString value={{$:/temp/SearchAndReplaceIndexContents/Search!!search_text}}>
+<$set name=IndexContentsSearchRegExp value="$(CaseSensitive)$$(IndexContentsSearchString)$">
+<$set name=IndexNameSearchString value={{$:/temp/SearchAndReplaceIndexContents/Search!!index_name_search_text}}>
+<$set name=IndexNameSearchRegExp value="$(CaseSensitive)$$(IndexNameSearchString)$">
+<$set name=TiddlerNameSearchString value={{$:/temp/SearchAndReplaceIndexContents/Search!!tiddler_search_text}}>
+<$set name=TiddlerNameSearchRegExp value="$(CaseSensitive)$$(TiddlerNameSearchString)$">
+<$set name=CaseSensitive value={{$:/temp/SearchAndReplaceIndexContents/Search!!case_sensitive}}>
+<$set name=IncludeSystemTiddlers value={{$:/temp/SearchAndReplaceIndexContents/Search!!include_system_tiddlers}}>
+
+<<thisMakeTables>>
+
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>

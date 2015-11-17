@@ -8,7 +8,7 @@ revision: 0
 summary: an aggregator allowing to search indexed TiddlyWiki community wikis
 type: text/vnd.tiddlywiki
 url: http://erwanm.github.io/tw-community-search
-tags: tb5  References Search Solutions Community
+tags: [[tb5]]  References Search Solutions Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: Community Search
 source-tiddler-title-as-link: Community%20Search

@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/TiddlerTools (inmysocks)
+caption: TiddlerTools
+category: Website
+created: 20151116084907406
+description: A wiki showing off TiddlerTools, a utility for easily manipulating many tiddlers at the same time.
+follow: yes
+modified: 20151116091125272
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/TiddlerTools/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: TiddlerTools (inmysocks)
+source-tiddler-title-as-link: TiddlerTools%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

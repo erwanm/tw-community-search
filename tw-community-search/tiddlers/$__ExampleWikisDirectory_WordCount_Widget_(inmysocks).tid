@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/WordCount Widget (inmysocks)
+caption: WordCount Widget
+category: Website
+created: 20151116084458371
+description: A wiki showing the word count widget which can count the number of words or characters in a tiddler.
+follow: yes
+modified: 20151116091125272
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/WordCount/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: WordCount Widget (inmysocks)
+source-tiddler-title-as-link: WordCount%20Widget%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

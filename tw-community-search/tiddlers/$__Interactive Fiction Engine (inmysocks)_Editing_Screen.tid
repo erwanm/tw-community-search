@@ -1,0 +1,259 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Editing Screen
+created: 20141115031542175
+current_container_editing: Couch Cushions
+current_event_editing: CodedNoteEvent
+current_item_editing: Note Written in Code
+current_popup_editing: TestPopup
+current_trigger_editing: TestSafeTrigger
+edit_or_create_room: edit_room
+modified: 20141129061740417
+what_to_edit: popup
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Editing Screen
+source-tiddler-title-as-link: Editing%20Screen
+
+\define explainationPopup1()
+<$button popup="$:/ExplainationPopupState1" class='tc-btn-invisible'>(?)</$button>
+<$reveal type="popup" state="$:/ExplainationPopupState1">
+<div class="tc-drop-down">
+
+!Set Map State:
+
+This will set the current player location. This will allow easier debugging and allow you to preview how each room will be displayed in-game.
+
+</div>
+</$reveal>
+\end
+
+\define explainationPopup2()
+<$button popup="$:/ExplainationPopupState2" class='tc-btn-invisible'>(?)</$button>
+<$reveal type="popup" state="$:/ExplainationPopupState2">
+<div class="tc-drop-down">
+
+!Select Type to Edit:
+
+Use this to select which type of object to edit or create.
+
+Click on the names to get documentation about each object type.
+</div>
+</$reveal>
+\end
+
+\define getEvent(number)
+[event_name[$(myVariable)$]event_order[$number$]]
+\end
+
+Set Map State^^<<explainationPopup1>>^^: <$select tiddler=MapState  field='text'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+Type to edit^^<<explainationPopup2>>^^: <$radio field="what_to_edit" value="rooms">[[Rooms|Rooms Documentation]]</$radio> <$radio field="what_to_edit" value="items">[[Items|Items Documentation]]</$radio> <$radio field="what_to_edit" value="containers">[[Containers|Containers Documentation]]</$radio> <$radio field="what_to_edit" value="events">[[Events|Events Documentation]]</$radio> <$radio field="what_to_edit" value="triggers">[[Triggers|Triggers Documentation]]</$radio> <$radio field="what_to_edit" value="popup">[[Pop-up Message|Pop-up Message Documentation]]</$radio> <$radio field="what_to_edit" value="introduction_message">[[Introduction Message|Introduction Message Documentation]]</$radio> <$radio field="what_to_edit" value="reset_button">[[Reset Button|Reset Button Documentation]]</$radio>
+
+<!-- Room editing -->
+
+<$reveal type='match' state='!!what_to_edit' text='rooms'>
+
+!! <$select tiddler='$:/editroomstate'><option value='existing'>Edit Existing Room</option><option value='new'>Create New Room</option></$select>
+
+---
+
+<$reveal type="match" state='$:/editroomstate' text='new'>
+
+<$tiddler tiddler=CreateRoomTemplate>
+
+<$transclude/>
+
+</$tiddler>
+
+</$reveal>
+
+<$reveal type="match" state='$:/editroomstate' text='existing'>
+
+Select Room: <$select tiddler=RoomEditTemplate  field='current_room_editing'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$tiddler tiddler=RoomEditTemplate>
+
+<$transclude/>
+
+</$tiddler>
+
+</$reveal>
+
+</$reveal>
+
+<!-- end room editing -->
+
+<!-- item editing -->
+
+<$reveal type='match' state='!!what_to_edit' text='items'>
+
+!! <$select tiddler='$:/edititemstemplate'><option value='existing'>Edit Existing Item</option><option value='new'>Create New Item</option></$select>
+
+---
+
+<$reveal type="match" state='$:/edititemstemplate' text='new'>
+
+<$transclude tiddler=NewItemTemplate/>
+
+</$reveal>
+
+<$reveal type="match" state='$:/edititemstemplate' text='existing'>
+
+<$select tiddler={{!!title}} field='current_item_editing'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$transclude tiddler=EditItemTemplate/>
+
+</$reveal>
+
+</$reveal>
+
+<!-- end item editing -->
+
+<!-- container editing -->
+
+<$reveal type='match' state='!!what_to_edit' text='containers'>
+
+!! <$select tiddler='$:/editcontainerstemplate'><option value='existing'>Edit Existing Container</option><option value='new'>Create New Container</option></$select>
+
+---
+
+<$reveal type="match" state='$:/editcontainerstemplate' text='new'>
+
+<$transclude tiddler=NewContainerTemplate/>
+
+</$reveal>
+
+<$reveal type="match" state='$:/editcontainerstemplate' text='existing'>
+
+<$select tiddler={{!!title}} field='current_container_editing'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$transclude tiddler=EditContainerTemplate/>
+
+</$reveal>
+
+</$reveal>
+
+<!-- end container editing -->
+
+<!-- event editing -->
+
+<$reveal type='match' state='!!what_to_edit' text='events'>
+
+!! <$select tiddler='$:/editeventstemplate'><option value='existing'>Edit Existing Events</option><option value='new'>Create New Event</option></$select>
+
+---
+
+<$reveal type="match" state='$:/editeventstemplate' text='new'>
+
+<$tiddler tiddler=NewEventTemplate>
+
+<$transclude/>
+
+</$tiddler>
+
+</$reveal>
+
+<$reveal type="match" state='$:/editeventstemplate' text='existing'>
+
+<$select tiddler={{!!title}} field='current_event_editing'>
+<$list filter='[tag[Event]!tag[Template]event_order[first]]'>
+<option><$view field='event_name'/></option>
+</$list>
+</$select>
+
+{{EditEventTemplate}}
+
+</$reveal>
+
+</$reveal>
+
+<!-- end event editing -->
+
+<!-- trigger editing -->
+
+<$reveal type='match' state='!!what_to_edit' text='triggers'>
+
+!!<$select tiddler='$:/edittriggerstemplate'><option value='existing'>Edit Existing Trigger</option><option value='new'>Create New Trigger</option></$select>
+
+---
+
+<$reveal type="match" state='$:/edittriggerstemplate' text='new'>
+
+{{NewTriggerTemplate}}
+
+</$reveal>
+
+<$reveal type="match" state='$:/edittriggerstemplate' text='existing'>
+
+{{TriggerEditTemplate}}
+
+</$reveal>
+
+</$reveal>
+
+<!-- end trigger editing -->
+
+<!-- pop-up editing -->
+<$reveal type='match' state='!!what_to_edit' text='popup'>
+
+!! <$select tiddler='$:/editpopuptemplate'><option value='existing'>Edit Existing Pop-up</option><option value='new'>Create New Pop-up</option></$select>
+
+---
+
+<$reveal type="match" state='$:/editpopuptemplate' text='new'>
+
+<$transclude tiddler=NewPopupTemplate/>
+
+</$reveal>
+
+<$reveal type="match" state='$:/editpopuptemplate' text='existing'>
+
+<$select tiddler={{!!title}} field='current_popup_editing'>
+<$list filter='[tag[Popup]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$transclude tiddler=EditPopupTemplate/>
+
+</$reveal>
+
+</$reveal>
+<!-- end pop-up editing -->
+
+<!-- Introduction tiddler editing -->
+<$reveal type='match' state='!!what_to_edit' text='introduction_message'>
+
+---
+
+<$transclude tiddler=EditIntroMessageTemplate/>
+
+</$reveal>
+
+<!-- end introduction tiddler editing -->
+
+<!-- Reset Macro editing -->
+<$reveal type='match' state='!!what_to_edit' text='reset_button'>
+
+---
+
+<$transclude tiddler=EditResetButtonTemplate/>
+
+</$reveal>
+
+<!-- end introduction tiddler editing -->

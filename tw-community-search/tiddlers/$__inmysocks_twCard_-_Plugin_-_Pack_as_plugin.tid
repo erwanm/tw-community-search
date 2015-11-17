@@ -16,7 +16,7 @@ repository:
 revision: 0.0.1
 short_description: Pack tiddlers as plugnis
 wiki: http://braintest.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Pack as plugin
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Pack%20as%20plugin

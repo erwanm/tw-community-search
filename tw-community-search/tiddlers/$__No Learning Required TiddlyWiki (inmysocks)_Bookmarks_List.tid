@@ -1,0 +1,20 @@
+title: $:/No Learning Required TiddlyWiki (inmysocks)/Bookmarks List
+created: 20150108203002139
+creator: inmysocks
+modified: 20150131180025994
+modifier: inmysocks
+tags: [[No Learning Required TiddlyWiki (inmysocks)]] 
+source-wiki-id: No Learning Required TiddlyWiki (inmysocks)
+source-tiddler-title-as-text: Bookmarks List
+source-tiddler-title-as-link: Bookmarks%20List
+
+\define thisBookmarkList()
+<$list filter='[tag[Bookmark]regexp[(?i)$(searchString)$]sort[title]]-[[$:/temp/Bookmarks/NewBookmark]]' template=BookmarkDisplayTemplate>
+
+</$list>
+\end
+
+Bookmarks: (Narrow List by Name: <$edit-text tiddler='$:/temp/Bookmarks/BookmarkList' field=search_text/>)<br>
+<$set name=searchString value={{$:/temp/Bookmarks/BookmarkList!!search_text}}>
+<<thisBookmarkList>>
+</$set>

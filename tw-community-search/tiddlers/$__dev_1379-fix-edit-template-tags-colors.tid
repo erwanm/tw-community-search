@@ -5,7 +5,7 @@ modified: 20150120234959049
 modifier: Tobias Beer
 summary: fixes edit-mode tags and consolidates tag macro
 url: <<git5 issues/1379>>
-tags: dev  Pull Open 5.1.8
+tags: [[dev]]  Pull Open 5.1.8
 source-wiki-id: dev
 source-tiddler-title-as-text: 1379-fix-edit-template-tags-colors
 source-tiddler-title-as-link: 1379-fix-edit-template-tags-colors

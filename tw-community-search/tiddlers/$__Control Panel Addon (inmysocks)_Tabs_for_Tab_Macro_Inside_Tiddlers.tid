@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Tabs for Tab Macro Inside Tiddlers
+created: 20150603183722096
+css_tiddler: .tc-tab-buttons button Class Override
+description: Tabs made using the tabs macro (selected tab can be modified using [[Selected Tab Inside Tiddlers]])
+modified: 20150603183722096
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tabs for Tab Macro Inside Tiddlers
+source-tiddler-title-as-link: Tabs%20for%20Tab%20Macro%20Inside%20Tiddlers
+
+{{Tabs for Tab Macro Inside Tiddlers||CSS Options Template}}

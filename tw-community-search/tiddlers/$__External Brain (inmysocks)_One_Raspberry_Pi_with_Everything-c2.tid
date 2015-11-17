@@ -1,0 +1,12 @@
+title: $:/External Brain (inmysocks)/One Raspberry Pi with Everything-c2
+author: Richard
+modified: 20150703013820078
+modifier: inmysocks
+readable_date: 07/02/2015 - 6:31am
+sort_date: 1435843860
+tags: [[External Brain (inmysocks)]]  Comment [[One Raspberry Pi with Everything]] Checked Accepted
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: One Raspberry Pi with Everything-c2
+source-tiddler-title-as-link: One%20Raspberry%20Pi%20with%20Everything-c2
+
+I got node and tiddlywiki working. I have an apple airport for a router at the moment so I didn't want to get into trying to forward the ports, so I tried weaved.com's software router - it gives you a url like sdjhvkjv.c9.weaved.com and I can get to my tiddlywiki - but I get the error: &nbsp;syncer-browser - 23:06:10 2 7 2015 Sync error while processing '$:/StoryList': XMLHttpRequest error code: 404 - do you think this might something to do with cross-origin requests? or? Weaved works well for ssh connections.<br><br> I suppose I'll have to connect my pi directly to my modem alongside the airport and see if I can open a port to it from there and then get a dynamic DNS. <br><br>Thanks for the instructions, btw - very handy to have all this in one place.

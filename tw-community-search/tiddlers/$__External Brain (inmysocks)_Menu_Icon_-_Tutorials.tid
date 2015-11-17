@@ -1,0 +1,12 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Tutorials
+created: 20150515201011319
+left_menu_order: 1
+modified: 20150515201026823
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Tutorials
+source-tiddler-title-as-link: Menu%20Icon%20-%20Tutorials
+
+<$button class='left-menu-text tc-btn-invisible'>Tutorials
+<$action-navigate $to='Tutorials'/>
+</$button>

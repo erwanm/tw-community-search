@@ -3,11 +3,12 @@ caption: Task List Plugin
 category: Plugin
 created: 20150604165844981
 description: A simple task list
-modified: 20150604183909660
+follow: yes
+modified: 20151116091125271
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Minimal%20Task%20List%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Task List (inmysocks)
 source-tiddler-title-as-link: Task%20List%20%28inmysocks%29

@@ -7,7 +7,7 @@ revision: 0
 task: Sport
 teacher: Joe Bloggs
 type: text/vnd.tiddlywiki
-tags: gWiZ 
+tags: [[gWiZ]] 
 source-wiki-id: gWiZ
 source-tiddler-title-as-text: temp
 source-tiddler-title-as-link: temp

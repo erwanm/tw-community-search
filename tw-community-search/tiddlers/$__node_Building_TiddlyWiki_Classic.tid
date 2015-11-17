@@ -3,7 +3,7 @@ caption: classic
 created: 20131129094452285
 modified: 20151014140254186
 summary: [[tiddlywiki]] on [[node.js]] can build [[classic]] 2.x.x versions
-tags: node  workflows
+tags: [[node]]  workflows
 source-wiki-id: node
 source-tiddler-title-as-text: Building TiddlyWiki Classic
 source-tiddler-title-as-link: Building%20TiddlyWiki%20Classic

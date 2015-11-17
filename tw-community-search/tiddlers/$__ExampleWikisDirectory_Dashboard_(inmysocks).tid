@@ -3,11 +3,12 @@ caption: Dashboard
 category: Plugin
 created: 20150604165215047
 description: A plugin to make an interface for some other plugins
-modified: 20150604204541088
+follow: yes
+modified: 20151116091125268
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Dashboard%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin Menu
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin Menu
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Dashboard (inmysocks)
 source-tiddler-title-as-link: Dashboard%20%28inmysocks%29

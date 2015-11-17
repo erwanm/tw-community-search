@@ -3,11 +3,12 @@ caption: Invoking Actions
 category: Website
 created: 20150407174158291
 description: Modifications to core widgets that allow them to invoke action-widgets
-modified: 20150604182828699
+follow: yes
+modified: 20151116091125269
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/InvokingActions/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Invoking Actions (inmysocks)
 source-tiddler-title-as-link: Invoking%20Actions%20%28inmysocks%29

@@ -4,7 +4,7 @@ dependents:
 description: Plugin for generating SVG railroad diagrams
 list: readme syntax example
 version: 5.1.8-prerelease
-tags: ae-railroad 
+tags: [[ae-railroad]] 
 source-wiki-id: ae-railroad
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/railroad
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2frailroad

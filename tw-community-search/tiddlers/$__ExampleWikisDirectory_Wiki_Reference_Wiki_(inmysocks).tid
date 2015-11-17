@@ -3,11 +3,12 @@ caption: Wiki Reference Wiki
 category: Website
 created: 20150203204627095
 description: My TW5 reference site. It has stuff.
-modified: 20150604204058128
+follow: yes
+modified: 20151116091125272
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Wiki Reference Wiki (inmysocks)
 source-tiddler-title-as-link: Wiki%20Reference%20Wiki%20%28inmysocks%29

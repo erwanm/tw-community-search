@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Multiple Tag Fields (inmysocks)
+caption: Multiple Tag Fields
+category: Website
+created: 20151116085240064
+description: A wiki showing an early method of allowing multiple fields that act the way that the tags field does.
+follow: yes
+modified: 20151116091125272
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/MultipleTagFields/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Multiple Tag Fields (inmysocks)
+source-tiddler-title-as-link: Multiple%20Tag%20Fields%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

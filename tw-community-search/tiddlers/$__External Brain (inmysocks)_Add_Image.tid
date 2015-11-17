@@ -1,0 +1,55 @@
+title: $:/External Brain (inmysocks)/Add Image
+created: 20150204035238146
+modified: 20150508031326181
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Add Image
+source-tiddler-title-as-link: Add%20Image
+
+\define thisMakeImageTiddlerName()
+$(ImageName)$ - Image
+\end
+
+\define thisMakeCanonicalURI()
+./images/$(ImageName)$.$(FileExtension)$
+\end
+
+\define thisMakeDisplayTiddlerText()
+$(ImageCaption)$
+
+[img [$(ImageTiddlerName)$]]
+\end
+
+\define thisMakeTag()
+[[Display Image]]
+\end
+
+Image name: <$edit-text tiddler='$:/temp/AddImage' field='image_name' class='tc-edit-texteditor'/>
+
+Image category: <$select tiddler='$:/temp/AddImage' field='image_type'><$list filter='Photograph Drawing'><option><$view field='title'/></option></$list></$select>
+
+File extension: <$edit-text tiddler='$:/temp/AddImage' field='file_extension'/> (with no period)
+
+Image caption: <$edit-text tiddler='$:/temp/AddImage' field='image_caption' class='tc-edit-texteditor'/>
+
+<$set name=ImageName value={{$:/temp/AddImage!!image_name}}>
+<$set name=FileExtension value={{$:/temp/AddImage!!file_extension}}>
+<$set name=ImageTiddlerName value=<<thisMakeImageTiddlerName>>>
+<$set name=ImageCaption value={{$:/temp/AddImage!!image_caption}}>
+<$button>Add Image
+<$action-setfield $tiddler='$:/temp/AddImage/blank' _canonical_uri=<<thisMakeCanonicalURI>>/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank' type='image/jpeg'/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank' tags={{$:/temp/AddImage!!image_type}}/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank' link_to=<<ImageName>>/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank' title=<<thisMakeImageTiddlerName>>/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank' _canonical_uri='' link_to='' tags=''/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank2' text=<<thisMakeDisplayTiddlerText>>/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank2' tags=<<thisMakeTag>>/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank2' title={{$:/temp/AddImage!!image_name}}/>
+<$action-setfield $tiddler='$:/temp/AddImage/blank2' tags='' text=''/>
+<$action-setfield $tiddler='$:/temp/AddImage' image_name='' image_caption=''/>
+</$button>
+</$set>
+</$set>
+</$set>
+</$set>

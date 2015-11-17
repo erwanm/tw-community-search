@@ -16,7 +16,7 @@ repository: https://github.com/danielo515/TW5-2click2edit
 revision: 0.1
 short_description: This plugin adds the ability to edit tiddlers by double clicking on its body.
 wiki: http://danielorodriguez.com/TW5-2click2edit/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - 2click2edit
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%202click2edit

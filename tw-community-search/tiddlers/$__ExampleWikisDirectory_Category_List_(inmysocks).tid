@@ -3,11 +3,12 @@ caption: Category List
 category: Website
 created: 20150604161921585
 description: An advanced list with categories
-modified: 20150604182538783
+follow: yes
+modified: 20151116091125267
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/CategoryList/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Category List (inmysocks)
 source-tiddler-title-as-link: Category%20List%20%28inmysocks%29

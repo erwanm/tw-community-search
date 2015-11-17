@@ -8,7 +8,7 @@ op-parameter: a string of characters
 op-parameter-name: S
 op-purpose: extend each input title with a suffix
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[String Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[String Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: addsuffix Operator
 source-tiddler-title-as-link: addsuffix%20Operator

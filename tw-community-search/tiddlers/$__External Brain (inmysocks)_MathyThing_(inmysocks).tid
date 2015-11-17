@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/MathyThing (inmysocks)
+caption: MathyThing (old)
+category: Example Wiki
+created: 20150407174657418
+description: An old demo of the MathyThing plugin, it needs to be updated
+modified: 20150407181201508
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/MathyThing/
+tags: [[External Brain (inmysocks)]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: MathyThing (inmysocks)
+source-tiddler-title-as-link: MathyThing%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

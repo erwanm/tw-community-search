@@ -1,0 +1,15 @@
+title: $:/Oppiaish Thing (inmysocks)/AddMultipleChoicePossibleAnswerTemplate
+created: 20150410001457511
+modified: 20150410051455752
+tags: [[Oppiaish Thing (inmysocks)]]  Templates
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: AddMultipleChoicePossibleAnswerTemplate
+source-tiddler-title-as-link: AddMultipleChoicePossibleAnswerTemplate
+
+Possible answer <$view field='order'/>
+<$edit-text class='tc-edit-texteditor' placeholder='Answer text'/>
+
+Response for answer <$view field='order'/>
+<$edit-text tiddler={{!!response_tiddler}} class='tc-edit-texteditor' placeholder='Response text'/>
+
+<hr>

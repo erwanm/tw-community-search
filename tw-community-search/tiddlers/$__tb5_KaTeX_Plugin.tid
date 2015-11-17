@@ -2,7 +2,7 @@ title: $:/tb5/KaTeX Plugin
 revision: 0
 summary: adds the ability to display mathematical notation written in LaTeX
 url: http://tiddlywiki.com/plugins/tiddlywiki/katex
-tags: tb5  Core Plugin Solutions
+tags: [[tb5]]  Core Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: KaTeX Plugin
 source-tiddler-title-as-link: KaTeX%20Plugin

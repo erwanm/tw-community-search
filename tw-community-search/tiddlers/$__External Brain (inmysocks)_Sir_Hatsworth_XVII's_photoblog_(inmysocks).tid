@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/Sir Hatsworth XVII's photoblog (inmysocks)
+caption: Sir Hatsworth XVII's photoblog
+created: 20150204224157354
+description: The height of class and faishon
+modified: 20150206021723363
+name_plate_type: Social
+url: http://sirhatsworthxvii.blogspot.com/
+tags: [[External Brain (inmysocks)]]  [[<Name Plate>]] [[Jed Carty (inmysocks)]] Website [[By inmysocks]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Sir Hatsworth XVII's photoblog (inmysocks)
+source-tiddler-title-as-link: Sir%20Hatsworth%20XVII%27s%20photoblog%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

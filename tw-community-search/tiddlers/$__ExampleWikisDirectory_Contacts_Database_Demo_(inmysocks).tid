@@ -3,11 +3,12 @@ caption: Contacts Database Demo
 category: Website
 created: 20150203204819474
 description: a contacts database demo I made, it is also on the dashboard at Wiki Reference Wiki.
-modified: 20150604182617328
+follow: yes
+modified: 20151116091125268
 name_plate_type: TiddlyWiki
 type: 
 url: http://nolearning-contactsdb.tiddlyspot.com/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Contacts Database Demo (inmysocks)
 source-tiddler-title-as-link: Contacts%20Database%20Demo%20%28inmysocks%29

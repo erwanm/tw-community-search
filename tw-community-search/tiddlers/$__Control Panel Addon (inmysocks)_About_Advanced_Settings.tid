@@ -1,0 +1,40 @@
+title: $:/Control Panel Addon (inmysocks)/About Advanced Settings
+created: 20150602183709396
+modified: 20150604005645893
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: About Advanced Settings
+source-tiddler-title-as-link: About%20Advanced%20Settings
+
+Note: The size settings part is from [[http://twaddle.tiddlyspot.com/]] and doesn't work correctly here because I am missing something.
+
+__''Mostly Unrelated''__ 
+
+There is a demo using a range widget to set the size of the tiddler titles below in [[Range widget for modifying css]]. It uses a range widget I put together.
+
+__''What and Why''__
+
+In order to allow easy access the (potentially) hundreds of useful settings without using a gigantic confusing list I have used the mobile menus macro I made to divide the settings up into different categories. At the moment for demonstration I only have settings for fonts and links.
+
+I am going to put as many options in this packaged as a plugin as I can, then a user can import the plugin and change whatever options they want. This will overwrite shadow tiddlers and when the user deletes the plugin the modified shadows will remain so that the changes stay even though the plugin is deleted. This lets me put in all of the options without worrying about the size because only the modified css tiddlers will remain after the modifications are done. I could also make the tiddler that makes the control panel tab available separate from the rest of the plugin so you could keep the tab with only the desired options after doing the modifications.
+
+__''How to use it:''__
+
+Click on `Font Settings` to show a list of the places you can change the fonts (this is a very incomplete list), then click on one of the options (like `Tiddler Title`) to get a list of the possible changes you can make to the fonts. This is also an incomplete list I made for demonstration.
+
+__''How to add more:''__
+
+To add new options use [[Add CSS Class]]. 
+
+*Fill in the fields, the name is the name of the tiddler created and needs to be unique. 
+*CSS Class is the class the way you would write it to define a new class, so like `.tc-title`. If you put in one of the existing css classes used by the core than any properties in the new class will override the default settings. I made a list of built-in css classes [[here|http://inmysocks.tiddlyspot.com/#Builtin%20CSS%20Classes]]. You can create new classes using this also. 
+*The description is a short description shown in the menu
+*The location part lets you select the parent node in the settings hierarchy. When you click on the `Add Class` button it opens up
+
+''__NOTE__:'' You ''can'' add menu items that don't use the form. Just put whatever you would like in a tiddler and tag it appropriately so that it shows up in the menu. The above just describes how to automatically generate menu items to modify existing wiki attributes.
+
+''__Plans__:''
+
+*Add a color picker to background-color (and the other color properties)
+*Add an input slider option for the numeric fields with the proper ranges (hopefully using [[this|http://twaddle.tiddlyspot.com/#Theme%20Tweak%20Size%20Settings]] when it is ready)
+*Possibly find a way to restrict the options in the add property select widget based on what is being modified (like word-spacing isn't helpful when making a css class for checkboxes)

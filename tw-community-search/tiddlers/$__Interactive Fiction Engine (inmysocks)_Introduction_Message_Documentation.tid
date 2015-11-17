@@ -1,0 +1,9 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Introduction Message Documentation
+created: 20141129032442833
+modified: 20141129032535058
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Introduction Message Documentation
+source-tiddler-title-as-link: Introduction%20Message%20Documentation
+
+When the game starts or is reset a message is displayed with a button to continue to the game. You change this text by editing the introduction message in the editing screen. You can also set the text displayed on the button to continue.

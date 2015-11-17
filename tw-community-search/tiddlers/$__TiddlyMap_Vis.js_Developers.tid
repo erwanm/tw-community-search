@@ -6,7 +6,7 @@ tmap.edges: {"bf66c6a4-0b2b-44d2-b50f-3524b4356783":{"to":"D0B54F1D-8D7A-4C2E-94
 tmap.fa-icon: f0c0
 tmap.id: 6f2d2f7e-9a70-4eec-a3c4-33828e7d0c12
 type: text/vnd.tiddlywiki
-tags: TiddlyMap 
+tags: [[TiddlyMap]] 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Vis.js Developers
 source-tiddler-title-as-link: Vis.js%20Developers

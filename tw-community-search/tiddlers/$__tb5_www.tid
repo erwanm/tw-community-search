@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: {{$:/.tb/macros/www!!summary}}
 type: text/vnd.tiddlywiki
-tags: tb5  Macros Solutions Links
+tags: [[tb5]]  Macros Solutions Links
 source-wiki-id: tb5
 source-tiddler-title-as-text: www
 source-tiddler-title-as-link: www

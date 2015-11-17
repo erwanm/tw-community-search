@@ -3,11 +3,12 @@ caption: RandVal
 category: Plugin
 created: 20150604170738719
 description: A plugin that adds a random number generator
-modified: 20150604183817984
+follow: yes
+modified: 20151116091125270
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#RandVal%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: RandVal (inmysocks)
 source-tiddler-title-as-link: RandVal%20%28inmysocks%29

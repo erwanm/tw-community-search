@@ -1,0 +1,11 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Pop-up Message Documentation
+created: 20141129032034049
+modified: 20141129062149966
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Pop-up Message Documentation
+source-tiddler-title-as-link: Pop-up%20Message%20Documentation
+
+A pop-up message is a message that takes the focus in response to a button press. This can be used for notifications and displaying the results of actions. A pop-up is currently always triggered by a button. You set the button text, the title of the pop-up window and the text to display and the location.
+
+Pop-ups can contain items, events and triggers. Using events you can change what is displayed in a pop-up (see [[Events Documentation]])

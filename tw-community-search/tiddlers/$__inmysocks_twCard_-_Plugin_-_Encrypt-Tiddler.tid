@@ -16,7 +16,7 @@ repository:
 revision: 2.1
 short_description: Encrypt individual tiddlers
 wiki: http://danielorodriguez.com/TW5-EncryptTiddlerPlugin/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Encrypt-Tiddler
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Encrypt-Tiddler

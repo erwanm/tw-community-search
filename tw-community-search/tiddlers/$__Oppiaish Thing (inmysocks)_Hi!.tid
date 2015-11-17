@@ -1,0 +1,17 @@
+title: $:/Oppiaish Thing (inmysocks)/Hi!
+created: 20150409231839385
+modified: 20150410065604113
+tags: [[Oppiaish Thing (inmysocks)]] 
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: Hi!
+source-tiddler-title-as-link: Hi%21
+
+[[Add Multiple Choice Questions]] - to add questions
+
+[[Edit Multiple Choice Questions]] - to edit existing questions
+
+[[View multiple choice questions]] - to see the questions listed according to the order defined in [[Order Questions]]
+
+[[Main]] - lets you go through questions on by one, the next question is based on the answer you give to the current question. You can control this order in [[Edit Multiple Choice Questions]]. I don't have anything to set this in [[Add Multiple Choice Questions]] yet.
+
+{{Reset Answers}} - this button resets the questions after you click on the check answer button.

@@ -4,7 +4,7 @@ dependents:
 description: CodeMirror: text editor
 list: readme usage
 version: 5.1.9
-tags: TidgraphPlugin 
+tags: [[TidgraphPlugin]] 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fcodemirror

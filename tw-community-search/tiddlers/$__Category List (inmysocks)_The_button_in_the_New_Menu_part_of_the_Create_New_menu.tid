@@ -1,0 +1,11 @@
+title: $:/Category List (inmysocks)/The button in the New Menu part of the Create New menu
+category: Plugin
+description: It shows the action-setfield widget when it doesn't have inputs
+modified: 20150502151913206
+subcategory: Mobile Theme
+tags: [[Category List (inmysocks)]]  [[Planned Update]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: The button in the New Menu part of the Create New menu
+source-tiddler-title-as-link: The%20button%20in%20the%20New%20Menu%20part%20of%20the%20Create%20New%20menu
+
+I think I should just put a reveal widget to hide it unless the fields are empty.

@@ -3,11 +3,12 @@ caption: Dynamic Tables
 category: Website
 created: 20150407173553733
 description: Dynamically created sortable and in-line editable tables
-modified: 20150626194733160
+follow: yes
+modified: 20151116091125269
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/DynamicTables/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website Macro
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website Macro
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Dynamic Tables (inmysocks)
 source-tiddler-title-as-link: Dynamic%20Tables%20%28inmysocks%29

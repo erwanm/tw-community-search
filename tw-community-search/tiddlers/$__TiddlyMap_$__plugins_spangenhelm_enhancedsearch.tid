@@ -9,7 +9,7 @@ released: 2015/07/24
 source: https://github.com/Spangenhelm/TW5-EnhancedSearchResults
 suggested: 
 version: 0.0.2
-tags: TiddlyMap 
+tags: [[TiddlyMap]] 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/spangenhelm/enhancedsearch
 source-tiddler-title-as-link: %24%3a%2fplugins%2fspangenhelm%2fenhancedsearch

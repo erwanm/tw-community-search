@@ -3,11 +3,12 @@ caption: Bookmarks Manager
 category: Plugin
 created: 20150604164524307
 description: A plugin for sorting and managing bookmarks
-modified: 20150604182448377
+follow: yes
+modified: 20151116091125267
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Bookmarks%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Bookmarks Manager (inmysocks)
 source-tiddler-title-as-link: Bookmarks%20Manager%20%28inmysocks%29

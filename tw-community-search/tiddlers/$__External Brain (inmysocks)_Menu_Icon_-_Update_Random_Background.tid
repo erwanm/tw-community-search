@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Update Random Background
+created: 20150310173328537
+left_menu_order: 90
+modified: 20150421163832844
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Update Random Background
+source-tiddler-title-as-link: Menu%20Icon%20-%20Update%20Random%20Background
+
+@@color:beige;
+<$list filter='[[$:/data/Random Background URL List]indexes[]nth{$:/state/Random Background!!number}]' variable=ThisIndex>
+<$button class='tc-btn-invisible' tooltip='Change Background Image'><<fa fa-image>>
+<$action-storecount $filter='[[$:/data/Random Background URL List]indexes[]]' $tiddler='$:/state/Random Background' $field='total_num'/>
+<$action-randval $tiddler='$:/state/Random Background' $field='number' $lower=1 $upper={{$:/state/Random Background!!total_num}} $step=1 $numrolls=1/>
+<$action-setfield $tiddler='$:/state/Random Background' $field=text $value=<<ThisIndex>>/>
+</$button>
+</$list>
+@@

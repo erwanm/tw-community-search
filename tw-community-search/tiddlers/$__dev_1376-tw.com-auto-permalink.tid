@@ -5,7 +5,7 @@ modified: 20150120234808530
 modifier: Tobias Beer
 summary: set url to current tiddler on tw.com
 url: <<git5 issues/1376>>
-tags: dev  Pull Open 5.1.8
+tags: [[dev]]  Pull Open 5.1.8
 source-wiki-id: dev
 source-tiddler-title-as-text: 1376-tw.com-auto-permalink
 source-tiddler-title-as-link: 1376-tw.com-auto-permalink

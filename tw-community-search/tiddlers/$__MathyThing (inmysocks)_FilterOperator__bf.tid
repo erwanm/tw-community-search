@@ -1,0 +1,11 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: bf
+caption: bf
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: bf
+source-tiddler-title-as-link: FilterOperator%3a%20bf
+
+The ''bf'' filter operator is a synonym for [[FilterOperator: rest]].

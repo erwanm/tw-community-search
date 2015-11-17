@@ -7,7 +7,7 @@ revision: 0
 summary: <<tagline>>
 type: text/vnd.tiddlywiki
 url: {{$:/.img/fish.svg!!url}}
-tags: tb5  Images
+tags: [[tb5]]  Images
 source-wiki-id: tb5
 source-tiddler-title-as-text: A Tiddler Is A Fish Is A Poster
 source-tiddler-title-as-link: A%20Tiddler%20Is%20A%20Fish%20Is%20A%20Poster

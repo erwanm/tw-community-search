@@ -1,5 +1,5 @@
 title: sum
 tags: CommunityTags
-community-tag-count: 3
+community-tag-count: 5
 
 {{||$:/CommunityTagTemplate}}

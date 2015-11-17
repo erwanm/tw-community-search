@@ -4,7 +4,7 @@ created: 20141023095946603
 icon: $:/core/images/menu-button
 list: [[Hello world !]] [[Guide Chakra]] [[Guide KDE 4]] [[Services internet libres]] [[Configurer Thunderbird]] [[Les bases de Git]] ToDo
 modified: 20150226144500634
-tags: LinuxNote 
+tags: [[LinuxNote]] 
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Menu
 source-tiddler-title-as-link: Menu

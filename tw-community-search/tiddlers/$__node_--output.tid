@@ -4,7 +4,7 @@ modified: 20151111060122165
 p.pathname: (optional) the output directory<br>» default: the ''output'' folder in the current [[wiki]] / [[edition|editions]] folder
 params: <pathname>
 summary: sets the base output directory for __subsequent__ commands
-tags: node  commands
+tags: [[node]]  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --output
 source-tiddler-title-as-link: --output

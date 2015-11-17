@@ -1,0 +1,45 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Map
+created: 20141110043341335
+modified: 20141121000454443
+square1: <<roomMacro room1>>
+square10: <<roomMacro room10>>
+square11: <<roomMacro room11>>
+square12: <<roomMacro room12>>
+square13: <<roomMacro room13>>
+square14: <<roomMacro room14>>
+square15: <<roomMacro room15>>
+square16: <<roomMacro room16>>
+square17: <<roomMacro room17>>
+square18: <<roomMacro room18>>
+square19: <<roomMacro room19>>
+square2: <<roomMacro room2>>
+square20: <<roomMacro room20>>
+square21: <<roomMacro room21>>
+square22: <<roomMacro room22>>
+square23: <<roomMacro room23>>
+square24: <<roomMacro room24>>
+square25: <<roomMacro room25>>
+square3: <<roomMacro room3>>
+square4: <<roomMacro room4>>
+square5: <<roomMacro room5>>
+square6: <<roomMacro room6>>
+square7: <<roomMacro room7>>
+square8: <<roomMacro room8>>
+square9: <<roomMacro room9>>
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Map
+source-tiddler-title-as-link: Map
+
+<$tiddler tiddler={{MapState!!text}}>
+
+!Map
+---
+
+| {{Map!!square1}} | {{Map!!square2}} | {{Map!!square3}} | {{Map!!square4}} | {{Map!!square5}} | {{!!up_button}} | {{!!north_button}} | {{!!down_button}} | | |
+| {{Map!!square6}} | {{Map!!square7}} | {{Map!!square8}} | {{Map!!square9}} | {{Map!!square10}} | {{!!west_button}} | | {{!!east_button}} | | |
+| {{Map!!square11}} | {{Map!!square12}} | {{Map!!square13}} | {{Map!!square14}} | {{Map!!square15}} | | {{!!south_button}} | | | |
+| {{Map!!square16}} | {{Map!!square17}} | {{Map!!square18}} | {{Map!!square19}} | {{Map!!square20}} | | | | | |
+| {{Map!!square21}} | {{Map!!square22}} | {{Map!!square23}} | {{Map!!square24}} | {{Map!!square25}} | | | | | |
+
+</$tiddler>

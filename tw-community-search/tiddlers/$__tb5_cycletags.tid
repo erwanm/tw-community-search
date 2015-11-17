@@ -5,7 +5,7 @@ modified: 20151008200438271
 revision: 0
 summary: {{$:/.tb/modules/macros/cycletags.js!!summary}}
 type: text/vnd.tiddlywiki
-tags: tb5 
+tags: [[tb5]] 
 source-wiki-id: tb5
 source-tiddler-title-as-text: cycletags
 source-tiddler-title-as-link: cycletags

@@ -1,0 +1,52 @@
+title: $:/Interactive Fiction Engine (inmysocks)/EditPopupTemplate
+created: 20141122222722139
+modified: 20141122230335574
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: EditPopupTemplate
+source-tiddler-title-as-link: EditPopupTemplate
+
+\define setPopupLocation()
+
+<$tiddler tiddler=$(popupTiddler)$>
+<$select tiddler=$(popupTiddler)$ field='location'>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Items'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Events'>
+<$list filter='[tag[Event]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$tiddler>
+
+\end
+
+<$set name='popupTiddler' value={{Editing Screen!!current_popup_editing}}>
+
+<$reveal state='$:/editPopupNameState' type='match' text='edit'>
+Pop-up Name:(<$button set='$:/editPopupNameState' setTo='noedit'>Done Editing</$button>)<br>
+<$edit-text tiddler=<<popupTiddler>> field=title/>
+</$reveal>
+<$reveal state='$:/editPopupNameState' type='nomatch' text='edit'>
+Pop-up Name:(<$button set='$:/editPopupNameState' setTo='edit'>Edit Name</$button>)<br>
+<$view tiddler=<<popupTiddler>> field=title/>
+</$reveal>
+<br>
+
+| | Pop-up Text | Location | Things in Pop-up |h
+| Button Text<br><$edit-text tiddler=<<popupTiddler>> field='button_text'/><br>Displayed Pop-up Title<br><$edit-text tiddler=<<popupTiddler>> field=subtitle/> | <$edit-text tiddler={{Editing Screen!!current_popup_editing}} placeholder='Pop-up Text'/> | <<setPopupLocation>> | Events:<br><$list filter='[tag[Event]location<popupTiddler>]'><$view field='title'/><br></$list><br>Triggers:<br><$list filter='[tag[Trigger]location<popupTiddler>]'><$view field='title'/><br></$list> |
+
+</$set>

@@ -1,0 +1,21 @@
+title: $:/Language Flash Cards (inmysocks)/Add Number
+created: 20151014124142733
+modified: 20151015101253391
+tags: [[Language Flash Cards (inmysocks)]]  Tool
+source-wiki-id: Language Flash Cards (inmysocks)
+source-tiddler-title-as-text: Add Number
+source-tiddler-title-as-link: Add%20Number
+
+Number
+<$edit-text tiddler='$:/temp/Add Number' field='number' class='tc-edit-texteditor'/>
+
+English
+<$edit-text tiddler='$:/temp/Add Number' field='english' class='tc-edit-texteditor'/>
+
+Français
+<$edit-text tiddler='$:/temp/Add Number' field='français' class='tc-edit-texteditor'/>
+
+<$button>
+Add Number
+<$action-setfield $tiddler='$:/temp/Add Number' title={{$:/temp/Add Number!!english}} tags='Number Word'/>
+<$action-setfield $tiddler='$:/temp/Add Number' number='' english='' français='' tags=Number/>

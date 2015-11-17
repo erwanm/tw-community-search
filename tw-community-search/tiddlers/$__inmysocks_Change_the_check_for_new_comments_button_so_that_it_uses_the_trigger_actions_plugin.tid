@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Comments Plugin
 subsubcategory: New Feature
-tags: inmysocks  [[New Feature]] [[Planned Update]]
+tags: [[inmysocks]]  [[New Feature]] [[Planned Update]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Change the check for new comments button so that it uses the trigger actions plugin
 source-tiddler-title-as-link: Change%20the%20check%20for%20new%20comments%20button%20so%20that%20it%20uses%20the%20trigger%20actions%20plugin

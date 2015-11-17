@@ -1,0 +1,31 @@
+title: $:/External Brain (inmysocks)/Logging into your Raspberry Pi via SSH
+created: 20150512220304311
+creator: inmysocks
+modified: 20150730151903041
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]]  Tutorials
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Logging into your Raspberry Pi via SSH
+source-tiddler-title-as-link: Logging%20into%20your%20Raspberry%20Pi%20via%20SSH
+
+''I need to add how to get ssh for non-linux systems and hopefully find someone who can write up how to do this on windows or a mac.''
+
+Short version:
+
+Open up a terminal and type (or copy paste, in linux you can paste into a terminal by using ctrl+shift+v)
+
+```
+ssh -l pi <<IP of your raspberry pi>>
+```
+
+You will then be asked for the password, so type in the password (`raspberry` by default, if you changed it than whatever you changed it to). After that you should have a command prompt that looks something like this:
+
+```
+pi@raspberrypi ~ $
+```
+
+and you are in.
+
+If you have changed the username on your raspberry pi than you need to change `pi` to whatever the username is, the command prompt will also have your username instead of pi.
+
+how do you find the ip address if you don't have access to the router? I should figure that out.

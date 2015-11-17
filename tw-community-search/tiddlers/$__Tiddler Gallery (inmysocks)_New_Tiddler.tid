@@ -1,0 +1,18 @@
+title: $:/Tiddler Gallery (inmysocks)/New Tiddler
+audio: 1
+created: 20150201183631662
+modified: 20150201185237200
+tags: [[Tiddler Gallery (inmysocks)]] 
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+\define thisListItem()
+<$view field='title'/> <<ThisPlace>> <$button>{{$:/core/images/chevron-left}}<$action-setfield $tiddler='ListData' $index=<<currentTiddler>> $value=<<ThisPlace>>/></$button> <$button>{{$:/core/images/chevron-up}}<$action-setfield $tiddler='ListData' $index=<<currentTiddler>> $value=<<calc ListData##$(currentTiddler)$ +1>>/></$button><$button>{{$:/core/images/chevron-down}}<$action-setfield $tiddler='ListData' $index=<<currentTiddler>> $value=<<calc ListData##$(currentTiddler)$ -1>>/></$button><br>
+\end
+
+<<calc 'ListData##Audio' +1>>
+
+<$list filter='[tag[Working with TiddlyWiki]sort[title]]' iterator=ThisPlace>
+<<thisListItem>>
+</$list>

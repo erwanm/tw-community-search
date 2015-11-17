@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/Steam (inmysocks)
+caption: My Steam Profile Page
+created: 20150208214835868
+description: Games!
+modified: 20150208214924556
+name_plate_type: Social
+url: http://steamcommunity.com/profiles/76561198119229264/
+tags: [[External Brain (inmysocks)]]  [[<Name Plate>]] [[Jed Carty (inmysocks)]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Steam (inmysocks)
+source-tiddler-title-as-link: Steam%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

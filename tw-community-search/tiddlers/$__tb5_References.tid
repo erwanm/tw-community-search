@@ -6,7 +6,7 @@ menu-icon: {{$:/core/images/globe}}
 order: 4
 revision: 0
 summary: tw5 resources to achieve greateness
-tags: tb5  Welcome
+tags: [[tb5]]  Welcome
 source-wiki-id: tb5
 source-tiddler-title-as-text: References
 source-tiddler-title-as-link: References

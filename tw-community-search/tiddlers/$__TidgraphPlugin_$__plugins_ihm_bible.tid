@@ -8,7 +8,7 @@ list: readme
 modified: 20151029042309899
 modifier: ihm4u
 version: 0.5.6
-tags: TidgraphPlugin 
+tags: [[TidgraphPlugin]] 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: $:/plugins/ihm/bible
 source-tiddler-title-as-link: %24%3a%2fplugins%2fihm%2fbible

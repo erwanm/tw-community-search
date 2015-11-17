@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Intense Debate Comments (inmysocks)
+caption: Intense Debate Comments
+category: Website
+created: 20151116085940362
+description: A site showing how the Intense Debate commenting system works with tiddlywiki. It doesn't work very well.
+follow: yes
+modified: 20151116091125274
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/IntenseDebate%20Demo/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Intense Debate Comments (inmysocks)
+source-tiddler-title-as-link: Intense%20Debate%20Comments%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

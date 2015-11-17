@@ -1,0 +1,10 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Close Others Button
+css_tiddler: button.tc-btn-invisible svg.tc-image-close-others-button.tc-image-button Class Override
+description: Applies to the tiddler close others button
+modified: 20150603200922619
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]] [[Toolbar Icons]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Close Others Button
+source-tiddler-title-as-link: Tiddler%20Close%20Others%20Button
+
+{{Tiddler Close Others Button||CSS Options Template}}

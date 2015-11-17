@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Site Title
+created: 20150603015408940
+css_tiddler: .tc-site-title Class Override
+description: The side title at the top of the sidebar
+modified: 20150603015408940
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]] Sidebar
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Site Title
+source-tiddler-title-as-link: Site%20Title
+
+{{Site Title||CSS Options Template}}

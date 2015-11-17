@@ -3,11 +3,12 @@ caption: Extending the d3.js plugin
 category: Website
 created: 20150727191609944
 description: A wiki showing the work I am doing on the d3.js plugin
-modified: 20150727191723579
+follow: yes
+modified: 20151116091125269
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/d3plugin/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Extending the d3.js plugin (inmysocks)
 source-tiddler-title-as-link: Extending%20the%20d3.js%20plugin%20%28inmysocks%29

@@ -1,0 +1,19 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: title
+caption: title
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: title
+source-tiddler-title-as-link: FilterOperator%3a%20title
+
+The ''title'' filter operator replaces the current list with the title specified in the operand.
+
+For example:
+
+|!Filter String |!Description |
+|`[[mytiddler]]` |Returns the title `mytiddler` |
+|`[title[mytiddler]]` |Returns the title `mytiddler` |
+
+Note that the ''title'' operator is the default when no operator name is specified.

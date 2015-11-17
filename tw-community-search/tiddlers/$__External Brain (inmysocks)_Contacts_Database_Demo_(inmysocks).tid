@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/Contacts Database Demo (inmysocks)
+caption: Contacts Database Demo
+category: Example Wiki
+created: 20150203204819474
+description: a contacts database demo I made, it is also on the dashboard at Wiki Reference Wiki.
+modified: 20150407181045262
+name_plate_type: TiddlyWiki
+type: 
+url: http://nolearning-contactsdb.tiddlyspot.com/
+tags: [[External Brain (inmysocks)]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Contacts Database Demo (inmysocks)
+source-tiddler-title-as-link: Contacts%20Database%20Demo%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

@@ -1,0 +1,17 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: has
+caption: has
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters CommonFilters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: has
+source-tiddler-title-as-link: FilterOperator%3a%20has
+
+The ''has'' filter operator chooses tiddlers from the current list that have a non-empty value for the field specified in the operand.
+
+For example:
+
+|!Filter String |!Description |
+|`[has[modifier]]` |Returns tiddlers that have a `modifier` field |
+

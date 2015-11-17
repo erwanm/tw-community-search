@@ -6,7 +6,7 @@ filter: [all[current]fields[]sort[title]] -text
 modified: 20150122172013283
 modifier: Tobias Beer
 summary: output all fields and field values for the current tiddler
-tags: filters  Variable current fields Filters all Fields
+tags: [[filters]]  Variable current fields Filters all Fields
 source-wiki-id: filters
 source-tiddler-title-as-text: fields of current tiddler
 source-tiddler-title-as-link: fields%20of%20current%20tiddler

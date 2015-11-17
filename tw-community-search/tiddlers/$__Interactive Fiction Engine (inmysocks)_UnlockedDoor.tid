@@ -1,0 +1,14 @@
+title: $:/Interactive Fiction Engine (inmysocks)/UnlockedDoor
+created: 20141113223546717
+modified: 20141114070213719
+subtitle: You Win!!
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: UnlockedDoor
+source-tiddler-title-as-link: UnlockedDoor
+
+You unlock the door and head out to work.
+
+<$reveal type='match' state='A few dollars in change!!location' text='inventory'>
+You buy yourself a new candy bar with the change from your couch. Today is a good day.
+</$reveal>

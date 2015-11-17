@@ -1,8 +1,8 @@
 title: $:/inmysocks/Learning TiddlyWiki
 caption: @@color:blue;<<fa fa-star>> Learning TiddlyWiki <<fa fa-star>>@@
 created: 20150315200641184
-modified: 20151114140638056
-tags: inmysocks  Contents [[My Project]]
+modified: 20150426184837281
+tags: [[inmysocks]]  Contents [[My Project]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Learning TiddlyWiki
 source-tiddler-title-as-link: Learning%20TiddlyWiki
@@ -20,8 +20,6 @@ For a brief overview of what makes ~TiddlyWiki useful, or why you should care, c
 This wiki is an example of a (mostly) statically displayed wiki, there are not many dynamic elements past some automatically generated lists. If you want to see an example of a wiki that is almost completely made up of dynamically generated content you can go to [[http://zorklike.tiddlyspot.com/]], which is a simple interactive fiction engine I created using TiddlyWiki.
 
 While there are many tools available when using WikiText, the four most useful concepts for learning how TiddlyWiki can go far beyond traditional typesetting/word processing, or even other wikis, are:
-
-Macros are an important aspect of tiddlywiki, they are intimately related to almost every other aspect of tiddlywiki and should be included in each section in the ways that they are relevant to that section.
 
 *[[Lists in WikiText]]
 *[[Filters in WikiText]]

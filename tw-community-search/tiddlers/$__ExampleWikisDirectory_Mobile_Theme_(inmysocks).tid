@@ -3,11 +3,12 @@ caption: Mobile Theme
 category: Website
 created: 20150604162417657
 description: A tiddlywiki theme for mobile devices
-modified: 20150604182928276
+follow: yes
+modified: 20151116091125270
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/MobileTheme/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Mobile Theme (inmysocks)
 source-tiddler-title-as-link: Mobile%20Theme%20%28inmysocks%29

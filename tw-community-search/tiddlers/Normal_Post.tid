@@ -1,0 +1,5 @@
+title: Normal Post
+tags: CommunityTags
+community-tag-count: 63
+
+{{||$:/CommunityTagTemplate}}

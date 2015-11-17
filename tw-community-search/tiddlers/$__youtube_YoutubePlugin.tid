@@ -2,7 +2,7 @@ title: $:/youtube/YoutubePlugin
 created: 20150109121233777
 modified: 20150110154315546
 summary: will package the modules for annotating youtube videos, for now: import manually
-tags: youtube  Documentation
+tags: [[youtube]]  Documentation
 source-wiki-id: youtube
 source-tiddler-title-as-text: YoutubePlugin
 source-tiddler-title-as-link: YoutubePlugin

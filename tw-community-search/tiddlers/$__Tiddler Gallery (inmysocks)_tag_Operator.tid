@@ -1,0 +1,24 @@
+title: $:/Tiddler Gallery (inmysocks)/tag Operator
+caption: tag
+created: 20140410103123179
+modified: 20150124205948000
+purpose: filter the input by tag
+type: text/vnd.tiddlywiki
+tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Common Operators]] [[Tag Operators]] [[Negatable Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: tag Operator
+source-tiddler-title-as-link: tag%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="the title of a [[tag|Tagging]]"
+paramName="t"
+output="those input tiddlers that have tag <<.place t>>"
+negationOutput="those input tiddlers that do <<.em not>> have tag <<.place t>>"
+/>
+
+The output is [[sorted|Order of Tagged Tiddlers]] using the tag's <<.field list>> field and the tiddlers' <<.field list-before>> and <<.field list-after>> fields.
+
+If <<.place t>> is empty, the output of `tag` is empty, and the output of `!tag` is a copy of the input.
+
+<<.operator-examples "tag">>

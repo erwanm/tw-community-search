@@ -16,7 +16,7 @@ server.title: html2TW2
 server.type: tiddlyweb
 server.workspace: bags/tiddlyclip_public
 type: text/vnd.tiddlywiki
-tags: tiddlyclip 
+tags: [[tiddlyclip]] 
 source-wiki-id: tiddlyclip
 source-tiddler-title-as-text: issue2TW2
 source-tiddler-title-as-link: issue2TW2

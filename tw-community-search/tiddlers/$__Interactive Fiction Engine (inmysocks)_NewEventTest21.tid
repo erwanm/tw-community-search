@@ -1,0 +1,13 @@
+title: $:/Interactive Fiction Engine (inmysocks)/NewEventTest21
+created: 20141116190443452
+event_name: NewEventTest2
+event_order: first
+location: DoorState1
+modified: 20141121001341301
+trigger: TestTrigger
+tags: [[Interactive Fiction Engine (inmysocks)]]  Event
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: NewEventTest21
+source-tiddler-title-as-link: NewEventTest21
+
+state 1

@@ -3,7 +3,7 @@ created: 20150110114947253
 modified: 20150110123425757
 summary: wraps the template rendered for video tiddlers
 templates: $:/plugins/tobibeer/youtube/ViewTemplate/video
-tags: youtube  Styles
+tags: [[youtube]]  Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-tiddler-video
 source-tiddler-title-as-link: ytc-tiddler-video

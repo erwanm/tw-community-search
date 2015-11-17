@@ -1,0 +1,56 @@
+title: $:/Interactive Fiction Engine (inmysocks)/NewItemTemplate
+created: 20141116204016259
+modified: 20141129061402422
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: NewItemTemplate
+source-tiddler-title-as-link: NewItemTemplate
+
+\define setItemLocation()
+
+<$tiddler tiddler=$(itemTiddler)$>
+<$select tiddler=$(itemTiddler)$ field='location'>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Events'>
+<$list filter='[tag[Event]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Pop-ups'>
+<$list filter='[tag[Popup]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$tiddler>
+
+\end
+
+<$set name='itemTiddler' value='ItemTemplate'>
+
+Item Name:<br>
+<$edit-text tiddler='$:/tempitemname' field=ItemNameTemp placeholder='Item Name'/>
+<$set name='ItemNameTemp' value={{$:/tempitemname!!ItemNameTemp}}>
+<$button>
+<$action-setfield $tiddler=<<ItemNameTemp>> $field=location $value={{ItemTemplate!!location}}/>
+<$action-setfield $tiddler=<<ItemNameTemp>> $field=text $value={{ItemTemplate!!text}}/>
+<$action-setfield $tiddler=<<ItemNameTemp>> $field=tags $value='Item'/>
+<$action-setfield $tiddler=ItemTemplate $field=text $value=''/>
+<$action-setfield $tiddler=ItemTemplate $field=location $value=''/>
+<$action-setfield $tiddler='$:/tempitemname' $field=ItemNameTemp $value=''/>
+Create Item</$button>
+</$set>
+<br>
+
+| Item Description | Location | Things in item |h
+| <$edit-text tiddler=ItemTemplate placeholder='Item Description'/> | <<setItemLocation>> | Events:<br><$list filter='[tag[Event]location<itemTiddler>]'><$view field='title'/><br></$list><br>Triggers:<br><$list filter='[tag[Trigger]location<itemTiddler>]'><$view field='title'/><br></$list> |
+
+</$set>

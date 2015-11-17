@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Wiki Background
+created: 20150603190213258
+css_tiddler: .tc-dropzone Class Override
+description: Things that apply to the wiki background. These may have some unintended concequences
+modified: 20150603190453706
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Wiki Background
+source-tiddler-title-as-link: Wiki%20Background
+
+{{Wiki Background||CSS Options Template}}

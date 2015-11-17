@@ -1,0 +1,20 @@
+title: $:/Tiddler Gallery (inmysocks)/storyviews Operator
+caption: storyviews
+created: 20150126141718000
+modified: 20150126142035000
+purpose: select the names of all the story views
+type: text/vnd.tiddlywiki
+tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Special Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: storyviews Operator
+source-tiddler-title-as-link: storyviews%20Operator
+
+<$macrocall $name=".operator-def"
+input="ignored"
+parameter="none"
+output="the name of each story view"
+/>
+
+The names are those exported by [[modules|Modules]] whose <<.field module-type>> is <<.value storyview>>.
+
+<<.operator-examples "storyviews">>

@@ -6,7 +6,7 @@ icon: $:/core/images/info-button
 menu-icon: {{$:/core/images/info-button}}
 modified: 20141126230000000
 modifier: Tobias Beer
-tags: let 
+tags: [[let]] 
 source-wiki-id: let
 source-tiddler-title-as-text: Compatibility
 source-tiddler-title-as-link: Compatibility

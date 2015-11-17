@@ -1,0 +1,212 @@
+title: $:/Mobile Menus Demo Site (inmysocks)/Menu Macro
+created: 20150420225927913
+include_body: Body
+include_subtitle: Subtitle
+include_title: 
+modified: 20150420225955519
+normal_menu: Menu
+table_of_contents: TOC
+table_of_contents_selective: TOC-Selective
+tags: [[Mobile Menus Demo Site (inmysocks)]] 
+source-wiki-id: Mobile Menus Demo Site (inmysocks)
+source-tiddler-title-as-text: Menu Macro
+source-tiddler-title-as-link: Menu%20Macro
+
+\define inmysocksMobileMenusMakeState(MenuName)
+$:/state/Menu/$MenuName$/$(CurrentTiddler)$
+\end
+
+\define inmysocksMobileMenusMakeParentState(MenuName)
+$:/state/Menu/$MenuName$/$(ParentTiddler)$
+\end
+
+\define inmysocksMobileMenusEmptyMessage(MenuName MenuType)
+<$reveal type='match' state="Menu Macro!!normal_menu" text=$MenuType$>
+	<$button class='tc-btn-invisible'>
+		<$tiddler tiddler={{$:/state/Menu/$MenuName$/current}}>
+			{{$:/core/images/chevron-left}}
+			''<$view field=caption>
+				<$view field=title/>
+			</$view>''
+			<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=''/>
+		</$tiddler>
+	</$button>
+</$reveal>
+<$reveal type='match' state="Menu Macro!!table_of_contents" text=$MenuType$>
+	<$button class='tc-btn-invisible'>
+		{{$:/core/images/chevron-left}}
+		<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=''/>
+	</$button>
+	<$link to={{$:/state/Menu/$MenuName$/current}}>
+		''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler='$:/state/Menu/$MenuName$/current' field=text/></$view>''
+	</$link>
+	<br>
+</$reveal>
+<$reveal type='match' state="Menu Macro!!table_of_contents_selective" text=$MenuType$>
+	<$button class='tc-btn-invisible'>
+		{{$:/core/images/chevron-left}}
+		<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=''/>
+	</$button>
+	<$link to={{$:/state/Menu/$MenuName$/current}}>
+		''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler='$:/state/Menu/$MenuName$/current' field=text/></$view>''
+	</$link>
+	<br>
+</$reveal>
+\end
+
+\define inmysocksMobileMenusEmptyMessage2(MenuName MenuType)
+<$list filter='[tag<CurrentTiddler>]'>
+	<$reveal type='match' state="Menu Macro!!normal_menu" text=$MenuType$ tag=span>
+		<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""">> setTo=<<currentTiddler>>>
+			{{$:/core/images/right-arrow}}<$view tiddler=<<currentTiddler>> field='caption'><$view tiddler=<<currentTiddler>> field='title'/></$view>
+			<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+		</$button>
+		<br>
+	</$reveal>
+	<$reveal type='match' state="Menu Macro!!table_of_contents" text=$MenuType$>
+		<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""" """$MenuType$""">> setTo=<<currentTiddler>>>
+			{{$:/core/images/right-arrow}}
+			<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+		</$button>
+		<$link to=<<currentTiddler>>>
+			<$view tiddler=<<currentTiddler>> field='caption'><$view tiddler=<<currentTiddler>> field='title'/></$view>
+		</$link>
+		<br>
+	</$reveal>
+	<$reveal type='match' state="Menu Macro!!table_of_contents_selective" text=$MenuType$>
+		<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""" """$MenuType$""">> setTo=<<currentTiddler>>>
+			{{$:/core/images/right-arrow}}
+			<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+		</$button>
+		<$link to=<<currentTiddler>>>
+			<$view tiddler=<<currentTiddler>> field='caption'><$view tiddler=<<currentTiddler>> field='title'/></$view>
+		</$link>
+		<br>
+	</$reveal>
+</$list>
+\end
+
+\define inmysocksMobileMenusTemplate(MenuName MenuType)
+<$set name=CurrentTiddler value={{$:/state/Menu/$MenuName$/current}}>
+	<$list filter='[text<CurrentTiddler>removeprefix[$:/state/Menu/$MenuName$/]]-[[current]]+[limit[1]]' variable=ParentTiddler emptyMessage=<<inmysocksMobileMenusEmptyMessage2 """$MenuName$""" """$MenuType$""">>>
+		<$list filter='[tag<CurrentTiddler>]' variable=ThisTiddler2>
+			<$reveal type='match' state="Menu Macro!!normal_menu" text=$MenuType$>
+				<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""">> setTo=<<ThisTiddler2>>>
+					{{$:/core/images/right-arrow}}<$view tiddler=<<ThisTiddler2>> field='caption'><$view tiddler=<<ThisTiddler2>> field='title'/></$view>
+					<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ThisTiddler2>>/>
+				</$button>
+				<br>
+			</$reveal>
+			<$reveal type='match' state="Menu Macro!!table_of_contents" text=$MenuType$>
+				<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""" """$MenuType$""">> setTo=<<ThisTiddler2>>>
+					{{$:/core/images/right-arrow}}
+					<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ThisTiddler2>>/>
+				</$button>
+				<$link to=<<ThisTiddler2>>>
+					<$view tiddler=<<ThisTiddler2>> field='caption'><$view tiddler=<<ThisTiddler2>> field='title'/></$view>
+				</$link>
+				<br>
+			</$reveal>
+			<$reveal type='match' state="Menu Macro!!table_of_contents_selective" text=$MenuType$>
+				<$list filter='[tag{ThisTiddler2}limit[1]]' variable=dummy>
+					<$button class='tc-btn-invisible' set=<<inmysocksMobileMenusMakeState """$MenuName$""" """$MenuType$""">> setTo=<<ThisTiddler2>>>
+						{{$:/core/images/right-arrow}}
+						<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ThisTiddler2>>/>
+					</$button>
+				</$list>
+				<$link to=<<ThisTiddler2>>>
+					<$view tiddler=<<ThisTiddler2>> field='caption'><$view tiddler=<<ThisTiddler2>> field='title'/></$view>
+				</$link>
+				<br>
+			</$reveal>
+		</$list>
+	</$list>
+</$set>
+\end
+
+\define MobileMenu(RootTag:"RootTag" MenuName:Menu MenuType:Menu MenuTitle:"" ShowSubtitle:no ShowBody:no)
+<$reveal type=nomatch state="""Menu Macro!!include_title""" text="""$MenuTitle$""">
+	$MenuTitle$
+</$reveal>
+
+<$reveal type='match' state='$:/state/Menu/$MenuName$/current' text=''>
+	<$list filter='[tag[$RootTag$]]'>
+		<$reveal type='match' state="Menu Macro!!normal_menu" text=$MenuType$>
+			<$button class='tc-btn-invisible' set='$:/state/Menu/$MenuName$/current' setTo={{!!title}}>
+				{{$:/core/images/right-arrow}}<$view field='caption'><$view field='title'/></$view>
+				<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+			</$button>
+			<br>
+		</$reveal>
+		<$reveal type='match' state="Menu Macro!!table_of_contents" text=$MenuType$>
+			<$button class='tc-btn-invisible' set='$:/state/Menu/$MenuName$/current' setTo={{!!title}}>
+				{{$:/core/images/right-arrow}}
+				<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+			</$button>
+			<$link>
+				<$view field='caption'><$view field='title'/></$view>
+			</$link>
+			<br>
+		</$reveal>
+		<$reveal type='match' state="Menu Macro!!table_of_contents_selective" text=$MenuType$>
+			<$list filter='[tag{!!title}limit[1]]' variable=dummy>
+				<$button class='tc-btn-invisible' set='$:/state/Menu/$MenuName$/current' setTo={{!!title}}>
+					{{$:/core/images/right-arrow}}
+					<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value={{!!title}}/>
+				</$button>
+			</$list>
+			<$link>
+				<$view field='caption'><$view field='title'/></$view>
+			</$link>
+			<br>
+		</$reveal>
+	</$list>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/Menu/$MenuName$/current' text=''>
+<$list filter='[is[system]prefix[$:/state/Menu/$MenuName$/]has[text]]-[[$:/state/Menu/$MenuName$/current]]+[limit[1]]' emptyMessage=<<inmysocksMobileMenusEmptyMessage """$MenuName$""" """$MenuType$""">>> </$list>
+	<$list filter='[text{$:/state/Menu/$MenuName$/current}removeprefix[$:/state/Menu/$MenuName$/]]-[[current]]+[limit[1]]' variable=ParentTiddler>
+		<$reveal type='match' state="Menu Macro!!normal_menu" text=$MenuType$>
+			<$button class='tc-btn-invisible' style='text-align:left'>
+				{{$:/core/images/chevron-left}}
+				''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler={{$:/state/Menu/$MenuName$/current}} field=title/></$view>''
+				<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ParentTiddler>>/>
+				<$action-setfield $tiddler=<<inmysocksMobileMenusMakeParentState """$MenuName$""">> $value=''/>
+			</$button>
+		</$reveal>
+		<$reveal type='match' state="Menu Macro!!table_of_contents" text=$MenuType$>
+			<$button class='tc-btn-invisible'>
+				{{$:/core/images/chevron-left}}
+				<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ParentTiddler>>/>
+				<$action-setfield $tiddler=<<inmysocksMobileMenusTOCMakeParentState """$MenuName$""">> $value=''/>
+			</$button>
+			<$link to={{$:/state/Menu/$MenuName$/current}}>
+				''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler={{$:/state/Menu/$MenuName$/current}} field=title/></$view>''
+			</$link>
+			<br>
+		</$reveal>
+		<$reveal type='match' state="Menu Macro!!table_of_contents_selective" text=$MenuType$>
+			<$button class='tc-btn-invisible'>
+				{{$:/core/images/chevron-left}}
+				<$action-setfield $tiddler='$:/state/Menu/$MenuName$/current' $value=<<ParentTiddler>>/>
+				<$action-setfield $tiddler=<<inmysocksMobileMenusTOCSelectiveMakeParentState """$MenuName$""">> $value=''/>
+			</$button>
+			<$link to={{$:/state/Menu/$MenuName$/current}}>
+				''<$view tiddler={{$:/state/Menu/$MenuName$/current}} field=caption><$view tiddler={{$:/state/Menu/$MenuName$/current}} field=title/></$view>''
+			</$link>
+			<br>
+		</$reveal>
+	</$list>
+
+	<$reveal type='match' state='Menu Macro!!include_subtitle' text=$ShowSubtitle$>
+		<$transclude tiddler={{$:/state/Menu/$MenuName$/current}} field='subtitle' mode=block/>
+	</$reveal>
+
+	<$list filter='[tag{$:/state/Menu/$MenuName$/current}limit[1]]' variable=ThisTiddler>
+		<<inmysocksMobileMenusTemplate """$MenuName$""" """$MenuType$""">>
+	</$list>
+
+	<$reveal type='match' state='Menu Macro!!include_body' text=$ShowBody$>
+		<$transclude tiddler={{$:/state/Menu/$MenuName$/current}} mode=block/>
+	</$reveal>
+</$reveal>
+\end

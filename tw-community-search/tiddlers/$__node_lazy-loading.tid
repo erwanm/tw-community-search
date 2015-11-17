@@ -3,7 +3,7 @@ created: 20140206214608586
 modified: 20151013192717363
 summary: fetching a full tiddler only when needed
 type: text/vnd.tiddlywiki
-tags: node  concepts
+tags: [[node]]  concepts
 source-wiki-id: node
 source-tiddler-title-as-text: lazy-loading
 source-tiddler-title-as-link: lazy-loading

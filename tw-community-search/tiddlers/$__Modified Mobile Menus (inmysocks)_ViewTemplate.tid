@@ -1,0 +1,11 @@
+title: $:/Modified Mobile Menus (inmysocks)/ViewTemplate
+created: 20150520223022050
+modified: 20150523040014664
+tags: [[Modified Mobile Menus (inmysocks)]] 
+source-wiki-id: Modified Mobile Menus (inmysocks)
+source-tiddler-title-as-text: ViewTemplate
+source-tiddler-title-as-link: ViewTemplate
+
+<$list filter='[is[current]!title[An alternative mindmap/toc thing]]'>
+<<MobileMenu """$(currentTiddler)$""" """$(currentTiddler)$""" "TOC-Selective-Hierarchical">>
+</$list>

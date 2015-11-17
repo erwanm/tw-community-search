@@ -1,0 +1,34 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Sidebar
+created: 20150310190617422
+left_menu_order: 90
+modified: 20150310225412869
+tags: [[External Brain (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Sidebar
+source-tiddler-title-as-link: Menu%20Icon%20-%20Sidebar
+
+@@text-align:left;
+<$scrollable fallthrough="no">
+
+<div class="tc-sidebar-header">
+
+<h1 class="tc-site-title">
+
+<$transclude tiddler="$:/SiteTitle" mode="inline"/>
+
+</h1>
+
+<div class="tc-site-subtitle">
+
+<$transclude tiddler="$:/SiteSubtitle" mode="inline"/>
+
+</div>
+
+{{||$:/core/ui/PageTemplate/pagecontrols}}
+
+<$transclude tiddler="$:/core/ui/SideBarLists" mode="inline"/>
+
+</div>
+
+</$scrollable>
+@@

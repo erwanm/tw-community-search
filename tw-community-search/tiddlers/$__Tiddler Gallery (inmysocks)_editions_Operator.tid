@@ -1,0 +1,18 @@
+title: $:/Tiddler Gallery (inmysocks)/editions Operator
+caption: editions
+created: 20150111145738451
+modified: 20150124150912000
+purpose: select the names of all the ~TiddlyWiki editions
+type: text/vnd.tiddlywiki
+tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: editions Operator
+source-tiddler-title-as-link: editions%20Operator
+
+<$macrocall $name=".operator-def"
+input="ignored"
+parameter="none"
+output="the name of each ~TiddlyWiki edition, in alphabetical order"
+/>
+
+<<.node-only-operator>>

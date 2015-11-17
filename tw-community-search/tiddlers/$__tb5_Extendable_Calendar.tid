@@ -7,7 +7,7 @@ revision: 0
 summary: renders months or year calendars allowing to or create journal tiddlers
 type: text/vnd.tiddlywiki
 url: http://bjtools.tiddlyspot.com/#ExtendableCalendar
-tags: tb5  Dates Calendars Plugin Solutions
+tags: [[tb5]]  Dates Calendars Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: Extendable Calendar
 source-tiddler-title-as-link: Extendable%20Calendar

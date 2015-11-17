@@ -1,0 +1,163 @@
+title: $:/External Brain (inmysocks)/Blog Archive
+created: 20150208232204519
+modified: 20150305181413859
+tags: [[External Brain (inmysocks)]]  [[Dashboard Tab]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Blog Archive
+source-tiddler-title-as-link: Blog%20Archive
+
+\define thisYearMonth()
+$(ThisYear)$ - $(ThisMonth)$
+\end
+
+\define thisDisplaySelectedPost()
+{{$(SelectedPost)$||$(Template)$}}
+\end
+
+\define thisSelectNumberOfPosts()
+Display <$select tiddler='$:/state/Blog Archive' field='list_length'><$list filter='1 2 3 4 5 6 7 8 9 10 20 30 40 50 100 200 300'><option><<currentTiddler>></option></$list></$select> posts
+\end
+
+Click on the calendar button ({{Menu Icon - Calendar Archives}}) in the upper left to open up the calendar based archive.
+
+Select Date:
+
+Year: <$select tiddler='$:/state/Blog Archive' field='selected_year'>
+<option>All</option>
+<$list filter='[tag[My Blog]each[year]get[year]nsort[title]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_year' text='All'>
+Month: <$select tiddler='$:/state/Blog Archive' field='selected_month'>
+<option>All</option>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}each[month]get[month]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_year' text='All'>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_month' text='All'>
+Day: <$select tiddler='$:/state/Blog Archive' field='selected_day'>
+<option>All</option>
+<$list filter='[tag[My Blog]month{$:/state/Blog Archive!!selected_month}each[day]get[day]nsort[title]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+</$reveal>
+</$reveal>
+</$reveal>
+
+<$reveal type='match' state='$:/state/Blog Archive!!selected_year' text='All'>
+Select Post: <$select tiddler='$:/state/Blog Archive' field='selected_post'>
+<option>All</option>
+<$list filter='[tag[My Blog]nsort[year]each[year]get[year]]' variable=ThisYear>
+<$list filter='[tag[My Blog]year<ThisYear>each[month]get[month]]' variable=ThisMonth>
+<optgroup label=<<thisYearMonth>>>
+<$list filter='[tag[My Blog]year<ThisYear>month<ThisMonth>nsort[day]each[day]get[day]]' variable=ThisDay>
+<$list filter='[tag[My Blog]year<ThisYear>month<ThisMonth>day<ThisDay>sort[title]]-[[$:/templates/blog/BasicBlogPostTemplate]]' variable=ThisPost>
+<option><$view tiddler=<<ThisPost>> field='title'/></option>
+</$list>
+</$list>
+</optgroup>
+</$list>
+</$list>
+</$select>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_post' text='All'>
+<<thisSelectNumberOfPosts>>
+<$list filter='[tag[My Blog]nsort[time]limit{$:/state/Blog Archive!!list_length}]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+<$set name=SelectedPost value=<<currentTiddler>>>
+<$set name=Template filter='[title<currentTiddler>get[template]]'>
+<<thisDisplaySelectedPost>>
+</$set>
+</$set>
+</$list>
+</$reveal>
+
+</$reveal>
+
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_year' text='All'>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_month' text='All'>
+Select Post: <$select tiddler='$:/state/Blog Archive' field='selected_post'>
+<option>All</option>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}each[month]get[month]]' variable=ThisMonth>
+<optgroup label=<<ThisMonth>>>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month<ThisMonth>nsort[day]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$list>
+</$select>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_post' text='All'>
+<<thisSelectNumberOfPosts>>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}nsort[time]limit{$:/state/Blog Archive!!list_length}]'>
+<$set name=SelectedPost value=<<currentTiddler>>>
+<$set name=Template filter='[title<currentTiddler>get[template]]'>
+<<thisDisplaySelectedPost>>
+</$set>
+</$set>
+</$list>
+</$reveal>
+
+</$reveal>
+</$reveal>
+
+
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_year' text='All'>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_month' text='All'>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_day' text='All'>
+Select Post: <$select tiddler='$:/state/Blog Archive' field='selected_post'>
+<option>All</option>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month{$:/state/Blog Archive!!selected_month}each[day]get[day]nsort[title]]' variable=ThisDay>
+<optgroup label=<<ThisDay>>>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month{$:/state/Blog Archive!!selected_month}day<ThisDay>sort[created]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$list>
+</$select>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_post' text='All'>
+<<thisSelectNumberOfPosts>>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month{$:/state/Blog Archive!!selected_month}nsort[time]limit{$:/state/Blog Archive!!list_length}]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+<$set name=SelectedPost value=<<currentTiddler>>>
+<$set name=Template filter='[title<currentTiddler>get[template]]'>
+<<thisDisplaySelectedPost>>
+</$set>
+</$set>
+</$list>
+</$reveal>
+
+</$reveal>
+</$reveal>
+</$reveal>
+
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_year' text='All'>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_month' text='All'>
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_day' text='All'>
+Select Post: <$select tiddler='$:/state/Blog Archive' field='selected_post'>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month{$:/state/Blog Archive!!selected_month}day{$:/state/Blog Archive!!selected_day}sort[created]]'>
+<option>All</option>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$reveal type='match' state='$:/state/Blog Archive!!selected_post' text='All'>
+<<thisSelectNumberOfPosts>>
+<$list filter='[tag[My Blog]year{$:/state/Blog Archive!!selected_year}month{$:/state/Blog Archive!!selected_month}day{$:/state/Blog Archive!!selected_day}!nsort[time]limit{$:/state/Blog Archive!!list_length}]-[[$:/templates/blog/BasicBlogPostTemplate]]'>
+<$set name=SelectedPost value=<<currentTiddler>>>
+<$set name=Template filter='[title<currentTiddler>get[template]]'>
+<<thisDisplaySelectedPost>>
+</$set>
+</$set>
+</$list>
+</$reveal>
+
+</$reveal>
+</$reveal>
+</$reveal>
+
+<$reveal type='nomatch' state='$:/state/Blog Archive!!selected_post' text='All'>
+<$set name=SelectedPost value={{$:/state/Blog Archive!!selected_post}}>
+<$set name=Template filter='[title{$:/state/Blog Archive!!selected_post}get[template]]'>
+<<thisDisplaySelectedPost>>
+</$set>
+</$set>
+</$reveal>

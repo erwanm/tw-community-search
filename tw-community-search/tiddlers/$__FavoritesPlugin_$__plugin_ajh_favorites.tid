@@ -8,7 +8,7 @@ modified: 20151105190658878
 modifier: Andrew Harrison
 source: http://favorites.tiddlyspot.com
 version: 0.0.7
-tags: FavoritesPlugin 
+tags: [[FavoritesPlugin]] 
 source-wiki-id: FavoritesPlugin
 source-tiddler-title-as-text: $:/plugin/ajh/favorites
 source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2ffavorites

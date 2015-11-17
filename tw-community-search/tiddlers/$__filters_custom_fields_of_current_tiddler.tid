@@ -6,7 +6,7 @@ filter: [all[current]fields[]sort[title]]-[all[shadows]removeprefix[$:/language/
 modified: 20150122171844156
 modifier: Tobias Beer
 summary: returns fields-names of the current tiddler that are not core fields
-tags: filters  removeprefix Filters fields current all shadows Fields
+tags: [[filters]]  removeprefix Filters fields current all shadows Fields
 source-wiki-id: filters
 source-tiddler-title-as-text: custom fields of current tiddler
 source-tiddler-title-as-link: custom%20fields%20of%20current%20tiddler

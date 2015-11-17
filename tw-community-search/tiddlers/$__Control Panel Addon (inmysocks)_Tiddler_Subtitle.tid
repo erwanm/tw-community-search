@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Subtitle
+created: 20150603004203139
+css_tiddler: .tc-subtitle Class Override
+description: These apply to the tiddler subtitle
+modified: 20150603004606704
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]] [[Font Settings]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Subtitle
+source-tiddler-title-as-link: Tiddler%20Subtitle
+
+{{Tiddler Subtitle||CSS Options Template}}

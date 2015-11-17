@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Language Flash Cards (inmysocks)
+caption: Language Flash Cards
+category: Website
+created: 20151116090101497
+description: A site showing off my flashcard system made using tiddlywiki. I made it specifically for learning french vocabulary.
+follow: yes
+modified: 20151116091205797
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/Flashcards/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Language Flash Cards (inmysocks)
+source-tiddler-title-as-link: Language%20Flash%20Cards%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

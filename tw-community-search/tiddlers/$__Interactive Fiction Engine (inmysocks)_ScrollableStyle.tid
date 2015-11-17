@@ -1,0 +1,15 @@
+title: $:/Interactive Fiction Engine (inmysocks)/ScrollableStyle
+created: 20141115061138560
+modified: 20141115061230543
+type: text/css
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: ScrollableStyle
+source-tiddler-title-as-link: ScrollableStyle
+
+.tc-scrollable {
+	border: 1px solid white;
+	background-color: #fafafa;
+	padding: 1em;
+	height: 400px;
+}

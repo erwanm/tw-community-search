@@ -5,7 +5,7 @@ icon: $:/core/images/menu-button
 list: [[Git c'est quoi ?]] [[Installer et configurer Git]] [[Utiliser Git]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]] [[Travailler avec un dépôt distant]] [[Exemple de mise en œuvre]] [[Tagger ses versions]]
 list-before: $:/core/ui/SideBar/Open
 modified: 20150422130243725
-tags: GitNote 
+tags: [[GitNote]] 
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Menu
 source-tiddler-title-as-link: Menu

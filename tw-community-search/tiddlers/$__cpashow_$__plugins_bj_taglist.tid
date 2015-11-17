@@ -8,7 +8,7 @@ modified: 20140702142033624
 revision: 0
 source: https://github.com/buggyj/TW5-taglist
 version: 0.0.3
-tags: cpashow 
+tags: [[cpashow]] 
 source-wiki-id: cpashow
 source-tiddler-title-as-text: $:/plugins/bj/taglist
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftaglist

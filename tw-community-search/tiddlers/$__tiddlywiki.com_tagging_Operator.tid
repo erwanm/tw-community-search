@@ -7,7 +7,7 @@ op-output: the titles of any tiddlers that carry the input tags
 op-parameter: none
 op-purpose: find the tiddlers that have the input tags
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Tag Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Tag Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: tagging Operator
 source-tiddler-title-as-link: tagging%20Operator

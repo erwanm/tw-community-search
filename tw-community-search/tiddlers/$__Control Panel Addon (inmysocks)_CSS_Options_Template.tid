@@ -1,0 +1,18 @@
+title: $:/Control Panel Addon (inmysocks)/CSS Options Template
+created: 20150602230104998
+modified: 20150602234424014
+tags: [[Control Panel Addon (inmysocks)]] 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: CSS Options Template
+source-tiddler-title-as-link: CSS%20Options%20Template
+
+<$set name=CSSTiddler value={{!!css_tiddler}}>
+
+{{!!description}}:
+
+<$list filter='[<CSSTiddler>fields[]]-[[created]]-[[title]]-[[modified]]-[[text]]-[[tags]]' template= CSSOptionsListTemplate>
+
+</$list>
+
+{{Add CSS Property}}
+</$set>

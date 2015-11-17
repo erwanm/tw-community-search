@@ -5,7 +5,7 @@ description: The [[$:/ajh/ui/ViewTemplate/show-fields]] template causes tiddlers
 modified: 20151024173102401
 modifier: Andrew Harrison
 show-field: description
-tags: t5a  New Contents
+tags: [[t5a]]  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Show-fields
 source-tiddler-title-as-link: Show-fields

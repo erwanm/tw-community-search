@@ -12,7 +12,7 @@ p.username: (optional) default username for signing edits
 params: <port> <roottiddler> <rendertype> <servetype> <username> <password> <host> <pathprefix>
 summary: provides a simple http server interface for [[tiddlywiki]], compatible with [[tiddlyweb]], however not supporting many of the features needed for robust internet-facing usage
 type: 
-tags: node  commands
+tags: [[node]]  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --server
 source-tiddler-title-as-link: --server

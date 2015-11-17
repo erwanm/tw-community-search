@@ -3,11 +3,12 @@ caption: Modified Mobile Menu Thing
 category: Macro
 created: 20150620124208235
 description: This uses the mobile menu interface, but at each level tiddlers that are tagged with ALL ancestors are shown.
-modified: 20150620124358187
+follow: yes
+modified: 20151116091125270
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/OtherMindMap/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro Menu
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro Menu
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Modified Mobile Menus (inmysocks)
 source-tiddler-title-as-link: Modified%20Mobile%20Menus%20%28inmysocks%29

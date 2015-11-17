@@ -1,0 +1,29 @@
+title: $:/External Brain (inmysocks)/Trying to make Disqus work
+created: 20150203221158869
+day: 19
+image: 
+image_caption: 
+link: 
+modified: 20150518212428007
+modifier: inmysocks
+month: March
+number_of_comments: 0
+posted: 13:17, 19th March 2015
+summary: I just realized why it is disqus
+template: BlogDisplayTemplate1
+time: 20150319131739
+tooltip: 
+width: 
+year: 2015
+tags: [[External Brain (inmysocks)]]  [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Trying to make Disqus work
+source-tiddler-title-as-link: Trying%20to%20make%20Disqus%20work
+
+This is me testing to see if I can make this work, so if you can comment here it works.
+
+Edit: Only sort of, I may not be able to make separate comment threads for different posts. I am looking into it.
+
+<div id="disqus_thread"></div>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

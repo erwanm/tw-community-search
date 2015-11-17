@@ -1,0 +1,21 @@
+title: $:/Category List (inmysocks)/Have the create task button add date created information
+category: Plugin
+created: 20150503161640521
+description: Have day month and year
+modified: 20150503183655259
+subcategory: Category Lists
+subsubcategory: New Feature
+tags: [[Category List (inmysocks)]]  [[Planned Update]] [[Change Log]] [[New Feature]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Have the create task button add date created information
+source-tiddler-title-as-link: Have%20the%20create%20task%20button%20add%20date%20created%20information
+
+Fields like this:
+
+```
+day_created=<<now DD>>
+
+month_created=<<now MM>>
+
+year_created=<<now YYYY>>
+```

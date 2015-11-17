@@ -6,7 +6,7 @@ description: Runs local exe/batch files. Open in folder, copy to clipboard etc a
 revision: 0
 source: https://github.com/Welford/twexe
 version: 0.0.1
-tags: welford 
+tags: [[welford]] 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/plugins/welford/twexe
 source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwexe

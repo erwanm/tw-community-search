@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Demo Code Macro (inmysocks)
+caption: Demo Code Macro
+category: Website
+created: 20151116090748283
+description: A site showing the macro I made for interactively teaching wikitext.
+follow: yes
+modified: 20151116091125275
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/DemoCodeMacro/
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Demo Code Macro (inmysocks)
+source-tiddler-title-as-link: Demo%20Code%20Macro%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

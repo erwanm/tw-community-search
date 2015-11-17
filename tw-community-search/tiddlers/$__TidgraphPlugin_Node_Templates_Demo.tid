@@ -1,0 +1,17 @@
+title: $:/TidgraphPlugin/Node Templates Demo
+created: 20151114042517146
+modified: 20151117010650760
+type: text/vnd.tiddlywiki
+tags: [[TidgraphPlugin]]  Demo
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: Node Templates Demo
+source-tiddler-title-as-link: Node%20Templates%20Demo
+
+''Node Templates'' are very powerful!! They are //user defined templates// that allow you to make the nodes look however you want. Node templates can be applied to individual nodes, to individual levels or to all the nodes. The following graph is generated with:
+
+Take a look at the GoldTemplate for an easy template with a related stylesheet or at the CloudTemplate for a very advanced template.
+
+``<$tidgraph start="Virtues" nodetemplate="CloudTemplate GoldTemplate" />``
+
+<$tidgraph start="Virtues" nodetemplate="CloudTemplate GoldTemplate" />
+

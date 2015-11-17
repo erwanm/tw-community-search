@@ -1,0 +1,17 @@
+title: $:/Language Flash Cards (inmysocks)/Noun View Template
+created: 20151015093516991
+modified: 20151015094751114
+tags: [[Language Flash Cards (inmysocks)]] 
+source-wiki-id: Language Flash Cards (inmysocks)
+source-tiddler-title-as-text: Noun View Template
+source-tiddler-title-as-link: Noun%20View%20Template
+
+<$list filter='[is[current]tag[Noun]]'>
+
+|!English |>|>|>|>|
+|{{!!english}} |>|>|>|>|
+|!Français |>|>|>|>|
+|Masculin |Feminin |Pluriel Masculin |Pluriel Feminin |
+|{{!!masculin}} |{{!!feminin}} |{{!!pluriel_masculin}} |{{!!pluriel_feminin}} |
+
+</$list>

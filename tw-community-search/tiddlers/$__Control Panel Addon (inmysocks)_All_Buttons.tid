@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/All Buttons
+created: 20150603172325181
+css_tiddler: button Class Override
+description: Applies to all buttons in the wiki
+modified: 20150603205039345
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]] [[Input Types]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: All Buttons
+source-tiddler-title-as-link: All%20Buttons
+
+{{All Buttons||CSS Options Template}}

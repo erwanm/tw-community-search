@@ -6,7 +6,7 @@ description: Visjs – TiddlyWiki5 plugin for the vis.js library
 list: readme
 source: https://github.com/felixhayashi/TW5-Vis.js
 version: 4.9.0
-tags: TiddlyMap 
+tags: [[TiddlyMap]] 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/vis
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2fvis

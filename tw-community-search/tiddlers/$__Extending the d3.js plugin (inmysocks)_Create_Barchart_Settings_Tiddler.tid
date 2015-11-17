@@ -1,0 +1,36 @@
+title: $:/Extending the d3.js plugin (inmysocks)/Create Barchart Settings Tiddler
+created: 20150726201707554
+help_chart_animation_duration: This is the length of the animations used when chart transitions happen if it is an interactive chart. The unit used in milliseconds.
+help_chart_bottom_margin: This is the distance between the bottom of the graphic part of the chart and the bottom of the bounding box set by the chart height. This is given in pixels.
+help_chart_height: This sets the outside height dimension of the chart including any margins and labels. This is given in pixels.
+help_chart_left_margin: This is the distance between the left side of the graphic part of the chart and the left side of the bounding box set by the chart width. This is given in pixels.
+help_chart_right_margin: This is the distance between the right side of the graphic part of the chart and the right side of the bounding box set by the chart width. This is given in pixels.
+help_chart_top_margin: This is the distance between the top of the graphic part of the chart and the top of the bounding box set by the chart height. This is given in pixels.
+help_chart_width: This sets the outside width dimension of the chart including any margins and labels. This is given in pixels.
+modified: 20150727182903865
+tags: [[Extending the d3.js plugin (inmysocks)]]  Tools
+source-wiki-id: Extending the d3.js plugin (inmysocks)
+source-tiddler-title-as-text: Create Barchart Settings Tiddler
+source-tiddler-title-as-link: Create%20Barchart%20Settings%20Tiddler
+
+\define thisHelpButton(Field)
+^^<$button class='tc-btn-invisible' popup='$:/popup/$(currentTiddler)$/$Field$'>(?)</$button><$reveal type=popup state='$:/popup/$(currentTiddler)$/$Field$'>
+
+<div class='tc-drop-down' style='max-width:75vw;overflow:textwrap'>
+
+<$transclude field=$Field$ mode=block/>
+
+</div>
+
+</$reveal>^^
+\end
+
+Select or enter values for each attribute, default values are automatically assigned.
+
+|Chart height<<thisHelpButton help_chart_height>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=chart_height size=5/>|
+|Chart width<<thisHelpButton help_chart_width>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=chart_width size=5/>|
+|Chart top margin<<thisHelpButton help_chart_top_margin>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=top_margin size=5/>|
+|Chart bottom margin<<thisHelpButton help_chart_bottom_margin>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=bottom_margin size=5/>|
+|Chart left margin<<thisHelpButton help_chart_left_margin>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=left_margin size=5/>|
+|Chart right margin<<thisHelpButton help_chart_right_margin>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=right_margin size=5/>|
+|Transition animation duration<<thisHelpButton help_chart_animation_duration>>|<$edit-text tiddler='$:/temp/d3extended/Create Barchart Settings Tiddler' field=animation_duration size=5/>|

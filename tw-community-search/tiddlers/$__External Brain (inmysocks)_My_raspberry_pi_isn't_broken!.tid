@@ -1,0 +1,27 @@
+title: $:/External Brain (inmysocks)/My raspberry pi isn't broken!
+created: 20150203221158869
+day: 8
+image: 
+image_caption: 
+link: 
+modified: 20150518212428003
+modifier: inmysocks
+month: March
+number_of_comments: 0
+posted: 14:39, 8th March 2015
+summary: Yay polyfuse!
+template: BlogDisplayTemplate1
+time: 20150308143925
+tooltip: 
+width: 
+year: 2015
+tags: [[External Brain (inmysocks)]]  [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: My raspberry pi isn't broken!
+source-tiddler-title-as-link: My%20raspberry%20pi%20isn%27t%20broken%21
+
+It turns out that my raspberry pi works, it just took a while for the polyfuse to reset. Now the problem is that I don't have a display it will work with because my monitor DVI input got fried when the raspberry pi had its troubles. I just tried go get a cheap monitor off of craigs list but the guy sold it to someone else.
+
+Also, I can tweet this and post it to my site at the same time. Hopefully I will find a way to do this with one button instead of two, but two works for now.
+
+Anyway, finding out I didn't break the pi the third day I had it makes me feel a bit better about the world. I am still upset about the monitor though.

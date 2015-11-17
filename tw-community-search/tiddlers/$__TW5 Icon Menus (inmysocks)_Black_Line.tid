@@ -1,0 +1,14 @@
+title: $:/TW5 Icon Menus (inmysocks)/Black Line
+created: 20150123101005516
+creator: inmysocks
+list-after: $:/core/ui/ViewTemplate/title
+modified: 20150130011522187
+modifier: inmysocks
+tags: [[TW5 Icon Menus (inmysocks)]]  [[Icon Menus]]
+source-wiki-id: TW5 Icon Menus (inmysocks)
+source-tiddler-title-as-text: Black Line
+source-tiddler-title-as-link: Black%20Line
+
+<$list filter='[is[current]]'>
+<hr>
+</$list>

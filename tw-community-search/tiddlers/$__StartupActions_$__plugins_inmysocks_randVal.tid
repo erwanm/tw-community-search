@@ -5,7 +5,7 @@ dependents:
 description: A random number generator for TW5
 source: https://github.com/inmysocks/TW5-randVal
 version: 0.1.1
-tags: StartupActions 
+tags: [[StartupActions]] 
 source-wiki-id: StartupActions
 source-tiddler-title-as-text: $:/plugins/inmysocks/randVal
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2frandVal

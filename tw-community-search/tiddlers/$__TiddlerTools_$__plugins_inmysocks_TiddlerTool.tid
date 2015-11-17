@@ -4,7 +4,7 @@ core-version: >=5.1.9
 dependents: 
 description: Advanced Tiddler Manipulation Tools
 version: 5.1.10-prerelease
-tags: TiddlerTools 
+tags: [[TiddlerTools]] 
 source-wiki-id: TiddlerTools
 source-tiddler-title-as-text: $:/plugins/inmysocks/TiddlerTool
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fTiddlerTool

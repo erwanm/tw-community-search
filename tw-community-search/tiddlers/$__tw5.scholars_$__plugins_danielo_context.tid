@@ -6,7 +6,7 @@ description: A plugin for preview search results
 modified: 20140531000506368
 modifier: Danielo Rodriguez
 version: 0.0.3
-tags: tw5.scholars 
+tags: [[tw5.scholars]] 
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: $:/plugins/danielo/context
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fcontext

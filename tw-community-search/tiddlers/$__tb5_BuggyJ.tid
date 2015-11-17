@@ -3,7 +3,7 @@ icon: $:/core/images/plugin-generic-language
 revision: 0
 summary: BJ's tools — flexitype: extended types, extendable calendar, taglist, visual editor, json editor, click action <!--BuggyJ-->
 url: http://bjtools.tiddlyspot.com
-tags: tb5  Community
+tags: [[tb5]]  Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: BuggyJ
 source-tiddler-title-as-link: BuggyJ

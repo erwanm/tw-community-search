@@ -16,7 +16,7 @@ repository:
 revision: 0.1.0
 short_description: A simple form for creating or editing tiddlers
 wiki: http://inmysocks.tiddlyspot.com/
-tags: inmysocks  [[Plugin twCard]]
+tags: [[inmysocks]]  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Create or Edit Tiddlers
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Create%20or%20Edit%20Tiddlers

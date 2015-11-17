@@ -8,7 +8,7 @@ op-output: those input tiddlers that have been modified during this session
 op-parameter: none
 op-purpose: filter the input by tiddler modification status
 type: text/vnd.tiddlywiki
-tags: tiddlywiki.com  [[Filter Operators]] [[Negatable Operators]]
+tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: haschanged Operator
 source-tiddler-title-as-link: haschanged%20Operator

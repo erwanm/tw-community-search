@@ -4,7 +4,7 @@ created: 20151012145837697
 modified: 20151014141432115
 summary: a complete interactive wiki in [[javascript]] that can run in a browser or on a server via [[node.js]]
 url: http://tiddlywiki.com
-tags: node 
+tags: [[node]] 
 source-wiki-id: node
 source-tiddler-title-as-text: tiddlywiki
 source-tiddler-title-as-link: tiddlywiki

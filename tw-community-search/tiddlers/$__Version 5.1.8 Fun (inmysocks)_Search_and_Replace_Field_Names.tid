@@ -1,0 +1,115 @@
+title: $:/Version 5.1.8 Fun (inmysocks)/Search and Replace Field Names
+created: 20150225205234880
+modified: 20150327033139605
+tags: [[Version 5.1.8 Fun (inmysocks)]] 
+source-wiki-id: Version 5.1.8 Fun (inmysocks)
+source-tiddler-title-as-text: Search and Replace Field Names
+source-tiddler-title-as-link: Search%20and%20Replace%20Field%20Names
+
+\define thisMakeIndexName()
+$(ThisOne)$$(ThisField)$
+\end
+
+\define thisMakeTables()
+
+All matches:
+<table>
+<tr><th>Tiddler</th><th>Field Name</th><th>Field Value</th><th>Replace</th></tr>
+<$list filter='[!is[system]regexp<TiddlerNameSearchRegExp>limit[50]]' variable=ThisOne>
+<$list filter='[<ThisOne>fields[]regexp<FieldNameSearchRegExp>]$(IncludeTitleField)$$(IncludeModifiedField)$$(IncludeCreatedField)$$(IncludeTagsField)$$(IncludeTextField)$' variable=ThisField>
+<$set name=ThisIndexName value=<<thisMakeIndexName>>>
+<$list filter='[<ThisOne>get<ThisField>regexp<FieldNamesSearchRegExp>]' variable=ThisFilteredFieldValue>
+<tr><td><$view tiddler=<<ThisOne>> field='title'/></td><td><<ThisField>></td><td><$view tiddler=<<ThisOne>> field=<<ThisField>>/></td><td><<thisReplaceFieldNamesButton>></td></tr>
+</$list>
+</$set>
+</$list>
+</$list>
+</table>
+\end
+
+\define thisReplaceFieldNamesButton()
+<$button>Rename Field
+<$fieldmangler tiddler=<<ThisOne>>>
+<$action-setfield $tiddler=<<ThisOne>> $field={{$:/temp/SearchAndReplaceFieldNames/Search!!replace_text}} $value=<<ThisFilteredFieldValue>>/>
+<$action-sendmessage $message='tm-remove-field' $param=<<ThisField>>/>
+</$fieldmangler>
+</$button>
+\end
+
+<$reveal type="nomatch" state="$:/state/SearchAndReplaceFieldNames/ShowInstructions" text="show">
+
+<$button set="$:/state/SearchAndReplaceFieldNames/ShowInstructions" setTo="show">Show instructions</$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/SearchAndReplaceFieldNames/ShowInstructions" text="show">
+
+<$button set="$:/state/SearchAndReplaceFieldNames/ShowInstructions" setTo="hide">Hide instructions</$button>
+
+''How to use this:''
+
+The search results are limited to the fields in the first 50 tiddlers returned to prevent very long render times.
+
+Type in your search string into the Search text box. Note that this search only reduces the number of returned entries so if you type `a` //ALL// fields in non-system tiddlers that contain `a` or `A` will be listed. This uses regular expressions and some characters may cause strange behaviour, namely `$`, `[`, `]` and `.` and possibly others. 
+
+Type the string you want the field(s) to have into the replace box. Note that this will replace the entire contents of the field, not just the string in the search box. So typing in `foo` will list all fields that have the (case insensitive) string `foo` anywhere in the string in that field. Putting `bar` as the replace string will set the value of all of the selected fields to `bar`, even if `foo` was only part of the previous value.
+
+Click on the `Replace` button next to the field you wish to change to replace the fields name.
+
+</$reveal>
+
+Search by tiddler name: 
+<$edit-text tiddler='$:/temp/SearchAndReplaceFieldNames/Search' placeholder='Search Tiddlers' field=tiddler_search_text class='tc-edit-texteditor'/><br>
+Search by field name: 
+<$edit-text tiddler='$:/temp/SearchAndReplaceFieldNames/Search' placeholder='Search Field Names' field=field_name_search_text class='tc-edit-texteditor'/><br>
+Search by field contents: 
+<$edit-text tiddler='$:/temp/SearchAndReplaceFieldNames/Search' placeholder='Search Field Contents' field=search_text class='tc-edit-texteditor'/><br>
+Replace: 
+<$edit-text tiddler='$:/temp/SearchAndReplaceFieldNames/Search' placeholder='Replacement Contents' field=replace_text class='tc-edit-texteditor'/>
+
+<$reveal type="nomatch" state="$:/state/SearchAndReplaceFieldNames/ShowOptions" text="show">
+
+<$button set="$:/state/SearchAndReplaceFieldNames/ShowOptions" setTo="show">Show Options</$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/SearchAndReplaceFieldNames/ShowOptions" text="show">
+
+<$button set="$:/state/SearchAndReplaceFieldNames/ShowOptions" setTo="hide">Hide Options</$button>
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=case_sensitive checked='' unchecked='(?i)'>Case sensitive search</$checkbox>
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=include_text checked='' unchecked='-[[text]]'>Include text field</$checkbox> - Be careful using this one
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=include_tags checked='' unchecked='-[[tags]]'>Include tags field</$checkbox> - Be careful using this one
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=include_created checked='' unchecked='-[[created]]'>Include created field</$checkbox>
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=include_modified checked='' unchecked='-[[modified]]'>Include modified field</$checkbox>
+
+<$checkbox tiddler='$:/temp/SearchAndReplaceFieldNames/Search' field=include_title checked='' unchecked='-[[title]]'>Include title field</$checkbox>
+</$reveal>
+
+<$set name=FieldNamesSearchString value={{$:/temp/SearchAndReplaceFieldNames/Search!!search_text}}>
+<$set name=FieldNamesSearchRegExp value="$(CaseSensitive)$$(FieldNamesSearchString)$">
+<$set name=FieldNameSearchString value={{$:/temp/SearchAndReplaceFieldNames/Search!!field_name_search_text}}>
+<$set name=FieldNameSearchRegExp value="$(CaseSensitive)$$(FieldNameSearchString)$">
+<$set name=TiddlerNameSearchString value={{$:/temp/SearchAndReplaceFieldNames/Search!!tiddler_search_text}}>
+<$set name=TiddlerNameSearchRegExp value="$(CaseSensitive)$$(TiddlerNameSearchString)$">
+<$set name=CaseSensitive value={{$:/temp/SearchAndReplaceFieldNames/Search!!case_sensitive}}>
+<$set name=IncludeTextField value={{$:/temp/SearchAndReplaceFieldNames/Search!!include_text}}>
+<$set name=IncludeTagsField value={{$:/temp/SearchAndReplaceFieldNames/Search!!include_tags}}>
+<$set name=IncludeCreatedField value={{$:/temp/SearchAndReplaceFieldNames/Search!!include_created}}>
+<$set name=IncludeModifiedField value={{$:/temp/SearchAndReplaceFieldNames/Search!!include_modified}}>
+<$set name=IncludeTitleField value={{$:/temp/SearchAndReplaceFieldNames/Search!!include_title}}>
+
+<<thisMakeTables>>
+
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>
+</$set>

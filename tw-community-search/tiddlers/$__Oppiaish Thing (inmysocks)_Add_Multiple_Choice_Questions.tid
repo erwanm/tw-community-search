@@ -1,0 +1,66 @@
+title: $:/Oppiaish Thing (inmysocks)/Add Multiple Choice Questions
+created: 20150409231916913
+modified: 20150410055456381
+tags: [[Oppiaish Thing (inmysocks)]] 
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: Add Multiple Choice Questions
+source-tiddler-title-as-link: Add%20Multiple%20Choice%20Questions
+
+\define thisMakeQuestionTiddlerTitle()
+$:/answer/multiple choice/$(QuestionTitle)$ $(TiddlerQuestionNumber)$
+\end
+
+\define thisMakeResponseTiddlerTitle()
+$:/response/multiple choice/$(QuestionTitle)$ $(TiddlerQuestionNumber)$
+\end
+
+Multiple choice questions will have the following parts:
+
+*The question title - title of the tiddler containing the question
+*The question itself - text field of a tiddler
+*Each potential answer - a tiddler, it should be titled something like (question title) - answer n
+*A response to each answer - a tiddler, it should be titled something like (question title) - response n
+*(''I haven't made this part yet.'') Optionally, hints - a sequence of tiddlers, titles should be (question title) - hint n
+
+The response to an answer is what shows up when that answer is selected and the 'Check Answer' button is pressed. So, something like 'correct' or 'no, that isn't the answer' or something.
+
+Question (contained in the main question tiddler):
+
+Question title:
+<$edit-text tiddler='$:/temp/Multiple Choice Questions' field='question_title' class='tc-edit-texteditor' placeholder='Give the question a title'/>
+
+Question Content:
+<$edit-text tiddler='$:/temp/Multiple Choice Questions' field='text' class='tc-edit-texteditor' placeholder='Enter question content'/>
+
+Set the number of possible answers: <$select tiddler='$:/temp/Multiple Choice Questions' field='number_of_possible_answers'><$list filter='1 2 3 4 5 6 7 8 9 10'><option><<currentTiddler>></option></$list></$select>
+
+Possible Answers:
+
+---
+
+<$list filter='[prefix[$:/temp/Multiple Choice Questions/possible answer]nsort[order]limit{$:/temp/Multiple Choice Questions!!number_of_possible_answers}]' template=AddMultipleChoicePossibleAnswerTemplate>
+
+</$list>
+
+<$reveal type='match' state='$:/temp/Multiple Choice Questions' text=''>
+''You have to give the question a title before you can create it.''
+</$reveal>
+<$reveal type='nomatch' state='$:/temp/Multiple Choice Questions' text=''>
+<$button>Create Question
+<$action-setfield $tiddler='$:/temp/Multiple Choice Questions' $field='title' $value={{$:/temp/Multiple Choice Questions!!question_title}}/>
+<$action-setfield $tiddler={{$:/temp/Multiple Choice Questions!!question_title}} tags="[[Multiple Choice]] Question"/>
+<$list filter='[prefix[$:/temp/Multiple Choice Questions/possible answer]nsort[order]limit{$:/temp/Multiple Choice Questions!!number_of_possible_answers}]'>
+<$set name=TiddlerQuestionNumber value={{!!order}}>
+<$set name=QuestionTitle value={{$:/temp/Multiple Choice Questions!!question_title}}>
+<$action-setfield $field='title' $value=<<thisMakeQuestionTiddlerTitle>> tags=""/>
+<$action-setfield $tiddler=<<thisMakeQuestionTiddlerTitle>> question={{$:/temp/Multiple Choice Questions!!question_title}} response_tiddler=<<thisMakeResponseTiddlerTitle>> tags="[[Multiple Choice]] Answer"/>
+<$action-setfield $tiddler={{!!response_tiddler}} $field='title' $value=<<thisMakeResponseTiddlerTitle>> question={{$:/temp/Multiple Choice Questions!!question_title}} tags=""/>
+<$action-setfield $tiddler=<<thisMakeResponseTiddlerTitle>> question={{$:/temp/Multiple Choice Questions!!question_title}} order={{!!order}} tags="[[Multiple Choice]] Response"/>
+</$set>
+</$set>
+<$action-setfield text=''/>
+<$action-setfield $tiddler={{!!response_tiddler}} text=''/>
+</$list>
+<$action-setfield $tiddler='$:/temp/Multiple Choice Questions' text='' question_title=''/>
+</$button>
+</$reveal>

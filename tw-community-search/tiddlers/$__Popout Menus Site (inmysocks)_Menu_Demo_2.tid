@@ -1,0 +1,15 @@
+title: $:/Popout Menus Site (inmysocks)/Menu Demo 2
+created: 20150418045422988
+left_menu_order: 1
+modified: 20150418213305857
+right_menu_order: 2
+tags: [[Popout Menus Site (inmysocks)]]  [[Menu Icon]]
+source-wiki-id: Popout Menus Site (inmysocks)
+source-tiddler-title-as-text: Menu Demo 2
+source-tiddler-title-as-link: Menu%20Demo%202
+
+---
+
+This is a second menu that acts independently of the first
+
+<<MakeMenu "Top Level" "Test2">>

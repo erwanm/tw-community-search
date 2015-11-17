@@ -7,7 +7,7 @@ list: readme
 revision: 0
 source: https://github.com/danielo515/TW5-TagSearch
 version: 1.0.2
-tags: braintest 
+tags: [[braintest]] 
 source-wiki-id: braintest
 source-tiddler-title-as-text: $:/plugins/danielo/tagSearch
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2ftagSearch

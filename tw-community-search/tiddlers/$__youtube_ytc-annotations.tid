@@ -3,7 +3,7 @@ created: 20150110114558848
 modified: 20150110123249571
 summary: wraps the list of annotations
 templates: $:/plugins/tobibeer/youtube/list/annotations
-tags: youtube  Styles
+tags: [[youtube]]  Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-annotations
 source-tiddler-title-as-link: ytc-annotations

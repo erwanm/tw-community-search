@@ -1,0 +1,34 @@
+title: $:/Wiki MetaTags (inmysocks)/ContentType
+created: 20130828185900000
+modified: 20140912145359306
+type: text/vnd.tiddlywiki
+tags: [[Wiki MetaTags (inmysocks)]]  Definitions
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: ContentType
+source-tiddler-title-as-link: ContentType
+
+Used in Internet protocols to indicate the type that should be used to interpret the content of a web resource.
+
+In TiddlyWiki, the `type` field gives the content type to apply to the main `text` field.
+
+!! List of Common Content Types
+
+|!Group |!Type |!Content of `type` field |
+|^''Developer'' |Data dictionary |application/x-tiddler-dictionary|
+|~|~JavaScript code |application/javascript|
+|~|JSON data |application/json|
+|~|Static stylesheet |text/css|
+|^''Image''|GIF image |image/gif|
+|~|ICO format icon file |image/x-icon|
+|~|JPEG image |image/jpeg|
+|~|PDF image |application/pdf|
+|~|PNG image |image/png|
+|~|Structured Vector Graphics image |image/svg+xml|
+|^''Text''|HTML markup |text/html|
+|~|Cascading Stylesheet text |text/css|
+|~|Comma-separated values |text/csv|
+|~|Plain text |text/plain|
+|~|~TiddlyWiki 5 |text/vnd.tiddlywiki|
+|~|~TiddlyWiki Classic |text/x-tiddlywiki|
+
+

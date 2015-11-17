@@ -1,0 +1,25 @@
+title: $:/Modified Mobile Menus (inmysocks)/An alternative mindmap/toc thing
+created: 20150520170153176
+modified: 20150525015241436
+tags: [[Modified Mobile Menus (inmysocks)]] 
+source-wiki-id: Modified Mobile Menus (inmysocks)
+source-tiddler-title-as-text: An alternative mindmap/toc thing
+source-tiddler-title-as-link: An%20alternative%20mindmap%2ftoc%20thing
+
+\define thisMakeMenu()
+<<MobileMenu """$(SelectedTopic)$""" """$(currentTiddler)$""" "TOC-Selective-Hierarchical">>
+\end
+
+''Bug'' - Because the displayed items don't have to have the root tag. This is ok for the central listing, but if you click on something like Teensy-LC you can get things that aren't tagged with Teensy-LC anywhere above the root level.
+
+Select the root tag to use: 
+<$select tiddler='$:/state/Central Listing' field='selected_topic'>
+<option value='Central Listing'>(Default View)</option>
+<$list filter='[!is[system]sort[title]tags[]]-[[Central Listing]]-[[$:/tags/Macro]]-[[$:/tags/ViewTemplate]]-[[Templates]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$set name=SelectedTopic value={{$:/state/Central Listing!!selected_topic}}>
+<<thisMakeMenu>>
+</$set>

@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Sidebar Search Box
+created: 20150603013738203
+css_tiddler: .tc-search input Class Override
+description: Applies to the sidebar search box
+modified: 20150603013738203
+tags: [[Control Panel Addon (inmysocks)]]  [[Advanced Settings Category]] Sidebar
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Sidebar Search Box
+source-tiddler-title-as-link: Sidebar%20Search%20Box
+
+{{Sidebar Search Box||CSS Options Template}}

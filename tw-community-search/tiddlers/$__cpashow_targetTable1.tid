@@ -7,7 +7,7 @@ screen: PEOPLE/TEAM/RECRUIT
 screenname: People/Team/Management
 select: S.TEAMNAME, S.TEAMTITLE, 
 where: S.SYSTEM_TEAM = F.SYSTEM_TEAM AND F.TABLE_NAME = 'SCREEN1' AND F.PARTITION_ID = 1 AND F.ID = A.ID
-tags: cpashow  target
+tags: [[cpashow]]  target
 source-wiki-id: cpashow
 source-tiddler-title-as-text: targetTable1
 source-tiddler-title-as-link: targetTable1

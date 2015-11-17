@@ -1,0 +1,16 @@
+title: $:/No Learning Required TiddlyWiki (inmysocks)/Wiki Settings
+created: 20141104204758595
+creator: inmysocks
+modified: 20141206190532660
+modifier: inmysocks
+no_edit: true
+tags: [[No Learning Required TiddlyWiki (inmysocks)]]  Contents
+source-wiki-id: No Learning Required TiddlyWiki (inmysocks)
+source-tiddler-title-as-text: Wiki Settings
+source-tiddler-title-as-link: Wiki%20Settings
+
+These tiddlers change the behavior or appearance of the other parts of the wiki.
+
+<$list filter='[tag[Wiki Settings]]'>
+
+</$list>

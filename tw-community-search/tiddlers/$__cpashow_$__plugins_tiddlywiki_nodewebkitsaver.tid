@@ -5,7 +5,7 @@ dependents:
 description: NW.js saver
 list: readme
 version: 5.1.8
-tags: cpashow 
+tags: [[cpashow]] 
 source-wiki-id: cpashow
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/nodewebkitsaver
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fnodewebkitsaver

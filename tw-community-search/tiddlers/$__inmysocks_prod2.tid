@@ -4,7 +4,7 @@ modified: 20150313011747943
 prod_field: 1.25
 prod_field2: 6
 store_field3: 7.5
-tags: inmysocks  prod
+tags: [[inmysocks]]  prod
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: prod2
 source-tiddler-title-as-link: prod2

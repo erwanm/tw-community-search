@@ -1,0 +1,9 @@
+title: $:/Interactive Fiction Engine (inmysocks)/ResetButton
+created: 20141113180706106
+modified: 20141129055756710
+tags: [[Interactive Fiction Engine (inmysocks)]] 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: ResetButton
+source-tiddler-title-as-link: ResetButton
+
+<$button message='tm-modal' param=ResetButtonModalDialog>Reset Game</$button>

@@ -1,0 +1,36 @@
+title: $:/External Brain (inmysocks)/Adding comments sections to tiddlers on a tiddlywiki using hashover
+created: 20150517184351994
+creator: inmysocks
+modified: 20150730151112407
+modifier: inmysocks
+tags: [[External Brain (inmysocks)]]  Tutorials
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Adding comments sections to tiddlers on a tiddlywiki using hashover
+source-tiddler-title-as-link: Adding%20comments%20sections%20to%20tiddlers%20on%20a%20tiddlywiki%20using%20hashover
+
+''I should add some stuff about how to connect to dreamhost and stuff. I would put in others but that is what I use so it is what I can give reasonable instructions for.''
+
+This requires you to have access to a server with PHP (see the hashover site for the specific requirements). You should extract the zip in 
+
+Non-tiddlywiki component:
+
+*[[source code|http://ooktech.com/hashover-modified.zip]] - This is the version I use here, you can use modify the vanilla hashover code for this (from the [[hashover site|http://tildehash.com/?page=hashover]]) but it will require some small changes to make work here. I may make a list showing what needs to be done at some point.
+
+Tiddlers needed:
+
+*[[CommentModerationTemplate]] - the template used for accepting or rejecting a comment.
+*[[Check for new comments]] - the tiddler with the comment fetching and moderation interface
+*[[hashoverComments.js]] - The javascript macro that creates the comment input form
+*[[makeCommentTiddlers.js]] - The javascript macro that pulls information from the comments stored on the server and makes tiddlers using them
+*[[countComments.js]] - Used to determine if there are new comments to pull or not
+*[[BlogPostCommentTemplate]] - the template I use to display comments after they are accepted.
+
+The page will normally reload after you submit a comment. 
+
+Very simple version since I am not in the mood to write everything up at the moment, go to any of the blog posts where you can put in comments and under the comments there is a link called 'source code' click on this link to download the files for using hashover. Then go to the [[official site|http://tildehash.com/?page=hashover]] and follow the instructions using the file you downloaded from here. It has some changes that let it work with tiddlywiki correctly. Then import the tiddler [[hashoverComments.js]] into your wiki. Anywhere you want to have comments you put a macro call like this: 
+
+```
+<$macrocall $name=hashoverComments postname=<<currentTiddler>> kickback="ooktech.com/jed/externalbrain/"/>
+```
+
+where you change `ooktech.com/jed/externalbrain/` to the url for your wiki, this should be the same for all comments on your wiki and be the correct url (I think you can have `http://` or `https://` in it, but it isn't required.). The `postname` parameter is used to distinguish between different comment threads on the site and is the tiddler that the page reloads after submitting a comment.

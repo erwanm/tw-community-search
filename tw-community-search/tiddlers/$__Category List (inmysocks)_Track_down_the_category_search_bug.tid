@@ -1,0 +1,21 @@
+title: $:/Category List (inmysocks)/Track down the category search bug
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: Sometimes when I select a category nothing shows up.
+due_day: 
+due_month: 
+due_year: 
+modified: 20150511182549803
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: Bugs
+tags: [[Category List (inmysocks)]]  Bug [[Planned Update]] [[Change Log]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Track down the category search bug
+source-tiddler-title-as-link: Track%20down%20the%20category%20search%20bug
+
+I think this is because it isn't ignoring the subcategory or subsubcategory correctly when one has been selected for another category and not cleared.

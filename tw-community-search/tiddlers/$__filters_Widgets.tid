@@ -5,7 +5,7 @@ creator: Tobias Beer
 modified: 20150107113536175
 modifier: Tobias Beer
 summary: with [[a little help|https://groups.google.com/d/msg/tiddlywiki/KwOcmtm7Z4s/X4FvzNnZAmwJ]] from [[Jeremy Ruston]] this example demonstrates how to make use of DataTiddlers for a select widget in order to display static content from TiddlyWiki.com
-tags: filters  Examples
+tags: [[filters]]  Examples
 source-wiki-id: filters
 source-tiddler-title-as-text: Widgets
 source-tiddler-title-as-link: Widgets

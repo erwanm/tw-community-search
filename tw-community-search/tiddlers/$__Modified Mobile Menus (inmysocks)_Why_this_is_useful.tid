@@ -1,0 +1,17 @@
+title: $:/Modified Mobile Menus (inmysocks)/Why this is useful
+created: 20150522214532038
+modified: 20150525015038657
+tags: [[Modified Mobile Menus (inmysocks)]] 
+source-wiki-id: Modified Mobile Menus (inmysocks)
+source-tiddler-title-as-text: Why this is useful
+source-tiddler-title-as-link: Why%20this%20is%20useful
+
+If you poke this very much than you will get a too much recursion or stack overflow javascript error, but all of the tagging on the times in the menu is useful. 
+
+This uses both Audio and Microcontrollers because they have some attributes with the same names that refer to mostly separate things. So 8-bit audio and 8-bit microcontrollers both exist, but when you look under microcontrollers->8-bit than 'NES audio' shouldn't show up, despite it being tagged as 8-bit, and it would fit under Audio->8-bit. The normal toc will have 'NES audio' to show up in both places, but my alternative method (shown in the next tiddler below this one) it only shows up when you get to 8-bit via Audio instead of through Microcontroller. There are some other things to give a small demo.
+
+A note: each level contains all of the tiddlers that are in any of its children. In that sense this is a tag search. You choose one tag, then another (and another and...) to get a list of tiddlers tagged with all of the tags you have selected. It may become unwieldy when you have a very large list of tags, but I haven't had a chance to really test that.
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Central Listing">>
+</div>

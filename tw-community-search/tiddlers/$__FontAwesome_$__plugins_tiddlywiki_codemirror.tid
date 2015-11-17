@@ -4,7 +4,7 @@ dependents:
 description: Codemirror plugin
 list: readme
 version: 5.1.2-prerelease
-tags: FontAwesome 
+tags: [[FontAwesome]] 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fcodemirror

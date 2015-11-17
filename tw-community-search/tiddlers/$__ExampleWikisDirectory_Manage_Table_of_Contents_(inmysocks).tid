@@ -3,11 +3,12 @@ caption: Manage Table of Contents
 category: Plugin
 created: 20150604165358836
 description: A tool to manage a table of contents for a wiki
-modified: 20150604182849811
+follow: yes
+modified: 20151116091125269
 name_plate_type: TiddlyWiki
 type: 
 url: http://inmysocks.tiddlyspot.com/#Manage%20Table%20of%20Contents%20Plugin
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Manage Table of Contents (inmysocks)
 source-tiddler-title-as-link: Manage%20Table%20of%20Contents%20%28inmysocks%29

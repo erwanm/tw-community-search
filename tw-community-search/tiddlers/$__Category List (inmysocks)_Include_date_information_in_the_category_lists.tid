@@ -1,0 +1,16 @@
+title: $:/Category List (inmysocks)/Include date information in the category lists
+category: Plugin
+description: This could be used to organize by date
+modified: 20150503183655763
+subcategory: Category Lists
+subsubcategory: New Feature
+tags: [[Category List (inmysocks)]]  [[Planned Update]] [[Change Log]] [[New Feature]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Include date information in the category lists
+source-tiddler-title-as-link: Include%20date%20information%20in%20the%20category%20lists
+
+There should be date created, deadline and maybe start date (it could be different than date created)
+
+I have no idea how to present this information in the normal table list, it may have to go into the info popup for each task. Or I could have different table styles.
+
+This could also be used to integrate this with the calendar plugin.

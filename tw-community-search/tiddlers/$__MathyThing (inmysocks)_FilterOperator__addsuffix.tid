@@ -1,0 +1,18 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: addsuffix
+caption: addsuffix
+created: 20140828133830424
+modified: 20140902145613329
+type: text/vnd.tiddlywiki
+tags: [[MathyThing (inmysocks)]]  Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: addsuffix
+source-tiddler-title-as-link: FilterOperator%3a%20addsuffix
+
+The ''addsuffix'' filter operator adds a suffix to all titles in the current list.
+
+For example:
+
+|!Filter String |!Description |
+|`one two three +[addsuffix[-tid]]` |Returns `one-tid`, `two-tid`, `three-tid` |
+
+See also [[FilterOperator: suffix]], [[FilterOperator: prefix]], [[FilterOperator: addprefix]], [[FilterOperator: removesuffix]], and [[FilterOperator: removeprefix]].

@@ -1,0 +1,14 @@
+title: $:/Demo Code Macro (inmysocks)/SimplestButtonDemo
+created: 20151115103750864
+description: This is the simplest button possible
+modified: 20151115114142777
+reset_value: <$button>{{$:/core/images/globe}} Click me!</$button>  You can change the text `Click me!` on the button to whatever you wish. You can even use SVG or other images.
+tiddler_name: SimplestButtonDemo
+tags: [[Demo Code Macro (inmysocks)]]  Demo
+source-wiki-id: Demo Code Macro (inmysocks)
+source-tiddler-title-as-text: SimplestButtonDemo
+source-tiddler-title-as-link: SimplestButtonDemo
+
+<$button>{{$:/core/images/globe}} Click me!</$button>
+
+You can change the text `Click me!` on the button to whatever you wish. You can even use SVG or other images.

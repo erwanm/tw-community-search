@@ -1,0 +1,20 @@
+title: $:/Tiddler Gallery (inmysocks)/shadowsource Operator
+caption: shadowsource
+created: 20140410103123179
+modified: 20150124210534000
+purpose: select the plugin titles that contain the input shadows
+type: text/vnd.tiddlywiki
+tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Special Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: shadowsource Operator
+source-tiddler-title-as-link: shadowsource%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection|Title Selection]] of [[shadow titles|ShadowTiddlers]]"
+parameter="none"
+output="the [[plugins|Plugins]] that contain the input tiddlers"
+/>
+
+Each input title is processed in turn. If it denotes a shadow tiddler, the title of its plugin tiddler is [[dominantly appended|Dominant Append]] to the output. Non-shadow tiddlers contribute nothing to the output.
+
+<<.operator-examples "shadowsource">>

@@ -3,11 +3,12 @@ caption: Tiddler Gallery
 category: Website
 created: 20150407174832322
 description: An old demo of the tiddler gallery, it needs to be updated after 5.1.8 comes out
-modified: 20150604204036143
+follow: yes
+modified: 20151116091125271
 name_plate_type: TiddlyWiki
 type: 
 url: http://ooktech.com/jed/ExampleWikis/Tiddler%20Gallery/
-tags: ExampleWikisDirectory  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+tags: [[ExampleWikisDirectory]]  [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
 source-wiki-id: ExampleWikisDirectory
 source-tiddler-title-as-text: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-link: Tiddler%20Gallery%20%28inmysocks%29

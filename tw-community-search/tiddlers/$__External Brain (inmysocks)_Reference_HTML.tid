@@ -1,0 +1,17 @@
+title: $:/External Brain (inmysocks)/Reference HTML
+created: 20150205025813382
+modified: 20150205025900375
+tags: [[External Brain (inmysocks)]] 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Reference HTML
+source-tiddler-title-as-link: Reference%20HTML
+
+Some code snippets so I don't have to remember this stuff.
+
+Adding an image link:
+
+```
+<a href="http://www.smbc-comics.com">
+<img src="http://www.smbc-comics.com/comics/20150204.png" width=100px/>
+</a> 
+```

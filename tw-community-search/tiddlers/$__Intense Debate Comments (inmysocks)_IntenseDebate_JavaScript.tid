@@ -1,0 +1,15 @@
+title: $:/Intense Debate Comments (inmysocks)/IntenseDebate JavaScript
+created: 20150620154750683
+modified: 20150620155607860
+tags: [[Intense Debate Comments (inmysocks)]] 
+source-wiki-id: Intense Debate Comments (inmysocks)
+source-tiddler-title-as-text: IntenseDebate JavaScript
+source-tiddler-title-as-link: IntenseDebate%20JavaScript
+
+<script>
+var idcomments_acct = '6e2439cd06a6abdd1bce38f71aa8943d';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
