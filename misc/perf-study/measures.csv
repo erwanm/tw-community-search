@@ -327,63 +327,63 @@ series,device,wikiVersion,element,sizeList,styleRefresh,styleRefreshFilter,mainR
 4,A,author as field,open tiddler CommunityAuthors,NA,38,26,1981,607,NA,NA
 4,A,author as field,open tiddler CommunityAuthors,NA,31,24,1732,605,NA,NA
 4,A,author as field,open tiddler CommunityAuthors,NA,67,37,2186,653,NA,NA
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,original,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,no-tag-wiki-id,reloading wiki,NA,,,,,,
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,original,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
-5,,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,original,reloading wiki,NA,60,29,475,339,1057,468
+5,A,original,reloading wiki,NA,63,35,429,386,1044,503
+5,A,original,reloading wiki,NA,58,30,374,330,1147,446
+5,A,original,reloading wiki,NA,60,29,468,342,1063,472
+5,A,original,reloading wiki,NA,58,29,469,340,1064,463
+5,A,no-tag-wiki-id,reloading wiki,NA,70,39,310,266,946,318
+5,A,no-tag-wiki-id,reloading wiki,NA,68,37,317,271,877,324
+5,A,no-tag-wiki-id,reloading wiki,NA,72,39,320,277,887,332
+5,A,no-tag-wiki-id,reloading wiki,NA,71,39,317,272,888,329
+5,A,no-tag-wiki-id,reloading wiki,NA,74,40,321,278,891,334
+5,A,original,reloading wiki,NA,61,30,491,338,1100,460
+5,A,original,reloading wiki,NA,60,29,462,333,1077,459
+5,A,original,reloading wiki,NA,61,30,484,340,1061,468
+5,A,original,reloading wiki,NA,60,29,471,340,1079,456
+5,A,original,reloading wiki,NA,63,32,394,350,1174,580
+5,A,no-tag-wiki-id,reloading wiki,NA,76,41,320,277,898,333
+5,A,no-tag-wiki-id,reloading wiki,NA,74,40,322,276,909,334
+5,A,no-tag-wiki-id,reloading wiki,NA,70,40,327,279,934,346
+5,A,no-tag-wiki-id,reloading wiki,NA,67,38,332,285,888,333
+5,A,no-tag-wiki-id,reloading wiki,NA,72,40,315,271,886,328
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,no-tag-wiki-id,open tiddler CommunityWikis,NA,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,original,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
+5,A,no-tag-wiki-id,search “widget”,488,,,,,NA,NA
