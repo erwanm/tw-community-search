@@ -8,7 +8,7 @@ op-parameter: a string of characters marking the end of the prefix
 op-parameter-name: S
 op-purpose: select a delimited prefix from each input title
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[String Operators]]
+tags:  [[Filter Operators]] [[String Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: splitbefore Operator
 source-tiddler-title-as-link: splitbefore%20Operator

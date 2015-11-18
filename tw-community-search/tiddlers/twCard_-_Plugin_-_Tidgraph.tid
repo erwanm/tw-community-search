@@ -21,6 +21,6 @@ twcs-wiki-id: TidgraphPlugin
 twcs-extracted-plugin-tiddler: $:/TidgraphPlugin/$:/plugins/ihm/tidgraph
 twcs-description: Tidgraph - Easy tiddler graphs for TW5
 twcs-author: ihm4u
-twcs-version: 0.9.0-rc2
+twcs-version: 0.9.0-rc3
 
 {{||$:/CommunityPluginTemplate}}

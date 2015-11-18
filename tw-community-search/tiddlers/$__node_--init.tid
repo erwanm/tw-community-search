@@ -4,7 +4,7 @@ modified: 20151014122658470
 p.edition: (optional) an edition to copy into the new [[wiki]] folder
 params: <edition> [<edition> ...]
 summary: initialises a new [[wiki]] folder with the contents of specified [[editions]]
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --init
 source-tiddler-title-as-link: --init

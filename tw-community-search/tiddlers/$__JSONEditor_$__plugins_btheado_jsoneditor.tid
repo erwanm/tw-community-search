@@ -7,7 +7,7 @@ list: readme usage
 revision: 0
 source: https://github.com/btheado/jsoneditor
 version: 0.0.2
-tags: [[JSONEditor]] 
+tags: 
 source-wiki-id: JSONEditor
 source-tiddler-title-as-text: $:/plugins/btheado/jsoneditor
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbtheado%2fjsoneditor

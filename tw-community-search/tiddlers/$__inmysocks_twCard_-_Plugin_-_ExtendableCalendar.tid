@@ -16,7 +16,7 @@ repository:
 revision: 0.0.5
 short_description: An extendable calendar plugin
 wiki: http://bjtools.tiddlyspot.com/
-tags: [[inmysocks]]  [[Plugin twCard]]
+tags:  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - ExtendableCalendar
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20ExtendableCalendar

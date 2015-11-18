@@ -7,7 +7,7 @@ op-output: any non-[[system|SystemTiddlers]] titles that contain [[hard links|Ha
 op-parameter: none
 op-purpose: find the titles that link to each input title
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]]
+tags:  [[Filter Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: backlinks Operator
 source-tiddler-title-as-link: backlinks%20Operator

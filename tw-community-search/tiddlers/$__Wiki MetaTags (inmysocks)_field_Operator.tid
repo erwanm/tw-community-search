@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124201655000
 purpose: filter the input by field
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: field Operator
 source-tiddler-title-as-link: field%20Operator

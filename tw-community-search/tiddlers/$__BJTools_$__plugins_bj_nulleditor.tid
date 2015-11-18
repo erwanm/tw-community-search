@@ -5,7 +5,7 @@ description: null editor
 modified: 20140515174146462
 revision: 0
 version: 0.0.0
-tags: [[BJTools]] 
+tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/nulleditor
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fnulleditor

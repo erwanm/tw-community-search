@@ -7,7 +7,7 @@ revision: 0
 summary: adds the ability to encrypt and password-protect tiddlers individually
 type: text/vnd.tiddlywiki
 url: http://braintest.tiddlyspot.com/#Encrypt-Tiddler
-tags: [[tb5]]  [[Danielo Rodríguez]] Encryption Plugin Solutions
+tags:  [[Danielo Rodríguez]] Encryption Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: EncryptTiddler
 source-tiddler-title-as-link: EncryptTiddler

@@ -5,7 +5,7 @@ modified: 20150203131416325
 modifier: Tobias Beer
 summary: allows to define behaviour when last tiddler in story is closed
 url: see pull request: <<git5 pull/pull/1407>>
-tags: [[demo]]  Demo Story History Behaviour
+tags:  Demo Story History Behaviour
 source-wiki-id: demo
 source-tiddler-title-as-text: OnEmpty
 source-tiddler-title-as-link: OnEmpty

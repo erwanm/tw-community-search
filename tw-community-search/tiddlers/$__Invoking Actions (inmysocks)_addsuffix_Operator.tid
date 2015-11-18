@@ -4,7 +4,7 @@ created: 20140828133830424
 modified: 20150124172115000
 purpose: extend each input title with a suffix
 type: text/vnd.tiddlywiki
-tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[String Operators]]
+tags:  [[Filter Operators]] [[String Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: addsuffix Operator
 source-tiddler-title-as-link: addsuffix%20Operator

@@ -16,7 +16,7 @@ repository:
 revision: 0.1.4
 short_description: TagBar / TagTable with popup list of tags
 wiki: http://eucaly-tw5.tiddlyspot.com/
-tags: [[inmysocks]]  [[Plugin twCard]]
+tags:  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - PopupTagger
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20PopupTagger

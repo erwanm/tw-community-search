@@ -3,7 +3,7 @@ created: 20140617211749290
 modified: 20151014121643469
 summary: environment variables for your operating system supported by [[tiddlywiki]] on [[node.js]]
 type: text/vnd.tiddlywiki
-tags: [[node]]  concepts
+tags:  concepts
 source-wiki-id: node
 source-tiddler-title-as-text: environment-variables
 source-tiddler-title-as-link: environment-variables

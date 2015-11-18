@@ -4,7 +4,7 @@ description: highlights a search term with its context. Something similar to goo
 modified: 20141030190433260
 revision: 0
 type: text/vnd.tiddlywiki
-tags: [[Context Plugin]]  contextPlugin
+tags:  contextPlugin
 source-wiki-id: Context Plugin
 source-tiddler-title-as-text: ContextPlugin
 source-tiddler-title-as-link: ContextPlugin

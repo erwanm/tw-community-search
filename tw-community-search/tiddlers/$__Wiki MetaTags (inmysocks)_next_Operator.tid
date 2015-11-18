@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124171754000
 purpose: find which titles in a <<.field list>> field follow the input ones
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[Field Operators]] [[Order Operators]]
+tags:  [[Filter Operators]] [[Field Operators]] [[Order Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: next Operator
 source-tiddler-title-as-link: next%20Operator

@@ -11,7 +11,7 @@ release:
 revision: 0.0.6
 short_description: A task list with categories
 wiki: http://inmysocks.tiddlyspot.com
-tags: [[inmysocks]]  [[Plugin twCard]]
+tags:  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Category Lists
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Category%20Lists

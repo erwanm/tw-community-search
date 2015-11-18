@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Date Macros
 subsubcategory: Bugs
-tags: [[inmysocks]]  Bug [[Planned Update]] [[Change Log]]
+tags:  Bug [[Planned Update]] [[Change Log]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Fix the year-diff macro so that it shows 0 when it should
 source-tiddler-title-as-link: Fix%20the%20year-diff%20macro%20so%20that%20it%20shows%200%20when%20it%20should

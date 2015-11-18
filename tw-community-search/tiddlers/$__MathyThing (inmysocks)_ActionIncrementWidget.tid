@@ -3,7 +3,7 @@ caption: action-increment
 inc_field1: 0
 inc_field2: pre-00000
 type: text/vnd.tiddlywiki
-tags: [[MathyThing (inmysocks)]]  Widgets ActionWidgets
+tags:  Widgets ActionWidgets
 source-wiki-id: MathyThing (inmysocks)
 source-tiddler-title-as-text: ActionIncrementWidget
 source-tiddler-title-as-link: ActionIncrementWidget

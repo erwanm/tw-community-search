@@ -5,7 +5,7 @@ dependents:
 description: A daemon that will trigger actions widgets when a tiddler changes
 source: https://github.com/inmysocks/TW5-TriggerActions
 version: 0.0.8
-tags: [[TriggerActions]] 
+tags: 
 source-wiki-id: TriggerActions
 source-tiddler-title-as-text: $:/plugins/inmysocks/TriggerActions
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fTriggerActions

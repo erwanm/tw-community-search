@@ -5,7 +5,7 @@ modified: 20141203230000000
 modifier: Tobias Beer
 summary: matches all where the value of a field is ''greater than or equal to'' that of the operand
 types: [[INT|TYPE]], [[NUM|TYPE]], [[DATE|TYPE]]
-tags: [[let]]  Comparators
+tags:  Comparators
 source-wiki-id: let
 source-tiddler-title-as-text: GE
 source-tiddler-title-as-link: GE

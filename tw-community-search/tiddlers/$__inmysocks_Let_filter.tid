@@ -5,7 +5,7 @@ name: Let filter
 note: The let filter is a plugin for TiddlyWiki5 that does some math operations using math.js
 url: http://let.tiddlyspot.com/#GettingStarted
 value: 1
-tags: [[inmysocks]]  Bookmark TiddlyWiki Plugins
+tags:  Bookmark TiddlyWiki Plugins
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Let filter
 source-tiddler-title-as-link: Let%20filter

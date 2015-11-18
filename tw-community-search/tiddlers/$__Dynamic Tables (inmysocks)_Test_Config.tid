@@ -14,7 +14,7 @@ show_new_row: false
 show_new_subcolumn: false
 subcolumn_per_column: 4
 subcolumn_tag: Quarter
-tags: [[Dynamic Tables (inmysocks)]] 
+tags: 
 source-wiki-id: Dynamic Tables (inmysocks)
 source-tiddler-title-as-text: Test Config
 source-tiddler-title-as-link: Test%20Config

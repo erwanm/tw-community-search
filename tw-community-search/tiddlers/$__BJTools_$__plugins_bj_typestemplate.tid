@@ -8,7 +8,7 @@ list: readme license
 revision: 0
 source: https://github.com/buggyj/TW5-typestemplate
 version: 0.0.1
-tags: [[BJTools]] 
+tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/typestemplate
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftypestemplate

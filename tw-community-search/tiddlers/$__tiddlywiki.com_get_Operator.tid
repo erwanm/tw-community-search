@@ -8,7 +8,7 @@ op-parameter: the name of a [[field|TiddlerFields]]
 op-parameter-name: F
 op-purpose: select all values of a field in the input titles
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Field Operators]]
+tags:  [[Filter Operators]] [[Field Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: get Operator
 source-tiddler-title-as-link: get%20Operator

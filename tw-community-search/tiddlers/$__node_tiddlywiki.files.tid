@@ -2,7 +2,7 @@ title: $:/node/tiddlywiki.files
 created: 20151013091700012
 modified: 20151013094323635
 summary: a JSON file specifying the processing for a subfolder to the [[tiddlers]] folder in the [[tiddlers]] [[folder]]
-tags: [[node]] 
+tags: 
 source-wiki-id: node
 source-tiddler-title-as-text: tiddlywiki.files
 source-tiddler-title-as-link: tiddlywiki.files

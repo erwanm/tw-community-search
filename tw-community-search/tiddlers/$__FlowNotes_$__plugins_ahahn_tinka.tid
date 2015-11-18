@@ -6,7 +6,7 @@ description: Tinka - an easy plugin packer
 list: readme usage
 modified: 20150430105514227
 version: 0.0.2
-tags: [[FlowNotes]] 
+tags: 
 source-wiki-id: FlowNotes
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka
 source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2ftinka

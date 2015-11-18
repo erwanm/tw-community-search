@@ -1,10 +1,11 @@
 title: $:/TidgraphPlugin/GoldTemplate
 _tgr_node_class_add: my-gold-node
+_tgr_node_filter: [![Others]]
 _tgr_node_level: 2 3
 created: 20151116230444607
-modified: 20151117034634483
+modified: 20151117223517549
 type: text/vnd.tiddlywiki
-tags: [[TidgraphPlugin]] 
+tags: 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: GoldTemplate
 source-tiddler-title-as-link: GoldTemplate

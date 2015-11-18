@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124204544000
 purpose: select the first or last <<.place n>> input titles
 type: text/vnd.tiddlywiki
-tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Common Operators]] [[Order Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Common Operators]] [[Order Operators]] [[Negatable Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: limit Operator
 source-tiddler-title-as-link: limit%20Operator

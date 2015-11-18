@@ -6,7 +6,7 @@ description: A new post button
 modified: 20151016123304863
 name: NewPost
 version: 0.0.2
-tags: [[LibreNote]] 
+tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: $:/plugins/svink/newpost
 source-tiddler-title-as-link: %24%3a%2fplugins%2fsvink%2fnewpost

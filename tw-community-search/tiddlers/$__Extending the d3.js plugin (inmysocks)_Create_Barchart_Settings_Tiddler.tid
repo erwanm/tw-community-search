@@ -8,7 +8,7 @@ help_chart_right_margin: This is the distance between the right side of the grap
 help_chart_top_margin: This is the distance between the top of the graphic part of the chart and the top of the bounding box set by the chart height. This is given in pixels.
 help_chart_width: This sets the outside width dimension of the chart including any margins and labels. This is given in pixels.
 modified: 20150727182903865
-tags: [[Extending the d3.js plugin (inmysocks)]]  Tools
+tags:  Tools
 source-wiki-id: Extending the d3.js plugin (inmysocks)
 source-tiddler-title-as-text: Create Barchart Settings Tiddler
 source-tiddler-title-as-link: Create%20Barchart%20Settings%20Tiddler

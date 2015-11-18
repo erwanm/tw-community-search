@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124192055000
 purpose: discard any input titles that have tags
 type: text/vnd.tiddlywiki
-tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Tag Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Tag Operators]] [[Negatable Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: untagged Operator
 source-tiddler-title-as-link: untagged%20Operator

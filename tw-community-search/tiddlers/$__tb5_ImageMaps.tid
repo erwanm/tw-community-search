@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: defining an image-map pointing to tiddlers
 type: text/vnd.tiddlywiki
-tags: [[tb5]]  Images Links Presentation
+tags:  Images Links Presentation
 source-wiki-id: tb5
 source-tiddler-title-as-text: ImageMaps
 source-tiddler-title-as-link: ImageMaps

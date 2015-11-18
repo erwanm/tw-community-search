@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124205344000
 purpose: sort the input by number field
 type: text/vnd.tiddlywiki
-tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: nsort Operator
 source-tiddler-title-as-link: nsort%20Operator

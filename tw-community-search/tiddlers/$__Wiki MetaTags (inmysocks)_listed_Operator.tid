@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124203638000
 purpose: find the titles that list the input titles
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[Field Operators]]
+tags:  [[Filter Operators]] [[Field Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: listed Operator
 source-tiddler-title-as-link: listed%20Operator

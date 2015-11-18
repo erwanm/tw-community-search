@@ -4,7 +4,7 @@ event_order: second
 location: Safe
 modified: 20141129045654838
 trigger: TestSafeTrigger
-tags: [[Interactive Fiction Engine (inmysocks)]]  Event
+tags:  Event
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: SafeState2
 source-tiddler-title-as-link: SafeState2

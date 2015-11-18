@@ -2,7 +2,7 @@ title: $:/node/images
 created: 20140610213500000
 modified: 20151013171854474
 summary: images in [[tiddlywiki]] can be embedded in tiddlers via base64 encoding or external image files
-tags: [[node]]  core
+tags:  core
 source-wiki-id: node
 source-tiddler-title-as-text: images
 source-tiddler-title-as-link: images

@@ -4,7 +4,7 @@ created: 20131202102427114
 modified: 20151014140213532
 summary: updating the [[tiddlywiki]] executable via [[npm]] command-line
 type: text/vnd.tiddlywiki
-tags: [[node]]  workflows
+tags:  workflows
 source-wiki-id: node
 source-tiddler-title-as-text: Updating TiddlyWiki
 source-tiddler-title-as-link: Updating%20TiddlyWiki

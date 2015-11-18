@@ -7,7 +7,7 @@ op-output: the name of each known ~TiddlyWiki [[module type|ModuleType]], in alp
 op-parameter: none
 op-purpose: select the names of all ~TiddlyWiki module types
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
+tags:  [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: moduletypes Operator
 source-tiddler-title-as-link: moduletypes%20Operator

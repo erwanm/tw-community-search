@@ -32,7 +32,7 @@ short_description: A contacts database made for use with the dashboard
 tester: 
 translator: 
 wiki: http://inmysocks.tiddlyspot.com/
-tags: [[inmysocks]]  [[tiddler-Contact Group Selector]] tiddler-ContactDisplayTemplate1 [[tiddler-ContactDisplayTemplate1 Settings]] tiddler-Contacts [[tiddler-Contacts Settings]] tiddler-ContactsMacros tiddler-ContactTemp [[tiddler-Example Contact (Alias)]] [[tiddler-Example Group]] tiddler-GroupContactListGroupTemplate tiddler-GroupContactListTemplate [[tiddler-GroupContactListTemplate Settings]] [[tiddler-New Contact Form]] tiddler-SimpleContactDisplayTemplate tiddler-SimpleContactListTemplate [[Plugin twCard]]
+tags:  [[tiddler-Contact Group Selector]] tiddler-ContactDisplayTemplate1 [[tiddler-ContactDisplayTemplate1 Settings]] tiddler-Contacts [[tiddler-Contacts Settings]] tiddler-ContactsMacros tiddler-ContactTemp [[tiddler-Example Contact (Alias)]] [[tiddler-Example Group]] tiddler-GroupContactListGroupTemplate tiddler-GroupContactListTemplate [[tiddler-GroupContactListTemplate Settings]] [[tiddler-New Contact Form]] tiddler-SimpleContactDisplayTemplate tiddler-SimpleContactListTemplate [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Contacts Database
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Contacts%20Database

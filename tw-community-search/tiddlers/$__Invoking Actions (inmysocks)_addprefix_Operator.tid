@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124172110000
 purpose: extend each input title with a prefix
 type: text/vnd.tiddlywiki
-tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[String Operators]]
+tags:  [[Filter Operators]] [[String Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: addprefix Operator
 source-tiddler-title-as-link: addprefix%20Operator

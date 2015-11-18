@@ -16,7 +16,7 @@ repository:
 revision: 0.0.3
 short_description: An if statement that is triggered by a comparison between two text references
 wiki: http://gwiz.tiddlyspot.com/
-tags: [[inmysocks]]  [[Plugin twCard]]
+tags:  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - IfTrefWidget
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20IfTrefWidget

@@ -4,7 +4,7 @@ created: 20140426183123179
 modified: 20150124165013000
 purpose: select all values of a field in the input titles
 type: text/vnd.tiddlywiki
-tags: [[Invoking Actions (inmysocks)]]  [[Filter Operators]] [[Field Operators]]
+tags:  [[Filter Operators]] [[Field Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: get Operator
 source-tiddler-title-as-link: get%20Operator

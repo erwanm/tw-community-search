@@ -12,7 +12,7 @@ test_field: 2
 test_field2: -1.1999999999999997
 upper_bound: 444
 version_number: 0.1.1
-tags: [[inmysocks]]  Plugins [[Math Plugins]] [[My Project]]
+tags:  Plugins [[Math Plugins]] [[My Project]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: RandVal Plugin
 source-tiddler-title-as-link: RandVal%20Plugin

@@ -5,7 +5,7 @@ list: Comparators [[Arithmetic Operations]] [[Boolean Operations]]
 modified: 20141128230000000
 modifier: Tobias Beer
 summary: specifies either a comparator to compare a field value against the operand value or an arithmetic / boolean operation to calculate field values of matching tiddlers
-tags: [[let]]  Suboperators
+tags:  Suboperators
 source-wiki-id: let
 source-tiddler-title-as-text: OPERATION
 source-tiddler-title-as-link: OPERATION

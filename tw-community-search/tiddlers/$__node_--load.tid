@@ -4,7 +4,7 @@ modified: 20151014122728299
 p.filepath: the path of the file from which to load the tiddler(s)
 params: <filepath>
 summary: load tiddlers from file, e.g. `.tiddler`, `.tid`, `.json`, `.html` (incl. tw 2.x.x)
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --load
 source-tiddler-title-as-link: --load

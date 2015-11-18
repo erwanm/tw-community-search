@@ -7,7 +7,7 @@ modifier: Mat
 note: @@color:crimson; NOTE@@: You must also fill in the ''Size'' fields in [[Ctrlpanel>Appearance>Themetweaks|$:/themes/tiddlywiki/vanilla/themetweaks]] to read the values that are stored in $:/.ThemeTweakSizes
 recent: 15/07/12	
 summary: Range sliders for "Sizes" in Ctrpanel>Theme Tweaks
-tags: [[TWaddle]]  RangeSlider Tidbit UI
+tags:  RangeSlider Tidbit UI
 source-wiki-id: TWaddle
 source-tiddler-title-as-text: Theme Tweak Size Settings
 source-tiddler-title-as-link: Theme%20Tweak%20Size%20Settings

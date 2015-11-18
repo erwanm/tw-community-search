@@ -7,7 +7,7 @@ meditation: 15 mins
 modified: 20150122172104482
 modifier: Tobias Beer
 summary: nest lists to use the output of the outer as a filter for the inner list
-tags: [[filters]]  get Filters nested
+tags:  get Filters nested
 source-wiki-id: filters
 source-tiddler-title-as-text: iterate field values
 source-tiddler-title-as-link: iterate%20field%20values

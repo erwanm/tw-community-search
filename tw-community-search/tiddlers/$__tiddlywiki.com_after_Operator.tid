@@ -8,7 +8,7 @@ op-parameter: one of those titles
 op-parameter-name: T
 op-purpose: find which input title follows a specified one
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Order Operators]]
+tags:  [[Filter Operators]] [[Order Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: after Operator
 source-tiddler-title-as-link: after%20Operator

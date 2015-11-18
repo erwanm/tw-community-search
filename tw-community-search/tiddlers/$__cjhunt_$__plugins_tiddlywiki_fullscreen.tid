@@ -2,7 +2,7 @@ title: $:/cjhunt/$:/plugins/tiddlywiki/fullscreen
 dependents: 
 description: Adds support for HTML5 full screen mode
 version: 5.0.7-prerelease
-tags: [[cjhunt]] 
+tags: 
 source-wiki-id: cjhunt
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/fullscreen
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2ffullscreen

@@ -3,7 +3,7 @@ created: 20150110114127501
 modified: 20150110123218475
 summary: wraps the form to add a new annotation
 templates: $:/plugins/tobibeer/youtube/forms/new-annotation
-tags: [[youtube]]  Styles
+tags:  Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-add-annotation
 source-tiddler-title-as-link: ytc-add-annotation

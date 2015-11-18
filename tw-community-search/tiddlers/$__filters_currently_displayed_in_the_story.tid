@@ -5,7 +5,7 @@ filter: [list[$:/StoryList!!list]]
 modified: 20151013114501123
 modifier: Tobias Beer
 summary: gives a list of all tiddlers currently displayed in the story river
-tags: [[filters]]  list Filters
+tags:  list Filters
 source-wiki-id: filters
 source-tiddler-title-as-text: currently displayed in the story
 source-tiddler-title-as-link: currently%20displayed%20in%20the%20story

@@ -4,7 +4,7 @@ created: 20150122204111000
 modified: 20150124204959000
 purpose: select the <<.place n>>th input title
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[Order Operators]]
+tags:  [[Filter Operators]] [[Order Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: nth Operator
 source-tiddler-title-as-link: nth%20Operator

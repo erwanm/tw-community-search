@@ -7,7 +7,7 @@ resume:
 template: BlogTemplate
 titre_news: 
 url_thumb: https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB&download
-tags: [[LibreNote]] 
+tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: NouveauPost
 source-tiddler-title-as-link: NouveauPost

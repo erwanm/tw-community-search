@@ -6,7 +6,7 @@ list: readme license history
 modified: 20140925072522173
 source: https://github.com/TheDiveO/TW5FontAwesome
 version: 0.9.2-beta
-tags: [[FontAwesome]] 
+tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/TheDiveO/FontAwesome
 source-tiddler-title-as-link: %24%3a%2fplugins%2fTheDiveO%2fFontAwesome

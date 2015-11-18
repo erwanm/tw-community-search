@@ -3,7 +3,7 @@ caption: standalone
 created: 20131124220600000
 modified: 20151014141502578
 summary: building a [[wiki]] or [[static]] pages for consumption in a browser
-tags: [[node]]  workflows
+tags:  workflows
 source-wiki-id: node
 source-tiddler-title-as-text: Building Standalone Wikis
 source-tiddler-title-as-link: Building%20Standalone%20Wikis

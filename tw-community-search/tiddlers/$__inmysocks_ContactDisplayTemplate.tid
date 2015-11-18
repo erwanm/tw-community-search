@@ -11,7 +11,7 @@ modifier: inmysocks
 nickname: Joe
 phonenumber: 555-555-5555
 text_style: //
-tags: [[inmysocks]]  Templates
+tags:  Templates
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: ContactDisplayTemplate
 source-tiddler-title-as-link: ContactDisplayTemplate

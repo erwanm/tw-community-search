@@ -4,7 +4,7 @@ modified: 20151014123301676
 p.title: (optional) the plugin tiddler<br>» default: `"$:/UpgradeLibrary"`
 params: <title>
 summary: constructs the plugin [[$:/UpgradeLibrary|--makelibrary]] used  by the [[TiddlyWiki Upgrade Wizard|http://tiddlywiki.com/upgrade.html]] for upgrading [[standalone]] wikis
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --makelibrary
 source-tiddler-title-as-link: --makelibrary

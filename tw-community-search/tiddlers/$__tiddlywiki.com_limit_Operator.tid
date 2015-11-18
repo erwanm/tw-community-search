@@ -9,7 +9,7 @@ op-parameter: an integer, defaulting to 0
 op-parameter-name: N
 op-purpose: select the first or last <<.place N>> input titles
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Common Operators]] [[Order Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Common Operators]] [[Order Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: limit Operator
 source-tiddler-title-as-link: limit%20Operator

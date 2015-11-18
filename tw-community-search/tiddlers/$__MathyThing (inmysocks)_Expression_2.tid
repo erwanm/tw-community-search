@@ -6,7 +6,7 @@ sum_field: text
 sum_filter: [tag[sum]!has[draft.of]]
 sum_store_field: text
 sum_store_tiddler: Output 2
-tags: [[MathyThing (inmysocks)]]  sumthing
+tags:  sumthing
 source-wiki-id: MathyThing (inmysocks)
 source-tiddler-title-as-text: Expression 2
 source-tiddler-title-as-link: Expression%202

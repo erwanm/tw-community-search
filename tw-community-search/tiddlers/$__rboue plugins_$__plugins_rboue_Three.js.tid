@@ -6,7 +6,7 @@ description: Three.js
 list: readme license
 revision: 0
 version: 1.0.0
-tags: [[rboue plugins]] 
+tags: 
 source-wiki-id: rboue plugins
 source-tiddler-title-as-text: $:/plugins/rboue/Three.js
 source-tiddler-title-as-link: %24%3a%2fplugins%2frboue%2fThree.js

@@ -3,7 +3,7 @@ created: 20150525182235872
 description: A plugin for tiddlywiki that creates a visual timeline using the vis.js library ([[demo site|http://emkayonline.github.io/tw5visjs/]])
 modified: 20150525182344292
 url: https://github.com/emkayonline/tw5visjs
-tags: [[inmysocks]]  [[Awesome Thing]]
+tags:  [[Awesome Thing]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Timeline Plugin
 source-tiddler-title-as-link: Timeline%20Plugin

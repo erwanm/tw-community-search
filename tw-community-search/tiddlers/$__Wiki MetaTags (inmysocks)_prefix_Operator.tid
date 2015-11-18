@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124192023000
 purpose: filter the input titles by how they start
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[String Operators]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[String Operators]] [[Negatable Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: prefix Operator
 source-tiddler-title-as-link: prefix%20Operator

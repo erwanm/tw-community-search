@@ -16,7 +16,7 @@ repository: https://github.com/tgrosinger/tw5-checklist
 revision: 0.0.3
 short_description: An easy to use checklist widget
 wiki: http://grosinger.net/tw5-checklist/
-tags: [[inmysocks]]  [[Plugin twCard]]
+tags:  [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - tw5-checklist
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20tw5-checklist

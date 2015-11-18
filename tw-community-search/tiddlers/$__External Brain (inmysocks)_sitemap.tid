@@ -6,7 +6,7 @@ modified: 20150227055342077
 modifier: Jim
 top: <?xml version="1.0" encoding="utf-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 type: text/vnd.tiddlywiki
-tags: [[External Brain (inmysocks)]]  static
+tags:  static
 source-wiki-id: External Brain (inmysocks)
 source-tiddler-title-as-text: sitemap
 source-tiddler-title-as-link: sitemap

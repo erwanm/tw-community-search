@@ -7,7 +7,7 @@ description: TiddlyWiki5 Getting Stuff Done plugin
 list: readme
 modified: 20150921142504337
 version: 0.6.0-beta
-tags: [[GSD5]] 
+tags: 
 source-wiki-id: GSD5
 source-tiddler-title-as-text: $:/plugins/gsd5/core
 source-tiddler-title-as-link: %24%3a%2fplugins%2fgsd5%2fcore

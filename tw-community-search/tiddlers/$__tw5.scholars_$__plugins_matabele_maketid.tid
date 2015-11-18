@@ -6,7 +6,7 @@ description: Contains the <$maketid> widget
 modified: 20140527062711484
 modifier: Matabele
 version: 0.0.4
-tags: [[tw5.scholars]] 
+tags: 
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: $:/plugins/matabele/maketid
 source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fmaketid

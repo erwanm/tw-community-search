@@ -3,7 +3,7 @@ created: 20140720164948099
 modified: 20151014130317559
 summary: [[tiddlywiki]] exposes information about the system using tiddlers under the namespace `$:/info/` allowing modules and components to adapt to the current environment
 type: text/vnd.tiddlywiki
-tags: [[node]]  core
+tags:  core
 source-wiki-id: node
 source-tiddler-title-as-text: info
 source-tiddler-title-as-link: info

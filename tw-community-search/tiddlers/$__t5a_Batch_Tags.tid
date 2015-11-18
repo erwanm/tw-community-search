@@ -6,7 +6,7 @@ modifier: Andrew Harrison
 resource: [[http://ooktech.com/jed/ExampleWikis/Version518Fun/#Search%20and%20Replace%20Tags]]
 selected_tag: Example
 show-field: resource
-tags: [[t5a]]  Example New
+tags:  Example New
 source-wiki-id: t5a
 source-tiddler-title-as-text: Batch Tags
 source-tiddler-title-as-link: Batch%20Tags

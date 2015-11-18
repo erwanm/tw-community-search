@@ -5,7 +5,7 @@ dependents:
 description: Stacked card storyview
 list: readme
 version: 5.1.8
-tags: [[cpashow]] 
+tags: 
 source-wiki-id: cpashow
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/stacked-view
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fstacked-view

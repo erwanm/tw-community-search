@@ -5,7 +5,7 @@ p.target: the name of a build (optional)<br>» with no targets specified all ava
 params: <target> [<target> ...]
 params-clean: <target>
 summary: automatically run configured commands to build specified [[targets|<target>]] for the current [[wiki]]
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --build
 source-tiddler-title-as-link: --build

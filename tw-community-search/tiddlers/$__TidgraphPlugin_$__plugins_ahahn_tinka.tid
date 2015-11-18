@@ -7,7 +7,7 @@ list: readme usage
 modified: 20150920124250720
 source: http://twguides.org/tinka
 version: 0.2.0-beta
-tags: [[TidgraphPlugin]] 
+tags: 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka
 source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2ftinka

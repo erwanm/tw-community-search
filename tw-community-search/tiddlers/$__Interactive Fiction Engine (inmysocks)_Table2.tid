@@ -5,7 +5,7 @@ event_order: second
 location: TestRoom
 modified: 20141129014527926
 trigger: TestSafeTrigger
-tags: [[Interactive Fiction Engine (inmysocks)]]  Event
+tags:  Event
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: Table2
 source-tiddler-title-as-link: Table2

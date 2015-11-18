@@ -13,7 +13,7 @@ modifier: Tobias Beer
 primary: 2
 secondary: gronk
 summary: shows secondary select options depending on primary as constructied via macro concatenation of a tiddler path
-tags: [[filters]]  title Filters current Variable conditional get
+tags:  title Filters current Variable conditional get
 source-wiki-id: filters
 source-tiddler-title-as-text: dependent selects via system tiddlers
 source-tiddler-title-as-link: dependent%20selects%20via%20system%20tiddlers

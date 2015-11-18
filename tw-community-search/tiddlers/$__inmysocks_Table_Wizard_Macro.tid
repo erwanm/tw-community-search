@@ -4,7 +4,7 @@ demo_site: http://ooktech.com/jed/ExampleWikis/DynamicTables/
 description: Macros to create and display advanced in-line editable tables.
 install_link: [[$:/macros/inmysocks/Table Macros]]
 modified: 20150629204429831
-tags: [[inmysocks]]  [[My Macros]]
+tags:  [[My Macros]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Table Wizard Macro
 source-tiddler-title-as-link: Table%20Wizard%20Macro

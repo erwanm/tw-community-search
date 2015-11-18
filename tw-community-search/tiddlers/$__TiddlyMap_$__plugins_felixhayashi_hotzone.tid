@@ -7,7 +7,7 @@ list: Configuration License Readme
 released: 
 source: https://github.com/felixhayashi/TW5-HotZone
 version: 0.0.3
-tags: [[TiddlyMap]] 
+tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/hotzone
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2fhotzone

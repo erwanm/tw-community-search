@@ -5,7 +5,7 @@ filter: [tag{!!title}]
 modified: 20150122173157112
 modifier: Tobias Beer
 summary: using a text reference to get all tiddlers tagging to the current tiddler
-tags: [[filters]]  current TextReference tag Filters
+tags:  current TextReference tag Filters
 source-wiki-id: filters
 source-tiddler-title-as-text: tagging to current tiddler via textreference
 source-tiddler-title-as-link: tagging%20to%20current%20tiddler%20via%20textreference

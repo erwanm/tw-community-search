@@ -10,7 +10,7 @@ op-parameter: a [[reference|TextReference]] to a [[field|TiddlerFields]] or [[pr
 op-parameter-name: R
 op-purpose: select titles via a list field
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Field Operators]] [[Selection Constructors]] [[Negatable Operators]]
+tags:  [[Filter Operators]] [[Field Operators]] [[Selection Constructors]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: list Operator
 source-tiddler-title-as-link: list%20Operator

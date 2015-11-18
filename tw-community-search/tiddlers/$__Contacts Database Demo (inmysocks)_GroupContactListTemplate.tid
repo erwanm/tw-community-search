@@ -9,7 +9,7 @@ modifier: inmysocks
 no_edit: true
 settings_tiddler: GroupContactListTemplate Settings
 text_style: ''
-tags: [[Contacts Database Demo (inmysocks)]]  Templates ContactListTemplate
+tags:  Templates ContactListTemplate
 source-wiki-id: Contacts Database Demo (inmysocks)
 source-tiddler-title-as-text: GroupContactListTemplate
 source-tiddler-title-as-link: GroupContactListTemplate

@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124172210000
 purpose: discard the last <<.place n>> input titles
 type: text/vnd.tiddlywiki
-tags: [[Tiddler Gallery (inmysocks)]]  [[Filter Operators]] [[Order Operators]]
+tags:  [[Filter Operators]] [[Order Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: butlast Operator
 source-tiddler-title-as-link: butlast%20Operator

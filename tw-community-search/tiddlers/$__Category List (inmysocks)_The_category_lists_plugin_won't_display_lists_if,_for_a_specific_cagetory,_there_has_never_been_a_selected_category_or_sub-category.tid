@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Category Lists
 subsubcategory: Bugs
-tags: [[Category List (inmysocks)]]  Bug [[Planned Update]]
+tags:  Bug [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: The category lists plugin won't display lists if, for a specific cagetory, there has never been a selected category or sub-category
 source-tiddler-title-as-link: The%20category%20lists%20plugin%20won%27t%20display%20lists%20if%2c%20for%20a%20specific%20cagetory%2c%20there%20has%20never%20been%20a%20selected%20category%20or%20sub-category

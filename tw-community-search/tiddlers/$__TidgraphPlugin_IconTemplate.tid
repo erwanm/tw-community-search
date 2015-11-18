@@ -1,0 +1,15 @@
+title: $:/TidgraphPlugin/IconTemplate
+created: 20151117194954462
+modified: 20151117222649840
+type: text/vnd.tiddlywiki
+tags: 
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: IconTemplate
+source-tiddler-title-as-link: IconTemplate
+
+<div style="display:table; margin-left: auto; margin-right:auto;">
+   <$transclude tiddler={{!!icon}}/>
+   <div style="display: table-cell; vertical-align: middle;">
+      <$link>{{!!title}}</$link>
+   </div>
+</div>

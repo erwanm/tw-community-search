@@ -4,7 +4,7 @@ modified: 20151014050801390
 p.command: (optional) the [[command|commands]] for which to display the help<br>» default: when omitted lists available commands
 params: <command>
 summary: displays help text for a [[command|commands]]
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --help
 source-tiddler-title-as-link: --help

@@ -8,7 +8,7 @@ op-parameter: the name of a [[date field|Date Fields]], defaulting to <<.field m
 op-parameter-name: F
 op-purpose: select one of each group of input titles by date
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Group Operators]] [[Date Operators]]
+tags:  [[Filter Operators]] [[Group Operators]] [[Date Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: eachday Operator
 source-tiddler-title-as-link: eachday%20Operator

@@ -4,7 +4,7 @@ core-version: 5.1.9
 description: Top + left menu
 list: readme
 version: 0.0.6
-tags: [[TonGernerPlayground]] 
+tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/topleftmenu
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2ftopleftmenu

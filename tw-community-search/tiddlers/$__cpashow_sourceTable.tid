@@ -3,7 +3,7 @@ created: 20150418144010829
 fields: pk:field1 pk:field2 fk:field3 field4 field5
 modified: 20150426173018488
 targets: targetTable1 targetTable2
-tags: [[cpashow]]  source
+tags:  source
 source-wiki-id: cpashow
 source-tiddler-title-as-text: sourceTable
 source-tiddler-title-as-link: sourceTable

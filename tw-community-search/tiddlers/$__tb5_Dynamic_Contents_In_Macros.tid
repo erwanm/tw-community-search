@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: evaluating macros or text-references within macros
 type: text/vnd.tiddlywiki
-tags: [[tb5]]  Macros Variables Buttons Solutions TextReference
+tags:  Macros Variables Buttons Solutions TextReference
 source-wiki-id: tb5
 source-tiddler-title-as-text: Dynamic Contents In Macros
 source-tiddler-title-as-link: Dynamic%20Contents%20In%20Macros

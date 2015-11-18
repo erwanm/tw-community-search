@@ -1,29 +1,11 @@
 title: $:/t5a/Random Background
-created: 20150424002027874
+created: 20151118034811606
 creator: Andrew Harrison
-modified: 20151109015525523
+modified: 20151118034854759
 modifier: Andrew Harrison
-resource: http://randombackground.tiddlyspot.com/
-show-field: resource
-tags: [[t5a]]  New [[Needs Work]] [[Under Construction]]
+tags:  New Contents
 source-wiki-id: t5a
 source-tiddler-title-as-text: Random Background
 source-tiddler-title-as-link: Random%20Background
 
-It appears the only mention was below.
-
-https://groups.google.com/forum/#!searchin/tiddlywiki/tw5$20random$20background/tiddlywiki/QKBoH-71384/fyW2ZnRMtKEJ <br>So far from what I can tell the required tiddlers are: http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FStartupActions<br>
-http://www.duarteramos.pt/home.html#%24%3A%2FDPFR%2FRandomize%20background<br>
-`<$action-randval $tiddler="$:/state/Background Index" $field=randomindex $lower=1 $upper=18 $step=1 $length=2/>` tagged&emsp;{{$:/tags/StartupAction||$:/core/ui/TagTemplate}}
-http://www.duarteramos.pt/home.html#%24%3A%2FDPFR%2FStyles<br>
-`.tc-body {background: url("media/backgrounds/background<$view tiddler="$:/state/Background Index" field="randomindex"/>.jpg") no-repeat left center fixed; background-size: cover; height: 100%;}
-
-.tc-sidebar-scrollable {background-color: rgba(00,00,00,0.6); top:40px; }
-
-
-<$button>
-<$action-randval $tiddler="$:/state/Background Index" $field=randomindex $lower=1 $upper=18 $step=1 $length=2/>Randomize Background
-</$button>
-<$view tiddler="$:/state/Background Index" field="randomindex"/>` tagged&emsp;{{$:/tags/Stylesheet||$:/core/ui/TagTemplate}} and with field `randomindex`
-http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FrandVal%2Faction-randval.js<br>
-http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FrandVal%2Freadme
+{{$:/plugin/ajh/randombackground/readme}}

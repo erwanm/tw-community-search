@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124170640000
 purpose: select the names of all ~TiddlyWiki module types
 type: text/vnd.tiddlywiki
-tags: [[Wiki MetaTags (inmysocks)]]  [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
+tags:  [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: moduletypes Operator
 source-tiddler-title-as-link: moduletypes%20Operator

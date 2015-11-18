@@ -17,7 +17,7 @@ street_address: 777 somewhere
 work_email_address: otherthing@otherthing.com
 work_phone_number: 
 zip_code: 99999
-tags: [[Contacts Database Demo (inmysocks)]]  Contacts
+tags:  Contacts
 source-wiki-id: Contacts Database Demo (inmysocks)
 source-tiddler-title-as-text: Example Contact (Alias)
 source-tiddler-title-as-link: Example%20Contact%20%28Alias%29

@@ -4,7 +4,7 @@ creator: Tobias Beer
 modified: 20141128230000000
 modifier: Tobias Beer
 summary: a field containing floating point number values; non-numbers are ignored
-tags: [[let]]  TYPE
+tags:  TYPE
 source-wiki-id: let
 source-tiddler-title-as-text: NUM
 source-tiddler-title-as-link: NUM

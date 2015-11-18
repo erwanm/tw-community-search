@@ -7,7 +7,7 @@ op-output: the titles that belong to all the specified categories
 op-parameter: zero or more categories
 op-purpose: find all titles of a fundamental category
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Common Operators]] [[Selection Constructors]]
+tags:  [[Filter Operators]] [[Common Operators]] [[Selection Constructors]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: all Operator
 source-tiddler-title-as-link: all%20Operator

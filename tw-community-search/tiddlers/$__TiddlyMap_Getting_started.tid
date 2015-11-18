@@ -7,7 +7,7 @@ tmap.edges: {"30af4ba7-306f-4e68-9e32-d0342d64a717":{"to":"6159DA1A-73F2-451D-B5
 tmap.id: 63EA2EE9-F821-44F7-A706-E1F973F7C6E0
 tmap.open-view: Overview
 type: text/vnd.tiddlywiki
-tags: [[TiddlyMap]] 
+tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Getting started
 source-tiddler-title-as-link: Getting%20started

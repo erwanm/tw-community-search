@@ -3,7 +3,7 @@ created: 20150110115923222
 modified: 20150110123228216
 summary: wraps an annotation line-item in the list of annotations
 templates: $:/plugins/tobibeer/youtube/list/annotations
-tags: [[youtube]]  Styles
+tags:  Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-annotation
 source-tiddler-title-as-link: ytc-annotation

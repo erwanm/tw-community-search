@@ -4,7 +4,7 @@ demo_site: http://ooktech.com/jed/ExampleWikis/OtherMindMap/
 description: A modification of the mobile menu toc macro that only displays tiddlers that are tagged with all of the parent tiddlers at that level
 install_link: see demo site
 modified: 20150629205509551
-tags: [[inmysocks]]  [[My Macros]]
+tags:  [[My Macros]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Alternate TOC Organization Macro
 source-tiddler-title-as-link: Alternate%20TOC%20Organization%20Macro

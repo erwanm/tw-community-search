@@ -8,7 +8,7 @@ menu: main
 menu-icon: {{$:/core/images/home-button}}
 revision: 0
 summary: A collection of references and sandbox for testing concepts around TiddlyWiki:<br><<tagline>>
-tags: [[tb5]] 
+tags: 
 source-wiki-id: tb5
 source-tiddler-title-as-text: Welcome
 source-tiddler-title-as-link: Welcome

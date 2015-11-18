@@ -7,7 +7,7 @@ op-output: the titles to which the input tiddlers contain [[hard links|Hard and 
 op-parameter: none
 op-purpose: find the titles linked to by each input title
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Common Operators]]
+tags:  [[Filter Operators]] [[Common Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: links Operator
 source-tiddler-title-as-link: links%20Operator

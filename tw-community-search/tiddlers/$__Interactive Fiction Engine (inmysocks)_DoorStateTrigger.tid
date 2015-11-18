@@ -9,7 +9,7 @@ location2: TestRoom
 modified: 20141129020116590
 trigger_duration: switch
 trigger_type: button
-tags: [[Interactive Fiction Engine (inmysocks)]]  Trigger
+tags:  Trigger
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: DoorStateTrigger
 source-tiddler-title-as-link: DoorStateTrigger

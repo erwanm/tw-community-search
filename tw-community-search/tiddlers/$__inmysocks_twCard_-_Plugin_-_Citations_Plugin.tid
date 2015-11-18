@@ -32,7 +32,7 @@ short_description: A citations tracker for the dashboard
 tester: 
 translator: 
 wiki: http://inmysocks.tiddlyspot.com/
-tags: [[inmysocks]]  [[tiddler-Add Citation]] [[tiddler-Citation Library]] tiddler-Citations [[tiddler-Citations Macros]] [[tiddler-View Citation]] [[Plugin twCard]]
+tags:  [[tiddler-Add Citation]] [[tiddler-Citation Library]] tiddler-Citations [[tiddler-Citations Macros]] [[tiddler-View Citation]] [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Citations Plugin
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Citations%20Plugin

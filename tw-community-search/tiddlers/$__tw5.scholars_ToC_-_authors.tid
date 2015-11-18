@@ -3,7 +3,7 @@ caption: {{$:/language/SideBar/Contents/Caption}}
 created: 20140701081113000
 list-after: $:/core/ui/SideBar/Open
 modified: 20140714110422346
-tags: [[tw5.scholars]] 
+tags: 
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: ToC - authors
 source-tiddler-title-as-link: ToC%20-%20authors

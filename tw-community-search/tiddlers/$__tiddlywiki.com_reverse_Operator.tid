@@ -7,7 +7,7 @@ op-output: the input, in reverse order
 op-parameter: none
 op-purpose: reverse the order of the input titles
 type: text/vnd.tiddlywiki
-tags: [[tiddlywiki.com]]  [[Filter Operators]] [[Order Operators]]
+tags:  [[Filter Operators]] [[Order Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: reverse Operator
 source-tiddler-title-as-link: reverse%20Operator

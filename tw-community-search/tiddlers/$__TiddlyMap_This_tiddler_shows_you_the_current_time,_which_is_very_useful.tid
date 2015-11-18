@@ -6,7 +6,7 @@ modified: 20150227121739294
 tmap.edges: {"287268ee-831a-47b0-9bbb-33eaae3f0ea4":{"to":"30e39689-af74-4182-99b2-33e1331d9f0f","type":"demo:example"},"ce25a46c-c772-4f55-be61-179032451968":{"to":"ec5baa28-49ee-4e0c-a1ac-c1b83bd52fb0","type":"demo:similar"}}
 tmap.id: a41e7681-dc8f-4923-ad34-3225d461114a
 type: text/vnd.tiddlywiki
-tags: [[TiddlyMap]] 
+tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: This tiddler shows you the current time, which is very useful
 source-tiddler-title-as-link: This%20tiddler%20shows%20you%20the%20current%20time%2c%20which%20is%20very%20useful

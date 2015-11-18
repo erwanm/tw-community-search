@@ -10,7 +10,7 @@ p.type: (optional) the content type into which to render the tiddlers<br>» defa
 params: <filter> <template> <pathname> [<type>] [<extension>] ["noclean"]
 params-clean: <filter> <template> <pathname> <type> <extension> noclean
 summary: renders a set of tiddlers matching a [[filter|filters]] to separate files of a specified [[content-type]]
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --rendertiddlers
 source-tiddler-title-as-link: --rendertiddlers

@@ -3,7 +3,7 @@ icon: $:/core/images/plugin-generic-language
 revision: 0
 summary: notestorm — note-taking by giffmex using toc and tag hierarchies<!--Dave Gifford-->
 url: http://notestorm.giffmex.org
-tags: [[tb5]]  Community
+tags:  Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: Dave Gifford
 source-tiddler-title-as-link: Dave%20Gifford

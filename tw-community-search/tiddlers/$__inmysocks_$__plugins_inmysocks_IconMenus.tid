@@ -5,7 +5,7 @@ dependents:
 description: An alternate menu system that can go on top of other themes
 source: http://ooktech.com/iconmenus/
 version: 0.0.4
-tags: [[inmysocks]] 
+tags: 
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: $:/plugins/inmysocks/IconMenus
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fIconMenus

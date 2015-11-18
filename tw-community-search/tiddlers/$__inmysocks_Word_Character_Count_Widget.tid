@@ -3,7 +3,7 @@ created: 20150629200514846
 description: A widget that counts the number of words or characters in a tiddler or field.
 install_link: $:/widgets/inmysocks/word-count.js
 modified: 20150629201947492
-tags: [[inmysocks]]  [[My Widgets]]
+tags:  [[My Widgets]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Word/Character Count Widget
 source-tiddler-title-as-link: Word%2fCharacter%20Count%20Widget

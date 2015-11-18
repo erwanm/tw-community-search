@@ -7,7 +7,7 @@ list: readme
 plugin-priority: 0
 revision: 0
 version: 5.1.10-prerelease
-tags: [[welford]] 
+tags: 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/core
 source-tiddler-title-as-link: %24%3a%2fcore

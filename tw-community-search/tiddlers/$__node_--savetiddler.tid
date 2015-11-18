@@ -5,7 +5,7 @@ p.filename: (required) the filename
 p.title: (required) the tiddler title
 params: <title> <filename>
 summary: saves an individual tiddler in its raw text or binary format to the specified filename
-tags: [[node]]  commands
+tags:  commands
 source-wiki-id: node
 source-tiddler-title-as-text: --savetiddler
 source-tiddler-title-as-link: --savetiddler
