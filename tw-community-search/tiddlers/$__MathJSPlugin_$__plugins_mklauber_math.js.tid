@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Add a calc widget that evluates expression using Math.JS
 list: 
-version: 1.1.0
+version: 1.1.1
 tags: 
 source-wiki-id: MathJSPlugin
 source-tiddler-title-as-text: $:/plugins/mklauber/math.js

@@ -1,0 +1,47 @@
+title: $:/TidgraphPlugin/New Tiddler
+created: 20151118165727760
+modified: 20151118173119223
+type: text/vnd.tiddlywiki
+tags: 
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+<style>
+.tgr-container {
+   display: table;
+}
+
+.tgr-node-group {
+   display: table-row;
+   border: 1px solid blue;
+}
+
+.tgr-node {
+   display: table-cell;
+   border: solid 1px red;
+}
+
+</style>
+<div class="tgr-node">
+root
+<div class="tgr-node-group">
+<div class="tgr-node">
+    1
+    <div class="trg-node-group">
+    <div class="trg-node">
+    1.1
+    </div>
+    <div class="trg-node">
+    1.2
+    </div>
+    </div>
+</div>
+<div class="trg-node">
+    2
+</div>
+<div class="trg-node">
+    3
+</div>
+</div>
+</div>
