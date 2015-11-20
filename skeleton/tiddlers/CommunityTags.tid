@@ -1,6 +1,6 @@
 created: 20141222175528807
 min-frequency: 10
-modified: 20151120000152875
+modified: 20151120011507749
 sort-by: frequency
 tags: TWCSCore TWCSContents
 title: CommunityTags
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 \define displayList(myFilter)
  <$list filter=$myFilter$>
-   <<displayTag>>
+   <<displayCommunityTag>>
   </$list>
 \end
 

@@ -1,5 +1,5 @@
 created: 20150902234056703
-modified: 20151120000033449
+modified: 20151120011626243
 tags: TWCSCore $:/tags/Macro
 title: $:/TWCSMacros
 type: text/vnd.tiddlywiki
@@ -14,8 +14,8 @@ type: text/vnd.tiddlywiki
 
 
 
-\define displayTag()
-    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+\define displayCommunityTag()
+    <$link><$view field="title"></$link>
       <small class="tc-menu-list-count">
         {{!!community-tag-count}}
       </small><br/>
