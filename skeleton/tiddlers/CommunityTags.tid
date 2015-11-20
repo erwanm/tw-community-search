@@ -1,18 +1,12 @@
 created: 20141222175528807
 min-frequency: 10
-modified: 20151018003800519
+modified: 20151120000152875
 sort-by: frequency
 tags: TWCSCore TWCSContents
 title: CommunityTags
 type: text/vnd.tiddlywiki
 
 
-\define displayTag()
-    <$transclude tiddler="$:/core/ui/TagTemplate"/>
-      <small class="tc-menu-list-count">
-        {{!!community-tag-count}}
-      </small><br/>
-\end
 
 \define displayList(myFilter)
  <$list filter=$myFilter$>

@@ -1,8 +1,27 @@
 created: 20150902234056703
-modified: 20150912222412051
+modified: 20151120000033449
 tags: TWCSCore $:/tags/Macro
 title: $:/TWCSMacros
 type: text/vnd.tiddlywiki
+
+\define pluginAuthor()
+  <$set name="wiki-tiddler" value={{!!source-wiki-id}}>
+    <$list filter="[<wiki-tiddler>get[author]]">
+      {{||$:/core/ui/TagTemplate}}
+    </$list>
+  </$set>
+\end
+
+
+
+\define displayTag()
+    <$transclude tiddler="$:/core/ui/TagTemplate"/>
+      <small class="tc-menu-list-count">
+        {{!!community-tag-count}}
+      </small><br/>
+\end
+
+
 
 \define listRecentTiddlers(filter: "[all[current]]" template: "$:/core/ui/ListItemTemplate")
   <table>

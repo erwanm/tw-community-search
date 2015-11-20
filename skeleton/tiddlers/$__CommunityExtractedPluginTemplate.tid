@@ -1,16 +1,9 @@
 created: 20150826111521856
-modified: 20150827171806291
+modified: 20151119235726868
 tags: TWCSCore
 title: $:/CommunityExtractedPluginTemplate
 type: text/vnd.tiddlywiki
 
-\define pluginAuthor()
-  <$set name="wiki-tiddler" value={{!!source-wiki-id}}>
-    <$list filter="[<wiki-tiddler>tags[]] -CommunityWikis">
-      {{||$:/core/ui/TagTemplate}}
-    </$list>
-  </$set>
-\end
 
 \define pluginWikiAddress()
   <$list filter="[all[current]get[source-wiki-id]get[wiki-address]]">
