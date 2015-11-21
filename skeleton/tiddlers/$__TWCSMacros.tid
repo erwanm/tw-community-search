@@ -1,5 +1,5 @@
 created: 20150902234056703
-modified: 20151120011626243
+modified: 20151121151123971
 tags: TWCSCore $:/tags/Macro
 title: $:/TWCSMacros
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 
 
 \define displayCommunityTag()
-    <$link><$view field="title"></$link>
+	{{||$:/twcs/CommunityTagTemplate}}
       <small class="tc-menu-list-count">
         {{!!community-tag-count}}
       </small><br/>

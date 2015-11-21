@@ -1,0 +1,11 @@
+created: 20151121172228768
+modified: 20151121190619152
+tags: 
+title: $:/ObsoleteCommunityTagTemplate
+type: text/vnd.tiddlywiki
+
+@@color: orange;
+''Warning: the CommunityTags have been renamed. If you have a bookmark to this tiddler, please change the permalink to <$link to={{!!new-tiddler}}>{{!!new-tiddler}}</$link>''. See [[here|]] for more details.
+@@
+
+<$transclude tiddler={{!!new-tiddler}}>Oops! unless you're currently looking at [[$:/ObsoleteCommunityTagTemplate]], if you can see this message it means that there's a bug somewhere, please [[report it!|Contact]]</$transclude>

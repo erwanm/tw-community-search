@@ -1,5 +1,5 @@
 created: 20141222174553788
-modified: 20151120011659698
+modified: 20151121150826056
 tags: TWCSCore
 title: $:/CommunityWikiPresentationTemplate
 type: text/vnd.tiddlywiki
@@ -29,7 +29,7 @@ type: text/vnd.tiddlywiki
 
 !!! Tags
 
-<$list filter="[tag[CommunityTags]get[community-tag]listed[original-tags]!sort[community-tag-count]]">
+<$list filter="[all[current]listed[community-wikis]tag[CommunityTags]!sort[community-tag-count]]">
   <<displayCommunityTag>>
 </$list>
 
