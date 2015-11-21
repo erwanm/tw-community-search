@@ -4,6 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Add a calc widget that evluates expression using Math.JS
 list: 
+revision: 0
 version: 1.1.1
 tags: 
 source-wiki-id: MathJSPlugin
