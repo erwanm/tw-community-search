@@ -1,13 +1,13 @@
 title: $:/howwownow/$:/plugins/howwownow/goodies
 author: Christopher Mann <christopher@mann.fr>
 core-version: >=5.0.0
-created: 20151117162203036
+created: 20151121095232154
 dependents: 
 description: Goodies - Utility Tiddlers I Often Use
 list: readme config changelog
-revision: 20
+revision: 26
 source: https://github.com/howwownow/tiddlywiki-my-goodies
-version: 0.0.14past8
+version: 0.0.15sp1
 tags: 
 source-wiki-id: howwownow
 source-tiddler-title-as-text: $:/plugins/howwownow/goodies
