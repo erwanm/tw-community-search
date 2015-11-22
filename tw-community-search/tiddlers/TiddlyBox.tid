@@ -1,5 +1,5 @@
-title: News
+title: TiddlyBox
 tags: CommunityTags
-community-tag-count: 5
+community-tag-count: 1
 
 {{||$:/CommunityTagTemplate}}
