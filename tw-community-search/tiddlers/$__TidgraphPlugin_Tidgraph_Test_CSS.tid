@@ -11,10 +11,13 @@ source-tiddler-title-as-link: Tidgraph%20Test%20CSS
 
 .tgr-node {
    background-color: blue;
-   color: white !important;
 }
 
-.tgr-link {
+.tgr-node a {
+   color: white;
+}
+
+.tgr-edge {
    stroke: red;
 }
 
