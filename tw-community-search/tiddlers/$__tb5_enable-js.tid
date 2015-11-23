@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: @@color:red; ''caution:'' know the consequences of enabling inline `<script>` tags
 url: http://tobibeer.github.io/tw/enable-js
-tags:  [[Tobias Beer]] Solutions JavaScript
+original-tags: [[Tobias Beer]] Solutions JavaScript
 source-wiki-id: tb5
 source-tiddler-title-as-text: enable-js
 source-tiddler-title-as-link: enable-js

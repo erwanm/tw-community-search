@@ -1,5 +1,4 @@
 title: New Blog Post
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: New Blog Post
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

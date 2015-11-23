@@ -1,5 +1,4 @@
 title: BlogTool
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: BlogTool
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

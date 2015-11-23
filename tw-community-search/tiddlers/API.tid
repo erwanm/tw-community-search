@@ -1,5 +1,4 @@
 title: API
-tags: CommunityTags
-community-tag-count: 17
+new-tiddler: Tag: API
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

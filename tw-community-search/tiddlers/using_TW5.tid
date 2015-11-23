@@ -1,5 +1,4 @@
 title: using TW5
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: using TW5
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

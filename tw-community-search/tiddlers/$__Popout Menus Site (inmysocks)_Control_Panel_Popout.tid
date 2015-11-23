@@ -10,7 +10,7 @@ right_menu_order:
 top_left_menu_order: 0
 top_middle_menu_order: 3
 top_right_menu_order: 0
-tags:  [[Menu Icon]] [[Icon Menus]]
+original-tags: [[Menu Icon]] [[Icon Menus]] $:/tags/LeftMenu
 source-wiki-id: Popout Menus Site (inmysocks)
 source-tiddler-title-as-text: Control Panel Popout
 source-tiddler-title-as-link: Control%20Panel%20Popout

@@ -1,5 +1,4 @@
 title: La gestion des paquets
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: La gestion des paquets
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

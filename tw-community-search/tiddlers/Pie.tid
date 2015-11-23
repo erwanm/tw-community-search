@@ -1,5 +1,4 @@
 title: Pie
-tags: CommunityTags
-community-tag-count: 14
+new-tiddler: Tag: Pie
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

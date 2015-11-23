@@ -1,5 +1,4 @@
 title: The standing desk is nice
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: The standing desk is nice
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

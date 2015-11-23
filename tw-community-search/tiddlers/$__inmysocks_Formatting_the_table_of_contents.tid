@@ -3,7 +3,7 @@ blurb:  How to change some things in the table of contents
 caption: {{!!title}}: {{!!modified}}
 created: 20141227172321624
 modified: 20141227173707375
-tags:  [[Table of Contents - Creation and Formatting]]
+original-tags: [[Table of Contents - Creation and Formatting]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Formatting the table of contents
 source-tiddler-title-as-link: Formatting%20the%20table%20of%20contents

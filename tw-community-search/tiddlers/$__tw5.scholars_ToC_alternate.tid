@@ -3,7 +3,7 @@ caption: {{$:/language/SideBar/Contents/Caption}}
 created: 20140701173942092
 list-after: $:/core/ui/SideBar/Open
 modified: 20140714105015932
-tags: 
+original-tags: $:/_hide/tabs
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: ToC alternate
 source-tiddler-title-as-link: ToC%20alternate

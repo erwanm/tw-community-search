@@ -1,5 +1,4 @@
 title: References
-tags: CommunityTags
-community-tag-count: 26
+new-tiddler: Tag: References
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

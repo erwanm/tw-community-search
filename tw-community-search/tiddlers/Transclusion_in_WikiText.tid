@@ -1,5 +1,4 @@
 title: Transclusion in WikiText
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Transclusion in WikiText
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

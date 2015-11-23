@@ -8,7 +8,7 @@ list: readme config usage changelog
 revision: 15
 source: https://github.com/howwownow/tiddlywiki-as-plugin
 version: 0.0.18sp1
-tags: 
+original-tags: 
 source-wiki-id: howwownow
 source-tiddler-title-as-text: $:/plugins/howwownow/bundles
 source-tiddler-title-as-link: %24%3a%2fplugins%2fhowwownow%2fbundles

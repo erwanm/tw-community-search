@@ -1,5 +1,4 @@
 title: Suboperators
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Suboperators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

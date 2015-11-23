@@ -1,5 +1,4 @@
 title: TextReference
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: TextReference
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

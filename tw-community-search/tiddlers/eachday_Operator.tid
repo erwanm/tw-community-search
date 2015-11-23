@@ -1,5 +1,4 @@
 title: eachday Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: eachday Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

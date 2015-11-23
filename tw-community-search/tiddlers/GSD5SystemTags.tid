@@ -1,5 +1,4 @@
 title: GSD5SystemTags
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: GSD5SystemTags
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

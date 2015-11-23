@@ -1,5 +1,4 @@
 title: Communication
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Communication
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

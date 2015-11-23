@@ -1,5 +1,4 @@
 title: release
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: release
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

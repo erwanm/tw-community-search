@@ -1,5 +1,4 @@
 title: Calculation
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Calculation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Contact Juggling
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Contact Juggling
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

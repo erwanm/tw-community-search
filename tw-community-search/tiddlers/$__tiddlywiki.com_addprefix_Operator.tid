@@ -8,7 +8,7 @@ op-parameter: a string of characters
 op-parameter-name: S
 op-purpose: extend each input title with a prefix
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[String Operators]]
+original-tags: [[Filter Operators]] [[String Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: addprefix Operator
 source-tiddler-title-as-link: addprefix%20Operator

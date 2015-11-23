@@ -1,5 +1,4 @@
 title: Brand
-tags: CommunityTags
-community-tag-count: 23
+new-tiddler: Tag: Brand
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -16,7 +16,7 @@ repository:
 revision: 0.9.0
 short_description: Displays a tiddler tree with organization similar to the TOC macros
 wiki: http://ihm4u.github.io/tw5plugs/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Tidgraph
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tidgraph

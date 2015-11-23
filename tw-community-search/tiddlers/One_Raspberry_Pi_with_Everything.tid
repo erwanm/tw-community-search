@@ -1,5 +1,4 @@
 title: One Raspberry Pi with Everything
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: One Raspberry Pi with Everything
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

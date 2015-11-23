@@ -1,5 +1,4 @@
 title: Notebook Style
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Notebook Style
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

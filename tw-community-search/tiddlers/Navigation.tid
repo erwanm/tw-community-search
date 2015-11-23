@@ -1,5 +1,4 @@
 title: Navigation
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Navigation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

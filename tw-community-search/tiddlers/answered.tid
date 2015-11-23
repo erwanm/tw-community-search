@@ -1,5 +1,4 @@
 title: answered
-tags: CommunityTags
-community-tag-count: 30
+new-tiddler: Tag: answered
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

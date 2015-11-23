@@ -1,5 +1,4 @@
 title: Contacts
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Contacts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

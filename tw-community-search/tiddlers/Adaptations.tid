@@ -1,5 +1,4 @@
 title: Adaptations
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Adaptations
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

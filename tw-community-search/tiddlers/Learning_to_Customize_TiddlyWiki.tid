@@ -1,5 +1,4 @@
 title: Learning to Customize TiddlyWiki
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Learning to Customize TiddlyWiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

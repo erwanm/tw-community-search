@@ -1,5 +1,4 @@
 title: DesignDocs
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: DesignDocs
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

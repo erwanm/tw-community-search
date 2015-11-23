@@ -1,5 +1,4 @@
 title: Tobias Beer
-tags: CommunityTags
-community-tag-count: 39
+new-tiddler: Tag: Tobias Beer
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: TWdev
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: TWdev
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

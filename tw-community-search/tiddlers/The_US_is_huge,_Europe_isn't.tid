@@ -1,5 +1,4 @@
 title: The US is huge, Europe isn't
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: The US is huge, Europe isn't
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

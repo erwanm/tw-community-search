@@ -1,5 +1,4 @@
 title: I may need to actually make a plugin
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: I may need to actually make a plugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

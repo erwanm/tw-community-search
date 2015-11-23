@@ -1,5 +1,4 @@
 title: Danielo Rodríguez
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Danielo Rodríguez
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

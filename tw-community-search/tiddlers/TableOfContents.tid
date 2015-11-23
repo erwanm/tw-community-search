@@ -1,5 +1,4 @@
 title: TableOfContents
-tags: CommunityTags
-community-tag-count: 37
+new-tiddler: Tag: TableOfContents
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

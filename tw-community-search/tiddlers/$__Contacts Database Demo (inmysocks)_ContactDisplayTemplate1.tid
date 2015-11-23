@@ -14,7 +14,7 @@ no_edit: true
 phonenumber: 555-555-5555
 settings_tiddler: ContactDisplayTemplate1 Settings
 text_style: ''
-tags:  Templates ContactDisplayTemplate
+original-tags: Templates ContactDisplayTemplate
 source-wiki-id: Contacts Database Demo (inmysocks)
 source-tiddler-title-as-text: ContactDisplayTemplate1
 source-tiddler-title-as-link: ContactDisplayTemplate1

@@ -1,5 +1,4 @@
 title: http://hangouts.tiddlyspace.com/
-tags: CommunityTags
-community-tag-count: 61
+new-tiddler: Tag: http://hangouts.tiddlyspace.com/
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: indexes
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: indexes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

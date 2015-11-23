@@ -1,5 +1,4 @@
 title: Calendar Demo
-tags: CommunityTags
-community-tag-count: 8
+new-tiddler: Tag: Calendar Demo
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

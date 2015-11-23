@@ -1,5 +1,4 @@
 title: MathyThing - action-storecount Widget
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: MathyThing - action-storecount Widget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

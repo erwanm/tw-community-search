@@ -1,5 +1,4 @@
 title: Video Segment
-tags: CommunityTags
-community-tag-count: 9
+new-tiddler: Tag: Video Segment
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

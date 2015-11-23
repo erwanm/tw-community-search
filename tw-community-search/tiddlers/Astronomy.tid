@@ -1,5 +1,4 @@
 title: Astronomy
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Astronomy
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Non-TW
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: Non-TW
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

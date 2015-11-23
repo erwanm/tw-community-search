@@ -1,5 +1,4 @@
 title: Noun
-tags: CommunityTags
-community-tag-count: 48
+new-tiddler: Tag: Noun
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

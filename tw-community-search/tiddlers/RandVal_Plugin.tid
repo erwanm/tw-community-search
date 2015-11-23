@@ -1,5 +1,4 @@
 title: RandVal Plugin
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: RandVal Plugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: See
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: See
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

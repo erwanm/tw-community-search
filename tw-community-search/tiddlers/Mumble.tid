@@ -1,5 +1,4 @@
 title: Mumble
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Mumble
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

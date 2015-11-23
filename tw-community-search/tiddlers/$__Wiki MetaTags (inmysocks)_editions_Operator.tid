@@ -4,7 +4,7 @@ created: 20150111145738451
 modified: 20150124150912000
 purpose: select the names of all the ~TiddlyWiki editions
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
+original-tags: [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: editions Operator
 source-tiddler-title-as-link: editions%20Operator

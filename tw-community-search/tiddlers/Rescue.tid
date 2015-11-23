@@ -1,5 +1,4 @@
 title: Rescue
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Rescue
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

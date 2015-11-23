@@ -1,5 +1,4 @@
 title: Wiki Formatting - text, tables, etc.
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: Wiki Formatting - text, tables, etc.
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

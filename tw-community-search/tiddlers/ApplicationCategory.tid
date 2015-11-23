@@ -1,5 +1,4 @@
 title: ApplicationCategory
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: ApplicationCategory
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

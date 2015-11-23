@@ -7,7 +7,7 @@ list: readme
 plugin-priority: 0
 revision: 0
 version: 5.1.9
-tags: 
+original-tags: 
 source-wiki-id: 2click2edit
 source-tiddler-title-as-text: $:/core
 source-tiddler-title-as-link: %24%3a%2fcore

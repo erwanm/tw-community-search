@@ -1,5 +1,4 @@
 title: Group Operators
-tags: CommunityTags
-community-tag-count: 8
+new-tiddler: Tag: Group Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

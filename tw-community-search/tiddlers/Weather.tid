@@ -1,5 +1,4 @@
 title: Weather
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Weather
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

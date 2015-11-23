@@ -1,5 +1,4 @@
 title: William Shakespeare
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: William Shakespeare
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

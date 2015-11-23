@@ -1,5 +1,4 @@
 title: Negatable Operators
-tags: CommunityTags
-community-tag-count: 67
+new-tiddler: Tag: Negatable Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

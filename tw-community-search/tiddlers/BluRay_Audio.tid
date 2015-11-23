@@ -1,5 +1,4 @@
 title: BluRay Audio
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: BluRay Audio
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

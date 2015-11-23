@@ -1,5 +1,4 @@
 title: Falsy
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Falsy
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

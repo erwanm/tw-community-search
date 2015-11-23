@@ -1,5 +1,4 @@
 title: <Name Plate>
-tags: CommunityTags
-community-tag-count: 103
+new-tiddler: Tag: <Name Plate>
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

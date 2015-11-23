@@ -1,5 +1,4 @@
 title: What am I doing?
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: What am I doing?
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

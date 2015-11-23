@@ -1,5 +1,4 @@
 title: WeLoveIconFonts
-tags: CommunityTags
-community-tag-count: 9
+new-tiddler: Tag: WeLoveIconFonts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

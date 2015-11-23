@@ -1,5 +1,4 @@
 title: Web
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Web
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -3,7 +3,7 @@ created: 20150110115019549
 modified: 20150110123338880
 summary: wraps the template rendered for annotation tiddlers
 templates: $:/plugins/tobibeer/youtube/ViewTemplate/annotation
-tags:  Styles
+original-tags: Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-tiddler-anno
 source-tiddler-title-as-link: ytc-tiddler-anno

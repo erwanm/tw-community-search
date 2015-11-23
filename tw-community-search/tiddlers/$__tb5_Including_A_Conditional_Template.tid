@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: transcluding a conditional view-template in a tiddler or list
 type: text/vnd.tiddlywiki
-tags:  Templates Transclusion
+original-tags: Templates Transclusion
 source-wiki-id: tb5
 source-tiddler-title-as-text: Including A Conditional Template
 source-tiddler-title-as-link: Including%20A%20Conditional%20Template

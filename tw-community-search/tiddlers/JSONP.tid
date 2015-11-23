@@ -1,5 +1,4 @@
 title: JSONP
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: JSONP
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

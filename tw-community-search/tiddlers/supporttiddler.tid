@@ -1,5 +1,4 @@
 title: supporttiddler
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: supporttiddler
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

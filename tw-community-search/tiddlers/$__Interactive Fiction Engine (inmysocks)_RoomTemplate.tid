@@ -9,7 +9,7 @@ south:
 south_button: <<southButton>>
 west: 
 west_button: <<westButton>>
-tags:  Room Template
+original-tags: Room Template
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: RoomTemplate
 source-tiddler-title-as-link: RoomTemplate

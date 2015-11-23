@@ -1,5 +1,4 @@
 title: SVG
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: SVG
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

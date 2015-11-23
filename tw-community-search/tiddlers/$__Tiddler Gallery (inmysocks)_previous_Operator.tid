@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124171748000
 purpose: find which titles in a <<.field list>> field precede the input ones
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Field Operators]] [[Order Operators]]
+original-tags: [[Filter Operators]] [[Field Operators]] [[Order Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: previous Operator
 source-tiddler-title-as-link: previous%20Operator

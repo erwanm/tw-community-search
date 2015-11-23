@@ -1,5 +1,4 @@
 title: Paperback
-tags: CommunityTags
-community-tag-count: 76
+new-tiddler: Tag: Paperback
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

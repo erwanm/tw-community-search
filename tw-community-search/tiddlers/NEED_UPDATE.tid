@@ -1,5 +1,4 @@
 title: NEED UPDATE
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: NEED UPDATE
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

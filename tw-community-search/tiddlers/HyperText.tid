@@ -1,5 +1,4 @@
 title: HyperText
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: HyperText
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

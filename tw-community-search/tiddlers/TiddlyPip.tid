@@ -1,5 +1,4 @@
 title: TiddlyPip
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: TiddlyPip
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Raspberry Pi
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Raspberry Pi
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

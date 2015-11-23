@@ -3,7 +3,7 @@ icon: $:/core/images/plugin-generic-language
 revision: 0
 summary: collection of tw5 tidbits and guides, e.g. bookmarklets, breadcrumbs, customization, exploration, topmenu, read-only, top toolbar, tristate sidebar<!--Ton Gerner-->
 url: http://tongerner.tiddlyspot.com
-tags:  Community
+original-tags: Community
 source-wiki-id: tb5
 source-tiddler-title-as-text: Ton Gerner
 source-tiddler-title-as-link: Ton%20Gerner

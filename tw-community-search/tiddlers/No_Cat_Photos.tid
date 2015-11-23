@@ -1,5 +1,4 @@
 title: No Cat Photos
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: No Cat Photos
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

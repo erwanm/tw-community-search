@@ -1,5 +1,4 @@
 title: Household TW
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Household TW
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

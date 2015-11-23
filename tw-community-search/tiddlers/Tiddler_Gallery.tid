@@ -1,5 +1,4 @@
 title: Tiddler Gallery
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Tiddler Gallery
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

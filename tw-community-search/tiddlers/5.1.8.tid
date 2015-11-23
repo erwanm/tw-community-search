@@ -1,5 +1,4 @@
 title: 5.1.8
-tags: CommunityTags
-community-tag-count: 19
+new-tiddler: Tag: 5.1.8
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

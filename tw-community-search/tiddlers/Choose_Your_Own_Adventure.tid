@@ -1,5 +1,4 @@
 title: Choose Your Own Adventure
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Choose Your Own Adventure
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

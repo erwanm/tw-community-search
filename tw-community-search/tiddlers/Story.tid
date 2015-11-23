@@ -1,5 +1,4 @@
 title: Story
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Story
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Dissertation
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Dissertation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

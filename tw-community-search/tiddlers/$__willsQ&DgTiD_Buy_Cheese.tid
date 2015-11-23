@@ -6,7 +6,7 @@ next-action: Visit supermarket
 pending: Need cash from bank
 revision: 0
 type: text/vnd.tiddlywiki
-tags:  @shops @todo
+original-tags: @shops @todo
 source-wiki-id: willsQ&DgTiD
 source-tiddler-title-as-text: Buy Cheese
 source-tiddler-title-as-link: Buy%20Cheese

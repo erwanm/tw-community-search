@@ -7,7 +7,7 @@ list: readme usage
 modified: 20150920124250720
 source: http://twguides.org/tinka
 version: 0.2.0-beta
-tags: 
+original-tags: 
 source-wiki-id: Tinka
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka
 source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2ftinka

@@ -1,5 +1,4 @@
 title: Audio Book
-tags: CommunityTags
-community-tag-count: 13
+new-tiddler: Tag: Audio Book
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

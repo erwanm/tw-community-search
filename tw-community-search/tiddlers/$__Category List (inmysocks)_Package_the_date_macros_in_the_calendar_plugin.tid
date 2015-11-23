@@ -12,7 +12,7 @@ start_day:
 start_month: 
 start_year: 
 subcategory: Calendar
-tags:  [[New Feature]] [[Planned Update]]
+original-tags: [[New Feature]] [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Package the date macros in the calendar plugin
 source-tiddler-title-as-link: Package%20the%20date%20macros%20in%20the%20calendar%20plugin

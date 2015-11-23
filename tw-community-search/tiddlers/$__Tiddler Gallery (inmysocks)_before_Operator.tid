@@ -4,7 +4,7 @@ created: 20140512103123179
 modified: 20150124164952000
 purpose: find which input title precedes a specified one
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Order Operators]]
+original-tags: [[Filter Operators]] [[Order Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: before Operator
 source-tiddler-title-as-link: before%20Operator

@@ -1,5 +1,4 @@
 title: Boolean
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Boolean
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

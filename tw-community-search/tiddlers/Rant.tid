@@ -1,5 +1,4 @@
 title: Rant
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Rant
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

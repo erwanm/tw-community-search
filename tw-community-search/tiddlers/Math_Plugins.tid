@@ -1,5 +1,4 @@
 title: Math Plugins
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Math Plugins
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

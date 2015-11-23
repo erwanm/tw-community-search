@@ -1,5 +1,4 @@
 title: Features
-tags: CommunityTags
-community-tag-count: 49
+new-tiddler: Tag: Features
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

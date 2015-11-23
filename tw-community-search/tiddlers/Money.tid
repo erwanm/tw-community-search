@@ -1,5 +1,4 @@
 title: Money
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Money
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: getindex Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: getindex Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

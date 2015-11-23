@@ -1,5 +1,4 @@
 title: Styles
-tags: CommunityTags
-community-tag-count: 31
+new-tiddler: Tag: Styles
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

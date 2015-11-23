@@ -1,5 +1,4 @@
 title: Mes applications
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Mes applications
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

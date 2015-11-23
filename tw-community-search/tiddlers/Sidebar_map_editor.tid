@@ -1,5 +1,4 @@
 title: Sidebar map editor
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Sidebar map editor
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

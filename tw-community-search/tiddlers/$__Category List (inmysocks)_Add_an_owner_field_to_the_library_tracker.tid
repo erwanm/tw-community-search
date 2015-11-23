@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: New Feature
-tags:  [[New Feature]] [[Planned Update]] [[Change Log]]
+original-tags: [[New Feature]] [[Planned Update]] [[Change Log]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Add an owner field to the library tracker
 source-tiddler-title-as-link: Add%20an%20owner%20field%20to%20the%20library%20tracker

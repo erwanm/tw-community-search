@@ -1,5 +1,4 @@
 title: Final Fantasy
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Final Fantasy
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

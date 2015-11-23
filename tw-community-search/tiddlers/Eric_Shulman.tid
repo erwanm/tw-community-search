@@ -1,5 +1,4 @@
 title: Eric Shulman
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Eric Shulman
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

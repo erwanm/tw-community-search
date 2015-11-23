@@ -1,5 +1,4 @@
 title: store.php
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: store.php
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

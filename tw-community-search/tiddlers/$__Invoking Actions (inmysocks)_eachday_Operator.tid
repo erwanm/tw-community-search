@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150127202806000
 purpose: select one of each group of input titles by date
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Group Operators]] [[Date Operators]]
+original-tags: [[Filter Operators]] [[Group Operators]] [[Date Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: eachday Operator
 source-tiddler-title-as-link: eachday%20Operator

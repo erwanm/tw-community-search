@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: A widget that returns a random tiddler from a list
 wiki: http://ng110.tiddlyspot.com/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - action-chooserandom widget
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20action-chooserandom%20widget

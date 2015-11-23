@@ -1,5 +1,4 @@
 title: snippets
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: snippets
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

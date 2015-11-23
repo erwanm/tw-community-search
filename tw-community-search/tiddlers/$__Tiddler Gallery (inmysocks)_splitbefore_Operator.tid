@@ -4,7 +4,7 @@ created: 20150126142522000
 modified: 20150126143945000
 purpose: select a delimited prefix from each input title
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[String Operators]]
+original-tags: [[Filter Operators]] [[String Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: splitbefore Operator
 source-tiddler-title-as-link: splitbefore%20Operator

@@ -1,5 +1,4 @@
 title: Date Operators
-tags: CommunityTags
-community-tag-count: 8
+new-tiddler: Tag: Date Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

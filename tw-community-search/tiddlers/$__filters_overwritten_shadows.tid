@@ -5,7 +5,7 @@ filter: [is[shadow]]
 modified: 20150122172930667
 modifier: Tobias Beer
 summary: lists all overwritten shadow tiddlers
-tags:  Filters is shadow
+original-tags: Filters is shadow
 source-wiki-id: filters
 source-tiddler-title-as-text: overwritten shadows
 source-tiddler-title-as-link: overwritten%20shadows

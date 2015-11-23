@@ -6,7 +6,7 @@ modified: 20150122171943061
 modifier: Tobias Beer
 my-field: field starting with current title and then some
 summary: regexp filtering based on a field value
-tags:  Filters Variable current regexp
+original-tags: Filters Variable current regexp
 source-wiki-id: filters
 source-tiddler-title-as-text: field starting with current title
 source-tiddler-title-as-link: field%20starting%20with%20current%20title

@@ -1,5 +1,4 @@
 title: Sales
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Sales
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

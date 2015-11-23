@@ -32,7 +32,7 @@ short_description: Some utility widgets for TW5
 tester: 
 translator: 
 wiki: http://inmysocks.tiddlyspot.com/
-tags:  tiddler-$:/plugins/inmysocks/TW5Utils/readme widget-$:/pluginslinmysocks/TW5Utils/linkfields.js [[Plugin twCard]]
+original-tags: tiddler-$:/plugins/inmysocks/TW5Utils/readme widget-$:/pluginslinmysocks/TW5Utils/linkfields.js [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - TW5Utils
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TW5Utils

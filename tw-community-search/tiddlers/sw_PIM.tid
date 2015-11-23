@@ -1,5 +1,4 @@
 title: sw:PIM
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: sw:PIM
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

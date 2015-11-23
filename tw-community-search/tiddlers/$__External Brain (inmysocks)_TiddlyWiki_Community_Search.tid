@@ -5,7 +5,7 @@ name: TiddlyWiki Community Search
 note: A search engine thing for searching reference TiddlyWikis
 url: https://rawgit.com/erwanm/tw-aggregator/master/tw-community-search.html
 value: 1
-tags:  Bookmark TiddlyWiki
+original-tags: Bookmark TiddlyWiki
 source-wiki-id: External Brain (inmysocks)
 source-tiddler-title-as-text: TiddlyWiki Community Search
 source-tiddler-title-as-link: TiddlyWiki%20Community%20Search

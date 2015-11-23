@@ -1,5 +1,4 @@
 title: ReleaseNotes
-tags: CommunityTags
-community-tag-count: 24
+new-tiddler: Tag: ReleaseNotes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Done
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Done
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

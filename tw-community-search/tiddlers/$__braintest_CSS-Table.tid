@@ -4,7 +4,7 @@ creator: Danielo
 modified: 20140410063543993
 modifier: Danielo Rodriguez
 type: text/plain
-tags:  editableTable
+original-tags: $:/tags/stylesheet editableTable
 source-wiki-id: braintest
 source-tiddler-title-as-text: CSS-Table
 source-tiddler-title-as-link: CSS-Table

@@ -1,5 +1,4 @@
 title: ListSelf
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: ListSelf
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

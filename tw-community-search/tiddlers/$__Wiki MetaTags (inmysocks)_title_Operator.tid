@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124192051000
 purpose: select a single title
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Common Operators]] [[Absolute Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Common Operators]] [[Absolute Operators]] [[Negatable Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: title Operator
 source-tiddler-title-as-link: title%20Operator

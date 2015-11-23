@@ -5,7 +5,7 @@ plugout: WikiHowWowNow
 revision: 10
 sourcediff: PurgeTemp
 type: text/vnd.tiddlywiki
-tags:  TiddlyBox ChristopherMann/HowWowNow Urgent Important Waiting done
+original-tags: TiddlyBox ChristopherMann/HowWowNow Urgent Important Waiting done
 source-wiki-id: howwownow
 source-tiddler-title-as-text: PurgeTemp
 source-tiddler-title-as-link: PurgeTemp

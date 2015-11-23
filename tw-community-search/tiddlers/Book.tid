@@ -1,5 +1,4 @@
 title: Book
-tags: CommunityTags
-community-tag-count: 146
+new-tiddler: Tag: Book
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

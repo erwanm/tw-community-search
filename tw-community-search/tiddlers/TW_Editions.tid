@@ -1,5 +1,4 @@
 title: TW Editions
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: TW Editions
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

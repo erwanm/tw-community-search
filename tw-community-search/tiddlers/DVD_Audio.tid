@@ -1,5 +1,4 @@
 title: DVD Audio
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: DVD Audio
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Highlight Plugin
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Highlight Plugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

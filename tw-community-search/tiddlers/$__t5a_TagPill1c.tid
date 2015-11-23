@@ -7,7 +7,7 @@ modified: 20151024171746503
 modifier: Andrew Harrison
 target: TagPill1b
 tooltip: Final state of button.
-tags:  New
+original-tags: $:/Macros/Toggle New
 source-wiki-id: t5a
 source-tiddler-title-as-text: TagPill1c
 source-tiddler-title-as-link: TagPill1c

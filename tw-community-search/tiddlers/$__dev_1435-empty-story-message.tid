@@ -5,7 +5,7 @@ modified: 20150203132853069
 modifier: Tobias Beer
 summary: implements emptyStoryMessage to define behaviour when last tiddler in story is closed
 url: <<git5 issues/1435>>
-tags:  Pull 5.1.8 Open
+original-tags: Pull 5.1.8 Open
 source-wiki-id: dev
 source-tiddler-title-as-text: 1435-empty-story-message
 source-tiddler-title-as-link: 1435-empty-story-message

@@ -1,5 +1,4 @@
 title: Sublime Text
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Sublime Text
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

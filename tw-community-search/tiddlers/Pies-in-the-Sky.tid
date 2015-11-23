@@ -1,5 +1,4 @@
 title: Pies-in-the-Sky
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Pies-in-the-Sky
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

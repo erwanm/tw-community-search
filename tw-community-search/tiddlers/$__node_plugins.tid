@@ -2,7 +2,7 @@ title: $:/node/plugins
 created: 20151013140325323
 modified: 20151013153555980
 summary: bundles of tiddlers distributed and managed as a package often containing [[modules]] that are [[javascript]] tiddlers with a module type identifying when and how they are executed
-tags: 
+original-tags: 
 source-wiki-id: node
 source-tiddler-title-as-text: plugins
 source-tiddler-title-as-link: plugins

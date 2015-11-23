@@ -1,5 +1,4 @@
 title: untagged Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: untagged Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

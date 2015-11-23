@@ -1,5 +1,4 @@
 title: suffix Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: suffix Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

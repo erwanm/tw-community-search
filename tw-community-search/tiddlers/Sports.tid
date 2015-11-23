@@ -1,5 +1,4 @@
 title: Sports
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Sports
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

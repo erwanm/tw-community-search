@@ -1,5 +1,4 @@
 title: To-Do List Settings
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: To-Do List Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

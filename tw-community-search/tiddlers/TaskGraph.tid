@@ -1,5 +1,4 @@
 title: TaskGraph
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: TaskGraph
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

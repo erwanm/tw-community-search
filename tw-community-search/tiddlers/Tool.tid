@@ -1,5 +1,4 @@
 title: Tool
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: Tool
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

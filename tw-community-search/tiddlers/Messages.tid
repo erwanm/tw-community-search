@@ -1,5 +1,4 @@
 title: Messages
-tags: CommunityTags
-community-tag-count: 44
+new-tiddler: Tag: Messages
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

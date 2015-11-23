@@ -1,5 +1,4 @@
 title: Artist
-tags: CommunityTags
-community-tag-count: 16
+new-tiddler: Tag: Artist
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Computer Problems
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Computer Problems
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

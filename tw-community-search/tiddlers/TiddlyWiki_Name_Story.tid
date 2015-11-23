@@ -1,5 +1,4 @@
 title: TiddlyWiki Name Story
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: TiddlyWiki Name Story
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

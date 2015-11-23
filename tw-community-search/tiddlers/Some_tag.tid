@@ -1,5 +1,4 @@
 title: Some tag
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Some tag
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

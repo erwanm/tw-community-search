@@ -5,7 +5,7 @@ menu: main
 menu-icon: {{$:/core/images/plugin-generic-plugin}}
 revision: 0
 summary: interesting plugins for tw5
-tags:  Welcome
+original-tags: Welcome
 source-wiki-id: tb5
 source-tiddler-title-as-text: Plugins
 source-tiddler-title-as-link: Plugins

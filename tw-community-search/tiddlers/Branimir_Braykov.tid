@@ -1,5 +1,4 @@
 title: Branimir Braykov
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Branimir Braykov
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

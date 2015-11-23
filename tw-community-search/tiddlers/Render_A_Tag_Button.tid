@@ -1,5 +1,4 @@
 title: Render A Tag Button
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Render A Tag Button
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

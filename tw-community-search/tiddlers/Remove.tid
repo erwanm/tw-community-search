@@ -1,5 +1,4 @@
 title: Remove
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Remove
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

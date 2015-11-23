@@ -1,5 +1,4 @@
 title: tiddler-GroupContactListTemplate
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-GroupContactListTemplate
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

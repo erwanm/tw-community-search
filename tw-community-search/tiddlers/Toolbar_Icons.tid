@@ -1,5 +1,4 @@
 title: Toolbar Icons
-tags: CommunityTags
-community-tag-count: 22
+new-tiddler: Tag: Toolbar Icons
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

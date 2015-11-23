@@ -1,5 +1,4 @@
 title: Configuration
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Configuration
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

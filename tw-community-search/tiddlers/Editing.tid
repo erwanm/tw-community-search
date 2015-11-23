@@ -1,5 +1,4 @@
 title: Editing
-tags: CommunityTags
-community-tag-count: 21
+new-tiddler: Tag: Editing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

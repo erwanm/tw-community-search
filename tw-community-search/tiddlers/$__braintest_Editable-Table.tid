@@ -7,7 +7,7 @@ modifier: Danielo Rodriguez
 sort-field: title
 table-fields: user,grupo,role
 table-headers: Name,User,Grupo,Role
-tags:  customization editableTable
+original-tags: customization editableTable
 source-wiki-id: braintest
 source-tiddler-title-as-text: Editable-Table
 source-tiddler-title-as-link: Editable-Table

@@ -1,5 +1,4 @@
 title: sort Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: sort Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

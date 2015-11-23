@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]] [[Change Log]]
+original-tags: Bug [[Planned Update]] [[Change Log]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Make every option be visible by default in the library tracker
 source-tiddler-title-as-link: Make%20every%20option%20be%20visible%20by%20default%20in%20the%20library%20tracker

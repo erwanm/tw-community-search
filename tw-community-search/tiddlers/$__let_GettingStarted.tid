@@ -6,7 +6,7 @@ icon: $:/core/images/home-button
 menu-icon: {{$:/core/images/home-button}}
 modified: 20141203230000000
 modifier: Tobias Beer
-tags: 
+original-tags: 
 source-wiki-id: let
 source-tiddler-title-as-text: GettingStarted
 source-tiddler-title-as-link: GettingStarted

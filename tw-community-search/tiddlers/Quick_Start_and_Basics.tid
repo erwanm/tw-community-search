@@ -1,5 +1,4 @@
 title: Quick Start and Basics
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Quick Start and Basics
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

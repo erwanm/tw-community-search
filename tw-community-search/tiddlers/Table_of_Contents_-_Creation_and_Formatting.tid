@@ -1,5 +1,4 @@
 title: Table of Contents - Creation and Formatting
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Table of Contents - Creation and Formatting
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

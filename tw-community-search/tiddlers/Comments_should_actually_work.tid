@@ -1,5 +1,4 @@
 title: Comments should actually work
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Comments should actually work
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

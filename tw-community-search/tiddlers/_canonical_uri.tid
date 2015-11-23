@@ -1,5 +1,4 @@
 title: _canonical_uri
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: _canonical_uri
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: CSS
-tags: CommunityTags
-community-tag-count: 14
+new-tiddler: Tag: CSS
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

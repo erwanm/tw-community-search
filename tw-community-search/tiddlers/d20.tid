@@ -1,5 +1,4 @@
 title: d20
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: d20
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

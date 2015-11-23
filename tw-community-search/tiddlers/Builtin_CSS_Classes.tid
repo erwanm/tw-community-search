@@ -1,5 +1,4 @@
 title: Builtin CSS Classes
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Builtin CSS Classes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

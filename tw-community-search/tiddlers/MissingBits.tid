@@ -1,5 +1,4 @@
 title: MissingBits
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: MissingBits
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

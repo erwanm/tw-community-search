@@ -1,5 +1,4 @@
 title: Indie
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Indie
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: makedatauri Macro
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: makedatauri Macro
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

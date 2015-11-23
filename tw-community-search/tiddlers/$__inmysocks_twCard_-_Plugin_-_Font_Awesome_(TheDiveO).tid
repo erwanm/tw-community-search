@@ -16,7 +16,7 @@ repository:
 revision: 
 short_description: A plugin to let you use Font Awesome fonts and icons
 wiki: http://thediveo.github.io/TW5FontAwesome/output/fontawesome.html
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Font Awesome (TheDiveO)
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Font%20Awesome%20%28TheDiveO%29

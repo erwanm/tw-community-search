@@ -1,5 +1,4 @@
 title: Special Fields
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Special Fields
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

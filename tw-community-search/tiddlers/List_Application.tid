@@ -1,5 +1,4 @@
 title: List Application
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: List Application
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

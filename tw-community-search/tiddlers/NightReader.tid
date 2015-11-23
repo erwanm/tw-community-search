@@ -1,5 +1,4 @@
 title: NightReader
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: NightReader
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

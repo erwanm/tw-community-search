@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
 url: http://tiddlywiki.com/dev/#Developing%20plugins%20using%20Node.js%20and%20GitHub
-tags:  GitHub Developer
+original-tags: GitHub Developer
 source-wiki-id: tb5
 source-tiddler-title-as-text: Plugin Development with node.js and GitHub
 source-tiddler-title-as-link: Plugin%20Development%20with%20node.js%20and%20GitHub

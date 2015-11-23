@@ -1,5 +1,4 @@
 title: Hotel
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Hotel
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

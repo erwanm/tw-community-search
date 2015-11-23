@@ -6,7 +6,7 @@ description: Extends the default text editor capabilityes with keyboard shortcut
 list: readme
 source: https://github.com/danielo515/TW5-KeyboardSnippets
 version: 1.5.9
-tags: 
+original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/danielo/keyboardSnippets
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo%2fkeyboardSnippets

@@ -1,5 +1,4 @@
 title: The link-fields Widget
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: The link-fields Widget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

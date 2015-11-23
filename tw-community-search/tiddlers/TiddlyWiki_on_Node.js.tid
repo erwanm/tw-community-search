@@ -1,5 +1,4 @@
 title: TiddlyWiki on Node.js
-tags: CommunityTags
-community-tag-count: 34
+new-tiddler: Tag: TiddlyWiki on Node.js
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

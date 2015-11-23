@@ -1,5 +1,4 @@
 title: Call
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Call
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

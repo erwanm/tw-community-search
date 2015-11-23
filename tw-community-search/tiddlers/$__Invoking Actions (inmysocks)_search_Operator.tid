@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124204023000
 purpose: filter the input by searching tiddler content
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: search Operator
 source-tiddler-title-as-link: search%20Operator

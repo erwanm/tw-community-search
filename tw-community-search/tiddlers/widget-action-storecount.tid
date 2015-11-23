@@ -1,5 +1,4 @@
 title: widget-action-storecount
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: widget-action-storecount
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

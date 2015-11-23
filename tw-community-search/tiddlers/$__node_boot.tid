@@ -2,7 +2,7 @@ title: $:/node/boot
 created: 20130825142900000
 modified: 20151013190021863
 summary: <<tw>> has a relatively small boot kernel that runs either under [[node.js]] or in the browser, all other functionality added via dynamically loaded [[modules]]
-tags:  core
+original-tags: core
 source-wiki-id: node
 source-tiddler-title-as-text: boot
 source-tiddler-title-as-link: boot

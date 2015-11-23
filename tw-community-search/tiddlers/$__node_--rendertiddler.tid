@@ -7,7 +7,7 @@ p.type: (optional) the content type into which to render the tiddler<br>» defau
 params: <title> <filename> [<type>]
 params-clean: <title> <filename> <type>
 summary: renders an individual tiddler as a specified [[content-type]] and save it to the specified filename
-tags:  commands
+original-tags: commands
 source-wiki-id: node
 source-tiddler-title-as-text: --rendertiddler
 source-tiddler-title-as-link: --rendertiddler

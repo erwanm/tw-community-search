@@ -1,5 +1,4 @@
 title: GSD5TiddlerTypes
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: GSD5TiddlerTypes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

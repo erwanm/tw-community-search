@@ -1,5 +1,4 @@
 title: Syntax Errors
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Syntax Errors
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

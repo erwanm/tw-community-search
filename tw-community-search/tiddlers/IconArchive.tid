@@ -1,5 +1,4 @@
 title: IconArchive
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: IconArchive
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

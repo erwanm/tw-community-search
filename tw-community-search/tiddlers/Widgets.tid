@@ -1,5 +1,4 @@
 title: Widgets
-tags: CommunityTags
-community-tag-count: 147
+new-tiddler: Tag: Widgets
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

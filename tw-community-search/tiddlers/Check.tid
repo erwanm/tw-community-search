@@ -1,5 +1,4 @@
 title: Check
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Check
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

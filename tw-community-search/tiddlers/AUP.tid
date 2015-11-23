@@ -1,5 +1,4 @@
 title: AUP
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: AUP
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

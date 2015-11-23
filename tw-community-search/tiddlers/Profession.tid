@@ -1,5 +1,4 @@
 title: Profession
-tags: CommunityTags
-community-tag-count: 35
+new-tiddler: Tag: Profession
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150127202915000
 purpose: select one of each group of input titles by field
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Group Operators]]
+original-tags: [[Filter Operators]] [[Group Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: each Operator
 source-tiddler-title-as-link: each%20Operator

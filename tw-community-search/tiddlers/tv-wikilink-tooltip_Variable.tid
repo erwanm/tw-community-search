@@ -1,5 +1,4 @@
 title: tv-wikilink-tooltip Variable
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tv-wikilink-tooltip Variable
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

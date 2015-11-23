@@ -1,5 +1,4 @@
 title: Filter
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Filter
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

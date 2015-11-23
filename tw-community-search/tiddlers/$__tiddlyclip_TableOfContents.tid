@@ -5,7 +5,7 @@ list-after: $:/core/ui/SideBar/Open
 modified: 20140904104513405
 revision: 0
 type: text/vnd.tiddlywiki
-tags: 
+original-tags: $:/tags/SideBar
 source-wiki-id: tiddlyclip
 source-tiddler-title-as-text: TableOfContents
 source-tiddler-title-as-link: TableOfContents

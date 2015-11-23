@@ -1,5 +1,4 @@
 title: php
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: php
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

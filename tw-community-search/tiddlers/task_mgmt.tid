@@ -1,5 +1,4 @@
 title: task mgmt
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: task mgmt
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

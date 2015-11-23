@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: New Feature
-tags:  [[New Feature]] [[Planned Update]]
+original-tags: [[New Feature]] [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Change all of the add author/genere/whatever stuff in the library tracker to popups
 source-tiddler-title-as-link: Change%20all%20of%20the%20add%20author%2fgenere%2fwhatever%20stuff%20in%20the%20library%20tracker%20to%20popups

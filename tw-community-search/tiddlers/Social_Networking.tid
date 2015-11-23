@@ -1,5 +1,4 @@
 title: Social Networking
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: Social Networking
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

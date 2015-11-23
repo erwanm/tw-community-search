@@ -1,5 +1,4 @@
 title: Ton Gerner
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Ton Gerner
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

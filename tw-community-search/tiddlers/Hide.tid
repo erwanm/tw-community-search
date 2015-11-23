@@ -1,5 +1,4 @@
 title: Hide
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Hide
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

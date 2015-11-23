@@ -1,5 +1,4 @@
 title: Formatting
-tags: CommunityTags
-community-tag-count: 16
+new-tiddler: Tag: Formatting
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

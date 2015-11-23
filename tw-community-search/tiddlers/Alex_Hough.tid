@@ -1,5 +1,4 @@
 title: Alex Hough
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Alex Hough
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

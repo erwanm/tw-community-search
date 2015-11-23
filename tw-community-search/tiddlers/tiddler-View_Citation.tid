@@ -1,5 +1,4 @@
 title: tiddler-View Citation
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-View Citation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

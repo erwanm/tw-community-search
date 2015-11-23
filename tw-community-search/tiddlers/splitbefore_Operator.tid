@@ -1,5 +1,4 @@
 title: splitbefore Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: splitbefore Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Extensions
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Extensions
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

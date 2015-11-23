@@ -5,7 +5,7 @@ description: Plugins for TiddlyWiki Curated by Christopher Mann
 list: readme deltas
 revision: 14
 version: 0.0.20151121105019
-tags: 
+original-tags: 
 source-wiki-id: howwownow
 source-tiddler-title-as-text: $:/plugouts/ChristopherMann/HowWowNow
 source-tiddler-title-as-link: %24%3a%2fplugouts%2fChristopherMann%2fHowWowNow

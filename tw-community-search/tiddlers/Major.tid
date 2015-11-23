@@ -1,5 +1,4 @@
 title: Major
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: Major
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

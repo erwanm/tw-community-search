@@ -1,5 +1,4 @@
 title: OokTech
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: OokTech
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

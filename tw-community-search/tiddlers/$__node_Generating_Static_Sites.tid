@@ -3,7 +3,7 @@ caption: static
 created: 20130828190200000
 modified: 20151014140312618
 summary: using [[tiddlywiki]] to generate static [[html]] representations of your [[wiki]] that don't require [[javascript]]
-tags:  workflows
+original-tags: workflows
 source-wiki-id: node
 source-tiddler-title-as-text: Generating Static Sites
 source-tiddler-title-as-link: Generating%20Static%20Sites

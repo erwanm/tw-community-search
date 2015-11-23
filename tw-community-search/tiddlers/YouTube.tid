@@ -1,5 +1,4 @@
 title: YouTube
-tags: CommunityTags
-community-tag-count: 54
+new-tiddler: Tag: YouTube
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

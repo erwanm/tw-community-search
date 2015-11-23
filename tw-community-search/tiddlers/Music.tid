@@ -1,5 +1,4 @@
 title: Music
-tags: CommunityTags
-community-tag-count: 49
+new-tiddler: Tag: Music
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

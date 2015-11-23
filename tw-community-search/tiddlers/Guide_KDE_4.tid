@@ -1,5 +1,4 @@
 title: Guide KDE 4
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Guide KDE 4
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

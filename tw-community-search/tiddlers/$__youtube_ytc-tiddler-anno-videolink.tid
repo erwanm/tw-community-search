@@ -3,7 +3,7 @@ created: 20150110120318185
 modified: 20150110123404170
 summary: wraps the link to the video link in the template rendered for annotation tiddlers
 templates: $:/plugins/tobibeer/youtube/ViewTemplate/annotation
-tags:  Styles
+original-tags: Styles
 source-wiki-id: youtube
 source-tiddler-title-as-text: ytc-tiddler-anno-videolink
 source-tiddler-title-as-link: ytc-tiddler-anno-videolink

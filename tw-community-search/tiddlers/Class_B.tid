@@ -1,5 +1,4 @@
 title: Class B
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Class B
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

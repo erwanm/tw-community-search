@@ -7,7 +7,7 @@ list: readme
 revision: 0
 source: https://github.com/danielo515/TW5-AutoTag
 version: 0.1.9
-tags: 
+original-tags: 
 source-wiki-id: AutoTag
 source-tiddler-title-as-text: $:/plugins/danielo515/autotag
 source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2fautotag

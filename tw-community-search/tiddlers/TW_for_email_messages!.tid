@@ -1,5 +1,4 @@
 title: TW for email messages!
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: TW for email messages!
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

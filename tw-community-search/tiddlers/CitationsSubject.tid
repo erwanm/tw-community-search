@@ -1,5 +1,4 @@
 title: CitationsSubject
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: CitationsSubject
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

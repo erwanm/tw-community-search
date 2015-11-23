@@ -1,5 +1,4 @@
 title: Microcontroller
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Microcontroller
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

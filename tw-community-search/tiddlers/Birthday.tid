@@ -1,5 +1,4 @@
 title: Birthday
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Birthday
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

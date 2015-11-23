@@ -1,5 +1,4 @@
 title: Musing
-tags: CommunityTags
-community-tag-count: 15
+new-tiddler: Tag: Musing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

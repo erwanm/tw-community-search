@@ -1,5 +1,4 @@
 title: Utility Plugins
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Utility Plugins
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

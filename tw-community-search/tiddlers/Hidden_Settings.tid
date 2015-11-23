@@ -1,5 +1,4 @@
 title: Hidden Settings
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Hidden Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

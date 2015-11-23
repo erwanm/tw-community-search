@@ -1,5 +1,4 @@
 title: Måns Mårtensson
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Måns Mårtensson
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

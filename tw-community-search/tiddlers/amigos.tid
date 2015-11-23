@@ -1,5 +1,4 @@
 title: amigos
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: amigos
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

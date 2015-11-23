@@ -1,5 +1,4 @@
 title: Dwarf Fortress
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Dwarf Fortress
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

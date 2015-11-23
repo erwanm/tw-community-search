@@ -1,5 +1,4 @@
 title: MathyThing - action-sumfield Widget
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: MathyThing - action-sumfield Widget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Helpful Notes
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Helpful Notes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: tiddler-Example Group
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Example Group
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

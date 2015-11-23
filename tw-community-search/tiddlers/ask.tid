@@ -1,5 +1,4 @@
 title: ask
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: ask
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

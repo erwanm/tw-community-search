@@ -1,5 +1,4 @@
 title: get Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: get Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

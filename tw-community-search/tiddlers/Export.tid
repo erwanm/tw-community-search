@@ -1,5 +1,4 @@
 title: Export
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Export
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

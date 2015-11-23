@@ -1,5 +1,4 @@
 title: Oh how very exciting
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Oh how very exciting
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -2,7 +2,7 @@ title: $:/node/--verbose
 created: 20151014051318476
 modified: 20151014051351902
 summary: triggers verbose output, useful for debugging 
-tags:  commands
+original-tags: commands
 source-wiki-id: node
 source-tiddler-title-as-text: --verbose
 source-tiddler-title-as-link: --verbose

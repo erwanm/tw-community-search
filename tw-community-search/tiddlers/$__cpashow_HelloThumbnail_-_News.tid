@@ -4,7 +4,7 @@ caption: Latest News
 color: #fff
 icon: {{$:/core/images/globe}}
 link: Community
-tags:  HelloThumbnail
+original-tags: HelloThumbnail
 source-wiki-id: cpashow
 source-tiddler-title-as-text: HelloThumbnail - News
 source-tiddler-title-as-link: HelloThumbnail%20-%20News

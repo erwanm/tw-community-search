@@ -1,5 +1,4 @@
 title: Journal
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Journal
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

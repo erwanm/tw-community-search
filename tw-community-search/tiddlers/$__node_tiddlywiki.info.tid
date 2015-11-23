@@ -3,7 +3,7 @@ created: 20151013061507656
 is: required
 modified: 20151014121426846
 summary: a [[json]] ''file'' defining metadata for a [[wiki]] / [[edition|editions]] that [[tiddlywiki]] for [[node.js]] requires to run any available [[commands]]
-tags:  wiki
+original-tags: wiki
 source-wiki-id: node
 source-tiddler-title-as-text: tiddlywiki.info
 source-tiddler-title-as-link: tiddlywiki.info

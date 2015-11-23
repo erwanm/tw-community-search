@@ -2,7 +2,7 @@ title: $:/node/editions
 created: 20151013061216578
 modified: 20151014131641155
 summary: in a repository with shared resources, an edition is a [[wiki]] instance defining a [[build|--build]] environment via its own [[tiddlywiki.info]] file and additional resources, e.g. a [[tiddlers folder|folders]]
-tags:  concepts
+original-tags: concepts
 source-wiki-id: node
 source-tiddler-title-as-text: editions
 source-tiddler-title-as-link: editions

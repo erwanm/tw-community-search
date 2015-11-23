@@ -1,5 +1,4 @@
 title: Event
-tags: CommunityTags
-community-tag-count: 15
+new-tiddler: Tag: Event
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

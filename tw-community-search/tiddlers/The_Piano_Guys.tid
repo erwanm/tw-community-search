@@ -1,5 +1,4 @@
 title: The Piano Guys
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: The Piano Guys
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

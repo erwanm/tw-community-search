@@ -1,5 +1,4 @@
 title: Special application
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Special application
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -5,7 +5,7 @@ modified: 20150203162607731
 modifier: Tobias Beer
 summary: add resolvepath macro — shows proper link to backup directory with custom ''store.php''
 url: <<git5 issues/1392>>
-tags:  Pull 5.1.8 Accepted
+original-tags: Pull 5.1.8 Accepted
 source-wiki-id: dev
 source-tiddler-title-as-text: 1392-fix-tiddlyspot-backup-url
 source-tiddler-title-as-link: 1392-fix-tiddlyspot-backup-url

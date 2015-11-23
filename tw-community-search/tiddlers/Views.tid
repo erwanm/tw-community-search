@@ -1,5 +1,4 @@
 title: Views
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Views
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

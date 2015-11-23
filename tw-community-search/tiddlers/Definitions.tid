@@ -1,5 +1,4 @@
 title: Definitions
-tags: CommunityTags
-community-tag-count: 51
+new-tiddler: Tag: Definitions
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

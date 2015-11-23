@@ -1,5 +1,4 @@
 title: Browser Game
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Browser Game
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

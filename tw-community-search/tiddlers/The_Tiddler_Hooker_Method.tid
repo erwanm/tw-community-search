@@ -1,5 +1,4 @@
 title: The Tiddler Hooker Method
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: The Tiddler Hooker Method
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -26,7 +26,7 @@ square6: <<roomMacro room6>>
 square7: <<roomMacro room7>>
 square8: <<roomMacro room8>>
 square9: <<roomMacro room9>>
-tags: 
+original-tags: 
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: Map
 source-tiddler-title-as-link: Map

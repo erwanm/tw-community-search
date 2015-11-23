@@ -1,5 +1,4 @@
 title: Rich Shumaker
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Rich Shumaker
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

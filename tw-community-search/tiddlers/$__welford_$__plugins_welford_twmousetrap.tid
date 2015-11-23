@@ -6,7 +6,7 @@ description: global shortcuts
 revision: 0
 source: https://github.com/Welford/twmoustrap
 version: 0.0.1
-tags: 
+original-tags: 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/plugins/welford/twmousetrap
 source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwmousetrap

@@ -1,5 +1,4 @@
 title: fa
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: fa
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

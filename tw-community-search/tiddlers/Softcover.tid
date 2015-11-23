@@ -1,5 +1,4 @@
 title: Softcover
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Softcover
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

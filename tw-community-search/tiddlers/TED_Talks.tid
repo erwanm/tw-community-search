@@ -1,5 +1,4 @@
 title: TED Talks
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: TED Talks
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

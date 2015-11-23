@@ -6,7 +6,7 @@ list: readme
 modified: 20150919221550230
 name: Sample Name
 version: 0.0.6
-tags: 
+original-tags: 
 source-wiki-id: Tinka
 source-tiddler-title-as-text: $:/plugins/test/ATest
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftest%2fATest

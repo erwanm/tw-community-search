@@ -1,5 +1,4 @@
 title: Letters
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Letters
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

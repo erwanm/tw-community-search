@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124214612000
 purpose: filter the input by date
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Date Operators]]
+original-tags: [[Filter Operators]] [[Date Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: sameday Operator
 source-tiddler-title-as-link: sameday%20Operator

@@ -2,7 +2,7 @@ title: $:/node/syncing
 created: 20151014125101665
 modified: 20151014130120677
 summary: how [[tiddlywiki]] in a browser syncs changes to tiddlers back to a server and uses [[lazy-loading]] to fetch the full body of tiddlers initially loaded with a "skinny" version
-tags:  core
+original-tags: core
 source-wiki-id: node
 source-tiddler-title-as-text: syncing
 source-tiddler-title-as-link: syncing

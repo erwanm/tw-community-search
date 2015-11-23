@@ -1,5 +1,4 @@
 title: Payment
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: Payment
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

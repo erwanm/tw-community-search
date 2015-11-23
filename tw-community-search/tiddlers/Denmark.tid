@@ -1,5 +1,4 @@
 title: Denmark
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Denmark
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

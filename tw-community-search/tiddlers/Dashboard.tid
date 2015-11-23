@@ -1,5 +1,4 @@
 title: Dashboard
-tags: CommunityTags
-community-tag-count: 36
+new-tiddler: Tag: Dashboard
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

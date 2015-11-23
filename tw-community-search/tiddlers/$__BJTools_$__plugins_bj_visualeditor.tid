@@ -8,7 +8,7 @@ list: readme
 revision: 0
 source: https://github.com/buggyj/TW5-visualeditor
 version: 0.0.5-alpha
-tags: 
+original-tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/visualeditor
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fvisualeditor

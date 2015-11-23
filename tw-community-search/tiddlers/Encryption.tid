@@ -1,5 +1,4 @@
 title: Encryption
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Encryption
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

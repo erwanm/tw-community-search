@@ -1,5 +1,4 @@
 title: Office
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Office
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

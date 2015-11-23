@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124161800000
 purpose: select the first <<.place n>> input titles
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Order Operators]]
+original-tags: [[Filter Operators]] [[Order Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: first Operator
 source-tiddler-title-as-link: first%20Operator

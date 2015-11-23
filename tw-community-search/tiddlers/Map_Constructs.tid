@@ -1,5 +1,4 @@
 title: Map Constructs
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Map Constructs
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

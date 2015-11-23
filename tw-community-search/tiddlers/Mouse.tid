@@ -1,5 +1,4 @@
 title: Mouse
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Mouse
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -6,7 +6,7 @@ foo: 2
 modified: 20150122171513506
 modifier: Tobias Beer
 summary: create options for select widget to chose from so as to set field `foo`
-tags:  title Filters
+original-tags: title Filters
 source-wiki-id: filters
 source-tiddler-title-as-text: simple enumeration
 source-tiddler-title-as-link: simple%20enumeration

@@ -1,5 +1,4 @@
 title: Adjective
-tags: CommunityTags
-community-tag-count: 20
+new-tiddler: Tag: Adjective
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

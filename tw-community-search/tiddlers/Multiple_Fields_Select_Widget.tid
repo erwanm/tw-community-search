@@ -1,5 +1,4 @@
 title: Multiple Fields Select Widget
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Multiple Fields Select Widget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

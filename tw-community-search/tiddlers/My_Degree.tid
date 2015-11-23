@@ -1,5 +1,4 @@
 title: My Degree
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: My Degree
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

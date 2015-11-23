@@ -5,7 +5,7 @@ filter: [tag<currentTiddler>]
 modified: 20150122173230248
 modifier: Tobias Beer
 summary: get all tiddlers tagging to the current tiddler by filtering based on a variable
-tags:  current Variable tag Filters
+original-tags: current Variable tag Filters
 source-wiki-id: filters
 source-tiddler-title-as-text: tagging to title stored in variable
 source-tiddler-title-as-link: tagging%20to%20title%20stored%20in%20variable

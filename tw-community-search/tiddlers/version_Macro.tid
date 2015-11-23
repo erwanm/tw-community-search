@@ -1,5 +1,4 @@
 title: version Macro
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: version Macro
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

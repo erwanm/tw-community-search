@@ -1,5 +1,4 @@
 title: tv-config-toolbar-icons Variable
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tv-config-toolbar-icons Variable
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

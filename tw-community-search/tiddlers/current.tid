@@ -1,5 +1,4 @@
 title: current
-tags: CommunityTags
-community-tag-count: 15
+new-tiddler: Tag: current
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

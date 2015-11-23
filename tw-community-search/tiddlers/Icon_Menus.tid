@@ -1,5 +1,4 @@
 title: Icon Menus
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Icon Menus
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

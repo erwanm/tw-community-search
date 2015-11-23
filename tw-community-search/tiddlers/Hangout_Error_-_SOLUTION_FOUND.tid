@@ -1,5 +1,4 @@
 title: Hangout Error - SOLUTION FOUND
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Hangout Error - SOLUTION FOUND
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

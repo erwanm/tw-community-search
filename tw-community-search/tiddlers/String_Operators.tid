@@ -1,5 +1,4 @@
 title: String Operators
-tags: CommunityTags
-community-tag-count: 28
+new-tiddler: Tag: String Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

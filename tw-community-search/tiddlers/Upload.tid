@@ -1,5 +1,4 @@
 title: Upload
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Upload
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

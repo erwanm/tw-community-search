@@ -1,5 +1,4 @@
 title: HelloThere
-tags: CommunityTags
-community-tag-count: 21
+new-tiddler: Tag: HelloThere
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

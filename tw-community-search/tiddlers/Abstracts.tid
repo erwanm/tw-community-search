@@ -1,5 +1,4 @@
 title: Abstracts
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Abstracts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

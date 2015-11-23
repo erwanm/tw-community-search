@@ -1,5 +1,4 @@
 title: Filter Syntax
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: Filter Syntax
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

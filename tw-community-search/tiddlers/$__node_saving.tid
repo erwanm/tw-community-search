@@ -3,7 +3,7 @@ created: 20150709150749755
 modified: 20151014124900658
 summary: the mechanism by which [[tiddlywiki]] generates a new [[html]] file and stores it as compared to [[syncing]] where changes to individual tiddlers are synchronised back to a server
 type: text/vnd.tiddlywiki
-tags:  core
+original-tags: core
 source-wiki-id: node
 source-tiddler-title-as-text: saving
 source-tiddler-title-as-link: saving

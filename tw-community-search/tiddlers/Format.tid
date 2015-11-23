@@ -1,5 +1,4 @@
 title: Format
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Format
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

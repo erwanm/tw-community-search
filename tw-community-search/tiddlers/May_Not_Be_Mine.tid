@@ -1,5 +1,4 @@
 title: May Not Be Mine
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: May Not Be Mine
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

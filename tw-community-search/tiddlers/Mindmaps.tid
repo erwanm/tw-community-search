@@ -1,5 +1,4 @@
 title: Mindmaps
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Mindmaps
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

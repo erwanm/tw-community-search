@@ -1,5 +1,4 @@
 title: Web Comic
-tags: CommunityTags
-community-tag-count: 25
+new-tiddler: Tag: Web Comic
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

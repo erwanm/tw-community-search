@@ -1,5 +1,4 @@
 title: Héberger son TiddlyWiki
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Héberger son TiddlyWiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

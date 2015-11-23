@@ -1,5 +1,4 @@
 title: clippedtid
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: clippedtid
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

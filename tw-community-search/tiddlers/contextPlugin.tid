@@ -1,5 +1,4 @@
 title: contextPlugin
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: contextPlugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

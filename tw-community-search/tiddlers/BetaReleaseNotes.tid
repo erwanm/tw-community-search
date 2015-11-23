@@ -1,5 +1,4 @@
 title: BetaReleaseNotes
-tags: CommunityTags
-community-tag-count: 43
+new-tiddler: Tag: BetaReleaseNotes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -5,7 +5,7 @@ list: EQ NEQ LT LE GT GE
 modified: 20141203230000000
 modifier: Tobias Beer
 summary: operations that allow to compare the value of a field of any available type against the value of the operand; returning a ''list of matching tiddlers''
-tags:  OPERATION
+original-tags: OPERATION
 source-wiki-id: let
 source-tiddler-title-as-text: Comparators
 source-tiddler-title-as-link: Comparators

@@ -1,5 +1,4 @@
 title: Patterns
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Patterns
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

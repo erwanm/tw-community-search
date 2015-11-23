@@ -1,5 +1,4 @@
 title: sw:Editor
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: sw:Editor
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

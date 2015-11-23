@@ -1,5 +1,4 @@
 title: Drawing
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Drawing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

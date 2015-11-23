@@ -1,5 +1,4 @@
 title: Parameters
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Parameters
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

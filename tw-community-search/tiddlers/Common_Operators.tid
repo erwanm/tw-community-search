@@ -1,5 +1,4 @@
 title: Common Operators
-tags: CommunityTags
-community-tag-count: 40
+new-tiddler: Tag: Common Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

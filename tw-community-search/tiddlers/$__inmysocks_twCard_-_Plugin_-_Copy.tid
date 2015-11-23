@@ -16,7 +16,7 @@ repository:
 revision: 0.0.18
 short_description: A plugin for copying rich text content to the clipboard
 wiki: http://copy.tiddlyspot.com/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Copy
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Copy

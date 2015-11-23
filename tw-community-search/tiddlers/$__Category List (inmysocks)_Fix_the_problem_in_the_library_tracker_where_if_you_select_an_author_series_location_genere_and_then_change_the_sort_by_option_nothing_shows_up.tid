@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]]
+original-tags: Bug [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Fix the problem in the library tracker where if you select an author/series/location/genere and then change the sort by option nothing shows up
 source-tiddler-title-as-link: Fix%20the%20problem%20in%20the%20library%20tracker%20where%20if%20you%20select%20an%20author%2fseries%2flocation%2fgenere%20and%20then%20change%20the%20sort%20by%20option%20nothing%20shows%20up

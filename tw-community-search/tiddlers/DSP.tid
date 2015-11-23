@@ -1,5 +1,4 @@
 title: DSP
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: DSP
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

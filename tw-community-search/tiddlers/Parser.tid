@@ -1,5 +1,4 @@
 title: Parser
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Parser
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

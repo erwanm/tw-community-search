@@ -1,5 +1,4 @@
 title: I just had some Shiny Acid
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: I just had some Shiny Acid
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

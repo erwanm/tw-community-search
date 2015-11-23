@@ -1,5 +1,4 @@
 title: Toggle
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Toggle
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

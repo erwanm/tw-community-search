@@ -1,5 +1,4 @@
 title: AMV
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: AMV
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

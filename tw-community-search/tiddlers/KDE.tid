@@ -1,5 +1,4 @@
 title: KDE
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: KDE
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

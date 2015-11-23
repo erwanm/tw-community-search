@@ -1,5 +1,4 @@
 title: TiddlyDesktopReleaseNotes
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: TiddlyDesktopReleaseNotes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

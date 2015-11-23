@@ -1,5 +1,4 @@
 title: Temple
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Temple
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

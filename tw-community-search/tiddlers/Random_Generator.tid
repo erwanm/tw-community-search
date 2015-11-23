@@ -1,5 +1,4 @@
 title: Random Generator
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Random Generator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

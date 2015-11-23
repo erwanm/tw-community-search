@@ -1,5 +1,4 @@
 title: twCard Event
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: twCard Event
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Basic concepts
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Basic concepts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

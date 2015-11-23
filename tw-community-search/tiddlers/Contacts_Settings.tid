@@ -1,5 +1,4 @@
 title: Contacts Settings
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Contacts Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

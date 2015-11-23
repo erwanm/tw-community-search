@@ -7,7 +7,7 @@ revision: 0
 summary: the ''xlist'' macro shows crosslists of tiddlers tagging to categories grouped by another category
 type: text/vnd.tiddlywiki
 url: https://tobibeer.github.io/tw/xlist
-tags:  [[Tobias Beer]]
+original-tags: [[Tobias Beer]]
 source-wiki-id: tb5
 source-tiddler-title-as-text: xlist
 source-tiddler-title-as-link: xlist

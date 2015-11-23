@@ -5,7 +5,7 @@ modified: 20150203131119214
 modifier: Tobias Beer
 summary: allows to define behaviour when last tiddler in story is closed
 url: @@color:red; ''repaced by:'' <<git5 issues/1435>>@@ (was <<git5 issues/1407>>)
-tags:  Pull 5.1.8 Rejected
+original-tags: Pull 5.1.8 Rejected
 source-wiki-id: dev
 source-tiddler-title-as-text: 1407-open-default-on-empty
 source-tiddler-title-as-link: 1407-open-default-on-empty

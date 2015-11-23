@@ -1,5 +1,4 @@
 title: Social
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Social
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

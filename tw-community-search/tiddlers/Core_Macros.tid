@@ -1,5 +1,4 @@
 title: Core Macros
-tags: CommunityTags
-community-tag-count: 20
+new-tiddler: Tag: Core Macros
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

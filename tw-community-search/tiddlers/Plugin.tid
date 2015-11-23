@@ -1,5 +1,4 @@
 title: Plugin
-tags: CommunityTags
-community-tag-count: 55
+new-tiddler: Tag: Plugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

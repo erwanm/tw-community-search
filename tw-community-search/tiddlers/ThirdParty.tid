@@ -1,5 +1,4 @@
 title: ThirdParty
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: ThirdParty
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

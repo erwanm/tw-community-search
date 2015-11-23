@@ -1,5 +1,4 @@
 title: Software
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: Software
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

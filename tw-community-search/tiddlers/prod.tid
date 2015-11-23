@@ -1,5 +1,4 @@
 title: prod
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: prod
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

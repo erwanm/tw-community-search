@@ -1,5 +1,4 @@
 title: sampletag1
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: sampletag1
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

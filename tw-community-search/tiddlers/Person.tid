@@ -1,5 +1,4 @@
 title: Person
-tags: CommunityTags
-community-tag-count: 16
+new-tiddler: Tag: Person
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -6,7 +6,7 @@ description: Tidgraph - Easy tiddler graphs for TW5
 list: readme changelog documentation
 source: https://ihm4u.github.io/tw5plugs
 version: 0.9.4
-tags: 
+original-tags: 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: $:/plugins/ihm/tidgraph
 source-tiddler-title-as-link: %24%3a%2fplugins%2fihm%2ftidgraph

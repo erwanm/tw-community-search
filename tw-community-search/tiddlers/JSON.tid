@@ -1,5 +1,4 @@
 title: JSON
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: JSON
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Plugin twCard
-tags: CommunityTags
-community-tag-count: 80
+new-tiddler: Tag: Plugin twCard
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

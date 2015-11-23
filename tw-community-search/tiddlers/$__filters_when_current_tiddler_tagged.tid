@@ -6,7 +6,7 @@ modified: 20150122173448113
 modifier: Tobias Beer
 summary: conditionally show information depending on whether the current tiddler has a given tag
 type: 
-tags:  tag current Filters all when
+original-tags: tag current Filters all when
 source-wiki-id: filters
 source-tiddler-title-as-text: when current tiddler tagged
 source-tiddler-title-as-link: when%20current%20tiddler%20tagged

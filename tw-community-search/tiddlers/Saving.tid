@@ -1,5 +1,4 @@
 title: Saving
-tags: CommunityTags
-community-tag-count: 27
+new-tiddler: Tag: Saving
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

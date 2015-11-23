@@ -1,5 +1,4 @@
 title: Hardcover
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: Hardcover
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

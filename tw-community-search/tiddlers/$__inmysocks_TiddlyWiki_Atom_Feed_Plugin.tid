@@ -3,7 +3,7 @@ created: 20150525185005740
 description: Some tools for making an atom feed from a tiddlywiki
 modified: 20150525185041688
 url: https://github.com/dullroar/TW5-atomfeed
-tags:  [[Awesome Thing]]
+original-tags: [[Awesome Thing]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: TiddlyWiki Atom Feed Plugin
 source-tiddler-title-as-link: TiddlyWiki%20Atom%20Feed%20Plugin

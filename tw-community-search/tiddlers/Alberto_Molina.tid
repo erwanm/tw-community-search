@@ -1,5 +1,4 @@
 title: Alberto Molina
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Alberto Molina
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

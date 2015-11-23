@@ -1,5 +1,4 @@
 title: Core
-tags: CommunityTags
-community-tag-count: 17
+new-tiddler: Tag: Core
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: 16-bit
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: 16-bit
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

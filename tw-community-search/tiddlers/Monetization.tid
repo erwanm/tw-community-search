@@ -1,5 +1,4 @@
 title: Monetization
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Monetization
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Dashboard Plugins
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: Dashboard Plugins
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

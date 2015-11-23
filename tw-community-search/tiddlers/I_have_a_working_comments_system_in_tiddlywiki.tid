@@ -1,5 +1,4 @@
 title: I have a working comments system in tiddlywiki
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: I have a working comments system in tiddlywiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

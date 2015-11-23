@@ -1,5 +1,4 @@
 title: Macro Syntax
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Macro Syntax
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

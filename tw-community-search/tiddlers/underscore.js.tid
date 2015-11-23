@@ -1,5 +1,4 @@
 title: underscore.js
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: underscore.js
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

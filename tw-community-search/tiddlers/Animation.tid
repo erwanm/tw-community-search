@@ -1,5 +1,4 @@
 title: Animation
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Animation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

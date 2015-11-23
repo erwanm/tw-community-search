@@ -1,5 +1,4 @@
 title: Tw5Info
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Tw5Info
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: CloudFlare
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: CloudFlare
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

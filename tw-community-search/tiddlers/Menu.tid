@@ -1,5 +1,4 @@
 title: Menu
-tags: CommunityTags
-community-tag-count: 33
+new-tiddler: Tag: Menu
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

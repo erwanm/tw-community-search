@@ -1,5 +1,4 @@
 title: Nationality
-tags: CommunityTags
-community-tag-count: 19
+new-tiddler: Tag: Nationality
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

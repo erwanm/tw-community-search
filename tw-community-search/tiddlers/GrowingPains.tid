@@ -1,5 +1,4 @@
 title: GrowingPains
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: GrowingPains
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Graphics
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: Graphics
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

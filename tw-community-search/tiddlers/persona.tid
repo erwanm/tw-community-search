@@ -1,5 +1,4 @@
 title: persona
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: persona
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

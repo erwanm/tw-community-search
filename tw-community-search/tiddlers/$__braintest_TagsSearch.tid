@@ -4,7 +4,7 @@ creator: Danielo Rodriguez
 modified: 20140415014822624
 modifier: Danielo Rodriguez
 systemfilter: !is[system]
-tags: 
+original-tags: $:/tags/AdvancedSearch
 source-wiki-id: braintest
 source-tiddler-title-as-text: TagsSearch
 source-tiddler-title-as-link: TagsSearch

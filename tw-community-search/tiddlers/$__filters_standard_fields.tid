@@ -6,7 +6,7 @@ filter: [[title]][[text]][[tags]][[modified]][[modifier]][[created]][[creator]][
 modified: 20150122173023417
 modifier: Tobias Beer
 summary: all [[standard fields|http://tiddlywiki.com/#TiddlerFields]] of a tiddler
-tags:  title Variable Filters Fields
+original-tags: title Variable Filters Fields
 source-wiki-id: filters
 source-tiddler-title-as-text: standard fields
 source-tiddler-title-as-link: standard%20fields

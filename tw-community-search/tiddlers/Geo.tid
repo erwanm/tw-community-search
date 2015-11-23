@@ -1,5 +1,4 @@
 title: Geo
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Geo
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

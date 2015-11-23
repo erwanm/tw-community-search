@@ -1,5 +1,4 @@
 title: UserField
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: UserField
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Military Fiction
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Military Fiction
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

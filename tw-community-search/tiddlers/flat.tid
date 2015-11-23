@@ -1,5 +1,4 @@
 title: flat
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: flat
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

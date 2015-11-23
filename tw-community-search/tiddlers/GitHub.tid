@@ -1,5 +1,4 @@
 title: GitHub
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: GitHub
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

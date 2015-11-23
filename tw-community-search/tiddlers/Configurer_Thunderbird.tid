@@ -1,5 +1,4 @@
 title: Configurer Thunderbird
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Configurer Thunderbird
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

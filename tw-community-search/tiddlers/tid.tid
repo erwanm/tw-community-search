@@ -1,5 +1,4 @@
 title: tid
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tid
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

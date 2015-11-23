@@ -1,5 +1,4 @@
 title: beta
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: beta
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

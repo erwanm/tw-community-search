@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]] [[Change Log]]
+original-tags: Bug [[Planned Update]] [[Change Log]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Make the library tracker only add attributes that are visible when the item is created.
 source-tiddler-title-as-link: Make%20the%20library%20tracker%20only%20add%20attributes%20that%20are%20visible%20when%20the%20item%20is%20created.

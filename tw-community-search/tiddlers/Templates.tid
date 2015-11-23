@@ -1,5 +1,4 @@
 title: Templates
-tags: CommunityTags
-community-tag-count: 60
+new-tiddler: Tag: Templates
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

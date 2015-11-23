@@ -3,7 +3,7 @@ created: 20151013090614510
 list: tiddlywiki.info [[tiddlers (folder)]] [[plugins (folder)]]
 modified: 20151014121356704
 summary: an instance of [[tiddlywiki]] in a folder with a [[tiddlywiki.info]] file optionally containing folders with [[tiddler files|files]], also see [[editions]]
-tags:  concepts
+original-tags: concepts
 source-wiki-id: node
 source-tiddler-title-as-text: wiki
 source-tiddler-title-as-link: wiki

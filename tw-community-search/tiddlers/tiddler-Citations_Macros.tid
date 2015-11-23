@@ -1,5 +1,4 @@
 title: tiddler-Citations Macros
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Citations Macros
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

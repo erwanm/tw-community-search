@@ -1,5 +1,4 @@
 title: PriceTag
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: PriceTag
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: feature idea
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: feature idea
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

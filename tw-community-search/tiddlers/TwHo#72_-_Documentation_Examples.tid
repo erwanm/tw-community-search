@@ -1,5 +1,4 @@
 title: TwHo#72 - Documentation Examples
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: TwHo#72 - Documentation Examples
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

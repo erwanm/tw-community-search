@@ -1,5 +1,4 @@
 title: ContenuExterne
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: ContenuExterne
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

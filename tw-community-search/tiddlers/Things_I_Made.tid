@@ -1,5 +1,4 @@
 title: Things I Made
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Things I Made
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

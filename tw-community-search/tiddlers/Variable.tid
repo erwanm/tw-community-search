@@ -1,5 +1,4 @@
 title: Variable
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: Variable
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

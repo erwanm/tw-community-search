@@ -1,5 +1,4 @@
 title: list of some relevant CSS properties
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: list of some relevant CSS properties
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

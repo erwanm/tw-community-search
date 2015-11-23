@@ -1,5 +1,4 @@
 title: Lessons Learned
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Lessons Learned
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

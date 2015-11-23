@@ -1,5 +1,4 @@
 title: RangeSlider
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: RangeSlider
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

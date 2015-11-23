@@ -12,7 +12,7 @@ trigger_type: button
 unlock1: 
 unlock2: 
 unlock3: 
-tags:  Trigger
+original-tags: Trigger
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: DictionaryReadTrigger
 source-tiddler-title-as-link: DictionaryReadTrigger

@@ -1,5 +1,4 @@
 title: friendship
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: friendship
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

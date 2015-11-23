@@ -1,5 +1,4 @@
 title: Input Types
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Input Types
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

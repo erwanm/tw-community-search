@@ -6,7 +6,7 @@ deadline: The deadline
 description: An example task blurb
 modified: 20141213062132128
 modifier: inmysocks
-tags:  task done
+original-tags: task done
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Example task
 source-tiddler-title-as-link: Example%20task

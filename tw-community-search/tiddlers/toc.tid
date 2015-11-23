@@ -1,5 +1,4 @@
 title: toc
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: toc
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

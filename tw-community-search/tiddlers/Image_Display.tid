@@ -1,5 +1,4 @@
 title: Image Display
-tags: CommunityTags
-community-tag-count: 36
+new-tiddler: Tag: Image Display
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

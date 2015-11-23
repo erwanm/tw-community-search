@@ -5,7 +5,7 @@ modified: 20150128101715233
 modifier: Tobias Beer
 summary: sort unlisted tags by title
 url: <<git5 issues/1378>>
-tags:  Pull 5.1.8 Accepted
+original-tags: Pull 5.1.8 Accepted
 source-wiki-id: dev
 source-tiddler-title-as-text: 1378-tag-button-sort-tagging
 source-tiddler-title-as-link: 1378-tag-button-sort-tagging

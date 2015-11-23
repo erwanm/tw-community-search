@@ -1,5 +1,4 @@
 title: widget-$:/pluginslinmysocks/TW5Utils/linkfields.js
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: widget-$:/pluginslinmysocks/TW5Utils/linkfields.js
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

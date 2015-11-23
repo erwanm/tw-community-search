@@ -1,5 +1,4 @@
 title: Fight the Tyranny of Cats Online!
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Fight the Tyranny of Cats Online!
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

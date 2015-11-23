@@ -1,5 +1,4 @@
 title: tiddler-readme
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-readme
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

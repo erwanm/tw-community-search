@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124205941000
 purpose: find the tiddlers that have the input tags
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Tag Operators]]
+original-tags: [[Filter Operators]] [[Tag Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: tagging Operator
 source-tiddler-title-as-link: tagging%20Operator

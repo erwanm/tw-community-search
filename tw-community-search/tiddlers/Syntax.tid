@@ -1,5 +1,4 @@
 title: Syntax
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Syntax
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

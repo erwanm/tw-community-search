@@ -1,5 +1,4 @@
 title: unfinished
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: unfinished
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

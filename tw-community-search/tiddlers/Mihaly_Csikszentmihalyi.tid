@@ -1,5 +1,4 @@
 title: Mihaly Csikszentmihalyi
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Mihaly Csikszentmihalyi
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

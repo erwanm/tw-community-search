@@ -1,5 +1,4 @@
 title: Test Data
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Test Data
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

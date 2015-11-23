@@ -1,5 +1,4 @@
 title: Javert
-tags: CommunityTags
-community-tag-count: 13
+new-tiddler: Tag: Javert
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

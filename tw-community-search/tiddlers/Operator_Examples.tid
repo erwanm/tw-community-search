@@ -1,5 +1,4 @@
 title: Operator Examples
-tags: CommunityTags
-community-tag-count: 51
+new-tiddler: Tag: Operator Examples
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

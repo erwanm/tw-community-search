@@ -4,7 +4,7 @@ created: 20140828133830424
 modified: 20150124173434000
 purpose: filter the input titles by how they end, deleting that suffix
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[String Operators]]
+original-tags: [[Filter Operators]] [[String Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: removesuffix Operator
 source-tiddler-title-as-link: removesuffix%20Operator

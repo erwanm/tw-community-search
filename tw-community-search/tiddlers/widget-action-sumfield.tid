@@ -1,5 +1,4 @@
 title: widget-action-sumfield
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: widget-action-sumfield
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

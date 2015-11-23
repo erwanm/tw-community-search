@@ -1,5 +1,4 @@
 title: Wiki Settings
-tags: CommunityTags
-community-tag-count: 10
+new-tiddler: Tag: Wiki Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: hangouts
-tags: CommunityTags
-community-tag-count: 82
+new-tiddler: Tag: hangouts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -32,7 +32,7 @@ short_description: A random number generator
 tester: 
 translator: 
 wiki: http://inmysocks.tiddlyspot.com/
-tags:  widget-action-randval [[Plugin twCard]]
+original-tags: widget-action-randval [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - RandVal
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20RandVal

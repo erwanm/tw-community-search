@@ -1,5 +1,4 @@
 title: UI
-tags: CommunityTags
-community-tag-count: 21
+new-tiddler: Tag: UI
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

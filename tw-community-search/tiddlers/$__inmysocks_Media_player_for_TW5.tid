@@ -5,7 +5,7 @@ name: Media player for TW5
 note: A proof of concept demo
 url: http://mediaplayer.tiddlyspot.com/
 value: 1
-tags:  Bookmark Audio Music Plugins TiddlyWiki Video
+original-tags: Bookmark Audio Music Plugins TiddlyWiki Video
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Media player for TW5
 source-tiddler-title-as-link: Media%20player%20for%20TW5

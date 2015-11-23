@@ -5,7 +5,7 @@ event_order: second
 location: Dictionary
 modified: 20141129044722008
 trigger: DictionaryReadTrigger
-tags:  Event
+original-tags: Event
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: DictionaryReadState2
 source-tiddler-title-as-link: DictionaryReadState2

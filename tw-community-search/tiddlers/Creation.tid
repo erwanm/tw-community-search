@@ -1,5 +1,4 @@
 title: Creation
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Creation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

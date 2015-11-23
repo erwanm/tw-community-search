@@ -1,5 +1,4 @@
 title: moduletypes Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: moduletypes Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

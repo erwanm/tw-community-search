@@ -1,5 +1,4 @@
 title: tiddler-RemoveIntroModalMessage
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-RemoveIntroModalMessage
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

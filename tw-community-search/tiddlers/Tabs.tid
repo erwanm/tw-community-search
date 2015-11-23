@@ -1,5 +1,4 @@
 title: Tabs
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Tabs
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

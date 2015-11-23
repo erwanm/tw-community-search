@@ -1,5 +1,4 @@
 title: tiddler-Contents
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Contents
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

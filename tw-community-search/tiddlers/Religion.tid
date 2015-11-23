@@ -1,5 +1,4 @@
 title: Religion
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Religion
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

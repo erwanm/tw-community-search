@@ -1,5 +1,4 @@
 title: Developing
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Developing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

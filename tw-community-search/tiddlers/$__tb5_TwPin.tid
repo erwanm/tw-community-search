@@ -7,7 +7,7 @@ revision: 0
 summary: pin and unpin tiddlers as default tiddlers
 type: text/vnd.tiddlywiki
 url: http://welford.github.io/pinned4.html
-tags:  [[James Anderson]] Plugin
+original-tags: [[James Anderson]] Plugin
 source-wiki-id: tb5
 source-tiddler-title-as-text: TwPin
 source-tiddler-title-as-link: TwPin

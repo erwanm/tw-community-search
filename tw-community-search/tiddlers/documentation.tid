@@ -1,5 +1,4 @@
 title: documentation
-tags: CommunityTags
-community-tag-count: 30
+new-tiddler: Tag: documentation
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Designer
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Designer
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

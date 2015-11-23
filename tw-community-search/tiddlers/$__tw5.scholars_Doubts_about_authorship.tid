@@ -12,7 +12,7 @@ page_alpha:
 page_omega: 
 source: [[William Shakespeare]]
 tabs: $:/_tw-scholars/tabs!!comment
-tags: 
+original-tags: $:/_type/comment
 source-wiki-id: tw5.scholars
 source-tiddler-title-as-text: Doubts about authorship
 source-tiddler-title-as-link: Doubts%20about%20authorship

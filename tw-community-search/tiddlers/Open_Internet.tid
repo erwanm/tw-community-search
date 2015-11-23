@@ -1,5 +1,4 @@
 title: Open Internet
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Open Internet
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

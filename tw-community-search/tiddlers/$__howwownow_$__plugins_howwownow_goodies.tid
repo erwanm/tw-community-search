@@ -8,7 +8,7 @@ list: readme config changelog
 revision: 26
 source: https://github.com/howwownow/tiddlywiki-my-goodies
 version: 0.0.15sp1
-tags: 
+original-tags: 
 source-wiki-id: howwownow
 source-tiddler-title-as-text: $:/plugins/howwownow/goodies
 source-tiddler-title-as-link: %24%3a%2fplugins%2fhowwownow%2fgoodies

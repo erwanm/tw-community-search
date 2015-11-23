@@ -1,5 +1,4 @@
 title: Twiddle
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Twiddle
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Folders
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Folders
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

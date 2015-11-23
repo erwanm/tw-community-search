@@ -1,5 +1,4 @@
 title: Modal Display
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Modal Display
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

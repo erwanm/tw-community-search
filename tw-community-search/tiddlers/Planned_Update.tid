@@ -1,5 +1,4 @@
 title: Planned Update
-tags: CommunityTags
-community-tag-count: 170
+new-tiddler: Tag: Planned Update
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

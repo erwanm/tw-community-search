@@ -1,5 +1,4 @@
 title: tiddler-Example Contact (Alias)
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Example Contact (Alias)
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

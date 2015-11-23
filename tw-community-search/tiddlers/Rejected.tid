@@ -1,5 +1,4 @@
 title: Rejected
-tags: CommunityTags
-community-tag-count: 20
+new-tiddler: Tag: Rejected
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

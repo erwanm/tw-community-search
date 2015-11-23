@@ -1,5 +1,4 @@
 title: backlinks Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: backlinks Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

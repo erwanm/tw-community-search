@@ -16,7 +16,7 @@ repository:
 revision: 0.0.7
 short_description: An icon in the tiddler menu that lets you add tiddlers to a 'Favorites' list.
 wiki: http://t5a.tiddlyspot.com/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Favorites
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Favorites

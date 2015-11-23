@@ -5,7 +5,7 @@ modified: 20150113193341187
 tmap.edges: {"77dd0653-828b-405f-af71-6ec144696678":{"to":"30e39689-af74-4182-99b2-33e1331d9f0f","type":"demo:example"}}
 tmap.id: ec5baa28-49ee-4e0c-a1ac-c1b83bd52fb0
 type: text/vnd.tiddlywiki
-tags: 
+original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: A tiddler with a large tiddler title and a caption field
 source-tiddler-title-as-link: A%20tiddler%20with%20a%20large%20tiddler%20title%20and%20a%20caption%20field

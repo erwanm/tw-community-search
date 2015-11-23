@@ -17,7 +17,7 @@ street_address: 999 somestreet Rd
 work_email_address: work@work.com
 work_phone_number: 
 zip_code: 11111
-tags:  Contacts
+original-tags: Contacts
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Test test (tset)
 source-tiddler-title-as-link: Test%20test%20%28tset%29

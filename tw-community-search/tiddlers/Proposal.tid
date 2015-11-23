@@ -1,5 +1,4 @@
 title: Proposal
-tags: CommunityTags
-community-tag-count: 21
+new-tiddler: Tag: Proposal
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

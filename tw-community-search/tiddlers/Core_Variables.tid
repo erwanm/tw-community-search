@@ -1,5 +1,4 @@
 title: Core Variables
-tags: CommunityTags
-community-tag-count: 15
+new-tiddler: Tag: Core Variables
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

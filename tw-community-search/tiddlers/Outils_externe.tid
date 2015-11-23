@@ -1,5 +1,4 @@
 title: Outils externe
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Outils externe
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: New Contact Form
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: New Contact Form
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

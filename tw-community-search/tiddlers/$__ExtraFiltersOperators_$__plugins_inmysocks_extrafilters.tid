@@ -5,7 +5,7 @@ dependents:
 description: Some extra filters for TiddlyWiki
 source: 
 version: 0.0.1
-tags: 
+original-tags: 
 source-wiki-id: ExtraFiltersOperators
 source-tiddler-title-as-text: $:/plugins/inmysocks/extrafilters
 source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fextrafilters

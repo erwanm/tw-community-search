@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]]
+original-tags: Bug [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Figure out why the text for some of the locations in the library tracker are centered instead of left justified
 source-tiddler-title-as-link: Figure%20out%20why%20the%20text%20for%20some%20of%20the%20locations%20in%20the%20library%20tracker%20are%20centered%20instead%20of%20left%20justified

@@ -1,5 +1,4 @@
 title: Width Settings
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Width Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

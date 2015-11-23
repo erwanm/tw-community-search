@@ -1,5 +1,4 @@
 title: Photos
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Photos
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

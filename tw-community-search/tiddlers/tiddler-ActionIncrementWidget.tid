@@ -1,5 +1,4 @@
 title: tiddler-ActionIncrementWidget
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-ActionIncrementWidget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

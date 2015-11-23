@@ -1,5 +1,4 @@
 title: Dogs
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Dogs
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

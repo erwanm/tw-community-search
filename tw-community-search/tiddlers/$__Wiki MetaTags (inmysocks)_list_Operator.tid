@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124203324000
 purpose: select titles via a list field
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Field Operators]] [[Absolute Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Field Operators]] [[Absolute Operators]] [[Negatable Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: list Operator
 source-tiddler-title-as-link: list%20Operator

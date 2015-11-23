@@ -5,7 +5,7 @@ rank: 6
 tmap.edges: {"34944601-27b4-4ae8-a053-713c8d6aebce":{"to":"9d97c1e8-9458-44f9-97c5-82253da987c0","type":"belongs to"},"da8ac3b4-0bc3-4420-9440-321b4847804e":{"to":"1e3565b4-f11f-4191-9d24-c4a54faed0d5","type":"demo:suggestion"}}
 tmap.id: 8FA9A14C-D58E-4257-ADDC-D01E834DD18C
 type: text/vnd.tiddlywiki
-tags:  Examples
+original-tags: Examples
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: The widget's editor option
 source-tiddler-title-as-link: The%20widget%27s%20editor%20option

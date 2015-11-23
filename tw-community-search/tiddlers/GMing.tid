@@ -1,5 +1,4 @@
 title: GMing
-tags: CommunityTags
-community-tag-count: 17
+new-tiddler: Tag: GMing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

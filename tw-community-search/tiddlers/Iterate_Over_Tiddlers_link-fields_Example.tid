@@ -1,5 +1,4 @@
 title: Iterate Over Tiddlers link-fields Example
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Iterate Over Tiddlers link-fields Example
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

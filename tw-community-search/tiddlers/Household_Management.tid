@@ -1,5 +1,4 @@
 title: Household Management
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Household Management
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

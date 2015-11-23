@@ -8,7 +8,7 @@ op-parameter: the name of a [[field|TiddlerFields]], defaulting to <<.field list
 op-parameter-name: F
 op-purpose: find the titles that list the input titles
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Field Operators]]
+original-tags: [[Filter Operators]] [[Field Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: listed Operator
 source-tiddler-title-as-link: listed%20Operator

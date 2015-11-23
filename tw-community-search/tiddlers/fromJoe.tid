@@ -1,5 +1,4 @@
 title: fromJoe
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: fromJoe
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

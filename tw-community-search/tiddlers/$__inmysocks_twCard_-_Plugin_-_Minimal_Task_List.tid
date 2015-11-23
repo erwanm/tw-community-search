@@ -16,7 +16,7 @@ repository:
 revision: 0.1.1
 short_description: A simple task list
 wiki: http://inmysocks.tiddlyspot.com/
-tags:  [[tiddler-Minimal Task List]] [[Plugin twCard]]
+original-tags: [[tiddler-Minimal Task List]] [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Minimal Task List
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Minimal%20Task%20List

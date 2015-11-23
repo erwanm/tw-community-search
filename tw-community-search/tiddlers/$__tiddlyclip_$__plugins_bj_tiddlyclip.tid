@@ -7,7 +7,7 @@ description: include web content
 revision: 0
 source: https://github.com/buggyj/tiddlyclip-plugin
 version: 0.0.7-alpha
-tags: 
+original-tags: 
 source-wiki-id: tiddlyclip
 source-tiddler-title-as-text: $:/plugins/bj/tiddlyclip
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2ftiddlyclip

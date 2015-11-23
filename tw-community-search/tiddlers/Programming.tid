@@ -1,5 +1,4 @@
 title: Programming
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Programming
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Enhancement
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Enhancement
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

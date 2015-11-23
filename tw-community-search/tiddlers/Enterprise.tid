@@ -1,5 +1,4 @@
 title: Enterprise
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Enterprise
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Analytics
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Analytics
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

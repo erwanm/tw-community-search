@@ -7,7 +7,7 @@ modifier: Tobias Beer
 revision: 0
 summary: @@color:red;experimental / under development@@ — allows to dynamically filter lists by tags of listed tiddlers
 url: http://tagfilter.tiddlyspot.com
-tags:  [[Tobias Beer]] Solutions Tags Filters
+original-tags: [[Tobias Beer]] Solutions Tags Filters
 source-wiki-id: tb5
 source-tiddler-title-as-text: tagfilter
 source-tiddler-title-as-link: tagfilter

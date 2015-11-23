@@ -1,5 +1,4 @@
 title: 72
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: 72
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

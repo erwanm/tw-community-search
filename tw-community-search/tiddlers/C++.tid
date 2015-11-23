@@ -1,5 +1,4 @@
 title: C++
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: C++
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

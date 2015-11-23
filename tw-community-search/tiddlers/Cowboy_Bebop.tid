@@ -1,5 +1,4 @@
 title: Cowboy Bebop
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Cowboy Bebop
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

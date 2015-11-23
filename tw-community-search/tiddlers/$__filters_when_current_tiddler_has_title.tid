@@ -5,7 +5,7 @@ filter: [[TiddlerTitle]is[current]]
 modified: 20150129200308379
 modifier: Tobias Beer
 summary: returns current tiddler when having a given title
-tags:  Filters title current is
+original-tags: Filters title current is
 source-wiki-id: filters
 source-tiddler-title-as-text: when current tiddler has title
 source-tiddler-title-as-link: when%20current%20tiddler%20has%20title

@@ -1,5 +1,4 @@
 title: Tidbits
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Tidbits
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

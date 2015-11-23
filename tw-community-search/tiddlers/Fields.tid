@@ -1,5 +1,4 @@
 title: Fields
-tags: CommunityTags
-community-tag-count: 29
+new-tiddler: Tag: Fields
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

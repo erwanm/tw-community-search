@@ -1,5 +1,4 @@
 title: Use Cases
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Use Cases
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

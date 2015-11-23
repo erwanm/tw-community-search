@@ -1,5 +1,4 @@
 title: Year
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Year
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

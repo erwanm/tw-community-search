@@ -1,5 +1,4 @@
 title: @free
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: @free
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

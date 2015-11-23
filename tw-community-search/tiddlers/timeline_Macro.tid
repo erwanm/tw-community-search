@@ -1,5 +1,4 @@
 title: timeline Macro
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: timeline Macro
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

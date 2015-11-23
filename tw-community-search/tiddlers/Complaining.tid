@@ -1,5 +1,4 @@
 title: Complaining
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Complaining
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

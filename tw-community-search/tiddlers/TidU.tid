@@ -1,5 +1,4 @@
 title: TidU
-tags: CommunityTags
-community-tag-count: 42
+new-tiddler: Tag: TidU
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

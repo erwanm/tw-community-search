@@ -1,5 +1,4 @@
 title: Application Notes
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Application Notes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

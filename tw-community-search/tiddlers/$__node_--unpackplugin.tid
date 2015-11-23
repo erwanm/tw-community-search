@@ -4,7 +4,7 @@ modified: 20151014051532601
 p.title: (required) the [[plugin|plugins]] tiddler to unpack
 params: <title>
 summary: extract the payload tiddlers from a [[plugin|plugins]], creating them as ordinary tiddlers
-tags:  commands
+original-tags: commands
 source-wiki-id: node
 source-tiddler-title-as-text: --unpackplugin
 source-tiddler-title-as-link: --unpackplugin

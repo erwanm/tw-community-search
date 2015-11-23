@@ -1,5 +1,4 @@
 title: Games
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: Games
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

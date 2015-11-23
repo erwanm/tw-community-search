@@ -1,5 +1,4 @@
 title: Tc Local Rules
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Tc Local Rules
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

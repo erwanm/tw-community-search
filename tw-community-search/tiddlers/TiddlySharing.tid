@@ -1,5 +1,4 @@
 title: TiddlySharing
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: TiddlySharing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

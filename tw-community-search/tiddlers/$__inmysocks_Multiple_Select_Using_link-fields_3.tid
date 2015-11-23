@@ -5,7 +5,7 @@ modified: 20150105231055316
 source_field_1: foo
 source_field_2: bar
 source_field_3: baz
-tags:  [[Multiple Fields Select Widget]]
+original-tags: [[Multiple Fields Select Widget]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Multiple Select Using link-fields 3
 source-tiddler-title-as-link: Multiple%20Select%20Using%20link-fields%203

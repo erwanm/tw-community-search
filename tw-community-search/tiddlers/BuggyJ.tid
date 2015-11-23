@@ -1,5 +1,4 @@
 title: BuggyJ
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: BuggyJ
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

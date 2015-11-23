@@ -1,5 +1,4 @@
 title: testing
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: testing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

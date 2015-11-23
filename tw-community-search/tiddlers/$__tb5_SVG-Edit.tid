@@ -7,7 +7,7 @@ revision: 0
 summary: a web-enabled editor for svg files — or go with a much more powerful desktop app: [[inkscape|https://inkscape.org]]
 type: text/vnd.tiddlywiki
 url: http://svg-edit.googlecode.com
-tags:  Editing SVG Images
+original-tags: Editing SVG Images
 source-wiki-id: tb5
 source-tiddler-title-as-text: SVG-Edit
 source-tiddler-title-as-link: SVG-Edit

@@ -4,7 +4,7 @@ link_fields_example_source_field: Hola!
 modified: 20150106041449502
 other_example_store_field: Hola!
 test_store: 1
-tags:  [[The link-fields Widget]]
+original-tags: [[The link-fields Widget]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: link-fields Widget - Simple Example
 source-tiddler-title-as-link: link-fields%20Widget%20-%20Simple%20Example

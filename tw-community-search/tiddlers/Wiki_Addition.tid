@@ -1,5 +1,4 @@
 title: Wiki Addition
-tags: CommunityTags
-community-tag-count: 13
+new-tiddler: Tag: Wiki Addition
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

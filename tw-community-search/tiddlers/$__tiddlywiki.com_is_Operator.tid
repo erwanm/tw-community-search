@@ -9,7 +9,7 @@ op-parameter: a category
 op-parameter-name: C
 op-purpose: filter the input by fundamental category
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Common Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Common Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: is Operator
 source-tiddler-title-as-link: is%20Operator

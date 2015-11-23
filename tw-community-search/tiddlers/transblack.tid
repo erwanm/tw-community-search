@@ -1,5 +1,4 @@
 title: transblack
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: transblack
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

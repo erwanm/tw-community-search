@@ -1,5 +1,4 @@
 title: Lesbian
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Lesbian
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

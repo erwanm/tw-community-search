@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124210534000
 purpose: select the plugin titles that contain the input shadows
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Special Operators]]
+original-tags: [[Filter Operators]] [[Special Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: shadowsource Operator
 source-tiddler-title-as-link: shadowsource%20Operator

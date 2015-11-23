@@ -1,5 +1,4 @@
 title: regexp Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: regexp Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

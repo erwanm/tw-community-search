@@ -1,5 +1,4 @@
 title: Markup
-tags: CommunityTags
-community-tag-count: 45
+new-tiddler: Tag: Markup
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Jim Lehmer
-tags: CommunityTags
-community-tag-count: 7
+new-tiddler: Tag: Jim Lehmer
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

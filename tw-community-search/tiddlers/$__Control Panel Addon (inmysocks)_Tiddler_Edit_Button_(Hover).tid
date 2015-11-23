@@ -2,7 +2,7 @@ title: $:/Control Panel Addon (inmysocks)/Tiddler Edit Button (Hover)
 css_tiddler: button.tc-btn-invisible:hover svg.tc-image-edit-button.tc-image-button Class Override
 description: Applies to the tiddler edit button when hovered over
 modified: 20150603200354986
-tags:  [[Advanced Settings Category]] [[Toolbar Icons]]
+original-tags: [[Advanced Settings Category]] [[Toolbar Icons]]
 source-wiki-id: Control Panel Addon (inmysocks)
 source-tiddler-title-as-text: Tiddler Edit Button (Hover)
 source-tiddler-title-as-link: Tiddler%20Edit%20Button%20%28Hover%29

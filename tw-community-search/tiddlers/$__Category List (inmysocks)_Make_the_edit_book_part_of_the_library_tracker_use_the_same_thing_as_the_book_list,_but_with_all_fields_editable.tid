@@ -12,7 +12,7 @@ start_day:
 start_month: 
 start_year: 
 subcategory: Library Tracker
-tags:  [[Planned Update]] [[Change Log]]
+original-tags: [[Planned Update]] [[Change Log]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Make the edit book part of the library tracker use the same thing as the book list, but with all fields editable
 source-tiddler-title-as-link: Make%20the%20edit%20book%20part%20of%20the%20library%20tracker%20use%20the%20same%20thing%20as%20the%20book%20list%2c%20but%20with%20all%20fields%20editable

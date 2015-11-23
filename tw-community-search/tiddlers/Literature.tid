@@ -1,5 +1,4 @@
 title: Literature
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Literature
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

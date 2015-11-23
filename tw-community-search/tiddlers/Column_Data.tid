@@ -1,5 +1,4 @@
 title: Column Data
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Column Data
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

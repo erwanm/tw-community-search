@@ -1,5 +1,4 @@
 title: nsortcs Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: nsortcs Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

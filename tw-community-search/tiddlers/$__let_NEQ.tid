@@ -5,7 +5,7 @@ modified: 20141203230000000
 modifier: Tobias Beer
 summary: matches all where the value of a field does ''not equal'' that of the operand
 types: [[any|TYPE]]
-tags:  Comparators
+original-tags: Comparators
 source-wiki-id: let
 source-tiddler-title-as-text: NEQ
 source-tiddler-title-as-link: NEQ

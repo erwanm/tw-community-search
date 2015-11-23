@@ -13,7 +13,7 @@ start_month:
 start_year: 
 subcategory: Category Lists
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]]
+original-tags: Bug [[Planned Update]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Figure out why the icons aren't displaying correctly in chrome
 source-tiddler-title-as-link: Figure%20out%20why%20the%20icons%20aren%27t%20displaying%20correctly%20in%20chrome

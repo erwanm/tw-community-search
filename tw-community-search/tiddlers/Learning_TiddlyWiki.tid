@@ -1,5 +1,4 @@
 title: Learning TiddlyWiki
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Learning TiddlyWiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

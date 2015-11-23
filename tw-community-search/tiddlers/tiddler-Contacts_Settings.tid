@@ -1,5 +1,4 @@
 title: tiddler-Contacts Settings
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Contacts Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Old-time Radio
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Old-time Radio
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

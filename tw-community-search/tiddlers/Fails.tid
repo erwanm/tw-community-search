@@ -1,5 +1,4 @@
 title: Fails
-tags: CommunityTags
-community-tag-count: 8
+new-tiddler: Tag: Fails
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: 5.0.18-beta
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: 5.0.18-beta
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

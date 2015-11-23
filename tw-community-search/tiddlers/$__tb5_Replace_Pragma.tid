@@ -7,7 +7,7 @@ revision: 0
 summary: allows to use regular expressions to search and replace in wikitext before parsing
 type: text/vnd.tiddlywiki
 url: http://tiddlystuff.tiddlyspot.com#ReplacePragma
-tags:  Text Parser [[Stephan Hradek]] Plugin
+original-tags: Text Parser [[Stephan Hradek]] Plugin
 source-wiki-id: tb5
 source-tiddler-title-as-text: Replace Pragma
 source-tiddler-title-as-link: Replace%20Pragma

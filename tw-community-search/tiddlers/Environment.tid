@@ -1,5 +1,4 @@
 title: Environment
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Environment
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

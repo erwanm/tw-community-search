@@ -10,7 +10,7 @@ summary: The first post
 template: BlogDisplayTemplate1
 time: 20150203151600
 year: 2015
-tags:  [[My Blog]] [[Normal Post]]
+original-tags: [[My Blog]] [[Normal Post]]
 source-wiki-id: External Brain (inmysocks)
 source-tiddler-title-as-text: First Post! Also, what is this?
 source-tiddler-title-as-link: First%20Post%21%20Also%2c%20what%20is%20this%3f

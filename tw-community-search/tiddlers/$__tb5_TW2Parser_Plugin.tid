@@ -7,7 +7,7 @@ revision: 0
 summary: an experimental plugin to display WikiText written for classic TiddlyWiki
 type: text/vnd.tiddlywiki
 url: http://tiddlywiki.com/plugins/tiddlywiki/tw2parser/
-tags:  Core Rendering Parser Plugin Solutions
+original-tags: Core Rendering Parser Plugin Solutions
 source-wiki-id: tb5
 source-tiddler-title-as-text: TW2Parser Plugin
 source-tiddler-title-as-link: TW2Parser%20Plugin

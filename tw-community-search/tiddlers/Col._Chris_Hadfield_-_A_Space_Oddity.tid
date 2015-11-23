@@ -1,5 +1,4 @@
 title: Col. Chris Hadfield - A Space Oddity
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Col. Chris Hadfield - A Space Oddity
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Gender
-tags: CommunityTags
-community-tag-count: 14
+new-tiddler: Tag: Gender
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

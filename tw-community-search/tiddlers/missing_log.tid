@@ -1,5 +1,4 @@
 title: missing log
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: missing log
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

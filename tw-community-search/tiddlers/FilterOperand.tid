@@ -1,5 +1,4 @@
 title: FilterOperand
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: FilterOperand
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

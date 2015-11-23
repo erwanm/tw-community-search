@@ -1,5 +1,4 @@
 title: Static Sites
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Static Sites
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

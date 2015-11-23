@@ -1,5 +1,4 @@
 title: Field Operators
-tags: CommunityTags
-community-tag-count: 59
+new-tiddler: Tag: Field Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

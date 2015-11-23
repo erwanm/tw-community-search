@@ -1,5 +1,4 @@
 title: Renaming
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Renaming
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

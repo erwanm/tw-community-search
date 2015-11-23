@@ -1,5 +1,4 @@
 title: widget-action-prodfield
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: widget-action-prodfield
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Working with TiddlyWiki
-tags: CommunityTags
-community-tag-count: 51
+new-tiddler: Tag: Working with TiddlyWiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

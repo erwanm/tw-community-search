@@ -1,5 +1,4 @@
 title: sw:InfoExchanging
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: sw:InfoExchanging
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

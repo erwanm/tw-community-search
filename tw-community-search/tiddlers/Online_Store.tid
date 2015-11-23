@@ -1,5 +1,4 @@
 title: Online Store
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Online Store
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

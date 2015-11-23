@@ -1,5 +1,4 @@
 title: HangOut_059
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: HangOut_059
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

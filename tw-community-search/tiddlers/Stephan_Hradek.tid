@@ -1,5 +1,4 @@
 title: Stephan Hradek
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: Stephan Hradek
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

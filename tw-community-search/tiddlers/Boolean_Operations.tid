@@ -1,5 +1,4 @@
 title: Boolean Operations
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Boolean Operations
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Celebration
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Celebration
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

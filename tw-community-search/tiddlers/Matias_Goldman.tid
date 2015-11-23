@@ -1,5 +1,4 @@
 title: Matias Goldman
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Matias Goldman
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

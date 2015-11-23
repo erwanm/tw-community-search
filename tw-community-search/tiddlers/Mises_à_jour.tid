@@ -1,5 +1,4 @@
 title: Mises à jour
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Mises à jour
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

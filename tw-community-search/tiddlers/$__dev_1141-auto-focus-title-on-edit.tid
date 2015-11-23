@@ -5,7 +5,7 @@ modified: 20141213124841534
 modifier: Tobias Beer
 summary: focus title field on edit
 url: <<git5 pull/1141>>
-tags:  Pull Accepted 5.1.5
+original-tags: Pull Accepted 5.1.5
 source-wiki-id: dev
 source-tiddler-title-as-text: 1141-auto-focus-title-on-edit
 source-tiddler-title-as-link: 1141-auto-focus-title-on-edit

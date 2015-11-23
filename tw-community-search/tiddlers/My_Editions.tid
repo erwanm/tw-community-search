@@ -1,5 +1,4 @@
 title: My Editions
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: My Editions
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

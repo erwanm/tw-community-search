@@ -1,5 +1,4 @@
 title: TiddlyWiki Hangout #076
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: TiddlyWiki Hangout #076
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

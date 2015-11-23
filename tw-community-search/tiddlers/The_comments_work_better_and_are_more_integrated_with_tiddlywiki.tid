@@ -1,5 +1,4 @@
 title: The comments work better and are more integrated with tiddlywiki
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: The comments work better and are more integrated with tiddlywiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

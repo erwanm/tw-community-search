@@ -1,5 +1,4 @@
 title: Timeline
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Timeline
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

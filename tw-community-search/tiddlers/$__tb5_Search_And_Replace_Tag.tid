@@ -6,7 +6,7 @@ modifier: Tobias Beer
 revision: 0
 summary: {{$:/.tb/wizards/replace-tag!!summary}}
 type: text/vnd.tiddlywiki
-tags:  Solutions Tags Renaming Batch
+original-tags: Solutions Tags Renaming Batch
 source-wiki-id: tb5
 source-tiddler-title-as-text: Search And Replace Tag
 source-tiddler-title-as-link: Search%20And%20Replace%20Tag

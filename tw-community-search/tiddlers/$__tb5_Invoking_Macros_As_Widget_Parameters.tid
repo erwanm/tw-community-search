@@ -5,7 +5,7 @@ modified: 20151010160027529
 revision: 0
 summary: using macros as attributes; for evaluated parameters see [[Dynamic Contents In Macros]]
 type: text/vnd.tiddlywiki
-tags:  Widgets Macros Solutions [[Jeremy Ruston]]
+original-tags: Widgets Macros Solutions [[Jeremy Ruston]]
 source-wiki-id: tb5
 source-tiddler-title-as-text: Invoking Macros As Widget Parameters
 source-tiddler-title-as-link: Invoking%20Macros%20As%20Widget%20Parameters

@@ -1,5 +1,4 @@
 title: Hamburger
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Hamburger
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

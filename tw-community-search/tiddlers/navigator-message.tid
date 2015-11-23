@@ -1,5 +1,4 @@
 title: navigator-message
-tags: CommunityTags
-community-tag-count: 19
+new-tiddler: Tag: navigator-message
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

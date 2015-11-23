@@ -10,7 +10,7 @@ released:
 revision: 0
 source: https://github.com/felixhayashi/TW5-TopStoryView
 version: 0.1.0
-tags: 
+original-tags: 
 source-wiki-id: tb5
 source-tiddler-title-as-text: $:/plugins/felixhayashi/topstoryview
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2ftopstoryview

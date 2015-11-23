@@ -1,5 +1,4 @@
 title: Customise TiddlyWiki
-tags: CommunityTags
-community-tag-count: 18
+new-tiddler: Tag: Customise TiddlyWiki
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

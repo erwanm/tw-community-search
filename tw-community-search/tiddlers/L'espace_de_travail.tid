@@ -1,5 +1,4 @@
 title: L'espace de travail
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: L'espace de travail
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

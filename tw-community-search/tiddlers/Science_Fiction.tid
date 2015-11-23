@@ -1,5 +1,4 @@
 title: Science Fiction
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: Science Fiction
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

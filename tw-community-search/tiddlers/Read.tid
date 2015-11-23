@@ -1,5 +1,4 @@
 title: Read
-tags: CommunityTags
-community-tag-count: 49
+new-tiddler: Tag: Read
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

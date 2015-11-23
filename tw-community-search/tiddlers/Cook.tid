@@ -1,5 +1,4 @@
 title: Cook
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Cook
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

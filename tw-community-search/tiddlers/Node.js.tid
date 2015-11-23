@@ -1,5 +1,4 @@
 title: Node.js
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Node.js
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

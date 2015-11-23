@@ -1,5 +1,4 @@
 title: Utilities
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Utilities
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124205339000
 purpose: sort the input titles by number field, ignoring case
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
 source-wiki-id: Wiki MetaTags (inmysocks)
 source-tiddler-title-as-text: nsortcs Operator
 source-tiddler-title-as-link: nsortcs%20Operator

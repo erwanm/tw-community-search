@@ -1,5 +1,4 @@
 title: removeprefix Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: removeprefix Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

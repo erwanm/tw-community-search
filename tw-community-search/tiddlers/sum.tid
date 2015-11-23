@@ -1,5 +1,4 @@
 title: sum
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: sum
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: search
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: search
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

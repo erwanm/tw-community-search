@@ -1,5 +1,4 @@
 title: Needs Work
-tags: CommunityTags
-community-tag-count: 17
+new-tiddler: Tag: Needs Work
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

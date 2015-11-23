@@ -1,5 +1,4 @@
 title: OK
-tags: CommunityTags
-community-tag-count: 26
+new-tiddler: Tag: OK
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

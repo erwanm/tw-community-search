@@ -1,5 +1,4 @@
 title: sumthing
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: sumthing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

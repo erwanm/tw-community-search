@@ -1,5 +1,4 @@
 title: My Themes
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: My Themes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

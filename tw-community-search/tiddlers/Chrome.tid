@@ -1,5 +1,4 @@
 title: Chrome
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Chrome
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

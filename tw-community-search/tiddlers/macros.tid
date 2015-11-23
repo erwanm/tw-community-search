@@ -1,5 +1,4 @@
 title: macros
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: macros
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

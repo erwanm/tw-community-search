@@ -1,5 +1,4 @@
 title: DayAfter
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: DayAfter
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

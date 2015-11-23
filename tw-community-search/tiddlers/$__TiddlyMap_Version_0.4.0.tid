@@ -6,7 +6,7 @@ released: 20141110
 tmap.edges: {"2A691D62-27A9-425A-AD39-327A56358316":{"to":"588A62B6-6AB3-438E-9820-FFEAF6D388F0","type":"then"}}
 tmap.id: EB8DBFAF-E1B1-4E91-A784-4CC2B34D9D40
 type: text/vnd.tiddlywiki
-tags:  ReleaseNote Usability
+original-tags: ReleaseNote Usability
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.4.0
 source-tiddler-title-as-link: Version%200.4.0

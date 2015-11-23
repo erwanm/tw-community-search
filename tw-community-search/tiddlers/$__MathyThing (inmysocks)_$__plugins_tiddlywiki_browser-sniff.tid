@@ -1,0 +1,14 @@
+title: $:/MathyThing (inmysocks)/$:/plugins/tiddlywiki/browser-sniff
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Browser sniffing for TiddlyWiki
+list: readme
+version: 5.1.6-prerelease
+original-tags: 
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/browser-sniff
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fbrowser-sniff
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

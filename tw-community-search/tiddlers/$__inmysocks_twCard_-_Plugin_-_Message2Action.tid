@@ -16,7 +16,7 @@ repository:
 revision: 0.0.1
 short_description: Catches a widget message and treats them as an action-widget
 wiki: http://inmysocks.tiddlyspot.com/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - Message2Action
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Message2Action

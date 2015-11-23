@@ -1,5 +1,4 @@
 title: Filter Operators
-tags: CommunityTags
-community-tag-count: 216
+new-tiddler: Tag: Filter Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

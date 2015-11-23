@@ -1,5 +1,4 @@
 title: bash
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: bash
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

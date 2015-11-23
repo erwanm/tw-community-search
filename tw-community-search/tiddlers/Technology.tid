@@ -1,5 +1,4 @@
 title: Technology
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Technology
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

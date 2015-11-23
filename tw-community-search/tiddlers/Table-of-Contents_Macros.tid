@@ -1,5 +1,4 @@
 title: Table-of-Contents Macros
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Table-of-Contents Macros
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

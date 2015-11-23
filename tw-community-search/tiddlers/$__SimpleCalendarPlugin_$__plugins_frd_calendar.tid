@@ -4,7 +4,7 @@ core-version:
 description: Calendar - a simple calendar macro
 list: $:/plugins/frd/calendar/Doc_Main
 version: 0.1.10
-tags: 
+original-tags: 
 source-wiki-id: SimpleCalendarPlugin
 source-tiddler-title-as-text: $:/plugins/frd/calendar
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffrd%2fcalendar

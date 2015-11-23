@@ -1,5 +1,4 @@
 title: tag Macro (Examples)
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tag Macro (Examples)
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124205948000
 purpose: filter the input by tag
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Common Operators]] [[Tag Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Common Operators]] [[Tag Operators]] [[Negatable Operators]]
 source-wiki-id: Tiddler Gallery (inmysocks)
 source-tiddler-title-as-text: tag Operator
 source-tiddler-title-as-link: tag%20Operator

@@ -4,7 +4,7 @@ created: 20140410103123179
 modified: 20150124173431000
 purpose: filter the input titles by how they start, deleting that prefix
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[String Operators]]
+original-tags: [[Filter Operators]] [[String Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: removeprefix Operator
 source-tiddler-title-as-link: removeprefix%20Operator

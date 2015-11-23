@@ -7,7 +7,7 @@ revision: 0
 summary: notes about developing with TiddlyWiki
 type: text/vnd.tiddlywiki
 url: http://tobibeer.github.io/dev5
-tags:  [[Tobias Beer]] Developer
+original-tags: [[Tobias Beer]] Developer
 source-wiki-id: tb5
 source-tiddler-title-as-text: dev5
 source-tiddler-title-as-link: dev5

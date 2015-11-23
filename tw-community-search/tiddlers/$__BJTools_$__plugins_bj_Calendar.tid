@@ -7,7 +7,7 @@ description: calendar with date formatter addons
 revision: 0
 source: https://github.com/buggyj/TW5-Calendar
 version: 0.0.5
-tags: 
+original-tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/Calendar
 source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fCalendar

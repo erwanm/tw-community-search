@@ -1,5 +1,4 @@
 title: By inmysocks
-tags: CommunityTags
-community-tag-count: 11
+new-tiddler: Tag: By inmysocks
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

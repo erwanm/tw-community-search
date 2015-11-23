@@ -1,5 +1,4 @@
 title: Modifying CSS
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Modifying CSS
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

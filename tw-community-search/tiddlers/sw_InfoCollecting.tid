@@ -1,5 +1,4 @@
 title: sw:InfoCollecting
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: sw:InfoCollecting
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

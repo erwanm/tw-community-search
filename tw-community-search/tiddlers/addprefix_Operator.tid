@@ -1,5 +1,4 @@
 title: addprefix Operator
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: addprefix Operator
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

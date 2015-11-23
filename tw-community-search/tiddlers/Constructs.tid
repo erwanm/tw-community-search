@@ -1,5 +1,4 @@
 title: Constructs
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Constructs
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: tiddler-Wiki Settings
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-Wiki Settings
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

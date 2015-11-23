@@ -16,7 +16,7 @@ repository:
 revision: 0.0.4
 short_description: Flexibly tweak sidebar width for TiddlyWiki 5
 wiki: http://eucaly-tw5.tiddlyspot.com/
-tags:  [[Plugin twCard]]
+original-tags: [[Plugin twCard]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: twCard - Plugin - FlexWidth
 source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20FlexWidth

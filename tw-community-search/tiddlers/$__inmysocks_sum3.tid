@@ -5,7 +5,7 @@ store_field:
 store_field4: 21.91
 sum_field: 21.23
 sum_field2: .68
-tags:  sum
+original-tags: sum
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: sum3
 source-tiddler-title-as-link: sum3

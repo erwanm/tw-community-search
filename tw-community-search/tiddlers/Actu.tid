@@ -1,5 +1,4 @@
 title: Actu
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Actu
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

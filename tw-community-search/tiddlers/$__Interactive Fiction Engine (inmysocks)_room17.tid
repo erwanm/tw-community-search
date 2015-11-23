@@ -10,7 +10,7 @@ south: room22
 south_button: <<southButton>>
 west: room16
 west_button: <<westButton>>
-tags:  Room
+original-tags: Room
 source-wiki-id: Interactive Fiction Engine (inmysocks)
 source-tiddler-title-as-text: room17
 source-tiddler-title-as-link: room17

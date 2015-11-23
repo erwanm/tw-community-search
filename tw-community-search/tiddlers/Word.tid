@@ -1,5 +1,4 @@
 title: Word
-tags: CommunityTags
-community-tag-count: 113
+new-tiddler: Tag: Word
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

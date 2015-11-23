@@ -4,7 +4,7 @@ dependents:
 description: Adds support of MathJax
 modified: 20140520145420337
 version: 5.0.12-beta
-tags: 
+original-tags: 
 source-wiki-id: mathjax-tw5.kantorsite
 source-tiddler-title-as-text: $:/plugins/kantorsite/mathjax
 source-tiddler-title-as-link: %24%3a%2fplugins%2fkantorsite%2fmathjax

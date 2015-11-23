@@ -1,5 +1,4 @@
 title: qualify Macro
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: qualify Macro
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

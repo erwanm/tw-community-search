@@ -1,5 +1,4 @@
 title: BlueBoxTags
-tags: CommunityTags
-community-tag-count: 12
+new-tiddler: Tag: BlueBoxTags
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

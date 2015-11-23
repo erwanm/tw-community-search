@@ -1,5 +1,4 @@
 title: regexp
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: regexp
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

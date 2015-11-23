@@ -1,5 +1,4 @@
 title: Width
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Width
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

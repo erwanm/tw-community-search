@@ -1,5 +1,4 @@
 title: Concepts
-tags: CommunityTags
-community-tag-count: 102
+new-tiddler: Tag: Concepts
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

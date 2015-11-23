@@ -1,5 +1,4 @@
 title: BrokenBits
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: BrokenBits
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

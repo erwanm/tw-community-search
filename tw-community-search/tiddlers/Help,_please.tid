@@ -1,5 +1,4 @@
 title: Help, please
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Help, please
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

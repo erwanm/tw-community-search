@@ -1,5 +1,4 @@
 title: Small Thing
-tags: CommunityTags
-community-tag-count: 92
+new-tiddler: Tag: Small Thing
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: License
-tags: CommunityTags
-community-tag-count: 131
+new-tiddler: Tag: License
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

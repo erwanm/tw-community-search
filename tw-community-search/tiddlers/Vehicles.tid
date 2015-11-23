@@ -1,5 +1,4 @@
 title: Vehicles
-tags: CommunityTags
-community-tag-count: 9
+new-tiddler: Tag: Vehicles
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

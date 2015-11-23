@@ -1,5 +1,4 @@
 title: transparent
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: transparent
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

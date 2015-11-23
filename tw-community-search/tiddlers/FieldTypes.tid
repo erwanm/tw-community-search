@@ -1,5 +1,4 @@
 title: FieldTypes
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: FieldTypes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

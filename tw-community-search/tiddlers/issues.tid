@@ -1,5 +1,4 @@
 title: issues
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: issues
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

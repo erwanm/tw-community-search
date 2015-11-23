@@ -6,7 +6,7 @@ listen_filter: [[Triggering Tiddler]]
 listen_target: true
 modified: 20150222063734590
 test: <$action-setfield text={{Triggering Tiddler!!selected}}/>
-tags: 
+original-tags: $:/tags/Trigger
 source-wiki-id: TriggerActions
 source-tiddler-title-as-text: Example Expression Tiddler
 source-tiddler-title-as-link: Example%20Expression%20Tiddler

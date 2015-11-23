@@ -1,5 +1,4 @@
 title: Software_RefMgmt
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Software_RefMgmt
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

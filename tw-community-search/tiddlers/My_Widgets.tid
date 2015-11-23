@@ -1,5 +1,4 @@
 title: My Widgets
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: My Widgets
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

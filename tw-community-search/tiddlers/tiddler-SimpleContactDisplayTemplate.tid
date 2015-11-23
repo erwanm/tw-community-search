@@ -1,5 +1,4 @@
 title: tiddler-SimpleContactDisplayTemplate
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: tiddler-SimpleContactDisplayTemplate
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Ernest Hemmingway
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Ernest Hemmingway
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: WebApp
-tags: CommunityTags
-community-tag-count: 150
+new-tiddler: Tag: WebApp
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

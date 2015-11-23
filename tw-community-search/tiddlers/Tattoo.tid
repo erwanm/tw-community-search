@@ -1,5 +1,4 @@
 title: Tattoo
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Tattoo
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

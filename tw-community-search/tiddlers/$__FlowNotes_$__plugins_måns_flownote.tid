@@ -7,7 +7,7 @@ description: FlowNotes: Create notes in a flow
 list: readme
 modified: 20150819162658554
 version: 0.0.26
-tags: 
+original-tags: 
 source-wiki-id: FlowNotes
 source-tiddler-title-as-text: $:/plugins/måns/flownote
 source-tiddler-title-as-link: %24%3a%2fplugins%2fmåns%2fflownote

@@ -1,5 +1,4 @@
 title: CaseSensitive
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: CaseSensitive
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

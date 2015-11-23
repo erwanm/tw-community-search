@@ -1,5 +1,4 @@
 title: Under Construction
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Under Construction
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

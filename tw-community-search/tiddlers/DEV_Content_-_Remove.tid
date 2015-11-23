@@ -1,5 +1,4 @@
 title: DEV Content - Remove
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: DEV Content - Remove
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Hook
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Hook
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

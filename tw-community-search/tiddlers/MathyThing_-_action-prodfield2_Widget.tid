@@ -1,5 +1,4 @@
 title: MathyThing - action-prodfield2 Widget
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: MathyThing - action-prodfield2 Widget
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

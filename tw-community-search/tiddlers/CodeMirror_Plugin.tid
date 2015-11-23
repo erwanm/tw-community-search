@@ -1,5 +1,4 @@
 title: CodeMirror Plugin
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: CodeMirror Plugin
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

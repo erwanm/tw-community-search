@@ -4,7 +4,7 @@ created: 20140909134102102
 modified: 20150124203736000
 purpose: filter the input by pattern-matched field
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Field Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Field Operators]] [[Negatable Operators]]
 source-wiki-id: Invoking Actions (inmysocks)
 source-tiddler-title-as-text: regexp Operator
 source-tiddler-title-as-link: regexp%20Operator

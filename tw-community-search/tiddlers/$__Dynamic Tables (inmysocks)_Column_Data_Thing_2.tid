@@ -6,7 +6,7 @@ fourth: foo
 modified: 20150327051243654
 second: joe
 third: bob
-tags:  [[Column Data]]
+original-tags: [[Column Data]]
 source-wiki-id: Dynamic Tables (inmysocks)
 source-tiddler-title-as-text: Column Data Thing 2
 source-tiddler-title-as-link: Column%20Data%20Thing%202

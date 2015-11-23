@@ -1,5 +1,4 @@
 title: OPERATION
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: OPERATION
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

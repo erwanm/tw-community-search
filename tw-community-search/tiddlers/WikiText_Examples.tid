@@ -1,5 +1,4 @@
 title: WikiText Examples
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: WikiText Examples
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

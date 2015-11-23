@@ -1,5 +1,4 @@
 title: Setting the CSS Class of a Link Based on Tags at the Link Destination
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Setting the CSS Class of a Link Based on Tags at the Link Destination
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

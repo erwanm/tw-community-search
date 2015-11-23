@@ -1,5 +1,4 @@
 title: draft.of
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: draft.of
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

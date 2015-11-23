@@ -1,5 +1,4 @@
 title: Branimir
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Branimir
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Explore
-tags: CommunityTags
-community-tag-count: 16
+new-tiddler: Tag: Explore
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

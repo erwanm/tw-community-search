@@ -6,7 +6,7 @@ left_menu_order: 0
 menu_list: [[TiddlerWidthSettings]] [[Add Image]] [[Blog Archive]]
 modified: 20150518224928835
 modifier: inmysocks
-tags:  [[Menu Icon]]
+original-tags: [[Menu Icon]] $:/tags/LeftMenu
 source-wiki-id: External Brain (inmysocks)
 source-tiddler-title-as-text: Menu Icon - Boring Stuff
 source-tiddler-title-as-link: Menu%20Icon%20-%20Boring%20Stuff

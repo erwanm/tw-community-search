@@ -1,5 +1,4 @@
 title: Display Image
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Display Image
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

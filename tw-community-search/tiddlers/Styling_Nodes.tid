@@ -1,5 +1,4 @@
 title: Styling Nodes
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Styling Nodes
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

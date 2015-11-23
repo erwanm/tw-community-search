@@ -1,5 +1,4 @@
 title: picto
-tags: CommunityTags
-community-tag-count: 6
+new-tiddler: Tag: picto
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

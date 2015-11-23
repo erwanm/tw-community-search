@@ -1,5 +1,4 @@
 title: Amanda Palmer
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Amanda Palmer
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

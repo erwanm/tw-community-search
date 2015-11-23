@@ -1,5 +1,4 @@
 title: Sophie
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: Sophie
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

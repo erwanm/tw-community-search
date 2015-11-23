@@ -1,5 +1,4 @@
 title: Unread
-tags: CommunityTags
-community-tag-count: 81
+new-tiddler: Tag: Unread
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

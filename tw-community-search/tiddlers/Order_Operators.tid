@@ -1,5 +1,4 @@
 title: Order Operators
-tags: CommunityTags
-community-tag-count: 70
+new-tiddler: Tag: Order Operators
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

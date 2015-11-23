@@ -14,7 +14,7 @@ start_month:
 start_year: 
 subcategory: Library Tracker
 subsubcategory: Bugs
-tags:  Bug [[Planned Update]]
+original-tags: Bug [[Planned Update]]
 source-wiki-id: Category List (inmysocks)
 source-tiddler-title-as-text: Put the settings for the library tracker in a non-shadow tiddler
 source-tiddler-title-as-link: Put%20the%20settings%20for%20the%20library%20tracker%20in%20a%20non-shadow%20tiddler

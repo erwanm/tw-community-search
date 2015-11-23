@@ -11,7 +11,7 @@ op-purpose: filter the input by field
 op-suffix: the name of a [[field|TiddlerFields]]
 op-suffix-name: F
 type: text/vnd.tiddlywiki
-tags:  [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
+original-tags: [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: field Operator
 source-tiddler-title-as-link: field%20Operator

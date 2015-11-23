@@ -1,5 +1,4 @@
 title: Recipe
-tags: CommunityTags
-community-tag-count: 3
+new-tiddler: Tag: Recipe
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

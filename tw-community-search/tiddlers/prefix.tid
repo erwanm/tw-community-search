@@ -1,5 +1,4 @@
 title: prefix
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: prefix
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

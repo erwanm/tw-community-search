@@ -1,5 +1,4 @@
 title: Tutorials
-tags: CommunityTags
-community-tag-count: 26
+new-tiddler: Tag: Tutorials
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

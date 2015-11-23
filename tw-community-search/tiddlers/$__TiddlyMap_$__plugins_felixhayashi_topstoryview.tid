@@ -7,7 +7,7 @@ list: Configuration License Readme
 released: 
 source: https://github.com/felixhayashi/TW5-TopStoryView
 version: 0.1.0
-tags: 
+original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/topstoryview
 source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2ftopstoryview

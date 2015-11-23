@@ -5,7 +5,7 @@ name: TiddlyMap
 note: A mindmap/network diagram thing for TiddlyWiki
 url: http://felixhayashi.github.io/TW5-TiddlyMap/index.html
 value: 1
-tags:  Bookmark TiddlyWiki GitHub Plugins [[Data Representation]] [[Awesome Thing]]
+original-tags: Bookmark TiddlyWiki GitHub Plugins [[Data Representation]] [[Awesome Thing]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: TiddlyMap
 source-tiddler-title-as-link: TiddlyMap

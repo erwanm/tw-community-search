@@ -1,5 +1,4 @@
 title: Food
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Food
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Accepted
-tags: CommunityTags
-community-tag-count: 44
+new-tiddler: Tag: Accepted
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

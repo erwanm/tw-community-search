@@ -1,5 +1,4 @@
 title: component
-tags: CommunityTags
-community-tag-count: 14
+new-tiddler: Tag: component
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

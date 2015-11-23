@@ -1,5 +1,4 @@
 title: Development
-tags: CommunityTags
-community-tag-count: 5
+new-tiddler: Tag: Development
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

@@ -1,5 +1,4 @@
 title: Linear Algebra
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: Linear Algebra
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

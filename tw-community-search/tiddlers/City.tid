@@ -1,5 +1,4 @@
 title: City
-tags: CommunityTags
-community-tag-count: 2
+new-tiddler: Tag: City
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

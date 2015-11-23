@@ -1,5 +1,4 @@
 title: Computer Games
-tags: CommunityTags
-community-tag-count: 16
+new-tiddler: Tag: Computer Games
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

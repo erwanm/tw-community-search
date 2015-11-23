@@ -1,5 +1,4 @@
 title: thumbnail_LN
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: thumbnail_LN
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

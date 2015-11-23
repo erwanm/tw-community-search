@@ -1,5 +1,4 @@
 title: Zoe Keating
-tags: CommunityTags
-community-tag-count: 4
+new-tiddler: Tag: Zoe Keating
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}

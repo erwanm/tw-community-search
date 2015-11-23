@@ -1,5 +1,4 @@
 title: database
-tags: CommunityTags
-community-tag-count: 1
+new-tiddler: Tag: database
 
-{{||$:/CommunityTagTemplate}}
+{{||$:/ObsoleteCommunityTagTemplate}}
