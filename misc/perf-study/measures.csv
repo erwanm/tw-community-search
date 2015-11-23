@@ -497,3 +497,103 @@ series,device,wikiVersion,element,sizeList,styleRefresh,styleRefreshFilter,mainR
 6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,59,33,357,261,1893,355
 6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,58,33,363,264,1891,358
 6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,79,41,467,322,2075,532
+7,B,regular,reloading wiki,NA,28,19,171,157,375,190
+7,B,regular,reloading wiki,NA,24,17,129,118,287,147
+7,B,regular,reloading wiki,NA,22,15,122,111,276,138
+7,B,regular,reloading wiki,NA,25,16,130,119,287,146
+7,B,regular,reloading wiki,NA,23,16,133,121,287,146
+7,B,renamed-tags,reloading wiki,NA,18,11,80,69,258,111
+7,B,renamed-tags,reloading wiki,NA,16,10,71,60,263,89
+7,B,renamed-tags,reloading wiki,NA,16,10,74,63,251,82
+7,B,renamed-tags,reloading wiki,NA,16,9,73,62,229,81
+7,B,renamed-tags,reloading wiki,NA,17,10,74,63,259,86
+7,B,regular,reloading wiki,NA,23,17,129,118,286,145
+7,B,regular,reloading wiki,NA,23,16,126,114,287,141
+7,B,regular,reloading wiki,NA,23,17,128,118,290,148
+7,B,regular,reloading wiki,NA,25,17,130,119,288,146
+7,B,regular,reloading wiki,NA,23,16,122,111,279,140
+7,B,renamed-tags,reloading wiki,NA,16,9,74,63,256,108
+7,B,renamed-tags,reloading wiki,NA,18,12,83,72,266,91
+7,B,renamed-tags,reloading wiki,NA,16,10,74,63,225,79
+7,B,renamed-tags,reloading wiki,NA,17,11,74,63,253,80
+7,B,renamed-tags,reloading wiki,NA,17,10,79,68,234,87
+7,B,regular,open tiddler CommunityWikis,NA,31,24,562,184,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,20,15,559,152,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,19,17,460,137,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,17,14,429,125,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,22,15,521,150,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,21,14,474,114,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,8,5,402,71,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,10,8,289,68,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,14,11,387,68,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,21,14,513,113,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,27,21,580,181,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,14,12,453,134,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,20,18,444,130,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,22,17,533,140,NA,NA
+7,B,regular,open tiddler CommunityWikis,NA,18,16,449,135,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,22,17,470,91,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,13,11,416,73,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,20,12,489,110,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,16,14,369,73,NA,NA
+7,B,renamed-tags,open tiddler CommunityWikis,NA,13,10,360,110,NA,NA
+7,B,regular,search “widget”,826,15,13,617,238,NA,NA
+7,B,regular,search “widget”,826,20,18,545,220,NA,NA
+7,B,regular,search “widget”,826,18,16,615,238,NA,NA
+7,B,regular,search “widget”,826,16,13,660,240,NA,NA
+7,B,regular,search “widget”,826,17,14,676,243,NA,NA
+7,B,renamed-tags,search “widget”,799,9,5,611,172,NA,NA
+7,B,renamed-tags,search “widget”,799,9,7,560,151,NA,NA
+7,B,renamed-tags,search “widget”,799,10,8,494,152,NA,NA
+7,B,renamed-tags,search “widget”,799,9,7,613,174,NA,NA
+7,B,renamed-tags,search “widget”,799,9,8,499,140,NA,NA
+7,B,regular,search “widget”,826,27,21,725,289,NA,NA
+7,B,regular,search “widget”,826,17,13,660,238,NA,NA
+7,B,regular,search “widget”,826,17,13,676,242,NA,NA
+7,B,regular,search “widget”,826,13,11,629,231,NA,NA
+7,B,regular,search “widget”,826,14,12,552,215,NA,NA
+7,B,renamed-tags,search “widget”,799,16,9,634,193,NA,NA
+7,B,renamed-tags,search “widget”,799,8,6,507,152,NA,NA
+7,B,renamed-tags,search “widget”,799,10,8,485,148,NA,NA
+7,B,renamed-tags,search “widget”,799,8,7,430,138,NA,NA
+7,B,renamed-tags,search “widget”,799,16,10,606,189,NA,NA
+7,B,regular,open tiddler CommunityTags,217,25,19,880,177,NA,NA
+7,B,regular,open tiddler CommunityTags,217,21,18,751,141,NA,NA
+7,B,regular,open tiddler CommunityTags,217,17,15,817,146,NA,NA
+7,B,regular,open tiddler CommunityTags,217,22,19,431,132,NA,NA
+7,B,regular,open tiddler CommunityTags,217,18,15,764,138,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,26,18,807,90,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,14,11,687,68,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,14,11,663,67,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,19,12,841,95,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,15,10,714,73,NA,NA
+7,B,regular,open tiddler CommunityTags,217,25,18,808,181,NA,NA
+7,B,regular,open tiddler CommunityTags,217,19,16,805,143,NA,NA
+7,B,regular,open tiddler CommunityTags,217,14,12,701,132,NA,NA
+7,B,regular,open tiddler CommunityTags,217,17,15,641,136,NA,NA
+7,B,regular,open tiddler CommunityTags,217,25,19,864,165,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,19,12,727,93,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,13,10,735,64,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,11,8,682,67,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,11,9,606,66,NA,NA
+7,B,renamed-tags,open tiddler CommunityTags,229,11,9,701,66,NA,NA
+7,B,regular,Load permalink tag tiddler “Widgets”,147,21,16,149,122,688,158
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,16,157,127,647,159
+7,B,regular,Load permalink tag tiddler “Widgets”,147,23,16,145,117,668,164
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,16,145,117,661,161
+7,B,regular,Load permalink tag tiddler “Widgets”,147,23,17,151,120,684,172
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,15,10,113,85,634,124
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,19,12,129,91,607,121
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,15,9,115,86,619,121
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,17,11,119,91,629,129
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,16,10,113,85,624,126
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,17,152,123,697,165
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,16,146,117,695,161
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,16,149,120,700,163
+7,B,regular,Load permalink tag tiddler “Widgets”,147,22,16,150,121,692,161
+7,B,regular,Load permalink tag tiddler “Widgets”,147,23,17,154,125,901,171
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,15,10,115,87,623,122
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,15,10,111,83,624,122
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,15,10,113,84,651,120
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,17,11,118,90,673,131
+7,B,renamed-tags,Load permalink tag tiddler “Widgets”,147,17,11,120,93,626,124
