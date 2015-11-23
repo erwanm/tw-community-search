@@ -1,56 +1,151 @@
 created: 20151122190303029
-modified: 20151123011825613
+modified: 20151123194807301
 tags: DeveloperDocumentation
 title: TagsOptimizations
 type: text/vnd.tiddlywiki
 
+! General observations
 
-!! General observations
-
-It's good to see the size of the ~CommunitySearch wiki increase, but obviously this comes at the expense of performance: larger file, slower to load, slower to display various lists in tiddlers. Little can be done about the size without limiting the available features (especially [[searching|CommunitySearch]]). 
+It's good to see the size of the ~CommunitySearch wiki increase, but obviously this comes at the expense of performance: larger file, slower to load, slower to display various lists in tiddlers. Little can be done about the size itself without restricting the scope of the available features, especially [[searching|CommunitySearch]]. 
 
 The underlying design, however, can be made more efficient in various ways. Among several ideas that were attempted, the one that proved the most successful consisted in getting rid of tags as often as possible. Tags are a great feature of TW which can be used in many cases and in many ways, but this comes at a cost performance-wise; this cost is barely visible in small wikis, but it can put a real strain on a big wiki like the ~CommunitySearch. In most cases, using regular fields instead of tags (thanks to [[fields operator|http://tiddlywiki.com/#Filter%20Operators]]) offers more flexibility (different fields can be used for different purposes) and more performance (because tags influence many components of TW; for example, TW core needs to process tags with special meaning like [[system tags|http://tiddlywiki.com/#SystemTags]]).
 
-!! Implementation
+! Implementation
 
-Due to the special nature of the ~CommunitySearch wiki (generated [[automatically from the skeleton|What is this?]]), its structure can be modifed by changing the generation code. For instance, one of the most obvious optimizations consisted in hard-coding the number of tiddlers in each wiki at generation-time; this way there is no need use a count filter on a very large list, the number is simply stored in a field. A few similar minor optimizations were implemented. More importantly, the global structure of the wiki has been modified by switching from tags to fields at different levels:
+Due to the special nature of the ~CommunitySearch wiki (generated [[automatically from the skeleton|What is this?]]), its structure can be modifed by changing the generation code. For instance, one of the most obvious optimizations consisted in hard-coding the number of tiddlers in each wiki at generation-time; this way there is no need to use a count filter on a very large list, the number is simply stored in a field. A few similar minor optimizations were implemented. More importantly, the global structure of the wiki has been modified by switching from tags to fields at different levels:
 
-* The author-wiki relationship used to be represented with a tag on the wiki tiddler. It has been replaced with a field `author`.
+* The author-wiki relationship used to be represented with an author tag on the wiki tiddler. It has been replaced with a field `author`.
 * Every collected tiddler used to be tagged with the id of the wiki it was extracted from, and tag pills could be used to access all the tiddlers from a wiki. 
-** I assume that this feature was not used so much, because most wikis have many tiddlers and the display of the dropdown list would be long in general, and not convenient to find a specific item. Additionally, the list of all tiddlers can be accessed from the wiki tiddler.
+** I assume that this feature was not used very much, because most wikis have many tiddlers and displaying the dropdown list would be long in general, and not convenient to find a specific item. Additionally, the list of all tiddlers can be accessed from the wiki tiddler.
 ** Wiki id tags have been removed. The field `source-wiki-id` is used instead.
-* The tags assigned by the author to their tiddlers are meaningful, and can be a convenient way to access information across wikis. Therefore it is important to preserve this information, which is available as CommunityTags. But the huge number of collected tags doesn't help with performance (there were also [[other reasons|ExtendingCollectedTagsScope]]). This is why the whole `tags` field is now being replaced for every collected tiddler by a new field `original-tags`, contaning exactly the same content. The filter operators ''list'' and ''listed'' are used to access the tags, and a custom tag pill displays the relevant information when needed (see [[an example here|tiddlywiki.com]]). As a positive side effect, the //More->tags// panel in the sidebar doesn't show the list of all tags anymore, which took a a very long time to display.
+* The tags assigned by the author to their tiddlers are meaningful, and can be a convenient way to access information across wikis. Therefore it is important to preserve this information, which is available under the name CommunityTags. But the huge number of collected tags doesn't help with performance (there were also [[other reasons|ExtendingCollectedTagsScope]]). This is why the whole `tags` field is now being replaced for every collected tiddler by a new field `original-tags`, contaning exactly the same content. The filter operators ''list'' and ''listed'' are used to access the tags, and a [[custom tag pill|$:/twcs/CommunityTagTemplate]] displays the relevant information when needed (see [[an example here|tiddlywiki.com]]). As a positive side effect, the //More->tags// panel in the sidebar isn't as cluttered as it used to be.
 
-!! Experiments and Results
+! Experimental setup
 
-A couple of detailed experiments comparing before/after the implementation of one of the modifications above. Here are reported the results of a final experiment which compares the performance 
 
-* before all the optimizations related to removing tags 
-* against after all these optimizations were implemented.
-
-However, due to technical difficulties in making an old aggregator version work with a more cent wiki skeleton (and because it's already tedious enough as it is!), the two versions do not have the same content:
-
-* The old version contains 5555 collected tiddlers and 1306 distinct tags from 70 wikis (7.7 MB). In total the control panel reports:
-** 1603 regular tiddlers
-*** Mostly community tags tiddlers
-** 1446 tags
-*** Mostly community tags
-** 5600 system tiddlers
-*** Mostly collected tiddlers from extracted wikis
-* The new version contains 8082 collected tiddlers and 1535 distinct tags from 107 wikis (12 MB). In total the control panel reports:
-** 3356 regular tiddlers
-***Community tags tiddlers new version + old version (for compatibility with previously bookmarked CommunityTags) (old version tiddlers are redirected to the new version)
-** 52 tags
-*** Community tags have been removed from the `tags` field.
-** 8129 system tiddlers
-*** Mostly collected tiddlers from extracted wikis
-
-This setting clearly favors the old version, which should be about 30% to 40% faster, if speed was proportional to the size of the content.
+!! Measurement methodology
 
 Measurements are carried out as follows:
 
+* Experiment were done on:
+** a 5 y.o. quite cheap laptop (running Ubuntu 14.04, under Firefox 42.0).
+** a quite recent (2 y.o) desktop machine (running Ubuntu 14.04, Firefox 42.0).
+* Obviously a set of experiments is done on a single machine.
+* Each set of experiments is completely independent from the others. No reference data is used, because there are many context factors which could bias the results (browser caching, busy OS, memory load, etc.).
+* For every element compared, the measure is repeat 10 times for each version, by groups of 5 (in order to account for the variance caused by browser caching, busy OS, memory load, etc.) 
 * initialize performance output: https://groups.google.com/d/msg/Tiddlywiki/-AdwCjE0wgI/3ZyozEB1BAAJ
-* for every element compared, the measure is repeat 10 times for each version, by groups of 5 (in order to account for the variance caused by browser caching, busy OS, etc.) 
-* Experiment done on a 5 y.o. quite cheap laptop, running Ubuntu 14.04, under Firefox 42.0.
 
-The data used in this experiment can be found... TODO
+In every experiment we consider particular elements where some performance difference is expected to happen, depending on the nature of the change. The exact same action is taken 10 times for each case, for example;:
+
+* reload the wiki
+* open a particular tiddler
+* search a particular word
+** In this case the word is copy/pasted in order to avoid the variation resulting from typing at a different speed.
+
+
+!! Data
+
+The data (standalone html wikis) used in these experiments can be found on [[github|https://github.com/erwanm/tw-community-search/tree/master/misc/perf-study]].
+
+Because the implementation of the three main improvements were done at different points in time, the set of indexed wikis and the set of collected tiddlers have changed regularly, and various other modifications have been made in between, including bug fixes. This is why it is not possible (at least not convenient at all) to compare the version of the system used before and after all the changes. Instead, every significant change has been evaluated independently, by comparing the version with and without the change with (almost) the same data.
+
+!!! Change 1: replacing author tag with author field in every wiki tiddlers
+
+* Extracted:
+** 5108 tiddlers
+*** 5500 in the new version
+** 1329 distinct tags
+*** 1310 in the new version (no more author tags)
+** 56 wikis
+* Figures reported in the control panel:
+** 1519 regular tiddlers
+*** 1604 in the new version
+** 1377 tags
+*** 1417 in the new version (?)
+** 5152 system tiddlers
+*** 5545 in the new version
+
+!!! Change 2: removing the wiki id tag on every collected tiddler
+
+* Extracted:
+** 7998 tiddlers
+** 1465 distinct tags
+** 107 wikis
+* Figures reported in the control panel:
+** 1806 regular tiddlers
+** 1602 tags
+*** 1494 in the new version (removed wiki id tags)
+** 8043 system tiddlers
+*** 8045 in the new version
+
+!!! Change 3: renaming the field tags with original-tags on every collected tiddlers
+
+* Extracted:
+** 8008 tiddlers
+*** 8083 in the new version (system tags now included)
+** 1472 distinct tags
+*** 1535 distinct tags in the new version (system tags now included)
+** 107 wikis
+* Figures reported in the control panel:
+** 1814 regular tiddlers
+*** 1884 in the new version
+** 1501 tags
+*** only 52 in the new version (that was the main goal)
+** 8053 system tiddlers
+*** 8130 in the new version
+
+
+! Results
+
+//Remark: ypou can click any image below to open it in full size.//
+
+!!! Change 1: replacing author tag with author field in every wiki tiddlers
+
+
+
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg" target="_blank">
+[img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg]]
+</a>
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list-filter.svg" target="_blank">
+[img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list-filter.svg]]
+</a>
+
+The hardcoding of the number of tiddlers is also tested, together with the original version and the "author as field" version. The harcoded number of tiddlers makes the filter take much less time, but for some reason it does not change the global time significantly. The "author as field" case, however, is significantly faster than the two others when displaying the list of wikis or the list of authors: the performance is improved by about 15 to 25%.
+
+
+!!! Change 2: removing the wiki id tag on every collected tiddler
+
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikiid-tag.svg" target="_blank">
+[img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikiid-tag.svg]]
+</a>
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikid-tag-mainRender.svg" target="_blank">
+[img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikid-tag-mainRender.svg]]
+</a>
+
+This change gives a 5 to 10% improvement in loading the wiki, which is clearly a very important thing to optimize. It also makes displaying the list of wikis faster.
+
+!!! Change 3: renaming the field tags with original-tags on every collected tiddlers
+
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-mainRefresh.svg" target="_blank">
+[img width=200 [http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-mainRefresh.svg]]
+</a>
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-styleRefreshFilter.svg" target="_blank">
+[img width=200 [http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-styleRefreshFilter.svg]]
+</a>
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-styleRefresh.svg" target="_blank">
+[img width=200 [http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-styleRefresh.svg]]
+</a>
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-mainRender.svg" target="_blank">
+[img width=150 [http://erwanm.github.io/tw-community-search/img/perf-graphs/renamed-tags-mainRender.svg]]
+</a>
+
+Removing the tags from every collected tiddler gives a performance boost everywhere a filter is used, that is... everywhere! This even includes improvement in style refreshing time.
+
+This illustrates quite clearly the point described earlier about tags having an impact on the general performance, due to the TW core doing frequent computations with them under the hood. Here again, the time needed to load the wiki is improved (including when loading from a bookmarked tag tiddler). The search time and openining the list of tags is also faster, even though in the latter case displaying the tag pills using a custom template takes more time than using standard tag pills.
+
+! Conclusion
+
+
+Performance can differ significantly depending on many parameters, so it is very difficult to give an exact estimation of the speed improvement overall. As a vaguely educated guess, I would say that all the optimizations above resulted in the ~CommunitySearch wiki being 20 to 40% faster, globally.
+
+''Tip: Use tags in moderation if you plan to make your wiki grow really big! Check whether your usage really requires tags behaviour, or if fields can be used instead.''
