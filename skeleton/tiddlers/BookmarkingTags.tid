@@ -1,5 +1,5 @@
 created: 20150903002032914
-modified: 20150904001926794
+modified: 20151123213547801
 tags: UserDocumentation
 title: BookmarkingTags
 type: text/vnd.tiddlywiki
@@ -26,7 +26,7 @@ If you are interested in following content tagged and/or related to this tag, yo
 Imagine that you want to follow everything related to images in TW. You can see that there are two tags about that in CommunityTags:
 
 
-{{images||$:/core/ui/TagTemplate}} {{Images||$:/core/ui/TagTemplate}}
+{{Tag: images||$:/twcs/CommunityTagTemplate}} {{Tag: Images||$:/twcs/CommunityTagTemplate}}
 
 You can open these two ~CommunityTag tiddlers tiddlers (click on the first link from the tag pill), close all the other open tiddlers (optional), and then click the permaview icon: {{$:/core/images/permaview-button}}
 

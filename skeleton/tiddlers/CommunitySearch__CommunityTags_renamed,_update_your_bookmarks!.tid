@@ -1,12 +1,9 @@
 created: 20151121173312279
-modified: 20151123174716589
+modified: 20151123211024254
 tags: CommunityNews
 title: CommunitySearch: CommunityTags renamed, update your bookmarks!
 type: text/vnd.tiddlywiki
 
  The [[CommunityTags|http://erwanm.github.io/tw-community-search/#CommunityTags]] have been renamed: in order to avoid name conflicts with other tiddlers, the name of every "tag tiddler" is now prefixed with "``Tag: ``".
-
- * Example: tag [[Widgets]] is now [[Tag: Widgets]]. If you prefer the tag pill, here it is: {{Tag: Widgets||$:/twcs/CommunityTagTemplate}}
  
- ''Unfortunately, this change will break any previous bookmark [[you might have created|http://erwanm.github.io/tw-community-search/#BookmarkingTags]].''  The old version will stay in place during a while to make the transition smoother, but it won't stay forever (because duplicate tiddlers clutter up the wiki).
- 
+''Unfortunately, this change will break any previous bookmark [[you might have created|http://erwanm.github.io/tw-community-search/#BookmarkingTags]].''  [[See more details|ExtendingCollectedTagsScope]].

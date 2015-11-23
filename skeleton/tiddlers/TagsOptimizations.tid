@@ -1,12 +1,12 @@
 created: 20151122190303029
-modified: 20151123194807301
+modified: 20151123213151991
 tags: DeveloperDocumentation
 title: TagsOptimizations
 type: text/vnd.tiddlywiki
 
 ! General observations
 
-It's good to see the size of the ~CommunitySearch wiki increase, but obviously this comes at the expense of performance: larger file, slower to load, slower to display various lists in tiddlers. Little can be done about the size itself without restricting the scope of the available features, especially [[searching|CommunitySearch]]. 
+It's good to see the size of the ~CommunitySearch wiki increase, but obviously this comes at the expense of performance: the file becomes larger, slower to load, slower to display various lists in tiddlers. Of course, little can be done about the size itself without restricting the scope of the available features, especially [[searching|CommunitySearch]]. 
 
 The underlying design, however, can be made more efficient in various ways. Among several ideas that were attempted, the one that proved the most successful consisted in getting rid of tags as often as possible. Tags are a great feature of TW which can be used in many cases and in many ways, but this comes at a cost performance-wise; this cost is barely visible in small wikis, but it can put a real strain on a big wiki like the ~CommunitySearch. In most cases, using regular fields instead of tags (thanks to [[fields operator|http://tiddlywiki.com/#Filter%20Operators]]) offers more flexibility (different fields can be used for different purposes) and more performance (because tags influence many components of TW; for example, TW core needs to process tags with special meaning like [[system tags|http://tiddlywiki.com/#SystemTags]]).
 
@@ -32,10 +32,10 @@ Measurements are carried out as follows:
 ** a quite recent (2 y.o) desktop machine (running Ubuntu 14.04, Firefox 42.0).
 * Obviously a set of experiments is done on a single machine.
 * Each set of experiments is completely independent from the others. No reference data is used, because there are many context factors which could bias the results (browser caching, busy OS, memory load, etc.).
-* For every element compared, the measure is repeat 10 times for each version, by groups of 5 (in order to account for the variance caused by browser caching, busy OS, memory load, etc.) 
+* For every element compared, the measure is repeated 10 times for each version, by groups of 5 (in order to account for the variance caused by browser caching, busy OS, memory load, etc.) 
 * initialize performance output: https://groups.google.com/d/msg/Tiddlywiki/-AdwCjE0wgI/3ZyozEB1BAAJ
 
-In every experiment we consider particular elements where some performance difference is expected to happen, depending on the nature of the change. The exact same action is taken 10 times for each case, for example;:
+In every experiment we consider particular elements where some performance difference is expected to happen, depending on the nature of the change. The exact same action is taken 10 times for each case, for example:
 
 * reload the wiki
 * open a particular tiddler
@@ -47,7 +47,7 @@ In every experiment we consider particular elements where some performance diffe
 
 The data (standalone html wikis) used in these experiments can be found on [[github|https://github.com/erwanm/tw-community-search/tree/master/misc/perf-study]].
 
-Because the implementation of the three main improvements were done at different points in time, the set of indexed wikis and the set of collected tiddlers have changed regularly, and various other modifications have been made in between, including bug fixes. This is why it is not possible (at least not convenient at all) to compare the version of the system used before and after all the changes. Instead, every significant change has been evaluated independently, by comparing the version with and without the change with (almost) the same data.
+Because the implementation of the three main improvements were done at different points in time, the set of indexed wikis and the set of collected tiddlers have changed regularly, and various other modifications have been made in between, including bug fixes. This is why it is not possible (at least not convenient at all) to compare the version of the system used before and after all the changes. Instead, every significant change has been evaluated independently, by comparing the version with and without the change with (almost) the same data. As a consequence, the three performance gains reported below are cumulative.
 
 !!! Change 1: replacing author tag with author field in every wiki tiddlers
 
@@ -119,7 +119,7 @@ The hardcoding of the number of tiddlers is also tested, together with the origi
 [img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikiid-tag.svg]]
 </a>
 <a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikid-tag-mainRender.svg" target="_blank">
-[img width=250 [http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikid-tag-mainRender.svg]]
+[img width=180 [http://erwanm.github.io/tw-community-search/img/perf-graphs/no-wikid-tag-mainRender.svg]]
 </a>
 
 This change gives a 5 to 10% improvement in loading the wiki, which is clearly a very important thing to optimize. It also makes displaying the list of wikis faster.
@@ -146,6 +146,6 @@ This illustrates quite clearly the point described earlier about tags having an 
 ! Conclusion
 
 
-Performance can differ significantly depending on many parameters, so it is very difficult to give an exact estimation of the speed improvement overall. As a vaguely educated guess, I would say that all the optimizations above resulted in the ~CommunitySearch wiki being 20 to 40% faster, globally.
+Performance can differ significantly depending on many parameters, so it is very difficult to give an exact estimation of the speed improvement overall. As a vaguely educated guess, I would say that all the optimizations together resulted in the ~CommunitySearch wiki being 20 to 40% faster, globally.
 
-''Tip: Use tags in moderation if you plan to make your wiki grow really big! Check whether your usage really requires tags behaviour, or if fields can be used instead.''
+''Tip: Use tags in moderation if you plan that your wiki will grow really big! Check whether your usage really requires tags, or if fields can be used instead.''
