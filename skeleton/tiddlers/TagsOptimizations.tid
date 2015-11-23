@@ -1,0 +1,56 @@
+created: 20151122190303029
+modified: 20151123011825613
+tags: DeveloperDocumentation
+title: TagsOptimizations
+type: text/vnd.tiddlywiki
+
+
+!! General observations
+
+It's good to see the size of the ~CommunitySearch wiki increase, but obviously this comes at the expense of performance: larger file, slower to load, slower to display various lists in tiddlers. Little can be done about the size without limiting the available features (especially [[searching|CommunitySearch]]). 
+
+The underlying design, however, can be made more efficient in various ways. Among several ideas that were attempted, the one that proved the most successful consisted in getting rid of tags as often as possible. Tags are a great feature of TW which can be used in many cases and in many ways, but this comes at a cost performance-wise; this cost is barely visible in small wikis, but it can put a real strain on a big wiki like the ~CommunitySearch. In most cases, using regular fields instead of tags (thanks to [[fields operator|http://tiddlywiki.com/#Filter%20Operators]]) offers more flexibility (different fields can be used for different purposes) and more performance (because tags influence many components of TW; for example, TW core needs to process tags with special meaning like [[system tags|http://tiddlywiki.com/#SystemTags]]).
+
+!! Implementation
+
+Due to the special nature of the ~CommunitySearch wiki (generated [[automatically from the skeleton|What is this?]]), its structure can be modifed by changing the generation code. For instance, one of the most obvious optimizations consisted in hard-coding the number of tiddlers in each wiki at generation-time; this way there is no need use a count filter on a very large list, the number is simply stored in a field. A few similar minor optimizations were implemented. More importantly, the global structure of the wiki has been modified by switching from tags to fields at different levels:
+
+* The author-wiki relationship used to be represented with a tag on the wiki tiddler. It has been replaced with a field `author`.
+* Every collected tiddler used to be tagged with the id of the wiki it was extracted from, and tag pills could be used to access all the tiddlers from a wiki. 
+** I assume that this feature was not used so much, because most wikis have many tiddlers and the display of the dropdown list would be long in general, and not convenient to find a specific item. Additionally, the list of all tiddlers can be accessed from the wiki tiddler.
+** Wiki id tags have been removed. The field `source-wiki-id` is used instead.
+* The tags assigned by the author to their tiddlers are meaningful, and can be a convenient way to access information across wikis. Therefore it is important to preserve this information, which is available as CommunityTags. But the huge number of collected tags doesn't help with performance (there were also [[other reasons|ExtendingCollectedTagsScope]]). This is why the whole `tags` field is now being replaced for every collected tiddler by a new field `original-tags`, contaning exactly the same content. The filter operators ''list'' and ''listed'' are used to access the tags, and a custom tag pill displays the relevant information when needed (see [[an example here|tiddlywiki.com]]). As a positive side effect, the //More->tags// panel in the sidebar doesn't show the list of all tags anymore, which took a a very long time to display.
+
+!! Experiments and Results
+
+A couple of detailed experiments comparing before/after the implementation of one of the modifications above. Here are reported the results of a final experiment which compares the performance 
+
+* before all the optimizations related to removing tags 
+* against after all these optimizations were implemented.
+
+However, due to technical difficulties in making an old aggregator version work with a more cent wiki skeleton (and because it's already tedious enough as it is!), the two versions do not have the same content:
+
+* The old version contains 5555 collected tiddlers and 1306 distinct tags from 70 wikis (7.7 MB). In total the control panel reports:
+** 1603 regular tiddlers
+*** Mostly community tags tiddlers
+** 1446 tags
+*** Mostly community tags
+** 5600 system tiddlers
+*** Mostly collected tiddlers from extracted wikis
+* The new version contains 8082 collected tiddlers and 1535 distinct tags from 107 wikis (12 MB). In total the control panel reports:
+** 3356 regular tiddlers
+***Community tags tiddlers new version + old version (for compatibility with previously bookmarked CommunityTags) (old version tiddlers are redirected to the new version)
+** 52 tags
+*** Community tags have been removed from the `tags` field.
+** 8129 system tiddlers
+*** Mostly collected tiddlers from extracted wikis
+
+This setting clearly favors the old version, which should be about 30% to 40% faster, if speed was proportional to the size of the content.
+
+Measurements are carried out as follows:
+
+* initialize performance output: https://groups.google.com/d/msg/Tiddlywiki/-AdwCjE0wgI/3ZyozEB1BAAJ
+* for every element compared, the measure is repeat 10 times for each version, by groups of 5 (in order to account for the variance caused by browser caching, busy OS, etc.) 
+* Experiment done on a 5 y.o. quite cheap laptop, running Ubuntu 14.04, under Firefox 42.0.
+
+The data used in this experiment can be found... TODO

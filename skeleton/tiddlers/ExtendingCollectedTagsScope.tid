@@ -1,0 +1,13 @@
+created: 20151122202246695
+modified: 20151122203341144
+tags: UserDocumentation
+title: ExtendingCollectedTagsScope
+type: text/vnd.tiddlywiki
+
+
+There were originally two limitations to the scope of tags collected from the extracted wikis:
+
+* No system tags were allowed, because they would have been incompatible with each other (since they come from different wikis) and interfere badly with the ~CommunitySearch wiki structure.
+* A [[community tag tiddler|CommunityTags]] was created for every extracted tag, except if its name conflicted with an already existing tiddler in the ~CommunitySearch wiki. This resulted in the exclusion of 10 to 20 tags.
+
+These two limitations have been now removed, thanks the [[new wiki structure|TagsOptimizations]] and the [[renaming of the community tags tiddlers|CommunitySearch: CommunityTags renamed, update your bookmarks!]].
