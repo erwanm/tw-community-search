@@ -1,13 +1,13 @@
 title: $:/TidgraphPlugin/Node Templates Demo
 created: 20151114042517146
-modified: 20151117224529069
+modified: 20151118163939862
 type: text/vnd.tiddlywiki
 tags:  Demo
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: Node Templates Demo
 source-tiddler-title-as-link: Node%20Templates%20Demo
 
-''Node Templates'' are very powerful!! They are //user defined templates// that allow you to make the nodes look however you want. Node templates can be applied to individual nodes, to individual levels or to all the nodes. They can also apply to some tiddlers only (using filters). 
+''Node Templates'' are very powerful!! They are //user defined templates// that allow you to make the nodes look however you want. Node templates can be applied to individual nodes, to individual levels or to all the nodes. They can also apply to some tiddlers only (using filters). Keep reading to see how a simple template is made, or if you are already knowledgeable jump to [[Advanced Node Templates]]. 
 
 !! Simple Template
 You can use a simple  IconTemplate to show the icon next to the title:
@@ -22,7 +22,7 @@ The IconTemplate is very simple HTML and Wikitext:
 
 <code><$text text={{IconTemplate}}/></code>
 
-The `div`(s) are simply to center the text horizontally and vertically. If you don't want that you could simply use:
+The icon-node class is defined in the [[IconTemplate Stylesheet]]. The class simply centers the text horizontally and vertically. If you don't want that you could simply use:
 
 `<$transclude tiddler={{!!icon}}/><$link>{{!!title}}</$link>`
 

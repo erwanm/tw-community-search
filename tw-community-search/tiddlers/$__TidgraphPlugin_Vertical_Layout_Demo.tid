@@ -1,0 +1,20 @@
+title: $:/TidgraphPlugin/Vertical Layout Demo
+created: 20151119081139436
+layout: S
+modified: 20151119182746746
+type: text/vnd.tiddlywiki
+tags:  Demo
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: Vertical Layout Demo
+source-tiddler-title-as-link: Vertical%20Layout%20Demo
+
+Tidgraph also supports a vertical layout through the `layout` parameter. The value can be `S` for south or `E` for east. The following
+
+`<$tidgraph start="Virtues" layout="`<code><$text text={{!!layout}}/></code>`"/>`
+
+produces this graph:
+
+<$tidgraph start="Virtues" layout={{!!layout}} maxdepth="1"/>
+
+<$button set=!!layout setTo="S">South</$button>
+<$button set=!!layout setTo="E">East</$button>
