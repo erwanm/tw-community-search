@@ -387,3 +387,113 @@ series,device,wikiVersion,element,sizeList,styleRefresh,styleRefreshFilter,mainR
 5,A,no-tag-wiki-id,search “widget”,826,32,24,2180,593,NA,NA
 5,A,no-tag-wiki-id,search “widget”,826,30,23,1997,569,NA,NA
 5,A,no-tag-wiki-id,search “widget”,826,67,39,2596,712,NA,NA
+6,A,old,reloading wiki,NA,65,35,293,241,1374,336
+6,A,old,reloading wiki,NA,73,36,293,245,1059,304
+6,A,old,reloading wiki,NA,71,39,293,243,1056,322
+6,A,old,reloading wiki,NA,73,36,292,244,1060,306
+6,A,old,reloading wiki,NA,62,31,293,245,1129,325
+6,A,renamed-tags,reloading wiki,NA,65,34,313,250,965,299
+6,A,renamed-tags,reloading wiki,NA,59,32,262,214,883,261
+6,A,renamed-tags,reloading wiki,NA,61,33,274,213,877,257
+6,A,renamed-tags,reloading wiki,NA,69,39,297,236,878,254
+6,A,renamed-tags,reloading wiki,NA,65,37,268,216,882,257
+6,A,old,reloading wiki,NA,62,31,287,240,1096,312
+6,A,old,reloading wiki,NA,63,34,295,247,1063,310
+6,A,old,reloading wiki,NA,69,31,290,241,1062,305
+6,A,old,reloading wiki,NA,109,49,392,320,1193,481
+6,A,old,reloading wiki,NA,66,33,289,244,1078,306
+6,A,renamed-tags,reloading wiki,NA,60,31,299,249,928,301
+6,A,renamed-tags,reloading wiki,NA,65,32,272,219,890,260
+6,A,renamed-tags,reloading wiki,NA,60,32,281,231,905,273
+6,A,renamed-tags,reloading wiki,NA,58,32,271,222,906,261
+6,A,renamed-tags,reloading wiki,NA,65,32,277,224,907,269
+6,A,old,open tiddler CommunityWikis,NA,69,31,2963,971,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,57,33,2616,928,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,73,42,2915,960,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,45,26,2899,923,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,33,25,2483,883,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,69,34,2135,384,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,58,19,2089,287,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,36,20,1740,280,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,31,19,1674,251,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,37,18,2102,290,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,43,28,2922,936,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,39,30,2519,884,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,37,28,2433,876,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,44,27,2926,926,NA,NA
+6,A,old,open tiddler CommunityWikis,NA,34,25,2513,887,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,56,18,2080,296,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,58,32,2206,361,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,29,20,1811,282,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,24,17,1625,250,NA,NA
+6,A,renamed-tags,open tiddler CommunityWikis,NA,34,17,2098,288,NA,NA
+6,A,old,search “widget”,541,32,25,2020,516,NA,NA
+6,A,old,search “widget”,541,31,25,1978,513,NA,NA
+6,A,old,search “widget”,541,38,25,2586,631,NA,NA
+6,A,old,search “widget”,541,32,25,2218,538,NA,NA
+6,A,old,search “widget”,541,32,26,2001,514,NA,NA
+6,A,renamed-tags,search “widget”,799,36,18,2551,581,NA,NA
+6,A,renamed-tags,search “widget”,799,35,17,2527,567,NA,NA
+6,A,renamed-tags,search “widget”,799,25,18,1986,463,NA,NA
+6,A,renamed-tags,search “widget”,799,32,18,2554,570,NA,NA
+6,A,renamed-tags,search “widget”,799,26,17,2202,536,NA,NA
+6,A,old,search “widget”,541,38,26,2508,610,NA,NA
+6,A,old,search “widget”,541,32,26,2060,542,NA,NA
+6,A,old,search “widget”,541,49,39,2044,585,NA,NA
+6,A,old,search “widget”,541,72,42,3378,779,NA,NA
+6,A,old,search “widget”,541,33,26,2286,567,NA,NA
+6,A,renamed-tags,search “widget”,799,33,18,2524,579,NA,NA
+6,A,renamed-tags,search “widget”,799,24,17,2222,473,NA,NA
+6,A,renamed-tags,search “widget”,799,68,35,3222,740,NA,NA
+6,A,renamed-tags,search “widget”,799,27,17,2210,501,NA,NA
+6,A,renamed-tags,search “widget”,799,23,16,2041,463,NA,NA
+6,A,old,open tiddler CommunityTags,154,73,46,2774,457,NA,NA
+6,A,old,open tiddler CommunityTags,154,42,30,2311,367,NA,NA
+6,A,old,open tiddler CommunityTags,154,39,31,2272,376,NA,NA
+6,A,old,open tiddler CommunityTags,154,35,27,2271,365,NA,NA
+6,A,old,open tiddler CommunityTags,154,72,44,2633,431,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,66,34,3687,355,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,31,22,3191,244,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,34,17,3322,248,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,26,17,2959,244,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,29,18,3084,242,NA,NA
+6,A,old,open tiddler CommunityTags,154,62,41,2782,449,NA,NA
+6,A,old,open tiddler CommunityTags,154,37,29,2728,370,NA,NA
+6,A,old,open tiddler CommunityTags,154,36,29,2359,365,NA,NA
+6,A,old,open tiddler CommunityTags,154,76,42,3244,482,NA,NA
+6,A,old,open tiddler CommunityTags,154,41,32,2565,377,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,69,36,3552,341,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,30,19,3283,242,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,26,17,3072,241,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,63,34,3390,315,NA,NA
+6,A,renamed-tags,open tiddler CommunityTags,229,34,20,3113,239,NA,NA
+6,A,old,Load permalink tag tiddler “Widgets”,57,74,47,402,294,1805,406
+6,A,old,Load permalink tag tiddler “Widgets”,57,63,37,402,301,1743,402
+6,A,old,Load permalink tag tiddler “Widgets”,57,65,37,363,260,1844,363
+6,A,old,Load permalink tag tiddler “Widgets”,57,58,33,352,255,1800,353
+6,A,old,Load permalink tag tiddler “Widgets”,57,57,33,353,252,1804,343
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,87,51,566,364,2864,439
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,58,34,476,332,2719,429
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,56,31,438,300,2722,410
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,55,32,441,299,2728,410
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,72,36,471,316,2846,450
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,61,35,390,294,2031,408
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,62,34,368,272,1905,377
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,57,31,365,256,1898,361
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,61,36,361,265,1902,359
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,61,32,460,362,1778,350
+6,A,old,Load permalink tag tiddler “Widgets”,57,75,35,374,272,1819,353
+6,A,old,Load permalink tag tiddler “Widgets”,57,57,34,346,246,1854,360
+6,A,old,Load permalink tag tiddler “Widgets”,57,57,33,357,254,1878,377
+6,A,old,Load permalink tag tiddler “Widgets”,57,57,33,352,251,1827,349
+6,A,old,Load permalink tag tiddler “Widgets”,57,61,33,367,249,1712,352
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,70,41,570,407,3037,483
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,67,37,527,353,2997,448
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,63,35,526,354,2845,449
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,77,39,521,363,3171,486
+6,A,renamed-tags,Load permalink tag tiddler “Widgets”,147,66,37,517,351,3631,555
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,54,29,388,285,2005,382
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,63,38,279,272,1924,385
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,59,33,357,261,1893,355
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,58,33,363,264,1891,358
+6,A,renamed-tags,Load permalink tag tiddler “Field operators”,59,79,41,467,322,2075,532
