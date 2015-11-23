@@ -1,11 +1,11 @@
 created: 20151115162407042
-modified: 20151115164717655
+modified: 20151123174313545
 tags: CommunityNews
 title: CommunitySearch: (modest) performance improvement
 type: text/vnd.tiddlywiki
 
-<a href="http://erwanm.github.io/tw-community-search/img/perf-graph-wikis-authors-list.svg" target="_blank">
-<img src="http://erwanm.github.io/tw-community-search/img/perf-graph-wikis-authors-list.svg" alt="Perf graph" width="100
+<a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg" target="_blank">
+<img src="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg" alt="Perf graph" width="100
 " border=/> </a>
 
 
