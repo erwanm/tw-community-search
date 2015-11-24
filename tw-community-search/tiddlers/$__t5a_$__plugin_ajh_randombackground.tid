@@ -3,9 +3,9 @@ created: 20151118030354071
 dependents: $:/plugin/ajh/randombackground/background0 $:/plugin/ajh/randombackground/icon $:/plugin/ajh/randombackground/readme $:/plugin/ajh/randombackground/stylesheet $:/plugin/ajh/randombackground/random.js
 description: Random Background
 list: readme
-modified: 20151123044614985
+modified: 20151118031323741
 source: http://randombackground.tiddlyspot.com/
-version: 0.1.0
+version: 0.0.1
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/randombackground
