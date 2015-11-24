@@ -1,0 +1,9 @@
+created: 20151121173312279
+modified: 20151124003734820
+tags: CommunityNews
+title: CommunitySearch: improved performance
+type: text/vnd.tiddlywiki
+
+It might not feel much faster, but think about how much slower it would be without the improvement! ;) [[More details here|http://erwanm.github.io/tw-community-search/#TagsOptimizations]].
+
+By the way, we passed two marks recently: there are now more than 8000 tiddlers and 100 wikis! Thank you everyone... and especially [[Jed|http://erwanm.github.io/tw-community-search/#JedCarty]], who contributed a big bunch of wikis recently!
