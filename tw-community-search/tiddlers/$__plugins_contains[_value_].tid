@@ -1,0 +1,43 @@
+title: $:/plugins/contains[<value>]
+created: 20151125073246519
+creator: Tobias Beer
+modified: 20151125114516525
+modifier: Tobias Beer
+revision: 0
+summary: {{contains!!titles}} contain ''&lt;value>''
+type: text/vnd.tiddlywiki
+original-tags: contains
+source-wiki-id: plugins
+source-tiddler-title-as-text: contains[<value>]
+source-tiddler-title-as-link: contains%5b%3cvalue%3e%5d
+
+```
+{{{ [tag[contains]contains<currentTiddler>] }}}
+```
+
+<<<
+
+{{{ [tag[contains]contains<currentTiddler>] }}}
+<<<
+
+```
+{{{ foo bar baz [contains[foo]] }}}
+```
+
+<<<
+{{{ foo bar baz [contains[foo]] }}}
+<<<
+
+```
+<$list filter="[tag[contains]contains[none]]" emptyMessage="none"/>
+```
+
+> <$list filter="[tag[contains]contains[none]]" emptyMessage="none"/>
+
+<$list filter="[all[current]tagging[]limit[1]]" variable="x">
+
+!! Also see...
+
+{{{ [all[current]tagging[]] }}}
+
+</$list>

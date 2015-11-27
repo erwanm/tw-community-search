@@ -1,11 +1,12 @@
 title: $:/tb5/Welcome
-caption: Start
+creator: Tobias Beer
 icon: $:/core/images/home-button
 img: Jack.jpg
 list: Latest Solutions Plugins Developer Core References Markup [[Tobias Beer]]
 list-before: Solutions
 menu: main
 menu-icon: {{$:/core/images/home-button}}
+modifier: Tobias Beer
 revision: 0
 summary: A collection of references and sandbox for testing concepts around TiddlyWiki:<br><<tagline>>
 original-tags: 

@@ -1,0 +1,16 @@
+title: $:/tb5/plugins
+created: 20151126102844741
+creator: Tobias Beer
+follow: yes
+icon: $:/core/images/plugin-generic-plugin
+modified: 20151126173128832
+modifier: Tobias Beer
+revision: 0
+summary: my official plugin listing with docs & examples
+type: text/vnd.tiddlywiki
+url: http://tobibeer.github.io/tw5-plugins
+original-tags: [[Tobias Beer]]
+source-wiki-id: tb5
+source-tiddler-title-as-text: plugins
+source-tiddler-title-as-link: plugins
+

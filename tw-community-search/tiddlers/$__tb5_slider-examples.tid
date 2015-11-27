@@ -56,7 +56,7 @@ state=<<slide-tiddler-qualify PS>>
 
 <$list filter="[list[Welcome]]">
 
-<$set name= qualified value=<<qualify $(currentTiddler)$>>>
+<$set name=qualified value=<<qualify $(currentTiddler)$>>>
 <$macrocall
 $name=slide-tiddler
 label=<<slider-label "+ ">>
@@ -72,7 +72,7 @@ label-hide=<<slider-label "- ">>
 
 <$list filter="[list[Welcome]]">
 
-<$set name= qualified value=<<qualify $(currentTiddler)$>>>
+<$set name=qualified value=<<qualify $(currentTiddler)$>>>
 <$macrocall
 $name=slide-tiddler
 label=<<slider-label "" " &gt;">>
@@ -88,7 +88,7 @@ label-hide=<<slider-label "" " &lt;">>
 
 <$list filter="[list[Welcome]]">
 
-<$set name= qualified value=<<qualify $(currentTiddler)$>>>
+<$set name=qualified value=<<qualify $(currentTiddler)$>>>
 <$macrocall
 $name=slide-tiddler
 label=<<slider-label "" " &gt;">>
@@ -104,7 +104,7 @@ label-hide=<<slider-label "&lt; ">>
 
 <$list filter="[list[Welcome]]">
 
-<$set name= qualified value=<<qualify $(currentTiddler)$>>>
+<$set name=qualified value=<<qualify $(currentTiddler)$>>>
 <$macrocall
 $name=slide-tiddler
 label=<<slider-label "" " {{$:/core/images/chevron-right}}">>

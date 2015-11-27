@@ -1,0 +1,24 @@
+title: $:/plugins/sysinfo-Usage
+created: 20151126185932784
+creator: Tobias Beer
+modified: 20151126192448165
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sysinfo-Usage
+source-tiddler-title-as-link: sysinfo-Usage
+
+This example demonstrates how to show content depending on whether we're local or over the web:
+
+<$macrocall $name="`" text="""<$vars host=<<sysinfo location href>>>
+
+We're at: <<host>>
+
+So, I'm assuming we're served
+@@color:purple;<$list
+filter="[<host>prefix[http://127.0.0.1]]"
+>locally</$list><$list
+filter="[<host>!prefix[http://127.0.0.1]]"
+>over the web</$list>.@@
+</$vars>"""/>

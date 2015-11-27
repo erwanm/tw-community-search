@@ -5,7 +5,7 @@ dependents:
 description: Tidgraph - Easy tiddler graphs for TW5
 list: readme changelog documentation
 source: https://ihm4u.github.io/tw5plugs
-version: 0.9.4
+version: 0.9.6
 original-tags: 
 source-wiki-id: TidgraphPlugin
 source-tiddler-title-as-text: $:/plugins/ihm/tidgraph

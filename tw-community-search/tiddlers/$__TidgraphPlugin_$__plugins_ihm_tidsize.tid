@@ -1,0 +1,12 @@
+title: $:/TidgraphPlugin/$:/plugins/ihm/tidsize
+core-version: 5.1.9
+created: 20151126183142054
+description: Tiddler sizes
+version: 0.1.1
+original-tags: 
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: $:/plugins/ihm/tidsize
+source-tiddler-title-as-link: %24%3a%2fplugins%2fihm%2ftidsize
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

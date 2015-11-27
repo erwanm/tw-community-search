@@ -1,12 +1,12 @@
 title: $:/tb5/Solutions
 caption: Solutions
-catlist: GTD ToC
 created: 20150929155615384
 creator: Tobias Beer
 icon: $:/core/images/star-filled
 menu: main
 menu-icon: {{$:/core/images/star-filled}}
-modified: 20151010194410543
+modified: 20151126094418994
+modifier: Tobias Beer
 order: 3
 revision: 0
 summary: setting up tw5 to meet your needs
