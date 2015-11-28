@@ -1,0 +1,17 @@
+title: $:/plugins/split-Install
+created: 20151127143704922
+creator: Tobias Beer
+modified: 20151127152848167
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: split-Install
+source-tiddler-title-as-link: split-Install
+
+<<plugin-install split>>
+
+!! Version History
+
+; 0.5.0 / 2015-11-27
+: initial release

@@ -1,6 +1,10 @@
 title: $:/tb5/transclusion
+created: 20151127113654535
+creator: Tobias Beer
+modified: 20151127113829176
 revision: 0
-url: http://tiddlywiki.com/#Transclusion%20in%20WikiText
+type: text/vnd.tiddlywiki
+url: Also see: <<x "Transclusion in WikiText">>
 original-tags: Markup
 source-wiki-id: tb5
 source-tiddler-title-as-text: transclusion

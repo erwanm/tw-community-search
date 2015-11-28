@@ -1,0 +1,13 @@
+title: $:/plugins/split
+created: 20151127143842315
+creator: Tobias Beer
+modified: 20151127145011505
+revision: 0
+tabs: Info Parameters Examples Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Filters
+source-wiki-id: plugins
+source-tiddler-title-as-text: split
+source-tiddler-title-as-link: split
+
+<<plugin-docs split>>
