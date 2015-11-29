@@ -1,0 +1,20 @@
+title: $:/howwownow/TiddlyDesktopMacWindowIssues
+created: 20151123065435543
+modified: 20151128120912138
+plugout: WikiHowWowNow
+revision: 1
+type: text/vnd.tiddlywiki
+original-tags: TiddlyDesktop task ChristopherMann/HowWowNow Waiting
+source-wiki-id: howwownow
+source-tiddler-title-as-text: TiddlyDesktopMacWindowIssues
+source-tiddler-title-as-link: TiddlyDesktopMacWindowIssues
+
+TiddlyDesktop runs seems to have a couple of inconveniences with the full-screen mode on recent Mac operating systems like El-Capitan. Sometimes, I am unable to get out of full screen mode. Sometimes when I disconnect an external monitor, the window does not come back to the secondary monitor. Once, the list of wikis was on a secondary monitor and I couldn't get to it for a while.
+
+A work-around I have found is to use the button that shows all open applications. I then drag the disappeared TiddlyWiki window to another window that is already full-screen. The result is a split full-screen.
+
+Ideally:
+
+* put in place an un-fullscreen on ESC-key press
+* handle full-screen mode in the menu
+* have a list of open windows in the menu to activate a window of one's choosing

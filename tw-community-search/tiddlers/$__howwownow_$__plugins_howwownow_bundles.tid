@@ -1,13 +1,13 @@
 title: $:/howwownow/$:/plugins/howwownow/bundles
 author: Christopher Mann <christopher@mann.fr>
 core-version: >=5.0.0
-created: 20151125084101864
+created: 20151128093626450
 dependents: 
-description: Bundles - Export Tiddlers as Shadows in a Plugout (like a Plugin)
-list: readme config usage changelog
-revision: 16
+description: Bundles - Export Tiddlers as a Bundled Plugin
+list: README Configure Usage Changelog
+revision: 17
 source: https://github.com/howwownow/tiddlywiki-as-plugin
-version: 0.0.18sp1
+version: 0.0.19
 original-tags: 
 source-wiki-id: howwownow
 source-tiddler-title-as-text: $:/plugins/howwownow/bundles
