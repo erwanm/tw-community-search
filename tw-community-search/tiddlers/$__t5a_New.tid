@@ -3,8 +3,9 @@ color: #30f
 created: 20151111182859881
 creator: Andrew Harrison
 icon: $:/core/images/new-button
-modified: 20151111182919241
+modified: 20151203054922024
 modifier: Andrew Harrison
+show-field: -icon
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: New

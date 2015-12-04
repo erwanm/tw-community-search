@@ -3,8 +3,9 @@ color: #f08
 created: 20151111183007680
 creator: Andrew Harrison
 icon: $:/core/images/palette
-modified: 20151111183024280
+modified: 20151203054943576
 modifier: Andrew Harrison
+show-field: -icon
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: Stylesheet
