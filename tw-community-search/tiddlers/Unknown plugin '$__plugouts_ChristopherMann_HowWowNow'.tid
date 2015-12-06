@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugouts/ChristopherMann/HowWowNow'
-name: unknown
-plugin_tiddler: $:/plugouts/ChristopherMann/HowWowNow
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
