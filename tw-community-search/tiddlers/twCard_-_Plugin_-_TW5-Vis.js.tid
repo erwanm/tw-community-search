@@ -21,6 +21,6 @@ twcs-wiki-id: TiddlyMap
 twcs-extracted-plugin-tiddler: $:/TiddlyMap/$:/plugins/felixhayashi/vis
 twcs-description: Visjs – TiddlyWiki5 plugin for the vis.js library
 twcs-author: Felix Küppers
-twcs-version: 4.9.0
+twcs-version: 4.10.0
 
 {{||$:/CommunityPluginTemplate}}
