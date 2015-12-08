@@ -5,7 +5,7 @@ dependents:
 description: Add a calc widget that evluates expression using Math.JS
 list: 
 revision: 0
-version: 1.1.1
+version: 1.1.2
 original-tags: 
 source-wiki-id: MathJSPlugin
 source-tiddler-title-as-text: $:/plugins/mklauber/math.js
