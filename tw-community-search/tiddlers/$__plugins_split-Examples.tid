@@ -1,7 +1,7 @@
 title: $:/plugins/split-Examples
 created: 20151127145153951
 creator: Tobias Beer
-modified: 20151127153736983
+modified: 20151208220526129
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -33,10 +33,26 @@ For details see [[parameters|split-Parameters]]...
 
 <<` """{{{ "foo-bar" baz +[split:$[-]] }}}""">>
 
-<$macrocall $name=` text="""{{{ [[foo - bar]] +[split:[-]addsuffix[x]] }}}"""/>
+<<` """{{{ 123456 +[split:at[4]] }}}""">>
+
+<<` """{{{ 123456 +[split:first at[4]] }}}""">>
+
+<<` """<$list filter="[[123456]split:at[40]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[123456]split:keep at[40]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[foo]split[-]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[foo]split:keep[-]]" emptyMessage="none"/>""">>
+
+<$macrocall $name=` text="""{{{ [[foo - bar]] +[split[-]addsuffix[x]] }}}"""/>
 
 <$macrocall $name=` text="""{{{[[foo - bar]] +[split:trim[-]addsuffix[x]] }}}"""/>
 
-<<` """{{{ [!is[system]!split:$[-]] }}}""">>
+<<` """{{{ [split:$[split-]] }}}""">>
 
-<<` """{{{ [!is[system]split:$all[-]] }}}""">>
+<<` """{{{ [prefix[split]split:$[-I]] }}}""">>
+
+<<` """{{{ [prefix[split]split:$all[-I]] }}}""">>
+
+<<` """{{{ [prefix[split]split:$ keep[-I]] }}}""">>

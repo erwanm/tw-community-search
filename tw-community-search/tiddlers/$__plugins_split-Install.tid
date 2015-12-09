@@ -1,7 +1,7 @@
 title: $:/plugins/split-Install
 created: 20151127143704922
 creator: Tobias Beer
-modified: 20151127152848167
+modified: 20151208224347325
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -13,5 +13,15 @@ source-tiddler-title-as-link: split-Install
 
 !! Version History
 
+; 0.5.8 / 2015-12-08
+: now ignores blanks, should the split characters be at the beginning or end
+; 0.5.7 / 2015-12-08
+: now returns empty results for ''!last'' and ''!first'' should split have a length of 1
+; 0.5.6 / 2015-12-08
+: ''bugfix'' — mixed up `+(...)` and `(...)+` in ''0.5.5''
+; 0.5.5 / 2015-12-08
+: added suffixed ''at'' & ''keep''
+: safer suffix parsing
+: now minified
 ; 0.5.0 / 2015-11-27
 : initial release

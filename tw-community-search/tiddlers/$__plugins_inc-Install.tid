@@ -1,0 +1,19 @@
+title: $:/plugins/inc-Install
+created: 20151208145609644
+creator: Tobias Beer
+modified: 20151208175326076
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: inc-Install
+source-tiddler-title-as-link: inc-Install
+
+<<plugin-install inc>>
+
+!! Version History
+; 0.5.1 / 2015.12.08
+: add docs link to readme
+; 0.5.0 / 2015.12.08
+: initial release

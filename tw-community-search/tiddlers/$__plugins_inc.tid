@@ -1,0 +1,14 @@
+title: $:/plugins/inc
+created: 20151208144615451
+creator: Tobias Beer
+modified: 20151208153949380
+modifier: Tobias Beer
+revision: 0
+tabs: Info Demo Configure Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Macros
+source-wiki-id: plugins
+source-tiddler-title-as-text: inc
+source-tiddler-title-as-link: inc
+
+<<plugin-docs inc>>

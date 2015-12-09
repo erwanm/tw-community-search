@@ -1,0 +1,26 @@
+title: $:/plugins/inc-Demo
+created: 20151208145132497
+creator: Tobias Beer
+modified: 20151208155536902
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: inc-Demo
+source-tiddler-title-as-link: inc-Demo
+
+Hover over the transcluded tiddler below and find a tiddler toolbar appear to the top-right of it, the transclusion also being mildly highlighted...
+
+`<<{ inc-Install>>`
+
+> <<{ inc-Install>>
+
+Using the macro in a list widget:
+
+<$macrocall $name="`" text="""<dl>
+<$list filter="inc-Info inc-Configure inc-Install">
+<dt><$text text=<<currentTiddler>>/></dt>
+<dd class="no-before"><<{>></dd>
+</$list>
+</dl>"""/>

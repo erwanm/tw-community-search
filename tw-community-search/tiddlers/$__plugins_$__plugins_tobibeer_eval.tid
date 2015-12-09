@@ -8,7 +8,7 @@ list: readme filter widget
 requires: 
 revision: 0
 source: https://github.com/tobibeer/tw5-eval
-version: 0.6.7 BETA
+version: 0.6.8 BETA
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/eval
