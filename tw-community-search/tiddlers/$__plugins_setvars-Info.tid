@@ -1,0 +1,15 @@
+title: $:/plugins/setvars-Info
+created: 20151209131321187
+creator: Tobias Beer
+modified: 20151209131437072
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: setvars-Info
+source-tiddler-title-as-link: setvars-Info
+
+The plugin $:/plugins/tobibeer/setvars provides:
+
+; `<$setvars/>`
+: a widget to declare a bunch of variables in one go while joining a range of attribute values

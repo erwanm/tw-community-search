@@ -1,0 +1,19 @@
+title: $:/plugins/setvars-Install
+created: 20151209141659104
+creator: Tobias Beer
+modified: 20151209160745843
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: setvars-Install
+source-tiddler-title-as-link: setvars-Install
+
+<<plugin-install setvars>>
+
+!! Version History
+
+; 0.5.1 2015-12-09
+: removed leftover console log statements
+; 0.5.0 2015-12-09
+: initial release

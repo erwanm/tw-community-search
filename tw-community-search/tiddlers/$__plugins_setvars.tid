@@ -1,0 +1,15 @@
+title: $:/plugins/setvars
+created: 20151209131441355
+creator: Tobias Beer
+modified: 20151209142515596
+revision: 0
+tabs: Info Syntax Examples Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Widgets
+source-wiki-id: plugins
+source-tiddler-title-as-text: setvars
+source-tiddler-title-as-link: setvars
+
+<<plugin-docs setvars>>
+
+<<plugin-docs-cp setvars>>
