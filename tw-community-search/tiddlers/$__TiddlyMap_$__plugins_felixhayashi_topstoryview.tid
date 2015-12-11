@@ -2,11 +2,11 @@ title: $:/TiddlyMap/$:/plugins/felixhayashi/topstoryview
 author: Felix Küppers
 core-version: >=5.1.5
 dependents: 
-description: TopStoryView - Navigation scrolls tiddlers to the top
+description: TopStoryView – Always scroll navigated tiddlers to the top
 list: Configuration License Readme
 released: 
 source: https://github.com/felixhayashi/TW5-TopStoryView
-version: 0.1.0
+version: 0.2.0
 original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/topstoryview
