@@ -1,6 +1,8 @@
 title: $:/LibreNote/ListeTags
 created: 20150617205125041
-modified: 20150924142459857
+creator: svink
+modified: 20151213172852055
+modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: ListeTags
@@ -13,6 +15,6 @@ source-tiddler-title-as-link: ListeTags
 </div>
 
 <div style="color:black;">
-<$list filter="[tags[]!is[system]each[color]]">
+<$list filter="[tags[]!is[system]has[color]]">
 <$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
 </$list>
