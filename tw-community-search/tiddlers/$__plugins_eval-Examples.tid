@@ -2,7 +2,7 @@ title: $:/plugins/eval-Examples
 created: 20151206142750801
 creator: Tobias Beer
 cubed: 3^3
-modified: 20151207001416904
+modified: 20151216200053952
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -54,7 +54,8 @@ source-tiddler-title-as-link: eval-Examples
 
 <<` """{{{ [[1]eval[min(title,2)]] }}}""">>
 
-''without the `value` variable, you may just end up evaluating only the last input title:''
+''without the `value` variable?''<br>
+//you may just end up evaluating only the last input title!//
 
 <<` """{{{ 1 2 +[eval[title]] }}}""">>
 
@@ -69,6 +70,10 @@ source-tiddler-title-as-link: eval-Examples
 ''using a final expression:''
 
 <<` """{{{ 1 2 +[eval[value + title \ final: value / 3]] }}}""">>
+
+''getting the count of input titles using the final expression:''
+
+<$macrocall $name="`" text="""{{{ a b c +[eval[final: count]] }}}"""/>
 
 ''using a custom [[math.js format|http://mathjs.org/docs/reference/functions/format.html]]:''
 
