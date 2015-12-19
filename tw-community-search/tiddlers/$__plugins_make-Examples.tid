@@ -5,7 +5,6 @@ creator: Tobias Beer
 modified: 20151217135717520
 modifier: Tobias Beer
 revision: 0
-type: text/vnd.tiddlywiki
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: make-Examples
@@ -27,7 +26,7 @@ source-tiddler-title-as-link: make-Examples
 
 !! Text-Reference
 
-<$macrocall $name="`" text="""{{{ [make[{{$:/SiteTitle}}]] }}}"""/>
+<$macrocall $name="`" text="""{{{ [make[{{!!modified}}]] }}}"""/>
 
 !! Current Date
 
@@ -59,6 +58,6 @@ Incremented To %count%
 !! Placeholder Parade
 
 <$macrocall $name="`" text="""{{{ [make[
-<<currentTiddler>>—{{!!bar}}—%count%/%max%—%date%—RANDOM(): %uuid% \
+<<currentTiddler>>—{{appear-Examples!!bar}}—%count%/%max%—%date%—RANDOM(): %uuid% \
 date-format:YYYY0MM0DD
 ]] }}}"""/>

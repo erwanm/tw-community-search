@@ -1,7 +1,8 @@
 title: $:/plugins/setvars-Examples
 created: 20151209092945086
 creator: Tobias Beer
-modified: 20151209150227897
+modified: 20151218221617104
+modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -62,6 +63,18 @@ mumble="frotz \ => \ gronk"
 ''evaluates as a filter and returns the third item or `empty` if undefined''
 
 <$macrocall $name="`" text="""<$setvars foo="[bar[3][empty]]" _bar="1 2">
+<<foo>>
+</$setvars>"""/>
+
+''joins the titles''
+
+<$macrocall $name="`" text="""<$setvars foo="[bar[2,3][][]]" _bar="[[a b]][[c d]][[e f]]">
+<<foo>>
+</$setvars>"""/>
+
+''joins the titles with a joiner''
+
+<$macrocall $name="`" text="""<$setvars foo="[bar[2,3][][ - ]]" _bar="[[a b]][[c d]][[e f]]">
 <<foo>>
 </$setvars>"""/>
 
@@ -136,11 +149,11 @@ bar[-1] \ = \
 ```
 
 <$macrocall $name="`" text="""<$setvars
-	foo="hi \, \ me \! \ nice \<br>\ [list[2,3]]"
+	foo="hi \, [[\ me \]]! \ nice \<br>\ [list[2,3][][ ✦ ]]"
 		_hi="Hi"
 		_me={{!!title}}
 		_nice=<<nice>>
-		_list= "1 => [all[current]]"
+		_list= "a test [all[current]]"
 	bar="hi \, again! ;-)\">
 <<foo>><br><<bar>>
 </$setvars>"""/>
