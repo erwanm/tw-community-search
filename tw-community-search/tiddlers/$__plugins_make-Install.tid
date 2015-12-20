@@ -3,7 +3,6 @@ created: 20151217132014442
 creator: Tobias Beer
 modified: 20151217132713623
 revision: 0
-type: text/vnd.tiddlywiki
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: make-Install
@@ -13,5 +12,10 @@ source-tiddler-title-as-link: make-Install
 
 !! Version History
 
+; 0.5.5 / 2015-12-19
+: now handles input titles as well
+: added options `sep`, `tiddler`, `unique`
+: added placeholders `%title%`, `%tiddler%`
+: added test-suite
 ; 0.5.0 / 2015-12-17
 : initial release
