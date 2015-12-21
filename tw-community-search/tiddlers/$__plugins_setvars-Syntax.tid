@@ -1,7 +1,7 @@
 title: $:/plugins/setvars-Syntax
 created: 20151209131525981
 creator: Tobias Beer
-modified: 20151219000438913
+modified: 20151220100504636
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -24,6 +24,10 @@ All put together, this is the result of it:
 <<foo>>
 </$setvars>
 """/>
+
+@@.note
+''Note:'' Address a variable previously defined in the same ''setvars'' instance by its name. Hence, it is best to never use the same name for a variable and an attribute.
+@@
 
 !! Conditionals
 
