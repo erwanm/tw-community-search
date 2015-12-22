@@ -1,0 +1,38 @@
+title: $:/plugins/join-Syntax
+created: 20151221145208124
+creator: Tobias Beer
+modified: 20151221153819443
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: join-Syntax
+source-tiddler-title-as-link: join-Syntax
+
+Through its operand, you can specify an item template for the ''join[]'' filter, as well as further options separated via `\` should you need more than one.
+
+!! Item Template
+
+The default item template is `%title%`. It specifies a placeholder `%title%` that will be replaced with each input title in turn, e.g.:
+
+<$macrocall $name="`" text="""<$set name="result" filter="A +[join[prefix-%title%-suffix]]"><code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Options
+
+Specify any of these options as `key:value` pairs:
+
+; sep
+: a separator joining input titles, white-space preserved
+:: `[[ A ]] [[ B ]] +[join[sep:- ]]` => `A- B`
+; prefix
+: a final prefix, white-space preserved
+:: `A B +[join[prefix:+ ]]` => `+ AB`
+; suffix
+: a final suffix, white-space preserved
+:: `A B +[join[suffix:+ ]]` => `AB+ `
+; trim
+: `each` — trims each input tite in turn
+:: `[[ A ]] [[ B ]] +[join[trim:each]]` => `AB`
+: `result` — trims the output string
+:: `[[ A ]] [[ B ]] +[join[trim:result]]` => `A B`

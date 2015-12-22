@@ -1,0 +1,13 @@
+title: $:/plugins/filter
+created: 20151221060823167
+creator: Tobias Beer
+modified: 20151221061648035
+revision: 0
+tabs: Info Parameters Examples Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Filters
+source-wiki-id: plugins
+source-tiddler-title-as-text: filter
+source-tiddler-title-as-link: filter
+
+<<plugin-docs filter>>

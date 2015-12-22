@@ -1,0 +1,18 @@
+title: $:/tb5/$:/plugins/tobibeer/random
+author: Tobias Beer
+core-version: >=5.1.9
+dependents: 
+description: A filter to return one or more random titles
+documentation: https://tobibeer.github.io/tw5-random
+list: readme
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-random
+version: 0.1.0
+original-tags: 
+source-wiki-id: tb5
+source-tiddler-title-as-text: $:/plugins/tobibeer/random
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2frandom
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,79 @@
+title: $:/plugins/join-Examples
+created: 20151221134253410
+creator: Tobias Beer
+modified: 20151221153938398
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: join-Examples
+source-tiddler-title-as-link: join-Examples
+
+All the below examples use:
+
+; $set
+: the <<x SetWidget>>, to define a variable ''result'' through which we evaluate the filter
+; code
+: a wrapper that outputs the result as inline-code
+; $text
+: the <<x TextWidget>> whichoutputs the ''result'' as is, not wikified
+
+!! Simple Join
+
+<$macrocall $name="`" text="""<$set name="result" filter="A B C +[join[]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Join With Separator
+
+<$macrocall $name="`" text="""<$set name="result" filter="A B C +[join[sep:-]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Join With Final Prefix And Suffix
+
+<$macrocall $name="`" text="""<$set name="result" filter="A B C +[join[prefix:<\\suffix:>]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Join Item With Item-Prefix And Item-Suffix
+
+<$macrocall $name="`" text="""<$set name="result" filter="[all[current]join[prefix-%title%-suffix]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Custom Item Template And Separator
+
+<$macrocall $name="`" text="""<$set name="result" filter="A B C +[join[prefix-%title%\\ sep:+]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Join With Separator Having Blanks
+
+<$macrocall $name="`" text="""<$set name="result" filter="A B C +[join[sep: - ]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Join With Input Titles Having Blanks
+
+<$macrocall $name="`" text="""<$set name="result" filter="[[ A ]] [[ B ]] [[ C ]] +[join[]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Trim Result
+
+<$macrocall $name="`" text="""<$set name="result" filter="[[ A ]] [[ B ]] [[ C ]] +[join[trim:result]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Trim Each Input Title
+
+<$macrocall $name="`" text="""<$set name="result" filter="[[ A ]] [[ B ]] [[ C ]] +[join[trim:each]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>
+
+!! Trim Each Title And Use A Separator With Blanks
+
+<$macrocall $name="`" text="""<$set name="result" filter="[[ A ]] [[ B ]] [[ C ]] +[join[trim:each \\ sep: - ]]">
+<code><$text text=<<result>>/></code>
+</$set>"""/>

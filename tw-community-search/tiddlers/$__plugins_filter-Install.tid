@@ -1,0 +1,17 @@
+title: $:/plugins/filter-Install
+created: 20151221060906187
+creator: Tobias Beer
+modified: 20151221061251274
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: filter-Install
+source-tiddler-title-as-link: filter-Install
+
+<<plugin-install filter>>
+
+!! Version History
+
+; 0.5.0 / 2016-12-21
+: initial version
