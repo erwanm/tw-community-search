@@ -1,7 +1,7 @@
 title: $:/plugins/split-Install
 created: 20151127143704922
 creator: Tobias Beer
-modified: 20151208224347325
+modified: 20151222220628457
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -13,6 +13,9 @@ source-tiddler-title-as-link: split-Install
 
 !! Version History
 
+; 0.6.0 / 2015-12-22
+: modified default behavior to allow duplicates in the output
+: consequently added suffix ''unique'' to still allow producing unique sets
 ; 0.5.8 / 2015-12-08
 : now ignores blanks, should the split characters be at the beginning or end
 ; 0.5.7 / 2015-12-08

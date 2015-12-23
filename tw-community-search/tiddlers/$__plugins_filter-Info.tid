@@ -1,7 +1,7 @@
 title: $:/plugins/filter-Info
 created: 20151221060748553
 creator: Tobias Beer
-modified: 20151221090035922
+modified: 20151222142954546
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -19,6 +19,6 @@ The plugin $:/plugins/tobibeer/filter provides:
 
 * to avoid having to nest list widgets in list widgets
 ** that may not even allow you to retrieve the same aggregated results
-* to avail nested filters to the <<x SetWidget>> or [[setvars]]
+* to avail nested filters to the <<x SetWidget>> or the [[setvars]] widget
 
 <<plugin-docs-cp filter>>
