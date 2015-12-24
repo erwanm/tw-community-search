@@ -1,7 +1,7 @@
 title: $:/t5a/SVG Editors
 created: 20150701035709086
 creator: Andrew Harrison
-modified: 20150913210750578
+modified: 20151223185319845
 modifier: Andrew Harrison
 original-tags: New
 source-wiki-id: t5a
@@ -12,3 +12,6 @@ http://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html<br
 http://editor.method.ac/<br>
 http://tutorials.jenkov.com/svg/polygon-element.html<br>
 Color contrast:http://webdesign.about.com/od/color/l/bl_contrast_table.htm
+
+Excel formulas: =IF(ISTEXT(A1),A1,A1/32) and =IF(ISTEXT(A2),A2,A2*128.2)<br>
+`<path d="mz"/>`
