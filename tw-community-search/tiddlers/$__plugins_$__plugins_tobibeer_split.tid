@@ -2,12 +2,12 @@ title: $:/plugins/$:/plugins/tobibeer/split
 author: Tobias Beer
 core-version: >=5.1.9
 dependents: 
-description: A filter to split input titles
+description: A filter to split input titles and slice-up the results
 documentation: https://tobibeer.github.io/tw5-split
 list: readme
 revision: 0
 source: https://github.com/tobibeer/tw5-split
-version: 0.6.0
+version: 0.6.5
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/split
