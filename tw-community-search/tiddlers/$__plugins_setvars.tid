@@ -1,10 +1,10 @@
 title: $:/plugins/setvars
 created: 20151209131441355
 creator: Tobias Beer
-modified: 20151218235716321
+modified: 20151225222303197
 modifier: Tobias Beer
 revision: 0
-tabs: Info Syntax Conditionals Examples Install
+tabs: Info Syntax Conditionals Refresh Examples Install
 type: text/vnd.tiddlywiki
 original-tags: Plugins Widgets
 source-wiki-id: plugins
