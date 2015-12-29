@@ -1,0 +1,13 @@
+title: $:/plugins/appear-Styles
+created: 20151216094336360
+creator: Tobias Beer
+modified: 20151216094449945
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: appear-Styles
+source-tiddler-title-as-link: appear-Styles
+
+The default styles for the appear-widget are defined in <<source "$:/plugins/tobibeer/appear/styles">>

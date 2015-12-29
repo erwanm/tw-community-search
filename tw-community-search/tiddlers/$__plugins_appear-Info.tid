@@ -1,0 +1,20 @@
+title: $:/plugins/appear-Info
+created: 20151209180941139
+creator: Tobias Beer
+modified: 20151218035422612
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: appear-Info
+source-tiddler-title-as-link: appear-Info
+
+The ''appear'' widget displays a button which when clicked reveals hidden content to produce the following results:
+
+* ''popups'', taken out of the document flow if you want them to
+* ''sliders'', block or inline
+* accordion ''menus''
+* interactive ''stories''
+
+Under the hood, there is at least one <<x ButtonWidget>> and one <<x RevealWidget>> it creates which may be wrapped in further elements, e.g. more reveal widgets, as needed, so as to achieve the desired output.
