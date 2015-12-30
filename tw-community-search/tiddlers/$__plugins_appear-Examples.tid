@@ -1,7 +1,7 @@
 title: $:/plugins/appear-Examples
 created: 20150201173223292
 creator: Tobias Beer
-modified: 20151218155825207
+modified: 20151229175344163
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -20,6 +20,10 @@ source-tiddler-title-as-link: appear-Examples
 
 Some more text.</$appear> after""">>
 
+@@.note
+''Note:'' The <<x StateMechanism state>> is automatically qualified for you and sufficient for most use cases.
+@@
+
 !! Simple Popup
 
 <<` """before <$appear type="popup">
@@ -27,10 +31,6 @@ Some more text.</$appear> after""">>
 ! Popup
 
 Clicking anywhere will close me.</$appear> after""">>
-
-@@.note
-''Note:'' The above uses the ''$state'' attribute to specify a shortcut way to qualify a unique state with respect to the current tiddler.
-@@
 
 !! Sticky Popup
 
@@ -41,6 +41,10 @@ Clicking anywhere will close me.</$appear> after""">>
 ! Sticky Popup
 
 Clicking inside me will not close me.</$appear> after""">>
+
+@@.note
+''Note:'' The above uses the ''$state'' attribute to specify a shortcut way to qualify a unique state with respect to the current tiddler.
+@@
 
 !! Simple Slider With Custom Button
 
@@ -111,17 +115,19 @@ text="""<$vars tid="GettingStarted">
 
 !! List Popup
 
-// The below popup is also made sticky. //
-
 <$macrocall $name=` 
 text="""before <$appear type="popup" $state="list-popup" class="tc-popup-keep">
 
 {{{[prefix[appear]sort[title]]}}}
 </$appear> after"""/>
 
+@@.note
+''Note:'' The above popup is also made sticky via `tc-popup-keep`.
+@@
+
 !! Tiddler Slider With Tiddler Widget
 
-The next example implements custom arrows with a helper macro, wrapped using the <<x TiddlerWidget>> to set a different context.
+// Implements custom arrows with a helper macro, wrapped using the <<x TiddlerWidget>> to set a different context://
 
 ```
 \define slider-label(prefix,suffix)
@@ -140,7 +146,7 @@ $state="tiddler-widget-slider">
 
 !! Accordion Menu
 
-Making use of the above slider-label macro and another helper macro for the tooltip:
+//Making use of the above slider-label macro and another helper macro for the tooltip://
 
 ```
 \define slider-tooltip()
@@ -162,6 +168,8 @@ state="$:/state/menu/accordion">
 </$list>"""/>
 
 !! Remote Popup Handler
+
+// Actually renders the popup into the <<x SystemTags PageTemplate>> [[$:/.tb/ui/PageTemplate/popups]]://
 
 <$macrocall $name="`" text="""| <$appear show="click to show" type="popup" $state="popups-handler" handler="popups">I [[appear]] when you tell me to.</$appear> |eenie meenie miney mo |eenie meenie miney mo <br/><br/> |"""/>
 
@@ -185,3 +193,7 @@ button.pink {
 color:deeppink;
 }
 </style>
+
+@@.note:
+''Note:'' The popups of the above example would be cut-off at the column edge without using the handler attribute, e.g. if using the core <<x PopupMechanism>> alone.
+@@

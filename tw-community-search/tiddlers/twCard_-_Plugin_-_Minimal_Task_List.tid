@@ -21,6 +21,6 @@ twcs-wiki-id: inmysocks
 twcs-extracted-plugin-tiddler: $:/inmysocks/$:/plugins/inmysocks/MinimalTaskList
 twcs-description: A simple task list for TiddlyWiki
 twcs-author: inmysocks
-twcs-version: 0.1.1
+twcs-version: 0.1.2
 
 {{||$:/CommunityPluginTemplate}}

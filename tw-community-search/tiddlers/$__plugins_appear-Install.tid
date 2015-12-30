@@ -1,8 +1,10 @@
 title: $:/plugins/appear-Install
 created: 20151209181007989
 creator: Tobias Beer
-modified: 20151209181028212
+modified: 20151229173345364
+modifier: Tobias Beer
 revision: 0
+type: text/vnd.tiddlywiki
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: appear-Install
@@ -11,3 +13,8 @@ source-tiddler-title-as-link: appear-Install
 <<plugin-install appear>>
 
 !! Version History
+
+; 0.5.7 / 2015-12-29
+: non-functional fixes to readme
+; 0.5.5 / 2015-12-29
+: initial release
