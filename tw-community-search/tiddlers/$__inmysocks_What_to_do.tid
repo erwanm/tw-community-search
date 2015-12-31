@@ -1,25 +1,25 @@
 title: $:/inmysocks/What to do
 created: 20140924171126295
-modified: 20150721190032453
+modified: 20151230090546435
 num_recent: 10
 original-tags: Contents
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: What to do
 source-tiddler-title-as-link: What%20to%20do
 
-<<fa fa-star>> ''I have a question!'' Some people (a whole 2 of them!) have asked about what new things I have been working on. Is there any actual interest in me setting up some sort of notification system? It would probably be using twitter because that is quick and easy. I would rather not spam my personal twitter feed with whatever I am playing with in tiddlywiki. If you want to answer you can use the [[user feedback form|User Feedback]] or [[the other ways to contact me|About Me]].
-
-The list below gets updated pretty often, I add new things to the end of the list so you may need to scroll down to see them.
-
-You can skip directly to [[Learning TiddlyWiki]] if you would like. Just be warned that like the rest of the site, it is a work in progress and is continually updated.
-
-If you are looking for something new and interesting, you can also to the [[Random List of Awesome Things]], a list of interesting TiddlyWiki things that other people have made. The list is randomly generated each time the wiki is loaded, so it should have different content every time you visit this site.
+<!--<<fa fa-star>> ''I have a question!'' Some people (a whole 2 of them!) have asked about what new things I have been working on. Is there any actual interest in me setting up some sort of notification system? It would probably be using twitter because that is quick and easy. I would rather not spam my personal twitter feed with whatever I am playing with in tiddlywiki. If you want to answer you can use the [[user feedback form|User Feedback]] or [[the other ways to contact me|About Me]].-->
 
 !First:
 
-If you can't see the entire tiddler, or if you can't see the table of contents to the right you can click on the `Width/Font Size` button in the top right of the page to adjust the width so you can see everything. You can adjust the font and text spacing by clicking on the {{Menu Icon - Font Options}} button text to the change width button.
+''If you can't see the entire tiddler'', or if you can't see the table of contents to the right you can click on the `Width/Font Size` button in the top right of the page to adjust the width so you can see everything. You can adjust the font and text spacing by clicking on the {{Menu Icon - Font Options}} button text to the change width button.
 
-If you want to get back to this view, press the home button in the middle of the top bar or above the table of contents to the right  to go back to the default tiddlers. it looks like this: {{$:/plugins/inmysocks/iconmenus/icon/Home}}.
+''If you want to get back to this view'', press the home button in the middle of the top bar or above the table of contents to the right  to go back to the default tiddlers. it looks like this: {{$:/plugins/inmysocks/iconmenus/icon/Home}}.
+
+''You can skip directly to [[Learning TiddlyWiki]]'' if you would like. Just be warned that like the rest of the site, it is a work in progress and is continually updated.
+
+''There is also the [[Random List of Awesome Things]]'', a list of interesting TiddlyWiki things that other people have made. The list is randomly generated each time the wiki is loaded, so it should have different content every time you visit this site.
+
+''The list below will help you figure out what you want to do'' if you don't know. The list gets updated pretty often, I add new things to the end of the list so you may need to scroll down to see them.
 
 !Things I have made:
 
