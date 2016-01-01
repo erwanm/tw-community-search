@@ -1,7 +1,7 @@
 title: $:/plugins/make-Operand
 created: 20151217132224423
 creator: Tobias Beer
-modified: 20151219182752387
+modified: 20151231144208694
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -62,3 +62,6 @@ You can specify a title pattern based on whichever strings you desire and variou
 : also used for ''unique'', below
 ; `unique:field` / `unique:index`
 : does not check uniqueness based on tiddler titles but rather for a field or index of a specified ''tiddler'', by default the current tiddler
+; `pad:max` / `pad:5`
+: zero-pads `%count%` to either the length of max or the specified number of digits
+:: `pad:5` => `00001`

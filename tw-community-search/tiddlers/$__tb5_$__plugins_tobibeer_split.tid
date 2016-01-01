@@ -7,7 +7,7 @@ documentation: https://tobibeer.github.io/tw5-split
 list: readme
 revision: 0
 source: https://github.com/tobibeer/tw5-split
-version: 0.6.6
+version: 0.7.0
 original-tags: 
 source-wiki-id: tb5
 source-tiddler-title-as-text: $:/plugins/tobibeer/split
