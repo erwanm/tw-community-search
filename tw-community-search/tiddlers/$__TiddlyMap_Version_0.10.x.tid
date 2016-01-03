@@ -1,16 +1,30 @@
 title: $:/TiddlyMap/Version 0.10.x
 caption: v0.10.x
 created: 20151026154714816
-modified: 20151026154714816
+modified: 20160102230644028
 tmap.id: 26976ded-1d7e-4798-b7ef-a12fc5cdaeef
 type: text/x-markdown
-original-tags: ReleaseNote Configurability Integration
+original-tags: ReleaseNote Configurability Integration Usability Performance
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.10.x
 source-tiddler-title-as-link: Version%200.10.x
 
 Major enhancements
 ----------------------------
+
+### v0.10.7
+
+* Improved Fullscreen and halfscreen. Fullscreen doesn't trigger
+  the browser's fullscreen (F11) anymore but simply fills the page's
+  body. This is nicer to work with and also fixes #96.
+  Moreover, halfscreen and fullscreen may be switched immediately,
+  which is a true fix for #157.
+
+### v0.10.6
+
+* Resolves #197: Add more keyboard shortcuts
+* Resolves #134: Shift-drag to create new edge.
+  – ctrl+1,2 can be used to achieve that.
 
 ### v0.10.4
 

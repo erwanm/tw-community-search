@@ -1,6 +1,6 @@
 title: $:/inmysocks/Copy and Paste Custimizations
 created: 20150427000600889
-modified: 20150427010853463
+modified: 20160102090845680
 original-tags: [[Learning to Customize TiddlyWiki]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Copy and Paste Custimizations
@@ -61,5 +61,13 @@ color:blue;
 ```
 .tc-tiddler-edit-frame textarea {
 font-size:10px;
+}
+```
+
+''The default tag apperance''
+
+```
+button.tc-tag-label, span.tc-tag-label {
+background-color:pink;
 }
 ```
