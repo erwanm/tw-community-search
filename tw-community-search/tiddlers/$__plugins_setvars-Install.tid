@@ -1,7 +1,7 @@
 title: $:/plugins/setvars-Install
 created: 20151209141659104
 creator: Tobias Beer
-modified: 20151225232432551
+modified: 20160103151633563
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -14,6 +14,11 @@ source-tiddler-title-as-link: setvars-Install
 
 !! Version History
 
+; 0.6.0 / 2016-01-03
+: fixed bug in OR logic
+: added bracketed OR argument
+:: also allowing shorthand `if` clause as `(condition? then)`
+: allows (non-)equality checks in `if` clause condition
 ; 0.5.8 / 2015-12-25
 : added [[$refresh|setvars-Refresh]] to allow recalculating filter attributes and force refresh on changes
 ; 0.5.7 / 2015-12-20
