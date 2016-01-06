@@ -1,0 +1,12 @@
+title: $:/Hangout93/last 5 created
+caption: cre
+created: 20151209092458616
+modified: 20151210200001678
+original-tags: interfaces TW [[interfaces TW]] $:/tags/SideBar
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: last 5 created
+source-tiddler-title-as-link: last%205%20created
+
+<<list-links filter:"[!is[system]sort[created]!limit[5]]" class:"tc-menu-list-subitem">>
+
+[[last 5 created]]

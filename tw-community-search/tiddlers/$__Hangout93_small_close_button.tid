@@ -1,0 +1,18 @@
+title: $:/Hangout93/small close button
+created: 20151122103125808
+modified: 20151122112342100
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: $:/core/ui/SideBar/Open [[minimise eye movements]]
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: small close button
+source-tiddler-title-as-link: small%20close%20button
+
+<$button 
+   message="tm-close-tiddler" 
+   tooltip={{$:/language/Buttons/Close/Hint}}
+   aria-label={{$:/language/Buttons/Close/Caption}} 
+
+class="tc-btn-invisible tc-btn-mini">&times;
+
+</$button>

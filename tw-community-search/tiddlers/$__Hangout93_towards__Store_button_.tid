@@ -1,0 +1,40 @@
+title: $:/Hangout93/towards "Store button"
+created: 20151122090600719
+modified: 20151122092942605
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: [[create new "close" - return to store]]
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: towards "Store button"
+source-tiddler-title-as-link: towards%20%22Store%20button%22
+
+Icon : [[toStore.svg]]
+
+via search for verbs : https://thenounproject.com/search/?q=verbs
+
+cloned [[$:/core/ui/Buttons/close]] -> $:/core/ui/Buttons/store
+
+-----
+
+$:/core/images/store-button
+
+-------
+$:/language/Buttons/Store/Hint
+$:/language/Buttons/Store/Caption
+
+
+
+
+-----
+<$button message="tm-close-tiddler" tooltip={{$:/language/Buttons/Store/Hint}} aria-label={{$:/language/Buttons/Store/Caption}} class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/core/images/close-button}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text={{$:/language/Buttons/Close/Caption}}/></span>
+</$list>
+</$button>
+
+
+
+

@@ -1,0 +1,42 @@
+title: $:/SlicedFAQs/My Practice DropBox TiddlyWiki
+created: 20151124111536044
+modified: 20151124113329966
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: SlicedFAQs
+source-tiddler-title-as-text: My Practice DropBox TiddlyWiki
+source-tiddler-title-as-link: My%20Practice%20DropBox%20TiddlyWiki
+
+[[My Practice DropBox TiddlyWiki|https://dl.dropboxusercontent.com/u/1316865/alexhough/MadLab/my-practice.html]] is, a TiddlyWiki hosted on Dropbox
+
+I have hosted TiddlyWikis on Dropbox since 2010. I think the combination offers great the potential for collaboration.
+
+*TiddlyWiki is a single page application so it doesn't need a server. 
+**So it can be treated as a single page of HTML, it can be emailed, put on a data peg or put in a Dropbox.
+
+The ability to quickly produce a hypertext document and display it on-line is one of the reasons TiddlyWiki is top of my list of [[Digital tools]]
+
+! Example: OMM
+
+The largest software project I have been involved with was OMM, an Organisational Maturity Model.
+
+!! Homepage
+
+The "homepage" is on the SCiO website:
+http://www.scio.org.uk/organisational-maturity-model
+
+!! Dropbox TiddlyWikis
+
+The URLs of the three files are public dropbox folders. They have been deployed for five years [1]. 
+
+https://dl.dropboxusercontent.com/u/1316865/AlexHough/SCiO/OMM.Sept2010/ommHome.html
+
+https://dl.dropboxusercontent.com/u/1316865/AlexHough/SCiO/OMM.Sept2010/ommDirector.html
+
+https://dl.dropboxusercontent.com/u/1316865/AlexHough/SCiO/OMM.Sept2010/ommManager.html
+
+----
+Note:
+
+[1] Changes in the way Dropbox handles relative links means that the images are missing

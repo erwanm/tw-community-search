@@ -1,0 +1,29 @@
+title: $:/Hangout93/OMM
+created: 20151123104813920
+modified: 20151123114220911
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: [[Tool making]] modeling
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: OMM
+source-tiddler-title-as-link: OMM
+
+OMM stands for Organisational Maturity Model.
+
+The idea for producing the model came from the SCiO's 2009 AGA. A special interest group was formed to create the model as part of continuous professional development 
+
+Capability Maturity Models are widely used by businesses, but members felt that the existing models failed to engage with organisations from a whole systems prospective.
+
+The ~SCiO OMM aims to poll organisational maturity from the perspective of Stafford Beer's Viable System Model.
+
+I volunteered to write the software for the model and chose ~TiddlyWiki, I tool in which I had some expertise. 
+
+One of the group was involved in the creation of DSDM (Dynamic Systems Development Method) and she offered to teach me the method so that I could develop good software development practice.
+
+The process of developing OMM exposed me to the TiddlyWiki community and the culture of Open Source software.
+
+In 2014, I started to think about applying organisational maturity to a place. In May 2015 I presented a paper [1] which outlined the design for "OMM:Place" - a prototype tool to aid place making, place branding and place management.
+
+[1] Requisite Variety on the High Street
+
+

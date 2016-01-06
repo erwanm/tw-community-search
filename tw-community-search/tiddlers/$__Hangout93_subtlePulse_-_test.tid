@@ -1,0 +1,22 @@
+title: $:/Hangout93/subtlePulse - test
+created: 20151209110704693
+modified: 20151210192826262
+original-tags: greenPulse
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: subtlePulse - test
+source-tiddler-title-as-link: subtlePulse%20-%20test
+
+<html>
+<div class="subtlePulse">
+asdfasdfasd
+</div>
+</html>
+----
+
+flicker perimeters could be controlled by a slider
+
+----
+Thanks 
+http://www.css3maker.com/css-3-rgba.html
+
+

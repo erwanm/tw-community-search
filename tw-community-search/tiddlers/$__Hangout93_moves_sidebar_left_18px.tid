@@ -1,0 +1,16 @@
+title: $:/Hangout93/moves sidebar left:18px
+created: 20151122080132508
+modified: 20151122081854489
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: [[moves sidebar to left of page]] $:/tags/Stylesheet
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: moves sidebar left:18px
+source-tiddler-title-as-link: moves%20sidebar%20left%3a18px
+
+.tc-sidebar-scrollable {
+    position: fixed;
+    top: 0px;
+    left: 18px;
+    bottom: 0;
+}

@@ -1,0 +1,22 @@
+title: $:/Hangout93/New Tiddler 9
+created: 20151209094902146
+modified: 20151210211055276
+original-tags: 
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: New Tiddler 9
+source-tiddler-title-as-link: New%20Tiddler%209
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    
+    box-shadow: 120px 80px 40px 20px #0ff;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+}
+
+
+tc-menu-list-subitem
+
+tc-tiddlylink tc-tiddlylink-resolves

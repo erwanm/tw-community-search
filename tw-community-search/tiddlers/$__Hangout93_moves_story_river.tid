@@ -1,0 +1,17 @@
+title: $:/Hangout93/moves story river
+created: 20151122080317674
+modified: 20151210224741676
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: $:/tags/Stylesheet
+source-wiki-id: Hangout93
+source-tiddler-title-as-text: moves story river
+source-tiddler-title-as-link: moves%20story%20river
+
+.tc-story-river {
+    position: relative;
+    left: 340px;
+    top: 0px;
+    width: 770px;
+    padding: 42px 42px 42px 42px;
+}

@@ -17,11 +17,11 @@ source-tiddler-title-as-link: GSD5Ticklers-v0.6-beta
 GSD5 Ticklers is very bare-bones at the moment.
 
 * The GSD5 Ticklers plugin only supports the English/Gregorian calendar at this time.
-* The week starts on Sunday.
-* No repeating occurrences.
-* No snoozing.
+* The week starts on Sunday. [[#3|https://github.com/roma0104/gsd5-ticklers/issues/3]]
+* No repeating occurrences. [[#2|https://github.com/roma0104/gsd5-ticklers/issues/2]]
+* No snoozing. [[#4|https://github.com/roma0104/gsd5-ticklers/issues/4]]
 * "One time firing" of alerts.
-* Day granularity only
+* Day granularity only [[#5|https://github.com/roma0104/gsd5-ticklers/issues/5]]
 * Manual date entry requires <kbd>Enter</kbd> keystroke.
 
 ! Notes
