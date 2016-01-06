@@ -1,0 +1,50 @@
+title: $:/ViewFields/
+created: 20151222212923455
+modified: 20160102091421239
+section_head_menu: <div class="smallsvg">
+original-tags: 
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: 
+source-tiddler-title-as-link: 
+
+|☑|[[Display]]|Toggle or checkbox to display the field in view mode at all|
+||[[Type selector|Predefined field types]]|Presentational form of the content|
+|{{$:/core/images/delete-button}}|[[Delete]]|delete the section and the source field|
+|{{$:/core/images/open-window}}|[[Tiddlify]]|Convert the section into a (new) separate tiddler.|
+
+</div>
+
+<style>
+.smallsvg svg {fill: gray; height: 16px; width:16px; }
+</style>
+subitems: When the editor is displayed, some commands might be useful for //it//;
+
+||[[Detach|Detach Editor]]|make the editor appear like sideeditor|
+||[[Stick]]|stick editor so one can hover/click outside|
+
+
+title: More menu tools
+work_menu: Naturally, many of the standard tiddler tools make sense in the menu. But also some additional ones would be necessary or valuable
+
+<div class="smallsvg">
+
+|{{$:/core/images/edit-button}}|[[Edit]]|immediately triggers display of editor|
+||[[> or <|]]|...actually, the edit button might only be a center icon between two hover (or click?) areas, one to display fieldeditor to left or right, i.e //covering text// or as side editor //next to the tiddler//<br>(assumes the menu is in //right// tiddler margin) |
+|{{$:/core/images/fold-button}}|[[Expand/Fold]]|Show/hide region in accordion slider|
+| H |[[Header]]|Toggle button to cycle between: No header, h3, h2, h1 - to set fieldname as paragraph name (default; active)|
+||''[[Split]]''|split into two fields (in the same tiddler) so to make a field fulfill the [[tiddler definition|Tiddler definition]].<br>possibly ''Copy/clone''|
+||[[Position]]|position in tiddler, i.e list-before/after other fields. E.g up/down arrows?<br>Ideally, in tiddler edit mode, the fields should also be listed in this sequence. I.e they whould not be forced apha sorted.|
+
+</div>
+
+<style>
+.smallsvg svg {fill: gray; height: 16px; width:16px; }
+</style>
+z_footer: (merely titled "Z_..." so to make this field show last.)
+
+Perhaps a [[New Field]] button at foot of each field.
+
+
+Naturally, many of the standard tiddler //toolbar tools// make sense as tools for individual sections. But also some additional ones would be necessary or valuable
+
+A grouping of tools is done into a "head" and a side "menu", with the head concerning tools of a more "settings" type whereas the menu tools are intended for editing and content work and tools that need to be more accessible.
