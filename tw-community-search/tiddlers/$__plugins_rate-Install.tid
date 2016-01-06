@@ -1,0 +1,20 @@
+title: $:/plugins/rate-Install
+created: 20160105130315045
+creator: Tobias Beer
+modified: 20160105163528982
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: rate-Install
+source-tiddler-title-as-link: rate-Install
+
+<<plugin-install rate>>
+
+!! Version History
+
+; 0.6.0 / 2016-01-05
+: added ''ratings'' macro
+; 0.5.0 / 2016-01-05
+: initial version

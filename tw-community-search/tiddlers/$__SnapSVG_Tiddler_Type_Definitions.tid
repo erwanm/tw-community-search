@@ -1,0 +1,167 @@
+title: $:/SnapSVG/Tiddler Type Definitions
+created: 20151223112339734
+modified: 20151223124309660
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Tiddler Type Definitions
+source-tiddler-title-as-link: Tiddler%20Type%20Definitions
+
+Fields names that are bold are required fields. Words formatted `like this` are literal field values, otherwise it is a description of what goes in the field.
+
+!''__Image Tiddlers__'':
+
+Image tiddlers are tiddlers that contain some basic information about svg images.
+
+Fields:
+
+''tags'': `SVG Image`
+
+''height'': image height
+
+''width'': image width
+
+Other fields are set as needed by other things and you don't need to worry about them.
+
+!''__Element Tiddlers__'':
+
+Element tiddlers contain the necessary information about individual svg elements.
+
+Fields common to all elemetn tiddlers:
+
+''tags'': `SVG Element` and the name of the image tiddler(s) that contain the element
+
+class: A class to apply to the element (optional)
+
+draggable: A flag that sets if the element is draggable or not (can be `true` or `false`) (optional, defaults to `false`)
+
+''element_type'': The type of the element (rect, circle, ellipse, polygon, etc.)
+
+fill_color: The fill color for the element (optional, defaults to black)
+
+fill_opacity: The opacity of the elements fill, takes a value in [0,1] (optional, defaults to 1)
+
+''object_name'': The name given to the element
+
+''object_type'': `Element`
+
+stroke_color: The color of the stroke for the element (optional, defaults to black)
+
+stroke_width: The width of the elements stroke (optional, defaults to 1)
+
+xc: The x offset of the group. (Required if the element is draggable. This must have a valid numeric value or the element will not be draggable)
+
+yc: The y offset of the group. (Required if the element is draggable. This must have a valid numeric value or the element will not be draggable)
+
+Other fields are set as needed and are specific to each element type. These fields are:
+
+*rectangle - width, height
+*circle - radius
+*ellipse - x_radius, y_radius
+*polygon - points
+*line - x_1, y_1, x_2, y_2
+
+!''__Group Tiddlers__'':
+
+Group tiddlers contain the necessary information about groups of svg elements that can be manipulated as a single unit.
+
+Fields:
+
+''tags'': the tiddler name of each element included in the group
+
+class: A class to apply to the group (optional)
+
+draggable: A flag that sets if the group is draggable or not (can be `true` or `false`) (optional, defaults to `false`)
+
+fill_color: The fill color for the group (optional, no default)
+
+fill_opacity: The opacity of the elements fill, takes a value in [0,1] (optional, defaults to 1)
+
+''object_name'': The name given to the group
+
+''object_type'': `Group`
+
+stroke_color: The color of the stroke for the group (optional, no default)
+
+stroke_width: The width of the groups stroke (optional, no default)
+
+xc: The x offset of the group. This offset is applied to each element in the group and is relative to that elements original position. (Required if the element is draggable. This must have a valid numeric value or the element will not be draggable)
+
+yc: The y offset of the group. This offset is applied to each element in the group and is relative to that elements original position. (Required if the element is draggable. This must have a valid numeric value or the element will not be draggable)
+
+!''__Animation Tiddlers__'':
+
+Animation tiddlers contain information necessary for defining animations.
+
+Fields:
+
+''tags'': `Animation`
+
+''animation_name'': The name given to the animation
+
+callback: this is set to `true` or `false`, if set to `true` than the animation is only triggered by another animation finishing. (Optional, defaults to false)
+
+''duration'': The length of the animation in ms (1 s = 1000 ms)
+
+effect: the animation effect to apply to the animation, set by the animation creation tool (optional)
+
+enabled: If this is set to `true` than the animation is enabled. This may be removed.
+
+finished: if this is set to `true` than the animation will not play. This is set to `true` after the animation ends. This is needed to make animations play correctly.
+
+''image'': the name of the image tiddler that contains the animation.
+
+next: The name of the animation tiddler that defines the animation that should be triggered after this one finished. (optional, no default)
+
+''object_name'': the name of the animated object
+
+''object_type'': the type of the animated object
+
+rotation: the amount of rotation of the object during the animation
+
+scale: how the object is scaled during the animation
+
+target_location: the location to move the object to during the animation
+
+!''__Action Tiddlers__'':
+
+Actions are required to make anything happen other than the initial drawing of the image. They are needed to start animations and other things.
+
+Fields:
+
+''tags'': `Action`
+
+''action_name'': the name of the action
+
+''action_type'': the type of action. It can be `Add Object`, `Remove Object`, etc.
+
+other fields used depend on the type of action taken.
+
+*`Add Object` - this adds an object (element or group) to the image
+**''action_tiddler'': this is the tiddler defining the object to be added
+*`Remove Object` - this removes an object from the image
+**''action_tiddler'': this is the tiddler defining the object to be removed
+*`Animation` - This starts an animation
+**''action_tiddler'': the name of the animation tiddler defining the animation to start
+*`Batch` - perform a list of actions at the same time
+**''text'': this is a data tiddler, each index is the name of a action tiddler to be triggered
+*`Click Event` - adds a click event to an object
+**''action_tiddler'': the name of the action tiddler to trigger when the object is clicked on
+*`Remove Click Event` - removes a click event from an object
+**''action_tiddler'': the name of the action tiddler currently tied to clicking on the object
+*`Write` - This writes a value to a field
+**''target_field'': the field to write
+**''target_tiddler'': the name of the tiddler to be written to
+**''target_value'': the value to write to the field
+
+To be added:
+*Hover Event
+*Remove Hover Event
+*Double Click Event
+*Remove Double Click Event
+*add/remove mousein/mouseout
+*add/remove mousedown/mouseup
+*add/remove mouseover
+
+I may add fields to each object that let you list an action tiddler for click/hover/double click/etc. 
+I think that keeping the event types will still be needed, I think that if I use the add/remove events I can do it mid-animation, if I use the fields than it may reset the animation each time there is a change.
+

@@ -1,0 +1,101 @@
+title: $:/Twexe/Stylesheet
+created: 20151005073406702
+modified: 20151015091401158
+tmap.id: d2fc5e23-2ff6-4e15-b586-3299dc816d88
+original-tags: $:/tags/Stylesheet wikiadmin computer
+source-wiki-id: Twexe
+source-tiddler-title-as-text: Stylesheet
+source-tiddler-title-as-link: Stylesheet
+
+/* Use as |borderless|k */
+table.borderless, table.borderless * {
+   border: 0px;
+}
+
+
+input.halfsize {
+  /* Scale */
+  -ms-transform: scale(0.5); /* IE */
+  -moz-transform: scale(0.5); /* FF */
+  -webkit-transform: scale(0.5); /* Safari and Chrome */
+  -o-transform: scale(0.5); /* Opera */
+}
+
+/* Columns wrap around */
+.twocolumns {
+-moz-column-count: 2;
+-moz-column-gap: 1.5em;
+-moz-column-rule: none;
+-webkit-column-count: 2;
+-webkit-column-gap: 1.5em;
+-webkit-column-rule: none;
+column-count: 2;
+column-gap: 1.5em;
+column-rule: none;
+}
+
+.threecolumns {
+-moz-column-count: 3;
+-moz-column-gap: 1.5em;
+-moz-column-rule: none;
+-webkit-column-count: 2;
+-webkit-column-gap: 1.5em;
+-webkit-column-rule: none;
+column-count: 2;
+column-gap: 1.5em;
+column-rule: none;
+}
+
+/* USA colors */
+.fg-primary { color: #0071bc; }
+.fg-primary-darker  { color: #205493; }	
+.fg-primary-darkest { color: #112e51; }	
+.fg-base { color: #212121; }	
+.fg-gray-dark { color: #323a45; }	
+.fg-gray-light { color: #aeb0b5; }	
+.fg-white { color: #ffffff; }
+      /*secondary*/
+.fg-primary-alt { color: #02bfe7; }	
+.fg-primary-alt-darkest { color: #046b99; }	
+.fg-primary-alt-dark { color: #00a6d2; }	
+.fg-primary-alt-light { color: #9bdaf1; }	
+.fg-primary-alt-lightest { color: #e1f3f8; }	
+.fg-secondary { color: #e31c3d; }	
+.fg-secondary-darkest { color: #cd2026; }	
+.fg-secondary-dark { color: #981b1e; }	
+.fg-secondary-light { color: #e59393; }	
+.fg-secondary-lightest { color: #f9dede; }	
+       /*tertiary*/
+.fg-gold { color: #fdb81e; }	
+.fg-gold-light { color: #f9c642; }	
+.fg-gold-lighter { color: #fad980; }	
+.fg-gold-lightest { color: #fff1d2; }	
+.fg-green { color: #2e8540; }	
+.fg-green-light { color: #4aa564; }	
+.fg-green-lighter { color: #94bfa2; }	
+.fg-green-lightest { color: #e7f4e4; }	
+.fg-cool-blue { color: #205493; }	
+.fg-cool-blue-light { color: #4773aa; }	
+.fg-cool-blue-lighter { color: #8ba6ca; }	
+.fg-cool-blue-lightest { color: #dce4ef; }	
+       /*background*/
+.fg-gray-dark { color: #323a45; }	
+.fg-gray { color: #5b616b; }	
+.fg-gray-light { color: #aeb0b5; }	
+.fg-gray-lighter { color: #d6d7d9; }	
+.fg-gray-lightest { color: #efefef; }	
+.fg-gray-warm-dark { color: #494440; }	
+.fg-gray-warm-light { color: #e4e2e0; }	
+.fg-primary-darkest { color: #112e51; }	
+.fg-gray-cool-light { color: #dce4ef; }	
+
+h1,h2,h3,h4,h5,h6 {
+color: #fdb81e;
+}
+
+.dt-header {
+   color: #981b1e;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+

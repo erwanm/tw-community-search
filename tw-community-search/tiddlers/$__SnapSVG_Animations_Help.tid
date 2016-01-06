@@ -1,0 +1,26 @@
+title: $:/SnapSVG/Animations Help
+created: 20151219205222632
+modified: 20151219210402007
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Animations Help
+source-tiddler-title-as-link: Animations%20Help
+
+Animations are best defined using the tool in the `Animations` tab under the `SVG Tools` tab in the sidebar.
+
+Animation tiddlers:
+
+* Are tagged with `Animation`
+* A field called `animation_name` with the value of the human readable name for the animation.
+* A field called `callback` set to either `true` or `false`, if set to `true` than the animation is set to be triggered by another animation ending.
+* A field called `duration` that lists the duration of the animation in milliseconds (1000 ms = 1s)
+* A field called `effect` that holds the name of the animation effect used, if any.
+* A field called `element_name` that lists the name of the SVG element animated, if an element is being animated.
+* A field called `group_name` that lists the name of the SVG group animated, if a group is animated.
+* A field called `enabled` set to true or false that determines if the animation plays or not.
+* A field called `finished` set to true or false that lists if the animation has finished, this is used to prevent animations from playing multiple times.
+* A field called `image` that lists the SVG image that the animation belongs to.
+* A field called `next` that lists the animation to be triggered when the current animation ends.
+* A field called `rotation` that lists the amount of rotation to animate 
+* A field called `scale` that lists how the animation scales the object being animated
+* A field called `target_location` that lists the movement of the animated object

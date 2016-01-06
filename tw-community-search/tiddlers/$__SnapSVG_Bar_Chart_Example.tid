@@ -1,0 +1,25 @@
+title: $:/SnapSVG/Bar Chart Example
+created: 20151130194143259
+modified: 20151207194618892
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Bar Chart Example
+source-tiddler-title-as-link: Bar%20Chart%20Example
+
+<$snap-widget surface='SVGBarChart'/>
+
+Bar 1: <$range tiddler='$:/SVG Element/Rectangle/FirstBar' field='width' min=1 max=200 step=5/><br>
+Bar 2: <$range tiddler='$:/SVG Element/Rectangle/SecondBar' field='width' min=1 max=200 step=5/><br>
+Bar 3: <$range tiddler='$:/SVG Element/Rectangle/ThirdBar' field='width' min=1 max=200 step=5/><br>
+Bar 4: <$range tiddler='$:/SVG Element/Rectangle/FourthBar' field='width' min=1 max=200 step=5/><br>
+
+This example updates in response to other events in the wiki.
+
+<!--
+<$snap-widget surface='SVGBarChart2'/>
+
+Bar 1: <$range tiddler='$:/SVG Element/Rectangle/FirstBar2' field='height_thing' min=1 max=200 step=5/><br>
+Bar 2: <$range tiddler='$:/SVG Element/Rectangle/SecondBar2' field='height_thing' min=1 max=200 step=5/><br>
+Bar 3: <$range tiddler='$:/SVG Element/Rectangle/ThirdBar2' field='height_thing' min=1 max=200 step=5/><br>
+Bar 4: <$range tiddler='$:/SVG Element/Rectangle/FourthBar2' field='height_thing' min=1 max=200 step=5/><br>
+-->

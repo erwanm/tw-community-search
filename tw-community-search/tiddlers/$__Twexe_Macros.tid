@@ -1,0 +1,71 @@
+title: $:/Twexe/Macros
+created: 20151002171801579
+modified: 20151015090948440
+tmap.id: cd62f447-92d9-4a94-a3d0-a43851108854
+original-tags: $:/tags/Macro wikiadmin computer
+source-wiki-id: Twexe
+source-tiddler-title-as-text: Macros
+source-tiddler-title-as-link: Macros
+
+\define youtube(which:"" caption:"" start:0)
+<div style="width:280px; height: 195px; text-align: center; font-size:80%; background-color:#046b99; color:white; font-weight:bold; border-radius:15px;"><iframe width="280" height="167" src="https://www.youtube.com/embed/$which$?start=$start$" frameborder="0" allowfullscreen></iframe>
+$caption$
+</div>
+\end
+
+\define imgquote(img ,text)
+
+| <div style="border-right: 2px solid #efefef; width:40px; height:40px;" >{{ $:/img/$img$ }} </div> |$text$|
+|borderless|k
+\end
+
+\define tip(text)
+<<imgquote tip "$text$">>
+\end
+
+\define caution(text)
+<<imgquote caution "$text$">>
+\end
+
+\define warning(text)
+<<imgquote warning "$text$">>
+\end
+
+\define note(text)
+<<imgquote note "$text$">>
+\end
+
+\define info(text)
+<<imgquote tip "$text$">>
+\end
+
+\define important(text)
+<<imgquote important "$text$">>
+\end
+
+\define bulb(text)
+<<imgquote bulb "$text$">>
+\end
+
+\define quote(text,citation)
+<div  style="font-family:serif;">{{$:/img/quote-left}}<span class="fg-gray-light" style="font-size: 2em; vertical-align:bottom;">&ldquo;</span><span class="fg-cool-blue" style="vertical-align:middle;">//$text$//</span><span class="fg-gray-light" style="font-size: 2em; vertical-align:bottom;">&rdquo;</span><br><span class="fg-gray-light" style="font-style: italics;">---$citation$</span></div>
+\end
+
+\define dt(header,text)
+@@.dt-header $header$@@. $text$
+\end
+
+!!Available macros
+;youtube
+:local You tube macro ``<<youtube video caption start>>``
+;note,tip,info,important,warning or caution
+:``<<note "this is my text">>``, ``<<info "another icon">>``, ... 
+;quote
+: """ ``<<quote text citation`` <<quote "This site is great" "The owner">> """
+
+!!External macros/info
+;popup
+:[[$:/.tb/macros/pop]] Macro from: https://tobibeer.github.io/tb5/#Generic%20Popup ``<<pop ClickMe! Jack.jpg  btn-class:"tc-btn-invisible tc-tiddlylink" btn-selectedClass:"pop-btn-my-selected" state-id:"Jack2">>``
+;javascript macros
+:How to make javascript macros: https://tobibeer.github.io/tb5/#Basic%20Javascript%20Macro
+<!-- <<note "this is a note">>  -->
