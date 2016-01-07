@@ -1,42 +1,7 @@
 created: 20160107181009076
-modified: 20160107194049288
+modified: 20160107233738363
 tags: TWCSCore
 title: $:/twcs/ui/SearchBox
 type: text/vnd.tiddlywiki
 
-\define lingo-base() $:/language/Search/
-
-<$set name="searchTermsTiddler" value=<<qualify "$:/temp/search/">> >
-
-  <$linkcatcher to=<<searchTermsTiddler>> >
-    <div class="tc-search">
-      <$edit-text tiddler=<<searchTermsTiddler>> type="search" tag="input"/>
-      <$reveal state=<<searchTermsTiddler>> type="nomatch" text="">
-        <$button class="tc-btn-invisible">
-          <$action-setfield $tiddler=<<searchTermsTiddler>> $field="text" $value=""/>
-          {{$:/core/images/close-button}}
-        </$button>
-      </$reveal>
-    </div>
-  </$linkcatcher>
-
-<$tiddler tiddler=<<searchTermsTiddler>>>
-    <$set name="searchFilter" value="[is[system]has[source-wiki-id]!has[extracted-plugin]search{!!text}] -[<searchTermsTiddler>]">
-<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
-  <$set name="resultCount" value="""<$count filter="[is[system]has[source-wiki-id]!has[extracted-plugin]search{$:/temp/advancedsearch}] -[[$:/temp/advancedsearch]]"/>""">
-
-<div class="tc-search-results">
-
-<<lingo System/Matches>>
-
-<$list filter="[is[system]has[source-wiki-id]!has[extracted-plugin]search{$:/temp/advancedsearch}!sort[modified]limit[250]] -[[$:/temp/advancedsearch]]" template="$:/core/ui/ListItemTemplate"/>
-
-</div>
-
-</$set>
-
-</$reveal>
-
-<$reveal state="$:/temp/advancedsearch" type="match" text="">
-
-</$reveal>
+<$macrocall $name="twcs-search" filter2={{!!twcs-filter}}....
