@@ -1,14 +1,13 @@
-title: $:/plugins/$:/core
+title: $:/vis.jsTimeline/$:/core
 author: JeremyRuston
 core-version: >=5.0.0
 dependents: 
 description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0
-revision: 0
-version: 5.1.9
+version: 5.1.10-prerelease
 original-tags: 
-source-wiki-id: plugins
+source-wiki-id: vis.jsTimeline
 source-tiddler-title-as-text: $:/core
 source-tiddler-title-as-link: %24%3a%2fcore
 extracted-plugin: true
