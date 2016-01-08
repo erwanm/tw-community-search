@@ -5,5 +5,11 @@ tags: CommunityWikis
 title: DatePickerPlugin
 type: text/vnd.tiddlywiki
 wiki-address: http://kixam.github.io/TW5-datePicker/
+wiki-tw-version: 5.1.10-prerelease
+wiki-latest-modification: 
+wiki-nb-tiddlers: 3
+
+based on [[Pikaday|https://github.com/dbushell/Pikaday]]
+
 
 {{||$:/CommunityWikiPresentationTemplate}}

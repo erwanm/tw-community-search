@@ -1,12 +1,12 @@
 title: $:/plugins/contains:$all[<list>]
 created: 20151125070738462
 creator: Tobias Beer
-modified: 20151125112448913
+modified: 20160107104840168
 modifier: Tobias Beer
 revision: 0
 summary: {{contains!!titles}} contain ''all'' titles in ''&lt;list>''
 type: text/vnd.tiddlywiki
-original-tags: contains
+original-tags: contains Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: contains:$all[<list>]
 source-tiddler-title-as-link: contains%3a%24all%5b%3clist%3e%5d

@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/How to apply custom styles by tag
 created: 20141001132300000
-modified: 20150608132300000
+modified: 20151005074702387
 type: text/vnd.tiddlywiki
 original-tags: Learning
 source-wiki-id: tiddlywiki.com
@@ -42,3 +42,16 @@ Although ~TiddlyWiki will generate these tags, to actually use them in your css,
     color:#FBFBFB;
 }
 ```
+
+A utility function is available in JavaScript to perform the conversion:
+
+```
+$tw.utils.tagToCssSelector("$:/tags/Stylesheet")
+```
+
+Generates the following output:
+
+```
+tc-tagged-\%24\%3A\%2Ftags\%2FStylesheet
+```
+

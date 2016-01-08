@@ -1,11 +1,13 @@
 title: $:/plugins/filter-Examples
 created: 20151221060854343
 creator: Tobias Beer
-modified: 20151222140534736
+modified: 20160107113220746
+modifier: Tobias Beer
 revision: 0
+summary: examples for the filter operator [[filter]] for evaluating subfilters
 test: [<inputTitle>tags[]]
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: filter Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: filter-Examples
 source-tiddler-title-as-link: filter-Examples

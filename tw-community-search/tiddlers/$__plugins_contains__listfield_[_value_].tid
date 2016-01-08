@@ -2,12 +2,12 @@ title: $:/plugins/contains:<listfield>[<value>]
 created: 20151125104022060
 creator: Tobias Beer
 listfield: foo bar
-modified: 20151125131850667
+modified: 20160107104857142
 modifier: Tobias Beer
 revision: 0
 summary: {{contains!!listfield}} contains ''&lt;value>''
 type: text/vnd.tiddlywiki
-original-tags: contains
+original-tags: contains Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: contains:<listfield>[<value>]
 source-tiddler-title-as-link: contains%3a%3clistfield%3e%5b%3cvalue%3e%5d

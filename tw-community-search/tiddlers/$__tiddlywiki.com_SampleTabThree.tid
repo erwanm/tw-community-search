@@ -1,6 +1,7 @@
 title: $:/tiddlywiki.com/SampleTabThree
 created: 20150221211557000
 order: 3
+tooltip: This tab specifies a tooltip only
 original-tags: sampletab
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: SampleTabThree

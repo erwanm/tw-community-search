@@ -2,11 +2,12 @@ title: $:/plugins/make-Examples
 bar: baz
 created: 20151216232832188
 creator: Tobias Beer
-modified: 20151231144820804
+modified: 20160107113604282
 modifier: Tobias Beer
 revision: 0
+summary: examples for the [[make]] filter
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: make Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: make-Examples
 source-tiddler-title-as-link: make-Examples

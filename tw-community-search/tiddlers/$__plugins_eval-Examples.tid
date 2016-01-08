@@ -2,11 +2,12 @@ title: $:/plugins/eval-Examples
 created: 20151206142750801
 creator: Tobias Beer
 cubed: 3^3
-modified: 20151216200053952
+modified: 20160107112432764
 modifier: Tobias Beer
 revision: 0
+summary: examples for the [[eval]] filter and widget
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: eval Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: eval-Examples
 source-tiddler-title-as-link: eval-Examples

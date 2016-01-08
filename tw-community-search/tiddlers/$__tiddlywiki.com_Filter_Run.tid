@@ -14,7 +14,7 @@ source-tiddler-title-as-link: Filter%20Run
   |
   '"' [:{/'anything but "'/}] '"'
   |
-  "'" [:{/"anything but '"/}] '"'
+  "'" [:{/"anything but '"/}] "'"
 )
 """/>
 

@@ -1,11 +1,12 @@
 title: $:/plugins/hash-Syntax
 created: 20151231090417442
 creator: Tobias Beer
-modified: 20151231141402617
+modified: 20160107113312782
 modifier: Tobias Beer
 revision: 0
+summary: syntax and examples for the [[hash]] filter
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: hash Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: hash-Syntax
 source-tiddler-title-as-link: hash-Syntax

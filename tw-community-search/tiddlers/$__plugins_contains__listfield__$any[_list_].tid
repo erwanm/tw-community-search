@@ -2,12 +2,12 @@ title: $:/plugins/contains:<listfield> $any[<list>]
 created: 20151125104159292
 creator: Tobias Beer
 listfield: foo
-modified: 20151125131837664
+modified: 20160107104825964
 modifier: Tobias Beer
 revision: 0
 summary: {{contains!!listfield}} contains ''any'' titles in ''list''
 type: text/vnd.tiddlywiki
-original-tags: contains
+original-tags: contains Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: contains:<listfield> $any[<list>]
 source-tiddler-title-as-link: contains%3a%3clistfield%3e%20%24any%5b%3clist%3e%5d

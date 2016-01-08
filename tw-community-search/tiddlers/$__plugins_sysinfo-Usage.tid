@@ -1,8 +1,10 @@
 title: $:/plugins/sysinfo-Usage
 created: 20151126185932784
 creator: Tobias Beer
-modified: 20151126192448165
+modified: 20160107113950907
+modifier: Tobias Beer
 revision: 0
+summary: usage and examples of the [[sysinfo]] macro
 type: text/vnd.tiddlywiki
 original-tags: 
 source-wiki-id: plugins

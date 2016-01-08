@@ -3,11 +3,12 @@ authors: [[Tobias Beer]] [[Just Tobi]]
 created: 20151127145153951
 creator: Tobias Beer
 list: a [[b c]] d
-modified: 20151230120340134
+modified: 20160107113844166
 modifier: Tobias Beer
 revision: 0
+summary: examples for the [[split]] filter
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: split Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: split-Examples
 source-tiddler-title-as-link: split-Examples

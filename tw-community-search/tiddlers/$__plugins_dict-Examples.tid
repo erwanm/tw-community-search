@@ -1,12 +1,13 @@
 title: $:/plugins/dict-Examples
 created: 20151113102649550
 creator: Tobias Beer
-modified: 20151123100603231
+modified: 20160107111906316
 modifier: Tobias Beer
 revision: 0
 some-field: from field named 'some-field'
+summary: examples for the [[dict]] macro
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: dict Examples
 source-wiki-id: plugins
 source-tiddler-title-as-text: dict-Examples
 source-tiddler-title-as-link: dict-Examples

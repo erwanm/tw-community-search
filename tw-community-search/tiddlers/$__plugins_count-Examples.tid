@@ -1,11 +1,12 @@
 title: $:/plugins/count-Examples
 created: 20151229124840016
 creator: Tobias Beer
-modified: 20151229132940191
+modified: 20160107110900582
 modifier: Tobias Beer
 revision: 0
+summary: examples for the [[count]] filter
 type: text/vnd.tiddlywiki
-original-tags: 
+original-tags: Examples count
 source-wiki-id: plugins
 source-tiddler-title-as-text: count-Examples
 source-tiddler-title-as-link: count-Examples
