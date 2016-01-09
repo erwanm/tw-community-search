@@ -1,7 +1,7 @@
 title: $:/TWaddle/Lists vs Databases
 created: 20150617215751096
 creator: Mat
-modified: 20150805131128027
+modified: 20160108014210236
 modifier: Mat
 recent: 15/07/14	
 summary: A differentiation between Lists and Databases for a TW context
@@ -10,4 +10,4 @@ source-wiki-id: TWaddle
 source-tiddler-title-as-text: Lists vs Databases
 source-tiddler-title-as-link: Lists%20vs%20Databases
 
-A [[list|List Applications]] is, in the context of applications for TW, an entity in itself. I.e you need the whole list for it to make full sense. Examples include //parts lists// or //grocery lists// or //reference lists//.<br><br>A [[database|Application DB]] can of course list things, but here the individual item is the entity of value. An example could be a database over your books.<br><br>There is reason to differentiate between these when discussing development of //applications// for TW, particularly [[Appetizer TiddlyWikis]], because a list is about //content// whereas a database is (probably) more concerned with //structure//. If the purpose is to "make" people into actual TW users and community members, it is important to consider that the way lists and databases are used is substantially different.
+A [[list|List Application]] is, in the context of applications for TW, an entity in itself. I.e you need the whole list for it to make full sense. Examples include //parts lists// or //grocery lists// or //reference lists//.<br><br>A [[database|Application DB]] can of course list things, but here the individual item is the entity of value. An example could be a database over your books.<br><br>There is reason to differentiate between these when discussing development of //applications// for TW, particularly [[Appetizer TiddlyWikis]], because a list is about //content// whereas a database is (probably) more concerned with //structure//. If the purpose is to "make" people into actual TW users and community members, it is important to consider that the way lists and databases are used is substantially different.

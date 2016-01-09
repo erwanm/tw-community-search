@@ -1,0 +1,7 @@
+title: Tag: $:/tags/favorite
+tags: CommunityTags
+community-tag: $:/tags/favorite
+community-tag-count: 1
+community-wikis: [[t5a]]
+
+{{||$:/CommunityTagTemplate}}
