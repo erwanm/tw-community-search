@@ -1,7 +1,7 @@
 title: $:/FavoritesPlugin/Introduction
 created: 20151102132506823
 creator: Andrew Harrison
-modified: 20151111170242736
+modified: 20160109073623323
 modifier: Andrew Harrison
 original-tags: 
 source-wiki-id: FavoritesPlugin
@@ -15,4 +15,5 @@ source-tiddler-title-as-link: Introduction
 [[$:/language/SideBar/Favorites/Caption]]<br>
 [[$:/plugin/ajh/favorites/icon]]<br>
 [[$:/plugin/ajh/favorites/SideBar]]<br>
+[[$:/plugin/ajh/favorites/stylesheet]]<br>
 [[$:/plugin/ajh/favorites/template]]

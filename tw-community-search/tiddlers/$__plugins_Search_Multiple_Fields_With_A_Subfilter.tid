@@ -11,7 +11,7 @@ source-wiki-id: plugins
 source-tiddler-title-as-text: Search Multiple Fields With A Subfilter
 source-tiddler-title-as-link: Search%20Multiple%20Fields%20With%20A%20Subfilter
 
-Below, the variable ''find'' defines a subfilter to be searched using the filter operator ''filter'' to search for the word `filter` in both the ''title'' or ''summary'' fields, replaced in the ''find'' subfilter in turn using the placeholder `%inputTitle%`:
+Below, the variable ''find'' defines a subfilter to be searched using the filter operator ''filter'' to search for the word `evaluate` in both the ''title'' or ''summary'' fields, replaced in the ''find'' subfilter in turn using the placeholder `%inputTitle%`:
 
 <$macrocall $name="`" text="""<$vars term="evaluate"
 find="[all[tiddlers]!is[system]search:%inputTitle%<term>]">
