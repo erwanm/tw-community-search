@@ -3,9 +3,9 @@ tags: CommunityWikis
 type: text/vnd.tiddlywiki
 wiki-address: http://tobibeer.github.io/tw5-plugins
 author: TobiasBeer
-wiki-tw-version: 5.1.10
-wiki-latest-modification: 20160108184023769
-wiki-nb-tiddlers: 128
+wiki-tw-version: 5.1.10-prerelease
+wiki-latest-modification: 20160110090614615
+wiki-nb-tiddlers: 129
 
 docs for plugins by [[tobibeer|https://github.com/tobibeer]]
 

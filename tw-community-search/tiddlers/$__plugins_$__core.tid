@@ -6,7 +6,7 @@ description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0
 revision: 0
-version: 5.1.10
+version: 5.1.10-prerelease
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/core
