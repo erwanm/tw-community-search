@@ -1,6 +1,8 @@
 title: $:/LibreNote/GitNote
 created: 20150530132450605
-modified: 20150924144204953
+creator: svink
+modified: 20160112152539579
+modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: GitNote
@@ -15,7 +17,7 @@ source-tiddler-title-as-link: GitNote
 </td>
 <td>
 <div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
-<a href="http://librenote.aerobatic.io/gitnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank">
+<a href="https://librenote.aerobatic.io/gitnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank">
 ''~GitNote'' <i class="fa fa-external-link-square"></i></a>
 </div>
 <div style="text-align:center;font-size:1.1em;">

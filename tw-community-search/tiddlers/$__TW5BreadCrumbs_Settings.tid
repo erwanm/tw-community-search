@@ -1,45 +1,47 @@
 title: $:/TW5BreadCrumbs/Settings
 created: 20140208183031425
 creator: TonGerner
-modified: 20150627125415645
+modified: 20160112153940668
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: Settings
 source-tiddler-title-as-link: Settings
 
-@@.BROWN Settings@@
+''@@.brown Settings@@''
 
 <<<
 ''Note:''
 
-* <<slider "Known 'hitches' »." "{{Known 'hitches'}}">>
-* <<slider "Combination of breadcrumbs with other top menus »" "{{Other adjustments}}">>
+* Adjustments to the layout can be made in '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tabs 'Breadcrumbs' and 'Layout' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
+* In case breadcrumbs are used in combination with other top menus see <<slider "Other adjustments" "{{Other adjustments}}">>
 <<<
 
-Adjustments to the layout can be made in the 'Settings' tab.<br>
-'Settings' comprises 3 tiddlers:
+'Settings' comprises 2 tiddlers:
 
 * [[$:/plugins/tongerner/breadcrumbs/settings]]
 * [[$:/plugins/tongerner/breadcrumbs/settings-help]]
-* [[$:/plugins/tongerner/breadcrumbs/settings-styles]]
 
 !!$:/plugins/tongerner/breadcrumbs/settings
 The tiddler [[$:/plugins/tongerner/breadcrumbs/settings]], tagged with [[$:/tags/SideBar]], contains:
 
 <<source "$:/plugins/tongerner/breadcrumbs/settings">>
 
-which shows as an editable table with settings for adjusting the layout, see [[$:/plugins/tongerner/breadcrumbs/settings]].<br>The values set will be transcluded in the stylesheet ('Max. # of breadcrumbs' will be transcluded in the breadcrumbs menu).
+which renders as an editable table with settings for adjusting the layout of the breadcrumbs:
+
+{{$:/plugins/tongerner/breadcrumbs/settings}}
+
+<<<
+''Note:''<br>The values set in this table will be transcluded in the stylesheet (via fields in the stylesheet).
+<<<
 
 !!$:/plugins/tongerner/breadcrumbs/settings-help
-Help can be found in [[$:/plugins/tongerner/breadcrumbs/settings-help]] which contains:
+Help can be found in [[$:/plugins/tongerner/breadcrumbs/settings-help]]: 
 
-<<source "$:/plugins/tongerner/breadcrumbs/settings-help">>
+@@.sliderBG
+<div>
 
-and shows as a Help table, see [[$:/plugins/tongerner/breadcrumbs/settings-help]].
+{{$:/plugins/tongerner/breadcrumbs/settings-help}}
 
-!!$:/plugins/tongerner/breadcrumbs/settings-styles
-The [[$:/plugins/tongerner/breadcrumbs/settings-styles]] contains most of the adjustable CSS (to be set in [[$:/plugins/tongerner/breadcrumbs/settings]]).
-
-<<tabs "[[Code of Settings table]] [[Rendered Settings table]]" "[[Code of Settings table]]" "$:/state/tab">>
-
+</div>
+@@

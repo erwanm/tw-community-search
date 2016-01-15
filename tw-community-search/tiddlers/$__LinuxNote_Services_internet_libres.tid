@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Services internet libres
 created: 20141027223646998
-modified: 20150921094931267
+modified: 20160113144913946
 original-tags: Menu
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Services internet libres
@@ -8,20 +8,20 @@ source-tiddler-title-as-link: Services%20internet%20libres
 
 En fait j'utilise assez peu de services en ligne (et c'est voulu!). Il existe des solutions simples et très efficaces permettant de garder le contrôle de ses données et sans dépendre de multinationales du Web.
 
-!! <i class="fa fa-search" style="color:#34495E"></i> Moteur de recherche<br>
+!! <i class="fa fa-search" style="color:#34495E"></i> Moteur de recherche
 J'utilise principalement [[DuckDuckGo|https://duckduckgo.com/]] pour mes recherches sur le Web. L'interface est vraiment sympa et les résultats sont assez bon. Pour les recherches plus poussées, j'utilise aussi [[Startpage|https://startpage.com/]] qui //ne collecte ni ne partage AUCUNE donnée personnelle// avec l'avantage de  fournir les mêmes résultats de recherche que Google.
 
-!! <i class="fa fa-inbox" style="color:#34495E"></i> Boite mail<br>
-J'utilise depuis assez récemment [[OpenMailBox|https://www.openmailbox.org/]] qui est un service d'email créer par Pierre Barre. Ce service propose l'hébergement d'adresses e-mail gratuite avec l'avantage d'être indépendant de toute grande société du Web et d'héberger ses serveurs en France. Cerise sur le gâteau, tout tourne avec des logiciels libres. ~OpenMailBox utilise l'interface [[Roundcube|http://roundcube.net/]] pour le webmail, c'est sobre et efficace.<br>
+!! <i class="fa fa-envelope" style="color:#34495E"></i> Service de messagerie
+J'utilise [[OpenMailBox|https://www.openmailbox.org/]] qui est un service d'email créer par Pierre Barre. Ce service propose l'hébergement d'adresses e-mail gratuite avec l'avantage d'être indépendant de toute grande société du Web et d'héberger ses serveurs en France. Cerise sur le gâteau, tout tourne avec des logiciels libres. ~OpenMailBox utilise l'interface [[Roundcube|http://roundcube.net/]] pour le webmail, c'est sobre et efficace.<br>
 Un autre avantage d'~OpenMailBox est de fournir avec l'adresse mail un compte [[ownCloud|http://owncloud.org/]] de 1 go, très pratique pour synchroniser ses données, contacts et agendas.
 
-!! <i class="fa fa-cloud" style="color:#34495E"></i> Cloud personnel et partage d'images<br>
-Le compte ownCloud fourni par ~OpenMailBox me permet donc de synchroniser mes données, mais on se sent vite à l'étroit avec 1 go de stockage. J'ai découvert récemment [[younited|https://www.younited.com/en/home]] qui est une société basée en Finlande est qui propose un espace cloud de 5 go gratuit (ça me suffit largement!). Ce qui m'a séduit dans younited c'est d’abord l'interface qui change de ce qui se fait ailleurs et la possibilité de partager des photos sous forme d'album. Je m'en sert principalement pour héberger les documents et images de ce wiki et faire quelques sauvegardes.
+!! <i class="fa fa-cloud" style="color:#34495E"></i> Cloud personnel et partage d'images
+Le compte ownCloud fourni par ~OpenMailBox me permet donc de synchroniser mes données, mais on se sent vite à l'étroit avec 1 go de stockage. J'ai aussi un compte [[Framadrive|https://framadrive.org/]]  qui me sert principalement pour héberger des documents, des images et faire quelques sauvegardes.
 
-Pour publier des images sur internet (forums...) qui doivent rester en ligne //ad vitam æternam// j'utilise [[Lutim|https://lut.im/]], un service libre, simple et efficace.
+Pour publier des images sur internet (forums...) qui doivent rester en ligne //ad vitam æternam// j'utilise [[Lutim|https://lut.im/]] ou [[Framapic|https://framapic.org/]], des services simples et libres.
 
-!! <i class="fa fa-pencil-square" style="color:#34495E"></i> Bloc notes et bien plus...<br>
+!! <i class="fa fa-pencil-square" style="color:#34495E"></i> Bloc notes et bien plus...
 Il est toujours bien pratique d'avoir un bloc notes (informatique) sous la main. Un simple fichier //.txt// faisait l'affaire jusqu'à ce que je découvre [[TiddlyWiki|http://tiddlywiki.com/]]. L'ensemble du wiki est contenu dans un unique fichier HTML, ne nécessitant aucune installation. Synchronisé avec ownCloud, votre bloc notes est toujours à portée de clavier. Outil incroyablement puissant, ~TiddlyWiki me sert aussi à écrire [[LinuxNote|Hello world !]].<br><br>
 
-!! <i class="fa fa-plus-circle" style="color:#34495E"></i> ''Vous en voulez encore!''<br>
+!! <i class="fa fa-plus-circle" style="color:#34495E"></i> ''Vous en voulez encore!''
 Consultez la [[Liste des services en ligne]] qui répertorie quelques sites internet alternatifs proposant des services libres et décentralisés.

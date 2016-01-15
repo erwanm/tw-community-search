@@ -1,7 +1,7 @@
 title: $:/t5a/Format Toolbar
 created: 20150421123539753
 creator: Andrew Harrison
-modified: 20151218125848400
+modified: 20160113195739021
 modifier: Andrew Harrison
 original-tags: New [[Needs Work]] [[Under Construction]]
 source-wiki-id: t5a
@@ -17,3 +17,5 @@ Resource: [[VisualEditor BJ 2/11/15|http://bjtools.tiddlyspot.com/#VisualEditor]
 Resource: Presenting the SideEditor plugin!
 
 Resource: [[TinyMCE|http://htmleditor.in/index.html]]
+
+Resource: [[Reading and copying selected text to clipboard using JavaScript|http://www.javascriptkit.com/javatutors/copytoclipboard.shtml]]

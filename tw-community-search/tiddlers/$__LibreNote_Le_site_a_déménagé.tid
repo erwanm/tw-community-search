@@ -1,7 +1,7 @@
 title: $:/LibreNote/Le site a déménagé
 created: 20150928124903357
 creator: svink
-modified: 20151023083105778
+modified: 20160112154538586
 modifier: svink
 resume: ~LibreNote change de solution d'hébergement.
 template: BlogTemplate
@@ -40,7 +40,4 @@ L'ancienne adresse affiche une page de redirection qui ne sera plus accessible �
 !!!Un nouveau //workflow// sous Git
 
 Au passage, je revois ma façon de travailler sous Git avec ~TiddlyWiki. Je ne vais plus faire des commits pour chaque changement apporté car cela me fait perdre en productivité.<br>
-Commiter proprement toutes les modifications est assez long et n'est pas adapté à mon utilisation. Désormais je ferais généralement juste un commit par wiki mais qui comprendra plusieurs modifications. 
-<br><br>
-
----
+Commiter proprement toutes les modifications est assez long et n'est pas adapté à mon utilisation. Désormais je ferais généralement juste un commit par wiki mais qui comprendra plusieurs modifications.

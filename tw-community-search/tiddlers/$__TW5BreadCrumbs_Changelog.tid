@@ -1,18 +1,18 @@
 title: $:/TW5BreadCrumbs/Changelog
 created: 20140121191533502
 creator: TonGerner
-modified: 20150709160701518
+modified: 20160112205742435
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
-@@.BROWN Changelog@@
+''@@.brown Changelog@@''
 
-<<<
-''Note:''<br><span title="Known 'hitches'"><<slider "Known 'hitches' »" "{{Known 'hitches'}}">></span>
-<<<
+!!!!v2.02 (12-1-2016)
+* Upgraded to TW5.1.10
+* Simplified breadcrumbs plugin.
 
 !!!!v2.01 (9-7-2015)
 * Upgraded to TW5.1.9

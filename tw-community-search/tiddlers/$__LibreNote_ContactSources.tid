@@ -1,10 +1,14 @@
 title: $:/LibreNote/ContactSources
 created: 20150628112802470
-modified: 20150711161628992
-original-tags: semi
+creator: svink
+modified: 20160113103645656
+modifier: svink
+original-tags: transparent
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: ContactSources
 source-tiddler-title-as-link: ContactSources
+
+<br><br>
 
 {{Crédits}}
 
@@ -12,7 +16,9 @@ source-tiddler-title-as-link: ContactSources
 
 {{Sources}}
 
+{{Dernière modification}}
+
 {{TwVersion}}
 
-<br>
+<br><br>
 {{Licence}}

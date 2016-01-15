@@ -1,7 +1,7 @@
 title: $:/TWaddle/The Federation
 created: 20150406155730041
 creator: Mat
-modified: 20150724223515989
+modified: 20160112140122342
 modifier: Mat
 recent: 15/04/07	
 original-tags: Musings Major Community
@@ -15,16 +15,16 @@ The is the big one. This is it. This will do to the the TiddlyVerse what the Int
 
 A federated system with individually hosted TWs that can communicate via some suitable protocol to trade tiddlers with one another. I tag this also as a Bottleneck because I think it is also a thing people //expect// in this very "digitally social" age.
 
-I'm not sure what Jeremys/our //exact// vision is but I'm hoping for a system that basically could let you host a TW "core skeleton" and a list stating which tiddlers should be included. Then these tiddlers are fetched over the internet to build up the TW. 
+I'm not sure what Jeremys/our //exact// vision is but I'm hoping for a system that basically could let you host a TW "core skeleton" and a list stating which tiddlers should be included. Then these tiddlers are fetched over the internet to build up your TW. 
 
-There is some kind of global tiddler search. On tiddlers that people decide to share of course.
+There would be some kind of global tiddler search mechanism, perhaps based on @Erwan's [[TW Community search|http://erwanm.github.io/tw-community-search/]].
 
-There is some kind of global meta-information system where users can add meta information such as tags, ratings, etc. (Maybe meta-information, or some of the meta-information, is in itself in the form of tiddlers?)
+And global meta-information system where users can add meta information such as tags, ratings, etc. (Maybe meta-information, or some of the meta-information, is in itself in the form of tiddlers?)
 
-There is some kind of global communication possible between users. Maybe a core is really an identitiy. "tiddler@core"
+And some kind of global communication possible between users. Maybe a TW is really an identitiy. "tiddler@tw"
 
 You build up your TW like a torrent swarm. 
 
-Content-communities build. The current TW discussions  are pretty much limited to the google boards and therefore(?) centered on general TW development, when people can form groups I predict there will be more content driven applications. The "music interested people" will naturally begin to dabble with music related TW solutions. We should get a plethora of "dev subgroups". 
+A Federation should give bith to [[Content and Application|Different worlds]] Communities. The current TW discussions are pretty much limited to the google boards and therefore(?) centered on general TW development and technical TW matters. When people can share //content//, they can form groups and I predict there will be more content driven applications. The "music interested people" will naturally begin to dabble with music related TW solutions. We should get a plethora of "dev subgroups". 
 
 Niche applications will also make TW more accessible, and 'exposable', to non tiddlywikians. Instead of "TW can do anything you want" it'll be more (like normal software) "TW will do //this// for you". It is perhaps unfortunate but it seems people appreciate limited options. The fine part is that with TW we have a zillion limited options ;-)

@@ -1,16 +1,21 @@
 title: $:/LibreNote/Accueil
 created: 20150621125049100
-modified: 20150924141609021
-original-tags: transparent
+creator: svink
+modified: 20160112095830964
+modifier: svink
+original-tags: test
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Accueil
 source-tiddler-title-as-link: Accueil
 
-<div style="text-align:center; font-size:160%;">
-Un projet de site web et de wikis entièrement<br> basé sur ~TiddlyWiki
+<table class="invisibletable">
+<tr>
+<td>
+<div style="margin-left:-10em; margin-bottom:-2em;">
+[img width="300" [titre.png]]
 </div>
-
-<br>
-
-[img width="224" [tuxjack.svg]]
-<br>
+</td>
+<td>
+<div style="margin-right:-5em; font-size:120%; color:#959595; margin-bottom:-1.5em; ">
+//Un projet de site web et de wikis<br> entièrement basé sur ~TiddlyWiki//
+</div>

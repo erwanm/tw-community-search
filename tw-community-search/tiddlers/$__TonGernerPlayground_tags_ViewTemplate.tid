@@ -1,0 +1,24 @@
+title: $:/TonGernerPlayground/tags ViewTemplate
+created: 20160111122351464
+creator: TonGerner
+modified: 20160111122720052
+modifier: TonGerner
+type: text/plain
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: tags ViewTemplate
+source-tiddler-title-as-link: tags%20ViewTemplate
+
+$:/core/ui/ViewTemplate/title
+$:/core/ui/ViewTemplate/subtitle
+$:/core/ui/ViewTemplate/tags
+$:/core/ui/ViewTemplate/classic
+$:/core/ui/ViewTemplate/body
+
+
+$:/core/ui/ViewTemplate/title
+$:/core/ui/ViewTemplate/unfold
+$:/core/ui/ViewTemplate/subtitle
+$:/core/ui/ViewTemplate/tags
+$:/core/ui/ViewTemplate/classic
+$:/core/ui/ViewTemplate/body

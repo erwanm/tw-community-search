@@ -1,13 +1,17 @@
 title: $:/TonGernerPlayground/Plugins
-created: 20150701095516670
+caption: My plugins
+created: 20160108200213241
 creator: TonGerner
-modified: 20150719190219853
+modified: 20160112144347498
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Plugins
 source-tiddler-title-as-link: Plugins
 
+<<<
+''Note:''<br>All my plugins were made with the [[Tinka plugin|http://twguides.org/tinka.html]] of Andreas Hahn.
+<<<
 <<tabs "[tag[plugin]]" "" "" "tc-vertical">>
 
 

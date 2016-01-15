@@ -1,7 +1,9 @@
 title: $:/LibreNote/LeBlog
 created: 20150614154750487
-modified: 20150924142111826
-original-tags: 
+creator: svink
+modified: 20160113081936503
+modifier: svink
+original-tags: transblack
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: LeBlog
 source-tiddler-title-as-link: LeBlog
@@ -10,7 +12,7 @@ source-tiddler-title-as-link: LeBlog
 <tr>
 <td>
 <div style="font-size:1.1em;color:#D4D4D4; text-align:left; margin-bottom:1.5em;">
-&nbsp; <i class="fa fa-rss-square" style="color:#FF8330"></i> __Dernières nouvelles__
+&nbsp; <i class="fa fa-rss-square" style="color:#f9a004"></i> Dernières nouvelles
 </div>
 
 <$scrollable class='tc-scrollable'>
@@ -19,7 +21,7 @@ source-tiddler-title-as-link: LeBlog
 
 <div style="text-align:left; font-size:0.9em;">
 <$link to="BannièreBlog"></$link>
-<$button class="tc-btn-invisible tc-tiddlylink">
+<$button class="tc-btn-invisible">
 <$action-setfield $tiddler="$:/StoryList" list="
 [[BannièreBlog]]
 [[DerniersPosts]]
@@ -33,5 +35,5 @@ source-tiddler-title-as-link: LeBlog
 </td>
 
 <td valign="center">
-<div style="font-size:1.1em ;color:#D4D4D4;">
-<br>Le blog est un exemple d'utilisation de ~TiddlyWiki qui retrace l'actu de mes logiciels favoris.
+<div style="font-size:1.1em ;color:#D4D4D4; text-align:justify">
+<br><i class="fa fa-quote-left"></i> ~LibreNote a été créé dans le but de regrouper les wikis que je maintiens sur les logiciels libres. Par la suite, l'idée est venue de créer un site internet complet basé sur <style> a:link { color:  #D4D4D4; } a:visited { color: #D4D4D4;} a:hover { color: blue;} </style> <a href="http://tiddlywiki.com/" target="_blank">~TiddlyWiki</a>. <i class="fa fa-quote-right"></i>

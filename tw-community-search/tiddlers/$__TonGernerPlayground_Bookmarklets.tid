@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Bookmarklets
 created: 20140705105355014
 creator: TonGerner
-modified: 20150627073127787
+modified: 20160112130643018
 modifier: TonGerner
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: Bookmarklets
 
 @@.BROWN How to make/modify bookmarklets@@
 
-{{Under construction_}}
+{{Under construction guide_}}
 {{Upgraded}}
 This guide describes how to make (modify existing) bookmarklets without ~JavaScript knowledge, just using templates.<br>
 It is based upon the work of Stephan Hadrek, so all credits to him, see:

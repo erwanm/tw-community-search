@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/ro
 author: TonGerner
-core-version: 5.1.9
+core-version: 5.1.10
 created: 20140716185113624
 creator: TonGerner
-description: Plugin to make TiddlyWiki read-only
+description: Read-only
 list: readme help
-modified: 20150708173339913
+modified: 20160111172352031
 modifier: TonGerner
-source: http://tw5readonly.tiddlyspot.com/
-version: 0.0.19
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.25
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/ro

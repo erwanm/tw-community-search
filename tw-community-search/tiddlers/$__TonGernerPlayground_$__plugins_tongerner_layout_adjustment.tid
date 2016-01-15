@@ -1,0 +1,18 @@
+title: $:/TonGernerPlayground/$:/plugins/tongerner/layout_adjustment
+author: TonGerner
+core-version: 5.1.10
+created: 20160109160355696
+creator: TonGerner
+description: Layout adjustment
+list: readme
+modified: 20160111142447846
+modifier: TonGerner
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.35
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tongerner/layout_adjustment
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2flayout_adjustment
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

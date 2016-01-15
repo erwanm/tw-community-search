@@ -1,7 +1,7 @@
 title: $:/LinuxNote/Paquets des dépôts officiels
 color: #acacac
 created: 20141203083616070
-modified: 20150131154425453
+modified: 20160113133343512
 original-tags: [[La gestion des paquets]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Paquets des dépôts officiels
@@ -31,5 +31,5 @@ C'est une transition en attendant la fin du développement d'Akabei, gestionnair
 Pour plus de détails voir les [[Commandes principales de Pacman|https://wiki.archlinux.fr/Pacman]].
 
 @@.att
-<i class="fa fa-exclamation-triangle fa-3x pull-left" style="color:#2C3E50"></i>''Avant les mises à jour majeures'' (celles annoncées dans les [[News|http://chakraos.org/news/]]), il faut penser à vérifier que [[Les miroirs]] de téléchargement sont bien synchronisés avant de faire une mise à jour du système.
+<i class="fa fa-exclamation-triangle fa-3x pull-left" style="color:#2C3E50"></i>''Avant les mises à jour majeures'' (celles annoncées dans les [[News|https://chakraos.org/news/]]), il faut penser à vérifier que [[Les miroirs]] de téléchargement sont bien synchronisés avant de faire une mise à jour du système.
 @@

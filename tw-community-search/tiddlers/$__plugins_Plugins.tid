@@ -6,7 +6,7 @@ source-wiki-id: plugins
 source-tiddler-title-as-text: Plugins
 source-tiddler-title-as-link: Plugins
 
-<$list filter="Examples Filters Macros Libraries Plugins Widgets">
+<$list filter="Enhance Examples Filters Macros Libraries Templates Widgets">
 <div class="tb-taglist-item">
 <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
 <$transclude tiddler="$:/.tb/templates/TagTemplate"/>

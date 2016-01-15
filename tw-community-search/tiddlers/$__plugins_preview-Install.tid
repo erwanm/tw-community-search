@@ -1,0 +1,20 @@
+title: $:/plugins/preview-Install
+created: 20160114002002424
+creator: Tobias Beer
+modified: 20160114013714567
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: preview-Install
+source-tiddler-title-as-link: preview-Install
+
+{{preview-Dependencies}}
+
+<<plugin-install preview>>
+
+!! Version History
+
+; 0.5.3 / 2016-01-14
+: initial version

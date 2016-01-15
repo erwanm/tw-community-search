@@ -1,7 +1,7 @@
 title: $:/LibreNote/DerniersPosts
 created: 20150611130704479
 creator: svink
-modified: 20151023125316536
+modified: 20160112155223132
 modifier: svink
 original-tags: transparent
 source-wiki-id: LibreNote
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: DerniersPosts
 {{$(TiddlerToDisplay)$||$(TemplateToUse)$}}
 \end
 
-!!Articles récents
+!!Derniers articles
 ---
 <$list filter='[tag[Blog]!nsort[created]limit[2]]'>
 <$set name=TiddlerToDisplay value=<<currentTiddler>>>

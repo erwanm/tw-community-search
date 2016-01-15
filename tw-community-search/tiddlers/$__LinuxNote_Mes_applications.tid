@@ -1,7 +1,7 @@
 title: $:/LinuxNote/Mes applications
 color: #c0c0c0
 created: 20141202104135840
-modified: 20150712145158990
+modified: 20160113142834120
 original-tags: [[Guide Chakra]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Mes applications
@@ -31,7 +31,7 @@ Cette liste regroupe les applications et leurs [[Extensions]] que j'utilise sous
 |GIMP ^^3^^ |Éditeur d'images (GTK) |
 |Inkscape |Éditeur d'images vectorielles (GTK) |
 |Gwenview |Visionneuse d'images |
-|KSnapshot |Programme de capture d'écran |
+|Spectacle |Programme de capture d'écran |
 |>|<br> |
 |>|!Internet |
 |Mirror Check |Vérifie la synchronisation des miroirs |
@@ -39,11 +39,10 @@ Cette liste regroupe les applications et leurs [[Extensions]] que j'utilise sous
 |Firefox ^^4^^ |Navigateur Web (GTK) |
 |Chromium |Navigateur Web (GTK) |
 |KMail |Logiciel de courriel |
+|Akregator |Lecteur de flux RSS et Atom |
 |Qbittorrent |Client ~BitTorrent (avec moteur de recherche) |
 |Popcorn Time |Regarder des films, séries... en streaming par torrent @@color:green;[CCR]@@ |
 |ownCloud Client |Client ownCloud |
-|younited |Client younited @@color:green;[CCR]@@ |
-|Akregator |Lecteur de flux RSS et Atom |
 |>|<br> |
 |>|!Multimédia |
 |Clementine |Lecteur audio (fork d'Amarok 1.4) |

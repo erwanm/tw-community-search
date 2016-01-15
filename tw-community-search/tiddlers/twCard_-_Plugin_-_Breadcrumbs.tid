@@ -19,8 +19,8 @@ wiki: http://tw5breadcrumbs.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-wiki-id: TW5BreadCrumbs
 twcs-extracted-plugin-tiddler: $:/TW5BreadCrumbs/$:/plugins/tongerner/breadcrumbs
-twcs-description: Creates breadcrumbs of open tiddlers
+twcs-description: Breadcrumbs
 twcs-author: TonGerner
-twcs-version: 0.0.7
+twcs-version: 0.0.32
 
 {{||$:/CommunityPluginTemplate}}

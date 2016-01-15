@@ -1,8 +1,7 @@
 title: $:/TonGernerPlayground/Bluish theme
-caption: Bluish
-created: 20150719185602942
+created: 20160111103327556
 creator: TonGerner
-modified: 20150719190431126
+modified: 20160111195408624
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -10,6 +9,14 @@ source-tiddler-title-as-text: Bluish theme
 source-tiddler-title-as-link: Bluish%20theme
 
 !!!Bluish theme  v<<tversion "bluish">>
-[[$:/themes/tongerner/bluish]].
+{{Under construction plugin_}}
+{{Upgraded}}
 
-A theme with mainly bluish colors (as used here).
+!!!!Readme (from theme)
+{{$:/themes/tongerner/bluish/readme}}
+
+---
+
+Drag & drop the following link to your wiki to install this theme.
+
+* [[$:/themes/tongerner/bluish]]

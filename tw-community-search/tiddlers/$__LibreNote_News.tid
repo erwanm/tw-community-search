@@ -1,7 +1,7 @@
 title: $:/LibreNote/News
 created: 20150614135816901
 creator: svink
-modified: 20151023083715274
+modified: 20160112100533407
 modifier: svink
 original-tags: 
 source-wiki-id: LibreNote
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: News
 <$action-setfield $tiddler="$:/StoryList" list="
 [[DerniersPosts]]
 [[ListeTags]]"/>
-{{!!titre_news}}
+__{{!!titre_news}}__
 <$action-navigate $to={{!!title}} $scroll="yes"/>
 </$button>
 </dt>

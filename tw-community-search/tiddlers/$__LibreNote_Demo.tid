@@ -1,7 +1,7 @@
 title: $:/LibreNote/Demo
 created: 20151023144223381
 creator: svink
-modified: 20151211205858497
+modified: 20160112152105571
 modifier: svink
 original-tags: transparent
 source-wiki-id: LibreNote
@@ -20,7 +20,7 @@ Liste de démonstrations d'utilisation de ~TiddlyWiki pour des usages spécifiqu
 <tr>
 <td valign="center">
 <div style="font-size:1.3em; text-align:left;">
-<a href={{!!url}} class="tc-btn-invisible" style="text-decoration:none; color:#003399"; target="_blank"> <i class="fa fa-puzzle-piece" style="color:#FF8330"></i> <$view field="title"/>
+<a href={{!!url}} class="tc-btn-invisible" style="text-decoration:none; color:#003399"; target="_blank"> <i class="fa  fa-play-circle  " style="color:#474747"></i> <$view field="title"/>
 </a>
 </div>
 </td>

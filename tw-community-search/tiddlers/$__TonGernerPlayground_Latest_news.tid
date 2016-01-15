@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20150806191248926
+modified: 20160115121739981
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,22 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!!15 january 2016
+* Upgraded guide 'TW5 read-only' to TW v5.1.10
+
+!!!14 January 2016
+* Upgraded guide 'Top + left menu' to TW v5.1.10
+* Upgraded guide 'Top menu' to TW v5.1.10
+* Upgraded guide 'TW5 tristate Sidebar' to TW v5.1.10
+
+!!!12 January 2016
+* Upgraded this wiki to TW v5.1.10
+* Upgraded guide 'TW5 bookmarklets' to TW v5.1.10
+* Upgraded guide 'TW5 Exploration' to TW v5.1.10
+* Upgraded guide 'TW5 - breadcrumbs' to TW v5.1.10
+* Upgraded plugins to TW v5.1.10
+* Added 'Layout adjustment', 'Systemtags', 'Tabstory', 'Top-left menu' and 'Toolbar' plugin.
 
 !!!6 August 2015
 * Bugfix in 'Customization of TW5'
