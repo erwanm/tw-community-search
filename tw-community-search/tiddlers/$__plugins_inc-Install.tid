@@ -1,7 +1,7 @@
 title: $:/plugins/inc-Install
 created: 20151208145609644
 creator: Tobias Beer
-modified: 20151208175326076
+modified: 20160118145943987
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -13,6 +13,9 @@ source-tiddler-title-as-link: inc-Install
 <<plugin-install inc>>
 
 !! Version History
+; 0.5.2 / 2016.01.18
+: tab content support, see [[Quick Edit Tabs]]
+: style simplifications
 ; 0.5.1 / 2015.12.08
 : add docs link to readme
 ; 0.5.0 / 2015.12.08
