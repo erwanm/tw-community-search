@@ -5,10 +5,10 @@ created: 20150805095641947
 creator: TonGerner
 description: Toolbar on top
 list: readme
-modified: 20160111121038290
+modified: 20160120202327873
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.61
+version: 0.1.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/toolbar

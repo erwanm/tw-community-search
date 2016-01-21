@@ -4,9 +4,9 @@ core-version: 5.1.10
 created: 20160110143910616
 description: Uptoolbar
 list: readme
-modified: 20160111144736412
+modified: 20160120202455776
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.7
+version: 0.1.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/uptoolbar

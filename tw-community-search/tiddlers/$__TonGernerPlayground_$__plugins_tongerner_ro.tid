@@ -5,10 +5,10 @@ created: 20140716185113624
 creator: TonGerner
 description: Read-only
 list: readme help
-modified: 20160111172352031
+modified: 20160120201928271
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.25
+version: 0.1.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/ro

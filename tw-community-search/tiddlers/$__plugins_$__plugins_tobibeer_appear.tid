@@ -8,7 +8,7 @@ list: readme
 requires: 
 revision: 0
 source: https://github.com/tobibeer/tw5-appear
-version: 0.5.7
+version: 0.6.0
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/appear

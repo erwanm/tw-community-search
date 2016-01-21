@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Enabled plugins
 created: 20160111200537581
 creator: TonGerner
-modified: 20160111205756039
+modified: 20160118210016232
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
@@ -14,3 +14,4 @@ source-tiddler-title-as-link: Enabled%20plugins
 * [[Toolbar plugin]]
 * [[Tristate plugin]]
 * [[Uptoolbar plugin]]
+* [[Tabstory plugin]]

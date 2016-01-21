@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Disabled plugins
 created: 20160111200717362
 creator: TonGerner
-modified: 20160111205954522
+modified: 20160118210003577
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
@@ -9,7 +9,6 @@ source-tiddler-title-as-text: Disabled plugins
 source-tiddler-title-as-link: Disabled%20plugins
 
 * [[Breadcrumbs plugin]]
-* [[Tabstory plugin]]
 * [[Readonly plugin]]
 * [[Top-left menu plugin|Top + left menu plugin]]
 * [[Top menu plugin]]

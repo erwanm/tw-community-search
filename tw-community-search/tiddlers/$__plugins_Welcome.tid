@@ -7,6 +7,10 @@ source-tiddler-title-as-link: Welcome
 
 This wiki provides the documentation for all [[TiddlyWiki]] plugins by [[Tobias Beer]].
 
+@@.note
+''Tip:'' To keep up to date or find new plugins, add my [[Library]] to your wiki.
+@@
+
 {{Plugins}}
 
 For more TiddlyWiki solutions, see:

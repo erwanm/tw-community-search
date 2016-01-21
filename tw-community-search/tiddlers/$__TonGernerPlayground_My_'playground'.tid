@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/My 'playground'
 created: 20140203084653907
 creator: TonGerner
-modified: 20160116193551150
+modified: 20160120213958579
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: My%20%27playground%27
 Dordrecht, the Netherlands, my home town.
 
 {{Under construction general_}}
-{{Upgraded}}<br>(but the guide 'How to customize TW5' not yet upgraded)
+{{Upgraded}}
 <<tabs "Introduction [[My guides]] Plugins [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
 
 ,,Comments and questions are welcome. Post them in the [[TW Google group|https://groups.google.com/forum/#!forum/tiddlywiki]],,

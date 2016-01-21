@@ -5,10 +5,10 @@ created: 20150805100131686
 creator: TonGerner
 description: Top + left menu
 list: readme
-modified: 20160111185729180
+modified: 20160120202605380
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.11
+version: 0.1.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/topleftmenu

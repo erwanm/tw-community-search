@@ -5,10 +5,10 @@ created: 20160109160355696
 creator: TonGerner
 description: Layout adjustment
 list: readme
-modified: 20160111142447846
+modified: 20160120204643290
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.36
+version: 0.1.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/layout_adjustment
