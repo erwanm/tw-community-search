@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Tabstory plugin
 caption: Tabstory
 created: 20160111103420591
 creator: TonGerner
-modified: 20160111195521954
+modified: 20160121182545290
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -27,5 +27,5 @@ Settings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tw
 
 Drag & drop the following links to your wiki to install this plugin.
 
-* [[$:/plugins/tongerner/breadcrumbs]]
+* [[$:/plugins/tongerner/tabstory]]
 * [[$:/plugins/tongerner/layout_adjustment]]

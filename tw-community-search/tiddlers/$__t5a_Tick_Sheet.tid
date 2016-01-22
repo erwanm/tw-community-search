@@ -4,7 +4,7 @@ created: 20151111185646576
 creator: Andrew Harrison
 description: This tiddler will help me take notes and quickly remember great amounts of information temporarily all in one place. Inspired by Stephan Hradek's slider. Also, designed to be dynamic so it can be cloned. It stores the states from the slider buttons and text field in a temp tiddler. The reset button deletes the temp tiddler to reset everything from this tiddler. Cloned forms have reset buttons that clear their own forms.<br>{{!!title||$:/Here}}
 icon: $:/core/images/done-button
-modified: 20160120234135441
+modified: 20160121130325256
 modifier: Andrew Harrison
 show-field: description -icon
 original-tags: New Contents favorite
@@ -13,8 +13,6 @@ source-tiddler-title-as-text: Tick Sheet
 source-tiddler-title-as-link: Tick%20Sheet
 
 <<overlay {{$:/Examples/Overlay!!what}} {{$:/Examples/Overlay!!with}} 100% 40px overlay-example>>
-
-<$list filter="[all[shadows+tiddlers]tag[Token]!has[draft.of]]" variable="listItem"><$transclude tiddler=<<listItem>>/></$list>
 
 {{Tiddlywiki||$:/copy}}
 <<toggle TagPill1a>>
