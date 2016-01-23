@@ -6,5 +6,5 @@ source-tiddler-title-as-text: preview-Dependencies
 source-tiddler-title-as-link: preview-Dependencies
 
 @@.note
-''Important:'' <<tb preview>> depends on <<tb appear>> for positioning popups absolutely, and reusing popup styles. Hence, be sure to install it (first).
+''Important:'' <<tb preview>> depends on <<tb appear>> 0.6.1 for positioning popups absolutely, and reusing popup styles. Hence, be sure to install it (first).
 @@

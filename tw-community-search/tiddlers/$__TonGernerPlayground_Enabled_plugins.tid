@@ -1,17 +1,20 @@
 title: $:/TonGernerPlayground/Enabled plugins
 created: 20160111200537581
 creator: TonGerner
-modified: 20160118210016232
+modified: 20160122172440548
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Enabled plugins
 source-tiddler-title-as-link: Enabled%20plugins
 
-* [[Bluish theme]]
-* [[Layout adjustment plugin]]
-* [[Systemtags plugin|System tags plugin]]
-* [[Toolbar plugin]]
-* [[Tristate plugin]]
-* [[Uptoolbar plugin]]
-* [[Tabstory plugin]]
+|borderless|k
+|Plugin ||to see in action|h
+|[[Bluish theme]]|||
+|[[Layout adjustment plugin]]|&nbsp;&nbsp;&nbsp;&nbsp;|click [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]|
+|[[Systemtags plugin|System tags plugin]]|| see Sidebar tab 'More'|
+|[[Toolbar plugin]]||see on top|
+|[[Tristate plugin]]||click {{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}|
+|[[Uptoolbar plugin]]||see every tiddler|
+|[[Breadcrumbs plugin]] ||click {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} / {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}|
+|[[Tabstory plugin]] ||click {{$:/plugins/tongerner/tabstory/image-tabstory-off}} / {{$:/plugins/tongerner/tabstory/image-tabstory-on}}|

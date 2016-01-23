@@ -1,6 +1,6 @@
 title: $:/TiddlyNote/Configurer son dépôt Git
 created: 20150226133514547
-modified: 20150426153359795
+modified: 20160122133900474
 original-tags: [[Héberger son TiddlyWiki]] Git
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Configurer son dépôt Git
@@ -8,38 +8,54 @@ source-tiddler-title-as-link: Configurer%20son%20dépôt%20Git
 
 !!!1. Créer un compte
 Créer un compte sur Bitbucket à l'adresse suivante: https://bitbucket.org/account/signup/<br>
-''Attention votre futur site aura pour nom //username//.bitbucket.org''
 
-!!!2. Créer un nouveau répertoire (en ligne)
-Nommé ce répertoire ''//username//.bitbucket.org''
+Aller dans votre boite mail et confirmer l'adresse.
 
-Puis choisir les options suivantes:
+>Votre page Bitbucket est désormais accessible à l'adresse https://bitbucket.org/username
 
-*Accès public ou privé (visible ou pas à tout le monde)
-*Entrer une brêve description
-*Choisir Git
-*Langage HTML/CSS
+!!!2. Créer un dépôt en ligne 
 
-!!!3. Aller dans votre boite mail et confirmer l'adresse
+Créer un nouveau dépôt sur votre page avec les options suivantes:
+
+*Nom du dépôt
+*Description du dépôt
+*Accès public ou privé (visible ou pas par tout le monde)
+*Type de dépôt: __Git__
+*Langue: __HTML/CSS__
+
+!!!3. Installer et configurer l'extension Aerobatic
+
+3.1. Aller dans Menu → Extensions et ajouter l'extension ''Aerobatic Hosting''
+
+3.2. Lier votre dépôt à Aerobatic
+
+*Naviguer vers le dépôt
+*Cliquer sur le lien Aerobatic Hosting dans le menu de gauche et choisir les options suivantes:
+**Website name: Nom du site (~https://nom-du-site.aerobatic.io)
+**Deploy branch: __Master__
+**Deploy directory: __/__
+**Deploy now?: __No, I'll push to this repo when I'm ready__
+
+>Votre dépôt est maintenant connecté à Aerobatic!
 
 !!!4. Cloner le dépôt
-4.1 Récupérer l'URL du dépôt sur votre page<br>
-Cliquer sur clone, mettez le protocole HTTPS et copier l'adresse: `https://bitbucket.org/username/username.bitbucket.org.git`
+4.1. Récupérer l'URL du dépôt sur votre page<br>
+En haut de votre page, mettre le protocole HTTPS et copier l'adresse: `https://bitbucket.org/username/nom-du-depot.git`
 
-4.2 Cloner le dépôt localement (dans un dossier où sera stocké votre projet).
+4.2. Cloner le dépôt localement (dans un dossier où sera stocké votre projet).
 
 ```c
 $ cd chemin/ou-stocker/votre-projet
-$ git clone https://bitbucket.org/username/username.bitbucket.org.git
+$ git clone https://bitbucket.org/username/nom-du-depot.git
 ```
 
-La commande `git clone` créée un nouveau répertoire nommé `username.bitbucket.org` dans le dossier courant.
+La commande `git clone` créée un nouveau répertoire nommé `nom-du-depot` dans le répertoire courant.
 
 retour:
 
 ```c
-$ git clone https://bitbucket.org/username/username.bitbucket.org.git
-Cloning into 'username.bitbucket.org'...
+$ git clone https://bitbucket.org/username/nom-du-depot.git
+Cloning into 'nom-du-depot'...
 Password
 warning: You appear to have cloned an empty repository.
 ```
@@ -48,9 +64,8 @@ Git sait désormais qu’il existe un dépôt distant et que c’est là où vou
 
 ```c
 $ git remote -v
-origin https://bitbucket.org/username/username.bitbucket.org.git (fetch)
-origin https://bitbucket.org/username/username.bitbucket.org.git (push)
+origin https://bitbucket.org/username/nom-du-depot.git (fetch)
+origin https://bitbucket.org/username/nom-du-depot.git (push)
 ```
-<br>
 
->''Le dépôt local et le dépôt distant sont maintenant connectés, il ne reste plus qu'a mettre des fichiers dedans.''
+>''Le dépôt local et le dépôt distant sont maintenant connectés et l'extension Aerobatic configurée.<br> Il ne reste plus qu'à [[Mettre en ligne son TiddlyWiki]].''

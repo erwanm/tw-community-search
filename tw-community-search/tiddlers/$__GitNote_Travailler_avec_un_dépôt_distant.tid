@@ -1,6 +1,6 @@
 title: $:/GitNote/Travailler avec un dépôt distant
 created: 20150216135212745
-modified: 20150921101054896
+modified: 20160122094323191
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Travailler avec un dépôt distant
@@ -12,10 +12,6 @@ Les dépôts Git le plus connus sont:
 
 * <i class="fa fa-github"></i> [[GitHub|https://github.com/]]: un très bon dépôt gratuit, le plus connu.
 *<i class="fa fa-bitbucket"></i> [[Bitbucket|https://bitbucket.org/]]: concurrent de ~GitHub. Propose de faire des dépôts privés gratuits.
-
-@@.info
-<i class="fa fa-info-circle fa-2x pull-left"></i> Il est aussi possible d'[[héberger son TiddlyWiki|http://librenote.aerobatic.io/tiddlynote/#H%C3%A9berger%20son%20TiddlyWiki]] ou un site web grâce au service de Pages.
-@@
 
 J'utilise dans les exemples qui vont suivre le service Bitbucket mais la procédure est la même pour ~GitHub.
 

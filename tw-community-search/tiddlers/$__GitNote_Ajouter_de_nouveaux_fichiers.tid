@@ -1,6 +1,6 @@
 title: $:/GitNote/Ajouter de nouveaux fichiers
 created: 20150216155025496
-modified: 20150423094630519
+modified: 20160122100705018
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Ajouter de nouveaux fichiers
@@ -28,9 +28,11 @@ $ git hist
 ```
 
 @@.info
-<i class="fa fa-info-circle fa-3x pull-left"></i> En cas d'erreur, Il est possible de modifier le message du dernier commit avec `git commit --amend -m "Nouveau Message"`.
-@@
+<i class="fa fa-info-circle fa-3x pull-left"></i> __En cas d'erreur__<br>Il est possible de modifier le message du dernier commit avec `git commit --amend -m "Nouveau Message"`.
+<br>
 
+:Pour effacer le dernier commit ''ainsi que les modifications effectués dans le dossier de travail'' on peut utiliser `git reset --hard HEAD^`. Pour effacer les 2 derniers commits: `git reset --hard HEAD~2` etc...
+@@
 
 !!Ajouter un dossier
 
@@ -38,9 +40,16 @@ $ git hist
 <i class="fa fa-info-circle fa-3x pull-left"></i> On ne peut pas commiter des dossiers vides avec Git. Si il n'y a pas de fichier dedans, Git ignorera le dossier.
 @@
 
-Pour ajouter un sous-dossier dans votre répertoire Git:
+Pour ajouter un dossier dans votre répertoire Git:
 
 ```c
 $ git add nom_dossier
 $ git add nom_dossier/nom_fichier
+```
+
+Si votre dossier comporte plusieurs fichiers il faut utiliser:
+
+```c
+$ git add nom_dossier
+$ git add nom_dossier/\*
 ```

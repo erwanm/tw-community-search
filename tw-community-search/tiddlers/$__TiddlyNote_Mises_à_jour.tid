@@ -2,12 +2,17 @@ title: $:/TiddlyNote/Mises à jour
 color: 
 created: 20141028235539032
 icon: $:/core/images/refresh-button
-modified: 20151113163732815
+modified: 20160122134613048
 num_recent: 10
 original-tags: 
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Mises à jour
 source-tiddler-title-as-link: Mises%20à%20jour
+
+<i class="fa fa-refresh"></i> 22/01/2016
+
+*Ajout utilisation de Aerobatic et mise à jour dans [[Héberger son TiddlyWiki]]
+*Mise à jour TW version 5.1.10
 
 <i class="fa fa-refresh"></i> 13/11/2015
 

@@ -1,6 +1,6 @@
 title: $:/GitNote/Exemple de mise en œuvre
 created: 20150216153309867
-modified: 20150422144706141
+modified: 20160122110607824
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Exemple de mise en œuvre
@@ -28,10 +28,15 @@ $ git commit -m "First Commit"
 ```c
 $ git status
 On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
 nothing to commit, working directory clean
 ```
 
-!!!5. Poussez votre fichier vers le dépôt distant
+Quand on travail avec un dépôt distant, Git indique le nombre de commits en avance sur notre branche.
+
+!!!5. Poussez votre commit vers le dépôt distant
 
 ```c
 $ git push -u origin master
