@@ -21,6 +21,6 @@ twcs-wiki-id: t5a
 twcs-extracted-plugin-tiddler: $:/t5a/$:/plugin/ajh/favorites
 twcs-description: Favorites
 twcs-author: 
-twcs-version: 0.0.9
+twcs-version: 2.0.0
 
 {{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,30 @@
+title: $:/TonGernerPlayground/twCard - Plugin - tristate
+audience: 
+category: layout
+created: 20151015075959708
+creator: TonGerner
+date: 20th January 2016
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: TonGerner
+modified: 20160123123754364
+modifier: TonGerner
+name: tristate
+plugin_tiddler: $:/plugins/tongerner/tristate
+release: 
+repository: 
+revision: 0.1.1
+short_description: tristate sidebar toggle
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - tristate
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20tristate
+
+This plugin is meant for widescreen monitors. It changes the standard 'twostate' functionality of the Sidebar to a 'tristate' functionality:
+
+# standard tiddler width with a broad (fluid) Sidebar showing single right chevron button.
+# small Sidebar (width programmable) and fluid tiddler width (showing double right chevron button).
+# fluid tiddler width without Sidebar (showing double left chevron button).
