@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="generator" content="TiddlyWiki" />
-<meta name="tiddlywiki-version" content="5.1.9" />
+<meta name="tiddlywiki-version" content="5.1.10" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -76,7 +76,162 @@ Error message and password prompt
 </div>
 <style type="text/css">
 
-﻿.hljs{display:block;overflow-x:auto;padding:.5em;background:#f0f0f0;-webkit-text-size-adjust:none}.hljs,.hljs-subst,.hljs-tag .hljs-title,.nginx .hljs-title{color:#000}.hljs-string,.hljs-title,.hljs-constant,.hljs-parent,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-preprocessor,.hljs-pragma,.haml .hljs-symbol,.ruby .hljs-symbol,.ruby .hljs-symbol .hljs-string,.hljs-template_tag,.django .hljs-variable,.smalltalk .hljs-class,.hljs-addition,.hljs-flow,.hljs-stream,.bash .hljs-variable,.apache .hljs-tag,.apache .hljs-cbracket,.tex .hljs-command,.tex .hljs-special,.erlang_repl .hljs-function_or_atom,.asciidoc .hljs-header,.markdown .hljs-header,.coffeescript .hljs-attribute{color:#800}.smartquote,.hljs-comment,.hljs-annotation,.diff .hljs-header,.hljs-chunk,.asciidoc .hljs-blockquote,.markdown .hljs-blockquote{color:#888}.hljs-number,.hljs-date,.hljs-regexp,.hljs-literal,.hljs-hexcolor,.smalltalk .hljs-symbol,.smalltalk .hljs-char,.go .hljs-constant,.hljs-change,.lasso .hljs-variable,.makefile .hljs-variable,.asciidoc .hljs-bullet,.markdown .hljs-bullet,.asciidoc .hljs-link_url,.markdown .hljs-link_url{color:#080}.hljs-label,.hljs-javadoc,.ruby .hljs-string,.hljs-decorator,.hljs-filter .hljs-argument,.hljs-localvars,.hljs-array,.hljs-attr_selector,.hljs-important,.hljs-pseudo,.hljs-pi,.haml .hljs-bullet,.hljs-doctype,.hljs-deletion,.hljs-envvar,.hljs-shebang,.apache .hljs-sqbracket,.nginx .hljs-built_in,.tex .hljs-formula,.erlang_repl .hljs-reserved,.hljs-prompt,.asciidoc .hljs-link_label,.markdown .hljs-link_label,.vhdl .hljs-attribute,.clojure .hljs-attribute,.asciidoc .hljs-attribute,.lasso .hljs-attribute,.coffeescript .hljs-property,.hljs-phony{color:#88f}.hljs-keyword,.hljs-id,.hljs-title,.hljs-built_in,.css .hljs-tag,.hljs-javadoctag,.hljs-phpdoc,.hljs-dartdoc,.hljs-yardoctag,.smalltalk .hljs-class,.hljs-winutils,.bash .hljs-variable,.apache .hljs-tag,.hljs-type,.hljs-typename,.tex .hljs-command,.asciidoc .hljs-strong,.markdown .hljs-strong,.hljs-request,.hljs-status{font-weight:bold}.asciidoc .hljs-emphasis,.markdown .hljs-emphasis{font-style:italic}.nginx .hljs-built_in{font-weight:normal}.coffeescript .javascript,.javascript .xml,.lasso .markup,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata{opacity:.5}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f0f0f0;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs,
+.hljs-subst,
+.hljs-tag .hljs-title,
+.nginx .hljs-title {
+  color: black;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-constant,
+.hljs-parent,
+.hljs-tag .hljs-value,
+.hljs-rule .hljs-value,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-name,
+.haml .hljs-symbol,
+.ruby .hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.hljs-addition,
+.hljs-flow,
+.hljs-stream,
+.bash .hljs-variable,
+.pf .hljs-variable,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.tex .hljs-special,
+.erlang_repl .hljs-function_or_atom,
+.asciidoc .hljs-header,
+.markdown .hljs-header,
+.coffeescript .hljs-attribute,
+.tp .hljs-variable {
+  color: #800;
+}
+
+.smartquote,
+.hljs-comment,
+.hljs-annotation,
+.diff .hljs-header,
+.hljs-chunk,
+.asciidoc .hljs-blockquote,
+.markdown .hljs-blockquote {
+  color: #888;
+}
+
+.hljs-number,
+.hljs-date,
+.hljs-regexp,
+.hljs-literal,
+.hljs-hexcolor,
+.smalltalk .hljs-symbol,
+.smalltalk .hljs-char,
+.go .hljs-constant,
+.hljs-change,
+.lasso .hljs-variable,
+.makefile .hljs-variable,
+.asciidoc .hljs-bullet,
+.markdown .hljs-bullet,
+.asciidoc .hljs-link_url,
+.markdown .hljs-link_url {
+  color: #080;
+}
+
+.hljs-label,
+.ruby .hljs-string,
+.hljs-decorator,
+.hljs-filter .hljs-argument,
+.hljs-localvars,
+.hljs-array,
+.hljs-attr_selector,
+.hljs-important,
+.hljs-pseudo,
+.hljs-pi,
+.haml .hljs-bullet,
+.hljs-doctype,
+.hljs-deletion,
+.hljs-envvar,
+.hljs-shebang,
+.apache .hljs-sqbracket,
+.nginx .hljs-built_in,
+.tex .hljs-formula,
+.erlang_repl .hljs-reserved,
+.hljs-prompt,
+.asciidoc .hljs-link_label,
+.markdown .hljs-link_label,
+.vhdl .hljs-attribute,
+.clojure .hljs-attribute,
+.asciidoc .hljs-attribute,
+.lasso .hljs-attribute,
+.coffeescript .hljs-property,
+.hljs-phony {
+  color: #88f;
+}
+
+.hljs-keyword,
+.hljs-id,
+.hljs-title,
+.hljs-built_in,
+.css .hljs-tag,
+.hljs-doctag,
+.smalltalk .hljs-class,
+.hljs-winutils,
+.bash .hljs-variable,
+.pf .hljs-variable,
+.apache .hljs-tag,
+.hljs-type,
+.hljs-typename,
+.tex .hljs-command,
+.asciidoc .hljs-strong,
+.markdown .hljs-strong,
+.hljs-request,
+.hljs-status,
+.tp .hljs-data,
+.tp .hljs-io {
+  font-weight: bold;
+}
+
+.asciidoc .hljs-emphasis,
+.markdown .hljs-emphasis,
+.tp .hljs-units {
+  font-style: italic;
+}
+
+.nginx .hljs-built_in {
+  font-weight: normal;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.lasso .markup,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}
+
 
 .hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8;-webkit-text-size-adjust:none}.hljs-comment,.diff .hljs-header,.hljs-javadoc{color:#998;font-style:italic}.hljs-keyword,.css .rule .hljs-keyword,.hljs-winutils,.nginx .hljs-title,.hljs-subst,.hljs-request,.hljs-status{color:#333;font-weight:bold}.hljs-number,.hljs-hexcolor,.ruby .hljs-constant{color:teal}.hljs-string,.hljs-tag .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula{color:#d14}.hljs-title,.hljs-id,.scss .hljs-preprocessor{color:#900;font-weight:bold}.hljs-list .hljs-keyword,.hljs-subst{font-weight:normal}.hljs-class .hljs-title,.hljs-type,.vhdl .hljs-literal,.tex .hljs-command{color:#458;font-weight:bold}.hljs-tag,.hljs-tag .hljs-title,.hljs-rule .hljs-property,.django .hljs-tag .hljs-keyword{color:navy;font-weight:normal}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.hljs-name{color:teal}.hljs-regexp{color:#009926}.hljs-symbol,.ruby .hljs-symbol .hljs-string,.lisp .hljs-keyword,.clojure .hljs-keyword,.scheme .hljs-keyword,.tex .hljs-special,.hljs-prompt{color:#990073}.hljs-built_in{color:#0086b3}.hljs-preprocessor,.hljs-pragma,.hljs-pi,.hljs-doctype,.hljs-shebang,.hljs-cdata{color:#999;font-weight:bold}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.diff .hljs-change{background:#0086b3}.hljs-chunk{color:#aaa}
 
@@ -157,12 +312,6 @@ Error message and password prompt
      -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
-}.tc-modal-displayed {
-	
-  -webkit-filter: blur(4px);
-     -moz-filter: blur(4px);
-          filter: blur(4px);
-
 }.tc-modal {
 	border-radius: 6px;
 	
@@ -192,29 +341,31 @@ Error message and password prompt
           box-shadow: 0 3px 7px rgba(0,0,0,0.3);
 
 	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
-}.tc-sidebar-lists .tc-tab-divider {
+}.tc-sidebar-lists .tc-tab-set .tc-tab-divider {
+	border-top: none;
+	height: 1px;
 	
-background-image: linear-gradient(left, rgb(216,216,216) 0%, rgb(236,236,236) 250px);
-background-image: -o-linear-gradient(left, rgb(216,216,216) 0%, rgb(236,236,236) 250px);
-background-image: -moz-linear-gradient(left, rgb(216,216,216) 0%, rgb(236,236,236) 250px);
-background-image: -webkit-linear-gradient(left, rgb(216,216,216) 0%, rgb(236,236,236) 250px);
-background-image: -ms-linear-gradient(left, rgb(216,216,216) 0%, rgb(236,236,236) 250px);
+background-image: linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
+background-image: -o-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
 
 }.tc-more-sidebar .tc-tab-buttons button {
 	
-background-image: linear-gradient(left, rgb(236,236,236) 0%, rgb(224,224,224) 100%);
-background-image: -o-linear-gradient(left, rgb(236,236,236) 0%, rgb(224,224,224) 100%);
-background-image: -moz-linear-gradient(left, rgb(236,236,236) 0%, rgb(224,224,224) 100%);
-background-image: -webkit-linear-gradient(left, rgb(236,236,236) 0%, rgb(224,224,224) 100%);
-background-image: -ms-linear-gradient(left, rgb(236,236,236) 0%, rgb(224,224,224) 100%);
+background-image: linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
+background-image: -o-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
 
 }.tc-more-sidebar .tc-tab-buttons button.tc-tab-selected {
 	
-background-image: linear-gradient(left, rgb(236,236,236) 0%, rgb(248,248,248) 100%);
-background-image: -o-linear-gradient(left, rgb(236,236,236) 0%, rgb(248,248,248) 100%);
-background-image: -moz-linear-gradient(left, rgb(236,236,236) 0%, rgb(248,248,248) 100%);
-background-image: -webkit-linear-gradient(left, rgb(236,236,236) 0%, rgb(248,248,248) 100%);
-background-image: -ms-linear-gradient(left, rgb(236,236,236) 0%, rgb(248,248,248) 100%);
+background-image: linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
+background-image: -o-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
 
 }.tc-message-box img {
 	
@@ -928,7 +1079,49 @@ a.tc-tiddlylink:hover {
 }button svg.tc-image-button, button .tc-image-button img {
 	height: 1em;
 	width: 1em;
-}/*
+}.tc-unfold-banner {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	width: 100%;
+    width: calc(100% + 2px);
+    margin-left: -43px;
+	text-align: center;
+	border-top: 2px solid #f8f8f8;
+	margin-top: 4px;
+}.tc-unfold-banner:hover {
+	background: #f8f8f8;
+	border-top: 2px solid #dddddd;
+}.tc-unfold-banner svg, .tc-fold-banner svg {
+	height: 0.75em;
+	fill: #cccccc;
+}.tc-unfold-banner:hover svg, .tc-fold-banner:hover svg {
+	fill: #888888;
+}.tc-fold-banner {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	width: 23px;
+	text-align: center;
+	margin-left: -35px;
+    top: 6px;
+    bottom: 6px;
+}.tc-fold-banner:hover {
+	background: #f8f8f8;
+}@media (max-width: 960px) {
+	
+	.tc-unfold-banner {
+		position: static;
+	    width: calc(100% + 59px);
+    }.tc-fold-banner {
+		width: 16px;
+		margin-left: -16px;
+	    font-size: 0.75em;
+	}}/*
 ** Tags and missing tiddlers
 */.tc-tag-list-item {
 	position: relative;
@@ -1005,8 +1198,6 @@ a.tc-tiddlylink:hover {
 	width: 1.2em;
 	height: 1.2em;
 	vertical-align: middle;
-}.tc-search-results {
-	padding-top: 14px;
 }.tc-page-controls {
 	margin-top: 14px;
 	font-size: 1.5em;
@@ -1016,11 +1207,9 @@ a.tc-tiddlylink:hover {
 	text-decoration: none;
 }.tc-page-controls img {
 	width: 1em;
-}.tc-page-controls svg,
-.tc-search svg {
+}.tc-page-controls svg {
 	fill: #aaaaaa;
-}.tc-page-controls button:hover svg, .tc-page-controls a:hover svg,
-.tc-search button:hover svg, .tc-search a:hover svg {
+}.tc-page-controls button:hover svg, .tc-page-controls a:hover svg {
 	fill: #000000;
 }.tc-menu-list-item {
 	white-space: nowrap;
@@ -1072,6 +1261,7 @@ a.tc-tiddlylink:hover {
 }/*
 ** Tiddler styles
 */.tc-tiddler-frame {
+	position: relative;
 	margin-bottom: 28px;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
@@ -1143,13 +1333,15 @@ a.tc-tiddlylink:hover {
 }.tc-tiddler-controls > span > button {
 	vertical-align: baseline;
 	margin-left:5px;
-}.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+}.tc-tiddler-controls button svg, .tc-tiddler-controls button img,
+.tc-search button svg, .tc-search a svg {
 	height: 0.75em;
 	fill: #cccccc;
 }.tc-tiddler-controls button.tc-selected svg,
 .tc-page-controls button.tc-selected svg  {
 	fill: #444444;
-}.tc-tiddler-controls button.tc-btn-invisible:hover svg {
+}.tc-tiddler-controls button.tc-btn-invisible:hover svg,
+.tc-search button:hover svg, .tc-search a:hover svg {
 	fill: #888888;
 }@media print {
 	.tc-tiddler-controls {
@@ -1188,6 +1380,8 @@ a.tc-tiddlylink:hover {
 	display: block;
 }.tc-edit-bitmapeditor-height {
 	display: block;
+}.tc-tiddler-body {
+	clear: both;
 }.tc-tiddler-frame .tc-tiddler-body {
 	font-size: 15px;
 	line-height: 22px;
@@ -1368,9 +1562,15 @@ a.tc-tiddlylink:hover {
 	margin: 4px 0 0 0;
 	white-space: nowrap;
 	z-index: 1000;
+	text-shadow: none;
+}.tc-block-dropdown.tc-search-drop-down {
+	margin-left: -12px;
 }.tc-block-dropdown a {
 	display: block;
 	padding: 4px 14px 4px 14px;
+}.tc-block-dropdown.tc-search-drop-down a {
+	display: block;
+	padding: 0px 10px 0px 10px;
 }.tc-drop-down .tc-dropdown-item,
 .tc-block-dropdown .tc-dropdown-item {
 	padding: 4px 14px 4px 7px;
@@ -1379,6 +1579,8 @@ a.tc-tiddlylink:hover {
 	color: #ffffff;
 	background-color: #5778d8;
 	text-decoration: none;
+}.tc-search-results {
+    padding: 0 7px 0 7px;
 }/*
 ** Modals
 */.tc-modal-wrapper {
@@ -1480,6 +1682,7 @@ a.tc-tiddlylink:hover {
 }.tc-tab-buttons button {
 	color: #666666;
 	padding: 3px 5px 3px 5px;
+	margin-right: 0.3em;
 	font-weight: 300;
 	border: none;
 	background: inherit;
@@ -1493,6 +1696,7 @@ a.tc-tiddlylink:hover {
 	display: block;
 	width: 100%;
 	margin-top: 3px;
+	margin-right: 0;
 	text-align: right;
 	background-color: #d8d8d8;
 	border-left: 1px solid #cccccc;
@@ -1526,6 +1730,8 @@ a.tc-tiddlylink:hover {
 	border-top: 1px solid #d8d8d8;
 	border-right: 1px solid #d8d8d8;
 }.tc-sidebar-lists .tc-tab-buttons button {
+	display: inline;
+	width: auto;
 	background-color: #e0e0e0;
 	color: #666666;
 	border-left: 1px solid #cccccc;
@@ -1534,6 +1740,8 @@ a.tc-tiddlylink:hover {
 }.tc-sidebar-lists .tc-tab-divider {
 	border-top: 1px solid #e4e4e4;
 }.tc-more-sidebar .tc-tab-buttons button {
+	display: block;
+	width: 100%;
 	background-color: #e0e0e0;
 	border-top: none;
 	border-left: none;
@@ -1599,7 +1807,7 @@ a.tc-tiddlylink:hover {
 	background-color: #5778d8;
 	color: #ffffff;
 	fill: #333333;
-}a.tc-tiddlylink.tc-plugin-info:hover svg {
+}a.tc-tiddlylink.tc-plugin-info:hover .tc-plugin-info > .tc-plugin-info-chunk > svg {
 	fill: #333333;
 }.tc-plugin-info-chunk {
 	display: inline-block;
@@ -1613,11 +1821,15 @@ a.tc-tiddlylink:hover {
 }.tc-plugin-info-chunk div {
 	font-size: 0.7em;
 	margin: 2px 0 2px 0;
-}.tc-plugin-info img, .tc-plugin-info svg {
+}.tc-plugin-info:hover > .tc-plugin-info-chunk > img, .tc-plugin-info:hover > .tc-plugin-info-chunk > svg {
+	width: 2em;
+	height: 2em;
+	fill: #333333;
+}.tc-plugin-info > .tc-plugin-info-chunk > img, .tc-plugin-info > .tc-plugin-info-chunk > svg {
 	width: 2em;
 	height: 2em;
 	fill: #bbb;
-}.tc-plugin-info.tc-small-icon img, .tc-plugin-info.tc-small-icon svg {
+}.tc-plugin-info.tc-small-icon > .tc-plugin-info-chunk > img, .tc-plugin-info.tc-small-icon > .tc-plugin-info-chunk > svg {
 	width: 1em;
 	height: 1em;
 }.tc-plugin-info-dropdown {
@@ -1876,9 +2088,13 @@ a.tc-tiddlylink:hover {
 </svg></button>
 </span>
 <span class=" tc-reveal" hidden="true"></span>
-</span><div class="tc-sidebar-scrollable"><div><div class="tc-sidebar-header"><div class=" tc-reveal"><h1 class="tc-site-title">TW Community News
+</span><div class="tc-sidebar-scrollable" style="overflowY:auto;overflowX:auto;webkitOverflowScrolling:touch;"><div><div class="tc-sidebar-header"><div class=" tc-reveal"><h1 class="tc-site-title">TW Community News
 </h1><div class="tc-site-subtitle">Daily updates from the TW community!
 </div><p><div class="tc-page-controls">
+
+<span class=" tc-reveal" hidden="true"></span>
+
+<span class=" tc-reveal" hidden="true"></span>
 
 <span class=" tc-reveal" hidden="true"></span>
 
@@ -1954,8 +2170,9 @@ a.tc-tiddlylink:hover {
 
 <span class=" tc-reveal" hidden="true"></span>
 
-</div></p><div class="tc-sidebar-lists"><p><div class="tc-search">
-<input type="search" value="">
+</div></p><div class="tc-sidebar-lists"><p>
+<div class="tc-search">
+<input class="tc-popup-handle" type="search" value="">
 <span class=" tc-reveal" hidden="true"></span>
 <span class=" tc-reveal">
 <button aria-label="advanced search" class="tc-btn-invisible" title="Advanced search">
@@ -1969,38 +2186,36 @@ a.tc-tiddlylink:hover {
 </svg>
 </button>
 </span>
-</div></p><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><p><div class="tc-tab-set ">
-<div class="tc-tab-buttons ">
+</div>
 
+<div class="tc-block-dropdown-wrapper tc-reveal" hidden="true"></div>
+
+</p><p><div class="tc-tab-set ">
+<div class="tc-tab-buttons ">
 <button class=" tc-tab-selected">
 
+
 Open
+</button><button class="">
 
-</button>
-
-<button class="">
 
 Recent
+</button><button class="">
 
-</button>
-
-<button class="">
 
 Tools
+</button><button class="">
 
-</button>
-
-<button class="">
 
 More
-
 </button>
-
-</div><div class="tc-tab-divider "></div><div class="tc-tab-content ">
+</div>
+<div class="tc-tab-divider "></div>
+<div class="tc-tab-content ">
 <div class=" tc-reveal"><p><button aria-label="close" class="tc-btn-invisible tc-btn-mini" title="Close this tiddler">×</button> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="static/CommunityNews.html">CommunityNews</a></p><p><button class="tc-btn-invisible tc-btn-mini">close all</button>
 </p></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal" hidden="true"></div>
 </div>
-</div></p></div></div>
+</div></p></div>
 </div></div></div></div><section class="tc-story-river"><section class="story-backdrop"></section><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-TWCSCore tc-tagged-TWCSContents"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
@@ -2021,7 +2236,7 @@ More
 </svg>
 
 
-</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
 
 <svg class="tc-image-close-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt">
     <g fill-rule="evenodd">
@@ -2031,7 +2246,7 @@ More
 
 
 
-</button></span>
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
 </span>
 
 <span>
@@ -2051,11 +2266,15 @@ CommunityNews
 </div>
 
 <div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
-</div><div class="tc-subtitle">
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
 <a class="tc-tiddlylink tc-tiddlylink-missing" href="static/.html">
 
-</a> 4 months ago
+</a> 13th September 2015 at 2:09pm
 </div>
+</div>
+<div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
@@ -2067,8 +2286,7 @@ color:#333333;">
 <span class=" tc-reveal" hidden="true"></span>
 
 
-</span>
-<span class="tc-tag-list-item">
+</span><span class="tc-tag-list-item">
 
 
 <button class="tc-btn-invisible tc-tag-label" style="background-color:;
@@ -2079,10 +2297,9 @@ color:#333333;">
 <span class=" tc-reveal" hidden="true"></span>
 
 
-</span>
+</span></div>
 </div>
-
-<div class="tc-tiddler-body"><p><table>
+<div class="tc-tiddler-body tc-reveal"><p><table>
   
     <tr>
       <td>
