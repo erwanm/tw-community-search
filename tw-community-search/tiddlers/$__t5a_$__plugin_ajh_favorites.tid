@@ -1,13 +1,13 @@
 title: $:/t5a/$:/plugin/ajh/favorites
 created: 20150902052640307
 creator: Andrew Harrison
-dependents: $:/config/ViewToolbarButtons/Visibility/$:/plugin/ajh/favorites/template $:/language/Buttons/Favorites/Caption $:/language/Buttons/Favorites/Hint $:/language/SideBar/Favorites/Caption $:/plugin/ajh/favorites/icon $:/plugin/ajh/favorites/readme $:/plugin/ajh/favorites/SideBar $:/plugin/ajh/favorites/image $:/plugin/ajh/favorites/stylesheet $:/plugin/ajh/favorites/template
+dependents: $:/language/Buttons/Favorites/Caption $:/language/Buttons/Favorites/Hint $:/language/SideBar/Favorites/Caption $:/plugin/ajh/favorites/icon $:/plugin/ajh/favorites/readme $:/plugin/ajh/favorites/SideBar $:/plugin/ajh/favorites/image $:/plugin/ajh/favorites/stylesheet $:/plugin/ajh/favorites/template
 description: Favorites
 list: readme
-modified: 20160123220538494
+modified: 20160126035906413
 modifier: Andrew Harrison
 source: http://favorites.tiddlyspot.com
-version: 2.0.1
+version: 3.0.0
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/favorites
