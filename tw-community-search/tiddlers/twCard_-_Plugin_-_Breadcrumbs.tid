@@ -21,6 +21,6 @@ twcs-wiki-id: TW5BreadCrumbs
 twcs-extracted-plugin-tiddler: $:/TW5BreadCrumbs/$:/plugins/tongerner/breadcrumbs
 twcs-description: Breadcrumbs
 twcs-author: TonGerner
-twcs-version: 0.0.32
+twcs-version: 0.1.2
 
 {{||$:/CommunityPluginTemplate}}

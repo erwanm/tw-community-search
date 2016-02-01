@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/topmenu
 author: TonGerner
-core-version: 5.1.10
+core-version: 5.1.11
 created: 20150701181924620
 creator: TonGerner
 description: Top menu
 list: readme
-modified: 20160120202658938
+modified: 20160130151736573
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.1
+version: 0.1.2
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/topmenu

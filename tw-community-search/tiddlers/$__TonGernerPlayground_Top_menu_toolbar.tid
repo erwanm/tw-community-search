@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Top menu toolbar
 created: 20140203085533289
 creator: TonGerner
-modified: 20160116193307745
+modified: 20160130211942713
 modifier: TonGerner
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
@@ -12,6 +12,9 @@ source-tiddler-title-as-link: Top%20menu%20toolbar
 
 {{Under construction guide_}}
 {{Upgraded}}
+
+''Note:'' @@.RED Available as plugin.@@
+
 This guide describes how to:
 
 * add a top menu toolbar

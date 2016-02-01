@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/My 'playground'
 created: 20140203084653907
 creator: TonGerner
-modified: 20160120213958579
+modified: 20160131124705363
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
@@ -13,6 +13,6 @@ Dordrecht, the Netherlands, my home town.
 
 {{Under construction general_}}
 {{Upgraded}}
-<<tabs "Introduction [[My guides]] Plugins [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
+<<tabs "Introduction [[My guides]] [[My plugins]] [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
 
 ,,Comments and questions are welcome. Post them in the [[TW Google group|https://groups.google.com/forum/#!forum/tiddlywiki]],,

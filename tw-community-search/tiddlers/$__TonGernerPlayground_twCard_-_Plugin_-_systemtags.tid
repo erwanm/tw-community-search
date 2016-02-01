@@ -3,13 +3,13 @@ audience:
 category: layout
 created: 20160123121635246
 creator: TonGerner
-date: 20th January 2016
+date: 31th January 2016
 homepage: 
 install_link: 
 language: 
 license: 
 maintainer: TonGerner
-modified: 20160123121806557
+modified: 20160131120708659
 modifier: TonGerner
 name: systemtags
 plugin_tiddler: $:/plugins/tongerner/systemtags
@@ -17,6 +17,7 @@ release:
 repository: 
 revision: 0.1.1
 short_description: adds 'System tag' tab
+version: 0.1.2
 wiki: http://tongerner.tiddlyspot.com/
 original-tags: [[Plugin twCard]]
 source-wiki-id: TonGernerPlayground

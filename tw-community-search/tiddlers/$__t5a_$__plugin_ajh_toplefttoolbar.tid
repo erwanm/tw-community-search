@@ -1,11 +1,11 @@
 title: $:/t5a/$:/plugin/ajh/toplefttoolbar
 created: 20150821063313530
-dependents: $:/plugin/ajh/toplefttoolbar/icon $:/plugin/ajh/toplefttoolbar/readme $:/plugin/ajh/toplefttoolbar/stylesheet $:/plugin/ajh/toplefttoolbar/template $:/plugin/ajh/toplefttoolbar/toolbar
+dependents: $:/language/ControlPanel/Toolbars/TopLeftToolbar/Caption $:/plugin/ajh/toplefttoolbar/icon $:/plugin/ajh/toplefttoolbar/readme $:/plugin/ajh/toplefttoolbar/stylesheet $:/plugin/ajh/toplefttoolbar/template $:/plugin/ajh/toplefttoolbar/toolbar
 description: Top Left Toolbar
 list: readme
-modified: 20151017025036694
+modified: 20160131170554726
 source: http://toplefttoolbar.tiddlyspot.com
-version: 0.0.6
+version: 0.0.7
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/toplefttoolbar

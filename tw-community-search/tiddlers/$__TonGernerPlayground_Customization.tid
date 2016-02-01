@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Customization
 created: 20140203085517922
 creator: TonGerner
-modified: 20160108200914716
+modified: 20160130201028892
 modifier: TonGerner
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
@@ -10,8 +10,8 @@ source-tiddler-title-as-link: Customization
 
 @@.BROWN How to customize TW5@@
 
-{{Under construction guide}}
-{{Upgraded_}}
+{{Under construction guide_}}
+{{Upgraded}}
 This guide describes how to customize TW5 (in general) and gives customization examples.
 
 * Standard customization via Control panel (tabs 'Basics', 'Appearance', 'Theme Tweaks', and 'Advanced' > 'Settings')

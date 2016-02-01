@@ -1,14 +1,14 @@
 title: $:/TW5BreadCrumbs/$:/plugins/tongerner/layout_adjustment
 author: TonGerner
-core-version: 5.1.10
+core-version: 5.1.11
 created: 20160109160355696
 creator: TonGerner
 description: Layout adjustment
 list: readme
-modified: 20160111142447846
+modified: 20160130150706155
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.35
+version: 0.1.2
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/layout_adjustment

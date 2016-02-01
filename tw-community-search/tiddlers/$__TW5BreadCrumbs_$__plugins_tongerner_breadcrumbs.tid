@@ -1,14 +1,14 @@
 title: $:/TW5BreadCrumbs/$:/plugins/tongerner/breadcrumbs
 author: TonGerner
-core-version: 5.1.10
+core-version: 5.1.11
 created: 20150706124121509
 creator: TonGerner
 description: Breadcrumbs
 list: readme combination
-modified: 20160112203904005
+modified: 20160130150604104
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.32
+version: 0.1.2
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/breadcrumbs

@@ -1,12 +1,12 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/systemtags
 author: TonGerner
-core-version: 5.1.10
+core-version: 5.1.11
 created: 20160108222221161
 description: System tags
 list: readme
-modified: 20160120202906540
+modified: 20160130150931947
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.1
+version: 0.1.2
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/systemtags

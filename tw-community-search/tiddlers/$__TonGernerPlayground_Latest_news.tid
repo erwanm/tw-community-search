@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20160125192543839
+modified: 20160130211735168
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,9 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!!31 January 2016
+* Upgraded this wiki, all guides and all plugins to TW5.1.11
 
 !!!25 January 2016
 * Reworked 'TW5 bookmarklets'
