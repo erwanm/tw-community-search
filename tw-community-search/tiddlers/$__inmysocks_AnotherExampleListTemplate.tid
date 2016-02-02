@@ -1,9 +1,0 @@
-title: $:/inmysocks/AnotherExampleListTemplate
-created: 20150409054951116
-modified: 20150409054957164
-original-tags: Templates
-source-wiki-id: inmysocks
-source-tiddler-title-as-text: AnotherExampleListTemplate
-source-tiddler-title-as-link: AnotherExampleListTemplate
-
-<$view field='title'/> - <$view field='modified'/><br>

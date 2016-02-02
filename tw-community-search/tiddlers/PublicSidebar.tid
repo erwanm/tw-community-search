@@ -5,10 +5,6 @@ author: Mat
 title: PublicSidebar
 type: text/vnd.tiddlywiki
 wiki-address: http://publicsidebar.tiddlyspot.com/
-wiki-tw-version: 5.1.9
-wiki-latest-modification: 20150822031501381
-wiki-nb-tiddlers: 5
 
-@@margin-left:50px; ~ sidebars for mortals ~@@
 
 {{||$:/CommunityWikiPresentationTemplate}}

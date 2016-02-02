@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/spangenhelm/enhancedsearch'
-name: unknown
-plugin_tiddler: $:/plugins/spangenhelm/enhancedsearch
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

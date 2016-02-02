@@ -5,10 +5,6 @@ author: DanieloRodriguez
 title: Context Plugin
 type: text/vnd.tiddlywiki
 wiki-address: http://contextplugin.tiddlyspot.com/
-wiki-tw-version: 5.1.5
-wiki-latest-modification: 20150118200639544
-wiki-nb-tiddlers: 2
 
-search with context
 
 {{||$:/CommunityWikiPresentationTemplate}}

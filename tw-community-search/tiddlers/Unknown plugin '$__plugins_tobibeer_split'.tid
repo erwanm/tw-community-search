@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tobibeer/split'
-name: unknown
-plugin_tiddler: $:/plugins/tobibeer/split
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

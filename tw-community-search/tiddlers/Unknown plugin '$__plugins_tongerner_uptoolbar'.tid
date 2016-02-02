@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tongerner/uptoolbar'
-name: unknown
-plugin_tiddler: $:/plugins/tongerner/uptoolbar
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

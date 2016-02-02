@@ -5,10 +5,6 @@ author: Andrew
 title: TiddlyTime
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlytime.tiddlyspot.com/
-wiki-tw-version: 5.1.10
-wiki-latest-modification: 20151017151854659
-wiki-nb-tiddlers: 1
 
-for current time and transcluding it where needed
 
 {{||$:/CommunityWikiPresentationTemplate}}
