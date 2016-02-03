@@ -1,0 +1,142 @@
+title: $:/LinuxNote/Apparence et comportement de l'espace de travail
+created: 20141216135946969
+modified: 20150913140220444
+original-tags: [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Apparence et comportement de l'espace de travail
+source-tiddler-title-as-link: Apparence%20et%20comportement%20de%20l%27espace%20de%20travail
+
+!Effets de bureau
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Configurer les effets de bureau tels que les animations des fenêtres, la transparence...''
+
+Kwin est le gestionnaire de fenêtre de KDE. Une fois les effets du bureau activés, Kwin offre beaucoup de façons
+d'interagir avec les fenêtres.
+
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
+" target="_blank">[img width="350" [Configuration générale|https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
+&download]]</a>
+@@
+
+!!Configuration générale
+Les effets de base de Kwin se configure ici (animations...).
+Suivant la configuration on peut activer ou désactiver les effets de bureau de manière générale.
+
+>Effets de bureau → Cocher ou décocher //Activer les effets de bureau au démarrage//
+<br><br><br>
+
+!!Configuration avancée des effets de bureau (Tous les effets)
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
+" target="_blank">[img width="350" [Tous les effets|https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
+&download]]</a>
+@@
+
+<br>
+L'ensemble des effets de Kwin se configure ici, on peut gérer par exemple la transparence des fenêtre, leur comportement et différents effets. Les effets de base se règles automatiquement en fonction des capacités.
+
+Certains effets sont assez gourmands en ressources, on peut les désactiver ou régler l'effet de manière individuelle (en cliquant sur l'icône clé) :
+
+*Redimensionner la fenêtre
+*Flou : gère l'effet de flou de l'arrière plan des fenêtres transparentes, c'est l'effet le plus gourmand en ressources.<br>
+*Translucidité : gère la transparence des fenêtres, des décorations et des menus (la transparence du tableau de bord dépend du Thème de bureau utilisé).
+
+>Pour avoir le bord des fenêtres ou les fenêtres en arrière plan transparentes<br> Configuration (icône clé) → Décoration
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Pour la transparence "complète" des fenêtres, il faut changer de thème de bureau (//oxygen-transparent// par exemple) avec l'effet flou.
+@@
+
+@@.ast
+<i class="fa fa-lightbulb-o fa-3x pull-left"></i> __Retirer les animations non désirées__ (si il y a vraiment des ralentissement de l'affichage):<br>
+Le style par défaut Oxygen est livré avec de nombreuses animations qui peuvent être désactivées.
+Appuyez sur "Alt F2" et tapez oxygen-settings. Dans les onglets Style et Décorations → Animations et décocher //Activer les animations// ou juste les non désirables.
+@@
+
+!Apparence de l'espace de travail
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Configurer l'apparence des fenêtres, des curseurs et du bureau.''
+
+!!Décoration de la fenêtre
+!!!Configurer la décoration
+Permet de modifier la décoration (le contour) de la fenêtre.
+
+''Oxygen'' est la décoration par défaut, mais on peut installer de nouvelles décorations (ex : Elementary Luna, ~FormaN) et aussi utiliser le système de thèmes ''Aurorae'' beaucoup plus configurable et proposant une grande variété de thèmes.
+
+Directement depuis le gestionnaire de décoration ou le
+télécharger sur [[kde-look|http://kde-look.org/]] et l'installer avec.
+
+<i class="fa fa-folder-open"></i> Les thèmes Aurorae sont stockés dans les dossiers :  `~/.kde4/share/apps/aurorae/themes`
+
+@@.ast
+<i class="fa fa-lightbulb-o fa-3x pull-left"></i>__Fluidifier le déplacement des fenêtres__ (si il y a vraiment des problèmes d’affichage):<br> Configurer la décoration  → Décocher //Activer les animations//
+@@
+
+!!!Configurer les boutons
+Permet de modifier les boutons de la fenêtre.
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i>__Ajouter le bouton du menu déporté__:<br>
+Ajouter le bouton  → menu déporté (voir [[Apparence et comportement général]] section "Style")
+@@
+
+!!Thème de bureau
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
+" target="_blank">[img width="350" [Thème de bureau|https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
+&download]]</a>
+@@
+
+''Air'' est le thème par défaut. On peut installer de nouveaux thèmes de bureau ou "Plasma themes" (ex : Caledonia par défaut sur Chakra).
+
+Directement depuis le gestionnaire de thème ou le télécharger sur [[kde-look|http://kde-look.org/]] et l'installer avec.
+
+<i class="fa fa-folder-open"></i> Les thèmes de bureau sont stockés dans les dossiers<br>
+`~/.kde4/share/apps/desktoptheme`  et<br> `/usr/share/apps/desktoptheme`
+<br><br>
+
+!!Thème de curseur
+Permet de modifier le thème du curseur de la
+souris et donc sa couleur.
+
+<i class="fa fa-folder-open"></i> Les thèmes de curseur sont stockés dans le dossier `/usr/share/icons/`
+
+!!Écran de démarrage
+On peut installer de nouveaux écrans de
+démarrage ou "Splash screens" (ex : Glassified
+splash).
+
+Directement depuis le gestionnaire de thème ou le
+télécharger sur [[kde-look|http://kde-look.org/]] et l'installer avec.
+
+<i class="fa fa-folder-open"></i> Les écrans de démarrage sont stockés dans le dossier `/usr/share/apps/ksplash/themes`
+
+!Comportement de l'espace de travail
+
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Régler le comportement de l'espace de travail en général et des bureaux virtuels.''
+
+!!Configurer les bureaux virtuels
+
+>Bureaux virtuels → Choisir le nombre et le comportement des bureaux virtuels (Changement de bureau).
+
+Pour les afficher, il faut utiliser le plasmoid //gestionnaire de bureau// (voir [[Les composants graphiques]]).
+
+!!Gérer les actions des bords de l'écran
+
+>Bords de l'écran → Choisir les actions des bords d'écran (afficher le bureau ou les bureaux virtuels, la présentation des fenêtres...).
+
+!!Afficher des plasmoids indépendants du bureau
+
+>Pour activer le //Tableau de bord des composants graphiques// aussi appelé Dashboard :<br>
+Espace de travail → Tableau de bord : //afficher un jeu de composants graphiques indépendants//
+
+Une fois activé, on peut l'utiliser avec le plasmoid Dashboard (voir [[Les composants graphiques]]) ou en activant l'action du bord de l'écran.
+
+!Recherche sur bureau
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Régler le moteur de recherche de bureau.''
+
+!! Baloo
+Baloo est le nouveau service d'indexation de KDE (il remplace Nepomuk). Dans la pratique, Baloo permet de retrouver instantanément des fichiers ou leurs contenus, des photos, des contacts, des courriels et leur fichiers joints, des commentaires, tout ce qui comporte des tags (étiquettes ou métadonnées).
+
+@@.ast
+<i class="fa fa-lightbulb-o fa-3x pull-left"></i>__Pour désactiver Baloo:<br> __ Éditer le fichier `~/.kde4/share/config/baloofilerc` et mettre `false` pour l'entrée `Indexing-Enabled`.<br> Sous Chakra, il suffit simplement de décocher la case //Activer la recherche sur le bureau//
+@@

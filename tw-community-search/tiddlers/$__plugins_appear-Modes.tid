@@ -1,0 +1,40 @@
+title: $:/plugins/appear-Modes
+created: 20151216073014999
+creator: Tobias Beer
+modified: 20160106224029815
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: appear-Modes
+source-tiddler-title-as-link: appear-Modes
+
+Depending on your use of line-breaks, TiddlyWiki detects whether or not to render content in block or inline mode. As this may be contrary to how you want the output to behave, you can specifically instruct the appear widget to render in modes:
+
+; mode
+: use this attribute to specify whether the inner reveal is set to //block// or //inline// mode
+:: the inner reveal is given the css classes `appear appear-<mode>`
+:: any keyword other than //inline// or //block// will be interpreted as block mode
+
+Notice, however, that using inline mode will not necessarily display all contents inline. A heading will still be a heading and a paragraph a paragraph.
+
+!! Examples
+
+Here's what setting different modes will do to the same text:
+
+''block''
+
+<<` """before <$appear mode="block">text</$appear> after""">>
+
+''inline''
+
+<<` """before <$appear mode="inline">text</$appear> after""">>
+
+''custom''
+
+<<` """before <$appear mode="custom">text</$appear> after""">>
+
+''none'' — same as ''block''
+
+<<` """before <$appear $state="none">text</$appear> after""">>

@@ -1,0 +1,7 @@
+title: Tag: Example
+tags: CommunityTags
+community-tag: Example
+community-tag-count: 16
+community-wikis: [[t5a]] [[TiddlyViewer]]
+
+{{||$:/CommunityTagTemplate}}

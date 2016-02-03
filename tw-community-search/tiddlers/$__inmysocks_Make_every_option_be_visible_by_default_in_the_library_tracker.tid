@@ -1,0 +1,21 @@
+title: $:/inmysocks/Make every option be visible by default in the library tracker
+category: Plugin
+created_day: 05
+created_month: 05
+created_year: 2015
+description: otherwise a user has to manually set them to visible when they start
+due_day: 
+due_month: 
+due_year: 
+modified: 20150505232901365
+start_day: 
+start_month: 
+start_year: 
+subcategory: Library Tracker
+subsubcategory: Bugs
+original-tags: Bug [[Planned Update]] [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Make every option be visible by default in the library tracker
+source-tiddler-title-as-link: Make%20every%20option%20be%20visible%20by%20default%20in%20the%20library%20tracker
+
+This means that for a new user nothing will be visible and they will probably think that everything is broken.

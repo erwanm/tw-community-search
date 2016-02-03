@@ -1,0 +1,48 @@
+title: $:/plugins/dom-Examples
+created: 20151122174025109
+creator: Tobias Beer
+fibonacci: 1
+last: 1
+modified: 20160107112000601
+modifier: Tobias Beer
+revision: 0
+summary: examples for the domtext macro
+type: text/vnd.tiddlywiki
+original-tags: dom Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: dom-Examples
+source-tiddler-title-as-link: dom-Examples
+
+Let's create an element with a unique ''id'':
+
+; element
+: `<p id="foo" class="bar"><i>10</i></p>`
+:> <p id="foo" class="bar"><i>10</i></p>
+
+Using the ''domtext'' macro you can now retrieve the properties of that element:
+
+; textContent / innerText
+: `<<domtext foo>>`
+:> <<domtext foo>>
+
+; innerHTML as text
+: `<pre><$text text=<<domtext foo $innerHTML>>/></pre>`
+:> <pre><$text text=<<domtext foo $innerHTML>>/></pre>
+
+; class attribute
+: `<<domtext foo class>>`
+:> <<domtext foo class>>
+
+; calculated contents
+: retrieves the output computed via the eval widget of [[tobibeer/eval|eval]] for the next Fibonacci number contained in a hidden element, to store it in the field
+
+<$macrocall $name="`"
+text="""''current:'' {{!!fibonacci}}
+<p id="my-result" style="display:none;">
+<$eval>{{!!fibonacci}}+{{!!last}}</$eval>
+</p>
+
+<$button>next fibonacci number
+<$action-setfield $field="last" $value={{!!fibonacci}}/>
+<$action-setfield $field="fibonacci" $value=<<domtext my-result>>/>
+</$button>"""/>

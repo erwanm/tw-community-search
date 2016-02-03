@@ -1,0 +1,18 @@
+title: $:/node/GitHub Project Documentation With TiddlyWiki
+caption: github project documentation
+created: 20130825150100000
+modified: 20151014140348694
+summary: use [[tiddlywiki]] to maintain the documentation for your [[github]] project based on a [[wiki]] containing separate tiddler [[files]] under full source code control
+original-tags: workflows
+source-wiki-id: node
+source-tiddler-title-as-text: GitHub Project Documentation With TiddlyWiki
+source-tiddler-title-as-link: GitHub%20Project%20Documentation%20With%20TiddlyWiki
+
+You have a number of options to leverage [[tiddlywiki]] for your project documentation...
+
+* easily produce a [[readme.md]] for inclusion in your project
+* public access via [[github pages|github]] you can...
+** generate a [[standalone]] [[wiki]] for project documentation
+** generate [[static]] [[html]] files
+
+All of the above methods are used by [[tiddlywiki]] the project itself.

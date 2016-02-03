@@ -1,0 +1,13 @@
+title: $:/tiddlywiki.com/$:/plugins/tiddlywiki/railroad
+author: AstridElocson
+dependents: 
+description: Railroad diagram generator
+list: readme usage syntax example
+version: 5.1.11
+original-tags: 
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/railroad
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2frailroad
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

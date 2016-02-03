@@ -1,0 +1,18 @@
+title: $:/LibreNote/AnciensPosts
+created: 20150613114448832
+creator: svink
+modified: 20151023133252144
+modifier: svink
+original-tags: transparent
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: AnciensPosts
+source-tiddler-title-as-link: AnciensPosts
+
+!!!<i class="fa fa-archive"></i> Archives
+---
+
+<div style="text-align:left; font-size:0.9em;">
+<$list filter='[tag[Blog]!nsort[created]rest[2]]'>
+''<$view field="created" format="date" template="DDth MMM YYYY"/>'' - <$link>{{!!title}}</$link>
+<dt>{{!!resume}}</dt>
+<br>

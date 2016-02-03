@@ -1,0 +1,15 @@
+title: $:/rboue plugins/$:/plugins/rboue/SocialCalc
+author: rboue
+core-version: >=5.1.1
+dependents: 
+description: SocialCalc
+list: readme license
+revision: 0
+version: 1.0.0
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: $:/plugins/rboue/SocialCalc
+source-tiddler-title-as-link: %24%3a%2fplugins%2frboue%2fSocialCalc
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

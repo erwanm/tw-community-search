@@ -1,0 +1,15 @@
+title: $:/LinuxNote/Réseau et connectivité
+created: 20141217143718510
+modified: 20150117131948614
+original-tags: [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Réseau et connectivité
+source-tiddler-title-as-link: Réseau%20et%20connectivité
+
+!Parefeu
+Beaucoup de distributions sont fournies avec ufw (Uncomplicated Firewall) pour pare-feu.<br>
+Si ce dernier n'est accompagné d'aucune interface graphique, on peut installer le paquet ``kcm-ufw`` (module du centre de configuration). A adapter en fonction du parefeu installé avec la distribution.
+
+@@.info
+<i class="fa fa-info-circle fa-2x pull-left"></i> Les paquets `kcm-*` (KConfig Module) sont des modules du centre de configuration de KDE.
+@@

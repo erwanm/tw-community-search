@@ -1,0 +1,17 @@
+title: $:/tb5/tagfilter
+created: 20150120101610475
+creator: Tobias Beer
+follow: yes
+modified: 20150120101954083
+modifier: Tobias Beer
+revision: 0
+summary: @@color:red;experimental / under development@@ — allows to dynamically filter lists by tags of listed tiddlers
+url: http://tagfilter.tiddlyspot.com
+original-tags: [[Tobias Beer]] Solutions Tags Filters
+source-wiki-id: tb5
+source-tiddler-title-as-text: tagfilter
+source-tiddler-title-as-link: tagfilter
+
+; basic idea based on
+: http://tagfiltr.tiddlyspace.com
+: http://tagsplorermacro.tiddlyspace.com

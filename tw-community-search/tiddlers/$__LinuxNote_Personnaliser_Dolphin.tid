@@ -1,0 +1,49 @@
+title: $:/LinuxNote/Personnaliser Dolphin
+created: 20141206190201722
+modified: 20150913134113218
+original-tags: [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Personnaliser Dolphin
+source-tiddler-title-as-link: Personnaliser%20Dolphin
+
+@@.flotte
+<a href="https://cloud.openmailbox.org/public.php?service=files&t=aSPtT4441hRH4Jz
+" target="_blank">[img align="right" width="300" [Dolphin|https://cloud.openmailbox.org/public.php?service=files&t=aSPtT4441hRH4Jz
+&download]]</a>
+@@
+
+<br><br><br>
+Dolphin est le gestionnaire de fichier de KDE.
+
+Il dispose de différents modes d'affichage, de panneaux modifiables et permet l'accès à direct à différentes ressources.
+<br><br><br><br><br>
+
+La barre d’emplacement, qui se trouve en haut de la vue de Dolphin, affiche l’emplacement du dossier actuel. Elle comporte deux modes (fil d'Ariane par défaut et modifiable).
+
+<<<
+__Configurer la barre d'outils__ (1): on peut personnaliser les icônes et changer sa position<br> Contrôle → Configurer les barres d'outils → enlever/ajouter des boutons<br>
+Clic droit → Déverrouiller la positions de la barre d'outils pour la déplacer.<br> 
+
+__Personnaliser les panneaux__ (2): on peut avoir différents panneaux et modifier leur place<br>
+Contrôle → panneau: pour ajouter ou enlever des panneaux (information, dossiers, emplacements...)<br>
+Clic droit → Déverrouiller les panneaux pour les déplacer ou les supprimer.
+<<<
+
+Afficher les emplacements "Consulté récemment" et "chercher" dans Dolphin (2) : il faut que l'outil d'indexation de fichiers Baloo soit activé dans [[La configuration du système]] (voir section "Recherche sur le bureau").
+
+Personnaliser les icônes des dossiers (Documents, Images...) : clic droit sur le dossier, propriété<br>
+Les nouveaux icônes sont installés dans le dossier `usr/share/icons`
+
+Prévisualiser le contenu des fichiers (que ce soit au format PDF, JPG...):<br>
+Contrôle → Configurer Dolphin → Général → Aperçu → tout cocher<br>
+Pour les fichiers AVI, il faut installer le paquet `kfmpegthumbnailer`.<br><br>
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> __Les services menu__<br>
+Un service menu est une action disponible à partir du clic droit sur un fichier / répertoire dans Dolphin comme //Root action// (qui permet d'ouvrir un fichier en mode administrateur), //Simple mount Iso// (qui permet de monter une image ISO) et bien d'autres. Il s'agit d'un simple fichier avec l'extension .desktop localisé dans les dossiers : `~/.kde/share/kde4/services/~ServiceMenus` et `/usr/share/kde4/services/~ServiceMenus`
+@@
+
+<<<
+On peut installer de nouveaux services directement depuis Dolphin :<br>
+Contrôle → Configurer Dolphin → Services → Télécharger de nouveaux services
+<<<

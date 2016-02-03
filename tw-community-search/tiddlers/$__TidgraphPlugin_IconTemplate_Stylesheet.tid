@@ -1,0 +1,18 @@
+title: $:/TidgraphPlugin/IconTemplate Stylesheet
+created: 20151118163502260
+modified: 20151118163705138
+type: text/css
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: IconTemplate Stylesheet
+source-tiddler-title-as-link: IconTemplate%20Stylesheet
+
+.icon-node {
+   display:table;
+   margin:0 auto;
+} 
+
+.icon-node > a {
+   display: table-cell;
+   vertical-align: middle;
+} 

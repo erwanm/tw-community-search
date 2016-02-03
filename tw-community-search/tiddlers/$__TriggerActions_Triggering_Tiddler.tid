@@ -1,0 +1,15 @@
+title: $:/TriggerActions/Triggering Tiddler
+created: 20150220045741810
+listen_target: true
+modified: 20150222063728817
+selected: First option
+original-tags: 
+source-wiki-id: TriggerActions
+source-tiddler-title-as-text: Triggering Tiddler
+source-tiddler-title-as-link: Triggering%20Tiddler
+
+<$select field=&#39;selected&#39;>
+<option>First option</option>
+<option>Second option</option>
+<option>bob</option>
+</$select>

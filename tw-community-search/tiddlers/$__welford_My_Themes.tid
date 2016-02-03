@@ -1,0 +1,29 @@
+title: $:/welford/My Themes
+created: 20150423201940373
+modified: 20150423201948894
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: welford
+source-tiddler-title-as-text: My Themes
+source-tiddler-title-as-link: My%20Themes
+
+!!phasersonkill
+
+<<<
+this page uses the theme ~PhasersOnKill
+
+source : https://github.com/welford/phasersonkill
+
+Import into your tiddlywiki by dragging and dropping this link [[$:/themes/welford/phasersonkill]]
+
+<<<
+
+!!phasersonkill-static
+
+<<<
+
+Not used here but on my personal website: http://www.phasersonkill.com
+
+Source : https://github.com/welford/phasersonkill-static
+<<<

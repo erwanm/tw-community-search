@@ -1,0 +1,43 @@
+title: $:/LinuxNote/Hello world !
+color: #7f8c8d
+created: 20141024083211957
+icon: $:/core/images/home-button
+modified: 20160122135237340
+original-tags: Menu [[Mises à jour]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Hello world !
+source-tiddler-title-as-link: Hello%20world%20%21
+
+<br>
+<i class="fa fa-linux fa-5x pull-left"></i>
+Bienvenu sur [[LinuxNote|Hello world !]], mon wiki qui regroupe les guides et les notes que j'écris depuis plusieurs années sur Linux et les logiciels libres. Tout a commencé par de simples notes que je prenais pour me souvenir de mes configurations... puis ces notes se sont étoffées petit à petit et je me suis lancé dans l'écriture de guides pratiques.
+
+Après avoir découvert [[TiddlyWiki|http://tiddlywiki.com/]], j'ai décidé de regrouper mes notes sur Linux et les logiciels libres dans un wiki afin de maintenir une documentation à jour.
+
+//Bonne découverte !//
+<br><br>
+
+!!Rapide présentation
+
+J'utilise GNU/Linux depuis plusieurs années et j'ai toujours eu une préférence pour KDE. La qualité des applications, l'esthétique, la personnalisation... font que j'affectionne particulièrement cet environnement de bureau. J'ai donc cherché une distribution Linux vraiment centrée sur ce bureau et j'ai découvert Chakra qui répondait parfaitement à mes attentes en terme de philosophie, de développement et d'innovation.
+
+J'ai toujours apprécié l'esprit du logiciel libre (l'ouverture, le partage...) et la qualité des logiciels que j'utilise au quotidien. Vous trouverez [[mes applications favorites|Mes applications]] ainsi qu'une [[liste plus générale|Les applications]] orientée KDE / Qt. Pour compléter, j'ai aussi listé une sélection de [[services internet|Liste des services en ligne]] qui respects ces principes.
+<br><br>
+
+!!Table des matières
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'Menu'>>
+</div>
+<br>
+
+!!À propos
+
+{{A propos}}
+
+<br>
+
+-----
+@@.no-border
+|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence CC BY-SA 4.0</a>|
+@@

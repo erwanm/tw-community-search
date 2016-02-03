@@ -1,0 +1,30 @@
+title: $:/StickyNotes/AddNewNotes
+created: 20151108221705977
+modified: 20151204191624537
+original-tags: Template
+source-wiki-id: StickyNotes
+source-tiddler-title-as-text: AddNewNotes
+source-tiddler-title-as-link: AddNewNotes
+
+\define notesTiddler() $(currentTiddler)$: Notes
+\define notesTags() [[$(currentTiddler)$]] Notes
+
+<$button class="tc-btn-invisible"  popup=<<qualify "$:/temp/notesTiddler">> tooltip="Add notes"><$action-setfield $tiddler=<<notesTiddler>> tags=<<notesTags>>/>{{new_notes_icon.svg}}</$button>
+<$reveal state=<<qualify "$:/temp/notesTiddler">>  type="popup" text="" position="above" default="" class="tc-popup-keep tc-block-dropdown">
+<div class="container_notes">
+<div class="close_note">
+<$button class="tc-btn-invisible">
+<$action-deletetiddler $tiddler=<<qualify "$:/temp/notesTiddler">> />
+X</$button>
+</div>
+<div class="heading_note" >
+<$view tiddler=<<notesTiddler>> field="title" />
+</div>
+<div style="clear: both;" ></div>
+</div>
+<div class="container_notes">
+<div>
+<$edit-text class="notes" tiddler=<<notesTiddler>> default=""  tag="textarea" />
+</div>
+</div>
+</$reveal>

@@ -1,0 +1,25 @@
+title: $:/External Brain (inmysocks)/Dropbox is being mean
+created: 20150203221158869
+day: 21
+image: 
+image_caption: 
+link: 
+modified: 20150518212427994
+modifier: inmysocks
+month: April
+number_of_comments: 0
+posted: 14:14, 21st April 2015
+summary: I should set up a syncthing server.
+template: BlogDisplayTemplate1
+time: 20150421141443
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] Dissertation [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Dropbox is being mean
+source-tiddler-title-as-link: Dropbox%20is%20being%20mean
+
+I am very annoyed that the selective sync option on dropbox uses the local copy of existing files to give you the options for what to sync instead of using the index of all files on the server. I keep having to tell it to stop syncing each new folder as it downloads.
+
+In other news, I would feel much more comfortable if I wasn't expected to have slides to go along with my dissertation proposal.

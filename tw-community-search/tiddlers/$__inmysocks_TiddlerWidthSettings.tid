@@ -1,0 +1,17 @@
+title: $:/inmysocks/TiddlerWidthSettings
+caption: Tiddler Width Settings
+created: 20141207055904982
+modified: 20150303191900975
+subtitle: Tiddler Width Settings
+original-tags: [[Width Settings]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: TiddlerWidthSettings
+source-tiddler-title-as-link: TiddlerWidthSettings
+
+| Set Tiddler Width | What looks good |h
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='sixth'> 1500px</$radio>|  Looks good on a 24" monitor |
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='fifth'> 1200px</$radio>| |
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='fourth'> 1000px</$radio>| Looks good on a 17" monitor |
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='third'> 900px</$radio>| Looks good on a 10" tablet |
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='second'> 770px</$radio>| tiddlywiki.com default |
+|<$radio tiddler='$:/settings/apperance/TiddlerWidthSettings' field='width_option' value='first'> 700px</$radio>| |

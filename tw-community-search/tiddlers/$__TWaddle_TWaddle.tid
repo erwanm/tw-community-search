@@ -1,0 +1,31 @@
+title: $:/TWaddle/TWaddle
+created: 20150610205337704
+creator: Mat
+modified: 20150715205224886
+modifier: Mat
+recent: 15/07/11	
+original-tags: OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: TWaddle
+source-tiddler-title-as-link: TWaddle
+
+<style>
+/* CRED: http://robertnyman.com/css3/css-animations/css-animations-percentage.html */
+.animation-container {
+	height: 0px;
+	-webkit-animation: movearound 4s ease 1 normal;
+}
+
+@-webkit-keyframes movearound {
+	0%     { width: 200px; -webkit-transform: scale(0.5) rotate(15deg); }
+	30%   { width: 300px; -webkit-transform: scale(1.3) rotate(15deg); }
+	60%   { width: 100px; -webkit-transform: scale(0.3) rotate(15deg); }			
+	100% { width: 400px; -webkit-transform: scale(1) rotate(0deg); }
+}
+
+#outer { position: relative; }
+#inner { position: absolute; left: -120px; top: -75px; }
+</style>
+<div class="animation-container"><div id="outer"><div id="inner">
+   {{img/twaddle}}
+</div></div></div>

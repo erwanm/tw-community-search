@@ -1,0 +1,10 @@
+title: $:/MobileTW5/Customizing
+created: 20150515094438424
+modified: 20150515094623662
+original-tags: 
+source-wiki-id: MobileTW5
+source-tiddler-title-as-text: Customizing
+source-tiddler-title-as-link: Customizing
+
+!Selecting what to include on the menu
+To select which buttons you want on your mobile menu, just go to the [[$:/ControlPanel]] and under `apareance > toolbars` open ''Mobile Bar''

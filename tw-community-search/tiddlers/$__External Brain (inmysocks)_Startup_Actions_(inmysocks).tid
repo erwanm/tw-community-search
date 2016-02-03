@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/Startup Actions (inmysocks)
+caption: Startup Actions
+category: Example WIki
+created: 20150407173811777
+description: A plugin to add startup scripts to TiddlyWiki
+modified: 20150407181239119
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/StartupActions/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Startup Actions (inmysocks)
+source-tiddler-title-as-link: Startup%20Actions%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

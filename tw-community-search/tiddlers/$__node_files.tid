@@ -1,0 +1,11 @@
+title: $:/node/files
+created: 20130825150000000
+list: .tid .tiddler .meta .html .json
+modified: 20151014134943604
+summary: text file formats for storing tiddlers and tiddler meta-data
+original-tags: concepts
+source-wiki-id: node
+source-tiddler-title-as-text: files
+source-tiddler-title-as-link: files
+
+<<summaries field:"content-type">>

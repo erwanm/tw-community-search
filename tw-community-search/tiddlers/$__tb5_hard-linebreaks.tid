@@ -1,0 +1,31 @@
+title: $:/tb5/hard-linebreaks
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: hard-linebreaks
+source-tiddler-title-as-link: hard-linebreaks
+
+<dt>
+
+```
+"""
+force
+hard
+linebreaks
+like
+this...
+"""
+```
+</dt>
+
+
+<dd>
+
+"""
+force
+hard
+linebreaks
+like
+this...
+"""
+</dd>

@@ -1,0 +1,4 @@
+title: currentTiddler Variable
+new-tiddler: Tag: currentTiddler Variable
+
+{{||$:/ObsoleteCommunityTagTemplate}}

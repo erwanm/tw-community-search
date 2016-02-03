@@ -1,0 +1,54 @@
+title: $:/Interactive Fiction Engine (inmysocks)/CreateRoomTemplate
+created: 20141115045836901
+current_room_editing: RoomTemp
+modified: 20141129032822753
+room_name: 
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: CreateRoomTemplate
+source-tiddler-title-as-link: CreateRoomTemplate
+
+Fill in the room name and description, then check any exits to the room and set the exits destination. Then click the `Create Room` button.
+
+<!-- <$action-sendmessage $message='tm-new-tiddler' $param=RoomTemp tags='Room' title={{$:/tiddlernametemp!!nametemp}}/> -->
+Room Name: <$edit-text tiddler='$:/tiddlernametemp' field='nametemp' placeholder='Room Name'/>
+<$set name='RoomNameTemp' value={{$:/tiddlernametemp!!nametemp}}>
+<$button>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=down $value={{RoomTemp!!down}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=up $value={{RoomTemp!!up}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=north $value={{RoomTemp!!north}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=south $value={{RoomTemp!!south}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=east $value={{RoomTemp!!east}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=west $value={{RoomTemp!!west}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=down_button $value={{RoomTemp!!down_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=up_button $value={{RoomTemp!!up_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=north_button $value={{RoomTemp!!north_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=south_button $value={{RoomTemp!!south_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=east_button $value={{RoomTemp!!east_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=west_button $value={{RoomTemp!!west_button}}/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=tags $value='Room'/>
+<$action-setfield $tiddler=<<RoomNameTemp>> $field=text $value={{RoomTemp!!text}}/>
+<$action-setfield $tiddler=RoomTemp $field=down_button $value=''/>
+<$action-setfield $tiddler=RoomTemp $field=up_button $value=''/>
+<$action-setfield $tiddler=RoomTemp $field=north_button $value=''/>
+<$action-setfield $tiddler=RoomTemp $field=south_button $value=''/>
+<$action-setfield $tiddler=RoomTemp $field=east_button $value=''/>
+<$action-setfield $tiddler=RoomTemp $field=west_button $value=''/>
+<$action-setfield $tiddler='$:/tiddlernametemp' $field='nametemp' $value=''/>
+<$action-setfield $tiddler='$:/tiddlernametemp' $field='nametemp'/>
+<$action-setfield $tiddler=RoomTemp $field=text $value=''/>
+Create Room</$button>
+</$set>
+<br>
+
+<$set name='roomEditing' value={{!!current_room_editing}}>
+
+| Edit Room Text | Preview | Room Exits | Exit Destinations | Items in room |h
+| <div class='tc-tiddler-frame' style='width:300px; background-color:#ffffff; box-shadow:none; height:200px'><$edit-text tiddler={{!!current_room_editing}} size=100px minHeight=400px placeholder='Room Text'/></div> | <div class='tc-tiddler-frame' style='width:400px; background-color:#ffffff; box-shadow:none; height:200px'><$transclude tiddler={{!!current_room_editing}} field=text/></div> | <$checkbox tiddler={{!!current_room_editing}} field='north_button' checked='<<northButton>>' unchecked=''>North</$checkbox> | <$select tiddler={{!!current_room_editing}} field=north><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> | Items:<br><$list filter='[tag[Item]location<roomEditing>]'><$view field='title'/><br></$list><br>Containers:<br><$list filter='[tag[Container]location<roomEditing>]'><$view field='title'/><br></$list><br>Events:<br><$list filter='[tag[Event]location<roomEditing>]'><$view field='title'/><br></$list><br>Triggers:<br><$list filter='[tag[Trigger]location<roomEditing>]'><$view field='title'/><br></$list> |
+|^|^| <$checkbox tiddler={{!!current_room_editing}} field='south_button' checked='<<southButton>>' unchecked=''>South</$checkbox> | <$select tiddler={{!!current_room_editing}} field=south><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> |^|
+|^|^| <$checkbox tiddler={{!!current_room_editing}} field='east_button' checked='<<eastButton>>' unchecked=''>East</$checkbox> | <$select tiddler={{!!current_room_editing}} field=east><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> |^|
+|^|^| <$checkbox tiddler={{!!current_room_editing}} field='west_button' checked='<<westButton>>' unchecked=''>West</$checkbox> | <$select tiddler={{!!current_room_editing}} field=west><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> |^|
+|^|^| <$checkbox tiddler={{!!current_room_editing}} field='up_button' checked='<<upButton>>' unchecked=''>Up</$checkbox> | <$select tiddler={{!!current_room_editing}} field=up><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> |^|
+|^|^| <$checkbox tiddler={{!!current_room_editing}} field='down_button' checked='<<downButton>>' unchecked=''>Down</$checkbox> | <$select tiddler={{!!current_room_editing}} field=down><$list filter='[tag[Room]!tag[Template]]'><option><$view field='title'/></option></$list></$select> |^|
+
+</$set>

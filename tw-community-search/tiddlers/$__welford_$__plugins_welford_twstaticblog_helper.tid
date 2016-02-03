@@ -1,0 +1,15 @@
+title: $:/welford/$:/plugins/welford/twstaticblog/helper
+author: James.W.Anderson
+core-version: >=5.0.0
+dependents: 
+description: Files to help customize a blog before it is exported
+list: README
+revision: 0
+version: 5.1.10-prerelease
+original-tags: 
+source-wiki-id: welford
+source-tiddler-title-as-text: $:/plugins/welford/twstaticblog/helper
+source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwstaticblog%2fhelper
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

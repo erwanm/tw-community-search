@@ -1,0 +1,18 @@
+title: $:/tb5/Listing Tiddlers By Category
+created: 20150113130428821
+creator: Tobias Beer
+modified: 20150114230957163
+modifier: Tobias Beer
+revision: 0
+summary: {{xlist!!summary}}
+type: text/vnd.tiddlywiki
+original-tags: Solutions Lists Macros
+source-wiki-id: tb5
+source-tiddler-title-as-text: Listing Tiddlers By Category
+source-tiddler-title-as-link: Listing%20Tiddlers%20By%20Category
+
+@@color:#f6f;
+''Note:'' There is a whole lot more on http://xlist.tiddlyspot.com.
+@@
+
+{{xlist}}

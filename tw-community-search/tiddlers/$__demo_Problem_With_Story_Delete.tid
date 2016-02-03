@@ -1,0 +1,19 @@
+title: $:/demo/Problem With Story Delete
+created: 20141208125839947
+creator: Tobias Beer
+modified: 20141208223832810
+modifier: Tobias Beer
+original-tags: Demo History Snapshots Messages Fixed
+source-wiki-id: demo
+source-tiddler-title-as-text: Problem With Story Delete
+source-tiddler-title-as-link: Problem%20With%20Story%20Delete
+
+<<<
+@@color:red; The problem is solved. What was needed was to use `$param` instead of `param` in `$action-sendmessage`.@@
+<<<
+
+To cater for [[Alex|https://groups.google.com/forum/#!topic/tiddlywiki/jELpE-9d4s4]], I allowed to add a note to a story (sidebar).
+
+Deleting a story, I also want to delete the note. However the `$action-sendmessage` in `deleteSnapshot()` throws an errror...
+
+<<source $:/.tb/ui/MoreSideBar/Stories>>

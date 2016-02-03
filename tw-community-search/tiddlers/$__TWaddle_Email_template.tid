@@ -1,0 +1,21 @@
+title: $:/TWaddle/Email template
+created: 20150413213255116
+creator: Mat
+modified: 20150715203251144
+modifier: Mat
+recent: 15/04/13	
+summary: email template based on [[this|https://www.youtube.com/watch?v=uLZjii7Eblw]] guide
+original-tags: [[TW for email messages!]]
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Email template
+source-tiddler-title-as-link: Email%20template
+
+<html><head><title>Email</title></head>
+<body>
+<table style="max-width: 600px" width="100%" >
+<tr><td><img src="" width="100%"></td></tr>
+<tr><td style="font-family: Arial;">{{Lorem}}</td></tr>
+<tr><td><a href="http://www.tiddlywiki.com"><img src="" width="100%"></a></td></tr>
+</table>
+</body>
+</html>

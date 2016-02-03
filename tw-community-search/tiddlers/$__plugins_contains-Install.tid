@@ -1,0 +1,20 @@
+title: $:/plugins/contains-Install
+revision: 0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: contains-Install
+source-tiddler-title-as-link: contains-Install
+
+<<plugin-install contains>>
+
+!! Version History
+
+; 0.5.0 / 2015-11-25
+: initial release
+
+!! Core Proposal
+
+The following issue proposes the `contains[]` filter to the core:
+
+''#1216 filter operator for "list contains an item or any / all items of another list"''
+https://github.com/Jermolene/TiddlyWiki5/issues/1216

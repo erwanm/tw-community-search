@@ -1,0 +1,16 @@
+title: $:/t5a/$:/plugins/danielo515/autotag
+author: Danielo Rodriguez
+core-version: >=5.1.0
+dependents: 
+description: double click to edit tiddlers
+list: readme
+revision: 0
+source: https://github.com/danielo515/TW5-AutoTag
+version: 0.1.9
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/danielo515/autotag
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2fautotag
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,48 @@
+title: $:/node/tiddlywiki.info
+created: 20151013061507656
+is: required
+modified: 20151014121426846
+summary: a [[json]] ''file'' defining metadata for a [[wiki]] / [[edition|editions]] that [[tiddlywiki]] for [[node.js]] requires to run any available [[commands]]
+original-tags: wiki
+source-wiki-id: node
+source-tiddler-title-as-text: tiddlywiki.info
+source-tiddler-title-as-link: tiddlywiki.info
+
+The [[tiddlywiki.info]] file in a wiki folder defines a JSON object with following fields:
+
+; plugins
+: an array of plugin names to be included in the wiki
+; themes
+: an array of theme names to be included in the wiki
+; languages
+: an array of language names to be included in the wiki
+; includeWikis
+: an array of references to external wiki folders to be included in the wiki
+; build
+: a hashmap of named targets, each defined as an array of commands, see [[--build]]
+; config
+: an optional hashmap of configuration options (see below)
+
+
+!!! ''includeWikis''
+
+The entries in the ''includeWikis'' array can be either a string specifying the relative path to the wiki, or an object with the following fields:
+
+* ''path'' - relative path to wiki folder
+* ''read-only'' - set //true// to prevent the tiddlers in the included wiki from being modified. The modifications will be written to the directory specified in ''default-tiddler-location'', described below
+
+!!! ''build''
+
+Note that the build targets of included wikis are merged if a target of that name isn't defined in the current `tiddlywiki.info` file.
+
+!!! ''config''
+
+Configuration options include:
+
+* ''default-tiddler-location'' - a string path to the default location for the filesystem adaptor to save new tiddlers (resolved relative to the wiki folder)
+
+* ''retain-original-tiddler-path'' - If true, the server will generate a tiddler [[$:/config/OriginalTiddlerPaths]] containing the original file paths of each tiddler in the wiki
+
+!!! Example
+
+<$codeblock language="javascript" code={{$:/.node/examples/tiddlywiki.info}}/>

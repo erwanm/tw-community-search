@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/bj/small/mdplusdemo'
+name: unknown
+plugin_tiddler: $:/plugins/bj/small/mdplusdemo
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

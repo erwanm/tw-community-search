@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/felixhayashi/topstoryview'
+name: unknown
+plugin_tiddler: $:/plugins/felixhayashi/topstoryview
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

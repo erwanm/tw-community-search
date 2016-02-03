@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/CommentModerationTemplate
+created: 20150518220459783
+creator: inmysocks
+modified: 20150518220831381
+modifier: inmysocks
+original-tags: Templates
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: CommentModerationTemplate
+source-tiddler-title-as-link: CommentModerationTemplate
+
+<$fieldmangler tiddler=<<currentTiddler>>>
+<li><$view field='author'/> - <$view field='text'/> - <$button>Accept<$action-sendmessage $message='tm-add-tag' $param='Checked'/><$action-sendmessage $message='tm-add-tag' $param='Accepted'/></$button> <$button>Reject<$action-sendmessage $message='tm-add-tag' $param='Checked'/><$action-sendmessage $message='tm-add-tag' $param='Rejected'/></$button></li>
+</$fieldmangler>

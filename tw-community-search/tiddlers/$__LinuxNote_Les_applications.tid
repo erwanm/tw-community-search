@@ -1,0 +1,145 @@
+title: $:/LinuxNote/Les applications
+created: 20150105154616619
+description: La compilation de logiciels KDE
+modified: 20150712145707947
+original-tags: [[Guide KDE 4]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Les applications
+source-tiddler-title-as-link: Les%20applications
+
+La compilation de logiciels KDE (KDE SC) comprend uniquement les applications choisies par l'équipe de développement, complétée par des applications KDE additionnelles. Les [[applications de KDE SC|https://www.kde.org/applications/]] sont classées par groupes que l'on retrouve dans le lanceur d'applications sous des catégories : Bureautique, Internet, Système...
+
+Les principaux groupes de KDE SC :
+
+*''kde-baseapps'': contient les paquets de base nécessaires à KDE
+*''kdeaccessibility'': programmes liés à l'accessibilité
+*''kdeadmin'': outils d'administration
+*''kdeartwork'': composants artistiques : écran de veille, icônes...
+*''kdeedu'': applications éducatives
+*''kdegames'': jeux
+*''kdegraphics'': outils de graphisme
+*''kdemultimedia'': applications multimédia
+*''kdenetwork'': applications réseau
+*''kdepim'': gestion des informations personnelles
+*''kdesdk'': développement logiciel
+*''kdeutils'': utilitaires graphiques
+
+On peut donc installer des groupes d'applications (méta-paquets) comme `kde-meta-kdenetwork` qui regroupe kget, kopete...(uniquement sur certaines distributions) ou des applications de manière indépendante (paquets) comme `kdenetwork-kget`, `kdeadmin-kuser`...<br>
+On peut bien sûr aussi installer des applications non développées par KDE.
+
+Cette liste est une sélection d'applications, on y retrouve principalement des applications KDE, mais aussi des //applications Qt//, donc bien intégrées et les //applications GTK// les plus populaires.<br><br>
+
+|>|!Bureautique |
+|Calligra Suite :<br> Words, Sheets, Stage, Kexi, Flow, Plan, Braindump<br><br> //~LibreOffice//:<br> Writer, Calc, Impress, Draw, Base, Math<br><br><br> //~GnomeOffice//:<br> Abiword et Gnumeric |Suite bureautique de KDE<br> Traitement de texte Tableur, Présentation, Base de données, Diagrammes et organigrammes, Gestion de projets, Prise de notes<br><br> Suite bureautique dérivée de ~OpenOffice (GTK)<br> Texte, Classeur, Présentation, Dessin, Base de données, Formule<br> //(Installer le paquet libreoffice-kde4 pour une meilleure intégration)//<br><br> Suite bureautique de Gnome (GTK)<br> Traitement de texte et Tableur légers |
+|//Calibre//<br> |Lecture et gestion de collections d'ebooks (pdf et Epub) |
+|Okular |Visionneuse de documents (lecteur PDF) |
+|//PDFsam// |Modification de PDF (Java) |
+|Kontact |Gestionnaire d'informations personnelles |
+|KAdressbook (Kontact) |Gestionnaire de contacts |
+|KOrganizer (Kontact) |Organiseur personnel |
+|~KTimeTracker |Suivi du temps |
+|>|<br> |
+|>|!Développement |
+|KDevelop |Environnement de développement intégré pour KDE |
+|//Qt Creator// |IDE dédié à Qt avec outil de création d'interfaces graphiques intégré |
+|>|<br> |
+|>|!Éducation / Science |
+|Marble |Globe terrestre |
+|//QGIS// |Système d'Information Géographique (GRASS inclus) |
+|>|<br> |
+|>|!Graphisme |
+|>|''//Photographie//'' |
+|Digikam<br> ~KPhotoAlbum<br> |Programme de gestion de photos<br> Visualisation et organisation de photos |
+|~ShowPhoto |Afficheur et éditeur de photos |
+|//Darktable// |Développement de fichiers RAW |
+|KIPI (KDE Image Plugin Interface)<br> Convertisseur d'images DNG, Fusion d'exposition, Panorama...<br> |Plugins pour la photo<br> Plugins partagés avec Digikam, ~KPhotoAlbum, Gwenview et par différentes applications graphiques |
+|>|<br> |
+|Krita (Calligra)<br> //GIMP//<br> |Peinture numérique et modification d'images<br> Éditeur d'images (GTK) |
+|Acquisition d'images (KIPI)<br> Skanlite<br> |Acquisition d'images (outil pour scanner)<br> Application de numérisation |
+|Gwenview |Visionneuse d'images |
+|KSnapshot |Programme de capture d'écran |
+|~KolourPaint<br> //~LibreOffice Draw//<br> |Programme de dessin<br> Dessin (GTK) |
+|//Converseen// |Convertir et redimmensionner des images par lot |
+|Karbon (Calligra)<br> //Inkscape//<br> |Graphiques vectoriels<br> Éditeur d'images vectorielles (GTK) |
+|//Scribus// |Publication assistée par ordinateur (PAO) |
+|>|<br> |
+|>|!Internet |
+|>|''//Accès à distance//'' |
+|~KNetAttach |Assistant de dossier réseau |
+|KRDC / Krfb |Connexion à un bureau distant / Partage de bureau |
+|KFTPgrabber<br> //~FileZilla//<br> |Client FTP<br> Client FTP (GTK) |
+|>|''//Chat//'' |
+|Bloglio / Choqok |Client de blog / Client de micro-blogging |
+|Konversation / Quassel IRC |Client IRC |
+|Kopete / Telepathy |Messagerie instantanée |
+|>|''//Navigateur Web//'' |
+|Rekonq<br> Konqueror<br> //Qupzilla//<br> //Firefox// et //~IceCat//<br> //Chromium//<br> |Navigateur Web basé sur Webkit<br> Navigateur Web et gestionnaire de fichiers<br> Navigateur Web léger basé sur Webkit<br> Navigateur Web et sa version GNU (GTK)<br> Version libre de Chrome (GTK) |
+|>|<br> |
+|KMail (Kontact)<br> //Thunderbird//<br> |Logiciel de courriel<br> Logiciel de courriel (GTK) |
+|Akregator (Kontact)<br> //~QuiteRSS// |Lecteur de flux RSS et Atom<br><br> |
+|KNode |Lecteur de forums de discussion |
+|KGet |Gestionnaire de téléchargements (fonctionne aussi avec Rekonq) |
+|KTorrent<br> //Qbittorrent//<br> |~ClientBitTorrent<br> ~ClientBitTorrent (avec moteur de recherche) |
+|//ownCloud Client// |Client ownCloud |
+|>|<br> |
+|>|!Jeux |
+|//~PokerTH// |Jeux de poker en ligne |
+|//Steam//<br> //Desura// |Plate-forme de distribution de jeux vidéos (payant et gratuit)<br><br> |
+|>|<br> |
+|>|!Multimédia |
+|>|''//Lecteur audio//'' |
+|Juk<br> Amarok<br> //Clementine//<br> |Lecteur audio simple<br> Lecteur audio puissant<br> Lecteur audio (fork d'Amarok 1.4) |
+|>|''//Lecteur vidéo et multimédia//'' |
+|Dragon Player<br> Bangarang<br> //VLC//<br> |Lecteur vidéo simple<br> Lecteur multimédia (gestion de collections vidéos, musique...)<br> Lecteur multimédia |
+|>|''//Centre multimédia//'' |
+|Plasma Media Center<br> //Kodi (ex XBMC)// |Centre multimédia<br><br> |
+|>|<br> |
+|//Minitube// |Client ~YouTube (lecteur externe sans Flash) |
+|K3b |Gravure de disque (permet d'extraire les pistes d'un CD/DVD) |
+|Kid3 |Éditeur de balises (tags ID3) |
+|Kmix |Console de mixage |
+|~KsCD |Lecteur de CD audio |
+|//soundKonverter// |Convertir des fichiers audio |
+|//~AcetoneISO// |Manipulation d'images CD/DVD (ISO et MDF) |
+|Kdenlive<br> //Avidemux// |Éditeur vidéo<br> Éditeur vidéo Qt et GTK |
+|>|<br> |
+|>|!Système |
+|Dolphin<br> Krusader |Gestionnaire de fichiers (et client FTP)<br> Gestionnaire de fichiers avancé (et client FTP) |
+|Gestionnaire de partitions KDE |Éditeur de partitions |
+|Gestionnaire d'impression |Gestionnaire d'impression CUPS |
+|~KInfoCenter |Centre d'information |
+|Konsole<br> Yakuake<br> XTerm<br> |Terminal<br> Terminal déroulant<br> Terminal standard (à garder) |
+|~KSysGuard |Surveillance du système |
+|~KSystemLog |Afficheur des journaux système |
+|KUser |Gestionnaire d'utilisateurs |
+|~KWalletManager |Outils de gestion de portefeuilles (mots de passe) |
+|~KDiskFree |Affiche l'utilisation de l'espace disque |
+|Kup / ~LuckyBackup<br> miniBackup<br><br> |Outils de sauvegarde de données<br> Sauvegarde de données personnelles (mails, contacts, configurations...) |
+|>|<br> |
+|>|!Utilitaires |
+|Ark |Outil d'archivage |
+|Kate |Éditeur de texte avancé |
+|KCalc |Calculatrice scientifique |
+|KNotes |Éditeur de petites notes |
+|Kjots (Kontact) |Prise de notes avancée |
+|Klipper |Presse-papier |
+|Sweeper |Nettoyeur du système |
+|KGpg |Outil de chiffrement |
+|KAlarm |Planificateur d'alarme personnel |
+|KTimer |Lanceur de compte à rebours |
+|>|<br> |
+|>|!Hors catégorie |
+|Aide |Centre d'aide de KDE |
+|Configuration du système | |
+|Recherche de fichiers / dossiers | |
+|>|<br> |
+|>|!Autres applications |
+|Skrooge |Comptabilité personnelle |
+|~FDesktopRecorder |Capture vidéo d'écran |
+|~LibreCAD |Conception assistée par ordinateur (CAO) |
+|Blender |Animation, modélisation et rendu 3D |
+|Audacity |Éditeur audio (GTK) |
+|Stellarium / Celestia |Planétarium virtuel / Simulation spatiale |
+|Wine<br> Q4Wine<br> Playonlinux |Exécuter certains programmes Win* sous Linux<br> Interface Qt pour Wine<br> Exécuter certains jeux Win* sous Linux |
+|Virtualbox<br> (propriétaire) |Virtualisation de systèmes d'exploitation<br> //Installer les packs d'extensions pour une meilleure prise en charge// |
+|Tor<br> Vidalia |Être anonyme sur internet<br> Interface graphique pour Tor |

@@ -1,0 +1,39 @@
+title: $:/dev/Audience
+created: 20150111112806298
+creator: Tobias Beer
+modified: 20150111113011568
+modifier: Tobias Beer
+summary: "If I were to try to promote it to people I know, I would start with my colleagues and not my Mum." — ''Neil Griffin''
+original-tags: Marketing
+source-wiki-id: dev
+source-tiddler-title-as-text: Audience
+source-tiddler-title-as-link: Audience
+
+; discussion
+: https://groups.google.com/d/msg/tiddlywiki/6Q6TrAOBnFI/_Iu5HeSn5BEJ
+
+''Neil Griffin''
+
+<<<
+I think the question of who is the target user is an important one.
+
+Most of the discussions I have seen on the forum and in the hangouts seem to be aiming for promoting TW to an audience with relatively low technical capability.
+
+I think this is a mistake both in terms of maximising the audience and maximising the impact of Tiddlywiki.
+
+I would suggest that the aim of marketing TW should be to maximise something like the following product:
+
+```
+size of audience trying TW (A) *
+probability of user sticking with TW (B) *
+benefit received or impact achieved by user (C)
+```
+
+Targetting a low-tech audience makes A very large, but B and C are likely to be very low.
+
+I think a better result would be achieved by targetting a smaller, but still substantial technically capable audience, for whom B and C are much larger.
+
+In an ideal world, you would target everyone, but with finite resources, it is better to go for the low hanging fruit.
+
+If I were to try to promote it to people I know, I would start with my colleagues and not my Mum.
+<<<

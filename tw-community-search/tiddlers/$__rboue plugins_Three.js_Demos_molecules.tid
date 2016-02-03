@@ -1,0 +1,15 @@
+title: $:/rboue plugins/Three.js/Demos/molecules
+created: 20141210180833024
+modified: 20141210212745276
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: Three.js/Demos/molecules
+source-tiddler-title-as-link: Three.js%2fDemos%2fmolecules
+
+[[three.js|http://threejs.org/]]
+@@float:right;
+[[View source|Three.js/Demos/molecules.js]]
+@@
+<$view3js tiddler="Three.js/Demos/molecules.js" height=500/>

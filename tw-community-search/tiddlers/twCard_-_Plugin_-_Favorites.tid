@@ -1,0 +1,26 @@
+audience: 
+category: Interface
+created: 20151015075959708
+date: 05-11-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andrew
+modified: 20151117123512536
+name: Favorites
+plugin_tiddler: $:/plugin/ajh/favorites
+release: 
+repository: 
+revision: 0.0.7
+short_description: An icon in the tiddler menu that lets you add tiddlers to a 'Favorites' list.
+title: twCard - Plugin - Favorites
+wiki: http://t5a.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: t5a
+twcs-extracted-plugin-tiddler: $:/t5a/$:/plugin/ajh/favorites
+twcs-description: Favorites
+twcs-author: 
+twcs-version: 3.0.1
+
+{{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/Google+ (inmysocks)
+caption: My Google+ Page
+created: 20150204224103037
+description: Not much else to say here.
+modified: 20150227032737489
+name_plate_type: Social
+url: https://plus.google.com/+JedCarty
+original-tags: [[<Name Plate>]] [[Jed Carty (inmysocks)]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Google+ (inmysocks)
+source-tiddler-title-as-link: Google%2b%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

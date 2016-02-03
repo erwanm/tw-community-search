@@ -1,0 +1,11 @@
+title: $:/inmysocks/Lists in WikiText - Other things to remember
+caption: Other things to remember
+created: 20150409050819448
+modified: 20150409050858399
+order: 7
+original-tags: [[Lists in WikiText]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Lists in WikiText - Other things to remember
+source-tiddler-title-as-link: Lists%20in%20WikiText%20-%20Other%20things%20to%20remember
+
+*You can set the `emptyMessage` attribute of a list widget. If the filter doesn't return anything for the list to display, than this message is displayed.

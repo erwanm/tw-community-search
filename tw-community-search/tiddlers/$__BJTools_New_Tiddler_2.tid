@@ -1,0 +1,18 @@
+title: $:/BJTools/New Tiddler 2
+created: 20141213183330005
+modified: 20150918080447516
+revision: 0
+type: text/vnd.tiddlywiki<basictype
+original-tags: 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: New Tiddler 2
+source-tiddler-title-as-link: New%20Tiddler%202
+
+<h1>MarkDown: [[Basics]]</h1><p>   
+a
+
+!j
+
+
+<<version>>
+{{ParagraphsMDs}}</p><h3>Phrase Emphasis</h3><p>Markdown uses asterisks and underscores to indicate spans of emphasis.</p><p>Markdown:</p><pre><code>Some of these words *are emphasized*.

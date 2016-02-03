@@ -1,0 +1,23 @@
+title: $:/TiddlyNote/TOC exemple simple
+caption: Simple
+created: 20150529083535578
+modified: 20150529180923535
+order: 1
+original-tags: toc
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: TOC exemple simple
+source-tiddler-title-as-link: TOC%20exemple%20simple
+
+```
+<div class="tc-table-of-contents">
+<<toc "Nom-du-tag">>
+</div>
+```
+
+>Produit un simple arbre hiérarchique de liens.
+
+<br>__Exemple__
+
+<div class="tc-table-of-contents">
+<<toc "toc exemple">>
+</div>

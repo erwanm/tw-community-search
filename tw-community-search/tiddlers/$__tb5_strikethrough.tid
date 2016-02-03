@@ -1,0 +1,14 @@
+title: $:/tb5/strikethrough
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: strikethrough
+source-tiddler-title-as-link: strikethrough
+
+<dt>
+
+```
+~~strikethrough~~
+```
+</dt>
+<dd>~~strikethrough~~</dd>

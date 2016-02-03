@@ -1,0 +1,23 @@
+title: $:/StartupActions/Startup Actions Script
+created: 20150224221839414
+creator: inmysocks
+modified: 20150224225317846
+modifier: inmysocks
+original-tags: $:/tags/StartupAction
+source-wiki-id: StartupActions
+source-tiddler-title-as-text: Startup Actions Script
+source-tiddler-title-as-link: Startup%20Actions%20Script
+
+\define thisYay() Yay!
+
+\define thisWoo() Woo!
+
+<$reveal type=&#39;nomatch&#39; state=&#39;$:/state/Startup Actions Script/modal&#39; text=&#39;inactive&#39;>
+<$action-sendmessage $message=&#39;tm-modal&#39; $param=<<ModalParam>>/>
+</$reveal>
+<$reveal type=&#39;match&#39; state=&#39;$:/SiteSubtitle&#39; text=<<thisYay>>>
+<$action-setfield $tiddler=&#39;$:/SiteSubtitle&#39; text=<<thisWoo>>/>
+</$reveal>
+<$reveal type=&#39;match&#39; state=&#39;$:/SiteSubtitle&#39; text=<<thisWoo>>>
+<$action-setfield $tiddler=&#39;$:/SiteSubtitle&#39; text=<<thisYay>>/>
+</$reveal>

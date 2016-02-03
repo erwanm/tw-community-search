@@ -1,0 +1,16 @@
+title: $:/TWaddle/List columns - Enable setting how many
+created: 20150413151049021
+creator: Mat
+modified: 20150715203253101
+modifier: Mat
+recent: 15/04/13	
+original-tags: Proposals Formatting Lists
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: List columns - Enable setting how many
+source-tiddler-title-as-link: List%20columns%20-%20Enable%20setting%20how%20many
+
+Lists are a biggie in TW. We need some way to set the number of columns the result should show in. Perhaps also some conditional "for every new n-tuple, begin new column"
+
+Maybe as paramter in the list command? Or as some kind of styling?
+
+Long lists look bad and are distracting.

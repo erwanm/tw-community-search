@@ -1,0 +1,16 @@
+title: $:/SideEditor/Issues
+created: 20150602065231698
+creator: Mat
+modified: 20160110121950622
+modifier: Mat
+original-tags: 
+source-wiki-id: SideEditor
+source-tiddler-title-as-text: Issues
+source-tiddler-title-as-link: Issues
+
+!!Issues
+
+* Cannot handle tiddlers with titles containing quotes ".."
+* It works bad to edit tiddlers tagged `$:/tags/Macro`, I'm guessing because they're "active" in the system so each change makes the ~SideEditor loose focus
+**Idea, disable macro tag when sideeditor active (...how?). Should probably also be alert informign that the macro is not running during sideediting.
+* Some tiddlers don't make the ~SideEditor expand to full height. I handle this by merely inserting an empty line at top. This pushes the whole content down, expanding ~SideEditor to full height. Then just delete the empty row.

@@ -1,0 +1,113 @@
+title: $:/ErwansLearningTW/Playing with filters
+created: 20141026134817074
+creator: Erwan
+modified: 20141027133852729
+modifier: Erwan
+original-tags: lists/filters
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Playing with filters
+source-tiddler-title-as-link: Playing%20with%20filters
+
+Following http://tiddlywiki.com/#Introduction%20to%20Filters.
+
+
+//Important update: the notation ``{{{ ... }}}`` is more convenient than the ``<$list filter="..."/>`` for printing a simple list of links.//
+
+
+!! Simple flat list
+
+```
+<$list filter="[[Playing with filters]] Menu"/>
+```
+
+
+!! filter by tag
+
+```
+<$list filter="[tag[node.js]]"/>
+```
+
+//Remark: here ``tag`` is the operator, ``css`` is the operand; the default filter operator is ``title``, as in the previous example.//
+
+!! negation
+
+```
+<$list filter="[tag[node.js]!tag[question]!is[system]]"/>
+```
+
+
+!! filter operators and suffixes
+
+example: the ``field`` operator takes as suffix the name of the field:
+
+```
+<$list filter="[tag[node.js]field:creator[Erwan]]"/>
+```
+
+//Remark: another shortcut is that if the filter operator ``foo[something]`` is unknown, then it is interpreted as ``field:foo[something]``//.
+
+!! Indirect operand 
+
+// Remark: don't confuse with varialbe operands//
+
+Curly branckets around the operand means that the operand is a text reference (see http://tiddlywiki.com/#TextReference). Example: select the tiddlers which have the same creator as the current tiddler:
+
+```
+<$list filter="[field:creator{!!creator}]"/>
+```
+
+!! Variable as operand
+
+//Don't confuse with indirect operand.//
+
+//(Copy from tw.com)// If a filter operator is written with angle brackets around the operand then it is taken to be the name of a variable containing the actual value. For example, this filter selects all tiddlers containing the title of the current tiddler:
+
+```
+<$list filter="[search<currentTiddler>]"/>
+```
+
+
+(Note that the currentTiddler variable is used to track the current tiddler).
+
+!! Disjunction
+
+separate the OR operands with a space:
+
+```
+<$list filter="[tag[css]] [field:creator[Erwan]]"/>
+```
+
+!! Conjunction
+
+concatenate the operands and keep only the outer brackets:
+
+```
+<$list filter="[!tag[css]field:creator[Erwan]]"/>
+```
+
+!! Complex conditions
+
+In a disjunction, the operands are processed sequentially, accumulating the tiddlers that they select. It is possible to add a condition which is applied to the result obtained so far. Example: tiddlers tagged either css or journaling, but retain only those which were created by Erwan an AND operation):
+
+```
+<$list filter="[tag[css]] [tag[filters]] +[field:creator[Erwan]]"/>
+```
+
+Now the same //removing// the tiddlers which were created by Erwan from the results:
+
+```
+<$list filter="[tag[css]] [tag[filters]] -[field:creator[Erwan]]"/>
+```
+
+//Note that in this case the same can be obtained with a negation in the third operand in the previous example.//
+
+//(I'm not sure whether that would work with any kind of complex conditions though?)//
+
+!! Applying something to the resulting list
+
+The ``+`` operator can also be used to apply a particular treatment to the resulting list. Example:
+
+```
+<$list filter="[tag[css]] [tag[filters]] +[sort[modified]]"/>
+```
+

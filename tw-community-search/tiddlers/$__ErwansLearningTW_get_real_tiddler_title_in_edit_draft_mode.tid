@@ -1,0 +1,22 @@
+title: $:/ErwansLearningTW/get real tiddler title in edit/draft mode
+created: 20141120225848737
+creator: Erwan
+modified: 20141120231427357
+modifier: Erwan
+original-tags: answered question
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: get real tiddler title in edit/draft mode
+source-tiddler-title-as-link: get%20real%20tiddler%20title%20in%20edit%2fdraft%20mode
+
+Normally the title of a tiddler //~MyTiddler// is changed to //Draft of '~MyTiddler'// when the tiddler is in edit mode.
+
+To obtain the title of the current tiddler, whether the tiddler is in view or in edit (draft) mode:
+
+```
+<$list filter=[all[current]get[draft.of]] emptyMessage={{!!title}}/>
+```
+
+<$list filter=[all[current]get[draft.of]] emptyMessage={{!!title}}/>
+
+
+using http://tiddlywiki.com/#FilterOperator%3A%20get

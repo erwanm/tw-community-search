@@ -1,0 +1,34 @@
+title: $:/GSD5/Project
+original-tags: GSD5TiddlerTypes
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Project
+source-tiddler-title-as-link: Project
+
+! Summary
+
+Projects group Actions that have a common purpose or goal.  
+
+! Detail
+
+!! Field Variables
+The following field variables are used by Projects.
+
+| !Field | !Values | !Note |
+|gsd_complete |false | |
+|~|true | |
+|gsd_contact |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_project |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_realm |all | |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_status |future | |
+|~|active | |
+
+!! UI Controls
+Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls can be added to the Blue-Box using the following system tags.
+
+* [[$:/tags/GSD5ProjectCore|GSD5ProjectCore]]
+* [[$:/tags/GSD5ProjectPlugin|GSD5ProjectPlugin]]
+
+! Best Practice
+
+//--none--//

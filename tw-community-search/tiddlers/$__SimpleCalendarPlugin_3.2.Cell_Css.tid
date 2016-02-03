@@ -1,0 +1,74 @@
+title: $:/SimpleCalendarPlugin/3.2.Cell Css
+created: 20151115193839046
+modified: 20151115203640594
+original-tags: [[3.Calendar Cells]]
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 3.2.Cell Css
+source-tiddler-title-as-link: 3.2.Cell%20Css
+
+Each cell has a basic css class : `.calendar-basic` (see [[calendar css|$:/plugins/frd/calendar/calendarCss]]).
+
+The macrocall `<<calendarCellCss ...>>` adds new css classes to this basic class. You can define your own calendarCellCss macro to override the default one.
+
+You can also extend the default function.
+
+Let's see how it works :
+
+The macro reads an array in the  [[config tiddler|calendarDocConfigTiddler]]. Each element of this array is itself an array with the following elements :
+
+*a name for a group of days, for instance "holidays", "restdays", ... . This name is also the name of a function that is called on the values for the cell of year, month, day and numDay, and the arguments (see below).
+*a name of a css class to be added to the list for the cell, if the test function returns `true`
+*the arguments according to the test function.
+
+For instance : 
+
+```
+[
+"restdays", "calendar-restdays", "0", "6"
+]
+```
+The test function "restdays" is called on the year, month, day and numDay for the cell and takes as 5th argument the array `["0", "6"]`. It tests whether numDay is "0" or "6". If this is the case, the css class `.calendar-restdays` is added for the cell.
+
+In the case of the calendars displayed above, this "rule" leads to the grey color for the Saturdays and Sundays.
+
+Another example :
+
+```
+[
+"holidays", "calendar-holidays1", "2015-10-05", "2015-09-26"
+]
+```
+The function "holidays" tests whether the current date for the cell is in the arguments list. In this case the css class `.calendar-holidays1` is added.
+
+<<<
+''Note that you can call the test function more than once.''
+<<<
+For instance if you want to define two types of holidays, you use two lines :
+
+```
+[
+"holidays", "calendar-holidays1", "2015-10-05", "2015-09-26"
+],
+[
+"holidays", "calendar-holidays2", "2015-12-25", "2015-10-29"
+],
+```
+
+and you can define two different css classes.
+
+<<<
+''For now there are 3 predefined test functions :''
+<<<
+
+*"restdays" to test a date according to numDay,
+*"holidays" to test a date against a list of dates,
+*"today" to test if the cell contains the current date.
+
+<<<
+The order in the enclosing array (the order of the lines) matters as the tests are performed (and the css classes added or not) in the same order.
+<<<
+So it's a bit more logical to define the restdays first, then the holidays, then today.
+
+<<<
+''The way to extend the calendarCellCss macro is to define other test functions and declare them with the associated css class and the arguments in the [[config tiddler|calendarDocConfigTiddler]]. See this [[config tiddler|calendarDocConfigTiddler]] for a detailed explanation.''
+<<<

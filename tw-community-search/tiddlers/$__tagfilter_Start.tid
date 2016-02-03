@@ -1,0 +1,29 @@
+title: $:/tagfilter/Start
+created: 20150119082918412
+modified: 20150119225629499
+original-tags: 
+source-wiki-id: tagfilter
+source-tiddler-title-as-text: Start
+source-tiddler-title-as-link: Start
+
+; tw version
+: <<version>>
+; macro
+: [[$:/.tb/macros/tagfilter]]
+; requires
+: `[all[current[]tags[]]tagging:all[]]`
+;demo
+:`<<tagfilter>>`<div>
+
+> <<tagfilter>>
+</div>
+; depends on
+: [[pull/1385|https://github.com/Jermolene/TiddlyWiki5/pull/1385]] — @@color:red;not yet part of the core!@@
+:extended tagging.js to get all tagged to the current list
+:: [[$:/core/modules/filters/tagging.js]]
+:: [[$:/core/modules/utils/utils.js]]
+: [[pull/1379|https://github.com/Jermolene/TiddlyWiki5/pull/1379]] — @@color:red;not yet part of the core!@@
+: fixes edit-mode tags and consolidates tag macro
+:: [[$:/core/macros/tag]]
+:: [[$:/core/ui/EditTemplate/tags]]
+:: [[$:/core/ui/TagTemplate]]

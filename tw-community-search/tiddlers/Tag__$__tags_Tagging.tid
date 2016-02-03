@@ -1,0 +1,7 @@
+title: Tag: $:/tags/Tagging
+tags: CommunityTags
+community-tag: $:/tags/Tagging
+community-tag-count: 5
+community-wikis: [[tb5]]
+
+{{||$:/CommunityTagTemplate}}

@@ -1,0 +1,7 @@
+title: Tag: $:/tags/PageTemplate
+tags: CommunityTags
+community-tag: $:/tags/PageTemplate
+community-tag-count: 1
+community-wikis: [[TWaddle]]
+
+{{||$:/CommunityTagTemplate}}

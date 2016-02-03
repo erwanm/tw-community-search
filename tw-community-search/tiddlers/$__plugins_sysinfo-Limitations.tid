@@ -1,0 +1,24 @@
+title: $:/plugins/sysinfo-Limitations
+created: 20151126185932784
+creator: Tobias Beer
+modified: 20151126201628572
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sysinfo-Limitations
+source-tiddler-title-as-link: sysinfo-Limitations
+
+When used as a widget attribute, the macro will update should the underlying system information change.
+
+Used plainly in wikitext this is not the case. Therefore, to make sure the rendered contents are updated accordingly, defer showing the information using a widget, e.g.:
+
+<$macrocall $name="`" text="""<$set name="href" value=<<sysinfo location href>>>
+<<href>>
+</$set>"""/>
+
+Instead of just...
+
+<$macrocall $name="`" text="""<<sysinfo location href>>"""/>
+
+''Test'': Try to open a new tiddler in this wiki. You should see the first option update while the second will not.

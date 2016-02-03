@@ -1,0 +1,24 @@
+title: $:/plugins/external-Template
+created: 20160113130108510
+creator: Tobias Beer
+modified: 20160113161318358
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: external-Template
+source-tiddler-title-as-link: external-Template
+
+The template $:/plugins/tobibeer/external/template provides a view-template that automatically renders the [[external-tiddler|external-Macro]] macro when:
+
+# the current tiddler title matches this pattern
+#* `<External Wiki Name>: <External Tiddler Title>`
+# there is a configuration for the external wiki at:
+#* `$:/config/ExternalWiki/<External Wiki Name>`
+
+To disable the template, remove the tag $:/tags/ViewTemplate from it.
+
+!! Source
+
+This is the template wikitext for <<source "$:/plugins/tobibeer/external/template">>

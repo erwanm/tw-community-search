@@ -1,0 +1,12 @@
+title: $:/node/--savetiddlers
+created: 20140609121606089
+modified: 20151014095533824
+p.filter: (required) the filter defining the set of tiddlers to be saved
+p.pathname: (optional) the path to the output folder
+params: <filter> <pathname>
+summary: saves a group of tiddlers in their raw text or binary format to the specified folder
+original-tags: commands
+source-wiki-id: node
+source-tiddler-title-as-text: --savetiddlers
+source-tiddler-title-as-link: --savetiddlers
+

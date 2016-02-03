@@ -1,0 +1,26 @@
+title: $:/TW5BreadCrumbs/Breadcrumbs info
+created: 20140210124908681
+creator: TonGerner
+modified: 20150627104714843
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Breadcrumbs info
+source-tiddler-title-as-link: Breadcrumbs%20info
+
+@@.sliderBG
+<div>
+
+Breadcrumbs are a list of links to tiddlers opened during a session, creating a 'trail of breadcrumbs' from one tiddler to the next.<br>
+The number of breadcrumbs will be limited here to the last ''x'' opened tiddlers (''x'' to be set in the 'Settings' tab).
+
+<<<
+''Note:''<br>
+The term breadcrumbs comes from the trail of breadcrumbs left by Hansel and Gretel in the popular fairytale by the Brothers Grimm.
+<<<
+
+---
+
+</div>
+
+@@

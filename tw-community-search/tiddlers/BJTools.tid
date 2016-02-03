@@ -5,6 +5,10 @@ author: BJ
 title: BJTools
 type: text/vnd.tiddlywiki
 wiki-address: http://bjtools.tiddlyspot.com/
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151101192858596
+wiki-nb-tiddlers: 98
 
+a collection of TW related projects
 
 {{||$:/CommunityWikiPresentationTemplate}}

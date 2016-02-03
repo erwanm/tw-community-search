@@ -1,0 +1,76 @@
+title: $:/External Brain (inmysocks)/Moving out of the cloud
+created: 20150203221158869
+day: 10
+image: 
+image_caption: 
+link: 
+modified: 20150518212428003
+modifier: inmysocks
+month: May
+number_of_comments: 0
+posted: 12:37, 10th May 2015
+summary: some notes on my progress. See
+template: BlogDisplayTemplate1
+time: 20150510123742
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Moving out of the cloud
+source-tiddler-title-as-link: Moving%20out%20of%20the%20cloud
+
+I have been putting effort into moving away from using online cloud based services lately. Instead of trying to explain I will give you [[this video|https://ind.ie/about/manifesto/]] of a talk by Aral Balkan. He explains it much more eloquently than I would. These are just some notes about the services I currently use and my progress on moving away from them. In the future I will post step by step instructions for how I set up replacements in case anyone else wants to. Hopefully these instructions won't require any knowledge on your part. Moving out of the cloud is only significant if it is easy enough that people start using the alternatives.  Dropbox to syncthing on a raspberry pi is already set up, I just need to write the instructions out in a readable way. For moving away from the social media stuff I am using this site, so it is partially finished. I need to find a way to add comments. I will hopefully have good instructions and whatever else you need here soon. I haven't had a chance to set up ~GitLab on a raspberry pi, but when I do I will put up instructions if it works reasonably well. The email server may take a while, I may wait until I get to France for that.
+
+''Note: Everywhere I talk about a raspberry pi I am using a raspberry pi 2. I am just too lazy to go through and add the 2 in every instance. I think that syncthing will work on an original raspberry pi, I don't know about the rest.''
+
+Online tools that I currently use that are controlled by someone else:
+
+*''Dropbox'' - online file storage
+*''GMail'' - email service
+*''Google+'' - social media
+*''Facebook'' - social media
+*''Twitter'' - social media
+*''Google Chat/messenger/whatever it is called'' - instant messaging
+*''~GitHub'' - git
+*''~TiddlySpot'' - online tiddlywiki hosting
+
+''Dropbox''
+
+There are multiple reasons to stop using Dropbox:
+
+*First, the free 2 gig version isn't enough for what I have been using it for, so I would have to start paying $10/month for the 1TB version. 
+*I can use [[syncthing|https://syncthing.net/]] and have a dedicated raspberry pi as a server with however much storage I feel like giving it for the price of a raspberry pi (a one time cost of less than US$50 for the pi and other required hardware) plus the cost of whatever extra storage I want. So it would take less than a year for the raspberry pi based server to pay for itself. Because syncthing doesn't require a static ip there are no costs associated with getting a domain or worrying about a dns or any of that.
+*Dropbox is controlled by someone else and they have the ability to cut off my access whenever they want. They also have access to everything I put on their servers. I don't like this.
+
+''GMail''
+
+GMail has similar reasons, but may be a bit harder to replace, harder doesn't mean impossible. Also syncthing is really easy to set up. There are instructions for running your own email server many places around the web, either on a normal desktop or using a raspberry pi (multiple sources for instructions [[1|https://samhobbs.co.uk/raspberry-pi-email-server]] [[2|http://www.prismaqf.com/pebble/geek/2012/12/24/1356382140000.html]] [[3|http://www.ducky-pond.com/posts/2012/Jul/installing-citadel-on-rpi/]] and undoubtedly others.). I may even be able to set up the mail server on the same pi as syncthing, since syncthing takes almost no processing power when it isn't actively syncing files. I haven't tested that yet. My biggest concern here is getting everyone to switch to using the new email address, setting GMail to forward everything still gives them all my emails.
+
+''Google+''
+
+I don't actually need a replacement for this, but social media sites have become so common that people expect you to have a profile. This website (the one you are reading) already acts as a replacement for posting content. I put links to what I post here on goolge+ every so often, but since they don't have a way to post to their site through third party applications I have to do it manually and rarely bother. For most practical purposes I have stopped using it other than to browse what other people post. Unless the friends I have there also move away from using it than I will keep the account open. I haven't decided if I am going to remove what is currently there or not.
+
+''Facebook''
+
+Same as google+, but using twitter I can post links to facebook from this website. I use facebook to see what other people are posting, but this is happening less frequently than it used to. I use facebook, through twitter, to alert other people when I post things here.
+
+''Twitter''
+
+I follow some people and use it to tell people when I post here. I almost never post directly to twitter. If I lose my account my only loss is a convenient way to post links back here. I am ok with how I am currently using it until some better alternative is created. The nice thing about twitter is that I can post to twitter automatically from this site and have twitter post to facebook.
+
+''Google Chat''
+
+This is the one I use the most by far. There are plenty of alternatives, the biggest problem is that because instant messaging necessarily requires multiple people to make any switch meaningful other people have to switch also. I do like [[cryptocat|https://crypto.cat/]], and it can work through facebook's im service. It is encrypted so facebook gets encrypted data. It still uses your account on their service so who you are talking to and how often you say something is still visible to them. I am not actually familiar with any alternatives for video chat (besides skype, which isn't a better option). I should look into this.
+
+''~GitHub''
+
+I don't really have a problem with ~GitHub aside from it being controlled by someone else who has no real motivation to protect the projects on the site. It is convenient and anything I put on it I want to be public anyway. The controlled by someone else part is my motivation to start to use [[GitLab|https://about.gitlab.com/]] where possible (and for private development for OokTech). Once again, I may be able to put [[GitLab on a raspberry pi|https://about.gitlab.com/2015/04/21/gitlab-on-raspberry-pi-2/]] (I like my toys, the raspberry pi is my newest one. If all have a hammer...). ~GitLab may be too processor intensive to have on the same pi as syncthing and the email server, but I haven't tried yet.
+
+''~TiddlySpot''
+
+I am not at all worried about ~TiddlySpot, I have [[my TiddlyWiki reference wiki|http://inmysocks.tiddlyspot.com]] hosted there for free. All the information on it is meant to be available to anyone for their own use and the only danger is tiddlyspot going under and me losing the hosting. In that case I would move it to my own domain and it wouldn't really be a problem aside from people possibly not knowing the new location. I have already replaced it in the sense that everything new gets posted to my own domain. 
+
+''So...''
+
+Dropbox and GMail are the biggest ones, and I have a solution for them that I just need to fully implement. There is significant work being done to replace social media services, so that will only take time. ~GitHub and ~TiddlySpot aren't really problems, but I have easy alternatives to them anyway, I just need to start using ~GitLab. All in all I think I am doing pretty well.

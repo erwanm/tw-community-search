@@ -1,0 +1,43 @@
+title: $:/TiddlyNote/Liste en colonnes
+created: 20150202130036373
+description: Créer des listes sur plusieurs colonnes
+modified: 20150205100538872
+original-tags: [[Trucs et astuces]] CSS
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Liste en colonnes
+source-tiddler-title-as-link: Liste%20en%20colonnes
+
+Pour afficher des listes en colonnes, ajoutez à votre CSS:
+
+```
+.deuxcolonnes { display:block;
+column-count:2;
+-moz-column-count:2;
+-webkit-column-count:2;}
+
+.troiscolonnes { display:block;
+column-count:3;
+-moz-column-count:3;
+-webkit-column-count:3;}
+
+...
+```
+Et éditez votre tiddler avec:
+
+```
+@@.deuxcolonnes
+*a
+*b
+*c
+*d
+@@
+```
+
+Ce qui donne avec deux colonnes:
+
+@@.deuxcolonnes
+*a
+*b
+*c
+*d
+@@

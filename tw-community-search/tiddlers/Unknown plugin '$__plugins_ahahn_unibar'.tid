@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/ahahn/unibar'
+name: unknown
+plugin_tiddler: $:/plugins/ahahn/unibar
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

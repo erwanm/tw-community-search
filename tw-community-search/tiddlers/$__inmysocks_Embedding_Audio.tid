@@ -1,0 +1,43 @@
+title: $:/inmysocks/Embedding Audio
+created: 20141021192125447
+modified: 20150108173343031
+original-tags: Audio
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Embedding Audio
+source-tiddler-title-as-link: Embedding%20Audio
+
+Similar to [[embedding images|Embedding Images - External Images]] you have have audio added to the wiki file by dragging and dropping the audio file into the browser, or you can embed external audio files.
+
+External audio files are probably better if possible (despite making the wiki no longer a single file application) because otherwise they greatly increase the size of the wiki.
+
+To embed an external audio file first make a tiddler that gives the location of the file by first setting the type to either `audio/mp3` or `audio/ogg` depending on which type of file you want to embed. There may be other supported types but those are the ones I have tested.
+Then you [[make a field|How to Add Fields to Tiddlers]] called `_canonical_uri` and in the field you put the location of the audio file. This can be a local file with a path like `./audio/HappyInstrumental1.ogg` (see the HappyInstrumental tiddler) or a file hosted online like `https://archive.org/download/Caruso_part1/Caruso-AveMaria.mp3` (see the AveMaria tiddler).
+
+
+
+It is probably easiest to copy any audio files you want to embed into a folder called `audio` in the same folder as the wiki and use relative references so that you can store everything on dropbox.
+
+Either way, to embed the audio simply use this
+
+```
+{{AveMaria}}
+```
+
+Which gives:
+
+{{AveMaria}}
+
+
+''This next part was an example using a local file on my computer, since I can't upload files like this to tiddlyspot it doesn't work in this context''
+
+or
+
+```
+{{HappyInstrumental}}
+```
+
+To include the audio pointed to in the HappyInstrumental tiddler.
+
+(Since I can't store things on the tiddlyspot server this doesn't work online)
+
+<<bottomOfTiddler {{!!title}}>>

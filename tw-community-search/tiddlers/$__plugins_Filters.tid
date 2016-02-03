@@ -1,0 +1,9 @@
+title: $:/plugins/Filters
+revision: 0
+summary: filter plugins by [[Tobias Beer]]
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: Filters
+source-tiddler-title-as-link: Filters
+
+<<list-plugins>>

@@ -1,0 +1,35 @@
+title: $:/t5a/Formatting Headers
+created: 20150519131219724
+creator: Andrew Harrison
+modified: 20151024174937096
+modifier: Andrew Harrison
+resource: Adjusting !!! Wiki Text (Bill Matabele 7/9/14)
+original-tags: New Example
+source-wiki-id: t5a
+source-tiddler-title-as-text: Formatting Headers
+source-tiddler-title-as-link: Formatting%20Headers
+
+For custom styles -- create a tiddler with content something like this:
+
+```
+/*HEADER STYLES*/
+.myTitle {
+        text-shadow:silver 2px 2px 6px;
+        font-size:14pt;
+}
+```
+
+-- additional styles may be added.
+
+Then tag the tiddler with: `$:/tags/Stylesheet`
+
+-- and use a style with a title like this:
+`!.myTitle Text of Title`
+
+-- instead of: 
+
+!Text of Title
+
+-- the header displays as:
+
+!.myTitle Text of Title

@@ -1,0 +1,16 @@
+title: $:/dev/1378-tag-button-sort-tagging
+created: 20150120233245080
+creator: Tobias Beer
+modified: 20150128101715233
+modifier: Tobias Beer
+summary: sort unlisted tags by title
+url: <<git5 issues/1378>>
+original-tags: Pull 5.1.8 Accepted
+source-wiki-id: dev
+source-tiddler-title-as-text: 1378-tag-button-sort-tagging
+source-tiddler-title-as-link: 1378-tag-button-sort-tagging
+
+tiddlers not listed in the list field, sorted by title nonetheless, otherwise we get a real poor taglist from [[$:/core/ui/TagTemplate]]
+
+; demo
+: working on (any tag at) [[tb5|http://tb5.tiddlyspot.com/#filters]]

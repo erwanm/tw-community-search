@@ -1,0 +1,13 @@
+title: $:/TiddlyMap/styles
+created: 20141217190806416
+modified: 20141217191442608
+tmap.id: 5FBEC62E-1285-42EA-BA0D-F1EF451D149A
+type: text/css
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TiddlyMap
+source-tiddler-title-as-text: styles
+source-tiddler-title-as-link: styles
+
+hr {
+border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

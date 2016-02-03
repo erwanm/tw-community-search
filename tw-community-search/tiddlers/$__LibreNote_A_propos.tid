@@ -1,0 +1,24 @@
+title: $:/LibreNote/A propos
+created: 20150421073719562
+creator: svink
+modified: 20151211204759678
+modifier: svink
+original-tags: semi
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: A propos
+source-tiddler-title-as-link: A%20propos
+
+<div style="font-size:75%;margin-top:-3em;margin-left:-16em;margin-bottom:-2.5em;">
+~LibreNote est forgé par
+<$link to="ContactSources"></$link>
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/StoryList" list="
+[[ContactSources]]"/>
+<$action-navigate $to="ContactSources" $scroll="yes"/>
+__svink__
+</$button>
+libriste amateur.
+</div>
+<br>
+<div style="margin-bottom:-2em;">
+{{Licence}}

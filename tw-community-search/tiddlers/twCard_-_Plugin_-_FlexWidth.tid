@@ -1,0 +1,26 @@
+audience: 
+category: Interface
+created: 20150106175012859
+date: 04-10-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: EucalyJ
+modified: 20150210024215096
+name: FlexWidth
+plugin_tiddler: $:/plugins/eucaly/flexwidth
+release: 
+repository: 
+revision: 0.0.4
+short_description: Flexibly tweak sidebar width for TiddlyWiki 5
+title: twCard - Plugin - FlexWidth
+wiki: http://eucaly-tw5.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: EucalysTiddlyWorld
+twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/flexwidth
+twcs-description: FlexWidth - Flexibly tweak sidebar width for TiddlyWiki 5
+twcs-author: EucalyJ
+twcs-version: 0.0.4
+
+{{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,13 @@
+title: $:/TWaddle/sw:CMS
+created: 20150416132339906
+creator: Mat
+modified: 20150616155030620
+modifier: Mat
+original-tags: SoftwareCategoryGroup
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:CMS
+source-tiddler-title-as-link: sw%3aCMS
+
+[Note: For TW contexts I have so far not classified anything as CMS but instead used the more restricted [[PIM|sw:PIM]] (Personal Information Manager)]<br><br>
+
+<<boxref "A ''content management system'' (CMS) is a computer application that allows publishing, editing and modifying content, organizing, deleting as well as maintenance from a central interface. Such systems of content management provide procedures to manage workflow in a collaborative environment. These procedures can be manual steps or an automated cascade.<br><br>CMSs are often used to run websites containing blogs, news, and shopping. Many corporate and marketing websites use CMSs. CMSs typically aim to avoid the need for hand coding, but may support it for specific elements or entire pages." "http://en.wikipedia.org/wiki/Content_management_system">>

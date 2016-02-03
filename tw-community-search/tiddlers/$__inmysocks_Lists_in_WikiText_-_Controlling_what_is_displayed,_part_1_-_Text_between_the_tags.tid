@@ -1,0 +1,53 @@
+title: $:/inmysocks/Lists in WikiText - Controlling what is displayed, part 1 - Text between the tags
+caption: Controlling what is displayed, part 1 - Text between the tags
+created: 20150409050445233
+modified: 20150409054201587
+order: 4
+original-tags: [[Lists in WikiText]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Lists in WikiText - Controlling what is displayed, part 1 - Text between the tags
+source-tiddler-title-as-link: Lists%20in%20WikiText%20-%20Controlling%20what%20is%20displayed%2c%20part%201%20-%20Text%20between%20the%20tags
+
+Just listing tiddler titles can be useful, but it isn't particularly interesting, so now we will change what is displayed for each entry.
+
+As I mentioned above, the content between the opening and closing tags of the list widget is important. You can use what is between the two tags to customize what is shown for each list entry. This takes advantage of how the list widget sets the currentTiddler variable to the current list entry. If that sentence doesn't mean anything to you don't worry, you don't need to understand it yet. I will return to this later when I discuss variables in lists.
+
+I will start with an example:
+
+```
+<$list filter='[tag[Wiki Examples]]'>
+Hi!
+</$list>
+```
+
+Now look at the output:
+
+<<exampleSlider "<$list filter='[tag[Wiki Examples]]'>
+Hi!
+</$list>" """Show Hi! example""" """Hide example""" """lists in wikitext Hi! example""">>
+
+!!What? How does that make sense?
+
+The filter `[tag[Wiki Examples]]` returns a list of all tiddlers tagged with `Wiki Examples`, and normally the list widget will list all of the tiddler names, but when you have something between the opening and closing tags of the list widget that content overrides the default behaviour. So what the example does is display the content between the tags (in this case `Hi!`) once for each entry returned by the filter, so it displays `Hi!` once for each tiddler tagged with `Wiki Examples`. Note that there are no line breaks in the output, adding `<br>` after `Hi!` will add line breaks, or putting a blank line before `Hi!` will add them.
+
+!!Displaying Hi! a bunch of times isn't very helpful
+
+No, it isn't. But that is just a simple illustration of what is possible. A slightly more useful example is:
+
+```
+<$list filter='[tag[Wiki Examples]]'>
+<$view field='title'/> - <$view field='modified'/><br>
+</$list>
+```
+
+<<exampleSlider "<$list filter='[tag[Wiki Examples]]'>
+<$view field='title'/> - <$view field='modified'/><br>
+</$list>" """Show example""" """Hide example""" """lists modified field example""">>
+
+!!So what is going on?
+
+In that example `<$view field='title'/> - <$view field='modified'/><br>` is displayed for each thing returned by the filter. The WikiText is parsed so it displays the results of view widgets for each entry, so you see the title and the modified field of each tiddler returned by the list.
+
+The view widget doesn't have a `tiddler` attribute set, this is because the list widget sets the `currentTiddler` variable to the current item on the list, so most widgets will default to acting on the current list item instead of the tiddler that contains the list. This is important, and is one of the things makes lists so powerful, particularly when you combine lists with templates and transclusions.
+
+Much of what you can do with templates you can do by changing the content of the list widget.

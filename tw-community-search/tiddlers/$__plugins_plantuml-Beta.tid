@@ -1,0 +1,15 @@
+title: $:/plugins/plantuml-Beta
+created: 20160114185707920
+creator: Tobias Beer
+modified: 20160114185825464
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: plantuml-Beta
+source-tiddler-title-as-link: plantuml-Beta
+
+@@.note
+This is a beta for the [[plantuml]] plugin version 0.5.0.
+@@

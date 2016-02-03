@@ -1,0 +1,31 @@
+title: $:/LibreNote/Demo
+created: 20151023144223381
+creator: svink
+modified: 20160112152105571
+modifier: svink
+original-tags: transparent
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Demo
+source-tiddler-title-as-link: Demo
+
+!!Démonstrations d'utilisation de ~TiddlyWiki
+<hr><br><br>
+<div style="text-align:left;">
+Liste de démonstrations d'utilisation de ~TiddlyWiki pour des usages spécifiques. 
+</div>
+<br><br>
+
+<$list filter='[tag[demo]]'>
+<table class="invisibletable">
+<tr>
+<td valign="center">
+<div style="font-size:1.3em; text-align:left;">
+<a href={{!!url}} class="tc-btn-invisible" style="text-decoration:none; color:#003399"; target="_blank"> <i class="fa  fa-play-circle  " style="color:#474747"></i> <$view field="title"/>
+</a>
+</div>
+</td>
+<td>
+{{!!description}}
+</td>
+<td>
+{{!!auteur}}

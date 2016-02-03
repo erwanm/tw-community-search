@@ -1,0 +1,15 @@
+title: $:/rboue plugins/Three.js/Demos/horse
+created: 20141021150743066
+modified: 20150126131623362
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: Three.js/Demos/horse
+source-tiddler-title-as-link: Three.js%2fDemos%2fhorse
+
+Model by [[mirada|http://mirada.com]] from [[rome|http://www.ro.me]].
+@@float:right;
+[[View source|Three.js/Demos/horse.js]]
+@@
+<$view3js tiddler="Three.js/Demos/horse.js" class="threejs-screen"/>

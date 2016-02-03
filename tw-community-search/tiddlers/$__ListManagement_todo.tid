@@ -1,0 +1,15 @@
+title: $:/ListManagement/todo
+created: 20150415201736041
+journal: 
+modified: 20150813141708606
+tasks: 
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: todo
+source-tiddler-title-as-link: todo
+
+<$macrocall $name="tiddlerTaskNote"
+        tiddlerName=<<currentTiddler>>
+        fieldName="todo"
+        tagName="done"
+/>

@@ -1,0 +1,17 @@
+title: $:/plugins/join-Install
+created: 20151221134256631
+creator: Tobias Beer
+modified: 20151221150823573
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: join-Install
+source-tiddler-title-as-link: join-Install
+
+<<plugin-install join>>
+
+!! Version History
+
+; 0.5.0 / 2015-12-21
+: initial version

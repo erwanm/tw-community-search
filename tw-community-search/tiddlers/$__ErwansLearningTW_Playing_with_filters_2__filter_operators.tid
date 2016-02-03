@@ -1,0 +1,112 @@
+title: $:/ErwansLearningTW/Playing with filters 2: filter operators
+created: 20141026152312730
+creator: Erwan
+modified: 20141027004805662
+modifier: Erwan
+original-tags: lists/filters
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Playing with filters 2: filter operators
+source-tiddler-title-as-link: Playing%20with%20filters%202%3a%20filter%20operators
+
+From http://tiddlywiki.com/#Filters
+and http://tiddlywiki.com/#FilterOperators
+
+!! all
+
+Select particular combinations of tiddlers by their type. The operand of the ''all'' operator is a list of names of tiddler sources joined with `+`.
+
+//copy from tw.com//
+
+|!Filter String |!Description |
+|`[all[tiddlers]]` |Selects all 'real' tiddlers (both system and non-system), excluding shadow tiddlers |
+|`[all[shadows]]` |Selects all ~ShadowTiddlers, including those that have been overridden with real tiddlers |
+|`[all[shadows+tiddlers]]` |Selects all ~ShadowTiddlers and all 'real' tiddlers together |
+|`[all[current]]` |Selects the current tiddler |
+|`[all[missing]]` |Selects all ~MissingTiddlers |
+|`[all[orphans]]` |Selects all ~OrphanTiddlers |
+|`[all[]]` |Selects all the source tiddlers available to the filter |
+
+!! field
+
+see [[Playing with filters]].
+
+!! has
+
+``has[fieldname]`` selects tiddlers which have the field ``fieldname``
+
+!! is
+
+filters from the current list of tiddlers depending on their type.
+
+//(copy from tw.com)//
+
+* `[is[current]]` - returns any tiddler that matches the title of the current tiddler
+* `[is[image]]` - tiddlers that contain an image (eg, GIF, JPEG, PNG etc.)
+* `[is[missing]]` - ~MissingTiddlers that are referenced but undefined
+* `[is[orphan]]` - ~OrphanTiddlers that are not referenced from any other tiddler
+* `[is[shadow]]` - tiddlers that are ~ShadowTiddlers
+* `[is[system]]` - tiddlers that are ~SystemTiddlers
+* `[is[tiddler]]` - tiddlers that are not ~MissingTiddlers
+* `[is[tag]]` - tiddlers that are being used as tags
+
+//Note that the ''is'' filter operator strictly filters the current list by choosing whether or not to include each one in the output. It never adds tiddlers to the results that are not already listed. //
+
+!! limit
+
+quite self-explanatory: ``[sort[modified]!limit[20]]``
+
+!! links
+
+//(copy from tw.com)//
+
+The links filter operator replaces the current list with a list of the targets of outgoing links from those tiddlers.
+
+```
+<$list filter="[all[current]links[]]"/>
+```
+
+<$list filter="[all[current]links[]]"/>
+
+!! search
+
+//(copy from tw.com)//
+
+The ''search'' filter operator filters the current list to leave only those tiddlers that include the operand text in their title, body or tags. Preceding the operator with `!` returns all tiddlers that do not include the specified text. The search is case-insenstive. 
+
+Example: ``[search[alsatian]]``
+
+!! sort
+
+Example: ``one two three four +[sort[]]``
+
+Related: ``nsort`` (numeric), ``sortcs`` (case sensitive)
+
+!! tag
+
+see [[Playing with filters]].
+
+
+!! Other operators
+
+!!! Useful
+
+
+* get a tiddler by its position in the list (e.g. w.r.t the current tiddler): ``before``, ``after``; ``previous``, ``next`` (work with the ``list`` field); ``first``, ``last``
+* ``backlinks`` returns tiddlers which link to the tiddlers in the list.
+* select a part of the list: ``rest`` (also called ``butfirst``)  ``butlast``
+* ``each[fieldname]`` returns one item by fieldname; this can be used to print a list sorted by the possible values of a given field, see example: http://tiddlywiki.com/#FilterOperator%3A%20each
+** ``eachday`` is similar for a date field. Example counting the number of tiddlers modified by day: http://tiddlywiki.com/#FilterOperator%3A%20eachday. See also http://tiddlywiki.com/#TimelineMacro.
+* ``fields``, ``tags`` returns all the fields names or tags used in the list of tiddlers.
+* ``list``: The list filter operator replaces the current list with the list contained in the ~TextReference specified in the operand. The default field for the text reference is ``list``. Example: ``[list[HelloThere!!mylist]]`` Returns the list of tiddlers in the ``mylist`` field of the tiddler ``HelloThere`` //(copy from tw.com)//
+** ``listed``: returns the tiddlers which have a ``list`` (or custom field) field which contains any member of the current list.
+* string matching: ``prefix``, ``suffix``, and the more general ``regexp`` (see http://tiddlywiki.com/#FilterOperator%3A%20regexp)
+* ``reverse`` to reverse the order of the list
+* ``sameday``: matching by date
+* ``tagging`` returns all the tiddlers that are tagged by the tiddlers in the current list.
+* ``untagged`` filters tiddlers with no tag.
+
+!!! Misc
+
+* string operations on the tiddlers titles //(why?)//: ``addprefix``, ``addsuffix``, ``removeprefix``, ``removesuffix``
+* ``get`` //didn't understand???//
+* ``indexes`` for data tiddlers

@@ -1,0 +1,9 @@
+title: $:/Tinka/test
+created: 20150605211712113
+modified: 20150605211848744
+original-tags: 
+source-wiki-id: Tinka
+source-tiddler-title-as-text: test
+source-tiddler-title-as-link: test
+
+Button <$button class="tc-btn-invisible">{{$:/core/images/help}}</$button>: 

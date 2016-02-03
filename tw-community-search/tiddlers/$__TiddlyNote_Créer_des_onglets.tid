@@ -1,0 +1,38 @@
+title: $:/TiddlyNote/Créer des onglets
+created: 20150130153209283
+description: Afficher le contenu de tiddlers dans des onglets
+modified: 20150531154908570
+original-tags: [[Trucs et astuces]]
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Créer des onglets
+source-tiddler-title-as-link: Créer%20des%20onglets
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: [[http://tiddlywiki.com/#tabs Macro|http://tiddlywiki.com/#tabs%20Macro]]
+
+!!Onglets verticaux
+
+Ajoutez à votre tiddler:
+
+```
+<<tabs "NomTiddler [[Nom Tiddler]]" "Nom-du-tiddler-à-afficher-par-défaut" "$:/state/tab1">>
+```
+
+<<tabs "NomTiddler [[Nom Tiddler]]" "NomTiddler" "$:/state/tab1">>
+<br>
+
+!!Onglets horizontaux
+
+```
+<<tabs "[[Nom Tiddler]] NomTiddler" "Nom-du-tiddler-à-afficher-par-défaut" "$:/state/tab2" "tc-vertical">>
+```
+
+<<tabs "NomTiddler [[Nom Tiddler]]" "[[Nom Tiddler]]" "$:/state/tab2" "tc-vertical">>
+<br>
+
+Vous pouvez soit mettre la liste complète des tiddlers à afficher (comme ci-dessus) ou utiliser une balise ``[tag[Nom-du-tag]]`` pour afficher tous les tiddlers utilisant ce tag. Ils seront alors mis par ordre alphabétique.
+
+Pour définir un ordre personnalisé, il faut [[ajouter un champ|Utiliser les champs]] `order` à chaque tiddler avec comme valeur l'ordre d'affichage (1, 2, 3...) et utiliser l'opérateur `nsort`. Ce qui donne:
+
+```
+<<tabs "[tag[Nom-du-tag]nsort[order]]" "Nom-du-tiddler-à-afficher-par-défaut" "$:/state/tab1">>
+```

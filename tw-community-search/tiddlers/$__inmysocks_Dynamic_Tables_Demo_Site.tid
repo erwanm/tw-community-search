@@ -1,0 +1,13 @@
+title: $:/inmysocks/Dynamic Tables Demo Site
+created: 20151007214139156
+follow: yes
+modified: 20151007214242244
+url: http://ooktech.com/jed/ExampleWikis/DynamicTables/
+original-tags: [[My Demo Sites]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Dynamic Tables Demo Site
+source-tiddler-title-as-link: Dynamic%20Tables%20Demo%20Site
+
+This site shows some dynamic table macros that let you create in-line editable tables based on tiddler fields.
+
+{{!!url}}

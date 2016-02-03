@@ -1,0 +1,17 @@
+title: $:/t5a/$:/plugin/ajh/reduce
+created: 20151219072552396
+creator: Andrew
+dependents: $:/language/Buttons/Reduce/Caption $:/language/Buttons/Reduce/Hint $:/language/Buttons/Reduce/Notification $:/plugin/ajh/reduce/icon $:/plugin/ajh/reduce/image $:/plugin/ajh/reduce/module.js $:/plugin/ajh/reduce/readme $:/plugin/ajh/reduce/template
+description: Reduce Button
+list: readme
+modified: 20151219081344637
+modifier: Andrew
+source: http://reduce.tiddlyspot.com/
+version: 0.0.1
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugin/ajh/reduce
+source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2freduce
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

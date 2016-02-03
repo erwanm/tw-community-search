@@ -1,0 +1,16 @@
+title: $:/icons/font
+created: 20150130015434089
+modified: 20150130174734644
+original-tags: 
+source-wiki-id: icons
+source-tiddler-title-as-text: font
+source-tiddler-title-as-link: font
+
+<dl class="preview">
+<<list-search
+"[tag[font]sort[]]"
+"search"
+"$:/temp/list-search-fonts"
+"$:/.tb/template/preview-item"
+placeholder:"Filter font names..." >>
+</dl>

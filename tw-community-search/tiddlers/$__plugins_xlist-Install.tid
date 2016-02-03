@@ -1,0 +1,13 @@
+title: $:/plugins/xlist-Install
+revision: 0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: xlist-Install
+source-tiddler-title-as-link: xlist-Install
+
+<<plugin-install xlist>>
+
+!! Version History
+
+; 0.5.0 / 2015-11-25
+: initial release as a plugin

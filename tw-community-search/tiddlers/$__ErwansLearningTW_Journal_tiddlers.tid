@@ -1,0 +1,21 @@
+title: $:/ErwansLearningTW/Journal tiddlers
+created: 20141026133532047
+creator: Erwan
+modified: 20141026135721138
+modifier: Erwan
+original-tags: journaling [[task mgmt]]
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Journal tiddlers
+source-tiddler-title-as-link: Journal%20tiddlers
+
+Starting with 5.1.4 direct buttons are provided to create pre-configured tiddlers:
+
+* At the global level (sidebar):
+** new journal tiddler
+* At the tiddler level (top right icons in any tiddler):
+** new tiddlers tagged with this one
+** new journal tiddler tagged with this one
+
+If the buttons are not visible they can enable in the control panel -> appearance tab -> toolbars.
+
+The journal tiddlers can be configured globally in the control panel -> info tab (date format in title and automatically added tags).

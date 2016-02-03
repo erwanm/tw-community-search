@@ -1,0 +1,11 @@
+title: $:/inmysocks/ColumnTable Macro
+created: 20150629203048370
+demo_site: http://ooktech.com/jed/ExampleWikis/DynamicTables/
+description: A dynamically generated in-line editable table that uses each tiddlers as a colmun, each field is a cell.
+install_link: [[$:/macros/inmysocks/Table Macros]]
+modified: 20150629204407342
+original-tags: [[My Macros]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: ColumnTable Macro
+source-tiddler-title-as-link: ColumnTable%20Macro
+

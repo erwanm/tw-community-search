@@ -1,0 +1,13 @@
+title: $:/dev/Impress.js
+created: 20150122153559412
+creator: Tobias Beer
+modified: 20150122153624864
+modifier: Tobias Beer
+original-tags: Plugin
+source-wiki-id: dev
+source-tiddler-title-as-text: Impress.js
+source-tiddler-title-as-link: Impress.js
+
+; fork
+: https://github.com/bartaz/impress.js
+: rewrite as propper tw plugin

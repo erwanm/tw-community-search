@@ -1,0 +1,4 @@
+title: Render A Tag Button
+new-tiddler: Tag: Render A Tag Button
+
+{{||$:/ObsoleteCommunityTagTemplate}}

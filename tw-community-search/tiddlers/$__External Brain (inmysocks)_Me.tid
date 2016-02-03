@@ -1,0 +1,25 @@
+title: $:/External Brain (inmysocks)/Me
+created: 20150227032011711
+modified: 20150510165455327
+original-tags: $:/tags/RawMarkup
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Me
+source-tiddler-title-as-link: Me
+
+<ul>
+  <li><a href="https://twitter.com/maybejed" rel="me">@maybejed on Twitter</a></li>
+  <li><a href="https://github.com/inmysocks" rel="me">Inmysocks on Github</a></li>
+  <li><a href="https://plus.google.com/+JedCarty" rel="me">Google+</a></li>
+  <li><a href="https://www.facebook.com/jed.carty.3" rel="me">Facebook</a></li>
+  <li><a href="http://inmysocks.tiddlyspot.com">Wiki Reference Wiki</a></li>
+</ul>
+
+<p class="h-card">
+  <img class="u-photo" src="./images/zebra-pencil-icon.jpg" alt="Pencil drawing of a zebra" />
+  <a class="p-nickname u-url" href="http://ooktech.com/jed/externalbrain/">inmysocks</a>
+  <a rel="me" href="mailto:inmysocks@gmail.com" class="u-email">inmysocks@gmail.com</a>
+  <p class="p-org">OokTech</p>
+  <p class="p-note">What did you expect?</p>
+</p>
+
+{{question}} 

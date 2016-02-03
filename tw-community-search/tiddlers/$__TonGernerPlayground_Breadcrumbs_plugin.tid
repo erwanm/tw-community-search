@@ -1,0 +1,31 @@
+title: $:/TonGernerPlayground/Breadcrumbs plugin
+caption: Breadcrumbs
+created: 20150719185845785
+creator: TonGerner
+modified: 20160111195438019
+modifier: TonGerner
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Breadcrumbs plugin
+source-tiddler-title-as-link: Breadcrumbs%20plugin
+
+!!Breadcrumbs plugin v<<pversion "breadcrumbs">>
+{{Under construction plugin_}}
+{{Upgraded}}
+
+!!!!Readme (from plugin)
+This plugin creates breadcrumbs of open tiddlers. It works best in Zoomin view.<br>
+The breadcrumbs menu can be toggled on/off with a button in Page toolbar and/or View toolbar.
+
+<<<
+''Note:''<br>''This plugin needs my [[$:/plugins/tongerner/layout_adjustment]] plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''
+<<<
+
+Settings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
+
+---
+
+Drag & drop the following links to your wiki to install this plugin.
+
+* [[$:/plugins/tongerner/breadcrumbs]]
+* [[$:/plugins/tongerner/layout_adjustment]]

@@ -1,0 +1,7 @@
+title: Unknown plugin 'Draft of '$:/plugins/bj/Calendar''
+name: unknown
+plugin_tiddler: Draft of '$:/plugins/bj/Calendar'
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

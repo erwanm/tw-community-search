@@ -1,0 +1,14 @@
+title: $:/TWaddle/The current editor concept
+created: 20150707003856008
+creator: Mat
+modified: 20150707004122492
+modifier: Mat
+note: This is "an aside" to the article [[A superior Editor]]
+original-tags: supporttiddler
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The current editor concept
+source-tiddler-title-as-link: The%20current%20editor%20concept
+
+It is not intuitive that editing a tiddler really means you create a new entity that exists //in parallel// with the original so you can have both open simultaneously, which on saving replaces the original... except if the "saving" was saving the whole wiki. Still, opening a permalink to a Draft is a dead link... unless it was saved as a draft.  Emmm.
+
+Imagine repainting your house; On project start, a //new// house is created, further down the street, to paint. Once finished, you destroy your old house and move the new one into its place.<br><center>[img width=170 [http://godlovestolaugh.com/wp-content/uploads/2014/12/mailman.jpg]]</center>

@@ -1,0 +1,28 @@
+title: $:/demo/GettingStarted
+created: 20141124072128459
+creator: Tobias Beer
+modified: 20141124101841994
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: demo
+source-tiddler-title-as-text: GettingStarted
+source-tiddler-title-as-link: GettingStarted
+
+A category list of demos in this wiki...
+
+<div class="tb-taglist">
+<$list filter="[tag[Demo]tags[]sort[title]!prefix[$]]-[[Demo]]">
+<div class="tb-taglist-item">
+<small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+<$transclude tiddler="$:/core/ui/TagTemplate"/>
+</div>
+</$list>
+</div>
+
+For a whole lot more, see [[solutions on tb5|http://tb5.tiddlyspot.com/#Solutions]].
+
+
+!!Latest Demonstrations
+<$set name="remove" value="Demo">
+<$list filter="[tag[Demo]!sort[created]]" template="$:/template/tagged-timeline"/>
+</$set>

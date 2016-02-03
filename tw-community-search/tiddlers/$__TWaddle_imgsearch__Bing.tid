@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Bing
+created: 20150413122948960
+creator: Mat
+modified: 20150715203323251
+modifier: Mat
+note: Overrides my local iframe settings. Clicking image opens it in new tab.
+recent: 15/04/13	
+original-tags: imgsearch
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Bing
+source-tiddler-title-as-link: imgsearch%3a%20Bing
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="http://www.bing.com/?scope=images&FORM=HDRSC2"  
+  style="width: 100%; height: 350px; 
+             margin-top: -25px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

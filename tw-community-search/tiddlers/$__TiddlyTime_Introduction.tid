@@ -1,0 +1,20 @@
+title: $:/TiddlyTime/Introduction
+created: 20150805131426259
+creator: Andrew
+modified: 20151017151854659
+modifier: Andrew
+original-tags: 
+source-wiki-id: TiddlyTime
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin button displays time with seconds and several time spans when clicked. The tool tip displays todays date minus 68 days. Clicking the time reveals time, time + 15 minutes, time + 30 minutes, and time + 45 minutes.<br>
+&emsp;&emsp;Simply drag [[$:/plugin/ajh/tiddlytime]] to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
+[[$:/time]]<br>
+[[$:/info/timestamp]]<br>
+[[$:/language/Buttons/Time/Caption]]<br>
+[[$:/language/Buttons/Time/Hint]]<br>
+[[$:/plugin/ajh/tiddlytime/DateTime.js]]<br>
+[[$:/plugin/ajh/tiddlytime/icon]]<br>
+[[$:/plugin/ajh/tiddlytime/stylesheet]]<br>
+[[$:/plugin/ajh/tiddlytime/Time.js]]<br>

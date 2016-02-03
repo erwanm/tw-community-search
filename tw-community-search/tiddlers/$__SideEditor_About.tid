@@ -1,0 +1,35 @@
+title: $:/SideEditor/About
+created: 20150601142211527
+creator: Mat
+modified: 20150808220056000
+modifier: Mat
+original-tags: 
+source-wiki-id: SideEditor
+source-tiddler-title-as-text: About
+source-tiddler-title-as-link: About
+
+''~SideEditor'' is a plugin to get a tiddlers editor show //floating on the side// of the story river.
+
+The purpose is to enable "live editing" and to be able to work on a tiddlers content while freely moving among the other tiddlers to, for instance, use them as references.
+
+''Installation'' - drag and drop $:/plugins/SideEditor into your TW.
+
+''Trigger it'' via the tiddler tool button @@fill:lightgray; {{$:/core/images/chevron-right}}@@ Note that you can easily switch which tiddler to edit in the ~SideEditor by closing and reopening. Try it on [[this short|#1 Demo (short tiddler)]] tiddler or a [[longer one|#2 Demo (long tiddler)]]. I don't recommend testing it on the very components building up the plugin.
+
+''Moving'' is done via the two gray handles and ''resizing'' via the lower right corner. (Length is automatic from typing).
+
+Unfortunately, I have not yet implemented move/resize for //Internet Explorer// as range sliders behave a bit differently there, and I have not tested anything on //Safari//.
+
+
+<br>''The plugin consists of''
+
+|[[$:/plugins/SideEditor/readme]]|Short description of the plugin seen in the Plugin Library |
+|[[$:/plugins/SideEditor/Main]]|This contains the actual editor, its positioning and the CSS|
+|[[$:/plugins/SideEditor/Button]]|The tiddler toolbar button to toggle the ~SideEditor<br>@@font-size:small; Based on  [[$:/core/ui/TopBar/menu]] @@|
+|[[$:/plugins/SideEditor/Revealer]]|A revealwidget checking if there's anything to reveal<br>@@font-size:small; Key idea from [[$:/core/ui/PageTemplate/sidebar]] @@|
+|[[$:/plugins/SideEditor/Metrics]]|Values used in the positioning and sizing|
+
+<br>[[Issues]]
+
+<br><br>
+by ''Mat <:-) the'' [[TWaddler|http://twaddle.tiddlyspot.com]]

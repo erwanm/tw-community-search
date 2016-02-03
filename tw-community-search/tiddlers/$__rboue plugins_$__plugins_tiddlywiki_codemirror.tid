@@ -1,0 +1,14 @@
+title: $:/rboue plugins/$:/plugins/tiddlywiki/codemirror
+author: JeremyRuston
+dependents: 
+description: Codemirror plugin
+list: readme
+revision: 0
+version: 5.1.8-prerelease
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fcodemirror
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,51 @@
+title: $:/LibreNote/Introduction
+created: 20150420134453342
+creator: svink
+modified: 20160112141114498
+modifier: svink
+original-tags: transparent
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+<div style="text-align:center; font-size:130%;">
+~LibreNote est une démonstration de ~TiddlyWiki et un projet de partage de documentation sur les logiciels libres que j'utilise au quotidien.
+</div>
+<br>
+
+<div style="margin-left:-2em; margin-right:-2em;">
+<table class="invisibletable">
+<tr>
+<td>
+<div style="text-align:center; font-size:150%; background-color: rgba(255,255,255,0.5)">
+Chakra<br>[img width="46" [chakralog]]
+</div>
+<div style="text-align:center; background-color: rgba(255,255,255,0.5)">
+Une distribution GNU/Linux centrée sur KDE
+</div>
+<div style="text-align:justify; font-size:100%; margin-left:0.5em; margin-right:0.5em;">
+<br>Chakra est une distribution GNU/Linux centrée sur KDE et les technologies Qt.
+</div>
+</td>
+<td>
+<div style="text-align:center; font-size:150%; background-color: rgba(255,255,255,0.5)">
+~TiddlyWiki<br>[img width="74" [Motovun Jack.svg]]<br>
+</div>
+<div style="text-align:center; background-color: rgba(255,255,255,0.5)">
+Un carnet de notes web personnel et non linéaire
+</div>
+<div style="text-align:justify; font-size:100%; margin-left:0.5em; margin-right:0.5em;">
+<br>~TiddlyWiki est un outil riche et interactif décrit comme un carnet de notes non linéaire.
+</div>
+</td>
+<td>
+<div style="text-align:center; font-size:150%; background: rgba(255,255,255,0.5)">
+Git<br>[img width="46" [gitlog]]<br>
+</div>
+<div style="text-align:center; background: rgba(255,255,255,0.5)">
+Un logiciel de gestion de version décentralisé
+</div>
+<div style="text-align:justify; font-size:100%; margin-left:0.5em; margin-right:0.5em;">
+<br>Git est un logiciel de contrôle de version libre et open source conçu pour gérer tout projets.
+</div>
+</td>

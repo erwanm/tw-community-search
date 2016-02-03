@@ -1,0 +1,25 @@
+title: $:/TWaddle/Musings
+created: 20150330233023547
+creator: Mat
+modified: 20150719032643577
+modifier: Mat
+summary: Oh, such twisdom and twit
+original-tags: menu
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Musings
+source-tiddler-title-as-link: Musings
+
+''Profound ponderings''
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Musing]tag[Major]] [all[shadows+tiddlers]!has[draft.of]tag[Musings]tag[Major]] +[!sort[recent]]">>
+
+''Shallow shpeculations''
+<<twistify "[all[shadows+tiddlers]!has[draft.of]tag[Musing]!tag[Major]] [all[shadows+tiddlers]!has[draft.of]tag[Musings]!tag[Major]] +[!sort[recent]]">>
+
+<style>
+   #omusings { position: relative; }
+   #imusings { position: absolute; right: -12px; bottom: -30px;}
+</style>
+
+<div id="omusings"><div id="imusings">
+<$image source="img/musings" width="90%">
+</div></div>

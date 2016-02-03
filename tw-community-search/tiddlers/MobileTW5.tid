@@ -5,6 +5,10 @@ author: DanieloRodriguez
 title: MobileTW5
 type: text/vnd.tiddlywiki
 wiki-address: http://mobiletw5.tiddlyspot.com/
+wiki-tw-version: 5.1.5
+wiki-latest-modification: 20150515165202588
+wiki-nb-tiddlers: 2
 
+MobileTheme
 
 {{||$:/CommunityWikiPresentationTemplate}}

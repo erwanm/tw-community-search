@@ -1,0 +1,14 @@
+title: $:/cpashow/$:/plugins/tiddlywiki/help
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Help panel for TiddlyWiki
+list: readme
+version: 5.1.8
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/help
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fhelp
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

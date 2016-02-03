@@ -1,0 +1,27 @@
+title: $:/TW5BreadCrumbs/How does the button work?
+created: 20140227164654509
+creator: TonGerner
+modified: 20150626205924711
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: How does the button work?
+source-tiddler-title-as-link: How%20does%20the%20button%20work%3f
+
+@@.sliderBG
+
+<div>
+
+The tiddler [[$:/plugins/tongerner/breadcrumbs/button]] contains the code to toggle the tag [[$:/tags/Stylesheet]] of the style sheet tiddler [[$:/plugins/tongerner/breadcrumbs/styles]] ''on/off''.
+
+!!!To see the 'Toggle breadcrumbs' button in action:
+# Open [[$:/plugins/tongerner/breadcrumbs/styles]].
+# Click the {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} button. Note the toggling of the [[$:/tags/Stylesheet]] tag.
+
+If [[$:/plugins/tongerner/breadcrumbs/styles]] is ''not'' tagged with [[$:/tags/Stylesheet]], [[$:/plugins/tongerner/breadcrumbs/style-no-breadcrumbs]] becomes active which contains `display: none;`. 
+
+---
+
+</div>
+
+@@

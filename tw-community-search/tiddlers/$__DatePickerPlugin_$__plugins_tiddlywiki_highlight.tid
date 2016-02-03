@@ -1,0 +1,14 @@
+title: $:/DatePickerPlugin/$:/plugins/tiddlywiki/highlight
+author: JoaoBolila
+core-version: >=5.0.0
+dependents: 
+description: Highlight.js: syntax highlighting
+list: readme usage license
+version: 5.1.10-prerelease
+original-tags: 
+source-wiki-id: DatePickerPlugin
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fhighlight
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

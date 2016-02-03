@@ -1,0 +1,13 @@
+title: $:/plugins/make
+created: 20151217131932309
+creator: Tobias Beer
+modified: 20151217132008974
+revision: 0
+tabs: Info Operand Examples Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Filters
+source-wiki-id: plugins
+source-tiddler-title-as-text: make
+source-tiddler-title-as-link: make
+
+<<plugin-docs make>>

@@ -1,0 +1,230 @@
+title: $:/cpashow/svgDrawBox
+created: 20150529042130164
+modified: 20150604005027100
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: svgDrawBox
+source-tiddler-title-as-link: svgDrawBox
+
+\define drawLine(x:"50", y:"10", width:"100", height:"50", text:"empty")
+    <path 
+            d="m $x$, $y$
+            h $width$
+            v $height$"
+            h $width$
+        />
+        <$macrocall $name="drawText"
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$"
+                text="$text$"
+        />
+\end
+\define drawDocument(x:"50", y:"10", width:"100", height:"50", text:"empty")
+        <path  
+                d="m $x$, $y$
+                l $width$,0
+                l 0,$height$
+                c -60,-10 -50,40 -$width$,15 
+                z" />
+        <$macrocall $name="drawText"
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$"
+                text="$text$"
+        />
+\end
+
+\define drawBox(x:"50", y:"10", width:"100", height:"50", text:"empty")
+        <rect  
+                height="$height$"
+                width="$width$"
+                y="$y$"
+                x="$x$" />
+        <$macrocall $name="drawText"
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$"
+                text="$text$"
+        />
+\end
+
+\define drawCircle(x:"50", y:"10", width:"100", height:"50", text:"empty")
+        <circle 
+                cx="$x$" 
+                cy="$y$" 
+                r="$width$" 
+        />
+        <$macrocall $name="drawText"
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$"
+                text="$text$"
+        />
+\end
+
+\define drawEllipse(x:"50", y:"10", width:"100", height:"50", text:"empty")
+        <ellipse 
+                cx="$x$"
+                cy="$y$" 
+                rx="$width$" 
+                ry="$height$" 
+        />
+        <$macrocall $name="drawText"
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$"
+                text="$text$"
+        />
+\end
+
+\define drawText(x:"50", y:"10", width:"100", height:"50", text:"empty")
+        <foreignObject 
+                x="$x$"
+                y="$y$"
+                width="$width$"
+                height="$height$" >
+            <body>
+                $text$
+            </body>
+        </foreignObject>
+\end
+
+\define displaySVGItem(itemName:"test1", drawingName:"svg",itemType:"Box", text:"test")
+    <$set name="x" value={{$drawingName$X##$itemName$}} >
+        <$set name="y" value={{$drawingName$Y##$itemName$}} >
+            <$set name="width" value={{$drawingName$Width##$itemName$}} >
+                <$set name="height" value={{$drawingName$Height##$itemName$}} >
+                    <$macrocall 
+                            $name="draw$itemType$" 
+                            x=<<x>> 
+                            y=<<y>> 
+                            height=<<height>>
+                            width=<<width>> 
+                            text="$text$" 
+                    />
+                </$set>
+            </$set>
+        </$set>
+    </$set>
+\end
+
+\define setSvgValue(drawingName:"svg",attributeName:"X",itemName:"temp1")
+    <$select 
+            tiddler="$drawingName$$attributeName$" 
+            index="$itemName$"
+            default="10"
+    >
+        <option value=""> -- </option>
+        <$list filter="5 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490">
+            <option value=<<currentTiddler>> > <<currentTiddler>> </option>
+        </$list>
+    </$select>
+\end
+
+\define setSvgType(drawingName:"svg",attributeName:"Type",itemName:"temp1")
+    <$select 
+            tiddler="$drawingName$$attributeName$" 
+            index="$itemName$"
+            default="10"
+    >
+        <option value=""> -- </option>
+        <$list filter="Box Circle Document Line Text Ellipse">
+            <option value=<<currentTiddler>> > <<currentTiddler>> </option>
+        </$list>
+    </$select>
+\end
+
+\define displayDrawing(drawingName:"svg")
+    <svg stroke-width="1" stroke="#000000" fill="none" width="600" height="400">
+        <$list filter="[[$drawingName$Type]indexes[]]" variable="itemName"> 
+            <$set filter="[[$drawingName$Type]getindex<itemName>]" name="itemType" >
+                <$macrocall 
+                        $name="displaySVGItem"
+                        itemName=<<itemName>>
+                        drawingName={{svgDrawingName!!caption}}
+                        itemType=<<itemType>>
+                        text=<<itemName>>
+                 />
+            </$set>
+        </$list>
+    </svg>
+\end
+
+\define dispayDrawingControls(drawingName:"svg")
+    <br/>''Drawing to display: ''
+    <$select tiddler="svgDrawingName" field="caption">
+        <option value="">--</option>
+        <$list filter="[[svgDrawingWidth]indexes[]]">
+            <option value=<<currentTiddler>> >
+                <<currentTiddler>>
+            </option>
+        </$list>
+    </$select>
+
+    ''New Drawing:'' <$edit tiddler="svgDrawingName" field="caption" />
+
+    <br/>''Drawing Attributes:''
+    Width: <$macrocall 
+            $name="setSvgValue"
+            drawingName="svgDrawing"
+            itemName={{svgDrawingName!!caption}}
+            attributeName="Width" />
+    Height: <$macrocall 
+            $name="setSvgValue"
+            drawingName="svgDrawing"
+            itemName={{svgDrawingName!!caption}}
+            attributeName="Height" />
+
+    <br/>''Item to edit:''
+    <$select tiddler="svgBoxName" field="caption">
+        <option value="">--</option>
+        <$list filter="[[$drawingName$X]indexes[]]">
+            <option value=<<currentTiddler>> >
+                <<currentTiddler>>
+            </option>
+        </$list>
+    </$select>
+
+    New box: <$edit tiddler="svgBoxName"  field="caption" />
+
+
+    <br/>''Item Attributes:''
+    X: <$macrocall 
+            $name="setSvgValue"
+            drawingName="$drawingName$"
+            itemName={{svgBoxName!!caption}}
+            attributeName="X" />
+    Y: <$macrocall 
+            $name="setSvgValue"
+            drawingName="$drawingName$"
+            itemName={{svgBoxName!!caption}}
+            attributeName="Y" />
+    Width: <$macrocall 
+            $name="setSvgValue"
+            drawingName="$drawingName$"
+            itemName={{svgBoxName!!caption}}
+            attributeName="Width" />
+    Height: <$macrocall 
+            $name="setSvgValue"
+            drawingName="$drawingName$"
+            itemName={{svgBoxName!!caption}}
+            attributeName="Height" />
+    Type: <$macrocall 
+            $name="setSvgType"
+            drawingName="$drawingName$"
+            itemName={{svgBoxName!!caption}}
+            attributeName="Type" />
+\end
+
+<$macrocall $name="displayDrawing"
+            drawingName={{svgDrawingName!!caption}}
+/>
+<$macrocall $name="dispayDrawingControls"
+            drawingName={{svgDrawingName!!caption}}
+/>

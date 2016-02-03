@@ -1,0 +1,83 @@
+title: $:/GitNote/Modifier ses fichiers
+created: 20150216153403848
+modified: 20160122111706319
+original-tags: Menu
+source-wiki-id: GitNote
+source-tiddler-title-as-text: Modifier ses fichiers
+source-tiddler-title-as-link: Modifier%20ses%20fichiers
+
+!!!1. Modifier votre fichier dans le répertoire de travail
+
+!!!2. Vérifier le nouveau status
+
+```c
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   file.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+!!!3. Ajouter votre fichier à l'index
+
+```c
+$ git add file.txt
+```
+
+@@.info
+<i class="fa fa-info-circle fa-2x pull-left"></i> On peut aussi utiliser `git add .` qui permet d'indexer tous les fichiers quand il y en a plusieurs.
+@@
+
+On vérifie:
+
+```c
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   file.txt
+```
+
+!!!4. Réaliser votre deuxième commit
+
+```c
+$ git commit -m "Add email adress"
+```
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Les messages des commits doivent être clair avec "Fix", "Add", "Change", "Update"... et une description brêve de la modification.
+@@
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i>Il est possible d'utiliser `git commit -am "Message"` qui combine `git add` et `git commit -m` mais seulement pour les fichiers déjà en suivi (n'ajoute pas les nouveaux fichiers).
+@@
+
+On vérifie le status du répertoire...
+
+```c
+$ git status
+On branch master
+nothing to commit, working directory clean
+```
+
+...et notre historique
+
+```c
+$ git log
+commit 43628f779cb333dd30d78186499f93638107f70b
+Author: [Votre_pseudo] [Votre_email]
+Date: Wed Mar 9 10:27:54 2011 -0500
+
+    Add email adress
+
+commit 911e8c91caeab8d30ad16d56746cbd6eef72dc4c
+Author: [Votre_pseudo] [Votre_email]
+Date: Wed Mar 9 10:27:54 2011 -0500
+
+    First Commit
+```

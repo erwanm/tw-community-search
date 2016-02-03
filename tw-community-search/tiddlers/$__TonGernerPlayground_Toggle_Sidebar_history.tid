@@ -1,0 +1,25 @@
+title: $:/TonGernerPlayground/Toggle Sidebar history
+created: 20140807135057353
+creator: TonGerner
+modified: 20140811150757848
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Toggle Sidebar history
+source-tiddler-title-as-link: Toggle%20Sidebar%20history
+
+@@.sliderBG
+
+<div>
+
+Older versions of 'TW5 top menu + toolbars [1] (before TW5.0.9-beta) contained the possibility of hiding the Sidebar and using fluid tiddler width (the so-called 'toggle sidebar' functionality).<br>Since the introduction of the 'Hamburger' icon in TW 5.0.9 (in TW 5.0.11 changed to 'double chevron' icon) for dismissing the Sidebar and expanding the story river to fill the space, I left my 'toggle sidebar' functionality out.
+
+But after some time I felt I missed something of my 'toggle sidebar' functionality, especially when using a widescreen monitor. Therefore I changed the 'standard 'hide Sidebar' functionality to a 'tristate' functionality by adding an intermediate state: smaller Sidebar with fluid tiddler width. The Sidebar width is configurable.
+
+[1] http://tw5toolbar.tiddlyspot.com/
+
+---
+
+</div>
+
+@@

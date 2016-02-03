@@ -1,0 +1,36 @@
+title: $:/ErwansLearningTW/Show the source code of a tiddler in code block (with proper line breaks)
+created: 20141116233648936
+creator: Erwan
+modified: 20141116234332566
+modifier: Erwan
+original-tags: answered question
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Show the source code of a tiddler in code block (with proper line breaks)
+source-tiddler-title-as-link: Show%20the%20source%20code%20of%20a%20tiddler%20in%20code%20block%20%28with%20proper%20line%20breaks%29
+
+To show the source content of a tiddler, for instance [[$:/core/ui/Buttons/new-journal-here]]:
+
+```
+<pre>
+  <$view tiddler="$:/core/ui/Buttons/new-journal-here"/>
+</pre>
+```
+
+<pre>
+  <$view tiddler="$:/core/ui/Buttons/new-journal-here"/>
+</pre>
+
+Works also for the current tiddler, of course:
+
+```
+<pre>
+  <$view/>
+</pre>
+```
+
+<pre>
+  <$view/>
+</pre>
+
+
+From Ton Gerner's "exploration of TW5" http://tw5exploration.tiddlyspot.com/#%24%3A%2F_macros%2Fcodefilter

@@ -1,0 +1,32 @@
+title: $:/inmysocks/twCard - Plugin - MangleTagsWidget
+audience: 
+category: Widget
+created: 20150106175012859
+date: 30-05-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Matabele
+modified: 20150210031335852
+name: MangleTagsWidget
+plugin_tiddler: $:/plugins/matabele/mangletags
+release: 
+repository: 
+revision: 0.0.6
+short_description: Editing tags and the tag field of tiddlers
+wiki: http://gwiz.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - MangleTagsWidget
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20MangleTagsWidget
+
+The MangleTags Widget traps WidgetMessage: tw-mangle-tags dispatched within its child content by performing any or all of these actions:
+
+    appending a tag to the tags field
+    finding and removing a tag from the tags field
+    finding and replacing a tag from the tags field
+    setting a new value for the target tiddler
+    passing on or sending a different widget message
+
+The widget may be used in a stack to manipulate several tags, either in the same target tiddler or in different target tiddlers (the title of the target is passed up through the stack by default.)

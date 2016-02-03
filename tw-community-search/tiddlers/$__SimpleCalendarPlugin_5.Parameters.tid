@@ -1,0 +1,18 @@
+title: $:/SimpleCalendarPlugin/5.Parameters
+created: 20151115203223124
+modified: 20151115203833509
+original-tags: CalendarDoc
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: 5.Parameters
+source-tiddler-title-as-link: 5.Parameters
+
+The values given to the parameters take precedence over the values in the config Tiddler. The default values below are the values used by the macro when no parameter is specified and no value is declared in the configTiddler (when relevant).
+
+|!Parameter|!Description |!Default value|
+|''state'' |The title of the tiddler that contains the two fields ''year'' and ''month'' the calendar macro uses to display the monthly calendar.|current tiddler|
+|''config'' |The title of a JSON tiddler that holds all the configuration values. See doc [[here|calendarDocConfigTiddler]]|[[$:/plugins/frd/calendar/calendarConfig]]|
+|''startingDay''|A value from "0" to "6" to indicate on which day the week begins. Use "0" for Sunday, "1" for Monday, "2" for Tuesday, and so on (until "6" for Saturday).|"0"|
+|''year''|The macro uses this parameter (and month below) to initialize the calendar when the fields that hold the values for year (and month) are empty or non existent.|current year|
+|''month''|idem above for the month.|current month|
+|''buttons''|Used to specify whether the calendar wil have buttons on the first row or not. The default is with buttons (you don't need to specify a value). If you want no buttons, just use this in the macro call : `buttons:none`.|empty string|
+|''cellContent''|`basic` : outputs the number of the day, `linkFormat` : outputs a link to the tiddler of the day (according to the format define in the  [[config tiddler|calendarDocConfigTiddler]], any other value must be an existing macro for the content of a cell|linkFormat|

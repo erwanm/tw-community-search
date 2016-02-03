@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Title (Edit Mode)
+created: 20150602195413343
+css_tiddler: input.tc-titlebar.tc-edit-texteditor Class Override
+description: These apply to the tiddler title when in edit mode
+modified: 20150603004907341
+original-tags: [[Font Settings]] [[Advanced Settings Category]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Title (Edit Mode)
+source-tiddler-title-as-link: Tiddler%20Title%20%28Edit%20Mode%29
+
+{{Tiddler Title (Edit Mode)||CSS Options Template}}

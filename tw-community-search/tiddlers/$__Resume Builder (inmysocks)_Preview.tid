@@ -1,0 +1,13 @@
+title: $:/Resume Builder (inmysocks)/Preview
+created: 20150720171244344
+modified: 20150720171304274
+original-tags: $:/tags/SideBar
+source-wiki-id: Resume Builder (inmysocks)
+source-tiddler-title-as-text: Preview
+source-tiddler-title-as-link: Preview
+
+<div class='tc-tiddly-frame' style='background:white;max-width:700px;border:solid black 1px;color:black'>
+<div style='max-width:689px;margin-left:20px'>
+<$transclude tiddler='Print Version' mode=block/>
+</div>
+</div>

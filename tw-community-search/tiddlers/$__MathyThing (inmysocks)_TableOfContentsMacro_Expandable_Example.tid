@@ -1,0 +1,14 @@
+title: $:/MathyThing (inmysocks)/TableOfContentsMacro Expandable Example
+caption: Expandable
+original-tags: table-of-contents-example
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: TableOfContentsMacro Expandable Example
+source-tiddler-title-as-link: TableOfContentsMacro%20Expandable%20Example
+
+!! Expandable Table of Contents
+
+<$macrocall $name='wikitext-example-without-html'
+src='<div class="tc-table-of-contents">
+<<toc-expandable "Contents">>
+</div>
+'/>

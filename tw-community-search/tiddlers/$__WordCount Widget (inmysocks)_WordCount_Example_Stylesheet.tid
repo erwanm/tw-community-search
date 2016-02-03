@@ -1,0 +1,11 @@
+title: $:/WordCount Widget (inmysocks)/WordCount Example Stylesheet
+created: 20150629192052160
+modified: 20151207190810790
+original-tags: $:/tags/Stylesheet
+source-wiki-id: WordCount Widget (inmysocks)
+source-tiddler-title-as-text: WordCount Example Stylesheet
+source-tiddler-title-as-link: WordCount%20Example%20Stylesheet
+
+.change-color {
+color:{{$:/state/Word Count Widget/color}};
+}

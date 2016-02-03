@@ -1,0 +1,31 @@
+title: $:/node/readme.md
+created: 20151013155449914
+modified: 20151014121909454
+summary: using [[tiddlywiki]] to generate your project's [[readme.md]] on [[github]]
+original-tags: 
+source-wiki-id: node
+source-tiddler-title-as-text: readme.md
+source-tiddler-title-as-link: readme.md
+
+When a repository is visited, [[github]] will look for a `readme.md` file and display it. As a security measure, github displays [[markdown]] instead of full [[html]] files.
+
+Based on the safe subset of html elements permitted by markdown, you can use the [[--rendertiddler]] command on the <<cl>> to have [[tiddlywiki]] save the contents of the html representation of a tiddler as a ''readme.md'' suitable for github:
+
+```
+--rendertiddler ReadMe ./readme.md text/html
+```
+<<<
+&raquo; renders the tiddler <<tw ReadMe>><br>
+&raquo; saves it to the file `./readme.md`<br>
+&raquo; in the format `text/html`
+<<<
+
+By default, internal wiki links are rendered as html `<a>` elements to a relative uri consisting of the title of the tiddler.
+
+Depending on whether you use a [[standalone]] wiki or [[static]] files, add or modify the macro `tv-wikilink-template`, see source of <<tw ReadMe>>:
+
+```
+\define tv-wikilink-template() http://tiddlywiki.com/static/$uri_doubleencoded$.html
+```
+
+The above redirect all internal links to static [[html]] files for tiddlers on <<twcom>>. See the <<tw LinkWidget>> for more details.

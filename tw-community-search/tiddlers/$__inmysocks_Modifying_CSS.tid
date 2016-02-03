@@ -1,0 +1,43 @@
+title: $:/inmysocks/Modifying CSS
+created: 20150426191103485
+modified: 20150427000516198
+original-tags: [[Learning to Customize TiddlyWiki]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Modifying CSS
+source-tiddler-title-as-link: Modifying%20CSS
+
+There is a [[list of builtin CSS classes|Builtin CSS Classes]] for TiddlyWiki, modifying these classes can be useful.
+
+There is a [[list of some relevant CSS properties]].
+
+Examples here use styled define in [[Example Stylesheet]].
+
+!WikiText CSS
+
+WikiText inline css is marked with `@@`, so you could set text color like this
+
+```
+@@color:blue;
+Some example text
+@@
+```
+
+giving:
+
+@@color:blue;
+Some example text
+@@
+
+You can also use a stylesheet like this (see stylesheet-example-blue defined in [[Example Stylesheet]].):
+
+```
+@@.stylesheet-example-blue
+Some example text
+@@
+```
+
+giving:
+
+@@.stylesheet-example-blue
+Some example text
+@@

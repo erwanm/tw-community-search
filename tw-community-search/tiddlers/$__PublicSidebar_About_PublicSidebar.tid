@@ -1,0 +1,23 @@
+title: $:/PublicSidebar/About PublicSidebar
+created: 20150819195242439
+modified: 20150820171601370
+original-tags: 
+source-wiki-id: PublicSidebar
+source-tiddler-title-as-text: About PublicSidebar
+source-tiddler-title-as-link: About%20PublicSidebar
+
+The ''~PublicSidebar'' lets you display different sidebars depending on domain (url).
+
+For instance, you may prefer the regular sidebar lists when you admin your TW but a conventional menu when it's uploaded for the public.
+
+//Note:// No core tiddlers are overwritten. Instead CSS is used to redefine what is displayed. 
+
+<br>''Installation''<br>
+Drag these three tiddlers into your TW from here and @@color:crimson; ''//reload//''@@ your TW afterwards.
+
+|$:/PublicSidebar/main|Specifies the public URL and redefines CSS to hide/show parts. You must of course tweak these things. See [[here|Sidebar CSS overview]] for details. |
+|PublicMenu|Sample menu, seen on right. To be tweaked by you, see [[here|Set up your menu tiddler like this]] for guidance.|
+|$:/macros/buggyj/misc/location.js|The macro detecting the current url is from fellow ~BuggyJ ([[source|https://groups.google.com/d/msg/tiddlywiki/bDAOWS5fcHw/5jr5Xtd9CQAJ]]). @@color:crimson; ''//Thank you ~BuggyJ !//''@@|
+
+<br><:-)<br>
+@@font-size:small; //[[TWaddling|http://twaddle.tiddlyspot.com]] since 1915//@@

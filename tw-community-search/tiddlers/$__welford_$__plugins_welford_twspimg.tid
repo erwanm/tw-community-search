@@ -1,0 +1,15 @@
+title: $:/welford/$:/plugins/welford/twspimg
+author: James.W.Anderson
+core-version: >=5.0.0
+dependents: 
+description: enables a partial image to be shown as the background of a span element
+list: README
+revision: 0
+version: 5.1.10-prerelease
+original-tags: 
+source-wiki-id: welford
+source-tiddler-title-as-text: $:/plugins/welford/twspimg
+source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwspimg
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

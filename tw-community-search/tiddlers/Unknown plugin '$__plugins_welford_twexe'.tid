@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/welford/twexe'
+name: unknown
+plugin_tiddler: $:/plugins/welford/twexe
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

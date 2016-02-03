@@ -1,0 +1,61 @@
+title: $:/StartupActions/What is going on?
+created: 20150224222342197
+creator: inmysocks
+modified: 20150224225329837
+modifier: inmysocks
+original-tags: 
+source-wiki-id: StartupActions
+source-tiddler-title-as-text: What is going on?
+source-tiddler-title-as-link: What%20is%20going%20on%3f
+
+This is a demo of the ~StartupActions plugin. If you haven&#39;t saved this wiki or this is the first time you have opened it you should have seen a modal window when you loaded the wiki. If not something is broken, you should tell me on the google group https://groups.google.com/forum/#!forum/tiddlywiki or through the feedback on http://inmysocks.tiddlyspot.com (it is the envelope icon in the upper left).
+
+plugin tiddler: $:/plugins/inmysocks/StartupActions
+
+This plugin allows you to write a script using action widgets in a tiddler (or multiple tiddlers) and tagging the tiddler with `$:/tags/StartupAction`. Then when the wiki starts, either by loading or reloading it, the actions in the tiddler will be triggered like they were in a button widget that got pressed. The actions for this demo are in the [[Startup Actions Script]] tiddler. It will make a modal appear the when the wiki is loaded, and keep the modal from loading if you click the `Don&#39;t show again` button in the modal. It will also change the site subtitle. If the subtitle is `Yay!` it will change to `Woo!`, and if it is `Woo!` it will change to `Yay!`.
+
+If you could put something in a button widget it can go in a startup tiddler.
+
+&#39;&#39;Some Notes:&#39;&#39;<br>
+Widget messages that aren&#39;t handled by the core still require the widget to handle them, so an action-sendmessage widget with the message `tm-add-field` has to have a fieldmangler widget around the action widget in the script.
+
+The actions take place outside the normal story, so if you use a message that requires the navigator widget you need to use `<$navigator story=&#39;$:/StoryList&#39;>` to make the action happen in the normal story river.
+
+Scripts can use macros, both those defined in the script tiddler and global macros, the demo in this wiki uses both. See [[Startup Actions Script]] and [[Demo Macro]].
+
+!The `action_filter` field:
+
+If a tiddler tagged with `$:/StartupAction` has a non-empty field called `action_filter` than the behavior changes a little. The action widgets will be triggered, but they will be triggered once for each thing returned by the filter in the `action_filter` field, and each time they are triggered they will have the `currentTiddler` variable set to the current item in the list returned by the filter. This can be used to make each action widget affect each tiddler in turn, if the list returns tiddlers, or it can be used to run a sequence of actions with different input parameters set by the currentTiddler variable.
+
+
+!Example 1
+
+If you had the script:
+
+```
+<$action-setfield title=<<currentTiddler>>/>
+```
+
+and the `action_filter` field was set to:
+
+```
+<$list filter=&#39;1 2 3 4 5 6 7 8 9&#39;/>
+```
+
+Then when the wiki was (re)loaded next 9 tiddlers would be created with the titles `1`, `2`, `3`, and so on.
+
+!Example 2 (DON&#39;T ACTUALLY DO THIS)
+
+Alternately you could use this script (don&#39;t do this, it will overwrite all the tiddlers in your wiki):
+
+```
+<$action-setfield text=&#39;Don&#39;t do this&#39;/>
+```
+
+and have the `action_filter` field set to
+
+```
+[all[]]
+```
+
+This is a horrible idea because it will set the text field of all tiddlers in your wiki to `Don&#39;t do this`. But it demonstrates the sort of thing that is possible.

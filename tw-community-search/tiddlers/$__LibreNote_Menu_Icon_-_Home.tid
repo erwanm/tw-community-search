@@ -1,0 +1,24 @@
+title: $:/LibreNote/Menu Icon - Home
+created: 20150517201407546
+creator: svink
+modified: 20160112141640087
+modifier: svink
+top_right_menu_order: 1
+original-tags: icone $:/tags/TopRightMenu
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu Icon - Home
+source-tiddler-title-as-link: Menu%20Icon%20-%20Home
+
+@@.tc-icon-menu
+<$link to="Bannière"></$link>
+<$button class="tc-btn-invisible" tooltip='Accueil'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[Accueil]]
+[[Introduction]]
+[[Blog]]
+[[Projet]]
+[[A propos]]"/>
+<$action-navigate $to="Accueil" $scroll="yes"/>
+<i class="fa fa-home"></i> Home
+</$button>
+@@

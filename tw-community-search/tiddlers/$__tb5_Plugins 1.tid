@@ -1,0 +1,24 @@
+title: $:/tb5/Plugins
+caption: Plugins
+created: 20151221110718806
+creator: Tobias Beer
+icon: $:/core/images/plugin-generic-plugin
+menu: main
+menu-icon: {{$:/core/images/plugin-generic-plugin}}
+modified: 20151221111009028
+revision: 0
+summary: interesting plugins for tw5
+type: text/vnd.tiddlywiki
+original-tags: Welcome
+source-wiki-id: tb5
+source-tiddler-title-as-text: Plugins
+source-tiddler-title-as-link: Plugins
+
+For a list of plugins created by [[Tobias Beer]], see [[My Plugins|plugins]]...
+
+{{Plugin}}
+
+<br>
+Some [[information on plugins|http://tiddlywiki.com/#Plugins]] not included in the core but contained in the TiddlyWiki repository...
+
+<<static Plugins 800px yes>>

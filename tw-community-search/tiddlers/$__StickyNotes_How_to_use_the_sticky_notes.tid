@@ -1,0 +1,15 @@
+title: $:/StickyNotes/How to use the sticky notes
+created: 20151204191745791
+modified: 20151204192455332
+original-tags: 
+source-wiki-id: StickyNotes
+source-tiddler-title-as-text: How to use the sticky notes
+source-tiddler-title-as-link: How%20to%20use%20the%20sticky%20notes
+
+''How to use the sticky notes''
+
+*Drag the icon [[new_notes_icon.svg]] to your TW
+*Drag the macro [[AddNewNotes]] to your TW
+*Drag the stylesheet [[Notes style]] to your TW
+*Transclude the macro into your tiddlers like this ``{{||AddNewNotes}}`` (see [[Example notes 1]] and [[Example notes 2]])
+
