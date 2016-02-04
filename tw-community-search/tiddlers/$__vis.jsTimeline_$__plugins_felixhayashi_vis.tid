@@ -5,7 +5,7 @@ dependents:
 description: Visjs – TiddlyWiki5 plugin for the vis.js library
 list: readme
 source: https://github.com/felixhayashi/TW5-Vis.js
-version: 4.12.0
+version: 4.13.0
 original-tags: 
 source-wiki-id: vis.jsTimeline
 source-tiddler-title-as-text: $:/plugins/felixhayashi/vis

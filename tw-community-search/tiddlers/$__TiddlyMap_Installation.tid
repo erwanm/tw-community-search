@@ -1,6 +1,6 @@
 title: $:/TiddlyMap/Installation
 created: 20141218163905294
-modified: 20160202205900735
+modified: 20160203092213471
 tmap.edges: {}
 tmap.id: A94544D7-9A04-40D6-9274-AD56617C04BE
 type: text/vnd.tiddlywiki
@@ -22,16 +22,24 @@ By using this plugin you agree to the product's [[License Terms|$:/plugins/felix
 
 <i class="fa fa-exclamation-circle"></i>  Before installing, I highly recommend you have a quick look at [[Common Pitfalls]] and [[Best Practices]].
 
+<style>.ver { font-weight: normal; }</style>
+
+<$vars
+    tmVer={{$:/plugins/felixhayashi/tiddlymap!!version}}
+    visVer={{$:/plugins/felixhayashi/vis!!version}}
+    hzVer={{$:/plugins/felixhayashi/hotzone!!version}}
+    tsvVer={{$:/plugins/felixhayashi/topstoryview!!version}}>
+
 # Get yourself an empty copy of TiddlyWiki at [[tiddlywiki.com|http://tiddlywiki.com]].
 # Open your TiddlyWiki in a browser.
-# Drag all the links below to the browser window containing your TiddlyWiki: <sup>[1]</sup>
-#; [[TW5-TiddlyMap|$:/plugins/felixhayashi/tiddlymap]]
+# Drag __all__ the links below into the browser window that contains your TiddlyWiki. You also need to drag all links __everytime__ you update TiddlyMap: <sup>[1]</sup>
+#; [[TW5-TiddlyMap|$:/plugins/felixhayashi/tiddlymap]] @@.ver (v<<tmVer>>)@@
 #: This is the core TiddlyMap plugin.
-#; [[TW5-Vis.js|$:/plugins/felixhayashi/vis]]
+#; [[TW5-Vis.js|$:/plugins/felixhayashi/vis]] @@.ver (v<<visVer>>)@@
 #: This plugin will install vis.js which is required for the graph's rendering.
-#; [[TW5-HotZone|$:/plugins/felixhayashi/hotzone]]
+#; [[TW5-HotZone|$:/plugins/felixhayashi/hotzone]] @@.ver (v<<hzVer>>)@@
 #: This plugin is necessary when you want to use the //live view//.
-#; [[TW5-TopStoryView|$:/plugins/felixhayashi/topstoryview]]
+#; [[TW5-TopStoryView|$:/plugins/felixhayashi/topstoryview]] @@.ver (v<<tsvVer>>)@@
 #: Unless you are using the //zoomin// or //stacked// story view, install this plugin to achieve a better live view experience.
 # Maybe you also want to install [[Font Awesome for TiddlyWiki]]
 # Save your TiddlyWiki.

@@ -1,6 +1,6 @@
 title: $:/TiddlyMap/Copy & paste nodes between views
 created: 20150930165724213
-modified: 20151106172217572
+modified: 20160203090910489
 tmap.id: 171dd7c4-b0e4-4737-9daa-4ada5ecc55de
 type: text/vnd.tiddlywiki
 original-tags: Views
@@ -13,10 +13,10 @@ source-tiddler-title-as-link: Copy%20%26%20paste%20nodes%20between%20views
 {{This feature is available as of TiddlyMap v0.9.3.||$:/me/info}}
 
 ! Selection of nodes
-Select multiple nodes By holding down the control key and clicking on the nodes. Alternatively, you can hold down the left mouse-key on a node for one second to select this node along with other nodes. To select all nodes use `ctrl+a`.
+Select multiple nodes By holding down the control key and clicking on the nodes. Alternatively, you can hold down the left mouse-key on a node for one second to select this node along with other nodes. To select all nodes use <kbd>ctrl</kbd>+<kbd>a</kbd>.
 
 ! Cut or copy nodes
-After selection, press `ctrl+x` to cut nodes or `ctrl+c` to copy nodes from the current view. The nodes will be copied into your clipboard and can be pasted via `ctrl+v` into another graph.
+After selection, press <kbd>ctrl</kbd>+<kbd>x</kbd> to cut nodes or <kbd>ctrl</kbd>+<kbd>c</kbd> to copy nodes from the current view. The nodes will be copied into your clipboard and can be pasted via <kbd>ctrl</kbd>+<kbd>v</kbd> into another graph.
 
 <i class="fa fa-exclamation-triangle" /> When cutting nodes, TiddlyMap will try to remove the nodes from the current view's node filter. This only works, if the nodes have been added one by one to the view via the editor's "add node" button or by having double clicked on the canvas. If nodes were added with a filter (e.g. `[tag[Task]]`) then you need to change the node filter to remove nodes. 
 

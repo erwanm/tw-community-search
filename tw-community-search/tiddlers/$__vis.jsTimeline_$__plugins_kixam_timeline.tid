@@ -6,7 +6,7 @@ depends: $:/plugins/felixhayashi/vis $:/plugins/kixam/moment
 description: vis.js Timeline plugin for TiddlyWiki5
 list: readme usage license
 source: https://github.com/kixam/TW5-visjsTimeline
-version: 0.7.5
+version: 0.7.6
 original-tags: 
 source-wiki-id: vis.jsTimeline
 source-tiddler-title-as-text: $:/plugins/kixam/timeline
