@@ -1,6 +1,6 @@
 title: $:/TiddlyMap/Map Constructs
 created: 20150711234909575
-modified: 20160122203904978
+modified: 20160205130841728
 order.challenges: 7
 tmap.id: b37abde1-4fa2-4ce6-896b-05eb694c5718
 type: text/vnd.tiddlywiki
@@ -34,4 +34,4 @@ Map constructs may be understood as the conceptual building blocks of TiddlyMap.
 
 </div>
 
-An important question related to these constructs is, which data structure to employ for storage and retrival of construct instances. This includes for example the [[Storage of Edges and their types]].
+An important question related to these constructs is, which storage structure to employ for storage and retrival of construct instances. This includes for example the [[Storage of Edges and their types]].

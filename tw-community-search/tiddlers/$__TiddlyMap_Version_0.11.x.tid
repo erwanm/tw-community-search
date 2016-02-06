@@ -1,13 +1,18 @@
 title: $:/TiddlyMap/Version 0.11.x
 caption: v0.11.x
 created: 20160110150833987
-modified: 20160202210559030
+modified: 20160205104358983
 tmap.id: 34976ded-1d7e-4798-b7ef-a12fc5cdaeef
 type: text/x-markdown
 original-tags: ReleaseNote Usability Configurability Performance
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.11.x
 source-tiddler-title-as-link: Version%200.11.x
+
+General information
+----------------------------
+
+Please read [Upgrading to v0.11.x](#Upgrading to v0.11.x).
 
 Major enhancements
 ----------------------------
@@ -38,6 +43,10 @@ Major enhancements
 
 Important bugfixes
 ----------------------------
+
+### v0.11.1
+
+* Popup didn't work correctly under Firefox.
 
 ### v0.11.0
 

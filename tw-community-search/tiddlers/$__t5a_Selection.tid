@@ -1,0 +1,11 @@
+title: $:/t5a/Selection
+created: 20160205034350122
+creator: Andrew Harrison
+modified: 20160205034421542
+modifier: Andrew Harrison
+original-tags: [[Copy Button]] $:/tags/EditToolbar
+source-wiki-id: t5a
+source-tiddler-title-as-text: Selection
+source-tiddler-title-as-link: Selection
+
+<span class="tc-copy-button"><$button param={{!!title}} message="tm-selection" tooltip={{$:/language/Buttons/Copy/Hint}} aria-label={{$:/language/Buttons/Copy/Caption}} class="tc-btn-invisible"><$action-sendmessage $message="tm-notify" $param="$:/language/Buttons/Copy/Notification"/>{{$:/plugin/ajh/copy/images/copy}}</$button>
