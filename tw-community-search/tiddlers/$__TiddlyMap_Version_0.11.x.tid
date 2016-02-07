@@ -17,6 +17,11 @@ Please read [Upgrading to v0.11.x](#Upgrading to v0.11.x).
 Major enhancements
 ----------------------------
 
+### v0.11.2
+
+* Added option to search for tiddlers in the toolbar using
+  regular expressions
+
 ### v0.11.0
 
 * Resolves #204: Simplify widget notation.
@@ -43,6 +48,10 @@ Major enhancements
 
 Important bugfixes
 ----------------------------
+
+### v0.11.2
+
+* Fixes #215: Toolbar button search produces wrong results bug
 
 ### v0.11.1
 
