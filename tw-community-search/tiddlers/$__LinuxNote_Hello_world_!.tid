@@ -2,7 +2,7 @@ title: $:/LinuxNote/Hello world !
 color: #7f8c8d
 created: 20141024083211957
 icon: $:/core/images/home-button
-modified: 20160122135237340
+modified: 20160207124253353
 original-tags: Menu [[Mises à jour]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Hello world !
@@ -34,10 +34,3 @@ J'ai toujours apprécié l'esprit du logiciel libre (l'ouverture, le partage...)
 !!À propos
 
 {{A propos}}
-
-<br>
-
------
-@@.no-border
-|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence CC BY-SA 4.0</a>|
-@@

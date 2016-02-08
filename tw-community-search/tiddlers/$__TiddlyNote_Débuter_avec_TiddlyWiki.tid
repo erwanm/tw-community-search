@@ -2,7 +2,7 @@ title: $:/TiddlyNote/Débuter avec TiddlyWiki
 color: #e3b3f7
 created: 20150119130101546
 list: [[Ressources internet]] [[Formatage de texte]] [[Insérer des images]] ContenuExterne [[Utilisation des tags]] Personnalisation Plugins Filtres [[Trucs et astuces]] [[Outils externes]]
-modified: 20160122130801278
+modified: 20160207122151282
 original-tags: Menu [[Mises à jour]]
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Débuter avec TiddlyWiki
@@ -29,10 +29,3 @@ Vous pouvez stocker votre ~TiddlyWiki en local où dans un cloud pour y accéder
 !!À propos
 
 {{A propos}}
-
-<br>
-
------
-@@.no-border
-|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence CC BY-SA 4.0</a>|
-@@

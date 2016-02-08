@@ -1,6 +1,6 @@
 title: $:/GitNote/Tagger ses versions
 created: 20150217083353300
-modified: 20150423103144486
+modified: 20160207120527152
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Tagger ses versions
@@ -21,16 +21,16 @@ Pour connaître le SHA, utilisez la commande `git hist`
 
 ```c
 $ git hist
-* b24f3ff 2014-10-25 | Using ARGV [Votre_pseudo]
-* cf466b4 2014-10-25 | First Commit [Votre_pseudo]
+* b24f3ff 2014-10-25 | Add email adress [Votre_pseudo]
+* cf466b4 2014-10-25 | Initial Commit [Votre_pseudo]
 ```
 
 La somme de contrôle SHA des commits correspond aux 7 chiffres et lettres au début de chaque ligne.
 
-Pour ajouter le tag v1.0 au "First commit" il faut lancer:
+Pour ajouter le tag v1.0 au commit "Add email adress" il faut lancer:
 
 ```c
-$ git tag v1.0 cf466b4
+$ git tag v1.0 b24f3ff
 ```
 
 On peut visualiser tous les tags avec la commande
@@ -44,16 +44,6 @@ Il faut explicitement pousser les étiquettes après les avoir créées localeme
 
 ```c
 $ git push origin v1.0
-```
-
-```c
-$ git push origin v1.0
-Counting objects: 50, done.
-Compressing objects: 100% (38/38), done.
-Writing objects: 100% (44/44), 4.56 ~KiB, done.
-Total 44 (delta 18), reused 8 (delta 1)
-To git@github.com:schacon/simplegit.git
-* [new tag]         v1.0 -> v1.0
 ```
 
 Si vous avez plusieurs étiquettes, vous pouvez toutes les pousser en une fois vers le serveur distant:

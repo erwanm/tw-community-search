@@ -1,6 +1,6 @@
 title: $:/GitNote/Utiliser Git
 created: 20150216103314199
-modified: 20150424081428973
+modified: 20160207121035654
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Utiliser Git
@@ -50,18 +50,18 @@ $ git add file.txt
 5. Réaliser son premier commit
 
 ```c
-$ git commit -m "First commit"
+$ git commit -m "Initial commit"
 ```
 
 @@.info
-<i class="fa fa-info-circle fa-3x pull-left"></i> L'option `-m` permet d'ajouter un message au commit. Il faut toujours décrire succinctement les changement apportés aux fichiers (moins de 50 caractères).<br>
+<i class="fa fa-info-circle fa-3x pull-left"></i> L'option `-m` permet d'ajouter un message au commit pour décrir la modification de manière brève (moins de 50 caractères) et précise avec des termes comme "Fix", "Add", "Update"...
 @@
 
 retour:
 
 ```c
-$ git commit -m "First commit"
-[master (root-commit) 71c7399] First commit
+$ git commit -m "Initial commit"
+[master (root-commit) 71c7399] Initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file.txt
 ```
@@ -80,7 +80,7 @@ commit 71c739930fde4efd0746b452115329fdc8b2b38e
 Author: [Votre_pseudo] [Votre_Email]
 Date:   Mon Feb 16 14:02:05 2015 +0100
 
-First Commit
+Initial Commit
 ```
 
 > ''Et voilà! Vous savez maintenant utiliser Git dans ses grandes lignes.''

@@ -1,7 +1,7 @@
 title: $:/GitNote/Git c'est quoi ?
 created: 20150216085058617
 list: [[Installer et configurer Git]] [[Utiliser Git]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]] [[Travailler avec un dépôt distant]] [[Exemple de mise en œuvre]] [[Tagger ses versions]]
-modified: 20151112182551800
+modified: 20160207104727189
 original-tags: Menu [[Mises à jour]]
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Git c'est quoi ?
@@ -62,15 +62,3 @@ Dans ce qui suit, vous allez apprendre à utiliser Git dans ses grandes lignes g
 !!À propos
 
 {{A propos}}
-
-<br>
-
------
-@@.no-border
-|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence CC BY-SA 4.0</a>|
-@@
-
-
-
-
-

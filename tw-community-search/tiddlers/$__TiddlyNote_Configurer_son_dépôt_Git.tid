@@ -1,6 +1,6 @@
 title: $:/TiddlyNote/Configurer son dépôt Git
 created: 20150226133514547
-modified: 20160122133900474
+modified: 20160207122941327
 original-tags: [[Héberger son TiddlyWiki]] Git
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Configurer son dépôt Git
@@ -55,9 +55,8 @@ retour:
 
 ```c
 $ git clone https://bitbucket.org/username/nom-du-depot.git
-Cloning into 'nom-du-depot'...
-Password
-warning: You appear to have cloned an empty repository.
+Clonnage dans 'mon_répertoire'...
+warning: Vous semblez avoir cloné un dépôt vide.
 ```
 
 Git sait désormais qu’il existe un dépôt distant et que c’est là où vous voulez envoyer vos modifications du dépôt local. Pour confirmer cela, on utilise la commande `git remote -v`:

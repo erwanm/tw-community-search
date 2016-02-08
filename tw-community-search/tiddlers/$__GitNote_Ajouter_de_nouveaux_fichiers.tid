@@ -1,6 +1,6 @@
 title: $:/GitNote/Ajouter de nouveaux fichiers
 created: 20150216155025496
-modified: 20160122100705018
+modified: 20160207115733261
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Ajouter de nouveaux fichiers
@@ -24,7 +24,7 @@ On vérifie notre historique
 $ git hist
 * d43f3ff 2014-10-25 | File2 - First commit [Votre_pseudo]
 * b24f3ff 2014-10-25 | Add email adress [Votre_pseudo]
-* cf466b4 2014-10-25 | First Commit [Votre_pseudo]
+* cf466b4 2014-10-25 | Initial Commit [Votre_pseudo]
 ```
 
 @@.info

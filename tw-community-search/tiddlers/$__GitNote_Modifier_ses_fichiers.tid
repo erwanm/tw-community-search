@@ -1,6 +1,6 @@
 title: $:/GitNote/Modifier ses fichiers
 created: 20150216153403848
-modified: 20160122111706319
+modified: 20160207121127523
 original-tags: Menu
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Modifier ses fichiers
@@ -12,14 +12,14 @@ source-tiddler-title-as-link: Modifier%20ses%20fichiers
 
 ```c
 $ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+Sur la branche master
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
 
-        modified:   file.txt
+        modifié :         index.html
 
-no changes added to commit (use "git add" and/or "git commit -a")
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
 ```
 
 !!!3. Ajouter votre fichier à l'index
@@ -35,12 +35,11 @@ $ git add file.txt
 On vérifie:
 
 ```c
-$ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
+Sur la branche master
+Modifications qui seront validées :
+  (utilisez "git reset HEAD <fichier>..." pour désindexer)
 
-        modified:   file.txt
+        modifié :         file.txt
 ```
 
 !!!4. Réaliser votre deuxième commit
@@ -50,10 +49,6 @@ $ git commit -m "Add email adress"
 ```
 
 @@.info
-<i class="fa fa-info-circle fa-3x pull-left"></i> Les messages des commits doivent être clair avec "Fix", "Add", "Change", "Update"... et une description brêve de la modification.
-@@
-
-@@.info
 <i class="fa fa-info-circle fa-3x pull-left"></i>Il est possible d'utiliser `git commit -am "Message"` qui combine `git add` et `git commit -m` mais seulement pour les fichiers déjà en suivi (n'ajoute pas les nouveaux fichiers).
 @@
 
@@ -61,8 +56,8 @@ On vérifie le status du répertoire...
 
 ```c
 $ git status
-On branch master
-nothing to commit, working directory clean
+Sur la branche master
+rien à valider, la copie de travail est propre
 ```
 
 ...et notre historique
@@ -79,5 +74,5 @@ commit 911e8c91caeab8d30ad16d56746cbd6eef72dc4c
 Author: [Votre_pseudo] [Votre_email]
 Date: Wed Mar 9 10:27:54 2011 -0500
 
-    First Commit
+    Initial Commit
 ```

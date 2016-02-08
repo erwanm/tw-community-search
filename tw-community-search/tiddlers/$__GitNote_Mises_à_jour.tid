@@ -2,12 +2,20 @@ title: $:/GitNote/Mises à jour
 color: 
 created: 20141028235539032
 icon: $:/core/images/refresh-button
-modified: 20160122111947128
+modified: 20160207123616796
 num_recent: 10
 original-tags: 
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Mises à jour
 source-tiddler-title-as-link: Mises%20à%20jour
+
+<i class="fa fa-refresh"></i> 07/02/2016
+
+*Amélioration des infos sur les messages des commits
+*Traduction du retour des commandes Git
+*Amélioration du code Highlight
+*Ajout licence dans [[A propos]]
+*Mise à jour TW version 5.1.11
 
 <i class="fa fa-refresh"></i> 22/01/2016
 
