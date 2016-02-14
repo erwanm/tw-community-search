@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Tabstory plugin
 caption: Tabstory
 created: 20160111103420591
 creator: TonGerner
-modified: 20160121182750509
+modified: 20160204180003574
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -14,14 +14,9 @@ source-tiddler-title-as-link: Tabstory%20plugin
 {{Upgraded}}
 
 !!!!Readme (from plugin)
-Alternative to my [[Breadcrumbs plugin|http://tongerner.tiddlyspot.com/]], based on the work of [[rcrath|https://github.com/rcrath/TW5-TabStory/issues]].
+{{$:/plugins/tongerner/tabstory/readme}}
 
-<<<
-''Note:''<br>''This plugin needs my $:/plugins/tongerner/layout_adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''
-<<<
-
-Settings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
-
+Settings for the layout can be found in ~ControlPanel > Appearance > 
 
 ---
 

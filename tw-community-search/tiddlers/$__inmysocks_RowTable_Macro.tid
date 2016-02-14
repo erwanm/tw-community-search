@@ -3,7 +3,7 @@ created: 20150629203518257
 demo_site: http://ooktech.com/jed/ExampleWikis/DynamicTables/
 description: A dynamically generated in-line editable table that uses each tiddlers as a row, each field is a cell.
 install_link: [[$:/macros/inmysocks/Table Macros]]
-modified: 20160209155159831
+modified: 20160213090950617
 original-tags: [[My Macros]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: RowTable Macro
@@ -24,20 +24,27 @@ Usage:
 
 Examples:
 
+
+Basic Output:
+
 ```
 <<RowTable '[tag[Wiki Examples]limit[5]]'>>
 ```
 
 <<RowTable '[tag[Wiki Examples]limit[5]]'>>
 
+Only show the fields `blurb` and `creator`
+
 ```
-<<RowTable '[tag[Wiki Examples]limit[5]]'>>
+<<RowTable '[tag[Wiki Examples]limit[5]]' 'blurb creator'>>
 ```
 
 <<RowTable '[tag[Wiki Examples]limit[5]]' 'blurb creator'>>
 
+Only show the fields `blurb` and `creator` but don't show the tiddler title.
+
 ```
-<<RowTable '[tag[Wiki Examples]limit[5]]'>>
+<<RowTable '[tag[Wiki Examples]limit[5]]' 'blurb creator' false>>
 ```
 
 <<RowTable '[tag[Wiki Examples]limit[5]]' 'blurb creator' false>>

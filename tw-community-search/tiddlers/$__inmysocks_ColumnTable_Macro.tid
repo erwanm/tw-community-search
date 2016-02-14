@@ -3,7 +3,7 @@ created: 20150629203048370
 demo_site: http://ooktech.com/jed/ExampleWikis/DynamicTables/
 description: A dynamically generated in-line editable table that uses each tiddlers as a colmun, each field is a cell.
 install_link: [[$:/macros/inmysocks/Table Macros]]
-modified: 20160209155229273
+modified: 20160213091035254
 original-tags: [[My Macros]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: ColumnTable Macro
@@ -31,13 +31,13 @@ Examples:
 <<ColumnTable '[tag[Wiki Examples]limit[5]]'>>
 
 ```
-<<ColumnTable '[tag[Wiki Examples]limit[5]]'>>
+<<ColumnTable '[tag[Wiki Examples]limit[5]]' 'blurb creator'>>
 ```
 
 <<ColumnTable '[tag[Wiki Examples]limit[5]]' 'blurb creator'>>
 
 ```
-<<ColumnTable '[tag[Wiki Examples]limit[5]]'>>
+<<ColumnTable '[tag[Wiki Examples]limit[5]]' 'blurb creator' false>>
 ```
 
 <<ColumnTable '[tag[Wiki Examples]limit[5]]' 'blurb creator' false>>

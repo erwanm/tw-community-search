@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Introduction
 created: 20140121171138645
 creator: TonGerner
-modified: 20160113170823862
+modified: 20160210171635082
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -20,7 +20,7 @@ source-tiddler-title-as-link: Introduction
 * The breadcrumbs can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/breadcrumbs/combination]].
 <<<
 
-This guide describes how <<slider "breadcrumbs" "{{Breadcrumbs info}}">> can be added.
+This guide describes how <<slider "breadcrumbs" "Breadcrumbs info">> can be added.
 
 The breadcrumbs can be toggled ''on/off'' with the {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} button (in Page Toolbar and/or View Toolbar).
 

@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Settings
 created: 20140208183031425
 creator: TonGerner
-modified: 20160112153940668
+modified: 20160210171723527
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: Settings
 ''Note:''
 
 * Adjustments to the layout can be made in '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tabs 'Breadcrumbs' and 'Layout' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
-* In case breadcrumbs are used in combination with other top menus see <<slider "Other adjustments" "{{Other adjustments}}">>
+* In case breadcrumbs are used in combination with other top menus see <<slider "Other adjustments" "Other adjustments">>
 <<<
 
 'Settings' comprises 2 tiddlers:

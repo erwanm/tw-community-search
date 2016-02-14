@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top menu plugin
 caption: Top menu
 created: 20150719185926666
 creator: TonGerner
-modified: 20160111195558537
+modified: 20160204180139641
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -14,22 +14,7 @@ source-tiddler-title-as-link: Top%20menu%20plugin
 {{Upgraded}}
 
 !!!!Readme (from plugin)
-This plugin adds a top menu with tag pill based menu entries.
-
-The [[top menu|$:/plugins/tongerner/topmenu/topmenu]] needs to be populated with entries in the form:
-
-```
-{{tagpill1||$:/plugins/tongerner/topmenu/menu-template}}
-{{tagpill2||$:/plugins/tongerner/topmenu/menu-template}}
-.
-etc.
-```
-
-<<<
-''Note:''<br>''This plugin needs my $:/plugins/tongerner/layout_adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''
-<<<
-
-Settings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
+{{$:/plugins/tongerner/topmenu/readme}}
 
 ---
 

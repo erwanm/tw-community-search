@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Introduction
 created: 20140104133156997
 creator: TonGerner
-modified: 20160112141548534
+modified: 20160210164350320
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -23,8 +23,8 @@ The guides started as a non-linear personal web notebook (yeah, the subtitle of 
 
 This TW contains:
 
-* <<slider "Enabled plugins" "{{Enabled plugins}}">>
-* <<slider "Disabled plugins" "{{Disabled plugins}}">>
+* <<slider "Enabled plugins" "Enabled plugins">>
+* <<slider "Disabled plugins" "Disabled plugins">>
 
 
 |borderless|k

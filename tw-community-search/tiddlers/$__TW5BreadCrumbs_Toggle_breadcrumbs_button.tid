@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Toggle breadcrumbs button
 created: 20150626124602577
 creator: TonGerner
-modified: 20150808105708006
+modified: 20160210171751479
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -21,7 +21,7 @@ The 'Toggle breadcrumbs' button comprises 4 tiddlers.
 
 !!$:/plugins/tongerner/breadcrumbs/button
 
-<<slider "How does the button work?" "{{How does the button work?}}">>
+<<slider "How does the button work?" "How does the button work?">>
 
 The tiddler [[$:/plugins/tongerner/breadcrumbs/button]] - tagged with [[$:/tags/PageControls]] - contains:
 

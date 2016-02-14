@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20160201193104500
+modified: 20160213201522887
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,11 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!!13 February 2016
+* Small updates to several plugins (mainly styling + info)
+* Small updates to several guides (caused by plugin changes)
+* Corrected/updated guide 'Top + left menu'
 
 !!!1 February 2016
 * Added ndash (&ndash;) and info about Firefox add-ons to 'TW5 bookmarklets'
@@ -230,8 +235,8 @@ source-tiddler-title-as-link: Latest%20news
 
 !!!6 July 2014
 * Updated 'Customization of TW5'. Added description for:
-** $:/tags/~ControlPanel/Advanced/Settings.
-** $:/tags/~TiddlerInfo/Advanced.
+** [[$:/tags/ControlPanel/Advanced/Settings]].
+** [[$:/tags/TiddlerInfo/Advanced]].
 
 !!!5 July 2014
 * Created a new guide: 'TW5 bookmarklets'.
