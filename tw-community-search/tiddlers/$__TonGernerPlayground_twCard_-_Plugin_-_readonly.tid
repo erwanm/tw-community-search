@@ -3,13 +3,13 @@ audience:
 category: layout
 created: 20160123121221225
 creator: TonGerner
-date: 31th January 2016
+date: 13th February 2016
 homepage: 
 install_link: 
 language: 
 license: 
 maintainer: TonGerner
-modified: 20160131120638113
+modified: 20160214095315380
 modifier: TonGerner
 name: readonly
 plugin_tiddler: $:/plugins/tongerner/ro
@@ -17,7 +17,7 @@ release:
 repository: 
 revision: 0.1.1
 short_description: makes TW5 readonly
-version: 0.1.2
+version: 0.1.3
 wiki: http://tongerner.tiddlyspot.com/
 original-tags: [[Plugin twCard]]
 source-wiki-id: TonGernerPlayground
