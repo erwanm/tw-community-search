@@ -1,16 +1,15 @@
 title: $:/LibreNote/A propos
 created: 20150421073719562
 creator: svink
-modified: 20151211204759678
+modified: 20160127081919321
 modifier: svink
-original-tags: semi
+original-tags: gris
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: A propos
 source-tiddler-title-as-link: A%20propos
 
 <div style="font-size:75%;margin-top:-3em;margin-left:-16em;margin-bottom:-2.5em;">
 ~LibreNote est forgé par
-<$link to="ContactSources"></$link>
 <$button class="tc-btn-invisible">
 <$action-setfield $tiddler="$:/StoryList" list="
 [[ContactSources]]"/>

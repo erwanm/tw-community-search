@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Les composants graphiques
 created: 20141205160207270
-modified: 20150913174556253
+modified: 20160218140132404
 original-tags: [[L'espace de travail]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Les composants graphiques
@@ -9,7 +9,7 @@ source-tiddler-title-as-link: Les%20composants%20graphiques
 Les composants graphiques ou plasmoids sont des widgets placés sur le bureau ou dans les panneaux.<br>
 Le lanceur d'application //Kickoff//, //l'horloge numérique//... sont des plasmoids.
 
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh" target="_blank">[img [Plasmoids|https://cloud.openmailbox.org/public.php?service=files&t=S3Sdjx9j37v2Mwh&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=1NoNQqJ47AJLNdy" target="_blank">[img [Plasmoids|https://framadrive.org/public.php?service=files&t=1NoNQqJ47AJLNdy&download]]</a>
 
 <<<
 On y accède par clic droit ou par la //boîte à outils Plasma// → //Ajouter des composants graphiques//<br>
@@ -39,7 +39,7 @@ Ceux sur le bureau ont les options au sein d'une « poignée ». On peut les agr
 <<<
 
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b" target="_blank">[img align="right" width="300" [Editeur de menu|https://cloud.openmailbox.org/public.php?service=files&t=Z3KRLBjfRfr4X4b&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=WPNbsREPAO8ElNi" target="_blank">[img align="right" width="300" [Editeur de menu|https://framadrive.org/public.php?service=files&t=WPNbsREPAO8ElNi&download]]</a>
 @@
 
 !!!Le lanceur d'application Kickoff

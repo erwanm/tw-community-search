@@ -1,9 +1,9 @@
 title: $:/LibreNote/TiddlyNote
 created: 20150530132633245
 creator: svink
-modified: 20160112152528181
+modified: 20160127093332083
 modifier: svink
-original-tags: transparent
+original-tags: semi
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: TiddlyNote
 source-tiddler-title-as-link: TiddlyNote
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: TiddlyNote
 <tr>
 <td>
 <div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
-<a href="https://librenote.aerobatic.io/tiddlynote" class="tc-btn-big-green" style="text-decoration:none; background-color:#47D147;" target="_blank">
+<a href="https://librenote.aerobatic.io/tiddlynote" class="tc-btn-big-green" style="text-decoration:none; background-color:#4e9537;" target="_blank">
 ''~TiddlyNote'' <i class="fa fa-external-link-square"></i></a>
 </div>
 <div style="text-align:center;font-size:1.1em;">

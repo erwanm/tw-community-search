@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Apparence et comportement général
 created: 20141217095742686
-modified: 20150913141029387
+modified: 20160218141330639
 original-tags: [[La configuration du système]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Apparence et comportement général
@@ -68,9 +68,8 @@ Portefeuille de KDE → //Activer / désactiver le sous système de portefeuille
 <i class="fa fa-desktop fa-2x pull-left"></i> ''Configurer les ressources utilisées pour gérer votre carnet d'adresses, agenda et notes.''
 
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=j9u4iODXoMQKwXX
-" target="_blank">[img width="300" [Akonadi|https://cloud.openmailbox.org/public.php?service=files&t=j9u4iODXoMQKwXX
-&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=AcAnzyW3jFoXklJ
+" target="_blank">[img width="300" [Akonadi|https://framadrive.org/public.php?service=files&t=AcAnzyW3jFoXklJ&download]]</a>
 @@
 
 !!Akonadi

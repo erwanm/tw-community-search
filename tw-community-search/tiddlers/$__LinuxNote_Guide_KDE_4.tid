@@ -2,7 +2,7 @@ title: $:/LinuxNote/Guide KDE 4
 color: #44aefd
 created: 20141026192433145
 list: Introduction [[L'espace de travail]] [[La configuration du système]] [[Utilisation avancée]] [[Les applications]]
-modified: 20150913125647127
+modified: 20160218134902324
 summary: Document basé sur la version de KDE SC 4.14.3 sous Chakra
 original-tags: Menu
 source-wiki-id: LinuxNote
@@ -13,7 +13,7 @@ Ce guide a pour but de présenter l'environnement de bureau KDE et de vous guide
 
 La partie du wiki sur la configuration du système n'est pas exhaustive car les modules du centre de configuration sont généralement très clairs. De même, certains paramètres sont adaptés à mon système et à mon utilisation... chaque utilisateur est différent.
 
-<img src="https://cloud.openmailbox.org/public.php?service=files&t=mVsIbfiBtjyT5j6&download" align="right">
+<img src="https://framadrive.org/public.php?service=files&t=myau5mKhBbMMEpg&download" align="right">
 
 <dl>
 <$list filter="[tag[Guide KDE 4]]">

@@ -1,0 +1,30 @@
+title: $:/LibreNote/DemoListe
+created: 20160124170651452
+creator: svink
+modified: 20160210092407658
+modifier: svink
+original-tags: semi
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: DemoListe
+source-tiddler-title-as-link: DemoListe
+
+<div style="text-align:; font-size:1.8em;">
+Démonstrations de ~TiddlyWiki 
+</div>
+<hr>
+<br>
+
+<div style="text-align:left;">
+~TiddlyWiki est un outils très personnalisable qui s'adapte à vos besoins. Quelques exemples d'utilisation pour des usages spécifiques.
+</div>
+<br>
+
+<$list filter='[tag[demo]]'>
+<div style="font-size:1.2em; text-align:left;">
+ <i class="fa  fa-play-circle" style="color:#474747"></i>
+<a href={{!!url}} class="demo"; target="_blank"> <$view field="title"/> </a>
+</div>
+<div style="text-align:left; margin-left:1.5em;">
+{{!!description}} par {{!!auteur}}
+</div>
+<br>

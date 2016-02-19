@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Apparence et comportement de l'espace de travail
 created: 20141216135946969
-modified: 20150913140220444
+modified: 20160218141139364
 original-tags: [[La configuration du système]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Apparence et comportement de l'espace de travail
@@ -13,9 +13,8 @@ Kwin est le gestionnaire de fenêtre de KDE. Une fois les effets du bureau activ
 d'interagir avec les fenêtres.
 
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
-" target="_blank">[img width="350" [Configuration générale|https://cloud.openmailbox.org/public.php?service=files&t=oA8ggb1qChfGaQK
-&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=Nq8lb5ulpKTNUc6
+" target="_blank">[img width="350" [Configuration générale|https://framadrive.org/public.php?service=files&t=Nq8lb5ulpKTNUc6&download]]</a>
 @@
 
 !!Configuration générale
@@ -27,9 +26,8 @@ Suivant la configuration on peut activer ou désactiver les effets de bureau de 
 
 !!Configuration avancée des effets de bureau (Tous les effets)
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
-" target="_blank">[img width="350" [Tous les effets|https://cloud.openmailbox.org/public.php?service=files&t=AiMtK9AaxtaFgWF
-&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=eqWFlDTOjsxYgOg
+" target="_blank">[img width="350" [Tous les effets|https://framadrive.org/public.php?service=files&t=eqWFlDTOjsxYgOg&download]]</a>
 @@
 
 <br>
@@ -81,9 +79,8 @@ Ajouter le bouton  → menu déporté (voir [[Apparence et comportement généra
 
 !!Thème de bureau
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
-" target="_blank">[img width="350" [Thème de bureau|https://cloud.openmailbox.org/public.php?service=files&t=2AQOUmgjyn4jADA
-&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=w6cYjKQNV5QlEhJ
+" target="_blank">[img width="350" [Thème de bureau|https://framadrive.org/public.php?service=files&t=w6cYjKQNV5QlEhJ&download]]</a>
 @@
 
 ''Air'' est le thème par défaut. On peut installer de nouveaux thèmes de bureau ou "Plasma themes" (ex : Caledonia par défaut sur Chakra).

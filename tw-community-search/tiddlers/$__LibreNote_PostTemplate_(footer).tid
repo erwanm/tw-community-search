@@ -1,36 +1,26 @@
 title: $:/LibreNote/PostTemplate (footer)
 created: 20160111093531207
 creator: svink
-modified: 20160112155050080
+modified: 20160206220527873
 modifier: svink
 original-tags: $:/tags/ViewTemplate Template
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: PostTemplate (footer)
 source-tiddler-title-as-link: PostTemplate%20%28footer%29
 
+<div style="margin-left:14em; margin-right:14em; ">
 <$list filter='[is[current]tag[Blog]]'>
-
-<div style="margin-left:15em; margin-right:15em; ">
 <br>
 <hr>
-<table class="invisibletable">
-<tr>
-<td>
-<div style="color:grey;">
-<$link to="BannièreBlog"></$link>
-<$button class="tc-btn-invisible" tooltip='Accueil du blog'>
+@@.back-home
+<$button class="tc-btn-invisible">
 <$action-setfield $tiddler="$:/StoryList" list="
-[[BannièreBlog]]
 [[DerniersPosts]]
 [[ListeTags]]"/>
-<$action-navigate $to="BannièreBlog" $scroll="yes"/>
+<$action-navigate $to="DerniersPosts" $scroll="yes"/>
 <i class="fa fa-home"></i> Derniers articles
 </$button>
-</div>
-</td>
-<td>
-<div style="color:grey; text-align:right">
-<i class="fa fa-angle-up"></i> <$button class="tc-btn-invisible"><$view field='title'/>
-<$action-navigate $to={{!!title}}/>
-</$button>
-</div>
+@@
+@@.back-top
+<$link to=<<currentTiddler>>><i class="fa fa-angle-up"></i> <$view field=title/></$link>
+@@

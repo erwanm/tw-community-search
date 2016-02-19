@@ -1,16 +1,16 @@
 title: $:/LibreNote/ListeTags
 created: 20150617205125041
 creator: svink
-modified: 20151211221100196
+modified: 20160127080801623
 modifier: svink
-original-tags: transblack
+original-tags: gris
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: ListeTags
 source-tiddler-title-as-link: ListeTags
 
 <div style="margin-top:-1.8em; margin-bottom:-1.2em;">
 
-<div style="font-size:1.2em; color:#474747;">
+<div style="font-size:1.2em; color:#959595;">
 <i class="fa fa-tags"></i> Tous les tags
 </div>
 

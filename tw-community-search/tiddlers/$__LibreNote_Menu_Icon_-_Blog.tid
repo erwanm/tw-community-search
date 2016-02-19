@@ -1,7 +1,7 @@
 title: $:/LibreNote/Menu Icon - Blog
 created: 20150611083036820
 creator: svink
-modified: 20151023094926333
+modified: 20160206200137245
 modifier: svink
 top_right_menu_order: 2
 original-tags: icone $:/tags/TopRightMenu
@@ -10,13 +10,12 @@ source-tiddler-title-as-text: Menu Icon - Blog
 source-tiddler-title-as-link: Menu%20Icon%20-%20Blog
 
 @@.tc-icon-menu
-<$link to="BannièreBlog"></$link>
 <$button class="tc-btn-invisible" tooltip='Le Blog'>
 <$action-setfield $tiddler="$:/StoryList" list="
-[[BannièreBlog]]
 [[DerniersPosts]]
 [[ListeTags]]"/>
-<$action-navigate $to="BannièreBlog" $scroll="yes"/>
+<$action-navigate $to="DerniersPosts" $scroll="yes"/>
 <i class="fa fa-comments"></i> Blog
 </$button>
 @@
+&nbsp;

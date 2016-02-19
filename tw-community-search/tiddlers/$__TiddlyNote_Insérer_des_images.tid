@@ -1,6 +1,6 @@
 title: $:/TiddlyNote/Insérer des images
 created: 20150129155739992
-modified: 20150913143151150
+modified: 20160218133431401
 original-tags: Menu
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Insérer des images
@@ -21,7 +21,7 @@ La syntaxe de base est:
 [img width="taille-en-pixels" [tooltip-de-l'image|chemin-de-l-image/image.png]]
 ```
 
-[img width="128" [TiddlyWiki cat|https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB&download]]
+[img width="128" [TiddlyWiki cat|https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN&download]]
 
 !!Image cliquable
 
@@ -29,7 +29,7 @@ La syntaxe de base est:
 <a href="chemin-de-l-image/image.png" target="_blank"><img src="chemin-de-l-image/image.png" width="taille-en-pixels" align='position'></a>
 ```
 
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB" target="_blank"><img src="https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB&download" width="128" align='left'></a>
+<a href="https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN" target="_blank"><img src="https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN&download" width="128" align='left'></a>
 <br><br><br><br><br><br>
 
 !!!Avec une syntaxe ~WikiText
@@ -38,7 +38,7 @@ La syntaxe de base est:
 <a href="chemin-de-l-image/image.png" target="_blank">[img width="taille-en-pixels" [tooltip-de-l-image|chemin-de-l-image/image.png]]</a>
 ```
 
-﻿﻿<a href="https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB" target="_blank">[img width=128  [TiddlyWiki cat|https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB&download]]</a>
+﻿﻿<a href="https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN" target="_blank">[img width=128  [TiddlyWiki cat|https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN&download]]</a>
 
 !!Image cliquable affichée dans une Lightbox
 
@@ -56,4 +56,4 @@ La syntaxe de base est:
 <<ibox "chemin-de-l-image/image.png" "nom-affiché-dans-la-lightbox">>
 ```
 
-<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=47Is0T5JHbEE4RB&download" "~TiddlyWiki cat">>
+<<ibox "https://framadrive.org/public.php?service=files&t=1ZZKKikLa59gTRN&download" "~TiddlyWiki cat">>

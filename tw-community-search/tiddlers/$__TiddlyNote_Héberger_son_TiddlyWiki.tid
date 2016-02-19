@@ -1,7 +1,7 @@
 title: $:/TiddlyNote/Héberger son TiddlyWiki
 created: 20150216135212745
 list: [[Configurer son dépôt Git]] [[Mettre en ligne son TiddlyWiki]] [[Mettre à jour son TiddlyWiki]]
-modified: 20160122133151916
+modified: 20160218134103894
 original-tags: Git Menu
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Héberger son TiddlyWiki
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: Héberger%20son%20TiddlyWiki
 Une solution intéressante pour héberger son ~TiddlyWiki est d'utiliser un service web d'hébergement de dépôt Git comme [[GitHub|https://github.com/]] ou [[Bitbucket|https://bitbucket.org/]]. Ils offrent gratuitement la possibilité d’héberger votre ~TiddlyWiki directement depuis un dépôt en ligne.
 
 <div style="font-size:0.7em; text-align:left;">
-<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5E9FCA;" target="_blank">
+<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5A99D7;" target="_blank">
 <i class="fa fa-bitbucket"></i> Mon dépôt Bitbucket
 </a>
 </div>

@@ -1,6 +1,8 @@
 title: $:/LibreNote/Licence
 created: 20150704002814252
-modified: 20150924143225120
+creator: svink
+modified: 20160202134456906
+modifier: svink
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Licence
@@ -10,7 +12,7 @@ source-tiddler-title-as-link: Licence
 <tr>
 <td>
 <div style="font-size:110%;text-align:center;margin-top:0.3em;">
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br />
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"  /></a><br />
 </div>
 </td>
 

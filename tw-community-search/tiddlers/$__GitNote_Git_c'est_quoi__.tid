@@ -1,7 +1,7 @@
 title: $:/GitNote/Git c'est quoi ?
 created: 20150216085058617
 list: [[Installer et configurer Git]] [[Utiliser Git]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]] [[Travailler avec un dépôt distant]] [[Exemple de mise en œuvre]] [[Tagger ses versions]]
-modified: 20160207104727189
+modified: 20160218112049818
 original-tags: Menu [[Mises à jour]]
 source-wiki-id: GitNote
 source-tiddler-title-as-text: Git c'est quoi ?
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: Git%20c%27est%20quoi%20%3f
 <br><br>
 
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=4wdHrl20hHnhDbl" target="_blank">[img width="96" [Logo Git|https://cloud.openmailbox.org/public.php?service=files&t=4wdHrl20hHnhDbl&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=ZUjJUximJhKcXzL" target="_blank">[img width="96" [Logo Git|https://framadrive.org/public.php?service=files&t=ZUjJUximJhKcXzL&download]]</a>
 @@
 
 [[Git|https://git-scm.com/]] est un logiciel de gestion de version décentralisé créé par [[Linus Torvalds|https://fr.wikipedia.org/wiki/Linus_Torvalds]]. Concrètement, c'est un système qui enregistre l'évolution d'un fichier ou d'un ensemble de fichiers au cours du temps de manière à ce qu'on puisse rappeler une version antérieure d'un fichier à tout moment.<br>
@@ -33,7 +33,7 @@ Ces trois éléments expliquent que les fichiers peuvent être sous 3 états dis
 *''Indexé'': signifie que le fichier a été marqué pour être ajouté au prochain instantané de votre projet
 *''Validé'': signifie que les données sont stockées dans votre base de données locale.
 
-<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=rorKScGHP8jiMqW&download" "Fonctionnement de Git (Source: https://git-scm.com)">>
+<<ibox "https://framadrive.org/public.php?service=files&t=0facm2SZEEwolpj&download" "Fonctionnement de Git (Source: https://git-scm.com)">>
 
 Tout ceci est quasi transparent pour l'utilisateur, retenez simplement les commandes et Git se charge du reste. L'utilisation standard de Git se passe comme suit :
 

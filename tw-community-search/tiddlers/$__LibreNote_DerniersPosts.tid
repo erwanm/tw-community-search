@@ -1,9 +1,9 @@
 title: $:/LibreNote/DerniersPosts
 created: 20150611130704479
 creator: svink
-modified: 20160112155223132
+modified: 20160206201309661
 modifier: svink
-original-tags: transparent
+original-tags: semi
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: DerniersPosts
 source-tiddler-title-as-link: DerniersPosts
@@ -12,9 +12,13 @@ source-tiddler-title-as-link: DerniersPosts
 {{$(TiddlerToDisplay)$||$(TemplateToUse)$}}
 \end
 
-!!Derniers articles
----
-<$list filter='[tag[Blog]!nsort[created]limit[2]]'>
+<div style="text-align:left;">
+{{blog.png}}
+</div>
+
+<br>
+
+<$list filter='[tag[Blog]!nsort[created]limit[3]]'>
 <$set name=TiddlerToDisplay value=<<currentTiddler>>>
 <$set name=TemplateToUse value={{!!template}}>
 <<thisDisplayWithTemplate>>

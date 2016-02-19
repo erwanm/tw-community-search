@@ -1,7 +1,7 @@
 title: $:/LibreNote/BlogTemplate
 created: 20150618122118224
 creator: svink
-modified: 20151023084109341
+modified: 20160131184132408
 modifier: svink
 original-tags: Template
 source-wiki-id: LibreNote
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: BlogTemplate
 @@
 
 <div style="font-size:1.3em; text-align:left;">
-<$button class="tc-btn-invisible" style="color:#2B2B2B ;"><$view field='title'/>
+<$button class="tc-btn-invisible tc-tiddlylink" style="color:#000000";><$view field='title'/>
 <$action-navigate $to={{!!title}}/>
 </$button>
 </div>
@@ -22,12 +22,9 @@ source-tiddler-title-as-link: BlogTemplate
 
 <img align="left" width="64" src={{!!url_thumb}}>
 
-<div style="text-align:left;">
+<div style="text-align:left; color:#000000">
 &nbsp; &nbsp; {{!!resume}}
 
 <br><br><br>
-<$link to=<<currentTiddler>>>Lire la suite <i class="fa fa-angle-right"></i></$link>
-</div>
-<br>
 
 <hr>

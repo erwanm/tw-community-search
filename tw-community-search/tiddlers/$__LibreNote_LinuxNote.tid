@@ -1,7 +1,7 @@
 title: $:/LibreNote/LinuxNote
 created: 20150530120329512
 creator: svink
-modified: 20160112152513715
+modified: 20160127093304145
 modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
@@ -17,7 +17,7 @@ source-tiddler-title-as-link: LinuxNote
 </td>
 <td>
 <div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
-<a href="https://librenote.aerobatic.io/linuxnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#0066CC;" target="_blank">
+<a href="https://librenote.aerobatic.io/linuxnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#5a99d7;" target="_blank">
 ''~LinuxNote'' <i class="fa fa-external-link-square"></i></a>
 </div>
 <div style="text-align:center; font-size:1.1em;">

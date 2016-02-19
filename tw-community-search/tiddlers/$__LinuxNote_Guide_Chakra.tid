@@ -2,7 +2,7 @@ title: $:/LinuxNote/Guide Chakra
 color: #acacac
 created: 20141026192227368
 list: [[Les dépôts]] [[Les miroirs]] [[La gestion des paquets]] [[Mes applications]]
-modified: 20160113141008811
+modified: 20160218134745071
 original-tags: Menu
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Guide Chakra
@@ -14,7 +14,7 @@ L'objectif est de fournir une distribution Linux “vitrine des logiciels libres
 
 Chakra utilise un modèle de //publication semi-roulante// (half-rolling release) pour ses mises à jours. Les paquets important du système sont mis à jour tous les 6 mois pour plus de stabilité, tandis que les applications sont mises à jour continuellement.
 
-<<ibox "https://cloud.openmailbox.org/public.php?service=files&t=F2FbCRLHGWvOCz7&download" "Chakra 2015.11 Fermi">>
+<<ibox "https://framadrive.org/public.php?service=files&t=2enlZqHYe9ITjdv&download" "Chakra 2015.11 Fermi">>
 
 <br>
 Le site du projet est très bien fait, avec les [[news|https://chakraos.org/news/]] de la distribution, le [[wiki|https://chakraos.org/wiki/index.php?title=Main_Page]] pour la documentation (avec celui d'Arch Linux en complément) et la possibilité de parcourir la liste des [[paquets|http://rsync.chakraos.org/packages/]] disponibles en ligne.<br>
@@ -32,7 +32,7 @@ L'installation de Chakra est simple grâce à son installeur graphique [[Calamar
 @@
 
 @@.flotte
-<a href="https://cloud.openmailbox.org/public.php?service=files&t=CcxXpd66nMnKtKx" target="_blank">[img align="right" width="300" [L'installeur graphique Calamares|https://cloud.openmailbox.org/public.php?service=files&t=CcxXpd66nMnKtKx&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=wwXcPg39Y8YvVqH" target="_blank">[img align="right" width="300" [L'installeur graphique Calamares|https://framadrive.org/public.php?service=files&t=wwXcPg39Y8YvVqH&download]]</a>
 @@
 
 Vous avez la possibilité d'effectuer une installation complète avec l'ensemble des paquets présents sur l'image ISO ou une [[Netinstall|https://fr.wikipedia.org/wiki/Netinstall]] permettant d'installer la distribution avec le minimum nécessaire puis d'installer seulement ce dont vous avez besoin.
