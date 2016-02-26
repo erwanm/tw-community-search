@@ -1,0 +1,12 @@
+title: $:/ListManagement/$:/plugins/cpa/related_fields
+author: C PA
+core-version: 5.18
+description: Related Fields
+version: 0.0.1
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: $:/plugins/cpa/related_fields
+source-tiddler-title-as-link: %24%3a%2fplugins%2fcpa%2frelated_fields
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

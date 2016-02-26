@@ -1,9 +1,11 @@
 title: $:/ListManagement/this
-created: 20150810180121391
-modified: 20150811015431070
-original-tags: test
+children: exampleTiddler [[my tiddler]]
+created: 20151103222006686
+modified: 20160204225939672
+test: exampleTiddler [[another tiddler]]
+original-tags: test Done
 source-wiki-id: ListManagement
 source-tiddler-title-as-text: this
 source-tiddler-title-as-link: this
 
-hello
+This is a test and this?

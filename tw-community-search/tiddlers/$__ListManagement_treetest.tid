@@ -1,0 +1,414 @@
+title: $:/ListManagement/treetest
+created: 20151114175433502
+modified: 20151114190029042
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: treetest
+source-tiddler-title-as-link: treetest
+
+\define addTagToNote(fieldName, itemName, tagName) <$checkbox tiddler="$:/_cpa/Data/$fieldName$" tag="$tagName$:$itemName$"></$checkbox>
+
+\define addTagToTiddler(fieldName, itemName, tagName)<$checkbox tiddler="$itemName$" tag="$tagName$"></$checkbox>
+
+\define editNote(fieldName, itemName, tagName)<$edit tiddler="$:/_cpa/Data/$fieldName$" index="$itemName$" />
+
+\define editTiddler(fieldName, itemName, tagName)<$edit tiddler="$itemName$" />
+
+\define viewNote(fieldName, itemName, tagName)<$view tiddler="$:/_cpa/Data/$fieldName$" index="$itemName$" />
+
+\define viewTiddler(fieldName, itemName, tagName)<$view tiddler="$itemName$" />
+
+\define editItem(fieldName, itemName, tagName)
+	<$list filter="[title[$itemName$]is[tiddler]]"
+		variable="curItem"
+		emptyMessage=""" 
+		<<editNote "$fieldName$" "$itemName$" "$tagName$">> 
+	""">
+		<<editTiddler "$fieldName$" "$itemName$" "$tagName$">>
+	</$list>
+\end
+
+\define viewItem(fieldName, itemName, tagName)
+	<$list filter="[title[$itemName$]is[tiddler]]"
+		variable="curItem"
+		emptyMessage="""
+		<<viewNote "$fieldName$" "$itemName$" "$tagName$">>
+	""">
+		<<viewTiddler "$fieldName$" "$itemName$" "$tagName$">>
+	</$list>
+\end
+
+\define addTagToItem(fieldName, itemName, tagName)
+	<$list filter="[title[$itemName$]is[tiddler]]"
+		variable="curItem"
+		emptyMessage="""
+		<<addTagToNote "$fieldName$" "$itemName$" "$tagName$">>
+	""">
+		<<addTagToTiddler "$fieldName$" "$itemName$" "$tagName$">>
+	</$list>
+\end
+
+\define editSaveItemButton(fieldName, itemName, tagName, editButton:{{$:/core/images/edit-button}})
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="nomatch"
+		text="edit">
+		<$button set="$:/temp/viewedit/$fieldName$/$itemName$"
+			class="tc-btn-invisible tc-tiddlylink"
+			setTo="edit">
+			$editButton$
+		</$button>
+	</$reveal>
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="match"
+		text="edit">
+		<$button set="$:/temp/viewedit/$fieldName$/$itemName$"
+			class="tc-btn-invisible tc-tiddlylink"
+			setTo="view">
+			{{$:/core/images/save-button}}
+		</$button>
+	</$reveal>
+\end
+
+\define viewHideItemButton(fieldName, itemName, tagName)
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="nomatch"
+		text="view">
+		<$button set="$:/temp/viewedit/$fieldName$/$itemName$"
+			class="tc-btn-invisible tc-tiddlylink"
+			setTo="view">
+			{{$:/core/images/right-arrow}}
+		</$button>
+	</$reveal>
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="match"
+		text="view">
+		<$button set="$:/temp/viewedit/$fieldName$/$itemName$"
+			class="tc-btn-invisible tc-tiddlylink"
+			setTo="">
+			{{$:/core/images/down-arrow}}
+		</$button>
+	</$reveal>
+\end
+
+\define editViewItem(fieldName, itemName, tagName)
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="match"
+		text="view">
+		<<viewItem "$fieldName$" "$itemName$" "$tagName$">>
+	</$reveal>
+	<$reveal state="$:/temp/viewedit/$fieldName$/$itemName$"
+		type="match"
+		text="edit">
+		<<editItem "$fieldName$" "$itemName$" "$tagName$">>
+	</$reveal>
+\end
+
+\define linkToItem(fieldName, itemName, tagName)
+	<$list filter="[title[$itemName$]is[tiddler]]"
+		variable="curNote"
+		emptyMessage="""
+		<!-- There is no tiddler. Display a button to create one -->
+		<$button tooltip="Move note to new tiddler" 
+			class="tc-btn-invisible tc-tiddlylink">
+			<$action-setfield $tiddler="$itemName$" 
+				text={{$:/_cpa/Data/$fieldName$##$itemName$}} />
+			<$action-setfield $tiddler="$:/_cpa/Data/$fieldName$" 
+				$index="$itemName$" $value="" />
+			<$action-setfield $tiddler="$itemName$" 
+				tags="$fieldName$"/>
+			$itemName$
+		</$button>
+	""">
+		<!-- There is a tiddler. Link to it -->
+		<$fieldmangler tiddler="$itemName$">
+			<$button tooltip="Open tiddler" 
+				class="tc-btn-invisible tc-tiddlylink"
+				to="$itemName$"
+				message="tm-add-tag" 
+				param="$fieldName$">
+				''$itemName$''
+			</$button>
+		</$fieldmangler>
+	</$list>
+\end
+
+\define showItem(fieldName, itemName, tagName)
+	<<addTagToItem "$fieldName$" "$itemName$" "$tagName$">> <<linkToItem "$fieldName$" "$itemName$" "$tagName$">> 
+	<$list filter="[title[$itemName$]is[tiddler]] +[[$:/_cpa/Data/$fieldName$]getindex[$itemName$]] +[first[]]" variable="blahblah" emptyMessage="""
+		<<editSaveItemButton  "$fieldName$" "$itemName$" "$tagName$" {{$:/core/images/new-button}} >> 
+	""">
+		<<editSaveItemButton  "$fieldName$" "$itemName$" "$tagName$">>
+		<<viewHideItemButton "$fieldName$" "$itemName$" "$tagName$">>
+	</$list>
+\end
+
+\define temp()
+	&lt;&lt;{{$:/temp/1234}} "test" "exampleItem" "exampleTag"&gt;&gt;
+	Outputs this&rarr;
+	<$macrocall $name={{$:/temp/1234}} fieldName="test" itemName="exampleItem" tagName="exampleTag" />
+	&larr; 
+\end
+
+\define appendTwoItemsToFieldButton(tiddlerName, fieldName, itemOne, itemTwo, buttonText:"Add")
+	<!-- Originally from $:/danielo515/macros/ui/Buttons/addToken -->
+	<$button set="$tiddlerName$!!$fieldName$" 
+		setTo="$itemOne$ [[$itemTwo$]]" 
+		to="" 
+		message="tm-navigate"
+		tooltip="Add $itemTwo$ to $tiddlerName$'s $fieldName$"
+	>
+	<$action-setfield $tiddler="$:/temp/addItemToList/$fieldName$" text=""/>
+		$buttonText$
+	</$button>
+\end
+
+\define editFieldItem(fieldName)
+	$fieldName$:
+	<$edit-text tiddler="$:/temp/addItemToList/$fieldName$" tag="input" default=""/>
+\end
+
+\define appendItemToListButton(tiddlerName, fieldName)
+	<$reveal state="$:/_cpa/controls/debug" type="match" text="debug">
+		appendItemToListButton(tiddlerName="$tiddlerName$", 
+			fieldName="$fieldName$", itemName="$itemName$")<br/>
+	</$reveal>
+	<$macrocall $name="appendTwoItemsToFieldButton" 
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemOne={{$tiddlerName$!!$fieldName$}} 
+		itemTwo={{$:/temp/addItemToList/$fieldName$}}
+	/>
+\end
+
+\define displayAddList(tiddlerName, fieldName)
+	<$select tiddler="$:/temp/addItemToList/$fieldName$">
+		<option value="">--</option>
+		<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]sort[title]] -[list[$tiddlerName$!!$fieldName$]]">
+			<option value=<<currentTiddler>> >
+				<<currentTiddler>>
+			</option>
+		</$list>
+	</$select>
+\end
+
+\define deleteItemFromListButton(tiddlerName, fieldName, itemName)
+	<$button class="tc-btn-invisible" 
+		set="$tiddlerName$!!$fieldName$" 
+		setTo=<<remove_from_list 
+			"$itemName$"
+			"$fieldName$"
+			"$tiddlerName$" 
+		>>
+		tooltip="Remove '$itemName$' from $fieldName$ in $tiddlerName$"
+	>
+		{{$:/core/images/delete-button}}
+	</$button>
+\end
+
+\define addItemToListButton(tiddlerName, fieldName, itemName, buttonText:"Add")
+	<$macrocall $name="appendTwoItemsToFieldButton" 
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemOne={{$tiddlerName$!!$fieldName$}} 
+		itemTwo="$itemName$"
+		buttonText="$buttonText$"
+	/>
+\end
+
+\define manageOneListItem(tiddlerName, fieldName, tagName:"Done")
+	<$macrocall $name="deleteItemFromListButton"
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemName=<<curitem>> />
+	<$macrocall $name="showItem"
+		fieldName="$fieldName$"
+		itemName=<<curitem>>
+		tagName="exampleTag" />
+	<$macrocall $name="editViewItem" 
+		fieldName="test"
+		itemName=<<curitem>>
+		tagName="$tagName$" />
+\end
+
+\define listItemsInTiddler(tiddlerName, fieldName, tagName:"Done")
+	<ul>
+		<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curitem">
+			<li>
+				<$macrocall $name="manageOneListItem"
+					tiddlerName="$tiddlerName$"
+					fieldName="$fieldName$"
+					itemName=<<curitem>> />
+			</li>
+		</$list>
+	</ul>
+\end
+
+\define addItemsToTiddlerList(tiddlerName, fieldName)
+	<$macrocall $name="displayAddList" tiddlerName="$tiddlerName$"	fieldName="test" />
+	<$macrocall $name="editFieldItem" fieldName="$fieldName$" />
+	<$macrocall $name="addItemToListButton"	tiddlerName="$tiddlerName$"	fieldName="$fieldName$"	itemName={{$:/temp/addItemToList/$fieldName$}} />
+
+\end
+
+\define manageOneTreeItem(tiddlerName, fieldName, itemName, tagName:"Done")
+	<$macrocall $name="deleteItemFromListButton"
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemName="$itemName$" />
+	<$macrocall $name="showItem"
+		fieldName="$fieldName$"
+		itemName="$itemName$"
+		tagName="exampleTag" />
+	<$macrocall $name="editViewItem" 
+		fieldName="$fieldName$"
+		itemName="$itemName$"
+		tagName="$tagName$" />
+\end
+
+\define listChildren(tiddlerName, fieldName, itemName, tagName)
+	<!-- list the tiddlers tagged in this tiddler's childof field -->
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]">
+		<li>
+	<$macrocall $name="manageOneTreeItem"
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemName=<<currentTiddler>>
+		tagName="$tagName$" />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define listParentOf(tiddlerName, fieldName, itemName, tagName)
+	<!-- list the tiddlers tagged in this tiddler's parentof field -->
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]">
+		<li>
+	<$macrocall $name="manageOneTreeItem"
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemName=<<currentTiddler>>
+		tagName="$tagName$" />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define treeListItemsInTiddler(tiddlerName, fieldName, tagName:"Done")
+	<!-- Display the item and allow it to be edited or viewed -->
+	Tree based on the spec found in: ''<$link to="$fieldName$">$fieldName$</$link>''<br/>
+
+	<$reveal state=<<qualify "$:/state/Slide_Macro">> type="nomatch" text="show">
+		<$button set=<<qualify "$:/state/Slide_Macro">> setTo="show" 
+			class="tc-btn-invisible">
+			{{$:/core/images/right-arrow}}
+		</$button>
+	</$reveal>
+	<$reveal state=<<qualify "$:/state/Slide_Macro">> type="match" text="show">
+		<$button set=<<qualify "$:/state/Slide_Macro">> setTo="hide"
+			class="tc-btn-invisible">
+			{{$:/core/images/down-arrow}}
+		</$button>
+	</$reveal>
+	<$macrocall $name="manageOneTreeItem"
+		tiddlerName="$tiddlerName$"
+		fieldName="$fieldName$"
+		itemName="$tiddlerName$"
+		tagName="$tagName$" />
+	
+	<$reveal state=<<qualify "$:/state/Slide_Macro">> type="match" text="show">
+		<$list filter="[list[$fieldName$!!childof]]" variable="curChild">
+			<br/>__{{$fieldName$!!childlabel}}__
+			<$macrocall $name="listChildren" 
+				itemName="$tiddlerName$"
+				fieldName=<<curChild>>
+				tagName="$tagName$" />
+		</$list>
+		<$list filter="[list[$fieldName$!!parentof]]" variable="curChild">
+			<!-- list the tiddlers tagged in this tiddler's parentof field -->
+			__{{$fieldName$!!parentlabel}}__
+			<$macrocall $name="listParentOf" 
+				tiddlerName="$tiddlerName$"
+				fieldName=<<curChild>>
+				tagName="$tagName$" />
+		</$list>
+	</$reveal>
+
+\end
+
+\define addItemsToTiddlerList(tiddlerName, fieldName)
+	<$macrocall $name="displayAddList" tiddlerName="$tiddlerName$"	fieldName="test" />
+	<$macrocall $name="editFieldItem" fieldName="$fieldName$" />
+	<$macrocall $name="addItemToListButton"	tiddlerName="$tiddlerName$"	fieldName="$fieldName$"	itemName={{$:/temp/addItemToList/$fieldName$}} />
+
+\end
+
+----
+
+<$select tiddler="$:/temp/1234">
+<option value="addTagToNote">addTagToNote</option>
+<option value="addTagToTiddler">addTagToTiddler</option>
+<option value="addTagToItem">addTagToItem</option>
+<option value="viewNote">viewNote</option>
+<option value="viewTiddler">viewTiddler</option>
+<option value="viewItem">viewItem</option>
+<option value="editNote">editNote</option>
+<option value="editTiddler">editTiddler</option>
+<option value="editItem">editItem</option>
+<option value="editSaveItemButton">editSaveItemButton</option>
+<option value="viewHideItemButton">viewHideItemButton</option>
+<option value="editViewItem">editViewItem</option>
+<option value="linkToItem">linkToItem</option>
+<option value="showItem">showItem</option>
+</$select>  <<temp>> 
+
+Overall outcome: `<<showItem fieldName:"test" itemName:"exampleItem" tagName:"exampleTag">>`
+
+<<showItem fieldName:"test" itemName:"exampleItem" tagName:"exampleTag">>
+
+<<editViewItem  "test" "exampleItem" "exampleTag">>
+
+<<showItem fieldName:"test" itemName:"nonexistant" tagName:"exampleTag">>
+
+<<editViewItem  "test" "nonexistant" "exampleTag">>
+
+
+<table><tr><th>Location</th><th>field</th><th>Value</th></tr>
+<tr><td>exampleItem</td><td>tags</td><td><$view tiddler="exampleItem" field="tags"/></td></tr>
+<tr><td>exampleItem</td><td>text</td><td><$view tiddler="exampleItem" field="text"/></td></tr>
+<tr><td>$:/_cpa/Data/test</td><td>exampleItem</td><td><$view tiddler="$:/_cpa/Data/test" index="exampleItem"/></td></tr>
+<tr><td>$:/_cpa/Data/test</td><td>tags</td><td><$view tiddler="$:/_cpa/Data/test" field="tags"/></td></tr>
+</table>
+
+----
+
+`<$macrocall $name="addItemsToTiddlerList" 
+	tiddlerName=<<currentTiddler>> 
+	fieldName="test" />`
+
+`<$macrocall $name="listItemsInTiddler" 
+	tiddlerName=<<currentTiddler>> 
+	fieldName="test"
+	tagName="Done" />`
+
+<$macrocall $name="addItemsToTiddlerList" tiddlerName=<<currentTiddler>>	fieldName="test" />
+<$macrocall $name="listItemsInTiddler" tiddlerName=<<currentTiddler>>	fieldName="test" tagName="Done" />
+
+----
+
+`<$macrocall $name="addItemsToTiddlerList" 
+	tiddlerName=<<currentTiddler>> 
+	fieldName="test" />`
+
+`<$macrocall $name="listItemsInTiddler" 
+	tiddlerName=<<currentTiddler>> 
+	fieldName="test"
+	tagName="Done" />`
+
+<$macrocall $name="addItemsToTiddlerList" tiddlerName=<<currentTiddler>>	fieldName="test" />
+<$macrocall $name="listItemsInTiddler" tiddlerName=<<currentTiddler>>	fieldName="test" tagName="Done" />
+
+<<treeListItemsInTiddler exampleTiddler test exampleItem>>
+
+<<treeListItemsInTiddler HITOL test exampleItem>>
