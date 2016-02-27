@@ -1,0 +1,17 @@
+title: $:/ListManagement/Component1
+caption: This is Component 1
+created: 20160226185058351
+modified: 20160226230308122
+svgheight: 50
+svgtype: rect
+svgwidth: 100
+svgx: 10
+svgy: 10
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: Component1
+source-tiddler-title-as-link: Component1
+
+<<Math 2 + 3>>
+
+<<calcInt 4 * 5>>

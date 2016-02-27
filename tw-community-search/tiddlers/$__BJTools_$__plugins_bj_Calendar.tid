@@ -1,12 +1,12 @@
 title: $:/BJTools/$:/plugins/bj/Calendar
 author: JeffreyWilkinson
-core-version: >=5.1.3
-created: 20141103185750273
+core-version: >=5.1.11
 dependents: 
 description: calendar with date formatter addons
+list: readme license
 revision: 0
-source: https://github.com/buggyj/TW5-Calendar
-version: 0.0.5
+source: https://github.com/buggyj/TW5-tools
+version: 1.11.0
 original-tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/Calendar

@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugins/bj/Dev'
+title: Unknown plugin '$:/plugins/bj/storytabs'
 name: unknown
-plugin_tiddler: $:/plugins/bj/Dev
+plugin_tiddler: $:/plugins/bj/storytabs
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 

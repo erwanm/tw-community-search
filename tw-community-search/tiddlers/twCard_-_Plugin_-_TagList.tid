@@ -17,10 +17,6 @@ short_description: list by tag that is re-orderable by drag/drop
 title: twCard - Plugin - TagList
 wiki: http://bjtools.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: BJTools
-twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/taglist
-twcs-description: (re-orderable) list on a tag
-twcs-author: Jeffrey Wilkinson
-twcs-version: 0.0.7
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}

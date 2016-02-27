@@ -17,10 +17,6 @@ short_description: allows multiple actions on a lists to be activated at the sam
 title: twCard - Plugin - ClickAction
 wiki: http://bjtools.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: BJTools
-twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/smalltools
-twcs-description: Includes 'click trigger' macro
-twcs-author: JeffreyWilkinson
-twcs-version: 0.0.1
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

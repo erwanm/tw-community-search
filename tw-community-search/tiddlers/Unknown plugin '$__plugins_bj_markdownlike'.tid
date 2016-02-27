@@ -1,6 +1,6 @@
-title: Unknown plugin 'Draft of '$:/plugins/bj/Calendar''
+title: Unknown plugin '$:/plugins/bj/markdownlike'
 name: unknown
-plugin_tiddler: Draft of '$:/plugins/bj/Calendar'
+plugin_tiddler: $:/plugins/bj/markdownlike
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 

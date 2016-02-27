@@ -1,13 +1,12 @@
 title: $:/BJTools/$:/plugins/bj/plugins/marked
 author: JeffreyWilkinson
-core-version: >=5.1.9
-created: 20151101203933927
+core-version: >=5.1.11
 dependents: 
 description: alternative markdown
 list: readme license
 revision: 0
-source: https://github.com/buggyj/Tw5-plugins
-version: 0.0.2
+source: https://github.com/buggyj/Tw5-tools
+version: 1.11.0
 original-tags: 
 source-wiki-id: BJTools
 source-tiddler-title-as-text: $:/plugins/bj/plugins/marked

@@ -21,6 +21,6 @@ twcs-wiki-id: BJTools
 twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/Calendar
 twcs-description: calendar with date formatter addons
 twcs-author: JeffreyWilkinson
-twcs-version: 0.0.5
+twcs-version: 1.11.0
 
 {{||$:/CommunityPluginTemplate}}

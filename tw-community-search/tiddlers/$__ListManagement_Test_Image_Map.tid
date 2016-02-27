@@ -1,29 +1,25 @@
 title: $:/ListManagement/Test Image Map
 created: 20160224212852796
-modified: 20160226003117966
+modified: 20160227002211100
+svgheight: 250
+svgwidth: 250
 original-tags: 
 source-wiki-id: ListManagement
 source-tiddler-title-as-text: Test Image Map
 source-tiddler-title-as-link: Test%20Image%20Map
 
+\define placeText(text x y width height)
+    <foreignObject x=<<calcInt $x$ + 5>> 
+        y=<<calcInt $y$ + 5>> 
+        width="$width$" 
+        height=<<calcInt $height$ + 20>> >
+        <body>$text$</body>
+    </foreignObject>
+\end
+
 I have a lovely bunch of coconuts
 
-<img usemap="#planetmap" src="./Plant_Images/Sow_Indors.png" />
-<svg height="40" style="position: relative; top:-200px; left: 0px;">
-  <rect x="1" y="30" width="30" height="10" style="fill:none;stroke-width:1;stroke:rgb(0,0,0)" />
-</svg>
-
-<map name="planetmap">
-  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
-  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
-  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
-</map>
-
-Hello this is a test <span style="position: relative; top:-200px; left: -30px;">that</span>
-
-<svg width="120" height="120" viewBox="0 0 120 120"
-     xmlns="http://www.w3.org/2000/svg" version="1.1"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width={{!!svgwidth}} height={{!!svgheight}} >
     <defs>
         <marker id="Triangle"
                 viewBox="0 0 10 10" 
@@ -37,5 +33,16 @@ Hello this is a test <span style="position: relative; top:-200px; left: -30px;">
     <polyline points="10,90 50,80 90,20"
               fill="none" stroke="black" 
               stroke-width="2"
-              marker-end="url(#Triangle)" />
+              marker-end="url(#Triangle)">
+        <title>This is a tooltip</title>
+    </polyline>
+    <$list filter="[has[svgtype]]">
+        <rect x={{!!svgx}} y={{!!svgy}} width={{!!svgwidth}} height={{!!svgheight}} fill="none" stroke="black" />
+        <$macrocall $name="placeText" 
+                text={{!!caption}} 
+                x={{!!svgx}} 
+                y={{!!svgy}} 
+                width={{!!svgwidth}}
+                height={{!!svgheight}} />
+    </$list>
 </svg>

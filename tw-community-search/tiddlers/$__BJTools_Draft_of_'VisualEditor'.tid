@@ -1,12 +1,14 @@
-title: $:/BJTools/VisualEditor
+title: $:/BJTools/Draft of 'VisualEditor'
 created: 20140403122020698
-modified: 20160219073050992
+draft.of: VisualEditor
+draft.title: VisualEditor
+modified: 20160222232415684
 revision: 0
 type: text/x-htmlp
 original-tags: 
 source-wiki-id: BJTools
-source-tiddler-title-as-text: VisualEditor
-source-tiddler-title-as-link: VisualEditor
+source-tiddler-title-as-text: Draft of 'VisualEditor'
+source-tiddler-title-as-link: Draft%20of%20%27VisualEditor%27
 
 <h2>Demo</h2>
 <p>Try the demo here: VisualEditorDemo</p>

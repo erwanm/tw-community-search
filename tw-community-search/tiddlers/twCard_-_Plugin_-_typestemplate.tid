@@ -21,6 +21,6 @@ twcs-wiki-id: BJTools
 twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/typestemplate
 twcs-description: enables user templates for each type
 twcs-author: JeffreyWilkinson
-twcs-version: 0.0.1
+twcs-version: 1.11.0
 
 {{||$:/CommunityPluginTemplate}}

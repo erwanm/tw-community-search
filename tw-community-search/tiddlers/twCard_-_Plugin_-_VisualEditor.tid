@@ -21,6 +21,6 @@ twcs-wiki-id: BJTools
 twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/visualeditor
 twcs-description: ckeditor adapter plugin
 twcs-author: JeffreyWilkinson
-twcs-version: 0.0.5-alpha
+twcs-version: 1.11.0
 
 {{||$:/CommunityPluginTemplate}}
