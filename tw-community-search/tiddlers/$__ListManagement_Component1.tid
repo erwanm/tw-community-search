@@ -1,17 +1,12 @@
 title: $:/ListManagement/Component1
-caption: This is Component 1
-created: 20160226185058351
-modified: 20160226230308122
-svgheight: 50
-svgtype: rect
-svgwidth: 100
+created: 20160228084719784
+modified: 20160228085001049
+svgheight: 40
+svgwidth: 40
 svgx: 10
 svgy: 10
-original-tags: 
+original-tags: svgitem
 source-wiki-id: ListManagement
 source-tiddler-title-as-text: Component1
 source-tiddler-title-as-link: Component1
 
-<<Math 2 + 3>>
-
-<<calcInt 4 * 5>>
