@@ -1,6 +1,6 @@
 title: $:/cpashow/Reorder List
 created: 20151231234738847
-modified: 20151231234932861
+modified: 20160314203023970
 mylist: one two three four five [[six and]] seven
 original-tags: 
 source-wiki-id: cpashow
@@ -20,6 +20,7 @@ source-tiddler-title-as-link: Reorder%20List
 \define moveListItemUp(tiddlerName, fieldName, itemName)<<moveListItem "$tiddlerName$" "$fieldName$" "$itemName$" "-1">>
 
 !!This will work on upgrade to 5.10
+!!! Except I can't because the upgrader crashes
 
 <table>
 <$list filter=[list[!!mylist]first[]] variable="curItem">

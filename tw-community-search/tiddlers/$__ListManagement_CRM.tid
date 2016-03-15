@@ -1,0 +1,84 @@
+title: $:/ListManagement/CRM
+conversation:  [[How do I create a CRM?]]
+created: 20160314183119528
+modified: 20160314224114303
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: CRM
+source-tiddler-title-as-link: CRM
+
+<<mytabs "Conversations Contacts People Subjects Documents Agencies Jobs Outcomes">>
+
+<$macrocall $name="section" 
+	sectionName="Conversations"
+	sectionText="""
+
+Conversations consist of a series of Contacts, Outcomes, and Agreements with people or agencies. Let's choose a conversation to look at:
+
+<<listHere "conversation">>
+
+Wow that doesn't work. I need to research these macros.
+
+So now, based on the title of the conversation, we should be able to edit the contacts involved in that conversation.
+
+So let's set the context to that tiddler
+<$list filter="[list[!!conversation]first[]]" variable="curTid">
+<$tiddler tiddler=<<curTid>> >
+
+<<listHere "contact">>
+
+OK so this works, (Other than the macro is broken) So the concept is correct.
+
+</$tiddler>
+</$list>
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Contacts"
+	sectionText="""
+
+A Contact is one event with either a document, a person, or an agency. It can have an outcome. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="People"
+	sectionText="""
+
+A Person is a person who has a bunch of attributes. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Subjects"
+	sectionText="""
+
+A Subject is a topic of conversation. The list of subjects should be well thought out. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Documents"
+	sectionText="""
+
+A Document is a Piece of papaer or an electronic contract. The contents of a document are flexible and need to have the ability to add attributes. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Agencies"
+	sectionText="""
+
+Agency. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Jobs"
+	sectionText="""
+
+Jobs. Work on this is delayed until the macros are fixed
+
+"""/>
+<$macrocall $name="section" 
+	sectionName="Outcomes"
+	sectionText="""
+
+Outcomes. Work on this is delayed until the macros are fixed
+
+"""/>
