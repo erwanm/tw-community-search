@@ -5,7 +5,7 @@ dependents:
 description: moment.js plugin for TiddlyWiki5
 list: readme license
 source: https://github.com/kixam/TW5-moment.js
-version: 2.11.1
+version: 2.12.0
 original-tags: 
 source-wiki-id: DatePickerPlugin
 source-tiddler-title-as-text: $:/plugins/kixam/moment

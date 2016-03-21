@@ -5,7 +5,13 @@ source-wiki-id: DatePickerPlugin
 source-tiddler-title-as-text: Demonstration
 source-tiddler-title-as-link: Demonstration
 
-<$edit-date/>
+Using `input` tag and showing time:
+
+<$edit-date showTime showSeconds use24hour/>
+
+Using an icon instead of an `input` field:
+
+<$edit-date icon="$:/core/icon" tag=div />
 
 !!Result:
 {{!!created}}
