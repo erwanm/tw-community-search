@@ -3,10 +3,6 @@ tags: CommunityWikis
 type: text/vnd.tiddlywiki
 wiki-address: http://tobibeer.github.io/tw/demo
 author: TobiasBeer
-wiki-tw-version: 5.1.8-prerelease
-wiki-latest-modification: 20150923071224226
-wiki-nb-tiddlers: 56
 
-take a look
 
 {{||$:/CommunityWikiPresentationTemplate}}
