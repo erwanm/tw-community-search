@@ -1,0 +1,16 @@
+title: $:/vis.jsTimeline/$:/plugins/kixam/timeline
+author: kixam
+core-version: >=5.1.8
+dependents: 
+depends: $:/plugins/felixhayashi/vis $:/plugins/kixam/moment
+description: vis.js Timeline plugin for TiddlyWiki5
+list: readme usage license
+source: https://github.com/kixam/TW5-visjsTimeline
+version: 0.7.6
+original-tags: 
+source-wiki-id: vis.jsTimeline
+source-tiddler-title-as-text: $:/plugins/kixam/timeline
+source-tiddler-title-as-link: %24%3a%2fplugins%2fkixam%2ftimeline
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

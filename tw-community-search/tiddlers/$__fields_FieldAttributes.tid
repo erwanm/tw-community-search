@@ -1,0 +1,23 @@
+title: $:/fields/FieldAttributes
+created: 20150205191638027
+creator: Tobias Beer
+modified: 20150205224340090
+modifier: Tobias Beer
+summary: allow to show fields and field values as tiddler attributes
+original-tags: Idea
+source-wiki-id: fields
+source-tiddler-title-as-text: FieldAttributes
+source-tiddler-title-as-link: FieldAttributes
+
+; field configuration — output as attribute
+: https://github.com/Jermolene/TiddlyWiki5/issues/1461
+; modified
+: [[$:/core/ui/ViewTemplate]]
+; example config
+: [[$:/config/fields/summary]]
+; demo styles
+: `<style>.tc-field-summary .tc-title{color:pink;}</style>` <style>.tc-field-summary .tc-title{color:pink;}</style>
+; problems
+: @@color:red;the story no longer appears to scroll.@@
+; not implemented
+: field value checking

@@ -1,0 +1,29 @@
+title: $:/dev/Resources
+caption: Resources
+created: 20141126022721595
+creator: Tobias Beer
+modified: 20150109185922516
+modifier: Tobias Beer
+original-tags: TidU
+source-wiki-id: dev
+source-tiddler-title-as-text: Resources
+source-tiddler-title-as-link: Resources
+
+<<summaries>>
+
+!!Check
+
+;http://yeoman.io
+:yo bower grunt — scaffold package build
+:;yo tiddlywiki
+::generator https://www.npmjs.com/package/generator-tiddlywiki 
+:;discussion
+::https://github.com/Jermolene/TiddlyWiki5/issues/1149#issuecomment-66616634
+;http://symfony.com
+:reusable components, framework for php web projects
+;Adobe ~PhoneGap
+:https://phonegap.com
+:;running on cordova
+::http://cordova.apache.org
+;Intel XDK
+:https://software.intel.com/en-us/html5/tools

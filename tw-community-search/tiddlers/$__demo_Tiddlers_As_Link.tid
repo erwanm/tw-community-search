@@ -1,0 +1,41 @@
+title: $:/demo/Tiddlers As Link
+created: 20141124085857445
+creator: Tobias Beer
+groups: tiddlywiki/WoRkSd1xXnc/NKAv9lXXjdcJ
+modified: 20141124091707303
+modifier: Tobias Beer
+summary: the `[[link syntax]]` and its limits...
+original-tags: Widgets Demo Transclusion [[Syntax Errors]]
+source-wiki-id: demo
+source-tiddler-title-as-text: Tiddlers As Link
+source-tiddler-title-as-link: Tiddlers%20As%20Link
+
+Especially when iterating via [[lists|http://tiddlywiki.com/#ListWidget]], the following doesn't work as it wikifies all the inner `<$foo bar/>` into an internal link...
+
+```
+[[<$transclude field="title" mode="block"/>]]
+```
+
+<<<
+[[<$transclude field="title" mode="block"/>]]
+<<<
+
+Instead, use the [[link widget|http://tiddlywiki.com/#LinkWidget]]...
+
+```
+<$link><$transclude field="title" mode="block"/></$link>
+```
+
+<<<
+<$link><$transclude field="title" mode="block"/></$link>
+<<<
+
+Or short...
+
+```
+<$link>{{!!title}}</$link>
+```
+
+<<<
+<$link>{{!!title}}</$link>
+<<<

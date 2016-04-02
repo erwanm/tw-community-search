@@ -1,0 +1,23 @@
+title: $:/dev/App Development
+created: 20141208085744523
+creator: Tobias Beer
+modified: 20141208085819650
+modifier: Tobias Beer
+original-tags: TidU
+source-wiki-id: dev
+source-tiddler-title-as-text: App Development
+source-tiddler-title-as-link: App%20Development
+
+Say, one develops a number of plugins intended to support a tw5 based application.
+
+What would you recommend for...
+
+# The bundling process...
+#* Split components into an app-core and perhaps optional plugins?
+#* I guess the reliable way is to always build against the stable release
+# Providing upgrade paths...
+#* Can't stop users from upgrading TiddlyWiki independently, right?
+#* Would app-packages be dragged to the app, replacing an existing package?
+#* What is required for an "upgrader"?
+#* Can there be master packages, i.e. plugin-plugins
+#** ...thus allowing distros, e.g. basic, full, ...?

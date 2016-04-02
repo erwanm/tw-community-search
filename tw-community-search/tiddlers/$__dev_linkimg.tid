@@ -1,0 +1,13 @@
+title: $:/dev/linkimg
+created: 20141209130713643
+creator: Tobias Beer
+modified: 20141209130854463
+modifier: Tobias Beer
+original-tags: Macro
+source-wiki-id: dev
+source-tiddler-title-as-text: linkimg
+source-tiddler-title-as-link: linkimg
+
+https://groups.google.com/d/msg/tiddlywiki/xX7Sr3Pq9Jc/9kKK0Avc3D0J
+
+see if I can use the ''$image'' widget to allow for `$(currentTiddler)$!!foo`
