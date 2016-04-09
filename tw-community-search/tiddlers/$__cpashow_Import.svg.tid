@@ -1,0 +1,13 @@
+title: $:/cpashow/Import.svg
+created: 20160407222633500
+modified: 20160407224451934
+original-tags: icon
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Import.svg
+source-tiddler-title-as-link: Import.svg
+
+<svg stroke="black" stroke-width="8" fill="black" class="tc-image-button" viewBox="0 0 48 48" width="22pt" height="22pt">
+<line x1="0" y1="24" x2="25" y2="24" />
+<path d="M24 10h-4v28h 4l 15-15z" stroke="none"/>
+<path d="M24 4h 20 v40 h-20" fill="none" />
+</svg>

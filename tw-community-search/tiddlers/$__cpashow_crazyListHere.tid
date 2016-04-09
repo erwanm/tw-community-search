@@ -1,7 +1,7 @@
 title: $:/cpashow/crazyListHere
 created: 20160325204027686
-modified: 20160406034649155
-testfield: [[New Item]] [[List Macros]] run
+modified: 20160408215229112
+testfield: [[New Item]] [[List Macros 2]] run [[List Macros]] [[Fancy pants]]
 original-tags: $:/tags/Macro
 source-wiki-id: cpashow
 source-tiddler-title-as-text: crazyListHere
@@ -13,9 +13,11 @@ source-tiddler-title-as-link: crazyListHere
 	<$select tiddler="$:/temp/fieldItems" field="current$fieldName$">
 		<option value=""> -- </option>
 		<!-- Filter: Tagged with fieldname = "[tag[$fieldName$]]" -->
+		<!-- Filter: listed in fieldname = "[getfieldlist[$fieldName$]]" -->
 		<!-- Filter: Listed in field = "[list[!!$fieldName$]]" -->
 		<!-- Filter: Tagged with fieldname but not in field = "[tag[$fieldName$]] -[list[!!$fieldName$]]" -->
-		<$list filter="[tag[$fieldName$]] -[list[!!$fieldName$]]" variable="curItem">
+		<!-- Filter: Tagged with fieldname or listed in field but not in field = "[tag[$fieldName$]] [getfieldlist[$fieldName$]] -[list[!!$fieldName$]]" -->
+		<$list filter="[tag[$fieldName$]] [getfieldlist[$fieldName$]] -[list[!!$fieldName$]]" variable="curItem">
 			<option value=<<curItem>> ><<curItem>></option>
 		</$list>
 	</$select>
@@ -33,12 +35,73 @@ source-tiddler-title-as-link: crazyListHere
 	</$select>
 \end
 
+\define comboItemSelect(fieldName)
+
+	<$reveal 
+		state="$:/state/comboSelect##$fieldName$"
+		type="match"
+		text="edit"
+		default="edit"
+	>
+		<$button set="$:/state/comboSelect##$fieldName$"
+			setTo="import"
+			tooltip="Select from existing $fieldName$s"
+		>
+			{{Import.svg}}
+		</$button>
+		<!-- Un comment this if you want to display this button -->
+		<!-- $button set="$:/state/comboSelect##$fieldName$"
+			setTo="select"
+			tooltip="Select $fieldName$ from this tiddler"
+		>
+			{{$:/core/images/down-arrow}}
+		</$button -->
+		<<editCurrentFieldName "$fieldName$">>
+		<<addItemIfNotPresent "$fieldName$" >>
+	</$reveal>
+	<$reveal 
+		state="$:/state/comboSelect##$fieldName$"
+		type="match"
+		text="import"
+		default="edit"
+	>
+		<$button set="$:/state/comboSelect##$fieldName$"
+			setTo="edit"
+			tooltip="Create a new $fieldName$"
+		>
+			{{$:/core/images/edit-button}}
+		</$button>
+		<!-- Un comment this if you want to display this button -->
+		<!-- $button set="$:/state/comboSelect##$fieldName$"
+			setTo="select"
+			tooltip="Select $fieldName$ from this tiddler"
+		>
+			{{$:/core/images/down-arrow}}
+		</$button -->
+		<<selectItemsNotHere "$fieldName$">>
+		<<addItemIfNotPresent "$fieldName$" >>
+	</$reveal>
+	<$reveal 
+		state="$:/state/comboSelect##$fieldName$"
+		type="match"
+		text="select"
+		default="edit"
+	>
+		<<selectItemsHere "$fieldName$">>
+	</$reveal>
+\end
+
 \define editCurrentFieldName(fieldName)
 <!-- editCurrentFieldName($fieldName$) -->
 	<!-- Display an edit box for the selected value -->
 	<!-- Use a $:/temp tiddler so that it is invisible on the recent list -->
 	<!-- Use a $:/temp tiddler so it doesn't get exported on upgrade -->
-	<$edit tiddler="$:/temp/fieldItems" field="current$fieldName$" />
+	<$edit-text 
+		placeholder="Type a new item name" 
+		tag="input"
+		tiddler="$:/temp/fieldItems" 
+		field="current$fieldName$" 
+	/>
 \end
 
 \define addItemIfNotPresent(fieldName)
@@ -49,14 +112,26 @@ source-tiddler-title-as-link: crazyListHere
 	<!-- Filter: Is item not present in field? = "[[$:/temp/fieldItems]get[current$fieldName$]] -[list[!!$fieldName$]]" -->
 	<$list filter="[[$:/temp/fieldItems]get[current$fieldName$]] -[list[!!$fieldName$]]" variable="curItem">
 		<$button tooltip=<<curItem>> >
-			Add 
+			{{$:/core/images/new-button}}
+			<!-- Trim the value and enclose it in square brackets so its a list item -->
 			<$macrocall $name="actionAddItem" fieldName="$fieldName$" itemName=<<curItem>> />
 		</$button>
 	</$list>
 \end
 
 \define actionAddItem(fieldName, itemName)
+	<!-- Trim the value -->
+	<$macrocall $name="actionAddItem2" 
+		fieldName="$fieldName$" 
+		itemName=<<calcString "$itemName$" "trim">> 
+	/>
+\end
+
+\define actionAddItem2(fieldName, itemName)
+	<!-- Add the item to the field list -->
 	<$action-listops $field="$fieldName$" $subfilter="[[$itemName$]]" />
+	<!-- Set the input field to be the trimmed value -->
+	<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="$itemName$" />
 \end
 
 \define deleteItemButton(itemName, fieldName)
@@ -136,12 +211,50 @@ source-tiddler-title-as-link: crazyListHere
 \define createTiddlerType(tiddlerName, tagName)
 <!-- createTiddlerType($tiddlerName$, $tagName$) -->
 	<$list filter="[[$tiddlerName$]!is[tiddler]]" variable="exists" >
-		<$button class="tc-btn-invisible" tooltip="Create $tiddlerName$">
+		<$button class="tc-btn-invisible" tooltip="Create $tiddlerName$ as a tiddler">
 			{{$:/core/images/new-button}}
 			<$action-listops $tiddler="$tiddlerName$" $field="tags" $subfilter="[[$tagName$]]" />
 			<$action-listops $tiddler="$itemName$" $field="tags" $subfilter="[[$fieldName$]]" />
 		</$button>
 	</$list>
+\end
+
+\define displayItemManager(tiddlerName, itemName, fieldName)
+	<style>
+		.displayItemManager .hideme {opacity:0.0; transition: opacity 1.0s; }
+		.displayItemManager:hover .hideme {opacity:1.0; transition: opacity 0.5s; }
+	</style>
+	<span class="displayItemManager">
+		<span class="hideme">
+			<!-- Display a delete button -->
+			<$macrocall $name="deleteItemButton" itemName=<<itemName>> fieldName="$fieldName$" />
+		</span>
+		<!-- Display the item name -->
+		<$macrocall $name="displayItemName" itemName=<<itemName>> />
+		<span class="hideme">
+			<!-- If the item doesn't exist as a Tiddler, display a button to create it -->
+			<$macrocall $name="createTiddlerType" tiddlerName="$itemName$" tagName="$fieldName$" />
+			<!-- If the item exists not completed, display a button to complete it -->
+			<$macrocall $name="completeTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<!-- If the item is completed, display a button to uncomplete it -->
+			<$macrocall $name="uncompleteTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<!-- If the item exists not done, display a button to Done it -->
+			<$macrocall $name="todoTiddler"tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<!-- If the item is Done, display a button to unDo it -->
+			<$macrocall $name="doneTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<$macrocall $name="slideContents" tiddlerName="$itemName$" fieldName="$fieldName$" />
+		</span>
+	</span>
+\end
+
+\define slideContents(tiddlerName, fieldName)
+	<$macrocall $name="Slide_Macro" 
+		macro="""
+			<$tiddler tiddler="$tiddlerName$" >
+				<$transclude tiddler="$fieldName$" />
+			</$tiddler>
+		"""
+	/>
 \end
 
 
@@ -153,6 +266,7 @@ source-tiddler-title-as-link: crazyListHere
 	state="$:/state/tab/$fieldName$" 
 	default="Current $fieldName$"
 	sectionText="""
+
 	<$macrocall $name="selectItemsHere" fieldName="$fieldName$"/>
 	<$macrocall $name="Slide_Edit" 
 		tiddlerName={{$:/temp/fieldItems!!current$fieldName$}}
@@ -168,60 +282,20 @@ source-tiddler-title-as-link: crazyListHere
 	state="$:/state/tab/$fieldName$" 
 	sectionText="""
 
-<table style="width:100%"><tr>
-	<th>Available Items</th>
-	<th>Current Item</th>
-	<th>Action</th>
-</tr><tr>
-	<td><!-- List all tiddlers tagged with $fieldName$ -values in field -->
-		<$macrocall $name="selectItemsNotHere" fieldName="$fieldName$"/>
-	</td><td>
-		<$macrocall $name="editCurrentFieldName" fieldName="$fieldName$" />
-	</td><td>
-		<$macrocall $name="addItemIfNotPresent" fieldName="$fieldName$" />
-	</td>
-</tr></table>
-<table style="width:100%"><tr>
-	<th>Del</th>
-	<th>Item</th>
-	<th>Create</th>
-	<th>Incomplete</th>
-	<th>Complete</th>
-	<th>Active</th>
-	<th>Done</th>
-</tr>
-<$list filter="[list[!!$fieldName$]]" variable="itemName">
-<tr>
-	<td>
-		<!-- Display a delete button -->
-		<$macrocall $name="deleteItemButton" itemName=<<itemName>> fieldName="$fieldName$" />
-	</td><td>
-		<!-- Display the item name -->
-		<$macrocall $name="displayItemName" itemName=<<itemName>> />
-	</td><td>
-		<!-- If the item doesn't exist as a Tiddler, display a button to create it -->
-		<$macrocall $name="createTiddlerType" tiddlerName=<<itemName>> tagName="$fieldName$" />
-	</td><td>
-		<!-- If the item exists not completed, display a button to complete it -->
-		<$macrocall $name="completeTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
-	</td><td>
-		<!-- If the item is completed, display a button to uncomplete it -->
-		<$macrocall $name="uncompleteTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
-	</td><td>
-		<!-- If the item exists not done, display a button to Done it -->
-		<$macrocall $name="todoTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
-	</td><td>
-		<!-- If the item is Done, display a button to unDo it -->
-		<$macrocall $name="doneTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
-	</td>
-</tr>
-</$list>
-</table>
+	<$macrocall $name="comboItemSelect" fieldName="$fieldName$"/>
+	<ul>
+		<$list filter="[list[!!$fieldName$]]" variable="itemName">
+			<li>
+				<$macrocall $name="displayItemManager" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
+			</li>
+		</$list>
+	</ul>
 
 """/>
 \end
 
 \define breakerline()--------------------------------------------------------
+
 
 <table style="width:100%"><tr>
 	<th style="width:30%">Macro</th>
@@ -242,6 +316,14 @@ source-tiddler-title-as-link: crazyListHere
 		Generates a select drop down filled tiddlers in fieldname in this tiddler
 	</td><td>
 		<$macrocall $name="selectItemsHere" fieldName="testfield"/>
+	</td>
+</tr><tr>
+	<td>
+		`<$macrocall $name="comboItemSelect" fieldName="testfield"/>`
+	</td><td>
+		Generates a combo edit / select widget allowing you to import, edit, or select items into this tiddler
+	</td><td>
+		<$macrocall $name="comboItemSelect" fieldName="testfield"/>
 	</td>
 </tr><tr>
 	<td>
@@ -271,9 +353,17 @@ source-tiddler-title-as-link: crazyListHere
 	<td>
 		`<$macrocall $name="displayItemName" itemName={{$:/temp/fieldItems!!currenttestfield}} />`
 	</td><td>
-		Displays a delete button to delete this row's Tiddler from the fieldname list
+		Displays the item name. Displays as a link to the item if the item exists as a tiddler
 	</td><td>
 		<$macrocall $name="displayItemName" itemName={{$:/temp/fieldItems!!currenttestfield}} />
+	</td>
+</tr><tr>
+	<td>
+		`<$macrocall $name="createTiddlerType" tiddlerName={{$:/temp/fieldItems!!currenttestfield}}  tagName="testfield" />`
+	</td><td>
+		Creates the Tiddler and tags it with the fieldname
+	</td><td>
+		<$macrocall $name="createTiddlerType" tiddlerName={{$:/temp/fieldItems!!currenttestfield}}  tagName="testfield" />
 	</td>
 </tr><tr>
 	<td>
@@ -309,17 +399,9 @@ source-tiddler-title-as-link: crazyListHere
 	</td>
 </tr><tr>
 	<td>
-		`<$macrocall $name="createTiddlerType" tiddlerName={{$:/temp/fieldItems!!currenttestfield}}  tagName="testfield" />`
-	</td><td>
-		Creates the Tiddler and tags it with the fieldname
-	</td><td>
-		<$macrocall $name="createTiddlerType" tiddlerName={{$:/temp/fieldItems!!currenttestfield}}  tagName="testfield" />
-	</td>
-</tr><tr>
-	<td>
 		`<<crazyListHere "testfield">>`
 	</td><td>
-		Displays the full List Management interface. The individual macros are the usable items. Edit the macro crazyListHere to see how it can all be tied together or change how it works.
+		Displays the full List Management interface. Edit this macro to change how it works.
 	</td><td>
 		<<crazyListHere "testfield">>
 	</td>
