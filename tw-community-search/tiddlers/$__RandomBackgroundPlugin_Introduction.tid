@@ -1,6 +1,6 @@
 title: $:/RandomBackgroundPlugin/Introduction
 created: 20151109133126492
-modified: 20151123132856393
+modified: 20160409185908316
 original-tags: 
 source-wiki-id: RandomBackgroundPlugin
 source-tiddler-title-as-text: Introduction
@@ -11,6 +11,5 @@ source-tiddler-title-as-link: Introduction
 &emsp;&emsp;Simply drag [[$:/plugin/ajh/randombackground]] to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
 [[$:/plugin/ajh/randombackground/background0]]<br>
 [[$:/plugin/ajh/randombackground/icon]]<br>
-[[$:/plugin/ajh/randombackground/readme]]<br>
 [[$:/plugin/ajh/randombackground/stylesheet]]<br>
 [[$:/plugin/ajh/randombackground/random.js]]

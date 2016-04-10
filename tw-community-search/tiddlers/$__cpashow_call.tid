@@ -1,0 +1,10 @@
+title: $:/cpashow/call
+created: 20160410020718248
+modified: 20160410022712753
+original-tags: object
+source-wiki-id: cpashow
+source-tiddler-title-as-text: call
+source-tiddler-title-as-link: call
+
+Who called: &lt;$select people into field caller><br/>
+Follow-up: <$edit-date showTime showSeconds use24hour/>

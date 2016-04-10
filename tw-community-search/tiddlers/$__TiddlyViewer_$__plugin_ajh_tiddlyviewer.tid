@@ -3,9 +3,9 @@ created: 20150814132714911
 dependents: $:/plugin/ajh/tiddlyviewer/icon $:/plugin/ajh/tiddlyviewer/readme $:/plugin/ajh/tiddlyviewer/stylesheet $:/plugin/ajh/tiddlyviewer/template
 description: Tiddly Viewer
 list: readme
-modified: 20150913015625500
+modified: 20160409173834198
 source: http://tiddlyviewer.tiddlyspot.com/
-version: 0.0.13
+version: 0.0.14
 original-tags: 
 source-wiki-id: TiddlyViewer
 source-tiddler-title-as-text: $:/plugin/ajh/tiddlyviewer

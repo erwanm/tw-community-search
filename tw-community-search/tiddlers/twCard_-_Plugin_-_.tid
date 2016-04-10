@@ -21,6 +21,6 @@ twcs-wiki-id: TiddlyViewer
 twcs-extracted-plugin-tiddler: $:/TiddlyViewer/$:/plugin/ajh/tiddlyviewer
 twcs-description: Tiddly Viewer
 twcs-author: 
-twcs-version: 0.0.13
+twcs-version: 0.0.14
 
 {{||$:/CommunityPluginTemplate}}

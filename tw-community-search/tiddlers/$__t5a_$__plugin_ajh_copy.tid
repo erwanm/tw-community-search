@@ -1,13 +1,13 @@
 title: $:/t5a/$:/plugin/ajh/copy
 created: 20150806001821444
 creator: Andrew
-dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugin/ajh/copy/Copy.js $:/plugin/ajh/copy/icon $:/plugin/ajh/copy/images/copy $:/plugin/ajh/copy/readme $:/plugin/ajh/copy/stylesheet
+dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugin/ajh/copy/copy.js $:/plugin/ajh/copy/icon $:/plugin/ajh/copy/images $:/plugin/ajh/copy/readme $:/plugin/ajh/copy/stylesheet
 description: Copy Button
 list: readme
-modified: 20151016131628426
+modified: 20160409185033102
 modifier: Andrew
 source: http://copy.tiddlyspot.com/
-version: 0.0.21
+version: 0.0.22
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/copy

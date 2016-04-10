@@ -4,10 +4,10 @@ creator: Andrew
 dependents: $:/language/locations/caption $:/language/locations/hint $:/plugin/ajh/locations/icon $:/plugin/ajh/locations/readme $:/plugins/ajh/locations/image $:/plugins/ajh/locations/template
 description: Locations Button
 list: readme
-modified: 20160321023236608
+modified: 20160409161233580
 modifier: Andrew
 source: http://locations.tiddlyspot.com/
-version: 0.0.1
+version: 0.0.2
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugin/ajh/locations

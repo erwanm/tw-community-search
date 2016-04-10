@@ -4,7 +4,7 @@ creator: Andrew Harrison
 dependents: $:/language/Buttons/Favorites/Caption $:/language/Buttons/Favorites/Hint $:/language/SideBar/Favorites/Caption $:/plugin/ajh/favorites/icon $:/plugin/ajh/favorites/readme $:/plugin/ajh/favorites/SideBar $:/plugin/ajh/favorites/image $:/plugin/ajh/favorites/stylesheet $:/plugin/ajh/favorites/template
 description: Favorites
 list: readme
-modified: 20160409013544717
+modified: 20160409153738916
 modifier: Andrew Harrison
 source: http://favorites.tiddlyspot.com
 version: 3.0.2
