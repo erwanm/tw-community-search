@@ -1,6 +1,6 @@
-title: Tag: object
+title: Tag: $fieldName$
 tags: CommunityTags
-community-tag: object
+community-tag: $fieldName$
 community-tag-count: 1
 community-wikis: [[cpashow]]
 

@@ -3,9 +3,9 @@ created: 20150821063313530
 dependents: $:/language/toplefttoolbar/caption $:/language/toplefttoolbar/hint $:/plugin/ajh/toplefttoolbar/icon $:/plugin/ajh/toplefttoolbar/readme $:/plugin/ajh/toplefttoolbar/stylesheet $:/plugin/ajh/toplefttoolbar/template $:/plugin/ajh/toplefttoolbar/toolbar
 description: Top Left Toolbar
 list: readme
-modified: 20160320160540846
+modified: 20160410085321478
 source: http://toplefttoolbar.tiddlyspot.com
-version: 0.0.8
+version: 0.0.9
 original-tags: 
 source-wiki-id: TopLeftToolbar
 source-tiddler-title-as-text: $:/plugin/ajh/toplefttoolbar
