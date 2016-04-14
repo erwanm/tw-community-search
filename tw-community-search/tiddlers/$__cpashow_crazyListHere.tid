@@ -1,7 +1,7 @@
 title: $:/cpashow/crazyListHere
 created: 20160325204027686
-modified: 20160408215229112
-testfield: [[New Item]] [[List Macros 2]] run [[List Macros]] [[Fancy pants]]
+modified: 20160413184444544
+testfield: [[List Macros]] [[List Macros 2]] run [[New Item]] [[Fancy pants]]
 original-tags: $:/tags/Macro
 source-wiki-id: cpashow
 source-tiddler-title-as-text: crazyListHere
@@ -233,30 +233,31 @@ source-tiddler-title-as-link: crazyListHere
 		<$macrocall $name="displayItemName" itemName=<<itemName>> />
 		<span class="hideme">
 			<!-- If the item doesn't exist as a Tiddler, display a button to create it -->
-			<$macrocall $name="createTiddlerType" tiddlerName="$itemName$" tagName="$fieldName$" />
+			<$macrocall $name="createTiddlerType" tiddlerName=<<itemName>> tagName="$fieldName$" />
 			<!-- If the item exists not completed, display a button to complete it -->
-			<$macrocall $name="completeTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<$macrocall $name="completeTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
 			<!-- If the item is completed, display a button to uncomplete it -->
-			<$macrocall $name="uncompleteTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<$macrocall $name="uncompleteTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
 			<!-- If the item exists not done, display a button to Done it -->
-			<$macrocall $name="todoTiddler"tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
+			<$macrocall $name="todoTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
 			<!-- If the item is Done, display a button to unDo it -->
-			<$macrocall $name="doneTiddler" tiddlerName="$tiddlerName$" itemName="$itemName$" fieldName="$fieldName$" />
-			<$macrocall $name="slideContents" tiddlerName="$itemName$" fieldName="$fieldName$" />
+			<$macrocall $name="doneTiddler" tiddlerName=<<currentTiddler>> itemName=<<itemName>> fieldName="$fieldName$" />
+
+<$button class="tc-btn-invisible">
+{{$:/core/images/up-arrow}}
+<$macrocall $name="moveListItem" tiddlerName=<<currentTiddler>> fieldName="$fieldName$" itemName="$itemName$" moveNum="-1" />
+</$button>
+<$button class="tc-btn-invisible">
+{{$:/core/images/down-arrow}}
+<$macrocall $name="moveListItem" tiddlerName=<<currentTiddler>> fieldName="$fieldName$" itemName="$itemName$" moveNum="1" />
+</$button>
+
 		</span>
+
+
+
 	</span>
 \end
-
-\define slideContents(tiddlerName, fieldName)
-	<$macrocall $name="Slide_Macro" 
-		macro="""
-			<$tiddler tiddler="$tiddlerName$" >
-				<$transclude tiddler="$fieldName$" />
-			</$tiddler>
-		"""
-	/>
-\end
-
 
 \define crazyListHere(fieldName)
 
@@ -294,8 +295,36 @@ source-tiddler-title-as-link: crazyListHere
 """/>
 \end
 
+\define moveListItem(tiddlerName, fieldName, indexName, itemName, moveNum)
+	<$list filter="$indexName$" variable="isIndex">
+		<$action-listops 
+			$tiddler="$tiddlerName$" 
+			$index="$indexName$" 
+			$filter="[list[$tiddlerName$!!$fieldName$]] +[move:$moveNum$[$itemName$]]"
+		/>
+	</$list>
+	<$list filter="$fieldName$" variable="isField">
+		<$action-listops 
+			$tiddler="$tiddlerName$" 
+			$field="$fieldName$" 
+			$filter="[list[$tiddlerName$!!$fieldName$]] +[move:$moveNum$[$itemName$]]"
+		/>
+	</$list>
+\end
+
 \define breakerline()--------------------------------------------------------
 
+
+Depends on the following:
+
+* Requires TiddlyWiki version 5.1.11 +
+** Needed for the listops operators
+* [[$:/_cpa/macros/calcString.js]] 
+** trims entered text so tiddler names don't have leading and trailing spaces
+* [[$:/_cpa/macros/mytabs]]
+** The goofy tabbed interface in crazyListHere
+* [[Import.svg]]
+** Import button Image so the import button in comboItemSelect isn't empty
 
 <table style="width:100%"><tr>
 	<th style="width:30%">Macro</th>
@@ -321,7 +350,7 @@ source-tiddler-title-as-link: crazyListHere
 	<td>
 		`<$macrocall $name="comboItemSelect" fieldName="testfield"/>`
 	</td><td>
-		Generates a combo edit / select widget allowing you to import, edit, or select items into this tiddler
+		Generates a combo edit / select widget allowing you to import, edit, or select items into this tiddler. (Currently select is commented out)
 	</td><td>
 		<$macrocall $name="comboItemSelect" fieldName="testfield"/>
 	</td>
