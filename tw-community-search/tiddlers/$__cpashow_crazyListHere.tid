@@ -1,6 +1,6 @@
 title: $:/cpashow/crazyListHere
 created: 20160325204027686
-modified: 20160413184444544
+modified: 20160415022307439
 testfield: [[List Macros]] [[List Macros 2]] run [[New Item]] [[Fancy pants]]
 original-tags: $:/tags/Macro
 source-wiki-id: cpashow
@@ -325,6 +325,8 @@ Depends on the following:
 ** The goofy tabbed interface in crazyListHere
 * [[Import.svg]]
 ** Import button Image so the import button in comboItemSelect isn't empty
+* [[$:/_cpa/modules/filters/getfieldlist.js]]
+** Finds all unique values found in a field
 
 <table style="width:100%"><tr>
 	<th style="width:30%">Macro</th>
