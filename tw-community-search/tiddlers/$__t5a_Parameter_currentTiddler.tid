@@ -1,7 +1,7 @@
 title: $:/t5a/Parameter currentTiddler
 created: 20150506125238683
 creator: Andrew Harrison
-modified: 20151024174838247
+modified: 20160418043650163
 modifier: Andrew Harrison
 original-tags: New Example
 source-wiki-id: t5a
@@ -16,21 +16,21 @@ Resource from Jeremy: currentTiddler as a macro parameter default
 is actually equivalent to:
 
 ```
-\define x(y:"<<currentTiddler>>")
+\define x(y:'<<currentTiddler>>')
 ```
-The technique you are using is to pass the attribute brackets as part of the parameter string. If the parameter isn't specified then it is given the literal string value "&lt;&lt;currentTiddler&gt;&gt;", and not the actual value of the variable "currentTiddler". So it only works if the parameter is eventually wikified, so that the macrocall syntax is processed.<br>
+The technique you are using is to pass the attribute brackets as part of the parameter string. If the parameter isn't specified then it is given the literal string value '&lt;&lt;currentTiddler&gt;&gt;', and not the actual value of the variable 'currentTiddler'. So it only works if the parameter is eventually wikified, so that the macrocall syntax is processed.<br>
 Another problem is that macro calls currently cannot be nested, so you cannot do:
 
 ```
-<<x y:"<<myVariable>>">>
+<<x y:'<<myVariable>>'>>
 ```
 There's also a trap that this won't work:
 
 ```
-<<x y:"My Tiddler">>
+<<x y:'My Tiddler'>>
 ```
 Instead you have to do:
 
 ```
-<<x y:"[[My Tiddler]]">>
+<<x y:'[[My Tiddler]]'>>
 ```

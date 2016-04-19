@@ -1,7 +1,7 @@
 title: $:/t5a/store.php
 created: 20160411023806739
 creator: Andrew Harrison
-modified: 20160411024102333
+modified: 20160418041945212
 modifier: Andrew Harrison
 type: text/plain
 original-tags: Example
@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8' >
 		<title>BidiX.info - TiddlyWiki UploadPlugin - Store script</title>
 	</head>
 	<body>
@@ -109,8 +109,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
-		<p align="center">This page is designed to upload a <a href="http://www.tiddlywiki.com/">TiddlyWiki<a>.</p>
-		<p align="center">for details see : <a href="http://TiddlyWiki.bidix.info/#HowToUpload">TiddlyWiki.bidix.info/#HowToUpload<a>.</p>	
+		<p align='center'>This page is designed to upload a <a href='http://www.tiddlywiki.com/'>TiddlyWiki<a>.</p>
+		<p align='center'>for details see : <a href='http://TiddlyWiki.bidix.info/#HowToUpload'>TiddlyWiki.bidix.info/#HowToUpload<a>.</p>	
 	</body>
 </html>
 <?php
@@ -123,10 +123,10 @@ exit;
 	 
 // Recursive mkdir
 function mkdirs($dir) {
-	if( is_null($dir) || $dir === "" ){
+	if( is_null($dir) || $dir === '' ){
 		return false;
 	}
-	if( is_dir($dir) || $dir === "/" ){
+	if( is_dir($dir) || $dir === '/' ){
 		return true;
 	}
 	if( mkdirs(dirname($dir)) ){
@@ -138,12 +138,12 @@ function mkdirs($dir) {
 function toExit() {
 	global $DEBUG, $filename, $backupFilename, $options;
 	if ($DEBUG) {
-		echo ("\nHere is some debugging info : \n");
-		echo("\$filename : $filename \n");
-		echo("\$backupFilename : $backupFilename \n");
-		print ("\$_FILES : \n");
+		echo ('\nHere is some debugging info : \n');
+		echo('\$filename : $filename \n');
+		echo('\$backupFilename : $backupFilename \n');
+		print ('\$_FILES : \n');
 		print_r($_FILES);
-		print ("\$options : \n");
+		print ('\$options : \n');
 		print_r($options);
 }
 exit;
@@ -155,7 +155,7 @@ function ParseTWFileDate($s) {
 	// make a date object
 	$d = mktime($m[4], $m[5], $m[6], $m[2], $m[3], $m[1]);
 	// get the week number
-	$w = date("W",$d);
+	$w = date('W',$d);
 
 	return array(
 		'year' => $m[1], 
@@ -169,7 +169,7 @@ function ParseTWFileDate($s) {
 
 function cleanFiles($dirname, $prefix) {
 	$now = getdate();
-	$now['week'] = date("W");
+	$now['week'] = date('W');
 
 	$hours = Array();
 	$mday = Array();
@@ -181,7 +181,7 @@ function cleanFiles($dirname, $prefix) {
 	$files = Array();
 	($dir = opendir($dirname)) || die ("can't open dir '$dirname'");
 	while (false !== ($file = readdir($dir))) {
-		if (preg_match("/^$prefix/", $file))
+		if (preg_match('/^$prefix/', $file))
         array_push($files, $file);
     }
 	$files = array_reverse($files);
@@ -237,7 +237,7 @@ function replaceJSContentIn($content) {
 
 // Check if file_uploads is active in php config
 if (ini_get('file_uploads') != '1') {
-   echo "Error : File upload is not active in php.ini\n";
+   echo 'Error : File upload is not active in php.ini\n';
    toExit();
 }
 
@@ -266,7 +266,7 @@ if ($options['debug'] == 1) {
 // authenticate User
 if (($AUTHENTICATE_USER)
 	&& ((!$options['user']) || (!$options['password']) || ($USERS[$options['user']] != $options['password']))) {
-	echo "Error : UserName or Password do not match \n";
+	echo 'Error : UserName or Password do not match \n';
 	echo "UserName : [".$options['user']. "] Password : [". $options['password'] . "]\n";
 	toExit();
 }
@@ -277,15 +277,15 @@ if (($AUTHENTICATE_USER)
 if ($options['uploaddir']) {
 	$uploadDir = $options['uploaddir'];
 	// path control for uploadDir   
-    if (!(strpos($uploadDir, "../") === false)) {
-        echo "Error: directory to upload specifies a parent folder";
+    if (!(strpos($uploadDir, '../') === false)) {
+        echo 'Error: directory to upload specifies a parent folder';
         toExit();
 	}
 	if (! is_dir($uploadDir)) {
 		mkdirs($uploadDir);
 	}
 	if (! is_dir($uploadDir)) {
-		echo "UploadDirError : $uploadDirError - File NOT uploaded !\n";
+		echo 'UploadDirError : $uploadDirError - File NOT uploaded !\n';
 		toExit();
 	}
 	if ($uploadDir{strlen($uploadDir)-1} != '/') {
@@ -299,12 +299,12 @@ if (file_exists($destfile) && ($options['backupDir'])) {
 	if (! is_dir($options['backupDir'])) {
 		mkdirs($options['backupDir']);
 		if (! is_dir($options['backupDir'])) {
-			$backupError = "backup mkdir error";
+			$backupError = 'backup mkdir error';
 		}
 	}
 	$backupFilename = $options['backupDir'].'/'.substr($filename, 0, strrpos($filename, '.'))
 				.date('.Ymd.His').substr($filename,strrpos($filename,'.'));
-	rename($destfile, $backupFilename) or ($backupError = "rename error");
+	rename($destfile, $backupFilename) or ($backupError = 'rename error');
 	// remove overmuch backup
 	if ($CLEAN_BACKUP) {
 		$toDelete = cleanFiles($options['backupDir'], substr($filename, 0, strrpos($filename, '.')));
@@ -325,11 +325,11 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $destfile)) {
 		$fileContent = file_get_contents ($destfile);
 		$fileContent = replaceJSContentIn($fileContent);
 		if (!$handle = fopen($destfile, 'w')) {
-	         echo "Cannot open file ($destfile)";
+	         echo 'Cannot open file ($destfile)';
 	         exit;
 	    }
 	    if (fwrite($handle, $fileContent) === FALSE) {
-	        echo "Cannot write to file ($destfile)";
+	        echo 'Cannot write to file ($destfile)';
 	        exit;
 	    }
 	    fclose($handle);
@@ -337,19 +337,19 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $destfile)) {
     
 	chmod($destfile, 0644);
 	if($DEBUG) {
-		echo "Debug mode \n\n";
+		echo 'Debug mode \n\n';
 	}
 	if (!$backupError) {
-		echo "0 - File successfully loaded in " .$destfile. "\n";
+		echo '0 - File successfully loaded in ' .$destfile. '\n';
 	} else {
-		echo "BackupError : $backupError - File successfully loaded in " .$destfile. "\n";
+		echo 'BackupError : $backupError - File successfully loaded in ' .$destfile. '\n';
 	}
-	echo("destfile:$destfile \n");
+	echo('destfile:$destfile \n');
 	if (($backupFilename) && (!$backupError)) {
-		echo "backupfile:$backupFilename\n";
+		echo 'backupfile:$backupFilename\n';
 	}
 	$mtime = filemtime($destfile);
-	echo("mtime:$mtime");
+	echo('mtime:$mtime');
 } 
 else {
 	echo "Error : " . $_FILES['error']." - File NOT uploaded !\n";

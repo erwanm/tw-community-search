@@ -2,7 +2,7 @@ title: $:/t5a/Code
 created: 20150125050550988
 creator: Andrew Harrison
 description: Will display a tiddler&#39;s code.
-modified: 20151101031307543
+modified: 20160418044737574
 modifier: Andrew Harrison
 show-field: description
 original-tags: New Example
@@ -10,4 +10,4 @@ source-wiki-id: t5a
 source-tiddler-title-as-text: Code
 source-tiddler-title-as-link: Code
 
-<pre><$view field="text"/></pre>
+<pre><$view field='text'/></pre>

@@ -2,8 +2,8 @@ title: $:/t5a/Wish List
 color: #ff0
 created: 20151111183347744
 creator: Andrew Harrison
-icon: $:/core/images/star-filled
-modified: 20151203055203247
+icon: $:/core/images/star-empty
+modified: 20160418052938083
 modifier: Andrew Harrison
 show-field: -icon
 original-tags: New Contents [[Needs Work]]
@@ -11,4 +11,4 @@ source-wiki-id: t5a
 source-tiddler-title-as-text: Wish List
 source-tiddler-title-as-link: Wish%20List
 
-{{Under construction}}Things I'm hoping for or planning or working on.
+Things I'm hoping for or planning or working on.
