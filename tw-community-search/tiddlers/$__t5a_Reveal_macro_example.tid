@@ -1,0 +1,56 @@
+title: $:/t5a/Reveal macro example
+created: 20160420013144366
+creator: Andrew Harrison
+modified: 20160420013705548
+modifier: Andrew Harrison
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: Reveal macro example
+source-tiddler-title-as-link: Reveal%20macro%20example
+
+\define reveal-tagpill1a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill2a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill3a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill4a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill5a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill6a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill7a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill8a() $:/temp/$(currentTiddler)$!!TagPill1a
+\define reveal-tagpill9a() $:/temp/$(currentTiddler)$!!TagPill1a
+
+<<toggle TagPill1a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill1a>> text="$:/TagPill1b">
+Some content<br>
+</$reveal>
+<<toggle TagPill2a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill2a>> text="$:/TagPill2b">
+Some content<br>
+</$reveal>
+<<toggle TagPill3a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill3a>> text="$:/TagPill3b">
+Some content<br>
+</$reveal>
+<<toggle TagPill4a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill4a>> text="$:/TagPill4b">
+Some content<br>
+</$reveal>
+<<toggle TagPill5a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill5a>> text="$:/TagPill5b">
+Some content<br>
+</$reveal>
+<<toggle TagPill6a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill6a>> text="$:/TagPill6b">
+Some content<br>
+</$reveal>
+<<toggle TagPill7a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill7a>> text="$:/TagPill7b">
+Some content<br>
+</$reveal>
+<<toggle TagPill8a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill8a>> text="$:/TagPill8b">
+Some content<br>
+</$reveal>
+<<toggle TagPill9a>><br>
+<$reveal <$reveal type="match" state=<<reveal-tagpill9a>> text="$:/TagPill9b">
+Some content<br>
+</$reveal>
