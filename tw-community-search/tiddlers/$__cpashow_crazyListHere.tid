@@ -2,9 +2,9 @@ title: $:/cpashow/crazyListHere
 created: 20160416162155176
 creator: Chuck Paussa
 field: currentprocess
-modified: 20160419195402974
+modified: 20160420172821254
 modifier: Chuck Paussa
-process: [[Make a wish]] test2 test
+process: test1 [[This is a test]] what? [[Another process]] end
 slides: [[Build out the message hierarchy]]
 tiddler: $:/temp/fieldItems
 value: 
@@ -436,14 +436,14 @@ source-tiddler-title-as-link: crazyListHere
 		<$action-listops 
 			$tiddler="$tiddlerName$" 
 			$index="$indexName$" 
-			$filter="[list[$tiddlerName$!!$fieldName$]remove[$itemName$]append[$itemName$]]"
+			$filter="[list[$tiddlerName$!!$fieldName$]move:1000[$itemName$]]"
 		/>
 	</$list>
 	<$list filter="$fieldName$" variable="isField">
 		<$action-listops 
 			$tiddler="$tiddlerName$" 
 			$field="$fieldName$" 
-			$filter="[list[$tiddlerName$!!$fieldName$]remove[$itemName$]append[$itemName$]]"
+			$filter="[list[$tiddlerName$!!$fieldName$]move:1000[$itemName$]]"
 		/>
 	</$list>
 \end
@@ -454,14 +454,14 @@ source-tiddler-title-as-link: crazyListHere
 		<$action-listops 
 			$tiddler="$tiddlerName$" 
 			$index="$indexName$" 
-			$filter="[list[$tiddlerName$!!$fieldName$]prepend[$itemName$]]"
+			$filter="[list[$tiddlerName$!!$fieldName$]move:-1000[$itemName$]]"
 		/>
 	</$list>
 	<$list filter="$fieldName$" variable="isField">
 		<$action-listops 
 			$tiddler="$tiddlerName$" 
 			$field="$fieldName$" 
-			$filter="[list[$tiddlerName$!!$fieldName$]prepend[$itemName$]]"
+			$filter="[list[$tiddlerName$!!$fieldName$]move:-1000[$itemName$]]"
 		/>
 	</$list>
 \end
