@@ -2,9 +2,9 @@ title: $:/cpashow/crazyListHere
 created: 20160416162155176
 creator: Chuck Paussa
 field: currentprocess
-modified: 20160420172821254
+modified: 20160420194955855
 modifier: Chuck Paussa
-process: test1 [[This is a test]] what? [[Another process]] end
+process: [[Make a wish]]
 slides: [[Build out the message hierarchy]]
 tiddler: $:/temp/fieldItems
 value: 
@@ -381,13 +381,13 @@ source-tiddler-title-as-link: crazyListHere
 
 \define displayFieldEditor(tiddlerName, itemName, fieldName, tagName)
 	<$list filter="[[$itemName$]is[tiddler]]" variable="isTiddler">
-		<$list filter="[[$fieldName$]is[tiddler]]" variable="isTiddler">
+		<$list filter="[[$tagName$]is[tiddler]]" variable="isTiddler">
 			<!-- edit item button -->
 			<$macrocall $name="Slide_Macro" macro=
 			"""
 				<ul><li>
 				<$tiddler tiddler="$itemName$"  >
-					<$transclude tiddler="$fieldName$" />
+					<$transclude tiddler="$tagName$" />
 				</$tiddler>
 				</li></ul>
 			"""
