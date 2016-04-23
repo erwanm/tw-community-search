@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Les dépôts
 created: 20141130122932677
-modified: 20160122135512718
+modified: 20160420212217906
 original-tags: [[Guide Chakra]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Les dépôts
@@ -14,12 +14,12 @@ Les paquets sont disponibles dans les dépôts centraux de la distribution. Chak
 Les paquets sont répartis entre 4 dépôts stables.
 
 |core |La base du système avec notamment le noyau Linux, les drivers, KDE Frameworks, Plasma et les bibliothèques | Dépôts stables<br> (≈ 4000 paquets) |~|
-|desktop |La compilation de logiciels KDE, les outils Chakra ainsi que toutes les applications et les jeux |~|
+|desktop |Les applications KDE, les outils Chakra ainsi que toutes les applications et les jeux |~|
 |lib32 |Les paquets x86_64 compilés avec les bibliothèques i686 |~|
 |gtk |Une sélection des meilleurs applications GTK |~|
 |testing |Nouvelles versions des paquets (avant le dépôt stable) | Dépôts instables |~|
 |unstable |Versions en développement de logiciels supplémentaires |~|
-|kde-unstable |Versions en développement des paquets de KDE SC |~|
+|kde-unstable |Versions en développement des paquets de KDE |~|
 
 Les dépôts stables sont activés par défaut et les dépôts instables ne sont pas activés.
 
@@ -37,7 +37,7 @@ La gestion des [[Paquets des dépôts officiels]] est détaillée plus loin.
 
 Chakra Community Repository ou CCR est le dépôt communautaire de Chakra.
 CCR n'est pas réellement un dépôt de paquets, mais il fournit des scripts PKGBUILD qui automatisent le
-processus de création d'un paquet à partir du code source. Une fois le paquet compiler, il est
+processus de création d'un paquet à partir du code source. Une fois le paquet compilé, il est
 automatiquement installé avec Pacman qui résout aussi les dépendances.
 
 @@.att

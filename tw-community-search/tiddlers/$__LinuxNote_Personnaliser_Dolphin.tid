@@ -1,14 +1,13 @@
 title: $:/LinuxNote/Personnaliser Dolphin
 created: 20141206190201722
-modified: 20160218140513557
-original-tags: [[L'espace de travail]]
+modified: 20160416162138487
+original-tags: [[Astuces d'utilisation]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Personnaliser Dolphin
 source-tiddler-title-as-link: Personnaliser%20Dolphin
 
 @@.flotte
-<a href="https://framadrive.org/public.php?service=files&t=Pc4BYJ6ZqMMmGVa
-" target="_blank">[img align="right" width="300" [Dolphin|https://framadrive.org/public.php?service=files&t=Pc4BYJ6ZqMMmGVa&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=49LAjJvIlovZeua" target="_blank">[img width="350" [Dolphin|https://framadrive.org/public.php?service=files&t=49LAjJvIlovZeua&download]]</a>
 @@
 
 <br><br><br>
@@ -35,14 +34,17 @@ Les nouveaux icônes sont installés dans le dossier `usr/share/icons`
 
 Prévisualiser le contenu des fichiers (que ce soit au format PDF, JPG...):<br>
 Contrôle → Configurer Dolphin → Général → Aperçu → tout cocher<br>
-Pour les fichiers AVI, il faut installer le paquet `kfmpegthumbnailer`.<br><br>
+Pour les fichiers AVI, il faut installer le paquet `kfmpegthumbnailer`.
 
-@@.info
-<i class="fa fa-info-circle fa-3x pull-left"></i> __Les services menu__<br>
-Un service menu est une action disponible à partir du clic droit sur un fichier / répertoire dans Dolphin comme //Root action// (qui permet d'ouvrir un fichier en mode administrateur), //Simple mount Iso// (qui permet de monter une image ISO) et bien d'autres. Il s'agit d'un simple fichier avec l'extension .desktop localisé dans les dossiers : `~/.kde/share/kde4/services/~ServiceMenus` et `/usr/share/kde4/services/~ServiceMenus`
-@@
+!!Les services menu
+Un service menu est une action disponible à partir du clic droit sur un fichier / répertoire dans Dolphin comme //Root action// (qui permet d'ouvrir un fichier en mode administrateur).
 
 <<<
 On peut installer de nouveaux services directement depuis Dolphin :<br>
 Contrôle → Configurer Dolphin → Services → Télécharger de nouveaux services
 <<<
+
+!!Les KIO Slaves
+KIO (pour KDE Input/Output) sont des modules d'entrée/sortie qui permettent l'accès aux ressources matérielles au sein d'une unique API. Les KIO slaves (ou esclaves) fournissent ainsi à KIO le support pour un protocole d'accès à une ressource particulière (matérielle ou logicielle) comme le support du protocole MTP (périphériques mobiles).<br>
+On y accède par la barre de navigation de Dolphin ou du navigateur Konqueror.<br>
+Les plus pratiques : //sysinfo:/, settings:/, audiocd:/, info:/, fonts:/, man:/, ftp:/ ou applications:/ //

@@ -2,12 +2,18 @@ title: $:/LinuxNote/Mises à jour
 color: 
 created: 20141028235539032
 icon: $:/core/images/refresh-button
-modified: 20160218142129014
+modified: 20160421222158705
 num_recent: 10
 original-tags: 
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Mises à jour
 source-tiddler-title-as-link: Mises%20à%20jour
+
+<i class="fa fa-refresh"></i> 22/04/2016
+
+*Mise à jour du [[Guide Chakra]]
+*Mise à jour du [[Guide KDE]] vers Plasma 5
+*Suppression de [[Configurer Thunderbird]]
 
 <i class="fa fa-refresh"></i> 18/02/2016
 
@@ -65,7 +71,7 @@ source-tiddler-title-as-link: Mises%20à%20jour
 
 <i class="fa fa-refresh"></i> 26/04/2015
 
-*Suppression de Les bases de Git
+*Suppression de [[Les bases de Git]]
 *Amélioration rendu pour les codes
 *Modification liste dans [[La configuration du système]]
 *Mise en forme Licence

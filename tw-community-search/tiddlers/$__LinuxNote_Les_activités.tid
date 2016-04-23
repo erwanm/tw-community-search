@@ -1,21 +1,26 @@
 title: $:/LinuxNote/Les activités
 created: 20141206185619617
-modified: 20160218140337401
+modified: 20160419170352956
 original-tags: [[L'espace de travail]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Les activités
 source-tiddler-title-as-link: Les%20activités
 
-Pour faire simple, cela permet de modifier les composants graphiques et la disposition du bureau en fonction d'une activité en cours. Ainsi on peut associer un agencement de plasmoids, un fond d'écran et des applications dédiés à une fonction précise (retouche photo, multimédia...) et passer d’une activité à une autre en 2 clics. On dispose pour chaque activité du nombre de bureau virtuel par défaut.
+@@.flotte
+<a href="https://framadrive.org/public.php?service=files&t=2tTvcFfvBKFCrJn" target="_blank">[img width='170' [Activités|https://framadrive.org/public.php?service=files&t=2tTvcFfvBKFCrJn&download]]</a>
+@@
 
-Les fenêtres d’une application qui sont lancées dans une activité ne sont pas apparentes dans les autres activités par défaut. L’avantage est ce cloisonnement possible entre les activités qui permet d’organiser par thématique ses applications lancées.
+<br>
+Pour faire simple, cela permet de modifier les [[composants graphiques|Les composants graphiques]] et la [[disposition du bureau|Le bureau]] en fonction d'une activité en cours. Ainsi on peut associer un agencement de plasmoids, un fond d'écran et des applications dédiés à une fonction précise (recherche internet, photo, multimédia...) et passer d’une activité à une autre en 2 clics. On dispose pour chaque activité du nombre de bureau virtuel par défaut.
 
-<a href="https://framadrive.org/public.php?service=files&t=mAwBSgEyo4jtHxB" target="_blank">[img [Activités|https://framadrive.org/public.php?service=files&t=mAwBSgEyo4jtHxB&download]]</a>
+Les fenêtres d’une application qui sont lancées dans une activité ne sont pas apparentes dans les autres activités. Ce cloisonnement possible entre activités permet d’organiser par thématique les applications lancées.
 
 <<<
-On accède facilement aux activités par clic droit → //Activités// ou par la //Boîte à outils Plasma// qui permet de gérer les activités.<br> La boite de dialogue permet de //Créer une activité//. Il existe des modèles d'activités (activité photographique...) ou on peut en créer des personnelles.
+On accède facilement aux activités par clic droit → //Activités// ou par la //Boite à outils du bureau// qui permet de gérer les activités.
 <<<
+
+La boite de dialogue permet de //Créer une activité//. Il existe des modèles d'activités (activité photographique...) ou on peut en créer des personnelles.
 
 @@.info
-<i class="fa fa-info-circle fa-3x pull-left"></i> Il existe différents plasmoids pour gérer au mieux les activités : Activités (par défaut), Activity Manager ou Work Flow (voir [[Les composants graphiques]] section "Liste de quelques plasmoids").
+<i class="fa fa-info-circle fa-3x pull-left"></i> Le plasmoid //Activités// (par défaut) permet de passer simplement d'une activité à l'autre.
 @@

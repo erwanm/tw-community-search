@@ -3,8 +3,8 @@ color: #44aefd
 created: 20141205145819019
 description: Le bureau Plasma
 list: [[Le tableau de bord]] [[Le bureau]] [[Les composants graphiques]] [[Les activités]] [[Personnaliser Dolphin]]
-modified: 20160218135518412
-original-tags: [[Guide KDE 4]]
+modified: 20160419162200508
+original-tags: [[Guide KDE]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: L'espace de travail
 source-tiddler-title-as-link: L%27espace%20de%20travail
@@ -12,24 +12,21 @@ source-tiddler-title-as-link: L%27espace%20de%20travail
 !Le bureau Plasma
 
 @@.flotte
-<a href="https://framadrive.org/public.php?service=files&t=NlDStbFWJC9dxFF" target="_blank">[img align="right" widht="300" [Plasma|https://framadrive.org/public.php?service=files&t=NlDStbFWJC9dxFF&download]]</a>
+<a href="https://framadrive.org/public.php?service=files&t=JpwQeSbLKw2DzQd" target="_blank">[img width="350" [Plasma|https://framadrive.org/public.php?service=files&t=JpwQeSbLKw2DzQd&download]]</a>
 @@
 
 <br><br><br>
-Le bureau Plasma (//Plasma Desktop//) est le bureau de KDE pour les postes de travail.<br>
-Plasma est l'une des technologies clés de KDE4 (aussi
-connues sous le nom de //Piliers de KDE//) et une des plus visibles par l'utilisateur.
+Plasma est le bureau de KDE pour les postes de travail.
+
+Plasma 5 comprend le nouveau thème de bureau "Breeze",<br> de nouveaux icônes et un flat design.<br>
+La capture d'écran est une version personnalisée de Plasma avec le thème de bureau Heritage et le set d'icônes Antü.
 <br><br><br>
 
 Les quatre composants clés du bureau Plasma sont :
 
-*[[Le tableau de bord]] (1), aussi appelé « panneau », fournit la place pour le lanceur d'applications, la liste des fenêtres (programmes), l'horloge et la zone de notification ;
-*[[Le bureau]] (2), zone où résident les composants graphiques (widgets) ou les icônes ;<br>
-*[[Les composants graphiques]] (3), ou plasmoids (ici vue de dossier) ;<br>
-*''La boîte à outils Plasma'' (4) située en haut à droite de l'écran permet de déverrouiller les composants graphiques, d'accéder rapidement [[aux activités|Les activités]] et à d'autres options.
+*[[Le tableau de bord]] (1), aussi appelé « panneau », qui fournit la place pour le lanceur d'applications, la liste des fenêtres et applications, la zone de notification et l'horloge ;
+*[[Le bureau]] (2), zone où résident les composants graphiques ou les icônes ;<br>
+*[[Les composants graphiques]] (3), aussi appelés plasmoids (ici //Vue de dossier//) ;<br>
+*''La boite à outils du bureau'' (4) située en haut à gauche de l'écran qui permet de déverrouiller les [[composants graphiques|Les composants graphiques]] pour les manipuler, d'accéder rapidement aux [[activités|Les activités]], aux [[paramètres de bureau|Le bureau]] et à d'autres options.
 
 Tous ces éléments par défaut sont hautement configurables et peuvent accueillir une grande variété d'outils.
-
-
-
-

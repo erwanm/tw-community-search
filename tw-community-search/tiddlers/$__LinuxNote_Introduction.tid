@@ -1,49 +1,29 @@
 title: $:/LinuxNote/Introduction
 created: 20141205094627606
 description: Présentation de KDE
-modified: 20160218135334649
-original-tags: [[Guide KDE 4]]
+modified: 20160419161041235
+original-tags: [[Guide KDE]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Introduction
 source-tiddler-title-as-link: Introduction
 
-[[KDE|https://www.kde.org/]] (pour K Desktop Environment) est un environnement de bureau libre.
+[[KDE|https://www.kde.org/]] est une communauté internationale dédiée au développement et à la distribution de logiciels libres et open source.
 
-Il regroupe un ensemble d'outils puissants et cohérents vous permettant d'exploiter graphiquement
-votre ordinateur : gestionnaire de fenêtres, bureau, gestionnaire de fichiers, menu, fenêtre de
-connexion, espaces de travail virtuels, applications, etc.
+Le projet regroupe un ensemble de technologies permettant d'exploiter graphiquement votre ordinateur avec leur propre cycle individuel de mise à jour :
 
-<img src="https://framadrive.org/public.php?service=files&t=jPC8CbW6ZL7mOld&download" align="right">
+*''KDE Frameworks'' (sortie tous les mois) qui est une collection de bibliothèques et de cadres logiciels qui fournissent la base pour Plasma 5 et KDE Applications 5, mais qui peut être exploitée par toute application Qt.
+* [[Plasma|L'espace de travail]] (sortie tous les 3 mois) qui est la nouvelle génération de l'environnement de bureau de KDE basé sur Qt 5 et Frameworks 5.
+*[[KDE Applications|Les applications]] (sortie tous les 4 mois), la suite d'applications de KDE qui comporte plus de 150 applications.
 
-KDE est composé de 3 éléments :
+@@.center
+<a href="https://framadrive.org/public.php?service=files&t=u2fydosO8UxZDWU" target="_blank"> [img [KDE|https://framadrive.org/public.php?service=files&t=u2fydosO8UxZDWU&download]]</a>
+@@
 
-*Les [[espaces de travail Plasma|L'espace de travail]] (KDE Workspaces) qui sont les environnements graphiques de KDE.
-*La ''plate-forme KDE'' (KDE Platform) qui fournit les services pour toutes les applications basées sur KDE et sur les espaces de travail Plasma.
-*La [[suite d'applications|Les applications]] (KDE Applications).
-
-<br>
 La richesse de KDE est la profusion d'applications qui sont écrites spécialement pour lui, et qui sont donc très bien intégrées et légères.
 
-L'ensemble de ces éléments est appelé ''compilation de logiciels KDE'' (KDE Software Compilation).<br>
-''KDE SC 4'' est la dernière version majeure de KDE et de ses applications dédiées.
-
-Le cycle des mises à jour est bien rodé, tous les six mois sort une nouvelle version avec améliorations,
-nouveautés et corrections de bugs (KDE SC 4.9, 4.10...) et tous les mois sort une mise à jour mineure
-avec corrections de bugs et mises à jour de traductions (KDE SC 4.10.1, 4.10.2...). KDE SC 4.14 sera la dernière version de KDE 4.
-
-<<<
-''KDE 5 est là !''<br>
-La dénomination KDE Software Compilation prend fin avec l'arrivée de KDE 5. Les composants de KDE ont été revus et leur cycle de mise à jour sont maintenant indépendant avec:
-
-*''KDE Frameworks'', les bibliothèques de programmation (une sortie tous les mois).
-*''Plasma 5'', le bureau de KDE (une sortie tous les 3 mois).
-*''KDE Applications'', l'ensemble des applications KDE (une sortie tous les 4 mois).
-<<<
+KDE est apprécié pour son élégance et sa modularité. Il utilise les bibliothèques [[Qt|https://fr.wikipedia.org/wiki/Qt]] pour les interfaces graphiques et tout en étant simple à utiliser, il offre de nombreuses possibilités en matière de personnalisation et d'effets visuels.
 
 <br>
-KDE est apprécié pour son élégance et sa modularité. Il utilise les bibliothèques ''Qt'' (//Cute//) pour les
-interfaces graphiques et tout en étant simple à utiliser, il offre de nombreuses possibilités en matière de
-personnalisation et d'effets visuels.
 
 @@background-color:#ECF0F1;
 @@color:#2C3E50;

@@ -1,0 +1,36 @@
+title: $:/cpashow/todo
+created: 20160422163709571
+modified: 20160422172023259
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: todo
+source-tiddler-title-as-link: todo
+
+Due date: {{!!duedate}}
+	<$edit-date 
+		tiddler=<<currentTiddler>> 
+		field="duedate" 
+		icon="$:/plugins/kixam/datepicker/icon" 
+		showTime 
+		showSeconds 
+		use24hour 
+		tag="span" 
+	/>
+Tickler date: {{!!ticklerdate}}
+	<$edit-date 
+		tiddler=<<currentTiddler>> 
+		field="ticklerdate" 
+		icon="$:/plugins/kixam/datepicker/icon" 
+		showTime 
+		showSeconds 
+		use24hour 
+		tag="span" 
+	/>
+<br/>
+Description: 
+	<$macrocall $name="View_Edit" 
+		tiddlerName=<<currentTiddler>> 
+		fieldName="description" 
+		indexName="" 
+		editTooltip="Edit description"
+	/>

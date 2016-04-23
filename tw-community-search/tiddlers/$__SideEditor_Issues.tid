@@ -1,7 +1,7 @@
 title: $:/SideEditor/Issues
 created: 20150602065231698
 creator: Mat
-modified: 20160110121950622
+modified: 20160422065009991
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -10,7 +10,6 @@ source-tiddler-title-as-link: Issues
 
 !!Issues
 
-* Cannot handle tiddlers with titles containing quotes ".."
-* It works bad to edit tiddlers tagged `$:/tags/Macro`, I'm guessing because they're "active" in the system so each change makes the ~SideEditor loose focus
-**Idea, disable macro tag when sideeditor active (...how?). Should probably also be alert informign that the macro is not running during sideediting.
-* Some tiddlers don't make the ~SideEditor expand to full height. I handle this by merely inserting an empty line at top. This pushes the whole content down, expanding ~SideEditor to full height. Then just delete the empty row.
+* ''Macros'' are best not side-edited because they update the system after each keypress, making the ~SideEditor loose focus
+* ''Height'' -  some tiddlers don't make the ~SideEditor to expand to full height. I handle this by, in the little text seen, inserting a new row (i.e click Enter). This pushes the whole content down, expanding ~SideEditor to full height.
+* ''Flipping'' - I want a flip trigger at lower edge of the sidebar lists so that if the list is short and ~SideEditor is sticks out below it, hovering this edge would cause flip... but I can't get this to work in a satisfying way (it has to do with the z-index).

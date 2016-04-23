@@ -1,68 +1,69 @@
 title: $:/LinuxNote/Mes applications
 color: #c0c0c0
 created: 20141202104135840
-modified: 20160113142834120
+modified: 20160421214726186
 original-tags: [[Guide Chakra]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Mes applications
 source-tiddler-title-as-link: Mes%20applications
 
-Cette liste regroupe les applications et leurs [[Extensions]] que j'utilise sous Chakra. Je privilégie donc les applications KDE / Qt. Vous trouverez une liste plus complète d'applications dans le [[Guide KDE 4|Les applications]].
+Cette liste regroupe les applications et leurs [[Extensions]] que j'utilise sous Chakra. Je privilégie donc les applications KDE / Qt. Vous trouverez une liste plus complète d'applications dans le [[Guide KDE|Les applications]].
 <br><br>
 
 |>|!Bureautique |
 |~LibreOffice ^^1^^ |Suite bureautique (GTK) |
-|Calibre |Lecture et gestion de collections d'ebooks (pdf et Epub) |
-|Okular |Visionneuse de document (lecteur pdf) |
-|PDFsam ^^2^^ |Modification de PDF (java) @@color:green;[CCR]@@ |
+|Calibre |Lecture et gestion de collections d'ebooks (PDF et Epub) |
+|Okular |Afficheur de documents (lecteur pdf) |
+|Master PDF Editor ou PDFsam ^^2^^ |Modification de PDF @@color:green;[CCR]@@ |
 |Kontact |Gestionnaire d'informations personnelles |
+|KMail |Logiciel de courriel |
 |KAdressbook |Gestionnaire de contacts |
 |KOrganizer |Organiseur personnel|
+|~TiddlyDesktop |Un navigateur personnalisé pour ~TiddlyWiki @@color:green;[CCR]@@ |
 |>|<br> |
 |>|!Configuration |
 |Aide |Centre d'aide de KDE |
-|Configuration du système | |
+|Configuration du système |Centre de contrôle des paramètres |
 |Recherche de fichiers / dossiers | |
 |>|<br> |
 |>|!Graphisme |
 |digiKam |Programme de gestion de photos |
 |~ShowPhoto |Afficheur et éditeur de photos |
-|KIPI (KDE Image Plugin Interface)<br> Convertisseur d'image DNG,<br> Fusion d'exposition, Panorama...<br> |Plugins pour la photo<br> Plugins partagés avec Digikam, Gwenview et par<br> différentes applications graphiques. |
+|KIPI (KDE Image Plugin Interface)<br> Convertisseur d'image DNG,<br> Fusion d'exposition, Panorama...<br> |Plugins pour la photo<br> Plugins partagés avec digiKam, Gwenview et par<br> différentes applications graphiques. |
 |GIMP ^^3^^ |Éditeur d'images (GTK) |
 |Inkscape |Éditeur d'images vectorielles (GTK) |
-|Gwenview |Visionneuse d'images |
-|Spectacle |Programme de capture d'écran |
+|Gwenview |Afficheur d'images |
 |>|<br> |
 |>|!Internet |
-|Mirror Check |Vérifie la synchronisation des miroirs |
-|~KNetAttach |Assistant dossier réseau |
+|Akregator |Lecteur de flux (RSS et Atom) |
 |Firefox ^^4^^ |Navigateur Web (GTK) |
-|Chromium |Navigateur Web (GTK) |
-|KMail |Logiciel de courriel |
-|Akregator |Lecteur de flux RSS et Atom |
-|Qbittorrent |Client ~BitTorrent (avec moteur de recherche) |
-|Popcorn Time |Regarder des films, séries... en streaming par torrent @@color:green;[CCR]@@ |
-|ownCloud Client |Client ownCloud |
+|~QupZilla |Navigateur Web (support de Pepper flash) |
+|KGet |Gestionnaire de téléchargements |
+|~KNetAttach |Assistant dossier réseau |
+|Mirror Check |Vérifie la synchronisation des miroirs |
+|qBittorrent |Client ~BitTorrent (avec moteur de recherche) |
 |>|<br> |
 |>|!Multimédia |
 |Clementine |Lecteur audio (fork d'Amarok 1.4) |
 |VLC |Lecteur multimédia |
 |>|<br> |
 |>|!Science |
-|Marble |Globle terrestre |
+|Marble |Globe virtuel |
 |QGIS ^^5^^ |Système d'information géographique |
 |>|<br> |
 |>|!Système |
-|Octopi |Ajouter/supprimer des logiciels |
-|Octopi Notifier |Gestionnaire de mises à jour |
 |Dolphin |Gestionnaire de fichiers |
 |Gestionnaire de partitions KDE |Éditeur de partitions |
 |Gestionnaire d'impression |Gestionnaire d'impression CUPS |
 |~KInfoCenter |Centre d'informations |
 |Konsole ^^6^^ |Terminal |
+|Yakuake |Terminal déroulant |
 |~KSysGuard |Surveillance du système |
 |KUser |Gestionnaire d'utilisateurs |
 |miniBackup |Sauvegarde de données personnelles<br> (mails, contacts, configurations...) |
+|Octopi |Ajouter/supprimer des logiciels |
+|Octopi ~CacheCleaner|Nettoyeur de cache |
+|Octopi Notifier |Gestionnaire de mises à jour |
 |Visionneuse de logs Pacman |Inspecter les logs de Pacman |
 |>|<br> |
 |>|!Utilitaire |
@@ -70,5 +71,8 @@ Cette liste regroupe les applications et leurs [[Extensions]] que j'utilise sous
 |Kate |Éditeur de texte avancé |
 |KCalc |Calculatrice scientifique |
 |Klipper |Presse-papiers |
+|KNotes |Éditeur de petites notes |
+|ownCloud Client |Client ownCloud |
+|Spectacle |Programme de capture d'écran |
 |Sweeper |Nettoyeur du système |
 |SUSE Studio Imagewriter |Créateur de Live USB |

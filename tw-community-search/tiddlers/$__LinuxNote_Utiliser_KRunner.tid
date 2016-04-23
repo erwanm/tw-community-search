@@ -1,0 +1,24 @@
+title: $:/LinuxNote/Utiliser KRunner
+created: 20160406172734327
+modified: 20160419180749024
+original-tags: [[Astuces d'utilisation]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Utiliser KRunner
+source-tiddler-title-as-link: Utiliser%20KRunner
+
+KRunner est une petite ligne de commande versatile. Vous pouvez l'utiliser pour démarrer des applications, ouvrir des pages web, accéder aux favoris,
+rechercher dans les données du bureau, calculer de courtes équations et plus encore.
+
+@@.center
+<a href="https://framadrive.org/public.php?service=files&t=KpT9SlbTyvxVkXF" target="_blank"> [img [krunner|https://framadrive.org/public.php?service=files&t=KpT9SlbTyvxVkXF&download]]</a>
+@@
+
+>En appuyant sur ''Alt+F2'' ou Clic droit → Exécuter une commande, la boîte de dialogue KRunner s'ouvre.
+
+KRunner est extensible à l'aide de modules externes de recherche qui sont activables / désactivables en cliquant sur l'icône <i class="fa fa-cog"></i> qui ouvre le [[module Recherche|Espace de travail]]  du centre de configuration.
+
+@@.ast
+<i class="fa fa-lightbulb-o fa-3x pull-left"></i> La commande  `kdesu` peut être utilisée avec KRunner ou en mode console. Elle permet l'accès à une fenêtre qui offre les droits administrateur en mode graphique.<br>
+Par exemple, pour éditer un fichier on va exécuter la commande  `kdesu kate /Chemindufichier`.<br>
+La commande  `sudo` (« superuser do ») est à utiliser en mode texte uniquement.
+@@
