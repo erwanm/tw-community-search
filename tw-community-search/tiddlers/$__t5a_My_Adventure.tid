@@ -3,7 +3,7 @@ caption: Introduction
 created: 20141129170848534
 creator: Andrew Harrison
 list-before: 
-modified: 20160418053852661
+modified: 20160425125452088
 modifier: Andrew Harrison
 original-tags: Contents New
 source-wiki-id: t5a
@@ -12,4 +12,4 @@ source-tiddler-title-as-link: My%20Adventure
 
 <mark>&nbsp;@@color:red;Hello@@ </mark>, my name is [[Andrew|Andrew Harrison]] and this is my web site for modifying Tiddlywiki 5, testing plugins that I find useful or developing myself, and testing new releases.
 
-I started using Tiddlywiki (now referred to as Tiddlywiki Classic or TWC) back in 2008. I've been hacking TW5 since it was released.
+I started using Tiddlywiki (now referred to as Tiddlywiki Classic or TWC) back in 2008. I've been using TW5 since it was released.

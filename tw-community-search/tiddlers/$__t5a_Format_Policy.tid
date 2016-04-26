@@ -1,11 +1,15 @@
 title: $:/t5a/Format Policy
 created: 20150422131135525
 creator: Andrew Harrison
-modified: 20160418050922131
+modified: 20160425132340434
 modifier: Andrew Harrison
-original-tags: New [[Wish List]] [[Needs Work]]
+original-tags: New Example
 source-wiki-id: t5a
 source-tiddler-title-as-text: Format Policy
 source-tiddler-title-as-link: Format%20Policy
 
-Indenting is 4 spaces and start of paragraph is double half tabs?
+*Indenting in code is 4 spaces
+*Start of paragraph text is double half tabs unless transcluded
+*Unlike TiddlyWiki Coding Style, single quotes ARE preferred over double quotes for string literals because if it is in a plugin, this prevents the need to be escaped which saves size and expensive conversion time. Exception would be triple quotes for trouble processing titles with spaces.
+
+Resource: [[TiddlyWiki Coding Style Guidelines|http://tiddlywiki.com/dev/#TiddlyWiki%20Coding%20Style%20Guidelines]]

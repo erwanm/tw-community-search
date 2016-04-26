@@ -1,7 +1,7 @@
 title: $:/SideEditor/About
 created: 20150601142211527
 creator: Mat
-modified: 20160422084018988
+modified: 20160425153047703
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -10,16 +10,16 @@ source-tiddler-title-as-link: About
 
 ''~SideEditor'' is a plugin that floats a tiddlers editor next to the story river.
 
-The purpose is a ''"live" view of the effects from your editing'' and to be able to scroll and reference stuff from other tiddlers while you edit.
+The purpose is a ''"live" view of the effects from your editing'' and to be able to scroll and reference stuff from other tiddlers while you edit. It is intended for full size screens.
 
-''Try it out'' right away in the ~SideEditor you see open here  ⟶<br>
-For the demo, the editor is intentionally extended to cover the sidebar. Access the sidebar by hovering at top or by toggling or resizing (see below). Should your testing mess up anything, just reload this page.
+''Try it out'' in the ~SideEditor you see open here  ⟶<br>
+For this demo, the editor is intentionally extended to cover much of the sidebar. Access the sidebar by hovering above the editor, or by toggling or re-sizing (see below). Should your testing mess up these instructions, just reload this page.
 
 ''Usage''
 
 *''Toggle'' it via the tiddler tool button <span class="mybutton">{{$:/core/images/chevron-right}}</span>
 *''Move'' the ~SideEditor via the two gray handles.
-*''Resize'' width via the lower right corner. Height is automatic from typing.
+*''Re-size'' width via the lower right corner. Height is automatic from typing.
 *''Flipping'' between //Sidebar// and //~SideEditor// uses CSS hovering.
 **exact //flip zones// might take some familiarization<br>...but, basically, hover the edge when unclear.
 
