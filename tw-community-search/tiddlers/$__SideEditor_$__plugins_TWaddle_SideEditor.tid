@@ -2,7 +2,7 @@ title: $:/SideEditor/$:/plugins/TWaddle/SideEditor
 author: Mat von [[TWaddle|http://twaddle.tiddlyspot.com]]
 description: SideEditor - a "live" editor next to your tiddler
 list: readme
-version: 0.0.7
+version: 0.7.1
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: $:/plugins/TWaddle/SideEditor
