@@ -1,7 +1,7 @@
 title: $:/SideEditor/Issues
 created: 20150602065231698
 creator: Mat
-modified: 20160426041125920
+modified: 20160427102803781
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: Issues
 
 !!Issues
 
-* ''Macros'' are best not side-edited because they update the system after each keypress, making the ~SideEditor loose focus
-* ''Height'' -  the ~SideEditor doesn't expand to full tiddler height. I hope to find out why, but meanwhile I handle this by, above the few lines seen, inserting a new row (i.e click Enter). This pushes the whole content down, expanding ~SideEditor to full tiddler height.
-* ''Flipping'' - I want a flip trigger at lower edge of the sidebar lists so that if the list is short and ~SideEditor is sticks out below it, hovering this edge would cause flip... but I can't get this to work in a satisfying way (it has to do with the z-index).
+* ''Macros'' are better not side-edited because they update the system after each keypress, making the ~SideEditor loose focus
+* ''Height'' -  the ~SideEditor doesn't expand to full tiddler height. I hope to find out why, but meanwhile I handle this by, above the few lines seen, inserting a new row (i.e click Enter). This pushes the whole content down, expanding ~SideEditor to full text height.
+* ''Flipping'' - I want a flip trigger beneath sidebar lists so that if the list is short (e.g the "Open" list) and ~SideEditor is sticks out below it, hovering this area would cause flip... but I can't get this to work in a satisfying way (it has to do with the z-index).
 * ''Styles definitions'' are placed in the code tiddlers and it's generally not cleaned up. Still too much tweaking to be made to split out.

@@ -1,7 +1,7 @@
 title: $:/SideEditor/About
 created: 20150601142211527
 creator: Mat
-modified: 20160425153047703
+modified: 20160427093935254
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -32,7 +32,8 @@ For this demo, the editor is intentionally extended to cover much of the sidebar
 |[[$:/plugins/TWaddle/SideEditor/readme]]|Short description of the plugin seen in the Plugin Library |
 |[[$:/plugins/TWaddle/SideEditor/Main]]|This contains the actual editor, its positioning and the CSS|
 |[[$:/plugins/TWaddle/SideEditor/Button]]|The tiddler toolbar button to toggle the ~SideEditor<br>@@font-size:small; Based on  [[$:/core/ui/TopBar/menu]] @@|
-|[[$:/plugins/TWaddle/SideEditor/Revealer]]|A revealwidget checking if there's anything to reveal<br>@@font-size:small; Key idea from [[$:/core/ui/PageTemplate/sidebar]] @@|
+|[[$:/config/ViewToolbarButtons/Visibility/...|$:/config/ViewToolbarButtons/Visibility/$:/plugins/TWaddle/SideEditor/Button]]|Hide/show button in tiddler toolbar via Ctrlpanel<br>@@font-size:small; to hide e.g on public sites@@|
+|[[$:/plugins/TWaddle/SideEditor/Revealer]]|Checks if state is set to reveal SE<br>@@font-size:small; Key idea from [[$:/core/ui/PageTemplate/sidebar]] @@|
 |[[$:/plugins/TWaddle/SideEditor/Metrics]]|Values used in the positioning and sizing|
 |[[$:/plugins/TWaddle/SideEditor/icon]]|An original piece nicked at the Louvre|
 
