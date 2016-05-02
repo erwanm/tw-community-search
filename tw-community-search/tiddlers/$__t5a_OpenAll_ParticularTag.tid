@@ -1,12 +1,14 @@
 title: $:/t5a/OpenAll ParticularTag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160425140731697
+modified: 20160501040910009
 modifier: Andrew Harrison
 original-tags: New [[Needs Work]] [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: OpenAll ParticularTag
 source-tiddler-title-as-link: OpenAll%20ParticularTag
+
+Possibly add here? $:/core/ui/TagTemplate under <$transclude tiddler="$:/core/ui/ListItemTemplate"/>
 
 Resource: [[https://github.com/Jermolene/TiddlyWiki5/issues/192]]
 
