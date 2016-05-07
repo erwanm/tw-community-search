@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Extensions
 created: 20150128142718398
-modified: 20160421221333786
+modified: 20160505211949469
 original-tags: [[Mes applications]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Extensions
@@ -55,6 +55,6 @@ Utiliser des moteurs de recherche anonymes comme [[DuckDuckGo|https://duckduckgo
 *Table Manager (gestion des tables)<br>
 QGIS intègre une application indépendante QGIS Browser qui est un explorateur des données SIG.
 
-!!!^^6^^ Avoir une Konsole transparente
+!!!^^6^^ Personnaliser le shell
 
-Configuration →  Gérer les profils → Modifier le profil → Apparence → Modifier → Arrière plan transparent
+[[Changer de shell]] (avec zsh et Oh My Zsh).

@@ -1,7 +1,7 @@
 title: $:/LinuxNote/Personnaliser Dolphin
 created: 20141206190201722
-modified: 20160416162138487
-original-tags: [[Astuces d'utilisation]]
+modified: 20160506162042782
+original-tags: [[Trucs et astuces]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Personnaliser Dolphin
 source-tiddler-title-as-link: Personnaliser%20Dolphin
@@ -33,8 +33,7 @@ Personnaliser les icônes des dossiers (Documents, Images...) : clic droit sur l
 Les nouveaux icônes sont installés dans le dossier `usr/share/icons`
 
 Prévisualiser le contenu des fichiers (que ce soit au format PDF, JPG...):<br>
-Contrôle → Configurer Dolphin → Général → Aperçu → tout cocher<br>
-Pour les fichiers AVI, il faut installer le paquet `kfmpegthumbnailer`.
+Contrôle → Configurer Dolphin → Général → Aperçu → tout cocher selon les extensions.
 
 !!Les services menu
 Un service menu est une action disponible à partir du clic droit sur un fichier / répertoire dans Dolphin comme //Root action// (qui permet d'ouvrir un fichier en mode administrateur).
