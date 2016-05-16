@@ -1,0 +1,23 @@
+title: $:/SideEditor/PeekToggler
+created: 20160514171022013
+creator: Mat
+modified: 20160514182454771
+modifier: Mat
+original-tags: 
+source-wiki-id: SideEditor
+source-tiddler-title-as-text: PeekToggler
+source-tiddler-title-as-link: PeekToggler
+
+<$button  class="peek">
+<$list filter="[{$:/plugins/TWaddle/SideEditor/Metrics!!peek}prefix[1]]">
+un-peek
+<$action-setfield $tiddler="$:/plugins/TWaddle/SideEditor/Metrics" peek="0"/></$list> 
+<$list filter="[{$:/plugins/TWaddle/SideEditor/Metrics!!peek}prefix[0]]">
+peek
+<$action-setfield $tiddler="$:/plugins/TWaddle/SideEditor/Metrics" peek="1"/>
+</$list> 
+</$button>
+
+<style>
+.peek  {border:1px gray solid; padding:0 3px; color:blue;background:#f2f2f2;}
+</style>
