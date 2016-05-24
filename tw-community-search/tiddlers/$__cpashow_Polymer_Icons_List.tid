@@ -1,0 +1,24 @@
+title: $:/cpashow/Polymer Icons List
+created: 20160523232127234
+creator: Chuck Paussa
+curimage: add-to-queue
+modified: 20160524003346132
+modifier: Chuck Paussa
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Polymer Icons List
+source-tiddler-title-as-link: Polymer%20Icons%20List
+
+\define display-image(image)
+{{Polymer icons##$image$}}
+\end
+&#123;{Polymer icons##{{!!curimage}}}}
+<$select field="curimage">
+<option value=""> -- </option>
+<$list filter="[[Polymer icons]indexes[]]">
+<option value=<<currentTiddler>> > <<currentTiddler>> </option>
+</$list>
+</$select>
+<svg width="24" height="24">
+<$macrocall $name="display-image" image={{!!curimage}} />
+</svg>
