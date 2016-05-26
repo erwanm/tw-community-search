@@ -1,8 +1,9 @@
 title: $:/inmysocks/Sort table columns by clicking on the column header
 blurb: An example
 created: 20150225173814460
-modified: 20150227232948115
+modified: 20160525100213304
 sort_by: maintainer
+topics_tags: Tables
 original-tags: [[Wiki Examples]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: Sort table columns by clicking on the column header

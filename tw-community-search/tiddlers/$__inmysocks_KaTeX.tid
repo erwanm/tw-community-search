@@ -2,8 +2,9 @@ title: $:/inmysocks/KaTeX
 blurb: A LaTeX plugin that doesn't require internet access
 created: 20140923181438071
 creator: inmysocks
-modified: 20141023190905482
+modified: 20160525100535998
 modifier: inmysocks
+topics_tags: Math TypeSetting LaTeX
 original-tags: [[Adding LaTeX Equations]]
 source-wiki-id: inmysocks
 source-tiddler-title-as-text: KaTeX
