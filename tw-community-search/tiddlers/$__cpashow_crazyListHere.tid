@@ -2,13 +2,13 @@ title: $:/cpashow/crazyListHere
 created: 20160416162155176
 creator: Chuck Paussa
 field: currentprocess
-modified: 20160420194955855
+modified: 20160527004013553
 modifier: Chuck Paussa
 process: [[Make a wish]]
 slides: [[Build out the message hierarchy]]
 tiddler: $:/temp/fieldItems
 value: 
-original-tags: object edit $:/tags/Macro
+original-tags: object $:/tags/Macro slide
 source-wiki-id: cpashow
 source-tiddler-title-as-text: crazyListHere
 source-tiddler-title-as-link: crazyListHere
@@ -238,7 +238,7 @@ source-tiddler-title-as-link: crazyListHere
 
 \define displayItemManager(tiddlerName, itemName, fieldName, tagName)
 	<style>
-		.displayItemManager .hideme {opacity:0.0; transition: opacity 1.0s; }
+		.displayItemManager .hideme {opacity:0.5; transition: opacity 1.0s; }
 		.displayItemManager:hover .hideme {opacity:1.0; transition: opacity 0.5s; }
 	</style>
 	<span class="displayItemManager">
