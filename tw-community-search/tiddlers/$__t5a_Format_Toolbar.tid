@@ -1,15 +1,16 @@
 title: $:/t5a/Format Toolbar
 created: 20150421123539753
 creator: Andrew Harrison
-modified: 20160507142058769
+modified: 20160529224103189
 modifier: Andrew Harrison
-original-tags: New [[Needs Work]] [[Under Construction]]
+original-tags: New [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Format Toolbar
 source-tiddler-title-as-link: Format%20Toolbar
 
-Find out if visual editor plugin for tiddlywiki5 like what wikipedia is converting to is being worked on. Make sure it works on small screens.
-Resource: http://skplugins.tiddlyspot.com
+Resource: http://skplugins.tiddlyspot.com/
+
+To do: Find out if visual editor plugin for tiddlywiki5 like what wikipedia is converting to is being worked on. Make sure it works on small screens.
 
 <br>http://rich-text-editor.tiddlyspot.com<br>https://github.com/Jermolene/TiddlyWiki5/pull/2315<br><br>Resource: http://tw5editor.tiddlyspot.com/<br>
 Resource: http://danielorodriguez.com/TW5-searchNreplace/

@@ -1,12 +1,12 @@
-title: $:/t5a/Open All Tag
+title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160529000008588
+modified: 20160529145127892
 modifier: Andrew Harrison
-original-tags: New [[Needs Work]] [[Under Construction]]
+original-tags: New [[Needs Work]]
 source-wiki-id: t5a
-source-tiddler-title-as-text: Open All Tag
-source-tiddler-title-as-link: Open%20All%20Tag
+source-tiddler-title-as-text: Open All By Tag
+source-tiddler-title-as-link: Open%20All%20By%20Tag
 
 $:/core/ui/TagTemplate 
 
