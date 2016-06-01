@@ -1,7 +1,7 @@
 title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160530205437933
+modified: 20160531033609702
 modifier: Andrew Harrison
 original-tags: New [[Under Construction]]
 source-wiki-id: t5a
@@ -18,28 +18,21 @@ color:$(foregroundColor)$;
 \end
 
 \define tag-body-inner(colour,fallbackTarget,colourA,colourB)
-<$set name="foregroundColor" value=<<contrastcolour target:"""$colour$""" fallbackTarget:"""$fallbackTarget$""" colourA:"""$colourA$""" colourB:"""$colourB$""">>>
-<$set name="backgroundColor" value="""$colour$""">
+<$vars foregroundColor=<<contrastcolour target:"""$colour$""" fallbackTarget:"""$fallbackTarget$""" colourA:"""$colourA$""" colourB:"""$colourB$""">> backgroundColor="""$colour$""">
 <$button popup=<<qualify "$:/state/popup/tag">> class="tc-btn-invisible tc-tag-label" style=<<tag-styles>>>
 <$transclude tiddler={{!!icon}}/> <$view field="title" format="text" />
 </$button>
 <$reveal state=<<qualify "$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down"><$transclude tiddler="$:/core/ui/ListItemTemplate"/>
-```
-Added:
-<pre>@@background-color:lime;+&lt;$button class="tc-btn-invisible">
-+&lt;$list filter="[tag{!!title}]">
-+&lt;$action-navigate $to=&lt;&lt;currentTiddler>> />
-+</$list>
-+Open All
-+</$button>@@
-</pre>
-
-```
+<$button class="tc-btn-invisible">
+<$list filter="[tag{!!title}]">
+<$action-navigate $to=<<currentTiddler>> />
+</$list>
+Open All
+</$button>
 <hr>
 <$list filter="[all[current]tagging[]]" template="$:/core/ui/ListItemTemplate"/>
 </$reveal>
-</$set>
-</$set>
+</$vars>
 \end
 
 \define tag-body(colour,palette)

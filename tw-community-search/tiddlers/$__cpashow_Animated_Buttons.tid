@@ -1,0 +1,44 @@
+title: $:/cpashow/Animated Buttons
+created: 20160527190733431
+creator: Chuck Paussa
+modified: 20160530043240019
+modifier: Chuck Paussa
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Animated Buttons
+source-tiddler-title-as-link: Animated%20Buttons
+
+<div class="minus-to-x-container">
+    <div class="minus-to-x-rect left"></div>
+    <div class="minus-to-x-rect right"></div>
+</div>
+<div class="menu-to-x-container">
+    <div class="menu-to-x-rect-one"></div>
+    <div class="menu-to-x-rect-two"></div>
+    <div class="menu-to-x-rect-three"></div>
+</div>
+<div class="menu-to-arrow-up-container">
+    <div class="menu-to-arrow-up-rect-one"></div>
+    <div class="menu-to-arrow-up-rect-two"></div>
+    <div class="menu-to-arrow-up-rect-three"></div>
+</div>
+<div class="menu-to-arrow-down-container">
+    <div class="menu-to-arrow-down-rect-one"></div>
+    <div class="menu-to-arrow-down-rect-two"></div>
+    <div class="menu-to-arrow-down-rect-three"></div>
+</div>
+<div class="menu-to-arrow-right-container">
+    <div class="menu-to-arrow-right-rect-one"></div>
+    <div class="menu-to-arrow-right-rect-two"></div>
+    <div class="menu-to-arrow-right-rect-three"></div>
+</div>
+<div class="menu-to-arrow-left-container">
+    <div class="menu-to-arrow-left-rect-one"></div>
+    <div class="menu-to-arrow-left-rect-two"></div>
+    <div class="menu-to-arrow-left-rect-three"></div>
+</div>
+<div class="menu-to-check-container">
+    <div class="menu-to-check-rect-one"></div>
+    <div class="menu-to-check-rect-two"></div>
+    <div class="menu-to-check-rect-three"></div>
+</div>

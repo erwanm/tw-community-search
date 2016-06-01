@@ -1,0 +1,325 @@
+title: $:/cpashow/Animated Button Styles
+created: 20160414003136874
+creator: Chuck Paussa
+modified: 20160531174605370
+modifier: Chuck Paussa
+original-tags: $:/tags/Stylesheet
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Animated Button Styles
+source-tiddler-title-as-link: Animated%20Button%20Styles
+
+\define check-right()
+    left: 15px;
+    top: 45px;
+    width: 90px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-70deg);
+\end
+\define round-container()
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    border-radius:50px;
+    transition: all .5s ease-in-out;
+\end
+\define square-container()
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    border-radius:20px;
+    transition: all .5s ease-in-out;
+\end
+\define x-right()
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(45deg);
+\end
+\define x-left()
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+\end
+\define arrow-up()
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(90deg);
+\end
+\define arrow-up-left()
+    left: 10px;
+    top: 15px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+\end
+\define arrow-up-right()
+    left: 40px;
+    top: 15px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(45deg);
+\end
+\define arrow-down-left()
+    left: 10px;
+    top: 65px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(45deg);
+\end
+\define arrow-down-right()
+    left: 40px;
+    top: 65px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+\end
+\define arrow-right-left()
+    left: 50px;
+    top: 25px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(45deg);
+\end
+\define arrow-right-right()
+    left: 50px;
+    top: 55px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+\end
+\define arrow-left-left()
+    left: 0px;
+    top: 25px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+\end
+\define arrow-left-right()
+    left: 0px;
+    top: 55px;
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    transform: rotate(45deg);
+\end
+\define menu-top()
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+\end
+\define menu-mid()
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+\end
+\define menu-bottom()
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+\end
+
+.minus-to-x-container {
+<<round-container>>
+}
+.minus-to-x-rect {
+<<menu-mid>>
+}
+.minus-to-x-container:hover>.right {
+<<x-right>>
+}
+.minus-to-x-container:hover>.left {
+<<x-left>>
+}
+.menu-to-x-container {
+<<square-container>>
+}
+.menu-to-x-container:hover {
+<<round-container>>
+}
+.menu-to-x-rect-one {
+<<menu-top>>
+}
+.menu-to-x-rect-two {
+<<menu-mid>>
+}
+.menu-to-x-rect-three {
+<<menu-bottom>>
+}
+.menu-to-x-container:hover>.menu-to-x-rect-one {
+<<x-right>>
+}
+.menu-to-x-container:hover>.menu-to-x-rect-two {
+<<x-left>>
+}
+.menu-to-x-container:hover>.menu-to-x-rect-three {
+<<x-left>>
+}
+.menu-to-arrow-up-container {
+<<square-container>>
+}
+.menu-to-arrow-up-rect-one{
+<<menu-top>>
+}
+.menu-to-arrow-up-rect-two{
+<<menu-mid>>
+}
+.menu-to-arrow-up-rect-three{
+<<menu-bottom>>
+}
+.menu-to-arrow-up-container:hover {
+<<round-container>>
+}
+.menu-to-arrow-up-container:hover>.menu-to-arrow-up-rect-one {
+<<arrow-up>>
+}
+.menu-to-arrow-up-container:hover>.menu-to-arrow-up-rect-two {
+<<arrow-up-left>>
+}
+.menu-to-arrow-up-container:hover>.menu-to-arrow-up-rect-three {
+<<arrow-up-right>>
+}
+.menu-to-arrow-down-container {
+<<square-container>>
+}
+.menu-to-arrow-down-rect-one{
+<<menu-top>>
+}
+.menu-to-arrow-down-rect-two{
+<<menu-mid>>
+}
+.menu-to-arrow-down-rect-three{
+<<menu-bottom>>
+}
+.menu-to-arrow-down-container:hover {
+<<round-container>>
+}
+.menu-to-arrow-down-container:hover>.menu-to-arrow-down-rect-one {
+<<arrow-up>>
+}
+.menu-to-arrow-down-container:hover>.menu-to-arrow-down-rect-two {
+<<arrow-down-left>>
+}
+.menu-to-arrow-down-container:hover>.menu-to-arrow-down-rect-three {
+<<arrow-down-right>>
+}
+.menu-to-arrow-right-container {
+<<square-container>>
+}
+.menu-to-arrow-right-rect-one{
+<<menu-top>>
+}
+.menu-to-arrow-right-rect-two{
+<<menu-mid>>
+}
+.menu-to-arrow-right-rect-three{
+<<menu-bottom>>
+}
+.menu-to-arrow-right-container:hover {
+<<round-container>>
+}
+.menu-to-arrow-right-container:hover>.menu-to-arrow-right-rect-one {
+<<menu-mid>>
+}
+.menu-to-arrow-right-container:hover>.menu-to-arrow-right-rect-two {
+<<arrow-right-left>>
+}
+.menu-to-arrow-right-container:hover>.menu-to-arrow-right-rect-three {
+<<arrow-right-right>>
+}
+.menu-to-arrow-left-container {
+<<square-container>>
+}
+.menu-to-arrow-left-rect-one{
+<<menu-top>>
+}
+.menu-to-arrow-left-rect-two{
+<<menu-mid>>
+}
+.menu-to-arrow-left-rect-three{
+<<menu-bottom>>
+}
+.menu-to-arrow-left-container:hover {
+<<round-container>>
+}
+.menu-to-arrow-left-container:hover>.menu-to-arrow-left-rect-one {
+<<menu-mid>>
+}
+.menu-to-arrow-left-container:hover>.menu-to-arrow-left-rect-two {
+<<arrow-left-left>>
+}
+.menu-to-arrow-left-container:hover>.menu-to-arrow-left-rect-three {
+<<arrow-left-right>>
+}
+.menu-to-check-container {
+<<square-container>>
+}
+.menu-to-check-rect-one{
+<<menu-top>>
+}
+.menu-to-check-rect-two{
+<<menu-mid>>
+}
+.menu-to-check-rect-three{
+<<menu-bottom>>
+}
+.menu-to-check-container:hover {
+<<round-container>>
+}
+.menu-to-check-container:hover>.menu-to-check-rect-one {
+<<check-right>>
+}
+.menu-to-check-container:hover>.menu-to-check-rect-two {
+<<arrow-down-left>>
+}
+.menu-to-check-container:hover>.menu-to-check-rect-three {
+<<check-right>>
+}
