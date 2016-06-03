@@ -2,7 +2,7 @@ title: $:/cpashow/crazyListHere
 created: 20160416162155176
 creator: Chuck Paussa
 field: currentprocess
-modified: 20160527004013553
+modified: 20160602230520898
 modifier: Chuck Paussa
 process: [[Make a wish]]
 slides: [[Build out the message hierarchy]]
@@ -477,6 +477,10 @@ Depends on the following:
 ** trims entered text so tiddler names don't have leading and trailing spaces
 * [[$:/_cpa/macros/mytabs]]
 ** The goofy tabbed interface in crazyListHere
+* [[$:/_cpa/macros/Slide_Macro]]
+** Needed to display the object type editor
+* [[$:/_cpa/stylesheet]]
+** Adds a class "full-width" so edit boxes can be 100%
 * [[Import.svg]]
 ** Import button Image so the import button in comboItemSelect isn't empty
 * [[$:/_cpa/modules/filters/getfieldlist.js]]
