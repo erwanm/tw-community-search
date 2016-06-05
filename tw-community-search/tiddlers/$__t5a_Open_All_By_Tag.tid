@@ -1,7 +1,7 @@
 title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160531033609702
+modified: 20160604182706247
 modifier: Andrew Harrison
 original-tags: New [[Under Construction]]
 source-wiki-id: t5a
@@ -23,12 +23,12 @@ color:$(foregroundColor)$;
 <$transclude tiddler={{!!icon}}/> <$view field="title" format="text" />
 </$button>
 <$reveal state=<<qualify "$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down"><$transclude tiddler="$:/core/ui/ListItemTemplate"/>
-<$button class="tc-btn-invisible">
-<$list filter="[tag{!!title}]">
-<$action-navigate $to=<<currentTiddler>> />
+<$list filter='[tag[$:/tags/TagDropdown]]'>
+
+<$link>
+<$view field='caption'><$view field='title'/></$view>
+</$link>
 </$list>
-Open All
-</$button>
 <hr>
 <$list filter="[all[current]tagging[]]" template="$:/core/ui/ListItemTemplate"/>
 </$reveal>
@@ -42,6 +42,16 @@ Open All
 \end
 
 <$macrocall $name="tag-body" colour={{!!color}} palette={{$:/palette}}/>
+```
+$:/core/ui/TagTemplate/OpenAll
+
+```
+<$button class="tc-btn-invisible">
+<$list filter="[tag{!!title}]">
+<$action-navigate $to=<<currentTiddler>> />
+</$list>
+Open All
+</$button>
 ```
 but can't figure out how to style the Open All link like the others in the popup menu.
 

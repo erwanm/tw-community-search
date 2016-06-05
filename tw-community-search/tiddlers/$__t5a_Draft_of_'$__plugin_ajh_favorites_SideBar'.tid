@@ -1,0 +1,18 @@
+title: $:/t5a/Draft of '$:/plugin/ajh/favorites/SideBar'
+caption: <span class='tc-btn-dropdown' title={{$:/language/SideBar/Favorites/Caption}}>{{$:/core/images/star-filled}}</span><span class='tc-favorites-hidden'>{{$:/language/SideBar/Favorites/Caption}}</span>
+draft.of: $:/plugin/ajh/favorites/SideBar
+draft.title: $:/plugin/ajh/favorites/SideBar
+list-before: 
+modified: 20160604181930251
+modifier: Andrew Harrison
+original-tags: $:/tags/SideBar
+source-wiki-id: t5a
+source-tiddler-title-as-text: Draft of '$:/plugin/ajh/favorites/SideBar'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugin%2fajh%2ffavorites%2fSideBar%27
+
+<$list filter='[list[$:/plugin/ajh/favorites/list]reverse[]]'>
+
+<$link>
+<$view field='caption'><$view field='title'/></$view>
+</$link>
+</$list>
