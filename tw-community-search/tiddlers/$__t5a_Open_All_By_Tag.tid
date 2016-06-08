@@ -1,7 +1,7 @@
 title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160605192512349
+modified: 20160608013334631
 modifier: Andrew Harrison
 original-tags: New [[Under Construction]]
 source-wiki-id: t5a
@@ -10,40 +10,54 @@ source-tiddler-title-as-link: Open%20All%20By%20Tag
 
 $:/core/ui/TagTemplate 
 
-```
-\define tag-styles()
+<pre>\define tag-styles()
 background-color:$(backgroundColor)$;
 fill:$(foregroundColor)$;
 color:$(foregroundColor)$;
 \end
 
 \define tag-body-inner(colour,fallbackTarget,colourA,colourB)
-<$vars foregroundColor=<<contrastcolour target:"""$colour$""" fallbackTarget:"""$fallbackTarget$""" colourA:"""$colourA$""" colourB:"""$colourB$""">> backgroundColor="""$colour$""">
-<$button popup=<<qualify "$:/state/popup/tag">> class="tc-btn-invisible tc-tag-label" style=<<tag-styles>>>
-<$transclude tiddler={{!!icon}}/> <$view field="title" format="text" />
+&lt;$vars foregroundColor=&lt;&lt;contrastcolour target:&quot;&quot;&quot;$colour$&quot;&quot;&quot; fallbackTarget:&quot;&quot;&quot;$fallbackTarget$&quot;&quot;&quot; colourA:&quot;&quot;&quot;$colourA$&quot;&quot;&quot; colourB:&quot;&quot;&quot;$colourB$&quot;&quot;&quot;>> backgroundColor=&quot;&quot;&quot;$colour$&quot;&quot;&quot;>
+&lt;$button popup=&lt;&lt;qualify "~$:/state/popup/tag">> class="tc-btn-invisible tc-tag-label" style=&lt;&lt;tag-styles>>>
+&lt;$transclude tiddler={@@@@{!!icon}}/> &lt;$view field="title" format="text" />
 </$button>
-<$reveal state=<<qualify "$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down"><$transclude tiddler="$:/core/ui/ListItemTemplate"/>
-<$button  class="tc-tiddlylink" tag="a">
-<$list filter="[tag{!!title}]">
-<$action-navigate $to=<<currentTiddler>> />
-</$list>
-Open All
-</$button>
-<hr>
-<$list filter="[all[current]tagging[]]" template="$:/core/ui/ListItemTemplate"/>
+&lt;$reveal state=&lt;&lt;qualify "~$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down">&lt;$transclude tiddler="~$:/core/ui/ListItemTemplate"/>
+@@background-color:green;+&lt;$list filter="[all[shadows+tiddlers]tag[~$:/tags/TagDropdown]!has[draft.of]]" variable="listItem"> 
++&lt;$transclude tiddler=&lt;&lt;listItem>>/> 
++</$list>@@
+&lt;hr>
+&lt;$list filter="[all[current]tagging[]]" template="~$:/core/ui/ListItemTemplate"/>
 </$reveal>
 </$vars>
 \end
 
 \define tag-body(colour,palette)
-<span class="tc-tag-list-item">
-<$macrocall $name="tag-body-inner" colour="""$colour$""" fallbackTarget={{$palette$##tag-background}} colourA={{$palette$##foreground}} colourB={{$palette$##background}}/>
+&lt;span class="tc-tag-list-item">
+&lt;$macrocall $name="tag-body-inner" colour=&quot;&quot;&quot;$colour$&quot;&quot;&quot; fallbackTarget={@@@@{$palette$##tag-background}} colourA={@@@@{$palette$##foreground}} colourB={@@@@{$palette$##background}}/>
 </span>
 \end
 
-<$macrocall $name="tag-body" colour={{!!color}} palette={{$:/palette}}/>
-```
-but can't figure out how to style the Open All link like the others in the popup menu and still have the mouse pointer change to a hand.
+&lt;$macrocall $name="tag-body" colour={@@@@{!!color}} palette={@@@@{~$:/palette}}/>
+</pre>
+$:/core/ui/TagDropdownFeatureButtons tagged ~$:/tags/TagDropdown
+<pre>@@background-color:green;+\define lingo-base() ~$:/language/Buttons/
+
++&lt;$button class="tc-btn-invisible tc-tiddlylink">
++&lt;$list filter="[tag{!!title}]">
++&lt;$action-navigate $to=&lt;&lt;currentTiddler>> />
++</$list>
++&lt;&lt;lingo TagManager/OpenAll>>
++</$button>@@
+</pre>
+
+$:/language/Buttons/TagManager/OpenAll
+<pre>@@background-color:green;+Open All@@
+</pre>
+$:/t5a/stylesheet
+<pre>@@background-color:green;+/* OPEN ALL BY TAG */
++.tc-sidebar-lists button.tc-tiddlylink { color: #9cf; }
++.tc-sidebar-lists button.tc-tiddlylink:hover { color: #04b; }@@
+</pre>
 
 Resource: [[https://github.com/Jermolene/TiddlyWiki5/issues/192]]
 
