@@ -1,7 +1,7 @@
 title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160608013334631
+modified: 20160611011742244
 modifier: Andrew Harrison
 original-tags: New [[Under Construction]]
 source-wiki-id: t5a
@@ -39,26 +39,27 @@ color:$(foregroundColor)$;
 
 &lt;$macrocall $name="tag-body" colour={@@@@{!!color}} palette={@@@@{~$:/palette}}/>
 </pre>
-$:/core/ui/TagDropdownFeatureButtons tagged ~$:/tags/TagDropdown
+$:/plugin/ajh/openall/template tagged ~$:/tags/TagDropdown
 <pre>@@background-color:green;+\define lingo-base() ~$:/language/Buttons/
 
 +&lt;$button class="tc-btn-invisible tc-tiddlylink">
 +&lt;$list filter="[tag{!!title}]">
 +&lt;$action-navigate $to=&lt;&lt;currentTiddler>> />
 +</$list>
-+&lt;&lt;lingo TagManager/OpenAll>>
++&lt;&lt;lingo OpenAll/Caption>>
 +</$button>@@
 </pre>
 
-$:/language/Buttons/TagManager/OpenAll
+$:/language/Buttons/OpenAll/Caption
 <pre>@@background-color:green;+Open All@@
 </pre>
-$:/t5a/stylesheet
-<pre>@@background-color:green;+/* OPEN ALL BY TAG */
-+.tc-sidebar-lists button.tc-tiddlylink { color: #9cf; }
+$:/plugin/ajh/openall/stylesheet
+<pre>@@background-color:green;+.tc-sidebar-lists button.tc-tiddlylink { color: #9cf; }
 +.tc-sidebar-lists button.tc-tiddlylink:hover { color: #04b; }@@
 </pre>
 
 Resource: [[https://github.com/Jermolene/TiddlyWiki5/issues/192]]
 
 Resource: [[Open all the tiddlers with a particular tag|https://groups.google.com/forum/m/#!topic/tiddlywiki/Eqcsb-B6iLk]]
+
+Resource: http://all-free-download.com/free-vector/download/open_close_icons_vector_281220.html
