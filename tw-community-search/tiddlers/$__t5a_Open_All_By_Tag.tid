@@ -1,7 +1,7 @@
 title: $:/t5a/Open All By Tag
 created: 20150530000821221
 creator: Andrew Harrison
-modified: 20160611011742244
+modified: 20160612002935838
 modifier: Andrew Harrison
 original-tags: New [[Under Construction]]
 source-wiki-id: t5a
@@ -9,57 +9,16 @@ source-tiddler-title-as-text: Open All By Tag
 source-tiddler-title-as-link: Open%20All%20By%20Tag
 
 $:/core/ui/TagTemplate 
-
-<pre>\define tag-styles()
-background-color:$(backgroundColor)$;
-fill:$(foregroundColor)$;
-color:$(foregroundColor)$;
-\end
-
-\define tag-body-inner(colour,fallbackTarget,colourA,colourB)
-&lt;$vars foregroundColor=&lt;&lt;contrastcolour target:&quot;&quot;&quot;$colour$&quot;&quot;&quot; fallbackTarget:&quot;&quot;&quot;$fallbackTarget$&quot;&quot;&quot; colourA:&quot;&quot;&quot;$colourA$&quot;&quot;&quot; colourB:&quot;&quot;&quot;$colourB$&quot;&quot;&quot;>> backgroundColor=&quot;&quot;&quot;$colour$&quot;&quot;&quot;>
-&lt;$button popup=&lt;&lt;qualify "~$:/state/popup/tag">> class="tc-btn-invisible tc-tag-label" style=&lt;&lt;tag-styles>>>
-&lt;$transclude tiddler={@@@@{!!icon}}/> &lt;$view field="title" format="text" />
-</$button>
-&lt;$reveal state=&lt;&lt;qualify "~$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down">&lt;$transclude tiddler="~$:/core/ui/ListItemTemplate"/>
-@@background-color:green;+&lt;$list filter="[all[shadows+tiddlers]tag[~$:/tags/TagDropdown]!has[draft.of]]" variable="listItem"> 
-+&lt;$transclude tiddler=&lt;&lt;listItem>>/> 
-+</$list>@@
-&lt;hr>
-&lt;$list filter="[all[current]tagging[]]" template="~$:/core/ui/ListItemTemplate"/>
-</$reveal>
-</$vars>
-\end
-
-\define tag-body(colour,palette)
-&lt;span class="tc-tag-list-item">
-&lt;$macrocall $name="tag-body-inner" colour=&quot;&quot;&quot;$colour$&quot;&quot;&quot; fallbackTarget={@@@@{$palette$##tag-background}} colourA={@@@@{$palette$##foreground}} colourB={@@@@{$palette$##background}}/>
-</span>
-\end
-
-&lt;$macrocall $name="tag-body" colour={@@@@{!!color}} palette={@@@@{~$:/palette}}/>
-</pre>
+<pre><$view tiddler='$:/core/ui/TagTemplate' field='text'/></pre>
 $:/plugin/ajh/openall/template tagged ~$:/tags/TagDropdown
-<pre>@@background-color:green;+\define lingo-base() ~$:/language/Buttons/
-
-+&lt;$button class="tc-btn-invisible tc-tiddlylink">
-+&lt;$list filter="[tag{!!title}]">
-+&lt;$action-navigate $to=&lt;&lt;currentTiddler>> />
-+</$list>
-+&lt;&lt;lingo OpenAll/Caption>>
-+</$button>@@
+<pre><$view tiddler='$:/plugin/ajh/openall/template' field='text'/>
 </pre>
-
 $:/language/Buttons/OpenAll/Caption
-<pre>@@background-color:green;+Open All@@
+<pre>Open All
 </pre>
 $:/plugin/ajh/openall/stylesheet
-<pre>@@background-color:green;+.tc-sidebar-lists button.tc-tiddlylink { color: #9cf; }
-+.tc-sidebar-lists button.tc-tiddlylink:hover { color: #04b; }@@
-</pre>
+<pre><$view tiddler='$:/plugin/ajh/openall/stylesheet' field='text'/></pre>
 
 Resource: [[https://github.com/Jermolene/TiddlyWiki5/issues/192]]
 
 Resource: [[Open all the tiddlers with a particular tag|https://groups.google.com/forum/m/#!topic/tiddlywiki/Eqcsb-B6iLk]]
-
-Resource: http://all-free-download.com/free-vector/download/open_close_icons_vector_281220.html
