@@ -1,0 +1,25 @@
+title: $:/ViewFields/TextNviewTemplate
+created: 20160614221600000
+creator: twMat
+modified: 20160615165954735
+modifier: twMat
+original-tags: $:/tags/ViewTemplate
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: TextNviewTemplate
+source-tiddler-title-as-link: TextNviewTemplate
+
+\define target() $(tid)$!!$(field)$
+
+<$set name="spacer" filter="[all[current]!has[text]fields[]regexp[^text\d]first[]]" value="&nbsp;" emptyValue=""> <div style="max-height:0px;"><<spacer>></div></$set>
+<$list filter="[all[current]fields[]regexp[^text\d]sort[]]" variable="textn">
+   <div class="textn">
+   <$transclude field=<<textn>> mode="block"/>
+   <$vars tid=<<currentTiddler>> field=<<textn>>>
+      <$list filter="""[all[]has[transclude-to]regexp:transclude-to<target>]""" >
+         <div class="textn">
+            <$transclude mode="block"/>
+         </div>
+      </$list>
+   </$vars>
+   </div>
+</$list>
