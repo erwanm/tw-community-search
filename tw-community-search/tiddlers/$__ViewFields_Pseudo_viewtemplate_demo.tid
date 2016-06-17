@@ -1,10 +1,10 @@
 title: $:/ViewFields/
 created: 20160615155145295
 creator: twMat
-modified: 20160615170750319
+modified: 20160616065854651
 modifier: twMat
 text2: 
-text3: The above is from this tiddlers field //text2// area... see for yourself in edit mode. (Huh? //text2// is empty!?) - actually [[Pseudo viewtemplate]] is transcluded into //text2// (as per one main purpose with [[TextNviewTemplate]]). The idea is to implement it so that such "pseudo viewtemplates" can take a ''//filter// as argument in the field //transclude-to//'' and thereby, as if a viewtemplate, make its content appear in all filter output.
+text3: The above is from this tiddlers field //text2// area... see for yourself in edit mode. (Huh? //text2// is empty!?) - actually [[Pseudo viewtemplate]] is transcluded to below //text2// (as per one main purpose with [[TextNviewTemplate]]). The idea is to implement it so that such "pseudo viewtemplates" can take a ''//filter// as argument in the field //transclude-to//'' and thereby, as if a viewtemplate, make its content appear in all filter output.
 original-tags: 
 source-wiki-id: ViewFields
 source-tiddler-title-as-text: 
