@@ -5,10 +5,10 @@ dependents: $:/plugins/felixhayashi/vis
 depends: $:/plugins/felixhayashi/vis
 description: TiddlyMap – Map drawing and topic visualization for your wiki
 list: readme license
-released: Sun, 07 Feb 2016 01:08:58 GMT
+released: Sat, 18 Jun 2016 20:41:06 GMT
 source: https://github.com/felixhayashi/TW5-TiddlyMap
 suggested: $:/plugins/felixhayashi/topstoryview
-version: 0.11.2+8941
+version: 0.11.2+8942
 original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/felixhayashi/tiddlymap
