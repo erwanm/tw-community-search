@@ -4,8 +4,8 @@ creator: Andrew
 dependents: $:/language/Buttons/OpenAll/Caption $:/language/Buttons/OpenAll/Hint $:/plugin/ajh/openall/icon $:/plugin/ajh/openall/image $:/plugin/ajh/openall/readme $:/plugin/ajh/openall/stylesheet $:/plugin/ajh/openall/template
 description: Open All Button
 list: readme
-modified: 20160612221947172
-modifier: Andrew
+modified: 20160625023759924
+modifier: Andrew Harrison
 source: http://openall.tiddlyspot.com/
 version: 0.0.1
 original-tags: 
