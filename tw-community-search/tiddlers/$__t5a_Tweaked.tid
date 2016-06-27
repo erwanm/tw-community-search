@@ -3,7 +3,8 @@ color: #0f3
 created: 20151111183253520
 creator: Andrew Harrison
 icon: $:/core/images/edit-button
-modified: 20160530002951024
+icon-color: #333
+modified: 20160626175211824
 modifier: Andrew Harrison
 show-field: -icon
 original-tags: 

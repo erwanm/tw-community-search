@@ -3,7 +3,8 @@ color: #f90
 created: 20160619163519550
 creator: Andrew Harrison
 icon: $:/core/images/plugin-generic-theme
-modified: 20160619163526783
+icon-color: #333
+modified: 20160626175355655
 modifier: Andrew Harrison
 show-field: -icon
 original-tags: 

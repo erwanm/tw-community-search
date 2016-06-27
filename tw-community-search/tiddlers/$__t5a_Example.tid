@@ -4,7 +4,8 @@ color: #0ff
 created: 20151111182709496
 creator: Andrew Harrison
 icon: $:/core/images/tip
-modified: 20151203054825040
+icon-color: #333
+modified: 20160626175422051
 modifier: Andrew Harrison
 show-field: -icon -caption
 original-tags: Contents
