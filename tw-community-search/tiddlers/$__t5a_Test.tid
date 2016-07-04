@@ -1,7 +1,7 @@
 title: $:/t5a/Test
 created: 20160623004539207
 creator: Andrew Harrison
-modified: 20160623005402499
+modified: 20160703181340292
 modifier: Andrew Harrison
 original-tags: [[Draggable TOC]]
 source-wiki-id: t5a
@@ -21,3 +21,16 @@ class="tc-dropzone"
 <li draggable="true" data-value="data2">List Item 2</li>
 <li draggable="true" data-value="data3">List Item 3</li>
 </ol>
+
+Try addeding this tiddler to the list using drag and drop - <$link dragoverclic="yes">DragItem</$link> 
+<$taglist targeTtag="taglistdemo"></$taglist>
+
+
+<div class="dropzone">
+  <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+    This div is draggable
+  </div>
+</div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
