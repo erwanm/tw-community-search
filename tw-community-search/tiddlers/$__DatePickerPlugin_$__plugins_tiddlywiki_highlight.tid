@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Highlight.js: syntax highlighting
 list: readme usage license
-version: 5.1.12-prerelease
+version: 5.1.13-prerelease
 original-tags: 
 source-wiki-id: DatePickerPlugin
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

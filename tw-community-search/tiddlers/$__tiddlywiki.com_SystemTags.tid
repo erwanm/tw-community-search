@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/SystemTags
 created: 20130822080600000
-modified: 20140906224046452
+modified: 20160215115150854
 type: text/vnd.tiddlywiki
 original-tags: Concepts
 source-wiki-id: tiddlywiki.com
@@ -23,6 +23,7 @@ These are the available system tags
 * {{$:/tags/ControlPanel/Info||$:/core/ui/TagTemplate}} for control panel info tabs
 * {{$:/tags/ControlPanel/Settings||$:/core/ui/TagTemplate}} for control panel settings tabs
 * {{$:/tags/ControlPanel/Toolbars||$:/core/ui/TagTemplate}} for control panel toolbar customisation tabs
+* {{$:/tags/EditPreview||$:/core/ui/TagTemplate}} for custom preview panes
 * {{$:/tags/EditTemplate||$:/core/ui/TagTemplate}} for the edit template
 * {{$:/tags/EditToolbar||$:/core/ui/TagTemplate}} for the edit mode tiddler toolbar
 * {{$:/tags/Exporter||$:/core/ui/TagTemplate}} for the exporters
@@ -40,6 +41,7 @@ These are the available system tags
 * {{$:/tags/Stylesheet||$:/core/ui/TagTemplate}} to indicate that a tiddler should be applied as a CSS stylesheet
 * {{$:/tags/TiddlerInfo||$:/core/ui/TagTemplate}} for tiddler info panel tabs
 * {{$:/tags/TiddlerInfo/Advanced||$:/core/ui/TagTemplate}} for tabs under the advanced tiddler tab
+* {{$:/tags/ToolbarButtonStyle||$:/core/ui/TagTemplate}} for the style of the buttons
 * {{$:/tags/TopLeftBar||$:/core/ui/TagTemplate}} for the top left bar
 * {{$:/tags/TopRightBar||$:/core/ui/TagTemplate}} for the top right bar
 * {{$:/tags/ViewTemplate||$:/core/ui/TagTemplate}} for the view template

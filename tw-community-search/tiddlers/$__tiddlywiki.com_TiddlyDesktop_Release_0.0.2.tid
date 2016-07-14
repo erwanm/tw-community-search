@@ -9,7 +9,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: TiddlyDesktop Release 0.0.2
 source-tiddler-title-as-link: TiddlyDesktop%20Release%200.0.2
 
-<a href="https://github.com/Jermolene/TiddlyDesktop/releases/tag/v0.0.2" class="tc-btn-big-green" target="_blank">
+<a href="https://github.com/Jermolene/TiddlyDesktop/releases/tag/v0.0.2" class="tc-btn-big-green" target="_blank" rel="noopener noreferrer">
 {{$:/core/images/github}} Download from ~GitHub
 </a>
 

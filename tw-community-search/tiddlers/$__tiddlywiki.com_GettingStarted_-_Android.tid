@@ -1,14 +1,14 @@
 title: $:/tiddlywiki.com/GettingStarted - Android
 caption: Android
 created: 20140811171036268
-modified: 20140916124042604
+modified: 20160430121735629
 type: text/vnd.tiddlywiki
 original-tags: 
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: GettingStarted - Android
 source-tiddler-title-as-link: GettingStarted%20-%20Android
 
-There are two options for using TiddlyWiki on Android:
+There are three options for using TiddlyWiki on Android:
 
 ! Using Firefox and TiddlyFox
 
@@ -17,3 +17,7 @@ There are two options for using TiddlyWiki on Android:
 ! Using the AndTidWiki App
 
 {{Saving on Android}}
+
+! Using Node.js in Termux
+
+{{Serving TW5 from Android}}

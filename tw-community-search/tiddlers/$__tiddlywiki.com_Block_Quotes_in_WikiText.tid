@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/Block Quotes in WikiText
 caption: Block Quotes
 created: 20131206154636572
-modified: 20131206162157596
+modified: 20160607092444424
 type: text/vnd.tiddlywiki
 original-tags: WikiText
 source-wiki-id: tiddlywiki.com
@@ -12,7 +12,7 @@ There are two ways to produce HTML block quotes in TiddlyWiki5, one for content 
 
 ! Multi-line Block Quotes
 
-The syntax for multi-line block quotes is:
+The syntax for multi-line block quotes ({{$:/core/images/quote}}) is:
 
 <<wikitext-example src:"<<<
 This is a block quoted paragraph

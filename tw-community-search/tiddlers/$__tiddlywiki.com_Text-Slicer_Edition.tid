@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/Text-Slicer Edition
 created: 20150718123139133
-modified: 20150718123255662
+modified: 20160602051553479
 type: text/vnd.tiddlywiki
 original-tags: Editions
 source-wiki-id: tiddlywiki.com
@@ -9,4 +9,4 @@ source-tiddler-title-as-link: Text-Slicer%20Edition
 
 The ''Text-Slicer'' edition of TiddlyWiki contains tools to help advanced users slice long texts up into individual tiddlers.
 
-<a href="editions/text-slicer/index.html" target="_blank">editions/text-slicer/index.html</a>
+http://tiddlywiki.com/editions/text-slicer/
