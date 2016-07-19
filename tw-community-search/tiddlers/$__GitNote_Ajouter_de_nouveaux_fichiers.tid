@@ -1,0 +1,55 @@
+title: $:/GitNote/Ajouter de nouveaux fichiers
+created: 20150216155025496
+modified: 20160207115733261
+original-tags: Menu
+source-wiki-id: GitNote
+source-tiddler-title-as-text: Ajouter de nouveaux fichiers
+source-tiddler-title-as-link: Ajouter%20de%20nouveaux%20fichiers
+
+Dans cet exemple, nous allons ajouter un nouveau fichier `file2.txt` à notre projet.
+
+On copie son fichier `file2.txt` dans le dossier `mon_projet`
+
+Et c'est partie (j'utilise ici les alias pour vous montrer que tout cela peut être fait vraiment rapidement).
+
+```c
+$ git st
+$ git add file2.txt
+$ git ci -m "File2 - First commit"
+```
+
+On vérifie notre historique
+
+```c
+$ git hist
+* d43f3ff 2014-10-25 | File2 - First commit [Votre_pseudo]
+* b24f3ff 2014-10-25 | Add email adress [Votre_pseudo]
+* cf466b4 2014-10-25 | Initial Commit [Votre_pseudo]
+```
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> __En cas d'erreur__<br>Il est possible de modifier le message du dernier commit avec `git commit --amend -m "Nouveau Message"`.
+<br>
+
+:Pour effacer le dernier commit ''ainsi que les modifications effectués dans le dossier de travail'' on peut utiliser `git reset --hard HEAD^`. Pour effacer les 2 derniers commits: `git reset --hard HEAD~2` etc...
+@@
+
+!!Ajouter un dossier
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> On ne peut pas commiter des dossiers vides avec Git. Si il n'y a pas de fichier dedans, Git ignorera le dossier.
+@@
+
+Pour ajouter un dossier dans votre répertoire Git:
+
+```c
+$ git add nom_dossier
+$ git add nom_dossier/nom_fichier
+```
+
+Si votre dossier comporte plusieurs fichiers il faut utiliser:
+
+```c
+$ git add nom_dossier
+$ git add nom_dossier/\*
+```

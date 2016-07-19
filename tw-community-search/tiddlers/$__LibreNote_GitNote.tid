@@ -1,0 +1,25 @@
+title: $:/LibreNote/GitNote
+created: 20150530132450605
+creator: svink
+modified: 20160124165332035
+modifier: svink
+original-tags: transblack
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: GitNote
+source-tiddler-title-as-link: GitNote
+
+<table class="invisibletable">
+<tr>
+<td valign="center">
+<div style="font-size:0.9em;">
+<<list-thumbnails filter:"[tag[thumbnail_GN]]" width:"336" height:"190">>
+</div>
+</td>
+<td>
+<div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
+<a href="https://librenote.aerobatic.io/gitnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank">
+''~GitNote'' <i class="fa fa-external-link-square"></i></a>
+</div>
+<div style="text-align:center;font-size:1.1em;">
+Les bases de Git, un logiciel de gestion de version décentralisé
+</div>

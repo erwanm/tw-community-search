@@ -1,0 +1,35 @@
+title: $:/TiddlyNote/TOC exemple onglet interne
+caption: Onglet à navigation interne
+created: 20150529090943166
+modified: 20150529181217087
+order: 5
+original-tags: toc
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: TOC exemple onglet interne
+source-tiddler-title-as-link: TOC%20exemple%20onglet%20interne
+
+```
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Nom-du-tag"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Sélectionnez une entrée dans le menu. Cliquez sur la flèche pour développer.</p>"
+	missingText="<p>Tiddler manquant.</p>"
+/>
+```
+
+<<<
+Produit un tableau de bord à deux panneaux où les entrées sont affichées dans le panneau gauche et le contenu des tiddlers est affiché dans le panneau droit.
+
+Les liens vers des tiddlers sont ouverts dans le panneau droit.
+<<<
+
+<br>__Exemple__
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="toc exemple"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Sélectionnez une entrée dans le menu. Cliquez sur la flèche pour développer.</p>"
+	missingText="<p>Tiddler manquant.</p>"
+/>

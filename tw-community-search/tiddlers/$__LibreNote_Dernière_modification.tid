@@ -1,0 +1,23 @@
+title: $:/LibreNote/Dernière modification
+created: 20160113103124796
+creator: svink
+modified: 20160120152031888
+modifier: svink
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Dernière modification
+source-tiddler-title-as-link: Dernière%20modification
+
+<table class="invisibletable">
+<tr>
+<td valign="right">
+<div style="font-size:0.85em;text-align:right">
+Dernière mise à jour
+</div>
+</td>
+
+<td valign="center">
+<div style="font-size:0.85em;text-align:left; margin-left:4em;"> &nbsp; <$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]">
+<$view field="modified" format="date" template="DD MMM YYYY"/>
+</$list>
+</div>

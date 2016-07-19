@@ -1,0 +1,21 @@
+title: $:/LinuxNote/Personnalisation
+created: 20141217144043764
+modified: 20160419173012222
+original-tags: [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Personnalisation
+source-tiddler-title-as-link: Personnalisation
+
+!Détail du compte
+Permet de gérer les comptes utilisateur.
+
+!Paramètres régionaux
+Permet de modifier la langue du système, les formats utilisés pour les nombres, l'heure..., la vérification orthographique et le fuseau horaire.
+
+Il faut juste garder le français (//langue préférée//) et l'anglais (//langue disponible//) pour les applications mal traduites.
+
+!Notifications
+Permet de gérer finement le comportement de l'ensemble des notifications et des actions après un évènement (lire un son, afficher un message...)
+
+!Applications
+Permet de définir les applications par défaut, les associations de fichiers, les emplacements des dossiers et le témoin de démarrage des applications.

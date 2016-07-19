@@ -1,0 +1,33 @@
+title: $:/TiddlyNote/Afficher la liste des tags
+created: 20150306075215179
+description: Afficher tous les tags en colonne
+modified: 20150309131100420
+original-tags: [[Trucs et astuces]]
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Afficher la liste des tags
+source-tiddler-title-as-link: Afficher%20la%20liste%20des%20tags
+
+Le code suivant permet d'afficher la liste de tous les tags:
+
+```
+<$list filter="[tags[]!is[system]sort[title]]">
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+</$list>
+```
+
+On peut ajouter une classe CSS dans la [[feuille de style|Feuilles de style]] pour afficher la liste en colonnes:
+
+```
+.taglist-columns{
+column-count: 4;
+-moz-column-count: 4;
+-webkit-column-count: 4;
+}
+```
+
+Ce qui donne:
+
+<div class="taglist-columns">
+<$list filter="[tags[]!is[system]sort[title]] -task -done">
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+</$list> 

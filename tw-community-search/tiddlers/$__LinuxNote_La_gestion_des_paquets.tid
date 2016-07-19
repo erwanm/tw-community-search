@@ -1,0 +1,13 @@
+title: $:/LinuxNote/La gestion des paquets
+color: #acacac
+created: 20141130164639484
+list: [[Paquets des dépôts officiels]] [[Paquets du dépôt CCR]]
+modified: 20150122145305989
+original-tags: [[Guide Chakra]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: La gestion des paquets
+source-tiddler-title-as-link: La%20gestion%20des%20paquets
+
+La gestion des paquets sous Chakra est différente selon si le paquet est fourni dans les ''dépôts officiels'' ou dans le dépôt communautaire ''CCR''.
+
+<<list-links "[tag[La gestion des paquets]]">>

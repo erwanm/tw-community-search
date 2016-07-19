@@ -1,0 +1,16 @@
+title: $:/LinuxNote/Menu
+color: 
+created: 20141023095946603
+icon: $:/core/images/menu-button
+list: [[Hello world !]] [[Guide Chakra]] [[Guide KDE]] [[Services internet libres]]
+modified: 20160408165709430
+original-tags: $:/tags/SideBar
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Menu
+source-tiddler-title-as-link: Menu
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'Menu'>>
+
+</div>

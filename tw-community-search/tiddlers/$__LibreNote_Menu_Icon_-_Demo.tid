@@ -1,0 +1,20 @@
+title: $:/LibreNote/Menu Icon - Demo
+created: 20151023144110315
+creator: svink
+modified: 20160131140327677
+modifier: svink
+top_right_menu_order: 4
+original-tags: icone $:/tags/TopRightMenu
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu Icon - Demo
+source-tiddler-title-as-link: Menu%20Icon%20-%20Demo
+
+@@.tc-icon-menu
+<$button class="tc-btn-invisible" tooltip='Démonstrations'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[DemoListe]]"/>
+<$action-navigate $to="DemoListe" $scroll="yes"/>
+<i class="fa fa-cog"></i> Démo
+</$button>
+@@
+&nbsp;
