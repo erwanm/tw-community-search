@@ -1,6 +1,6 @@
 title: $:/TiddlyNote/Plugins
 created: 20150119110211066
-modified: 20150531155751870
+modified: 20160719203732422
 original-tags: Menu
 source-wiki-id: TiddlyNote
 source-tiddler-title-as-text: Plugins
@@ -35,8 +35,8 @@ Les plugins peuvent contenir des modules ~JavaScript, des feuilles de style, et 
 #  Rafraîchissez la fenêtre
 # Le plugin est maintenant disponible
 
-!!Plugins utilisés dans ~TiddlyNotes
+!!Plugins utilisés dans ~TiddlyNote
 
-Liste des plugins utilisés dans [[TiddlyNotes|Débuter avec TiddlyWiki]].
+Liste des plugins utilisés dans [[TiddlyNote|Débuter avec TiddlyWiki]].
 
 <<tabs "FontAwesome KeyboardSnippets [[Github fork ribbon]] Highlight" "FontAwesome" "$:/state/tab1">>

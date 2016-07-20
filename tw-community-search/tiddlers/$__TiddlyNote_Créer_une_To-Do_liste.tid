@@ -1,13 +1,13 @@
-title: $:/TiddlyNote/Créer une ToDo liste
+title: $:/TiddlyNote/Créer une To-Do liste
 created: 20150224125752109
 description: Mettre en place une liste de tâches à faire
-modified: 20150607151004461
+modified: 20160719202930361
 original-tags: [[Trucs et astuces]]
 source-wiki-id: TiddlyNote
-source-tiddler-title-as-text: Créer une ToDo liste
-source-tiddler-title-as-link: Créer%20une%20ToDo%20liste
+source-tiddler-title-as-text: Créer une To-Do liste
+source-tiddler-title-as-link: Créer%20une%20To-Do%20liste
 
-Il est assez simple de mettre en place une liste de choses à faire (//~ToDo list//) dans ~TiddlyWiki.
+Il est assez simple de mettre en place une liste de choses à faire (//To-Do list//) dans ~TiddlyWiki.
 
 
 Insérez le code suivant dans un tiddler:
