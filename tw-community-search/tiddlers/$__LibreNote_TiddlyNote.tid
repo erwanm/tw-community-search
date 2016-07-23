@@ -1,25 +1,24 @@
 title: $:/LibreNote/TiddlyNote
 created: 20150530132633245
 creator: svink
-modified: 20160127093332083
+modified: 20160722152220757
 modifier: svink
 original-tags: semi
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: TiddlyNote
 source-tiddler-title-as-link: TiddlyNote
 
-<table class="invisibletable">
-<tr>
-<td>
+<div style="margin-top:2em;">
+<div class="col2">
+
 <div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
 <a href="https://librenote.aerobatic.io/tiddlynote" class="tc-btn-big-green" style="text-decoration:none; background-color:#4e9537;" target="_blank">
 ''~TiddlyNote'' <i class="fa fa-external-link-square"></i></a>
 </div>
-<div style="text-align:center;font-size:1.1em;">
+<div style="text-align:center; font-size:1.1em;">
 Une introduction à ~TiddlyWiki, un carnet de notes web personnel et non linéaire
 </div>
-</td>
-<td valign="center">
+
 <div style="font-size:0.9em;">
 <<list-thumbnails filter:"[tag[thumbnail_TN]]" width:"336" height:"190">>
 </div>

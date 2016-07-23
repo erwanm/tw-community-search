@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Les dépôts
 created: 20141130122932677
-modified: 20160420212217906
+modified: 20160722161814017
 original-tags: [[Guide Chakra]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Les dépôts
@@ -9,7 +9,7 @@ source-tiddler-title-as-link: Les%20dépôts
 Les paquets sont disponibles dans les dépôts centraux de la distribution. Chakra utilise deux sources de distribution des paquets: ''les dépôts officiels'', maintenus par l'équipe de développement et le ''dépôt communautaire'' où les utilisateurs peuvent déposer leurs propres paquets.
 
 !Les dépôts officiels
- <i class="fa fa-database"></i> [[Parcourir les dépôts|http://rsync.chakraos.org/packages/]]
+ <i class="fa fa-database"></i> [[Parcourir les dépôts|https://rsync.chakralinux.org/packages/]]
 
 Les paquets sont répartis entre 4 dépôts stables.
 
@@ -33,7 +33,7 @@ Les dépôts stables sont activés par défaut et les dépôts instables ne sont
 La gestion des [[Paquets des dépôts officiels]] est détaillée plus loin.
 
 !Le dépôt communautaire
-<i class="fa fa-database"></i> [[Parcourir le dépôt CCR|https://chakraos.org/ccr/index.php?setlang=fr]]
+<i class="fa fa-database"></i> [[Parcourir le dépôt CCR|https://chakralinux.org/ccr/index.php?setlang=fr]]
 
 Chakra Community Repository ou CCR est le dépôt communautaire de Chakra.
 CCR n'est pas réellement un dépôt de paquets, mais il fournit des scripts PKGBUILD qui automatisent le

@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Changer de shell
 created: 20160505212034697
-modified: 20160506153254351
+modified: 20160722170326119
 original-tags: [[Trucs et astuces]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Changer de shell
@@ -18,13 +18,13 @@ source-tiddler-title-as-link: Changer%20de%20shell
 Zsh est présent dans les dépôts de Chakra, il s'installe simplement avec:
 
 ```c
-sudo pacman -S zsh
+$ sudo pacman -S zsh
 ```
 
 Une fois installé, il faut en faire le shell par défaut à la place de Bash.
 
 ```c
-chsh -s /bin/zsh
+$ chsh -s /bin/zsh
 ```
 
 Puis se déconnecter et se reconnecter pour l'utiliser.
@@ -36,7 +36,7 @@ Puis se déconnecter et se reconnecter pour l'utiliser.
 Récupérez la dernière version grâce à un script:
 
 ```c
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 !!Configuration
@@ -49,11 +49,11 @@ Le fichier de configuration de Zsh est `.zshrc`
 
 >`ZSH_THEME="agnoster"`
 
-Le thème Agnoster est optimisé pour Solarized et Git. Pour un rendu optimal il est nécessaire d'installer une [[police patchée pour Powerline|https://github.com/powerline/fonts]] comme [[Menlo|https://github.com/abertsch/Menlo-for-Powerline]] (en Bold, 9).
+Le thème [[Agnoster|https://gist.github.com/agnoster/3712874]] est optimisé pour le schéma de couleur Solarized et pour Git avec des informations sur l'état des dépôts. Pour un rendu optimal il est nécessaire d'installer une [[police patchée pour Powerline|https://github.com/powerline/fonts]] comme [[Menlo|https://github.com/abertsch/Menlo-for-Powerline]] (en Bold, 9).
 
 !!!Activer les plugins
 
-[[Plus de 200 plugins|https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins]] permettent d'étendre les fonctionnalités de Zsh. Par exemple, le plugin `git` permet d'ajouter des alias et des informations sur l'état des dépôts.
+[[Plus de 200 plugins|https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins]] permettent d'étendre les fonctionnalités de Zsh. Par exemple, le plugin `git` permet d'ajouter des alias et des fonctions utiles.
 
 >`plugins=(git)`
 
@@ -66,7 +66,7 @@ Ajouter au fichier `.zshrc` la ligne  ``DEFAULT_USER="NomUtilisateur"``
 Installer le paquet ``zsh-syntax-highlighting`` depuis CCR.
 
 ```c
-ccr -S zsh-syntax-highlighting
+$ ccr -S zsh-syntax-highlighting
 ```
 et ajouter la ligne `source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` à la fin du fichier de configuration comme indiqué.
 

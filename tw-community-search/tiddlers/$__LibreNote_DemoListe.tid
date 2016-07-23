@@ -1,7 +1,7 @@
 title: $:/LibreNote/DemoListe
 created: 20160124170651452
 creator: svink
-modified: 20160505204740315
+modified: 20160722152407715
 modifier: svink
 original-tags: semi
 source-wiki-id: LibreNote
@@ -26,6 +26,6 @@ Démonstrations de ~TiddlyWiki
 <div style="text-align:left; margin-left:1.2em;">
 {{!!description}} par {{!!auteur}}
 
-@@.tag
+<span class="tag">
 <$view field="categorie"/>
-@@
+</span>

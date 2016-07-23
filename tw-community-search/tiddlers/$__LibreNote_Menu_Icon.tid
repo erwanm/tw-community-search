@@ -1,0 +1,56 @@
+title: $:/LibreNote/Menu Icon
+created: 20160722150842461
+creator: svink
+modified: 20160722150946269
+modifier: svink
+original-tags: icone $:/tags/TopRightMenu
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu Icon
+source-tiddler-title-as-link: Menu%20Icon
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Accueil'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[Accueil]]
+[[Presentation]]
+[[Documentation]]
+[[Actualites]]
+[[Wikis]]
+[[A propos]]"/>
+<$action-navigate $to="Accueil" $scroll="yes"/>
+<i class="fa fa-home"></i> Home
+</$button>
+&nbsp;
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Le Blog'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[DerniersPosts]]
+[[ListeTags]]"/>
+<$action-navigate $to="DerniersPosts" $scroll="yes"/>
+<i class="fa fa-comments"></i> Blog
+</$button>
+&nbsp;
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Les Wikis'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[LinuxNote]]
+[[TiddlyNote]]
+[[GitNote]]"/>
+<$action-navigate $to="LinuxNote" $scroll="no"/>
+<i class="fa fa-flask"></i> Wikis
+</$button>
+&nbsp;
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Démonstrations'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[DemoListe]]"/>
+<$action-navigate $to="DemoListe" $scroll="yes"/>
+<i class="fa fa-cog"></i> Démo
+</$button>
+&nbsp;
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Contact et Sources'>
+<$action-setfield $tiddler="$:/StoryList" list="
+[[ContactSources]]"/>
+<$action-navigate $to="ContactSources" $scroll="yes"/>
+<i class="fa fa-user"></i> A propos
+</$button>

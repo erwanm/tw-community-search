@@ -1,21 +1,20 @@
 title: $:/LibreNote/LinuxNote
 created: 20150530120329512
 creator: svink
-modified: 20160127093304145
+modified: 20160722152124679
 modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: LinuxNote
 source-tiddler-title-as-link: LinuxNote
 
-<table class="invisibletable">
-<tr>
-<td valign="center">
+<div style="margin-top:2em;">
+<div class="col2">
 <div style="font-size:0.9em;">
 <<list-thumbnails filter:"[tag[thumbnail_LN]]" width:"336" height:"190">>
 </div>
-</td>
-<td>
+
+<br>
 <div style="font-size:0.9em; text-align:center; margin-bottom:2em;">
 <a href="https://librenote.aerobatic.io/linuxnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#5a99d7;" target="_blank">
 ''~LinuxNote'' <i class="fa fa-external-link-square"></i></a>

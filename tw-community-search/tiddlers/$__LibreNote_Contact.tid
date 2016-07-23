@@ -1,22 +1,19 @@
 title: $:/LibreNote/Contact
 created: 20150704165205298
 creator: svink
-modified: 20160128102348608
+modified: 20160722153424655
 modifier: svink
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Contact
 source-tiddler-title-as-link: Contact
 
-<table class="invisibletable">
-<tr>
-<td valign="right">
+<div class="col2">
 <div style="font-size:0.85em;text-align:right">
 Ce site n'utilise aucun outils d'analyse du traffic, n'hésitez pas à m'envoyer un email pour toutes suggestions.
 </div>
-</td>
 
-<td valign="center">
-<div style="font-size:0.7em;text-align:left;margin-left:5em;">
+<div style="font-size:0.7em;text-align:left; margin-left:5em;">
 <a href="mailto:svink@openmailbox.org" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19;" target="_blank"> <i class="fa fa-envelope"></i> Contact mail</a>
+</div>
 </div>

@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Partager le fichier sur CCR
 created: 20141130183902257
-modified: 20150419093646258
+modified: 20160722162153193
 original-tags: [[Paquets du dépôt CCR]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Partager le fichier sur CCR
@@ -33,4 +33,4 @@ Créer le fichier source `.src.tar.gz` :
 $ makepkg --source
 ```
 
-et uploader le nouveau fichier sur CCR.
+et uploader le nouveau fichier sur [[CCR|https://chakralinux.org/ccr/index.php?setlang=fr]].

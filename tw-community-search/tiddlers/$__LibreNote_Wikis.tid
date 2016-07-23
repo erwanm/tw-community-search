@@ -1,7 +1,7 @@
 title: $:/LibreNote/Wikis
 created: 20150612082739498
 creator: svink
-modified: 20160209154400991
+modified: 20160722150607759
 modifier: svink
 original-tags: semi
 source-wiki-id: LibreNote
@@ -12,9 +12,8 @@ source-tiddler-title-as-link: Wikis
 
 <br>
 
-@@.tc-lien-wikis
-<div style="font-size:130%; margin-top:1em; margin-left:1.5em;">
-<$button class="tc-btn-invisible";>
+<div style="font-size:130%; margin-top:1em; margin-left:1.5em; text-align:center;">
+<$button class="tc-btn-invisible lien-wikis";>
 <$action-setfield $tiddler="$:/StoryList" list="
 [[LinuxNote]]
 [[TiddlyNote]]
@@ -23,5 +22,3 @@ source-tiddler-title-as-link: Wikis
 La documentation sur les logiciels libres <i class="fa fa-external-link-square"></i>
 </$button>
 </div>
-@@
-

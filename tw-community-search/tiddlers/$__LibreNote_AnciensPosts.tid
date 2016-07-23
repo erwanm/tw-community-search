@@ -1,15 +1,17 @@
 title: $:/LibreNote/AnciensPosts
 created: 20150613114448832
 creator: svink
-modified: 20160129221614263
+modified: 20160722151903206
 modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: AnciensPosts
 source-tiddler-title-as-link: AnciensPosts
 
-@@float:right; <$button message="tm-close-tiddler" class="tc-btn-invisible" tooltip="Fermer les archives"><i class="fa fa-times-circle fa-2x" style="color:#7C7C7C"></i></$button>
-@@
+<div style="float:right;">
+<$button message="tm-close-tiddler" class="tc-btn-invisible" tooltip="Fermer les archives"><i class="fa fa-times-circle fa-2x" style="color:#7C7C7C"></i>
+</$button>
+</div>
 
 !!!<i class="fa fa-archive"></i> Archives
 ---

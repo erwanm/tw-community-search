@@ -1,7 +1,7 @@
 title: $:/LibreNote/Presentation
 created: 20160120080343761
 creator: svink
-modified: 20160218083929806
+modified: 20160722145844289
 modifier: svink
 original-tags: gris
 source-wiki-id: LibreNote
@@ -9,12 +9,12 @@ source-tiddler-title-as-text: Presentation
 source-tiddler-title-as-link: Presentation
 
 <div style="margin-left:-2em; margin-right:-2em;">
-<table class="invisibletable">
-<tr>
-<td>
+
+<div class="col2">
 <div style="text-align:justify; font-size:1.1em;">
-~LibreNote est un projet de documentation sur les logiciels libres entièrement basé sur <a href="http://tiddlywiki.com/" class="tw"> ~TiddlyWiki</a>. Le site regroupe une collection de wikis afin de partager des guides d'utilisation de mes logiciels favoris.
+<br>~LibreNote est un projet de documentation sur les logiciels libres entièrement basé sur <a href="http://tiddlywiki.com/" class="tw"> ~TiddlyWiki</a>. Le site regroupe une collection de wikis afin de partager des guides d'utilisation de mes logiciels favoris.
 </div>
-</td>
-<td align="right">
+
+<div style="text-align:right;">
 {{deployment}}
+</div>

@@ -1,17 +1,19 @@
 title: $:/LibreNote/PostTemplate
 created: 20151023080914746
 creator: svink
-modified: 20160112155401409
+modified: 20160722154142568
 modifier: svink
 original-tags: Template
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: PostTemplate
 source-tiddler-title-as-link: PostTemplate
 
-@@float:right; <$button message="tm-close-tiddler" class="tc-btn-invisible" tooltip="Fermer cet article"><i class="fa fa-times-circle fa-2x" style="color:#7C7C7C"></i></$button>
-@@
+<div style="float:right;">
+<$button message="tm-close-tiddler" class="tc-btn-invisible" tooltip="Fermer cet article"><i class="fa fa-times-circle fa-2x" style="color:#7C7C7C"></i>
+</$button>
+</div>
 
-<div style="text-align:center; margin-top:-2em">
+<div style="text-align:center; margin-top:-2em;">
 
 !!{{!!title}}
 </div>

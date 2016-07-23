@@ -1,19 +1,18 @@
 title: $:/LibreNote/TwVersion
 created: 20150705113137241
-modified: 20150928130745111
+creator: svink
+modified: 20160722153649114
+modifier: svink
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: TwVersion
 source-tiddler-title-as-link: TwVersion
 
-<table class="invisibletable">
-<tr>
-<td valign="right">
+<div class="col2">
 <div style="font-size:0.85em;text-align:right">
 ~TiddlyWiki version
 </div>
-</td>
 
-<td valign="center">
 <div style="font-size:0.85em;text-align:left; margin-left:4em;"> &nbsp; <<version>>
+</div>
 </div>

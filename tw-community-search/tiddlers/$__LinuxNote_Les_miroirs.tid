@@ -1,6 +1,6 @@
 title: $:/LinuxNote/Les miroirs
 created: 20141130115908987
-modified: 20160420220104519
+modified: 20160722161957653
 original-tags: [[Guide Chakra]]
 source-wiki-id: LinuxNote
 source-tiddler-title-as-text: Les miroirs
@@ -31,6 +31,6 @@ La date de la dernière synchronisation d'un miroir peut être connu en consulta
 
 <<<
 ''__Mirror-check__''<br>
-Mirror-check compare les répertoires de votre miroir avec ceux du serveur principal [[rsync.chakraos.org|http://rsync.chakraos.org/packages/]]. Si certain dépôt ne sont pas synchronisés cela signifie qu'il y a eu de nouvelles mises à jour depuis la dernière synchronisation. La fréquence de synchronisation est régulière mais varie d'un miroir à l'autre, certains sont synchronisés plusieurs fois par jour. Les répertoires souvent mis à jour comme [desktop] peuvent apparaître non synchronisés, il faut alors attendre la prochaine synchronisation.
+Mirror-check compare les répertoires de votre miroir avec ceux du serveur principal [[rsync.chakraos.org|https://rsync.chakralinux.org/packages/]]. Si certain dépôt ne sont pas synchronisés cela signifie qu'il y a eu de nouvelles mises à jour depuis la dernière synchronisation. La fréquence de synchronisation est régulière mais varie d'un miroir à l'autre, certains sont synchronisés plusieurs fois par jour. Les répertoires souvent mis à jour comme [desktop] peuvent apparaître non synchronisés, il faut alors attendre la prochaine synchronisation.
 <<<
 
