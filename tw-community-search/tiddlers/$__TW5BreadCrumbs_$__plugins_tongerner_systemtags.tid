@@ -1,12 +1,12 @@
 title: $:/TW5BreadCrumbs/$:/plugins/tongerner/systemtags
 author: TonGerner
-core-version: 5.1.11
+core-version: 5.1.13
 created: 20160108222221161
 description: System tags
 list: readme
-modified: 20160130150931947
+modified: 20160725122046152
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.2
+version: 0.1.4
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/systemtags

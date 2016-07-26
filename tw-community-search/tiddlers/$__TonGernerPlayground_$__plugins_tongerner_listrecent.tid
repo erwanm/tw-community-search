@@ -1,12 +1,12 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/listrecent
 author: TonGerner
-core-version: 5.1.11
+core-version: 5.1.13
 created: 20160130115303512
 description: List recent results; each day in alphabetical order. 
 list: readme
-modified: 20160130152007737
+modified: 20160725121955858
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.2
+version: 0.1.4
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/listrecent

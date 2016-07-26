@@ -2,7 +2,7 @@ title: $:/TW5BreadCrumbs/Breadcrumbs menu
 caption: Menu
 created: 20140207201512948
 creator: TonGerner
-modified: 20150808105333710
+modified: 20160725155013358
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -32,7 +32,7 @@ This resembles the 'Open' tab in the sidebar: the breadcrumbs (open tiddlers) sh
 The tiddler [[$:/plugins/tongerner/breadcrumbs/styles]], tagged with [[$:/tags/Stylesheet]], contains the styles for the breadcrumbs.
 
 <<<
-''Note:''<br>Values entered in the Settings table ([[$:/plugins/tongerner/breadcrumbs/settings]]) will be transcluded in the stylesheet via fields of the stylesheet, e.g. `top: {{!!top-breadcrumbs}};` renders as `top: 10px;`. See the tabs below.
+''Note:''<br>Values entered in the Settings table ([[$:/plugins/tongerner/breadcrumbs/settings]]) will be transcluded in the stylesheet via fields of the stylesheet, e.g. `top: {{!!top-breadcrumbs}};` renders as `top: 10px;`. See the tabs below:
 <<<
 
 <<tabs "[[Stylesheet (code)]] [[Stylesheet (rendered)]]" "[[]Stylesheet (code)]" "" "">>

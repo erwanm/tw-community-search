@@ -3,13 +3,13 @@ audience:
 category: theme
 created: 20160123123009177
 creator: TonGerner
-date: 31th January 2016
+date: 25th July 2016
 homepage: 
 install_link: 
 language: 
 license: 
 maintainer: TonGerner
-modified: 20160131121050192
+modified: 20160725145110794
 modifier: TonGerner
 name: Bluish
 plugin_tiddler: $:/themes/tongerner/bluish
@@ -17,7 +17,7 @@ release:
 repository: 
 revision: 0.1.1
 short_description: Theme with 'bluish' colors
-version: 0.8.2
+version: 0.8.4
 wiki: http://tongerner.tiddlyspot.com/
 original-tags: [[Plugin twCard]]
 source-wiki-id: TonGernerPlayground

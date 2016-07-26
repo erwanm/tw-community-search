@@ -1,11 +1,11 @@
 title: $:/TonGernerPlayground/Under construction guide
 created: 20140421191631362
 creator: TonGerner
-modified: 20160108200654875
+modified: 20160718160153745
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Under construction guide
 source-tiddler-title-as-link: Under%20construction%20guide
 
-|{{Under_construction.gif}}|^''This guide is under construction.''<br>@@.RED This guide has to be upgraded from TW v5.1.9 to TW v<<version>>@@.<br>Check this page or the tab 'Latest news' for news about the upgrade process.|
+|{{Under_construction.gif}}|^''This guide is under construction.''<br>@@.RED This guide has to be upgraded from TW v5.1.11 to TW v<<version>>@@.<br>Check this page or the tab 'Latest news' for news about the upgrade process.|

@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Changelog
 created: 20140121191533502
 creator: TonGerner
-modified: 20160213202129973
+modified: 20160725155130746
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 ''@@.brown Changelog@@''
+
+!!!!v2.05 (25-07-2016)
+* Upgraded to TW5.1.13
 
 !!!!v2.04 (13-2-2016)
 * Updated Layout adjustments plugin

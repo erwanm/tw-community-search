@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/toolbar
 author: TonGerner
-core-version: 5.1.11
+core-version: 5.1.13
 created: 20150805095641947
 creator: TonGerner
 description: Toolbar on top
 list: readme
-modified: 20160213185041323
+modified: 20160725122137738
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.3
+version: 0.1.5
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/toolbar

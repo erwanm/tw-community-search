@@ -3,13 +3,13 @@ audience:
 category: layout
 created: 20160123120312168
 creator: TonGerner
-date: 31th January 2016
+date: 25th July 2016
 homepage: 
 install_link: 
 language: 
 license: 
 maintainer: TonGerner
-modified: 20160131120527246
+modified: 20160725144633857
 modifier: TonGerner
 name: breadcrumbs
 plugin_tiddler: $:/plugins/tongerner/breadcrumbs
@@ -17,7 +17,7 @@ release:
 repository: 
 revision: 0.1.1
 short_description: creates breadcrumbs
-version: 0.1.2
+version: 0.1.4
 wiki: http://tongerner.tiddlyspot.com/
 original-tags: [[Plugin twCard]]
 source-wiki-id: TonGernerPlayground

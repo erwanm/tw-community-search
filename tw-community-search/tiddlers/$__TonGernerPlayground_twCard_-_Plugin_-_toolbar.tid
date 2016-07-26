@@ -3,13 +3,13 @@ audience:
 category: layout
 created: 20160123122136427
 creator: TonGerner
-date: 13th February 2016
+date: 25th July 2016
 homepage: 
 install_link: 
 language: 
 license: 
 maintainer: TonGerner
-modified: 20160214095417019
+modified: 20160725145153649
 modifier: TonGerner
 name: toolbar
 plugin_tiddler: $:/plugins/tongerner/toolbar
@@ -17,7 +17,7 @@ release:
 repository: 
 revision: 0.1.1
 short_description: toolbar on top
-version: 0.1.3
+version: 0.1.5
 wiki: http://tongerner.tiddlyspot.com/
 original-tags: [[Plugin twCard]]
 source-wiki-id: TonGernerPlayground

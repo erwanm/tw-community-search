@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Introduction
 created: 20140104133156997
 creator: TonGerner
-modified: 20160210164350320
+modified: 20160725133330962
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -18,7 +18,11 @@ To share my knowledge, I made a few guides about these 'modifications'.<br>
 The guides started as a non-linear personal web notebook (yeah, the subtitle of ~TiddlyWiki!). I started experimenting with layout things and used TW5 to document my experiments.
 
 <<<
-''Note:''<br>Be aware I am just an end user, no developer or programmer.
+''Note:''
+
+* Be aware I am just an end user, no developer or programmer.
+* This site is a showcase of most of my plugins. It looks sometimes overdone, e.g. two kinds of 'breadcrumbs'.
+** Layout settings (Control panel > Appearance > Plugin tweaks) have been adjusted to avoid overlapping menus/toolbar/breadcrumbs.
 <<<
 
 This TW contains:

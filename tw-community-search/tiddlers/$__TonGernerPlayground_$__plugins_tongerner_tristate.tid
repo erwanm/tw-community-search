@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/tristate
 author: TonGerner
-core-version: 5.1.11
+core-version: 5.1.13
 created: 20140815090725509
 creator: TonGerner
 description: Tristate sidebar
-list: readme installing
-modified: 20160130151905704
+list: readme installation
+modified: 20160725122417482
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.2
+version: 0.1.4
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/tristate

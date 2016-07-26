@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/tabstory
 author: TonGerner
-core-version: 5.1.11
+core-version: 5.1.13
 created: 20150805100032512
 creator: TonGerner
 description: Tabstory
 list: readme
-modified: 20160130151047433
+modified: 20160725122106680
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.3
+version: 0.1.5
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/tabstory
