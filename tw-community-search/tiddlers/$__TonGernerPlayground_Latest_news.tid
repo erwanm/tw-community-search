@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20160725162224998
+modified: 20160726153021698
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,9 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 26 July 2016
+* Upgraded 'Customization of TW5' to TW5.1.13.
 
 !!! 25 July 2016
 * Upgraded wiki, plugins and guides (except 'Customization of TW5' to TW5.1.13.
