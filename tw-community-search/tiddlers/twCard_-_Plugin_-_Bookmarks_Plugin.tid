@@ -21,6 +21,6 @@ twcs-wiki-id: inmysocks
 twcs-extracted-plugin-tiddler: $:/inmysocks/$:/plugins/inmysocks/Bookmarks
 twcs-description: A bookmark library for TiddlyWiki
 twcs-author: inmysocks
-twcs-version: 0.0.6
+twcs-version: 0.0.7
 
 {{||$:/CommunityPluginTemplate}}
