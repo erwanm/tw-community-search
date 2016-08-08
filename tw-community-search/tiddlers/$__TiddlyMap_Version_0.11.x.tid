@@ -17,6 +17,12 @@ Please read [Upgrading to v0.11.x](#Upgrading to v0.11.x).
 Major enhancements
 ----------------------------
 
+### v0.11.3
+
+* Resolves #219: Open context menu when user performs right click on
+  elements
+* Resolves #223: Add minor formatting of view hashmap
+
 ### v0.11.2
 
 * Added option to search for tiddlers in the toolbar using
@@ -48,6 +54,10 @@ Major enhancements
 
 Important bugfixes
 ----------------------------
+
+### v0.11.3
+
+* Fixes #225: Compatibility Issue with the Newest Tiddlywiki Release (5.1.12)
 
 ### v0.11.2
 

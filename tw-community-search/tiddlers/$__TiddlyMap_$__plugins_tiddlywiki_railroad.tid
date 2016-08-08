@@ -3,7 +3,7 @@ author: AstridElocson
 dependents: 
 description: Railroad diagram generator
 list: readme usage syntax example
-version: 5.1.12-prerelease
+version: 5.1.14-prerelease
 original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/railroad

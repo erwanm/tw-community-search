@@ -5,8 +5,8 @@ author: FelixKuppers
 title: TiddlyMap
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlymap.org/
-wiki-tw-version: 5.1.12-prerelease
-wiki-latest-modification: 20160618203511475
+wiki-tw-version: 5.1.14-prerelease
+wiki-latest-modification: 20160807130000241
 wiki-nb-tiddlers: 198
 
 Map drawing and topic visualization for your wiki!
