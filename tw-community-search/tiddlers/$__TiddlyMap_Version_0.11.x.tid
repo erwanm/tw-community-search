@@ -17,6 +17,10 @@ Please read [Upgrading to v0.11.x](#Upgrading to v0.11.x).
 Major enhancements
 ----------------------------
 
+### v0.11.5
+
+* Sets layout to fixed-fluid after installation
+
 ### v0.11.3
 
 * Resolves #219: Open context menu when user performs right click on
@@ -54,6 +58,10 @@ Major enhancements
 
 Important bugfixes
 ----------------------------
+
+### v0.11.4
+
+* Bugfix: Part of function name was accidentally deleted :(
 
 ### v0.11.3
 
