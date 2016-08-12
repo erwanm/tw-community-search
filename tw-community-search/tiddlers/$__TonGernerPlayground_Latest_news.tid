@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20160727130833672
+modified: 20160811113902285
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,10 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 11 August 2016
+* Updated readonly guide and plugin
+* Updated toolbar guide and plugin
 
 !!! 27 July 2016
 * 'TW5 bookmarklets': Added a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar.
