@@ -59,6 +59,10 @@ Major enhancements
 Important bugfixes
 ----------------------------
 
+### v0.11.6
+
+* Fixes #233: Can't set filter for node type
+
 ### v0.11.4
 
 * Bugfix: Part of function name was accidentally deleted :(
