@@ -3,10 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="generator" content="TiddlyWiki" />
-<meta name="tiddlywiki-version" content="5.1.11" />
+<meta name="tiddlywiki-version" content="5.1.13" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
 <meta name="format-detection" content="telephone=no">
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <title>TW Community News
@@ -845,7 +846,6 @@ th {
 	margin-bottom: 1em;
 	word-break: normal;
 	word-wrap: break-word;
-	white-space: pre;
 	white-space: pre-wrap;
 	background-color: #f5f5f5;
 	border: 1px solid #cccccc;
@@ -856,7 +856,7 @@ th {
 	color: #dd1144;
 	background-color: #f7f7f9;
 	border: 1px solid #e1e1e8;
-    white-space: pre-wrap;
+	white-space: pre-wrap;
 	padding: 0 3px 2px;
 	border-radius: 3px;
 	font-family: Monaco, Consolas, "Lucida Console", "DejaVu Sans Mono", monospace;
@@ -1004,7 +1004,7 @@ a.tc-tiddlylink:hover {
 	text-align: center;
 }/*
 ** Buttons
-*/button svg, button img {
+*/button svg, button img, label svg, label img {
 	vertical-align: middle;
 }.tc-btn-invisible {
 	padding: 0;
@@ -1086,8 +1086,8 @@ a.tc-tiddlylink:hover {
 	background: none;
 	border: none;
 	width: 100%;
-    width: calc(100% + 2px);
-    margin-left: -43px;
+	width: calc(100% + 2px);
+	margin-left: -43px;
 	text-align: center;
 	border-top: 2px solid #f8f8f8;
 	margin-top: 4px;
@@ -1108,19 +1108,17 @@ a.tc-tiddlylink:hover {
 	width: 23px;
 	text-align: center;
 	margin-left: -35px;
-    top: 6px;
-    bottom: 6px;
+	top: 6px;
+	bottom: 6px;
 }.tc-fold-banner:hover {
 	background: #f8f8f8;
-}@media (max-width: 960px) {
-	
-	.tc-unfold-banner {
+}@media (max-width: 960px) {.tc-unfold-banner {
 		position: static;
-	    width: calc(100% + 59px);
-    }.tc-fold-banner {
+		width: calc(100% + 59px);
+	}.tc-fold-banner {
 		width: 16px;
 		margin-left: -16px;
-	    font-size: 0.75em;
+		font-size: 0.75em;
 	}}/*
 ** Tags and missing tiddlers
 */.tc-tag-list-item {
@@ -1256,7 +1254,7 @@ a.tc-tiddlylink:hover {
 	}.tc-story-river .tc-tiddler-frame {
 		margin: 0;
 		border: none;
-		padding: 28px;
+		padding: 0;
 	}
 }/*
 ** Tiddler styles
@@ -1352,13 +1350,16 @@ a.tc-tiddlylink:hover {
 	margin-top: 14px;
 }.tc-tiddler-help a.tc-tiddlylink {
 	color: #888888;
-}.tc-tiddler-frame input.tc-edit-texteditor, .tc-tiddler-frame textarea.tc-edit-texteditor {
+}.tc-tiddler-frame .tc-edit-texteditor {
 	width: 100%;
+	margin: 4px 0 4px 0;
+}.tc-tiddler-frame input.tc-edit-texteditor,
+.tc-tiddler-frame textarea.tc-edit-texteditor,
+.tc-tiddler-frame iframe.tc-edit-texteditor {
 	padding: 3px 3px 3px 3px;
 	border: 1px solid #cccccc;
 	line-height: 1.3em;
 	-webkit-appearance: none;
-	margin: 4px 0 4px 0;
 }.tc-tiddler-frame .tc-binary-warning {
 	width: 100%;
 	height: 5em;
@@ -1396,6 +1397,39 @@ a.tc-tiddlylink:hover {
 .tc-single-tiddler-window embed,
 .tc-single-tiddler-window iframe {
 	max-width: 100%;
+}/*
+** Editor
+*/.tc-editor-toolbar {
+	margin-top: 8px;
+}.tc-editor-toolbar button {
+	vertical-align: middle;
+	background-color: #cccccc;
+	fill: #444444;
+	border-radius: 4px;
+	padding: 3px;
+	margin: 2px 0 2px 4px;
+}.tc-editor-toolbar button.tc-text-editor-toolbar-item-adjunct {
+	margin-left: 1px;
+	width: 1em;
+	border-radius: 8px;
+}.tc-editor-toolbar button.tc-text-editor-toolbar-item-start-group {
+	margin-left: 11px;
+}.tc-editor-toolbar button.tc-selected {
+	background-color: #5778d8;
+}.tc-editor-toolbar button svg {
+	width: 1.6em;
+	height: 1.2em;
+}.tc-editor-toolbar button:hover {
+	background-color: #444444;
+	fill: #ffffff;
+}.tc-editor-toolbar .tc-text-editor-toolbar-more {
+	white-space: normal;
+}.tc-editor-toolbar .tc-text-editor-toolbar-more button {
+	display: inline-block;
+	padding: 3px;
+	width: auto;
+}.tc-editor-toolbar .tc-search-results {
+	padding: 0;
 }/*
 ** Adjustments for fluid-fixed mode
 */@media (min-width: 960px) {}/*
@@ -1442,12 +1476,14 @@ a.tc-tiddlylink:hover {
 	overflow: auto;
 }.tc-tiddler-preview-preview {
 	float: right;
-	width: 48%;
+	width: 49%;
 	border: 1px solid #cccccc;
 	margin: 4px 3px 3px 3px;
 	padding: 3px 3px 3px 3px;
-}.tc-tiddler-preview-edit {
-	width: 48%;
+}.tc-tiddler-frame .tc-tiddler-preview .tc-edit-texteditor {
+	width: 49%;
+}.tc-tiddler-frame .tc-tiddler-preview canvas.tc-edit-bitmapeditor {
+	max-width: 49%;
 }.tc-edit-fields {
 	width: 100%;
 }.tc-edit-fields table, .tc-edit-fields tr, .tc-edit-fields td {
@@ -1526,8 +1562,14 @@ a.tc-tiddlylink:hover {
 	text-align: left;
 	color: #333333;
 	line-height: 1.4;
+}.tc-drop-down .tc-tab-set .tc-tab-buttons button {
+	display: inline-block;
+    width: auto;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }.tc-drop-down .tc-prompt {
-	padding: 0 14px;	
+	padding: 0 14px;
 }.tc-drop-down .tc-chooser {
 	border: none;
 }.tc-drop-down .tc-chooser .tc-swatches-horiz {
@@ -1571,6 +1613,9 @@ a.tc-tiddlylink:hover {
 }.tc-block-dropdown.tc-search-drop-down a {
 	display: block;
 	padding: 0px 10px 0px 10px;
+}.tc-drop-down .tc-dropdown-item-plain,
+.tc-block-dropdown .tc-dropdown-item-plain {
+	padding: 4px 14px 4px 7px;
 }.tc-drop-down .tc-dropdown-item,
 .tc-block-dropdown .tc-dropdown-item {
 	padding: 4px 14px 4px 7px;
@@ -1580,7 +1625,44 @@ a.tc-tiddlylink:hover {
 	background-color: #5778d8;
 	text-decoration: none;
 }.tc-search-results {
-    padding: 0 7px 0 7px;
+	padding: 0 7px 0 7px;
+}.tc-image-chooser, .tc-colour-chooser {
+	white-space: normal;
+}.tc-image-chooser a,
+.tc-colour-chooser a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}.tc-image-chooser a {
+	border: 1px solid #bbb;
+	padding: 2px;
+	margin: 2px;
+	width: 4em;
+	height: 4em;
+}.tc-colour-chooser a {
+	padding: 3px;
+	width: 2em;
+	height: 2em;
+	vertical-align: middle;
+}.tc-image-chooser a:hover,
+.tc-colour-chooser a:hover {
+	background: #5778d8;
+	padding: 0px;
+	border: 3px solid #5778d8;
+}.tc-image-chooser a svg,
+.tc-image-chooser a img {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	max-width: 3.5em;
+	max-height: 3.5em;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }/*
 ** Modals
 */.tc-modal-wrapper {
@@ -1591,6 +1673,7 @@ a.tc-tiddlylink:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
+	z-index: 900;
 }.tc-modal-backdrop {
 	position: fixed;
 	top: 0;
@@ -1730,8 +1813,6 @@ a.tc-tiddlylink:hover {
 	border-top: 1px solid #d8d8d8;
 	border-right: 1px solid #d8d8d8;
 }.tc-sidebar-lists .tc-tab-buttons button {
-	display: inline;
-	width: auto;
 	background-color: #e0e0e0;
 	color: #666666;
 	border-left: 1px solid #cccccc;
@@ -2005,16 +2086,16 @@ a.tc-tiddlylink:hover {
 	float:right;
 	margin: 0.5em 0 0.5em 0.5em;
 }.tc-thumbnail-image {
-    text-align: center;
+	text-align: center;
 	overflow: hidden;
 	border-radius: 3px;
 }.tc-thumbnail-image svg,
 .tc-thumbnail-image img {
 	filter: alpha(opacity=1);
 	opacity: 1;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	max-width: 100%;
 }.tc-thumbnail-wrapper:hover .tc-thumbnail-image svg,
 .tc-thumbnail-wrapper:hover .tc-thumbnail-image img {
 	filter: alpha(opacity=0.8);
@@ -2114,6 +2195,8 @@ a.tc-tiddlylink:hover {
 
 </button>
 </span>
+
+<span class=" tc-reveal" hidden="true"></span>
 
 <span class=" tc-reveal" hidden="true"></span>
 
@@ -2277,56 +2360,27 @@ CommunityNews
 <div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
-
 <button class="tc-btn-invisible tc-tag-label" style="background-color:;
 fill:#333333;
 color:#333333;">
  TWCSContents
 </button>
-<span class=" tc-reveal" hidden="true"></span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
 
-
-</span><span class="tc-tag-list-item">
-
+</span>
+<span class="tc-tag-list-item">
 
 <button class="tc-btn-invisible tc-tag-label" style="background-color:;
 fill:#333333;
 color:#333333;">
  TWCSCore
 </button>
-<span class=" tc-reveal" hidden="true"></span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
 
-
-</span></div>
+</span>
+</div>
 </div>
 <div class="tc-tiddler-body tc-reveal"><p><table>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          7 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://tiddlymap.org/#TiddlyMap%20v0.10.7%20Released%21" target="_blank">
-            TiddlyMap v0.10.7 Released! @TiddlyMap
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>Fullscreen and halfscreen have been improved and in v0.10.6 several keyboard shortcuts have been added. Give it a try ;)</p><p>To see the release notes, visit <a class="tc-tiddlylink-external" href="http://tiddlymap.org" target="_blank">http://tiddlymap.org</a>!</p>
-
-      </td>
-    </tr>
   
     <tr>
       <td>
@@ -2344,7 +2398,7 @@ color:#333333;">
   
 
 
-<p>It might not feel much faster, but think about how much slower it would be without the improvement! ;) <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#TagsOptimizations" target="_blank">More details here</a>.</p><p>By the way, we passed two marks recently: there are now more than 8000 tiddlers and 100 wikis! Thank you everyone... and especially <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#JedCarty" target="_blank">Jed</a>, who contributed a big bunch of wikis recently!</p>
+<p>It might not feel much faster, but think about how much slower it would be without the improvement! ;) <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#TagsOptimizations" rel="noopener noreferrer" target="_blank">More details here</a>.</p><p>By the way, we passed two marks recently: there are now more than 8000 tiddlers and 100 wikis! Thank you everyone... and especially <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#JedCarty" rel="noopener noreferrer" target="_blank">Jed</a>, who contributed a big bunch of wikis recently!</p>
 
       </td>
     </tr>
@@ -2365,9 +2419,9 @@ color:#333333;">
   
 
 
-<p>The <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityTags" target="_blank">CommunityTags</a> have been renamed: in order to avoid name conflicts with other tiddlers, the name of every &quot;tag tiddler&quot; is now prefixed with &quot;<code>Tag: </code>&quot;.
+<p>The <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityTags" rel="noopener noreferrer" target="_blank">CommunityTags</a> have been renamed: in order to avoid name conflicts with other tiddlers, the name of every &quot;tag tiddler&quot; is now prefixed with &quot;<code>Tag: </code>&quot;.
  
-<strong>Unfortunately, this change will break any previous bookmark <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#BookmarkingTags" target="_blank">you might have created</a>.</strong>  <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#ExtendingCollectedTagsScope" target="_blank">See more details</a>.</p>
+<strong>Unfortunately, this change will break any previous bookmark <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#BookmarkingTags" rel="noopener noreferrer" target="_blank">you might have created</a>.</strong>  <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#ExtendingCollectedTagsScope" rel="noopener noreferrer" target="_blank">See more details</a>.</p>
 
       </td>
     </tr>
@@ -2390,66 +2444,12 @@ color:#333333;">
 
 <p><a href="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg" target="_blank">
 <img alt="Perf graph" border="true" class="newsPerf" src="http://erwanm.github.io/tw-community-search/img/perf-graphs/wikis-authors-list.svg" width="100
-"> </a></p><p>One might not be able to notice it, but the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityWikis" target="_blank">CommunityWikis</a> and <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityAuthors" target="_blank">CommunityAuthors</a> lists are now displayed about 20% faster.</p><p>The <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityTags" target="_blank">CommunityTags</a> list has also been improved, by allowing the user to select the amount of tags they want to see.</p><p><style>
+"> </a></p><p>One might not be able to notice it, but the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityWikis" rel="noopener noreferrer" target="_blank">CommunityWikis</a> and <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityAuthors" rel="noopener noreferrer" target="_blank">CommunityAuthors</a> lists are now displayed about 20% faster.</p><p>The <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityTags" rel="noopener noreferrer" target="_blank">CommunityTags</a> list has also been improved, by allowing the user to select the amount of tags they want to see.</p><p><style>
 img.newsPerf {
     float: right;
     margin: 0 0 10px 10px;
 }
 </style></p>
-
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          9 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://tiddlymap.org/#Create%20Epic%20Quest%20with%20TiddlyMap" target="_blank">
-            Create Epic Quest with TiddlyMap @TiddlyMap
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>As of v0.10.0 you can add backgrounds to your maps. Click <a class="tc-tiddlylink-external" href="http://tiddlymap.org/#Think%20epic.%20Map%20your%20quests!" target="_blank">here</a> to get some inspiration for what you can do with this feature. For more info on new features, see the <a class="tc-tiddlylink-external" href="http://tiddlymap.org/#Version%200.10.x" target="_blank">release notes</a>!</p>
-
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          10 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://inmysocks.tiddlyspot.com/#Help%20with%20the%20plugin%20listing%20and%20adding%20directory%20sites" target="_blank">
-            Help with the plugin listing and adding directory sites @inmysocks
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>The community search is a very powerful tool, but we can make it better and improve the organization of the tiddlywiki universe by adopting some community standards. With this in mind I have <a class="tc-tiddlylink-external" href="http://inmysocks.tiddlyspot.com/#A%20Note%20to%20Plugin%20Authors" target="_blank">some requests for plugin authors</a> to improve the community plugin listing and a suggestion about <a class="tc-tiddlylink-external" href="http://inmysocks.tiddlyspot.com/#Using%20Directory%20Sites" target="_blank">organizing multiple sites from the same author</a> for various plugins or techniques.</p>
 
       </td>
     </tr>
@@ -2470,7 +2470,7 @@ img.newsPerf {
   
 
 
-<p>The aggregator process now removes tiddlers which are also found on <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" target="_blank">tiddlywiki.com</a>. This way authors can use the <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" target="_blank">tiddlywiki.com</a> content on their wiki, and it won't be indexed as &quot;their&quot; content. Additionally that makes the CommunitySearch wiki a bit faster.</p><p>See <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#DuplicateTiddlerDetection" target="_blank">DuplicateTiddlerDetection</a>.</p>
+<p>The aggregator process now removes tiddlers which are also found on <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" rel="noopener noreferrer" target="_blank">tiddlywiki.com</a>. This way authors can use the <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" rel="noopener noreferrer" target="_blank">tiddlywiki.com</a> content on their wiki, and it won't be indexed as &quot;their&quot; content. Additionally that makes the CommunitySearch wiki a bit faster.</p><p>See <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#DuplicateTiddlerDetection" rel="noopener noreferrer" target="_blank">DuplicateTiddlerDetection</a>.</p>
 
       </td>
     </tr>
@@ -2478,7 +2478,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          10 months ago
+          11 months ago
         </span>
       </td>
       <td>
@@ -2491,7 +2491,7 @@ img.newsPerf {
   
 
 
-<p>A <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityPlugins" target="_blank">list of plugins from the community</a> is now available on TiddlyWiki Community Search! See how it works in the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#PluginsCollection" target="_blank">documentation</a>.</p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#JedCarty" target="_blank">JedCarty</a> for providing <a href="http://inmysocks.tiddlyspot.com/#Plugin%20twCard">the list used as reference</a>!</em>
+<p>A <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#CommunityPlugins" rel="noopener noreferrer" target="_blank">list of plugins from the community</a> is now available on TiddlyWiki Community Search! See how it works in the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#PluginsCollection" rel="noopener noreferrer" target="_blank">documentation</a>.</p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#JedCarty" rel="noopener noreferrer" target="_blank">JedCarty</a> for providing <a href="http://inmysocks.tiddlyspot.com/#Plugin%20twCard">the list used as reference</a>!</em>
 </p>
 
       </td>
@@ -2500,7 +2500,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          10 months ago
+          11 months ago
         </span>
       </td>
       <td>
@@ -2513,7 +2513,7 @@ img.newsPerf {
   
 
 
-<p>This feature is for authors of wikis indexed in the TiddlyWiki Community Search. Now you can publish your news directly in the TWCS &quot;latest news&quot; section! See the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#PublishingInCommunityNews" target="_blank">documentation</a></p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#FelixKuppers" target="_blank">FelixKuppers</a> for the idea!</em>
+<p>This feature is for authors of wikis indexed in the TiddlyWiki Community Search. Now you can publish your news directly in the TWCS &quot;latest news&quot; section! See the <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#PublishingInCommunityNews" rel="noopener noreferrer" target="_blank">documentation</a></p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#FelixKuppers" rel="noopener noreferrer" target="_blank">FelixKuppers</a> for the idea!</em>
 </p>
 
       </td>
@@ -2522,7 +2522,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          10 months ago
+          11 months ago
         </span>
       </td>
       <td>
@@ -2535,93 +2535,8 @@ img.newsPerf {
   
 
 
-<p>You can now <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#BookmarkingTags" target="_blank">bookmark your favourite tags</a> from the community in the TiddlyWiki Community Search!</p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#FelixKuppers" target="_blank">FelixKuppers</a> for the idea!</em>
+<p>You can now <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#BookmarkingTags" rel="noopener noreferrer" target="_blank">bookmark your favourite tags</a> from the community in the TiddlyWiki Community Search!</p><p><em>Thanks to <a class="tc-tiddlylink-external" href="http://erwanm.github.io/tw-community-search/#FelixKuppers" rel="noopener noreferrer" target="_blank">FelixKuppers</a> for the idea!</em>
 </p>
-
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://tiddlymap.org/#TiddlyMap%20Version%200.9.1%20Released%21" target="_blank">
-            TiddlyMap Version 0.9.1 Released! @TiddlyMap
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>To see the release notes, visit <a class="tc-tiddlylink-external" href="http://tiddlymap.org" target="_blank">http://tiddlymap.org</a>!</p>
-
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://tiddlymap.org/#TiddlyMap%20Version%200.9%20Released%21" target="_blank">
-            TiddlyMap Version 0.9 Released! @TiddlyMap
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>TiddlyMap v0.9 just got released. Feel free to test it. Remember to always make backups before upgrading to a new version.</p>
-
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
-        </span>
-      </td>
-      <td>
-          
-
-  <div class="tc-menu-list-item">
-    
-      
-        
-          <a href="  http://erwans-learning-tw.bitballoon.com/#This%20news%20is%20only%20a%20test" target="_blank">
-            This news is only a test @ErwansLearningTW
-          </a>
-        
-      
-    
-  </div>
-
-
-<p>Well, this wiki is very old news actually. The only new thing about it is this tiddler <em>that I'm currently writing</em>, for the purpose of testing the TWCS new 
-<span class="tc-inline-style" style="color: red;">
-<strong>news</strong>
-</span>
-feature. </p><p>Let's hope it works well, and let's hope many wiki authors will have more interesting news than that to publish!</p>
 
       </td>
     </tr>
