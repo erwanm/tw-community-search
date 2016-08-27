@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugin/ajh/locations'
-name: unknown
-plugin_tiddler: $:/plugin/ajh/locations
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

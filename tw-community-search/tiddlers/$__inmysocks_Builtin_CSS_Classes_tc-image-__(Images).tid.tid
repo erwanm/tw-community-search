@@ -1,0 +1,24 @@
+title: $:/inmysocks/Builtin CSS Classes tc-image-* (Images)
+caption: Images
+created: 20150426203110761
+modified: 20150426222616172
+original-tags: [[Builtin CSS Classes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Builtin CSS Classes tc-image-* (Images)
+source-tiddler-title-as-link: Builtin%20CSS%20Classes%20tc-image-%2a%20%28Images%29
+
+I these are for the page/tiddler control icons
+
+|!Name |!Description |
+|tc-image-button |For all buttons |
+|tc-image-cancel-button |The cancel button |
+|tc-image-close-button |The close button |
+|tc-image-delete-button |The delete button |
+|tc-image-done-button |The done button |
+|tc-image-edit-button |The edit button |
+|tc-image-info-button |The info button |
+|tc-image-new-button |The new button |
+|tc-image-options-button |The options button |
+|tc-image-save-button |The same button |
+|tc-image-tip |? |
+|tc-image-warning |? |

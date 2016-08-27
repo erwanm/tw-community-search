@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tiddlywiki/stacked-view'
-name: unknown
-plugin_tiddler: $:/plugins/tiddlywiki/stacked-view
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

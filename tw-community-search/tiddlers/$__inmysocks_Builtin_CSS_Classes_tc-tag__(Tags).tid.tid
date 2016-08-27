@@ -1,0 +1,18 @@
+title: $:/inmysocks/Builtin CSS Classes tc-tag* (Tags)
+caption: Tags
+created: 20150426204709894
+modified: 20150426222557852
+original-tags: [[Builtin CSS Classes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Builtin CSS Classes tc-tag* (Tags)
+source-tiddler-title-as-link: Builtin%20CSS%20Classes%20tc-tag%2a%20%28Tags%29
+
+Some stuff to do with tags
+
+|!Name |!Description |
+|tc-tag-label |? |
+|tc-tag-list-item |? |
+|tc-tag-manager-table |The table for the tag manager in the sidebar? |
+|tc-tag-manager-tag |Tags in the table for the tag manager in the sidebar? |
+|tc-tags-wrapper |? |
+|tc-remove-tag-button |Possibly the little x on the tag names when editing a tiddler? |

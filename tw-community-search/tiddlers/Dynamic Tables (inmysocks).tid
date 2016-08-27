@@ -7,6 +7,5 @@ wiki-tw-version: 5.1.7
 wiki-latest-modification: 20151026095147993
 wiki-nb-tiddlers: 24
 
-dynamically created tables that are filterable, sortable, and in-line editable
 
 {{||$:/CommunityWikiPresentationTemplate}}

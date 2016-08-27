@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tiddlywiki/markdown'
-name: unknown
-plugin_tiddler: $:/plugins/tiddlywiki/markdown
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

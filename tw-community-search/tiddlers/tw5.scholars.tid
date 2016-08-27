@@ -9,6 +9,5 @@ wiki-tw-version: 5.0.15-beta
 wiki-latest-modification: 20140824104532658
 wiki-nb-tiddlers: 33
 
-//a notetaking tool powered by// ~TiddlyWiki <<version>>
 
 {{||$:/CommunityWikiPresentationTemplate}}

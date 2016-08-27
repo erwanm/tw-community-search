@@ -9,7 +9,5 @@ wiki-tw-version: 5.1.13-prerelease
 wiki-latest-modification: 
 wiki-nb-tiddlers: 3
 
-based on [[Pikaday|https://github.com/dbushell/Pikaday]]
-
 
 {{||$:/CommunityWikiPresentationTemplate}}

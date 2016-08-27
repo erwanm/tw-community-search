@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tongerner/systemtags'
-name: unknown
-plugin_tiddler: $:/plugins/tongerner/systemtags
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -7,8 +7,7 @@ type: text/vnd.tiddlywiki
 wiki-address: http://tongerner.tiddlyspot.com/
 wiki-tw-version: 5.1.13
 wiki-latest-modification: 20160814113236993
-wiki-nb-tiddlers: 55
+wiki-nb-tiddlers: 53
 
-a demo ~TiddlyWiki (@@.BLUE TW v<<version>>@@)
 
 {{||$:/CommunityWikiPresentationTemplate}}

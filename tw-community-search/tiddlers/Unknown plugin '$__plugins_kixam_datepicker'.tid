@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/kixam/datepicker'
-name: unknown
-plugin_tiddler: $:/plugins/kixam/datepicker
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

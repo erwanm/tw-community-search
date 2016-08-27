@@ -9,6 +9,5 @@ wiki-tw-version: 5.1.13
 wiki-latest-modification: 20160725180423793
 wiki-nb-tiddlers: 19
 
-a demo ~TiddlyWiki (''@@color: blue;TW v<<version>>@@'')
 
 {{||$:/CommunityWikiPresentationTemplate}}
