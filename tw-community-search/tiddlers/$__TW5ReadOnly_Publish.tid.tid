@@ -1,0 +1,39 @@
+title: $:/TW5ReadOnly/Publish
+created: 20140423184330282
+creator: TonGerner
+modified: 20160805185617078
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Publish
+source-tiddler-title-as-link: Publish
+
+@@.BROWN Publish@@
+
+!!$:/plugins/tongerner/ro/publish
+
+The tiddler [[$:/plugins/tongerner/ro/publish]], tagged with [[$:/tags/ControlPanel/Appearance]] so it will show up in $:/ControlPanel under Appearance, contains:
+
+<<source "$:/plugins/tongerner/ro/publish">>
+
+!!!Slider definition
+The code between `\define`  and `\end` defines a slider.
+
+!!!Publishing your wiki
+Some tips.
+
+!!!1) Buttons
+Under this heading a description about hiding certain buttons for read-only mode.
+
+!!!2) Sidebar tabs 
+Under this heading is the code for adding/removing the tag `$:/tags/hide` to tabs you want to manipulate (checkbox per tab).<br>
+Thereafter the code for hiding the tabs (standard + added tabs). Also a checkbox per tab.
+
+!!!3) Sidebar button ({{$:/core/images/chevron-left}}/{{$:/core/images/chevron-right}})
+Under this heading the code to hide the 'double chevron' Sidebar button.
+
+!!!4) Advanced search button ({{$:/core/images/advanced-search-button}})
+Under this heading the code to hide the 'Advanced search' Sidebar button.
+
+!!!5) Save
+Under this heading the code - `<$button message ...</$button>` - for the 'Save' button.

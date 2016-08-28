@@ -1,0 +1,47 @@
+title: $:/TW5ReadOnly/Introduction
+created: 20131231203033673
+creator: TonGerner
+modified: 20160811112526198
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+@@.BROWN Introduction@@
+
+<<<
+''Note:''
+
+* @@.BLUE Available as a plugin (v<<pversion "ro">>).<br>Just drag & drop [[$:/plugins/tongerner/ro]] to your wiki to add the readonly plugin.@@
+<<<
+
+Making TW5 read-only can be done with the '~ReadOnly' theme available at http://tiddlywiki.com/.<br>Unfortunately, to persist in this 'read-only' state you have to save the TW and that is not possible since the 'save' button is not available anymore!
+
+<<<
+''Note:'' In the '~ReadOnly' theme ''all'' Page control buttons disappear, so you cannot save in the normal way.
+<<<
+
+So there must be a - hidden - save possibility.<br>
+One way to go is based on creating a tiddler - with a 'non-suspicious' name - wherein the possibility to switch to read-only mode (decoupled from the '~ReadOnly' theme) ''and'' saving this situation (with a special Save button that does not disappear when hiding the standard Save button).<br>
+That is how it is done here.
+
+Thus, ''only you'' know which tiddler (here [[$:/plugins/tongerner/ro/publish]]) contains the possibility to switch to read/write or read-only mode and saving this situation.<br>As long as you can get to that tiddler (@@.brown see 'readme of plugin' below@@ ), you can adjust the settings.
+
+<<<
+''Note:''
+
+* This TW uses - besides the 'Readonly' plugin:
+** My Bluish theme v<<tversion "bluish">>
+** My Systemtags plugin v<<pversion "systemtags">> which adds a 'System tags' tab below the 'Tags' tab
+** @@.BLUE Theme and plugins are available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins@@).
+* To 'hide' the functionality a little bit for prying eyes the name of the plugin is 'ro' instead of 'readonly'.
+<<<
+
+@@.sliderBG
+<div>
+
+<<slider "readme of plugin" "$:/plugins/tongerner/ro/readme">>
+
+</div>
+@@

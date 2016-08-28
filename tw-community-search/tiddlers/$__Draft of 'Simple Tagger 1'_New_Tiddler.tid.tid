@@ -1,0 +1,13 @@
+title: $:/Draft of 'Simple Tagger 1'/New Tiddler
+created: 20160112091746117
+modified: 20160112094545879
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: Draft of 'Simple Tagger 1'
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+<$button>
+<$list filter="[tag[Concepts]]">
+<$action-setfield test="testing"/>
+</$list>Test</$button>

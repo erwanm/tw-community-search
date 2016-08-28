@@ -1,0 +1,24 @@
+title: $:/TW5ReadOnly/Plugin
+created: 20140226110023306
+creator: TonGerner
+modified: 20150711164954203
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Plugin
+source-tiddler-title-as-link: Plugin
+
+@@.BROWN Plugin@@
+
+The 'read-only' plugin [[$:/plugins/tongerner/ro]] contains 7 tiddlers:
+
+<ul>
+<$list filter="[all[shadows]sort[title]]+[prefix[$:/plugins/tongerner/ro/]]">
+<li><$link to={{!!title}}><$view field="title"/></$link></li>
+</$list>
+</ul>
+
+<<tabs "Publish [[Sidebar button]] [[Advanced search button]] [[Save button]] [[Plugin related]] Tinka" "" "tabsstyle">>
+
+
+

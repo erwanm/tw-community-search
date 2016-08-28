@@ -1,0 +1,22 @@
+title: $:/SimpleModalTemplate/ThumbnailModalMacro
+created: 20160626112657427
+modified: 20160626162742622
+original-tags: $:/tags/Macro
+source-wiki-id: SimpleModalTemplate
+source-tiddler-title-as-text: ThumbnailModalMacro
+source-tiddler-title-as-link: ThumbnailModalMacro
+
+\define thumbnail-modal(image,caption,width:"280px",height:"auto",imgfield:"current",imglistfield:"list",fter:"no")
+<$button class="tc-btn-invisible">
+<div class="tc-thumbnail-wrapper">
+<div class="tc-thumbnail-image" style="width:$width$;height:$height$;">
+<$reveal type="nomatch" text="" default="""$image$""" tag="div" style="width:$width$;height:$height$;">
+{{$image$}}
+</$reveal><$reveal type="match" text="" default="""$image$""" tag="div" class="tc-thumbnail-background" style="width:$width$;height:$height$;background-color:black;"></$reveal></div><div class="tc-thumbnail-caption">
+$caption$
+</div>
+</div>
+<$action-setfield $field=$imgfield$ $value=$image$/>
+<$action-sendmessage $message="tm-modal" $param="ModalDisplayTiddler" title={{!!title}} imgfield=$imgfield$ imglistfield=$imglistfield$ fter=$fter$ />
+</$button>
+\end

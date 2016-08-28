@@ -1,0 +1,16 @@
+title: $:/Backwall/Workings
+created: 20160414111549925
+creator: twMat
+modified: 20160414111709273
+modifier: twMat
+original-tags: About
+source-wiki-id: Backwall
+source-tiddler-title-as-text: Workings
+source-tiddler-title-as-link: Workings
+
+The [[BackWallMacro]]...
+
+*is tagged as a PageTemplate to make it active.
+*lists the pictures (tiddlers tagged "backwall") and applies styling to them based on their specific tag (dog, fish, cat etc) using the [[tc-tagged method|http://tiddlywiki.com/#How%20to%20apply%20custom%20styles%20by%20tag]].
+*The magic to get the image as tiddler background uses the css background property and the TW [[datauri|http://tiddlywiki.com/#datauri%20Macro%20(Examples)]] macro.
+*The images themselves (again, tagged "backwall") get their body (i.e the tiddler content, i.e the image) styled with visibility:hidden or you'd get the image showing on top of the same background image.

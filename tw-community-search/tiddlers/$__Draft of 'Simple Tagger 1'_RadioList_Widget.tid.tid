@@ -1,0 +1,16 @@
+title: $:/Draft of 'Simple Tagger 1'/RadioList Widget
+created: 20151226173906948
+modified: 20151226190343050
+original-tags: 
+source-wiki-id: Draft of 'Simple Tagger 1'
+source-tiddler-title-as-text: RadioList Widget
+source-tiddler-title-as-link: RadioList%20Widget
+
+!! Aim
+
+This widget extends the action of the $radio widget to operate on lists.
+
+!! Implementation
+
+* when the `value` attribute is set -- the widget functions in string mode (backward compatible with legacy widget)
+* when the `item` attribute is set ( `value` absent) -- the widget will select a single option from the specified `option` list

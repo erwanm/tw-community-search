@@ -1,0 +1,13 @@
+title: $:/Draft of 'TW5BreadCrumbs 1'/h3
+created: 20140416155037305
+creator: Alberto Molina
+modified: 20140614231707953
+modifier: Alberto Molina
+original-tags: nouveau $:/_type/template
+source-wiki-id: Draft of 'TW5BreadCrumbs 1'
+source-tiddler-title-as-text: h3
+source-tiddler-title-as-link: h3
+
+!!<span title="Éditer cette section"><$link>{{!!title}}</$link></span>
+
+<$transclude/>

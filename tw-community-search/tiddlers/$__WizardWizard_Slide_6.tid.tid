@@ -1,0 +1,18 @@
+title: $:/WizardWizard/Slide 6
+order: 6
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 6
+source-tiddler-title-as-link: Slide%206
+
+This is more than a normal slide show as you saw on step 2 where you could toggle the header and footer content. If you wish you have have the content defined in multiple tiddlers and they can all be displayed in the header (or footer).
+
+The wizard has two helper macros to make the creation of wizards easier. They are the `<<WizardTemp>>` macro and the `<<WizardState>>` macro. They point to tiddlers used to hold state and input information for the wizard. When you create the tiddlers used for each step these macros are available to you. The `currentTiddler` variable is set to the `<<WizardState>>` tiddler and it is also the tiddler that holds the current step in the field `current_step`. So `{{!!current_step}}` gives {{!!current_step}}.
+
+To see this in action here is an edit text widget using the `<<WizardTemp>>` macro.
+
+code: `<$edit-text tiddler=<<WizardTemp>> field=demo_field class='tc-edit-texteditor'/>`
+
+<$edit-text tiddler=<<WizardTemp>> field=demo_field class='tc-edit-texteditor'/>
+
+Now go to the next step and we will use the `<<WizardTemp>>` macro to get what you entered.

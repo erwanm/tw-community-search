@@ -1,0 +1,18 @@
+title: $:/ReduceEditorToolbar/Introduction
+created: 20151201023811528
+modified: 20160529220328037
+original-tags: 
+source-wiki-id: ReduceEditorToolbar
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin adds the <span class='tc-btn-dropdown'>{{$:/plugin/ajh/reduce/image}}</span>reduce button to the Editor Toolbar. The button will reduce text in the text field into a blob with duplicate words and spaces removed. When used with an external image or page like with ''_canonical_uri'' field, the text from the external page can be made to seem fully searchable within the wiki while conserving file size.<br>
+&emsp;&emsp;Currently not available yet because the Editor Toolbar hasn't yet been released. [[$:/plugin/ajh/reduce]] includes the tiddlers below packed for easy use:<br>
+[[$:/config/ShortcutInfo/reduce]]<br>
+[[$:/config/shortcuts/reduce]]<br>
+[[$:/language/reduce/caption]]<br>
+[[$:/language/reduce/hint]]<br>
+[[$:/plugin/ajh/reduce/icon]]<br>
+[[$:/plugin/ajh/reduce/image]]<br>
+[[$:/plugin/ajh/reduce/macro.js]]<br>
+[[$:/plugin/ajh/reduce/template]]

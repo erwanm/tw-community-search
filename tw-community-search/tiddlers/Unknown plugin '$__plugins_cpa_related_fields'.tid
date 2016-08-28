@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/cpa/related_fields'
+name: unknown
+plugin_tiddler: $:/plugins/cpa/related_fields
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,15 @@
+title: $:/TidBursts/HQ
+created: 20160811232905707
+modified: 20160813132230880
+original-tags: $:/tags/SideBar backgroundstuff
+source-wiki-id: TidBursts
+source-tiddler-title-as-text: HQ
+source-tiddler-title-as-link: HQ
+
+\define lingo-base() $:/language/CloseAll/
+<$button message="tm-close-all-tiddlers" class="tc-btn-invisible tc-btn-mini"><<lingo Button>></$button> / {{stylesheet-toggle-macros}}
+
+<<list-search
+"[!is[system]!tag[backgroundstuff]!tag[$:/tags/Stylesheet]tags[]sort[title]] -[[Note]]"
+"search:title"
+"$:/temp/list-search-sidebar-system-and-shadows">>

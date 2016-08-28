@@ -1,0 +1,13 @@
+title: $:/QuickTid/Content/Styling/StyleBlock
+created: 20160224184418836
+creator: twMat
+modified: 20160329184307911
+modifier: twMat
+original-tags: ContentExample
+source-wiki-id: QuickTid
+source-tiddler-title-as-text: Content/Styling/StyleBlock
+source-tiddler-title-as-link: Content%2fStyling%2fStyleBlock
+
+<style>
+.x { }
+</style>

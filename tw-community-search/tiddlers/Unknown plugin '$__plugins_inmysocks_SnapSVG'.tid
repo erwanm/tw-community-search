@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/inmysocks/SnapSVG'
+name: unknown
+plugin_tiddler: $:/plugins/inmysocks/SnapSVG
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

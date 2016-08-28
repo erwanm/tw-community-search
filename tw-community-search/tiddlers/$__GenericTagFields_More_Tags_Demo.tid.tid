@@ -1,0 +1,15 @@
+title: $:/GenericTagFields/More Tags Demo
+created: 20160525085012321
+demo: [[A demo tag]] [[This field doesn't __wikifi__ tags]] [[This tag is in every field]] zzz
+demo_2: {{$:/core/images/save-button}} [[This field __wikifies__ tags]] [[Tags can have custom colors in other fields too!]] [[This tag is in every field]] zzz
+modified: 20160525085830557
+original-tags: [[A normal tag]] [[This is the normal tag field]] [[Tags can have custom colors]] [[This tag is in every field]] zzz
+source-wiki-id: GenericTagFields
+source-tiddler-title-as-text: More Tags Demo
+source-tiddler-title-as-link: More%20Tags%20Demo
+
+This tiddler has three tag fields. The fields used are the default `tags` field, the field `demo` and the field `demo_2`. The field `demo_2` is given the label {{$:/core/images/close-others-button}}. 
+
+The tags in the fields `demo` and `demo_2` are given different colors than the default tags, and some tags are given custom colors specific to that tag.
+
+Note that if the same tag is used in multiple fields it uses the background color of the field it is in (like the tag `This tag is in every field`) but if the tag is given a custom color it will use that color in all fields (like the tag `zzz`).

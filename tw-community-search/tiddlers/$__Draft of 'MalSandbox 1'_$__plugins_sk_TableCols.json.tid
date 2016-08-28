@@ -1,0 +1,12 @@
+title: $:/Draft of 'MalSandbox 1'/$:/plugins/sk/TableCols
+author: Stephen Kimmel
+description: TableCols
+list: TableCols
+version: 0.0.6
+original-tags: 
+source-wiki-id: Draft of 'MalSandbox 1'
+source-tiddler-title-as-text: $:/plugins/sk/TableCols
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fTableCols
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

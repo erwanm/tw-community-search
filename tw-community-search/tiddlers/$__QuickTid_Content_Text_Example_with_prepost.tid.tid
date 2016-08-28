@@ -1,0 +1,13 @@
+title: $:/QuickTid/Content/Text/Example with prepost
+created: 20160227225017811
+creator: twMat
+modified: 20160427133807397
+modifier: twMat
+post: POST - this is (also) predefined "post-content" inserted after your typed content. See [[Content/Text/Example with prepost]] //post// field.
+pre: PRE - this is predefined "pre-content" inserted before content you've typed. See [[Content/Text/Example with prepost]] //pre// field.
+original-tags: ContentExample
+source-wiki-id: QuickTid
+source-tiddler-title-as-text: Content/Text/Example with prepost
+source-tiddler-title-as-link: Content%2fText%2fExample%20with%20prepost
+
+AFTER CONTENT - this is predefined content text inserted after your content. See source in the text field of  [[Content/Text/Example with prepost]].

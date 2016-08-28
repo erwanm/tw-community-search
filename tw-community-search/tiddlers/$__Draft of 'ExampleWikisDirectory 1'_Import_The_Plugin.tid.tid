@@ -1,0 +1,8 @@
+title: $:/Draft of 'ExampleWikisDirectory 1'/Import The Plugin
+below_wizard: True
+original-tags: PhotoGallery
+source-wiki-id: Draft of 'ExampleWikisDirectory 1'
+source-tiddler-title-as-text: Import The Plugin
+source-tiddler-title-as-link: Import%20The%20Plugin
+
+To import the photo gallery plugin simply import this tiddler into your wiki: $:/plugins/inmysocks/PhotoGallery

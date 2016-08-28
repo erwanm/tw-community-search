@@ -1,0 +1,12 @@
+title: $:/Draft of 'SKPlugins'/$:/plugins/sk/FindReplace
+author: Stephen Kimmel
+description: Find and Replace
+list: FindReplaceList
+version: 0.0.6
+original-tags: 
+source-wiki-id: Draft of 'SKPlugins'
+source-tiddler-title-as-text: $:/plugins/sk/FindReplace
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fFindReplace
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

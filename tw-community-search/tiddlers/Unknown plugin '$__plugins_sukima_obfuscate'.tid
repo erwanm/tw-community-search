@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/sukima/obfuscate'
+name: unknown
+plugin_tiddler: $:/plugins/sukima/obfuscate
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

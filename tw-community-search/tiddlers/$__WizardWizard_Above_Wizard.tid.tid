@@ -1,0 +1,10 @@
+title: $:/WizardWizard/Above Wizard
+above_wizard: True
+created: 20160613151426963
+modified: 20160613155436403
+original-tags: 
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Above Wizard
+source-tiddler-title-as-link: Above%20Wizard
+
+You are now looking at the header area of the wizard. Content can be set here and it doesn't change when you go between steps in the wizard.

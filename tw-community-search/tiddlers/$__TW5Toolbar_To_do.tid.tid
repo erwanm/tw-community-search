@@ -1,0 +1,12 @@
+title: $:/TW5Toolbar/To do
+created: 20160407121326266
+modified: 20160725161855977
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: To do
+source-tiddler-title-as-link: To%20do
+
+!TW5 top toolbar v6.03
+* ~~Adjust slider macro: `tc-slider` => `tgc-slider`~~
+* ~~Update Bluish theme (with `tc-slider` => `tgc-slider`)~~
+* ~~Update classes for button (icons) `tc-xyz-button` => `tgc-xyz-button`~~

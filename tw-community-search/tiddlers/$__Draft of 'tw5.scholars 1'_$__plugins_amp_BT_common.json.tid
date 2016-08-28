@@ -1,0 +1,16 @@
+title: $:/Draft of 'tw5.scholars 1'/$:/plugins/amp/BT/common
+caption: Common
+created: 20141112101154037
+creator: Alberto Molina Pérez
+dependents: $:/plugins/amp/BT/noSysTags
+description: BottomTabs: common tools
+modified: 20141231104413444
+modifier: Alberto Molina Pérez
+version: 0.1.63
+original-tags: BottomTabs
+source-wiki-id: Draft of 'tw5.scholars 1'
+source-tiddler-title-as-text: $:/plugins/amp/BT/common
+source-tiddler-title-as-link: %24%3a%2fplugins%2famp%2fBT%2fcommon
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

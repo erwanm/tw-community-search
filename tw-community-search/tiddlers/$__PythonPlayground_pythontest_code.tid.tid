@@ -1,0 +1,20 @@
+title: $:/PythonPlayground/pythontest code
+created: 20151120115901622
+id: pythoncode
+modified: 20160202075903817
+revision: 0
+type: text/python
+original-tags: pythontest
+source-wiki-id: PythonPlayground
+source-tiddler-title-as-text: pythontest code
+source-tiddler-title-as-link: pythontest%20code
+
+input = 1739
+brk = "f"
+print "is ", input, " prime"
+for n in range(2, input):
+  if input%n == 0:
+      print "no, try ", n
+      brk = "t"
+      break
+if (brk =="f"): print "yes"

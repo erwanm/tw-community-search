@@ -1,0 +1,26 @@
+audience: 
+category: Interface
+created: 20150106175012859
+date: 18-02-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150219032825121
+name: Icon Menus
+plugin_tiddler: $:/plugins/inmysocks/IconMenus
+release: 
+repository: 
+revision: 0.0.4
+short_description: A set of icon menus that can go ontop of other themes, demo: http://ooktech.com/iconmenus/
+title: twCard - Plugin - Icon Menus
+wiki: http://inmysocks.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: inmysocks
+twcs-extracted-plugin-tiddler: $:/inmysocks/$:/plugins/inmysocks/IconMenus
+twcs-description: An alternate menu system that can go on top of other themes
+twcs-author: inmysocks
+twcs-version: 0.0.4
+
+{{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,13 @@
+title: $:/QuickTid/$:/plugins/TWaddle/SideEditor
+author: Mat von [[TWaddle|http://twaddle.tiddlyspot.com]]
+description: SideEditor - a "live" editor next to your tiddler
+list: readme
+name: SideEditor
+version: 0.8.1
+original-tags: 
+source-wiki-id: QuickTid
+source-tiddler-title-as-text: $:/plugins/TWaddle/SideEditor
+source-tiddler-title-as-link: %24%3a%2fplugins%2fTWaddle%2fSideEditor
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

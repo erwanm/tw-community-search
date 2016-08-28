@@ -1,0 +1,14 @@
+title: $:/TriTarget/$:/plugins/sukima/pannellum
+author: sukima
+core-version: >=5.0.0
+dependents: 
+description: Pannellum Web3D Panorama Viewer
+list: readme
+version: 2.2.0
+original-tags: 
+source-wiki-id: TriTarget
+source-tiddler-title-as-text: $:/plugins/sukima/pannellum
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsukima%2fpannellum
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

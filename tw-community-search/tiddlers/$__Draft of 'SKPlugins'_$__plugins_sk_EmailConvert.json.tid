@@ -1,0 +1,12 @@
+title: $:/Draft of 'SKPlugins'/$:/plugins/sk/EmailConvert
+author: Stephen Kimmel
+description: Email Converter
+list: Email Convert List
+version: 0.0.4
+original-tags: 
+source-wiki-id: Draft of 'SKPlugins'
+source-tiddler-title-as-text: $:/plugins/sk/EmailConvert
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fEmailConvert
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,10 @@
+title: $:/WizardWizard/Slide 3
+order: 3
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 3
+source-tiddler-title-as-link: Slide%203
+
+You may have noticed that there is now a list of numbers above the slides with `Jump to step:` in front of it. If you click on one of those numbers you will be taken to that step.
+
+You can only go backwards using this. This is so that when you are filling out a wizard you can't skip steps and jump ahead.

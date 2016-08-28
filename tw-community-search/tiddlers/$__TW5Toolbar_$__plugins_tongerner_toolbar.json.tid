@@ -1,0 +1,18 @@
+title: $:/TW5Toolbar/$:/plugins/tongerner/toolbar
+author: TonGerner
+core-version: 5.1.13
+created: 20150805095641947
+creator: TonGerner
+description: Toolbar on top
+list: readme
+modified: 20160811114013129
+modifier: TonGerner
+source: http://tongerner.tiddlyspot.com/
+version: 0.2.2
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: $:/plugins/tongerner/toolbar
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2ftoolbar
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

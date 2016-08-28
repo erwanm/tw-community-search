@@ -1,0 +1,23 @@
+title: $:/Draft of 'HegartDmishiv on DesignWrite 1'/$:/plugins/tobibeer/count
+author: Tobias Beer
+core-version: >=5.1.9
+created: 20160206070414801
+creator: HegartDmishiv
+dependents: 
+documentation: https://tobibeer.github.io/tw5-count
+list: readme
+modified: 20160206070424976
+modifier: HegartDmishiv
+origin: [[Tobias Beer|https://tobibeer.github.io/tw5-plugins/#count]]
+purpose: A filter to count titles or compare against a specified count.
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-count
+version: 0.5.0
+original-tags: [[Installed Plugins]]
+source-wiki-id: Draft of 'HegartDmishiv on DesignWrite 1'
+source-tiddler-title-as-text: $:/plugins/tobibeer/count
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2fcount
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,60 @@
+title: $:/Draft of 'listops 1'/ActionMakeTidWidget
+caption: action-maketid
+created: 20151011135850002
+creator: matabele
+modified: 20160125095608332
+modifier: Matabele
+revision: 7
+type: text/vnd.tiddlywiki
+original-tags: ActionWidgets Widgets
+source-wiki-id: Draft of 'listops 1'
+source-tiddler-title-as-text: ActionMakeTidWidget
+source-tiddler-title-as-link: ActionMakeTidWidget
+
+! Introduction
+
+The ''action-maketid'' widget is an action widget designed to create a new tiddler, with the built in functionality to set the values of the title, tags and fields. The new tiddler may be hidden, displayed in the story river or opened for editing.
+
+To get the plugin: [[$:/plugins/matabele/action-maketid]]
+
+The ''action-maketid'' widget may be used to do any of the following.
+
+* create a new tiddler with or without the use of a template
+* set a unique title for the new tiddler
+* manipulate the 'tags' field by applying a sub-filter expression
+* set the values for any number of fields for the new tiddler (overwriting template values)
+* hide the new tiddler in the background, navigate to the new tiddler (the default) or open the new tiddler for editing
+
+! Content and Attributes
+
+|Attribute |Explanation |h
+|$title |The title for the new tiddler (if not provided, defaults to 'currentTiddler') |
+|$tags |Option to apply a subfilter to the 'tags' field |
+|$template |Option to name the template to use |
+|$navigate= |"show" navigates to the new tiddler (default) : "hide" creates the new tiddler in the background : "edit" navigates to and opens the new tiddler for editing |
+|{attributes not starting with $} |Values may be set for any number of fields (overwriting template values) -- each attribute name specifies a field, with the attribute value providing the value to assign to the field |
+
+! Examples
+
+In this example we shall create a button to make a new tiddler from scratch, add a couple of tags, further modify the 'tags' field and set the values for some fields.
+
+Each click of the button will create another tiddler with a unique title (appended integer)
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$button>
+<$action-maketid  $title="Tiddler"  tags="[[first tag]] [[another tag]]" $tags="[{!!title}] +[append:3{Days of the Week!!short}]" text="
+|Field Name |Value |h
+|Field1 |{{!!field1}} |
+|Field2 |{{!!field2}} |"
+field1="value from field one" field2="value from field two"/>
+Make New Tiddler
+</$button>"""/>
+
+In this example we shall use the ''action-maketid'' widget in combination with the ''maketid[]'' filter operator to create a number of tiddlers from a template. Unique titles are generated with a '$list' widget utilising the ''maketid[]'' filter operator with various options. The 'tags=' attribute is here used to clear the tags field before additional tags are added with the '$tags=' attribute.
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$vars here={{!!title}}>
+<$button>
+<$list filter="[[]maketid[Tiddler %count%/%max% <<now>> \max:3]]">
+<$action-maketid tags="" $tags="[<here>] [[new tag]]" myfield="text from a field" $skeleton="$:/_mytemplate"/>
+</$list>Make Tiddlers</$button></$vars>"""/>

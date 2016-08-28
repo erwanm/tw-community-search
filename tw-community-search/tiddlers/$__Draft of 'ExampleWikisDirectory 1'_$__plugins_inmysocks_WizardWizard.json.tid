@@ -1,0 +1,14 @@
+title: $:/Draft of 'ExampleWikisDirectory 1'/$:/plugins/inmysocks/WizardWizard
+author: inmysocks
+core-version: >=5.1.0
+dependents: 
+description: A plugin to help create setup wizards or slideshows
+source: 
+version: 0.0.2
+original-tags: 
+source-wiki-id: Draft of 'ExampleWikisDirectory 1'
+source-tiddler-title-as-text: $:/plugins/inmysocks/WizardWizard
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fWizardWizard
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

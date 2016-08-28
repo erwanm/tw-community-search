@@ -1,0 +1,23 @@
+title: $:/Draft of 'TonGernerPlayground 1'/Layout adjustment
+created: 20150812072755403
+creator: TonGerner
+modified: 20160210195647077
+modifier: TonGerner
+original-tags: 
+source-wiki-id: Draft of 'TonGernerPlayground 1'
+source-tiddler-title-as-text: Layout adjustment
+source-tiddler-title-as-link: Layout%20adjustment
+
+''@@.brown Layout adjustment@@''
+
+{{$:/plugins/tongerner/layout_adjustment/readme}}
+
+---
+
+<<slider "Payload tiddlers layout" "Payload tiddlers layout">>
+
+The top bar is tagged with [[$:/tags/PageTemplate]]
+
+<<<
+''Note:''<br>The code of all payload tiddlers can be examined under the tab [[Code]].
+<<<
