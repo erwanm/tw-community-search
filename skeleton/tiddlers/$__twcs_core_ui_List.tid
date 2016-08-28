@@ -1,0 +1,7 @@
+created: 20160109194503965
+modified: 20160110030914053
+tags: TWCSCore
+title: $:/twcs/core/ui/List
+type: text/vnd.tiddlywiki
+
+<$list filter={{!!twcs-filter}} />

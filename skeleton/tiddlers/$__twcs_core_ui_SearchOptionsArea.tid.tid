@@ -1,0 +1,29 @@
+created: 20160108223953920
+modified: 20160828015823253
+tags: TWCSCore
+title: $:/twcs/core/ui/SearchOptionsArea
+type: text/vnd.tiddlywiki
+
+<$set name="search-options-state" value=<<qualify "$:/state/search-options/">>>
+  <$reveal type="nomatch" state=<<search-options-state>> text="open">
+    <$button set=<<search-options-state>> setTo="open" class="tc-btn-invisible">
+      {{$:/core/images/right-arrow}} show options
+    </$button>
+  </$reveal>
+  <$reveal type="match" state=<<search-options-state>> text="open">
+    <$button set=<<search-options-state>> setTo="close" class="tc-btn-invisible">
+      {{$:/core/images/down-arrow}} hide options
+    </$button>
+    
+    <div>
+      
+      <$edit-text tiddler=<<search-options-state>> field="max-results" default="50" size=5/>
+</div>
+
+    
+    
+    
+    
+    
+  </$reveal>
+</$set>

@@ -1,5 +1,5 @@
 created: 20150913111405025
-modified: 20151123214008318
+modified: 20160109201720650
 tags: DeveloperDocumentation
 title: TWCSWikiStructure
 type: text/vnd.tiddlywiki
@@ -13,8 +13,13 @@ This wiki is built from the ~CommunitySearch //skeleton// basis. The skeleton pa
 
 ! Tagging structure
 
-
-
 * Every author in CommunityAuthors tiddler has a ''licence'' field, which indicates whether the author agrees to have their wiki(s) content indexed. If left empty, then the system will only look for existing plugins.
 * For every wiki in  CommunityWikis which contains a field ''author'' which points to an author tiddler with a non-empty ''licence'' field, the content is extracted from the wiki.
 
+! Collected tiddlers
+
+Collected tiddlers are represented internally as system tiddlers:
+
+* Their name follows the pattern ``$:/<wiki-id>/<original title>``. 
+* Their ``tags`` field is renamed ``original-tags``
+* They contain a field ``source-wiki-id``, which points to the corresponding CommunityWikis tiddler.

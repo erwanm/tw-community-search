@@ -1,0 +1,38 @@
+created: 20160107230057154
+modified: 20160828015816501
+tags: TWCSCore $:/tags/Macro
+title: $:/twcs/core/search-macro
+type: text/vnd.tiddlywiki
+
+\define twcs-search(
+filter1:"[all[system]has[source-wiki-id]!has[extracted-plugin]]",
+filter2:"",
+filter3:"",
+search:"search",
+state:"$:/temp/twcs-search",
+template:"$:/core/ui/ListItemTemplate",
+placeholder:"Filter",
+limit:100,
+sortBy:title,
+)
+<div>
+<$edit-text
+tiddler="$state$"
+type="search"
+tag="input"
+default=""
+placeholder="$placeholder$"/>
+</div>
+
+{{||$:/twcs/core/ui/SearchOptionsArea}}
+
+<$reveal state="$state$" type="match" text="">
+
+</$reveal>
+
+<$reveal state="$state$" type="nomatch" text="">
+//<$count filter="$filter1$ +$filter2$ +$filter3$ +[$search${$state$}] -+ -$state$" /> matches//
+
+  <$list  filter="$filter1$ +$filter2$ +$filter3$ +[$search${$state$}] -+ -$state$ +[sort[$sortBy$]limit[$limit$]]" template="$template$"/>
+</$reveal>
+\end

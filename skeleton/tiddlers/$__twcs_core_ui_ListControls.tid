@@ -1,0 +1,9 @@
+created: 20160115231001908
+modified: 20160116002611384
+tags: TWCSCore
+title: $:/twcs/core/ui/ListControls
+type: text/vnd.tiddlywiki
+
+|max items|<$edit-text tiddler="$:/state/ListOptions" field="max-items" default="" tag="input" size=5/>|
+|max days old|<$edit-text tiddler="$:/state/ListOptions" field="max-days-old" default="" tag="input" size=5/>|
+|sort by|<$select tiddler="$:/state/ListOptions" field="sort-by"><option>title</option><option>date</option><option>wiki</option><option>author</option></$select>|
