@@ -8,7 +8,7 @@ list: readme depends config use
 requires: [[tobibeer/setvars|http://tobibeer.github.io/tw5-plugins/#setvars]], [[tobibeer/split|http://tobibeer.github.io/tw5-plugins/#split]] 
 revision: 0
 source: https://github.com/tobibeer/tw5-external
-version: 0.5.2
+version: 0.5.3
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/external

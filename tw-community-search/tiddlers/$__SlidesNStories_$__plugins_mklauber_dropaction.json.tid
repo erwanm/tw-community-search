@@ -1,0 +1,14 @@
+title: $:/SlidesNStories/$:/plugins/mklauber/dropaction
+author: Matthew Lauber
+core-version: >=5.0.0
+dependents: 
+description: DropAction Widget
+list: Readme
+version: 1.1.2
+original-tags: 
+source-wiki-id: SlidesNStories
+source-tiddler-title-as-text: $:/plugins/mklauber/dropaction
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmklauber%2fdropaction
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

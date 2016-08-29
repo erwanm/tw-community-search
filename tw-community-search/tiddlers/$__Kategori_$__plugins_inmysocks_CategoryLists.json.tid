@@ -1,0 +1,19 @@
+title: $:/Kategori/$:/plugins/inmysocks/CategoryLists
+author: inmysocks
+core-version: >=5.1.8
+created: 20150524105958141
+creator: Birthe
+dependents: 
+description: En opgave liste adskilt i kategorier
+list: readme
+modified: 20160816100640920
+modifier: Birthe
+source: 
+version: 0.1.3
+original-tags: 
+source-wiki-id: Kategori
+source-tiddler-title-as-text: $:/plugins/inmysocks/CategoryLists
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fCategoryLists
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
