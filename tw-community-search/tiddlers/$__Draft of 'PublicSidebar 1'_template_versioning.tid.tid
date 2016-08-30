@@ -1,0 +1,17 @@
+title: $:/Draft of 'PublicSidebar 1'/template/versioning
+created: 20160822134557106
+creator: twMat
+modified: 20160822142630941
+modifier: twMat
+original-tags: $:/tags/ViewTemplate
+source-wiki-id: Draft of 'PublicSidebar 1'
+source-tiddler-title-as-text: template/versioning
+source-tiddler-title-as-link: template%2fversioning
+
+\define ver() $(curr)$-ver
+
+<$set name="curr" value=<<currentTiddler>>>
+<$set name="qualstate" value=<<qualify "$:/state/$label$">> >
+<<tabs "[<currentTiddler>tag[collaboration]] [all[]prefix<ver>!sort[modified]]" "default" "$:/state/ver" "tc-vertical">>
+<$set>
+

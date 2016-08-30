@@ -1,0 +1,15 @@
+title: $:/TWederation/Dictionary
+created: 20160807140430592
+creator: twMat
+modified: 20160819133923225
+modifier: twMat
+original-tags: 
+source-wiki-id: TWederation
+source-tiddler-title-as-text: Dictionary
+source-tiddler-title-as-link: Dictionary
+
+<$list filter="[tag[⁂concept]]">
+<$macrocall $name="revealCard" label={{!!title}} content={{!!text}}/>
+</$list>
+
+[...]

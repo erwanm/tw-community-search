@@ -1,0 +1,33 @@
+title: $:/Draft of 'Versioning 1'/The twCards List
+caption: twCards
+created: 20160806231037523
+creator: twMat
+modified: 20160820185835531
+modifier: twMat
+original-tags: 
+source-wiki-id: Draft of 'Versioning 1'
+source-tiddler-title-as-text: The twCards List
+source-tiddler-title-as-link: The%20twCards%20List
+
+\define trans() {{$(pic)$}}
+
+<div class="infobox">
+
+*This lists all public twCards that the TWederation List Admin has been alerted about. (The alerting is the final step in the //setup wizard//.)
+*Fetching (or drag'n dropping) [[twCards]] from here into your wiki, enables you to  then [[follow|Following]] and fetch tiddlers from that wiki.<br><br>
+</div>
+
+!!!The official twCards List
+<table style="width:100%">
+<tr><th>avatar</th><th>twCard name</th><th>Description</th></tr>
+<$list filter="[role[twServer]!prefix[Draft of]]">
+<tr>
+      <td><$set name=pic value={{!!icon}}>
+             <div style="width:2em;"><<trans>></div>
+              </$set>
+      </td>
+      <td><$link to={{!!title}}><$text text={{!!name}}/></$link></td>
+      <td>{{!!description}}</td>
+</tr>
+</$list>
+</table>

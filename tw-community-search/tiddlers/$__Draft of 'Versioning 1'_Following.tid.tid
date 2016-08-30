@@ -1,0 +1,19 @@
+title: $:/Draft of 'Versioning 1'/Following
+created: 20160807140242630
+creator: twMat
+modified: 20160817060709609
+modifier: twMat
+original-tags: ⁂concept
+source-wiki-id: Draft of 'Versioning 1'
+source-tiddler-title-as-text: Following
+source-tiddler-title-as-link: Following
+
+To //follow// a wiki means to set your wiki up so to it [[fetches|Fetching]] from that wiki. 
+
+To //follow// you must
+
+#have a wikis [[twCard]]
+#tick the "follow" checkbox in ...
+
+Note that merely having a wikis [[twCard|twCards]] does not mean it is followed.
+

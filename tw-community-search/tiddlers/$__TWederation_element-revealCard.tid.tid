@@ -1,0 +1,35 @@
+title: $:/TWederation/element-revealCard
+created: 20160818155829364
+creator: twMat
+modified: 20160818235223305
+modifier: twMat
+original-tags: element $:/tags/Macro
+source-wiki-id: TWederation
+source-tiddler-title-as-text: element-revealCard
+source-tiddler-title-as-link: element-revealCard
+
+\define revealCard(label restornothing content)
+<$vars restornothing="""$restornothing$""" content="""$content$""">
+<$set name="contentToReveal" filter="[<content>regexp[^$]]"
+          value=<<restornothing>> emptyValue=<<content>>>
+<$set name="rest" filter="[<content>regexp[^$]]"
+          value="" emptyValue=<<restornothing>>>
+
+
+<$set name="qualstate" value=<<qualify "$:/state/$label$">> >
+<$reveal type="nomatch" state=<<qualstate>> text="show" >
+<$button set=<<qualstate>> setTo="show" style="background:#f4f4f4; border:1px solid lightgray;">﻿＋ $label$</$button>&nbsp;"""<<rest>>"""
+</$reveal>
+<$reveal type="match" state=<<qualstate>> text="show" >
+<div style="xmargin-bottom:1.5em; margin-top:36px;">
+<$button set=<<qualstate>> setTo="hide" style="border:0; background:transparent; position:absolute;  margin-top:-15px; margin-left:-4px;"><span style="background:#f4f4f4; outline:1px solid lightgray; padding:1px 5px;">﻿－ $label$</span><span style="background:white; padding-left:6px; ">"""<<rest>>"""&nbsp;</span>
+</$button>
+<div style="outline:1px solid lightgray; outline-offset:4px; padding: 3px 5px; margin-top:-5px;  ">
+
+<<contentToReveal>>
+</div>
+</div>
+</$reveal>
+
+</$set>
+\end
