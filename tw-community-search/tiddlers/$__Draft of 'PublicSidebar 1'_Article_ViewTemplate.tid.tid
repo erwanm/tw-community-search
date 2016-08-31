@@ -1,0 +1,18 @@
+title: $:/Draft of 'PublicSidebar 1'/Article/ViewTemplate
+created: 20160826072019447
+creator: twMat
+modified: 20160828124551275
+modifier: twMat
+original-tags: $:/tags/ViewTemplate ArticleTiddlersComponent
+source-wiki-id: Draft of 'PublicSidebar 1'
+source-tiddler-title-as-text: Article/ViewTemplate
+source-tiddler-title-as-link: Article%2fViewTemplate
+
+<$set name="articleTiddler" value=<<storyTiddler>>>
+<$list filter="[<currentTiddler>!has[draft.of]has[paragraphs]list[!!paragraphs]]
+                   [all[tiddlers]paragraph-in<currentTiddler>!has[draft.of]]"
+         history="$:/HistoryList"
+         template="Paragraph/ViewTemplate"
+         storyview={{$:/view}}
+/>
+</$set>

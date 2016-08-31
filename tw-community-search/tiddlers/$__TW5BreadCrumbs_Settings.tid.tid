@@ -1,0 +1,47 @@
+title: $:/TW5BreadCrumbs/Settings
+created: 20140208183031425
+creator: TonGerner
+modified: 20160210171723527
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Settings
+source-tiddler-title-as-link: Settings
+
+''@@.brown Settings@@''
+
+<<<
+''Note:''
+
+* Adjustments to the layout can be made in '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tabs 'Breadcrumbs' and 'Layout' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
+* In case breadcrumbs are used in combination with other top menus see <<slider "Other adjustments" "Other adjustments">>
+<<<
+
+'Settings' comprises 2 tiddlers:
+
+* [[$:/plugins/tongerner/breadcrumbs/settings]]
+* [[$:/plugins/tongerner/breadcrumbs/settings-help]]
+
+!!$:/plugins/tongerner/breadcrumbs/settings
+The tiddler [[$:/plugins/tongerner/breadcrumbs/settings]], tagged with [[$:/tags/SideBar]], contains:
+
+<<source "$:/plugins/tongerner/breadcrumbs/settings">>
+
+which renders as an editable table with settings for adjusting the layout of the breadcrumbs:
+
+{{$:/plugins/tongerner/breadcrumbs/settings}}
+
+<<<
+''Note:''<br>The values set in this table will be transcluded in the stylesheet (via fields in the stylesheet).
+<<<
+
+!!$:/plugins/tongerner/breadcrumbs/settings-help
+Help can be found in [[$:/plugins/tongerner/breadcrumbs/settings-help]]: 
+
+@@.sliderBG
+<div>
+
+{{$:/plugins/tongerner/breadcrumbs/settings-help}}
+
+</div>
+@@

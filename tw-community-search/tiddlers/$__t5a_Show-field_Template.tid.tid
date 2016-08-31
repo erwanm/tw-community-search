@@ -1,0 +1,11 @@
+title: $:/t5a/Show-field Template
+created: 20160704191440136
+creator: Andrew Harrison
+description: The [[$:/ajh/ui/ViewTemplate/show-field]] template causes tiddlers to display the field(s) and value(s) above the text field and suppressing the display of system fields if the tiddler has the ''show-field'' field and something in the field.<br>List only one non-system field except show-field to display only one field.
+modified: 20160704191733369
+modifier: Andrew Harrison
+original-tags: New Contents
+source-wiki-id: t5a
+source-tiddler-title-as-text: Show-field Template
+source-tiddler-title-as-link: Show-field%20Template
+

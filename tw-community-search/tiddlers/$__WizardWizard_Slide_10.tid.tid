@@ -1,0 +1,8 @@
+title: $:/WizardWizard/Slide 10
+order: 8
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 10
+source-tiddler-title-as-link: Slide%2010
+
+This slide is not in alphabetical order. This is because the order is set by the `order` field of the tiddlers used in each step. You can manually set this field or use the [[setup tiddler|$:/plugins/inmysocks/WizardWizard/Wizard Setup]] to do it.

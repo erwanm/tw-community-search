@@ -1,0 +1,18 @@
+title: $:/Draft of 'Rearranger 1'/$:/plugins/bj/drag-and-drop
+author: Jeffrey Wilkinson aka buggyj
+core-version: >=5.1.11
+dependents: 
+description: drag and drop widgets
+list: readme license
+modified: 20160810101707634
+modifier: JR
+revision: 0
+source: https://github.com/buggyj/TW5-tools
+version: 1.11.0
+original-tags: 
+source-wiki-id: Draft of 'Rearranger 1'
+source-tiddler-title-as-text: $:/plugins/bj/drag-and-drop
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fdrag-and-drop
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

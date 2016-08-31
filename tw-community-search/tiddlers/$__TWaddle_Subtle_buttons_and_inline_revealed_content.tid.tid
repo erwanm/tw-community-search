@@ -1,0 +1,30 @@
+title: $:/TWaddle/Subtle buttons and inline revealed content
+created: 20150915000442475
+creator: Mat
+modified: 20160127123421883
+modifier: Mat
+recent: 15/09/27
+original-tags: CSS Tidbit
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Subtle buttons and inline revealed content
+source-tiddler-title-as-link: Subtle%20buttons%20and%20inline%20revealed%20content
+
+Ok, so the point here is to have an inline button that does not hurt they eye or add extra line height so that it can be used mid-sentence like <<slider "this" "to reveal additional content on something that you, btw, also can style">>. My own application is for when I want the reader to only discover the button when he or she is reading at that point in the text. It should not be visible (i.e calling attention) before that.<br><br>
+
+
+:`<<slider "label" "The content text">>`
+:[[$:/_TWaddle/Macro/slider]]
+
+and CSS
+
+```
+.slider-closed {padding: 0 3px 0 3px;  background: none; border: 1px  solid lightgray; display:inline-block;}
+
+.slider-open {padding: 0 3px 0 3px; background: none; border: 1px solid gray; border-right:0; display:inline;}
+
+.slider-content {border:1px lightgray solid; background:#f4f4f4;}
+
+.slider-content:after {content:" ";}
+```
+
+The last `:after` CSS pseudo element is merely to add a litle air at the end of the content text.

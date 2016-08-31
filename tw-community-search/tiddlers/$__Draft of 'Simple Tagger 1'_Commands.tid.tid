@@ -1,0 +1,11 @@
+title: $:/Draft of 'Simple Tagger 1'/Commands
+created: 20160112110807300
+modified: 20160112110633310
+original-tags: Concepts Reference
+source-wiki-id: Draft of 'Simple Tagger 1'
+source-tiddler-title-as-text: Commands
+source-tiddler-title-as-link: Commands
+
+A <<.def command>> is one of the following words, written with a `--` prefix and used as a command-line option to [[TiddlyWiki on Node.js]], indicating which action is desired.
+
+<<list-links "[tag[Commands]]">>

@@ -1,0 +1,152 @@
+title: $:/Tiddler Bundles/TiddlersTaggedHelloThere
+created: 20160109132638845
+list: [[A Gentle Guide to TiddlyWiki]] [[Discover TiddlyWiki]] [[Some of the things you can do with TiddlyWiki]] [[Ten reasons to switch to TiddlyWiki]] Examples [[What happened to the original TiddlyWiki?]]
+modified: 20160109190602294
+original-tags: [[Tiddler Bundle]]
+source-wiki-id: Tiddler Bundles
+source-tiddler-title-as-text: TiddlersTaggedHelloThere
+source-tiddler-title-as-link: TiddlersTaggedHelloThere
+
+ created:20150325170720682
+modified:20150926171049725
+tags:HelloThere
+title:A Gentle Guide to TiddlyWiki
+type:text/vnd.tiddlywiki
+
+TiddlyWiki is an incredibly flexible and versatile tool that is conceived and constructed differently than most software. This can make it hard to understand until the moment when it clicks, and becomes a seamless extension of your brain.
+
+Starting with the basics, TiddlyWiki is a note-taking web application you can download for free, store wherever you like and customise however you wish. Use it to capture, organise and share your notes in ways that word processors and other note-taking tools cannot.
+
+~TiddlyWiki is designed to be non-linear, structuring content with stories, tags, hyperlinks, and other features. You can organise and retrieve your notes in ways that conform to your personal thought patterns, rather than feel chained to one preset organisational structure.
+
+You can use ~TiddlyWiki as a single file that you view and edit through any web browser, whether you are online or offline. Or you can use it as a powerful [[Node.js application|TiddlyWiki on Node.js]] that stores each of your notes as a separate file.
+
+How can you make ~TiddlyWiki work for you? We recommend you start with our introductory documentation listed below, and then browse the TableOfContents, available in the Contents tab in the sidebar. Or just [[follow our simple instructions|GettingStarted]] and try it out for yourself!
+
+<<list-links "[tag[HelloThere]]">>
+
+Also see [[TiddlyWiki Video Tutorials by Francis Meetze]]
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous
+created:20140904121000000
+modified:20151023165341339
+tags:HelloThere
+title:Discover TiddlyWiki
+type:text/vnd.tiddlywiki
+
+You've never seen //anything// like ~TiddlyWiki. ~TiddlyWiki is:
+
+:: a tool, 
+:: a toolbox, 
+:: a community, 
+:: and a philosophy. 
+
+! ~TiddlyWiki is a Tool
+
+''~TiddlyWiki is first and foremost a tool:'' it is a free downloadable tool for capturing and organising content from the web, from your documents or from your brain. It is a tool for note-taking, bookmarking, pinning, writing, managing to-do lists and projects, collaborating, blogging, and publishing.
+
+In ~TiddlyWiki you create or paste content into notes called tiddlers, then connect your tiddlers with hyperlinks and tags. You can then quickly retrieve your notes through features such as tag pills, sidebar tabs, and ~TiddlyWiki's lightning fast search window. You can even dynamically include one tiddler's content inside another - similar to using building blocks - to create articles, lists, presentations and more.
+
+! ~TiddlyWiki is a Toolbox
+
+In addition to being a versatile tool, ''~TiddlyWiki is also a toolbox.''
+
+Where other note-taking products hook you with the basic program then charge you for the really helpful features, ~TiddlyWiki has an ever-expanding collection of completely free visual themes, colour palettes, plugins, widgets and macros, which you can then mix and match so that you can tweak and tailor your ~TiddlyWiki to get it just the way you want it. 
+
+! ~TiddlyWiki is also a Community
+
+We are a [[community|Community]] of users and developers who help each other imagine new ways of thinking and organising and create new solutions, so that ~TiddlyWiki is continually adapting to better serve your needs. ~TiddlyWiki users and developers share questions and advice at a ~TiddlyWiki Google group. They also create tutorials, adaptations, and plugins to enhance your ~TiddlyWiki experience. See the section ''Community'' of the TableOfContents for more details.
+
+! Finally, ~TiddlyWiki is a philosophy
+
+The purpose of taking and organising a note (or recording any kind of content) is to be able to retrieve it later. If you can't find your notes in your note-taking system, your note-taking becomes a colossal waste of time.
+
+The [[TiddlyWiki philosophy|Philosophy of Tiddlers]] is that the best way to take notes is to separate them into tiddlers, the smallest semantic units possible. A tiddler might be an image, a webpage link, a concept, the definition of a term, or a specific customisation such as a macro.
+
+These tiddlers can then be woven together to create longer units: stories, articles, lists, image galleries, and much more. ~TiddlyWiki's features such as tagging, hyperlinking, and filters are specially designed to help you relate and connect tiddlers together in multiple ways, facilitating your future retrieval of your notes and even helping you see unexpected relationships among your tiddlers and the information they contain.
+
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous
+created:20140320230543190
+modified:20140916121854696
+tags:HelloThere Community
+title:Examples
+type:text/vnd.tiddlywiki
+
+This collection showcases inspiring and interesting examples of TiddlyWiki being used in the wild.
+
+Submit new entries to this collection via GitHub, Twitter or by posting in the [[TiddlyWiki Groups|Forums]].
+
+<div class="tc-link-info">
+
+<$list filter="[tag[Examples]!sort[modified]]">
+
+<div class="tc-link-info-item">
+
+! <$link><$view field="title"/></$link>
+
+<div class="tc-subtitle">Posted <$view field="modified" format="relativedate"/></div>
+
+<$transclude/>
+
+</div>
+
+</$list>
+
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous
+created:20140904090300000
+modified:20150414072129239
+tags:HelloThere
+title:Some of the things you can do with TiddlyWiki
+type:text/vnd.tiddlywiki
+
+* Take notes, and use tags and hyperlinking to form relationships between your notes
+* Use tabs, tables, tag-based lists, and tables of contents to get organised
+* Bookmark your favorite websites (see an example at http://giffmex.org/experiments/tidmarks.html)
+* Keep track of tasks and appointments, and organise them by multiple tags (see our TaskManagementExample)
+* Inventory just about anything: your recipes, personal library, contacts, music collection, and more
+* Create a blog or website
+* Write a book
+* Organise your images into galleries (see our [[ImageGallery Example]])
+* Share the information in your ~TiddlyWiki with others, as an online file, as a file attachment, as a tiddler file, or as a link to a specific online tiddler (try clicking and dragging a tiddler from one ~TiddlyWiki file to another to see what happens)
+* Draw a sketch (Edit [[Motovun Jack.jpg]] and start drawing over the image to see what happens)
+* Use familiar web user interface elements such as lightboxes - see SampleWizard
+* Create a slideshow presentation
+* Set up an entire local or online knowledgebase, with a central ~TiddlyWiki file linking to other ~TiddlyWiki files (http://recursos.giffmex.org is a Spanish online example of this)
+* Set up a data visualisation using tiddlers as data (see the visualisations at http://tiddlywiki.com/plugins/tiddlywiki/d3/index.html)
+
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous
+created:20140904085700000
+modified:20150414071655191
+tags:HelloThere
+title:Ten reasons to switch to TiddlyWiki
+type:text/vnd.tiddlywiki
+
+@@.tc-double-spaced-list
+# With ~TiddlyWiki you can organise your notes your way, not their way. Your notes conform to your way of thinking rather than being forced into a hierarchical straightjacket of notebooks and tabs
+# ~TiddlyWiki's nonlinear approach will actually make you think about your information in new and helpful ways
+# Finding your notes in ~TiddlyWiki is lightning fast
+# There are many ways to customise and adapt every aspect of ~TiddlyWiki
+# ~TiddlyWiki is free and is compatible with all platforms. Any web browser will open it. You don't need to purchase an expensive program or pay a subscription fee to use it
+# ~TiddlyWiki files promote the free sharing of information. There are many ways you can share your information from ~TiddlyWiki
+# With ~TiddlyWiki, your information is yours, and you store it where you want to - on your device, on a USB stick, in Dropbox, on your server
+# ~TiddlyWiki features an ever-growing number of plugins, themes, widgets, and languages
+# The online ~TiddlyWiki community is friendly and will do their best to give you the help you need
+# If you are a programmer, you have even more ways to play with ~TiddlyWiki. With ~TiddlyWiki, the more you know, the more fun you can have with it
+@@
+
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous
+created:20140904085100000
+modified:20140904085100000
+tags:HelloThere
+title:What happened to the original TiddlyWiki?
+
+<a class="tc-float-right tc-bordered-image" href="http://classic.tiddlywiki.com/" target="_blank">[img width="200" [TiddlyWiki Classic.png]]</a>
+
+The original [[Classic|TiddlyWikiClassic]] version of TiddlyWiki is still available at:
+
+http://classic.tiddlywiki.com.
+
+Note that the [[current version|TiddlyWiki5]] of TiddlyWiki is not fully backwards compatible with TiddlyWikiClassic. Content can be imported but will need massaging to adapt to the new WikiText format. A ''tw2parser'' plugin is under development that will allow faithful display of most content created for TiddlyWikiClassic:
+
+http://tiddlywiki.com/plugins/tiddlywiki/tw2parser/
+
+thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous

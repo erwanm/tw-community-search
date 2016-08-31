@@ -1,0 +1,13 @@
+title: $:/TiddlerTools/TagTiddlers
+created: 20141228094500000
+modified: 20141228094500000
+original-tags: Concepts
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: TagTiddlers
+source-tiddler-title-as-link: TagTiddlers
+
+A tag tiddler is any tiddler that is in use as a tag.
+
+The ''Tagging'' tab on the InfoPanel of a tag tiddler shows which tiddlers are tagged with the tag tiddler.
+
+A tag can be used without a corresponding tag tiddler.

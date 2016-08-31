@@ -1,0 +1,10 @@
+title: $:/ListManagement/New Tiddler 4
+created: 20160204233358587
+modified: 20160204233955701
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: New Tiddler 4
+source-tiddler-title-as-link: New%20Tiddler%204
+
+|edit |view |h
+|<$edit-text tag="textarea" tiddler="ttt" field="test" /> |<$transclude mode="block" tiddler="ttt" field="test" /> |

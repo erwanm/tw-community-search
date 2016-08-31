@@ -1,0 +1,42 @@
+title: $:/TW5Toolbar/Introduction
+created: 20131122170358987
+creator: TonGerner
+modified: 20160214142923923
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+''@@.brown Introduction@@''
+
+The 'top toolbar' is available as a plugin, just drag & drop:
+
+# [[$:/plugins/tongerner/toolbar]] (v<<pversion "toolbar">>)
+# [[$:/plugins/tongerner/layout_adjustment]] (v<<pversion "layout_adjustment">>)<br>to your wiki to add the toolbar plugin.
+
+<<<
+''Note:''
+
+* With [[$:/plugins/tongerner/layout_adjustment]] - common to many of my plugins - you can 'correct' the layout in case extra top space is required for a toolbar, top menu, breadcrumbs, ...
+* The 'top toolbar' plugin can be combined with  my 'topmenu', 'breadcrumbs', 'tabstory', and 'uptoolbar' (toolbar above title) plugins.
+* As a demo it does not show all toolbar buttons that can be added to the top toolbar. Buttons can be switched on/off: 'Control panel' > 'Appearance' > 'Toolbars' > [['Top toolbar'|$:/plugins/tongerner/toolbar/toolbar-display]].
+<<<
+
+[[$:/plugins/tongerner/layout_adjustment]] creates a top bar - tagged with [[$:/tags/PageTemplate]] - as background and boundary for a top menu, toolbar, breadcrumbs, etc.
+
+[[$:/plugins/tongerner/toolbar]] creates a toolbar with buttons, tagged with [[$:/tags/TopLeftBar]]
+
+* The buttons can be switched on/off in 'Control panel' > 'Appearance' > 'Toolbars' > 'Top toolbar'.<br>
+* The order of the buttons in the toolbar can be changed in [[$:/tags/TopLeftBar]].
+
+<<<
+''Note:''
+
+This TW uses - besides the 'Top toolbar' and 'Layout adjustments' plugin:
+
+* My Bluish theme v<<tversion "bluish">>
+* My Systemtags plugin v<<pversion "systemtags">> which adds a 'System tags' tab below the 'Tags' tab
+* My Listrecent plugin v<<pversion "listrecent">> which sorts the recent results each day in alphabetical order. 
+* @@.BLUE Theme and plugins are available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins@@).
+<<<

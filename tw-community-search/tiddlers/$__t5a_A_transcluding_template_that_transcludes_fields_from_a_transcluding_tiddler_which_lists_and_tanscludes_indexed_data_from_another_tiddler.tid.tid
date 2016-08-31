@@ -1,0 +1,26 @@
+title: $:/t5a/A transcluding template that transcludes fields from a transcluding tiddler which lists and tanscludes indexed data from another tiddler
+created: 20151121180856489
+creator: Andrew Harrison
+modified: 20160418044846859
+modifier: Andrew Harrison
+resource: https://groups.google.com/forum/#!searchin/tiddlywiki/transclude$20field$20of$20variable/tiddlywiki/RiexkBExCF0/gdRteZFxyj8J
+show-field: resource
+original-tags: Example New
+source-wiki-id: t5a
+source-tiddler-title-as-text: A transcluding template that transcludes fields from a transcluding tiddler which lists and tanscludes indexed data from another tiddler
+source-tiddler-title-as-link: A%20transcluding%20template%20that%20transcludes%20fields%20from%20a%20transcluding%20tiddler%20which%20lists%20and%20tanscludes%20indexed%20data%20from%20another%20tiddler
+
+```
+<$list filter='[{!!code}indexes[]rest{!!code_start}limit{!!code_len}]' variable='ndx'>
+<$transclude tiddler={{!!code}} index=<<ndx>>/>
+</$list>
+```
+@@!!code@@ is a tiddler of type application/x-tiddler-dictionary
+
+```
+<$vars Cd={{!!code}} St={{!!code_start}} Ln={{!!code_len}}> 
+<$list filter='[<Cd>indexes[]rest<St>limit<Ln>]' variable='ndx'>
+<$transclude tiddler=<<Cd>> index=<<ndx>>/>
+</$list>
+</$vars>
+```

@@ -1,0 +1,24 @@
+title: $:/TonGernerPlayground/Uptoolbar plugin
+caption: Uptoolbar
+created: 20160111103524320
+creator: TonGerner
+modified: 20160725145805890
+modifier: TonGerner
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Uptoolbar plugin
+source-tiddler-title-as-link: Uptoolbar%20plugin
+
+!!Uptoolbar plugin v<<pversion "uptoolbar">>
+{{Under construction plugin_}}
+{{Upgraded}}
+
+!!!!Readme (from plugin)
+{{$:/plugins/tongerner/uptoolbar/readme}}
+
+---
+
+Drag & drop the following links to your wiki to install this plugin.
+
+* [[$:/plugins/tongerner/uptoolbar]]
+* [[$:/plugins/tongerner/layout_adjustment]]

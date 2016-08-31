@@ -1,0 +1,34 @@
+title: $:/Draft of '2click2edit 1'/Installation
+created: 20140901120057909
+home-order: 2
+list-before: Features
+modified: 20140901120057909
+type: text/vnd.tiddlywiki
+original-tags: Home even
+source-wiki-id: Draft of '2click2edit 1'
+source-tiddler-title-as-text: Installation
+source-tiddler-title-as-link: Installation
+
+NoteSelf does not require any installation.
+It works directly in your browser, which includes most modern web browsers
+and many mobile browsers.
+
+How you play it is up to you: 
+
+* Online, directly from your browser.
+* Or you can download a personal copy and run it from your hard drive.
+
+ <div class="tc-centered">
+ {{$:/NoteSelf/Site/Buttons/Online}}  {{$:/TiddlyPouch/Site/Buttons/Download}}
+ </div> 
+
+If you decide to download a copy you can start using it just opening your browser's download section and click on the `empty.html` file you just downloaded. 
+''If you want to rename the file, do it before saving any note in it''! 
+
+ 
+ !!! Congratulations! you got your own Notebook 
+
+,,Although NoteSelf is more a TW version than just a plugin, 
+if you are only interested on the plugin itself, there is
+also a method for [[installing the plugin|$:/plugins/danielo515/tiddlypouch/Installation]] 
+in your own tiddlywiki.,,

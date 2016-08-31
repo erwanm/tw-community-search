@@ -1,0 +1,26 @@
+title: $:/LibreNote/PostTemplate (footer)
+created: 20160111093531207
+creator: svink
+modified: 20160722160106882
+modifier: svink
+original-tags: $:/tags/ViewTemplate Template
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: PostTemplate (footer)
+source-tiddler-title-as-link: PostTemplate%20%28footer%29
+
+<div style="margin-left:12em; margin-right:12em; ">
+<$list filter='[is[current]tag[Blog]]'>
+<br>
+<hr>
+@@.back-home
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/StoryList" list="
+[[DerniersPosts]]
+[[ListeTags]]"/>
+<$action-navigate $to="DerniersPosts" $scroll="yes"/>
+<i class="fa fa-home"></i> Derniers articles
+</$button>
+@@
+@@.back-top
+<$link to=<<currentTiddler>>><i class="fa fa-angle-up"></i> <$view field=title/></$link>
+@@

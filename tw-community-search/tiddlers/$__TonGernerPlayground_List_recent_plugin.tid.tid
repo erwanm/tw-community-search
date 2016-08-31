@@ -1,0 +1,23 @@
+title: $:/TonGernerPlayground/List recent plugin
+caption: List recent
+created: 20160130132450206
+creator: TonGerner
+modified: 20160725145438512
+modifier: TonGerner
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: List recent plugin
+source-tiddler-title-as-link: List%20recent%20plugin
+
+!!List recent plugin v<<pversion "listrecent">>
+{{Under construction plugin_}}
+{{Upgraded}}
+
+!!!!Readme (from listrecent)
+{{$:/plugins/tongerner/listrecent/readme}}
+
+---
+
+Drag & drop the following link to your wiki to install this plugin.
+
+* [[$:/plugins/tongerner/listrecent]]

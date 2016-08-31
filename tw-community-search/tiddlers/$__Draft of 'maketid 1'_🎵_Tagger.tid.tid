@@ -1,0 +1,53 @@
+title: $:/Draft of 'maketid 1'/🎵 Tagger
+created: 20160119121344071
+creator: Matabele
+modified: 20160131093809771
+modifier: Matabele
+original-tags: tagger one two 🐸 🍒
+source-wiki-id: Draft of 'maketid 1'
+source-tiddler-title-as-text: 🎵 Tagger
+source-tiddler-title-as-link: %1f3b5%20Tagger
+
+;Introduction
+
+A simple utility for editing tags:
+
+* easily add/remove/edit tags from the view template
+* add the same tag(s) to several tiddlers
+* copy tags from one tiddler to other tiddlers
+* change the tag colour and/or icon
+* delete all tags from the current tiddler with a single click
+
+;How to Use
+
+* handy if you enable the Info button in the 'View' template
+* open the Info panel with the Info button
+* enter new tags in the top line
+* click ''+'' to add, or ''x'' to delete the tags listed in the top line
+* require square brackets around `[[tags with spaces]]`
+* click any of the 'delete me' pills in the lower line to delete individual tags
+* fetch the current tags with the 'unfold' button
+* delete all tags with the 'close all' button
+* the list of tags is 'sticky'; may be used to tag several tiddlers with the same tags
+* or may be used to copy tags from one tiddler to another
+
+;How to Install
+
+* copy the plugin over to your wiki:  [[$:/plugins/matabele/simple-tagger]]
+* save and refresh your wiki
+* the plugin adds the tool as a tab to the Info panel
+* to change the default tab to 'Tagger'
+* or to install 'Tagger' above the tabs in the Info panel
+* open the settings bar ⚙ 
+* click whichever option you wish to exercise
+
+;Adding an Emoji to the Tag Dropdown in Your Wiki
+
+Grab any emoji you wish use for your tags from the [[🌤 Make and Export Emoji]]
+
+* these are links to tiddlers containing an emoji
+* they are different from the cut&paste emojis below
+* choose only a small selection of those you will use
+* more can always be added later
+
+

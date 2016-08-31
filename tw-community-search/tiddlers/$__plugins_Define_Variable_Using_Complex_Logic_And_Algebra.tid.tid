@@ -1,0 +1,60 @@
+title: $:/plugins/Define Variable Using Complex Logic And Algebra
+created: 20160107121615794
+creator: Tobias Beer
+modified: 20160107121747951
+modifier: Tobias Beer
+revision: 0
+summary: use the [[setvars]] widget to define variables from a complex calculation and logical evaluation using [[eval]]
+type: text/vnd.tiddlywiki
+original-tags: setvars eval Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: Define Variable Using Complex Logic And Algebra
+source-tiddler-title-as-link: Define%20Variable%20Using%20Complex%20Logic%20And%20Algebra
+
+```
+<$setvars
+	_eval = """[[]eval[and(
+		"{{setvars-Conditionals!!true}}",
+		"{{setvars-Conditionals!!false}}"
+	)]]"""
+	_multiply = "[[]eval[
+		{{setvars-Conditionals!!ten}} *
+		{{setvars-Conditionals!!five}}
+	]]"
+	_divide = "[[]eval[
+		{{setvars-Conditionals!!ten}} /
+		{{setvars-Conditionals!!five}}
+	]]"
+result="([eval] == \true\ ? [multiply]) || [divide]">
+
+!! ''Result'' = <<result>><br/>
+''true'' = "{{setvars-Conditionals!!true}}"<br/>
+''false'' = "{{setvars-Conditionals!!false}}"<br/>
+''ten'' = "{{setvars-Conditionals!!ten}}"<br/>
+''five'' = "{{setvars-Conditionals!!five}}"<br/>
+</$setvars>
+```
+
+<<<
+<$setvars
+	_eval = """[[]eval[and(
+		"{{setvars-Conditionals!!true}}",
+		"{{setvars-Conditionals!!false}}"
+	)]]"""
+	_multiply = "[[]eval[
+		{{setvars-Conditionals!!ten}} *
+		{{setvars-Conditionals!!five}}
+	]]"
+	_divide = "[[]eval[
+		{{setvars-Conditionals!!ten}} /
+		{{setvars-Conditionals!!five}}
+	]]"
+result="([eval] == \true\ ? [multiply]) || [divide]">
+
+!! ''Result'' = <<result>><br/>
+''true'' = "{{setvars-Conditionals!!true}}"<br/>
+''false'' = "{{setvars-Conditionals!!false}}"<br/>
+''ten'' = "{{setvars-Conditionals!!ten}}"<br/>
+''five'' = "{{setvars-Conditionals!!five}}"<br/>
+</$setvars>
+<<<

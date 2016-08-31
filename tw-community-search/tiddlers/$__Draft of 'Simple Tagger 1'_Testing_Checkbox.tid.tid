@@ -1,0 +1,74 @@
+title: $:/Draft of 'Simple Tagger 1'/Testing Checkbox
+created: 20160102085948422
+modified: 20160112155816100
+testing: 
+original-tags: 
+source-wiki-id: Draft of 'Simple Tagger 1'
+source-tiddler-title-as-text: Testing Checkbox
+source-tiddler-title-as-link: Testing%20Checkbox
+
+! Setting Tag
+
+;Current Tiddler (default)
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox tag="testing tagging">Toggle Tag</$checkbox>
+<$checkbox tag="testing tagging" invertTag="yes">Toggle Tag </$checkbox>"""/>
+
+{{!!tags}}
+
+;Target Tiddler
+
+<$button><$action-deletetiddler $tiddler="Target"/>Delete Target</$button>
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox tiddler="Target" tag="testing tagging">Toggle Tag</$checkbox>
+<$checkbox tiddler="Target" tag="testing tagging" invertTag="yes">Toggle Tag</$checkbox>"""/>
+
+{{Target!!tags}}
+
+! Setting Field
+
+;Current Tiddler
+
+<$button><$action-setfield testing=""/>Clear</$button>
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox field="testing" checked="some string" unchecked="another longer string" >Set Field</$checkbox>"""/>
+
+{{!!testing}}
+
+;Target Tiddler
+
+<$button><$action-deletetiddler $tiddler="Target"/>Delete Target</$button>
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox tiddler="Target" field="testing" checked="some string" unchecked="another longer string" default="some string">Set Field</$checkbox>
+<$checkbox tiddler="Target" field="testing" checked="some string" unchecked="another longer string" default="another longer string">Set Field</$checkbox>"""/>
+
+{{Target!!testing}}
+
+! Setting Index
+
+;Target Tiddler
+
+<$button><$action-deletetiddler $tiddler="Target"/>Delete Target</$button>
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox tiddler="Target" index="testing"checked="checked" unchecked="unchecked" default="checked">Set Checked</$checkbox>
+<$checkbox tiddler="Target" index="testing"checked="checked" unchecked="unchecked" default="unchecked">Set Unchecked</$checkbox>"""/>
+
+{{Target}}
+
+! Combinations
+
+<$macrocall $name='wikitext-example-without-html'
+src="""<$checkbox tiddler="Target" index="testing" field="testing" checked="checked" unchecked="unchecked">Set Index&Field</$checkbox>
+<$checkbox tiddler="Target" index="testing" tag="test" checked="checked" unchecked="unchecked" >Set Index&Tag</$checkbox>
+<$checkbox tiddler="Target" field="testing" tag="test" checked="checked" unchecked="unchecked" >Set Field&Tag</$checkbox>
+<$checkbox tiddler="Target" field="testing" index="testing" tag="test" checked="checked" unchecked="unchecked" >Set All</$checkbox>"""/>
+
+Field: {{Target!!testing}}
+Tag: {{Target!!tags}}
+Index: {{Target##testing}}
+

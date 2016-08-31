@@ -1,0 +1,26 @@
+audience: 
+category: Data Presentation
+created: 20151015075959708
+date: 13-6-2016
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: inmysocks
+modified: 20160613163757676
+name: Wizard Wizard
+plugin_tiddler: $:/plugins/inmysocks/WizardWizard
+release: 
+repository: 
+revision: 0.0.2
+short_description: A plugin to aid in the creation of multi-step setup wizards or slide shows
+title: twCard - Plugin - WizardWizard
+wiki: http://ooktech.com/jed/ExampleWikis/WizardWizard/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: WizardWizard
+twcs-extracted-plugin-tiddler: $:/WizardWizard/$:/plugins/inmysocks/WizardWizard
+twcs-description: A plugin to help create setup wizards or slideshows
+twcs-author: inmysocks
+twcs-version: 0.0.2
+
+{{||$:/CommunityPluginTemplate}}

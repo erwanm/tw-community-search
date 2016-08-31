@@ -1,0 +1,14 @@
+title: $:/Draft of 'Tiddler Bundles 1'/$:/plugins/inmysocks/FetchTiddlers
+author: inmysocks
+core-version: >=5.1.10
+dependents: 
+description: A plugin that lets you create and unpack tiddler bundles as well as fetch tiddlers from other wikis
+source: 
+version: 0.0.1
+original-tags: 
+source-wiki-id: Draft of 'Tiddler Bundles 1'
+source-tiddler-title-as-text: $:/plugins/inmysocks/FetchTiddlers
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fFetchTiddlers
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

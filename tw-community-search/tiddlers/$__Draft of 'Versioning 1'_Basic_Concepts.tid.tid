@@ -1,0 +1,57 @@
+title: $:/Draft of 'Versioning 1'/Basic Concepts
+caption: Basics
+created: 20160819092419739
+creator: twMat
+modified: 20160819170922866
+modifier: twMat
+original-tags: 
+source-wiki-id: Draft of 'Versioning 1'
+source-tiddler-title-as-text: Basic Concepts
+source-tiddler-title-as-link: Basic%20Concepts
+
+!!!Basic concepts that are good to be familiar with
+
+''Opt-in'' -  {{Opt-in}}
+
+''Fetching'' - {{Fetching}} 
+
+''Posting'' and ''Publishing'' - Strictly speaking, there is //publishing// but there is no "posting" in TWederation <<stretch "//(Huh?)//" """<br>//Posting// indicates that you //send// something, which you cannot do in TWederation. Rather, you //publish// something as in "making it public". The only reason why to bother with the distinction is to prevent people from mistakenly thinking that one can //send// stuff in TWederation. ...However, for //convenience//, we will refer to the //noun// as "a post" rather than as "a publication".<br> """>> So, when you //publish// a tiddler it stays in your own wiki but gets <<stretch "tweaked" "for fetching. Any tiddler can be published, not only text tiddlers.<br>" """The specific TWederation [[application|Applications]] changes the tiddler so that:<br>
+&nbsp; &nbsp;● the tiddler title  becomes [[unique|Unique Titles]] in the whole TWederation
+&nbsp; &nbsp;● [[certain fields|Application Specific Fields]] are added to specify which TWederation [[applications|Applications]] the tiddler is intended for.<br><br>""">>
+
+''Announce existence'' - To have someone //fetch// from your wiki, that owner must be informed about your wikis existence. The current //modus operandi// for this is to have your wikis existence announced on the [[The twCards List]]. As this list is hosted here, hopefully people will note and fetch your twCard. [I have further ideas on notifications]
+<br>
+
+
+''TiddlyWiki networks''<br>
+General illustration of what a network  in TWederation can look like. You see differently named, twederated wikis and from which wikis they are //fetching//.
+<br><br>
+
+
+<span style="text-align: center;display: block;">{{TWederation-example - Mat von TWaddle (20160802012656129)}}</span>
+
+<div style="padding:5px; font-style:italic;">
+//Oooh// - that is ''your'' TiddlyWiki in the middle, with a loaded stack of cool tiddlers!
+<br>You are //fetching// from four other twederated wikis. Apparently you're not fetching from the Tiddly Docs wiki, at least not in this particular wiki of yours. But - //aha!// - Tiddly Docs is fetching from you!  (//- thanks! Love to you!// )
+</div>
+
+
+''The TWederation'' {{$:/favicon.ico}}<br> 
+The original, and so far biggest, network is simply referred to as [[The TWederation]]. Its most prominent member wiki is [[http://twederation.tiddlyspot.com]] which serves as a distribution point for the plugins and as a general information center about the TWederation at large.
+
+
+''The fetching mechanism''
+<<revealCard "Basics about the feching mechanism"
+"""
+''Don't worry'', this happens automatically in the background... but it's good to have a rudimentary understanding of how the "TWederation mechanism" works and what happens when you fetch tiddlers:
+
+When you //fetch// tiddlers, the source wiki is actually //fully// loaded into your wiki, but into a temporary [[iframe|http://www.w3schools.com/html/html_iframe.asp]].
+
+Thanks to some javascript magic, it is possible to send(!) a request into this iframe containing the specification for which tiddlers you want. 
+
+On receiving this request, the TWederation core in the iframed wiki //bundles// the specified tiddlers and sends this bundle back to the outer wiki, i.e your TiddlyWiki. The bundle is one tiddler that contains all the individual tiddlers fields content in plain text (title, text, creator name, etc). When it is unbundled, it is "split up" into individual tiddlers... just like you want them.
+
+If you use a particular application to fetch, for example the //Discussions// application, then in the message setn it will include the requirement that the tiddlers have the field `role:twDiscussionPost` which is characteristic for all discussion posts. 
+
+After the tiddlers are fetched and unbundled, the application does whatever it made for with the tiddlers particular for the application. In the case of the //Discussions// this means it filters out all tiddlers with `role:twDiscussionPost` and displays them appropriately.
+""">>

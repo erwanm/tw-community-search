@@ -1,0 +1,17 @@
+title: $:/t5a/$:/plugin/ajh/openall
+created: 20150806001821444
+creator: Andrew
+dependents: $:/language/Buttons/OpenAll/Caption $:/language/Buttons/OpenAll/Hint $:/plugin/ajh/openall/icon $:/plugin/ajh/openall/image $:/plugin/ajh/openall/readme $:/plugin/ajh/openall/stylesheet $:/plugin/ajh/openall/template
+description: Open All Button
+list: readme
+modified: 20160625023453327
+modifier: Andrew
+source: http://openall.tiddlyspot.com/
+version: 0.0.1
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugin/ajh/openall
+source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2fopenall
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

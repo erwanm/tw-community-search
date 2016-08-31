@@ -1,0 +1,21 @@
+title: $:/TonGernerPlayground/Breadcrumbs
+created: 20140226160303663
+creator: TonGerner
+modified: 20160725155218949
+modifier: TonGerner
+original-tags: documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Breadcrumbs
+source-tiddler-title-as-link: Breadcrumbs
+
+@@.BROWN How to add breadcrumbs@@
+
+{{Under construction guide_}}
+{{Upgraded}}
+
+''Note:'' @@.RED Available as plugin.@@
+
+This guide describes how to add a top menu with <<slider "breadcrumbs" "Breadcrumbs info">> to a TW5.
+
+
+''Guide at ~TiddlySpot:''<br>[[How to add breadcrumbs|http://tw5breadcrumbs.tiddlyspot.com/]]

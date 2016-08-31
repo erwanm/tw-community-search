@@ -1,0 +1,9 @@
+author: FrD
+created: 20160827232651085
+modified: 20160827232703669
+tags: CommunityWikis
+title: SimpleModalTemplate
+type: text/vnd.tiddlywiki
+wiki-address: http://simplemodaltemplate.tiddlyspot.com/
+
+{{||$:/CommunityWikiPresentationTemplate}}

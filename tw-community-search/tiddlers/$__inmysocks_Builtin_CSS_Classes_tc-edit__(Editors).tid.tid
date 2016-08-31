@@ -1,0 +1,29 @@
+title: $:/inmysocks/Builtin CSS Classes tc-edit* (Editors)
+caption: Editors
+created: 20150426202323724
+modified: 20150426222744988
+original-tags: [[Builtin CSS Classes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Builtin CSS Classes tc-edit* (Editors)
+source-tiddler-title-as-link: Builtin%20CSS%20Classes%20tc-edit%2a%20%28Editors%29
+
+These apply to the various editors
+
+|!Name |!Description |
+|tc-edit |? |
+|tc-edit-add-tag |? |
+|tc-edit-add-tag-name |? |
+|tc-edit-bitmapeditor |The bitmap editor |
+|tc-edit-bitmapeditor-height |Height of the bitmap editor |
+|tc-edit-bitmapeditor-width |Width of the bitmap editor |
+|tc-edit-field-add-button |The `add` button for adding fields to tiddlers in edit mode |
+|tc-edit-field-add-name |The `field name` text input box for adding fields to tiddlers in edit mode |
+|tc-edit-field-add-value |The `field value` text input box for adding fields to tiddlers in edit mode |
+|tc-edit-field-name |The field names of existing fields in a tiddler in edit mode |
+|tc-edit-field-remove |The remove field button for tiddlers in edit mode |
+|tc-edit-field-value |The field value display for tiddlers in edit mode |
+|tc-edit-fields |? |
+|tc-edit-tags |? |
+|tc-edit-tags-list |? |
+|tc-edit-texteditor |Applied to text editing areas |
+|tc-edit-type-dropdown |The dropdown for setting the `type` field of a tiddler in edit mode |

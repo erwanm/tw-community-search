@@ -1,0 +1,16 @@
+title: $:/Draft of 'Tagg 1'/$:/plugins/SideEditor
+author: Mat, Knut
+core-version: 5.1.9
+dependents: 
+description: SideEditor - a "live" editor next to your tiddler
+list: readme
+revision: 0
+source: http://sideeditor.tiddlyspot.com/
+version: 0.0.9
+original-tags: 
+source-wiki-id: Draft of 'Tagg 1'
+source-tiddler-title-as-text: $:/plugins/SideEditor
+source-tiddler-title-as-link: %24%3a%2fplugins%2fSideEditor
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

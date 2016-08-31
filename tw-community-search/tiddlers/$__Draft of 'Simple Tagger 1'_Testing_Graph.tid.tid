@@ -1,0 +1,26 @@
+title: $:/Draft of 'Simple Tagger 1'/Testing Graph
+created: 20151111050334808
+modified: 20160103142249623
+start: Macros
+original-tags: 
+source-wiki-id: Draft of 'Simple Tagger 1'
+source-tiddler-title-as-text: Testing Graph
+source-tiddler-title-as-link: Testing%20Graph
+
+Start: <$edit-text field="start" tag="input" default="" focusPopup="$:/state/demo" class="tc-popup-handle"/>
+<$reveal state="$:/state/demo" type="nomatch" text="" default="">
+<div class="tc-block-dropdown">
+<$linkcatcher to="!!start">
+<div class="tc-dropdown-item">
+<$list filter="[list[Reference]sort[title]]">
+
+</$list>
+</div>
+</$linkcatcher>
+</div>
+</$reveal>
+
+<$set name="start" value={{!!start}}>
+<$tidgraph start=<<start>> />
+</$set>
+

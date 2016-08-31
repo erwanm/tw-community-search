@@ -7,8 +7,7 @@ type: text/vnd.tiddlywiki
 wiki-address: http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html
 wiki-tw-version: 5.1.7
 wiki-latest-modification: 20151124205522572
-wiki-nb-tiddlers: 328
+wiki-nb-tiddlers: 326
 
-TW Hangouts <$link to="TiddlyWiki">Powered by ~TiddlyWiki <<version>></$link>
 
 {{||$:/CommunityWikiPresentationTemplate}}

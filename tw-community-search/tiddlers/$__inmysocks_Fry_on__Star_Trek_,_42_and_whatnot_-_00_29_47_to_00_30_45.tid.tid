@@ -1,0 +1,24 @@
+title: $:/inmysocks/Fry on "Star Trek", 42 and whatnot - 00:29:47 to 00:30:45
+auto_play: 1
+created: 20141231075939121
+description: 
+end: 00:30:45
+hours: 
+link: 
+minutes: 
+modified: 20150107001533636
+seconds: 
+segment_description: The answer, or I suppose the question
+start: 00:29:47
+original-tags: [[Video Segment]] [[Fry on "Star Trek", 42 and whatnot]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fry on "Star Trek", 42 and whatnot - 00:29:47 to 00:30:45
+source-tiddler-title-as-link: Fry%20on%20%22Star%20Trek%22%2c%2042%20and%20whatnot%20-%2000%3a29%3a47%20to%2000%3a30%3a45
+
+{{!!segment_description}}
+
+<$set name=videoID value={{$:/.rich/data/videos##Fry on "Star Trek", 42 and whatnot}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start="00:29:47" end="00:30:45"/>
+</$set>
+
+Although if you actually read the series the reason is not quite but almost spelled out. Although, why the number 42 specifically isn't I suppose.

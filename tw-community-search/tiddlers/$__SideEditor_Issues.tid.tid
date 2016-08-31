@@ -1,0 +1,17 @@
+title: $:/SideEditor/Issues
+created: 20150602065231698
+creator: Mat
+modified: 20160514184227820
+modifier: Mat
+original-tags: 
+source-wiki-id: SideEditor
+source-tiddler-title-as-text: Issues
+source-tiddler-title-as-link: Issues
+
+!!Issues
+
+* ''Macros'' are better not side-edited because they update the system after each keypress, making the ~SideEditor loose focus
+* ''Height'' -  the ~SideEditor doesn't auto-expand to full tiddler height. I hope to find out why but meanwhile, in use, I handle this by inserting a new row (iclick Return key). This pushes the whole content down, expanding ~SideEditor to full text height. Then delete the new line.
+* ''Flipping'' - the flip trigger along right side of sidebarlist ( {{PeekToggler}}), unconveniently is active also when the sidebarpopup is not active making for an area in SE that you cannot click onto, eg to put cursor at that point in text.
+* ''Flipping'' - I want a flip trigger beneath sidebar lists so that if the list is short (e.g the "Open" list) and ~SideEditor is sticks out below it, hovering this area would cause flip... but I can't get this to work in a satisfying way (it has to do with the z-index).
+* ''Styles blocks'' still in code rather than as separate Stylesheet. Still too much tweaking to be made to split out.

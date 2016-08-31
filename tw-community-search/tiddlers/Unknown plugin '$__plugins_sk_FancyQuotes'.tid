@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/sk/FancyQuotes'
+name: unknown
+plugin_tiddler: $:/plugins/sk/FancyQuotes
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

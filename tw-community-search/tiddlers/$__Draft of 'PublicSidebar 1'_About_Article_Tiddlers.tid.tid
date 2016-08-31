@@ -1,0 +1,40 @@
+title: $:/Draft of 'PublicSidebar 1'/About Article Tiddlers
+created: 20160825145247114
+creator: twMat
+modified: 20160828194107459
+modifier: twMat
+original-tags: 
+source-wiki-id: Draft of 'PublicSidebar 1'
+source-tiddler-title-as-text: About Article Tiddlers
+source-tiddler-title-as-link: About%20Article%20Tiddlers
+
+An ''Article Tiddler'' lets you present multiple tiddlers as a unit. Individual tiddlers therein are analogous to //paragraphs// in an article.
+
+
+*''Preserve narrative'' - @@color:crimson;font-style:italic;Big deal!@@ Keep the //context// by creating paragraph tiddlers directly at their correct position in the article tiddler. <<stretch "Explanation >"
+"""
+<br>Normal 'tiddlerization' of information //looses// the narrative, i.e the natural //sequence// that information is presented in at, say, a lecture. In TW we primarily ''post''-organize tiddlers, e.g by //categorizing// or //filtering//, but this does not easily restore a desired //narrative//. But //exact sequence// of content is crucial in many cases, e.g; 
+
+<ul><li>articles, papers, essays, presentational webpages, lecture notes, text annotations, trains-of-thought, stories, etc</li></ul>
+In an //article tiddler// the order is preserved by creating the //paragraph tiddlers// directly at the correct position ([[Help]]), where they stay unless you change their position<br>.
+""">>
+
+*''Unit handling'' - The full article is managed as one tiddler. <<stretch "Examples >" """
+<br><ul><li>Open/close an article with all its paragraph tiddlers as one unit, mid-story river.</li><li>...still, transclusion of an article or a paragraph gets only that tiddlers immediate text content, i.e not its contained paragraphs.</li><li>The sidebar only lists the article titles, not the contained paragraphs.</li><li>...unless a paragraph tiddler is opened separately, of course</li></ul><br>""">>
+*''...yet //power o´ tiddly//'' - //Articles// and //paragraphs// are regular tiddlers to re-use, slice and dice.
+
+
+!!!Demos
+*[[GenericArticle]] - boring, explanatory demo
+*[[Beyond Terminator]] - fun, realistic demo
+
+!!!Note
+The demo paragraphs are //displayed// as "flat-linear", suitable for article-like applications. But by just changing the paragraph //display//, completely <<stretch "different applications" "are possible." """<span>
+
+*''nested + indented'' for discussion threads/forums
+**(this is actually why I'm bringing forth this whole concept now; I think a general solution would be useful for my current main concern; TWederation and adding of comments/discussions on other peoples tiddlers.) 
+*as ''tabs''... perhaps useful for multiple "versions" of a tiddlers text
+**(see [[Versioning|http://versioning.tiddlyspot.com/]] for basic concept)
+</span>
+"""
+>>

@@ -1,0 +1,17 @@
+title: $:/inmysocks/Bulitin CSS Classes tc-modal* (Modals)
+caption: Modals
+created: 20150426201752569
+modified: 20150426222627150
+original-tags: [[Builtin CSS Classes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Bulitin CSS Classes tc-modal* (Modals)
+source-tiddler-title-as-link: Bulitin%20CSS%20Classes%20tc-modal%2a%20%28Modals%29
+
+|!Name |!Description |
+|tc-modal |Applied to the entire modal |
+|tc-modal-backdrop |? |
+|tc-modal-body |Applied to the modal body |
+|tc-modal-displayed |? |
+|tc-modal-footer |Applied to the modal footer |
+|tc-modal-header |Applied to the modal header |
+|tc-modal-wrapper |? |

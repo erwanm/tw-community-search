@@ -1,0 +1,16 @@
+title: $:/Draft of 'TW5BreadCrumbs 1'/$:/plugins/matabele/setfield
+created: 20140527062220628
+creator: Matabele
+dependents: 
+description: Contains the <$setfield> widget
+list: readme
+modified: 20160203135019226
+modifier: Matabele
+version: 0.0.6
+original-tags: 
+source-wiki-id: Draft of 'TW5BreadCrumbs 1'
+source-tiddler-title-as-text: $:/plugins/matabele/setfield
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fsetfield
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

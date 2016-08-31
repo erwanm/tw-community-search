@@ -1,0 +1,40 @@
+title: $:/TW5BreadCrumbs/Breadcrumbs menu
+caption: Menu
+created: 20140207201512948
+creator: TonGerner
+modified: 20160725155013358
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Breadcrumbs menu
+source-tiddler-title-as-link: Breadcrumbs%20menu
+
+''@@.brown Breadcrumbs menu@@''
+
+Parts can be added to the ~PageTemplate. As of TW5.0.9-beta a ~TopLeftBar and a ~TopRightBar (with double chevron icon for hiding the Sidebar) are standard added to the ~PageTemplate.
+
+Here we will add an extra breadcrumbs menu to the ~PageTemplate by tagging it with [[$:/tags/PageTemplate]].
+
+The breadcrumbs menu comprises 2 tiddlers:
+
+* [[$:/plugins/tongerner/breadcrumbs/breadcrumbs]]
+* [[$:/plugins/tongerner/breadcrumbs/styles]]
+
+!!$:/plugins/tongerner/breadcrumbs/breadcrumbs
+[[$:/plugins/tongerner/breadcrumbs/breadcrumbs]], tagged with [[$:/tags/PageTemplate]], contains:
+
+<<source "$:/plugins/tongerner/breadcrumbs/breadcrumbs">>
+
+This resembles the 'Open' tab in the sidebar: the breadcrumbs (open tiddlers) shown as links (in tabs) followed by a button ('&times;') to close the preceding tiddler.
+
+!!$:/plugins/tongerner/breadcrumbs/styles
+
+The tiddler [[$:/plugins/tongerner/breadcrumbs/styles]], tagged with [[$:/tags/Stylesheet]], contains the styles for the breadcrumbs.
+
+<<<
+''Note:''<br>Values entered in the Settings table ([[$:/plugins/tongerner/breadcrumbs/settings]]) will be transcluded in the stylesheet via fields of the stylesheet, e.g. `top: {{!!top-breadcrumbs}};` renders as `top: 10px;`. See the tabs below:
+<<<
+
+<<tabs "[[Stylesheet (code)]] [[Stylesheet (rendered)]]" "[[]Stylesheet (code)]" "" "">>
+
+

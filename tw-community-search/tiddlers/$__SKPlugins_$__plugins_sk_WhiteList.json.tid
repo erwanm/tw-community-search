@@ -1,0 +1,11 @@
+title: $:/SKPlugins/$:/plugins/sk/WhiteList
+author: Stephen Kimmel
+description: White List
+version: 0.0.3
+original-tags: 
+source-wiki-id: SKPlugins
+source-tiddler-title-as-text: $:/plugins/sk/WhiteList
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fWhiteList
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,4 @@
+title: A normal tag
+new-tiddler: Tag: A normal tag
+
+{{||$:/ObsoleteCommunityTagTemplate}}

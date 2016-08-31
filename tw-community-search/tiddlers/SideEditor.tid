@@ -5,10 +5,9 @@ author: Mat
 title: SideEditor
 type: text/vnd.tiddlywiki
 wiki-address: http://sideeditor.tiddlyspot.com/
-wiki-tw-version: 5.1.9
-wiki-latest-modification: 20150822223258094
+wiki-tw-version: 5.1.11
+wiki-latest-modification: 20160602213232795
 wiki-nb-tiddlers: 4
-
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

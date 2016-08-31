@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tiddlywiki/text-slicer'
-name: unknown
-plugin_tiddler: $:/plugins/tiddlywiki/text-slicer
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,34 @@
+title: $:/LinuxNote/A propos
+created: 20150128080335075
+modified: 20160218141556773
+original-tags: 
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: A propos
+source-tiddler-title-as-link: A%20propos
+
+<i class="fa fa-user"></i> Ce wiki fait partie du projet [[LibreNote|https://librenote.aerobatic.io]] forgé par svink
+
+@@.flotte
+<div style="margin-top:-1em;">
+<a href="https://librenote.aerobatic.io" target="_blank">[img width="150" [https://framadrive.org/public.php?service=files&t=bnLHgQOjvP5IKfG&download]]</a>
+</div>
+@@
+
+<i class="fa fa-spinner"></i> Dernière mise à jour le {{Dernière modification}}
+
+<div style="font-size:0.7em; text-align:left; margin-top:2em; margin-bottom:3em;">
+<a href="mailto:svink@openmailbox.org" class="tc-btn-big-green" style="text-decoration:none; background-color:#FF8C19"; target="_blank"> <i class="fa fa-envelope"></i> Contact mail
+</a>
+
+<a href="https://bitbucket.org/svink/librenote/" class="tc-btn-big-green" style="text-decoration:none; background-color:#5A99D7"; target="_blank">
+<i class="fa fa-bitbucket"></i> Dépôt Bitbucket
+</a>
+
+{{$:/snippets/download-wiki-button}}
+</div>
+
+<hr>
+
+@@.no-border
+|<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a><br /> |  |Sauf mention contraire, le contenu de ce wiki est mis à disposition selon les termes de la Licence CC BY-SA 4.0|
+@@

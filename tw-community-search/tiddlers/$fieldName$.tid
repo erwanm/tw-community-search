@@ -1,0 +1,4 @@
+title: $fieldName$
+new-tiddler: Tag: $fieldName$
+
+{{||$:/ObsoleteCommunityTagTemplate}}

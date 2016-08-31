@@ -1,0 +1,19 @@
+title: $:/Draft of 'listops 1'/GettingStarted - Android
+caption: Android
+created: 20140811171036268
+modified: 20140916124042604
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: Draft of 'listops 1'
+source-tiddler-title-as-text: GettingStarted - Android
+source-tiddler-title-as-link: GettingStarted%20-%20Android
+
+There are two options for using TiddlyWiki on Android:
+
+! Using Firefox and TiddlyFox
+
+{{Saving with TiddlyFox on Android}}
+
+! Using the AndTidWiki App
+
+{{Saving on Android}}

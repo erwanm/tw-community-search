@@ -1,0 +1,16 @@
+title: $:/BJTools/$:/plugins/bj/visualeditor
+author: JeffreyWilkinson
+core-version: >=5.1.11
+dependents: 
+description: ckeditor adapter plugin
+list: readme
+revision: 0
+source: https://github.com/buggyj/TW5-tools
+version: 1.11.0
+original-tags: 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: $:/plugins/bj/visualeditor
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fvisualeditor
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

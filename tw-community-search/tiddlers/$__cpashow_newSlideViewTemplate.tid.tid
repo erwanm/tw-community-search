@@ -1,0 +1,33 @@
+title: $:/cpashow/newSlideViewTemplate
+created: 20160525150645770
+modified: 20160526174448370
+type: 
+original-tags: $:/tags/ViewTemplate myMacros
+source-wiki-id: cpashow
+source-tiddler-title-as-text: newSlideViewTemplate
+source-tiddler-title-as-link: newSlideViewTemplate
+
+<$list filter="[all[current]tag[slide]]" variable="temp">
+	<$checkbox tag="edit" tooltip="edit slide"></$checkbox>
+	<span style="float:left;">
+		<$macrocall $name="prev_slide" slide_master=<<currentTiddler>> />
+	</span>
+	<span style="float:right;">
+		<$macrocall $name="next_slide" slide_master=<<currentTiddler>> />
+	</span>
+	<$macrocall $name="Slide_Navigation" slide_master=<<currentTiddler>> />
+	<$list filter="[all[current]tag[edit]]" variable="temp" emptyMessage=
+	"""
+		<ul>
+			<$list filter="[list[!!slides]]" variable="curSlide">
+				<li>
+					<$macrocall $name="displayItemName" 
+						itemName=<<curSlide>> 
+					/>
+				</li>
+			</$list>
+		</ul>
+	""">
+		<<crazyListHere "slides" "slide">>
+	</$list>
+</$list>

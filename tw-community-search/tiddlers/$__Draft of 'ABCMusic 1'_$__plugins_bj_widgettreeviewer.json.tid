@@ -1,0 +1,15 @@
+title: $:/Draft of 'ABCMusic 1'/$:/plugins/bj/widgettreeviewer
+author: Jeffrey Wilkinson (BJ)
+core-version: >=5.1.11
+dependents: 
+description: 
+revision: 0
+source: https://github.com/buggyj/TW5-xperimental
+version: 0.0.2
+original-tags: 
+source-wiki-id: Draft of 'ABCMusic 1'
+source-tiddler-title-as-text: $:/plugins/bj/widgettreeviewer
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fwidgettreeviewer
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

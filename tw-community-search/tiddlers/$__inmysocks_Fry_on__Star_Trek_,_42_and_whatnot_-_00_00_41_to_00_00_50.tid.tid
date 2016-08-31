@@ -1,0 +1,23 @@
+title: $:/inmysocks/Fry on "Star Trek", 42 and whatnot - 00:00:41 to 00:00:50
+auto_play: 1
+created: 20141231075939121
+description: 
+end: 00:00:50
+hours: 
+link: 
+minutes: 
+modified: 20150106233407731
+seconds: 
+segment_description: Words of wisdom form Stephen Fry
+start: 00:00:41
+original-tags: Wisdom [[Video Segment]] [[Fry on "Star Trek", 42 and whatnot]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fry on "Star Trek", 42 and whatnot - 00:00:41 to 00:00:50
+source-tiddler-title-as-link: Fry%20on%20%22Star%20Trek%22%2c%2042%20and%20whatnot%20-%2000%3a00%3a41%20to%2000%3a00%3a50
+
+{{!!segment_description}}
+
+<$set name=videoID value={{$:/.rich/data/videos##Fry on "Star Trek", 42 and whatnot}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start="00:00:41" end="00:00:50"/>
+</$set>
+

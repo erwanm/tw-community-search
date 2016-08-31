@@ -1,0 +1,40 @@
+title: $:/SimpleModalTemplate/ModalDisplayTest
+created: 20160627104707612
+current: mantis_icon.png
+currentimage: tai_lung_icon.png
+list: tigress_icon.png viper_icon.png monkey_icon.png crane_icon.png mantis_icon.png
+listimages: po_icon.png oogway_icon.png shifu_icon.png tai_lung_icon.png
+modified: 20160627191640839
+original-tags: 
+source-wiki-id: SimpleModalTemplate
+source-tiddler-title-as-text: ModalDisplayTest
+source-tiddler-title-as-link: ModalDisplayTest
+
+!!!Direct call
+<$button>Open ModalDisplayTest in modal
+<$action-sendmessage $message="tm-modal" $param="ModalDisplayTiddler" title={{!!title}} imgfield="current" imglistfield="list" fter="no"/>
+</$button>
+
+!!!Fields list et current ; without footer, with thumbnails, with circles
+<div class="tiddler-flex-row">
+<<thumbnail-modal image:"tigress_icon.png" caption:"Tigress" width:"240px">>
+
+<<thumbnail-modal image:"viper_icon.png" caption:"Viper" width:"240px" fter:"thumbnails">>
+
+<<thumbnail-modal image:"monkey_icon.png" caption:"Monkey" width:"240px" fter:"yes">>
+
+<<thumbnail-modal image:"crane_icon.png" caption:"Crane" width:"240px" fter:"thumbnails">>
+
+<<thumbnail-modal image:"mantis_icon.png" caption:"Mantis" width:"240px" fter:"thumbnails">>
+</div>
+
+!!!Fields listimages et currentimage
+<div class="tiddler-flex-row">
+<<thumbnail-modal image:"po_icon.png" caption:"Po" width:"240px" imgfield:"currentimage" imglistfield:"listimages" fter:"thumbnails">>
+
+<<thumbnail-modal image:"oogway_icon.png" caption:"Oogway" width:"240px" imgfield:"currentimage" imglistfield:"listimages" fter:"yes">>
+
+<<thumbnail-modal image:"shifu_icon.png" caption:"Shifu" width:"240px" imgfield:"currentimage" imglistfield:"listimages" fter:"thumbnails">>
+
+<<thumbnail-modal image:"tai_lung_icon.png" caption:"Tai Lung" width:"240px" imgfield:"currentimage" imglistfield:"listimages">>
+</div>

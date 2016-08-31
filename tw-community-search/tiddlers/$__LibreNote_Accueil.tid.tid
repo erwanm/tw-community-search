@@ -1,0 +1,25 @@
+title: $:/LibreNote/Accueil
+created: 20160119144522261
+creator: svink
+modified: 20160212080911896
+modifier: svink
+original-tags: img
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Accueil
+source-tiddler-title-as-link: Accueil
+
+<div style="margin-top:12em; margin-bottom:12em;">
+
+<div style="color:white; font-size:2em; text-shadow: 0 0 7px #000000, 0 0 5px #000000;">
+Une documentation sur les logiciels libres
+</div>
+
+<div style="color:white; font-size:1.3em; text-shadow: 0 0 7px #000000, 0 0 5px #000000;">
+entièrement basée sur ~TiddlyWiki
+</div>
+
+<br><br>
+
+<$button class="tc-btn-invisible">
+<$action-navigate $to="Presentation" $scroll="yes"/>
+<i class="fa fa-chevron-circle-down fa-3x" style="color:#FFFFFF">

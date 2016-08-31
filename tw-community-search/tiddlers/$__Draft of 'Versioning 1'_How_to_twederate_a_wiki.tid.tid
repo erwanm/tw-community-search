@@ -1,0 +1,15 @@
+title: $:/Draft of 'Versioning 1'/How to twederate a wiki
+created: 20160807093826254
+creator: twMat
+modified: 20160807094030217
+modifier: twMat
+original-tags: FAQ How-to
+source-wiki-id: Draft of 'Versioning 1'
+source-tiddler-title-as-text: How to twederate a wiki
+source-tiddler-title-as-link: How%20to%20twederate%20a%20wiki
+
+To participate in a TWederation, i.e to enable //fetching// and to //be fetched from//, your ~TiddlyWiki must:
+
+*have the <<stretch "TWederation plugins" "installed" """ - i.e the [[TWederation core-plugin|$:/plugins/inmysocks/TWederation-core]] and, reasonably, some application. Currently there is only the [[Discussions application|$:/plugins/inmysocks/TWederation-edition]] available as the full Discussions edition.""">>
+*be <<stretch "hosted" "on the web " "for example hosted on tiddlyspot or on dropbox.">> - at least during //fetching//.
+*have other wikis [[twCards]] to know where to fetch from

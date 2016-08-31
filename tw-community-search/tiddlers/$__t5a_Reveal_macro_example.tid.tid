@@ -1,0 +1,18 @@
+title: $:/t5a/Reveal macro example
+created: 20160420013144366
+creator: Andrew Harrison
+modified: 20160421133124480
+modifier: Andrew Harrison
+original-tags: Example
+source-wiki-id: t5a
+source-tiddler-title-as-text: Reveal macro example
+source-tiddler-title-as-link: Reveal%20macro%20example
+
+\define reveal1(button h)
+<<toggle $button$>><br>
+<$reveal type="match" state="$:/temp/$(currentTiddler)$!!$button$" text="$:/$button$_b">
+<object type='text/html' data='http://www.tiddlywiki.com/#$button$' style='width: 100%;height: $h$em;'/><br>
+</$reveal>
+\end
+
+<<reveal1 TagPill1 5>>

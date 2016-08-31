@@ -1,0 +1,9 @@
+author: XavierCazin
+created: 20160827224230307
+modified: 20160827224248140
+tags: CommunityWikis
+title: TemplateButton
+type: text/vnd.tiddlywiki
+wiki-address: http://template-button.tiddlyspot.com/
+
+{{||$:/CommunityWikiPresentationTemplate}}

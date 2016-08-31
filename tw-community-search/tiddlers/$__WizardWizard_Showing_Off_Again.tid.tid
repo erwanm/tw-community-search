@@ -1,0 +1,16 @@
+title: $:/WizardWizard/Showing Off Again
+order: 11
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Showing Off Again
+source-tiddler-title-as-link: Showing%20Off%20Again
+
+''You can completely ignore this part if you feel like it. I am just explaining some details about the last slide.''
+
+This is just me showing off again and pointing out that having multiple conditionals for showing the next button and only showing the message when the next button isn't displayed requires something non-trivial.
+
+A logical OR in wikitext filters is simple because you just put one filter after the other. A logical AND can only be done testing the same inputs, so you can say 'only tiddlers that have this tag AND this other tag' but you can't say 'tiddlerA had this tag AND tiddlerB has this tag' without some rather convoluted filter constructs.
+
+What I had to do to show the message was to get the statement (!a || !b || !c), but I needed a, b and c to be independent and I need an arbirtary number of inputs. The solution uses De Morgan's Theorem: (!a || !b) = !(a && b). I seriously never expected my digital logical classes to come in handy trying to make something in tiddlywiki.
+
+If you want to see how it works go look at the ~ForwardButtonCheck macro in [[Wizard Macro|$:/plugins/inmysocks/WizardWizard/Wizard Macro]], unfortunately I don't think that it is a general solution.

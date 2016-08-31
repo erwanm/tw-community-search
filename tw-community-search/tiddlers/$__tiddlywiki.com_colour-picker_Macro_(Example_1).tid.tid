@@ -1,0 +1,18 @@
+title: $:/tiddlywiki.com/colour-picker Macro (Example 1)
+created: 20160418154853776
+modified: 20160418155450547
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: colour-picker Macro (Example 1)
+source-tiddler-title-as-link: colour-picker%20Macro%20%28Example%201%29
+
+Colour: <$edit-text tiddler='$:/_MyColour' tag='input' placeholder='(unset)' default=''/>
+
+---
+
+<$macrocall $name='colour-picker' actions="
+
+<$action-setfield $tiddler='$:/_MyColour' $value=<<colour-picker-value>>/>
+
+"/>

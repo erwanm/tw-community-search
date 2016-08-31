@@ -1,0 +1,45 @@
+title: $:/TonGernerPlayground/twCard - Plugin - layout_adjustment
+audience: 
+category: layout
+created: 20160123120758033
+creator: TonGerner
+date: 25th July 2016
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: TonGerner
+modified: 20160725144714720
+modifier: TonGerner
+name: layout_adjustment
+plugin_tiddler: $:/plugins/tongerner/layout_adjustment
+release: 
+repository: 
+revision: 0.1.1
+short_description: layout adjustment
+version: 0.1.5
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - layout_adjustment
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20layout_adjustment
+
+<<<
+''Note:''<br>This plugin contains 'general' settings for the layout and is additionally required for the following plugins:
+<<<
+
+* Top menu
+* Top-left menu (top + left menu)
+* Toolbar (on top)
+* Breadcrumbs
+* Tabstory (alternative breadcrumbs)
+* Uptoolbar (toolbar above title)
+* Tristate (tristate sidebar)
+
+This plugin contains layout code common to the mentioned plugins and let you adjust:
+
+* color and height of the top bar (as a boundary for top menu, toolbar, breadcrumbs, etc.)
+* the top of the story-river
+* the top of the sidebar
+* the top padding of a tiddler.
+* the color for displaying the 'active' state of some toggle buttons

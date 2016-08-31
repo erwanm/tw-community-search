@@ -1,0 +1,22 @@
+title: $:/Draft of 'maketid 1'/☠ Clean
+created: 20160122165640998
+creator: Matabele
+modified: 20160131041752781
+modifier: Matabele
+original-tags: 
+source-wiki-id: Draft of 'maketid 1'
+source-tiddler-title-as-text: ☠ Clean
+source-tiddler-title-as-link: %2620%20Clean
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state/]]"/>
+<$action-deletetiddler $filter="[prefix[$:/temp/]]"/>
+Clean Temp Tiddlers</$button>
+<$button><$list filter="[has[icon]]"><$action-deletefield creator created modifier modified/></$list>
+Clean Tag Tiddlers</$button>
+
+{{{ [prefix[$:/state/]] }}}
+
+{{{ [prefix[$:/temp/]] }}}
+
+

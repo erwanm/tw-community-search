@@ -1,0 +1,26 @@
+title: $:/plugins/inc-Configure
+created: 20151208150813043
+creator: Tobias Beer
+modified: 20160118143301002
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: inc-Configure
+source-tiddler-title-as-link: inc-Configure
+
+Specify the buttons displayed in the on-hover toolbar at $:/plugins/tobibeer/inc/toolbar:
+<$edit-text tiddler="$:/plugins/tobibeer/inc/toolbar" class="tc-edit-texteditor"/>
+
+@@.note
+''Tip:'' Try removing one or two buttons above and take another look at the examples.
+@@
+
+!! Tabs
+
+For using <<tb inc>> to edit tab contents, please refer to [[Quick Edit Tabs]] which uses the template <<source "$:/plugins/tobibeer/inc/templates/tabs">>
+
+!! Styles
+
+The default styles for ''tobibeer/inc'' are defined at <<source $:/plugins/tobibeer/inc/styles>>

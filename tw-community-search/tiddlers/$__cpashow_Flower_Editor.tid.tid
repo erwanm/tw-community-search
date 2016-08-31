@@ -1,0 +1,24 @@
+title: $:/cpashow/Flower Editor
+created: 20160305235006793
+modified: 20160306002551203
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Flower Editor
+source-tiddler-title-as-link: Flower%20Editor
+
+<<flowerchooser>>
+
+Russian text:
+<$edit-text tag="textarea"  tiddler={{flowerchooser}} field="russian" />
+
+English text:
+<$edit-text tag="textarea" tiddler={{flowerchooser}} field="english" />
+
+Flower Image:
+<$edit tiddler={{flowerchooser}} field="flower" />
+
+Barcode Image:
+<$edit tiddler={{flowerchooser}} field="barcode" />
+
+Price:
+<$edit tiddler={{flowerchooser}} field="price" />

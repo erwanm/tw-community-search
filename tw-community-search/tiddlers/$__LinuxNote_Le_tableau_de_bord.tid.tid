@@ -1,0 +1,28 @@
+title: $:/LinuxNote/Le tableau de bord
+created: 20141205155810412
+modified: 20160419163923939
+original-tags: [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Le tableau de bord
+source-tiddler-title-as-link: Le%20tableau%20de%20bord
+
+Le tableau de bord présent par défaut en bas de l'écran, est un outil complet qui permet de lancer les applications, d’accéder aux fichiers et bien plus encore.
+
+<a href="https://framadrive.org/public.php?service=files&t=CWjiFKKZZgkBy7k" target="_blank">[img [Tableau de bord|https://framadrive.org/public.php?service=files&t=CWjiFKKZZgkBy7k&download]]</a>
+
+Le tableau de bord est un //conteneur de plasmoids// qui peut être placé sur n'importe quel bord de l'écran. Les options sont accessibles par ''la boîte à outils du tableau de bord'' (icône  <i class="fa fa-bars"></i>) située à la fin du panneau.
+
+On peut modifier sa position (//Bord de l'écran//), sa //hauteur// et sa largeur (avec les flèches). Le comportement du tableau de bord est aussi configurable (<i class="fa fa-cog"></i> //Plus de paramètres//) ce qui permet de l'aligner, de le rendre visible ou de le maximiser. L'icône <i class="fa fa-plus"></i> permet d'ajouter des [[composants graphiques|Les composants graphiques]].
+
+Il est possible d'ajouter des panneaux supplémentaires.
+
+<<<
+Clic droit sur le bureau → //Ajouter un panneau// (//tableau de bord vide// ou par //défaut//).
+<<<
+
+Le //tableau de bord par défaut// créé un groupe spécial contenant tous les plasmoids par défaut (lanceur, gestionnaire de tâches, boite à miniature, horloge...), et le //tableau de bord vide// ajoute un panneau vide sans plasmoid pré-configuré.
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Il faut penser à //''Déverrouiller les composants graphiques''// pour accéder aux paramètres du panneau
+(clic droit sur le bureau ou par la //boite à outils du bureau//).
+@@

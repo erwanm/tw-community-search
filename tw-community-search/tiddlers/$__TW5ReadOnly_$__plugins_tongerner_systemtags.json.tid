@@ -1,0 +1,16 @@
+title: $:/TW5ReadOnly/$:/plugins/tongerner/systemtags
+author: TonGerner
+core-version: 5.1.13
+created: 20160108222221161
+description: System tags
+list: readme
+modified: 20160725122046152
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.4
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: $:/plugins/tongerner/systemtags
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fsystemtags
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

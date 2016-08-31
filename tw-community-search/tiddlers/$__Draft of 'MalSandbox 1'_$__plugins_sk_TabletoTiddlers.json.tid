@@ -1,0 +1,11 @@
+title: $:/Draft of 'MalSandbox 1'/$:/plugins/sk/TabletoTiddlers
+author: Stephen Kimmel
+description: Table to Tiddlers
+version: 0.0.2
+original-tags: 
+source-wiki-id: Draft of 'MalSandbox 1'
+source-tiddler-title-as-text: $:/plugins/sk/TabletoTiddlers
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fTabletoTiddlers
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,18 @@
+title: $:/inmysocks/Builtin CSS Classes tc-btn-* (Buttons)
+caption: Buttons
+created: 20150426201001816
+modified: 20150426222634532
+original-tags: [[Builtin CSS Classes]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Builtin CSS Classes tc-btn-* (Buttons)
+source-tiddler-title-as-link: Builtin%20CSS%20Classes%20tc-btn-%2a%20%28Buttons%29
+
+These are used for buttons
+
+|!Name |!Description |!Example |
+|tc-btn-big-green |A big green button, used for the 'Download Empty' Button on tiddlywiki.com. White text. |<$button class='tc-btn-big-green'>Test <<fa fa-envelope>></$button> |
+|tc-btn-dropdown |? |<$button class='tc-btn-dropdown'>Test <<fa fa-envelope>></$button> |
+|tc-btn-icon |? |<$button class='tc-btn-icon'>Test <<fa fa-envelope>></$button> |
+|tc-btn-invisible |No visible button, it only shows the contents |<$button class='tc-btn-invisible'>Test <<fa fa-envelope>></$button> |
+|tc-btn-mini |? |<$button class='tc-btn-mini'>Test <<fa fa-envelope>></$button> |
+|tc-btn-text |? |<$button class='tc-btn-text'>Test <<fa fa-envelope>></$button> |

@@ -1,0 +1,12 @@
+title: $:/SKPlugins/$:/plugins/sk/Indents
+author: Stephen Kimmel
+description: Editor Indents
+list: Indent List
+version: 0.0.4
+original-tags: 
+source-wiki-id: SKPlugins
+source-tiddler-title-as-text: $:/plugins/sk/Indents
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fIndents
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,16 @@
+title: $:/Draft of 'TonGernerPlayground 1'/$:/plugins/tongerner/listrecent
+author: TonGerner
+core-version: 5.1.13
+created: 20160130115303512
+description: List recent results; each day in alphabetical order. 
+list: readme
+modified: 20160725121955858
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.4
+original-tags: 
+source-wiki-id: Draft of 'TonGernerPlayground 1'
+source-tiddler-title-as-text: $:/plugins/tongerner/listrecent
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2flistrecent
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -5,10 +5,9 @@ author: TobiasBeer
 title: tb5
 type: text/vnd.tiddlywiki
 wiki-address: http://tobibeer.github.io/tb5
-wiki-tw-version: 5.1.10-prerelease
-wiki-latest-modification: 20160103160200126
-wiki-nb-tiddlers: 479
+wiki-tw-version: 5.1.11
+wiki-latest-modification: 20160204214658468
+wiki-nb-tiddlers: 481
 
-a pocket full of tips <a href="http://tobibeer.github.io/tb5/feed.atom" target="_blank" title="subcribe to atom feed" class="atom-link">{{$:/.tb/images/feed}}</a>
 
 {{||$:/CommunityWikiPresentationTemplate}}

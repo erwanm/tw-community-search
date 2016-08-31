@@ -1,0 +1,23 @@
+title: $:/TonGernerPlayground/Layout adjustment plugin
+caption: Layout adjustment
+created: 20150729185548862
+creator: TonGerner
+modified: 20160725145419691
+modifier: TonGerner
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Layout adjustment plugin
+source-tiddler-title-as-link: Layout%20adjustment%20plugin
+
+!!Layout adjustment plugin v<<pversion "layout_adjustment">>
+{{Under construction plugin_}}
+{{Upgraded}}
+
+!!!!Readme (from plugin)
+{{$:/plugins/tongerner/layout_adjustment/readme}}
+
+---
+
+Drag & drop the following link to your wiki to install this plugin.
+
+* [[$:/plugins/tongerner/layout_adjustment]]

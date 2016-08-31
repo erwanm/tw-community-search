@@ -1,0 +1,14 @@
+title: $:/plugins/plantuml
+created: 20160114110937381
+creator: Tobias Beer
+modified: 20160115135204059
+modifier: Tobias Beer
+revision: 0
+tabs: Info WikiText Widget Examples Configure Styles Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Filters Macros Widgets
+source-wiki-id: plugins
+source-tiddler-title-as-text: plantuml
+source-tiddler-title-as-link: plantuml
+
+<<plugin-docs plantuml>>

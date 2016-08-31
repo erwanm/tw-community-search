@@ -1,0 +1,15 @@
+title: $:/RandomBackgroundPlugin/$:/plugin/ajh/randombackground
+created: 20151118030354071
+dependents: $:/plugin/ajh/randombackground/background0 $:/plugin/ajh/randombackground/icon $:/plugin/ajh/randombackground/readme $:/plugin/ajh/randombackground/stylesheet $:/plugin/ajh/randombackground/random.js
+description: Random Background
+list: readme
+modified: 20160409164759255
+source: http://randombackground.tiddlyspot.com/
+version: 0.1.1
+original-tags: 
+source-wiki-id: RandomBackgroundPlugin
+source-tiddler-title-as-text: $:/plugin/ajh/randombackground
+source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2frandombackground
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

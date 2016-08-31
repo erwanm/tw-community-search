@@ -1,0 +1,15 @@
+title: $:/Draft of 'Rearranger 1'/$:/plugins/matabele/setfield
+created: 20140527062220628
+creator: Matabele
+dependents: 
+description: Contains the <$setfield> widget
+modified: 20140529104351050
+modifier: Matabele
+version: 0.0.5
+original-tags: 
+source-wiki-id: Draft of 'Rearranger 1'
+source-tiddler-title-as-text: $:/plugins/matabele/setfield
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fsetfield
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

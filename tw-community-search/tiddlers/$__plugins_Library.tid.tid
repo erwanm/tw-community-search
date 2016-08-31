@@ -1,0 +1,28 @@
+title: $:/plugins/Library
+created: 20160120130410512
+creator: Tobias Beer
+modified: 20160120163605991
+modifier: Tobias Beer
+revision: 0
+summary: keeping up to date and fetching the latest and greatest from [[tobibeer/plugins|Plugins]]
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: Library
+source-tiddler-title-as-link: Library
+
+Drag this tiddler to your wiki to access my plugin library from your [[control panel|$:/ControlPanel]]: $:/pluginlibrary/tobibeer/official
+
+<<<
+
+!! {{$:/pluginlibrary/tobibeer/official!!caption}}
+
+//{{$:/pluginlibrary/tobibeer/official}}//
+
+{{$:/pluginlibrary/tobibeer/official!!url}}
+<<<
+
+@@.note
+''Tip:'' You can actually try it out right here in this wiki.<br>
+Open: {{$:/core/ui/Buttons/control-panel}} ''~ControlPanel'' > ''Plugins'' > ''Get more plugins'' > ''Open plugin library''
+@@

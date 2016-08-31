@@ -1,0 +1,14 @@
+title: $:/ArticleTiddlers/Under dev.
+created: 20160827014619295
+creator: twMat
+modified: 20160827015153728
+modifier: twMat
+original-tags: $:/tags/Stylesheet
+source-wiki-id: ArticleTiddlers
+source-tiddler-title-as-text: Under dev.
+source-tiddler-title-as-link: Under%20dev.
+
+.tc-site-title:after {
+border:3px dashed crimson; padding:0 .5em; transform:rotate(15deg);position:absolute;margin-top:-1.5em; margin-left:-4em; color:crimson;
+content:"Under dev.";font-size:50%;
+}

@@ -1,0 +1,58 @@
+title: $:/Draft of 'MatthewBubbles 1'/Welcome
+created: 20160812134918554
+modified: 20160813024801881
+original-tags: 
+source-wiki-id: Draft of 'MatthewBubbles 1'
+source-tiddler-title-as-text: Welcome
+source-tiddler-title-as-link: Welcome
+
+TidBursts is a tool I created for myself, for quickly generating notes and tagging them, and then quickly retrieving, viewing and printing only the contents of notes tagged with a given tag. But if you find it helpful, feel free to use it.
+
+!!Downloading TidBursts
+
+#Just click the {{$:/core/images/save-button}} button in the sidebar to download Tidbursts. This button then acts as a 'save changes' button in your local file of TidBursts. Download as many copies as you like.
+
+!!Creating notes
+
+#You can create text notes, notes that display images from a file location or web URL), or notes with built in sketch pads.
+#*For ''text notes'', click the {{$:/core/images/new-button}} button and type away.
+#*For ''image notes'' (that display images from websites), click {{$:/core/images/new-image-button}}, and paste the link between the brackets.
+#*For ''sketches'', click the {{$:/core/images/palette}} button, and draw away.
+#Tag the note with relevant topics, and close. No need to add a note title unless you want to.
+
+!!Retrieving notes
+
+#There are three ways to do searches for notes:
+##The regular search window above the tabs.
+##The search tab, which displays results from the context of the notes
+##In the HQ tab there is a filterable list of tags. Type in the filter box to narrow your search for existing tags.
+#You can also consult the 'Open', 'Recent' and 'More' tabs for lists of tiddlers.
+
+!!Viewing notes
+
+#Click on any link to open and view a note.
+#To view all the notes tagged with a certain tag, click on the tag button (from within the HQ tab, for example)
+##''Click 'Open all'''. This opens all the notes tagged with that tag. 
+##''Then click the tag name'' at the top of the dropdown.
+##*If the tag name (topic) tiddler doesn't exist, just edit the tiddler to create it. 
+##**(You can also use the {{$:/core/images/menu-button}} button to do this, which lets you adjust the color of the tag button. See below.)
+##''Toggle between 'text' and 'full''' at the top of the HQ tab to hide or show the titles of the notes. 
+#You now have a list of notes on that topic! Or a gallery of images and sketches. Or a combination of the two. 
+#Click 'close all' (at the top of the HQ tab) when done.
+
+!!Tweaks
+
+*You can ''change the color'' of the tag buttons. Edit the tag name tiddler and change the color in the color field. If it doesn't have a color field, type the word 'color' (without the quotes) in the field name field, and click add.
+*You can ''replace the name of a tag'' with another name, and change that tag in all the tiddlers so tagged, [[here|$:/.tb/wizards/replace-tag]].
+
+!!Ideas
+
+*Use Tidbursts to randomly collect notes, quotes, thoughts, images, sketches, etc, and quickly organize them by topic by adding tags.
+*Use TidBursts to bookmark websites.
+*Use TidBursts to print all your notes (or images, sketches, etc) on a given topic as a pdf.
+*Use the 'export all' option in a tiddler dropdown menu to export your notes and images on a given topic and create a static html webpage you can upload and share (see [[here|http://tiddlywiki.com/#How%20to%20export%20tiddlers]]).
+
+!!Help
+
+*See http://tiddlywiki.com for many more instructions on using TiddlyWiki, the app that TidBursts is built on.
+*Consult the [[TiddlyWiki Google Group|https://groups.google.com/forum/#!forum/tiddlywiki]] for even more help.

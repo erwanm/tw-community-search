@@ -1,0 +1,150 @@
+title: $:/Draft of 'Tabbed Story View 1'/Tiddler Bundles
+created: 20160108190136315
+modified: 20160109190415224
+tiddler: TestSchool
+original-tags: 
+source-wiki-id: Draft of 'Tabbed Story View 1'
+source-tiddler-title-as-text: Tiddler Bundles
+source-tiddler-title-as-link: Tiddler%20Bundles
+
+\define thisCreateTiddlerBundle()
+<$action-setfield $tiddler={{$:/state/Export Bundle!!bundle_name}} text=<<BundleText>> list=<<TiddlerList>> tags='[[Tiddler Bundle]]'/>
+\end
+
+\define thisSkipField()
+<$list filter='[<SingleTiddler>fields[]sort[]after<FieldName>]' variable='FieldName' emptyMessage=<<thisAddTextField>>>
+	<$list filter='[<SingleTiddler>get<FieldName>]' variable='FieldValue'>
+		<<thisAddFieldToText>>
+	</$list>
+</$list>
+\end
+
+\define thisNextTiddler()
+<$list  filter="""$(BundleFilter)$ +[sort[]]+[after<SingleTiddler>]""" variable='SingleTiddler' emptyMessage=<<thisCreateTiddlerBundle>>>
+	<$list filter='[<SingleTiddler>fields[]sort[]first[]]' variable='FieldName'>
+		<$list filter='[<SingleTiddler>get<FieldName>]' variable='FieldValue'>
+			<<thisAddFieldToText>>
+		</$list>
+	</$list>
+</$list>
+\end
+
+\define thisNoTiddlerText(BundleText)
+<$macrocall $name='thisInnerAddTextField' BundleText=<<BundleText>> TiddlerText=''/>
+\end
+
+\define thisInnerAddTextField(BundleText TiddlerText)
+<$list filter='[<BundleText>addsuffix[
+]addsuffix<TiddlerText>addsuffix[
+]addsuffix<TiddlerDivisionString>addsuffix[
+]]' variable='BundleText'>
+	<<thisNextTiddler>>
+</$list>
+\end
+
+\define thisAddTextField()
+<$list filter='[<SingleTiddler>get[text]]' variable='TiddlerText' emptyMessage=<<thisNoTiddlerText>>>
+	<$macrocall $name='thisInnerAddTextField' BundleText=<<BundleText>> TiddlerText=<<TiddlerText>>/>
+</$list>
+\end
+
+\define thisInnerBundleText()
+<$list filter='[<SingleTiddler>fields[]sort[]after<FieldName>]' variable='FieldName' emptyMessage=<<thisAddTextField>>>
+	<$list filter='[<SingleTiddler>get<FieldName>]' variable='FieldValue' emptyMessage=<<thisSkipField>>>
+		<<thisAddFieldToText>>
+	</$list>
+</$list>
+\end
+
+\define thisInnerAddFieldToText(BundleText FieldName FieldValue)
+<$list filter='[<BundleText>addsuffix<FieldName>addsuffix[:]addsuffix<FieldValue>addsuffix[
+]]' variable='BundleText'>
+	<<thisInnerBundleText>>
+</$list>
+\end
+
+\define thisAddFieldToText()
+<$list filter='[<FieldName>!prefix[text]!suffix[text]]' emptyMessage=<<thisInnerBundleText>>>
+	<$macrocall $name='thisInnerAddFieldToText' BundleText=<<BundleText>> FieldName=<<FieldName>> FieldValue=<<FieldValue>>/>
+</$list>
+\end
+
+\define thisInitialize()
+<$list filter="""$(BundleFilter)$ +[sort[]]+[first[]]""" variable='SingleTiddler'>
+	<$list filter='[<SingleTiddler>fields[]sort[]first[]]' variable='FieldName'>
+		<$list filter='[<SingleTiddler>get<FieldName>]' variable='FieldValue'>
+			<<thisAddFieldToText>>
+		</$list>
+	</$list>
+</$list>
+\end
+
+Filter: <$edit-text tiddler='$:/state/Export Bundle' field='filter' class='tc-edit-texteditor'/>
+
+Bundle tiddler name: <$edit-text tiddler='$:/state/Export Bundle' field='bundle_name' class='tc-edit-texteditor'/>
+
+<$reveal type='nomatch' state='$:/state/Export Bundle!!show_tiddler_list' text='show'>
+	<$button set='$:/state/Export Bundle!!show_tiddler_list' setTo='show'>Show Tiddler List</$button>
+</$reveal>
+
+<$reveal type='match' state='$:/state/Export Bundle!!show_tiddler_list' text='show'>
+	<$button set='$:/state/Export Bundle!!show_tiddler_list' setTo='hide'>Hide Tiddler List</$button>
+
+	<$list filter={{$:/state/Export Bundle!!filter}}>
+
+	</$list>
+
+</$reveal>
+
+<$button>Create Bundle
+
+<$set name='TiddlerList' filter={{$:/state/Export Bundle!!filter}}>
+	<$set name='TiddlerDivisionString' value='thisisthetiddlerdivisionstringwhywouldyouevenhavethisinyourtiddlerseriouslywhythisisjustridiculuous'>
+		<$set name='BundleTiddler' value={{$:/state/Export Bundle!!bundle_name}}>
+			<$set name='BundleText' value=' '>
+				<$set name='BundleFilter' filter={{$:/state/Export Bundle!!filter}}>
+					<<thisInitialize>>
+				</$set>
+			</$set>
+		</$set>
+	</$set>
+</$set>
+</$button>
+
+After creating the bundle,
+<$link to={{$:/state/Export Bundle!!bundle_name}}>use this link to import it into your wiki</$link>
+
+or
+
+Import a bundle:
+
+Select Bundle: <$select tiddler='$:/state/Tiddler Bundles' field='selected_import'>
+<option value=''>--</option>
+<$list filter='[tag[Tiddler Bundle]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$reveal type='nomatch' state='$:/state/Export Bundle!!show_import_tiddler_list' text='show'>
+<$button set='$:/state/Export Bundle!!show_import_tiddler_list' setTo='show'>Show Tiddler Import List</$button>
+</$reveal>
+
+<$reveal type='match' state='$:/state/Export Bundle!!show_import_tiddler_list' text='show'>
+<$button set='$:/state/Export Bundle!!show_import_tiddler_list' setTo='hide'>Hide Tiddler Import List</$button>
+
+<$list filter='[list{$:/state/Tiddler Bundles!!selected_import}]'>
+
+</$list>
+
+</$reveal>
+
+<$checkbox tiddler='$:/state/Tiddler Bundles' field='overwrite' checked=true unchecked=false>Overwrite Existing Tiddlers</$checkbox>
+
+<$reveal type='nomatch' state='$:/state/Tiddler Bundles!!selected_import' text=''>
+<$button>Import <$view tiddler='$:/state/Tiddler Bundles' field='selected_import'/>
+<$action-import-bundle $bundle={{$:/state/Tiddler Bundles!!selected_import}} $overwrite={{$:/state/Tiddler Bundles!!overwrite}}/>
+</$button>
+</$reveal>
+<$reveal type='match' state='$:/state/Tiddler Bundles!!selected_import' text=''>
+Select a bundle to import
+</$reveal>

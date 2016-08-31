@@ -1,0 +1,16 @@
+title: $:/Draft of 'listops 1'/$:/plugins/matabele/simple-tagger
+author: Matabele
+core-version: >=5.1.10
+created: 20160123060240162
+creator: Matabele
+description: Utility for editing tags
+modified: 20160123060240162
+modifier: Matabele
+version: 0.0.8
+original-tags: 
+source-wiki-id: Draft of 'listops 1'
+source-tiddler-title-as-text: $:/plugins/matabele/simple-tagger
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2fsimple-tagger
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

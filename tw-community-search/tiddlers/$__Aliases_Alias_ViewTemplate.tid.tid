@@ -1,0 +1,33 @@
+title: $:/Aliases/Alias ViewTemplate
+created: 20160609120738579
+creator: twMat
+modified: 20160609133907381
+modifier: twMat
+type: text/vnd.tiddlywiki
+original-tags: $:/tags/ViewTemplate
+source-wiki-id: Aliases
+source-tiddler-title-as-text: Alias ViewTemplate
+source-tiddler-title-as-link: Alias%20ViewTemplate
+
+\define showalias(tid, alias)
+<$set name="alias" value="""content: '$alias$'""">
+<$set name="uri" value=<<makedatauri """$tid$""" "text/plain">> >
+<$list variable="urititle" filter="[<uri>removeprefix[data:text/plain,]]">
+<style>
+body .tc-tiddler-frame a[href="#<<urititle>>"] {
+  visibility: hidden;
+  position: relative;
+}
+body .tc-tiddler-frame a[href="#<<urititle>>"]:before {
+  visibility: visible;
+  <<alias>>;
+}
+</style>
+</$list>
+</$set>
+</$set>
+\end
+
+<$list filter="[<currentTiddler>has[alias]]">
+<$macrocall $name="showalias" tid={{!!title}} alias={{!!alias}} />
+</$list>

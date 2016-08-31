@@ -1,0 +1,34 @@
+title: $:/Draft of 'gWiZ 1'/DataTiddlers
+created: 20130829164700000
+modified: 20130829164700000
+original-tags: Concepts
+source-wiki-id: Draft of 'gWiZ 1'
+source-tiddler-title-as-text: DataTiddlers
+source-tiddler-title-as-link: DataTiddlers
+
+A data tiddler is a miniature database contained within a tiddler.
+
+There are two standard formats:
+
+* DictionaryTiddlers
+* [[JSONTiddlers]]
+
+Other formats of tiddler can also be parsed to yield blocks of data that behave like data tiddlers.
+
+Use a TextReference to look up a value by its name. For example, if a [[DictionaryTiddler|DictionaryTiddlers]] called `MonthDays` contains:
+
+```
+oct:31
+nov:30
+dec:31
+```
+
+... then `{{MonthDays##nov}}` will resolve to the value `30`.
+
+The same is true if `MonthDays` is a [[JSONTiddler|JSONTiddlers]] with the following content:
+
+```
+{"oct":31,"nov":30,"dec":31}
+```
+
+Note: //It is currently only possible to retrieve data from the immediate properties of the root object of a JSONTiddler.//

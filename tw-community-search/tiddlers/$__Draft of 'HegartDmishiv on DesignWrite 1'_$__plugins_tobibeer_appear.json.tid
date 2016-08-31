@@ -1,0 +1,24 @@
+title: $:/Draft of 'HegartDmishiv on DesignWrite 1'/$:/plugins/tobibeer/appear
+author: Tobias Beer
+core-version: >=5.1.9
+created: 20160213041243898
+creator: HegartDmishiv
+dependents: 
+description: Create popups, sliders or accordion menus with the appear widget.
+documentation: https://tobibeer.github.io/tw5-appear
+list: readme
+modified: 20160213041243898
+modifier: HegartDmishiv
+origin: [[Tobias Beer|https://tobibeer.github.io/tw5-plugins/#appear]]
+purpose: Create popups, sliders or accordion menus with the appear widget.
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-appear
+version: 0.6.1
+original-tags: [[Installed Plugins]]
+source-wiki-id: Draft of 'HegartDmishiv on DesignWrite 1'
+source-tiddler-title-as-text: $:/plugins/tobibeer/appear
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2fappear
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

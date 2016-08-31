@@ -1,0 +1,10 @@
+title: $:/PhotoGallery/And another thing
+order: 8
+original-tags: PhotoGallery
+source-wiki-id: PhotoGallery
+source-tiddler-title-as-text: And another thing
+source-tiddler-title-as-link: And%20another%20thing
+
+I have also included a view template for images in this plugin. If you open an image tiddler on it's own it will have a header like that one when you view a gallery in single image mode, but it will let you page through every image you have on your wiki instead of being limited to a single gallery. I am not sure if this is desirable or not so any feedback on it would be appreciated.
+
+That should be everything, if you have any questions let me know. [[My contact info|http://ooktech.com/jed/externalbrain/#Who%20is%20this%20inmysocks%20guy%3F]]

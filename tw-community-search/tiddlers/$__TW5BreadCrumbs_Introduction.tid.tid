@@ -1,0 +1,39 @@
+title: $:/TW5BreadCrumbs/Introduction
+created: 20140121171138645
+creator: TonGerner
+modified: 20160210171635082
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+''@@.brown Introduction@@''
+
+<<<
+''Note:''
+
+* Available as a plugin, just drag & drop:
+*# [[$:/plugins/tongerner/breadcrumbs]] (v<<pversion "breadcrumbs">>)
+*# [[$:/plugins/tongerner/layout_adjustment]] (v<<pversion "layout_adjustment">>)<br>to your wiki to add the breadcrumbs plugin.
+* The breadcrumbs work best in zoomin mode.
+* The breadcrumbs can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/breadcrumbs/combination]].
+<<<
+
+This guide describes how <<slider "breadcrumbs" "Breadcrumbs info">> can be added.
+
+The breadcrumbs can be toggled ''on/off'' with the {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} button (in Page Toolbar and/or View Toolbar).
+
+To see the breadcrumbs in action in this demo, open a few tiddlers (Sidebar, tab 'Recent').<br>After that you can go to opened tiddlers by clicking a breadcrumb and/or close them by clicking the 'x' at the right of the breadcrumb (the same functionality as in the Sidebar, tab 'Open').
+
+This guide describes how the breadcrumbs menu is made (code and styles involved).
+
+<<<
+''Note:''
+
+This TW uses:
+
+* My Bluish theme
+* My Systemtags plugin which adds a 'System tags' tab below the 'Tags' tab
+* @@.BLUE Theme and plugins are available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins@@).
+<<<

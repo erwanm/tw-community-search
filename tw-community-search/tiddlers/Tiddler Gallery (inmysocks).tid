@@ -5,8 +5,7 @@ wiki-address: http://ooktech.com/jed/ExampleWikis/Tiddler%20Gallery
 author: JedCarty
 wiki-tw-version: 5.1.8-prerelease
 wiki-latest-modification: 20150205051312142
-wiki-nb-tiddlers: 625
+wiki-nb-tiddlers: 621
 
-<<version>>
 
 {{||$:/CommunityWikiPresentationTemplate}}

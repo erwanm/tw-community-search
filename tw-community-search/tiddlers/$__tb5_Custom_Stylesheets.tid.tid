@@ -1,0 +1,31 @@
+title: $:/tb5/Custom Stylesheets
+created: 20141117094800605
+creator: Tobias Beer
+modified: 20160125095023927
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Solutions Styles
+source-wiki-id: tb5
+source-tiddler-title-as-text: Custom Stylesheets
+source-tiddler-title-as-link: Custom%20Stylesheets
+
+For a general introduction, read the core documentation below.
+
+!! Variants
+
+Tiddlers tagged $:/tags/Stylesheet are interpreted as css stylesheets. When of type:
+
+; `text/css`
+: their content will be interpreted as literal css
+; `text/vnd.tiddlywiki`
+: their contents are parsed as wikitext and things like macros and references replaced
+:: you may run into compatibility issues if your markup generates html
+:: therefore, constrain applicable parser rules using the pragma `\rules only`
+::: for an example see $:/themes/tiddlywiki/vanilla/base
+
+!! Core Documentation
+
+From http://tiddlywiki.com/#Using%20Stylesheets...
+
+<<static Using%2520Stylesheets.html 600px scrolling:yes>>

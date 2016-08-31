@@ -1,0 +1,13 @@
+title: $:/Draft of 'listops 1'/$:/plugins/matabele/action-maketid
+author: Matabele
+core-version: >=5.1.8
+description: Widget and filter operator to create new tiddlers
+list: filter widget
+version: 0.0.2
+original-tags: 
+source-wiki-id: Draft of 'listops 1'
+source-tiddler-title-as-text: $:/plugins/matabele/action-maketid
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmatabele%2faction-maketid
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

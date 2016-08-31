@@ -1,0 +1,17 @@
+title: $:/t5a/$:/plugin/ajh/locations
+created: 20151219072552396
+creator: Andrew
+dependents: $:/language/locations/caption $:/language/locations/hint $:/plugin/ajh/locations/icon $:/plugin/ajh/locations/readme $:/plugins/ajh/locations/image $:/plugins/ajh/locations/template
+description: Locations Button
+list: readme
+modified: 20160409161233580
+modifier: Andrew
+source: http://locations.tiddlyspot.com/
+version: 0.0.2
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugin/ajh/locations
+source-tiddler-title-as-link: %24%3a%2fplugin%2fajh%2flocations
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

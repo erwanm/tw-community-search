@@ -1,0 +1,21 @@
+title: $:/Checklist/Popup Editor
+created: 20160112070638050
+modified: 20160112071437075
+original-tags: 
+source-wiki-id: Checklist
+source-tiddler-title-as-text: Popup Editor
+source-tiddler-title-as-link: Popup%20Editor
+
+\define qualifyState() <<qualify $:/temp/check-edit/$(currentTiddler)$
+
+<$vars currentTiddler="HelloThere"  state=<<qualifyState>>>
+<$checkbox tiddler=<<state>> field="text" checked="edit" unchecked="" class="check-edit">{{$:/core/images/edit-button}}</$checkbox> <$link><$view field="title"/></$link>
+<$reveal state=<<state>> type="match" text="edit">
+<$edit-text tiddler=<<target>> field="text" class="tc-edit-texteditor" minHeight="200px" autoHeight="yes"/>
+</$reveal>
+</$vars>
+<style>
+.check-edit input{display:none;}
+.check-edit svg{fill:grey;height:1em;width:1em;curser:pointer;}
+.check-edit:hover svg{fill:black;}
+</style>

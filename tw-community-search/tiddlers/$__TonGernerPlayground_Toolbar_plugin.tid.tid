@@ -1,0 +1,31 @@
+title: $:/TonGernerPlayground/Toolbar plugin
+caption: Toolbar
+created: 20160111103503636
+creator: TonGerner
+modified: 20160811123322704
+modifier: TonGerner
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Toolbar plugin
+source-tiddler-title-as-link: Toolbar%20plugin
+
+!!Toolbar plugin v<<pversion "toolbar">>
+{{Under construction plugin_}}
+{{Upgraded}}
+
+!!!!Readme (from plugin)
+{{$:/plugins/tongerner/toolbar/readme}}
+
+---
+
+Drag & drop the following links to your wiki to install this plugin.
+
+* [[$:/plugins/tongerner/toolbar]]
+* [[$:/plugins/tongerner/layout_adjustment]]
+
+<<<
+''Note:''
+
+* To hide/show the toolbar, you can drag & drop $:/_toggle-toolbar to your wiki. It adds a toggle button (&#9664; / &#9654;) to the top right bar, which toggles the toolbar plugin on/off.
+** This button enables/disables the toolbar plugin ''and'' saves and refreshes the wiki. So it does ''not'' work here at TiddlySpot!
+<<<

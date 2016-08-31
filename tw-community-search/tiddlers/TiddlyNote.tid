@@ -5,10 +5,9 @@ author: Svink
 title: TiddlyNote
 type: text/vnd.tiddlywiki
 wiki-address: http://librenote.aerobatic.io/tiddlynote
-wiki-tw-version: 5.1.9
-wiki-latest-modification: 20151113163732815
-wiki-nb-tiddlers: 92
+wiki-tw-version: 5.1.12
+wiki-latest-modification: 20160719203827374
+wiki-nb-tiddlers: 91
 
-Une introduction à ~TiddlyWiki
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,0 +1,23 @@
+title: $:/inmysocks/Fry on "Star Trek", 42 and whatnot - 00:03:09 to 00:03:12
+auto_play: 1
+created: 20141231075939121
+description: 
+end: 00:03:12
+hours: 
+link: 
+minutes: 
+modified: 20150106233855398
+seconds: 
+segment_description: That's why startrek is incredibly important
+start: 00:03:09
+original-tags: Wisdom [[Video Segment]] [[Fry on "Star Trek", 42 and whatnot]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fry on "Star Trek", 42 and whatnot - 00:03:09 to 00:03:12
+source-tiddler-title-as-link: Fry%20on%20%22Star%20Trek%22%2c%2042%20and%20whatnot%20-%2000%3a03%3a09%20to%2000%3a03%3a12
+
+{{!!segment_description}}
+
+<$set name=videoID value={{$:/.rich/data/videos##Fry on "Star Trek", 42 and whatnot}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start="00:03:09" end="00:03:12"/>
+</$set>
+

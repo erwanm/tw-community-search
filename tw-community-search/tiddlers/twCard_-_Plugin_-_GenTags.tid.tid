@@ -1,0 +1,21 @@
+category: Interface
+created: 20160525095032415
+date: 25-05-2016
+maintainer: inmysocks
+modified: 20160525095238888
+name: GenTags
+plugin_tiddler: $:/plugins/inmysocks/GenTags
+release: beta
+revision: 0.0.1
+short_description: A plugin that lets you use any field like a tags field
+title: twCard - Plugin - GenTags
+wiki: http://ooktech.com/jed/ExampleWikis/GenericTagFields/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: Draft of 'PhotoGallery 1'
+GenericTagFields
+twcs-extracted-plugin-tiddler: 
+twcs-description: 
+twcs-author: 
+twcs-version: 
+
+{{||$:/CommunityPluginTemplate}}

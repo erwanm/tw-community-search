@@ -1,0 +1,12 @@
+title: $:/Draft of 'ZaphodsTW'/$:/plugins/Zaphod/SideBarShade
+author: Zaphod Beeblebrox
+description: Zaphod's SideBar Shade
+list: Zaphod's SideBar Shade ReadMe
+version: 0.0.2
+original-tags: 
+source-wiki-id: Draft of 'ZaphodsTW'
+source-tiddler-title-as-text: $:/plugins/Zaphod/SideBarShade
+source-tiddler-title-as-link: %24%3a%2fplugins%2fZaphod%2fSideBarShade
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
