@@ -1,7 +1,7 @@
 title: Tag: This tag is in every field
 tags: CommunityTags
 community-tag: This tag is in every field
-community-tag-count: 2
-community-wikis: [[Draft of 'PhotoGallery 1']] [[GenericTagFields]]
+community-tag-count: 1
+community-wikis: [[GenericTagFields]]
 
 {{||$:/CommunityTagTemplate}}

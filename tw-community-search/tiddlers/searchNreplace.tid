@@ -9,5 +9,6 @@ wiki-tw-version: 5.1.8-prerelease
 wiki-latest-modification: 20150409195540885
 wiki-nb-tiddlers: 6
 
+searchNreplace plugin for ~TiddlyWiki5
 
 {{||$:/CommunityWikiPresentationTemplate}}

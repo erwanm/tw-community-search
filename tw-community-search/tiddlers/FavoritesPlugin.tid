@@ -9,5 +9,6 @@ wiki-tw-version: 5.1.11
 wiki-latest-modification: 20160409154000348
 wiki-nb-tiddlers: 1
 
+for displaying a cherry-picked list of tiddlers
 
 {{||$:/CommunityWikiPresentationTemplate}}

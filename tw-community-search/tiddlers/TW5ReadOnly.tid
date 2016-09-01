@@ -1,0 +1,14 @@
+author: TonGerner
+created: 20160827232802539
+modified: 20160827232814958
+tags: CommunityWikis
+title: TW5ReadOnly
+type: text/vnd.tiddlywiki
+wiki-address: http://tw5readonly.tiddlyspot.com/
+wiki-tw-version: 5.1.13
+wiki-latest-modification: 20160811113350331
+wiki-nb-tiddlers: 19
+
+a demo ~TiddlyWiki (@@.BLUE TW v<<version>>@@)
+
+{{||$:/CommunityWikiPresentationTemplate}}

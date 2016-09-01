@@ -9,5 +9,6 @@ wiki-tw-version: 5.1.11
 wiki-latest-modification: 20160409182246131
 wiki-nb-tiddlers: 2
 
+for displaying external pages fully formatted
 
 {{||$:/CommunityWikiPresentationTemplate}}

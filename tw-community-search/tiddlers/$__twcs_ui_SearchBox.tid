@@ -1,0 +1,7 @@
+created: 20160107181009076
+modified: 20160107233738363
+tags: TWCSCore
+title: $:/twcs/ui/SearchBox
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="twcs-search" filter2={{!!twcs-filter}}....

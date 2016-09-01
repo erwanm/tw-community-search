@@ -1,0 +1,15 @@
+title: $:/TabActions/Stylesheet
+created: 20160325102921349
+creator: twMat
+modified: 20160518101406607
+modifier: twMat
+type: text/css
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TabActions
+source-tiddler-title-as-text: Stylesheet
+source-tiddler-title-as-link: Stylesheet
+
+/* Tweak headings h2, h3, 4h / !!, !!!, !!!! */
+.tc-tiddler-body h2 {margin-bottom:-.2em; margin-top:1.2em;}
+.tc-tiddler-body h3 {margin-bottom:-.4em; margin-top:1.4em;}
+.tc-tiddler-body h4 {margin-bottom:-.6em; margin-top:1.6em; font-weight:bold;}

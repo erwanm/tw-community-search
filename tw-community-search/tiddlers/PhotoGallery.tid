@@ -1,4 +1,15 @@
+author: JedCarty
+created: 20160827232956416
+modified: 20160827233007336
+tags: CommunityWikis
 title: PhotoGallery
-new-tiddler: Tag: PhotoGallery
+type: text/vnd.tiddlywiki
+wiki-address: http://ooktech.com/jed/ExampleWikis/PhotoGallery/
+wiki-tw-version: 5.1.12-prerelease
+wiki-latest-modification: 20160709120623778
+wiki-nb-tiddlers: 11
 
-{{||$:/ObsoleteCommunityTagTemplate}}
+A guided tour and demo
+
+
+{{||$:/CommunityWikiPresentationTemplate}}

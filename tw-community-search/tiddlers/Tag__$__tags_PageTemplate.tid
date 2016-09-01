@@ -1,7 +1,7 @@
 title: Tag: $:/tags/PageTemplate
 tags: CommunityTags
 community-tag: $:/tags/PageTemplate
-community-tag-count: 6
-community-wikis: [[ArticleTiddlers]] [[Backwall]] [[Draft of 'PublicSidebar 1']] [[Draft of 'Versioning 1']] [[TWaddle]] [[TWederation]]
+community-tag-count: 4
+community-wikis: [[ArticleTiddlers]] [[Backwall]] [[TWaddle]] [[TWederation]]
 
 {{||$:/CommunityTagTemplate}}
