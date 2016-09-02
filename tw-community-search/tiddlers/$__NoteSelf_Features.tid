@@ -7,7 +7,8 @@ source-tiddler-title-as-link: Features
 
 <span class="tc-image-wrapper">{{database.svg}}</span>
 
-* Synchronize between multiple devices: ''Mobile, tablet, computer''...
+* ''Synchronize'' between multiple devices: Mobile, tablet, computer...
+* ''Revision handling'': store several versions of the same note and navigate through them.
 * Two way synchronization with ''any'' remote CouchDB server
 * Work offline, sync when you get back online
 * Work totally offline if you want

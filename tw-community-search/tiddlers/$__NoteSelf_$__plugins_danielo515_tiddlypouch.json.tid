@@ -5,7 +5,7 @@ dependents:
 description: tiddlypouch for TiddlyWiki
 list: readme
 released: Tue, 30 Aug 2016 21:40:43 GMT
-version: 0.13
+version: 0.13.2
 original-tags: 
 source-wiki-id: NoteSelf
 source-tiddler-title-as-text: $:/plugins/danielo515/tiddlypouch

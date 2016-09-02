@@ -59,6 +59,10 @@ Major enhancements
 Important bugfixes
 ----------------------------
 
+### v0.11.7
+
+* Fixes #237: broken fields when creating edges due to multilines in fields
+
 ### v0.11.6
 
 * Fixes #233: Can't set filter for node type
