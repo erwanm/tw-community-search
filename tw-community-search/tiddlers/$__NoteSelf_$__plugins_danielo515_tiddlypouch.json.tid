@@ -1,11 +1,11 @@
 title: $:/NoteSelf/$:/plugins/danielo515/tiddlypouch
 author: Danielo Rodriguez
-core-version: >=5.1.0
+core-version: >=5.1.14
 dependents: 
 description: tiddlypouch for TiddlyWiki
 list: readme
-released: Tue, 30 Aug 2016 21:40:43 GMT
-version: 0.13.2
+released: Sat, 03 Sep 2016 22:01:44 GMT
+version: 0.14.2+2
 original-tags: 
 source-wiki-id: NoteSelf
 source-tiddler-title-as-text: $:/plugins/danielo515/tiddlypouch
