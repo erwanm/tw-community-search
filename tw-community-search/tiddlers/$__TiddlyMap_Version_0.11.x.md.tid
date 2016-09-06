@@ -59,6 +59,11 @@ Major enhancements
 Important bugfixes
 ----------------------------
 
+### v0.11.8
+
+* Fixes problem where wrong json indentation caused wrong values to be
+  written in map.
+
 ### v0.11.7
 
 * Fixes #237: broken fields when creating edges due to multilines in fields
