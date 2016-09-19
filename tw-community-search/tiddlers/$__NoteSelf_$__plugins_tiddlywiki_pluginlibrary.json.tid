@@ -1,0 +1,14 @@
+title: $:/NoteSelf/$:/plugins/tiddlywiki/pluginlibrary
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Plugin library builder
+list: readme
+version: 5.1.13
+original-tags: 
+source-wiki-id: NoteSelf
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/pluginlibrary
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fpluginlibrary
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
