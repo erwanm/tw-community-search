@@ -1,15 +1,14 @@
 title: $:/TonGernerPlayground/Disabled plugins
 created: 20160111200717362
 creator: TonGerner
-modified: 20160801132933546
+modified: 20160921124042907
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Disabled plugins
 source-tiddler-title-as-link: Disabled%20plugins
 
-|borderless|k
-|Plugin ||why not enabled?|h
-|[[Readonly plugin]]||disables/hides many buttons|
-|[[Top-left menu plugin|Top + left menu plugin]]|&nbsp;&nbsp;&nbsp;&nbsp;|incompatible with 'Tristate' plugin|
+|Plugin |why not enabled?|h
+|[[Readonly plugin]]|disables/hides many buttons|
+|[[Top-left menu plugin|Top + left menu plugin]]|incompatible with 'Tristate' plugin|
 

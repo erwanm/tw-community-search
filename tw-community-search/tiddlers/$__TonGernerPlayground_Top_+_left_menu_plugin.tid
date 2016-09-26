@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top + left menu plugin
 caption: Top + Left menu
 created: 20150719185958949
 creator: TonGerner
-modified: 20160725145639343
+modified: 20160920103308057
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -14,17 +14,7 @@ source-tiddler-title-as-link: Top%20%2b%20left%20menu%20plugin
 {{Upgraded}}
 
 !!!!Readme (from plugin)
-A plugin for a top menu and a switchable left menu.
-
-The tiddler [[Top menu|$:/plugins/tongerner/topleftmenu/topmenu]] need to be populated with menu entries.
-
-The tiddler [[Left menu|$:/plugins/tongerner/topleftmenu/leftmenu/entries]] need to be populated with menu entries (based on links, tags, tagpills, TOC macro, ...).
-
-<<<
-''Note:''<br>''This plugin needs my $:/plugins/tongerner/layout_adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''
-<<<
-
-Settings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
+<$transclude tiddler="$:/plugins/tongerner/topleftmenu" subtiddler="$:/plugins/tongerner/topleftmenu/readme" mode="block"/>
 
 ---
 

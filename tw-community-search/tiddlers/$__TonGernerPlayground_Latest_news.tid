@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20160814113236993
+modified: 20160925150918772
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,14 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 25 September 2016
+* Added 'Left menu' guide
+* Toolbar plugin: added 'enable/disable toolbar' button
+* Listrecent plugin: added 'enable/disable listrecent' button
+* Extended 'Customization' guide
+* Added $:/state/sidebar to the Tristate plugin
+* Minor tweaks to other guides and plugins
 
 !!! 14 August 2016
 * Repaired 'description' bug in Toolbar plugin

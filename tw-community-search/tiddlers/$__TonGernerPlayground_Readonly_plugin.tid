@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Readonly plugin
 caption: Readonly
 created: 20150719185704115
 creator: TonGerner
-modified: 20160725145459565
+modified: 20160920094447108
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -14,29 +14,14 @@ source-tiddler-title-as-link: Readonly%20plugin
 {{Upgraded}}
 
 !!!!Readme (from plugin)
-A plugin to make ~TiddlyWiki read-only.
-
-You can hide (at a minimum):
-
-* View Toolbar
-** Edit button
-* Page Toolbar
-** New tiddler button
-** Control panel button
-** Save button
-
-so the TW will be read-only.
-
-But you can hide as well:
-
-* ''all'' other buttons per button
-** 'Menu' button (to switch Sidebar) and 'Advanced search' button (next to Search) included
-* ''all'' Sidebar tabs per tab.
-
-Open [[$:/plugins/tongerner/ro/publish]] and follow the 4 steps.
+<$transclude tiddler="$:/plugins/tongerner/ro" subtiddler="$:/plugins/tongerner/ro/readme" mode="block"/>
 
 ---
 
 Drag & drop the following link to your wiki to install this plugin.
 
 * [[$:/plugins/tongerner/ro]]
+
+
+
+

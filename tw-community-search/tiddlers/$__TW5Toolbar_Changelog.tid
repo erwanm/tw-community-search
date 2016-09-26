@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20160814112743006
+modified: 20160925132848410
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,10 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 ''@@.brown Changelog@@''
+
+!!!!v6.06
+* Added 'Delete all' button to 'Search & delete tiddlers'
+* Separate button to enable/disable toolbar plugin.
 
 !!!!v6.05 (14-8-2016)
 * Description bug in tag-search-template; renamed: rows => columns.

@@ -6,7 +6,7 @@ description: System tags
 list: readme
 modified: 20160725122046152
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.4
+version: 0.1.5
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tongerner/systemtags

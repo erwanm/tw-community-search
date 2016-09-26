@@ -7,7 +7,7 @@ source-tiddler-title-as-link: Plugins
 <div>
 
 !!!Plugins
-<div class="tc-image-wrapper tc-image-left tc-image-border tc-image-plugins">[img[plugins.gif]]</div>
+<div class="tc-image-wrapper tc-image-left tc-image-border tc-image-medium">[img[plugins.gif]]</div>
 
 Plugins have just landed in NoteSelf!
 

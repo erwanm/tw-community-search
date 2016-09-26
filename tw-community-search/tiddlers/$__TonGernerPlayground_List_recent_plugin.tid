@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/List recent plugin
 caption: List recent
 created: 20160130132450206
 creator: TonGerner
-modified: 20160725145438512
+modified: 20160925150403447
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -18,6 +18,11 @@ source-tiddler-title-as-link: List%20recent%20plugin
 
 ---
 
-Drag & drop the following link to your wiki to install this plugin.
+Drag & drop the following link(s) to your wiki to install this plugin (and - if required - the toggle button).
 
 * [[$:/plugins/tongerner/listrecent]]
+* [[$:/_toggle-listrecent-plugin-button]]
+
+<<<
+''Note:''<br>This button does ''not'' work here at TiddlySpot (you cannot save)!
+<<<

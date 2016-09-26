@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Introduction
 created: 20131122170358987
 creator: TonGerner
-modified: 20160214142923923
+modified: 20160925133433594
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -19,15 +19,16 @@ The 'top toolbar' is available as a plugin, just drag & drop:
 ''Note:''
 
 * With [[$:/plugins/tongerner/layout_adjustment]] - common to many of my plugins - you can 'correct' the layout in case extra top space is required for a toolbar, top menu, breadcrumbs, ...
+* If you want to enable/disable the toolbar plugin, drag & drop  $:/_toggle-toolbar-plugin-button to your wiki. This creates a button ({{$:/plugins/tongerner/toolbar/images/enable-toolbar}} / {{$:/plugins/tongerner/toolbar/images/disable-toolbar}}) in the top rightbar that enables/disables the toolbar plugin
 * The 'top toolbar' plugin can be combined with  my 'topmenu', 'breadcrumbs', 'tabstory', and 'uptoolbar' (toolbar above title) plugins.
-* As a demo it does not show all toolbar buttons that can be added to the top toolbar. Buttons can be switched on/off: 'Control panel' > 'Appearance' > 'Toolbars' > [['Top toolbar'|$:/plugins/tongerner/toolbar/toolbar-display]].
+* As a demo it does not show all toolbar buttons that can be added to the top toolbar. Buttons can be switched on/off: ''Control panel > Appearance > Toolbars > [['Top toolbar'|$:/plugins/tongerner/toolbar/toolbar-display]]''.
 <<<
 
 [[$:/plugins/tongerner/layout_adjustment]] creates a top bar - tagged with [[$:/tags/PageTemplate]] - as background and boundary for a top menu, toolbar, breadcrumbs, etc.
 
 [[$:/plugins/tongerner/toolbar]] creates a toolbar with buttons, tagged with [[$:/tags/TopLeftBar]]
 
-* The buttons can be switched on/off in 'Control panel' > 'Appearance' > 'Toolbars' > 'Top toolbar'.<br>
+* The buttons can be switched on/off in ''Control panel > Appearance > Toolbars > Top toolbar''.<br>
 * The order of the buttons in the toolbar can be changed in [[$:/tags/TopLeftBar]].
 
 <<<

@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Left + top menu
 created: 20140203085544593
 creator: TonGerner
-modified: 20160725161034126
+modified: 20160920092413267
 modifier: TonGerner
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
@@ -17,13 +17,17 @@ source-tiddler-title-as-link: Left%20%2b%20top%20menu
 
 This guide describes how to add a top menu and a left menu to a TW5.
 
-Steps involved:
+It features:
 
-* add a top menu
-* add tag pill based entries in a top menu
-* add a left menu (with different kinds of entries)
-* add a button in a top menu to toggle the left menu on/off.
-
-It shows the relevant code and styles involved.
+* a top menu with tag pill based entries
+* a left menu (with different kinds of entries)
+* a button in a top menu to toggle the left menu on/off while at the same time the sidebar is toggled off/on.
 
 ''Guide at ~TiddlySpot:''<br>[[How to make a top menu, and a left menu that can be toggled on/off|http://tw5topleft.tiddlyspot.com/]]
+
+<<<
+''Note:''
+
+* This guide is meant for a non widescreen monitor where window space is limited
+* In case of a widescreen monitor left menu and sidebar can be visible together. See my guide [[Left menu]].
+<<<

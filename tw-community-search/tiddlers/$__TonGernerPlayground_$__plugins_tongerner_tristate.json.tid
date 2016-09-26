@@ -5,10 +5,10 @@ created: 20140815090725509
 creator: TonGerner
 description: Tristate sidebar
 list: readme installation
-modified: 20160725122417482
+modified: 20160925113511537
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.4
+version: 0.1.5
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/tristate

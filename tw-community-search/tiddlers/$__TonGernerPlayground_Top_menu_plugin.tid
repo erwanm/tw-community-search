@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top menu plugin
 caption: Top menu
 created: 20150719185926666
 creator: TonGerner
-modified: 20160725145724372
+modified: 20160921110211361
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -22,3 +22,5 @@ Drag & drop the following links to your wiki to install this plugin.
 
 * [[$:/plugins/tongerner/topmenu]]
 * [[$:/plugins/tongerner/layout_adjustment]]
+
+In case you want the possibility to enable/disable the toolbar, drag & drop $:/_toggle-toolbar-plugin-button to your wiki.

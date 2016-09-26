@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Bluish theme
 created: 20160111103327556
 creator: TonGerner
-modified: 20160718170459864
+modified: 20160920093530829
 modifier: TonGerner
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,10 @@ source-tiddler-title-as-link: Bluish%20theme
 
 !!!!Readme (from theme)
 {{$:/themes/tongerner/bluish/readme}}
+
+<<<
+''Note:''<br>This TW5 uses my Bluish theme.
+<<<
 
 ---
 
