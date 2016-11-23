@@ -1,7 +1,7 @@
 title: Tag: Home
 tags: CommunityTags
 community-tag: Home
-community-tag-count: 4
-community-wikis: [[fontawesome]] [[NoteSelf]]
+community-tag-count: 8
+community-wikis: [[fontawesome]] [[NoteSelf]] [[TiddlyMap]]
 
 {{||$:/CommunityTagTemplate}}

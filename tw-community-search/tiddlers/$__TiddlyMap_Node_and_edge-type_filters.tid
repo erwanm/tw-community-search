@@ -1,0 +1,15 @@
+title: $:/TiddlyMap/Node and edge-type filters
+created: 20150408193831749
+modified: 20160124144951935
+tmap.id: 336511aa-c981-4a5d-8f32-0bde79c7a578
+type: text/vnd.tiddlywiki
+original-tags: [[View configuration]]
+source-wiki-id: TiddlyMap
+source-tiddler-title-as-text: Node and edge-type filters
+source-tiddler-title-as-link: Node%20and%20edge-type%20filters
+
+Node and edge-type filters are [[TiddlyWiki filters]] that determine which nodes and edges are displayed in a graph. Both actually are tiddlywiki-filters. The filters can be set for each view by opening the [[view's configuration|View configuration]].
+
+! Topics
+
+<<toc "$(currentTiddler)$">>
