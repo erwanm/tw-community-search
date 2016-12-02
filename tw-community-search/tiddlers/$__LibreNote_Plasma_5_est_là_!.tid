@@ -1,11 +1,11 @@
 title: $:/LibreNote/Plasma 5 est là !
 created: 20160422204035929
 creator: svink
-modified: 20160422204859562
+modified: 20161114170139416
 modifier: svink
 resume: Mise à jour du Guide KDE vers Plasma 5
-template: BlogTemplate
-titre_news: Mise à jour de ~LinuxNote 
+template: $:/.ln/core/template/BlogTemplate
+titre_news: Mise à jour de ~LinuxNote
 url_thumb: https://framadrive.org/public.php?service=files&t=nKOLZR9SkebZQkG&download
 original-tags: Blog semisemi LibreNote KDE
 source-wiki-id: LibreNote

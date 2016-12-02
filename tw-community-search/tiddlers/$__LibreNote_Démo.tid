@@ -1,0 +1,15 @@
+title: $:/LibreNote/Démo
+created: 20161113151929515
+modified: 20161113152109246
+rank: 4
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Démo
+source-tiddler-title-as-link: Démo
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Démonstrations'>
+<$action-setfield $tiddler="$:/StoryList" list="
+DemoListe"/>
+<$action-navigate $to="DemoListe" $scroll="yes"/>
+<i class="fa fa-cog" aria-hidden="true"></i> {{!!title}}
+</$button>

@@ -1,7 +1,7 @@
 title: $:/LibreNote/DerniersPosts
 created: 20150611130704479
 creator: svink
-modified: 20160722151641169
+modified: 20161113154247873
 modifier: svink
 original-tags: semi
 source-wiki-id: LibreNote
@@ -12,9 +12,8 @@ source-tiddler-title-as-link: DerniersPosts
 {{$(TiddlerToDisplay)$||$(TemplateToUse)$}}
 \end
 
-<div style="text-align:left;">
+<br>
 {{blog.png}}
-</div>
 
 <br>
 
@@ -28,6 +27,7 @@ source-tiddler-title-as-link: DerniersPosts
 </$list>
 
 <br>
+<div style="text-align:center">
 <span class="btn">
 <i class="fa fa-archive" style="color:#FFFFFF"></i> ''<span class=bta>[[Archives|AnciensPosts]]</span>''
 </span>

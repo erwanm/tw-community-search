@@ -1,5 +1,4 @@
 title: $:/GitNote/Menu
-color: 
 created: 20141023095946603
 icon: $:/core/images/menu-button
 list: [[Git c'est quoi ?]] [[Installer et configurer Git]] [[Utiliser Git]] [[Modifier ses fichiers]] [[Ajouter de nouveaux fichiers]] [[Travailler avec un dépôt distant]] [[Exemple de mise en œuvre]] [[Tagger ses versions]]

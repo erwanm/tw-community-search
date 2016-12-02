@@ -1,10 +1,10 @@
 title: $:/LibreNote/Une nouvelle version du site
 created: 20160218142858058
 creator: svink
-modified: 20160218143446801
+modified: 20161114170219393
 modifier: svink
 resume: Une nouvelle identité visuelle pour ~LibreNote et les wikis.
-template: BlogTemplate
+template: $:/.ln/core/template/BlogTemplate
 titre_news: LibreNote fait peau neuve
 url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
 original-tags: Blog semisemi LibreNote

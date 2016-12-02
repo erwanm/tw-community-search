@@ -1,10 +1,10 @@
 title: $:/LibreNote/Des démonstrations d'utilisation de Tiddlywiki
 created: 20151023123441637
 creator: svink
-modified: 20160213184634251
+modified: 20161114170244100
 modifier: svink
 resume: Utiliser ~TiddlyWiki pour créer un blog.
-template: BlogTemplate
+template: $:/.ln/core/template/BlogTemplate
 titre_news: Utiliser ~TiddlyWiki comme un blog
 url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
 original-tags: Blog LibreNote TiddlyWiki semisemi

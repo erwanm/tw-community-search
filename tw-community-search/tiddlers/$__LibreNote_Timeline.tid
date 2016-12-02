@@ -3,10 +3,10 @@ auteur: kixam
 categorie: Plugins
 created: 20160505201834473
 creator: svink
-description: Afficher un calendrier des tiddlers 
-modified: 20160505201948950
+description: Afficher un calendrier des tiddlers
+modified: 20161127201819781
 modifier: svink
-ordre: 4
+ordre: 5
 url: https://kixam.github.io/TW5-visjsTimeline/
 original-tags: demo
 source-wiki-id: LibreNote

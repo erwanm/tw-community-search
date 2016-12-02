@@ -1,0 +1,19 @@
+title: $:/LibreNote/Home
+created: 20160928170107867
+modified: 20161113151131324
+rank: 1
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Home
+source-tiddler-title-as-link: Home
+
+<$button class="tc-btn-invisible icon-menu" tooltip='Accueil'>
+<$action-setfield $tiddler="$:/StoryList" list="
+Accueil
+Presentation
+Documentation
+Actualites
+LesWikis"/>
+<$action-navigate $to="Accueil" $scroll="yes"/>
+<i class="fa fa-home"></i> Home
+</$button>

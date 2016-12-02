@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugins/svink/newpost'
+title: Unknown plugin '$:/plugins/svink/modeweb'
 name: unknown
-plugin_tiddler: $:/plugins/svink/newpost
+plugin_tiddler: $:/plugins/svink/modeweb
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 
