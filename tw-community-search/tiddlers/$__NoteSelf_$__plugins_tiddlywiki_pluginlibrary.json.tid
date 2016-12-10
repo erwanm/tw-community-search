@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Plugin library builder
 list: readme
-version: 5.1.13
+version: 5.1.14-prerelease
 original-tags: 
 source-wiki-id: NoteSelf
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/pluginlibrary
