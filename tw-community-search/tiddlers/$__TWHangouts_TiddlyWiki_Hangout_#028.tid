@@ -1,0 +1,56 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #028
+created: 20150115060757718
+modified: 20150115061421095
+original-tags: HangOut_028 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #028
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23028
+
+\define hangout() 028
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: rtl: Carlos (later), Dave, Jim, Jeremy, Paul, Stephan, Ton">>
+<<topic "0:03.10" "Jeremy- agenda and passes over to Ton">>
+<<topic "0:03:30" "Ton- News about Ton's TW5 guide - 'toggle - theme - button'">>
+<<topic "0:13:30" "Jeremy- short summary .. next steps .. 'how to package tiddlers into a plugin'">>
+<<topic "0:16:20" "Ton- questions about 'how to install node.js and npm' (.. wrong links)">>
+<<topic "0:19:00" "Jeremy- short summary">>
+<<topic "0:19:30" "Intro: Carlos">>
+<<topic "0:20:00" "Jeremy/Jim- about task management">>
+<<topic "0:21:30" "Jeremy- about his observations about task management from TWc">>
+<<topic "0:25:00" ".. what do others (on the call) think?">>
+<<topic "0:26:00" "Carlos- about calenders and a WebDav interface">>
+<<topic "0:27:45" "Jeremy- TW5 node.js could have a WebDav interace ...">>
+<<topic "0:28:48" "Jeremy- about POSSE 'Publish (on your) Own Site, Syndicate Elsewhere' ... IMAP interface for TW5">>
+<<topic "0:31:40" "Jeremy- about TW5 as a WebDav/CalDav client ... HTTP client for github issues">>
+<<topic "0:33:58" "Carlos- about his usecase ...">>
+<<topic "0:35:20" "Jeremy- Dave ask (chat): 'What does Jeremy plan to do next?' ... Caching in local storage">>
+<<topic "0:37:30" "Jeremy- about 'avoiding data loss' ... 'Download Offline Snapshot' button">>
+<<topic "0:40:05" "Jeremy- 'Helping Hackers' ... translation, making plugins in the browser,">>
+<<topic "0:40:30" "Jeremy- opens the 'RoadMap' tiddler. see RoadMap at tiddlywiki . com">>
+<<topic "0:42:15" "Jeremy- .. Things that Jeremy really loves ... Cecily">>
+<<topic "0:43:00" "Jeremy- Browser History handling ...">>
+<<topic "0:46:00" "Jeremy- Permalink handling ...">>
+<<topic "0:47:00" "Jeremy- github issue list ... issues should be actionable">>
+<<topic "0:56:50" "Jeremy- about TiddlySaver ... can Jim help with some 'know how'">>
+<<topic "1:00:38" "- - short break - -">>
+<<topic "1:03:02" "Paul- proposal: 'vertical merging of tables' ... 'top' and 'bottom' alignemen syntax">>
+<<topic "1:13:50" "Stephan- about 'multi line table layout' with 'search and replace pragma'">>
+<<topic "1:15:35" "Jeremy- about 'what should be in the core and what should be plugins' pro and cons ... why things are as they are ..">>
+<<topic "1:18:10" "Jeremy- about 'how contributions influence the core' even if they are not merged. (...pull requests are allways welcome!)">>
+<<topic "1:19:50" "Jeremy- about the TW5 size">>
+<<topic "1:20:30" "Paul/Jeremy- about size, plugins, core ...">>
+<<topic "1:23:15" "Carlos/Jeremy- about users concerns and expectations">>
+<<topic "1:27:50" "general discussion about community support - contribution - guidance ... turn TW into a team effort">>
+<<topic "1:32:47" "Carlos- How many people use TW5 compared to TWc?">>
+<<topic "1:35:25" "Jeremy- 'Why TW5 is designed for users, who don't know TWc'">>
+<<topic "1:39:50" "Jeremy- about the TWc migration path.">>
+<<topic "1:41:05" "Carlos- Which version is at tiddlywiki . com ?">>
+<<topic "1:46:18" "Jeremy- technical aspects of the 'dates discussion' ... the internal structure of a tiddler">>
+<<topic "1:48:20" "Jeremy- tiddler fields should get a 'type' ...">>
+<<topic "1:50:23" "Paul- What about the 'tiddler representation' ... json, html .. see: hangout #27?">>
+<<topic "1:51:40" "Jeremy- any questions?">>
+<<topic "1:52:05" "Carlos- concern about node.js or java dependencies">>
+<<topic "1:57:55" "Bye! Bye!">>
+"""
