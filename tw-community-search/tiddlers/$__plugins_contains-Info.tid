@@ -13,6 +13,9 @@ source-tiddler-title-as-link: contains-Info
 The plugin [[$:/plugins/tobibeer/contains]] provides the filter:
 
 ; contains[]
-: @@.summary returns all input titles whose title / titles in a list-field contain a single title or any/all titles specified in the operand@@
+: @@.summary returns all input titles whose title / titles in a list-field contain a single title or any / all / exactly those titles specified in the operand@@
+
 ; Variants
-:@@.summary see [[examples|contains-Examples]]...@@
+: see [[Examples|contains-Examples]]
+: all [[Variants|contains-Examples]] support negation via `!contains`
+: ''Note:'' When passing an empty value or list — except for ''$exactly'' — the contains filter will always return the input titles. In other words an empty value or empty list is always contained in a list being tested.

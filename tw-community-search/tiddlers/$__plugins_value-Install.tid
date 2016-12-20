@@ -14,5 +14,8 @@ source-tiddler-title-as-link: value-Install
 
 !! Version History
 
+; 0.5.1 / 2016-12-19
+: removed console.log
+
 ; 0.5.0 / 2016-09-18
 : initial version
