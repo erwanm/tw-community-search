@@ -17,6 +17,12 @@ Please read [Upgrading to v0.11.x](#Upgrading to v0.11.x).
 Major enhancements
 ----------------------------
 
+### v0.11.9
+
+* Resolves #198: Modulized EdgeType handling
+* Resolves #245: Include linting rules
+* Resolves #244: Upgrade to ec6 via babel
+
 ### v0.11.5
 
 * Sets layout to fixed-fluid after installation
