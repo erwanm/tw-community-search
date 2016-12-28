@@ -1,7 +1,7 @@
 title: $:/SideEditor/About
 created: 20150601142211527
 creator: Mat
-modified: 20160515121119593
+modified: 20161227232126345
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -20,7 +20,7 @@ For this demo, the editor is intentionally extended to cover much of the sidebar
 *''Toggle'' it via the tiddler tool button <span class="mybutton">{{$:/core/images/chevron-right}}</span>
 *''Move'' the ~SideEditor via the two gray handles.
 *''Re-size'' width via the lower right corner. Height is automatic from typing.
-*''Flipping'' between //Sidebar// and //~SideEditor// uses CSS hovering. Exact //flip zones// might take some familiarization but here's a {{PeekToggler}} to clue about some critical areas (not included in the plugin).
+*''Flipping'' between //Sidebar// and //~SideEditor// uses CSS hovering. Exact //flip zones// might take some familiarization but here's a {{PeekToggler}} to clue about some critical areas. (Peek feature not included in the plugin).
 
 ''Issues'' and intended eventual dev, see [[here|Issues]].
 
@@ -34,9 +34,8 @@ For this demo, the editor is intentionally extended to cover much of the sidebar
 |$:/plugins/TWaddle/SideEditor/Stylesheet|General stylesheet for ~SideEditor elements|
 |$:/plugins/TWaddle/SideEditor/StylesheetActive|In-macro Stylesheet to style TW sidebar elements only when ~SideEditor is active.|
 |[[$:/plugins/TWaddle/SideEditor/Metrics]]|Values used in the positioning and sizing|
-|[[$:/plugins/TWaddle/SideEditor/icon]]|An original Picasso nicked at the Louvre|
+|[[$:/plugins/TWaddle/SideEditor/icon]]|An original [[Mondrian|https://www.google.se/search?q=mondrian&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjHjr7NwZXRAhVGXCwKHX1nCR0Q_AUICCgB&biw=1366&bih=638]] nicked at the Louvre|
 |[[$:/plugins/TWaddle/SideEditor/readme]]|For //Plugin Library// - the short description seen there |
-|[[$:/config/ViewToolbarButtons/Visibility/...|$:/config/ViewToolbarButtons/Visibility/$:/plugins/TWaddle/SideEditor/Button]]|//~CtrlPanel > Appearance > Toolbars > ~ViewToolbarsetting// - to hide/show button in tiddler toolbar.|
 
 
 <br>''For updates'', see http://sideeditor.tiddlyspot.com/
