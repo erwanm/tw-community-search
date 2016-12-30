@@ -1,10 +1,10 @@
 title: $:/TiddlyMap/Version 0.13.x
 caption: v0.13.x
 created: 20161225010054686
-modified: 20161225014939406
+modified: 20161229192042320
 tmap.id: 93d8d26f-a906-4183-b60d-014cff3a8317
 type: text/x-markdown
-original-tags: ReleaseNote Usability
+original-tags: Maintainance ReleaseNote Usability
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: Version 0.13.x
 source-tiddler-title-as-link: Version%200.13.x
@@ -15,3 +15,16 @@ Enhancements
 ### v0.13.0
 
 * Resolves #94: Draw raster lines on canvas for snapping nodes
+
+Bugfixes / Refactorings
+----------------------------
+
+### v0.13.1
+
+* Fixed issue where a node with an x coordinate equal zero was
+  treated as if no positions were assigned
+* Tiddler icon did not correctly override group or global fa-icon
+* Fixed issue where tw's global filter macro interfered with
+  a tiddlymap dialog's 'filter' variable
+* Refactored ViewAbstraction
+* Widget generator did not set current view as default
