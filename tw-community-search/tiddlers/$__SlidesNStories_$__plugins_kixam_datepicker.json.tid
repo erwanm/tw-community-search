@@ -4,7 +4,8 @@ core-version: >=5.1.8
 dependents: 
 description: datepicker plugin for TiddlyWiki5
 list: readme license usage
-modified: 20160815121828899
+modified: 20161230222451814
+modifier: JR
 source: https://github.com/kixam/TW5-datepicker.js
 version: 0.5.1
 original-tags: 
