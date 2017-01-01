@@ -16,8 +16,16 @@ Enhancements
 
 * Resolves #94: Draw raster lines on canvas for snapping nodes
 
-Bugfixes / Refactorings
+Bugfixes
 ----------------------------
+
+### v0.13.2
+
+* When creating new types in the type manager, the name
+  was not correctly copied.
+* Shape size did not apply to icons.
+* Modified date was reset everytime a type was opened
+  in the type manager
 
 ### v0.13.1
 
@@ -26,5 +34,15 @@ Bugfixes / Refactorings
 * Tiddler icon did not correctly override group or global fa-icon
 * Fixed issue where tw's global filter macro interfered with
   a tiddlymap dialog's 'filter' variable
-* Refactored ViewAbstraction
 * Widget generator did not set current view as default
+
+Refactorings
+----------------------------
+
+### v0.13.2
+
+* Refactored MapElements (EdgeType, NoteType)
+
+### v0.13.1
+
+* Refactored ViewAbstraction
