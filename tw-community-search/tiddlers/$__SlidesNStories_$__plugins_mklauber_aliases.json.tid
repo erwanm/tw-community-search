@@ -1,0 +1,12 @@
+title: $:/SlidesNStories/$:/plugins/mklauber/aliases
+author: Matt Lauber
+core-version: 5.0.1
+description: Aliases - Alias manager
+version: 0.1.2
+original-tags: 
+source-wiki-id: SlidesNStories
+source-tiddler-title-as-text: $:/plugins/mklauber/aliases
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmklauber%2faliases
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
