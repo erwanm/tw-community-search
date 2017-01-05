@@ -5,6 +5,8 @@ dependents:
 description: A filter to join titles via template, separator, prefix, suffix, trimmed
 documentation: https://tobibeer.github.io/tw5-join
 list: readme
+modified: 20170104122459241
+modifier: JR
 requires: 
 revision: 0
 source: https://github.com/tobibeer/tw5-join
