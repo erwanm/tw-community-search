@@ -13,5 +13,7 @@ source-tiddler-title-as-link: join-Install
 
 !! Version History
 
+; 0.5.1 / 2017-01-09
+: allow newlines in operand options, e.g. ''sep''
 ; 0.5.0 / 2015-12-21
 : initial version
