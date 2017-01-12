@@ -1,0 +1,18 @@
+title: $:/plugins/toc-Info
+created: 20170111221625750
+creator: Tobias Beer
+modified: 20170111221627357
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: toc-Info
+source-tiddler-title-as-link: toc-Info
+
+The plugin $:/plugins/tobibeer/toc provides:
+
+; toc[]
+: a filter to fetch tiddlers in a toc
+
+<<plugin-docs-cp toc>>

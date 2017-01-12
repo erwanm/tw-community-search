@@ -1,0 +1,18 @@
+title: $:/plugins/$:/plugins/tobibeer/toc
+author: Tobias Beer
+core-version: >=5.1.9
+dependents: 
+description: a filter to fetch tiddlers in a toc
+documentation: https://tobibeer.github.io/tw5-toc
+list: readme
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-toc
+version: 0.5.0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: $:/plugins/tobibeer/toc
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2ftoc
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
