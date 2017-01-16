@@ -1,0 +1,18 @@
+title: $:/plugins/sparkl-Macro
+created: 20170115124514151
+creator: Tobias Beer
+modified: 20170115170929795
+modifier: Tobias Beer
+number: 6
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sparkl-Macro
+source-tiddler-title-as-link: sparkl-Macro
+
+The ''sparkle'' macro simply passes all attributes to the widget <<source $:/plugins/tobibeer/sparkl/macro>>
+
+So, you can do:
+
+<$macrocall $name="`" text="""before <<sparkl "1 2 3 4 5 4 3 2 1">> after"""/>

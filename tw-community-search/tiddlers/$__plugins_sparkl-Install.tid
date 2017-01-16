@@ -1,0 +1,19 @@
+title: $:/plugins/sparkl-Install
+created: 20170113181742172
+creator: Tobias Beer
+modified: 20170115162254042
+modifier: Tobias Beer
+number: 7
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sparkl-Install
+source-tiddler-title-as-link: sparkl-Install
+
+<<plugin-install sparkl>>
+
+!! Version History
+
+; 0.5.0 / 2017-01-15
+: initial version
