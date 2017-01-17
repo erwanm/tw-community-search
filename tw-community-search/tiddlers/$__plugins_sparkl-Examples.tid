@@ -1,7 +1,7 @@
 title: $:/plugins/sparkl-Examples
 created: 20170115111008889
 creator: Tobias Beer
-modified: 20170115164930547
+modified: 20170116225115840
 modifier: Tobias Beer
 number: 3
 revision: 0
@@ -29,6 +29,9 @@ values="[[%title%]get[number]]"
 titles="[prefix[sparkl]sort[number]]"
 link="no"/> after""">>
 
+As dots...
+
+<<` """before <$sparkl values="2 4 8 2 4 8" as="dots"/> after""">>
 
 Low accuracy via few segments, margin suppressed...
 
