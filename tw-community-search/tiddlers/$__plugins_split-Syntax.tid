@@ -1,7 +1,7 @@
 title: $:/plugins/split-Syntax
 created: 20151127150718797
 creator: Tobias Beer
-modified: 20151230104213412
+modified: 20170117221139526
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -37,6 +37,8 @@ You can define a number of suffix elements some of which can be meaningfully com
 ; at
 : splits the input title in two items at the character specified as a number in the operand
 : returns nothing should the input title be shorter than the specified number
+: `at[4,2]` splits at the `4`th character for a length of `2` characters
+: `!at[4,2]` returns the input title with the above return value being cut out
 ; keep
 : returns the input title even it was not split as requested
 ; unique

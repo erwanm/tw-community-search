@@ -1,7 +1,7 @@
 title: $:/plugins/split-Install
 created: 20151127143704922
 creator: Tobias Beer
-modified: 20151230063310041
+modified: 20170117221451942
 modifier: Tobias Beer
 revision: 0
 type: text/vnd.tiddlywiki
@@ -14,6 +14,9 @@ source-tiddler-title-as-link: split-Install
 
 !! Version History
 
+; 0.7.2 / 2017-01-17
+: added `at[<character>,<length>]` to emulate substr (starting at 1, though)
+: added `!at[<character>,<length>]` to cut out what substr would have fetched
 ; 0.7.0 / 2015-12-30
 : introducing suffix `list` to parse any soft operand as a stringified list of titles
 ; 0.6.6 / 2015-12-25

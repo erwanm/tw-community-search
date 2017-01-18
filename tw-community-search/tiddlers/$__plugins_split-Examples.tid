@@ -3,7 +3,7 @@ authors: [[Tobias Beer]] [[Just Tobi]]
 created: 20151127145153951
 creator: Tobias Beer
 list: a [[b c]] d
-modified: 20160828054746042
+modified: 20170117220815454
 modifier: Tobias Beer
 revision: 0
 summary: examples for the [[split]] filter
@@ -130,9 +130,17 @@ compare to:
 
 <<` """{{{ 123456 +[split:first at[4]] }}}""">>
 
-<<` """<$list filter="[[123456]split:at[40]]" emptyMessage="none"/>""">>
+<<` """{{{ 123456 +[split:at[4,2]] }}}""">>
 
-<<` """<$list filter="[[123456]split:keep at[40]]" emptyMessage="none"/>""">>
+<<` """{{{ 123456 +[split:!at[4,2]] }}}""">>
+
+<<` """<$list filter="[[123456]split:at[10]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[123456]split:keep at[10]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[123456]split:at[10,2]]" emptyMessage="none"/>""">>
+
+<<` """<$list filter="[[123456]split:keep at[10,2]]" emptyMessage="none"/>""">>
 
 <<` """<$list filter="[[foo]split[-]]" emptyMessage="none"/>""">>
 
