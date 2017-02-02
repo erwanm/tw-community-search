@@ -5,7 +5,7 @@ dependents:
 description: Highlight.js: syntax highlighting
 list: readme usage license
 revision: 0
-version: 5.1.13
+version: 5.1.14-prerelease
 original-tags: 
 source-wiki-id: tb5
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

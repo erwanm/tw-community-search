@@ -1,4 +1,5 @@
 title: $:/LinuxNote/Menu
+color: 
 created: 20141023095946603
 icon: $:/core/images/menu-button
 list: [[Hello world !]] [[Guide Chakra]] [[Guide KDE]] [[Services internet libres]]

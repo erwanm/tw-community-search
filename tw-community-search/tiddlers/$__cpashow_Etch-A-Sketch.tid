@@ -1,0 +1,90 @@
+title: $:/cpashow/Etch-A-Sketch
+created: 20170128154543266
+dx: 
+dy: 
+endx: 10
+endy: 10
+height: 100
+large-arc-flag: 
+last_button: 
+modified: 20170201195320079
+path: M 0 0
+path-elements: 
+rx: 
+ry: 
+startx: 50
+starty: 50
+width: 100
+x-axis-rotation: 
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Etch-A-Sketch
+source-tiddler-title-as-link: Etch-A-Sketch
+
+\define Show_Etch-A-Sketch(width, height, transx, transy)
+	<svg height={{!!height}} width={{!!width}} fill="none" stroke="black">
+		<rect x=0 y=0 width={{!!width}} height={{!!height}} />
+		<g transform="translate($transx$,$transy$)">
+			<path d={{!!path}} />
+		</g>
+	</svg>
+\end
+
+<$macrocall $name="Show_Etch-A-Sketch" width={{!!width}} height={{!!height}} transx={{!!startx}} transy={{!!starty}} />
+
+<table>
+	<tr><td>
+			<$macrocall $name="Delete_Direction" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="left-up-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="up-left-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="up" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="up-bump" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="up-right-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="right-up-curve" last_button={{!!last_button}} />
+		</td><td>
+		</td><td>
+	</td></tr>
+	<tr><td>
+			<$macrocall $name="Draw_Direction" direction="left-bump" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="left" last_button={{!!last_button}} />
+		</td><td colspan="5">
+			{{!!last_button}}
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="right" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="right-bump" last_button={{!!last_button}} />
+	</td></tr>
+	<tr><td>
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="left-down-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="down-left-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="down" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="down-bump" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="down-right-curve" last_button={{!!last_button}} />
+		</td><td>
+			<$macrocall $name="Draw_Direction" direction="right-down-curve" last_button={{!!last_button}} />
+		</td><td>
+		</td><td>
+	</td></tr>
+</table>
+
+Requires the following Tiddlers to work
+
+* [[Etch-A-Sketch]]
+* [[Show SVG Bumps]]
+* [[SVG Directions Enables]]
+* [[SVG Bump Lengths]]
+* [[SVG Bumps]]
+* [[SVG Bumps Directions]] 
+* [[$:/_cpa/macros/calcString.js]]
