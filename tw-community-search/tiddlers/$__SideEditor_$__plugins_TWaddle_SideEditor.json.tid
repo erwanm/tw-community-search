@@ -1,8 +1,12 @@
 title: $:/SideEditor/$:/plugins/TWaddle/SideEditor
-author: Mat von [[TWaddle|http://twaddle.tiddlyspot.com]]
+author: Mat von TWaddle
+created: 20170123001652994
+creator: Mat
 description: SideEditor - a live editor next to your tiddler
 list: readme
-version: 1.0.3
+modified: 20170123001853816
+modifier: Mat
+version: 1.0.7
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: $:/plugins/TWaddle/SideEditor

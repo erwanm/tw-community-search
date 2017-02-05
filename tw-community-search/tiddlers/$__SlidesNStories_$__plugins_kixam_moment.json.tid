@@ -4,7 +4,8 @@ core-version: >=5.1.8
 dependents: 
 description: moment.js plugin for TiddlyWiki5
 list: readme license
-modified: 20160815121828898
+modified: 20161230222451814
+modifier: JR
 source: https://github.com/kixam/TW5-moment.js
 version: 2.12.0
 original-tags: 

@@ -2,12 +2,12 @@ title: $:/plugins/$:/plugins/tobibeer/contains
 author: Tobias Beer
 core-version: >=5.1.9
 dependents: 
-description: Filter titles/listfields containing a value or any/all values from a list
+description: Filter titles/listfields containing a value or any / all / exactly those values from a list
 documentation: https://tobibeer.github.io/tw5-contains
 list: readme
 revision: 0
 source: https://github.com/tobibeer/tw5-contains
-version: 0.5.0
+version: 0.6.0
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/contains

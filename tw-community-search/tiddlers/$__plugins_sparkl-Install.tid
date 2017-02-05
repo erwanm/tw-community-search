@@ -1,0 +1,25 @@
+title: $:/plugins/sparkl-Install
+created: 20170113181742172
+creator: Tobias Beer
+modified: 20170116225824530
+modifier: Tobias Beer
+number: 7
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sparkl-Install
+source-tiddler-title-as-link: sparkl-Install
+
+<<plugin-install sparkl>>
+
+!! Version History
+
+; 0.5.1 / 2017-01-17
+: added ''link'' pattern via filter, similar to ''values''
+: added ''as'', ''as=dots'' & ''dot-size''
+: slightly increased the default width
+: changed position computation to pixels, not ''em''
+:: browsers appear to inconsistently render the bar width when in ''em''
+; 0.5.0 / 2017-01-15
+: initial version

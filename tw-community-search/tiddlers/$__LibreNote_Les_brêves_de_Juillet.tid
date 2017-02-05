@@ -1,10 +1,10 @@
 title: $:/LibreNote/Les brêves de Juillet
 created: 20150707164852998
 creator: svink
-modified: 20160213184648667
+modified: 20161114170332858
 modifier: svink
 resume: En ce début du mois de Juillet petit tour des sorties de Mai et Juin...
-template: BlogTemplate
+template: $:/.ln/core/template/BlogTemplate
 titre_news: Les brêves de Juillet
 url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
 original-tags: Blog Chakra KDE semisemi

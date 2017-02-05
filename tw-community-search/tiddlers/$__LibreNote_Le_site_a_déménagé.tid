@@ -1,10 +1,10 @@
 title: $:/LibreNote/Le site a déménagé
 created: 20150928124903357
 creator: svink
-modified: 20160129141640328
+modified: 20161114170308591
 modifier: svink
 resume: ~LibreNote change de solution d'hébergement.
-template: BlogTemplate
+template: $:/.ln/core/template/BlogTemplate
 titre_news: ~LibreNote a déménagé 
 url_thumb: https://framadrive.org/public.php?service=files&t=U8BbWg9GbB6B5Az&download
 original-tags: Blog LibreNote semisemi

@@ -1,12 +1,12 @@
 title: $:/PublicSidebar/Set up your menu tiddler like this
 created: 20150819224748694
-modified: 20150819230246911
+modified: 20170204140628650
 original-tags: 
 source-wiki-id: PublicSidebar
 source-tiddler-title-as-text: Set up your menu tiddler like this
 source-tiddler-title-as-link: Set%20up%20your%20menu%20tiddler%20like%20this
 
-If you want a menu to behave(!) similar to what is demo'ed here, you can simply edit the PublicMenu tiddler here or just create a new tiddler that it:
+If you want a menu to behave(!) similar to what is demo'ed here, you can simply edit the PublicMenu tiddler here or just create a new tiddler that is:
 
 *is tagged `$:/tags/SideBar` so to be displayed as a tab in the sidebar... IF sidebar tabs are displayed.
 *Note that the //contents// of the ~PublicMenu are displayed in this demo //even if // the tab lists are hidden.

@@ -3,9 +3,9 @@ author: Tony Grosinger
 core-version: >=5.0.9
 dependents: 
 description: Checklist Plugin
-list: readme usage
+list: readme Usage Configuration
 source: https://github.com/tgrosinger/tw5-checklist
-version: 0.0.9
+version: 0.0.12
 original-tags: 
 source-wiki-id: TW5Checklist
 source-tiddler-title-as-text: $:/plugins/tgrosinger/tw5-checklist
