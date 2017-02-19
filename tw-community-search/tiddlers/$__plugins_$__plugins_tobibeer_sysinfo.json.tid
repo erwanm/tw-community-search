@@ -7,7 +7,7 @@ documentation: https://tobibeer.github.io/tw5-plugins#sysinfo
 list: readme
 revision: 0
 source: https://github.com/tobibeer/tw5-sysinfo
-version: 0.5.0
+version: 0.6.0
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/sysinfo

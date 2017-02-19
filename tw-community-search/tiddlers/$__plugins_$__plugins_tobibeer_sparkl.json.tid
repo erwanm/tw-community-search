@@ -8,7 +8,7 @@ list: readme defaults styles
 requires: 
 revision: 0
 source: https://github.com/tobibeer/tw5-sparkl
-version: 0.5.0
+version: 0.5.2
 original-tags: 
 source-wiki-id: plugins
 source-tiddler-title-as-text: $:/plugins/tobibeer/sparkl

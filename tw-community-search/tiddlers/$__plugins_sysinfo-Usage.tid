@@ -11,7 +11,20 @@ source-wiki-id: plugins
 source-tiddler-title-as-text: sysinfo-Usage
 source-tiddler-title-as-link: sysinfo-Usage
 
-This example demonstrates how to show content depending on whether we're local or over the web:
+To test whether you're in a node or browser environment you could use:
+
+<$macrocall $name="`" text="""<$vars env=<<sysinfo env>>>
+<$list filter="[<env>!prefix[node]]">
+only shown when not under node, i.e. when in the browser
+</$list>
+<$list filter="[<env>prefix[node]]">
+only shown when under node, e.g. when rendering static pages
+</$list>
+</$vars>"""/>
+
+You can use the above along with some [[Conditional ViewTemplate Section|http://tobibeer.github.io/tb5/#Conditional%20ViewTemplate%20Section]]
+
+The next example demonstrates how to show content depending on whether we're local or over the web:
 
 <$macrocall $name="`" text="""<$vars host=<<sysinfo location href>>>
 
