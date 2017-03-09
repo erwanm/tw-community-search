@@ -1,7 +1,7 @@
 title: $:/LibreNote/LinuxNote
 created: 20150530120329512
 creator: svink
-modified: 20160722152124679
+modified: 20170305173734811
 modifier: svink
 original-tags: transblack
 source-wiki-id: LibreNote
@@ -19,6 +19,6 @@ source-tiddler-title-as-link: LinuxNote
 <a href="https://librenote.aerobatic.io/linuxnote" class="tc-btn-big-green" style="text-decoration:none; background-color:#5a99d7;" target="_blank">
 ''~LinuxNote'' <i class="fa fa-external-link-square"></i></a>
 </div>
-<div style="text-align:center; font-size:1.1em;">
+<div style="text-align:center; font-size:1.1em; color:white;">
 Un guide d'utilisation de Chakra, une distribution GNU/Linux centrée sur KDE
 </div>

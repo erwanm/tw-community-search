@@ -1,0 +1,35 @@
+title: $:/LibreNote/Draft of 'LeBlog'
+created: 20150614154750487
+creator: svink
+draft.of: LeBlog
+draft.title: LeBlog
+modified: 20170305173538079
+modifier: svink
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Draft of 'LeBlog'
+source-tiddler-title-as-link: Draft%20of%20%27LeBlog%27
+
+<table class="invisibletable">
+<tr>
+<td>
+<div style="font-size:1.2em; text-align:left; margin-bottom:1.5em;">
+<i class="fa fa-rss" style="color:#f9a004"></i> Actualités
+</div>
+
+{{News}}
+
+<div style="text-align:left; font-size: 0.9em; margin-top:1em; margin-left:1.5em;">
+<$button class="tc-btn-invisible lien-blog">
+<$action-setfield $tiddler="$:/StoryList" list="
+[[DerniersPosts]]
+[[ListeTags]]"/>
+<$action-navigate $to="DerniersPosts" $scroll="yes"/>
+Plus d'articles sur le blog
+</$button>
+</div>
+</td>
+
+<td valign="center">
+<div style="font-size:1.2em ; text-align:justify">
+<br><i class="fa fa-quote-left"></i> //~LibreNote a été créé pour centraliser les wikis que je maintiens. Par la suite, l'idée est venue d'essayer de créer un site internet complet avec ~TiddlyWiki.// <i class="fa fa-quote-right"></i>

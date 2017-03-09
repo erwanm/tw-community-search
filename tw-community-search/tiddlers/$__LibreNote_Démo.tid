@@ -1,15 +1,20 @@
 title: $:/LibreNote/Démo
-created: 20161113151929515
-modified: 20161113152109246
+created: 20161210225903858
+icone: <i class="fa fa-cog" aria-hidden="true"></i>
+liste-tiddlers: DemoListe
+modified: 20170305150712875
 rank: 4
+titre: Démo
+tooltip: Démonstrations
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Démo
 source-tiddler-title-as-link: Démo
 
-<$button class="tc-btn-invisible icon-menu" tooltip='Démonstrations'>
-<$action-setfield $tiddler="$:/StoryList" list="
-DemoListe"/>
-<$action-navigate $to="DemoListe" $scroll="yes"/>
-<i class="fa fa-cog" aria-hidden="true"></i> {{!!title}}
+\define menuEntry()
+<$button class="tc-btn-invisible icon-menu" tooltip={{!!tooltip}} set="$:/StoryList!!list" setTo={{!!liste-tiddlers}}>
+{{!!icone}} {{!!titre}}
 </$button>
+\end
+
+<<menuEntry>>

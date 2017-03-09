@@ -1,16 +1,20 @@
 title: $:/LibreNote/Blog
-created: 20161113145158947
-modified: 20161113145428453
+created: 20161210225903858
+icone: <i class="fa fa-comments" aria-hidden="true"></i>
+liste-tiddlers: DerniersPosts ListeTags
+modified: 20170305144527677
 rank: 2
+titre: Blog
+tooltip: Le Blog
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Blog
 source-tiddler-title-as-link: Blog
 
-<$button class="tc-btn-invisible icon-menu" tooltip='Le Blog'>
-<$action-setfield $tiddler="$:/StoryList" list="
-DerniersPosts
-ListeTags"/>
-<$action-navigate $to="DerniersPosts" $scroll="yes"/>
-<i class="fa fa-comments" aria-hidden="true"></i> {{!!title}}
+\define menuEntry()
+<$button class="tc-btn-invisible icon-menu" tooltip={{!!tooltip}} set="$:/StoryList!!list" setTo={{!!liste-tiddlers}}>
+{{!!icone}} {{!!titre}}
 </$button>
+\end
+
+<<menuEntry>>

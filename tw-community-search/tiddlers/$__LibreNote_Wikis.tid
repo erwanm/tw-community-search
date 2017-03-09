@@ -1,17 +1,20 @@
 title: $:/LibreNote/Wikis
-created: 20161113150759629
-modified: 20161113152138654
+created: 20161210225903858
+icone: <i class="fa fa-flask" aria-hidden="true"></i>
+liste-tiddlers: LinuxNote TiddlyNote GitNote
+modified: 20170305145839315
 rank: 3
+titre: Wikis
+tooltip: Les Wikis
 original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: Wikis
 source-tiddler-title-as-link: Wikis
 
-<$button class="tc-btn-invisible icon-menu" tooltip='Les Wikis'>
-<$action-setfield $tiddler="$:/StoryList" list="
-LinuxNote
-TiddlyNote
-GitNote"/>
-<$action-navigate $to="LinuxNote" $scroll="yes"/>
-<i class="fa fa-flask" aria-hidden="true"></i> {{!!title}}
+\define menuEntry()
+<$button class="tc-btn-invisible icon-menu" tooltip={{!!tooltip}} set="$:/StoryList!!list" setTo={{!!liste-tiddlers}}>
+{{!!icone}} {{!!titre}}
 </$button>
+\end
+
+<<menuEntry>>
