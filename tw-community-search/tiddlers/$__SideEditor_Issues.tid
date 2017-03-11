@@ -1,7 +1,7 @@
 title: $:/SideEditor/Issues
 created: 20150602065231698
 creator: Mat
-modified: 20161228200439721
+modified: 20170310065854014
 modifier: Mat
 original-tags: 
 source-wiki-id: SideEditor
@@ -11,6 +11,7 @@ source-tiddler-title-as-link: Issues
 !!Issues
 
 * ''Macros'' are better not side-edited because they update the system after each keypress, making the ~SideEditor loose focus
+**See [ext[LazyEdit|http://tobibeer.github.io/tb5/#Editor%20Loses%20Focus]] for possible workaround.
 * ''Height'' -  the ~SideEditor doesn't auto-expand to full tiddler height. I hope to find out why but meanwhile, in use, I handle this by inserting a new row (click Return key). This pushes the whole content down, expanding ~SideEditor to full text height. Then delete the new line.
 * ''Flipping'' - there is a flip trigger along right side of sidebarlist; click {{PeekToggler}} and slowly sweep across the ~SideEditor until you see it. This inconveniently is active also when the sidebarpopup is not active making for an area in SE that you cannot click onto, eg to put cursor at that point in text.
 * ''Flipping'' - I want a flip trigger beneath sidebar lists so that if the list is short (e.g the "Open" list) and ~SideEditor sticks out below it, hovering this area would cause flip... but I can't get this to work in a satisfying way (it has to do with the z-index).
