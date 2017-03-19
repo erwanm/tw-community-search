@@ -19,6 +19,13 @@ Enhancements
 Bugfixes
 ----------------------------
 
+### v0.13.3
+
+* Fixed bug that context menu did not open in Firefox
+* Various EdgeTypeSubscriber bugfixes (thanks @flibbles)
+* Fixes #260: Zooming map via mousewheel didn't work with FF and clickToUse mode.
+* Fixes #257: Tiddlymap on Node.js seems to cause problems when trying to export to static.
+
 ### v0.13.2
 
 * When creating new types in the type manager, the name
