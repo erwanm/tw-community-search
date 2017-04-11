@@ -1,7 +1,7 @@
 title: $:/welford/Highlight Example
 created: 20140318214655832
 creator: ジェームス
-modified: 20140318214729239
+modified: 20170410212053032
 modifier: ジェームス
 revision: 0
 type: text/vnd.tiddlywiki
@@ -17,3 +17,5 @@ void main(void)
     print("hello world")
 }
 ```
+
+``HELLO WORLD``
