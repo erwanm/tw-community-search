@@ -5,10 +5,6 @@ author: DanieloRodriguez
 title: AutoTag
 type: text/vnd.tiddlywiki
 wiki-address: http://danielorodriguez.com/TW5-AutoTag/
-wiki-tw-version: 5.1.8
-wiki-latest-modification: 20150906172135558
-wiki-nb-tiddlers: 6
 
-Tag your tiddlers effortlessly.
 
 {{||$:/CommunityWikiPresentationTemplate}}
