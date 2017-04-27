@@ -1,7 +1,8 @@
 title: $:/tiddlywiki.com/SetWidget
 caption: set
 created: 20131115182700000
-modified: 20150220162217000
+modified: 20161017122456014
+type: text/vnd.tiddlywiki
 original-tags: Widgets
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: SetWidget
@@ -19,6 +20,7 @@ The content of the `<$set>` widget is the scope for the value assigned to the va
 |name |The name of the variable to assign (defaults to "currentTiddler") |
 |value |The value to assign to the variable if the filter is missing or not empty |
 |filter |An optional filter to be evaluated and assigned to the variable (see below) |
+|select |<<.from-version "5.1.14">> An optional zero-based index of the item to return from the filter output (see below) |
 |emptyValue |The value to assign to the variable if the filter is present and evaluates to an empty list (see below) |
 
 !! Simple Variable Assignment
@@ -55,6 +57,16 @@ This form of the set variable widget evaluates the filter and assigns the result
 
 ```
 <$set name="myVariable" filter="[tag[HelloThere]]">
+<$text text=<<myVariable>>/>
+</$set>
+```
+
+!! Filtered Item Variable Assignment
+
+<<.from-version "5.1.14">> This form of the set variable widget evaluates the filter and assigns the specified result to the variable as a single item (ie, not using double square brackets for titles containing spaces).
+
+```
+<$set name="myVariable" filter="[tag[HelloThere]]" select="0">
 <$text text=<<myVariable>>/>
 </$set>
 ```
