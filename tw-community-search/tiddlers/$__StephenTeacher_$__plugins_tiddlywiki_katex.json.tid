@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: KaTeX: mathematical typography
 list: readme usage
-version: 5.1.13
+version: 5.1.14
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/katex
