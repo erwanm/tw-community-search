@@ -1,0 +1,25 @@
+title: $:/TonGernerPlayground/Emphasized theme
+caption: Emphasized
+created: 20170427192444703
+creator: TonGerner
+modified: 20170502172928555
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Emphasized theme
+source-tiddler-title-as-link: Emphasized%20theme
+
+!! [[Emphasized theme]]  v<<tversion "emphasized">>
+
+''Status:'' @@.RED {{Emphasized theme!!status}} v<<version>>@@
+
+<<readme $:/themes/tongerner/emphasized/readme $:/themes/tongerner/emphasized>>
+
+<<<
+''Note:''<br>This TW5 uses my Emphasized theme in combination with the Bluish palette.
+<<<
+
+Drag & drop the following link to your wiki to install the 'Bluish' palette:
+
+* [[$:/palettes/Bluish]]

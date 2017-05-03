@@ -1,12 +1,12 @@
 title: $:/TonGernerPlayground/$:/plugins/ahahn/tinka
 author: Andreas Hahn
 core-version: >=5.1.8
-created: 20150518071039425
+dependents: 
 description: Tinka - an easy plugin packer
-list: readme usage
-modified: 20150920124250720
-source: http://twguides.org/tinka
-version: 0.2.0-beta
+list: readme usage license
+revision: 0
+source: http://tinkaplugin.github.io
+version: 0.3.0
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka

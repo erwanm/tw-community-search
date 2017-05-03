@@ -1,17 +1,19 @@
 title: $:/TonGernerPlayground/Left menu
 created: 20160920090705934
 creator: TonGerner
-modified: 20160920092822788
+modified: 20170428182230783
 modifier: TonGerner
+status: to be upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Left menu
 source-tiddler-title-as-link: Left%20menu
 
-@@.BROWN How to make a left menu@@
+!! [[How to make a left menu|Left menu]]
 
-{{Under construction guide_}}
-{{Upgraded}}
+''Status:'' @@.RED {{Left menu!!status}} v<<version>>@@
+
+''Note:'' @@.BROWN Available as plugin.@@
 
 This guide describes how to add a left menu to a TW5 while using a centralised story river (without the Centralised theme!).
 
@@ -21,4 +23,5 @@ This guide describes how to add a left menu to a TW5 while using a centralised s
 ''Note:''
 
 * For widescreen monitors where left menu, story river, and sidebar can be displayed together.
+* In case of a limited screen space see my guide [[Left + top menu]] where you can toggle between left menu and sidebar.
 <<<

@@ -1,19 +1,19 @@
 title: $:/TonGernerPlayground/Read-only
 created: 20140203090002038
 creator: TonGerner
-modified: 20160725160336533
+modified: 20170428181929913
 modifier: TonGerner
+status: to be upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Read-only
 source-tiddler-title-as-link: Read-only
 
-@@.BROWN How to make a TW read-only@@
+!! [[How to make a TW read-only|Read-only]]
 
-{{Under construction guide_}}
-{{Upgraded}}
+''Status:'' @@.RED {{Read-only!!status}} v<<version>>@@
 
-''Note:'' @@.RED Available as plugin@@.
+''Note:'' @@.BROWN Available as plugin@@.
 
 This guide describes how to make a TW5 read-only.
 

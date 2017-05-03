@@ -2,26 +2,19 @@ title: $:/TonGernerPlayground/Readonly plugin
 caption: Readonly
 created: 20150719185704115
 creator: TonGerner
-modified: 20160920094447108
+modified: 20170502173255915
 modifier: TonGerner
+status: upgraded to
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Readonly plugin
 source-tiddler-title-as-link: Readonly%20plugin
 
-!!Readonly plugin v<<pversion "ro">>
-{{Under construction plugin_}}
-{{Upgraded}}
+!! [[Readonly plugin]] v<<pversion "ro">>
 
-!!!!Readme (from plugin)
-<$transclude tiddler="$:/plugins/tongerner/ro" subtiddler="$:/plugins/tongerner/ro/readme" mode="block"/>
+''Status:'' @@.RED {{Readonly plugin!!status}} v<<version>>@@
 
----
-
-Drag & drop the following link to your wiki to install this plugin.
-
-* [[$:/plugins/tongerner/ro]]
-
+<<readme $:/plugins/tongerner/ro/readme $:/plugins/tongerner/ro>>
 
 
 

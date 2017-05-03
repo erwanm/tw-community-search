@@ -1,0 +1,18 @@
+title: $:/TonGernerPlayground/Color new tiddler button
+created: 20170430193319876
+creator: TonGerner
+modified: 20170430193401229
+modifier: TonGerner
+type: text/css
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Color new tiddler button
+source-tiddler-title-as-link: Color%20new%20tiddler%20button
+
+.tc-topbar button svg.tc-image-new-button {
+     fill: yellow;
+}
+.tc-topbar button:hover svg.tc-image-new-button,
+.tc-topbar button a:hover svg.tc-image-new-button {
+     fill: #0044BB;
+}

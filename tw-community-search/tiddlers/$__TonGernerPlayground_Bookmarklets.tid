@@ -1,17 +1,18 @@
 title: $:/TonGernerPlayground/Bookmarklets
 created: 20140705105355014
 creator: TonGerner
-modified: 20160811122031938
+modified: 20170428180337058
 modifier: TonGerner
+status: to be upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Bookmarklets
 source-tiddler-title-as-link: Bookmarklets
 
-@@.BROWN How to make/modify bookmarklets@@
+!! [[How to make/modify bookmarklets|Bookmarklets]]
 
-{{Under construction guide_}}
-{{Upgraded}}
+''Status:'' @@.RED {{Bookmarklets!!status}} v<<version>>@@
+
 This guide describes how to make (modify existing) bookmarklets without ~JavaScript knowledge, just using templates.<br>
 It is based upon the work of Stephan Hadrek, so all credits to him, see:
 
@@ -24,7 +25,8 @@ It is based upon the work of Stephan Hadrek, so all credits to him, see:
 ''Note:''
 
 * As of TW v5.1.12 TiddlyWiki contains an editor toolbar which makes the use of bookmarklets more or less superfluous
-** @@.red Bookmarklets ''cannot'' be used in combination with the new editor toolbar which uses an iframe for the textarea element!<br>You can use the new editor toolbar or switch off the editor toolbar and use bookmarklets.@@
-* To get the best of both worlds toggling of the editor toolbar need to be easy. Drag & drop the following link to your wiki to get a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar: [[$:/_editor-toolbar-checkbox]].
+** @@.red Bookmarklets ''cannot'' be used in combination with the new editor toolbar which uses an iframe for the textarea element!<br>You can use the new editor toolbar ''or'' switch off the editor toolbar and use bookmarklets.@@
+* To get the best of both worlds toggling of the editor toolbar need to be easy. Drag & drop the following link to your wiki to get a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It allows to toggle preview as well.<br>
+** [[$:/_toggle-editor-toolbar_preview]]
 <<<
 

@@ -1,0 +1,21 @@
+title: $:/TonGernerPlayground/Code tiddlers
+created: 20170427194634553
+creator: TonGerner
+modified: 20170429085849570
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Code tiddlers
+source-tiddler-title-as-link: Code%20tiddlers
+
+!! [[Code tiddlers]]
+It isn't very useful to convert a single code tiddler to a plugin (e.g. my formerly System tags plugin). Therefore here some single code tiddlers.
+
+|Code tiddler ||h
+|$:/_systemtags|adds a 'System tags' tab just below the standard 'Tags' tab|
+|$:/_slider-macro|presents a tiddler as a slider|
+|$:/_toggle-editor-toolbar_preview|toggles editor toolbar on/off + preview on/off|
+|$:/_toggle-listrecent-plugin-button|toggles listrecent plugin on/off|
+|$:/_toggle-toolbar-plugin-button|toggles toolbar plugin on/off|
+|$:/_filter/stylesheets|filter: list order of stylesheets|
+|$:/_filter/user-system|filter: list user defined system tiddlers (starting with`$:/_`)|

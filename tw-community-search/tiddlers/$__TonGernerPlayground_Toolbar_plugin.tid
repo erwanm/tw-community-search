@@ -2,28 +2,27 @@ title: $:/TonGernerPlayground/Toolbar plugin
 caption: Toolbar
 created: 20160111103503636
 creator: TonGerner
-modified: 20160925150505839
+modified: 20170428184254065
 modifier: TonGerner
+status: to be upgraded to
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Toolbar plugin
 source-tiddler-title-as-link: Toolbar%20plugin
 
-!!Toolbar plugin v<<pversion "toolbar">>
-{{Under construction plugin_}}
-{{Upgraded}}
+!! [[Toolbar plugin]] v<<pversion "toolbar">>
 
-!!!!Readme (from plugin)
-{{$:/plugins/tongerner/toolbar/readme}}
+''Status:'' @@.RED {{Toolbar plugin!!status}} v<<version>>@@
 
----
+<<readme $:/plugins/tongerner/toolbar/readme $:/plugins/tongerner/toolbar>>
+* $:/plugins/tongerner/layout_adjustment
 
-Drag & drop the following links to your wiki to install this plugin (and - if required - the toggle button).
+In case you want the possibility to enable/disable the toolbar, drag & drop the following link to your wiki:
 
-* [[$:/plugins/tongerner/toolbar]]
-* [[$:/plugins/tongerner/layout_adjustment]]
 * [[$:/_toggle-toolbar-plugin-button]]
 
 <<<
-''Note:''<br>This button does ''not'' work here at TiddlySpot (you cannot save)!
+''Note:''<br>This 'toggle toolbar plugin' button does ''not'' work here at ~TiddlySpot (you cannot save)!
 <<<
+
+

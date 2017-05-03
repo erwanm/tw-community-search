@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Basic knowledge
 created: 20140726161157154
 creator: TonGerner
-modified: 20160206195113235
+modified: 20170428125100454
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -10,6 +10,8 @@ source-tiddler-title-as-link: Basic%20knowledge
 
 @@.sliderBG
 <div>
+
+<hr>
 
 For an introduction to '~TiddlyWiki 5' see:
 

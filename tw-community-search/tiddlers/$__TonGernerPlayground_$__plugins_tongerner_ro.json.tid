@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/ro
 author: TonGerner
-core-version: 5.1.13
+core-version: 5.1.14
 created: 20140716185113624
 creator: TonGerner
 description: Read-only
-list: readme help
-modified: 20160725122023032
+list: readme
+modified: 20170502173220383
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.6
+version: 0.1.9
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/ro

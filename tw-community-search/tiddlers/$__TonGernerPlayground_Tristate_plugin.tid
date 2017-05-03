@@ -2,23 +2,17 @@ title: $:/TonGernerPlayground/Tristate plugin
 caption: Tristate
 created: 20150719190037428
 creator: TonGerner
-modified: 20160725145743680
+modified: 20170430172021018
 modifier: TonGerner
+status: upgraded to
 original-tags: plugin
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Tristate plugin
 source-tiddler-title-as-link: Tristate%20plugin
 
-!!Tristate plugin v<<pversion "tristate">>
-{{Under construction plugin_}}
-{{Upgraded}}
+!! [[Tristate plugin]] v<<pversion "tristate">>
 
-!!!!Readme (from plugin)
-{{$:/plugins/tongerner/tristate/readme}}
+''Status:'' @@.RED {{Tristate plugin!!status}} v<<version>>@@
 
----
-
-Drag & drop the following links to your wiki to install this plugin.
-
-* [[$:/plugins/tongerner/tristate]]
+<<readme $:/plugins/tongerner/tristate/readme $:/plugins/tongerner/tristate>>
 * [[$:/plugins/tongerner/layout_adjustment]]

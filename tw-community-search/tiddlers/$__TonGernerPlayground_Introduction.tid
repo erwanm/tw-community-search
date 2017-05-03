@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Introduction
 created: 20140104133156997
 creator: TonGerner
-modified: 20160725133330962
+modified: 20170502195100903
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: Introduction
 I am a longtime user of ~TiddlyWiki Classic and still use it daily next to ~TiddlyWiki 5.
 
 I started experimenting with TW5 at the end of September 2013 (alpha10).<br>
-Since I missed a few things in the layout I got used to in ~TiddlyWiki Classic ^^''1''^^, I started with modifying the layout of TW5.<br>
+Since I missed a few things in the layout I got used to in ~TiddlyWiki Classic, I started with modifying the layout of TW5.<br>
 To share my knowledge, I made a few guides about these 'modifications'.<br>
 The guides started as a non-linear personal web notebook (yeah, the subtitle of ~TiddlyWiki!). I started experimenting with layout things and used TW5 to document my experiments.
 
@@ -21,8 +21,11 @@ The guides started as a non-linear personal web notebook (yeah, the subtitle of 
 ''Note:''
 
 * Be aware I am just an end user, no developer or programmer.
-* This site is a showcase of most of my plugins. It looks sometimes overdone, e.g. two kinds of 'breadcrumbs'.
-** Layout settings (Control panel > Appearance > Plugin tweaks) have been adjusted to avoid overlapping menus/toolbar/breadcrumbs.
+* This site is a showcase of most of my plugins. It looks sometimes overdone and/or confusing, e.g.:
+** Top menu, toolbar and Tiddlersbar together
+** two kinds of 'breadcrumbs' (Tiddlersbar & Tabstory plugin).
+** two kinds of 'readonly' plugins (with two 'Publish' tabs in ''Control panel > Appearance''!)
+* Layout settings (''Control panel > Appearance > Plugin tweaks'') have been adjusted to avoid overlapping top menu / toolbar / tiddlersbar.
 <<<
 
 This TW contains:
@@ -30,17 +33,8 @@ This TW contains:
 * <<slider "Enabled plugins" "Enabled plugins">>
 * <<slider "Disabled plugins" "Disabled plugins">>
 
-
-|borderless|k
-|^^^''1''^^ |&nbsp;&nbsp;|As an example see [[my site|http://www.tongerner.tk/]] about the history of the western part of Amsterdam  (my birthplace)|
-
 <<<
-''Note:''
-
-* Written in Dutch.<br>
-* Contains more than 2800 photographs. See for example:
-** `Diversen` > `Kunstenaars` > `Jacob Olie` > `Foto's van Jacob Olie`
-** `Diversen` > `Fotoalbum` > `Nostalgie`
+''Note:''<br>My 'Emphasized' theme and 'Bluish' palette (formerly combined in my 'Bluish' theme) are used here.
 <<<
 
 ---

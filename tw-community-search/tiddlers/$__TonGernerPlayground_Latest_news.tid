@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20161121085351648
+modified: 20170502184711905
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -15,8 +15,16 @@ source-tiddler-title-as-link: Latest%20news
 ---
 <br>
 
+!!! 2-5-2017
+* Upgraded this wiki to TW v5.1.14
+* Added 'single code' tiddlers
+* Breadcrumbs guide/plugin replaced by Tiddlersbar guide/plugin
+* Added Simple readonly guide/plugin
+* Removed Tinka plugin (now available at https://tinkaplugin.github.io/)
+* Upgraded all plugins except the Toolbar plugin to TW v5.1.14
+
 !!! 21-11-2016
-* Added latest version (v0.2.0-beta) of Tinka plugin by Andreas Hahn (not available anymore at http://twguides.org
+* Added latest version v0.2.0-beta of Tinka plugin by Andreas Hahn (not available anymore at http://twguides.org)
 
 !!! 25 September 2016
 * Added 'Left menu' guide
@@ -370,6 +378,5 @@ source-tiddler-title-as-link: Latest%20news
 !!!16 February 2014
 * Updated [[How to make a left menu that can be toggled on/off + tiddlersbar (breadcrumbs)|http://tw5topleft.tiddlyspot.com/]].
 
-!!!11 February 2014<
-* Added a 'tiddlersbar' to a top menu, see:<br>
-[[How to make a left menu that can be toggled on/off + tiddlersbar (breadcrumbs)|http://tw5topleft.tiddlyspot.com/]].
+!!!11 February 2014
+* Added a 'tiddlersbar' to a top menu, see: [[How to make a left menu that can be toggled on/off + tiddlersbar (breadcrumbs)|http://tw5topleft.tiddlyspot.com/]].
