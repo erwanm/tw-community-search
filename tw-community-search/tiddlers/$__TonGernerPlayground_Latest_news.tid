@@ -1,19 +1,23 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20170502184711905
+modified: 20170503133957578
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Latest news
 source-tiddler-title-as-link: Latest%20news
 
-@@.BROWN Latest news@@
+!! [[Latest news]]
 
 {{$:/_images/construction.gif}}My personal 'playground', always under construction.
 
 ---
 <br>
+
+!!! 3-5-2017
+* Upgraded Toolbar plugin
+* Upgraded Bookmarklets, Exploration, and Left menu guides
 
 !!! 2-5-2017
 * Upgraded this wiki to TW v5.1.14

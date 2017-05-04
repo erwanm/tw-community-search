@@ -1,14 +1,14 @@
 title: $:/TonGernerPlayground/Plugins
 created: 20160130132630187
 creator: TonGerner
-modified: 20170427192817092
+modified: 20170503133617642
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Plugins
 source-tiddler-title-as-link: Plugins
 
-@@.BROWN My plugins@@
+!! [[My plugins|Plugins]]
 
 <<<
 ''Note:''<br>All my plugins were made with the [[Tinka plugin|https://tinkaplugin.github.io/]] of Andreas Hahn.
