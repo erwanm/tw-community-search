@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Top menu
 created: 20150717155158621
 creator: TonGerner
-modified: 20170428182008973
+modified: 20170504112911866
 modifier: TonGerner
 status: to be upgraded to
 original-tags: guide
@@ -15,8 +15,6 @@ source-tiddler-title-as-link: Top%20menu
 
 ''Note:'' @@.BROWN Available as plugin.@@
 
-This guide describes how to make a - tag pill based - top menu:
-
-It shows the relevant code and styles involved.
+This guide describes how to make a - tag pill based - top menu.
 
 ''Guide at ~TiddlySpot:''<br>[[How to make a top menu|http://tw5topmenu.tiddlyspot.com/]]

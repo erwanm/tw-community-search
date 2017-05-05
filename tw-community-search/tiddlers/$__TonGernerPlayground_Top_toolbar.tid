@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Top toolbar
 created: 20140203085533289
 creator: TonGerner
-modified: 20170428182037974
+modified: 20170504112949165
 modifier: TonGerner
 status: to be upgraded to
 original-tags: documentation guide
@@ -19,8 +19,6 @@ This guide describes how to:
 
 * add a top toolbar
 * add buttons to the top toolbar
-
-It shows the relevant code and styles involved.
 
 As a demo it does not show all toolbar buttons that can be added to the top toolbar!
 

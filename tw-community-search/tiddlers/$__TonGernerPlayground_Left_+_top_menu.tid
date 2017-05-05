@@ -1,9 +1,9 @@
 title: $:/TonGernerPlayground/Left + top menu
 created: 20140203085544593
 creator: TonGerner
-modified: 20170428181859781
+modified: 20170504191515251
 modifier: TonGerner
-status: to be upgraded to
+status: upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Left + top menu
@@ -28,6 +28,6 @@ It features:
 <<<
 ''Note:''
 
-* This guide is meant for a non widescreen monitor where window space is limited
+* This guide is meant for a non-widescreen monitor where window space is limited
 * In case of a widescreen monitor left menu and sidebar can be visible together. See my guide [[Left menu]].
 <<<
