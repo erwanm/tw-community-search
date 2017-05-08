@@ -1,32 +1,38 @@
 title: $:/TW5ReadOnly/Save button
 created: 20140423184414836
 creator: TonGerner
-modified: 20160805190759473
+modified: 20170505184902912
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: Save button
 source-tiddler-title-as-link: Save%20button
 
-@@.BROWN Save button@@
+!! [[Save button]]
 
-!!$:/plugins/tongerner/ro/save-button
-The tiddler [[$:/plugins/tongerner/ro/save-button]] contains
+[[$:/plugins/tongerner/ro/save-button]]
 
-<<source "$:/plugins/tongerner/ro/save-button">>
+<<sslider "$:/plugins/tongerner/ro/save-button" "button">>
+
+renders as:
+
+{{$:/plugins/tongerner/ro/save-button}}
 
 <<<
 ''Note:''<br>This is the code of [[$:/core/ui/Buttons/save-wiki]] but the transcluded [[$:/core/images/save-button]] has been replaced by [[$:/plugins/tongerner/ro/image-save-button]].
 <<<
 
-!!$:/plugins/tongerner/ro/image-save-button
 The - added - save button uses a 'special' save icon ([[$:/plugins/tongerner/ro/image-save-button]]) that will ''not'' be hidden in read-only mode.
 
 <<<
 ''Note:''<br>The code used for the icon is the same as the save icon code used in [[$:/core/images/save-button]] but ''without'' the class `tc-image-save-button` (which is used to hide the save icon in the Sidebar when in read-only mode).
 <<<
 
-The tiddler [[$:/plugins/tongerner/ro/image-save-button]] contains:
+!! [[$:/plugins/tongerner/ro/image-save-button]]
 
-<<source "$:/plugins/tongerner/ro/image-save-button">>
+<<sslider "$:/plugins/tongerner/ro/image-save-button" "image-save-button">>
+
+renders as:
+
+{{$:/plugins/tongerner/ro/image-save-button}}
 

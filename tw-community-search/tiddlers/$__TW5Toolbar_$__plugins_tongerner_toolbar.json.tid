@@ -1,14 +1,14 @@
 title: $:/TW5Toolbar/$:/plugins/tongerner/toolbar
 author: TonGerner
-core-version: 5.1.13
+core-version: 5.1.14
 created: 20150805095641947
 creator: TonGerner
 description: Toolbar on top
 list: readme
-modified: 20160921172415315
+modified: 20170504100040392
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.2.7
+version: 0.2.18
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tongerner/toolbar

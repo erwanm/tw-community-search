@@ -1,19 +1,19 @@
 title: $:/TW5BreadCrumbs/Plugin
 created: 20140225125135072
 creator: TonGerner
-modified: 20160113165604281
+modified: 20170504194707744
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: Plugin
 source-tiddler-title-as-link: Plugin
 
-''@@.brown Plugin@@''
+!! [[Plugin]]
 
 The breadcrumbs plugin contains 12 tiddlers:
 
-<<olist-links "[all[shadows+tiddlers]]+[prefix[$:/plugins/tongerner/breadcrumbs/]]">>
+<<olist-links filter:"[all[shadows+tiddlers]]+[prefix[$:/plugins/tongerner/tiddlersbar/]sort[]]">>
 
-The menu uses tiddlers 1 & 9, the toggle breadcrumbs button uses tiddlers 2, 4, 5 & 10, 'Settings' uses tiddlers 7 & 8. The remaining tiddlers 3, 6 & 11 are for the plugin itself.
+The menu uses tiddlers 11 & 12, the toggle tiddlersbar button uses tiddlers 1, 4, 5 & 10, 'Settings' uses tiddlers 8 & 9. The remaining tiddlers 2, 3, 6 & 11 are for the plugin itself.
 
-<<tabs "[[Breadcrumbs menu]] [[Toggle breadcrumbs button]] Settings [[Plugin related]] Tinka" "[[Breadcrumbs menu]]" "$:/state/tab/breadcrumbs" "tabsstyle">>
+<<tabs "[[Tiddlersbar menu]] [[Toggle tiddlersbar button]] Settings [[Plugin related]] Tinka" "[[Breadcrumbs menu]]" "$:/state/tab/breadcrumbs" "tabsstyle">>

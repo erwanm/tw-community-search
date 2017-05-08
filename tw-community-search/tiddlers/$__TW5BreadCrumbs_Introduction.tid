@@ -1,40 +1,45 @@
 title: $:/TW5BreadCrumbs/Introduction
 created: 20140121171138645
 creator: TonGerner
-modified: 20160925144450520
+modified: 20170504200433196
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: Introduction
 source-tiddler-title-as-link: Introduction
 
-''@@.brown Introduction@@''
+!! [[Introduction]]
 
 <<<
 ''Note:''
 
+* Based on based on Buggyj's [[StoryTopTabs plugin|http://bjtools.tiddlyspot.com/#StoryTopTabs]]<br>(the deprecated Breadcrumbs plugin did not show the active tab; the Tiddlersbar plugin does show the active tab)
 * Available as a plugin, just drag & drop:
-*# [[$:/plugins/tongerner/breadcrumbs]] (v<<pversion "breadcrumbs">>)
-*# [[$:/plugins/tongerner/layout_adjustment]] (v<<pversion "layout_adjustment">>)<br>to your wiki to add the breadcrumbs plugin.
-* <<slider "The layout adjustment plugin" "Layout adjustment plugin">> contains 'general' settings for the layout.
-* The breadcrumbs work best in zoomin mode.
-* The breadcrumbs can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/breadcrumbs/combination]].
+*# [[$:/plugins/tongerner/tiddlersbar]] (v<<pversion "tiddlersbar">>)
+*# [[$:/plugins/tongerner/layout_adjustment]] (v<<pversion "layout_adjustment">>)<br>to your wiki to add the breadcrumbs plugin
+* The layout adjustment plugin contains 'general' settings for the layout, see <<slider "readme of plugin" "$:/plugins/tongerner/layout_adjustment/readme">>
+* The Tiddlersbar works best in zoomin mode.
+* The Tiddlersbar can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/tiddlersbar/combination]].
 <<<
 
-This guide describes how <<slider "breadcrumbs" "Breadcrumbs info">> can be added.
+This guide describes how a <<slider "Tiddlersbar (breadcrumbs)" "Breadcrumbs info">> can be added.
 
-The breadcrumbs can be toggled ''on/off'' with the {{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}} button (in Page Toolbar and/or View Toolbar).
+The Tiddlersbar can be toggled ''on/off'' with the {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}/{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}} button (in Page Toolbar and/or View Toolbar).
 
-To see the breadcrumbs in action in this demo, open a few tiddlers (Sidebar, tab 'Recent').<br>After that you can go to opened tiddlers by clicking a breadcrumb and/or close them by clicking the 'x' at the right of the breadcrumb (the same functionality as in the Sidebar, tab 'Open').
+To see the Tiddlersbar in action in this demo, open a few tiddlers (Sidebar, tab 'Recent').<br>After that you can go to opened tiddlers by clicking a breadcrumb and/or close them by clicking the 'x' at the right of the breadcrumb (the same functionality as in the Sidebar, tab 'Open').
 
-This guide describes how the breadcrumbs menu is made (code and styles involved).
+This guide describes how the Tiddlersbar is made (code and styles involved).
 
 <<<
 ''Note:''
 
-This TW uses:
-
-* My Bluish theme
-* My Systemtags plugin which adds a 'System tags' tab below the 'Tags' tab
-* @@.BLUE Theme and plugins are available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins@@).
+* This TW uses:
+** The Tiddlersbar plugin v<<pversion "tiddlersbar">>
+** The Layout adjustment plugin <<pversion "layout_adjustment">>
+** The Emphasized theme v<<tversion "emphasized">>
+** The Bluish color palette
+** A System tags tab (Sidebar > More)
+** The tiddler [[$:/_toggle-editor-toolbar_preview]] which adds a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It can toggle preview mode as well.
+** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins.
 <<<
+

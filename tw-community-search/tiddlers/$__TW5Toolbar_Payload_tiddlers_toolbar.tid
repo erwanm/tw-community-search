@@ -1,6 +1,6 @@
 title: $:/TW5Toolbar/Payload tiddlers toolbar
 created: 20160115200942346
-modified: 20160925132516801
+modified: 20170506151231259
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: Payload tiddlers toolbar
@@ -10,3 +10,4 @@ The 'toolbar' plugin comprises <$count filter="[all[shadows+tiddlers]]+[prefix[$
 
 <<olist-links filter:"[all[shadows+tiddlers]]+[prefix[$:/plugins/tongerner/toolbar/]sort[]] [[$:/core/ui/PageTemplate/topleftbar]] [[$:/tags/TopLeftBar]]">>
 
+<hr>

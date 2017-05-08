@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Enabled plugins
 created: 20160111200537581
 creator: TonGerner
-modified: 20170428164144822
+modified: 20170507172214435
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -20,7 +20,7 @@ source-tiddler-title-as-link: Enabled%20plugins
 |[[Uptoolbar plugin]]|see every tiddler||
 |[[List recent plugin]] |click 'Recent' tab||
 |[[Disable/enable listrecent plugin|List recent plugin]]|click {{$:/plugins/tongerner/listrecent/images/arrow-down}}/{{$:/plugins/tongerner/listrecent/images/arrow-up}}|@@color:red;not possible at ~TiddlySpot (needs saving!)@@|
-|[[Readonly plugin]]|Click $:/plugins/tongerner/ro/publish to access the 'Publish' menu|disables/hides buttons and sidebar tabs @@color:red;(but state cannot be saved at Tiddlyspot!)@@|
+|[[Readonly plugin]]|click{{$:/plugins/tongerner/ro/images/publish}}to access the 'Publish' menu|disables/hides buttons and sidebar tabs @@color:red;(but state cannot be saved at Tiddlyspot!)@@|
 |[[Simple readonly plugin]]|click{{$:/plugins/tongerner/sro/images/publish}}to access the 'Publish' menu|disables/hides a set of ''predefined'' buttons & sidebar tabs @@color:red;(but state cannot be saved at Tiddlyspot!)@@|
 ||||
 |[[Tinka plugin|$:/plugins/ahahn/tinka]]| ''-'' |Plugin packer by Andreas Hahn.<br>Latest version v0.3.0 available [[here|https://tinkaplugin.github.io/]]|

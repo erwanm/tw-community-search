@@ -1,0 +1,13 @@
+title: $:/TW5Toolbar/Style more button
+created: 20170505081329849
+modified: 20170505081607288
+type: text/css
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: Style more button
+source-tiddler-title-as-link: Style%20more%20button
+
+.tgc-more-button {
+     color: red;
+     font-size: 0.5em;
+}

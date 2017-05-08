@@ -1,14 +1,14 @@
 title: $:/TW5BreadCrumbs/More
 created: 20140121191553139
 creator: TonGerner
-modified: 20160920090333466
+modified: 20170506103523896
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: More
 source-tiddler-title-as-link: More
 
-@@.BROWN More@@
+!! [[More]]
 
 My guides:
 
@@ -17,7 +17,7 @@ My guides:
 * [[How to make a top menu|http://tw5topmenu.tiddlyspot.com/]]
 * [[How to make a left menu|http://tw5leftmenu.tiddlyspot.com/]]
 * [[How to make a top menu, and a left menu that can be toggled on/off|http://tw5topleft.tiddlyspot.com/]]
-* [[How to add breadcrumbs|http://tw5breadcrumbs.tiddlyspot.com/]]
+* [[How to add a tiddlersbar (breadcrumbs)|http://tw5breadcrumbs.tiddlyspot.com/]]
 * [[How to make TW5 readonly|http://tw5readonly.tiddlyspot.com/]]
 * [[How to make/modify TW5 bookmarklets|http://tw5bookmarklets.tiddlyspot.com/]]
 * [[How to make a 'tristate toggle' Sidebar|http://tw5tristate.tiddlyspot.com/]]

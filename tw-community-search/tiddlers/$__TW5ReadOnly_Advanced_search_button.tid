@@ -2,20 +2,19 @@ title: $:/TW5ReadOnly/Advanced search button
 caption: Advanced search
 created: 20150519115648118
 creator: TonGerner
-modified: 20160115101339282
+modified: 20170503182622908
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: Advanced search button
 source-tiddler-title-as-link: Advanced%20search%20button
 
-@@.BROWN Advanced search button@@
+!! [[Advanced search button]]
 
-!![[$:/plugins/tongerner/ro/advanced-search-button]]
+[[$:/plugins/tongerner/ro/advanced-search-button]]
+tagged with [[$:/tags/advanced-search-button]].
 
-The tiddler [[$:/plugins/tongerner/ro/advanced-search-button]], tagged with [[$:/tags/advanced-search-button]], contains:
-
-<<source "$:/plugins/tongerner/ro/advanced-search-button">>
+<<sslider "$:/plugins/tongerner/ro/advanced-search-button">>
 
 <<<
 ''Note:''

@@ -1,47 +1,37 @@
 title: $:/TW5ReadOnly/Introduction
-created: 20131231203033673
+created: 20170506134612257
 creator: TonGerner
-modified: 20160811112526198
+modified: 20170507103745333
 modifier: TonGerner
-original-tags: documentation
+original-tags: 
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: Introduction
 source-tiddler-title-as-link: Introduction
 
-@@.BROWN Introduction@@
+!! [[Introduction]]
+
+This guide describes two ways to make TW readonly:
+
+# A 'simple' readonly way: you can hide a predefined set of buttons and sidebar tabs
+# A more advanced readonly way which is more flexible: you can hide every button and every sidebar tab
 
 <<<
-''Note:''
+''Note 1:''<br>Both ways available as plugin. Just drag & drop one of the following links to your TW:
 
-* @@.BLUE Available as a plugin (v<<pversion "ro">>).<br>Just drag & drop [[$:/plugins/tongerner/ro]] to your wiki to add the readonly plugin.@@
+* [[$:/plugins/tongerner/sro]] (v<<pversion sro>>, the simple readonly plugin)
+* [[$:/plugins/tongerner/ro]] (v<<pversion ro>>)
 <<<
 
-Making TW5 read-only can be done with the '~ReadOnly' theme available at http://tiddlywiki.com/.<br>Unfortunately, to persist in this 'read-only' state you have to save the TW and that is not possible since the 'save' button is not available anymore!
-
 <<<
-''Note:'' In the '~ReadOnly' theme ''all'' Page control buttons disappear, so you cannot save in the normal way.
+''Note 2:''
+
+* This TW contains:
+** The 'Simple readonly' plugin (v<<pversion sro>>)
+** The 'Readonly' plugin (v<<pversion ro>>)
+** The Emphasized theme v<<tversion "emphasized">>
+** The Bluish color palette
+** A System tags tab (Sidebar > More)
+** The tiddler [[$:/_toggle-editor-toolbar_preview]] which adds a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It can toggle preview mode as well.
+** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins
+* To 'hide' the functionality a little bit for prying eyes the name of the plugin is 'ro'/'sro' instead of 'readonly'/' simple readonly'
 <<<
-
-So there must be a - hidden - save possibility.<br>
-One way to go is based on creating a tiddler - with a 'non-suspicious' name - wherein the possibility to switch to read-only mode (decoupled from the '~ReadOnly' theme) ''and'' saving this situation (with a special Save button that does not disappear when hiding the standard Save button).<br>
-That is how it is done here.
-
-Thus, ''only you'' know which tiddler (here [[$:/plugins/tongerner/ro/publish]]) contains the possibility to switch to read/write or read-only mode and saving this situation.<br>As long as you can get to that tiddler (@@.brown see 'readme of plugin' below@@ ), you can adjust the settings.
-
-<<<
-''Note:''
-
-* This TW uses - besides the 'Readonly' plugin:
-** My Bluish theme v<<tversion "bluish">>
-** My Systemtags plugin v<<pversion "systemtags">> which adds a 'System tags' tab below the 'Tags' tab
-** @@.BLUE Theme and plugins are available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins@@).
-* To 'hide' the functionality a little bit for prying eyes the name of the plugin is 'ro' instead of 'readonly'.
-<<<
-
-@@.sliderBG
-<div>
-
-<<slider "readme of plugin" "$:/plugins/tongerner/ro/readme">>
-
-</div>
-@@

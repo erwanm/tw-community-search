@@ -1,12 +1,12 @@
 title: $:/TW5Toolbar/$:/plugins/tongerner/listrecent
 author: TonGerner
-core-version: 5.1.13
+core-version: 5.1.14
 created: 20160130115303512
 description: List recent results; each day in alphabetical order. 
 list: readme
-modified: 20160921172519441
+modified: 20170502172009368
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.8
+version: 0.1.9
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tongerner/listrecent

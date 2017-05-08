@@ -1,14 +1,15 @@
-title: $:/TW5Toolbar/Code
-created: 20141001084921772
+title: $:/TW5ReadOnly/Code
+created: 20170506144533851
 creator: TonGerner
-modified: 20170503180201481
+modified: 20170506144627887
 modifier: TonGerner
 original-tags: 
-source-wiki-id: TW5Toolbar
+source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: Code
 source-tiddler-title-as-link: Code
 
 !! [[Code]]
+
 
 The code for all tiddlers in both plugins can be displayed by selecting:
 

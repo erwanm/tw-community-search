@@ -1,0 +1,15 @@
+title: $:/TW5ReadOnly/Payload tiddlers simple readonly
+created: 20170506145944751
+creator: TonGerner
+modified: 20170506152112140
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Payload tiddlers simple readonly
+source-tiddler-title-as-link: Payload%20tiddlers%20simple%20readonly
+
+!! [[Payload tiddlers simple readonly]]
+
+<<olist-links filter:"[all[shadows+tiddlers]]+[prefix[$:/plugins/tongerner/sro/]sort[]]">>
+
+<hr>

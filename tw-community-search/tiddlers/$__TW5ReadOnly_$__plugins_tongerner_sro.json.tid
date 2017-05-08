@@ -1,4 +1,4 @@
-title: $:/TonGernerPlayground/$:/plugins/tongerner/sro
+title: $:/TW5ReadOnly/$:/plugins/tongerner/sro
 author: TonGerner
 core-version: 5.1.14
 created: 20170320194041545
@@ -8,7 +8,7 @@ modified: 20170507151716683
 source: http://tongerner.tiddlyspot.com/
 version: 0.0.5
 original-tags: 
-source-wiki-id: TonGernerPlayground
+source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: $:/plugins/tongerner/sro
 source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fsro
 extracted-plugin: true

@@ -1,12 +1,12 @@
-title: $:/TW5BreadCrumbs/Breadcrumbs on top
+title: $:/TW5BreadCrumbs/Tiddlersbar (breadcrumbs)
 created: 20140223112600738
 creator: TonGerner
-modified: 20150711162220320
+modified: 20170503120827356
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
-source-tiddler-title-as-text: Breadcrumbs on top
-source-tiddler-title-as-link: Breadcrumbs%20on%20top
+source-tiddler-title-as-text: Tiddlersbar (breadcrumbs)
+source-tiddler-title-as-link: Tiddlersbar%20%28breadcrumbs%29
 
 <<tabs "Introduction Plugin Changelog More" "Introduction" "$:/state/tab/intro" "tabsstyle">>
 

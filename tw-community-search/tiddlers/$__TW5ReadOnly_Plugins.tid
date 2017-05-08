@@ -1,0 +1,19 @@
+title: $:/TW5ReadOnly/Plugins
+created: 20170506141157863
+creator: TonGerner
+modified: 20170507154515393
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Plugins
+source-tiddler-title-as-link: Plugins
+
+!! [[Plugins]]
+
+Since both plugins are enabled, it is a little bit confusing as a demo: There are two Publish tabs (''Control panel > Appearance'') and two Publish buttons.<br>
+Note the color difference of the Publish button between:
+
+* Simple readonly plugin ({{$:/plugins/tongerner/sro/images/publish}})
+* Readonly plugin ({{$:/plugins/tongerner/ro/images/publish}})
+
+<<tabs "[[Simple readonly]] Readonly" "Simple readonly">>
