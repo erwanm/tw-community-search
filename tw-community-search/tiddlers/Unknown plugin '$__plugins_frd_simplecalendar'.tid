@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugins/frd/calendar'
+title: Unknown plugin '$:/plugins/frd/simplecalendar'
 name: unknown
-plugin_tiddler: $:/plugins/frd/calendar
+plugin_tiddler: $:/plugins/frd/simplecalendar
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 

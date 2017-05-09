@@ -1,0 +1,13 @@
+title: $:/SimpleCalendarPlugin/CalendarExamples
+created: 20170508112846995
+modified: 20170508163627682
+month: 5
+year: 2017
+original-tags: 
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: CalendarExamples
+source-tiddler-title-as-link: CalendarExamples
+
+<<simplecalendar>>
+
+<<simplecalendar mycalendar yearState:"MyStateTiddler!!year" monthState:"MyStateTiddler!!month">>
