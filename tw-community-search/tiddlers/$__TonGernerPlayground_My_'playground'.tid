@@ -1,8 +1,9 @@
 title: $:/TonGernerPlayground/My 'playground'
 created: 20140203084653907
 creator: TonGerner
-modified: 20170428172553133
+modified: 20170509124223848
 modifier: TonGerner
+status: upgraded to
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: My 'playground'
@@ -11,8 +12,9 @@ source-tiddler-title-as-link: My%20%27playground%27
 {{$:/_images_dordrecht.gif}}<br>
 Dordrecht, the Netherlands, my home town.
 
-{{Under construction general}}
-{{Upgraded}}
+''Status:'' @@.RED {{Bookmarklets!!status}} v<<version>>@@
+{{Under construction general_}}
+
 <<tabs "Introduction [[Guides]] [[Plugins]] [[Code tiddlers]] [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
 
 ,,Comments and questions are welcome. Post them in the [[TW Google group|https://groups.google.com/forum/#!forum/tiddlywiki]],,

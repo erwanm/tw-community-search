@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20170507161911122
+modified: 20170509112639021
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -15,7 +15,11 @@ source-tiddler-title-as-link: Latest%20news
 ---
 <br>
 
-!!! 7-5-2015
+!!! 9-5-2017
+* Upgraded 'Customization' guide
+* Added 'Open all' code tiddler
+
+!!! 7-5-2017
 * Upgraded other guides except 'Customization' guide
 * Improvements for several plugins/theme
 
