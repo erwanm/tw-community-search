@@ -4,10 +4,10 @@ creator: Andrew
 dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugin/ajh/copy/copy.js $:/plugin/ajh/copy/icon $:/plugin/ajh/copy/images $:/plugin/ajh/copy/readme $:/plugin/ajh/copy/stylesheet
 description: Copy Button
 list: readme
-modified: 20160409185033102
+modified: 20170511013836843
 modifier: Andrew
 source: http://copy.tiddlyspot.com/
-version: 0.0.22
+version: 5.1.14
 original-tags: 
 source-wiki-id: CopyPlugin
 source-tiddler-title-as-text: $:/plugin/ajh/copy

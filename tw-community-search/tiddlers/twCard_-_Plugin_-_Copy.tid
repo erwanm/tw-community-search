@@ -21,6 +21,6 @@ twcs-wiki-id: CopyPlugin
 twcs-extracted-plugin-tiddler: $:/CopyPlugin/$:/plugin/ajh/copy
 twcs-description: Copy Button
 twcs-author: 
-twcs-version: 0.0.22
+twcs-version: 5.1.14
 
 {{||$:/CommunityPluginTemplate}}
