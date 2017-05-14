@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="generator" content="TiddlyWiki" />
-<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="tiddlywiki-version" content="5.1.14" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -352,7 +352,7 @@ background-image: -moz-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0
 background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
 background-image: -ms-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
 
-}.tc-more-sidebar .tc-tab-buttons button {
+}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {
 	
 background-image: linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
 background-image: -o-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
@@ -360,7 +360,7 @@ background-image: -moz-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1
 background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
 background-image: -ms-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
 
-}.tc-more-sidebar .tc-tab-buttons button.tc-tab-selected {
+}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
 	
 background-image: linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
 background-image: -o-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
@@ -829,13 +829,13 @@ th {
 }body.tc-body {
 	font-size: 14px;
 	line-height: 20px;
-	color: #333333;
-	background-color: #f4f4f4;
-	fill: #333333;
 	word-wrap: break-word;
 	
 
 
+	color: #333333;
+	background-color: #f4f4f4;
+	fill: #333333;
 }h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	font-weight: 300;
@@ -864,6 +864,40 @@ th {
 	border-left: 5px solid #bbb;
 	margin-left: 25px;
 	padding-left: 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}blockquote.tc-big-quote {
+	font-family: Georgia, serif;
+	position: relative;
+	background: #f5f5f5;
+	border-left: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+    border-radius: 8px;
+}blockquote.tc-big-quote cite:before {
+	content: "\2014 \2009";
+}blockquote.tc-big-quote:before {
+	font-family: Georgia, serif;
+	color: #bbb;
+	content: open-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    left: -50px;
+    top: 42px;
+}blockquote.tc-big-quote:after {
+	font-family: Georgia, serif;
+	color: #bbb;
+	content: close-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    right: -80px;
+    bottom: -20px;
 }dl dt {
 	font-weight: bold;
 	margin-top: 6px;
@@ -878,6 +912,9 @@ input:not([type]) {
 	color: #bbb;
 }svg.tc-image-button {
 	padding: 0px 1px 1px 0px;
+}.tc-icon-wrapper > svg {
+	width: 1em;
+	height: 1em;
 }kbd {
 	display: inline-block;
 	padding: 3px 5px;
@@ -965,6 +1002,8 @@ a.tc-tiddlylink:hover {
 	z-index: -10000;
 }.tc-tiddler-dragger-inner {
 	position: absolute;
+	top: -1000px;
+	left: -1000px;
 	display: inline-block;
 	padding: 8px 20px;
 	font-size: 16.9px;
@@ -991,6 +1030,13 @@ a.tc-tiddlylink:hover {
 	background: rgba(0,200,0,0.7);
 	text-align: center;
 	content: "Drop here (or use the 'Escape' key to cancel)";
+}.tc-droppable > .tc-droppable-placeholder {
+	display: none;
+}.tc-droppable.tc-dragover > .tc-droppable-placeholder {
+	display: block;
+	border: 2px dashed rgba(0,200,0,0.7);
+}.tc-draggable {
+	cursor: move;
 }/*
 ** Plugin reload warning
 */.tc-plugin-reload-warning {
@@ -1011,6 +1057,7 @@ a.tc-tiddlylink:hover {
 	margin: 0;
 	background: none;
 	border: none;
+    cursor: pointer;
 }.tc-btn-boxed {
 	font-size: 0.6em;
 	padding: 0.2em;
@@ -1139,7 +1186,7 @@ a.tc-tiddlylink:hover {
 	display: inline-block;
 	padding: 0.16em 0.7em;
 	font-size: 0.9em;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.2em;
 	color: #ffffff;
 	white-space: nowrap;
@@ -1159,6 +1206,7 @@ a.tc-tiddlylink:hover {
 	height: 1em;
 	width: 1em;
 	fill: #ffffff;
+	vertical-align: text-bottom;
 }.tc-tag-manager-table .tc-tag-label {
 	white-space: normal;
 }.tc-tag-manager-tag {
@@ -1238,6 +1286,9 @@ a.tc-tiddlylink:hover {
 		-webkit-overflow-scrolling: touch;
 		margin: 0 0 0 -42px;
 		padding: 71px 0 28px 42px;
+	}html[dir="rtl"] .tc-sidebar-scrollable {
+		left: auto;
+		right: 770px;
 	}.tc-story-river {
 		position: relative;
 		left: 0px;
@@ -1333,8 +1384,13 @@ a.tc-tiddlylink:hover {
 	margin-left:5px;
 }.tc-tiddler-controls button svg, .tc-tiddler-controls button img,
 .tc-search button svg, .tc-search a svg {
-	height: 0.75em;
 	fill: #cccccc;
+}.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+	height: 0.75em;
+}.tc-search button svg, .tc-search a svg {
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0 0.25em;
 }.tc-tiddler-controls button.tc-selected svg,
 .tc-page-controls button.tc-selected svg  {
 	fill: #444444;
@@ -1358,6 +1414,7 @@ a.tc-tiddlylink:hover {
 .tc-tiddler-frame iframe.tc-edit-texteditor {
 	padding: 3px 3px 3px 3px;
 	border: 1px solid #cccccc;
+	background-color: #f8f8f8;
 	line-height: 1.3em;
 	-webkit-appearance: none;
 }.tc-tiddler-frame .tc-binary-warning {
@@ -1367,8 +1424,6 @@ a.tc-tiddlylink:hover {
 	padding: 3em 3em 6em 3em;
 	background: #ffe476;
 	border: 1px solid #b99e2f;
-}.tc-tiddler-frame input.tc-edit-texteditor {
-	background-color: #f8f8f8;
 }canvas.tc-edit-bitmapeditor  {
 	border: 6px solid #ffffff;
 	cursor: crosshair;
@@ -1466,6 +1521,8 @@ a.tc-tiddlylink:hover {
 	display: inline-block;
 }.tc-edit-add-tag .tc-add-tag-name input {
 	width: 50%;
+}.tc-edit-add-tag .tc-keyboard {
+	display:inline;
 }.tc-edit-tags .tc-tag-label {
 	display: inline-block;
 }.tc-edit-tags-list {
@@ -1478,7 +1535,7 @@ a.tc-tiddlylink:hover {
 	float: right;
 	width: 49%;
 	border: 1px solid #cccccc;
-	margin: 4px 3px 3px 3px;
+	margin: 4px 0 3px 3px;
 	padding: 3px 3px 3px 3px;
 }.tc-tiddler-frame .tc-tiddler-preview .tc-edit-texteditor {
 	width: 49%;
@@ -1820,7 +1877,7 @@ a.tc-tiddlylink:hover {
 	border-right: 1px solid #cccccc;
 }.tc-sidebar-lists .tc-tab-divider {
 	border-top: 1px solid #e4e4e4;
-}.tc-more-sidebar .tc-tab-buttons button {
+}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {
 	display: block;
 	width: 100%;
 	background-color: #e0e0e0;
@@ -1829,9 +1886,76 @@ a.tc-tiddlylink:hover {
 	border-bottom: none;
 	border-right: 1px solid #ccc;
 	margin-bottom: inherit;
-}.tc-more-sidebar .tc-tab-buttons button.tc-tab-selected {
+}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
 	background-color: #f4f4f4;
 	border: none;
+}/*
+** Manager
+*/.tc-manager-wrapper {
+	
+}.tc-manager-controls {
+	
+}.tc-manager-control {
+	margin: 0.5em 0;
+}.tc-manager-list {
+	width: 100%;
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+}.tc-manager-list-item {}.tc-manager-list-item-heading {
+    display: block;
+    width: 100%;
+    text-align: left;	
+	border-bottom: 1px solid #bbb;
+	padding: 3px;
+}.tc-manager-list-item-heading-selected {
+	font-weight: bold;
+	color: #ffffff;
+	fill: #ffffff;
+	background-color: #333333;
+}.tc-manager-list-item-heading:hover {
+	background: #5778d8;
+	color: #ffffff;
+}.tc-manager-list-item-content {
+	display: flex;
+}.tc-manager-list-item-content-sidebar {
+    flex: 1 0;
+    background: #f8f8f8;
+    border-right: 0.5em solid #bbb;
+    border-bottom: 0.5em solid #bbb;
+    white-space: nowrap;
+}.tc-manager-list-item-content-item-heading {
+	display: block;
+	width: 100%;
+	text-align: left;
+    background: #bbb;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	font-weight: bold;
+    padding: 0.5em 0 0.5em 0;
+}.tc-manager-list-item-content-item-body {
+	padding: 0 0.5em 0 0.5em;
+}.tc-manager-list-item-content-item-body > pre {
+	margin: 0.5em 0 0.5em 0;
+	border: none;
+	background: inherit;
+}.tc-manager-list-item-content-tiddler {
+    flex: 3 1;
+    border-left: 0.5em solid #bbb;
+    border-right: 0.5em solid #bbb;
+    border-bottom: 0.5em solid #bbb;
+}.tc-manager-list-item-content-item-body > table {
+	border: none;
+	padding: 0;
+	margin: 0;
+}.tc-manager-list-item-content-item-body > table td {
+	border: none;
+}.tc-manager-icon-editor > button {
+	width: 100%;
+}.tc-manager-icon-editor > button > svg,
+.tc-manager-icon-editor > button > button {
+	width: 100%;
+	height: auto;
 }/*
 ** Alerts
 */.tc-alerts {
@@ -1932,6 +2056,10 @@ a.tc-tiddlylink:hover {
 	font-size: 12px;
 	line-height: 18px;
 	color: #547599;
+}.tc-message-box svg {
+	width: 1em;
+	height: 1em;
+    vertical-align: text-bottom;
 }/*
 ** Pictures
 */.tc-bordered-image {
@@ -2155,7 +2283,6 @@ a.tc-tiddlylink:hover {
 }
 
 
-
 </style>
 </head>
 <body class="tc-body">
@@ -2234,6 +2361,12 @@ a.tc-tiddlylink:hover {
 
 <span class=" tc-reveal" hidden="true"></span>
 
+<span class=" tc-reveal" hidden="true"></span>
+
+<span class=" tc-reveal" hidden="true"></span>
+
+<span class=" tc-reveal" hidden="true"></span>
+
 <span class=" tc-reveal">
 <button aria-label="save changes" class="tc-btn-invisible" title="Save changes">
 <span class="tc-dirty-indicator">
@@ -2295,7 +2428,26 @@ More
 </div>
 <div class="tc-tab-divider "></div>
 <div class="tc-tab-content ">
-<div class=" tc-reveal"><p><button aria-label="close" class="tc-btn-invisible tc-btn-mini" title="Close this tiddler">×</button> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="static/CommunityNews.html">CommunityNews</a></p><p><button class="tc-btn-invisible tc-btn-mini">close all</button>
+<div class=" tc-reveal"><p>
+<div style="position: relative;">
+<span class=" tc-droppable">
+<div class="tc-droppable-placeholder">
+ 
+</div>
+<div>
+<button aria-label="close" class="tc-btn-invisible tc-btn-mini" title="Close this tiddler">×</button> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="static/CommunityNews.html">CommunityNews</a>
+</div>
+</span>
+</div>
+
+
+<span class=" tc-droppable">
+<div class="tc-droppable-placeholder">
+ 
+</div>
+<button class="tc-btn-invisible tc-btn-mini">close all</button>
+</span>
+
 </p></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal" hidden="true"></div>
 </div>
 </div></p></div>
@@ -2360,21 +2512,25 @@ CommunityNews
 <div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
-<button class="tc-btn-invisible tc-tag-label" style="background-color:;
+
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333333;
 color:#333333;">
  TWCSContents
-</button>
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 <span class="tc-tag-list-item">
 
-<button class="tc-btn-invisible tc-tag-label" style="background-color:;
+
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333333;
 color:#333333;">
  TWCSCore
-</button>
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
@@ -2385,7 +2541,34 @@ color:#333333;">
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          9 months ago
+          16 months ago
+        </span>
+      </td>
+      <td>
+          
+
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://tiddlymap.org/#TiddlyMap%20v0.10.7%20Released%21" target="_blank">
+            TiddlyMap v0.10.7 Released! @TiddlyMap
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>Fullscreen and halfscreen have been improved and in v0.10.6 several keyboard shortcuts have been added. Give it a try ;)</p><p>To see the release notes, visit <a class="tc-tiddlylink-external" href="http://tiddlymap.org" rel="noopener noreferrer" target="_blank">http://tiddlymap.org</a>!</p>
+
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          17 months ago
         </span>
       </td>
       <td>
@@ -2406,7 +2589,7 @@ color:#333333;">
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          9 months ago
+          17 months ago
         </span>
       </td>
       <td>
@@ -2429,7 +2612,7 @@ color:#333333;">
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          9 months ago
+          17 months ago
         </span>
       </td>
       <td>
@@ -2457,7 +2640,61 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          10 months ago
+          18 months ago
+        </span>
+      </td>
+      <td>
+          
+
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://tiddlymap.org/#Create%20Epic%20Quest%20with%20TiddlyMap" target="_blank">
+            Create Epic Quest with TiddlyMap @TiddlyMap
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>As of v0.10.0 you can add backgrounds to your maps. Click <a class="tc-tiddlylink-external" href="http://tiddlymap.org/#Think%20epic.%20Map%20your%20quests!" rel="noopener noreferrer" target="_blank">here</a> to get some inspiration for what you can do with this feature. For more info on new features, see the <a class="tc-tiddlylink-external" href="http://tiddlymap.org/#Version%200.10.x" rel="noopener noreferrer" target="_blank">release notes</a>!</p>
+
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          18 months ago
+        </span>
+      </td>
+      <td>
+          
+
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://inmysocks.tiddlyspot.com/#Help%20with%20the%20plugin%20listing%20and%20adding%20directory%20sites" target="_blank">
+            Help with the plugin listing and adding directory sites @inmysocks
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>The community search is a very powerful tool, but we can make it better and improve the organization of the tiddlywiki universe by adopting some community standards. With this in mind I have <a class="tc-tiddlylink-external" href="http://inmysocks.tiddlyspot.com/#A%20Note%20to%20Plugin%20Authors" rel="noopener noreferrer" target="_blank">some requests for plugin authors</a> to improve the community plugin listing and a suggestion about <a class="tc-tiddlylink-external" href="http://inmysocks.tiddlyspot.com/#Using%20Directory%20Sites" rel="noopener noreferrer" target="_blank">organizing multiple sites from the same author</a> for various plugins or techniques.</p>
+
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          19 months ago
         </span>
       </td>
       <td>
@@ -2478,7 +2715,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
+          19 months ago
         </span>
       </td>
       <td>
@@ -2500,7 +2737,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
+          19 months ago
         </span>
       </td>
       <td>
@@ -2522,7 +2759,7 @@ img.newsPerf {
     <tr>
       <td>
         <span class="tc-inline-style" style="font-size: 75%;">
-          11 months ago
+          19 months ago
         </span>
       </td>
       <td>
@@ -2541,8 +2778,92 @@ img.newsPerf {
       </td>
     </tr>
   
-  </table></p></div>
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          19 months ago
+        </span>
+      </td>
+      <td>
+          
 
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://tiddlymap.org/#TiddlyMap%20Version%200.9.1%20Released%21" target="_blank">
+            TiddlyMap Version 0.9.1 Released! @TiddlyMap
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>To see the release notes, visit <a class="tc-tiddlylink-external" href="http://tiddlymap.org" rel="noopener noreferrer" target="_blank">http://tiddlymap.org</a>!</p>
+
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          19 months ago
+        </span>
+      </td>
+      <td>
+          
+
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://tiddlymap.org/#TiddlyMap%20Version%200.9%20Released%21" target="_blank">
+            TiddlyMap Version 0.9 Released! @TiddlyMap
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>TiddlyMap v0.9 just got released. Feel free to test it. Remember to always make backups before upgrading to a new version.</p>
+
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        <span class="tc-inline-style" style="font-size: 75%;">
+          20 months ago
+        </span>
+      </td>
+      <td>
+          
+
+  <div class="tc-menu-list-item">
+    
+      
+        
+          <a href="  http://erwans-learning-tw.bitballoon.com/#This%20news%20is%20only%20a%20test" target="_blank">
+            This news is only a test @ErwansLearningTW
+          </a>
+        
+      
+    
+  </div>
+
+
+<p>Well, this wiki is very old news actually. The only new thing about it is this tiddler <em>that I'm currently writing</em>, for the purpose of testing the TWCS new 
+<span class="tc-inline-style" style="color: red;">
+<strong>news</strong>
+</span>
+feature. </p><p>Let's hope it works well, and let's hope many wiki authors will have more interesting news than that to publish!</p>
+
+      </td>
+    </tr>
+  
+  </table></p></div>
 
 
 </div>
