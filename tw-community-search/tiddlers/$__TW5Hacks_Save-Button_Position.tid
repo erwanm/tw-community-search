@@ -1,0 +1,24 @@
+title: $:/TW5Hacks/Save-Button Position
+created: 20170120070739995
+creator: Thomas Elmiger
+modified: 20170120211229770
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20170120221158
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Save-Button Position
+source-tiddler-title-as-link: Save-Button%20Position
+
+Feedback from Josiah: 
+I can't find any advantage in having the small save button at the base of the list and above it. A save button alongside the other buttons, like "+" that creates new tasks, or the padlock lock/unlock etc would be plenty for me and keeps the elegance of the layout.
+
+* Interface cleanup is done
+** Top: Save, Lock, New
+** Waiting/Done: Save, Lock, Show/Hide
+
+!!! To consider
+* make the save button optional?
+** duplicates standard button from sidebar
+** if all actions are saved immediately (when running on server or using TiddlyFox) we do not need this.
+*** implement background save on all actions first!

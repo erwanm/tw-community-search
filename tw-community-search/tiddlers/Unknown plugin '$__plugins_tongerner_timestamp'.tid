@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tongerner/timestamp'
+name: unknown
+plugin_tiddler: $:/plugins/tongerner/timestamp
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

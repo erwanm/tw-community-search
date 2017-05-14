@@ -1,0 +1,35 @@
+title: $:/TW5Hacks/ToDoByPriority
+created: 20170120065032923
+creator: Thomas Elmiger
+modified: 20170222212032178
+modifier: Thomas Elmiger
+original-tags: ToDoComponents
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDoByPriority
+source-tiddler-title-as-link: ToDoByPriority
+
+<$set name="listfilter" value="[tag[ToDo]tag{$:/state/ToDo-project}!has[draft.of]!tag[ToDoDone]!title[ToDo Item]search{$:/temp/ToDo-search}sort[created]] +[sort[todo-deadline]] +[sort[priority]]">
+
+<div class="todo-search-count">
+<$wikify name="after" text=<<telang sorted-by-priority>>>
+   <$macrocall $name="resultCounter" textafter=<<after>>/> 
+</$wikify>
+<span class="todo-move-list"></span>
+<span class="todo-sort-list">
+<$wikify name="tt" text=<<telang Sort-by-title>>>
+<$button set="$:/plugins/telmiger/todonow/settings##sort-list" setTo="title" tooltip=<<tt>> class="te-btn-action muted">
+{{$:/core/images/mono-line}}</$button>
+</$wikify>
+<$wikify name="tt" text=<<telang Sort-by-deadline>>>
+<$button set="$:/plugins/telmiger/todonow/settings##sort-list" setTo="deadline" tooltip=<<tt>> class="te-btn-action todo-deadline muted">
+<$action-setfield $tiddler="$:/plugins/telmiger/todonow/settings" $index="show-list-deadline" $value="top"/>
+@@max-height:14px;
+{{$:/plugins/kixam/datepicker/icon}}
+@@</$button>
+</$wikify>
+</span>
+</div>
+<ul class="te-list">
+   <<todoShowList>>
+</ul>
+</$set>

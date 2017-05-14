@@ -1,0 +1,18 @@
+title: $:/TonGernerPlayground/Highlight button plugin
+caption: Highlight button
+created: 20170511195508228
+creator: TonGerner
+modified: 20170511202825425
+modifier: TonGerner
+original-tags: button
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Highlight button plugin
+source-tiddler-title-as-link: Highlight%20button%20plugin
+
+!! [[Highlight button|Highlight button plugin]] v<<pversion "highlight">>
+
+A button ({{$:/core/images/highlight}}) for the Editor toolbar that highlights a selection.
+
+Drag & drop the following link(s) to your wiki to install this plugin:
+
+* $:/plugins/tongerner/highlight

@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/Calendar Icon Update
+created: 20170204164547216
+creator: Thomas Elmiger
+modified: 20170204164550157
+modifier: Thomas Elmiger
+priority: 2
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Calendar Icon Update
+source-tiddler-title-as-link: Calendar%20Icon%20Update
+
+Feedback from Josiah: The CALENDAR hexagon looks a bit heavy. Why not just a Calendar icon without the black hexagon surrounding it? 
+
+[ ] Replace icon with stopwatch?
+[x] Calendar icon looks less heavy
+
+At the moment I will work with the original hexagon shaped icon from the datePicker plugin: http://kixam.github.io/TW5-datePicker/ – I just made it a bit less black.
+
+Maybe I will replace it with my stopwatch icon that comes with the TW core in TW 5.1.14 later. 

@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Adding Tags is no Modification
+created: 20160926060017146
+creator: Thomas Elmiger
+modified: 20170427193834570
+modifier: Thomas Elmiger
+priority: 1
+original-tags: Plugins ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Adding Tags is no Modification
+source-tiddler-title-as-link: Adding%20Tags%20is%20no%20Modification
+
+Tags show structure, not activity.
+
+* Adding tags must not update modified date.
+* ToDoDone has it’s own date

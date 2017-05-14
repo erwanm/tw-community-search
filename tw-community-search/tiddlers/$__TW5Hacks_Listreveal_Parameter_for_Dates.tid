@@ -1,0 +1,16 @@
+title: $:/TW5Hacks/Listreveal Parameter for Dates
+created: 20160821185358437
+creator: Thomas Elmiger
+modified: 20160908142241987
+modifier: Thomas Elmiger
+priority: 3
+original-tags: Listreveal ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Listreveal Parameter for Dates
+source-tiddler-title-as-link: Listreveal%20Parameter%20for%20Dates
+
+Make meta information optional. Maybe use CSS (and documentation) for this.
+
+* show created
+* show modified
+* show tags

@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/All Plugins
+caption: Plugins
+created: 20170512085341962
+creator: TonGerner
+modified: 20170512163623892
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: All Plugins
+source-tiddler-title-as-link: All%20Plugins
+
+!! [[Plugins|All Plugins]]
+
+<<<
+''Note:''<br>All my plugins (themes, 'normal' plugins and editor toolbar buttons) were made with the [[Tinka plugin|https://tinkaplugin.github.io/]] of Andreas Hahn.
+<<<
+
+<<tabs "Themes Plugins [[Editor toolbar buttons]]" "$:/state/all-plugins">>
+

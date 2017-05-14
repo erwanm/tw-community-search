@@ -1,0 +1,25 @@
+title: $:/TW5Hacks/Archive Done
+created: 20160901054334532
+creator: Thomas Elmiger
+modified: 20170427054234793
+modifier: Thomas Elmiger
+priority: 3
+original-tags: Usability ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Archive Done
+source-tiddler-title-as-link: Archive%20Done
+
+Cleaning up older stuff might be a good idea when the ToDoDone list is growing and growing: Develop and implement a concept to move tasks to a ToDoArchive.
+
+* Archived items are removed from the ToDoDone list
+* Archived items can be found using an archive search
+** project filter?
+** keyword search
+** timerange filter(s)?
+
+!!! User feedback
+[ ] In the ToDoDone section an icon (a "down" chevron?) that re-tags the Tiddler "ToDoPast" that moves it off the main Tiddler. – A waste basket maybe? ToDoArchive or DoneArchive maybe?
+[ ] Create a listing Tiddler for "ToDoPast" of a similar visual layout, but NOT with the complexity of the main Tiddler. No sorting or filtering. A simple SEARCH filter. Buttons: 1) Move back to ToDo (an "up" chevron) 2) DELETE – maybe the //recycle// arrow as allready in use on [[Done]]? (The point is that real use in always through the ToDoNow Main Tiddler and you need to move things back there if you are seriously working on them again. – Full ack.)
+
+!!!! Done
+*  Order of [[Done]] and DoneArchive or ToDoPast: … could be the MODIFIED DATE the item entered ToDoDone. – In fact we have and use a special //todo-done// date from a field named accordingly. There can be several such dates, we use the most recent one.

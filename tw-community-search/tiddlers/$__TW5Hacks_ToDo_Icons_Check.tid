@@ -1,0 +1,34 @@
+title: $:/TW5Hacks/ToDo Icons Check
+created: 20160816111641038
+creator: Thomas Elmiger
+deadline: 
+modified: 20160818112519654
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160818132515
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Icons Check
+source-tiddler-title-as-link: ToDo%20Icons%20Check
+
+Icons should be clear and helpful. Check system icons for better options. Draw your own icons if necessary. 
+
+* better icon available?
+* icon in use with different meaning?
+
+System images (ie, tiddlers tagged [[$:/tags/Image]]):
+
+<style>
+.my-gallery svg {
+width: 1.5em;
+height: 1.5em;
+margin: 1em;
+}
+</style>
+<div class="my-gallery">
+<$list filter="[all[tiddlers+shadows]tag[$:/tags/Image]]">
+<$link tooltip="{{!!title}}">
+<$transclude/>
+</$link>
+</$list>
+</div>

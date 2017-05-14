@@ -1,0 +1,21 @@
+title: $:/TW5Hacks/Reveal TextEditor-Snippet single
+caption: Reveal content using auto state
+created: 20161014140735745
+creator: Thomas Elmiger
+modified: 20161014142312150
+modifier: Thomas Elmiger
+original-tags: $:/tags/TextEditor/Snippet
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Reveal TextEditor-Snippet single
+source-tiddler-title-as-link: Reveal%20TextEditor-Snippet%20single
+
+<$set name="qualstate" value=<<qualify "$:/state/reveal_$title$_">> >
+<$reveal type="nomatch" state=<<qualstate>> text="visible" animate="yes">
+   <$button set=<<qualstate>> setTo="visible" class="myButton">EXAMPLE</$button>
+</$reveal>
+<$reveal type="match" state=<<qualstate>> text="visible" animate="yes">
+   <$button set=<<qualstate>> setTo="hidden" class="myButton">Hide this</$button>
+
+EXAMPLEcontentHERE
+
+</$reveal>

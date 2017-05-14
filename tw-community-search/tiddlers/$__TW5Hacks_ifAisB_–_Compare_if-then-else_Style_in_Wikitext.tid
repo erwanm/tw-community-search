@@ -1,0 +1,45 @@
+title: $:/TW5Hacks/ifAisB – Compare if-then-else Style in Wikitext
+created: 20170409191526774
+creator: Thomas Elmiger
+modified: 20170502190713974
+modifier: Thomas Elmiger
+priority: 1
+original-tags: Hacks
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ifAisB – Compare if-then-else Style in Wikitext
+source-tiddler-title-as-link: ifAisB%20%2013%20Compare%20if-then-else%20Style%20in%20Wikitext
+
+<header>
+
+This macro offers a solution for simple if-then-else text generation. It presents some added value compared to the reveal widget: it accepts variables as well as text references and it can show an error message. The ifAisB macro comes with full documentation in the tiddler $:/_telmiger/ifAisB – the documentation can also be found below. 
+
+</header>
+
+Credits and more examples: This solution was inspired by and developed together with Måns who describes his usage of a former version in [[this post|https://groups.google.com/d/msg/tiddlywiki/tm1MH8etwrE/z__sB_TJAgAJ]] in the Google group. Many others have contributed with relating posts or inspiring ideas. So thank you, TW community!
+
+!!! Demos
+* [[Distances Quiz]]
+* [[Marketing Survey]]
+
+---
+
+A shorthand macro to test if the value of a field //priority// equals "a" could be defined and used like this:
+
+```
+\define check-a() <$macrocall $name="ifAisB" A={{!!priority}} B="a" then="priority is a" else="priority is not a"/>
+
+<<check-a>>
+```
+
+---
+
+My test cases can be found in [[Test ifAisB]] – transcluded here so you can play with them:
+
+{{Test ifAisB}}
+
+---
+
+!! Macro Documentation 
+extracted from $:/_telmiger/ifAisB
+
+<<extract tiddler:"$:/_telmiger/ifAisB" start:"<!--" end:"-->">>

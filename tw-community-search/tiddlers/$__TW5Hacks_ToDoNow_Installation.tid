@@ -1,0 +1,65 @@
+title: $:/TW5Hacks/ToDoNow Installation
+created: 20160812075259088
+creator: Thomas Elmiger
+modified: 20170410211339351
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170201231921
+original-tags: ToDoComponents ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDoNow Installation
+source-tiddler-title-as-link: ToDoNow%20Installation
+
+This todo list tool is in daily use and lifts my productivity to a new level. Others use it too. Nevertheless you must ''be careful!'' This is the second beta release. No guarantees attached!
+
+!! A1. Start from Scratch?
+
+Try to save this page by clicking this symbol: {{$:/core/ui/Buttons/save-wiki}} 
+
+* Find out more about [[TiddlyWiki|http://tiddlywiki.com/]].
+* Open your saved document in Firefox and grant access to [[TiddlyFox|http://tiddlywiki.com/#TiddlyFox]].
+* Proceed with step B.
+---
+
+!! A2. Use an existing ~TiddlyWiki 5
+
+!!! Back up & Add Plugins to your TW
+
+* First ''back up'' your ~TiddlyWiki (TW). – Then drag these plugins to your TW:
+
+** $:/plugins/telmiger/todonow
+** $:/plugins/telmiger/listreveal
+
+* Option 1: to enter dates – deadlines – via date picker, follow the installation instrucions on http://kixam.github.io/TW5-datePicker/ – install two plugins: //datepicker// and //moments.js//.
+* Option 2: to enter and check micro-tasks inline – lists with subtasks – install https://grosinger.net/tw5-checklist/
+
+---
+
+!! B. Set Defaults
+* Set //ToDoNow// as default tiddler in $:/ControlPanel on the //info// tab.
+** (If you come from Step A1 you can remove the first and the last line in the //Default tiddlers:// field.)
+
+<$details open="no">
+
+This means, you click the toothed wheel icon below the title of your wiki to open the options in the control panel. 
+
+* If necessary switch to the //info// tab. 
+* Here you can put a new line on top of the field "Default tiddlers:" and type the name of our main tiddler (card) there: `ToDoNow`
+* Then save your wiki. 
+* Reload again, the ~ToDo-List should appear and there you will find the green button with the + which starts the creation of a new task.
+
+''Another solution'' would be to put a ''link'' to our main tiddler in any other tiddler you have like this: `[[ToDoNow]]`. Save the tiddler and click the link, you should see the list.
+
+</$details>
+
+* Define your language in $:/plugins/telmiger/lib/language – choose one of the following endings: 
+** en-GB
+** de-DE
+** de-CH
+
+!! C. Reload and test
+
+!! D. Further Options
+
+* Adapt the [[ToDo Item]] template which is used for new tasks to your needs.
+* Maybe change titles on ToDoNow, ToDo and ToDoDone.

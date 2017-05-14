@@ -1,0 +1,117 @@
+title: $:/TW5Hacks/ToDoNow
+created: 20160821105639629
+creator: Thomas Elmiger
+modified: 20170410214353507
+modifier: Thomas Elmiger
+original-tags: ToDoComponents
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDoNow
+source-tiddler-title-as-link: ToDoNow
+
+\define teBigSaveButton(class:"te-third")
+<$vars tv-config-toolbar-icons="yes">
+@@.te-btn-big.$class$ {{$:/core/ui/Buttons/save-wiki}}@@ 
+</$vars>
+\end
+
+
+!! Do <<teBigSaveButton>> <$wikify name="tt" text=<<telang New-ToDo-Item>>><$button tooltip=<<tt>> message="tm-new-tiddler" param="ToDo Item" class="te-btn-big te-create te-first">{{$:/core/images/new-button}}</$button></$wikify> <<listrevealBtnEdit class:te-second>> 
+
+
+<section class="todo-now">
+<$set name="listfilter" value="[!has[draft.of]tag[ToDoNow]!sort[modified]]">
+<ul class="te-list">
+<$list filter=<<listfilter>>>
+<li class="todo-item te-flex-item">
+<$set name="todoTitle" value={{!!title}}>
+<span class="te-flex-item te-flex-half-full">
+<span class="te-flex-item te-flex-content te-flex-left">
+<$macrocall $name="todoBtnDone" add-remove="ToDoDone -ToDoNow"/>
+   <$link to={{!!title}}><$view field="title"/></$link>
+</span>
+</span>
+<span class="te-flex-item te-flex-half-full">
+<span class="te-flex-item te-flex-content te-flex-right">
+<<todoShowDeadline>>
+   <<todoBtnDeadline muted>>
+<<teBtnEdit>>
+  <<todoBtnPriority>>
+<$wikify name="tt" text=<<telang Send-it-down>>>
+<$wikify name="tip" text=<<telang Uuups>>>
+   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-down}}" add-remove="ToDo -ToDoNow" tooltip=<<tt>> tip=<<tip>> class="muted"/>
+</$wikify>
+</$wikify>
+<$wikify name="cl" text=<<telang close>> >
+<$wikify name="tt" text=<<telang Details>> >
+   <$macrocall $name="listrevealButton" title=<<todoTitle>> tooltip=<<tt>> close=<<cl>>/>
+</$wikify>
+</$wikify>
+</span>
+</span>
+<$wikify name="tpl" text=<<telang date-created-tmpl>> >
+   <$macrocall $name="listrevealContent" title=<<todoTitle>> datetime=<<tpl>>/>
+</$wikify>
+</$set>
+</li>
+</$list>
+</ul>
+</$set>
+
+<small>
+Do the right ''one'' thing. – Then check & save.
+</small>
+</section>
+
+<section class="todo-waiting">
+
+!! Waiting  <<teBigSaveButton>> <$reveal type="nomatch" state="$:/state/ToDo" text="visible">
+<$wikify name="tt" text=<<telang Show-list>>>
+<$button set="$:/state/ToDo" setTo="visible" tooltip=<<tt>> class="te-btn-big folding te-first">
+{{$:/core/images/unfold-button}}</$button>
+</$wikify>
+</$reveal><$reveal type="match" state="$:/state/ToDo" text="visible">
+<$wikify name="tt" text=<<telang Hide-list>>>
+<$button set="$:/state/ToDo" setTo="hidden" tooltip=<<tt>> class="te-btn-big folding te-first">
+{{$:/core/images/fold-button}}</$button>
+</$wikify> 
+</$reveal><<listrevealBtnEdit class:te-second>> 
+
+
+<$reveal type="match" state="$:/state/ToDo" text="visible">
+
+{{ToDo}}
+
+</$reveal>
+
+<small>
+Don’t have to do it? – Say it’s done!
+</small>
+</section>
+
+<section class="todo-done">
+
+!! Done <<teBigSaveButton>> <<listrevealBtnEdit class:te-second>> <$reveal type="nomatch" state="$:/state/ToDoDone" text="visible">
+<$wikify name="tt" text=<<telang Show-list>>>
+<$button set="$:/state/ToDoDone" setTo="visible" tooltip=<<tt>> class="te-btn-big folding te-first">
+{{$:/core/images/unfold-button}}</$button>
+</$wikify>
+</$reveal><$reveal type="match" state="$:/state/ToDoDone" text="visible">
+<$wikify name="tt" text=<<telang Hide-list>>>
+<$button set="$:/state/ToDoDone" setTo="hidden" tooltip=<<tt>> class="te-btn-big folding te-first">
+{{$:/core/images/fold-button}}</$button>
+</$wikify>
+</$reveal>
+
+<$reveal type="match" state="$:/state/ToDoDone" text="visible">
+
+{{ToDoDone}}
+
+</$reveal>
+
+</section>
+
+@@.te-noprint
+<<tag "ToDo Addons">>
+
+<<tag ToDo>> <<tag ToDoDone>> <<tag ToDoNow>> <<tag ToDoArchive>> <<tag ToDoComponents>>
+@@

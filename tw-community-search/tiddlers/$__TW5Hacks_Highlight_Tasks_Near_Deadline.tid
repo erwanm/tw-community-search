@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/Highlight Tasks Near Deadline
+created: 20160820045856755
+creator: Thomas Elmiger
+modified: 20160905054648685
+modifier: Thomas Elmiger
+priority: 3
+todo-deadline: 20160903220000000
+todo-done: 20160905074646
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Highlight Tasks Near Deadline
+source-tiddler-title-as-link: Highlight%20Tasks%20Near%20Deadline
+
+Mark tasks near to their deadline.
+
+* Style using days[] or (now)
+* Today – done
+* Late: due yesterday or even older – done
+* Tomorrow: would this really be helpful? – reconsider!

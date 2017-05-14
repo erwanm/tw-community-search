@@ -1,0 +1,17 @@
+title: $:/tid.li Plugins/$:/plugins/telmiger/listreveal
+author: Thomas Elmiger
+core-version: 5.1.13
+created: 20160918233630962
+description: Listreveal
+list: readme
+modified: 20170224225859821
+name: Listreveal
+source: http://tid.li/tw5/plugins.html
+version: 0.1.17
+original-tags: 
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: $:/plugins/telmiger/listreveal
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftelmiger%2flistreveal
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

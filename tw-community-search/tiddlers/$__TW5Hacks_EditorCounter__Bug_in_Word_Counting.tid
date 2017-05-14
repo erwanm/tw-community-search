@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/EditorCounter: Bug in Word Counting
+created: 20170215171541996
+creator: Thomas Elmiger
+modified: 20170215171750126
+modifier: Thomas Elmiger
+priority: 3
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: EditorCounter: Bug in Word Counting
+source-tiddler-title-as-link: EditorCounter%3a%20Bug%20in%20Word%20Counting
+
+A JS error appears, if a text starts with `[[` or with `*`.
+
+* Optimize word counter
+* Test different special characters

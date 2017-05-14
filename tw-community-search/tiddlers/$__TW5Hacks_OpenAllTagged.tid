@@ -1,0 +1,30 @@
+title: $:/TW5Hacks/OpenAllTagged
+created: 20160607203338513
+creator: Thomas Elmiger
+modified: 20170427195538758
+modifier: Thomas Elmiger
+original-tags: ShadowTiddlers TiddlyWikiForum Hacks
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: OpenAllTagged
+source-tiddler-title-as-link: OpenAllTagged
+
+What I learned from the [[TiddlyWiki Google Group|https://groups.google.com/forum/?hl=de#!forum/tiddlywiki]]:
+
+* how to open all tiddlers tagged with the same tag from the tag pill menu
+
+<<tweet "How to open all tiddlers tagged with the same tag in #TiddlyWiki from the tag pill: tid.li/tw5/hacks.html#OpenAllTagged – via @telmiger">>
+
+!!! Modify a shadow tiddler
+
+I adapted the receipt from  [[this entry in the forum|https://groups.google.com/d/msg/tiddlywiki/Eqcsb-B6iLk/sVLXmacEQAAJ]] and modified [[$:/core/ui/TagTemplate]]. The following code was inserted just before the last `</$reveal>`. Hint for TW versions 5.1.11 and lower: put the code just before the last `</div>`.
+
+```
+<!-- edited -->
+<hr>
+<div class="tc-menu-list-item">
+<$button class="tc-btn-invisible"><$list filter="[all[current]tagging[]]"><$action-navigate $to=<<currentTiddler>> /></$list>Open All</$button>
+</div>
+<!-- /edited -->
+```
+
+To test this, click on the tag pill of a tag with more than one tiddlers associated. Click the last item in the popup menu and see the magic happen.

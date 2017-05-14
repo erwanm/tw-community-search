@@ -1,0 +1,13 @@
+title: $:/TW5Hacks/Separate listreveal CSS
+created: 20160814122920126
+creator: Thomas Elmiger
+modified: 20170410213353086
+modifier: Thomas Elmiger
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Separate listreveal CSS
+source-tiddler-title-as-link: Separate%20listreveal%20CSS
+
+Clean code is great: Keep together what belongs together, e.g. macros and CSS.
+
+* give $:/plugins/telmiger/listreveal/lr it’s own CSS

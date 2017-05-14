@@ -1,20 +1,16 @@
 title: $:/TonGernerPlayground/Plugins
 created: 20160130132630187
 creator: TonGerner
-modified: 20170503133617642
+modified: 20170512090346432
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Plugins
 source-tiddler-title-as-link: Plugins
 
-!! [[My plugins|Plugins]]
+!! [[Plugins]]
 
-<<<
-''Note:''<br>All my plugins were made with the [[Tinka plugin|https://tinkaplugin.github.io/]] of Andreas Hahn.
-<<<
-
-<<tabs "[tag[plugin]sort[caption]]" "" "" "tc-vertical">>
+<<tabs "[tag[plugin]sort[caption]]" "" "$:/state/plugins" "tc-vertical">>
 
 
 

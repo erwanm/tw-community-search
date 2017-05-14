@@ -1,0 +1,23 @@
+title: $:/TW5Hacks/Tiddler-Summary
+created: 20161024051742234
+creator: Thomas Elmiger
+modified: 20170108200559159
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20170108210543
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Tiddler-Summary
+source-tiddler-title-as-link: Tiddler-Summary
+
+In lists like my [[Work-Report]] it would be great to see a summary of a tiddler.
+
+* invisible markers
+** check if there is a more appropriate HTML construct than comments
+* show summary part in [[Work-Report]] 
+
+Draft for implementation (see [[Google Group|https://groups.google.com/d/msg/tiddlywiki/uxErdg4wPWk/yZ0WXRnBEwAJ]] for skript ideas): 
+
+<!-- sum -->
+This is a task to estabish a summary anywhere in a tiddler and mark its beginning and end using an invisible marker tag
+<!-- /sum -->

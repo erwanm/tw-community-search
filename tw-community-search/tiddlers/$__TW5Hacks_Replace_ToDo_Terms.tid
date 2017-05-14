@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/Replace ToDo Terms
+created: 20160817203428367
+creator: Thomas Elmiger
+deadline: 
+modified: 20170410213152080
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20160821214443
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Replace ToDo Terms
+source-tiddler-title-as-link: Replace%20ToDo%20Terms
+
+Be clear: Use exact terms
+
+* ~~telement- > te-~~
+* ~~telement-hint > te-tip~~
+* $:/plugins/telmiger/todonow.css > $:/plugins/telmiger/todonow/todo.css
+* ~~field name deadline > todo-deadline~~ 

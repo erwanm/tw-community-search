@@ -1,0 +1,16 @@
+title: $:/TonGernerPlayground/$:/plugins/tongerner/highlight
+core-version: >=5.1.13
+created: 20170511201719985
+creator: TonGerner
+description: Highlight button
+list: readme
+modified: 20170511202951014
+modifier: TonGerner
+version: 0.0.2
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tongerner/highlight
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fhighlight
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,23 @@
+title: $:/tid.li Plugins/FollowMe
+created: 20160527160910963
+creator: Thomas Elmiger
+modified: 20170126213957786
+modifier: Thomas Elmiger
+priority: 3
+original-tags: ToDo ToDoDemo
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: FollowMe
+source-tiddler-title-as-link: FollowMe
+
+You find me on
+
+<a title="Twitter" href="https://twitter.com/telmiger" class="tc-btn-big-green" style="background-color:#5E9FCA;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/twitter}} @telmiger
+</a>
+<a title="GitHub" href="https://github.com/telmiger" class="tc-btn-big-green" style="background-color:#444;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/github}} telmiger 
+</a>
+
+* Instagram: [[telmiger|https://instagram.com/telmiger]]
+* Google: [[Thomas Elmiger|https://plus.google.com/+ThomasElmiger]]
+* Website: http://thomas-elmiger.ch

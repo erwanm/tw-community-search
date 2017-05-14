@@ -1,0 +1,56 @@
+title: $:/tid.li Plugins/Get More Plugins
+created: 20170126214112475
+creator: Thomas Elmiger
+modified: 20170513155721950
+modifier: Thomas Elmiger
+priority: 2
+original-tags: 
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: Get More Plugins
+source-tiddler-title-as-link: Get%20More%20Plugins
+
+Here are some great plugins you can download – just ''make a backup first,'' then drag the button or the link below to your wiki, save and reload.
+
+
+<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/Clipboard">
+{{$:/core/images/file}}<span> Clipboard</span></$link></span>
+
+* $:/plugins/telmiger/Clipboard
+
+<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/details">
+{{$:/core/images/right-arrow}}<span> ~DetailsWidget</span></$link></span>
+
+* $:/plugins/telmiger/details
+
+<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/EditorCounter">
+{{$:/core/images/mono-block}}<span> ~EditorCounter</span></$link></span>
+
+* $:/plugins/telmiger/EditorCounter
+
+<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/listreveal">
+{{$:/core/images/list-bullet}}<span> Listreveal</span></$link></span>
+
+* $:/plugins/telmiger/listreveal
+
+<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/todonow">
+{{$:/core/images/done-button}}<span> ~ToDoNow</span></$link></span>
+
+* $:/plugins/telmiger/todonow
+* You need $:/plugins/telmiger/listreveal too!
+
+<style>
+.tc-btn-big-green {
+   min-width: 13em;
+}
+.tc-btn-big-green:hover {
+   background-color: #2cae2c;
+}
+.tc-btn-big-green a, .tc-btn-big-green a:hover {
+   padding-left: 6px;
+   color: white;
+   text-decoration: none;
+}
+.tc-btn-big-green span {
+   padding: 16px;
+}
+</style>
