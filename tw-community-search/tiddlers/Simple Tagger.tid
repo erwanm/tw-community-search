@@ -1,0 +1,14 @@
+author: Matabele
+created: 20160827221313281
+modified: 20160827221325363
+tags: CommunityWikis
+title: Simple Tagger
+type: text/vnd.tiddlywiki
+wiki-address: http://simple-tagger.tiddlyspot.com/
+wiki-tw-version: 5.1.11
+wiki-latest-modification: 20160131183654525
+wiki-nb-tiddlers: 40
+
+:: a utility for editing tags ::
+
+{{||$:/CommunityWikiPresentationTemplate}}

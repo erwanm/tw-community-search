@@ -1,0 +1,14 @@
+author: JedCarty
+created: 20160827211440978
+modified: 20160827211502443
+tags: CommunityWikis
+title: Tiddler Bundles
+type: text/vnd.tiddlywiki
+wiki-address: http://ooktech.com/jed/ExampleWikis/TiddlerSchools/
+wiki-tw-version: 5.1.10
+wiki-latest-modification: 20160109190854567
+wiki-nb-tiddlers: 7
+
+a simple way to move multiple tiddlers
+
+{{||$:/CommunityWikiPresentationTemplate}}
