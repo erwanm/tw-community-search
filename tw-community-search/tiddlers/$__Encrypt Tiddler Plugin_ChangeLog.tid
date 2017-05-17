@@ -1,0 +1,11 @@
+title: $:/Encrypt Tiddler Plugin/ChangeLog
+created: 20150404210852172
+modified: 20150404210900009
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: Encrypt Tiddler Plugin
+source-tiddler-title-as-text: ChangeLog
+source-tiddler-title-as-link: ChangeLog
+
+{{$:/plugins/danielo/encryptTiddler/Changelog}}

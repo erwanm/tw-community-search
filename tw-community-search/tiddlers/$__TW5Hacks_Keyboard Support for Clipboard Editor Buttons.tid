@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Keyboard Support for Clipboard Editor Buttons
+created: 20170513182058930
+creator: Thomas Elmiger
+modified: 20170513182306783
+modifier: Thomas Elmiger
+priority: 1
+original-tags: ToDo Plugins
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Keyboard Support for Clipboard Editor Buttons
+source-tiddler-title-as-link: Keyboard%20Support%20for%20Clipboard%20Editor%20Buttons
+
+Make buttons accessible via keyboard shortcuts
+
+* all 5 buttons have unique shortcuts
+* all shortcuts work

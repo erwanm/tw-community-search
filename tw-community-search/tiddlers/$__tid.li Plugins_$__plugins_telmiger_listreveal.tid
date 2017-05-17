@@ -7,7 +7,7 @@ list: readme
 modified: 20170224225859821
 name: Listreveal
 source: http://tid.li/tw5/plugins.html
-version: 0.1.17
+version: 0.1.18
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/listreveal

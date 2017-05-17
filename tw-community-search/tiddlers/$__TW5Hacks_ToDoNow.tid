@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoNow
 created: 20160821105639629
 creator: Thomas Elmiger
-modified: 20170410214353507
+modified: 20170514125618387
 modifier: Thomas Elmiger
 original-tags: ToDoComponents
 source-wiki-id: TW5Hacks
@@ -13,50 +13,25 @@ source-tiddler-title-as-link: ToDoNow
 @@.te-btn-big.$class$ {{$:/core/ui/Buttons/save-wiki}}@@ 
 </$vars>
 \end
+\define teBigNewTaskButton(class:"te-first")
+<$wikify name="tt" text=<<telang New-ToDo-Item>>><$button tooltip=<<tt>> message="tm-new-tiddler" param="ToDo Item" class="te-btn-big te-create $class$">{{$:/core/images/new-button}}</$button></$wikify>
+\end
 
-
-!! Do <<teBigSaveButton>> <$wikify name="tt" text=<<telang New-ToDo-Item>>><$button tooltip=<<tt>> message="tm-new-tiddler" param="ToDo Item" class="te-btn-big te-create te-first">{{$:/core/images/new-button}}</$button></$wikify> <<listrevealBtnEdit class:te-second>> 
-
+!! Do <<teBigSaveButton>> <<teBigNewTaskButton>> <<listrevealBtnEdit class:te-second>> 
 
 <section class="todo-now">
 <$set name="listfilter" value="[!has[draft.of]tag[ToDoNow]!sort[modified]]">
 <ul class="te-list">
 <$list filter=<<listfilter>>>
-<li class="todo-item te-flex-item">
-<$set name="todoTitle" value={{!!title}}>
-<span class="te-flex-item te-flex-half-full">
-<span class="te-flex-item te-flex-content te-flex-left">
-<$macrocall $name="todoBtnDone" add-remove="ToDoDone -ToDoNow"/>
-   <$link to={{!!title}}><$view field="title"/></$link>
-</span>
-</span>
-<span class="te-flex-item te-flex-half-full">
-<span class="te-flex-item te-flex-content te-flex-right">
-<<todoShowDeadline>>
-   <<todoBtnDeadline muted>>
-<<teBtnEdit>>
-  <<todoBtnPriority>>
-<$wikify name="tt" text=<<telang Send-it-down>>>
-<$wikify name="tip" text=<<telang Uuups>>>
-   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-down}}" add-remove="ToDo -ToDoNow" tooltip=<<tt>> tip=<<tip>> class="muted"/>
-</$wikify>
-</$wikify>
-<$wikify name="cl" text=<<telang close>> >
-<$wikify name="tt" text=<<telang Details>> >
-   <$macrocall $name="listrevealButton" title=<<todoTitle>> tooltip=<<tt>> close=<<cl>>/>
-</$wikify>
-</$wikify>
-</span>
-</span>
-<$wikify name="tpl" text=<<telang date-created-tmpl>> >
-   <$macrocall $name="listrevealContent" title=<<todoTitle>> datetime=<<tpl>>/>
-</$wikify>
-</$set>
-</li>
+   <<todonowShowListItem>>
 </$list>
 </ul>
 </$set>
 
+<$set name="hint" filter="[tag[ToDoNow]]" value="<!-- Do it -->" emptyValue="Pick a task from the list below using this button: 
+<button class='te-btn-action' title='Take it up!'>{{$:/core/images/chevron-up}}</button><br><br>">
+<<hint>>
+</$set>
 <small>
 Do the right ''one'' thing. – Then check & save.
 </small>
@@ -76,16 +51,14 @@ Do the right ''one'' thing. – Then check & save.
 </$wikify> 
 </$reveal><<listrevealBtnEdit class:te-second>> 
 
-
 <$reveal type="match" state="$:/state/ToDo" text="visible">
 
-{{ToDo}}
+<$set name="list" filter="[tag[ToDo]]" value="{{ToDo}}" emptyValue="Nothing to do? Create a task using this button: 
+<<teBigNewTaskButton 'te-inline'>><br><br>">
+<<list>>
+</$set>
 
 </$reveal>
-
-<small>
-Don’t have to do it? – Say it’s done!
-</small>
 </section>
 
 <section class="todo-done">
