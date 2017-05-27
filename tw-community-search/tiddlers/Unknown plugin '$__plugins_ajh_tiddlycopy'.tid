@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugin/ajh/openall'
+title: Unknown plugin '$:/plugins/ajh/tiddlycopy'
 name: unknown
-plugin_tiddler: $:/plugin/ajh/openall
+plugin_tiddler: $:/plugins/ajh/tiddlycopy
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 

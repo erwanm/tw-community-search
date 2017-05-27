@@ -17,10 +17,6 @@ short_description: An icon in the tiddler menu that lets you add tiddlers to a '
 title: twCard - Plugin - Favorites
 wiki: http://t5a.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: t5a
-twcs-extracted-plugin-tiddler: $:/t5a/$:/plugin/ajh/favorites
-twcs-description: Favorites
-twcs-author: 
-twcs-version: 3.0.2
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

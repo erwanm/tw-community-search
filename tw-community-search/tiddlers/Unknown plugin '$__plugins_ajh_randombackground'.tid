@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugin/ajh/reduce'
+title: Unknown plugin '$:/plugins/ajh/randombackground'
 name: unknown
-plugin_tiddler: $:/plugin/ajh/reduce
+plugin_tiddler: $:/plugins/ajh/randombackground
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 

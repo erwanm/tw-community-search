@@ -17,10 +17,6 @@ short_description: A plugin for copying rich text content to the clipboard
 title: twCard - Plugin - Copy
 wiki: http://copy.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: CopyPlugin
-twcs-extracted-plugin-tiddler: $:/CopyPlugin/$:/plugin/ajh/copy
-twcs-description: Copy Button
-twcs-author: 
-twcs-version: 5.1.14
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

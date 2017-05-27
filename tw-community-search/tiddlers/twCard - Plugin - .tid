@@ -17,10 +17,6 @@ short_description: A plugin that allows you to display external sites inside a t
 title: twCard - Plugin - 
 wiki: http://tiddlyviewer.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: TiddlyViewer
-twcs-extracted-plugin-tiddler: $:/TiddlyViewer/$:/plugin/ajh/tiddlyviewer
-twcs-description: Tiddly Viewer
-twcs-author: 
-twcs-version: 0.0.14
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

@@ -17,6 +17,6 @@ short_description: A plugin that combines the features of the Tiddly Viewer and 
 title: twCard - Plugin - Tiddly Copy
 wiki: http://tiddlycopy.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

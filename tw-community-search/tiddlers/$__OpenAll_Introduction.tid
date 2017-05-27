@@ -2,18 +2,18 @@ title: $:/OpenAll/Introduction
 caption: Intro
 created: 20151102132506823
 creator: Andrew Harrison
-modified: 20170514190312069
+modified: 20170521210059860
 modifier: Andrew Harrison
 original-tags: Introduction
 source-wiki-id: OpenAll
 source-tiddler-title-as-text: Introduction
 source-tiddler-title-as-link: Introduction
 
-&emsp;&emsp;This plugin adds the {{$:/plugin/ajh/openall/template}} button to the tag manager drop down menu using the{{$:/tags/TagDropdown||$:/core/ui/TagTemplate}}system tag. The open all button opens all non system tiddlers tagged with that drop down tag.<br>
-&emsp;&emsp;Simply drag $:/plugin/ajh/openall to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
+&emsp;&emsp;This plugin adds the {{$:/plugins/ajh/openall/template}} button to the tag manager drop down menu using the{{$:/tags/TagDropdown||$:/core/ui/TagTemplate}}system tag. The open all button opens all non system tiddlers tagged with that drop down tag.<br>
+&emsp;&emsp;Simply drag $:/plugins/ajh/openall to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
 [[$:/language/Buttons/OpenAll/Caption]]<br>
 [[$:/language/Buttons/OpenAll/Hint]]<br>
-[[$:/plugin/ajh/openall/icon]]<br>
-[[$:/plugin/ajh/openall/image]]<br>
-[[$:/plugin/ajh/openall/stylesheet]]<br>
-[[$:/plugin/ajh/openall/template]]
+[[$:/plugins/ajh/openall/icon]]<br>
+[[$:/plugins/ajh/openall/image]]<br>
+[[$:/plugins/ajh/openall/stylesheet]]<br>
+[[$:/plugins/ajh/openall/template]]

@@ -17,10 +17,6 @@ short_description: A nicely integrated clock for tiddlywiki
 title: twCard - Plugin - Tiddly Time
 wiki: http://tiddlytime.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: TiddlyTime
-twcs-extracted-plugin-tiddler: $:/TiddlyTime/$:/plugin/ajh/tiddlytime
-twcs-description: Tiddlytime Button
-twcs-author: 
-twcs-version: 0.0.8
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}
