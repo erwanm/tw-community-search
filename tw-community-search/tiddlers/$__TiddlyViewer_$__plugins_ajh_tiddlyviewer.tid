@@ -4,7 +4,7 @@ created: 20150814132714911
 dependents: $:/plugins/ajh/tiddlyviewer/icon $:/plugins/ajh/tiddlyviewer/readme $:/plugins/ajh/tiddlyviewer/stylesheet $:/plugins/ajh/tiddlyviewer/template
 description: Tiddly Viewer
 list: readme
-modified: 20170521224910203
+modified: 20170527235951006
 source: http://tiddlyviewer.tiddlyspot.com/
 version: 0.0.14
 original-tags: 
