@@ -1,0 +1,18 @@
+title: $:/t5a/$:/plugins/ajh/showfields
+core-version: >=5.1.14
+created: 20150806001821444
+creator: Andrew
+dependents: $:/language/showfields/caption $:/language/showfields/hint $:/plugins/ajh/showfields/controls $:/plugins/ajh/showfields/readme $:/plugins/ajh/showfields/icon $:/plugins/ajh/showfields/template
+description: Show Fields
+list: readme
+modified: 20170603165318250
+modifier: Andrew
+source: http://showfields.tiddlyspot.com/
+version: 0.0.1
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/ajh/showfields
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2fshowfields
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
