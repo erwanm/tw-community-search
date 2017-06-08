@@ -1,0 +1,14 @@
+title: $:/TonGernerPlayground/Prettylink button plugin
+caption: Prettylink button
+created: 20170607094353899
+creator: TonGerner
+modified: 20170607094441477
+modifier: TonGerner
+original-tags: button
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Prettylink button plugin
+source-tiddler-title-as-link: Prettylink%20button%20plugin
+
+!! [[Prettylink button plugin]] v<<pversion "prettylink">>
+
+<<readme $:/plugins/tongerner/prettylink/readme $:/plugins/tongerner/prettylink>>

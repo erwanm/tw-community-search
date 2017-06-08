@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20170512125722422
+modified: 20170607100410263
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,10 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 7-6-2017
+* Added Iframe, Newline, and Prettylink editor toolbar buttons (plugins)
+* Bug fixes to Top toolbar plugin
 
 !!! 12-5-2017
 * Added Timestamp and Highlight editor toolbar buttons (plugins)

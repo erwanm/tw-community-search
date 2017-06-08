@@ -7,7 +7,7 @@ description: Timestamp button
 list: readme
 modified: 20170511203502533
 modifier: TonGerner
-version: 0.0.2
+version: 0.0.7
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/timestamp

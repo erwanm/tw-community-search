@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tongerner/newline'
+name: unknown
+plugin_tiddler: $:/plugins/tongerner/newline
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

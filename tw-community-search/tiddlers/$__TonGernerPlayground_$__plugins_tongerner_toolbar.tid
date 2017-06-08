@@ -8,7 +8,7 @@ list: readme
 modified: 20170504100040392
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.2.17
+version: 0.2.19
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/toolbar

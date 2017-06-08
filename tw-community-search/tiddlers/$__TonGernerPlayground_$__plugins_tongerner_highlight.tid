@@ -6,7 +6,7 @@ description: Highlight button
 list: readme
 modified: 20170511202951014
 modifier: TonGerner
-version: 0.0.2
+version: 0.0.6
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/highlight

@@ -1,8 +1,8 @@
 title: $:/TonGernerPlayground/Toolbar plugin
-caption: Toolbar
+caption: Top toolbar
 created: 20160111103503636
 creator: TonGerner
-modified: 20170503133203726
+modified: 20170607100028684
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -10,7 +10,7 @@ source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Toolbar plugin
 source-tiddler-title-as-link: Toolbar%20plugin
 
-!! [[Toolbar plugin]] v<<pversion "toolbar">>
+!! [[Top toolbar plugin|Toolbar plugin]] v<<pversion "toolbar">>
 
 ''Status:'' @@.RED {{Toolbar plugin!!status}} v<<version>>@@
 

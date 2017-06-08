@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20170506112236943
+modified: 20170607101048388
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,10 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v6.08 (7-6-2017)
+* Extended code of tiddlers with 'Fields'
+* Bug fixes to Top toolbar plugin
 
 !!!!v6.07 (4-5-2017)
 * Added several buttons

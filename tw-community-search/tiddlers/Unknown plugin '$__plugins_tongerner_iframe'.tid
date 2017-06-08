@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tongerner/iframe'
+name: unknown
+plugin_tiddler: $:/plugins/tongerner/iframe
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
