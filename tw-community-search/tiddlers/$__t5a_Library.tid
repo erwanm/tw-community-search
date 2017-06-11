@@ -1,0 +1,31 @@
+title: $:/t5a/Library
+created: 20160120130410512
+creator: Tobias Beer
+modified: 20170610161726358
+modifier: Andrew Harrison
+revision: 0
+show-field: -title
+summary: keeping up to date and fetching the latest and greatest from [[tobibeer/plugins|Plugins]]
+type: text/vnd.tiddlywiki
+original-tags: New [[Under Construction]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: Library
+source-tiddler-title-as-link: Library
+
+@@color:purple;''Important'': Adding my library does not pre-install any of my plugins in your wiki but just adds a reference to it, i.e. you need internet access to actually install plugins from it.@@
+
+Drag this tiddler to your wiki to access my plugin library from your [[control panel|$:/ControlPanel]]: $:/pluginlibrary/ajh/official
+
+<<<
+
+!! {{$:/pluginlibrary/ajh/official!!caption}}
+
+//{{$:/pluginlibrary/ajh/official}}//
+
+{{$:/pluginlibrary/ajh/official!!url}}
+<<<
+
+@@.note
+''Tip:'' You can actually try it out right here in this wiki.<br>
+Open: {{$:/core/ui/Buttons/control-panel}} ''~ControlPanel'' > ''Plugins'' > ''Get more plugins'' > ''Open plugin library''
+@@
