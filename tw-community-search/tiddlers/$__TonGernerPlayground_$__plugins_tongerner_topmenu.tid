@@ -4,11 +4,11 @@ core-version: 5.1.14
 created: 20150701181924620
 creator: TonGerner
 description: Top menu
-list: readme
-modified: 20170502182620541
+list: readme help
+modified: 20170615155853327
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.7
+version: 0.1.8
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/topmenu
