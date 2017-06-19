@@ -6,11 +6,11 @@ accordion4:
 caption: details
 created: 20170130234539362
 creator: Thomas Elmiger
-modified: 20170214232450016
+modified: 20170618124748029
 modifier: Thomas Elmiger
 priority: W
 type: text/vnd.tiddlywiki
-widget-author: <$details summary="Author" tiddler="FollowMe"> ''Thomas Elmiger'' <$transclude tiddler="FollowMe" mode="block"/></$details>
+widget-author: <$details summary="Author" tiddler="FollowMe"> <p>''Thomas Elmiger'' </p><$transclude tiddler="FollowMe" mode="block"/></$details>
 original-tags: Widgets
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: DetailsWidget
@@ -53,11 +53,13 @@ The RevealWidget can be used in similar ways, it hides or shows its content depe
 
 </$details>
 
-<$details summary="Browser Support: Not Implemented in Edge yet" class="warning" state="!!accordion3">
+<$details class="warning" summary="Missing Browser Support" state="!!accordion3">
 
-* Microsoft has not yet implemented details/summary in their Edge browser. It is listed with “Roadmap Priority: Medium — Development is likely for a future release” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
+* Microsoft has not yet implemented details/summary in their ''Edge'' browser. It is listed with “Roadmap Priority: Medium — Development is likely for a future release” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
+* ''Internet Explorer'' in general and ''Firefox before Version 49'' do not support details/summary either.
 * Other browsers might not support animation effects on opening or closing – at least not in early 2017.
-* Apple iOS mobile browsers lack support of toggle events on details. Therefore we emulate the toggle event using click. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. FireFox mobile seems to work.
+* Apple iOS mobile browsers lack support of toggle events on details. Therefore we emulate the toggle event using click. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. Firefox mobile seems to work.
+* See http://caniuse.com/#search=details for other browsers and updated information.
 
 </$details>
 

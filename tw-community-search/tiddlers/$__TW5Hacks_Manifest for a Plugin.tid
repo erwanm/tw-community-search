@@ -1,0 +1,31 @@
+title: $:/TW5Hacks/Manifest for a Plugin
+created: 20170601134956616
+creator: Thomas Elmiger
+modified: 20170601135118496
+modifier: Thomas Elmiger
+priority: 1
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Manifest for a Plugin
+source-tiddler-title-as-link: Manifest%20for%20a%20Plugin
+
+As drafted by Josiah and Mario
+
+* Tests/Acceptance criteria
+
+---
+
+eg: Create a tiddler named: manifest with the following content
+
+HelloThere
+Learning
+[[Working with TiddlyWiki]]
+
+
+Then open the AdvancedSearch: Filter and enter:
+
+[enlist{manifest}]
+
+Which gives you a nice list, that can be exported as *.json file. If imported it does the expected thing.
+
+https://groups.google.com/d/msgid/tiddlywiki/571bf2f2-22b0-426b-bea4-71f6f731ad53%40googlegroups.com

@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoArchive Functions
 created: 20170509201001373
 creator: Thomas Elmiger
-modified: 20170516212410414
+modified: 20170530132445949
 modifier: Thomas Elmiger
 priority: 2
 original-tags: ToDoNow
@@ -16,6 +16,8 @@ source-tiddler-title-as-link: ToDoArchive%20Functions
 * Actions for archived tasks
 ** Recycle
 ** Delete?
+
+---
 
 !!! User feedback
 [ ] Create a listing Tiddler for "ToDoPast" of a similar visual layout, but NOT with the complexity of the main Tiddler. No sorting or filtering. A simple SEARCH filter. Buttons: 1) Move back to ToDo (an "up" chevron) 2) DELETE – maybe the //recycle// arrow as allready in use on [[Done]]? (The point is that real use in always through the ToDoNow Main Tiddler and you need to move things back there if you are seriously working on them again. – Full ack.)
