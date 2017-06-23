@@ -1,0 +1,12 @@
+title: $:/SlidesNStories/$:/plugins/JR/MediaMacros
+author: Jan Johannpeter
+description: MediaMacros
+name: MediaMacros
+version: 0.0.1
+original-tags: 
+source-wiki-id: SlidesNStories
+source-tiddler-title-as-text: $:/plugins/JR/MediaMacros
+source-tiddler-title-as-link: %24%3a%2fplugins%2fJR%2fMediaMacros
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

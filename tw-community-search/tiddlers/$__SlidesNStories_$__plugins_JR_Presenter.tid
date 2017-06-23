@@ -6,7 +6,7 @@ dependents: $:/_telmiger/extract $:/_telmiger/slice $:/plugins/JR/slidesnstories
 description: Presenter 
 modified: 20170308234903180
 modifier: JR
-version: 0.0.16
+version: 0.0.17
 original-tags: 
 source-wiki-id: SlidesNStories
 source-tiddler-title-as-text: $:/plugins/JR/Presenter

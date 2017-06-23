@@ -5,7 +5,7 @@ dependents:
 description: Checklist Plugin
 list: readme Usage Configuration
 source: https://github.com/tgrosinger/tw5-checklist
-version: 0.0.13
+version: 0.0.14
 original-tags: 
 source-wiki-id: TW5Checklist
 source-tiddler-title-as-text: $:/plugins/tgrosinger/tw5-checklist
