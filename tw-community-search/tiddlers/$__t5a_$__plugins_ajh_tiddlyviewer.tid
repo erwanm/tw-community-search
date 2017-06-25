@@ -1,11 +1,10 @@
 title: $:/t5a/$:/plugins/ajh/tiddlyviewer
+author: Andrew
 core-version: >=5.1.11
-created: 20150814132714911
 dependents: $:/plugins/ajh/tiddlyviewer/icon $:/plugins/ajh/tiddlyviewer/readme $:/plugins/ajh/tiddlyviewer/stylesheet $:/plugins/ajh/tiddlyviewer/template
 description: Tiddly Viewer
 list: readme
-modified: 20170527235951006
-source: http://tiddlyviewer.tiddlyspot.com/
+source: https://github.com/infurnoape/tw5-plugins
 version: 0.0.14
 original-tags: 
 source-wiki-id: t5a

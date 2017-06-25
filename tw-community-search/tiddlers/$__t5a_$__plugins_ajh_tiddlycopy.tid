@@ -1,11 +1,10 @@
 title: $:/t5a/$:/plugins/ajh/tiddlycopy
+author: Andrew
 core-version: >=5.1.11
-created: 20150902052640307
 dependents: $:/plugins/ajh/tiddlycopy/icon $:/plugins/ajh/tiddlycopy/readme $:/plugins/ajh/tiddlycopy/stylesheet $:/plugins/ajh/tiddlycopy/template/hide $:/plugins/ajh/tiddlycopy/template/show $:/plugins/ajh/tiddlycopy/template/toolbar
 description: Tiddly Link Copy Button
 list: readme
-modified: 20170528000309535
-source: http://tiddlycopy.tiddlyspot.com
+source: https://github.com/infurnoape/tw5-plugins
 version: 0.0.30
 original-tags: 
 source-wiki-id: t5a

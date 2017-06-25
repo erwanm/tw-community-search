@@ -1,11 +1,10 @@
 title: $:/t5a/$:/plugins/ajh/randombackground
+author: Andrew
 core-version: >=5.1.11
-created: 20151118030354071
 dependents: $:/plugins/ajh/randombackground/background0 $:/plugins/ajh/randombackground/icon $:/plugins/ajh/randombackground/readme $:/plugins/ajh/randombackground/stylesheet $:/plugins/ajh/randombackground/random.js
 description: Random Background
 list: readme
-modified: 20170521230219498
-source: http://randombackground.tiddlyspot.com/
+source: https://github.com/infurnoape/tw5-plugins
 version: 0.1.1
 original-tags: 
 source-wiki-id: t5a

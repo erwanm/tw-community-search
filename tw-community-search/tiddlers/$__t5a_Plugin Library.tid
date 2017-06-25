@@ -1,15 +1,32 @@
 title: $:/t5a/Plugin Library
-created: 20150422131919192
-creator: Andrew Harrison
-modified: 20170613043829429
+created: 20160120130410512
+creator: Tobias Beer
+modified: 20170624181554544
 modifier: Andrew Harrison
 resource: http://tiddlywiki.com/dev/#Developing%20plugins%20using%20Node.js%20and%20GitHub<br><br>http://inmysocks.tiddlyspot.com/#Making%20a%20Plugin%20Library<br><br>http://tiddlywiki.com/#%24%3A%2Fconfig%2FOfficialPluginLibrary<br>http://tiddlywiki.com/library/v5.1.14/index.html<br><br>https://github.com/tobibeer/tw5-plugins<br>http://tobibeer.github.io/tb5/#Library<br>http://tobibeer.github.io/tw5-plugins/library/index.html<br><br>http://inmysocks.tiddlyspot.com/#%24%3A%2Fpluginlibrary%2Finmysocks%2FTestingPluginLibrary<br>http://ooktech.com/jed/pluginlibrary/testing/index.html
-show-field: resource -title
-original-tags: [[Under Construction]] New
+revision: 0
+show-field: -title
+summary: keeping up to date and fetching the latest and greatest from [ext[infurnoape|https://github.com/Infurnoape/infurnoape.github.io.git]]
+type: text/vnd.tiddlywiki
+original-tags: Contents New
 source-wiki-id: t5a
 source-tiddler-title-as-text: Plugin Library
 source-tiddler-title-as-link: Plugin%20Library
 
-Need to explore the tiddlywiki library to create my own library.
+@@color:purple;''Important'': Adding my library does not pre-install any of my plugins in your wiki but just adds a reference to it, i.e. you need internet access to actually install plugins from it.@@
 
-Resource: http://library.ajh.tiddlyspot.com/
+Drag this tiddler to your wiki to access my plugin library from your [[control panel|$:/ControlPanel]]: $:/pluginlibrary/ajh/released
+
+<<<
+
+!! {{$:/pluginlibrary/ajh/released!!caption}}
+
+//{{$:/pluginlibrary/ajh/released}}//
+
+{{$:/pluginlibrary/ajh/released!!url}}
+<<<
+
+@@.note
+''Tip:'' You can actually try it out right here in this wiki.<br>
+Open: {{$:/core/ui/Buttons/control-panel}} ''~ControlPanel'' > ''Plugins'' > ''Get more plugins'' > ''Open plugin library''
+@@

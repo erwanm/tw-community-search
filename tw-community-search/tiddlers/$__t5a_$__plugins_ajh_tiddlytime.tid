@@ -1,11 +1,10 @@
 title: $:/t5a/$:/plugins/ajh/tiddlytime
+author: Andrew
 core-version: >=5.1.11
-created: 20150818132745299
 dependents: $:/time $:/info/timestamp $:/language/Buttons/Time/Caption $:/language/Buttons/Time/Hint $:/plugins/ajh/tiddlytime/datetime.js $:/plugins/ajh/tiddlytime/icon $:/plugins/ajh/tiddlytime/readme $:/plugins/ajh/tiddlytime/stylesheet $:/plugins/ajh/tiddlytime/time.js
 description: Tiddlytime Button
 list: readme
-modified: 20170527230926718
-source: http://tiddlytime.tiddlyspot.com
+source: https://github.com/infurnoape/tw5-plugins
 version: 0.0.8
 original-tags: 
 source-wiki-id: t5a
