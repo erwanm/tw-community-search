@@ -5,7 +5,7 @@ dependents: $:/plugins/ajh/randombackground/background0 $:/plugins/ajh/randombac
 description: Random Background
 list: readme
 source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Frandombackground.json
-version: 0.1.1
+version: 0.1.2
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugins/ajh/randombackground
