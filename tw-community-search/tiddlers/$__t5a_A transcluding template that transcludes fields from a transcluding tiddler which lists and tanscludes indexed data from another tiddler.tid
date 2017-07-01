@@ -1,11 +1,12 @@
 title: $:/t5a/A transcluding template that transcludes fields from a transcluding tiddler which lists and tanscludes indexed data from another tiddler
 created: 20151121180856489
 creator: Andrew Harrison
-modified: 20160418044846859
+list: 
+modified: 20170630033741710
 modifier: Andrew Harrison
 resource: https://groups.google.com/forum/#!searchin/tiddlywiki/transclude$20field$20of$20variable/tiddlywiki/RiexkBExCF0/gdRteZFxyj8J
 show-field: resource
-original-tags: Example New
+original-tags: Examples New
 source-wiki-id: t5a
 source-tiddler-title-as-text: A transcluding template that transcludes fields from a transcluding tiddler which lists and tanscludes indexed data from another tiddler
 source-tiddler-title-as-link: A%20transcluding%20template%20that%20transcludes%20fields%20from%20a%20transcluding%20tiddler%20which%20lists%20and%20tanscludes%20indexed%20data%20from%20another%20tiddler

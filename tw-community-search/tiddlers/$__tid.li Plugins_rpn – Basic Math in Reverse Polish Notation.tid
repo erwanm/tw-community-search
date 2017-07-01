@@ -1,0 +1,73 @@
+title: $:/tid.li Plugins/rpn – Basic Math in Reverse Polish Notation
+created: 20170630200052144
+creator: Thomas Elmiger
+modified: 20170630224102386
+modifier: Thomas Elmiger
+original-tags: Hacks
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: rpn – Basic Math in Reverse Polish Notation
+source-tiddler-title-as-link: rpn%20%2013%20Basic%20Math%20in%20Reverse%20Polish%20Notation
+
+!! Simple calculations
+
+This is a simple and lightweight solution for basic math operations in TiddlyWiki. It is inspired by formerly popular calculators using Reverse Polish Notation. See [[Wikipedia|https://en.wikipedia.org/wiki/Reverse_Polish_notation]] for more info.
+
+`<<rpn 2 50 *>>` output: <<rpn 2 50 *>>
+
+* basic operations: +, -, /, *
+* limit digits after comma (dacs)
+* use pi to get Math.PI (π)
+* string concatenation (&)
+
+!!! Installation
+Drag this tiddler to your wiki: $:/plugins/telmiger/lib/rpn.js – then save and reload. Use at your own risk.
+
+
+!!! Usage
+
+The following operations can be used on two operands. 
+
+|Operation |Description |h
+|+ |Addition |
+|- |Subtraction |
+|* |Multiplication |
+|/ |Division |
+|& |Concatenation of two strings^^1^^ |
+
+<small>1 – The list of operators found at Stephen Kimmel’s Mathcell project (see below) inspired me to implement this easter egg – it has nothing to do with math.</small>
+
+|Parameter |Description |h
+|a |first operand |
+|b |second operand |
+|operation |see above |
+|dacs |digits after comma (number) |
+
+!!! Examples
+
+`<<rpn pi 2 * 3>>` results in <<rpn pi 2 * 3>>
+
+`<<rpn Pi " was the name." &>>`  
+
+<<<
+<<rpn Pi " was the name." &>>
+<<<
+
+Calculate the area of a circle with radius 2:
+
+```
+<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" dacs="4"/>
+```
+<<<
+<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" dacs="4"/>
+<<<
+
+For more examples see [[test rpn]].
+
+!!! Known limitations
+* limiting //dacs// does not produce trailing zeros
+
+!!! Alternatives
+* http://mathcell.tiddlyspot.com/ – uses the same operators and tries to replace spreadsheet applications
+* eval, calc and ''math.js'' – a heavy math library
+** http://mklauber.github.io/tiddly-mathjs/ 
+** http://tobibeer.github.io/tw5-plugins/#math.js
