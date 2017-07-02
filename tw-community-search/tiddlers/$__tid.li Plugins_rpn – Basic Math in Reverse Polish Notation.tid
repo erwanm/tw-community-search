@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/rpn – Basic Math in Reverse Polish Notation
 created: 20170630200052144
 creator: Thomas Elmiger
-modified: 20170630224102386
+modified: 20170701205500263
 modifier: Thomas Elmiger
 original-tags: Hacks
 source-wiki-id: tid.li Plugins
@@ -12,16 +12,16 @@ source-tiddler-title-as-link: rpn%20%2013%20Basic%20Math%20in%20Reverse%20Polish
 
 This is a simple and lightweight solution for basic math operations in TiddlyWiki. It is inspired by formerly popular calculators using Reverse Polish Notation. See [[Wikipedia|https://en.wikipedia.org/wiki/Reverse_Polish_notation]] for more info.
 
-`<<rpn 2 50 *>>` output: <<rpn 2 50 *>>
+`<<rpn 50 2.5 * 2 p>>` output: <<rpn 50 2.5 * 2 p>>
 
+* takes two operands as input – this may be macros or transclusions
 * basic operations: +, -, /, *
-* limit digits after comma (dacs)
-* use pi to get Math.PI (π)
+* limit digits after comma (decimals), force precision display (p)
+* use pi to get π (Math.PI)
 * string concatenation (&)
 
 !!! Installation
 Drag this tiddler to your wiki: $:/plugins/telmiger/lib/rpn.js – then save and reload. Use at your own risk.
-
 
 !!! Usage
 
@@ -40,7 +40,8 @@ The following operations can be used on two operands.
 |a |first operand |
 |b |second operand |
 |operation |see above |
-|dacs |digits after comma (number) |
+|decimals |digits after comma (number) |
+|precision |"p" to show all digits after comma, defaults to "" |
 
 !!! Examples
 
@@ -55,19 +56,21 @@ The following operations can be used on two operands.
 Calculate the area of a circle with radius 2:
 
 ```
-<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" dacs="4"/>
+<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" decimals="4"/>
 ```
 <<<
-<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" dacs="4"/>
+<$macrocall $name="rpn" a=<<rpn 2 2 *>> b=pi operation="*" decimals="4"/>
 <<<
 
 For more examples see [[test rpn]].
 
 !!! Known limitations
-* limiting //dacs// does not produce trailing zeros
+* limiting //decimals// does not produce trailing zeros
+* using a comma `,` to separate decimals does not work – use `.` instead
 
 !!! Alternatives
 * http://mathcell.tiddlyspot.com/ – uses the same operators and tries to replace spreadsheet applications
+* http://tobibeer.github.io/tb5/#calc – does calculations based on tiddler fields
 * eval, calc and ''math.js'' – a heavy math library
 ** http://mklauber.github.io/tiddly-mathjs/ 
 ** http://tobibeer.github.io/tw5-plugins/#math.js

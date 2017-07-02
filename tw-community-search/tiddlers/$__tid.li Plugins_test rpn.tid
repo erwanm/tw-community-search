@@ -1,14 +1,45 @@
 title: $:/tid.li Plugins/test rpn
 created: 20170626213315478
 creator: Thomas Elmiger
-modified: 20170630223719563
+example-1: 10
+modified: 20170701184903287
 modifier: Thomas Elmiger
-original-tags: ToDoNow
+todo-deadline: 20170701135900000
+todo-done: 20170701154203
+original-tags: ToDoDone
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: test rpn
 source-tiddler-title-as-link: test%20rpn
 
 Tests for [[rpn – Basic Math in Reverse Polish Notation]]
+
+!!! Decimals
+
+Three digits after comma: 1 * 1 = <<rpn 1 1 * 3 p>>
+
+Three digits after comma: 1 + 1.3456 = <<rpn 1 1.3456 + 3>>
+
+Many digits after comma `<<rpn pi 1 * 20>>`: <<rpn pi 1 * 20>> – I get only a precision of 17 digits on my computer (16 after the comma)
+
+Force 20 digits after comma `<<rpn pi 1 * 20 p>>`: <<rpn pi 1 * 20 p>> – there are errors in the last 5 digits on my computer
+
+---
+
+!!! Tiddler Fields
+
+<<rpn {{!!example-1}} 5 &>>
+
+<$macrocall $name="rpn" a={{!!example-1}} b="5" operation="/"/>
+
+<$macrocall $name="rpn" a={{test rpn!!example-1}} b="5" operation="*"/>
+
+<$set name="a" value={{test rpn!!example-1}}>
+<$macrocall $name="rpn" a=<<a>> b="5" operation="+"/>
+</$set>
+
+<$wikify name="a" text="{{!!example-1}}">
+<$macrocall $name="rpn" a=<<a>> b="5" operation="-"/>
+</$wikify>
 
 !!! Zero-Values
 
@@ -68,10 +99,13 @@ cold & " beer bar" = <<rpn cold " beer bar" &>>
 
 One digit after comma: 1 / 3 = <<rpn 1 3 / 1>>
 
+No digit after comma: 0 + 1.5 = <<rpn 0 1.5 decimals:0>>
+
+Careful: use . not , ! 0 + 1,5 = <<rpn 0 1,5 decimals:0>>
+
 Two digits after comma: 1 / 3 = <<rpn 1 3 / 2>>
 
 Two digits after comma: 1.555 = <<rpn 1 1.555 * 2>>
 
 Three digits after comma: 1 / 3 = <<rpn 1 3 / 3>>
 
-Three digits after comma (nope!): 1 * 1 = <<rpn 1 1 * 3>>
