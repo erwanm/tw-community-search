@@ -1,13 +1,14 @@
-title: $:/t5a/$:/plugins/ajh/tiddlytime
-author: Andrew
+title: $:/TopLeftToolbar/$:/plugins/ajh/tiddlytime
 core-version: >=5.1.11
+created: 20150818132745299
 dependents: $:/time $:/info/timestamp $:/language/Buttons/Time/Caption $:/language/Buttons/Time/Hint $:/plugins/ajh/tiddlytime/datetime.js $:/plugins/ajh/tiddlytime/icon $:/plugins/ajh/tiddlytime/readme $:/plugins/ajh/tiddlytime/stylesheet $:/plugins/ajh/tiddlytime/time.js
 description: Tiddlytime Button
 list: readme
-source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Ftiddlytime.json
+modified: 20170703031136303
+source: http://tiddlytime.tiddlyspot.com
 version: 0.0.9
 original-tags: 
-source-wiki-id: t5a
+source-wiki-id: TopLeftToolbar
 source-tiddler-title-as-text: $:/plugins/ajh/tiddlytime
 source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2ftiddlytime
 extracted-plugin: true

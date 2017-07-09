@@ -2,7 +2,7 @@ title: $:/tid.li Plugins/test rpn
 created: 20170626213315478
 creator: Thomas Elmiger
 example-1: 10
-modified: 20170701184903287
+modified: 20170708191642034
 modifier: Thomas Elmiger
 todo-deadline: 20170701135900000
 todo-done: 20170701154203
@@ -12,6 +12,18 @@ source-tiddler-title-as-text: test rpn
 source-tiddler-title-as-link: test%20rpn
 
 Tests for [[rpn – Basic Math in Reverse Polish Notation]]
+
+!!! Modulo, Floor, Ceil
+
+What remains: 6 % 5 = <<rpn 6 5 %>>
+
+126 minutes are = <<rpn 126 60 / 0>> hours <<rpn 126 60 %>> minutes
+
+176 minutes are = <<rpn 176 60 / 0 f>> hours <<rpn 176 60 %>> minutes
+
+An integer bigger than 11 / 10: <<rpn 11 10 / 0 c>>
+
+---
 
 !!! Decimals
 

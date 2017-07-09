@@ -5,7 +5,7 @@ dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hi
 description: Copy Button
 list: readme
 source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Fcopy.json
-version: 0.0.22
+version: 0.0.23
 original-tags: 
 source-wiki-id: t5a
 source-tiddler-title-as-text: $:/plugins/ajh/copy

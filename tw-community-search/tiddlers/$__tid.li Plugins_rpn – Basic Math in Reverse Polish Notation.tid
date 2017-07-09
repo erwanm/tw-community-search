@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/rpn – Basic Math in Reverse Polish Notation
 created: 20170630200052144
 creator: Thomas Elmiger
-modified: 20170701205500263
+modified: 20170708192229865
 modifier: Thomas Elmiger
 original-tags: Hacks
 source-wiki-id: tid.li Plugins
@@ -32,6 +32,7 @@ The following operations can be used on two operands.
 |- |Subtraction |
 |* |Multiplication |
 |/ |Division |
+|% |Modulo (remains after division) |
 |& |Concatenation of two strings^^1^^ |
 
 <small>1 – The list of operators found at Stephen Kimmel’s Mathcell project (see below) inspired me to implement this easter egg – it has nothing to do with math.</small>
@@ -41,7 +42,7 @@ The following operations can be used on two operands.
 |b |second operand |
 |operation |see above |
 |decimals |digits after comma (number) |
-|precision |"p" to show all digits after comma, defaults to "" |
+|precision |defaults to ""<br>"p" to show all digits after comma (precision)<br>"f" to round downwards to the next integer (Math.floor)<br>"c" to round upwards to the next integer (Math.ceil) |
 
 !!! Examples
 
@@ -65,7 +66,6 @@ Calculate the area of a circle with radius 2:
 For more examples see [[test rpn]].
 
 !!! Known limitations
-* limiting //decimals// does not produce trailing zeros
 * using a comma `,` to separate decimals does not work – use `.` instead
 
 !!! Alternatives
