@@ -1,17 +1,79 @@
-title: $:/tid.li Plugins/test rpn
+title: $:/TW5Hacks/rpnTest
 created: 20170626213315478
 creator: Thomas Elmiger
 example-1: 10
-modified: 20170708191642034
+modified: 20170715122148636
 modifier: Thomas Elmiger
 todo-deadline: 20170701135900000
 todo-done: 20170701154203
 original-tags: ToDoDone
-source-wiki-id: tid.li Plugins
-source-tiddler-title-as-text: test rpn
-source-tiddler-title-as-link: test%20rpn
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: rpnTest
+source-tiddler-title-as-link: rpnTest
 
-Tests for [[rpn – Basic Math in Reverse Polish Notation]]
+\define a() <<rpn 1 2 +>>
+\define b() <<rpn 3 4 +>>
+\define c() <<rpn 5 6 +>>
+\define d() <<rpn 7 8 +>>
+\define e() <<rpn 9 10 +>>
+\define cd() <$macrocall $name='rpn' a=<<c>> b=<<d>>/>
+
+!! Tests for the //rpn// Macro
+[[rpn – Basic Math in Reverse Polish Notation]]
+
+!!! Random Numbers between 10 and 15
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>
+
+!!! Random Numbers between 0 and 2
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>
+
+!!! Random Numbers between 1 and 100
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>
+
+!!! Multiple Operations
+
+<$macrocall $name="rpn" a=<<a>> b=<<b>> operation="+"/>
+
+<$macrocall $name="rpn" a=<<rpn 20 20 +>> b=<<rpn 3 10 *>> operation="%"/>
+
+<<cd>>
+
+<$macrocall $name="rpn" a=<<cd>> b=<<e>>/>
+
+---
 
 !!! Modulo, Floor, Ceil
 

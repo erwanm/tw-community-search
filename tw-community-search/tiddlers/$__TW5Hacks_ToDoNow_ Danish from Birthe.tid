@@ -1,17 +1,19 @@
 title: $:/TW5Hacks/ToDoNow: Danish from Birthe
 created: 20170531053731014
 creator: Thomas Elmiger
-modified: 20170531055014721
+modified: 20170714201635897
 modifier: Thomas Elmiger
 priority: 1
-original-tags: ToDo
+todo-deadline: 20170714200000000
+todo-done: 20170714221622
+original-tags: ToDoDone
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: ToDoNow: Danish from Birthe
 source-tiddler-title-as-link: ToDoNow%3a%20Danish%20from%20Birthe
 
 Danes should be able to use ToDoNow in Danish.
 
-[ ] mention Birthe in translation tiddler
-[ ] test danish translation
 [ ] include translation tiddler $:/plugins/telmiger/lib/languages/da-DK
+[x] mention Birthe in translation tiddler
+[x] test danish translation
 [x] thank Birthe

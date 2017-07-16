@@ -2,7 +2,7 @@ title: $:/TW5Hacks/ToDo
 created: 20170316225737516
 creator: Thomas Elmiger
 list: 3 1 2
-modified: 20170516200303724
+modified: 20170713195204391
 modifier: Thomas Elmiger
 todo-show-priorities: 2
 type: 
@@ -117,6 +117,13 @@ source-tiddler-title-as-link: ToDo
 <$reveal type="match" state="$:/plugins/telmiger/todonow/settings##sort-list" text="priority">
 {{$:/plugins/telmiger/todonow/ToDoByPriority}}
 </$reveal>
+
+<$set name="hint" filter="[tag[ToDo]!has[draft.of]]" emptyValue="show">
+<$list filter="""[<hint>suffix[show]]""">
+<<telang Nothing-to-do-?>>: <<teBigNewTaskButton 'te-inline'>>
+<br><br>
+</$list>
+</$set>
 
 <small>
 Don’t have to do it? – Say it’s done!

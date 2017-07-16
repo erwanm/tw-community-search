@@ -1,20 +1,23 @@
 title: $:/TW5Hacks/Manifest for a Plugin
 created: 20170601134956616
 creator: Thomas Elmiger
-modified: 20170601135118496
+modified: 20170715133308322
 modifier: Thomas Elmiger
 priority: 1
-original-tags: ToDo
+original-tags: ToDoNow
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Manifest for a Plugin
 source-tiddler-title-as-link: Manifest%20for%20a%20Plugin
 
 As drafted by Josiah and Mario
 
-* Tests/Acceptance criteria
+* Check out https://wikilabs.github.io/editions/bundler/
+** file issues: https://github.com/wikilabs/plugins/issues
+** discussion see: https://groups.google.com/forum/#!topic/tiddlywiki/_Uqbg08Pjow
+* Bundle all Plugins available for ToDoNow
 
 ---
-
+!!! Notes
 eg: Create a tiddler named: manifest with the following content
 
 HelloThere

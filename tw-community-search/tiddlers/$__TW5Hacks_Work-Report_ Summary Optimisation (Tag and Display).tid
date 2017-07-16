@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Work-Report: Summary Optimisation (Tag and Display)
 created: 20170612054842903
 creator: Thomas Elmiger
-modified: 20170612055058800
+modified: 20170709185606546
 modifier: Thomas Elmiger
 priority: 1
 original-tags: ToDo
@@ -12,4 +12,4 @@ source-tiddler-title-as-link: Work-Report%3a%20Summary%20Optimisation%20%28Tag%2
 Motivation: Description
 
 * Check for better tag options as discussed with Josiah
-* Show summary only if list item is cloed (check open state with list filter?)
+* Show summary only if list item is closed (check open state with list filter?)

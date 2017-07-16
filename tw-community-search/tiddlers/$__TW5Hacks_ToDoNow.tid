@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoNow
 created: 20160821105639629
 creator: Thomas Elmiger
-modified: 20170514125618387
+modified: 20170713193914798
 modifier: Thomas Elmiger
 original-tags: ToDoComponents
 source-wiki-id: TW5Hacks
@@ -20,22 +20,26 @@ source-tiddler-title-as-link: ToDoNow
 !! Do <<teBigSaveButton>> <<teBigNewTaskButton>> <<listrevealBtnEdit class:te-second>> 
 
 <section class="todo-now">
-<$set name="listfilter" value="[!has[draft.of]tag[ToDoNow]!sort[modified]]">
+<$set name="listfilter" value="[tag[ToDoNow]!has[draft.of]!sort[modified]]">
 <ul class="te-list">
 <$list filter=<<listfilter>>>
    <<todonowShowListItem>>
 </$list>
 </ul>
+<$set name="hint" filter=<<listfilter>> emptyValue="show">
+<$list filter="""[<hint>suffix[show]]""">
+<<telang Pick-a-task->>: <button class='te-btn-action' title='Take it up!'>{{$:/core/images/chevron-up}}</button>
+<br><br>
+</$list>
 </$set>
-
-<$set name="hint" filter="[tag[ToDoNow]]" value="<!-- Do it -->" emptyValue="Pick a task from the list below using this button: 
-<button class='te-btn-action' title='Take it up!'>{{$:/core/images/chevron-up}}</button><br><br>">
-<<hint>>
 </$set>
-<small>
-Do the right ''one'' thing. – Then check & save.
-</small>
+<div class="te-flex-item">
+<small>Do the right ''one'' thing. – Then check & save.</small>
+{{$:/plugins/telmiger/todonow/outlook/controls}}
+</div>
 </section>
+
+{{$:/plugins/telmiger/todonow/outlook/display}}
 
 <section class="todo-waiting">
 
@@ -53,10 +57,7 @@ Do the right ''one'' thing. – Then check & save.
 
 <$reveal type="match" state="$:/state/ToDo" text="visible">
 
-<$set name="list" filter="[tag[ToDo]]" value="{{ToDo}}" emptyValue="Nothing to do? Create a task using this button: 
-<<teBigNewTaskButton 'te-inline'>><br><br>">
-<<list>>
-</$set>
+{{ToDo}}
 
 </$reveal>
 </section>

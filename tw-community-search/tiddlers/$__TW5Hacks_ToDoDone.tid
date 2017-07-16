@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoDone
 created: 20160821091004045
 creator: Thomas Elmiger
-modified: 20170410210705618
+modified: 20170709182232348
 modifier: Thomas Elmiger
 original-tags: ToDoComponents
 source-wiki-id: TW5Hacks
@@ -16,30 +16,7 @@ source-tiddler-title-as-link: ToDoDone
 
 <ul class="te-list">
 <$list filter=<<listfilter>>>
-<li class="todo-item te-flex-item"> {{$:/core/images/done-button}}
-<$link to={{!!title}}><$view field="title"/></$link>
-<span class="te-flex-item">
-<span class="te-text right">
-<$wikify name="tpl" text=<<telang date-deadline-tmpl>> >
-   ~~<$view field="todo-done" format="date" template=<<tpl>>/>~~
-</$wikify>
-<span class="te-tip">
- <$view field="todo-done" format="date" template="0hh:0mm"/>
-</span>
-</span>
-<$wikify name="tt" text=<<telang Do-it-again>>>
-   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/refresh-button}}" add-remove="ToDo -ToDoDone" tooltip=<<tt>> tip=<<telang Recycle>>/>
-</$wikify>
-<$wikify name="tt" text=<<telang archive>>>
-   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/folder}}" add-remove="ToDoArchive -ToDoDone" tooltip=<<tt>>/>
-</$wikify>
-</span>
-<$set name="myTitle" value={{!!title}}>
-<$wikify name="tpl" text=<<telang date-created-tmpl>> >
-   <$macrocall $name="listreveal" title=<<myTitle>> mode="block" datetime=<<tpl>>/>
-</$wikify>
-</$set>
-   </li>
+<<tododoneShowListItem>>
 </$list>
 </ul>
 </$set>

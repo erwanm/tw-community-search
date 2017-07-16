@@ -1,13 +1,11 @@
 title: $:/TW5Hacks/$:/plugins/tgrosinger/tw5-checklist
 author: Tony Grosinger
 core-version: >=5.0.9
-created: 20170521184115608
 dependents: 
 description: Checklist Plugin
 list: readme Usage Configuration
-modified: 20170521184126227
 source: https://github.com/tgrosinger/tw5-checklist
-version: 0.0.13
+version: 0.0.14
 original-tags: 
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: $:/plugins/tgrosinger/tw5-checklist

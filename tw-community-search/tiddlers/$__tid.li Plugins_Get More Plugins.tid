@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20170513155721950
+modified: 20170715133845944
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -12,45 +12,81 @@ source-tiddler-title-as-link: Get%20More%20Plugins
 Here are some great plugins you can download – just ''make a backup first,'' then drag the button or the link below to your wiki, save and reload.
 
 
-<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/Clipboard">
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/Clipboard">
 {{$:/core/images/file}}<span> Clipboard</span></$link></span>
 
-* $:/plugins/telmiger/Clipboard
+* $:/plugins/telmiger/Clipboard – store and access text snippets from the editor
 
-<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/details">
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/details">
 {{$:/core/images/right-arrow}}<span> ~DetailsWidget</span></$link></span>
 
-* $:/plugins/telmiger/details
+* $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
 
-<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/EditorCounter">
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditorCounter">
 {{$:/core/images/mono-block}}<span> ~EditorCounter</span></$link></span>
 
-* $:/plugins/telmiger/EditorCounter
+* $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
 
-<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/listreveal">
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/listreveal">
 {{$:/core/images/list-bullet}}<span> Listreveal</span></$link></span>
 
-* $:/plugins/telmiger/listreveal
+* $:/plugins/telmiger/listreveal – open listed tiddlers within the list
 
-<span class="tc-btn-big-green"><$link to="$:/plugins/telmiger/todonow">
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/reminders">
+{{$:/core/images/timestamp-on}}<span> Reminders</span></$link></span>
+
+* $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
+* You need $:/plugins/telmiger/rpn too!
+
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/rpn">
+{{$:/core/images/new-button}}<span> rpn Basic Math</span></$link></span>
+
+* $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/todonow">
 {{$:/core/images/done-button}}<span> ~ToDoNow</span></$link></span>
 
 * $:/plugins/telmiger/todonow
 * You need $:/plugins/telmiger/listreveal too!
+* Consider to also use the Outlook Addon: $:/plugins/telmiger/outlook 
+** Tasks for today, tomorrow and the next 7 days (week outlook)
+* Download the complete solution from https://tid.li/tw5/tdn.html (in preparation)
 
 <style>
-.tc-btn-big-green {
+.tc-btn-big-color {
+   display: inline-block; 
    min-width: 13em;
+   padding: 8px;
+   margin: 4px 8px 4px 8px;
+   background: #34c734;
+   color: #ffffff;
+   fill: #ffffff;
+   border: none;
+   font-size: 1.2em;
+   line-height: 1.4em;
+   text-decoration: none;
 }
-.tc-btn-big-green:hover {
+.tc-btn-big-color svg, .tc-btn-big-color img { 
+   height: 2em;
+   width: 2em;
+   vertical-align: middle;
+   fill: #ffffff;
+}
+.tc-btn-big-color:hover {
    background-color: #2cae2c;
 }
-.tc-btn-big-green a, .tc-btn-big-green a:hover {
+.tc-btn-big-color a, .tc-btn-big-color a:hover {
    padding-left: 6px;
    color: white;
    text-decoration: none;
 }
-.tc-btn-big-green span {
+.tc-btn-big-color span {
    padding: 16px;
+}
+.tc-btn-big-color.blue {
+   background-color: #2caeff;
+}
+.tc-btn-big-color.blue:hover {
+   background-color: #2caedd;
 }
 </style>

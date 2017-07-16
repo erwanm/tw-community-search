@@ -1,13 +1,21 @@
 title: $:/TW5Hacks/ToDoNow: CSS-Update
 created: 20170530132457828
 creator: Thomas Elmiger
-modified: 20170530132629139
+modified: 20170711160657161
 modifier: Thomas Elmiger
 priority: 1
-original-tags: ToDo
+todo-deadline: 20170709220000000
+todo-done: 20170711180652
+original-tags: ToDoDone
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: ToDoNow: CSS-Update
 source-tiddler-title-as-link: ToDoNow%3a%20CSS-Update
 
 Grosinger/checklist was updated?!
-[ ] fix checklist styling (remove! several parts are commented out so far)
+
+[ ] Add a checklist version hint to the readme file
+[ ] Test checklists
+[ ] Maybe fix left border of tasks with many lines – or add a new task for later
+[x] Test one item with massive amounts of text. Test one item with massive amounts of text. Test one item with massive amounts of text. Test one item with massive amounts of text. Test one item with massive amounts of text. Test one item with massive amounts of text.
+[x] fix checklist styling (remove! several parts are commented out so far)
+[x] Check for update to v 0.0.14

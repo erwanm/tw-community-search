@@ -1,17 +1,17 @@
 title: $:/TW5Hacks/05 Translations
 created: 20170224202239839
 creator: Thomas Elmiger
-modified: 20170224203934038
+modified: 20170714214826478
 modifier: Thomas Elmiger
 original-tags: Listreveal Translation
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: 05 Translations
 source-tiddler-title-as-link: 05%20Translations
 
-Three language tiddlers are shipped with the plugin: 
+The following language tiddlers are shipped with this plugin: 
 
 <ul>
-<$list filter="""[prefix[$:/plugins/telmiger/lib/languages/]]""">
+<$list filter="""[all[tiddlers+shadows]prefix[$:/plugins/telmiger/lib/languages/]sort[]]""">
 <li>
 {{##ID}}:  <$link to={{!!title}}><$view field="title"/></$link>
 </li>
