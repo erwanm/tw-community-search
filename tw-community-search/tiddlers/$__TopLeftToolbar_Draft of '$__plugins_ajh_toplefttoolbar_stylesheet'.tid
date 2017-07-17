@@ -1,0 +1,51 @@
+title: $:/TopLeftToolbar/Draft of '$:/plugins/ajh/toplefttoolbar/stylesheet'
+button-color: 
+button-hover-color: 
+button-size: inherit
+draft.of: $:/plugins/ajh/toplefttoolbar/stylesheet
+draft.title: $:/plugins/ajh/toplefttoolbar/stylesheet
+modified: 20170716053955904
+right: 3em
+text-color: 
+text-hover-color: 
+top: inherit
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TopLeftToolbar
+source-tiddler-title-as-text: Draft of '$:/plugins/ajh/toplefttoolbar/stylesheet'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugins%2fajh%2ftoplefttoolbar%2fstylesheet%27
+
+/* PREVENT OVERLAPPING TOPRIGHTBAR ON MOBILE PHONES */
+.tc-topbar-left {
+    margin-right: {{!!right}};
+}
+
+/* MARGINS AND SIZE AND COLOR */
+.tc-topbar-left .tc-page-controls {
+    margin-top: {{!!top}};
+    font-size: {{!!button-size}};
+}
+.tc-topbar .tc-page-controls button {
+    margin-right: 0em;
+}
+.tc-topbar-left .tc-page-controls button svg {
+    fill: {{!!button-color}};
+}
+.tc-topbar-left button:hover svg {
+    fill:{{!!button-hover-color}} !important;
+}
+.tc-topbar .tc-btn-text {
+    color: {{!!text-color}};
+}
+.tc-topbar .tc-btn-text:hover {
+    color: {{!!text-hover-color}};
+}
+
+/* CONTROL PANEL LIST */
+.tc-topbar-nobull {
+    list-style-type: none;
+    -webkit-margin-after: -1.5em;
+    -webkit-padding-start: 0px;
+}
+.tc-topbar-nobull a.tc-tiddlylink-shadow {
+    font-weight: normal;
+}
