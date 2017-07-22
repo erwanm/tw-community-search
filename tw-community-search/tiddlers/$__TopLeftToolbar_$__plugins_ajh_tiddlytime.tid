@@ -4,9 +4,9 @@ created: 20150818132745299
 dependents: $:/time $:/info/timestamp $:/language/Buttons/Time/Caption $:/language/Buttons/Time/Hint $:/plugins/ajh/tiddlytime/datetime.js $:/plugins/ajh/tiddlytime/icon $:/plugins/ajh/tiddlytime/readme $:/plugins/ajh/tiddlytime/stylesheet $:/plugins/ajh/tiddlytime/time.js
 description: Tiddlytime Button
 list: readme
-modified: 20170716010406240
+modified: 20170721055705542
 source: http://tiddlytime.tiddlyspot.com
-version: 0.0.10
+version: 0.0.11
 original-tags: 
 source-wiki-id: TopLeftToolbar
 source-tiddler-title-as-text: $:/plugins/ajh/tiddlytime
