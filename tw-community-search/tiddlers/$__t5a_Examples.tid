@@ -3,9 +3,9 @@ caption: Examples
 color: #0ff
 created: 20151111182709496
 creator: Andrew Harrison
-icon: $:/core/images/tip
+icon: $:/Examples Icon
 icon-color: #333
-modified: 20170630033741706
+modified: 20170723063016563
 modifier: Andrew Harrison
 show-field: -icon -caption
 original-tags: Contents
