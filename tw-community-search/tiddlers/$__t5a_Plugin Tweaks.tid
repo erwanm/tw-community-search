@@ -1,10 +1,19 @@
 title: $:/t5a/Plugin Tweaks
 created: 20170702031118490
 creator: Andrew Harrison
-modified: 20170723021806508
+modified: 20170725133658447
 modifier: Andrew Harrison
 original-tags: New [[Wish List]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Plugin Tweaks
 source-tiddler-title-as-link: Plugin%20Tweaks
 
+Tag is $:/tags/ControlPanel/Appearance
+
+Something like:
+
+`<<tabs "[all[shadows+tiddlers]tag[$:/tags/plugin-tweaks]nsort[order]]" "$:/plugins/tongerner/layout_adjustment/settings" "" "tc-vertical">>`
+
+List filter:
+
+<$list filter='[tag[$:/tags/Stylesheet]fields[]sort[title]] -text'/>
