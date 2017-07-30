@@ -1,9 +1,9 @@
 title: $:/t5a/Plugin Tweaks
 created: 20170702031118490
 creator: Andrew Harrison
-modified: 20170725133658447
+modified: 20170729235318117
 modifier: Andrew Harrison
-original-tags: New [[Wish List]]
+original-tags: [[Under Construction]] New
 source-wiki-id: t5a
 source-tiddler-title-as-text: Plugin Tweaks
 source-tiddler-title-as-link: Plugin%20Tweaks
@@ -16,4 +16,16 @@ Something like:
 
 List filter:
 
-<$list filter='[tag[$:/tags/Stylesheet]fields[]sort[title]] -text'/>
+<$list filter="[all[shadows]tag[$:/tags/Stylesheet]]">
+
+<<currentTiddler>>
+<$list filter="[all[current]fields[]sort[title]] -created -creator -modified -modifier -tags -text -title" variable="currentField">
+<tr class="tc-edit-field">
+<td class="tc-edit-field-name">
+<$text text=<<currentField>>/>:</td>
+<td class="tc-edit-field-value">
+<$edit-text tiddler=<<currentTiddler>> field=<<currentField>> placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}}/>
+</td>
+</tr>
+</$list>
+</$list>
