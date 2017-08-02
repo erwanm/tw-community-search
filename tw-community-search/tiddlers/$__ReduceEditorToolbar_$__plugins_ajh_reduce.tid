@@ -5,10 +5,10 @@ creator: Andrew
 dependents: $:/config/ShortcutInfo/reduce $:/config/shortcuts/reduce $:/language/reduce/caption $:/language/reduce/hint $:/plugins/ajh/reduce/icon $:/plugins/ajh/reduce/image $:/plugins/ajh/reduce/macro.js $:/plugins/ajh/reduce/readme $:/plugins/ajh/reduce/template
 description: Reduce Button
 list: readme
-modified: 20170521215702992
+modified: 20170801122617505
 modifier: Andrew
 source: http://reduce.tiddlyspot.com/
-version: 0.0.1
+version: 0.0.3
 original-tags: 
 source-wiki-id: ReduceEditorToolbar
 source-tiddler-title-as-text: $:/plugins/ajh/reduce
