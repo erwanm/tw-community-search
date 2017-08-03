@@ -5,10 +5,10 @@ creator: Andrew
 dependents: $:/language/Buttons/OpenAll/Caption $:/language/Buttons/OpenAll/Hint $:/plugins/ajh/openall/icon $:/plugins/ajh/openall/image $:/plugins/ajh/openall/readme $:/plugins/ajh/openall/stylesheet $:/plugins/ajh/openall/template
 description: Open All Button
 list: readme
-modified: 20170704174409310
+modified: 20170803013228804
 modifier: Andrew
 source: http://openall.tiddlyspot.com/
-version: 0.0.2
+version: 0.0.3
 original-tags: 
 source-wiki-id: OpenAll
 source-tiddler-title-as-text: $:/plugins/ajh/openall

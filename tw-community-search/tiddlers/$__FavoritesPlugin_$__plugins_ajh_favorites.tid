@@ -5,10 +5,10 @@ creator: Andrew Harrison
 dependents: $:/language/Buttons/Choose/Caption $:/language/Buttons/Choose/Hint $:/language/Buttons/Favorites/Caption $:/language/Buttons/Favorites/Hint $:/language/SideBar/Favorites/Caption $:/plugins/ajh/favorites/icon $:/plugins/ajh/favorites/readme $:/plugins/ajh/favorites/SideBar $:/plugins/ajh/favorites/image $:/plugins/ajh/favorites/stylesheet $:/plugins/ajh/favorites/template
 description: Favorites
 list: readme
-modified: 20170708153821964
+modified: 20170803012318453
 modifier: Andrew Harrison
 source: http://favorites.tiddlyspot.com
-version: 3.0.4
+version: 3.0.5
 original-tags: 
 source-wiki-id: FavoritesPlugin
 source-tiddler-title-as-text: $:/plugins/ajh/favorites

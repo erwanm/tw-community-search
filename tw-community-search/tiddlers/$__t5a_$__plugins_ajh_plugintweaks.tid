@@ -1,0 +1,15 @@
+title: $:/t5a/$:/plugins/ajh/plugintweaks
+author: Andrew
+core-version: >=5.1.11
+dependents: $:/plugins/ajh/plugintweaks/controls $:/plugins/ajh/plugintweaks/icon $:/plugins/ajh/plugintweaks/readme $:/plugins/ajh/plugintweaks/template
+description: Plugin Tweaks
+list: readme
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Fplugintweaks.json
+version: 0.0.1
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/ajh/plugintweaks
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2fplugintweaks
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
