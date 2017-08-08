@@ -1,7 +1,6 @@
 title: $:/TW5Checklist/$:/plugins/tgrosinger/tw5-checklist
 author: Tony Grosinger
 core-version: >=5.0.9
-dependents: 
 description: Checklist Plugin
 list: readme Usage Configuration
 source: https://github.com/tgrosinger/tw5-checklist
