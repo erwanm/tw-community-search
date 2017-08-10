@@ -2,7 +2,7 @@ title: $:/cpashow/crazyListHere
 created: 20160416162155176
 creator: Chuck Paussa
 field: currentprocess
-modified: 20160602230520898
+modified: 20170809214712148
 modifier: Chuck Paussa
 process: [[Make a wish]]
 slides: [[Build out the message hierarchy]]
@@ -41,7 +41,7 @@ source-tiddler-title-as-link: crazyListHere
 	</$select>
 \end
 
-\define comboItemSelect(fieldName, tagName)
+\define comboItemSelect(fieldName, tagName, tempTiddler:"$:/temp/fieldItems")
 
 	<$reveal 
 		state="$:/state/comboSelect##$fieldName$"
@@ -54,18 +54,18 @@ source-tiddler-title-as-link: crazyListHere
 			tooltip="Select from existing $fieldName$s"
 		>
 			{{Import.svg}}
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
 		</$button>
 		<!-- Un comment this if you want to display this button -->
-		<!-- 
+		<!-- -->
 		<$button set="$:/state/comboSelect##$fieldName$"
 			setTo="select"
 			tooltip="Select $fieldName$ from this tiddler"
 		>
 			{{$:/core/images/down-arrow}}
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
 		</$button>
-		-->
+		<!-- -->
 		<<editCurrentFieldName "$fieldName$">>
 		<<addItemIfNotPresent "$fieldName$" >>
 	</$reveal>
@@ -80,18 +80,18 @@ source-tiddler-title-as-link: crazyListHere
 			tooltip="Create a new $fieldName$"
 		>
 			{{$:/core/images/edit-button}}
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
 		</$button>
 		<!-- Un comment this if you want to display this button -->
-		<!-- 
+		<!-- -->
 		<$button set="$:/state/comboSelect##$fieldName$"
 			setTo="select"
 			tooltip="Select $fieldName$ from this tiddler"
 		>
 			{{$:/core/images/down-arrow}}
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
 		</$button>
-		-->
+		<!-- -->
 		<<selectItemsNotHere "$fieldName$" "$tagName$">>
 		<<addItemIfNotPresent "$fieldName$" >>
 	</$reveal>
@@ -101,11 +101,25 @@ source-tiddler-title-as-link: crazyListHere
 		text="select"
 		default="edit"
 	>
+		<$button set="$:/state/comboSelect##$fieldName$"
+			setTo="import"
+			tooltip="Select from existing $fieldName$s"
+		>
+			{{Import.svg}}
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
+		</$button>
+		<$button set="$:/state/comboSelect##$fieldName$"
+			setTo="edit"
+			tooltip="Create a new $fieldName$"
+		>
+			{{$:/core/images/edit-button}}
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
+		</$button>
 		<<selectItemsHere "$fieldName$">>
 	</$reveal>
 \end
 
-\define editCurrentFieldName(fieldName)
+\define editCurrentFieldName(fieldName, tempTiddler:"$:/temp/fieldItems")
 <!-- editCurrentFieldName($fieldName$) -->
 	<!-- Display an edit box for the selected value -->
 	<!-- Use a $:/temp tiddler so that it is invisible on the recent list -->
@@ -113,23 +127,23 @@ source-tiddler-title-as-link: crazyListHere
 	<$edit-text 
 		placeholder="Type a new item name" 
 		tag="input"
-		tiddler="$:/temp/fieldItems" 
+		tiddler="$tempTiddler$" 
 		field="current$fieldName$" 
 	/>
 \end
 
-\define addItemIfNotPresent(fieldName)
+\define addItemIfNotPresent(fieldName, tempTiddler:"$:/temp/fieldItems")
 <!-- addItemIfNotPresent($fieldName$) -->
 	<!-- Display an add button if the value isn't already present in the field's list -->
-	<!-- Filter: Currently edited item = "[[$:/temp/fieldItems]get[current$fieldName$]]" -->
+	<!-- Filter: Currently edited item = "[[$tempTiddler$]get[current$fieldName$]]" -->
 	<!-- Filter: Listed in field = "[list[!!$fieldName$]]" -->
-	<!-- Filter: Is item not present in field? = "[[$:/temp/fieldItems]get[current$fieldName$]] -[list[!!$fieldName$]]" -->
-	<$list filter="[[$:/temp/fieldItems]get[current$fieldName$]] -[list[!!$fieldName$]]" variable="curItem">
+	<!-- Filter: Is item not present in field? = "[[$tempTiddler$]get[current$fieldName$]] -[list[!!$fieldName$]]" -->
+	<$list filter="[[$tempTiddler$]get[current$fieldName$]] -[list[!!$fieldName$]]" variable="curItem">
 		<$button tooltip=<<curItem>> >
 			{{$:/core/images/new-button}}
 			<!-- Trim the value and enclose it in square brackets so its a list item -->
 			<$macrocall $name="actionAddItem" fieldName="$fieldName$" itemName=<<curItem>> />
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="" />
 		</$button>
 	</$list>
 \end
@@ -143,12 +157,12 @@ source-tiddler-title-as-link: crazyListHere
 	/>
 \end
 
-\define actionAddItem_Internal(fieldName, itemName)
+\define actionAddItem_Internal(fieldName, itemName, tempTiddler:"$:/temp/fieldItems")
 <!-- actionAddItem_Internal($fieldName$, $itemName$) -->
 	<!-- Add the item to the field list -->
 	<$action-listops $field="$fieldName$" $subfilter="[[$itemName$]]" />
 	<!-- Set the input field to be the trimmed value -->
-	<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$fieldName$" $value="$itemName$" />
+	<$action-setfield $tiddler="$tempTiddler$" $field="current$fieldName$" $value="$itemName$" />
 \end
 
 \define deleteItemButton(itemName, fieldName)
@@ -225,13 +239,13 @@ source-tiddler-title-as-link: crazyListHere
 	</$list>
 \end
 
-\define createTiddlerType(tiddlerName, tagName)
+\define createTiddlerType(tiddlerName, tagName, tempTiddler:"$:/temp/fieldItems")
 <!-- createTiddlerType($tiddlerName$, $tagName$) -->
 	<$list filter="[[$tiddlerName$]!is[tiddler]]" variable="exists" >
 		<$button class="tc-btn-invisible" tooltip="Create $tiddlerName$ as a tiddler">
 			{{$:/core/images/new-button}}
 			<$action-listops $tiddler="$tiddlerName$" $field="tags" $subfilter="[[$tagName$]]" />
-			<$action-setfield $tiddler="$:/temp/fieldItems" $field="current$tagName$" $value="" />
+			<$action-setfield $tiddler="$tempTiddler$" $field="current$tagName$" $value="" />
 		</$button>
 	</$list>
 \end
