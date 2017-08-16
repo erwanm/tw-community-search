@@ -1,8 +1,10 @@
 title: $:/TW5Hacks/rpnTest
 created: 20170626213315478
 creator: Thomas Elmiger
-example-1: 10
-modified: 20170715122148636
+example-1: 1
+example-2: 2
+example-3: 3
+modified: 20170814062448041
 modifier: Thomas Elmiger
 todo-deadline: 20170701135900000
 todo-done: 20170701154203
@@ -15,63 +17,48 @@ source-tiddler-title-as-link: rpnTest
 \define b() <<rpn 3 4 +>>
 \define c() <<rpn 5 6 +>>
 \define d() <<rpn 7 8 +>>
-\define e() <<rpn 9 10 +>>
-\define cd() <$macrocall $name='rpn' a=<<c>> b=<<d>>/>
+
 
 !! Tests for the //rpn// Macro
 [[rpn – Basic Math in Reverse Polish Notation]]
 
-!!! Random Numbers between 10 and 15
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>,
-<<rpn 10 15 precision:"r">>
-
-!!! Random Numbers between 0 and 2
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>,
-<<rpn 0 2 precision:"r">>
-
-!!! Random Numbers between 1 and 100
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>,
-<<rpn 1 100 precision:"r">>
 
 !!! Multiple Operations
 
-<$macrocall $name="rpn" a=<<a>> b=<<b>> operation="+"/>
+<<rpn 10 1 +>> % <<rpn 3 2 *>> =
+<$macrocall $name="rpn" a=<<rpn 10 1 +>> b=<<rpn 3 2 *>> operation="%"/>
 
-<$macrocall $name="rpn" a=<<rpn 20 20 +>> b=<<rpn 3 10 *>> operation="%"/>
+(1+2) + (3+4) = <$macrocall $name="rpn" a=<<a>> b=<<b>> />
 
-<<cd>>
+(5+6) - (7+8) = <$macrocall $name="rpn" a=<<c>> b=<<d>> operation="-"/>
 
-<$macrocall $name="rpn" a=<<cd>> b=<<e>>/>
+How to calculate using 4 field values: see [[rpnTest Fields]]. 
+
+---
+
+!!! Random Numbers between 10 and 15
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>,
+<<rpn 10 15 precision:"r">>, <<rpn 10 15 precision:"r">>
+
+!!! Random Numbers between 0 and 2
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>,
+<<rpn 0 2 precision:"r">>, <<rpn 0 2 precision:"r">>
+
+!!! Random Numbers between 1 and 100
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>,
+<<rpn 1 100 precision:"r">>, <<rpn 1 100 precision:"r">>
 
 ---
 
@@ -85,9 +72,61 @@ What remains: 6 % 5 = <<rpn 6 5 %>>
 
 An integer bigger than 11 / 10: <<rpn 11 10 / 0 c>>
 
+A 50% discount price: (2123.45 * 50 rounded) / 100: <$macrocall $name="rpn" a=<<rpn 2123.45 50 * 0 f>> b=100 operation="/" decimals="2" precision="p" locale="de-CH"/>
+
 ---
 
-!!! Decimals
+!!! Comma on
+
+It is possible to use operands with comma: 0 + 1,5 = <<rpn 0 1,5>>
+
+50 - 5.5 = <<rpn 50 5.5 ->>
+
+5.55 * 2 = <<rpn 5.55 2 *>>
+
+5.5 * 2,5 = <<rpn 5.5 2,5 *>>
+
+5.5 / 5.5 = <<rpn 5.5 5.5 />>
+
+---
+
+!!! Digits after Comma
+
+One digit after comma: 1 / 3 = <<rpn 1 3 / 1>>
+
+No digit after comma: 0 + 1.5 = <<rpn 0 1.5 decimals:0>>
+
+Two digits after comma: 1 / 3 = <<rpn 1 3 / 2>>
+
+Two digits after comma: 1.555 = <<rpn 1 1.555 * 2>>
+
+Three digits after comma: 1 / 3 = <<rpn 1 3 / 3>>
+
+---
+
+!! Output Formatting
+
+Without formatting: 1234567 + 0,5 = <<rpn 1234567 0,5 +>>
+
+German formatting: 1234567 + 0,5 = <<rpn 1234567 0,5 + locale:"de">>
+
+Two fraction digits //locale:"de-DE"//: 1234567 + 0,5 = <<rpn 1234567 0,5 + 2 p locale:"de-DE">>
+
+Two fraction digits //locale:"de-CH"//: 1234567 + 0,5 =  <<rpn 1234567.50 0 + 2 p locale:de-CH>>
+
+---
+
+!!! High Five
+
+Output with comma: 4 + 1,5 = <<rpn 4 1,5 sd:",">>
+
+5000 + 5.5 = <<rpn 5000 5.5 +>>
+
+Locale "en": 5000 + 5.5 = <<rpn 5000 5.5 + locale:"en">>
+
+---
+
+!!! Precision for Decimals
 
 Three digits after comma: 1 * 1 = <<rpn 1 1 * 3 p>>
 
@@ -99,23 +138,7 @@ Force 20 digits after comma `<<rpn pi 1 * 20 p>>`: <<rpn pi 1 * 20 p>> – there
 
 ---
 
-!!! Tiddler Fields
-
-<<rpn {{!!example-1}} 5 &>>
-
-<$macrocall $name="rpn" a={{!!example-1}} b="5" operation="/"/>
-
-<$macrocall $name="rpn" a={{test rpn!!example-1}} b="5" operation="*"/>
-
-<$set name="a" value={{test rpn!!example-1}}>
-<$macrocall $name="rpn" a=<<a>> b="5" operation="+"/>
-</$set>
-
-<$wikify name="a" text="{{!!example-1}}">
-<$macrocall $name="rpn" a=<<a>> b="5" operation="-"/>
-</$wikify>
-
-!!! Zero-Values
+!! Zero-Values
 
 0 / 5 = <<rpn 0 5 />>
 
@@ -124,30 +147,6 @@ Force 20 digits after comma `<<rpn pi 1 * 20 p>>`: <<rpn pi 1 * 20 p>> – there
 0 * 0 = <<rpn 0 0 *>>
 
 0 / 0 = <<rpn 0 0 />>
-
----
-
-!!! High Five
-
-5 - 5 = <<rpn 5 5 ->>
-
-5 + 5 = <<rpn 5 5 +>>
-
-5 * 5 = <<rpn 5 5 *>>
-
-5 / 5 = <<rpn 5 5 />>
-
----
-
-!!! Comma on
-
-50 - 5.5 = <<rpn 50 5.5 ->>
-
-5.55 * 2 = <<rpn 5.55 2 *>>
-
-5.5 * 2.5 = <<rpn 5.5 2.5 *>>
-
-5.5 / 5.5 = <<rpn 5.5 5.5 />>
 
 ---
 
@@ -161,25 +160,34 @@ Force 20 digits after comma `<<rpn pi 1 * 20 p>>`: <<rpn pi 1 * 20 p>> – there
 
 ---
 
-!!! Concatenate
+!! Concatenate (includes wikification)
 
 foo & bar = <<rpn foo bar &>>
 
 cold & " beer bar" = <<rpn cold " beer bar" &>>
 
+This wiki lists //
+<<rpn '<$list filter="""[tag[Hacks]count[]]""" emptyMessage="(empty)"/>' " hacks" &>>
+//  and //
+<<rpn '<$list filter="""[tag[Experiments]count[]]""" emptyMessage="(empty)"/>' " experiments" &>>
+// – a total of //
+<<rpn '<$list filter="""[tag[Hacks]count[]]"""/>' '<$list filter="""[tag[Experiments]count[]]"""/>'>>
+// inspirations.
+
+Compare to a list count without rpn: 
+<$list filter="""[tag[Hacks]count[]]""" emptyMessage="(empty)"/>
+
 ---
 
-!!! Digits after comma
+!! Tiddler Fields 
+from [[rpnTest Fields]]
 
-One digit after comma: 1 / 3 = <<rpn 1 3 / 1>>
+{{rpnTest Fields}}
 
-No digit after comma: 0 + 1.5 = <<rpn 0 1.5 decimals:0>>
+---
 
-Careful: use . not , ! 0 + 1,5 = <<rpn 0 1,5 decimals:0>>
+!!! Invalid values
 
-Two digits after comma: 1 / 3 = <<rpn 1 3 / 2>>
+<<rpn 5 2 * precision:p>>
 
-Two digits after comma: 1.555 = <<rpn 1 1.555 * 2>>
-
-Three digits after comma: 1 / 3 = <<rpn 1 3 / 3>>
-
+<<rpn 5 2 * 2 precision:e>>

@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20170715133845944
+modified: 20170814205739882
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -27,17 +27,6 @@ Here are some great plugins you can download – just ''make a backup first,'' 
 
 * $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
 
-<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/listreveal">
-{{$:/core/images/list-bullet}}<span> Listreveal</span></$link></span>
-
-* $:/plugins/telmiger/listreveal – open listed tiddlers within the list
-
-<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/reminders">
-{{$:/core/images/timestamp-on}}<span> Reminders</span></$link></span>
-
-* $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
-* You need $:/plugins/telmiger/rpn too!
-
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/rpn">
 {{$:/core/images/new-button}}<span> rpn Basic Math</span></$link></span>
 
@@ -48,9 +37,19 @@ Here are some great plugins you can download – just ''make a backup first,'' 
 
 * $:/plugins/telmiger/todonow
 * You need $:/plugins/telmiger/listreveal too!
-* Consider to also use the Outlook Addon: $:/plugins/telmiger/outlook 
-** Tasks for today, tomorrow and the next 7 days (week outlook)
-* Download the complete solution from https://tid.li/tw5/tdn.html (in preparation)
+* Download suggested bundles as JSON files, see list in the right sidebar, //Bundles// tab
+* Download the complete solution from https://tid.li/tw5/tdn.html
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/listreveal">
+{{$:/core/images/list-bullet}}<span> Listreveal</span></$link></span>
+
+* $:/plugins/telmiger/listreveal – open listed tiddlers within the list
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/reminders">
+{{$:/core/images/timestamp-on}}<span> Reminders</span></$link></span>
+
+* $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
+* You need $:/plugins/telmiger/rpn too!
 
 <style>
 .tc-btn-big-color {
