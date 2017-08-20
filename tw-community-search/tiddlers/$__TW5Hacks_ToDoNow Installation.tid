@@ -1,44 +1,46 @@
 title: $:/TW5Hacks/ToDoNow Installation
 created: 20160812075259088
 creator: Thomas Elmiger
-modified: 20170410211339351
+modified: 20170815060217974
 modifier: Thomas Elmiger
 priority: 1
 todo-done: 20170201231921
-original-tags: ToDoComponents ToDoArchive
+original-tags: ToDoComponents
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: ToDoNow Installation
 source-tiddler-title-as-link: ToDoNow%20Installation
 
-This todo list tool is in daily use and lifts my productivity to a new level. Others use it too. Nevertheless you must ''be careful!'' This is the second beta release. No guarantees attached!
+This elegant todo list tool lifts productivity to a new level. TDN is in use daily and profitted from feedback and contributions of several users. Nevertheless you are advised to be careful. ''Consider this a solid beta software.'' No guarantees attached!
 
-!! A1. Start from Scratch?
+Here comes a step-by-step guide. Choose one of the steps labelled A and proceed from B afther this.
 
-Try to save this page by clicking this symbol: {{$:/core/ui/Buttons/save-wiki}} 
+
+!! A1. Start from Scratch
+
+To get maximum functionality go to https://tid.li/tw5/tdn.html and save the wiki by clicking this symbol: {{$:/core/ui/Buttons/save-wiki}} 
 
 * Find out more about [[TiddlyWiki|http://tiddlywiki.com/]].
 * Open your saved document in Firefox and grant access to [[TiddlyFox|http://tiddlywiki.com/#TiddlyFox]].
 * Proceed with step B.
----
 
-!! A2. Use an existing ~TiddlyWiki 5
 
-!!! Back up & Add Plugins to your TW
+!! A2. Add ToDoNow to an existing Wiki
 
-* First ''back up'' your ~TiddlyWiki (TW). – Then drag these plugins to your TW:
-
-** $:/plugins/telmiger/todonow
-** $:/plugins/telmiger/listreveal
-
-* Option 1: to enter dates – deadlines – via date picker, follow the installation instrucions on http://kixam.github.io/TW5-datePicker/ – install two plugins: //datepicker// and //moments.js//.
-* Option 2: to enter and check micro-tasks inline – lists with subtasks – install https://grosinger.net/tw5-checklist/
+# Back up: Make a back-up of your wiki or download a fresh copy from [[tiddlywiki.com|http://tiddlywiki.com/#Empty%20Edition]]
+# Add plugins to your TW: Visit https://tid.li/tw5/plugins.html 
+#* choose one of the proposed TDN plugin bundles
+#* export your choice as JSON download
+#* drag and drop the JSON-file on your wiki, save and reload
 
 ---
 
 !! B. Set Defaults
-* Set //ToDoNow// as default tiddler in $:/ControlPanel on the //info// tab.
-** (If you come from Step A1 you can remove the first and the last line in the //Default tiddlers:// field.)
+As the main tiddler [[ToDoNow]] is part of a plugin, you can not find it using standard search. It is a so called //shadow tiddler// and you access it via links or find it via [[advanced search|$:/AdvancedSearch]].
 
+* Set [[ToDoNow]] as default tiddler in $:/ControlPanel on the //info// tab.
+** If you come from Step A1 you can remove the first and the last line in the //Default tiddlers:// field.
+
+<<<
 <$details open="no">
 
 This means, you click the toothed wheel icon below the title of your wiki to open the options in the control panel. 
@@ -51,11 +53,17 @@ This means, you click the toothed wheel icon below the title of your wiki to ope
 ''Another solution'' would be to put a ''link'' to our main tiddler in any other tiddler you have like this: `[[ToDoNow]]`. Save the tiddler and click the link, you should see the list.
 
 </$details>
+<<<
 
 * Define your language in $:/plugins/telmiger/lib/language – choose one of the following endings: 
-** en-GB
-** de-DE
-** de-CH
+
+<<<
+<ul>
+<$list filter="""[prefix[$:/plugins/telmiger/lib/languages/]removeprefix[$:/plugins/telmiger/lib/languages/]]""" variable=code>
+<li><<code>></li>
+</$list>
+</ul>
+<<<
 
 !! C. Reload and test
 
@@ -63,3 +71,4 @@ This means, you click the toothed wheel icon below the title of your wiki to ope
 
 * Adapt the [[ToDo Item]] template which is used for new tasks to your needs.
 * Maybe change titles on ToDoNow, ToDo and ToDoDone.
+** This makes them normal tiddlers – you can find them via normal search. Just delete your new tiddler(s) to return to the original.
