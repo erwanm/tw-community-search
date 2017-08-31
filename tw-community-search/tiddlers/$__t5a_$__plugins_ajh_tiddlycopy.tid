@@ -1,5 +1,4 @@
 title: $:/t5a/$:/plugins/ajh/tiddlycopy
-author: Andrew
 core-version: >=5.1.11
 dependents: $:/plugins/ajh/tiddlycopy/icon $:/plugins/ajh/tiddlycopy/readme $:/plugins/ajh/tiddlycopy/stylesheet $:/plugins/ajh/tiddlycopy/template/hide $:/plugins/ajh/tiddlycopy/template/show $:/plugins/ajh/tiddlycopy/template/toolbar
 description: Tiddly Link Copy Button

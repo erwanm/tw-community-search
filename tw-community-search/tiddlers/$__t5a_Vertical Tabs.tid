@@ -1,12 +1,15 @@
 title: $:/t5a/Vertical Tabs
 created: 20170701182050475
 creator: Andrew Harrison
-modified: 20170701182135889
+modified: 20170830062046821
 modifier: Andrew Harrison
 resource: http://tw5toolbar.tiddlyspot.com/#%24%3A%2Fplugins%2Ftongerner%2Flayout_adjustment%2Ftweaks
 show-field: resource
-original-tags: [[Wish List]] Examples
+original-tags: Examples
 source-wiki-id: t5a
 source-tiddler-title-as-text: Vertical Tabs
 source-tiddler-title-as-link: Vertical%20Tabs
 
+$:/plugins/ajh/plugintweaks/controls
+
+$:/plugins/ajh/plugintweaks/template
