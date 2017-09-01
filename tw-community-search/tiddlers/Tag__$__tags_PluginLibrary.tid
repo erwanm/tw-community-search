@@ -1,7 +1,7 @@
 title: Tag: $:/tags/PluginLibrary
 tags: CommunityTags
 community-tag: $:/tags/PluginLibrary
-community-tag-count: 2
-community-wikis: [[CopyPlugin]] [[MKLauberTW5Plugins]]
+community-tag-count: 4
+community-wikis: [[CopyPlugin]] [[MKLauberTW5Plugins]] [[RandomBackgroundPlugin]] [[TiddlyTime]]
 
 {{||$:/CommunityTagTemplate}}
