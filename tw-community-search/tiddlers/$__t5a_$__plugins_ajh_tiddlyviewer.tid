@@ -1,5 +1,4 @@
 title: $:/t5a/$:/plugins/ajh/tiddlyviewer
-author: Andrew
 core-version: >=5.1.11
 dependents: $:/plugins/ajh/tiddlyviewer/icon $:/plugins/ajh/tiddlyviewer/readme $:/plugins/ajh/tiddlyviewer/stylesheet $:/plugins/ajh/tiddlyviewer/template
 description: Tiddly Viewer

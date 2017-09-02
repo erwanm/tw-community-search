@@ -4,8 +4,8 @@ created: 20150821063313530
 dependents: $:/language/toplefttoolbar/caption $:/language/toplefttoolbar/hint $:/plugins/ajh/toplefttoolbar/icon $:/plugins/ajh/toplefttoolbar/readme $:/plugins/ajh/toplefttoolbar/stylesheet $:/plugins/ajh/toplefttoolbar/template $:/plugins/ajh/toplefttoolbar/toolbar
 description: Top Left Toolbar
 list: readme
-modified: 20170721063612634
-source: http://toplefttoolbar.tiddlyspot.com
+modified: 20170901134705754
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Ftoplefttoolbar.json
 version: 0.0.14
 original-tags: 
 source-wiki-id: TopLeftToolbar

@@ -4,8 +4,8 @@ created: 20150814132714911
 dependents: $:/plugins/ajh/tiddlyviewer/icon $:/plugins/ajh/tiddlyviewer/readme $:/plugins/ajh/tiddlyviewer/stylesheet $:/plugins/ajh/tiddlyviewer/template
 description: Tiddly Viewer
 list: readme
-modified: 20170703031751188
-source: http://tiddlyviewer.tiddlyspot.com/
+modified: 20170901130249589
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Ftiddlyviewer.json
 version: 0.0.15
 original-tags: 
 source-wiki-id: TiddlyViewer
