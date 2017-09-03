@@ -1,5 +1,4 @@
 title: $:/t5a/$:/plugins/ajh/toplefttoolbar
-author: Andrew
 core-version: >=5.1.14
 dependents: $:/language/toplefttoolbar/caption $:/language/toplefttoolbar/hint $:/plugins/ajh/toplefttoolbar/icon $:/plugins/ajh/toplefttoolbar/readme $:/plugins/ajh/toplefttoolbar/stylesheet $:/plugins/ajh/toplefttoolbar/template $:/plugins/ajh/toplefttoolbar/toolbar
 description: Top Left Toolbar

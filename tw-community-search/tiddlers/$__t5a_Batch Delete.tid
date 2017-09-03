@@ -1,0 +1,15 @@
+title: $:/t5a/Batch Delete
+created: 20170902210956844
+creator: Andrew Harrison
+modified: 20170902211211134
+modifier: Andrew Harrison
+original-tags: [[Under Construction]]
+source-wiki-id: t5a
+source-tiddler-title-as-text: Batch Delete
+source-tiddler-title-as-link: Batch%20Delete
+
+Need to look at batch tags and maybe do the same with this.
+<$button>
+   delete tagged tiddlers
+   <$action-deletetiddler $filter="[tag[tag name]prefix[title starts with]]"/>
+</$button>
