@@ -1,10 +1,18 @@
 title: $:/t5a/Investigate using core copy image
 created: 20170831011609362
 creator: Andrew Harrison
-modified: 20170831011721975
+modified: 20170903185439868
 modifier: Andrew Harrison
 original-tags: [[Needs Work]] [[Wish List]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Investigate using core copy image
 source-tiddler-title-as-link: Investigate%20using%20core%20copy%20image
+
+\define my-svg()
+<svg class='tc-image-copy tc-image-button' viewBox='-3 31 71 1'>
+<path fill='#0ff' stroke='#30f' stroke-width='1.5' d='m-2,6l17,-8.5l17,8.5v20.8l-17,8.5l-17,-8.5v-20.8z'/>{{$:/core/images/copy-clipboard}}</svg>
+\end
+
+<<my-svg>>
+
 

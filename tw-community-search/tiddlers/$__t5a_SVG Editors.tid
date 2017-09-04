@@ -1,7 +1,7 @@
 title: $:/t5a/SVG Editors
 created: 20150701035709086
 creator: Andrew Harrison
-modified: 20170811042003528
+modified: 20170903194003217
 modifier: Andrew Harrison
 original-tags: New
 source-wiki-id: t5a
@@ -18,3 +18,6 @@ Color contrast:http://webdesign.about.com/od/color/l/bl_contrast_table.htm
 
 Excel formulas: {{Formula1||$:/copy}} and {{Formula2||$:/copy}}<br>
 {{SVGpath||$:/copy}}
+
+
+Copy arrow: m79.8,44.8l-32,24l32,24l0,-16l40,0a8,8 0 0 0 0,-16l-40,0l0,-16z
