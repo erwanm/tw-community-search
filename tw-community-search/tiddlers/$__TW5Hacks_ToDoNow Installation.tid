@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoNow Installation
 created: 20160812075259088
 creator: Thomas Elmiger
-modified: 20170815060217974
+modified: 20170903203722771
 modifier: Thomas Elmiger
 priority: 1
 todo-done: 20170201231921
@@ -55,20 +55,15 @@ This means, you click the toothed wheel icon below the title of your wiki to ope
 </$details>
 <<<
 
-* Define your language in $:/plugins/telmiger/lib/language – choose one of the following endings: 
-
-<<<
-<ul>
-<$list filter="""[prefix[$:/plugins/telmiger/lib/languages/]removeprefix[$:/plugins/telmiger/lib/languages/]]""" variable=code>
-<li><<code>></li>
-</$list>
-</ul>
-<<<
-
 !! C. Reload and test
+Visit the plugin’s //configuration// tab to set
+
+* the priotity levels you want to use
+* the interface language
+* the text for the [[ToDo Item]] template which is used for new tasks.
 
 !! D. Further Options
+Maybe change some texts in ToDoNow, ToDo and ToDoDone.
 
-* Adapt the [[ToDo Item]] template which is used for new tasks to your needs.
-* Maybe change titles on ToDoNow, ToDo and ToDoDone.
-** This makes them normal tiddlers – you can find them via normal search. Just delete your new tiddler(s) to return to the original.
+* This makes them normal tiddlers which can be found via normal search. 
+* In order to return to the original you can always delete your personal version.

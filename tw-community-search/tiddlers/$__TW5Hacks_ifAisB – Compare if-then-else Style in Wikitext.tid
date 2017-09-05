@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ifAisB – Compare if-then-else Style in Wikitext
 created: 20170409191526774
 creator: Thomas Elmiger
-modified: 20170502190713974
+modified: 20170902110752878
 modifier: Thomas Elmiger
 priority: 1
 original-tags: Hacks
@@ -11,7 +11,7 @@ source-tiddler-title-as-link: ifAisB%20%2013%20Compare%20if-then-else%20Style%20
 
 <header>
 
-This macro offers a solution for simple if-then-else text generation. It presents some added value compared to the reveal widget: it accepts variables as well as text references and it can show an error message. The ifAisB macro comes with full documentation in the tiddler $:/_telmiger/ifAisB – the documentation can also be found below. 
+This macro offers a solution for simple if-then-else text generation. It presents some added value compared to the reveal widget: it accepts variables as well as transclusions and it can show an error message. The ifAisB macro comes with full documentation in the tiddler $:/_telmiger/ifAisB – the documentation can also be found below. 
 
 </header>
 

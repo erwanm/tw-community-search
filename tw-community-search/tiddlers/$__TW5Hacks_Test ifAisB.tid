@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Test ifAisB
 created: 20170409193917974
 creator: Thomas Elmiger
-modified: 20170430133340369
+modified: 20170902113917836
 modifier: Thomas Elmiger
 priority: 
 original-tags: Testing
@@ -11,7 +11,7 @@ source-tiddler-title-as-link: Test%20ifAisB
 
 \define check-a() <$macrocall $name="ifAisB" A={{!!priority}} B="a" then="priority is a" else="priority is not a"/>
 \define check-b() <$macrocall $name="ifAisB" A={{!!priority}} B="b" then="priority is b" else="not b" error="this is not defined"/>
-\define check-empty() <$macrocall $name="ifAisB" A={{!!priority}} B="_false_" then="the field value is _false_" else="the field is not empty" error="//the field is empty or does not exist//" />
+\define check-empty() <$macrocall $name="ifAisB" A={{!!priority}} B="" then="_this is never shown_" else="the field is not empty" error="//the field is empty or does not exist//" />
 \define red-bold-error() <$macrocall $name="ifAisB" A={{!!priority}} B="a" then="a is correct" else="it’s not a" error="@@color:red; ''something went wrong'' @@"/>
 
 !! Tests and Examples for the Macro ifAisB

@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDo Item
 created: 20160820223720059
 creator: Thomas Elmiger
-modified: 20160820223722978
+modified: 20170903190029257
 modifier: Thomas Elmiger
 priority: 2
 original-tags: ToDo
@@ -9,6 +9,6 @@ source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: ToDo Item
 source-tiddler-title-as-link: ToDo%20Item
 
-Motivation: Description
+Motivation: description
 
 * Tests/Acceptance criteria
