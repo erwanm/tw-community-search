@@ -1,0 +1,16 @@
+title: $:/TW5Hacks/Save and Close Button
+created: 20170904055023979
+creator: Thomas Elmiger
+modified: 20170904055257990
+modifier: Thomas Elmiger
+priority: 1
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Save and Close Button
+source-tiddler-title-as-link: Save%20and%20Close%20Button
+
+A very cool feature initiated by a friend. 
+
+* Display the button only on existing tiddlers. 
+** On new ones it does not work.
+** When you change the title it does not work

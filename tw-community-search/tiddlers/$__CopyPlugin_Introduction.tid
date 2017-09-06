@@ -1,7 +1,7 @@
 title: $:/CopyPlugin/Introduction
 created: 20150805131426259
 creator: Andrew
-modified: 20170831001315482
+modified: 20170905043621580
 modifier: Andrew
 original-tags: 
 source-wiki-id: CopyPlugin
@@ -16,5 +16,4 @@ source-tiddler-title-as-link: Introduction
 [[$:/language/Buttons/Copy/Notification]]<br>
 [[$:/plugins/ajh/copy/copy.js]]<br>
 [[$:/plugins/ajh/copy/icon]]<br>
-[[$:/plugins/ajh/copy/image]]<br>
 [[$:/plugins/ajh/copy/stylesheet]]

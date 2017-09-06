@@ -1,10 +1,10 @@
 title: $:/TopLeftToolbar/$:/plugins/ajh/copy
 core-version: >=5.1.11
-dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugins/ajh/copy/copy.js $:/plugins/ajh/copy/icon $:/plugins/ajh/copy/image $:/plugins/ajh/copy/readme $:/plugins/ajh/copy/stylesheet
+dependents: $:/copy $:/language/Buttons/Copy/Caption $:/language/Buttons/Copy/Hint $:/language/Buttons/Copy/Notification $:/plugins/ajh/copy/copy.js $:/plugins/ajh/copy/icon $:/plugins/ajh/copy/readme $:/plugins/ajh/copy/stylesheet
 description: Copy Button
 list: readme
 source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Fcopy.json
-version: 0.0.25
+version: 0.0.26
 original-tags: 
 source-wiki-id: TopLeftToolbar
 source-tiddler-title-as-text: $:/plugins/ajh/copy

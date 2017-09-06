@@ -1,0 +1,16 @@
+title: $:/BJHacks/$:/plugins/bj/struc
+author: JeffreyWilkinson aka BJ
+core-version: >=5.1.11
+dependents: 
+description: support stuctures
+list: readme license
+modified: 20161223173328823
+source: https://github.com/buggyj/TW5-tools
+version: 1.11.2
+original-tags: bjtools
+source-wiki-id: BJHacks
+source-tiddler-title-as-text: $:/plugins/bj/struc
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fstruc
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
