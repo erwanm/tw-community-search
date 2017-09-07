@@ -1,15 +1,37 @@
 title: $:/t5a/Batch Delete
 created: 20170902210956844
 creator: Andrew Harrison
-modified: 20170906013214543
+modified: 20170907002928127
 modifier: Andrew Harrison
+selected_tag: Under Construction
 original-tags: [[Under Construction]]
 source-wiki-id: t5a
 source-tiddler-title-as-text: Batch Delete
 source-tiddler-title-as-link: Batch%20Delete
 
+\define thisSelectTag()
+Selection Tag: <$select field='selected_tag'>
+<$set name=TagSearch value={{$:/temp/batchdelete!!search_tags}}>
+<$list filter='[tags[]regexp[(?i)$(TagSearch)$]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$set>
+</$select> <$edit-text tiddler='$:/temp/batchdelete' field='search_tags' class='tc-exit-textexitor' placeholder='Narrow Tags List'/>
+\end
+
+This lets you search for all tiddlers with a specific tag and with titles that start with something and delete them. Or if the 'Title Starts With' field is empty just delete all of them with that tag.
+
+<<thisSelectTag>>
+
+Title Starts With: <$edit-text tiddler='$:/temp/batchdelete' field='prefix' class='tc-edit-texteditor'/>
+
+<tr><th>Tiddler</th><th>Delete?</th></tr>
+<$list filter='[tag{!!selected_tag}prefix{$:/temp/batchdelete!!prefix}]'>
+<tr><td><$link to=<<currentTiddler>>><$view field='title'/></$link></td></tr>
+</$list>
+
 Need to look at batch tags and maybe do the same with this.
 <$button>
    delete tagged tiddlers
-   <$action-deletetiddler $filter="[tag[tag name]prefix[title starts with]]"/>
+   <$action-deletetiddler $filter="[tag{!!selected_tag}prefix{$:/temp/batchdelete!!prefix}]"/>
 </$button>
