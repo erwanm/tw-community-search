@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Save and close Button Plugin
 created: 20170531175031820
 creator: Thomas Elmiger
-modified: 20170905062054695
+modified: 20170911173523203
 modifier: Thomas Elmiger
 priority: 2
 original-tags: Hacks ToDo
@@ -12,11 +12,7 @@ source-tiddler-title-as-link: Save%20and%20close%20Button%20Plugin
 This is an optimized version of the button «Save and close» as suggested by Josiah and developed by Richard William Smith. See Discussion in the [[Google Group|https://groups.google.com/d/msg/tiddlywiki/A4v-DqjN_D8/4hkOaaf0BQAJ]]. Should this hack become a plugin?
 
 !!! Optimized Components
-* $:/core/ui/Buttons/save_and_close
-** the button is only shown when usable (see limits below)
-* $:/core/images/done-close-button – 2 svgs in one
-** (a real hack)
-
-!!! Limits: Does not work for
-* new tiddler
-* title-change
+* $:/core/ui/Buttons/save-and-close
+* $:/core/images/done-close-button – 2 svgs in one (a real hack)
+* $:/core/ui/Buttons/cancel-and-close
+* $:/core/images/cancel-close-button – 2 svgs in one again (hacky)

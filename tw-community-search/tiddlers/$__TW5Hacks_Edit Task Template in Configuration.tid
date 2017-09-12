@@ -1,10 +1,11 @@
 title: $:/TW5Hacks/Edit Task Template in Configuration
 created: 20170711114615500
 creator: Thomas Elmiger
-modified: 20170711114847525
+modified: 20170910103807098
 modifier: Thomas Elmiger
 priority: 1
-original-tags: ToDo
+todo-done: 20170910123743
+original-tags: ToDoDone
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Edit Task Template in Configuration
 source-tiddler-title-as-link: Edit%20Task%20Template%20in%20Configuration
