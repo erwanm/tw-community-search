@@ -1,6 +1,7 @@
 title: $:/TW5Checklist/$:/core
 author: JeremyRuston
 core-version: >=5.0.0
+dependents: 
 description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0

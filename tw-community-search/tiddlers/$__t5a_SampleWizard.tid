@@ -1,0 +1,29 @@
+title: $:/t5a/SampleWizard
+created: 20170913130725950
+creator: Andrew Harrison
+modified: 20170913140259915
+modifier: Andrew Harrison
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: SampleWizard
+source-tiddler-title-as-link: SampleWizard
+
+\define imgmod() 
+{{||$:/core/ui/Buttons/delete}}
+\end
+
+
+<$set name="name"  value=<<yourMessage>> >
+<<imgmod>>
+</$set>
+
+
+
+This is a modal wizard dialogue, stored in the tiddler SampleWizard.
+
+{{Motovun Jack.jpg}}
+
+<$button tooltip={{$:/language/Buttons/Delete/Hint}} aria-label={{$:/language/Buttons/Delete/Caption}} param="">
+   OK
+   <$action-deletetiddler $filter="""[list[$:/plugins/ajh/batchtools/delete]tagging[]prefix{$:/temp/batchtools/delete!!prefix}!list[$:/temp/batchtools/delete]]"""/>
+</$button>

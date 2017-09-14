@@ -6,8 +6,6 @@ source-wiki-id: BJHacks
 source-tiddler-title-as-text: list a plugins tiddlers plugin
 source-tiddler-title-as-link: list%20a%20plugins%20tiddlers%20plugin
 
-
-
 !!note only shallow filters like shown here are supported
 
 Plugin: [[$:/plugins/bj/struc]]

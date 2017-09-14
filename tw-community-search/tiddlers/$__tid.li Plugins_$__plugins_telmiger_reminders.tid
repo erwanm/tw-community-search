@@ -8,7 +8,7 @@ list: readme configuration settings
 modified: 20170903214311953
 name: Reminders and Alerts
 source: https://tid.li/tw5/tdn.html
-version: 0.1.3
+version: 0.1.4
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/reminders
