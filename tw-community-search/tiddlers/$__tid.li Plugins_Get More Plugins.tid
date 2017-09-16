@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20170814205739882
+modified: 20170915204428730
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -9,28 +9,33 @@ source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: Get More Plugins
 source-tiddler-title-as-link: Get%20More%20Plugins
 
-Here are some great plugins you can download – just ''make a backup first,'' then drag the button or the link below to your wiki, save and reload.
+Great plugins to improve your workflow – just ''make a backup first,'' then drag the button or the link below to your wiki, save and reload.
 
+!! Display
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/details">
+{{$:/core/images/right-arrow}}<span> ~DetailsWidget</span></$link></span>
+
+!! Edit
+
+* $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
 
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/Clipboard">
 {{$:/core/images/file}}<span> Clipboard</span></$link></span>
 
 * $:/plugins/telmiger/Clipboard – store and access text snippets from the editor
 
-<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/details">
-{{$:/core/images/right-arrow}}<span> ~DetailsWidget</span></$link></span>
-
-* $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
-
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditorCounter">
 {{$:/core/images/mono-block}}<span> ~EditorCounter</span></$link></span>
 
 * $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
 
-<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/rpn">
-{{$:/core/images/new-button}}<span> rpn Basic Math</span></$link></span>
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditButtons">
+{{$:/core/images/done-close-button}}<span> ~EditButtons</span></$link></span>
 
-* $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
+*  $:/plugins/telmiger/EditButtons – the missing buttons to //save and close// as well as //cancel and close//.
+
+!! Get Stuff Done
 
 <span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/todonow">
 {{$:/core/images/done-button}}<span> ~ToDoNow</span></$link></span>
@@ -51,13 +56,20 @@ Here are some great plugins you can download – just ''make a backup first,'' 
 * $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
 * You need $:/plugins/telmiger/rpn too!
 
+!! Calculate
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/rpn">
+{{$:/core/images/new-button}}<span> rpn Basic Math</span></$link></span>
+
+* $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
+
 <style>
 .tc-btn-big-color {
+   background: #34c734;
    display: inline-block; 
    min-width: 13em;
    padding: 8px;
    margin: 4px 8px 4px 8px;
-   background: #34c734;
    color: #ffffff;
    fill: #ffffff;
    border: none;
@@ -65,14 +77,21 @@ Here are some great plugins you can download – just ''make a backup first,'' 
    line-height: 1.4em;
    text-decoration: none;
 }
-.tc-btn-big-color svg, .tc-btn-big-color img { 
+.tc-btn-big-color:hover {
+   background-color: #19a719;
+}
+.tc-btn-big-color svg, 
+.tc-btn-big-color img { 
    height: 2em;
    width: 2em;
+   margin-top: 0;
    vertical-align: middle;
    fill: #ffffff;
 }
-.tc-btn-big-color:hover {
-   background-color: #2cae2c;
+.tc-btn-big-color svg:not(:first-of-type) {
+    margin: 0 0 0 -0.7em !important;
+    width: 0.8em !important;
+    padding-top: 1em;
 }
 .tc-btn-big-color a, .tc-btn-big-color a:hover {
    padding-left: 6px;
@@ -82,10 +101,22 @@ Here are some great plugins you can download – just ''make a backup first,'' 
 .tc-btn-big-color span {
    padding: 16px;
 }
+.tc-btn-big-color.dark {
+   background: #19a719;
+}
+.tc-btn-big-color.dark:hover {
+   background: #34c734;
+}
 .tc-btn-big-color.blue {
    background-color: #2caeff;
 }
 .tc-btn-big-color.blue:hover {
-   background-color: #2caedd;
+   background-color: #2a74da;
+}
+.tc-btn-big-color.darkblue {
+   background-color: #2a74da;
+}
+.tc-btn-big-color.darkblue:hover {
+   background-color: #2caeff;
 }
 </style>
