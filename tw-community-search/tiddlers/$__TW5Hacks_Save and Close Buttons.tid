@@ -1,17 +1,18 @@
-title: $:/TW5Hacks/Save and Close Button
+title: $:/TW5Hacks/Save and Close Buttons
 created: 20170904055023979
 creator: Thomas Elmiger
-modified: 20170910104010635
+modified: 20170916154956114
 modifier: Thomas Elmiger
 priority: 1
-original-tags: ToDoNow
+todo-done: 20170916174943
+original-tags: ToDoDone
 source-wiki-id: TW5Hacks
-source-tiddler-title-as-text: Save and Close Button
-source-tiddler-title-as-link: Save%20and%20Close%20Button
+source-tiddler-title-as-text: Save and Close Buttons
+source-tiddler-title-as-link: Save%20and%20Close%20Buttons
 
 A very cool feature initiated by a friend. 
 
-* Rename DoneClose
+* Redesign Icons
 * Explore alternatives for new tiddlers
 * Explore alternatives for renamed tiddlers
 

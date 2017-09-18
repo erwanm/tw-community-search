@@ -7,7 +7,7 @@ list: readme
 modified: 20170916160125711
 name: Save/Cancel & close – Save and keep open
 source: https://tid.li/tw5/plugins.html
-version: 0.1.4
+version: 0.1.5
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/EditButtons

@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20170915204428730
+modified: 20170917082512077
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -14,31 +14,31 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 !! Display
 
 <span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/details">
-{{$:/core/images/right-arrow}}<span> ~DetailsWidget</span></$link></span>
+{{$:/core/images/right-arrow}}<span class="btn-text"> ~DetailsWidget</span></$link></span>
 
 !! Edit
 
 * $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
 
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/Clipboard">
-{{$:/core/images/file}}<span> Clipboard</span></$link></span>
+{{$:/core/images/file}}<span class="btn-text"> Clipboard</span></$link></span>
 
 * $:/plugins/telmiger/Clipboard – store and access text snippets from the editor
 
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditorCounter">
-{{$:/core/images/mono-block}}<span> ~EditorCounter</span></$link></span>
+{{$:/core/images/mono-block}}<span class="btn-text"> ~EditorCounter</span></$link></span>
 
 * $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
 
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditButtons">
-{{$:/core/images/done-close-button}}<span> ~EditButtons</span></$link></span>
+{{$:/core/images/done-close-button}}<span class="btn-text"> ~EditButtons</span></$link></span>
 
 *  $:/plugins/telmiger/EditButtons – the missing buttons to //save and close// as well as //cancel and close//.
 
 !! Get Stuff Done
 
 <span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/todonow">
-{{$:/core/images/done-button}}<span> ~ToDoNow</span></$link></span>
+{{$:/core/images/done-button}}<span class="btn-text"> ~ToDoNow</span></$link></span>
 
 * $:/plugins/telmiger/todonow
 * You need $:/plugins/telmiger/listreveal too!
@@ -46,12 +46,12 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 * Download the complete solution from https://tid.li/tw5/tdn.html
 
 <span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/listreveal">
-{{$:/core/images/list-bullet}}<span> Listreveal</span></$link></span>
+{{$:/core/images/list-bullet}}<span class="btn-text"> Listreveal</span></$link></span>
 
 * $:/plugins/telmiger/listreveal – open listed tiddlers within the list
 
 <span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/reminders">
-{{$:/core/images/timestamp-on}}<span> Reminders</span></$link></span>
+{{$:/core/images/timestamp-on}}<span class="btn-text"> Reminders</span></$link></span>
 
 * $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
 * You need $:/plugins/telmiger/rpn too!
@@ -59,7 +59,7 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 !! Calculate
 
 <span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/rpn">
-{{$:/core/images/new-button}}<span> rpn Basic Math</span></$link></span>
+{{$:/core/images/new-button}}<span class="btn-text"> rpn Basic Math</span></$link></span>
 
 * $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
 
@@ -86,19 +86,17 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
    width: 2em;
    margin-top: 0;
    vertical-align: middle;
-   fill: #ffffff;
+   fill: #fff;
 }
-.tc-btn-big-color svg:not(:first-of-type) {
-    margin: 0 0 0 -0.7em !important;
-    width: 0.8em !important;
-    padding-top: 1em;
+.tc-btn-big-color .edit-btn-icon.save-close svg:first-of-type {
+   fill: #fff;
 }
 .tc-btn-big-color a, .tc-btn-big-color a:hover {
    padding-left: 6px;
    color: white;
    text-decoration: none;
 }
-.tc-btn-big-color span {
+.tc-btn-big-color .btn-text {
    padding: 16px;
 }
 .tc-btn-big-color.dark {
