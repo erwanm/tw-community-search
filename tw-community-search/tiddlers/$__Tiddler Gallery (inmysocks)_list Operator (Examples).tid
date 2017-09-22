@@ -1,0 +1,13 @@
+title: $:/Tiddler Gallery (inmysocks)/list Operator (Examples)
+created: 20150118134611000
+modified: 20150123214445000
+type: text/vnd.tiddlywiki
+original-tags: [[list Operator]] [[Operator Examples]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: list Operator (Examples)
+source-tiddler-title-as-link: list%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[list[HelloThere]]">>
+<<.operator-example 2 "[list[Days of the Week!!short]]">>

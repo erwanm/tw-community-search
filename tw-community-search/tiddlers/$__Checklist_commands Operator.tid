@@ -1,0 +1,15 @@
+title: $:/Checklist/commands Operator
+caption: commands
+created: 20140410103123179
+modified: 20150203184154000
+op-input: ignored
+op-output: the [[command words|Commands]] that can be given to [[TiddlyWiki on Node.js]]
+op-parameter: none
+op-purpose: select the titles of all the Node.js commands
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: commands Operator
+source-tiddler-title-as-link: commands%20Operator
+
+<<.operator-examples "commands">>
