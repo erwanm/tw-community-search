@@ -5,8 +5,10 @@ author: JeremyRuston
 title: tiddlywiki.com
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlywiki.com
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.14
+wiki-latest-modification: 20170426210309235
+wiki-nb-tiddlers: 876
 
+a non-linear personal web notebook
 
 {{||$:/CommunityWikiPresentationTemplate}}
