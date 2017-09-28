@@ -1,0 +1,13 @@
+title: $:/MathyThing (inmysocks)/WidgetMessage: tm-close-all-tiddlers
+caption: tm-close-all-tiddlers
+created: 20140226194242809
+modified: 20140226194341303
+type: text/vnd.tiddlywiki
+original-tags: Messages navigator-message
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: WidgetMessage: tm-close-all-tiddlers
+source-tiddler-title-as-link: WidgetMessage%3a%20tm-close-all-tiddlers
+
+The close all tiddlers message empties the story list.
+
+The close all tiddlers message is usually generated with the ButtonWidget and is handled by the NavigatorWidget.

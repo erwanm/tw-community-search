@@ -1,0 +1,13 @@
+title: $:/maketid/BuildCommand
+caption: build
+created: 20140425085548209
+modified: 20140427210435569
+type: text/vnd.tiddlywiki
+original-tags: Commands
+source-wiki-id: maketid
+source-tiddler-title-as-text: BuildCommand
+source-tiddler-title-as-link: BuildCommand
+
+{{$:/language/Help/build}}
+
+See TiddlyWikiFolders for details of defining build targets.
