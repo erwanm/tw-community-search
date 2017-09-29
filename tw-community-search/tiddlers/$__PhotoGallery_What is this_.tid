@@ -1,0 +1,23 @@
+title: $:/PhotoGallery/What is this?
+original-tags: 
+source-wiki-id: PhotoGallery
+source-tiddler-title-as-text: What is this?
+source-tiddler-title-as-link: What%20is%20this%3f
+
+This is a demo of the ~PhotoGallery plugin made my [[OokTech|$:/plugins/OokTech/OokTechInfo]].
+
+This plugin is for making and managing photo galleries in ~TiddlyWiki. See below for a demo. You can take a guided tour of what this plugin can do by opening the tiddler [[A guided tour]].
+
+!!Installation
+
+If you wish to install this plugin in your wiki than you can drag and drop the plugin tiddler below into your wiki. If you wish to install this plugin thorugh the plugin library drag and drop the plugin library tiddler below into your wiki, then you can install the plugins via the control panel.
+
+Plugin Tiddler: [[$:/plugins/OokTech/PhotoGallery]]
+
+Plugin Library: [[$:/pluginlibrary/OokTech/OokTechPlugins]]
+
+Plugin ~ReadMe: [[$:/plugins/OokTech/PhotoGallery/readme]]
+
+!!Other Information
+
+See [[Acknowledgements|$:/plugins/OokTech/PhotoGallery/Acknowledgements]] for authoring and acknowledgement information, and the [[license|$:/plugins/OokTech/PhotoGallery/License]] for license information for this plugin.

@@ -13,7 +13,7 @@ You may have noticed that the default images are sorted by the values in the `Or
 <<PhotoGallery GalleryName sort:'+[sort[title]]'>>
 ```
 
-and then the gallery GalleryName will be displayed and will be sorted by the tiddler titles instead of the order column. Or you could use
+and then the gallery `GalleryName` will be displayed and will be sorted by the tiddler titles instead of the order column. Or you could use
 
 ```
 <<PhotoGallery GalleryName sort:''>>

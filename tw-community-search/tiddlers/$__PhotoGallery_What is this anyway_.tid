@@ -7,13 +7,13 @@ source-wiki-id: PhotoGallery
 source-tiddler-title-as-text: What is this anyway?
 source-tiddler-title-as-link: What%20is%20this%20anyway%3f
 
-The Photo Gallery plugin is meant to be an easy to use way to make a photo gallery in tiddlywiki. 
+The Photo Gallery plugin is meant to be an easy to use way to make a photo gallery in tiddlywiki.
 
 All you need to do is have pictures in your wiki, either by embedding them or using a data uri, and then you can create your gallery and customize it without any wikitext. You are even given the macro you use to place the gallery wherever you want to view it.
 
 
 
-The general philosophy I follow when making plugins is (this is a work in progress, I need to work on being more concise. Also I removed all the sarcastic remarks about the design philosophies of certain large tech companies):
+The general philosophy we follow when making plugins is (this is a work in progress, we will work on being more concise.):
 
 ```
 You shouldn't need to know anything about wikitext or anything else to use it. As much as possible you should be able to modify both the function and the interface of anything you use to better suit your purposes.
@@ -22,4 +22,4 @@ This is important both in terms of functionality but also for accessibility.
 To better achieve that I try to make tools that give you as much control as possible while requiring little or no knowledge to use. This doesn't mean that you won't be able to do more if you know more about how something works, but my goal is that for most uses someone without any knowledge of any sort of coding or markup languages can use what I make to create tools that they can use easily.
 ```
 
-Obviously not everything I make actually lives up to that, but I am working on it.
+Obviously not everything we make actually lives up to that, but that is the goal.

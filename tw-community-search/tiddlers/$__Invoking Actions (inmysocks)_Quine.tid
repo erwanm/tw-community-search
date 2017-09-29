@@ -1,9 +1,0 @@
-title: $:/Invoking Actions (inmysocks)/Quine
-original-tags: Definitions
-source-wiki-id: Invoking Actions (inmysocks)
-source-tiddler-title-as-text: Quine
-source-tiddler-title-as-link: Quine
-
-Wikipedia [[defines a Quine|http://en.wikipedia.org/wiki/Quine_(computing)]] as //a computer program which takes no input and produces a copy of its own source code as its only output//.
-
-TiddlyWiki is an unusual example of a practical quine: it is this ability to produce a copy of its own source code that lies at the heart of TiddlyWiki's ability to independently save changes to itself.

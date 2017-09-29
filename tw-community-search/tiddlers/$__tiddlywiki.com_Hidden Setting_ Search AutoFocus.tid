@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/Hidden Setting: Search AutoFocus
+created: 20150619162518761
+modified: 20150619162605652
+type: text/vnd.tiddlywiki
+original-tags: [[Hidden Settings]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hidden Setting: Search AutoFocus
+source-tiddler-title-as-link: Hidden%20Setting%3a%20Search%20AutoFocus
+
+When TiddlyWiki first opens in the browser the search box is automatically given the focus by default. If this causes problems, you can change the default by changing this value from ''true'' to ''false'':
+
+$:/config/Search/AutoFocus

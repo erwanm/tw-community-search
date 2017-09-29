@@ -5,6 +5,6 @@ source-wiki-id: PhotoGallery
 source-tiddler-title-as-text: Hello!
 source-tiddler-title-as-link: Hello%21
 
-This is the demo site showing how to use my Photo Gallery plugin. Look at the tiddler [[Gallery]] to jump straight to a demo, or you can use this to get a guided tour of the plugin and its features. The tour is done using my [[WizardWizard plugin|http://ooktech.com/jed/ExampleWikis/WizardWizard/]]. Click on the forward button below to get to the next slide.
+This is the demo site showing how to use my Photo Gallery plugin. Look at the tiddler [[Demo]] to jump straight to a demo, or you can use this to get a guided tour of the plugin and its features. The tour is done using my [[WizardWizard plugin|http://ooktech.com/jed/ExampleWikis/WizardWizard/]]. Click on the forward button below to get to the next slide.
 
 If you would rather see all of the information in a single tiddler and not have to page though it you can see it [[here|Non-Wizard Version]].

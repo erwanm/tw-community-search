@@ -5,11 +5,11 @@ tags: CommunityWikis
 title: PhotoGallery
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/PhotoGallery/
-wiki-tw-version: 5.1.12-prerelease
-wiki-latest-modification: 20160709120623778
-wiki-nb-tiddlers: 11
+wiki-tw-version: 5.1.14-prerelease
+wiki-latest-modification: 20170226143959732
+wiki-nb-tiddlers: 12
 
-A guided tour and demo
+a demo of the plugin
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

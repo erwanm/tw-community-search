@@ -5,7 +5,7 @@ source-wiki-id: PhotoGallery
 source-tiddler-title-as-text: Displaying A Gallery
 source-tiddler-title-as-link: Displaying%20A%20Gallery
 
-Displaying a gallery is very simple. All you need to do is go to the [[Edit Photo Gallery|$:/plugins/inmysocks/Photo Gallery/Edit Photo Gallery]] tiddler, select the gallery you want to display and then copy the text under where it says `To display this gallery in a tiddler copy this into the text field of the tiddler: `. It should be in the form of `<<PhotoGallery GalleryName>>` where the gallery name is the name of the gallery you want to display.
+Displaying a gallery is very simple. All you need to do is go to the [[Edit Photo Gallery|$:/plugins/OokTech/Photo Gallery/Edit Photo Gallery]] tiddler, select the gallery you want to display and then copy the text under where it says `To display this gallery in a tiddler copy this into the text field of the tiddler: `. It should be in the form of `<<PhotoGallery GalleryName>>` where the gallery name is the name of the gallery you want to display.
 
 Anywhere you paste that in the text of a tiddler it will show the gallery.
 

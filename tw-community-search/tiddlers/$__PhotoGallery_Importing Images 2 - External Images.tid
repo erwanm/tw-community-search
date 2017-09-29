@@ -9,7 +9,7 @@ source-tiddler-title-as-link: Importing%20Images%202%20-%20External%20Images
 
 !!!Using the `Add External Photo` button
 
-In the [[Edit Photo Gallery|$:/plugins/inmysocks/Photo Gallery/Edit Photo Gallery]] tiddler you can also use the `Add External Photo` button to add a photo to the gallery.
+In the [[Edit Photo Gallery|$:/plugins/OokTech/Photo Gallery/Edit Photo Gallery]] tiddler you can also use the `Add External Photo` button to add a photo to the gallery.
 When you click on the button you need to provide two things, a name for the photo in your gallery and the path to the photo.
 If you are using your wiki on your computer and it won't be online than you can use locations on your computer, if you are posting the wiki online than any locations you give need to be accessable online.
 The path to an image online is a url like for a website, it generally starts with http or https and should end with something like `.jpg` or `.png`. A simple check is done to see if you are pointing the wiki to a valid image, but it isn't gaurenteed to work. Once you have entered the name and given the path click `Add Photo` and it will be added. When you are done clicking `Done` next to the `Add Photo` button will close the add image interface.
