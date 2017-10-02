@@ -1,0 +1,13 @@
+title: $:/MathyThing (inmysocks)/MakeLibraryCommand
+caption: makelibrary
+created: 20140903085210479
+modified: 20140903085210479
+type: text/vnd.tiddlywiki
+original-tags: Commands
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: MakeLibraryCommand
+source-tiddler-title-as-link: MakeLibraryCommand
+
+{{$:/language/Help/makelibrary}}
+
+See the UpgradeMechanism for more details.

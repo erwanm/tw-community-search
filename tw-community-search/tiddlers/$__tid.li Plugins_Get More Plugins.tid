@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20170917082512077
+modified: 20171001221946209
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -16,9 +16,14 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 <span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/details">
 {{$:/core/images/right-arrow}}<span class="btn-text"> ~DetailsWidget</span></$link></span>
 
-!! Edit
-
 * $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/HarveyBalls">
+{{$:/plugins/telmiger/HarveyBalls/half/icon.svg}}<span class="btn-text"> ~HarveyBalls</span></$link></span>
+
+* $:/plugins/telmiger/HarveyBalls – ideograms for visual communication of qualitative information
+
+!! Edit
 
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/Clipboard">
 {{$:/core/images/file}}<span class="btn-text"> Clipboard</span></$link></span>
@@ -68,6 +73,7 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
    background: #34c734;
    display: inline-block; 
    min-width: 13em;
+   min-height: 2.9em;
    padding: 8px;
    margin: 4px 8px 4px 8px;
    color: #ffffff;
@@ -116,5 +122,9 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 }
 .tc-btn-big-color.darkblue:hover {
    background-color: #2caeff;
+}
+.tc-btn-big-color svg.em-icon.ball-half { 
+   fill: #fff;
+   padding: 0.05em;
 }
 </style>

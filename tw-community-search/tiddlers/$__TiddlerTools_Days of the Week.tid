@@ -1,0 +1,17 @@
+title: $:/TiddlerTools/Days of the Week
+created: 20150117192110000
+list: Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+modified: 20150123214636000
+my-special-list: [[listed Operator (Examples)]]
+short: Mon Tue Wed Thu Fri Sat Sun
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Days of the Week
+source-tiddler-title-as-link: Days%20of%20the%20Week
+
+<<.this-is-operator-example>>
+
+It has a <<.field list>> field containing the following items:
+
+<<list-links "[list[]]">>
