@@ -1,7 +1,7 @@
 title: Tag: $:/tags/EditTemplate
 tags: CommunityTags
 community-tag: $:/tags/EditTemplate
-community-tag-count: 2
-community-wikis: [[TW5Hacks]] [[ViewFields]]
+community-tag-count: 1
+community-wikis: [[ViewFields]]
 
 {{||$:/CommunityTagTemplate}}

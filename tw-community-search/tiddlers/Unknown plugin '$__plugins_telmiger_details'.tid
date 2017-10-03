@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/telmiger/details'
-name: unknown
-plugin_tiddler: $:/plugins/telmiger/details
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
