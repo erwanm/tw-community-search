@@ -1,0 +1,15 @@
+title: $:/listops/reverse Operator
+caption: reverse
+created: 20140410103123179
+modified: 20150203190852000
+op-input: a [[selection of titles|Title Selection]]
+op-output: the input, in reverse order
+op-parameter: none
+op-purpose: reverse the order of the input titles
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: listops
+source-tiddler-title-as-text: reverse Operator
+source-tiddler-title-as-link: reverse%20Operator
+
+<<.operator-examples "reverse">>

@@ -1,0 +1,17 @@
+title: $:/maketid/TableOfContents
+caption: {{$:/language/SideBar/Contents/Caption}}
+created: 20140809114010378
+list: HelloThere Learning [[Working with TiddlyWiki]] [[Customise TiddlyWiki]] Features Languages Editions Plugins Platforms Reference Community About
+list-after: $:/core/ui/SideBar/Open
+modified: 20150414070242411
+type: text/vnd.tiddlywiki
+original-tags: $:/tags/SideBar
+source-wiki-id: maketid
+source-tiddler-title-as-text: TableOfContents
+source-tiddler-title-as-link: TableOfContents
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'TableOfContents'>>
+
+</div>

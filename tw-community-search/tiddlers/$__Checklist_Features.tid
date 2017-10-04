@@ -1,0 +1,14 @@
+title: $:/Checklist/Features
+created: 20130822172800000
+modified: 20160107225826644
+type: text/vnd.tiddlywiki
+original-tags: TableOfContents
+source-wiki-id: Checklist
+source-tiddler-title-as-text: Features
+source-tiddler-title-as-link: Features
+
+Further information about specific TiddlyWiki features:
+
+<<list-links "[tag[Features]]">>
+
+Last but not least, TiddlyWiki is a rare example of a practical [[quine|Quine]]

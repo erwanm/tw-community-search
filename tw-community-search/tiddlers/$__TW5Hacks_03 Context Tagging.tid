@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/03 Context Tagging
+created: 20170224195102124
+creator: Thomas Elmiger
+modified: 20170224195644691
+modifier: Thomas Elmiger
+original-tags: Listreveal
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: 03 Context Tagging
+source-tiddler-title-as-link: 03%20Context%20Tagging
+
+When you look inside a tiddler in the list using the ellipsis (…) button on the right, you see the tiddler’s tags, text and timestamps. 
+
+{{$:/core/images/tag-button}}
+
+The tags can be changed using the tag label icon. A unique feature called context tagging or list-based tagging appears in a popup. From there you are able to add suggested tags based on the other tiddlers in your list or remove single tags from the tiddler. 

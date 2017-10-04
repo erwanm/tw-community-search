@@ -1,0 +1,12 @@
+title: $:/Wiki MetaTags (inmysocks)/BetaReleases
+created: 20131109105400007
+modified: 20141010092837891
+type: text/vnd.tiddlywiki
+original-tags: Releases
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: BetaReleases
+source-tiddler-title-as-link: BetaReleases
+
+Here are the details of the beta releases of TiddlyWiki5. See [[TiddlyWiki5 Versioning]] for details of how releases are named.
+
+<<tabs "[tag[BetaReleaseNotes]!sort[created]]" "Release 5.0.18-beta" "$:/state/tab2" "tc-vertical" "ReleaseTemplate">>

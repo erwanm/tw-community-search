@@ -1,0 +1,13 @@
+title: $:/Invoking Actions (inmysocks)/WidgetMessage: tm-logout
+caption: tm-logout
+created: 20140811112457311
+modified: 20140811113344084
+type: text/vnd.tiddlywiki
+original-tags: Messages
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: WidgetMessage: tm-logout
+source-tiddler-title-as-link: WidgetMessage%3a%20tm-logout
+
+The logout message attempts to log the user out of the current serverside host. The tiddler [[$:/status/IsLoggedIn]] reflects the current login status with the values "yes" or "no", and [[$:/status/UserName]] reflects the current username.
+
+The logout message is handled by the TiddlyWiki core SyncMechanism which invokes the current [[SyncAdaptorModule|SyncAdaptorModules]] (typically the ''tiddlywiki/tiddlywebadaptor'' plugin).
