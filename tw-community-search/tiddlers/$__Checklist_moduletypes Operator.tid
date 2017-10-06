@@ -1,0 +1,15 @@
+title: $:/Checklist/moduletypes Operator
+caption: moduletypes
+created: 20140410103123179
+modified: 20150203185903000
+op-input: ignored
+op-output: the name of each known ~TiddlyWiki [[module type|ModuleType]], in alphabetical order
+op-parameter: none
+op-purpose: select the names of all ~TiddlyWiki module types
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Special Operators]] [[Selection Constructors]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: moduletypes Operator
+source-tiddler-title-as-link: moduletypes%20Operator
+
+<<.operator-examples "moduletypes">>

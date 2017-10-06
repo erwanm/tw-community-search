@@ -1,9 +1,12 @@
 title: $:/tid.li Plugins/$:/plugins/telmiger/HarveyBalls
 author: Thomas Elmiger
 core-version: 
+created: 20171005214018768
 description: HarveyBalls
-list: readme
-version: 0.0.2
+list: readme alternatives credits
+modified: 20171005214046725
+source: https://tid.li/tw5/plugins.html
+version: 0.0.5
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/HarveyBalls

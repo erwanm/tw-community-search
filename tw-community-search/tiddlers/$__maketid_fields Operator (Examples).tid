@@ -1,0 +1,11 @@
+title: $:/maketid/fields Operator (Examples)
+created: 20150118134611000
+modified: 20150118183206000
+type: text/vnd.tiddlywiki
+original-tags: [[fields Operator]] [[Operator Examples]]
+source-wiki-id: maketid
+source-tiddler-title-as-text: fields Operator (Examples)
+source-tiddler-title-as-link: fields%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[HelloThere]fields[]]" "fields of HelloThere">>
+<<.operator-example 2 "[tag[Common Operators]fields[]]" "fields of all tiddlers tagged as [[Common Operators]]">>

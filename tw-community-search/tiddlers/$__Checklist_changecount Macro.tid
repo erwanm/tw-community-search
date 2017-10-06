@@ -1,0 +1,19 @@
+title: $:/Checklist/changecount Macro
+caption: changecount
+created: 20131228162825226
+modified: 20150221151223000
+type: text/vnd.tiddlywiki
+original-tags: Macros [[Core Macros]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: changecount Macro
+source-tiddler-title-as-link: changecount%20Macro
+
+The <<.def changecount>> [[macro|Macros]] returns the number of times the [[current tiddler|Current Tiddler]] has been created, stored or deleted during the current ~TiddlyWiki session.
+
+If a tiddler is deleted and subsequently recreated, its <<.var changecount>> will go up by two.
+
+!! Parameters
+
+(none)
+
+<<.macro-examples "changecount">>

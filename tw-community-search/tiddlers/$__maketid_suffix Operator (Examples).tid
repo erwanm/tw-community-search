@@ -1,0 +1,11 @@
+title: $:/maketid/suffix Operator (Examples)
+created: 20150124113652000
+modified: 20150124113925000
+type: text/vnd.tiddlywiki
+original-tags: [[suffix Operator]] [[Operator Examples]]
+source-wiki-id: maketid
+source-tiddler-title-as-text: suffix Operator (Examples)
+source-tiddler-title-as-link: suffix%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[suffix[.jpg]]">>
+<<.operator-example 2 "[tag[task]!suffix[ing]]">>

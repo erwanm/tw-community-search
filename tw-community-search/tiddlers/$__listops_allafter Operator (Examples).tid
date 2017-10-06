@@ -1,0 +1,13 @@
+title: $:/listops/allafter Operator (Examples)
+created: 20151022123929297
+modified: 20151108080543606
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[allafter Operator]]
+source-wiki-id: listops
+source-tiddler-title-as-text: allafter Operator (Examples)
+source-tiddler-title-as-link: allafter%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[list[Days of the Week]] +[allafter[Wednesday]]">>
+<<.operator-example 2 "[list[Days of the Week]] +[allafter:include[Wednesday]]">>
