@@ -5,7 +5,7 @@ creator: Andrew Harrison
 description: This tiddler will help me take notes and quickly remember great amounts of information temporarily all in one place. Inspired by Stephan Hradek's slider. Also, designed to be dynamic so it can be cloned. It stores the states from the slider buttons and text field in a temp tiddler. The reset button deletes the temp tiddler to reset everything from this tiddler. Cloned forms have reset buttons that clear their own forms.<br>{{!!title||$:/Here}}
 icon: $:/Toggle Sheet Icon
 icon-color: #333
-modified: 20171002131555474
+modified: 20170723062826626
 modifier: Andrew Harrison
 show-field: description -icon
 original-tags: New Contents
@@ -14,6 +14,9 @@ source-tiddler-title-as-text: Toggle Sheet
 source-tiddler-title-as-link: Toggle%20Sheet
 
 \define reveal-tagpill1() $:/temp/$(currentTiddler)$!!TagPill1
+
+<<overlay {{$:/Examples/Overlay!!what}} {{$:/Examples/Overlay!!with}} 100% 40px overlay-example>>
+<span class='tc-copy-button'><$button param={{!!title}} message='tm-selection' tooltip={{$:/language/Buttons/Copy/Hint}} aria-label={{$:/language/Buttons/Copy/Caption}} class='tc-btn-invisible'><$action-sendmessage $message='tm-notify' $param='$:/language/Buttons/Copy/Notification'/>{{$:/plugin/ajh/copy/images/copy}}</$button>
 
 {{Tiddlywiki||$:/copy}}<br>
 <<toggle TagPill1>><br>
