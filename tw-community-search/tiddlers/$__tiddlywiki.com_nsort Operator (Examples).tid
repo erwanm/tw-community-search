@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/nsort Operator (Examples)
+created: 20150123221921000
+modified: 20150123222142000
+type: text/vnd.tiddlywiki
+original-tags: [[nsort Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: nsort Operator (Examples)
+source-tiddler-title-as-link: nsort%20Operator%20%28Examples%29
+
+<<.operator-example 1 "10 010 1000 100 +[nsort[]]">>
+<<.operator-example 2 "10 010 ALPHA beta alpha 1000 100 +[nsort[]]">>

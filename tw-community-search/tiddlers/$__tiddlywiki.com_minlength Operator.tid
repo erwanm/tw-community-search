@@ -1,0 +1,17 @@
+title: $:/tiddlywiki.com/minlength Operator
+caption: minlength
+created: 20161011074235805
+from-version: 5.1.14
+modified: 20161011074235805
+op-input: a list of items
+op-output: those items at least as long as the specified minimum length
+op-parameter: the minimum length for items
+op-parameter-name: minlength
+op-purpose: filter items shorter than the specified minimum length
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: minlength Operator
+source-tiddler-title-as-link: minlength%20Operator
+
+<<.operator-examples "minlength">>
