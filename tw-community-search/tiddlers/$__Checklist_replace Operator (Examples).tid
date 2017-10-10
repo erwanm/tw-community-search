@@ -1,0 +1,14 @@
+title: $:/Checklist/replace Operator (Examples)
+created: 20151017153634099
+modified: 20151108052127454
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[replace Operator]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: replace Operator (Examples)
+source-tiddler-title-as-link: replace%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[list[Days of the Week]] Last +[replace[Wednesday]]">>
+<<.operator-example 2 "[list[Days of the Week]] Last +[replace:2[Tuesday]]">>
+<<.operator-example 3 "[list[Days of the Week]] [[Yesterday]] [[Today]] [[Tomorrow]] +[replace:3[Tuesday]]">>
