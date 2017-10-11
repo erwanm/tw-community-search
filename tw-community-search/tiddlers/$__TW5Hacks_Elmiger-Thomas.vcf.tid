@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Elmiger-Thomas.vcf
 created: 20161014131413873
 creator: Thomas Elmiger
-modified: 20161204211707875
+modified: 20170930152846570
 modifier: Thomas Elmiger
 original-tags: 
 source-wiki-id: TW5Hacks
@@ -12,11 +12,11 @@ BEGIN:VCARD
 VERSION:2.1
 N;LANGUAGE=de-ch;CHARSET=utf-8:Elmiger;Thomas;;Herr;;
 FN:Thomas Elmiger
-ORG;CHARSET=utf-8:Stämpfli AG
-TITLE:Leiter Beratung Internet und Online-Marketing
-ADR;TYPE=WORK,pref;CHARSET=utf-8:;;Husacherstrasse 3;Wallisellen-Zürich;;8304;Schweiz;
-EMAIL;TYPE=WORK,pref:thomas.elmiger@staempfli.com
-TEL;TYPE=WORK;VOICE:+41 44 309 90 70
-URL;WORK:www.staempfli-internet.ch
-REV:20161014T100000Z
+ORG:Yourposition AG
+TITLE:Senior Sales Manager
+ADR;TYPE=WORK,pref;CHARSET=utf-8:;;Binzmühlestrasse 170c;Zürich;;8050;Schweiz;
+EMAIL;TYPE=WORK,pref:telmiger@yourposition.ch
+TEL;TYPE=WORK;VOICE:+41 44 576 48 53
+URL;WORK:www.yourposition.ch
+REV:20171001T080000Z
 END:VCARD
