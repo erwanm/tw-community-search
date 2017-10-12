@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Stylesheet Manager
 created: 20171010200731322
 creator: Thomas Elmiger
-modified: 20171010210656711
+modified: 20171011051452378
 modifier: Thomas Elmiger
 original-tags: Hacks
 source-wiki-id: TW5Hacks
@@ -77,3 +77,7 @@ source-tiddler-title-as-link: Stylesheet%20Manager
 </ul>
 </$wikify>
 </section>
+
+---
+
+This handy little tool is based on the [[Listreveal|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2Flistreveal]] plugin that can be imported from https://tid.li/tw5/plugins.html.
