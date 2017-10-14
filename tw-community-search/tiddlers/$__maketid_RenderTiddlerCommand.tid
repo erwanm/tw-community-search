@@ -1,8 +1,0 @@
-title: $:/maketid/RenderTiddlerCommand
-caption: rendertiddler
-original-tags: Commands
-source-wiki-id: maketid
-source-tiddler-title-as-text: RenderTiddlerCommand
-source-tiddler-title-as-link: RenderTiddlerCommand
-
-{{$:/language/Help/rendertiddler}}
