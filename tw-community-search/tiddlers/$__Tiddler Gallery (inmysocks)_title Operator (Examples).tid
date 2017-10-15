@@ -1,0 +1,18 @@
+title: $:/Tiddler Gallery (inmysocks)/title Operator (Examples)
+created: 20150124140124000
+modified: 20150124140355000
+type: text/vnd.tiddlywiki
+original-tags: [[title Operator]] [[Operator Examples]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: title Operator (Examples)
+source-tiddler-title-as-link: title%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[title[HelloThere]]">>
+<<.operator-example 2 "[[HelloThere]]">>
+<<.operator-example 3 "HelloThere">>
+<<.operator-example 4 "[title[HelloThere]] [title[Filter Operators]]">>
+<<.operator-example 5 "[[HelloThere]] [[Filter Operators]]">>
+<<.operator-example 6 "HelloThere [[Filter Operators]]">>
+<<.operator-example 7 "[tag[Filters]] +[!title[Filter Operators]]">>
+<<.operator-example 8 "[tag[Filters]] +[![Filter Operators]]">>
+<<.operator-example 9 "[tag[Filters]] -[[Filter Operators]]">>
