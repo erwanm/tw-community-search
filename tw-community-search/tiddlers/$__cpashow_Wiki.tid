@@ -1,0 +1,9 @@
+title: $:/cpashow/Wiki
+original-tags: Concepts
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Wiki
+source-tiddler-title-as-link: Wiki
+
+Groups of uniquely titled tiddlers are contained in WikiStore objects.
+
+The WikiStore also manages the plugin modules used for widgets, and operations like serializing, deserializing, parsing and rendering tiddlers.

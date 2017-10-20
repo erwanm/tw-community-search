@@ -1,0 +1,15 @@
+title: $:/TiddlerTools/Structuring TiddlyWiki
+created: 20131128090536894
+modified: 20150124211518000
+type: text/vnd.tiddlywiki
+original-tags: [[Working with TiddlyWiki]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Structuring TiddlyWiki
+source-tiddler-title-as-link: Structuring%20TiddlyWiki
+
+TiddlyWiki5 provides several features to help you structure information as [[tiddlers|Tiddlers]], and model the relationships between them:
+
+* TiddlerLinks
+* [[Tagging]]
+* [[Title Lists|Title List]]
+* DataTiddlers

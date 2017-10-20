@@ -1,0 +1,15 @@
+title: $:/listops/resolvepath Macro (Examples)
+created: 20150221182731000
+modified: 20150221183441000
+type: text/vnd.tiddlywiki
+original-tags: [[resolvepath Macro]] [[Macro Examples]]
+source-wiki-id: listops
+source-tiddler-title-as-text: resolvepath Macro (Examples)
+source-tiddler-title-as-link: resolvepath%20Macro%20%28Examples%29
+
+<$macrocall $name=".example" n="1" eg="""<<resolvepath "./backup" "http://example.com/store.php">>"""/>
+<$macrocall $name=".example" n="2" eg="""<<resolvepath "backup" "http://example.com/store.php">>"""/>
+<$macrocall $name=".example" n="3" eg="""<<resolvepath "../backup" "http://example.com/store.php">>"""/>
+<$macrocall $name=".example" n="4" eg="""<<resolvepath "../jpg/Motovun_Jack.jpg" "http://example.com/resources/images/png/">>"""/>
+<$macrocall $name=".example" n="5" eg="""<<resolvepath "../jpg/../png/Motovun_Jack.png">>"""/>
+<$macrocall $name=".example" n="6" eg="""<<resolvepath "jpg/Motovun_Jack.jpg">>"""/>
