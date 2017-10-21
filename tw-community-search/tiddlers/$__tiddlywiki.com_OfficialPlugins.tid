@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/OfficialPlugins
+created: 20170210075109635
+modified: 20170210075709809
+type: text/vnd.tiddlywiki
+original-tags: Plugins
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: OfficialPlugins
+source-tiddler-title-as-link: OfficialPlugins
+
+The official TiddlyWiki plugin library contains the plugins that are part of the [[main TiddlyWiki 5 GitHub repository|Working with the TiddlyWiki5 repository]]. Install them from [[the plugin library|Installing a plugin from the plugin library]]. Plugins from the official plugin library are automatically updated as part of the [[upgrade process|UpgradeMechanism]].
+
+<<list-links "[tag[OfficialPlugins]]">>
