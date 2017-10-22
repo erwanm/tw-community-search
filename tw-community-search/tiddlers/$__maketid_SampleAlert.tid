@@ -1,0 +1,13 @@
+title: $:/maketid/SampleAlert
+component: demo
+created: 20160107230134172
+modified: 20160107230134172
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: maketid
+source-tiddler-title-as-text: SampleAlert
+source-tiddler-title-as-link: SampleAlert
+
+This is a demonstration alert.
+
+Note that the trashcan icon deletes the tiddler containing this alert. You can also remove it by opening the tiddler SampleAlert and editing it to remove the tag [[$:/tags/Alert]].

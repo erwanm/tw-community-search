@@ -1,0 +1,20 @@
+title: $:/TiddlerTools/Configuring the default TiddlerInfo tab
+created: 20140828080837703
+modified: 20140912145908651
+type: text/vnd.tiddlywiki
+original-tags: [[Customise TiddlyWiki]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: Configuring the default TiddlerInfo tab
+source-tiddler-title-as-link: Configuring%20the%20default%20TiddlerInfo%20tab
+
+The configuration tiddler [[$:/config/TiddlerInfo/Default]] contains the title of the tiddler containing the default tiddler info tab.
+
+The default value is `$:/core/ui/TiddlerInfo/Tools` corresponding to the ''Tools'' tab. Other possible values are:
+
+<ul>
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TiddlerInfo]!has[draft.of]]">
+<li>
+<$view field="title"/>
+</li>
+</$list>
+</ul>

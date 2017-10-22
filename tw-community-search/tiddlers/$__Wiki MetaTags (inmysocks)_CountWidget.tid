@@ -1,0 +1,19 @@
+title: $:/Wiki MetaTags (inmysocks)/CountWidget
+caption: count
+created: 20131024141900000
+modified: 20131030083700000
+original-tags: Widgets
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: CountWidget
+source-tiddler-title-as-link: CountWidget
+
+! Introduction
+
+The count widget displays the number of matches to a specified [[filter expression|Filters]].
+
+! Content and Attributes
+
+The content of the `<$count>` widget is ignored.
+
+|!Attribute |!Description |
+|filter |The filter expression to count |

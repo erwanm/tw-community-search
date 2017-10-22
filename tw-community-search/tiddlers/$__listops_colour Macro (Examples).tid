@@ -1,0 +1,14 @@
+title: $:/listops/colour Macro (Examples)
+created: 20150221154356000
+modified: 20150221154803000
+type: text/vnd.tiddlywiki
+original-tags: [[colour Macro]] [[Macro Examples]]
+source-wiki-id: listops
+source-tiddler-title-as-text: colour Macro (Examples)
+source-tiddler-title-as-link: colour%20Macro%20%28Examples%29
+
+<$macrocall $name=".example" n="1" eg="""<<colour code-border>>"""/>
+<$macrocall $name=".example" n="2" eg="""<<colour foreground>>"""/>
+<$macrocall $name=".example" n="3" eg="""<<colour page-background>>"""/>
+<$macrocall $name=".example" n="4" eg="""<<colour sidebar-tab-background>>"""/>
+<$macrocall $name=".example" n="5" eg="""<<colour tag-foreground>>"""/>

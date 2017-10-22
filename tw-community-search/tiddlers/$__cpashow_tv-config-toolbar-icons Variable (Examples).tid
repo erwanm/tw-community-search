@@ -1,0 +1,22 @@
+title: $:/cpashow/tv-config-toolbar-icons Variable (Examples)
+created: 20150228140420000
+modified: 20150228141418000
+type: text/vnd.tiddlywiki
+original-tags: [[tv-config-toolbar-icons Variable]] [[Variable Examples]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: tv-config-toolbar-icons Variable (Examples)
+source-tiddler-title-as-link: tv-config-toolbar-icons%20Variable%20%28Examples%29
+
+<$macrocall $name=".example" n="1"
+eg="""<$set name="tv-config-toolbar-icons" value="no">
+<$set name="tv-config-toolbar-text" value="yes">
+{{$:/core/ui/Buttons/new-tiddler}}
+</$set>
+</$set>
+"""/>
+
+<$macrocall $name=".example" n="2"
+eg="""<$set name="tv-config-toolbar-icons" value="yes">
+{{$:/core/ui/Buttons/new-tiddler}}
+</$set>
+"""/>

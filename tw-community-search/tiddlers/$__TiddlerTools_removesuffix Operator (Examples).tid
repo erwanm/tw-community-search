@@ -1,0 +1,12 @@
+title: $:/TiddlerTools/removesuffix Operator (Examples)
+created: 20150118132851000
+modified: 20150123211000000
+type: text/vnd.tiddlywiki
+original-tags: [[removesuffix Operator]] [[Operator Examples]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: removesuffix Operator (Examples)
+source-tiddler-title-as-link: removesuffix%20Operator%20%28Examples%29
+
+<<.operator-example 1 "SIMPLEX Googolplex Complex +[removesuffix[plex]]">>
+
+
