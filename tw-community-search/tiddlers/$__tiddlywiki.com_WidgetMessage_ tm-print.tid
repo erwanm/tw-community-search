@@ -1,0 +1,13 @@
+title: $:/tiddlywiki.com/WidgetMessage: tm-print
+caption: tm-print
+created: 20161008085627406
+modified: 20161008085627406
+type: text/vnd.tiddlywiki
+original-tags: Messages
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WidgetMessage: tm-print
+source-tiddler-title-as-link: WidgetMessage%3a%20tm-print
+
+<<.from-version "5.1.14">> The `tm-print` message causes the browser to display the print dialog for the current page. It does not require any properties on the `event` object.
+
+The print message is usually generated with the ButtonWidget and is handled by the core.
