@@ -1,0 +1,17 @@
+title: $:/TiddlerTools/IndexedDB Plugin by Andreas Abeck
+created: 20150403110356105
+modified: 20150403110758877
+type: text/vnd.tiddlywiki
+url: http://tw5-dev.cibm.de
+original-tags: Resources
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: IndexedDB Plugin by Andreas Abeck
+source-tiddler-title-as-link: IndexedDB%20Plugin%20by%20Andreas%20Abeck
+
+A plugin that allows changes to be synchronised with the IndexedDB database that is built-in to most browsers.
+
+{{!!url}}
+
+<<<
+Being quite new to TW5 development I tried my best to draft a SyncAdaptor to store tiddlers in IndexedDb. This is quite useful if an application / plugin installation is not possible (we have quite some restrictions at work...).
+<<<
