@@ -6,7 +6,7 @@ description: Simple readonly plugin
 list: readme help
 modified: 20170507151716683
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.5
+version: 0.0.6
 original-tags: 
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: $:/plugins/tongerner/sro

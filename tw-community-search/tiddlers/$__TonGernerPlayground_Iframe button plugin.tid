@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Iframe button plugin
 caption: Iframe button
 created: 20170607094458507
 creator: TonGerner
-modified: 20170607094540428
+modified: 20171030202723715
 modifier: TonGerner
 original-tags: button
 source-wiki-id: TonGernerPlayground
@@ -11,4 +11,4 @@ source-tiddler-title-as-link: Iframe%20button%20plugin
 
 !! [[Iframe button plugin]] v<<pversion "iframe">>
 
-<<readme $:/plugins/tongerner/iframe/readme $:/plugins/tongerner/iframe>>
+<<readme $:/plugins/tongerner/iframe-button/readme $:/plugins/tongerner/iframe-button>>

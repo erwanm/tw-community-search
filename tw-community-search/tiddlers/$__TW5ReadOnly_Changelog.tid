@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Changelog
 created: 20140104122519245
 creator: TonGerner
-modified: 20170507154546367
+modified: 20171031101252936
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5ReadOnly
@@ -13,6 +13,9 @@ source-tiddler-title-as-link: Changelog
 <<<
 ''Note:''<br><span title="Known 'hitches'"><<slider "Known 'hitches'" "Known hitches">></span>
 <<<
+
+!!!!v4.02 (31-10-2017)
+* Updated plugins
 
 !!!!v4.01 (7-5-2017)
 * Upgraded to TW v5.1.14

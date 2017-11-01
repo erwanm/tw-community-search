@@ -1,0 +1,17 @@
+title: $:/TiddlerTools/version Macro
+caption: version
+created: 20131228162448664
+modified: 20150221214134000
+type: text/vnd.tiddlywiki
+original-tags: Macros [[Core Macros]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: version Macro
+source-tiddler-title-as-link: version%20Macro
+
+The <<.def version>> [[macro|Macros]] returns the current version number of ~TiddlyWiki.
+
+!! Parameters
+
+(none)
+
+<<.macro-examples "version">>

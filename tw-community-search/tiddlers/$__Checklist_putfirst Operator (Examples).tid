@@ -1,0 +1,14 @@
+title: $:/Checklist/putfirst Operator (Examples)
+created: 20151017152847899
+modified: 20151108051943204
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[putfirst Operator]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: putfirst Operator (Examples)
+source-tiddler-title-as-link: putfirst%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[list[Days of the Week]] +[putfirst[]]">>
+<<.operator-example 2 "[list[Days of the Week]] +[putfirst:2[]]">>
+<<.operator-example 3 "[list[Days of the Week]] [[Yesterday]] [[Today]] [[Tomorrow]] +[putfirst:-2[]]">>

@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tongerner/timestamp-button
+author: TonGerner
+core-version: >=5.1.13
+created: 20170511203457093
+creator: TonGerner
+description: Timestamp button
+list: readme
+modified: 20170726075452673
+modifier: TonGerner
+version: 0.0.10
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tongerner/timestamp-button
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2ftimestamp-button
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Introduction
 created: 20131122170358987
 creator: TonGerner
-modified: 20170507161628299
+modified: 20171031103503988
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -33,7 +33,9 @@ The 'top toolbar' is available as a plugin, just drag & drop:
 * This TW uses:
 ** The Top toolbar plugin v<<pversion toolbar>>
 ** The Layout adjustment plugin v<<version layout_adjustment>>
-** The Emphasized theme v<<tversion "emphasized">>
+** The List recent plugin v<<pversion listrecent>>
+*** The tiddler [[$:/_toggle-listrecent-plugin-button]] to change how recent tiddlers will be displayed
+** The Emphasized theme v<<tversion emphasized>>
 ** The Bluish color palette
 ** A System tags tab (Sidebar > More)
 ** The tiddler [[$:/_toggle-editor-toolbar_preview]] which adds a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It can toggle preview mode as well.

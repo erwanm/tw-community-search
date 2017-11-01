@@ -6,7 +6,7 @@ description: Uptoolbar
 list: readme
 modified: 20170430171037302
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.6
+version: 0.1.7
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/uptoolbar

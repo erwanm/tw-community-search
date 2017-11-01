@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Changelog
 created: 20140121191533502
 creator: TonGerner
-modified: 20170506094306780
+modified: 20171031101755681
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v3.02 (31-10-2017)
+* Updated plugins
 
 !!!!v3.01 (5-5-2017)
 * Deprecated Breadcrumbs plugin => Tiddlersbar plugin

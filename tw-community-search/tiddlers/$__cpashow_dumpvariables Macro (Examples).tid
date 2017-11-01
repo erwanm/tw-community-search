@@ -1,0 +1,17 @@
+title: $:/cpashow/dumpvariables Macro (Examples)
+created: 20150221151358000
+modified: 20150221151415000
+type: text/vnd.tiddlywiki
+original-tags: [[dumpvariables Macro]] [[Macro Examples]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: dumpvariables Macro (Examples)
+source-tiddler-title-as-link: dumpvariables%20Macro%20%28Examples%29
+
+<$macrocall $name=".example" n="1"
+eg="""<$set name="EXAMPLE" value="123.$(EXAMPLE2)$.789">
+<$set name="EXAMPLE2" value="456">
+
+<<dumpvariables>>
+
+</$set>
+</$set>"""/>

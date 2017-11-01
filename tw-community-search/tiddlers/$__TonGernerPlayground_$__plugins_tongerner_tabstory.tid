@@ -8,7 +8,7 @@ list: readme
 modified: 20170430193629205
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.8
+version: 0.1.9
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/tabstory

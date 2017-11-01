@@ -6,7 +6,7 @@ description: List recent results; each day in alphabetical order.
 list: readme
 modified: 20170502172009368
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.9
+version: 0.1.10
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tongerner/listrecent
