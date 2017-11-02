@@ -1,0 +1,16 @@
+title: $:/tiddlywiki.com/WidgetMessage: tm-scroll
+caption: tm-scroll
+created: 20160425000906330
+modified: 20160425001655166
+type: text/vnd.tiddlywiki
+original-tags: Messages
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WidgetMessage: tm-scroll
+source-tiddler-title-as-link: WidgetMessage%3a%20tm-scroll
+
+The `tm-scroll` message causes the surrounding scrollable container to scroll to the specified DOM node into view. The `tm-scroll` is handled in various places in the core itself, but can also be handled by a [[ScrollableWidget]].
+
+|!Name |!Description |
+|target |Target DOM node the scrollable container should scroll to. |
+
+Due to the nature of the parameter, the `tm-scroll` can only be generated within javascript code.

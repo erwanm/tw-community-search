@@ -1,0 +1,19 @@
+title: $:/tiddlywiki.com/SaveTrail Plugin
+created: 20170210074840860
+modified: 20170328173912704
+type: text/vnd.tiddlywiki
+original-tags: OfficialPlugins
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: SaveTrail Plugin
+source-tiddler-title-as-link: SaveTrail%20Plugin
+
+This plugin causes TiddlyWiki to continuously download (as a JSON file) the contents of any tiddler that is manually changed by any of several means:
+
+* Confirming an edit
+* Deleting tiddlers
+* Imports
+* Renames/relinks
+* Optionally, typing in draft tiddlers can trigger a download
+
+Where appropriate, separate 'before' and 'after' files are downloaded. Configured correctly, the browser will download the files silently in the background, and they can be used as a backup in case of accidental data loss.
+
