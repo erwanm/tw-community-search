@@ -1,0 +1,14 @@
+title: $:/Invoking Actions (inmysocks)/previous Operator (Examples)
+created: 20150123221711000
+modified: 20150123223422000
+type: text/vnd.tiddlywiki
+original-tags: [[previous Operator]] [[Operator Examples]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: previous Operator (Examples)
+source-tiddler-title-as-link: previous%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 "[[Wednesday]previous[Days of the Week]]">>
+<<.operator-example 2 "[[Monday]previous[Days of the Week]]">>
+<<.operator-example 3 "Tuesday Wednesday Thursday +[previous[Days of the Week]]">>

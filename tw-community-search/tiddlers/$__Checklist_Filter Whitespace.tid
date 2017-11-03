@@ -1,0 +1,14 @@
+title: $:/Checklist/Filter Whitespace
+created: 20150124182304000
+modified: 20150125105243000
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Syntax]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: Filter Whitespace
+source-tiddler-title-as-link: Filter%20Whitespace
+
+<$railroad text="""
+{( "space" | "tab" | "linefeed" | "return" | "vertical tab" | "formfeed" )}
+"""/>
+
+Whitespace characters can appear between each [[run|Filter Run]] of a [[filter expression|Filter Expression]].

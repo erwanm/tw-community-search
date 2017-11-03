@@ -1,0 +1,11 @@
+title: $:/TiddlerTools/field Operator (Examples)
+created: 20150118134611000
+modified: 20150118183202000
+type: text/vnd.tiddlywiki
+original-tags: [[field Operator]] [[Operator Examples]]
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: field Operator (Examples)
+source-tiddler-title-as-link: field%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[field:author[JeremyRuston]]" "plugins authored by JeremyRuston">>
+<<.operator-example 2 "[plugin-type[theme]author[JeremyRuston]]" "themes authored by JeremyRuston">>

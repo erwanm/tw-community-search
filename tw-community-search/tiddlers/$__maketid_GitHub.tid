@@ -1,0 +1,14 @@
+title: $:/maketid/GitHub
+created: 20140910212609354
+modified: 20140910212725412
+type: text/vnd.tiddlywiki
+original-tags: Definitions
+source-wiki-id: maketid
+source-tiddler-title-as-text: GitHub
+source-tiddler-title-as-link: GitHub
+
+GitHub is a hosting service for distributed projects that use git as their version-control system. It allows free hosting and management of open-source projects and facilitates collaborative developement on the source code. Using GitHub for non-open-source endeavors requires additional fees.
+
+The code and documentation of TiddlyWiki is hosted on GitHub at:
+
+https://github.com/Jermolene/TiddlyWiki5
