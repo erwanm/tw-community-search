@@ -1,0 +1,14 @@
+title: $:/tiddlywiki.com/$:/plugins/tiddlywiki/evernote
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Evernote migration tools
+list: readme docs
+version: 5.1.15
+original-tags: 
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/evernote
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fevernote
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

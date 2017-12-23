@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20171031103556594
+modified: 20171116192838266
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v6.10 (16-11-2017)
+* Upgraded to TW v5.1.15
 
 !!!!v6.09 (31-10-2017)
 * Updated plugins

@@ -1,0 +1,14 @@
+title: $:/tiddlywiki.com/Twitter Plugin
+created: 20170227223209558
+modified: 20170328173919702
+type: text/vnd.tiddlywiki
+original-tags: OfficialPlugins
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Twitter Plugin
+source-tiddler-title-as-link: Twitter%20Plugin
+
+This plugin adds a `<$twitter>` widget that can embed a variety of entities from twitter.com:
+
+* Individual tweets and conversation threads
+* Buttons to tweet a hashtag/account, follow/like an account, or share a URL
+* Timelines showing tweets from a user, hashtag, list or collection

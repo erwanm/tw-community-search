@@ -1,12 +1,12 @@
 title: $:/TW5ReadOnly/$:/plugins/tongerner/layout_adjustment
 author: TonGerner
-core-version: 5.1.14
+core-version: 5.1.15
 created: 20161212133231948
 description: Layout adjustment
 list: readme
-modified: 20170506100653298
+modified: 20171116145610671
 source: http://tongerner.tiddlyspot.com/
-version: 0.3.20
+version: 0.3.21
 original-tags: 
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: $:/plugins/tongerner/layout_adjustment

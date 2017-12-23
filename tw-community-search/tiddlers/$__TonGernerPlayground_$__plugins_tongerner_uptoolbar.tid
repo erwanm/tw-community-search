@@ -1,12 +1,12 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/uptoolbar
 author: TonGerner
-core-version: 5.1.14
+core-version: 5.1.15
 created: 20160110143910616
 description: Uptoolbar
 list: readme
-modified: 20170430171037302
+modified: 20171116150115992
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.7
+version: 0.1.8
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/uptoolbar

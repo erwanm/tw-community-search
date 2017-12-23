@@ -1,12 +1,12 @@
 title: $:/TonGernerPlayground/$:/plugins/tongerner/sro
 author: TonGerner
-core-version: 5.1.14
+core-version: 5.1.15
 created: 20170320194041545
 description: Simple readonly plugin
 list: readme help
-modified: 20170507151716683
+modified: 20171116200110186
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.6
+version: 0.0.8
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/sro

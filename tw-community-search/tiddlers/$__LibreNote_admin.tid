@@ -1,10 +1,15 @@
 title: $:/LibreNote/admin
-caption: Gestion du contenu
+background-color: transparent
 created: 20161002182751298
-modified: 20161002182756555
-original-tags: config
+modified: 20171022182120978
+original-tags: 
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: admin
 source-tiddler-title-as-link: admin
 
-{{$:/admin}}
+<div style="text-align:center">
+<$button class="tc-btn-big-green admin" message="tm-modal" param="$:/admin/connect">
+    <$action-sendmessage $message='tm-close-tiddler' $param="admin"/>
+<i class="fa fa-lock" aria-hidden="true"></i> Connexion
+</$button>
+</div>

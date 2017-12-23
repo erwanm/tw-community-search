@@ -1,6 +1,6 @@
 title: $:/LibreNote/A propos
 created: 20160823201829553
-modified: 20161114142313593
+modified: 20171109175552344
 original-tags: semi
 source-wiki-id: LibreNote
 source-tiddler-title-as-text: A propos
@@ -13,12 +13,14 @@ source-tiddler-title-as-link: A%20propos
 ~LibreNote est forgé par svink
 </div>
 
+<div style="font-size:0.7em; text-align:left; margin-left:5em;">
 <br>
+</div>
 </div>
 
 <div class="col2">
 <div style="font-size:0.85em; text-align:right;">
-Ce site n'utilise aucun outils d'analyse du traffic, n'hésitez pas à m'envoyer un email pour toutes suggestions.
+Ce site n'utilise aucun outil d'analyse du traffic, n'hésitez pas à m'envoyer un email pour toute suggestion.
 </div>
 
 <div style="font-size:0.7em; text-align:left; margin-left:5em;">
@@ -28,7 +30,7 @@ Ce site n'utilise aucun outils d'analyse du traffic, n'hésitez pas à m'envoyer
 
 <div class="col2">
 <div style="font-size:0.85em; text-align:right;">
-L'ensemble des sources sont disponibles<br> sur le dépôt Git du projet.
+Les sources sont disponibles<br> sur le dépôt Git du projet.
 </div>
 
 <div style="font-size:0.7em; text-align:left; margin-left:5em;">

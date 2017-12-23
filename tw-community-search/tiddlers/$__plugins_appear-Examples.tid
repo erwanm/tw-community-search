@@ -104,6 +104,14 @@ Any non-standard mode is interpreted as //block// mode, however without applying
 
 <<` """before <$appear hide="&laquo;" mode="custom" $state="custom-block">//And I am a "plain block".//</$appear> after""">>
 
+!! Custom Button With HTML Markup
+
+Click on the heading to see it unfold...
+
+<<` """<$appear show="<h1>A heading!</h1>" mode="custom" $state="html-markup">
+
+And some content for you.</$appear>""">>
+
 !! Inline Slider Only Showing Once
 
 <<` """before <$appear once mode="inline" $state="inline-once">//I am text, and you cannot hide me once you see me.//</$appear> after""">>

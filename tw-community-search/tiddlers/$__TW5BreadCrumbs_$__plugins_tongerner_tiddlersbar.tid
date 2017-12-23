@@ -1,14 +1,14 @@
 title: $:/TW5BreadCrumbs/$:/plugins/tongerner/tiddlersbar
 author: TonGerner
-core-version: 5.1.14
+core-version: 5.1.15
 created: 20170325114613015
 creator: TonGerner
 description: TiddlersBar
 list: readme combination license
-modified: 20170430193853963
+modified: 20171116145953528
 modifier: TonGerner
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.7
+version: 0.0.8
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/tiddlersbar

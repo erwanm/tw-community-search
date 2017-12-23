@@ -5,8 +5,8 @@ tags: CommunityWikis
 title: TW5Toolbar
 type: text/vnd.tiddlywiki
 wiki-address: http://tw5toolbar.tiddlyspot.com/
-wiki-tw-version: 5.1.14
-wiki-latest-modification: 20171031103659474
+wiki-tw-version: 5.1.15
+wiki-latest-modification: 20171116192838266
 wiki-nb-tiddlers: 13
 
 a demo ~TiddlyWiki (''@@color:blue; TW v<<version>>@@'')

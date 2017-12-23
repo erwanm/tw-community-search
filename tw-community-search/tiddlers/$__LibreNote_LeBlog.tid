@@ -1,7 +1,7 @@
 title: $:/LibreNote/LeBlog
 created: 20150614154750487
 creator: svink
-modified: 20160722150302774
+modified: 20171110120944855
 modifier: svink
 original-tags: 
 source-wiki-id: LibreNote
@@ -18,13 +18,7 @@ source-tiddler-title-as-link: LeBlog
 {{News}}
 
 <div style="text-align:left; font-size: 0.9em; margin-top:1em; margin-left:1.5em;">
-<$button class="tc-btn-invisible lien-blog">
-<$action-setfield $tiddler="$:/StoryList" list="
-[[DerniersPosts]]
-[[ListeTags]]"/>
-<$action-navigate $to="DerniersPosts" $scroll="yes"/>
-Plus d'articles sur le blog
-</$button>
+<<pageLink class:"tc-btn-invisible lien-blog" text:"Plus d'articles sur le blog" tiddlers:"DerniersPosts ListeTags" target:"DerniersPosts">>
 </div>
 </td>
 
