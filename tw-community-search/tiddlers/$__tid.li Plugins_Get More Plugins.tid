@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20171001221946209
+modified: 20180104215016645
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -62,6 +62,11 @@ Great plugins to improve your workflow – just ''make a backup first,'' then d
 * You need $:/plugins/telmiger/rpn too!
 
 !! Calculate
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/ColorAction">
+{{$:/core/images/palette}}<span class="btn-text"> ~ColorAction</span></$link></span>
+
+*  $:/plugins/telmiger/ColorAction – manipulate colors and test contrast with the ~TinyColor library
 
 <span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/rpn">
 {{$:/core/images/new-button}}<span class="btn-text"> rpn Basic Math</span></$link></span>
