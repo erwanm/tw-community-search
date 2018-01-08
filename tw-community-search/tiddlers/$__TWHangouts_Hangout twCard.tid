@@ -1,0 +1,31 @@
+title: $:/TWHangouts/Hangout twCard
+created: 20150101010646897
+modified: 20150101011308604
+twcard: Event
+original-tags: twCard [[twCard Event]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Hangout twCard
+source-tiddler-title-as-link: Hangout%20twCard
+
+!This card should not have data except the way the data should be listed and possibly the format for the data
+
+"""
+Date: 2014-12-16
+Time: 4pmGMT
+YouTube Link Id: EU-H0xhga
+Google Hangout id: cma8t37ad9518rjiobed7b63rpk
+TW Version @ Hangout: 5.1.5
+Attended: [[Jeremy Ruston|JeremyRuston]];[[Branimir Braykov]];[[Dave Gifford]];[[Eric Shulman]];[[Alex Hough]];[[Nathan developer in US]]
+Running Time: 02:10:56 format
+
+"""
+
+```
+Date: YEAR-MO-DA
+Time: XpmGMT
+YouTube Link Id: #
+Google Hangout id: #
+TW Version @ Hangout: #
+Attended: [[Name]];[[Name]];[[Name]]
+Running Time: ##:##:##
+```

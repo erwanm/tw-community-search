@@ -1,0 +1,78 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #045
+created: 20150105204307234
+modified: 20150105210704797
+original-tags: HangOut_045 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #045
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23045
+
+\define hangout() 045
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro: frtl: Jeremy, Mario, Nathan, Ton">>
+<<topic "0:01:10" "Jeremy- Ton, How did you find the update process to 5.0.10?">>
+<<topic "0:02:55" "Jeremy- the agenda - TW talk at lnug - issue review">>
+<<topic "0:03:44" "Jeremy- about the TW presentation wiht TW - new full screen theme - 'Punch'">>
+<<topic "0:08:35" "Jeremy- The presentation itself.">>
+<<topic "0:08:40" "- What is TiddlyWiki?">>
+<<topic "0:09:02" "- What Problem Does TiddlyWiki Solve?">>
+<<topic "0:12:10" "- TiddlyWiki User Experience">>
+<<topic "0:13:08" "- More Features">>
+<<topic "0:13:54" "- Demo of Single File Edition">>
+<<topic "0:14:45" "- TiddlyWiki Rendering Pipeline">>
+<<topic "0:17:18" "- Running on the Browser and Node.js">>
+<<topic "0:18:25" "- Running TiddlyWiki Under Node.js">>
+<<topic "0:19:00" "- TiddlyWiki Server Synchronisation">>
+<<topic "0:23:19" "- Enter node-webkit and TiddlyDesktop">>
+<<topic "0:31:24" "- Using TiddlyWiki as a Library">>
+<<topic "0:32:10" "Mario- is there a link? tiddlywiki(.)com/talkytalky">>
+<<topic "0:33:05" "Jeremy- about the new diagrams ..">>
+<<topic "0:34:40" "Mario- did you modify the diagrams in an editor">>
+<<topic "0:35:00" "If you are not intereste in the issue list you may jump to 1:55:13 'The new TW command line build system'">>
+<<topic "0:36:25" ".. The issue list">>
+<<topic "0:37:10" "the bug list #47 Back button doesn't work as expected">>
+<<topic "0:38:50" "#95 Tables use obsolete align attribute">>
+<<topic "0:42:26" "#116 The savetiddlers command generates filenames with %20 for spaces .. wontfix">>
+<<topic "0:47:55" "... about punycode">>
+<<topic "0:51:15" "#116 wontfix .. because we can't fix it at the moment.">>
+<<topic "0:53:30" "#118 Scrolling in the story river.">>
+<<topic "0:56:59" "#177 Drag and drop fails with some cross-browser combinations">>
+<<topic "0:58:19" "#202 Exclude popup state tiddlers when saving wiki as a single file">>
+<<topic "1:04:04" "#222 Background in HTML5 Fullscreen with no tiddlers open too small">>
+<<topic "1:05:07" "#224 $edit-text widget loses focus during refresh">>
+<<topic "1:09:58" "#238 JSON deserialiser doesn't import custom fields">>
+<<topic "1:10:14" "#243 Zoomin view order is odd when closing tiddlers">>
+<<topic "1:10:59" "#262 Clarify usage of text reference">>
+<<topic "1:12:26" "#274 Download buttons don't work in internet explorer 11">>
+<<topic "1:14:46" "#282 FF tiddler toolbar moves to the left in a 'jumpy' way">>
+<<topic "1:17:33" "#323 Don't persist $:/HistoryList">>
+<<topic "1:19:53" "#347 Intermittent lock-up of server edition, preventing further tiddler saves">>
+<<topic "1:20:46" "#365 Rapid refreshing in browser crashes the server">>
+<<topic "1:23:57" "#379 favicons don't work in ie11">>
+<<topic "1:24:31" "#409 filters behave differently when used in list widget and { { { transclusion">>
+<<topic "1:25:40" "#495 TiddlyIE failing because window.TiddlyIE.save() is undefined">>
+<<topic "1:26:14" "#541 'dependents' field in plugins is mis-named">>
+<<topic "1:28:02" "#582 CodeMirror plugin doesn't refresh correctly">>
+<<topic "1:28:35" "- - -">>
+<<topic "1:29:41" "new features">>
+<<topic "1:30:22" "#47, #86 'new here' toolbar button">>
+<<topic "1:32:16" "#131 copy and paste tiddler as JSON .. the plugin mechanism can be used for this">>
+<<topic "1:34:22" "#141 Feature request: colored icons in edit toolbar">>
+<<topic "1:37:45" "#143 Use keyboard down key to go to AutoComplete popup">>
+<<topic "1:37:56" "#144 Feature to consider: Sidebar scrolling limiting to tabs">>
+<<topic "1:44:37" "#170 hide most edittemplate items in a slider or tab see: #506">>
+<<topic "1:47:40" "#188 Allow tilder to be used to suppress any wikitext rule">>
+<<topic "1:48:30" "#190 It should be possible to display fields in local time">>
+<<topic "1:48:34" "#192 Extend link widget to link to a filtered list">>
+<<topic "1:50:00" "#196 Renaming a tiddler break links, the user should be warned at least">>
+<<topic "1:50:07" "#198 Extend checkbox widget to user fieldmangler widget">>
+<<topic "1:50:15" "#209 Add global 'list' macro">>
+<<topic "1:50:36" "#235 Table Block-mode syntax proposal (followup hangout#23)">>
+<<topic "1:51:15" "#253 floating tiddlers - pause the 'features' review">>
+<<topic "1:54:00" "- - some reflection">>
+<<topic "1:54:30" "about 'refactoring' tag">>
+<<topic "1:55:13" "Jeremy- The new TW command line build system - some breaking changes">>
+<<topic "2:06:24" "question for Nathan about #390 Should wiki and plugin folders be described by package.json">>
+<<topic "2:08:20" "Bye! Bye!'">>
+"""

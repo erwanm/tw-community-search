@@ -1,0 +1,18 @@
+title: $:/TWHangouts/Hangout to TW Version Details
+created: 20141221012315575
+modified: 20141225095433316
+original-tags: Version
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Hangout to TW Version Details
+source-tiddler-title-as-link: Hangout%20to%20TW%20Version%20Details
+
+"""
+Create Macro to turn all the data into charts
+[[TiddlyWiki Google Groups Data]]
+
+
+see [[$:/.rich/data/twversion]]
+
+See [[GitHub Release Dates]]
+[[$:/.rich/data/githubreleasedate]]
+"""
