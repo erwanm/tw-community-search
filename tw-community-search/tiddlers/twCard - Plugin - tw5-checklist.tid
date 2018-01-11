@@ -17,6 +17,10 @@ short_description: An easy to use checklist widget
 title: twCard - Plugin - tw5-checklist
 wiki: http://grosinger.net/tw5-checklist/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: TW5Checklist
+twcs-extracted-plugin-tiddler: $:/TW5Checklist/$:/plugins/tgrosinger/tw5-checklist
+twcs-description: Checklist Plugin
+twcs-author: Tony Grosinger
+twcs-version: 0.0.15
 
 {{||$:/CommunityPluginTemplate}}
