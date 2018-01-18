@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/mklauber/preferences'
+name: unknown
+plugin_tiddler: $:/plugins/mklauber/preferences
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
