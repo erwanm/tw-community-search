@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/mklauber/shuffle'
-name: unknown
-plugin_tiddler: $:/plugins/mklauber/shuffle
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
