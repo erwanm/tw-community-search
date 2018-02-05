@@ -1,6 +1,6 @@
 title: $:/BJHacks/WidgetTreeViewer
 created: 20140723223900482
-modified: 20160217202908179
+modified: 20180204103435212
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: 
@@ -69,7 +69,7 @@ And this is some text
 
 ! Example - rendered
 ----
-<$set name="notify" value="notify">
+
 
 <!--------- this is content to view as a tree--------->
 <h3>widgets of testcontent</h3>
@@ -85,7 +85,7 @@ And this is some text
 </$reveal>
 <!------------------------------------------------------>
 
-</$set>
+
 
 ----
 
