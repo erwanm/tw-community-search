@@ -1,7 +1,0 @@
-title: Tag: $fieldName$
-tags: CommunityTags
-community-tag: $fieldName$
-community-tag-count: 1
-community-wikis: [[cpashow]]
-
-{{||$:/CommunityTagTemplate}}

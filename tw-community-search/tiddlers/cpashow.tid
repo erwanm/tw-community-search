@@ -5,10 +5,6 @@ author: c pa
 title: cpashow
 type: text/vnd.tiddlywiki
 wiki-address: http://cpashow.tiddlyspot.com
-wiki-tw-version: 5.1.11
-wiki-latest-modification: 20170911214932983
-wiki-nb-tiddlers: 758
 
-<<version>>
 
 {{||$:/CommunityWikiPresentationTemplate}}

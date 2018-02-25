@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/sukima/comments'
-name: unknown
-plugin_tiddler: $:/plugins/sukima/comments
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

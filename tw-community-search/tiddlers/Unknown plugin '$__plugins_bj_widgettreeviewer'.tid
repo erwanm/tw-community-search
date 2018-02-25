@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/bj/widgettreeviewer'
-name: unknown
-plugin_tiddler: $:/plugins/bj/widgettreeviewer
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,9 +1,0 @@
-title: $:/ExampleWikisDirectory/SiteNamePlateDisplayTemplate
-created: 20150203205132524
-modified: 20150407180211228
-original-tags: Templates
-source-wiki-id: ExampleWikisDirectory
-source-tiddler-title-as-text: SiteNamePlateDisplayTemplate
-source-tiddler-title-as-link: SiteNamePlateDisplayTemplate
-
-<tr><td><a href={{!!url}} target='_blank'><$view field='caption'/></a></td><td><$view field='description'/></td></tr>

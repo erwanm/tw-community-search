@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/amp/BT/philosophy'
-name: unknown
-plugin_tiddler: $:/plugins/amp/BT/philosophy
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

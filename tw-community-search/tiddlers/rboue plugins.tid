@@ -5,10 +5,6 @@ author: RenéBoué
 title: rboue plugins
 type: text/vnd.tiddlywiki
 wiki-address: http://rboue.tiddlyspot.com/
-wiki-tw-version: 5.1.8-prerelease
-wiki-latest-modification: 20150727122129076
-wiki-nb-tiddlers: 21
 
-plugins
 
 {{||$:/CommunityWikiPresentationTemplate}}

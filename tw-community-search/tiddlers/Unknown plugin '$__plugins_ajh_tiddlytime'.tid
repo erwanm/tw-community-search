@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/ajh/tiddlytime'
-name: unknown
-plugin_tiddler: $:/plugins/ajh/tiddlytime
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

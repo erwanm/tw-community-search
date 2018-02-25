@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/birthe/suitcase'
-name: unknown
-plugin_tiddler: $:/plugins/birthe/suitcase
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

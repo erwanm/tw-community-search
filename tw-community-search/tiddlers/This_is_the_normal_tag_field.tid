@@ -1,4 +1,0 @@
-title: This is the normal tag field
-new-tiddler: Tag: This is the normal tag field
-
-{{||$:/ObsoleteCommunityTagTemplate}}

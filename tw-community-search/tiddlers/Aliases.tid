@@ -5,10 +5,6 @@ tags: CommunityWikis
 title: Aliases
 type: text/vnd.tiddlywiki
 wiki-address: http://aliases.tiddlyspot.com/
-wiki-tw-version: 5.1.11
-wiki-latest-modification: 20160609145925439
-wiki-nb-tiddlers: 3
 
-another tid title in the tiddler river
 
 {{||$:/CommunityWikiPresentationTemplate}}

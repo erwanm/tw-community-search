@@ -5,9 +5,6 @@ tags: CommunityWikis
 title: GenericTagFields
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/GenericTagFields/
-wiki-tw-version: 5.1.12-prerelease
-wiki-latest-modification: 20160525090442947
-wiki-nb-tiddlers: 5
 
 
 {{||$:/CommunityWikiPresentationTemplate}}
