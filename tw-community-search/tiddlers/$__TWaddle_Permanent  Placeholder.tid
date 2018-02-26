@@ -1,0 +1,18 @@
+title: $:/TWaddle/Permanent Placeholder
+created: 20150726101157188
+creator: Mat
+modified: 20150729091327609
+modifier: Mat
+recent: 15/07/29
+original-tags: Proposal
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Permanent Placeholder
+source-tiddler-title-as-link: Permanent%20Placeholder
+
+Sometimes there is a need to make something exist from startup, for instance a logo. A logo happens to be a visual example, but a more typical example is probably calling some macro or such. As far as I know, there's no elegant way to do this so the solution is to place these things in something that does always open up, like the sidebar. (Or?)
+
+I propose a designated place for this instead. A "~LoadOnStart" tiddler (Load''At''Start? ~AutoStart?...). If something is put into this, or transcluded into it, or tagged with ~$:/tags/LoadOnStart, it shows up or executes on start.
+
+This tiddler would, I guess, be tagged $:/tags/PageTemplate but I think it could be CSS'ed to not show in iself, but only eventual visual content.
+
+This would make a "permanent placeholder" on the screen, i.e anything put in/tagged will be there all the time.

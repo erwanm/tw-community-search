@@ -1,0 +1,21 @@
+title: $:/Tiddler Gallery (inmysocks)/removesuffix Operator
+caption: removesuffix
+created: 20140828133830424
+modified: 20150124173434000
+purpose: filter the input titles by how they end, deleting that suffix
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[String Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: removesuffix Operator
+source-tiddler-title-as-link: removesuffix%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="a string of characters"
+paramName="s"
+output="those input titles that end with <<.place s>>, but with those characters discarded"
+/>
+
+<<.s-matching-is-case-sensitive>>
+
+<<.operator-examples "removesuffix">>

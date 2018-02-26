@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - TitleMe
+audience: 
+category: Utility
+created: 20150106175012859
+date: 13-09-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: EucalyJ
+modified: 20150210024502184
+name: TitleMe
+plugin_tiddler: $:/plugins/eucaly/titleme
+release: 
+repository: 
+revision: 0.0.1
+short_description: Return in-place tiddler title, to link / show / edit the source tiddler
+wiki: http://eucaly-tw5.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - TitleMe
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TitleMe
+

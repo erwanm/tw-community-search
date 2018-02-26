@@ -1,0 +1,31 @@
+title: $:/Demo Code Macro (inmysocks)/Make a demo tiddler
+created: 20151115103025383
+modified: 20151115114032954
+original-tags: 
+source-wiki-id: Demo Code Macro (inmysocks)
+source-tiddler-title-as-text: Make a demo tiddler
+source-tiddler-title-as-link: Make%20a%20demo%20tiddler
+
+!This is the title of the demo tiddler
+Something short and descriptive would be nice.
+<$edit-text tiddler='$:/temp/Make a demo tiddler' field=tiddler_name class='tc-edit-texteditor' placeholder='Tiddler Title'/>
+
+
+!This is the description of the demo
+It should be a short one line description of the demonstration.
+
+<$edit-text tiddler='$:/temp/Make a demo tiddler' field=description class='tc-edit-texteditor' placeholder='Demo Description'/>
+
+!This is the body of the tiddler
+It should be the simplest way to unambiguously demonstrate what you want to show. The user will be able to do live edits to this and see the results so in-line comments pointing out useful potential changes are a good idea.
+
+<$edit-text tiddler='$:/temp/Make a demo tiddler' class='tc-edit-texteditor' placeholder='Demo Code'/>
+
+!!Rendered code:
+
+<$transclude tiddler='$:/temp/Make a demo tiddler' mode=block/>
+
+<$button>Make Demo Tiddler
+<$action-setfield $tiddler="$:/temp/Make a demo tiddler" title={{$:/temp/Make a demo tiddler!!tiddler_name}} tags=Demo reset_value={{$:/temp/Make a demo tiddler!!text}}/>
+<$action-setfield $tiddler="$:/temp/Make a demo tiddler" text='' description='' tiddler_name='' tags=''/>
+</$button>

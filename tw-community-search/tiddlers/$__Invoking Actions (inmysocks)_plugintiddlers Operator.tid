@@ -1,0 +1,18 @@
+title: $:/Invoking Actions (inmysocks)/plugintiddlers Operator
+caption: plugintiddlers
+created: 20140410103123179
+modified: 20150124200549000
+purpose: select all shadow titles in the input plugins
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Special Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: plugintiddlers Operator
+source-tiddler-title-as-link: plugintiddlers%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection|Title Selection]] of plugin tiddler titles"
+parameter="none"
+output="all shadow titles contained in the input plugins"
+/>
+
+<<.operator-examples "plugintiddlers">>

@@ -1,0 +1,82 @@
+title: $:/External Brain (inmysocks)/Setting up dynamic DNS on your Raspberry Pi
+created: 20150512223055442
+creator: inmysocks
+modified: 20150730153137219
+modifier: inmysocks
+original-tags: Tutorials
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Setting up dynamic DNS on your Raspberry Pi
+source-tiddler-title-as-link: Setting%20up%20dynamic%20DNS%20on%20your%20Raspberry%20Pi
+
+I am using [[no-ip.com|http://www.noip.com]] because I have used them before. These instructions are for their services, you can use whatever you want. There are many tutorials for how to do this around the net.
+
+First, go to https://www.noip.com, if you have an account than sign in, if you don't than make an account. Once you are signed in click on `my account`, it should be in the bar at the top of the page. Then pick `Add Host` from the menu (it is in the middle of the left side of the page. I am bad at finding things on web pages.)
+Under Hostname Information enter the name you want and pick the suffix from the list, unless you are paying only the free domains are available.
+After you have entered the name and picked a domain click on the `Add Host` button and you are done with this site for now.
+
+[[SSH into your Pi|Logging into your Raspberry Pi via SSH]] (or boot up your pi and open a terminal if you aren't running it headless).
+
+Type these commands in the Raspberry Pi terminal (from https://www.noip.com/support/knowledgebase/installing-the-linux-dynamic-update-client-on-ubuntu/)
+
+```
+cd /usr/local/src/
+wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+tar xf noip-duc-linux.tar.gz
+cd noip-2.1.9-1/
+make install
+```
+
+''Note:'' It may not be `cd noip-2.1.9-1/` for you, to see what you should use type `ls` (see [[Some helpful commands]] for what that means) and one of the things listed should be `noip-x.x.x-x` where the x's are numbers, replace `noip-2.1.9-1` with whatever is listed in the line `cd noip-2.1.9-1/` above.
+
+If you have multiple hosts set up through noip.com than it will ask which one you want to use, otherwise it will pick the only one (the one you just made on their website.)
+
+Then in the terminal type (this configures the noip daemon):
+
+```
+sudo /usr/local/bin/noip2 -C
+```
+
+it will ask for your username and password again (this is your username and password for noip.com, not your root password for the pi) and the update interval. I set the update interval to 300 (that is 300 seconds, so 5 minutes.). This is how often the ip address is checked and updated.
+
+Then run
+
+```
+/usr/local/bin/noip2
+```
+
+to start the service. At this point you are almost finished, all you need to do is set things up so that it starts automatically when your pi turns on.
+
+!!Starting the noip service when your pi boots:
+
+In the terminal type:
+
+```
+sudo nano /etc/init.d/rcX.d
+```
+
+then copy and paste this into the editor (to paste into the editor you need to use `ctrl+shift+v` instead of `ctrl+v`):
+
+```
+#######################################################
+#! /bin/sh
+. /etc/rc.d/init.d/functions  # uncomment/modify for your killproc
+case "$1" in
+    start)
+        echo "Starting noip2."
+        /usr/local/bin/noip2
+    ;;
+    stop)
+        echo -n "Shutting down noip2."
+        killproc -TERM /usr/local/bin/noip2
+    ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+esac
+exit 0
+#######################################################
+```
+
+then exit and save (press `ctrl+x` then enter when it asks for where you want to save it)
+
+and you should be done.

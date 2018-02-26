@@ -1,0 +1,23 @@
+title: $:/External Brain (inmysocks)/I may need to actually make a plugin
+created: 20150203221158869
+day: 4
+image: 
+image_caption: 
+link: 
+modified: 20150716171430441
+modifier: inmysocks
+month: March
+number_of_comments: 1
+posted: 19:49, 4th March 2015
+summary: for twitter
+template: BlogDisplayTemplate1
+time: 20150304194946
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] Twitter [[Small Thing]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: I may need to actually make a plugin
+source-tiddler-title-as-link: I%20may%20need%20to%20actually%20make%20a%20plugin
+
+[[This page|https://dev.twitter.com/web/javascript/events]] has the javascript stuff for making twitter buttons and stuff reload. I may need to set up a daemon that checks for tiddlers opening, and when one does it updates the twitter things on the page.

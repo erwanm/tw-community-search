@@ -1,0 +1,21 @@
+title: $:/TonGernerPlayground/Tiddlersbar
+created: 20170427183318598
+creator: TonGerner
+modified: 20170507161705243
+modifier: TonGerner
+status: upgraded to
+original-tags: guide documentation
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Tiddlersbar
+source-tiddler-title-as-link: Tiddlersbar
+
+!! [[How to add a tiddlersbar (breadcrumbs)|Tiddlersbar]]
+
+''Status:'' @@.RED {{Tiddlersbar!!status}} v<<version>>@@
+
+''Note:'' @@.BROWN Available as plugin.@@
+
+This guide describes how to add a 'tiddlersbar' with <<slider "breadcrumbs" "Breadcrumbs info">> to a TW5.
+
+
+''Guide at ~TiddlySpot:''<br>[[How to add a 'tiddlersbar' (breadcrumbs)|http://tw5breadcrumbs.tiddlyspot.com/]]

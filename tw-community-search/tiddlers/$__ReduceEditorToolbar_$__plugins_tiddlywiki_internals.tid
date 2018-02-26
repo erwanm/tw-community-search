@@ -1,0 +1,14 @@
+title: $:/ReduceEditorToolbar/$:/plugins/tiddlywiki/internals
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Tools for exploring the internals of TiddlyWiki
+list: readme
+version: 5.1.14
+original-tags: 
+source-wiki-id: ReduceEditorToolbar
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/internals
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2finternals
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

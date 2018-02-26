@@ -1,0 +1,21 @@
+title: $:/Wiki MetaTags (inmysocks)/after Operator
+caption: after
+created: 20140512103123179
+modified: 20150124204353000
+purpose: find which input title follows a specified one
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: after Operator
+source-tiddler-title-as-link: after%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="one of those titles"
+paramName="t"
+output="the title that immediately follows <<.place t>> in the input"
+/>
+
+If <<.place t>> is not present in the input, or is the last title there, then the output is empty.
+
+<<.operator-examples "after">>

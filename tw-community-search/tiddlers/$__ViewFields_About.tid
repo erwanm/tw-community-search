@@ -1,0 +1,50 @@
+title: $:/ViewFields/About
+created: 20160614192408900
+creator: twMat
+modified: 20160615230208187
+modifier: twMat
+original-tags: 
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: About
+source-tiddler-title-as-link: About
+
+@@border:1px solid crimson; Proof-of-concept@@
+
+This features (at least) two concepts; 
+
+*[[TextNeditTemplate]] is an edittemplate segment that, in edit, redisplays custom fields to appear with a full text edit area in edit mode, just like how the regular //text// field appears.
+**the fields should be named with prefix `text<n>` (//n// is a 0-9 digit) 
+**to create a //textn// field, add a field name, e.g `text2` and click Add. 
+*[[TextNviewTemplate]] is a viewtemplate segment that lists(!) and displays;
+**wikified content from (all) the //textn// fields
+**text from //external// tiddlers that //target// the //textn// fields, by using a //transclude-to// field.
+
+!!![[Demo]]
+
+!!!transclude-to
+You can "inject" content into a tiddler by
+
+*including a //transclude-to// field in an external tiddler like so<br>`transclude-to : <targettiddler>!!<textNfield>`<br>This makes the external tiddlers //text field// content appear in the targetted field.
+*the value for //transclude-to// field can be several targets (see edit for [[Injection 1]])
+*...or (not implementetd yet) a //filter// so to function as a "pseudo viewtemplate" (see below)
+
+!!!Pseudo viewtemplates alternative to custom viewtemplates
+
+Demo: [[Pseudo viewtemplate demo]]
+
+[[TextNviewTemplate]] can be useful as a //replacement// for custom viewtemplates (i.e tiddlers tagged `$:/tags/ViewTemplate`) in cases where...
+
+*a viewtemplate would start with a //costly filter// to identify relevant tiddlers
+*...but where you know that only a few tiddlers will pass through that filter
+
+A "costly filter" is one that has to process a lot before identifying the desired tiddlers. This is problematic because a viewtemplate is run in //every// tiddler in the story river.
+
+In contrast, the  [[TextNviewTemplate]] starts with a //simple// filter to see if there are any //textn// fields in the current tiddler.
+
+So, insted you can 
+
+#put the goodies-intended-for-the-output-tiddlers in a separate tiddler
+#that //transclude-to// only the relevant tiddlers //textn// fields
+
+!!!Notes
+*The concept is theoretically not limited to the make pseudo //text// fields. I think one should be able to redefine a custom field to be any type of field, e.g additional //tags// fields (like what fellow @Jed has done in [[GenericTagFields|http://ooktech.com/jed/ExampleWikis/GenericTagFields/]]. I have not investigated the mechanics there but hopefully I'm at least bringing something new to the table with ViewFields...?)

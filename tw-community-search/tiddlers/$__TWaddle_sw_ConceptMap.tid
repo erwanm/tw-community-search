@@ -1,0 +1,15 @@
+title: $:/TWaddle/sw:ConceptMap
+created: 20150417150305459
+creator: Mat
+modified: 20150613195215129
+modifier: Mat
+original-tags: SoftwareCategory sw:Authoring sw:Diagramming
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:ConceptMap
+source-tiddler-title-as-link: sw%3aConceptMap
+
+<<boxref "A ''concept map'' or conceptual diagram is a diagram that depicts suggested relationships between concepts. It is a graphical tool that designers, engineers, technical writers, and others use to organize and structure knowledge.<br><br>A concept map typically represents ideas and information as boxes or circles, which it connects with labeled arrows in a downward-branching hierarchical structure. The relationship between concepts can be articulated in linking phrases such as causes, requires, or contributes to.<br><br>The technique for visualizing these relationships among different concepts is called concept mapping. Concept maps define the ontology of computer systems, for example with the object-role modeling or Unified Modeling Language formalism." "http://en.wikipedia.org/wiki/Concept_map">>
+
+<br>For TW, see<br>
+ [[TiddlyMap|http://felixhayashi.github.io/TW5-TiddlyMap/]] and<br>
+[[Railroad Plugin||http://tiddlywiki.com/prerelease/#Railroad%20Diagrams:%5B%5BRailroad%20Diagrams%5D%5D%20%5B%5BRailroad%20Plugin%5D%5D]]

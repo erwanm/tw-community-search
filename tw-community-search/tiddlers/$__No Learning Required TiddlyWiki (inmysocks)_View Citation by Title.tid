@@ -1,0 +1,17 @@
+title: $:/No Learning Required TiddlyWiki (inmysocks)/View Citation by Title
+creator: inmysocks
+no_edit: true
+original-tags: 
+source-wiki-id: No Learning Required TiddlyWiki (inmysocks)
+source-tiddler-title-as-text: View Citation by Title
+source-tiddler-title-as-link: View%20Citation%20by%20Title
+
+Citation: <$select tiddler='$:/state/viewcitation/citationbytitle'>
+<$list filter='[tag[Citations]sort[title]]'>
+<option><$view tiddler=<<currentTiddler>> field='title'/></option>
+</$list>
+</$select>
+
+<$transclude tiddler={{$:/state/viewcitation/citationbytitle}}>
+
+</$transclude>

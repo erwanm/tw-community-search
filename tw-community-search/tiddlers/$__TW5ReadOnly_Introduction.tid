@@ -1,0 +1,37 @@
+title: $:/TW5ReadOnly/Introduction
+created: 20170506134612257
+creator: TonGerner
+modified: 20171223095731775
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+!! [[Introduction]]
+
+This guide describes two ways to make TW readonly:
+
+# A 'simple' readonly way: you can hide a predefined set of buttons and sidebar tabs
+# A more advanced readonly way which is more flexible: you can hide every button and every sidebar tab
+
+<<<
+''Note 1:''<br>Both ways available as plugin. Just drag & drop one of the following links to your TW:
+
+* [[$:/plugins/tongerner/sro]] (v<<pversion sro>>, the simple readonly plugin)
+* [[$:/plugins/tongerner/ro]] (v<<pversion ro>>)
+<<<
+
+<<<
+''Note 2:''
+
+* This TW contains:
+** The 'Simple readonly' plugin (v<<pversion sro>>)
+** The 'Readonly' plugin (v<<pversion ro>>)
+** The Emphasized theme v<<tversion "emphasized">>
+** The Bluish color palette v{{$:/palettes/Bluish!!version}}
+** A System tags tab (Sidebar > More)
+** The tiddler [[$:/_toggle-editor-toolbar_preview]] which adds a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It can toggle preview mode as well.
+** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins
+* To 'hide' the functionality a little bit for prying eyes the name of the plugin is 'ro'/'sro' instead of 'readonly'/' simple readonly'
+<<<

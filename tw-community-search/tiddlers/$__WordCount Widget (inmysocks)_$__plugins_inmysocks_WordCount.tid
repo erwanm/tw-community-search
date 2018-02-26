@@ -1,0 +1,13 @@
+title: $:/WordCount Widget (inmysocks)/$:/plugins/inmysocks/WordCount
+author: Jed Carty
+core-version: >=5.1.9
+dependents: 
+description: Word count in tiddlers
+version: 5.1.10-prerelease
+original-tags: 
+source-wiki-id: WordCount Widget (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/WordCount
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fWordCount
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

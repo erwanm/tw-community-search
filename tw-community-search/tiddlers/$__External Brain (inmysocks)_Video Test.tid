@@ -1,0 +1,29 @@
+title: $:/External Brain (inmysocks)/Video Test
+created: 20150729230017021
+creator: inmysocks
+modified: 20150729231845037
+modifier: inmysocks
+original-tags: 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Video Test
+source-tiddler-title-as-link: Video%20Test
+
+<div class="px-video-container" id="myvid">
+    <div class="px-video-img-captions-container">
+        <div class="px-video-captions hide"></div>
+            <div class="px-video-wrapper">
+                <video poster="media/JavertGhandi.jpg" class="px-video" controls>
+                    <!-- video files -->
+                    <!-- Standard video files -->
+                    <source src="media/javertandroscoeplay.mp4" type="video/mp4" />
+                    <!-- fallback for browsers that don't support the video element -->
+                    <div>
+                        <a href="media/javertandroscoeplay.mp4">
+                            <img src="media/javertandroscoeplay.jpg" width="640" height="360" alt="download video" />
+                        </a>
+                    </div>
+                </video>
+            </div>
+        </div><!-- end container for captions and video -->
+    <div class="px-video-controls"></div>
+</div><!-- end video container -->

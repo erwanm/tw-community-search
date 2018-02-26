@@ -1,0 +1,919 @@
+title: $:/ListManagement/DescribeMacros 1
+created: 20151029012913073
+examplefield:  [[item One]] [[gfdgfdgf]] [[item Two]]
+modified: 20151029012919948
+test:  [[test]]
+testlist: 
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: DescribeMacros 1
+source-tiddler-title-as-link: DescribeMacros%201
+
+\define TiddlerItemManager(itemName, fieldName, tagName:"Done")
+
+    <!-- Check to see if the tiddler exists -->
+    <$list filter="[title[$tiddlerName$]is[tiddler]]" emptyMessage="""
+        <!-- It doesn't exist. Add tag and View or edit Note -->
+        <<addTagToNote   "$tiddlerName$" "$fieldName$" "$tagName$">>
+        <<openOrAddTiddlerFromNote "$tiddlerName$" "$fieldName$" "$tagName$">>
+        <<decideViewOrEditNote "$tiddlerName$" "$fieldName$" "$tagName$">>
+    """>
+        <!-- It does exist, Add tag and View or edit Tiddler -->
+        <<addTagToTiddler              "$tiddlerName$" "$fieldName$" "$tagName$">>
+        <$link to="$tiddlerName$" tooltip="Open task to edit">
+            $tiddlerName$
+        </$link>
+        <<decideViewOrEditTiddler "$tiddlerName$" "$fieldName$" "$tagName$">>
+    </$list>
+\end
+
+
+\define EditOneTaskTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<<tiddlerTaskNote "$itemName$" "$fieldName$">>
+	<br/>
+	$itemName$ &lt;&lt;decideViewOrEditNote "$itemName$" "$fieldName$">>
+\end
+
+\define EditOneTaskTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="EditOneTaskTiddlerInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define EditOneTaskTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			<<tiddlerTaskNote "$itemName$" "$fieldName$">>
+		"""
+	/>
+\end
+
+
+
+
+\define EditOneTaskNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<<tiddlerTaskNote "$itemName$" "$fieldName$">>
+	<br/>
+	$itemName$ &lt;&lt;decideViewOrEditNote "$itemName$" "$fieldName$">>
+\end
+
+\define EditOneTaskNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="EditOneTaskNoteInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define EditOneTaskNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			<<tiddlerTaskNote "$itemName$" "$fieldName$">>
+		"""
+	/>
+\end
+
+\define EditOneItemGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<<tiddlerNote "$itemName$" "$fieldName$">>
+	<br/>
+	$itemName$ &lt;&lt;decideViewOrEditNote "$itemName$" "$fieldName$">>
+\end
+
+\define EditOneItemHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="EditOneItemInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define EditOneItemInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			<<tiddlerNote "$itemName$" "$fieldName$">>
+		"""
+	/>
+\end
+
+\define EditOneTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	$itemName$ 
+	<<decideViewOrEditTiddler "$itemName$" "$fieldName$">>
+	<br/>
+	$itemName$ &lt;&lt;decideViewOrEditNote "$itemName$" "$fieldName$">>
+\end
+
+\define EditOneTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="EditOneTiddlerInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define EditOneTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			$itemName$ 
+			<<decideViewOrEditTiddler "$itemName$" "$fieldName$">>
+		"""
+	/>
+\end
+
+\define DisplayAllTaskItemHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllTaskItemInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllTaskItemInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskItemInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTaskTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllTaskTiddlerInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllTaskTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskTiddlerInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTaskNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllTaskNoteInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllTaskNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskNoteInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllTiddlerInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTiddlerInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllNoteInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneNoteInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllItemHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<$macrocall $name="DisplayAllItemInTiddler" 
+		tiddlerName=<<currentTiddler>>
+		fieldName="$fieldName$" 
+	/>
+\end
+
+\define DisplayAllItemInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneItemInTiddler" tiddlerName="$tiddlerName$" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllItemGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]] [tag[$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneItemGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTaskItemGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]] [tag[$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskItemGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneNoteGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[tag[$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTiddlerGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTaskNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskNoteGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define DisplayAllTaskTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag")
+	<ul>
+	<$list filter="[tag[$fieldName$]]" variable="curItem">
+		<li>
+		<$macrocall $name="DisplayOneTaskTiddlerGlobally" fieldName="$fieldName$" itemName=<<curItem>> />
+		</li>
+	</$list>
+	</ul>
+\end
+
+\define IsItemInTiddlerField(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName:"exampleTag"
+		macroName:"No Macro Passed to IsItemInTiddlerField")
+	<$list filter="[list[$tiddlerName$!!$fieldName$]regexp[$itemName$]]"
+		emptyMessage="""
+		<$macrocall $name="addThisItemToFieldButton"
+			tiddlerName	="$tiddlerName$"
+			fieldName 	="$fieldName$"
+			fieldValue 	={{$tiddlerName$!!$fieldName$}}
+			itemName 	="$itemName$"
+		/>
+	""">
+		$macroName$
+	</$list>
+\end
+
+\define decideViewTiddler(fieldName, itemName)
+    <$reveal  state="$:/state/$fieldName$/NoteState" type="nomatch" text="$itemName$">
+        <<showTiddlerButton "$itemName$" "$fieldName$">>
+    </$reveal>
+    <$reveal  state="$:/state/$fieldName$/NoteState" type="match" text="$itemName$">
+        <<hideTiddlerButton "$itemName$" "$fieldName$">>
+        <<displayTiddlerText "$itemName$" "$fieldName$">>
+    </$reveal>
+\end
+
+\define decideViewNote(fieldName, itemName)
+	<$reveal  state="$:/state/$fieldName$/NoteState" 
+		type="nomatch" 
+		text="$itemName$"
+	>
+		<<showTiddlerButton "$itemName$" "$fieldName$">>
+	</$reveal>
+	<$reveal  state="$:/state/$fieldName$/NoteState" 
+		type="match" text="$itemName$"
+	>
+		<<hideTiddlerButton "$itemName$" "$fieldName$">>
+		<<displayNoteText    "$itemName$" "$fieldName$">>
+	</$reveal>
+\end
+
+\define addThisItemToFieldButton(
+		tiddlerName, 
+		fieldName, 
+		fieldValue, 
+		itemName)
+	<$button set="$tiddlerName$!!$fieldName$" 
+		setTo="$fieldValue$ [[$itemName$]]" 
+		tooltip="Add [[$itemName$]] to $tiddlerName$'s field: $fieldName$"
+	>
+		$itemName$
+	</$button>
+\end
+
+\define EditOneNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	$itemName$ 
+	<<decideViewOrEditNote "$itemName$" "$fieldName$">>
+	<br/>
+	$itemName$ &lt;&lt;decideViewOrEditNote "$itemName$" "$fieldName$">>
+\end
+
+\define EditOneNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="EditOneNoteInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define EditOneNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			$itemName$ 
+			<<decideViewOrEditNote "$itemName$" "$fieldName$">>
+		"""
+	/>
+\end
+
+\define DisplayOneNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", itemName:"exampleItem", tagName="exampleTag")
+	<$macrocall $name="DisplayOneNoteInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define DisplayOneTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", itemName:"exampleItem", tagName="exampleTag")
+	<$macrocall $name="DisplayOneTiddlerInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define DisplayOneNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			$itemName$
+			<<decideViewNote "$fieldName$" "$itemName$">>
+		"""
+	/>
+\end
+
+\define DisplayOneTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			$itemName$
+			<<decideViewTiddler "$fieldName$" "$itemName$">>
+		"""
+	/>
+\end
+
+\define DisplayOneNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<!-- Display the note even if it doesn't exist -->
+	$itemName$
+	<<decideViewNote "$fieldName$" "$itemName$">>
+\end
+
+\define DisplayOneTaskNoteGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<!-- Display the note even if it doesn't exist -->
+        <<addTagToNote   "$itemName$" "$fieldName$" "$tagName$">>
+	$itemName$
+	<<decideViewNote "$fieldName$" "$itemName$">>
+\end
+
+\define DisplayOneTaskTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<!-- Display the note even if it doesn't exist -->
+        <<addTagToTiddler   "$itemName$" "$fieldName$" "$tagName$">>
+	$itemName$
+	<<decideViewTiddler "$fieldName$" "$itemName$">>
+\end
+
+\define DisplayOneTaskItemGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$list filter="[[$itemName$]]" variable="curItem" emptyMessage="""
+		<$macrocall $name="DisplayOneTaskNoteGlobally"
+			tiddlerName	="$tiddlerName$"
+			fieldName 	="$fieldName$"
+			itemName 	="$itemName$"
+			tagName  	="$tagName$"
+		/>
+	""">
+		<$macrocall $name="DisplayOneTaskTiddlerGlobally"
+			tiddlerName	="$tiddlerName$"
+			fieldName 	="$fieldName$"
+			itemName 	="$itemName$"
+			tagName  	="$tagName$"
+		/>
+	</$list>
+\end
+
+\define DisplayOneTaskNoteInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""<$macrocall $name="DisplayOneTaskNoteGlobally"
+				tiddlerName	="$tiddlerName$"
+				fieldName 	="$fieldName$"
+				itemName 	="$itemName$"
+				tagName  	="$tagName$"
+			/>"""
+	/>
+\end
+
+\define DisplayOneTaskTiddlerInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""<$macrocall $name="DisplayOneTaskTiddlerGlobally"
+				tiddlerName	="$tiddlerName$"
+				fieldName 	="$fieldName$"
+				itemName 	="$itemName$"
+				tagName  	="$tagName$"
+			/>"""
+	/>
+\end
+
+\define DisplayOneTaskItemInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="&nbsp;"
+	/>
+	<$list filter="[[$itemName$]]" variable="curItem" emptyMessage="""
+		<$macrocall $name="DisplayOneTaskNoteGlobally"
+			tiddlerName	="$tiddlerName$"
+			fieldName 	="$fieldName$"
+			itemName 	="$itemName$"
+			tagName  	="$tagName$"
+		/>
+	""">
+		<$macrocall $name="DisplayOneTaskTiddlerGlobally"
+			tiddlerName	="$tiddlerName$"
+			fieldName 	="$fieldName$"
+			itemName 	="$itemName$"
+			tagName  	="$tagName$"
+		/>
+	</$list>
+\end
+
+\define DisplayOneTaskNoteHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="DisplayOneTaskNoteInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		tagName  	="$tagName$"
+	/>
+\end
+
+\define DisplayOneTaskTiddlerHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="DisplayOneTaskTiddlerInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		tagName  	="$tagName$"
+	/>
+\end
+
+\define DisplayOneTaskItemHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="DisplayOneTaskItemInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		tagName  	="$tagName$"
+	/>
+\end
+
+\define DisplayOneTiddlerGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<!-- Display the note even if it doesn't exist -->
+	$itemName$
+	<<decideViewTiddler "$fieldName$" "$itemName$">>
+\end
+
+\define DisplayOneItemGlobally(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	$itemName$
+	<$list filter="[[$itemName$]]" emptyMessage="""
+		<<decideViewNote "$fieldName$" "$itemName$">>
+	""">
+		<<decideViewTiddler "$fieldName$" "$itemName$">>
+	</$list>
+\end
+
+\define DisplayOneItemHere(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="DisplayOneItemInTiddler"
+		tiddlerName	=<<currentTiddler>>
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+	/>
+\end
+
+\define DisplayOneItemInTiddler(
+		tiddlerName:"exampleTiddler", 
+		fieldName:"examplefield", 
+		itemName:"exampleItem", 
+		tagName="exampleTag")
+	<$macrocall $name="IsItemInTiddlerField"
+		tiddlerName	="$tiddlerName$"
+		fieldName 	="$fieldName$"
+		itemName 	="$itemName$"
+		macroName	="""
+			<$macrocall $name="DisplayOneItemGlobally" 
+				tiddlerName ="$tiddlerName$" 
+				fieldName ="$fieldName$" 
+				itemName ="$itemName$" 
+			/>
+		"""
+	/>
+\end
+
+
+
+\define GetTaggedOptions(tagName)
+		<$list filter="[tag[$tagName$]]">
+			<option value=<<currentTiddler>> ><<currentTiddler>></option>
+		</$list>
+\end
+\define GetIndexOptions(fieldName)
+		<$list filter="[[$:/_cpa/Data/$fieldName$]indexes[]]">
+			<option value=<<currentTiddler>> ><<currentTiddler>></option>
+		</$list>
+\end
+\define GetFieldOptions(fieldName)
+		<$list filter="[has[$fieldName$]sort[]]">
+			<option value=<<currentTiddler>> ><<currentTiddler>></option>
+		</$list>
+\end
+\define pickTiddler()
+	<$select tiddler="$:/temp/Pick/Tiddler">
+		<option value="">--</option>
+		<option value="exampleTiddler">exampleTiddler</option>
+		<option value="test">test</option>
+		<$macrocall $name="GetFieldOptions" fieldName={{$:/temp/Pick/Type}} />
+		<$macrocall $name="GetTaggedOptions" tagName={{$:/temp/Pick/Type}} />
+		<$macrocall $name="GetIndexOptions" fieldName={{$:/temp/Pick/Type}} />
+	</$select>
+\end
+\define pickItem()
+	<$select tiddler="$:/temp/Pick/Item">
+		<option value="">--</option>
+		<option value="exampleItem">exampleItem</option>
+		<option value="test">test</option>
+		<$macrocall $name="GetTaggedOptions" tagName={{$:/temp/Pick/Type}} />
+		<$macrocall $name="GetIndexOptions" fieldName={{$:/temp/Pick/Type}} />
+	</$select>
+\end
+\define GetDefault(Default, Supplied)
+	<$macrocall $name=".if" 
+		cond="$Supplied$"
+		then="$Supplied$"
+		else="$Default$" 
+	/>
+\end
+\define ExecuteChosenAction()
+	<$macrocall $name="ExecutePickChoice" 
+		Action	={{$:/temp/Pick/Action}}
+		What	={{$:/temp/Pick/What}}
+		Where	={{$:/temp/Pick/Where}}
+	/>
+\end
+\define ExecutePickChoice(Action, What, Where)
+	<tr><td colspan=4>
+		&lt;$macrocall $name="~$Action$$What$$Where$"
+			tiddlerName	="{{$:/temp/Pick/Tiddler}}"
+			fieldName 	="{{$:/temp/Pick/Type}}"
+			itemName 	="{{$:/temp/Pick/Item}}"
+			tagName  	={{$:/temp/Pick/Tag}}
+		/&gt;
+	</td></tr><tr><td colspan=4>
+	<$macrocall $name="$Action$$What$$Where$" 
+		tiddlerName	={{$:/temp/Pick/Tiddler}}
+		fieldName 	={{$:/temp/Pick/Type}}
+		itemName 	={{$:/temp/Pick/Item}}
+		tagName  	={{$:/temp/Pick/Tag}}
+	/>
+	</td></tr>
+\end
+\define pickAction()
+	<$select tiddler="$:/temp/Pick/Action">
+		<option value="">--</option>
+		<option value="DisplayOne">Display One</option>
+		<option value="DisplayAll">Display All</option>
+		<option value="EditOne">Edit One</option>
+		<option value="DeleteOne">Delete One</option>
+		<option value="ManageOne">Manage One</option>
+		<option value="ManageAll">Manage All</option>
+	</$select>
+\end
+\define pickWhat()
+	<$select tiddler="$:/temp/Pick/What">
+		<option value="">--</option>
+		<option value="Note">Note</option>
+		<option value="Tiddler">Tiddler</option>
+		<option value="Item">Item</option>
+		<option value="TaskNote">Task Note </option>
+		<option value="TaskTiddler">Task Tiddler </option>
+		<option value="TaskItem">Task Item </option>
+	</$select>
+\end
+\define pickWhere()
+	<$select tiddler="$:/temp/Pick/Where">
+		<option value="">--</option>
+		<option value="Globally">Globally</option>
+		<option value="InTiddler">In Tiddler</option>
+		<option value="Here">Here</option>
+	</$select>
+\end
+\define pickField()
+	<$select tiddler="$:/temp/Pick/Type">
+		<option value="">--</option>
+		<option value="exampleField">exampleField</option>
+		<option value="test">test</option>
+		<$list filter="[fields[]sort[]]">
+			<option value=<<currentTiddler>> ><<currentTiddler>></option>
+		</$list>
+	</$select>
+\end
+\define pickTag()
+	<$select tiddler="$:/temp/Pick/Tag">
+		<option value="">--</option>
+		<option value="exampleTag">exampleTag</option>
+		<option value="test">test</option>
+		<option value="Active">Active</option>
+		<option value="Deferred">Deferred</option>
+		<option value="Done">Done</option>
+	</$select>
+\end
+\define getfield(tiddlerName, fieldName)<$view tiddler="$tiddlerName$" field="$fieldName$"/>
+\define clearTiddlerField(tiddlerName, fieldName)<$button set="$tiddlerName$!!$fieldName$" setTo="">clear</$button>
+
+<table><tr><th colspan=3>Field / Tag Related Actions</th></tr>
+<tr><th>Action</th><th>What</th><th>Where </th></tr>
+<tr><td><<pickAction>> </td><td><<pickWhat>> </td><td><<pickWhere>> </td></tr>
+<tr><th>Tiddler Name </th><th>Field Name </th><th>Item Name </th><th>Tag Name </th></tr>
+<tr><td><<pickTiddler>> </td><td><<pickField>> </td><td><<pickItem>> </td><td><<pickTag>> </td></tr>
+<<ExecuteChosenAction>>
+</table>
+
+__Fields in this tiddler__
+<table><tr><th>Field Name</th><th>Field Value</th></tr>
+<$list filter="[all[current]fields[]] -created -text -modified -tags -title -draft.title -draft.of" variable="curfield">
+<tr><td><<curfield>></td><td>
+<$macrocall $name="getfield" tiddlerName=<<currentTiddler>> fieldName=<<curfield>> /></td><td><$macrocall $name="clearTiddlerField" tiddlerName=<<currentTiddler>> fieldName=<<curfield>> /></td></tr>
+</$list>
+</table>
+
+__Fields in Tiddler: {{$:/temp/Pick/Tiddler}}__
+<table><tr><th>Field Name</th><th>Field Value</th></tr>
+<$list filter="[{$:/temp/Pick/Tiddler}fields[]] -created -text -modified -tags -title -draft.title -draft.of" variable="curfield">
+<tr><td><<curfield>></td><td>
+<$macrocall $name="getfield" tiddlerName={{$:/temp/Pick/Tiddler}} fieldName=<<curfield>> /></td><td><$macrocall $name="clearTiddlerField" tiddlerName={{$:/temp/Pick/Tiddler}} fieldName=<<curfield>> /></td></tr>
+</$list>
+</table>

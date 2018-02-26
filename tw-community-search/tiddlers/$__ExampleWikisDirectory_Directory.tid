@@ -1,0 +1,98 @@
+title: $:/ExampleWikisDirectory/Directory
+created: 20150407175259189
+modified: 20150620123445747
+original-tags: 
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Directory
+source-tiddler-title-as-link: Directory
+
+\define thisWebsiteTitleFilter()
+[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Website]sort[title]regexp[(?i)$(TitleSearch)$]regexp:description[(?i)$(DescriptionSearch)$]]
+\end
+
+\define thisPluginTitleFilter()
+[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Plugin]sort[title]regexp:title[(?i)$(TitleSearch)$]regexp:description[(?i)$(DescriptionSearch)$]]
+\end
+
+\define thisEditionTitleFilter()
+[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Edition]sort[title]regexp:title[(?i)$(TitleSearch)$]regexp:description[(?i)$(DescriptionSearch)$]]
+\end
+
+!My Stuff:
+
+<$checkbox tiddler='$:/temp/Directory/search' field='show_website' checked='true' unchecked='false'>Show Websites</$checkbox>
+<$checkbox tiddler='$:/temp/Directory/search' field='show_plugins' checked='true' unchecked='false'>Show Plugins</$checkbox>
+<$checkbox tiddler='$:/temp/Directory/search' field='show_macros' checked='true' unchecked='false'>Show Macros</$checkbox>
+<$checkbox tiddler='$:/temp/Directory/search' field='show_editions' checked='true' unchecked='false'>Show Editions</$checkbox>
+
+Title Search: <$edit-text tiddler='$:/temp/Directory/search' field=title_search placeholder='Title Search' class='tc-edit-texteditor'/>
+
+Description Search: <$edit-text tiddler='$:/temp/Directory/search' field=description placeholder='Description Search' class='tc-edit-texteditor'/>
+
+<$set name=TitleSearch value={{$:/temp/Directory/search!!title_search}}>
+<$set name=DescriptionSearch value={{$:/temp/Directory/search!!description}}>
+
+<$reveal type='match' state='$:/temp/Directory/search!!show_editions' text='true'>
+__Editions (demos and under development)__
+
+<table>
+<tr><th>Name</th><th>Description</th></tr>
+<$set name=CurrentPerson value="""Jed Carty (inmysocks)""">
+<$tiddler tiddler=<<ThisTiddler>>>
+<$list filter=<<thisEditionTitleFilter>> template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$tiddler>
+</$set>
+</table>
+</$reveal>
+
+<$reveal type='match' state='$:/temp/Directory/search!!show_website' text='true'>
+__Websites (demos and reference)__
+
+<table>
+<tr><th>Site Name</th><th>Description</th></tr>
+<$set name=CurrentPerson value="""Jed Carty (inmysocks)""">
+<$tiddler tiddler=<<ThisTiddler>>>
+<!--<$list filter='[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Website]sort[title]]' template=SiteNamePlateDisplayTemplate>-->
+<$list filter=<<thisWebsiteTitleFilter>> template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$tiddler>
+</$set>
+</table>
+</$reveal>
+
+<$reveal type='match' state='$:/temp/Directory/search!!show_plugins' text='true'>
+__Plugins__
+
+<table>
+<tr><th>Plugin Name</th><th>Description</th></tr>
+<$set name=CurrentPerson value="""Jed Carty (inmysocks)""">
+<$tiddler tiddler=<<ThisTiddler>>>
+<!--<$list filter='[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Plugin]sort[title]]' template=SiteNamePlateDisplayTemplate>-->
+<$list filter=<<thisPluginTitleFilter>> template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$tiddler>
+</$set>
+</table>
+</$reveal>
+
+<$reveal type='match' state='$:/temp/Directory/search!!show_macros' text='true'>
+__Macros__
+
+<table>
+<tr><th>Macro Name</th><th>Description</th></tr>
+<$set name=CurrentPerson value="""Jed Carty (inmysocks)""">
+<$tiddler tiddler=<<ThisTiddler>>>
+<$list filter='[tag<CurrentPerson>tag[<Name Plate>]name_plate_type[TiddlyWiki]tag[Macro]sort[title]]' template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$tiddler>
+</$set>
+</table>
+</$reveal>
+
+</$set>
+</$set>

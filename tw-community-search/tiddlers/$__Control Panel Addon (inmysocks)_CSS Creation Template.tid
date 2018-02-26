@@ -1,0 +1,9 @@
+title: $:/Control Panel Addon (inmysocks)/CSS Creation Template
+created: 20150603002709463
+modified: 20150603152820876
+original-tags: 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: CSS Creation Template
+source-tiddler-title-as-link: CSS%20Creation%20Template
+
+<$list filter='[<currentTiddler>removesuffix[ Class Override]]'><$view field='title'/></$list> {<br><$list filter='[<currentTiddler>fields[]]-[[title]]-[[modified]]-[[text]]-[[created]]-[[tags]]' variable=ThisField><$view tiddler=<<ThisField>> field=title/>: <$transclude tiddler=<<currentTiddler>> field=<<ThisField>>/>;<br></$list>}

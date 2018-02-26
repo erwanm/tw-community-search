@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/DISQUS Comments (inmysocks)
+caption: DISQUS Comments
+category: Website
+created: 20151116090629791
+description: A site showing how to add DISQUS comments to a tiddlywiki.
+follow: yes
+modified: 20151116091125275
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/DISQUS%20Demo/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: DISQUS Comments (inmysocks)
+source-tiddler-title-as-link: DISQUS%20Comments%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

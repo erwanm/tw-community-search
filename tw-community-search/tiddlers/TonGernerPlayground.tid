@@ -5,6 +5,10 @@ author: TonGerner
 title: TonGernerPlayground
 type: text/vnd.tiddlywiki
 wiki-address: http://tongerner.tiddlyspot.com/
+wiki-tw-version: 5.1.15
+wiki-latest-modification: 20180225133545314
+wiki-nb-tiddlers: 56
 
+a demo ~TiddlyWiki (@@.BLUE TW v<<version>>@@)
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,0 +1,77 @@
+title: $:/ListManagement/New Tiddler
+created: 20150814184727434
+modified: 20150826191623802
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+\define fieldEditButton(title)
+     <$reveal state="$:/state/fieldedit/$title$" type="nomatch" text="$title$">
+        <$button set="$:/state/fieldedit/$title$" setTo="$title$">
+            {{$:/core/images/edit-button}}
+        </$button>
+    </$reveal>
+     <$reveal state="$:/state/fieldedit/$title$" type="match" text="$title$">
+        <$button>
+            <$action-deletetiddler $tiddler="$:/state/fieldedit/$title$"/>
+            {{$:/core/images/save-button}}
+        </$button>
+    </$reveal>
+\end
+\define renderheader(title)
+    <tr>
+        <th>Field</th><th>Description</th>
+        <th>
+        <$reveal state="$:/state/fieldedit/$title$" type="nomatch" text="$title$">
+            Edit
+        </$reveal>
+        <$reveal state="$:/state/fieldedit/$title$" type="match" text="$title$">
+            Save
+        </$reveal>
+        </th>
+    <th>Field Label</th><th>Field Type</th>
+    </tr>
+\end
+\define renderfieldlabel(title)
+    <$reveal state="$:/state/fieldedit/$title$" type="nomatch" text="$title$">
+        <$view tiddler="$title$" field="fieldlabel" />
+    </$reveal>
+    <$reveal state="$:/state/fieldedit/$title$" type="match" text="$title$">
+        <$edit tiddler="$title$" field="fieldlabel" />
+    </$reveal>
+\end
+\define renderfieldtype(title)
+    <$reveal state="$:/state/fieldedit/$title$" type="nomatch" text="$title$">
+        <$view tiddler="$title$" field="fieldtype" />
+    </$reveal>
+    <$reveal state="$:/state/fieldedit/$title$" type="match" text="$title$">
+        <$edit tiddler="$title$" field="fieldtype" />
+    </$reveal>
+\end
+\define renderfielddescription(title)
+    <$reveal state="$:/state/fieldedit/$title$" type="nomatch" text="$title$">
+        <$view tiddler="$:/language/Docs/Fields/$title$" field="text" />
+    </$reveal>
+    <$reveal state="$:/state/fieldedit/$title$" type="match" text="$title$">
+        <$edit tiddler="$:/language/Docs/Fields/$title$" field="text" />
+    </$reveal>
+\end
+\define renderfield(title)
+    <tr class="tc-view-field">
+        <td class="tc-view-field-name">''$title$'':</td>
+        <td><<renderfielddescription "$title$">></td>
+        <td><<fieldEditButton "$title$">></td>
+        <td><<renderfieldlabel "$title$">></td>
+        <td><<renderfieldtype "$title$">></td>
+    </tr>
+\end
+
+<table class="tc-view-field-table">
+    <thead>
+        <<renderheader "$title$">>
+    </thead>
+    <tbody>
+        <$list filter="[fields[]sort[title]]" variable="listItem"><$macrocall $name="renderfield" title=<<listItem>>/></$list>
+    </tbody>
+</table>

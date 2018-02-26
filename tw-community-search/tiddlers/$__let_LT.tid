@@ -1,0 +1,35 @@
+title: $:/let/LT
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141203230000000
+modifier: Tobias Beer
+summary: matches all where the value of a field is ''less than'' that of the operand
+types: [[INT|TYPE]], [[NUM|TYPE]], [[DATE|TYPE]]
+original-tags: Comparators
+source-wiki-id: let
+source-tiddler-title-as-text: LT
+source-tiddler-title-as-link: LT
+
+!! Number Example
+;`<$list filter="[let:NUM number LT[5]]"/>`
+:get all tiddlers where the field ''number'' of [[TYPE]] [[NUM|TYPE]] is ''less than'' 5
+;result
+:.tb-links <$list filter="[let:NUM number LT[5]]"/>
+:<br>
+
+;`<$list filter="[let:NUM number BLANKS LT[5]]"/>`
+:get all tiddlers where the field ''number'' of [[TYPE]] [[NUM|TYPE]] is ''less than'' 5 including [[BLANKS]]
+;result
+:.tb-links <$list filter="[let:NUM number BLANKS LT[5]]"/>
+
+!! Integer Example
+;`<$list filter="[let:INT count LT[5]]"/>`
+:get all tiddlers where the field ''count'' of [[TYPE]] [[INT|TYPE]] is ''less than'' 5
+;result
+:.tb-links <$list filter="[let:INT count LT[5]]"/>
+:<br>
+
+;`<$list filter="[let:INT count BLANK LT[5]]"/>`
+:get all tiddlers where the field ''count'' of [[TYPE]] [[INT|TYPE]] is ''less than'' 5 including [[BLANKS]]
+;result
+:.tb-links <$list filter="[let:INT count BLANKS LT[5]]"/>

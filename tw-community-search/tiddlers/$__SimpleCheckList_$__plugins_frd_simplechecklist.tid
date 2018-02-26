@@ -1,0 +1,11 @@
+title: $:/SimpleCheckList/$:/plugins/frd/simplechecklist
+author: frd
+description: Simple Checklist Manager
+version: 0.5.1
+original-tags: 
+source-wiki-id: SimpleCheckList
+source-tiddler-title-as-text: $:/plugins/frd/simplechecklist
+source-tiddler-title-as-link: %24%3a%2fplugins%2ffrd%2fsimplechecklist
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

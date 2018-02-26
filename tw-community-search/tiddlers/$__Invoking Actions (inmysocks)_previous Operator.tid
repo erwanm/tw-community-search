@@ -1,0 +1,21 @@
+title: $:/Invoking Actions (inmysocks)/previous Operator
+caption: previous
+created: 20140410103123179
+modified: 20150124171748000
+purpose: find which titles in a <<.field list>> field precede the input ones
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Field Operators]] [[Order Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: previous Operator
+source-tiddler-title-as-link: previous%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="a tiddler title"
+paramName="t"
+output="a selection containing each title that immediately precedes each of the input titles in the <<.field list>> field of <<.place t>>"
+/>
+
+Each input title is processed in turn, and its predecessor is located in the <<.field list>> field and appended to the output. If a title is not listed in the field, or is the first item there, then it contributes nothing to the output.
+
+<<.operator-examples "previous">>

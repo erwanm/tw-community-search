@@ -1,0 +1,23 @@
+title: $:/Wiki MetaTags (inmysocks)/DumpVariablesMacro
+caption: dumpvariables
+created: 20140908104107181
+modified: 20150107121000000
+type: text/vnd.tiddlywiki
+original-tags: Macros
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: DumpVariablesMacro
+source-tiddler-title-as-link: DumpVariablesMacro
+
+The ''dumpvariables'' [[macro|Macros]] displays a table with values of all [[variables|Variables]] that are defined in the current scope. It is useful for debugging and exploring TiddlyWiki internals.
+
+''Note:'' Parameters and variable subsitutions for macros are displayed as empty strings. A macro defined as `\define myMacro(text) ''$text$''` thus displays as `''''`.
+
+!! Example
+
+```
+<<dumpvariables>>
+```
+
+Renders as:
+
+<<dumpvariables>>

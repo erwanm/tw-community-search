@@ -1,0 +1,15 @@
+title: $:/rboue plugins/Three.js/Demos/arealights
+created: 20141209172417279
+modified: 20141214210329390
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: Three.js/Demos/arealights
+source-tiddler-title-as-link: Three.js%2fDemos%2farealights
+
+[[three.js|http://threejs.org/]] - deferred area lights ~WebGL demo by [[redPlant|http://de.redplant.de]] - based on [[ArKano22's|http://www.gamedev.net/topic/552315-glsl-area-light-implementation/]] glsl implementation
+@@float:right;
+[[View source|Three.js/Demos/arealights.js]]
+@@
+<$view3js tiddler="Three.js/Demos/arealights.js"/>

@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Yandex
+created: 20150413130554907
+creator: Mat
+modified: 20150715203311804
+modifier: Mat
+note: Seem not to accept iframes
+recent: 15/04/13	
+original-tags: imgsearch
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Yandex
+source-tiddler-title-as-link: imgsearch%3a%20Yandex
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="https://www.yandex.com/images/?uinfo=sw-1366-sh-768-ww-1366-wh-653-pd-1-wp-16x9_1366x768"  
+  style="width: 100%; height: 350px; 
+             margin-top: -5px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

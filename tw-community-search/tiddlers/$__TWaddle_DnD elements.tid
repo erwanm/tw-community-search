@@ -1,0 +1,20 @@
+title: $:/TWaddle/DnD elements
+created: 20150726093836563
+creator: Mat
+modified: 20150726105419459
+modifier: Mat
+recent: 15/07/26
+original-tags: Project Pie
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: DnD elements
+source-tiddler-title-as-link: DnD%20elements
+
+Brief description of a thing I intend to build:
+
+Drag'n Drop visual elements (images) that are using the [[hooker method|The Tiddler Hooker Method]] by setting it's positions from sensing where the mouse clicks. Initiate by on-hover.
+
+This means things get called into existence by opening the tiddler. Note that you can have several such elements in one tiddle and their individual positions-values can be read from fields (that can be remotely manipulated as usual and as is done in e.g  [[Theme Tweak Size Settings]] (sorry, that's a complex example but it's the only one I have to show right now. Better examples are to come in [[The Tiddler Hooker Method, part 2]]).
+
+One application could be a tiddler showing images of TW graphical elements like buttons, toolbars etc. If their positions and visibility can be manipulated individually (which I thing is not too difficult whith CSS) we have a mockup maker to illustrate things! //"I want a button here and where the arrow is there should be a dropdown opening when I click..."//
+
+If a tiddler is permanently open (e.g transcluded into sidebar or using a [[Permanent  Placeholder]]) then they are premanently on screen, as move around objects.

@@ -1,0 +1,25 @@
+title: $:/ViewFields/Stylesheet
+created: 20160614221920964
+creator: twMat
+modified: 20160615110757018
+modifier: twMat
+original-tags: $:/tags/Stylesheet
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: Stylesheet
+source-tiddler-title-as-link: Stylesheet
+
+.textn {
+display:block;
+margin-top:-1em;
+}
+
+.delete-textn { 
+position:absolute; 
+margin-left:-2.5em; padding:.5em;
+border:1px solid transparent;
+}
+
+.show-hover {display:none;padding-left:.5em;}
+
+.delete-textn:hover .show-hover {display:inline-block;}
+.delete-textn:hover {border:1px solid crimson; padding:.5em;  background:white;}

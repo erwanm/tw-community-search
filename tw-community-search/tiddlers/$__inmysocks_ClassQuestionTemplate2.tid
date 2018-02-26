@@ -1,0 +1,22 @@
+title: $:/inmysocks/ClassQuestionTemplate2
+created: 20150102015106557
+modified: 20150102015125528
+original-tags: Templates
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: ClassQuestionTemplate2
+source-tiddler-title-as-link: ClassQuestionTemplate2
+
+\define thisTheOtherStuff()
+<$reveal type="nomatch" state="$:/reveal/$(currentTitle)$" text="show">
+<$button set="$:/reveal/$(currentTitle)$" setTo='show'>Show Question</$button> - For Note: <$text text={{!!for_note}}/>
+</$reveal>
+<$reveal type="match" state="$:/reveal/$(currentTitle)$" text="show">
+<$button set="$:/reveal/$(currentTitle)$" setTo='hide'>Hide Question</$button><br>For Note: <$text text={{!!for_note}}/>
+<$edit-text tiddler=<<currentTiddler>> class='tc-edit-texteditor' placeholder='Questions'/>
+</$reveal>
+\end
+
+<$set name=currentTitle value={{!!title}}>
+<<thisTheOtherStuff>>
+</$set>
+<br>

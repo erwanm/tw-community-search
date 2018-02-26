@@ -1,0 +1,11 @@
+title: $:/TriggerActions/Startup Actions Tiddler
+created: 20150222224208660
+modified: 20150223011344513
+original-tags: $:/tags/StartupAction
+source-wiki-id: TriggerActions
+source-tiddler-title-as-text: Startup Actions Tiddler
+source-tiddler-title-as-link: Startup%20Actions%20Tiddler
+
+<$message2action message=&#39;tm-modal&#39;>
+
+</$message2action>

@@ -1,0 +1,15 @@
+title: $:/RandomBackgroundPlugin/Introduction
+created: 20151109133126492
+modified: 20170521212359909
+original-tags: 
+source-wiki-id: RandomBackgroundPlugin
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin replaces the page background image and displays a random background each time the wiki is refreshed. Import images and then name them with ~$:/plugins/ajh/randombackground/background#, where # is a whole number starting with 1. Create a tiddler named ~$:/info/max-random and put the highest number in the text area. __It is important to add ''~$:/info/max-random'' if you want more than the default background__. Background name examples: ~$:/plugins/ajh/randombackground/background0, ~$:/plugins/ajh/randombackground/background1, ~$:/plugins/ajh/randombackground/background2, etc. Or use a different name by creating a tiddler named ~$:/info/background and put the new name in the text field. Further examples with a new name could be: ~$:/bg0, ~$:/bg1, ~$:/bg2, ~$:/bg3, etc. Backgrounds are meant to be a part of the system so it is recommended to start the name with ~$:/.<br>
+&emsp;&emsp;You can set the attachment (fixed or scroll) and size (auto, cover, or contain) for each background individually by adding the field ''attachment'' with value ''fixed'' or ''scroll'' and/or the field ''size'' with the value ''auto'' or ''cover'' or ''contain'' to each background tiddler and it will supersede the global setting for that background. These settings will default to what is set in the control panel if not set in the background tiddler that gets displayed. See [[Setting a page background image|http://tiddlywiki.com/#Setting%20a%20page%20background%20image]] for further explaination of what the settings do and importing images.<br>
+&emsp;&emsp;Simply drag [[$:/plugins/ajh/randombackground]] to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
+[[$:/plugins/ajh/randombackground/background0]]<br>
+[[$:/plugins/ajh/randombackground/icon]]<br>
+[[$:/plugins/ajh/randombackground/stylesheet]]<br>
+[[$:/plugins/ajh/randombackground/random.js]]

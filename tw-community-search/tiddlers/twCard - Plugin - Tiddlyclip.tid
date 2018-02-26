@@ -1,0 +1,26 @@
+audience: 
+category: Content Grabbing
+created: 20150106175012859
+date: 17-12-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: BuggyJay
+modified: 20150210030532173
+name: Tiddlyclip
+plugin_tiddler: $:/plugins/bj/tiddlyclip
+release: Alpha
+repository: 
+revision: 0.0.7
+short_description: Clip things from webpages and add them to your wiki
+title: twCard - Plugin - Tiddlyclip
+wiki: http://tiddlyclip.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: tiddlyclip
+twcs-extracted-plugin-tiddler: $:/tiddlyclip/$:/plugins/bj/tiddlyclip
+twcs-description: include web content
+twcs-author: Jeffrey Wilkinson (aka BJ)
+twcs-version: 0.0.7-alpha
+
+{{||$:/CommunityPluginTemplate}}

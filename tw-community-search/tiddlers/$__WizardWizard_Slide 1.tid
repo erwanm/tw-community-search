@@ -1,0 +1,20 @@
+title: $:/WizardWizard/Slide 1
+order: 1
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 1
+source-tiddler-title-as-link: Slide%201
+
+This is the wizard wizard plugin demo wiki. The plugin is in the early stages and hopefully I will add more things to it to help people make the things they will use it to display.
+
+Right now it is a framework for showing tiddlers sequentially with some built-in tools for saving data. So it works well for set up wizards or if for some reason you don't want to use one of the existing solutions, it is also a slide show.
+
+To use this just put the macro
+
+```
+<<ConfigurationWizard TagName>>
+```
+
+where you want your wizard to be displayed. Replace `TagName` with the name of the tag you want to use. There is more information in the [[macro tiddler|$:/plugins/inmysocks/WizardWizard/Wizard Macro]].
+
+Click on the `Forward` button below to go to the next step.

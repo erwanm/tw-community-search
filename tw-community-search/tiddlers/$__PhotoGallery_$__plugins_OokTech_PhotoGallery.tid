@@ -1,0 +1,14 @@
+title: $:/PhotoGallery/$:/plugins/OokTech/PhotoGallery
+author: OokTech
+core-version: >=5.1.8
+dependents: 
+description: A plugin that adds a simple photo gallery to tiddlywiki
+source: https://github.com/OokTech/TW5-PhotoGallery
+version: 0.0.5
+original-tags: 
+source-wiki-id: PhotoGallery
+source-tiddler-title-as-text: $:/plugins/OokTech/PhotoGallery
+source-tiddler-title-as-link: %24%3a%2fplugins%2fOokTech%2fPhotoGallery
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

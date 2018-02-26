@@ -1,0 +1,12 @@
+title: $:/Interactive Fiction Engine (inmysocks)/DictionaryReadState1
+created: 20141129044341080
+event_name: DictionaryReadState
+event_order: first
+location: Dictionary
+modified: 20141129044720833
+trigger: DictionaryReadTrigger
+original-tags: Event
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: DictionaryReadState1
+source-tiddler-title-as-link: DictionaryReadState1
+

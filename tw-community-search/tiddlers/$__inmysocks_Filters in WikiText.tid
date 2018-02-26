@@ -1,0 +1,20 @@
+title: $:/inmysocks/Filters in WikiText
+created: 20150409031030141
+modified: 20160525102825920
+topics_tags: Filters
+original-tags: [[Learning TiddlyWiki]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Filters in WikiText
+source-tiddler-title-as-link: Filters%20in%20WikiText
+
+Filters are used to make lists in wikitext. The simplest filter is just a static list of titles like this:
+
+```
+'One Two Three Four'
+```
+
+Titles with spaces can be used by surrounding them with `[[` and `]]` like this:
+
+```
+'[[A title with spaces]] [[Another Title]] three four'
+```

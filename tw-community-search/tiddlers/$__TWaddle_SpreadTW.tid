@@ -1,0 +1,18 @@
+title: $:/TWaddle/SpreadTW
+created: 20150328024506773
+creator: Mat
+modified: 20150726103753040
+modifier: Mat
+recent: 15/04/15
+original-tags: OK $:/tags/BelowStory
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: SpreadTW
+source-tiddler-title-as-link: SpreadTW
+
+<style>
+#fishclick {position:absolute; bottom:-35px; left: 300px;);
+</style>
+
+<div id="fishclick">
+<<linkimg "Bigger community ⇄ Better TW" "img/fishclick" "click me!" clickme>>
+</div>

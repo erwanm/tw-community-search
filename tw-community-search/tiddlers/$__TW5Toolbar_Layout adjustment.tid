@@ -1,0 +1,21 @@
+title: $:/TW5Toolbar/Layout adjustment
+created: 20150812072755403
+creator: TonGerner
+modified: 20170506151005222
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: Layout adjustment
+source-tiddler-title-as-link: Layout%20adjustment
+
+!! [[Layout adjustment]]
+
+<<pslider "Readme of plugin" $:/plugins/tongerner/layout_adjustment/readme>>
+
+<<slider "Payload tiddlers layout" "Payload tiddlers layout">>
+
+The top bar is tagged with [[$:/tags/PageTemplate]]
+
+<<<
+''Note:''<br>The code of all payload tiddlers can be examined under the tab [[Code]].
+<<<

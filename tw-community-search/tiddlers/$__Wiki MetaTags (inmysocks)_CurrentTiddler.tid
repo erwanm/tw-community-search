@@ -1,0 +1,16 @@
+title: $:/Wiki MetaTags (inmysocks)/CurrentTiddler
+created: 20130825144900000
+modified: 20141012154500719
+type: text/vnd.tiddlywiki
+original-tags: Concepts
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: CurrentTiddler
+source-tiddler-title-as-link: CurrentTiddler
+
+The current tiddler provides an ever-changing context or background against which several features of WikiText are interpreted.
+
+For example, `{{!!title}}` denotes the value of the ''title'' field of whatever the current tiddler happens to be. This technique can be used in a [[TemplateTiddler|TemplateTiddlers]] to keep the template generic.
+
+The title of the current tiddler can always be found in the [[currentTiddler variable|WidgetVariable: currentTiddler]].
+
+The current tiddler is set in several ways, including by the ListWidget and the TiddlerWidget.

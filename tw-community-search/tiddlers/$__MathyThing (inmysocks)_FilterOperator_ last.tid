@@ -1,0 +1,17 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: last
+caption: last
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+original-tags: Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: last
+source-tiddler-title-as-link: FilterOperator%3a%20last
+
+The ''last'' filter operator returns the last entries in the current list. The optional operand specifies the number of entries to return.
+
+For example:
+
+|!Filter String |!Description |
+|`one two three +[last[]]` |Returns `three` |
+|`one two three +[last[2]]` |Returns `two`, `three` |

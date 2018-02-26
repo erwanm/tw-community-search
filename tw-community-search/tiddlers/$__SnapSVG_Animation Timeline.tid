@@ -1,0 +1,14 @@
+title: $:/SnapSVG/Animation Timeline
+created: 20151208190143089
+modified: 20151208221533515
+scale: 1
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Animation Timeline
+source-tiddler-title-as-link: Animation%20Timeline
+
+<div style='width:100%;overflow-x:scroll;background-color:beige'>
+<div style='width:2600px;'>
+<$snap-widget surface=SVGImage1 timeline=true/>
+</div>
+</div>

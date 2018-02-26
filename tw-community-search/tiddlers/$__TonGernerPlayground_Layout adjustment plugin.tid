@@ -1,0 +1,20 @@
+title: $:/TonGernerPlayground/Layout adjustment plugin
+caption: Layout adjustment
+created: 20150729185548862
+creator: TonGerner
+modified: 20171222172536806
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Layout adjustment plugin
+source-tiddler-title-as-link: Layout%20adjustment%20plugin
+
+!! [[Layout adjustment plugin]] v<<pversion "layout_adjustment">>
+
+''Status:'' @@.RED {{Layout adjustment plugin!!status}} v<<version>>@@
+
+//@@.RED New: Tobias Beer's scroll hack incorporated.@@//
+
+<<readme $:/plugins/tongerner/layout_adjustment/readme $:/plugins/tongerner/layout_adjustment>>
+

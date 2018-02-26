@@ -1,0 +1,27 @@
+title: $:/TWaddle/Highlighter, base case
+created: 20150317205848303
+creator: Mat
+highlighted: (see [[notes|Highlighter - comments]]) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span style="color:black; background-color:yellow; opacity: 0.5;">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+modified: 20150715151305374
+modifier: Mat
+original: (see [[notes|Highlighter - comments]]) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+recent: 15/03/17	
+original-tags: Highlighting
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Highlighter, base case
+source-tiddler-title-as-link: Highlighter%2c%20base%20case
+
+<style>
+#ohighlighter { position: relative; }
+#ihighlighter { position: absolute; width:100%; }
+#marker { position: absolute; left: 40%; top: -50px; }
+#highlight {display: none;}
+#marker:hover + #highlight {display: block; position:absolute; color:transparent; }
+</style>
+
+<div id="ohighlighter"><div id="ihighlighter">
+       <a id="marker" href="#">{{img/highlighter}}</a>
+      <div id="highlight">{{!!highlighted}}</div>
+</div></div>
+
+{{!!original}}

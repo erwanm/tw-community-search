@@ -1,0 +1,25 @@
+title: $:/TWederation/About TWederation
+caption: {{$:/favicon.ico}}
+created: 20160819074104816
+creator: twMat
+modified: 20160820181729807
+modifier: twMat
+original-tags: 
+source-wiki-id: TWederation
+source-tiddler-title-as-text: About TWederation
+source-tiddler-title-as-link: About%20TWederation
+
+<div class="infobox">
+
+*The ''TWederation'', or the //TiddlyWiki federation//, symbolized {{img/asterism_mini}} or {{img/asterism_mini_bw}}, is the collective name for all the independent //TiddlyWiki networks// (see below).<br>It is also the name and symbol for this site.
+*A ''TiddlyWiki network'' is a group of regular TiddlyWikis, each set up to allow the other member wikis to fetch tiddlers from it.
+</div>
+
+!!!<span style="color:red; font-size:200%; ">↖</span> the tabs
+*The ''Applications'' tab shows some things TWederation can do for you.
+*''Get started!'' guides you to connect to the TWederation network...
+*...including to get your ''twCard'' published in the twCards List tab.
+* ''Tiddlypedia'' has the //discussion forum// that builds the knowledge base
+
+
+<center>[Intro VIDEO]</center>

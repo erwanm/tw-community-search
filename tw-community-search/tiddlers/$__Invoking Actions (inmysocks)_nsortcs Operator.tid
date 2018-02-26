@@ -1,0 +1,22 @@
+title: $:/Invoking Actions (inmysocks)/nsortcs Operator
+caption: nsortcs
+created: 20140410103123179
+modified: 20150124205339000
+purpose: sort the input titles by number field, ignoring case
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Field Operators]] [[Order Operators]] [[Negatable Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: nsortcs Operator
+source-tiddler-title-as-link: nsortcs%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="the name of a [[field|TiddlerFields]], defaulting to <<.field title>>"
+paramName="f"
+output="the input, sorted into ascending order by field <<.field f>>, treating field values as numbers"
+negationOutput="the input, likewise sorted into descending order"
+/>
+
+Non-numeric values are treated as having a higher value than any number, and capital and lowercase letters are treated as different. Compare <<.olink nsort>>.
+
+<<.operator-examples "nsortcs">>

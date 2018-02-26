@@ -1,0 +1,15 @@
+title: $:/TWederation/Commenting
+created: 20160807141025766
+creator: twMat
+modified: 20160819135527097
+modifier: twMat
+original-tags: ⁂concept basic
+source-wiki-id: TWederation
+source-tiddler-title-as-text: Commenting
+source-tiddler-title-as-link: Commenting
+
+A //comment// is an addition to some other tiddler. The other tiddler is typically a [[root post|Root Post]] in a discussion or another comment in a discussion, but it can be just any other tiddler.
+
+The [[Discussion Plugin]] is set up with an interface to ...
+
+[...]

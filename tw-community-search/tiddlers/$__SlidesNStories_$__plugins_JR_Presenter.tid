@@ -1,0 +1,16 @@
+title: $:/SlidesNStories/$:/plugins/JR/Presenter
+author: JR
+created: 20170308234902421
+creator: JR
+dependents: $:/_telmiger/extract $:/_telmiger/slice $:/plugins/JR/slidesnstories
+description: Presenter 
+modified: 20170917205105884
+modifier: JR
+version: 0.0.23
+original-tags: 
+source-wiki-id: SlidesNStories
+source-tiddler-title-as-text: $:/plugins/JR/Presenter
+source-tiddler-title-as-link: %24%3a%2fplugins%2fJR%2fPresenter
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

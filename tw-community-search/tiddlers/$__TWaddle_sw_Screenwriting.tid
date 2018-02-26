@@ -1,0 +1,27 @@
+title: $:/TWaddle/sw:Screenwriting
+created: 20150415222133224
+modified: 20150417155413210
+original-tags: SoftwareCategory sw:Authoring sw:Editor
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:Screenwriting
+source-tiddler-title-as-link: sw%3aScreenwriting
+
+''Screenwriting software'' are word processors specialized to the task of writing screenplays. The need for such programs arises from the presence of certain peculiarities in standard screenplay format which are not handled well by generic word processors. [...]
+
+[Variants include; standalone desktop applications. mobile apps, web applications which run in a web browser with no software to install. or add-ins for generic word processors such as Microsoft Word. There is also a package for ~LaTeX called screenplay, as well as a template for Pages.]
+
+There is also a plain text screenwriting syntax called ''Fountain'' [see below] [...] which enables writing screenplays in any basic text environment, be it dedicated writing software, email or theoretically even any text you can run through OCR.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/Screenwriting_software]]@@
+
+The [[Fountain|http://en.wikipedia.org/wiki/Fountain_(markup_language)]] markup language:
+
+[...] a free and open-source plain text markup language that makes it possible to write a formatted screenplay in any text editor, on any device, using any software that edits text files.
+
+[...] inspired by John Gruber’s Markdown, and has its origins in two different and non-related projects: Scrippets, [and] Screenplay Markdown [...]
+...
+
+See also other Authoring software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Authoring]!is[current]]">>
+
+See also other Editor software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Editor]!is[current]]">>

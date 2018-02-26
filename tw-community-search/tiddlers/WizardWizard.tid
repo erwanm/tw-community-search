@@ -5,6 +5,9 @@ tags: CommunityWikis
 title: WizardWizard
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/WizardWizard/
+wiki-tw-version: 5.1.12-prerelease
+wiki-latest-modification: 20160613155436403
+wiki-nb-tiddlers: 17
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

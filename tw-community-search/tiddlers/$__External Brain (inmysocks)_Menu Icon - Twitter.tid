@@ -1,0 +1,14 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Twitter
+created: 20150310224858325
+left_menu_order: 4
+modified: 20150310231609496
+original-tags: [[Menu Icon]] $:/tags/LeftMenu
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Twitter
+source-tiddler-title-as-link: Menu%20Icon%20-%20Twitter
+
+<div class='left-menu-text'>
+<$button class='left-menu-text tc-btn-invisible'>Twitter
+<$action-navigate $to='Twitter Integration'/>
+</$button>
+</div>

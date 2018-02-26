@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/ahahn/tinka'
-name: unknown
-plugin_tiddler: $:/plugins/ahahn/tinka
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

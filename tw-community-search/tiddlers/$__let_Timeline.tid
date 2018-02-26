@@ -1,0 +1,40 @@
+title: $:/let/Timeline
+created: 20141128230000000
+creator: Tobias Beer
+modified: 20141128230000000
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: let
+source-tiddler-title-as-text: Timeline
+source-tiddler-title-as-link: Timeline
+
+<style>
+.no-border{font-size:0.8em;}
+.no-border, .no-border > tr, .no-border > tr > td {border:0;}
+</style>
+<table class="no-border">
+<tr>
+<td>
+<table>
+<tr><th>Modified</th><th>Tiddler</th></tr>
+<$list filter="[all[]has[modified]!is[system]!sort[modified]]">
+<tr>
+<td><$view field=modified format=date template="YYYY-0MM-0DD 0hh:0mm:0ss"/></td>
+<td><$link><$view field=title/></$link></td>
+</tr>
+</$list>
+</table>
+</td>
+<td>
+<table>
+<tr><th>Created</th><th>Tiddler</th></tr>
+<$list filter="[all[]has[created]!is[system]!sort[created]]">
+<tr>
+<td><$view field=created format=date template="YYYY-0MM-0DD 0hh:0mm:0ss"/></td>
+<td><$link><$view field=title/></$link></td>
+</tr>
+</$list>
+</table>
+</td>
+</tr>
+</table>

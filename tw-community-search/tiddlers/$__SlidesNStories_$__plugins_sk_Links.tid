@@ -1,0 +1,12 @@
+title: $:/SlidesNStories/$:/plugins/sk/Links
+author: Stephen Kimmel
+description: Editor Links
+list: Links List
+version: 0.0.4
+original-tags: 
+source-wiki-id: SlidesNStories
+source-tiddler-title-as-text: $:/plugins/sk/Links
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsk%2fLinks
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

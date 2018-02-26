@@ -1,0 +1,26 @@
+audience: 
+category: Utility
+created: 20150106175012859
+date: 
+homepage: 
+install_link: $:/plugins/inmysocks/extrafilters
+language: 
+license: 
+maintainer: inmysocks
+modified: 20150725174804474
+name: Extra Filter Operators
+plugin_tiddler: $:/plugins/inmysocks/extrafilters
+release: 
+repository: 
+revision: 0.0.1
+short_description: Some extra filter operators
+title: twCard - Plugin - extrafilters
+wiki: http://ooktech.com/jed/ExampleWikis/ExtraFilterOperators
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: ExtraFiltersOperators
+twcs-extracted-plugin-tiddler: $:/ExtraFiltersOperators/$:/plugins/inmysocks/extrafilters
+twcs-description: Some extra filters for TiddlyWiki
+twcs-author: inmysocks
+twcs-version: 0.0.1
+
+{{||$:/CommunityPluginTemplate}}

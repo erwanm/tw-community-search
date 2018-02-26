@@ -1,0 +1,16 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: get
+caption: get
+created: 20140426183123179
+modified: 20140426183123179
+type: text/vnd.tiddlywiki
+original-tags: Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: get
+source-tiddler-title-as-link: FilterOperator%3a%20get
+
+The ''get'' filter operator replaces the titles of the tiddlers in the current list with the values of the field specified by the operand.
+
+For example:
+
+|!Filter String |!Description |
+|`[all[current]get[draft.of]]` |If the current tiddler is a draft, returns the original tiddler, otherwise returns an empty list |

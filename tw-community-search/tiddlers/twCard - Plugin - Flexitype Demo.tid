@@ -1,0 +1,26 @@
+audience: 
+category: Utility
+created: 20150106175012859
+date: 14-12-2014
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: BuggyJay
+modified: 20150221165059983
+name: Flexitype Demo
+plugin_tiddler: $:/plugins/bj/typestemplate
+release: 
+repository: 
+revision: 0.0.3
+short_description: Extended Types
+title: twCard - Plugin - Flexitype Demo
+wiki: http://bjtools.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: BJTools
+twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/typestemplate
+twcs-description: enables user templates for each type
+twcs-author: JeffreyWilkinson
+twcs-version: 1.11.0
+
+{{||$:/CommunityPluginTemplate}}

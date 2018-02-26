@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/kantorsite/mathjax'
-name: unknown
-plugin_tiddler: $:/plugins/kantorsite/mathjax
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

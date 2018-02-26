@@ -1,0 +1,13 @@
+title: $:/cpashow/temptask
+created: 20150401042414553
+modified: 20150401043107425
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: temptask
+source-tiddler-title-as-link: temptask
+
+\define temptask()
+<$checkbox tiddler="$:/_cpa/Data/ToDos" tag="$(currentTiddler)$"> $(currentTiddler)$</$checkbox>
+\end
+
+<$macrocall $name="temptask" />

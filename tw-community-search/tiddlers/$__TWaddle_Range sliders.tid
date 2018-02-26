@@ -1,0 +1,18 @@
+title: $:/TWaddle/Range sliders
+created: 20150714155606267
+creator: Mat
+modified: 20150715205252022
+modifier: Mat
+recent: 15/07/14	
+original-tags: NeededTool OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Range sliders
+source-tiddler-title-as-link: Range%20sliders
+
+Slides like the old analog volume controls;
+
+See [[html input type range|http://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_range]]
+
+An example is my use of them in TWaddle for ctrlpanel > Appearance > Size Settings. 
+
+Some experiments have been made, from @EricShulman, @JedCarty and myself. Nothing fully official yet. More to come.

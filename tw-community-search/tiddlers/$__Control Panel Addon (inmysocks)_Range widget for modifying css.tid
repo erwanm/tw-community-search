@@ -1,0 +1,16 @@
+title: $:/Control Panel Addon (inmysocks)/Range widget for modifying css
+created: 20150604004831831
+modified: 20150604005753004
+original-tags: 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Range widget for modifying css
+source-tiddler-title-as-link: Range%20widget%20for%20modifying%20css
+
+A quick demo of using a slider to set the font size used by tiddler titles. The css is generated in [[Example CSS]]
+
+<$range tiddler='Example CSS' field='value' min=1 max=30/>
+
+<$radio tiddler='Example CSS' field='unit' value=px>px</$radio>
+<$radio tiddler='Example CSS' field='unit' value=em>em</$radio>
+<$radio tiddler='Example CSS' field='unit' value=vh>vh</$radio>
+<$radio tiddler='Example CSS' field='unit' value=vw>vw</$radio>

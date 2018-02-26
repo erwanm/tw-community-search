@@ -1,0 +1,43 @@
+title: $:/inmysocks/Multi-column List
+created: 20160208161020378
+description: A macro that returns a list with a given number of columns
+modified: 20160208192737493
+original-tags: [[My Macros]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Multi-column List
+source-tiddler-title-as-link: Multi-column%20List
+
+\define thisExampleMacro(Number)
+<<multicolumnlist "[!is[system]limit{$:/state/Multi-column List!!limit}]" $Number$>>
+\end
+
+This is a simple macro that lets you give a filter and a number, it then returns a table with n that lists the results of the filter given.
+
+Macro tiddler to import: [[$:/macros/inmysocks/multicolumnlist]]
+
+Usage:
+
+`<<multicolumenlist Filter Number Class Template>>`
+
+|!Input |!Description |
+|!Filter |The filter used to build the list |
+|!Number |The number of columns displayed |
+|!Class |An optional class |
+|!Template |A template to use for displaying each entry. It can be a tiddler or a string. |
+
+Interactive example:
+
+List length: <$select tiddler='$:/state/Multi-column List' field=limit><$list filter='2 3 4 5 6 7 8 9 10 15 20 25 37'><option><<currentTiddler>></option></$list></$select>
+
+Number of columns: <$select tiddler='$:/state/Multi-column List' field=number><$list filter='2 3 4 5 6 7 8 9 10 11 12'><option><<currentTiddler>></option></$list></$select>
+
+
+<$macrocall $name=thisExampleMacro Filter={{$:/state/Multi-column List!!filter}} Number={{$:/state/Multi-column List!!number}}/>
+
+Example:
+
+```
+<<multicolumnlist '[!is[system]limit[23]]' 3>>
+```
+
+<<multicolumnlist '[!is[system]limit[23]]' 3>>

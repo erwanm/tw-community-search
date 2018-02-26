@@ -1,0 +1,30 @@
+title: $:/GSD5/Reference
+original-tags: GSD5TiddlerTypes
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Reference
+source-tiddler-title-as-link: Reference
+
+! Summary
+
+References are used to store information that is related to a Project but is not actionable in and of itself.
+
+! Detail
+
+!! Field Variables
+The following field variables are used by References.
+
+| !Field | !Values | !Note |
+|gsd_type |reference |Required value. |
+|gsd_project |<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+|gsd_realm |all | |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+
+!! UI Controls
+Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls can be added to the Blue-Box using the following system tags.
+
+* [[$:/tags/GSD5ActionCore|GSD5ReferenceCore]]
+* [[$:/tags/GSD5ActionPlugin|GSD5ReferencePlugin]]
+
+! Best Practice
+
+//--none--//

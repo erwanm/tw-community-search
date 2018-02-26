@@ -1,0 +1,17 @@
+title: $:/ViewFields/Injection 1
+created: 20160615151039441
+creator: twMat
+modified: 20160615152233211
+modifier: twMat
+transclude-to: Demo!!text2 Foo!!text2
+original-tags: 
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: Injection 1
+source-tiddler-title-as-link: Injection%201
+
+This is injection-content from [[Injection 1]]
+
+*asd
+*asd
+bye bye
+

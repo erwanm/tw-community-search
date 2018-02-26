@@ -1,0 +1,29 @@
+title: $:/SnapSVG/Plan
+created: 20151208091526535
+modified: 20151220081812896
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Plan
+source-tiddler-title-as-link: Plan
+
+''__Notes__:''
+
+The layer given to a group overrides the layer given to all element in the group regardless of if they are supposed to be in front of or behind the group.
+
+Maybe I need to fix my naming stuff. Actions should be user actions like click, hover, mousein, etc. and what I have been calling actions should be events. Then actions trigger events which can be animations.
+
+''__Plan__:''
+
+Whenever objects (elements and groups) are added there needs to be an object_type field set to either `Element` or `Group`.
+
+I need to make events, animation is one type of event. Other events would include adding an element, creating a group, removing a group and removing an element. There may be more.
+
+Figure out the best way to add marks. A mark will be a description of the full state of an animation that you can jump to. It needs to include which elements are displayed as well as their locations/scale/groupings/etc.
+
+Improve the timeline I made for animations to make it interactive.
+
+Fix the problem that prevents animations on groups from listing the group correctly in the animation tiddler. It is annoying.
+
+For element and group tiddlers: Find a way to display the element/group defined by the tiddler by itself.
+
+A way to pause mid-animation would be nice, but I don't know if I can do that in a reasonable way.

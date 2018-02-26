@@ -1,0 +1,14 @@
+title: $:/TriTarget/$:/plugins/sukima/obfuscate
+author: Sukima
+core-version: >=5.0.0
+dependents: 
+description: TriTarget.org Obfuscate Parser
+list: readme
+version: 0.0.1
+original-tags: 
+source-wiki-id: TriTarget
+source-tiddler-title-as-text: $:/plugins/sukima/obfuscate
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsukima%2fobfuscate
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

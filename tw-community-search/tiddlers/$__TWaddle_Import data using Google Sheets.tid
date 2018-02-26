@@ -1,0 +1,64 @@
+title: $:/TWaddle/Import data using Google Sheets
+created: 20160121205737189
+creator: Mat
+modified: 20160121215414060
+modifier: Mat
+original-tags: [[3d Part Software]] Export/Import HowTo Tidbit
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Import data using Google Sheets
+source-tiddler-title-as-link: Import%20data%20using%20Google%20Sheets
+
+<<note "For anyone thinking there ought to be a plugin for this - I agree. There was in TW2, see e.g [[link|https://groups.google.com/forum/#!searchin/tiddlywiki/convert$20spreadsheet/tiddlywiki/61ypQA0VK80/Izur1_2NBAAJ]]">>
+
+<<note "This below is a ''much'' simplified alternative to the process described in [[Import data using Spreadsheet]].">>
+<br>
+''OK, so the task at hand is to insert a lot of data'' into your TW as tiddlers.<br>With minimal effort...
+
+This technique uses
+
+*Google Sheets (i.e the standard Google Drive Spreadsheet solution)
+*with the addon [[Export Sheet Data|https://chrome.google.com/webstore/detail/export-sheet-data/bfdcopkbamihhchdnjghdknibmcnfplk?hl=en]]
+*and a very minor post editing in e.g Notepad++
+
+<br>Have your data in the Google sheet just as you'd guess;
+
+|title|tags|text|author|
+|Wisdom of the day|`[[Life experiences]]`|Kids, don't eat the yellow snow.|Mat the Poet|
+|Home made ~FooBar|Recipes|Get some Foo and a pinch of Bar. Mix carefully. Tadaa!|Mat the Genious|
+
+Note `[[tags with spaces needs double brackets]]`
+
+<br>In the the add-on menu, click 
+
+*Select format: JSON
+*Select sheets: Current sheet only
+*Checkbox Export Sheet Arrays
+**This treats the sheet as an array, surrounding it with square brackets
+
+...click `Visualize` to get a preview
+
+```
+{
+  "Sheet1" : [
+    {
+      "title" : "Wisdom of the day",
+      "tags" : "[[Life experiences]]",
+      "text" : "Kids, don't eat the yellow snow.",
+      "author" : "Mat the Poet"
+    },
+    {
+      "title" : "Home made FooBar",
+      "tags" : "Recipes",
+      "text" : "Get some Foo and a pinch of Bar. Mix carefully. Tadaa!",
+      "author" : "Mat the Genious"
+    }
+  ]}
+```
+
+<br>This is very close to desired format. You must remove the initial bits and that final `}` so the first and last characters are the angle brackets `[` ...`]`
+
+So click `Export` and open the resulting json file in your editor - edit - and save (again. as .json).
+
+Drag'n drop this straight onto your TW... 
+
+~TaDaaaa! Now go and enjoy some ~FooBar and ponder over the wisdom. 

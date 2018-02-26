@@ -1,0 +1,11 @@
+title: $:/SnapSVG/Button 1 Action
+action_name: Button 1 Action
+action_type: Button
+created: 20151222132103397
+modified: 20151223171928959
+original-tags: Action
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Button 1 Action
+source-tiddler-title-as-link: Button%201%20Action
+
+<$action-setfield $tiddler='$:/SiteTitle' text=Yep/>

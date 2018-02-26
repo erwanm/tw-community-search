@@ -1,0 +1,9 @@
+title: $:/Popout Menus Site (inmysocks)/Search popout menu
+created: 20150418212349209
+modified: 20150424050326584
+original-tags: [[Menu Icon]] $:/tags/TopMiddleMenu $:/tags/LeftMenu
+source-wiki-id: Popout Menus Site (inmysocks)
+source-tiddler-title-as-text: Search popout menu
+source-tiddler-title-as-link: Search%20popout%20menu
+
+<<PopoutMenuScrollable "{{$:/core/images/advanced-search-button}}" "AdvancedSearchPopoutMenu" "$:/AdvancedSearch" "Advanced Search">>

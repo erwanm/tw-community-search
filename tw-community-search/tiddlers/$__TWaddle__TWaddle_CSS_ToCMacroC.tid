@@ -1,0 +1,19 @@
+title: $:/TWaddle/_TWaddle/CSS/ToCMacroC
+created: 20150416221344381
+modified: 20150416234241627
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: _TWaddle/CSS/ToCMacroC
+source-tiddler-title-as-link: _TWaddle%2fCSS%2fToCMacroC
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a {
+background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(100%,<<color background>>));
+	  -moz-border-image: -moz-linear-gradient(left, <<color tab-border>> 0%, rgba(240,67,239,0) 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, <<color tab-border>> 0%, rgba(240,67,239,0) 100%);
+	  border-image: linear-gradient(to right, <<color tab-border>> 0%, rgba(240,67,239,0) 100%);
+border-image-slice: 1; 
+border-right: 0px;
+border-left: 7px solid <<color tab-border-selected>>; /* color is set in border-image */
+margin-left:-7px;	 /* make up for border-left disloc. */
+margin-right:0px; /*move shade to right*/
+}

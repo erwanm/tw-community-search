@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/Exploration plugin
+caption: Exploration
+created: 20180224164153830
+creator: TonGerner
+modified: 20180225133150317
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Exploration plugin
+source-tiddler-title-as-link: Exploration%20plugin
+
+!! [[Exploration plugin]] v<<pversion "exploration">>
+
+''Status:'' @@.RED {{Exploration!!status}} v<<version>>@@
+
+<<readme $:/plugins/tongerner/exploration/readme $:/plugins/tongerner/exploration>>

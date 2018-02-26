@@ -1,0 +1,15 @@
+title: $:/t5a/$:/plugins/ajh/locations
+author: Andrew
+core-version: >=5.1.11
+dependents: $:/language/locations/caption $:/language/locations/hint $:/plugins/ajh/locations/icon $:/plugins/ajh/locations/readme $:/plugins/ajh/locations/image $:/plugins/ajh/locations/template
+description: Locations Button
+list: readme
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Flocations.json
+version: 0.0.2
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/ajh/locations
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2flocations
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

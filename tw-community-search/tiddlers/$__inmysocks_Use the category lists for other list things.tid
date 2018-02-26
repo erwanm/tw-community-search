@@ -1,0 +1,21 @@
+title: $:/inmysocks/Use the category lists for other list things
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: Mainly I want one that doesn't have the task list parts
+due_day: 
+due_month: 
+due_year: 
+modified: 20150503214847780
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: New Feature
+original-tags: [[Planned Update]] [[New Feature]] [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Use the category lists for other list things
+source-tiddler-title-as-link: Use%20the%20category%20lists%20for%20other%20list%20things
+
+Remove the checkbox to mark a task as finished, and possibly take the remove task button out. I could use this for listing plugins and stuff. I am sure I will find other uses as well.

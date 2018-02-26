@@ -1,0 +1,17 @@
+title: $:/External Brain (inmysocks)/Alternate Text Styles CSS
+created: 20150303041947817
+modified: 20150423011757089
+original-tags: 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Alternate Text Styles CSS
+source-tiddler-title-as-link: Alternate%20Text%20Styles%20CSS
+
+.tc-tiddler-frame .tc-tiddler-body {
+	font-family: {{$:/state/Site Accessability Options!!fontfamily}};
+        font-weight: {{$:/state/Site Accessability Options!!fontweight}};
+        font-size: {{$:/state/Site Accessability Options!!fontsize}};
+        line-height: {{$:/state/Site Accessability Options!!lineheight}};
+        word-spacing: {{$:/state/Site Accessability Options!!wordspacing}};
+        letter-spacing: {{$:/state/Site Accessability Options!!letterspacing}};
+        text-decoration: {{$:/state/Site Accessability Options!!textdecoration}};
+}

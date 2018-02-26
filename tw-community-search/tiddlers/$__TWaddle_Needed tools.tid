@@ -1,0 +1,19 @@
+title: $:/TWaddle/Needed tools
+created: 20150427171605900
+creator: Mat
+modified: 20150715203123240
+modifier: Mat
+recent: 15/04/27	
+original-tags: [[Help, please]]
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Needed tools
+source-tiddler-title-as-link: Needed%20tools
+
+<table class="tableFormatter">
+<$list filter="[all[shadows+tiddlers]has[summary]!prefix[$:/]!tag[Unfinished]tag[NeededTool]]  +[sort[title]]">
+<tr>
+<td  valign="top"><$link to=<<currentTiddler>>><$view field='title'/></$link></td>
+<td>{{!!summary}}</td>
+</tr>
+</$list>
+</table>
