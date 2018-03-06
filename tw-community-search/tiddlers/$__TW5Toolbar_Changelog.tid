@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20180226093458318
+modified: 20180301184006298
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v6.13
+* Bugfix top toolbar plugin
 
 !!!!v6.12
 * Added calendar (hover) button
