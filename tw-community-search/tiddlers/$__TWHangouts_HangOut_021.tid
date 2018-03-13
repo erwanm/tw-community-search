@@ -1,0 +1,46 @@
+title: $:/TWHangouts/HangOut_021
+created: 20150116230718589
+modified: 20150118005253938
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_021
+source-tiddler-title-as-link: HangOut_021
+
+2013-11-12 - [[YouTube|https://www.youtube.com/watch?v=SqjPSqQySc0]]
+
+"""
+0:00:00 Intro: fltr: Ton, Scott, Mario, Jeremy, Eric, Adrian
+0:02:35 Jeremy- What's new in alpha 14 -> ControlPanel
+0:04:30 Jeremy- Add a new tab to the ControlPanel tiddler.
+0:05:08 Jeremy- Add a tab to the "info panel"
+0:06:00 Jeremy- TW5 static representation
+0:06:45 Jeremy- What will be interesting ??
+0:08:20 Mario- is interested in Adrians usecase.
+0:08:40 Adrian- Build TW5 from source with Windows?
+0:10:20 Mario- Suggests to use "grunt" to manage TW5 build process
+0:15:50 Adrian- ... is hunting for the "perfect personal information management system"
+0:16:30 Adrian- would like a "graph like view" of TW
+0:17:07 Jeremy- shows the cecily (TWc) project ... It should come back to TW5
+0:24:20 Jeremy- about integration of d3
+0:27:36 Adrian- TW5 data structure, meta data, "external" databases, ...
+0:28:20 Jeremy- ... how the "story view" handles tiddlers ... list widget
+0:29:40 Adrian- how to "expose the intrinsic link structure"
+0:30:20 Jeremy- ... the filter syntax to "select" tiddlers
+0:34:36 Adrian- ... does TW support external data sources?
+0:39:40 Jeremy- about the "tiddler store" (code), and "plugable stores"
+0:42:45 Andrew- what's about "scaling" out of "personal use"
+0:46:50 Mario- suggests couchdb - pouchdb - for syncing single file TWs
+0:47:30 Jeremy- about capturing the tiddler hashmap (store) in a clousure to "enforce a unified api"
+0:48:10 Jeremy- leavs ...
+0:49:30 ... Eric on the guitar!
+0:50:20 Jeremy- is back
+0:51:25 Adrian- about databases he is interested in eg: neo4j, datomic,
+0:54:15 Adrian- about Relavance and "associative databases"
+0:56:00 Jeremy- about SQL databases
+0:57:40 Jeremy- about the TW5 "internal data structure"
+1:02:25 Adrian- had issue with d3 data set saving (actually found a bug)
+1:05:30 Adrian- What do you think about "The smallest federated wiki"?
+1:11:27 Mario- TW5 on itself will scale much better than TW2
+1:12:10 Adrian- What about trello?
+1:14:30 Adrian- TWs open tiddler animation is kind of confusing.
+1:18:40 Bye! Bye! 
