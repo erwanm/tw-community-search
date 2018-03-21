@@ -5,10 +5,10 @@ created: 20160918213151952
 dependents: Listreveal
 description: ToDoNow – a simple, elegant todo list
 list: readme usage configuration try-out user-filter settings
-modified: 20170903215801702
+modified: 20180303175721302
 name: ToDoNow
 source: https://tid.li/tw5/plugins.html
-version: 1.0.9
+version: 1.2.9
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/todonow

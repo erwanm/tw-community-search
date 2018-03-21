@@ -4,10 +4,10 @@ core-version: 5.1.13
 created: 20170303231300931
 description: EditorCounter & Autosaver
 list: settings readme credits
-modified: 20170513195355750
+modified: 20171217232108479
 name: EditorCounter
 source: https://tid.li/tw5/plugins.html
-version: 0.6.3
+version: 0.6.5
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/EditorCounter

@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/My first task
 created: 20160909225027314
 creator: Thomas Elmiger
-modified: 20170512202739309
+modified: 20180306224750509
 modifier: Thomas Elmiger
 priority: 1
 todo-done: 20160910110734
@@ -12,5 +12,6 @@ source-tiddler-title-as-link: My%20first%20task
 
 There are so many possibilities: Give an example.
 
+[ ] Check out https://tid.li/tw5/tdn.html
 [ ] Build checklists inline with the grosinger-plugin.
 [ ] Send feedback to thomas.elmiger@gmail.com – thank you!

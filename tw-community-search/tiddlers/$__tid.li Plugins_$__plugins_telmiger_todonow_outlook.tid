@@ -7,7 +7,7 @@ description: ToDoNow Outlook Addon
 modified: 20170714203513195
 name: Outlook
 source: https://tid.li/tw5/tdn.html
-version: 0.1.1
+version: 0.1.2
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/todonow/outlook
