@@ -1,4 +1,0 @@
-title: Foo
-new-tiddler: Tag: Foo
-
-{{||$:/ObsoleteCommunityTagTemplate}}

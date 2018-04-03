@@ -1,9 +1,0 @@
-title: $:/cpashow/task
-created: 20150328022106313
-modified: 20150426060545042
-original-tags: 
-source-wiki-id: cpashow
-source-tiddler-title-as-text: task
-source-tiddler-title-as-link: task
-
-<$macrocall $name="newtasks" taskName=<<currentTiddler>> taskType="todos"/>

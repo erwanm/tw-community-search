@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/snowgoon88/edit-comptext'
-name: unknown
-plugin_tiddler: $:/plugins/snowgoon88/edit-comptext
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,7 +1,0 @@
-title: $:/MKLauberTW5Plugins/Shuffle Operator
-original-tags: Plugin
-source-wiki-id: MKLauberTW5Plugins
-source-tiddler-title-as-text: Shuffle Operator
-source-tiddler-title-as-link: Shuffle%20Operator
-
-<$transclude tiddler="$:/plugins/mklauber/shuffle/readme" />

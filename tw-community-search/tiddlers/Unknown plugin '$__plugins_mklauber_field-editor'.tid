@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/mklauber/field-editor'
-name: unknown
-plugin_tiddler: $:/plugins/mklauber/field-editor
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

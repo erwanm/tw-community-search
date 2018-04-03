@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tongerner/note-button'
-name: unknown
-plugin_tiddler: $:/plugins/tongerner/note-button
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

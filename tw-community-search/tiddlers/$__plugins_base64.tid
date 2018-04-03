@@ -1,9 +1,0 @@
-title: $:/plugins/base64
-revision: 0
-tabs: Info Syntax Examples Install
-original-tags: Plugins Filters
-source-wiki-id: plugins
-source-tiddler-title-as-text: base64
-source-tiddler-title-as-link: base64
-
-<<plugin-docs base64>>

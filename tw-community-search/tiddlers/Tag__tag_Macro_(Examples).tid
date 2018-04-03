@@ -1,7 +1,0 @@
-title: Tag: tag Macro (Examples)
-tags: CommunityTags
-community-tag: tag Macro (Examples)
-community-tag-count: 1
-community-wikis: [[tiddlywiki.com]]
-
-{{||$:/CommunityTagTemplate}}

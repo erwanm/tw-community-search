@@ -5,10 +5,6 @@ tags: CommunityWikis
 title: TW5ReadOnly
 type: text/vnd.tiddlywiki
 wiki-address: http://tw5readonly.tiddlyspot.com/
-wiki-tw-version: 5.1.15
-wiki-latest-modification: 20180225143827134
-wiki-nb-tiddlers: 19
 
-a demo ~TiddlyWiki (''@@color:blue; TW v<<version>>@@'')
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/ajh/toplefttoolbar'
-name: unknown
-plugin_tiddler: $:/plugins/ajh/toplefttoolbar
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

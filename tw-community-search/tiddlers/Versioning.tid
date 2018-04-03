@@ -5,10 +5,6 @@ tags: CommunityWikis
 title: Versioning
 type: text/vnd.tiddlywiki
 wiki-address: http://versioning.tiddlyspot.com/
-wiki-tw-version: 5.1.13
-wiki-latest-modification: 20160823123328562
-wiki-nb-tiddlers: 5
 
-{{$:/mempty/UplPass}}{{$:/mempty/deleteUplPass}}
 
 {{||$:/CommunityWikiPresentationTemplate}}

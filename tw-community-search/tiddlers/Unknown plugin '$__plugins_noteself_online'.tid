@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/noteself/online'
-name: unknown
-plugin_tiddler: $:/plugins/noteself/online
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

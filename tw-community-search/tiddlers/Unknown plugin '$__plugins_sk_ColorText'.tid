@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/sk/ColorText'
-name: unknown
-plugin_tiddler: $:/plugins/sk/ColorText
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
