@@ -1,0 +1,23 @@
+title: $:/TWaddle/Highlighter - comments
+created: 20150317211540503
+creator: Mat
+modified: 20150715151309816
+modifier: Mat
+recent: 15/03/17	
+original-tags: Annotation
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Highlighter - comments
+source-tiddler-title-as-link: Highlighter%20-%20comments
+
+Hovering the highlighter icon displays a //perfectly aligned copy// of the text (using the [[tiddler hooker|The Tiddler Hooker Method]] method), but with selected parts highlighted and colored. The rest of the text is transparent but could instead overlay e.g fainter letters so to make the highlights stick out even more.
+
+This is presented mostly as a proof-of-concept. The obvious main downer is the need for the manually repeated text. You can't transclude the text and present it in the tiddler itself (due to infinite self-recursion of course). For compactness in the example, I put both copies in separate fields in [[Highlighter, base case]]. 
+
+An idea would be that you format (highlight etc) the text and then a macro (?) takes a copy of it and //scrubs// away the formatting and then places the unformatted result //under// the formatted text, and sets background of formatted text to transparent. 
+
+You could either call on this macro in the tiddler or it could perhaps be made to be activated if you click on something (e.g the highlighting icon). I guess this would mean either that the highlighted text is what appears by default and activating the macro makes instead the scrubbed version appear to be the original. Ironically, the highlighted text is actually the passive view and the supposedly original text is what is activated by calling the macro. 
+
+To use the idea of a "perfectly aligned copy",  the visual manipulation must not alter the alignment of the letters - e.g bold or italics will not work well as they move pixels." This means that any styling that //does// "move pixels" would have to be repeated in the highlighting. Thus only //some// specific styling should be scrubbed.
+
+This should all be simplified(?) by the introduction of my proposed [[highlighting markup|WikiText format: Highlight]] (..if "markup" is the correct word). I'm referring to that this would let the user use a very simple markup instead more iffy html or css commands. Thus, "the macro" would deal with commands that are not specified by the user which might risk interfering with the segregation process deciding if a command is "pixel moving" or not. The scrubbing removes all predefined things to be removed and then simply replaces the highlighting markup with the predefined html/css that is really is. ("Yes, foolproof!"...ok, maybe not...)
+

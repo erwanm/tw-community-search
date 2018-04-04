@@ -1,0 +1,66 @@
+title: $:/Version 5.1.8 Fun (inmysocks)/Generic Search (Add/Remove)
+created: 20150318031528689
+modified: 20150327033139605
+original-tags: 
+source-wiki-id: Version 5.1.8 Fun (inmysocks)
+source-tiddler-title-as-text: Generic Search (Add/Remove)
+source-tiddler-title-as-link: Generic%20Search%20%28Add%2fRemove%29
+
+Search by tiddler name: 
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Search Tiddlers' field=tiddler_search_text class='tc-edit-texteditor'/><br>
+Search by field name: 
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Search Field Names' field=field_or_index_name_search_text class='tc-edit-texteditor'/><br>
+Search by field contents: 
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Search Field Contents' field=search_text class='tc-edit-texteditor'/><br>
+Search by tag: 
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Search by Tag' field=search_tag class='tc-edit-texteditor'/><br>
+
+<$reveal type="nomatch" state="$:/state/Generic Add and Remove/ShowOptions" text="show">
+
+<$button set="$:/state/Generic Add and Remove/ShowOptions" setTo="show">Show Options</$button>
+
+</$reveal>
+
+<$reveal type="match" state="$:/state/Generic Add and Remove/ShowOptions" text="show">
+
+<$button set="$:/state/Generic Add and Remove/ShowOptions" setTo="hide">Hide Options</$button>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_system_tiddlers checked="+[all[]]" unchecked="+[!is[system]]"> Check this to include system tiddlers</$checkbox>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=case_sensitive checked='' unchecked='(?i)'>Case sensitive search</$checkbox>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_text checked='' unchecked='-[[text]]'>Include text field</$checkbox> - Be careful using this one
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_tags checked='' unchecked='-[[tags]]'>Include tags field</$checkbox> - Be careful using this one
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_created checked='' unchecked='-[[created]]'>Include created field</$checkbox>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_modified checked='' unchecked='-[[modified]]'>Include modified field</$checkbox>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_title checked='' unchecked='-[[title]]'>Include title field</$checkbox>
+
+<$checkbox tiddler='$:/temp/Generic Add and Remove/Search' field=include_type checked='' unchecked='-[[type]]'>Include type field</$checkbox>
+
+</$reveal>
+
+
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove_what' text='fields'>
+Field name
+</$reveal>
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove_what' text='tags'>
+Tag
+</$reveal>
+to 
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove' text='add'>
+add:
+</$reveal>
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove' text='remove'>
+remove:
+</$reveal>
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Add Contents' field=name class='tc-edit-texteditor'/>
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove' text='add'>
+<$reveal type='match' state='$:/state/Generic Add and Remove!!add_or_remove_what' text='fields'>
+Field Contents to add: 
+<$edit-text tiddler='$:/temp/Generic Add and Remove/Search' placeholder='Add Contents' field=contents class='tc-edit-texteditor'/>
+</$reveal>
+</$reveal>

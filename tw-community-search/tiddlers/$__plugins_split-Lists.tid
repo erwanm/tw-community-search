@@ -1,0 +1,35 @@
+title: $:/plugins/split-Lists
+created: 20151230103709319
+creator: Tobias Beer
+modified: 20151230114302311
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: split-Lists
+source-tiddler-title-as-link: split-Lists
+
+Parse stringified lists with the ''split'' filter by using the suffix `list` specifying either:
+
+# a list field (optional)
+#* from which titles are retrieved for each input title in turn
+#* e.g. ''list'' (default), ''tags'', or any custom list field
+# an <<x "Filter Parameter" operand>>, especially a "soft" operand
+#* interpreted as a stringified list, i.e. parsed like the core ''list'' or ''tags'' <<x TiddlerFields fields>>
+#* in this mode, all input titles are __ignored__ and titles are __created__ by parsing titles listed in the operand
+
+@@.note
+''Note:'' Depending on the chosen variant above, you can combine `list` with other [[suffixes|split-Syntax]], including those further constraining [[items|split-Items]].
+@@
+
+!! Variants
+
+; `split:list[]`
+: parses the ''list'' field of __all__ input titles
+; `split:list=tags[]`
+: parses the ''tags'' field of __all__ input titles
+; `split:list=foo[]`
+: parses field ''foo'' of __all__ input titles as a list field
+;`split:list<bar>`
+: splits the "soft" <<x "Filter Parameter" operand>> in the form of the variable ''bar'' into listed titles<div class="note">''Note:'' Since no input titles are considered above, use ''$pos'', ''$num'', ''$first'', etc... to further constrain the final list, see [[Items|split-Items]].</div>

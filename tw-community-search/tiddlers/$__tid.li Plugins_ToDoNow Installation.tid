@@ -1,0 +1,66 @@
+title: $:/tid.li Plugins/ToDoNow Installation
+created: 20160812075259088
+creator: Thomas Elmiger
+modified: 20180317161221434
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170201231921
+original-tags: ToDoComponents
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: ToDoNow Installation
+source-tiddler-title-as-link: ToDoNow%20Installation
+
+''Lift your productivity to the next level.'' ~ToDoNow is a flexible and reliable tool that profitted from feedback and contributions of many users. Nevertheless: Use carefully, test your own personal process and make backups – no warranties attached.
+
+Follow this step-by-step guide to get started. Choose one of the steps labelled A and proceed from B after this.
+
+
+!! A1. Start from Scratch
+
+To get maximum functionality go to https://tid.li/tw5/tdn.html and save the wiki by clicking this symbol: {{$:/core/ui/Buttons/save-wiki}} 
+
+* Find out more about [[TiddlyWiki|http://tiddlywiki.com/]].
+* Choose a saving method and install the browser plugin if necessary – I recommend [[TiddlyBackup|https://pmario.github.io/file-backups/]] by [[Mario Pietsch|https://github.com/pmario]]. I use it with [[Firefox|https://www.mozilla.org/firefox/new/]].
+* Proceed with step B.
+
+
+!! A2. Add ~ToDoNow to an existing Wiki
+
+# ''Save a back-up'' of your wiki or download a fresh copy from [[tiddlywiki.com|http://tiddlywiki.com/#Empty%20Edition]]
+# Add plugins to your TW: Visit https://tid.li/tw5/plugins.html 
+#* choose one of the proposed TDN plugin bundles (see Bundles tab in right sidebar)
+#* export your choice as JSON download by clicking the icon with the upward pointing arrow
+#* drag and drop the JSON-file on your wiki, save and reload
+
+---
+
+!! B. Set Defaults
+As the main tiddler [[ToDoNow]] is part of a plugin, you can not find it using standard search. It is a so called //shadow tiddler// and you access it via links or find it via [[advanced search|$:/AdvancedSearch]].
+
+* Set [[ToDoNow]] as default tiddler in $:/ControlPanel on the //info// tab.
+** If you come from Step A1 you can remove the last line in the //Default tiddlers// field.
+
+<<<
+<$details open="no">
+
+This means, you click the toothed wheel icon below the title of your wiki to open the options in the control panel. 
+
+* If necessary switch to the //info// tab. 
+* Here you can put a new line on top of the field "Default tiddlers:" and type the name of our main tiddler (card) there: `ToDoNow`
+* Then save your wiki. 
+* Reload again, the ~ToDo-List should appear and there you will find the green button with the + which starts the creation of a new task.
+
+''Another solution'' would be to put a ''link'' to our main tiddler in any other tiddler you have like this: `[[ToDoNow]]`. Save the tiddler and click the link, you should see the list.
+
+</$details>
+<<<
+
+!! C. Reload and test
+Visit the plugin’s //configuration// tab to set
+
+* the priotity levels you want to use
+* the interface language
+* the text for the [[ToDo Item]] template which is used for new tasks.
+
+!! D. Further Options
+Create your own language to save settings like date/time formats and titles for the sections of your main tiddler ToDoNow.

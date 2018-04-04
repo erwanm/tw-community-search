@@ -1,0 +1,32 @@
+title: $:/inmysocks/NeatLinkMacros
+created: 20150311232706124
+modified: 20150421054948352
+original-tags: $:/tags/Macro Macros [[Setting the CSS Class of a Link Based on Tags at the Link Destination]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: NeatLinkMacros
+source-tiddler-title-as-link: NeatLinkMacros
+
+\define GetLinkClass()
+$(TagUsed)$_css
+\end
+
+\define MakeNeatLinkEntry(tiddler tagUsed)
+<$list filter='[[$tiddler$]tag[$tagUsed$]]'>
+<$set name=TagUsed value=$tagUsed$>
+<span class=<<GetLinkClass>>><$link to="$tiddler$">$tiddler$</$link></span>
+</$set>
+</$list>
+\end
+
+\define MakeBoringLinkEntry(tiddler)
+<$list filter='[[$tiddler$]!tag[tag1]!tag[tag2]!tag[tag3]][[$tiddler$]!has[text]!has[tags]]'>
+<$link to="$tiddler$">$tiddler$</$link>
+</$list>
+\end
+
+\define NeatLink(tiddler)
+<<MakeNeatLinkEntry """$tiddler$""" tag1>>
+<<MakeNeatLinkEntry """$tiddler$""" tag2>>
+<<MakeNeatLinkEntry """$tiddler$""" tag3>>
+<<MakeBoringLinkEntry """$tiddler$""">>
+\end

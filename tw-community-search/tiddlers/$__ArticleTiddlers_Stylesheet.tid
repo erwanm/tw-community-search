@@ -1,0 +1,69 @@
+title: $:/ArticleTiddlers/Stylesheet
+created: 20160825084549525
+creator: twMat
+modified: 20160828194215831
+modifier: twMat
+title-display: none
+type: text/vnd.tiddlywiki
+original-tags: $:/tags/Stylesheet ArticleTiddlersExample
+source-wiki-id: ArticleTiddlers
+source-tiddler-title-as-text: Stylesheet
+source-tiddler-title-as-link: Stylesheet
+
+.tc-tagged-border {
+  outline:1px solid green;
+}
+
+.tc-tagged-colored-bg {
+  background:#FFFFCC;
+}
+
+.paragraph .tc-tiddler-title,.paragraph .tc-tags-wrapper,.paragraph .tc-subtitle {
+  display:{{!!title-display}};
+}
+
+
+
+/* For tiddler Beyond Terminator */
+
+.tc-tagged-Article {
+  background: lightyellow; 
+}
+
+.tc-tagged-Headline .tc-tiddler-body {
+  font-size:2em;line-height:1em;font-family:Impact, Charcoal, sans-serif;
+}
+
+.tc-tagged-Headline .tc-tagged-Authors .tc-tiddler-body {
+  font-size:1em; line-height:1em; font-family:Arial; text-align:right;
+}
+
+.tc-tagged-Lead .tc-tiddler-body {
+  font-size:1.2em;
+}
+
+.tc-tagged-Authors .tc-tiddler-body {
+  color:silver;
+}
+
+.tc-tagged-Social .tc-tiddler-body {
+  font-size:.9em; position:absolute;background:white;padding-left:0em; padding-right:2em; border:2px solid silver; right:-2em; margin-top:-2em;
+}
+
+.tc-tagged-Social .tc-tiddler-body:before {
+  content:"&nbsp;Social media&nbsp; ";position:absolute; margin-top:-1em; background:white; border:1px solid pink;.
+}
+
+.tc-tagged-ImageCaption .tc-tiddler-body {
+  color:gray; font-style:italic;
+}
+
+.tc-tagged-Paragraph_text {
+  font-family:"Trebuchet MS", Helvetica, sans-serif; color: DarkSlateGray;
+}
+
+.tc-tagged-Blocker .tc-tiddler-body {
+  height:6em; 
+  background: lightgray; background: linear-gradient(transparent, lightgray);
+  text-align:center;
+}

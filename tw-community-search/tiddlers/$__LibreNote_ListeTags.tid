@@ -1,0 +1,20 @@
+title: $:/LibreNote/ListeTags
+created: 20150617205125041
+creator: svink
+modified: 20161113150524121
+modifier: svink
+original-tags: gris
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: ListeTags
+source-tiddler-title-as-link: ListeTags
+
+<div style="margin-top:-1.8em; margin-bottom:-1.2em; text-align:center;">
+
+<div style="font-size:1.2em; color:#959595;">
+<i class="fa fa-tags"></i> Tous les tags
+</div>
+
+<div style="color:black;">
+<$list filter="[tags[]!is[system]has[color]]">
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+</$list>

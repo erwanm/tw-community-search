@@ -1,0 +1,31 @@
+title: $:/TiddlyNote/Chercher et remplacer un tag
+created: 20150210143840226
+modified: 20150220082658926
+original-tags: Tags
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Chercher et remplacer un tag
+source-tiddler-title-as-link: Chercher%20et%20remplacer%20un%20tag
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i>  Source: [[https://tobibeer.github.io/tb5/#Search And Replace Tag|https://tobibeer.github.io/tb5/#Search%20And%20Replace%20Tag]]
+
+Une solution pour renommer simplement un tag et marquer les tiddlers a était postée par [[Alberto Molina|https://groups.google.com/d/msg/tiddlywiki/OCntQ79DuwM/_vYCTYRXfaUJ]].
+
+<table class="no-border">
+''Chercher le tag'': <$edit-text tiddler="$:/temp/RenameTags/search" tag="input" type="text"/> 
+''Remplacer par'' : <$edit-text tiddler="$:/temp/RenameTags/replace" tag="input" type="text"/>
+
+<$reveal type="nomatch" text="" state="$:/temp/RenameTags/replace">
+
+!!!Appliquer le tag <$tiddler tiddler={{$:/temp/RenameTags/replace}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> aux tiddlers suivants:
+<$list filter="[!has[draft.of]tag{$:/temp/RenameTags/search}!tag{$:/temp/RenameTags/replace}sort[created]]">
+<$checkbox tag={{$:/temp/RenameTags/replace}}> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br/>
+</$list>
+</$reveal>
+
+<$reveal type="nomatch" text="" state="$:/temp/RenameTags/search">
+
+!!!Supprimer le tag <$tiddler tiddler={{$:/temp/RenameTags/search}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> des tiddlers suivants:
+<$list filter="[!has[draft.of]tag{$:/temp/RenameTags/search}tag{$:/temp/RenameTags/replace}sort[created]]">
+<$checkbox tag={{$:/temp/RenameTags/search}}> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox><br/>
+</$list>
+</$reveal>

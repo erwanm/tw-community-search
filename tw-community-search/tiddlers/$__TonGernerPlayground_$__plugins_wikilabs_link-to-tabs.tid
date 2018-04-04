@@ -1,0 +1,14 @@
+title: $:/TonGernerPlayground/$:/plugins/wikilabs/link-to-tabs
+author: Mario Pietsch
+core-version: >=5.1.6
+dependents: 
+description: Internal links are added to tabs if selected
+list: readme license
+version: 0.1.1
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/wikilabs/link-to-tabs
+source-tiddler-title-as-link: %24%3a%2fplugins%2fwikilabs%2flink-to-tabs
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

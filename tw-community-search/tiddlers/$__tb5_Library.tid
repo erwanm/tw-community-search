@@ -1,0 +1,30 @@
+title: $:/tb5/Library
+created: 20160120130410512
+creator: Tobias Beer
+modified: 20170119184251169
+modifier: Tobias Beer
+revision: 0
+summary: keeping up to date and fetching the latest and greatest from [[tobibeer/plugins|Plugins]]
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: tb5
+source-tiddler-title-as-text: Library
+source-tiddler-title-as-link: Library
+
+@@color:purple;''Important'': Adding my library does not pre-install any of my plugins in your wiki but just adds a reference to it, i.e. you need internet access to actually install plugins from it.@@
+
+Drag this tiddler to your wiki to access my plugin library from your [[control panel|$:/ControlPanel]]: $:/pluginlibrary/tobibeer/official
+
+<<<
+
+!! {{$:/pluginlibrary/tobibeer/official!!caption}}
+
+//{{$:/pluginlibrary/tobibeer/official}}//
+
+{{$:/pluginlibrary/tobibeer/official!!url}}
+<<<
+
+@@.note
+''Tip:'' You can actually try it out right here in this wiki.<br>
+Open: {{$:/core/ui/Buttons/control-panel}} ''~ControlPanel'' > ''Plugins'' > ''Get more plugins'' > ''Open plugin library''
+@@

@@ -1,0 +1,30 @@
+title: $:/TiddlyNote/Mettre à jour son TiddlyWiki
+created: 20150216153403848
+modified: 20160122132906021
+original-tags: Git [[Héberger son TiddlyWiki]]
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Mettre à jour son TiddlyWiki
+source-tiddler-title-as-link: Mettre%20à%20jour%20son%20TiddlyWiki
+
+!!!1. Modifier votre fichier dans le répertoire de travail
+
+Vous pouvez travailler sur une copie de votre ~TiddlyWiki et remplacer simplement l'ancien fichier par le nouveau contenant les modifications.
+
+!!!2. Git push to deploy !
+
+J'utilise ici les alias des commandes pour vous montrer qu'une fois mis en place les mises à jour sont vraiment rapide.
+
+```c
+$ git ci -am "Mise à jour TW version 5.1.10"
+$ git push -u origin master
+```
+
+>La nouvelle version du site est déployée en quelques secondes!
+
+Tous les commits sont visibles dans l'historique:
+
+```c
+$ git hist
+* b24f3ff 2014-10-26 | Mise à jour TW version 5.1.10 [Votre_pseudo]
+* cf466b4 2014-10-25 | First Commit [Votre_pseudo]
+```

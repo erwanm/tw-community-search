@@ -1,0 +1,36 @@
+title: $:/plugins/external-Macro
+created: 20160113130104151
+creator: Tobias Beer
+modified: 20160113161219618
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: external-Macro
+source-tiddler-title-as-link: external-Macro
+
+\define default(option) <code>{{$:/plugins/tobibeer/external/defaults/$option$}}</code>
+
+The [[external-tiddler|$:/plugins/tobibeer/external/macro]] macro embeds a tiddler from an external wiki using an iframe. It is automatically invoked via the [[view template|external-Template]] for tiddlers following this title pattern:
+
+```
+<External Wiki Name>: <External Tiddler Title>
+```
+
+!! Parameters
+
+All the below parameters are optional:
+
+| !# | !Parameter | !Description | !Default |
+| 1 |wiki|a [[configured|external-Configure]] external wiki which when unspecified:<br>&raquo;  is extracted from the current title<br>&raquo;  otherwise take from the wiki [[configuration|external-Configure]]<br>&raquo;  otherwise the global default|define at [[/defaults/wiki|$:/plugins/tobibeer/external/defaults/wiki]]|
+| 2 |title|the external tiddler title which when unspecified:<br>&raquo; is extracted from the current title||
+| 3 |height|the height of the iframe|<<default height>>|
+| 4 |top|the negative top offset of the iframe|<<default top>>|
+| 5 |link|whether to display a link above the iframe|`yes`|
+
+!! Source
+
+Here is the source code for the ''external-tiddler'' macro providing a good example for using both the widget <<tb setvars>> as well as the filter <<tb split>>:
+
+<pre><$view tiddler="$:/plugins/tobibeer/external/macro"/></pre>

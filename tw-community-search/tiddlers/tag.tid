@@ -1,0 +1,4 @@
+title: tag
+new-tiddler: Tag: tag
+
+{{||$:/ObsoleteCommunityTagTemplate}}

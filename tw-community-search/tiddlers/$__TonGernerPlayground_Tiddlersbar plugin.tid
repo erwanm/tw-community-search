@@ -1,0 +1,18 @@
+title: $:/TonGernerPlayground/Tiddlersbar plugin
+caption: Tiddlersbar
+created: 20170428155222076
+creator: TonGerner
+modified: 20170430194032337
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Tiddlersbar plugin
+source-tiddler-title-as-link: Tiddlersbar%20plugin
+
+!! [[Tiddlersbar plugin]] v<<pversion "tiddlersbar">>
+
+''Status:'' @@.RED {{Tiddlersbar plugin!!status}} v<<version>>@@
+
+<<readme $:/plugins/tongerner/tiddlersbar/readme $:/plugins/tongerner/tiddlersbar>>
+* $:/plugins/tongerner/layout_adjustment

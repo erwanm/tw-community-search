@@ -1,0 +1,13 @@
+title: $:/Extending the d3.js plugin (inmysocks)/Display
+created: 20150726222751463
+modified: 20150727201238415
+original-tags: 
+source-wiki-id: Extending the d3.js plugin (inmysocks)
+source-tiddler-title-as-text: Display
+source-tiddler-title-as-link: Display
+
+{{Control}}
+
+---
+
+<$d3bar settings=TestSettings datasets='$:/datasets/Chart1'/>

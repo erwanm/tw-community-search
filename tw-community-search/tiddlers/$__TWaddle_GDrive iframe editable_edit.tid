@@ -1,0 +1,9 @@
+title: $:/TWaddle/GDrive iframe editable_edit
+created: 20150402205349881
+modified: 20150402221717717
+original-tags: supporttiddler
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: GDrive iframe editable_edit
+source-tiddler-title-as-link: GDrive%20iframe%20editable_edit
+
+<$edit tiddler="GDrive iframe editable" field="text" class="tc-edit-texteditor" />

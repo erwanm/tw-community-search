@@ -1,0 +1,10 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Info Button
+css_tiddler: button.tc-btn-invisible svg.tc-image-info-button.tc-image-button Class Override
+description: Applies to the tiddler info button
+modified: 20150603202737606
+original-tags: [[Advanced Settings Category]] [[Toolbar Icons]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Info Button
+source-tiddler-title-as-link: Tiddler%20Info%20Button
+
+{{Tiddler Info Button||CSS Options Template}}

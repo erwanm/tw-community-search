@@ -1,0 +1,28 @@
+title: $:/let/All Operations
+created: 20141129230000000
+creator: Tobias Beer
+modified: 20141129230000000
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: let
+source-tiddler-title-as-text: All Operations
+source-tiddler-title-as-link: All%20Operations
+
+<$list filter="[list[OPERATION]]" variable=category>
+
+<h1 style="width:100%;text-align:center;"><$link to=<<category>>><$view field=title tiddler=<<category>>/></$link></h1>
+
+<$list filter="[list<category>]" variable=operation>
+
+<h1><$link to=<<operation>>><$view tiddler=<<operation>> field=title/></$link></h1>
+
+<div class="tb-summary"><$transclude tiddler=<<operation>> field=summary/></div>
+
+<$transclude tiddler=<<operation>> field=text/>
+
+</$list>
+</$list>
+
+<h1 style="width:100%;text-align:center;">[[! exact]]</h1>
+
+{{! exact}}

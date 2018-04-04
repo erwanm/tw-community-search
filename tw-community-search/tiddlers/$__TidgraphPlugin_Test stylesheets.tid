@@ -1,0 +1,16 @@
+title: $:/TidgraphPlugin/Test stylesheets
+created: 20151111073943345
+modified: 20151111074053022
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: TidgraphPlugin
+source-tiddler-title-as-text: Test stylesheets
+source-tiddler-title-as-link: Test%20stylesheets
+
+<$tidgraph start="Virtues" />
+
+<$fieldmangler tiddler="Tidgraph Test CSS"-->
+<$button class="tc-btn-invisible tc-tiddlylink" message="tm-add-tag" param="$:/tags/Stylesheet">Custom stylesheet</$button>
+<br>
+<$button class="tc-btn-invisible tc-tiddlylink" message="tm-remove-tag" param="$:/tags/Stylesheet">Default stylesheet</$button>
+<$fieldmangler>

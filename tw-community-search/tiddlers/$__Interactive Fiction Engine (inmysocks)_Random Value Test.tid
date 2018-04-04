@@ -1,0 +1,118 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Random Value Test
+created: 20141123060823699
+creator: inmysocks
+modified: 20141129170828150
+modifier: inmysocks
+test: <$count filter='[all[]]'/>
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Random Value Test
+source-tiddler-title-as-link: Random%20Value%20Test
+
+\define getCount() 
+<$count filter='[all[]]'/>
+\end
+
+\define countMacro()
+<$count filter='[all[]]'/>
+\end
+
+\define temp()
+<$macrocall $name=countMacro $output='text/html'/>
+\end
+
+\define randomNumberTry()
+<<randVal 1 <$count filter='[all[]]'/>>>
+\end
+
+I made a javascript macro called `randVal` that takes 3 inputs: lower, upper and step. It returns a value between lower and upper using step as the interval between potential numbers. So `<<randVal 1 5 0.5>>` returns a number drawn uniformly from the set `{1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5}`. If only given 2 inputs it defaults to step=1 so it returns an integer between lower and upper.
+
+I would like to give the output of `<$count filter='[all[]]'/>` as the input for upper, but instead of passing <$count filter='[all[]]'/> to the macro it passes `<$count filter='[all[]]'/>` as a string.
+
+
+!Works
+
+---
+
+add a random number between 1 and 10 as a tag
+
+Code:
+
+```
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<randVal 1 10>>/>New Number</$button></$fieldmangler>
+```
+
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<randVal 1 10>>/>New Number</$button></$fieldmangler>
+
+!Doesn't Work
+
+---
+
+add the output of `<$count filter='[all[]]'/>` as a tag.
+
+code:
+
+```
+<$set name=countVar value=<<temp>>>
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<countMacro>>/>New Number</$button></$fieldmangler>
+</$set>
+```
+
+<$set name=countVar value=<<temp>>>
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<countMacro>>/>New Number</$button></$fieldmangler>
+</$set>
+
+!Also doesn't work
+
+---
+
+using $set to make a variable equal to `<$count filter='[all[]]'/>` and adding that as a tag
+
+```
+<$set name=randomName value=<<countMacro>>>
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<randomName>>/>New Number</$button></$fieldmangler>
+</$set>
+```
+
+<$set name=randomName value=<<countMacro>>>
+<$fieldmangler><$button><$action-sendmessage $message='tm-add-tag' $param=<<randomName>>/>New Number</$button></$fieldmangler>
+</$set>
+
+!Still doesn't work
+
+---
+
+Using the output of `<$count filter='[all[]]'/>` as the input to a javascript macro.
+
+code:
+
+```
+<<randVal 1 <$count filter='[all[]]'/>>>
+```
+
+result:
+
+<<randVal 1 <$count filter='[all[]]'/>>>
+
+!This seems like it shoud but doesn't
+
+---
+
+I made randValTest which gives the same output as randVal followed by the input parameters, the upper parameter only indicies 1 to 4 of the upper parameter are output, otherwise it gave the string for the count widget and evaluated it. Can I evaluate that string in the javascript? I will look into this.
+
+```
+\define getCount() <$count filter='[all[]]'/>
+```
+
+and
+
+```
+<$macrocall $name=randValTest lower=1 upper=<<getCount>>/>
+```
+
+<<getCount>>
+
+<$macrocall $name=randValTest lower=1 upper=<<getCount>> step=1/>
+
+
+<$button><$action-setfield $field=test $value=<<getCount>>/>set a field</$button>

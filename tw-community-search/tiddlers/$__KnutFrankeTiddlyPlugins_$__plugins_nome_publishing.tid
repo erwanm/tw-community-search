@@ -1,0 +1,15 @@
+title: $:/KnutFrankeTiddlyPlugins/$:/plugins/nome/publishing
+author: KnutFranke
+core-version: >=5.0.0
+dependents: 
+description: Tools for wiki publishing
+list: readme
+revision: 0
+version: 0.0.4
+original-tags: 
+source-wiki-id: KnutFrankeTiddlyPlugins
+source-tiddler-title-as-text: $:/plugins/nome/publishing
+source-tiddler-title-as-link: %24%3a%2fplugins%2fnome%2fpublishing
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

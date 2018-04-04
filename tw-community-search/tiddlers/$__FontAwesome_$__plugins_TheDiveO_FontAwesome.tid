@@ -1,0 +1,17 @@
+title: $:/FontAwesome/$:/plugins/TheDiveO/FontAwesome
+author: TheDiveO
+core-version: >=5.1.0
+created: 20140901105647564
+description: FontAwesome embedded font support for TW5
+fa-version: 5.0.9
+list: readme license history
+modified: 20180402165342923
+source: https://github.com/TheDiveO/TW5FontAwesome
+version: 1.2.4
+original-tags: 
+source-wiki-id: FontAwesome
+source-tiddler-title-as-text: $:/plugins/TheDiveO/FontAwesome
+source-tiddler-title-as-link: %24%3a%2fplugins%2fTheDiveO%2fFontAwesome
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

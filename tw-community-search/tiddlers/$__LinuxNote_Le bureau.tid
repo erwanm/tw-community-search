@@ -1,0 +1,31 @@
+title: $:/LinuxNote/Le bureau
+created: 20141205160029779
+modified: 20160419164145047
+original-tags: [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Le bureau
+source-tiddler-title-as-link: Le%20bureau
+
+Le bureau est lui aussi un //conteneur de plasmoids// qui peut accueillir une grande variété de [[composants graphiques|Les composants graphiques]].
+
+<<<
+Les //Paramètres de Bureau// sont accessibles par Clic droit sur le bureau ou par la ''boite à outils du bureau''.
+<<<
+
+!!Fond d'écran
+
+@@.flotte
+<a href="https://framadrive.org/public.php?service=files&t=wJJ5gR268UxEoqV" target="_blank">[img align="right" width="250" [Configuration du bureau|https://framadrive.org/public.php?service=files&t=wJJ5gR268UxEoqV&download]]</a>
+@@
+
+La disposition //Bureau// permet d'afficher uniquement des plasmoids sur le bureau alors que la disposition //Vue de dossier// permet d'afficher les raccourcies, dossiers ou icônes de manière classique sur le bureau.
+
+!!!Changer de fond d'écran
+
+<i class="fa fa-folder-open"></i> Les fonds d'écran sont stockés dans le dossier `/usr/share/wallpapers`
+
+Les //Paramètres de Bureau// permettent également de gérer les //Actions de la souris// (action du clic droit, molette...) et d'afficher ou masquer la boite à outils du bureau ainsi que de gérer la manipulation des [[composants graphiques|Les composants graphiques]] (//Bidouilles//).
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> On trouve beaucoup de ressources sur internet pour personnaliser KDE (thèmes de bureau, icônes, plasmoids...). Les sites de références sont [[kde-look|http://www.kde-look.org/]], [[kde-apps|http://www.kde-apps.org/]] et [[openDesktop|http://opendesktop.org/]].
+@@

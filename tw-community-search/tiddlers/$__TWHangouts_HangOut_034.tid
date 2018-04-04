@@ -1,0 +1,60 @@
+title: $:/TWHangouts/HangOut_034
+created: 20150113235930345
+modified: 20150114000045932
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_034
+source-tiddler-title-as-link: HangOut_034
+
+"""
+2014-02-11 - [[YouTube|http://www.youtube.com/watch?v=0xWd4nhlQoE]]
+
+0:00:00 Intro: rtl: Carlos, Eric (later), Jeremy, Mario, Ton,
+0:01:54 Jeremy- Recent changes to TW ... Autosave! Warning if you close a tab without saving.
+0:05:10 Jeremy- Wiki/config/SyncFilter.tid ... configuration, that triggers "dirty"
+0:07:08 Jeremy- Internationalisation ... language plugin
+0:08:50 - $:/language .. tiddler
+0:09:15 Intro: Leo
+0:10:50 Jeremy- Short recap of "autosave" and "warning" ... translation
+0:12:05 Eric- Info about "save handling" in browsers
+0:12:55 Eric- Does the saving do a backup file? - no ... autosave can be configured.
+0:14:45 Jeremy- About the browser "low level save mechanism" ... TiddlyFox backup handling
+0:19:00 Jeremy- Backups should be done with TiddlyFox and TiddlyDesktop
+0:19:32 Eric- About file acess privileges
+0:20:13 Jeremy- Back to translation. about the language tiddler naming convention.
+0:24:25 Jeremy- About the /language directory. *.tids file usage.
+0:25:50 Mario- Is there a possibility for multi line text?
+0:30:16 Jeremy- Translations can have "dependencies" for "local variations"
+0:32:18 Leo- Are there areas, where the spelling could cause problems?
+0:33:45 Jeremy- Translation in the javascript source code.
+0:35:47 Eric- Date formating goes along with language settings. Is it handled?
+0:38:55 Jeremy- There is a new filter tab in the "$:/AdvancedSearch" tiddler.
+0:40:55 Jeremy- Some docs update ... formal grammer for the filter syntax.
+0:42:12 Leo- What is formal grammer?
+0:46:08 Jeremy- About the filter syntax docs.
+0:47:47 Leo- About the documentation tiddler: Docs
+0:50:10 Jeremy- About little refactorings for the theme.
+0:56:04 Leo- Question about the "color setting" in the control panel
+1:00:35 Eric- TWclassic ColorPalette behaviour
+1:01:45 Jeremy- Differences between "macros" and "widgest" .. general concept.
+1:03:08 Intro: Christian
+1:04:20 .. back to- Differences between "macros", "widgest" and "plugins"
+1:05:35 Jeremy- system tiddlers ... $:/
+1:07:40 Jeremy- shadow tiddlers .. we need to have a look at plugins. A plugin is a "bundle" of shadow tiddlers.
+1:10:44 Eric- about the terminology in TWc
+1:13:30 Jeremy- about: "what makes a tiddler a plugin" and how to import them.
+1:15:45 Jeremy- tiddlers can be "code modules" .. "module-type" field, "type" field
+1:17:50 Jeremy- about widgets .. eg: list, ..
+1:20:00 Jeremy- about macros .. as "text replacement" mechanism.
+1:24:25 Jeremy- how users can contribute to documentation.
+1:26:25 Jeremy- How do you make a plugin. eg: snowwhite ... "plugin-type: theme"
+1:33:24 Jeremy- The "created" field issue.
+1:35:40 Ton- shows his issue with importing the ".ico" files.
+1:44:57 Jeremy- general discussion about footnotes
+1:58:25 Jeremy- About printed output. There should be propper interoperability with the TeX toolchain.
+1:59:49 Jeremy- There will be a demo edition that shows how to use TW to produce a "single hirachical structured text document".
+2:00:44 Leo- Can TW produce a dGSD like document.
+2:04:24 Jeremy- how to do this stuff in TW.
+2:07:35 Eric- comparing TW behaviour with TWc
+2:08:35 Bye! Bye!
+"""

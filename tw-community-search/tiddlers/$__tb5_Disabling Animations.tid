@@ -1,0 +1,15 @@
+title: $:/tb5/Disabling Animations
+created: 20141119151322693
+creator: Tobias Beer
+modified: 20141119151812208
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Animation Settings Solutions
+source-wiki-id: tb5
+source-tiddler-title-as-text: Disabling Animations
+source-tiddler-title-as-link: Disabling%20Animations
+
+To entirely disable animations, open the ''Info'' tab in your {{$:/core/ui/Buttons/control-panel}} [[control panel|$:/ControlPanel]] and set...
+
+''Animation Duration:'' 0

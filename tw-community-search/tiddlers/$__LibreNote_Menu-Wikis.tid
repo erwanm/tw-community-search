@@ -1,0 +1,16 @@
+title: $:/LibreNote/Menu-Wikis
+created: 20161210225903858
+list-tiddlers: LinuxNote TiddlyNote GitNote
+menu-icon: <i class="fa fa-flask" aria-hidden="true"></i>
+menu-title: Wikis
+modified: 20171109135352771
+rank: 3
+tooltip: Les Wikis
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu-Wikis
+source-tiddler-title-as-link: Menu-Wikis
+
+<$button class="tc-btn-invisible icon-menu" tooltip={{!!tooltip}} set="$:/StoryList!!list" setTo={{!!list-tiddlers}}>
+{{!!menu-icon}} {{!!menu-title}}
+</$button>

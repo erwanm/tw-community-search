@@ -1,0 +1,18 @@
+title: $:/TonGernerPlayground/Top menu plugin
+caption: Top menu
+created: 20150719185926666
+creator: TonGerner
+modified: 20170502182644704
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Top menu plugin
+source-tiddler-title-as-link: Top%20menu%20plugin
+
+!! [[Top menu plugin]] v<<pversion "topmenu">>
+
+''Status:'' @@.RED {{Top menu plugin!!status}} v<<version>>@@
+
+<<readme $:/plugins/tongerner/topmenu/readme $:/plugins/tongerner/topmenu>>
+* [[$:/plugins/tongerner/layout_adjustment]]

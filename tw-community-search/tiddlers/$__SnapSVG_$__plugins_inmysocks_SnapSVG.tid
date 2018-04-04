@@ -1,0 +1,14 @@
+title: $:/SnapSVG/$:/plugins/inmysocks/SnapSVG
+author: inmysocks
+core-version: >=5.1.9
+dependents: 
+description: A plugin that integrates the Snap.svg library with tiddlywiki
+source: 
+version: 0.0.93
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: $:/plugins/inmysocks/SnapSVG
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fSnapSVG
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

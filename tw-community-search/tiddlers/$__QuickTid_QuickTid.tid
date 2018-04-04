@@ -1,0 +1,127 @@
+title: $:/QuickTid/QuickTid
+created: 20170128100856209
+creator: twMat
+list-after: SectionsDisplay
+modified: 20170128100854359
+modifier: twMat
+original-tags: $:/tags/AboveStory QTcomponent
+source-wiki-id: QuickTid
+source-tiddler-title-as-text: QuickTid
+source-tiddler-title-as-link: QuickTid
+
+\define navto() <$action-navigate $to="$(newtitle)$"/>
+
+\define clear(fld)
+<$list filter="[[$:/QuickTid/tmpNewTid]!has[pin$fld$]]">
+<$set name="fieldcont" value={{$:/QuickTid/tmpNewTid!!pin$fld$}}>
+   <$action-deletefield $tiddler="$:/QuickTid/tmpNewTid" $fld$/>
+   <$action-deletefield $tiddler="$:/QuickTid/tmpNewTid"  <<fieldcont>>/>
+</$set>
+</$list>
+\end
+
+\define title_nr() $(tmptitle)$ $(nr)$
+
+\define NewTidDone(tooltip nav img)
+<$set name="tmptitle" value={{$:/QuickTid/tmpNewTid!!newtitle}} emptyValue="New Tiddler">
+<$set name="nr" filter="[prefix<tmptitle>] +[count[]]">
+<$set name="newtitle" filter="[title<tmptitle>!is[system]!is[tiddler]]" value=<<tmptitle>> emptyValue=<<title_nr>>>
+<$button tooltip="$tooltip$" class="tc-btn-invisible">
+    <$action-setfield
+              $tiddler=<<newtitle>>
+              text={{$:/QuickTid/tmpNewTid}}
+              tags={{$:/QuickTid/tmpNewTid!!newtags}}
+    />
+   <<clear "text">><<clear "newtags">><<clear "newtitle">>
+   <<$nav$>>
+   <div>[img height=12 [$img$]]</div>
+</$button>
+</$set>
+</$set>
+</$set>
+\end
+
+<$set name="tid" value=<<currentTiddler>>>
+<div id="quickTid">
+   <div id="quickTidToggle"><<pin "QuickTid" "qt" "block">>
+   </div>
+   <table id="quickTidTable">
+      <tr id="quickTidToolbar">
+         <td class="tidGutter" style="border-bottom:0px solid red;">
+             <span class="toolVisibility"><<pin "$:/QuickTid/tmpNewTid" "newtitle" "newtitle">></span>
+         </td>
+         <td class="tdstyle titleVisibility">
+            <$edit tiddler="$:/QuickTid/tmpNewTid" field="newtitle"
+                       class="newTitleEditor "
+                       placeholder="New Tiddler"/>
+         </td>
+         <td class="tdstyle"><span class="toolVisibility"><<selectContent "$:/QuickTid/tmpNewTid">></span></td>
+         <td class="tdstyle"><span class="toolVisibility doneImg">
+             <<NewTidDone "Add tiddler silently" "dummy" "img/done-silent">></span>
+         </td>
+         <td class="tdstyle"><span class="toolVisibility doneImg">
+             <<NewTidDone "Add tiddler + navigate" "navto"
+                                      "img/done-loud">></span>
+         </td>
+      </tr>
+     <tr class="quickTidBody" style="margin-top:1.6em;">
+       <td class="tidGutter">
+          <<pin "$:/QuickTid/tmpNewTid" "text" "text">></td>
+       <td class="tdstyle">
+          <$edit-text field="text" tag="textarea" class="quickTidEditor"
+                 tiddler="$:/QuickTid/tmpNewTid" autoHeight="yes"
+                 placeholder="Type and/or select content for section"/></td>
+     </tr><tr class="quickTidBody">
+        <td class="tidGutter">
+            <<pin "$:/QuickTid/tmpNewTid" "newtags" "newtags">></td>
+        <td class="tdstyle"><$edit-text tiddler="$:/QuickTid/tmpNewTid" field="newtags"
+                                      class="quickTidEditor"
+                                      height="1em"
+                                      placeholder="tags"/></td>
+        <td class="tdstyle"><<selectTags "$:/QuickTid/tmpNewTid">></td>
+        <td class="tdstyle setToBeSS"><<setToBeSS "$:/QuickTid/tmpNewTid" "newtags" "$:/tags/Stylesheet">></td>
+       <td class="tidGutter"></td>
+     </tr>
+   </table>
+</div>
+</$set>
+
+
+<style>
+.setToBeSS {position:relative; right:2em; }
+#quickTid {position:fixed; left:0; top:0em; z-index:10;}
+
+#quickTidToggle {display:block; opacity:.5; width:<<padding-tc-story-river>>; height:4em;  z-index:1; position:absolute; float:left; padding:5px;}
+
+#quickTid:hover #quickTidToggle {opacity:1;}
+
+#quickTidTable td {border:0;}
+
+#quickTidTable {display:none; display:{{QuickTid!!pinqt}}; 
+                        padding:0; margin:0; margin-left:<<padding-tc-story-river>>;
+width:{{$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth}};
+border:0px; border-top:1px solid lightgray;
+}
+
+#quickTid:hover #quickTidTable{display:block;}
+
+.toolVisibility {display:none;}
+#quickTid:hover .toolVisibility {display:block;}
+.doneImg  {opacity:.3;width:32px;margin-left:8px; display:none;}  #quickTid:hover .doneImg {display:block;}
+
+#quickTidToolbar {position:absolute; margin:0; width:<<width2>>;}
+.quickTidBody {display:none; width:<<width2>>; max-width:<<width2>>; padding:0;
+width:{{$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth}};
+margin-top:0;  
+}
+#quickTidTable:hover .quickTidBody {display:block;}
+
+#quickTidTable tr {border-bottom:1px solid lightgray;}
+#quickTidTable .tdstyle {background:white;padding:0px;}
+#quickTidTable .tidGutter {min-width:<<tidGutter>>; width:<<tidGutter>>; padding:0;margin:0 5px;}
+
+.titleVisibility {width:700px}
+#quickTid:hover .titleVisibility {width:100%;}
+.newTitleEditor {border:0; width:100%; padding-left:3px;}
+.quickTidEditor {display:block; width:<<width>>; border:0;  resize:both; margin-top:-1px;}
+</style>

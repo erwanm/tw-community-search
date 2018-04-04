@@ -1,0 +1,24 @@
+title: $:/TWaddle/Target specific tiddlers without tc-tagged
+created: 20160408105645397
+creator: Mat
+modified: 20160413110001857
+modifier: Mat
+recent: 16/04/13
+original-tags: Tidbit CSS
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Target specific tiddlers without tc-tagged
+source-tiddler-title-as-link: Target%20specific%20tiddlers%20without%20tc-tagged
+
+If you don't like to style tiddlers using the [[tc-tagged method|http://tiddlywiki.com/#How%20to%20apply%20custom%20styles%20by%20tag]], you can use this idea (or also: [[Hide tc-tagged tags]]);
+
+In a stylesheet add;
+
+```
+body .tc-tiddler-frame a[href="#NAMEOFTIDDLER"] {
+   ...
+}
+```
+
+To use it you must have set your tiddler to use "titles as links" via Ctrlpanel > Settings. This is IMO a good idea regardless because you can then easily drag'n drop open tiddlers between TW's by grabbing their title(-link).
+
+The NAMEOFTIDDLER must be uri enconded which typically simply means that space characters should be replaced with `%20`.

@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Category List (inmysocks)
+caption: Category List
+category: Website
+created: 20150604161921585
+description: An advanced list with categories
+follow: yes
+modified: 20151116091125267
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/CategoryList/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Category List (inmysocks)
+source-tiddler-title-as-link: Category%20List%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

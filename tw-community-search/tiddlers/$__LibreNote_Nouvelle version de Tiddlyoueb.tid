@@ -1,0 +1,26 @@
+title: $:/LibreNote/Nouvelle version de Tiddlyoueb
+created: 20170308120741332
+creator: svink
+modified: 20170308121258099
+modifier: svink
+resume: ~TiddlyOueb passe en version 2.0
+template: $:/.ln/core/template/BlogTemplate
+titre_news: Nouvelle version de TiddlyOueb
+url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
+original-tags: Blog semisemi LibreNote TiddlyWiki
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Nouvelle version de Tiddlyoueb
+source-tiddler-title-as-link: Nouvelle%20version%20de%20Tiddlyoueb
+
+Une nouvelle version de ~TiddlyOueb est en ligne avec une réorganisation de l'interface d'administration et des modules. Dans cette version 2.0 les modules proposent maintenant des champs éditables pour simplifier la gestion et la création des sites.
+
+Principaux changements:
+
+*Amélioration de l'interface d'administration
+**Amélioration des modules avec des champs éditables
+**Affichage des options de la barre de navigation en fonction de sa présence
+*Création simplifiée des menus avec des champs éditables
+
+Cette nouvelle version n'est pas compatible avec la version 1.0, il n'existe pas de possibilité de mise à jour.
+
+A télécharger sur https://tiddlyoueb.aerobatic.io

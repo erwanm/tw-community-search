@@ -1,0 +1,15 @@
+title: $:/EditCompText/$:/plugins/snowgoon88/edit-comptext
+author: AlainD
+core-version: >=5.1.13
+dependents: 
+description: Editor with some on-line completion capabilities
+list: readme usage examples
+source: https://github.com/snowgoon88/TW5-extendedit
+version: 0.7.0
+original-tags: 
+source-wiki-id: EditCompText
+source-tiddler-title-as-text: $:/plugins/snowgoon88/edit-comptext
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsnowgoon88%2fedit-comptext
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,49 @@
+title: $:/plugins/appear-Defaults
+created: 20151216082358246
+creator: Tobias Beer
+modified: 20160120074120716
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: appear-Defaults
+source-tiddler-title-as-link: appear-Defaults
+
+The eventual widget configuration taking effect follows this order of precedence:
+
+# a specifically declared widget attribute value
+# any configured global default for the value
+# a hard-coded fallback for the value
+
+!! Global Defaults
+
+The appear widget allows to define attribute defaults for __all instances__ using the configuration namespace `$:/tobibeer/plugins/appear/defaults/`:
+
+<$list filter="[all[shadows]prefix[$:/plugins/tobibeer/appear/defaults/]sort[title]]">
+<$appear
+show=<<slider-label suffix:""" <$link>&raquo;</$link>""">>
+tooltip=<<slider-tooltip>>
+state="$:/state/menu/accordion">
+<$transclude mode="block"/>
+</$appear><br>
+</$list>
+
+@@.note
+''Note:'' One exception above is the //default-state// which is not an attribute of the appear widget but rather specifies the default namespace under which all qualified states are saved when no state is specified or ''$state'' is used.
+@@
+
+While you can thus define global defaults for all attributes, including those that not shipped by default, be mindful about the impact. Defaults may break compatibility with solutions imported later or require fine-tuning to achieve the intended results.
+
+!! Deleting Defaults
+
+The above listed defaults are shipped with the plugin. This makes them shadow tiddlers that you cannot actually delete. Since setting any default to an empty string may actually be a permissible configuration, to entirely disable any default, set the field ''undefined'' at the configuration tiddler to ''true''.
+
+!! Hard-Coded Fallbacks
+
+The following attributes have failsafe fallbacks that you cannot actually set to undefined:
+
+; show
+: default: <code>&raquo;</code>
+; default-state
+: default: `$:/temp/appear/`

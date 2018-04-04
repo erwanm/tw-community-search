@@ -1,0 +1,9 @@
+title: $:/PhotoGallery/Import The Plugin
+below_wizard: True
+original-tags: PhotoGallery
+source-wiki-id: PhotoGallery
+source-tiddler-title-as-text: Import The Plugin
+source-tiddler-title-as-link: Import%20The%20Plugin
+
+To import the photo gallery plugin simply import this tiddler into your wiki: $:/plugins/OokTech/PhotoGallery
+Or you can add [[the OokTech plugin library|$:/pluginlibrary/OokTech/OokTechPlugins]] to your wiki and install the plugin using the control panel.

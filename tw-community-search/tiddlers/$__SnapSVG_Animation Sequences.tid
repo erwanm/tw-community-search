@@ -1,0 +1,38 @@
+title: $:/SnapSVG/Animation Sequences
+created: 20151208085021220
+modified: 20151208091524465
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Animation Sequences
+source-tiddler-title-as-link: Animation%20Sequences
+
+\define thisInnerList()
+<ul>
+	<$list filter='[<currentTiddler>get[next]]'>
+		<li>
+			<$link to=<<currentTiddler>>>
+				<$view field='animation_name'/>
+			</$link>
+- Duration: <$view field='duration'/>ms
+			<<thisInnerList>>
+		</li>
+	</$list>
+</ul>
+\end
+
+<$list filter='[tag[SVG Image]]'>
+
+	!!<$link><<currentTiddler>></$link>
+
+	<ul>
+		<$list filter='[tag[Animation]image<currentTiddler>!callback[true]sort[order]]'>
+			<li>
+				<$link to=<<currentTiddler>>>
+					<$view field='animation_name'/>
+				</$link>
+- Duration: <$view field='duration'/>ms
+				<<thisInnerList>>
+			</li>
+		</$list>
+	</ul>
+</$list>

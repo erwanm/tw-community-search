@@ -1,0 +1,101 @@
+title: $:/SimpleModalTemplate/ModalDisplayTemplate
+created: 20160626090020916
+modified: 20160627191623281
+original-tags: 
+source-wiki-id: SimpleModalTemplate
+source-tiddler-title-as-text: ModalDisplayTemplate
+source-tiddler-title-as-link: ModalDisplayTemplate
+
+\define modal-close-button(w)
+<div style="text-align:right;margin-right:$w$;">
+<$button message="tm-close-tiddler" param="ModalDisplayTiddler"  class="tc-btn-invisible myclose-btn">{{big-close-button}}</$button>
+</div>
+\end
+
+\define filterallimages()
+[list[!!$(imageslistfield)$]]
+\end
+
+\define filterfirstimage()
+[list[!!$(imageslistfield)$]first[]]
+\end
+
+\define filterlastimage()
+[list[!!$(imageslistfield)$]last[]]
+\end
+
+\define previousimagefilter()
+[{!!$(imagefield)$}previous{!!title}]
+\end
+
+\define nextimagefilter()
+[{!!$(imagefield)$}next{!!title}]
+\end
+
+\define previousimagefilter()
+[list[!!$(imageslistfield)$]before{!!$(imagefield)$}]
+\end
+
+\define nextimagefilter()
+[list[!!$(imageslistfield)$]after{!!$(imagefield)$}]
+\end
+
+\define imagetiddlerfilter()
+[{!!$(imagefield)$}]
+\end
+
+\define filterbtnclass()
+[{!!title}] -[{$(actualtiddler)$!!$(imagefield)$}]
+\end
+
+<$set name="w" filter=<<filterallimages>> value="50px" emptyValue="0px">
+<<modal-close-button $(w)$>>
+</$set>
+<$set name="firstImage" filter=<<filterfirstimage>>>
+<$set name="lastImage" filter=<<filterlastimage>>>
+<div class="tc-modal-body-inside">
+<$set name="ref1" value="!!$(imageslistfield)$">
+<$reveal type="nomatch" state=<<ref1>> text="">
+<$set name="previousImage" filter=<<previousimagefilter>> emptyValue=<<lastImage>>>
+<$button class="tc-btn-invisible mynav-btn">
+<$action-setfield $field=<<imagefield>> $value=<<previousImage>>/>
+{{chevron-left}}</$button>
+</$set></$reveal>
+<div>
+<$set name="ref2" filter=<<imagetiddlerfilter>>>
+<$tiddler tiddler=<<ref2>>>
+<$transclude/>
+</$tiddler>
+</$set>
+</div>
+<$reveal type="nomatch" state=<<ref1>> text="">
+<$set name="nextImage" filter=<<nextimagefilter>> emptyValue=<<firstImage>>>
+<$button class="tc-btn-invisible mynav-btn">
+<$action-setfield $field=<<imagefield>> $value=<<nextImage>>/>
+{{chevron-right}}</$button>
+</$set></$reveal>
+<$reveal type="match" state=<<ref1>> text="">
+<div style="width:30px;"></div>
+</$reveal></$set>
+</div>
+<$set name="footer" value=$(footertype)$>
+<$reveal type="nomatch" default=<<footer>> text="no">
+<div class="tc-modal-body-inside">
+<$set name="actualtiddler" value=<<currentTiddler>>>
+<$list filter=<<filterallimages>>>
+<$button  class="tc-btn-invisible mynav-btn"  style="margin:3px;">
+<$reveal type="match" default=<<footer>> text="thumbnails">
+<div class="tc-thumbnail-image" style="width:100px;height:auto;">
+<$transclude/>
+</div></$reveal>
+<$reveal type="nomatch" default=<<footer>> text="thumbnails">
+<$set name="btnclass" filter=<<filterbtnclass>> value="" emptyValue="myclose-btn">
+<span class=<<btnclass>>>{{filledcircle}}</span>
+</$set>
+</$reveal>
+<$action-setfield $tiddler=<<actualtiddler>> $field=<<imagefield>> $value={{!!title}}/>
+</$button>
+</$list>
+</$set>
+</div></$reveal></$set>
+</$set></$set>

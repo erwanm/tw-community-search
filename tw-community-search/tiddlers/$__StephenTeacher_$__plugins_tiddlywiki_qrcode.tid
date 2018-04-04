@@ -1,0 +1,13 @@
+title: $:/StephenTeacher/$:/plugins/tiddlywiki/qrcode
+author: Zeno Zeng, adapted by Jeremy Ruston
+dependents: 
+description: QR Code generator
+list: readme usage examples license
+version: 5.1.15
+original-tags: 
+source-wiki-id: StephenTeacher
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/qrcode
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fqrcode
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

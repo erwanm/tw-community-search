@@ -1,0 +1,23 @@
+title: $:/External Brain (inmysocks)/sitemap
+bottom: </urlset>
+created: 20150104144500000
+creator: Jim
+modified: 20150227055342077
+modifier: Jim
+top: <?xml version="1.0" encoding="utf-8"?> <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+type: text/vnd.tiddlywiki
+original-tags: static
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: sitemap
+source-tiddler-title-as-link: sitemap
+
+\define tv-wikilink-template() #$uri_encoded$
+\define tv-config-toolbar-icons() no
+\define tv-config-toolbar-text() no
+\define tv-config-toolbar-class() tc-btn-invisible
+<textarea rows="20" style='width:100%'>
+<$view field=top/>
+<$set name="exportFilter" value="[!is[system]!tag[static]!title[Table of Contents]!sort[modifed]]">
+{{RenderSitemap}}</$set>
+<$view field=bottom/>
+</textarea>

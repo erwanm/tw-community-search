@@ -1,0 +1,28 @@
+title: $:/node/tiddlyweb
+created: 20151013053455345
+modified: 20151013190118960
+summary: is an open-source http api for storing and accessing flexible and composable microcontent. It is also a toolkit for tiddlers on the web and a robust server side for <<tw>>
+url: http://tiddlyweb.com
+original-tags: 
+source-wiki-id: node
+source-tiddler-title-as-text: tiddlyweb
+source-tiddler-title-as-link: tiddlyweb
+
+You can synchronize a <<tw>> running in the browser with <<twb>> / <<ts>>.
+
+The [[--server]] [[command|commands]] generates a [[standalone]] wiki containing the plugin $:/plugins/tiddlywiki/tiddlyweb providing the necessary interface which...
+
+* by default implements [[lazy-loading]]
+* provides two way synchronisation between browser and server
+** synchronising from the server is accomplished by polling (every 60 seconds)
+* throttles communication so that rapid changes don't overwhelm the server
+** e.g. drafts / tiddlerss in edit-mode
+
+To try it out...
+
+# create an account at <<ts>>
+# create a new space, eg `<myspace>`
+# include the space `tw5tiddlyweb` in your <<ts>> controlpanel
+# visit `http://<myspace>.tiddlyspace.com/tw5`
+
+<<ref>>

@@ -1,0 +1,15 @@
+title: $:/t5a/$:/plugins/ajh/reduce
+author: Andrew
+core-version: >=5.1.12
+dependents: $:/config/ShortcutInfo/reduce $:/config/shortcuts/reduce $:/language/reduce/caption $:/language/reduce/hint $:/plugins/ajh/reduce/icon $:/plugins/ajh/reduce/image $:/plugins/ajh/reduce/macro.js $:/plugins/ajh/reduce/readme $:/plugins/ajh/reduce/template
+description: Reduce Button
+list: readme
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Freduce.json
+version: 0.0.3
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/ajh/reduce
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2freduce
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

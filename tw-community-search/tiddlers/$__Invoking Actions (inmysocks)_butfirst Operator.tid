@@ -1,0 +1,12 @@
+title: $:/Invoking Actions (inmysocks)/butfirst Operator
+caption: butfirst
+created: 20140410103123179
+modified: 20150124200507000
+purpose: same as <<.op rest>>
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: butfirst Operator
+source-tiddler-title-as-link: butfirst%20Operator
+
+<<.op butfirst>> is a synonym for <<.olink rest>>, also known as <<.olink bf>>.

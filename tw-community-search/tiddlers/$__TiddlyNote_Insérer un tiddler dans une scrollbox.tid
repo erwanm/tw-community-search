@@ -1,0 +1,27 @@
+title: $:/TiddlyNote/Insérer un tiddler dans une scrollbox
+created: 20150130143401977
+description: Afficher un tiddler dans une boite de défilement
+modified: 20150218100123361
+original-tags: [[Trucs et astuces]] CSS
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Insérer un tiddler dans une scrollbox
+source-tiddler-title-as-link: Insérer%20un%20tiddler%20dans%20une%20scrollbox
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: http://tiddlywiki.com/#ScrollableWidget
+
+Ajouter à votre feuille de style:
+
+```
+.tc-scrollable { border: 1px solid #cfd6e6; background-color: #ecf2ff; padding: 1em; height: 400px; }
+```
+
+Et ajoutez à votre tiddler:
+
+```
+<$scrollable class='tc-scrollable'>
+{{Nom-du-tiddler-à-afficher}}
+</$scrollable>
+```
+
+<i class="fa fa-sign-in"></i>
+ Pour un exemple voir //Références de formatage// dans [[Formatage de texte]].

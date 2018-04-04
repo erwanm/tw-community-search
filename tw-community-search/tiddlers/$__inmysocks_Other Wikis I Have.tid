@@ -1,0 +1,14 @@
+title: $:/inmysocks/Other Wikis I Have
+created: 20150312001342370
+modified: 20150421045931198
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Other Wikis I Have
+source-tiddler-title-as-link: Other%20Wikis%20I%20Have
+
+<$list filter='[tag[Jed Carty (inmysocks)]tag[<Name Plate>]name_plate_type[TiddlyWiki]has[category]each[category]get[category]]' variable=Category>
+<h1><<Category>></h1>
+<$list filter='[tag[Jed Carty (inmysocks)]tag[<Name Plate>]name_plate_type[TiddlyWiki]category<Category>]' template=SiteNamePlateDisplayTemplate>
+
+</$list>
+</$list>

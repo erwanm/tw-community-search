@@ -1,0 +1,23 @@
+title: $:/BJTools/AtrStr vnd.tiddlywiki
+created: 20160219113121745
+modified: 20160219113219814
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: AtrStr vnd.tiddlywiki
+source-tiddler-title-as-link: AtrStr%20vnd.tiddlywiki
+
+<svg width="100%" height="100%" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:white;">
+<defs>
+<path id="MyPath7" d={{AtrStr!!path}}C 800 100 900 100 900 100/>
+</defs>
+<use xlink:href="#MyPath7" fill="none" stroke="#ddd"/>plain
+<text font-family="'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif" font-size="42.5">
+<textPath xlink:href="#MyPath7">
+====To The  Top=====on the bottom=======================
+</textPath>
+</text>
+</svg>
+
+

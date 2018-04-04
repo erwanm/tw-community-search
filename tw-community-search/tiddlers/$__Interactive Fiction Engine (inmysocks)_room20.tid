@@ -1,0 +1,18 @@
+title: $:/Interactive Fiction Engine (inmysocks)/room20
+created: 20141110060628406
+east: 
+east_button: 
+explored: false
+modified: 20141129062020065
+north: room15
+north_button: <<northButton>>
+south: room25
+south_button: <<southButton>>
+west: room19
+west_button: <<westButton>>
+original-tags: Room
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: room20
+source-tiddler-title-as-link: room20
+
+You are in a bare room

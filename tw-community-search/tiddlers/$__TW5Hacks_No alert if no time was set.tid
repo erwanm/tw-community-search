@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/No alert if no time was set
+created: 20170818201229311
+creator: Thomas Elmiger
+modified: 20170818201429181
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20170818221425
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: No alert if no time was set
+source-tiddler-title-as-link: No%20alert%20if%20no%20time%20was%20set
+
+Setting a time is not necessary – if not specified, a value of 0000 is set for hours and minutes.
+
+* Do not show an alert or a reminder for tasks due today if the time was not set/is 0000.

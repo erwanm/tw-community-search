@@ -1,0 +1,46 @@
+title: $:/inmysocks/Field
+created: 20141229043127153
+modified: 20141229044635069
+original-tags: $:/tags/AdvancedSearch
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Field
+source-tiddler-title-as-link: Field
+
+\define searchInField(field, for)
+
+<$list filter="[field:$field$/$for$/]">
+
+<$link><$view field="title"/></$link>
+
+</$list>
+
+\end
+
+
+<$edit-text tiddler="$:/temp/advancedsearch" type="search" tag="input"/> <$select field="fieldname" tiddler="$:/temp/advancedsearch">
+<option value="Any">Any</option>
+<$list filter="[!is[shadow]indexes[]sort[]]" variable="fieldname">
+<option value=<<fieldname>>><<fieldname>></option>
+</$list>
+</$select>
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$reveal state="$:/temp/advancedsearch!!fieldname" type="match" text="Any">
+<$list filter="[indexes[]]" variable="fieldname">
+
+
+Searching in index: <<fieldname>>
+
+<$macrocall $name="searchInField" field=<<fieldname>> for={{$:/temp/advancedsearch}}/>
+
+</$list>
+</$reveal>
+<$reveal state="$:/temp/advancedsearch!!fieldname" type="nomatch" text="Any">
+
+Searching in field: {{$:/temp/advancedsearch!!fieldname}}
+
+<$macrocall $name="searchInField" field={{$:/temp/advancedsearch!!fieldname}} for={{$:/temp/advancedsearch}}/>
+
+</$reveal>
+
+</$reveal>

@@ -1,0 +1,20 @@
+title: $:/dev/GlobalFocusFilter
+created: 20150207120207153
+creator: Tobias Beer
+modified: 20150207120316609
+modifier: Tobias Beer
+url: https://github.com/Jermolene/TiddlyWiki5/issues/1459
+original-tags: Plugin
+source-wiki-id: dev
+source-tiddler-title-as-text: GlobalFocusFilter
+source-tiddler-title-as-link: GlobalFocusFilter
+
+<<<
+Certain applications, e.g. GTD, would benefit a lot from an ability to dynamically set a global filter that constrains all lists to only those matching that filter, e.g. only ''status:#next'', only ''realm:-work'' or both.
+
+Imagine a "focus" tab in the sidebar, or a corresponding button popup in the toolbar with predefined filter options which when clicked constrain all (filtered) lists to just that.
+
+Feasible?
+
+This would also be a way to provide more flexibility to as well hide things by default in the sense of <<git5 issues/1210>>, e.g. "Admin" pages that are only visible when one clicks a checkbox to remove ''[tag[Admin]]'' from that global "focus filter" and thus have these things listed and searchable.
+<<<

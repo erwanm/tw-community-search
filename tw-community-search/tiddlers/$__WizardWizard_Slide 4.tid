@@ -1,0 +1,12 @@
+title: $:/WizardWizard/Slide 4
+order: 4
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 4
+source-tiddler-title-as-link: Slide%204
+
+This has some neat things I want to show off. First where it says `Step 4 of 13: Slide 4`.
+
+The numbers count correctly to say the step you are on and the total number of steps. This is done using only wiki text. It uses the $count widget and some list and reveal widgets.
+
+The step name given here is taken from the caption field of the tiddler for that step. If there is no caption field the title is used instead.

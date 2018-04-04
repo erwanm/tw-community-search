@@ -1,0 +1,18 @@
+title: $:/Modified Mobile Menus (inmysocks)/CentralListingTemplate
+created: 20150520170428339
+modified: 20150520174134325
+original-tags: Templates
+source-wiki-id: Modified Mobile Menus (inmysocks)
+source-tiddler-title-as-text: CentralListingTemplate
+source-tiddler-title-as-link: CentralListingTemplate
+
+<$reveal type='nomatch' state=<<makeRevealState>> text='show'>
+<$button class='tc-btn-invisible' set=<<makeRevealState>> setTo=show>{{$:/core/images/chevron-right}}</$button><$link to=<<currentTiddler>>><$view field='caption'><$view field='title'/></$view></$link><br>
+</$reveal>
+<$reveal type='match' state=<<makeRevealState>> text='show'>
+<$button class='tc-btn-invisible' set=<<makeRevealState>> setTo=hide>{{$:/core/images/chevron-down}}</$button><$link to=<<currentTiddler>>><$view field='caption'><$view field='title'/></$view></$link><br>
+
+<$list filter='[tag<currentTiddler>]'>
+
+</$list>
+</$reveal>

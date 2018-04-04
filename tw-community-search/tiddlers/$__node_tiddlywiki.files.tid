@@ -1,0 +1,23 @@
+title: $:/node/tiddlywiki.files
+created: 20151013091700012
+modified: 20151013094323635
+summary: a JSON file specifying the processing for a subfolder to the [[tiddlers]] folder in the [[tiddlers]] [[folder]]
+original-tags: 
+source-wiki-id: node
+source-tiddler-title-as-text: tiddlywiki.files
+source-tiddler-title-as-link: tiddlywiki.files
+
+The JSON data consists of an object with a `tiddlers` property containing an array of tiddlers and information as to how to load each into the wiki, consistsing of:
+
+; file
+: the relative or absolute path to the file to include
+; fields
+: an object containing fields that override any provided in the tiddler file
+; prefix / suffix
+: (optional) specify strings to be prefixed and suffixed to the tiddler file text content
+
+!! Example
+
+Velow the content of the [[tiddlywiki.files]] in the [[tiddlers (folder)]] of the [[D3 plugin|http://tiddlywiki.com/plugins/tiddlywiki/d3]]:
+
+<$codeblock language="javascript" code={{$:/.node/examples/tiddlywiki.files}}/>

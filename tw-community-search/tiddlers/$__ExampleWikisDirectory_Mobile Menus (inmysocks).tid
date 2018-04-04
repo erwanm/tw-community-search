@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Mobile Menus (inmysocks)
+caption: Mobile Menus
+category: Macro
+created: 20150604175706133
+description: A macro that adds mobile type menus
+follow: yes
+modified: 20151116091125270
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Mobile%20App%20Menus
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro Menu
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Mobile Menus (inmysocks)
+source-tiddler-title-as-link: Mobile%20Menus%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

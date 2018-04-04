@@ -1,0 +1,23 @@
+title: $:/TiddlyNote/TOC exemple sélective extensible
+caption: Sélective extensible
+created: 20150529090233126
+modified: 20150529180958161
+order: 3
+original-tags: toc
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: TOC exemple sélective extensible
+source-tiddler-title-as-link: TOC%20exemple%20sélective%20extensible
+
+```
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Nom-du-tag">>
+</div>
+```
+
+>Produit un arbre hiérarchique de liens où les sous entrées peuvent être développées et réduites mais uniquement quand il existe des sous entrées.
+
+<br>__Exemple__
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "toc exemple">>
+</div>

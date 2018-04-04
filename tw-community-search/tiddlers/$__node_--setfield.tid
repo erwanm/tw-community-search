@@ -1,0 +1,14 @@
+title: $:/node/--setfield
+created: 20140609121606089
+modified: 20151014052053149
+p.fieldname: (optional) the field to modify<br>» defaults: `text`
+p.filter: (required) a filter identifying the tiddlers to be affected
+p.rendertype: (optional) the text type to render<br>» default: `"text/plain"`<br>» use `"text/html"` to include [[html]] tags
+p.templatetitle: (optional) the tiddler to wikify into the specified field<br>» when blank or missing the specified field is deleted
+params: <filter> <fieldname> <templatetitle> <rendertype>
+summary: sets a specified field of a group of tiddlers to the result of wikifying a template tiddler with the `currentTiddler` variable set to the tiddler
+original-tags: commands
+source-wiki-id: node
+source-tiddler-title-as-text: --setfield
+source-tiddler-title-as-link: --setfield
+

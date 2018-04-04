@@ -1,0 +1,18 @@
+title: $:/inmysocks/DeleteBookConfirmation
+created: 20141227233122548
+modified: 20141228003510118
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: DeleteBookConfirmation
+source-tiddler-title-as-link: DeleteBookConfirmation
+
+Are you sure you want to delete __{{Manage Books!!book_title}}__ from your collection?
+
+<$set name=newBook filter='[tag[Book]]+[first[]]'>
+<$button>Yes, delete {{Manage Books!!book_title}}.
+<$action-sendmessage $message='tm-delete-tiddler' $param={{Manage Books!!book_title}}/>
+<$action-sendmessage $message='tm-close-tiddler'/>
+<$action-setfield $tiddler='Manage Books' $field='book_title' $value=<<newBook>>/>
+</$button>
+<$button>No<$action-sendmessage $message='tm-close-tiddler'/></$button>
+</$set>

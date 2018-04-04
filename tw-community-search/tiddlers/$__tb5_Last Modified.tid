@@ -1,0 +1,27 @@
+title: $:/tb5/Last Modified
+created: 20150131113633486
+creator: Tobias Beer
+modified: 20150131122107756
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Dates Presentation Utilities
+source-wiki-id: tb5
+source-tiddler-title-as-text: Last Modified
+source-tiddler-title-as-link: Last%20Modified
+
+The below will output the last modified non-system tiddler and the modification date...
+
+<<`
+'<$list filter="[!is[system]!sort[modified]limit[1]]">
+
+; last modified
+: <$view field=modified format="date" template="0DD. MMM YYYY"/> (<$link><$view field=title/></$link>)
+</$list>'>>
+
+Here's just the date as a plain link to that tiddler...
+
+<<`
+'<$list filter="[!is[system]!sort[modified]limit[1]]">
+<$link><$view field=modified format="date" template="0DD. MMM YYYY"/> </$link>
+</$list>'>>

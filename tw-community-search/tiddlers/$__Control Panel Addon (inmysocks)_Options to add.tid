@@ -1,0 +1,17 @@
+title: $:/Control Panel Addon (inmysocks)/Options to add
+created: 20150602203500515
+modified: 20150602203641562
+original-tags: 
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Options to add
+source-tiddler-title-as-link: Options%20to%20add
+
+Some things to remember to add:
+
+*All of the toolbar icons
+*on hover for all of the toolbar icons
+*on hover for all link types
+*tab classes
+*sidebar list classes
+*tiddler title icon
+*Lots more

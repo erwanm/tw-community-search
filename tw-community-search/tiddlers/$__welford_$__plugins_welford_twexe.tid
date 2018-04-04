@@ -1,0 +1,15 @@
+title: $:/welford/$:/plugins/welford/twexe
+author: James W. Anderson
+core-version: >=5.0.0
+dependents: 
+description: Runs local exe/batch files. Open in folder, copy to clipboard etc also optional
+revision: 0
+source: https://github.com/Welford/twexe
+version: 0.0.1
+original-tags: 
+source-wiki-id: welford
+source-tiddler-title-as-text: $:/plugins/welford/twexe
+source-tiddler-title-as-link: %24%3a%2fplugins%2fwelford%2ftwexe
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

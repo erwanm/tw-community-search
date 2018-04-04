@@ -1,0 +1,26 @@
+title: $:/LibreNote/AnciensPosts
+created: 20150613114448832
+creator: svink
+modified: 20170305174300220
+modifier: svink
+original-tags: transblack
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: AnciensPosts
+source-tiddler-title-as-link: AnciensPosts
+
+<div style="float:right;">
+<$button message="tm-close-tiddler" class="tc-btn-invisible" tooltip="Fermer les archives"><i class="fa fa-times-circle fa-2x" style="color:#7C7C7C"></i>
+</$button>
+</div>
+
+<div style="text-align:center; color:white; font-size: 1.3em;">
+<i class="fa fa-archive"></i> Archives
+</div>
+
+---
+
+<div style="text-align:left; font-size:0.9em; color:white;">
+<$list filter='[tag[Blog]!nsort[created]rest[3]]'>
+''<$view field="created" format="date" template="DDth MMM YYYY"/>'' - <$link>''{{!!title}}''</$link>
+<dt>{{!!resume}}</dt>
+<br>

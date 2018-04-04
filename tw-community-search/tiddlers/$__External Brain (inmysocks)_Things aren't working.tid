@@ -1,0 +1,23 @@
+title: $:/External Brain (inmysocks)/Things aren't working
+created: 20150203221158869
+day: 25
+image: 
+image_caption: 
+link: 
+modified: 20151025101226131
+modifier: inmysocks
+month: October
+number_of_comments: 0
+posted: 11:12, 25th October 2015
+summary: it is very annoying
+template: BlogDisplayTemplate1
+time: 20151025111211
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Things aren't working
+source-tiddler-title-as-link: Things%20aren%27t%20working
+
+I am trying to actually get some work done on the various electronics projects I have, and I can't get the teensy-lc to work. The arduino ide keeps saying that I need to press the button to turn on the boot loader, but pressing the button hasn't worked. Everything else on the computer claims that it is set up with the bootloader. I am annoyed. I guess back to audio stuff. Eventually I will get this working again. I should find some people to work with here in Paris. There should be hacker spaces around somewhere, hopefully with people who speak English. My French isn't anywhere near good enough to talk about electronics.

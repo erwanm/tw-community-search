@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/Other Menus Demo (inmysocks)
+caption: Other menu types
+category: Example Wiki
+created: 20150421150726241
+description: Some other menu types based on the mobile menus and icons menus
+modified: 20150421151047572
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/Text%20Menus/upgrade.html
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Other Menus Demo (inmysocks)
+source-tiddler-title-as-link: Other%20Menus%20Demo%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

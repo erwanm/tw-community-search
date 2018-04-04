@@ -1,0 +1,14 @@
+title: $:/TiddlerTools/$:/plugins/tiddlywiki/nodewebkitsaver
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: NW.js saver
+list: readme
+version: 5.1.9
+original-tags: 
+source-wiki-id: TiddlerTools
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/nodewebkitsaver
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fnodewebkitsaver
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

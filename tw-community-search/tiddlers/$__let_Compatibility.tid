@@ -1,0 +1,20 @@
+title: $:/let/Compatibility
+caption: Compatibility
+created: 20141125230000000
+creator: Tobias Beer
+icon: $:/core/images/info-button
+menu-icon: {{$:/core/images/info-button}}
+modified: 20141126230000000
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: let
+source-tiddler-title-as-text: Compatibility
+source-tiddler-title-as-link: Compatibility
+
+This filter is is compatible with TiddlyWiki version 5.1.5.
+
+The following filter plugins provide a subset of similar functions...
+
+;date.js / lesser.js / greater.js
+:» from [[welford|https://gist.github.com/welford/63cd1b6ab7d4db1ed54b]]
+:» https://gist.github.com/welford/63cd1b6ab7d4db1ed54b

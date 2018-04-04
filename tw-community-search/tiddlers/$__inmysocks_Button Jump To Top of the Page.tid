@@ -1,0 +1,27 @@
+title: $:/inmysocks/Button Jump To Top of the Page
+created: 20160920081033940
+modified: 20160920082233526
+topics_tags: Buttons Interface
+original-tags: [[Buttons - Tips and Tricks]] [[Wiki Widgets - buttons, filters, etc.]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Button Jump To Top of the Page
+source-tiddler-title-as-link: Button%20Jump%20To%20Top%20of%20the%20Page
+
+You can make a button that will bring you to the top of the page whenever you click on it by using the `$action-navigator` widget and the [[$:/StoryList]] tiddler. If you add the tag `$:/tags/PageControls` to the tiddler after you import it into your wiki than it will show up in the page toolbar and be accessible whenever you have the page toolbar visible.
+
+Import this tiddler if you want this in your wiki: [[Menu Icon - Jump To Top]]
+
+The button code is:
+
+```
+<$button class='tc-btn-invisible'>
+{{$:/core/images/up-arrow}}
+<$list variable='Target' filter='[list[$:/StoryList]first[]]'>
+<$action-navigate $to=<<Target>>/>
+</$list>
+</$button>
+```
+
+Here is what the button looks like (it is also in the icon menu on the left):
+
+{{Menu Icon - Jump To Top}}

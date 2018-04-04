@@ -1,0 +1,42 @@
+title: $:/Tiddler Bundles/What is this?
+created: 20160109112822926
+modified: 20160109190319367
+original-tags: 
+source-wiki-id: Tiddler Bundles
+source-tiddler-title-as-text: What is this?
+source-tiddler-title-as-link: What%20is%20this%3f
+
+This is a demo of tiddler bundles.
+
+Tiddler bundles are a way to import many tiddlers from one wiki into another in a single action. They are sort of like temporary plugins but they are only used to import tiddlers with as little effort as possible.
+
+__How it works__
+
+There are two parts, bundle creation and unpacking.
+
+You enter a filter in the tiddler [[Tiddler Bundles]] and give the bundle tiddler a name, then click `Create School`.
+
+This will create a tiddler with the name you gave that contains all the information required to build each tiddler returned by the filter entered. You then import that tiddler into another wiki and use the [[action-import-bundle|$:/plugins/inmysocks/TiddlerBundles/action-import-bundle.js]] to unpack the bundle into normal tiddlers.
+
+You can create a tiddler bundle from any wiki you import the tiddler [[Tiddler Bundles]] into, you can only import the bundle into a tiddler that has the [[action-import-bundle widget|$:/plugins/inmysocks/TiddlerBundles/action-import-bundle.js]]. This means that you can create bundles on any wiki and then import the bundle into your own wiki. This may be useful for getting things from demo and reference wikis.
+
+__How it is different from plugins__
+
+# It is faster to make a bundle (although the Tinka plugin makes plugin creation very simple)
+# There aren't any shadow tiddlers or version checking
+# The resulting imported tiddlers are normal tiddlers, if you delete them they are gone.
+
+__What should be added__
+
+A way to selectively import tiddlers from a tiddler bundle. I am not sure how difficult this will be to implement.
+
+I would like to use the same widget to let you import other file types, like csv files. I don't want to get into anything that requires complex parsing rules yet, but importing from other file types should be able to use the same framework as in the widget.
+
+Possibly other things, I am open to suggestions.
+
+__Demos__
+
+There are some tiddler bundles here as demos:
+
+TiddlersTaggedHelloThere - the tiddlers tagged with HelloThere from tiddlywiki.com
+

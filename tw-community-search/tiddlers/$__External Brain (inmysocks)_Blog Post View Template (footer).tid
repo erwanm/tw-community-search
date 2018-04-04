@@ -1,0 +1,37 @@
+title: $:/External Brain (inmysocks)/Blog Post View Template (footer)
+created: 20150510144724623
+creator: inmysocks
+list-after: 
+modified: 20150730151139767
+modifier: inmysocks
+original-tags: $:/tags/ViewTemplate
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Blog Post View Template (footer)
+source-tiddler-title-as-link: Blog%20Post%20View%20Template%20%28footer%29
+
+<$list filter='[is[current]tag[My Blog]]'>
+
+<div id='hashover'>
+
+<$macrocall $name=hashoverComments postname=<<currentTiddler>> kickback="ooktech.com/jed/externalbrain/"/>
+
+</div>
+
+[[About Commenting]]
+
+Sort Comments: <$radio field='sort_comments' value='oldest'>Oldest First</$radio> <$radio field='sort_comments' value='newest'>Newest First</$radio> 
+
+<$reveal type='nomatch' state='!!sort_comments' text='newest'>
+<$list filter='[tag[Comment]tag[Accepted]tag<currentTiddler>sort[sort_date]]' template=BlogPostCommentTemplate>
+
+</$list>
+</$reveal>
+<$reveal type='match' state='!!sort_comments' text='newest'>
+<$list filter='[tag[Comment]tag[Accepted]tag<currentTiddler>!sort[sort_date]]' template=BlogPostCommentTemplate>
+
+</$list>
+</$reveal>
+
+<hr>
+{{$:/core/ui/Buttons/home}} [[About me|Who is this inmysocks guy?]] [[About this site]] [[Blog Archive|Calendar Archives]] [[Leave a message|Comments]] [[hashover source code|http://ooktech.com/hashover-modified.zip]]
+</$list>

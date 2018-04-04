@@ -1,0 +1,15 @@
+title: $:/NoteSelf/$:/plugins/danielo515/pouchdb
+author: Danielo Rodriguez Rivero
+core-version: >=5.1.14
+dependents: 
+description: The Pouchdb library as a TW5 plugin.
+list: readme
+released: Sun, 22 Jan 2017 14:12:54 GMT
+version: 0.1.0+3
+original-tags: 
+source-wiki-id: NoteSelf
+source-tiddler-title-as-text: $:/plugins/danielo515/pouchdb
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2fpouchdb
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,21 @@
+title: $:/ErwansLearningTW/Checkbox widget to set a field value
+created: 20141019230842804
+creator: Erwan
+modified: 20141019231412409
+modifier: Erwan
+original-tags: answered question widget
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Checkbox widget to set a field value
+source-tiddler-title-as-link: Checkbox%20widget%20to%20set%20a%20field%20value
+
+The following content lists all tiddlers tagged //ticket// with a checkbox before each, and checking/unchecking the box changes the value of the field "status" in the corresponding tiddler.
+
+```
+<$list filter="[tag[ticket]]">
+
+<$checkbox field="status" checked="open" unchecked="closed" default="closed"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>
+```
+
+Source: http://tiddlywiki.com/#CheckboxWidget

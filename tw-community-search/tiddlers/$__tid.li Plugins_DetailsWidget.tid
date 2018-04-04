@@ -1,0 +1,91 @@
+title: $:/tid.li Plugins/DetailsWidget
+caption: details
+created: 20170130234539362
+creator: Thomas Elmiger
+modified: 20170202210119661
+modifier: Thomas Elmiger
+priority: W
+type: text/vnd.tiddlywiki
+widget-author: <$details summary="Author" tiddler="FollowMe"> ''Thomas Elmiger'' <$transclude tiddler="FollowMe" mode="block"/></$details>
+original-tags: Widgets
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: DetailsWidget
+source-tiddler-title-as-link: DetailsWidget
+
+!! Introduction
+
+The details widget creates an HTML 5 `<details>` section including a `<summary>`. Users can click on the summary to open and close a block containing more details. 
+
+<$details summary="What the W3C says about details" state="!!accordion-first">
+
+<<<
+The [[details|http://w3c.github.io/html/interactive-elements.html#elementdef-details]] element represents a disclosure widget from which the user can obtain additional information or controls.
+
+''NOTE:'' //The details element is not appropriate for footnotes. Please see [[§4.13.5 Footnotes|http://w3c.github.io/html/common-idioms-without-dedicated-elements.html#footnotes]] for details on how to mark up footnotes.//
+
+The first [[summary|http://w3c.github.io/html/interactive-elements.html#elementdef-summary]] element child of the element, if any, represents the summary or legend of the details. If there is no child summary element, the user agent should provide its own legend (e.g., "Details").
+
+<<< [[W3C on Github|http://w3c.github.io/html/interactive-elements.html#the-details-element]]
+
+</$details>
+
+<$details summary="Compare the DeatilsWidget and the RevealWidget" state="!!accordion-second">
+
+The RevealWidget can be used in similar ways, it hides or shows its content depending upon the value of a [[state tiddler|StateTiddlers]]. It is worth noting that:
+
+* The DetailsWidget in its most simple form is independet from a state tiddler. It’s open or closed state falls back to the original state whenever a tiddler or wiki ist refreshed in the browser. 
+* Without a state reference, content can be revealed instantaneous because it is the browser alone that shows or hides it. No TiddlyWiki rendering is needed. 
+* However you can optionally use a //state// reference: a tiddler, field or index that will be updated automagically every time when details is opened or closed. The referenced text must be "open" to show the details. The RevealWidget in contrast can check for any given text.
+* While the RevealWidget can reveal almost anything, the DetailsWidget displays primarily a standard element which of course can contain other elements and can be styled using CSS.
+
+</$details>
+
+<$details summary="Browser Support: Not Implemented in Edge yet" class="warning">
+
+* Microsoft has not yet implemented details/summary in their Edge browser. It is listed with “Roadmap Priority: Medium — Development is likely for a future release” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
+* Other browsers might not support animation effects on opening or closing – at least not in early 2017.
+* Apple iOS mobile browsers lack support of toggle events on details. Therefore we emulate the toggle event using click. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. FireFox mobile seems to work.
+
+</$details>
+
+<$details summary="What is needed to use and style the details widget"  state="!!accordion-third">
+
+While the author hopes that this handy widget will be part of the core sooner or later, for the moment you will have to drag these two links over to your wiki:
+
+!!! Details Components
+* the widget: $:/plugins/telmiger/details/details.js
+* the styles: $:/plugins/telmiger/details/details.css
+
+''Important:'' I am not a javascript expert! So ''do yourself a favour and save a backup'' of your wiki first. After importing you will have to reload so the widget’s script can take effect. 
+
+{{!!widget-author}}
+
+</$details>
+
+!! Content and Attributes
+
+How the content of the `<$details>` widget is displayed depends on the parameters shown in the following table.
+
+|!Parameter |!Description |
+|summary |Optional text to display as summary. Wins over field (see below). |
+|open |Optional initial state, set to "open" to show details on load. Defaults to "". |
+|state |An optional TextReference containing the state. Wins over open. |
+|field |Optionally, the summary is taken from the field with this name in a given tiddler. Defaults to "title". |
+|tiddler |Optional title of a tiddler to watch, connected to field. Defaults to current tiddler. |
+|class |Optional CSS classes to be assigned to the details tag. |
+
+!! Examples
+
+* [[Details Basic Examples]]
+* [[Details Advanced Examples]] – including examples with state reference
+
+!! More
+<$details summary="What details could be useful for">
+
+!!!! Here are some ideas
+* Create a simple accordion as seen at the top of this page. 
+* List tiddlers and give users the possibility to see their contents immediately.
+* Open a drawing canvas (image tiddler in edit mode)
+* Show a variant/alternative (e.g. a visualisation)
+
+</$details>

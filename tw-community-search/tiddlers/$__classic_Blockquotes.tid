@@ -1,0 +1,56 @@
+title: $:/classic/Blockquotes
+created: 20141126121100463
+creator: Tobias Beer
+modified: 20141126123616461
+modifier: Tobias Beer
+original-tags: Markup
+source-wiki-id: classic
+source-tiddler-title-as-text: Blockquotes
+source-tiddler-title-as-link: Blockquotes
+
+http://tiddlywiki.com/static/Block%2520Quotes%2520in%2520WikiText.html
+
+!!TW5
+Supports all blockquote markup from TWC (see below) and also...
+
+''custom classes''
+
+```
+>.red this will be styled
+```
+
+>.custom-class.red this will be styled
+
+''nested within lists''
+
+```
+* foo
+*> bar
+```
+
+* foo
+*> bar
+
+!!TWC
+
+```
+> block
+>> quotes
+>>> are easy
+```
+
+> block
+>> quotes
+>>> are easy
+
+```
+<<<
+real
+easy
+<<<
+```
+
+<<<
+real
+easy
+<<<

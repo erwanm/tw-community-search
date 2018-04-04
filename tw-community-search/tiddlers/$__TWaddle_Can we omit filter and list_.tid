@@ -1,0 +1,53 @@
+title: $:/TWaddle/Can we omit filter and list?
+created: 20150704015028415
+creator: Mat
+modified: 20150715234233447
+modifier: Mat
+recent: 15/07/10	
+summary: Idea to simplify some syntax 
+original-tags: Proposal @JeremyRuston Syntax Operator
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Can we omit filter and list?
+source-tiddler-title-as-link: Can%20we%20omit%20filter%20and%20list%3f
+
+First proposal:
+
+In list widgets, is the attribute name //filter// really necessary?
+
+`<$list filter="[tag[foo]]"/>`
+
+...couldn't it just say
+
+`<$list "[tag[foo]]"/>`
+
+...? Not only is the (actual) filter the mandatory attribute in a list (right?) but doesn't a filter always enclose with `"[ ... ]"`?... if so, these biths would be enough to confirm it is a filter, even without the explicit `filter=`. 
+
+Frankly, I even confuse the concepts //list// and //filter// sometimes. Of course a list is filtered, what else could it be? But, equally as obvious; if I take a bunch of things and filter them... of course I get a list! There is no other way to present a bunch of output on the screen other than as a list!!!
+
+Is my point even limited to the //list// widget? Is the attribute name //filter// perhaps redundant also in other widgets?
+
+In other words, ''can we make an unspecified parameter be assumed to be a filter for widgets?''<br><br>
+
+''Second proposal, pushing it further'':
+
+The //list widget// is possibly the ''most common widget''. Many a times must the little tiddlywikians type the string &nbsp; `<$list filter=...`
+
+Could we simplify even futher by omitting also `list` ? I.e instead of;
+
+`<$list filter="[tag[foo]]"/>`
+
+...we just need
+
+`<$ "[tag[foo]]"/>`
+
+//...or even...//
+
+`<$[tag[foo]]/>`
+
+//...or ''even''...//
+
+`<$tag[foo]/>`
+
+...!!!!?
+
+//Gimme the foo!//

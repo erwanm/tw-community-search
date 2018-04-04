@@ -1,0 +1,21 @@
+title: $:/plugins/contains-Info
+created: 20151125111607401
+creator: Tobias Beer
+modified: 20160107111123293
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: contains-Info
+source-tiddler-title-as-link: contains-Info
+
+The plugin [[$:/plugins/tobibeer/contains]] provides the filter:
+
+; contains[]
+: @@.summary returns all input titles whose title / titles in a list-field contain a single title or any / all / exactly those titles specified in the operand@@
+
+; Variants
+: see [[Examples|contains-Examples]]
+: all [[Variants|contains-Examples]] support negation via `!contains`
+: ''Note:'' When passing an empty value or list — except for ''$exactly'' — the contains filter will always return the input titles. In other words an empty value or empty list is always contained in a list being tested.

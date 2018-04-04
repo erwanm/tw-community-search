@@ -1,0 +1,24 @@
+title: $:/Category List (inmysocks)/Put the settings for the library tracker in a non-shadow tiddler
+category: Plugin
+created: 20150506180844295
+created_day: 05
+created_month: 05
+created_year: 2015
+description: settings in a shadow tiddler may break future updates
+due_day: 
+due_month: 
+due_year: 
+modified: 20150506180914551
+start_day: 
+start_month: 
+start_year: 
+subcategory: Library Tracker
+subsubcategory: Bugs
+original-tags: Bug [[Planned Update]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Put the settings for the library tracker in a non-shadow tiddler
+source-tiddler-title-as-link: Put%20the%20settings%20for%20the%20library%20tracker%20in%20a%20non-shadow%20tiddler
+
+Yep.
+
+That is store the settings in a non-shadow tiddler. Like $:/settings/Library Tracker/settings or something

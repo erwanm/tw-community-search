@@ -1,0 +1,46 @@
+title: $:/Simple Tagger/🎵 Using Copy&Paste Emoji
+created: 20160128063437537
+modified: 20160131075332883
+original-tags: 
+source-wiki-id: Simple Tagger
+source-tiddler-title-as-text: 🎵 Using Copy&Paste Emoji
+source-tiddler-title-as-link: %1f3b5%20Using%20Copy%26Paste%20Emoji
+
+!! 📌 Tagging  
+
+These can be placed anywhere in your wiki --- for example, to 'tag' a category of tiddler, paste an emoji anywhere in the title; usually before the title followed by a space. These will show in your sidebar listings ⟹
+
+These tiddlers may be listed with: `[regexp[🌤 ]]` (note the space after the emoji.)
+
+{{{ [regexp[🌤 ]] }}}
+
+Or tag with an emoji (no text required) -- then list them with: `[tag[🍒]]`
+
+{{{ [tag[🍒]] }}}
+
+!!  📖 Wikitext 
+
+Emoji may be placed anywhere in wikitext --- to get bullets on successive lines; use this hack:
+
+```
+; Paragraph title on this one
+:⇒ Item 1
+:⇒ Item 2
+:⇒ Item 3
+: --- the title can be left blank
+```
+; Paragraph title on this one
+:⇒ Item 1
+:⇒ Item 2
+:⇒ Item 3
+: --- the paragraph title may be left blank
+
+!! ⏎ Transclusion 
+
+Emoji may be used as names, or as part of names; with the exception of field names. For example, to transclude the 🐻 : index of "🌤 Tiddler":- `{{🌤 Tiddler##🐻}}`
+
+{{🌤 Tiddler##🐻}}
+
+!! 😜 Have fun
+
+<section class="demo-container"> <div class="kitty-switch">    <input type="checkbox" id="toggle" tabindex="1">    <div class="kitty"></div>    <label for="toggle" class="well"></label>    <span class="prompt">Was this a good use of my time?</span>    <div class="visible">        <p>Yes!</p>        <p>Life is too short for boring wikis --- the 🐱   toggle doesn't show up for those who spend too much time staring at 📺 's  or those using older browsers/devices. If all you see are boring boxes --- do what you need to do to get colourful emoji into your life!</p> </div> </div></section>

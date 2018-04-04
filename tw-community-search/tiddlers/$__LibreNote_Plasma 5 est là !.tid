@@ -1,0 +1,23 @@
+title: $:/LibreNote/Plasma 5 est là !
+created: 20160422204035929
+creator: svink
+modified: 20161114170139416
+modifier: svink
+resume: Mise à jour du Guide KDE vers Plasma 5
+template: $:/.ln/core/template/BlogTemplate
+titre_news: Mise à jour de ~LinuxNote 
+url_thumb: https://framadrive.org/public.php?service=files&t=nKOLZR9SkebZQkG&download
+original-tags: Blog semisemi LibreNote KDE
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Plasma 5 est là !
+source-tiddler-title-as-link: Plasma%205%20est%20là%20%21
+
+<div style="text-align:center;">
+<img src="https://framadrive.org/public.php?service=files&t=MVqV7jkRITOPl7n&download">
+</div>
+
+Chakra a effectué son passage à Plasma 5 depuis Novembre, il été donc grand temps de mettre à jour le [[Guide KDE|https://librenote.aerobatic.io/linuxnote/#Guide%20KDE]] de [[LinuxNote|https://librenote.aerobatic.io/linuxnote]]. C'est chose faite, le guide est mis en ligne aujourd'hui avec une petite mise à jour du [[Guide Chakra|https://librenote.aerobatic.io/linuxnote/#Guide%20Chakra]] au passage.
+
+Sortie en Juillet 2014, Plasma 5 est la 5^^ème^^ génération l'environnement de bureau de KDE, digne successeur de KDE Workspace 4. Il marque la fin de la compilation de logiciels KDE (KDE Software Compilation) qui est désormais scindée en 3: KDE Frameworks, Plasma et KDE Applications, avec des cycles de mise à jour indépendants.
+
+Plasma est actuellement en version 5.6. Il est vraiment stable, apporte un nouveau aspect graphique moderne et de nouvelles fonctionnalités.

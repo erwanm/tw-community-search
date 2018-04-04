@@ -1,0 +1,33 @@
+title: $:/plugins/setvars-Refresh
+created: 20151225222715542
+creator: Tobias Beer
+modified: 20160103135456365
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: setvars-Refresh
+source-tiddler-title-as-link: setvars-Refresh
+
+The setvars widget evaluates any ''filter'' arguments only when first rendered, not with every refresh event. Therefore, so long as any text-reference- or variable-attributes do not change, setvars will only compute variables once.
+
+@@.note
+''Note:'' To force setvars to recompute filter attributes and any dependent variables and to re-render upon changes to the filter outputs, set the attribute ''$refresh''.
+@@
+
+Compare the following examples that use the [[make]] filter to generate random numbers. The first example will not recompute the filter attribute `_random`:
+
+<$macrocall $name="`" text="""<$setvars _random="[[]make[random()]]" R="[random]">
+<$text text=<<R>>/>
+</$setvars>"""/>
+
+The next example will refresh with every event handled by the wiki:
+
+<$macrocall $name="`" text="""<$setvars $refresh _random="[[]make[random()]]" R="[random]">
+<$text text=<<R>>/>
+</$setvars>"""/>
+
+@@.note
+''Note:'' To notice the effect, try changing a tab in the sidebar.
+@@

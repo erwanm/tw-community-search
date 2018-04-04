@@ -1,0 +1,39 @@
+title: $:/dev/Debugging
+created: 20141231145331394
+creator: Tobias Beer
+modified: 20141231152422017
+modifier: Tobias Beer
+original-tags: Developing
+source-wiki-id: dev
+source-tiddler-title-as-text: Debugging
+source-tiddler-title-as-link: Debugging
+
+;discussion
+
+While writing a macro for my plugin I used all the techniques described in the thread:
+
+!! Browser
+* `alert('foo')`
+** perhaps better: `if(!confirm('foo')) return;`
+* `<<dumpvariables>>`
+* `F12`
+* `debugger`<div>
+
+# add in js where you want a breakpoint for the dev tools<div>
+
+```
+var foo = 1;
+// break here to be able to step into bar()
+debugger
+bar(foo);
+```
+</div>
+# open dev tools / F12
+# open the wiki or reload / F5, trigger the code
+# the debugger should stop at your breakpoint
+#* from there you can step into your code, inspect variables, see the Javascript console for errors, etc.
+</div>
+
+!! Node
+* `console.log`
+* node error reporting

@@ -1,0 +1,13 @@
+title: $:/TWaddle/sw:NewsAggregator
+created: 20150415061150689
+modified: 20150416061541161
+original-tags: SoftwareCategory sw:InfoCollecting
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:NewsAggregator
+source-tiddler-title-as-link: sw%3aNewsAggregator
+
+[A] ''news aggregator'', also termed a feed aggregator, feed reader, news reader, RSS reader or simply aggregator, is client software or a web application which aggregates syndicated web content such as online newspapers, blogs, podcasts, and video blogs (vlogs) in one location for easy viewing.
+@@float:right; -[[Wikipedia|http://en.wikipedia.org/wiki/News_aggregator]]@@
+
+See also other ~InfoCollecting software categories:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:InfoCollecting]!is[current]]">>

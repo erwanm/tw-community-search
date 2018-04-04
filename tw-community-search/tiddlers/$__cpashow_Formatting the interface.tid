@@ -1,0 +1,14 @@
+title: $:/cpashow/Formatting the interface
+created: 20160421162630649
+modified: 20160421162725124
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Formatting the interface
+source-tiddler-title-as-link: Formatting%20the%20interface
+
+Copied from this post: https://groups.google.com/forum/#!topic/tiddlywiki/uJnrBDAfeWI
+
+| !Option | !Setting |
+|''Tiddler titles:'' | <$radio  tiddler="$:/core/ui/ViewTemplate/title" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/title" field="tags" value="$:/tags/ViewTemplate">Show</$radio> |
+|''Tiddler subtitles:'' | <$radio  tiddler="$:/core/ui/ViewTemplate/subtitle" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/subtitle" field="tags" value="$:/tags/ViewTemplate">Show</$radio> |
+|''Tiddler tags:'' | <$radio  tiddler="$:/core/ui/ViewTemplate/tags" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/tags" field="tags" value="$:/tags/ViewTemplate">Show</$radio> |

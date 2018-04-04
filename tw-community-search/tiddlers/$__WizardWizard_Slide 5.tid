@@ -1,0 +1,12 @@
+title: $:/WizardWizard/Slide 5
+order: 5
+original-tags: Demo
+source-wiki-id: WizardWizard
+source-tiddler-title-as-text: Slide 5
+source-tiddler-title-as-link: Slide%205
+
+The next thing is the listing of steps below the current step number. This uses only wiki text and doesn't take the numbers from the slides themselves. This is so you don't have to number or label your slides and it works anyway.
+
+The list grows so that it shows only the steps you have already passed and if you add more steps it will be able to handle them appropriately.
+
+This may not sound like that much, but it was a pain to make so I am pointing it out.

@@ -1,0 +1,10 @@
+title: $:/inmysocks/Menu Icon - Font Options
+created: 20150303051931001
+modified: 20150303053759181
+top_left_menu_order: 2
+original-tags: [[Menu Icon]] $:/tags/TopLeftMenu
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Menu Icon - Font Options
+source-tiddler-title-as-link: Menu%20Icon%20-%20Font%20Options
+
+<$button class='tc-btn-invisible' to='Font Options' tooltip='Change font options'><<fa fa-font>></$button>

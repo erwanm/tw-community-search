@@ -1,0 +1,20 @@
+title: $:/TW5NewTaskHere/New Task Here
+created: 20170201113542262
+creator: HC Haase
+modified: 20170201114235826
+modifier: HC Haase
+original-tags: 
+source-wiki-id: TW5NewTaskHere
+source-tiddler-title-as-text: New Task Here
+source-tiddler-title-as-link: New%20Task%20Here
+
+This is my very first plugin! So if you find room for improvement, don't hesitate to guide [[me|HC Haase]].
+
+It is mostly a modification of the new-journal-here button. but it is just what I need. I hope you find it usefull.
+
+!! To download
+Drag and drop the plugin to your wiki
+[[$:/plugins/HCHaase/NewTaskHere]].
+
+!! what it do
+see [[$:/plugins/HCHaase/NewTaskHere/readme]] below.

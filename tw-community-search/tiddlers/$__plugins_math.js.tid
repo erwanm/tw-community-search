@@ -1,0 +1,13 @@
+title: $:/plugins/math.js
+created: 20151126184431334
+creator: Tobias Beer
+modified: 20151126194205634
+revision: 0
+tabs: Info Install
+type: text/vnd.tiddlywiki
+original-tags: Plugins Libraries
+source-wiki-id: plugins
+source-tiddler-title-as-text: math.js
+source-tiddler-title-as-link: math.js
+
+<<plugin-docs math.js>>

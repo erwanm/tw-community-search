@@ -1,0 +1,31 @@
+title: $:/inmysocks/NeatLinkCSS
+created: 20150311232739220
+modified: 20150312000734279
+original-tags: $:/tags/Stylesheet [[Setting the CSS Class of a Link Based on Tags at the Link Destination]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: NeatLinkCSS
+source-tiddler-title-as-link: NeatLinkCSS
+
+.tag1_css a {
+color:green;
+}
+
+.tag1_css a:hover {
+color:orange;
+}
+
+.tag2_css a {
+color:red;
+}
+
+.tag2_css a:hover {
+color:black;
+}
+
+.tag3_css a {
+color:yellow;
+}
+
+.tag3_css a:hover {
+color:pink;
+}

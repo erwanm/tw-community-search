@@ -1,0 +1,11 @@
+title: $:/cjhunt/$:/plugins/tiddlywiki/markdown
+dependents: 
+description: Markdown plugin wrapping markdown-js
+version: 5.0.7-prerelease
+original-tags: 
+source-wiki-id: cjhunt
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/markdown
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fmarkdown
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

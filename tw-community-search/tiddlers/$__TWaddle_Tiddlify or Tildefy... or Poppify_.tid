@@ -1,0 +1,36 @@
+title: $:/TWaddle/Tiddlify or Tildefy... or Poppify?
+created: 20150709235055199
+creator: Mat
+modified: 20150725215845629
+modifier: Mat
+recent: 15/07/13	
+summary: Alternatives to dead links and the "missing tiddler" 
+original-tags: Proposal
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Tiddlify or Tildefy... or Poppify?
+source-tiddler-title-as-link: Tiddlify%20or%20Tildefy...%20or%20Poppify%3f
+
+A way to remove, or at least disempower, dead links from appearing [[like this]], would be a script to insert a tilde ~ in front of it. At least in case of camels. I believe this was discussed in one of the later hangouts but can't recall any conclusion. 
+
+To tildefy the other case, i.e dead but bracketed titles like `~[[this]]`results in ~[[this]], so less good. 
+
+Anyway, it is typically the ~CamelCases that are unintentional. In tab //Missing// there could be a simple checkbox next to each such title. Ticking it injects a tilde and removes the item from the list. 
+
+Or how about this!
+
+A plugin that makes it so that if you //click// on a dead link you get a little popup with the alternatives::
+
+:Add `~` to delinkify
+:Create new tiddler
+:If any exist, it also shows a list of titles that are //tagged// with this missing string
+
+Clicking the second option opens the //New tiddler// editor. After all, there is little point in opening a non-existing tiddler with the current "//Missing tiddler "~FooBar" - click {{$:/core/images/edit-button}} to create //".
+
+The third element, is actually something [[@TobiasBeer]] has implemented as part of his tagglytagging version for TW5. I use this so you can see the code here [[$:/.tb/ui/ViewTemplate/tagging]]. Really good idea.
+
+I know, it can be an //intentional// part of the workflow to write non-defined titles - for instance in a Todo-list,  so that it alerts or calls your attention.  Or for a list of chapters, showing if a chapter-tiddler is created or not. This  still doesn't justify opening a "missing tiddler" in //view mode//. It should be in //edit mode// at least.
+
+...but the popup makes more sense. For public wikis the popup content could be a message about missing tiddler. This is //much// better than having visitors (//real people//, not tiddlywikians) get a "missing tiddler" (ugh!!!)
+
+But I //do// have some alternative ideas, see [[Public TWs need alternative missing tiddler message]].
+

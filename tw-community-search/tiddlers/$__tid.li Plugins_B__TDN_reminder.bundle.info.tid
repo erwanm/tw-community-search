@@ -1,0 +1,18 @@
+title: $:/tid.li Plugins/B:/TDN/reminder.bundle.info
+created: 20170814203714200
+modified: 20170814203956673
+original-tags: 
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: B:/TDN/reminder.bundle.info
+source-tiddler-title-as-link: B%3a%2fTDN%2freminder.bundle.info
+
+This bundle contains the basic plugins, checklists, plugins for deadline handling and outlook plus two plugins for alerts and reminders:
+
+[ ] Show alerts for passed deadlines
+[ ] Show reminders for upcoming deadlines
+[x] Set, change and remove deadlines for tasks (date and time)
+[x] Sort tasks by deadline
+[x] Outlook: Show tasks for today, tomorrow or the next 7 days
+[x] Make checklists with ToDoNow
+[x] The basic bundle
+[x] The checklist plugin by Tony Grosinger

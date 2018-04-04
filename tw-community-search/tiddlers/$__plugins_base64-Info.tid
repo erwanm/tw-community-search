@@ -1,0 +1,21 @@
+title: $:/plugins/base64-Info
+created: 20171206202759546
+creator: Tobias Beer
+modified: 20171206202801220
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: base64-Info
+source-tiddler-title-as-link: base64-Info
+
+The plugin $:/plugins/tobibeer/base64 provides:
+
+; base64[]
+: a filter to encode text to base64
+
+; base64:decode[]
+: and dencode base64 to text
+
+<<plugin-docs-cp base64>>

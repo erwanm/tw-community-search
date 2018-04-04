@@ -1,0 +1,11 @@
+title: $:/ArticleTiddlers/SciAm_FifthParagraph
+created: 20160827143548364
+creator: twMat
+modified: 20160827150525913
+modifier: twMat
+original-tags: Paragraph_text
+source-wiki-id: ArticleTiddlers
+source-tiddler-title-as-text: SciAm_FifthParagraph
+source-tiddler-title-as-link: SciAm_FifthParagraph
+
+Valves and switches in the robot’s brain are positioned to extend the arms in two alternating groups. The process starts when researchers inject fuel into two reservoirs, each dedicated to one group of four arms. These reservoirs expand like balloons and push fuel through the microfluidic circuit. As fuel travels through the circuit, changes in pressure close off some control points and open others, restricting flow to only one half of the system at a time. As that side consumes fuel, its internal pressure decreases, allowing fuel to enter the other side—which then pinches off the first side, and so on.

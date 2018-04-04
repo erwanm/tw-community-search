@@ -1,0 +1,14 @@
+title: $:/Category List (inmysocks)/Add some information about how you can use <abbr title=thing>other thing</abbr> to make stuff appear on hover.
+category: Wiki Reference Wiki
+created: 20150503184120532
+description: It could be very useful
+modified: 20150503184120532
+subcategory: 
+original-tags: [[Planned Update]] [[Wiki Addition]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Add some information about how you can use <abbr title=thing>other thing</abbr> to make stuff appear on hover.
+source-tiddler-title-as-link: Add%20some%20information%20about%20how%20you%20can%20use%20%3cabbr%20title%3dthing%3eother%20thing%3c%2fabbr%3e%20to%20make%20stuff%20appear%20on%20hover.
+
+Here is a test:
+
+<abbr title='Yes, this test works'>Does this work?</abbr>

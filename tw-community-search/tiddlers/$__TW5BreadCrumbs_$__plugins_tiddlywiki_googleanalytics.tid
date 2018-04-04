@@ -1,0 +1,15 @@
+title: $:/TW5BreadCrumbs/$:/plugins/tiddlywiki/googleanalytics
+author: JeremyRuston
+contributor: Sylvain Comte
+core-version: >=5.0.0
+dependents: 
+description: Google Analytics: website statistics
+list: readme settings usage
+version: 5.1.15
+original-tags: 
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/googleanalytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgoogleanalytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

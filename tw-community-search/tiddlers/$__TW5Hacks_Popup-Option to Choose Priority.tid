@@ -1,0 +1,20 @@
+title: $:/TW5Hacks/Popup-Option to Choose Priority
+created: 20170304000024891
+creator: Thomas Elmiger
+modified: 20170410211333681
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170317000353
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Popup-Option to Choose Priority
+source-tiddler-title-as-link: Popup-Option%20to%20Choose%20Priority
+
+Make status changes more secure and flexible while staying fast.
+
+* A user can click on the present priority to change it (rotating numbers ATM).
+** On click a popup* with all choices is shown.
+*** Select one of the predefined numbers (or characters?)
+*** In the plugin settings: Show an option to show/hide the field
+
+(*) if possible show the popup as a list, centered over the current priority

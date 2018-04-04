@@ -1,0 +1,26 @@
+title: $:/TW5BreadCrumbs/Other adjustments
+created: 20140816074548039
+creator: TonGerner
+modified: 20160112195445574
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Other adjustments
+source-tiddler-title-as-link: Other%20adjustments
+
+@@.sliderBG
+<div>
+
+In case a breadcrumbs menu has to be combined with other 'top menus' like the ones in 'Toolbar' ^^''1''^^ or 'Top menu' ^^''1''^^, some adjustments to the breadcrumbs menu and the 'receiving' TW are required:
+
+# The breadcrumbs menu has to be shifted downwards, otherwise toolbars and/or top menu will be hidden:
+#* Adjust @@.BLUE Top 'Breadcrumbs'@@ (In '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tab 'Breadcrumbs' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]).
+# To prevent the breadcrumbs menu hides the top part of the tiddlers and the Sidebar, story-river and Sidebar have to be shifted downwards as well.
+#* Adjust @@.BLUE Top story-river@@ and @@.BLUE Top Sidebar@@ with the same amount (In '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tab 'Layout' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]).
+
+^^''1''^^ http://tongerner.tiddlyspot.com/
+
+---
+
+</div>
+@@

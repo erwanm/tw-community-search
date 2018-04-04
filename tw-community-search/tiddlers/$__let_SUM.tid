@@ -1,0 +1,27 @@
+title: $:/let/SUM
+created: 20141128230000000
+creator: Tobias Beer
+input: [[NUM|TYPE]], [[INT|TYPE]]
+modified: 20141204131759770
+modifier: Tobias Beer
+output: [[NUM|TYPE]], [[INT|TYPE]]
+summary: calculates the sum of a field for matching tiddlers
+original-tags: Test [[Arithmetic Operations]]
+source-wiki-id: let
+source-tiddler-title-as-text: SUM
+source-tiddler-title-as-link: SUM
+
+!! Number Example
+;`<$list filter="[let:SUM number[]]">{{!!title}}</$list>`
+: calculate the sum of all tiddlers with a field ''number''
+;result
+:<$list filter="[let:SUM number[]]">{{!!title}}</$list>
+;tiddlers (<$count filter="[has[number]]"/>):
+:.tb-links <$list filter="[has[number]sort[title]]"/>
+!! Integer Example
+;`<$list filter="[let:SUM count[]]">{{!!title}}</$list>`
+:calculate the sum of all tiddlers with a field ''count''
+;result
+:<$list filter="[let:SUM count[]]">{{!!title}}</$list>
+;tiddlers (<$count filter="[has[count]]"/>):
+:.tb-links <$list filter="[has[count]sort[title]]"/>

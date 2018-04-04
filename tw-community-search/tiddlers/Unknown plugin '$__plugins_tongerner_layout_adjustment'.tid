@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tongerner/layout_adjustment'
+name: unknown
+plugin_tiddler: $:/plugins/tongerner/layout_adjustment
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

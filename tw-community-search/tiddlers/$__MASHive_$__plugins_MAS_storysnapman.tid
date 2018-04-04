@@ -1,0 +1,14 @@
+title: $:/MASHive/$:/plugins/MAS/storysnapman
+author: MAS
+created: 20160504175845791
+description: Create & display tiddlers with stories
+modified: 20160530041241173
+name: Story Snap & View
+version: 4.0.3
+original-tags: 
+source-wiki-id: MASHive
+source-tiddler-title-as-text: $:/plugins/MAS/storysnapman
+source-tiddler-title-as-link: %24%3a%2fplugins%2fMAS%2fstorysnapman
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

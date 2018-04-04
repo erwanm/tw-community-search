@@ -1,0 +1,13 @@
+title: $:/filters/ConditionalViewTemplate
+created: 20150107123935888
+modified: 20150107124424764
+original-tags: Examples
+source-wiki-id: filters
+source-tiddler-title-as-text: ConditionalViewTemplate
+source-tiddler-title-as-link: ConditionalViewTemplate
+
+The following implements a [[Conditional ViewTemplate Section|http://tb5.tiddlyspot.com/#Conditional%20ViewTemplate%20Section]]:
+
+; [[$:/.tb/ui/ViewTemplate/filter]]
+: for all tiddlers that have a field `filter`
+: outputs that field value in a code block above the tiddler body

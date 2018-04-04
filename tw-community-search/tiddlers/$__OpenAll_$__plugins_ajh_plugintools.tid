@@ -1,0 +1,14 @@
+title: $:/OpenAll/$:/plugins/ajh/plugintools
+core-version: >=5.1.14
+dependents: $:/language/Buttons/Plugged/Caption $:/language/Buttons/Plugged/Hint $:/language/Buttons/Shadow/Caption $:/language/Buttons/Shadow/Hint $:/language/SideBar/Plugintools/Caption $:/plugins/ajh/plugintools/icon $:/plugins/ajh/plugintools/image $:/plugins/ajh/plugintools/libraryformat $:/plugins/ajh/plugintools/list $:/plugins/ajh/plugintools/plugin $:/plugins/ajh/plugintools/sidebar $:/plugins/ajh/plugintools/stylesheet $:/plugins/ajh/plugintools/template $:/plugins/ajh/plugintools/copylibraryformat
+description: Plugin Tools
+list: readme
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Fplugintools.json
+version: 0.0.1
+original-tags: 
+source-wiki-id: OpenAll
+source-tiddler-title-as-text: $:/plugins/ajh/plugintools
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2fplugintools
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

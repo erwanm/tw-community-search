@@ -1,0 +1,148 @@
+title: $:/inmysocks/Tags Sort Test
+created: 20150108164621091
+modified: 20150108171812623
+sorted_tags: 
+tags_to_add: zz 99 aa mm qq rr 11 22
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Tags Sort Test
+source-tiddler-title-as-link: Tags%20Sort%20Test
+
+Content of the `tags_to_add` field: {{!!tags_to_add}}
+
+This button resets the tags field
+
+```
+<$button>Clear Tiddler Tags
+<$action-setfield $field='tags' $value=''/>
+<$action-setfield $field='sorted_tags' $value=''/>
+</$button>
+```
+
+<$button>Clear Tiddler Tags
+<$action-setfield $field='tags' $value=''/>
+<$action-setfield $field='sorted_tags' $value=''/>
+</$button>
+
+
+This button will give the current tiddler the tags in the `tags_to_add` field.
+
+```
+<$button>Set Tags
+<$action-setfield $field='tags' $value={{!!tags_to_add}}/>
+</$button>
+```
+
+<$button>Set Tags
+<$action-setfield $field='tags' $value={{!!tags_to_add}}/>
+</$button>
+
+!Sorting tags in multiple steps (see below for a single step version)
+
+This shows the contents of the `tags` field
+
+```
+<$set name="unsorted" filter="[is[current]tags[]]">
+<<unsorted>>
+</$set>
+```
+
+Gives:
+
+<$set name="unsorted" filter="[is[current]tags[]]">
+<<unsorted>>
+</$set>
+
+This shows the sorted contents of the `tags` field, and has a button that sets the field `sorted_tags` to the sorted tags list
+
+```
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+<<sorted>><br>
+
+This button will sort the tags:
+
+<$button>Sort Tags
+<$action-setfield $field='sorted_tags' $value=<<sorted>>/>
+</$button>
+</$set>
+
+{{!!sorted_tags}}
+```
+
+Gives:
+
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+<<sorted>><br>
+
+This button will sort the tags and store the output in the field `sorted_tags`:
+
+<$button>Sort Tags
+<$action-setfield $field='sorted_tags' $value=<<sorted>>/>
+</$button>
+</$set>
+
+{{!!sorted_tags}}
+
+This button will try to set the `tags` field to the value stored in `sorted_tags`
+
+```
+<$button>Sort Tags 2
+<$action-setfield $field='tags' $value={{!!sorted_tags}}/>
+</$button>
+```
+
+Gives:
+
+<$button>Sort Tags 2
+<$action-setfield $field='tags' $value={{!!sorted_tags}}/>
+</$button>
+
+!Or you can do it all in one step:
+
+```
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+<$button>Sort Tags One Step
+<$action-setfield $field='sorted_tags' $value=<<sorted>>/>
+<$action-setfield $field='tags' $value={{!!sorted_tags}}/>
+</$button>
+</$set>
+```
+
+Gives:
+
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+<$button>Sort Tags One Step
+<$action-setfield $field='sorted_tags' $value=<<sorted>>/>
+<$action-setfield $field='tags' $value={{!!sorted_tags}}/>
+</$button>
+</$set>
+
+!This way didn't work the first time I tried and now it seems to. I am confused.
+
+This method failed, but not now? Probably because of how the tags field is handled to prevent multiple tags of the same name. I am not certain of that though. I am a bit confused.
+
+```
+Content of the `tags` field: {{!!tags}}
+
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+Sorted list: <<sorted>><br>
+
+This button will try to sort the tags:
+
+<$button>Sort Tags
+<$action-setfield $field='tags' $value=<<sorted>>/>
+</$button>
+</$set>
+```
+
+Content of the `tags` field: {{!!tags}}
+
+<$set name="sorted" filter="[is[current]tags[]sort[]]">
+Sorted list: Sorted tags: <<sorted>><br>
+
+This button will try to sort the tags:
+
+<$button>Sort Tags
+<$action-setfield $field='tags' $value=<<sorted>>/>
+</$button>
+</$set>

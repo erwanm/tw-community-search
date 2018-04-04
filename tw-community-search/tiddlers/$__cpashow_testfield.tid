@@ -1,0 +1,15 @@
+title: $:/cpashow/testfield
+created: 20160406034903727
+modified: 20160406142850624
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: testfield
+source-tiddler-title-as-link: testfield
+
+This is some content from the tiddler [[testfield]] This is a silly example but shows how to create an interface for creating a standard template for editing.<br/>
+
+This sets the value of the field "testfield" in the current tiddler being viewed:
+<$radio field="testfield" value="set">Set</$radio><$radio field="testfield" value="unset">Un Set</$radio>
+<br/>
+
+The field testfield in the tiddler {{!!title}} equals {{!!testfield}}

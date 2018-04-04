@@ -1,0 +1,22 @@
+title: $:/Invoking Actions (inmysocks)/limit Operator
+caption: limit
+created: 20140410103123179
+modified: 20150124204544000
+purpose: select the first or last <<.place n>> input titles
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Common Operators]] [[Order Operators]] [[Negatable Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: limit Operator
+source-tiddler-title-as-link: limit%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="an integer, defaulting to 0"
+paramName="n"
+output="the first <<.place n>> input titles"
+negationOutput="the last <<.place n>> input titles"
+/>
+
+`limit[n]` and `!limit[n]` are synonyms for `first[n]` and `last[n]` respectively.
+
+<<.operator-examples "limit">>

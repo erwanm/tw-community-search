@@ -1,0 +1,42 @@
+title: $:/TiddlyNote/Plugins
+created: 20150119110211066
+modified: 20160719203732422
+original-tags: Menu
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Plugins
+source-tiddler-title-as-link: Plugins
+
+<i class="fa fa-thumb-tack" style="color:#E74C3C"></i> Source: http://tiddlywiki.com/#Plugins
+
+!Qu'est-ce qu'un plugin?
+
+Un plugin dans ~TiddlyWiki est un faisceau de tiddlers emballés ensemble comme un seul tiddler. Les plugins sont utilisés pour distribuer en options des composants personnalisés pour ~TiddlyWiki.
+
+Les tiddlers dans un plugin apparaissent comme des ~ShadowTiddlers.
+
+Les plugins peuvent contenir des modules ~JavaScript, des feuilles de style, et des modèles pour étendre les fonctionnalités de ~TiddlyWiki. Les plugins peuvent également être utilisés pour distribuer un texte ordinaire, images ou tout autre contenu. Les plugins peuvent être mis à jour à partir de la source comme une unité.
+
+!!Installer un plugin depuis la bibliothèque de plugins
+
+# Ouvrez votre ~TiddlyWiki dans un navigateur internet
+# Ouvrez [[$:/ControlPanel]], sélectionnez l'onglet ''Plugins'' et cliquez sur ''Get more plugins''
+# Cliquez sur ''open plugin library'' pour ouvrir la bibliothèque de plugins
+# Cliquez sur ''install'' pour installer le plugin
+# Sauvegardez votre ~TiddlyWiki
+# Rafraîchissez la fenêtre
+# Le plugin est maintenant disponible
+
+!!Installer un plugin manuellement
+
+# Ouvrez votre ~TiddlyWiki dans un navigateur internet
+# Dans une autre fenêtre, ouvrez le site du plugin et trouvez le lien du plugin sous la forme $:/plugins/auteur/nom-du-plugin
+# Déplacez le lien du plugin vers l'onglet qui contient votre ~TiddliWiki
+# Sauvegardez votre ~TiddlyWiki
+#  Rafraîchissez la fenêtre
+# Le plugin est maintenant disponible
+
+!!Plugins utilisés dans ~TiddlyNote
+
+Liste des plugins utilisés dans [[TiddlyNote|Débuter avec TiddlyWiki]].
+
+<<tabs "FontAwesome KeyboardSnippets [[Github fork ribbon]] Highlight" "FontAwesome" "$:/state/tab1">>

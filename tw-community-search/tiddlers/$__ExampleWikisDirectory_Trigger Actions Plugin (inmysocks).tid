@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Trigger Actions Plugin (inmysocks)
+caption: Trigger Actions
+category: Plugin
+created: 20150604171235696
+description: A plugin that triggers action widgets based on defined conditions
+follow: yes
+modified: 20151116091125272
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#TriggerActions%20Plugin
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Trigger Actions Plugin (inmysocks)
+source-tiddler-title-as-link: Trigger%20Actions%20Plugin%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

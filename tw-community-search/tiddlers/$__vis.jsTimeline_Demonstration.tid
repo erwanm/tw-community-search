@@ -1,0 +1,12 @@
+title: $:/vis.jsTimeline/Demonstration
+caption: Demo caption
+created: 20150518080545489
+description: Demo description
+icon: $:/plugins/kixam/timeline/icon
+modified: 20150521092149761
+original-tags: 
+source-wiki-id: vis.jsTimeline
+source-tiddler-title-as-text: Demonstration
+source-tiddler-title-as-link: Demonstration
+
+<$visjstimeline endDateField="modified" groupTags="[[Group A]]" navpad>

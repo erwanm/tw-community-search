@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Selected Tab Inside Tiddlers
+created: 20150603181719540
+css_tiddler: .tc-tab-buttons button.tc-tab-selected Class Override
+description: The selected tab of a tab macro
+modified: 20150603181719540
+original-tags: [[Advanced Settings Category]] [[$:/tags/Advanced Settings]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Selected Tab Inside Tiddlers
+source-tiddler-title-as-link: Selected%20Tab%20Inside%20Tiddlers
+
+{{Selected Tab Inside Tiddlers||CSS Options Template}}

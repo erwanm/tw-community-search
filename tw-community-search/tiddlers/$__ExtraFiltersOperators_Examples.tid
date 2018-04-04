@@ -1,0 +1,99 @@
+title: $:/ExtraFiltersOperators/Examples
+created: 20150725173221127
+modified: 20150725194715100
+original-tags: 
+source-wiki-id: ExtraFiltersOperators
+source-tiddler-title-as-text: Examples
+source-tiddler-title-as-link: Examples
+
+These filter operators can be added to your wiki by importing the tiddler $:/plugins/inmysocks/extrafilters
+
+Some notes:
+
+I don't know how this will work with characters that aren't part of the english alphabet, including accented letters. Hopefully I will be able to add good support for them at some point.
+
+If a tiddler doesn't have the field tested it will be treated as 0.
+
+If a tiddler does have the field, but it isn't a numeric value and  you are using the numeric operators (`greaterthan` and `lessthan`) the field won`t be considered greater than or less than any number, so it won`t be included in any outputs.
+
+The alphanumeric versions (`angreaterthan` and `anlessthan`) use the same ordering as the `sort` operator, so it is case insensitive and 10 is considered less than 2 for the alphanumeric versions.
+
+The tiddlers tagged with `tag` sorted in the same way as the alphanumeric operators use:
+
+<$list filter='[tag[tag]sort[]]'>
+Tiddler name: <$link><<currentTiddler>></$link> - Value in the `number` field: {{!!number}}<br>
+</$list>
+
+!Purely numeric operators
+
+!!`greaterthan`operator
+
+!!!filter used: `[tag[tag]greaterthan[2]]`
+
+Outputs tiddlers with numeric titles that are greater than 2:
+
+<$list filter='[tag[tag]greaterthan[2]]'>
+
+</$list>
+
+!!!filter used: `[tag[tag]!greaterthan[2]]`
+
+Outputs tiddlers with numeric titles than are not greater than 2 (so <=2)
+
+<$list filter='[tag[tag]!greaterthan[2]]'>
+
+</$list>
+
+!!!filter used: `[tag[tag]greaterthan:number[2]]`
+
+Outputs tiddlers that have a field called `number` that contains a numeric value greater than 2
+
+<$list filter='[tag[tag]greaterthan:number[2]]'>
+
+</$list>
+
+!!`lessthan`operator
+
+!!!filter used: `[tag[tag]lessthan[2]]`
+
+Outputs tiddlers with numeric titles that are less than 2. Tiddlers always have titles so the empty field weirdness doesn't apply here.
+
+<$list filter='[tag[tag]lessthan[2]]'>
+
+</$list>
+
+!!!filter used: `[tag[tag]!lessthan[2]]`
+
+Outputs tiddlers with numeric titles that are not less than 2 (so >=2)
+
+<$list filter='[tag[tag]!lessthan[2]]'>
+
+</$list>
+
+!!!filter used: `[tag[tag]lessthan:number[2]]`
+
+Outputs tiddlers that have a field called `number` that contains a numeric value less than 2, AND tiddlers that don't have a field called `number`, or have an empty field called number.
+
+<$list filter='[tag[tag]lessthan:number[2]]'>
+
+</$list>
+
+!Alphanumeric operators
+
+!!`angreaterthan` operator
+
+!!!filter used: `[tag[tag]angreaterthan[a]]`
+
+Outputs tiddlers with titles that start with letters after `a` in the alphabet.
+
+<$list filter='[tag[tag]angreaterthan[a]]'>
+
+</$list>
+
+!!!filter used `[tag[tag]angreaterthan[100]]`
+
+Outputs tiddlers that would come after `100` when using the normal `sort` filter operator. So titles starting with the numbers 2 through 9 as well as any letter.
+
+<$list filter='[tag[tag]angreaterthan[100]]'>
+
+</$list>

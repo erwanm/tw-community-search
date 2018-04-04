@@ -1,0 +1,16 @@
+title: $:/BJTools/$:/plugins/bj/jsoneditor
+author: Jeffrey Wilkinson (BJ)
+core-version: >=5.1.11
+dependents: 
+description: editor of json!
+list: readme license
+revision: 0
+source: https://github.com/buggyj/tw5-tools
+version: 1.11.0
+original-tags: 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: $:/plugins/bj/jsoneditor
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbj%2fjsoneditor
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

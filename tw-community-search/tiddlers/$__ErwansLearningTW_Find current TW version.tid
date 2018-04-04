@@ -1,0 +1,11 @@
+title: $:/ErwansLearningTW/Find current TW version
+created: 20140816224522785
+creator: Erwan
+modified: 20140816224713405
+modifier: Erwan
+original-tags: question answered
+source-wiki-id: ErwansLearningTW
+source-tiddler-title-as-text: Find current TW version
+source-tiddler-title-as-link: Find%20current%20TW%20version
+
+The macro ``<<version>>`` gives the version of TW in use, here <<version>> 

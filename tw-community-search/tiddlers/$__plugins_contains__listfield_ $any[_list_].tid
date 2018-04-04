@@ -1,0 +1,44 @@
+title: $:/plugins/contains:<listfield> $any[<list>]
+created: 20151125104159292
+creator: Tobias Beer
+listfield: foo
+modified: 20161219123508256
+modifier: Tobias Beer
+revision: 0
+summary: {{contains!!listfield}} contains ''any'' titles in ''list''
+type: text/vnd.tiddlywiki
+original-tags: contains Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: contains:<listfield> $any[<list>]
+source-tiddler-title-as-link: contains%3a%3clistfield%3e%20%24any%5b%3clist%3e%5d
+
+Can use single word titles directly:
+
+<<` """<dl>
+<$list filter="[contains:listfield $any[foo bar]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>""">>
+
+Or using a variable:
+
+<<` """<$vars list="baz">
+<dl>
+<$list filter="[contains:listfield $any<list>]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>
+</$vars>""">>
+
+{{contains!!negation}}
+
+In the following example, negation means: "where the field ''listfield'' of the input titles contain none of the titles in the operand":
+
+<<` """<dl>
+<$list filter="[tag[contains]has[listfield]!contains:listfield $any[bar baz]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>""">>

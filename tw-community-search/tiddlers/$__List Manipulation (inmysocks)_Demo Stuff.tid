@@ -1,0 +1,219 @@
+title: $:/List Manipulation (inmysocks)/Demo Stuff
+bob: [[bob ns ht]]
+created: NaNNaNNaNNaNNaNNaNNaN
+eddi: [[po po]] bob
+eddie: 5 aa bob [[bob bob]] eddie joe [[joe bob]] zo 550 5 5 5 550 550 550 55 550 550 aa aa bob
+joe: b [[b b]]
+modified: 20151006212821853
+type: 
+original-tags: [[bob joe]] test
+source-wiki-id: List Manipulation (inmysocks)
+source-tiddler-title-as-text: Demo Stuff
+source-tiddler-title-as-link: Demo%20Stuff
+
+Name: action-editlist
+
+|!Attribute |!Description |
+|$tiddler |The tiddler to act on, defaults to currentTiddler |
+|$field |The field to act on, default to tags |
+|$item |The list item to add or remove |
+|$action |The action, defaults to add |
+|$at |The index for an operation |
+|$after |The name of the tiddler directly after the desired location |
+|$before |The name of the tiddler before the desired location |
+|$sort |Not yet implemented, in the future it will take sorting options for the list |
+
+Hopefully $tiddler, $field and $item are easy enough to understand
+
+''$action''
+
+Possible actions are `add`, `remove`. More may be added later. Add will add an item to the list, remove will remove an item from the list.
+
+''$at''
+
+This selects the location that an item will be added to or removed from. If this is used with add than the existing item at this location is overwritten. This can be a numeric index, the list uses zero-based indexing so the first item is 0, or this can be 'start' or 'end' which will select the start or end of the list.
+
+''$after''
+
+This selects the location that an item will be added to or removed from by specifying the entry directly before the desired location by title. Using this with add won't overwrite the existing item, it will just insert the new item in the list.
+
+''$before''
+
+This selects the location that an item will be added to or removed from by specifying the entry directly after the desired location by title. Using this with add won't overwrite the existing item, it will just insert the new item in the list.
+
+''$before'' and ''$after'' take the name of an item in the list
+
+options for ''$at''
+
+''Any number'' the index of the desired location
+
+''start'' works with add or remove, the start of the list, same as index 0
+
+''end'' works with add or remove, the end of the list
+
+''first'' This only works with remove, it will remove the first instance of the item given
+
+''last'' this only works with remove, it will remove the last instance of the item given.
+
+Examples:
+
+
+This example uses the default values for $tiddler, $field and $action to add to the tags field of the current tiddler. It wil add a tag called 'bob' from the current tiddler.
+
+```
+<$button>
+Add the tag 'bob'
+<$action-editlist $item=bob/>
+</$button>
+```
+
+<$button>
+Add the tag 'bob'
+<$action-editlist $item=bob/>
+</$button>
+
+
+This example removes the tag added by the above example
+
+```
+<$button>
+Add the tag 'bob'
+<$action-editlist $action=remove $item=bob/>
+</$button>
+```
+
+<$button>
+Remove the tag 'bob'
+<$action-editlist $action=remove $item=bob/>
+</$button>
+
+This example adds 'bob' to a list in the field called 'eddie'
+
+```
+<$button>
+Add 'bob' to eddie
+<$action-editlist $action=add $item=bob $field='eddie'/>
+</$button>
+
+<$button>
+Remove 'bob' from eddie
+<$action-editlist $action=remove $item=bob $field='eddie'/>
+</$button>
+
+{{!!eddie}}
+```
+
+<$button>
+Add 'bob' to eddie
+<$action-editlist $action=add $item=bob $field='eddie'/>
+</$button>
+<$button>
+Remove 'bob' from eddie
+<$action-editlist $action=remove $item=bob $field='eddie'/>
+</$button>
+
+{{!!eddie}}
+
+Here you can give a field name and an item name to add items to that field. 
+
+<$vars thing1={{$:/temp/thistempthing!!action}} thing2={{$:/temp/thistempthing!!modifier}}>
+
+Action: <$select tiddler='$:/temp/thistempthing' field='action'><option>add</option><option>remove</option></$select>
+
+Modifier:
+<$select tiddler='$:/temp/thistempthing' field='modifier'>
+ <option value=''>--</option>
+<$list filter='[[$:/temp/thistempthing]action[remove]]'>
+  <option>
+   first
+  </option>
+  <option>
+   last
+  </option>
+</$list>
+ <option>
+  start
+ </option>
+ <option>
+  end
+ </option>
+<$list filter='[[$:/temp/thistempthing]action[add]]'>
+  <option>
+   unique
+  </option>
+</$list>
+</$select>
+
+<$reveal type='match' state='$:/temp/thistempthing!!action' text='add'>
+   unique
+</$reveal>
+
+Field to use:
+
+<$edit-text tiddler='$:/temp/thistempthing' field='somefield'/>
+
+Item to add:
+
+<$edit-text tiddler='$:/temp/thistempthing' field='someotherfield'/>
+
+
+<$button>
+<$reveal type='match' state='$:/temp/thistempthing!!modifier' text=''>
+{{$:/temp/thistempthing!!action}} item
+<$action-editlist $action={{$:/temp/thistempthing!!action}} $item={{$:/temp/thistempthing!!someotherfield}} $field={{$:/temp/thistempthing!!somefield}}/>
+</$reveal>
+<$reveal type='nomatch' state='$:/temp/thistempthing!!modifier' text=''>
+{{$:/temp/thistempthing!!action}} {{$:/temp/thistempthing!!modifier}} item
+<$action-editlist $action={{$:/temp/thistempthing!!action}} $at={{$:/temp/thistempthing!!modifier}} $item={{$:/temp/thistempthing!!someotherfield}} $field={{$:/temp/thistempthing!!somefield}}/>
+</$reveal>
+</$button>
+
+<$button>
+Remove first item in field
+<$action-editlist $action=remove $at=start $field={{$:/temp/thistempthing!!somefield}}/>
+</$button>
+
+<$button>
+Remove last item in field
+<$action-editlist $action=remove $at=end $field={{$:/temp/thistempthing!!somefield}}/>
+</$button>
+
+<$button>
+Sort list by title ascending
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $sort='title'/>
+</$button>
+<$button>
+Sort list by title descending
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $sort='!title'/>
+</$button>
+
+<$button>
+nsort list ascending
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $sort='nsort'/>
+</$button>
+<$button>
+nsort list descending
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $sort='!nsort'/>
+</$button>
+
+<$button>
+Remove duplicates
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $duplicates=no/>
+</$button>
+
+<$button>
+Remove duplicates of {{$:/temp/thistempthing!!someotherfield}}
+<$action-editlist $field={{$:/temp/thistempthing!!somefield}} $item={{$:/temp/thistempthing!!someotherfield}} $duplicates=no/>
+</$button>
+
+The contents of the field {{$:/temp/thistempthing!!somefield}}:
+
+Transclude field:
+
+<$transclude field={{$:/temp/thistempthing!!somefield}}/>
+
+View field:
+
+<$view field={{$:/temp/thistempthing!!somefield}}/>
+
+</$vars>

@@ -1,0 +1,21 @@
+title: $:/TW5ReadOnly/Code
+created: 20170506144533851
+creator: TonGerner
+modified: 20170602193959570
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Code
+source-tiddler-title-as-link: Code
+
+!! [[Code]]
+
+
+The code for all tiddlers in both plugins can be displayed by selecting:
+
+# the appropriate plugin (Select via filter expression: {{$:/core/images/down-arrow}})
+# the appropriate tiddler (Select tiddler: &#9660;).
+
+<<selectfilter "code">>
+
+<$macrocall $name="codefilter" filter={{$:/temp/filter/code}} state="code"/>

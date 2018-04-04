@@ -1,0 +1,36 @@
+title: $:/node/tests
+created: 20151013162308908
+modified: 20151013172413263
+summary: the [[tiddlywiki]] [[core]] test environment
+original-tags: core
+source-wiki-id: node
+source-tiddler-title-as-text: tests
+source-tiddler-title-as-link: tests
+
+For [[javascript]] testing [[tiddlywiki]] incorporates the [[jasmine|http://pivotal.github.io/jasmine]] framework which allows the same tests to be run both in a [[standalone]] [[wiki]] in the browser and under [[node.js]].
+
+!! Components
+
+There are two main elements testing in [[tiddlywiki]]:
+
+* the plugin ''tiddlywiki/jasmine'' which wraps ''jasmine'' into a plugin
+* the edition `test` containing the core test specifications, including the ''jasmine'' plugin
+
+!! Running Tests
+
+To run the tests under [[node.js]] navigate to the ''test'' <<s edition>> in your <<cl>>.
+
+To display test results right on the command-line run:
+
+```
+tiddlywiki
+```
+
+To generate a [[standalone]] wiki run:
+
+```
+tiddlywiki --verbose --rendertiddler $:/core/save/all test.html text/plain
+```
+
+Open ''test.html'' in the ''output'' folder to see the test results in your browser.
+A prebuilt version of ''test.html'' can be found at: http://tiddlywiki.com/test.html

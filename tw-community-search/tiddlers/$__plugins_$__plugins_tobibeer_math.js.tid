@@ -1,0 +1,18 @@
+title: $:/plugins/$:/plugins/tobibeer/math.js
+author: Tobias Beer
+core-version: >=5.1.9
+dependents: 
+description: The math.js library for use with plugins like ''tobibeer/eval''
+documentation: https://tobibeer.github.io/tw5-plugins#math.js
+list: readme
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-math.js
+version: 2.4.2
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: $:/plugins/tobibeer/math.js
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2fmath.js
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

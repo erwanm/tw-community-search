@@ -1,0 +1,22 @@
+title: $:/Interactive Fiction Engine (inmysocks)/EditResetButtonTemplate
+created: 20141129052835721
+modified: 20141129053505582
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: EditResetButtonTemplate
+source-tiddler-title-as-link: EditResetButtonTemplate
+
+\define listItems()
+<$list filter='[tag[Item]]'>
+
+</$list> 
+\end
+
+\define listTriggers()
+<$list filter='[tag[Trigger]]'>
+
+</$list> 
+\end
+
+| Macro | Items | Triggers |h
+| <$edit-text tiddler='ResetButtonMacro'/> | <<listItems>> | <<listTriggers>> |

@@ -1,0 +1,25 @@
+title: $:/TiddlyNote/Highlight
+created: 20150413162000286
+modified: 20150413163631968
+original-tags: Plugin
+source-wiki-id: TiddlyNote
+source-tiddler-title-as-text: Highlight
+source-tiddler-title-as-link: Highlight
+
+<<<
+Le plugin [[Highlight]] fournit la capacité d'appliquer la coloration de syntaxe au texte.
+<<<
+
+*Auteur : ''Jeremy Ruston''
+*http://tiddlywiki.com/plugins/tiddlywiki/highlight/ <i class="fa fa-external-link-square" style="color:#60B643"></i>
+
+Installer le depuis http://tiddlywiki.com/plugins/tiddlywiki/highlight/ <i class="fa fa-external-link-square" style="color:#60B643"></i> et importer le tiddler suivant:
+
+```
+ $:/plugins/tiddlywiki/highlight
+```
+
+Vous pouvez ajouter des thèmes disponiblent sur https://github.com/isagalaev/highlight.js/tree/master/src/styles en copiant la CSS dans un nouveau tiddler avec le tag  {{$:/tags/Stylesheet||$:/core/ui/TagTemplate}}
+
+J'utilise dans ~TiddlyNotes le [[thème dark|https://github.com/isagalaev/highlight.js/blob/master/src/styles/dark.css]] pour afficher les commandes.
+

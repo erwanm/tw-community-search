@@ -1,0 +1,59 @@
+title: $:/inmysocks/TiddlyWiki as a Social Networking Platform
+created: 20150103191547828
+modified: 20160525103440233
+topics_tags: [[Social Networking]]
+original-tags: Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: TiddlyWiki as a Social Networking Platform
+source-tiddler-title-as-link: TiddlyWiki%20as%20a%20Social%20Networking%20Platform
+
+TiddlyWiki on its own is a reasonable blogging application. There are some definite drawbacks to using tiddlywiki for social networking that need to be worked out before it can really be a viable alternative to the Facebook-type networks.
+
+To see my site where I have these things implemented [[go here|http://ooktech.com/jed/externalbrain/#Twitter%20Integration]].
+
+Things that can't be done yet:
+
+#Comments on or responses to posts
+#Being able to search a blog using an external search engine (like google). TiddlyWiki is a single html file that is generated using javascript, so there isn't much for the search engine to index.
+#Posting to or getting posts from other services (twitter and facebook have apis for this, we just need to make something that uses them.) ''I can post to twitter using their buttons.''
+
+Almost everything else that normal blogging sites allow you to do can be done in TiddlyWiki using what is currently available, and you can do significantly more than most blogging sites without knowing how to code.
+
+I have started experimenting using google forms embedded in iframes as a way to allow comments. The comments aren't posted to the site, and I don't know if there is a way to automatically generate the from when you make a post, so it may not be a workable solution.
+
+I think that for external search engines creating static html pages for each post and having those pages list the permalink for the post on the tiddlywiki may work well. Pretty much exactly what [[http://tiddlywiki.com]] does. I don't know if they have an automated process for it or not.
+
+The [[ATOM feed plugin|https://github.com/dullroar/TW5-atomfeed]] may also be useful.
+
+!IndieWeb
+
+[[IndieWeb|http://indiewebcamp.com/]] would be a good alternative to reinventing the wheel when it comes to distributed social networking.
+
+I think that with a few modifications TiddlyWiki could very easily be used as part of the [[indeweb|http://indiewebcamp.com/]], if you have a domain of your own to host your wiki than all you are lacking to be finished with level 2 using the [[IndieMark|http://indiewebcamp.com/IndieMark]] scale is external search integration and implementing [[POSSE|http://indiewebcamp.com/POSSE]]. 
+
+I think that integration with twitter may be my next real project for [[my other site|http://ooktech.com/jed/externalbrain]], and then the POSSE part will at least be started. Facebook and twitter may play together well so getting twitter to work may allow easy integration with facebook. Google+ doesn't have any posting api, they have been saying it will be available 'soon' for over a year.
+
+!What I have implemented so far:
+
+*View different post types
+**Normal posts/article-type posts
+**Short posts (twitter-like, but I tend to go on a bit longer than 140 characters)
+**Image posts
+*Create different post types (this are really only distinguished by content and templates, there isn't a built in limit on what content goes where)
+*Different search/archive types:
+**Searchable archives - this is the built in tiddlywiki search
+**Archives ordered by date - display the posts like the normal blog view, but you pick the dates
+**Calendar Archives - Automatically create the calendar month display and populate each day with posts for that day. Clicking on a day will open a tiddler for that day that lists the different posts grouped by post type (the tiddler is created if it doesn't exist).
+*Each post can have its own template if you want
+*Blog posts can all have tags (I need to add a tag search for the blog posts)
+*Some basic twitter integration using [[a plugin|$:/plugins/inmysocks/Twitter]]
+**I have improved this so you can post to twitter when making another post, and depending on the post time either put the entire thing on twitter (if it is short enough) or just the title and summary with a link.
+**The ~TwitterShareTiddlerButton macro that adds a button to share the permalink to the current tiddler, just put `<<TwitterShareTiddlerButton>>` in a tiddler and it will create the button.
+
+!I am working on comment systems
+
+*[[DISQUS|https://disqus.com/]] - Runs on a third party server and has a free version - It looks like Disqus works to a limited degree. It appears to only allow one comment thread per url, so since the wiki is a singe page there could only be one comment thread. It also has some trouble refreshing JavaScript, so the tiddler with the comments must be open when the page is loaded. If it is closed and reopened the comments will not appear.
+*[[Muut|https://muut.com/]] - Runs on a third party server and has a free version - works better this Disqus in that you can set which comment thread to display in a tiddler, but it has the same problems with javascript not refreshing when a tiddler is opened.
+*[[Discourse|http://www.discourse.org/faq/]] - Open source, can run on your own server or a paid third party server - It may work with tiddlywiki, but it requires your own external hosting and looks like it is mainly forum stuff. I haven't tried it yet.
+*[[Isso|http://posativ.org/isso/]] - could be good, looking into it.
+*[[IntenseDebate|http://intensedebate.com/features]] - could be good, looking into it.

@@ -1,0 +1,46 @@
+title: $:/LibreNote/Les brêves de Juillet
+created: 20150707164852998
+creator: svink
+modified: 20161114170332858
+modifier: svink
+resume: En ce début du mois de Juillet petit tour des sorties de Mai et Juin...
+template: $:/.ln/core/template/BlogTemplate
+titre_news: Les brêves de Juillet
+url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
+original-tags: Blog Chakra KDE semisemi
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Les brêves de Juillet
+source-tiddler-title-as-link: Les%20brêves%20de%20Juillet
+
+Petit tour des sorties entre Mai et début Juillet. 
+
+__KDE__
+
+Les mises à jour biens rodées de KDE avec:
+
+* KDE Applications 15.04.3 est sortie le 1er Juillet
+*Plasma 5.3.2 est sortie le 30 juin
+* KDE Frameworks 5.11.0 est sortie le 12 juin
+
+<i class="fa fa-link"></i> [[KDE Announcements|https://www.kde.org/announcements/]]
+<br><br>
+
+__Chakra__
+
+Du côté de Chakra, 
+
+* Le 22 juin, mise à jour du __noyaux Linux 4.0.5__ et des pilotes graphiques nvidia et catalyst et plusieurs autres mises à jour avec notamment:
+**KDE Frameworks 5.11.0, calligra 2.9.5,
+**qt 4.8.7, qt5 5.4.2,
+**digikam 4.11.0, wine 1.7.45...
+
+*Le 5 juin, KDE Applications 15.04.2 est disponible
+
+<i class="fa fa-link"></i> [[Chakra News|http://chakraos.org/news/]]
+<br><br>
+
+__~TiddlyWiki__
+
+Le 3 Juillet est sortie [[TiddlyWiki 5.1.9|http://tiddlywiki.com]] avec beaucoup d'améliorations comme une nouvelle palette de couleurs, un nouveau style de boutons et bien d'autres choses.
+
+<i class="fa fa-link"></i> [[TiddlyWiki Release|http://tiddlywiki.com/#Release%205.1.9]]

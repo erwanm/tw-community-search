@@ -1,0 +1,22 @@
+title: $:/tid.li Plugins/FollowMe
+created: 20160527160910963
+creator: Thomas Elmiger
+modified: 20171217194331601
+modifier: Thomas Elmiger
+original-tags: AboutMe Exercise
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: FollowMe
+source-tiddler-title-as-link: FollowMe
+
+You find me on
+
+<a title="Twitter" href="https://twitter.com/telmiger" class="tc-btn-big-green" style="background-color:#5E9FCA;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/twitter}} @telmiger
+</a>
+<a title="GitHub" href="https://github.com/telmiger" class="tc-btn-big-green" style="background-color:#444;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/github}} telmiger 
+</a>
+
+* Instagram: [[telmiger|https://instagram.com/telmiger]]
+* Google: [[Thomas Elmiger|https://plus.google.com/+ThomasElmiger]]
+* Website: https://thomas-elmiger.ch

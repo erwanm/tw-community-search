@@ -1,0 +1,14 @@
+title: $:/Multiple Tag Fields (inmysocks)/$:/plugins/inmysocks/MultipleTagFields
+author: inmysocks
+core-version: >=5.1.5
+dependents: 
+description: A plugin that allows multiple fields that act as tag fields
+source: 
+version: 0.0.1
+original-tags: 
+source-wiki-id: Multiple Tag Fields (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/MultipleTagFields
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fMultipleTagFields
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

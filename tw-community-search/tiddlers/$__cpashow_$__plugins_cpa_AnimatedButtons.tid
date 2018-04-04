@@ -1,0 +1,12 @@
+title: $:/cpashow/$:/plugins/cpa/AnimatedButtons
+author: cpa
+core-version: 5.1.11
+description: Animated Buttons
+version: 1.0.1
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: $:/plugins/cpa/AnimatedButtons
+source-tiddler-title-as-link: %24%3a%2fplugins%2fcpa%2fAnimatedButtons
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

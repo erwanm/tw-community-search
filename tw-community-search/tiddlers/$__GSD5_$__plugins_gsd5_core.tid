@@ -1,0 +1,16 @@
+title: $:/GSD5/$:/plugins/gsd5/core
+author: Roma Hicks
+core-version: >=5.1.8
+created: 20150921142457352
+dependents: 
+description: TiddlyWiki5 Getting Stuff Done plugin
+list: readme
+modified: 20150921142504337
+version: 0.6.0-beta
+original-tags: 
+source-wiki-id: GSD5
+source-tiddler-title-as-text: $:/plugins/gsd5/core
+source-tiddler-title-as-link: %24%3a%2fplugins%2fgsd5%2fcore
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

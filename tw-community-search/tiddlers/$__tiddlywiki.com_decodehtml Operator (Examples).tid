@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/decodehtml Operator (Examples)
+created: 20161017154848886
+modified: 20161017155350389
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[decodehtml Operator]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: decodehtml Operator (Examples)
+source-tiddler-title-as-link: decodehtml%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[Title with &lt; angle brackets &gt;]] +[decodehtml[]]">>
+<<.operator-example 2 "[[Title with an &amp; ampersand]] +[decodehtml[]]">>

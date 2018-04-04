@@ -1,0 +1,13 @@
+title: $:/TriggerActions/Example Expression Tiddler
+action_filter: [tag[Acted Upon]]
+created: 20150220045412369
+evaluate: true
+listen_filter: [[Triggering Tiddler]]
+listen_target: true
+modified: 20150222063734590
+test: <$action-setfield text={{Triggering Tiddler!!selected}}/>
+original-tags: $:/tags/Trigger
+source-wiki-id: TriggerActions
+source-tiddler-title-as-text: Example Expression Tiddler
+source-tiddler-title-as-link: Example%20Expression%20Tiddler
+

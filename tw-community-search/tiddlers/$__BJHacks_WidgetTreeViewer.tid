@@ -1,0 +1,101 @@
+title: $:/BJHacks/WidgetTreeViewer
+created: 20140723223900482
+modified: 20180204103435212
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: BJHacks
+source-tiddler-title-as-text: WidgetTreeViewer
+source-tiddler-title-as-link: WidgetTreeViewer
+
+\define tabsheader(tabsList,default,state:"$:/state/tab",class)
+<div class="tw-tab-set $class$">
+<div class="tw-tab-buttons $class$">
+<$list filter="$tabsList$" variable="currentTab">
+<$button set="$:/state/tab<<currentTiddler>>" setTo=<<currentTab>> default="$default$" selectedClass="tw-tab-selected">
+<$macrocall $name="currentTab" $type="text/plain" $output="text/plain"/>
+</$button>
+</$list>
+</div><div class="tw-tab-divider $class$"/><div class="tw-tab-content $class$">
+</div>
+</div>
+\end
+
+! Introduction
+
+The widget-tree-viewer widget displays a collapsible view of part the widget tree. 
+It is only for demonstration/development - it may not be reliable and should not be used in live wikis.
+
+The view is created upon rendering and is static and there will be a delay while the view is being constructed.
+
+|!Attribute |!Description |
+|items  |Json list containing the names of widget fields to be displayed.  |
+|name |String specifying the variable name 'set'  around the wikitext to be viewed (note that the variables content must be the same as the name, like x='x')|
+
+! Example - code
+```
+<$set name="notify" value="notify">
+
+<!--------- this is content to view as a tree--------->
+<h3>widgets of testcontent</h3>
+
+<$button set="$:/state/SampleReveal2" setTo="show">Show me</$button>
+<$button set="$:/state/SampleReveal2" setTo="hide">Hide me</$button>
+
+<$reveal type="match" state="$:/state/SampleReveal2" text="show">
+
+! This is the revealed content
+And this is some text
+
+</$reveal>
+<!------------------------------------------------------>
+
+</$set>
+
+
+----
+
+<$button set="$:/state/SampleReveal1" setTo="show">push to see tree</$button>
+
+
+<$reveal type="match" state="$:/state/SampleReveal1" text="show">
+<$button set="$:/state/SampleReveal1" setTo="hide">close</$button>
+<$widget-tree-viewer items='["parseTreeNode","children","variables" ]'  name="notify" />
+
+</$reveal>
+
+
+```
+
+! Example - rendered
+----
+
+
+<!--------- this is content to view as a tree--------->
+<h3>widgets of testcontent</h3>
+
+<$button set="$:/state/SampleReveal2" setTo="show">Show me</$button>
+<$button set="$:/state/SampleReveal2" setTo="hide">Hide me</$button>
+
+<$reveal type="match" state="$:/state/SampleReveal2" text="show">
+
+! This is the revealed content
+And this is some text
+
+</$reveal>
+<!------------------------------------------------------>
+
+
+
+----
+
+<$button set="$:/state/SampleReveal1" setTo="show">push to see widget tree</$button>
+
+
+<$reveal type="match" state="$:/state/SampleReveal1" text="show">
+<$button set="$:/state/SampleReveal1" setTo="hide">close</$button>
+<$widget-tree-viewer items='["parseTreeNode","children","variables" ]'  name="notify" />
+
+</$reveal>
+
+

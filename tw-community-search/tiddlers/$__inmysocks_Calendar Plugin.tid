@@ -1,0 +1,19 @@
+title: $:/inmysocks/Calendar Plugin
+created: 20150227170658680
+modified: 20150424012006814
+month: 2
+year: 1991
+original-tags: [[My Plugins]] [[My Project]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Calendar Plugin
+source-tiddler-title-as-link: Calendar%20Plugin
+
+Plugin tiddler: [[$:/plugins/inmysocks/Calendar]]
+
+Github: https://github.com/inmysocks/TW5-Calendar
+
+To change the calendar behaviour by creating your own macro there are instructions on [[macros for the calendar widget|Macros for the Calendar Widget]].
+
+<<tiddlerSlider [[Calendar Plugin Roadmap]]>>
+
+<$transclude tiddler='$:/plugins/inmysocks/Calendar/readme' mode=block/>

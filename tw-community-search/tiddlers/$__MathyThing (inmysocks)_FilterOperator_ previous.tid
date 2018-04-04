@@ -1,0 +1,24 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: previous
+caption: previous
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+original-tags: Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: previous
+source-tiddler-title-as-link: FilterOperator%3a%20previous
+
+The ''previous'' filter operator takes each tiddler in the current list and looks it up in the `list` field of the tiddler specified in the operand, and then returns the immediately preceding tiddler title.
+
+The following examples assume a tiddler called `MyList` with a `list` field containing:
+
+```
+one two three four five
+```
+
+|!Filter String |!Description |
+|`[[three]previous[MyList]]` |Returns `two` |
+|`[[one]previous[MyList]]` |Returns an empty list |
+|`two four +[previous[MyList]]` |Returns `one`, `three` |
+
+See also [[FilterOperator: next]].

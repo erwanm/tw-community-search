@@ -1,0 +1,99 @@
+title: $:/style/HSLA
+bg: white
+created: 20151205150102694
+creator: Tobias Beer
+modified: 20151221205510495
+modifier: Tobias Beer
+summary: Hue Saturation Luminance Alpha
+original-tags: Colors
+source-wiki-id: style
+source-tiddler-title-as-text: HSLA
+source-tiddler-title-as-link: HSLA
+
+\define HSLA() hsla($(H)$,$(S)$%,$(L)$%,$(A)$);
+\define HSLA-css() background-color:hsla($(H)$,$(S)$%,$(L)$%,$(A)$);
+
+<table>
+<tr>
+<th>HSLA</th>
+<th>''min''</th>
+<th>''max''</th>
+</tr>
+<tr>
+<th>__H__ue </th>
+<td>0<br>//red//</td>
+<td>360<br>//red//</td>
+</tr>
+<tr>
+<th>__S__aturation </th>
+<td>0%<br>//none//</td>
+<td>100%<br>//full color//</td>
+</tr>
+<tr>
+<th>__L__uminance </th>
+<td>0%<br>//dark//</td>
+<td>100%<br>//bright//</td>
+</tr>
+<tr>
+<th>__A__lpha<br>Transparency </th>
+<td>0<br>//transparent//</td>
+<td>1<br>//opaque//</td>
+</tr>
+</table>
+
+<$button set="!!bg" setTo="white">reset table background to white</$button>
+
+<table class="no-border hsla">
+<tr>
+<th>
+hue
+</th>
+<$list filter="1 .75 .5 .25 .1" variable="A">
+<th>
+α <<A>>
+</th>
+</$list>
+</tr>
+<$list filter="0	30 60 90 120 150 180 210 240 270 300 330 360" variable="H">
+<tr>
+<th>
+<<H>>
+</th>
+<$list filter="1 .75 .5 .25 .1" variable="A">
+<td>
+<table>
+<$list filter="100 85 75 50 25 15 0" variable="S">
+<tr>
+<$list filter="0 15 25 50 75 85 100" variable="L">
+<td style=<<HSLA-css>> title=<<HSLA>>>
+<$button set="!!bg" setTo=<<HSLA>>  class="tc-btn-invisible"/>
+</td>
+</$list>
+</tr>
+</$list>
+</table></td>
+</$list>
+</tr>
+</$list>
+</table>
+
+<style>
+.no-border table,
+.no-border tr,
+.no-border td {
+border:0;
+padding:0;
+margin:0;
+}
+
+.hsla {
+background-color:{{!!bg}}
+}
+
+.hsla td td,
+.hsla button{
+line-height:0.9em;
+width:15px;
+height:20px;
+}
+</style>

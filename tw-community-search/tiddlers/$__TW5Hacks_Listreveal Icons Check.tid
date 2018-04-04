@@ -1,0 +1,22 @@
+title: $:/TW5Hacks/Listreveal Icons Check
+created: 20160817222343230
+creator: Thomas Elmiger
+deadline: 
+modified: 20170709185844091
+modifier: Thomas Elmiger
+priority: 3
+todo-deadline: 
+todo-done: 20170709205836 20160818131715
+original-tags: Listreveal ToDoDone Usability
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Listreveal Icons Check
+source-tiddler-title-as-link: Listreveal%20Icons%20Check
+
+Icons should be clear & helpful. Check system icons for better options. 
+
+!!!! This would need a new button design to separate these from other functions. So I don’t do that now:
+* open with $:/core/images/info-button or $:/core/images/unfold-button 
+* close with $:/core/images/close-button 
+
+!!! Done
+* icons for created/modified

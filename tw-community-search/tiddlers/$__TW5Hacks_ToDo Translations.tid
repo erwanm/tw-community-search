@@ -1,0 +1,21 @@
+title: $:/TW5Hacks/ToDo Translations
+created: 20160811215513315
+creator: Thomas Elmiger
+deadline: 20160821090000000
+modified: 20170119000016008
+modifier: Thomas Elmiger
+priority: 3
+original-tags: ToDo Translation
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Translations
+source-tiddler-title-as-link: ToDo%20Translations
+
+The whole world should use it: Make translation tiddlers.
+
+* Change user language on $:/plugins/telmiger/lib/language – use language according to language plugin?
+* ~~All ToDo translations can be edited on translation tiddlers~~
+** German for Switzerland: $:/plugins/telmiger/todonow/languages/de-CH
+** German for Germany: $:/plugins/telmiger/todonow/languages/de-DE
+** English: $:/plugins/telmiger/todonow/languages/en-GB
+* ~~Date formatting according to translation tiddlers~~
+* ~~Tooltips from $:/plugins/telmiger/listreveal/lr can be translated~~

@@ -1,0 +1,32 @@
+title: $:/TWaddle/Missing transclusion should give indication
+created: 20150111202130004
+creator: Mat
+modified: 20150727164701566
+modifier: Mat
+recent: 15/07/15
+original-tags: Proposal Major
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Missing transclusion should give indication
+source-tiddler-title-as-link: Missing%20transclusion%20should%20give%20indication
+
+So, I'm thinking of giving you one of these. Which one do you want?:
+
+:An old shoe
+:A dead cockroach
+:A used band aid
+:{{A 2 kg bar of gold}}
+
+Chances are you didn't notice ''#4'' because there's no indication of it in view mode.
+
+IMO, pretty serious.
+
+I notice that an //empty// transclusion shows; {{}} , which is good though.
+
+Of course, "invisible missing transclusions" can be very useful too. (Maybe this is even why they are invisible by default?) For instance, if you look in the [[Ctrlpanel>Info|$:/ControlPanel]] here, where the Site title is declared, it also contains a transclusion. In my "admin version" of this TW it shows some stuff from a tiddler - but this tiddler is deleted before I publish the TW it for public view - and you, thankfully, don't get any indication of it missing.
+
+''What to do?''<br>Maybe we could have a sidebar tab "Missing transclusions"? Could be combined with the current "Missing" (tiddlers)?
+
+And/or a local indication in the tiddler; perhaps a red dot or a small exclamation mark in the tiddler gutter? Perhaps some option to toggle this globally or per specific transclusion?
+
+See also:<br>
+[[Changing referred to titles should give alert]]

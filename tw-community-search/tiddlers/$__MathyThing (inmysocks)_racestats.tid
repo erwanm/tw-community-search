@@ -1,0 +1,115 @@
+title: $:/MathyThing (inmysocks)/racestats
+circle_magic_save_bonus: Circle Magic Save Bonus
+damage_bonus: Damage Bonus
+digging_speed_bonus: Digging Speed Bonus
+digging_speed_dice_size: Digging Speed Dice Size
+digging_speed_multiplier: Digging Speed Multiplier
+digging_speed_num_dice: Digging Speed Number of Dice
+disease_save_bonus: Disease Save Bonus
+dodge_bonus: Dodge Bonus
+dodge_in_flight_bonus: Dodge In Flight Bonus
+electrocution_save_bonus: Electrocution Save Bonus
+extreme_temperatures_save_bonus: Extreme Temperatures Save Bonus
+faerie_magic_save_bonus: Faerie Magic Save Bonus
+flying_speed_bonus: Flying Speed Bonus
+flying_speed_dice_size: Flying Speed Dice Size
+flying_speed_multiplier: Flying Speed Multiplier
+flying_speed_num_dice: Flying Speed Number of Dice
+harmful_drugs_save_bonus: Harmful Drugs Save Bonus
+horror_factor: Horror Factor
+horror_factor_save_bonus: Horror Factor Save Bonus
+hp_base_bonus: HP Base Bonus
+hp_base_dice_size: HP Base Dice Size
+hp_base_multiplier: HP Base Multiplier
+hp_base_num_dice: HP Base Number of Dice
+hp_per_level_bonus: HP Per Level Bonus
+hp_per_level_dice_size: HP Per Level Dice Size
+hp_per_level_multiplier: HP Per Level Multiplier
+hp_per_level_num_dice: HP Per Level Number of Dice
+initiative_bonus: Initiative Bonus
+insanity_save_bonus: Insanity Save Bonus
+iq_bonus: IQ Bonus
+iq_dice_size: IQ Dice Size
+iq_multiplier: IQ Multiplier
+iq_num_dice: IQ Number of Dice
+isp_base_bonus: ISP Base Bonus
+isp_base_dice_size: ISP Base Dice Size
+isp_base_multiplier: ISP Base Multiplier
+isp_base_num_dice: ISP Base Number of Dice
+isp_per_level_bonus: ISP Per Level Bonus
+isp_per_level_dice_size: ISP Per Level Dice Size
+isp_per_level_multiplier: ISP Per Level Multiplier
+isp_per_level_num_dice: ISP Per Level Number of Dice
+lethal_poison_save_bonus: Lethal Poison Save Bonus
+ma_bonus: MA Bonus
+ma_dice_size: MA Dice Size
+ma_multiplier: MA Multiplier
+ma_num_dice: MA Number of Dice
+magic_fumes_save_bonus: Magic Fumes Save Bonus
+me_bonus: ME Bonus
+me_dice_size: ME Dice Size
+me_multiplier: ME Multiplier
+me_num_dice: ME Number Dice
+mind_control_save_bonus: Mind Control Save Bonus
+natural_ar: Natural Ar
+non-lethal_poison_save_bonus: Non-Lethal Poison Save Bonus
+number_of_attacks: Number Of Attacks
+pain_save_bonus: Pain Save Bonus
+parry_bonus: Parry Bonus
+pb_bonus: PB Bonus
+pb_dice_size: PB Dice Size
+pb_multiplier: PB Multiplier
+pb_num_dice: PB Number of Dice
+pe_bonus: PE Bonus
+pe_dice_size: PE Dice Size
+pe_multiplier: PE Multiplier
+pe_num_dice: PE Number of Dice
+possession_save_bonus: Possession Save Bonus
+pp_bonus: PP Bonus
+pp_dice_size: PP Dice Size
+pp_multiplier: PP Multiplier
+pp_num_dice: PP Number of Dice
+ppe_base_bonus: PPE Base Bonus
+ppe_base_dice_size: PPE Base Dice Size
+ppe_base_multiplier: PPE Base Multiplier
+ppe_base_num_dice: PPE Base Number of Dice
+ppe_per_level_bonus: PPE Per Level Bonus
+ppe_per_level_dice_size: PPE Per Level Dice Size
+ppe_per_level_multiplier: PPE Per Level Multiplier
+ppe_per_level_num_dice: PPE Per Level Number of Dice
+protection_circle_save_bonus: Protection Circle Save Bonus
+ps_bonus: PS Bonus
+ps_dice_size: PS Dice Size
+ps_multiplier: PS Multiplier
+ps_num_dice: PS Number of Dice
+psionics_save_bonus: Psionics Save Bonus
+pull_punch_bonus: Pull Punch Bonus
+ritual_magic_save_bonus: Ritual Magic Save Bonus
+roll_with_punch_bonus: Roll With Punch Bonus
+sdc_base_bonus: SDC Base Bonus
+sdc_base_dice_size: SDC Base Dice Size
+sdc_base_multiplier: SDC Base Multiplier
+sdc_base_num_dice: SDC Base Number of Dice
+sdc_per_level_bonus: SDC Per Level Bonus
+sdc_per_level_dice_size: SDC Per Level Dice Size
+sdc_per_level_multiplier: SDC Per Level Multiplier
+sdc_per_level_num_dice: SDC Per Level Number of Dice
+spd_bonus: Speed Bonus
+spd_dice_size: Speed Dice Size
+spd_multiplier: Speed Multiplier
+spd_num_dice: Speed Number of Dice
+spell_magic_save_bonus: Spell Magic Save Bonus
+strike_bonus: Strike Bonus
+strike_in_flight_bonus: Strike In Flight Bonus
+swimming_speed_bonus: Swimming Speed Bonus
+swimming_speed_dice_size: Swimming Speed Dice Size
+swimming_speed_multiplier: Swimming Speed Multiplier
+swimming_speed_num_dice: Swimming Speed Number of Dice
+telepathic_probes_save_bonus: Telepathic Probes Save Bonus
+type: text/vnd.tiddlywiki
+ward_magic_save_bonus: Ward Magic Save Bonus
+original-tags: 
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: racestats
+source-tiddler-title-as-link: racestats
+

@@ -1,0 +1,11 @@
+title: $:/Modified Mobile Menus (inmysocks)/GlobalMacros
+created: 20150520172919659
+modified: 20150520173649187
+original-tags: $:/tags/Macro
+source-wiki-id: Modified Mobile Menus (inmysocks)
+source-tiddler-title-as-text: GlobalMacros
+source-tiddler-title-as-link: GlobalMacros
+
+\define makeRevealState()
+$:/state/reveal/$(currentTiddler)$
+\end

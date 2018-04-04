@@ -1,0 +1,50 @@
+title: $:/TWaddle/Much Wow. Little use.
+created: 20150603212554399
+creator: Mat
+modified: 20150715205109043
+modifier: Mat
+recent: 15/06/03	
+original-tags: Twiddles
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Much Wow. Little use.
+source-tiddler-title-as-link: Much%20Wow.%20Little%20use.
+
+<style>
+.animation-container {
+	height: 60px;
+	padding: 10px;
+	/* Shorthand syntax */
+	-webkit-animation: movearound 4s ease 1 normal;
+}
+
+@-webkit-keyframes movearound {
+	0% {
+		width: 200px;
+		background: #f00;
+		opacity: 0.5;
+		-webkit-transform: scale(0.5) rotate(15deg);
+	}
+	30% {
+		width: 300px;
+		background: #f00;
+		opacity: 1;
+		-webkit-transform: scale(1.3) rotate(15deg);
+	}
+	60% {
+		width: 100px;
+		background: #00f;
+		opacity: 0.3;
+		-webkit-transform: scale(0.3) rotate(15deg);
+	}			
+	100% {
+		width: 400px;
+		background: #ffffa2;
+		opacity: 0.5;
+		-webkit-transform: scale(1) rotate(0deg);
+	}
+}
+</style>
+<div class="animation-container">
+Found this [[here|http://robertnyman.com/css3/css-animations/css-animations-percentage.html]].
+Maybe useful for a logo?
+</div>

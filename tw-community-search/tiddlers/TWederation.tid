@@ -5,6 +5,10 @@ tags: CommunityWikis
 title: TWederation
 type: text/vnd.tiddlywiki
 wiki-address: http://twed-face.tiddlyspot.com/
+wiki-tw-version: 5.1.13
+wiki-latest-modification: 20160820190716058
+wiki-nb-tiddlers: 27
 
+outline for "front" on twederation.tiddlyspot.com
 
 {{||$:/CommunityWikiPresentationTemplate}}

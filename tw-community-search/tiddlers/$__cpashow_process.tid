@@ -1,0 +1,85 @@
+title: $:/cpashow/process
+created: 20160413223208643
+creator: Chuck Paussa
+description: any named ordered list of steps executed by any person, group or role
+modified: 20160414165013001
+modifier: Chuck Paussa
+process: Step_1 Step_2 Step_3
+original-tags: object process
+source-wiki-id: cpashow
+source-tiddler-title-as-text: process
+source-tiddler-title-as-link: process
+
+\define showList(state, fieldName)
+	<$reveal state="$state$" type="match" text="$fieldName$">
+		<ul><li>
+			$fieldName$: 
+			<<crazyListHere "$fieldName$">>
+		</li></ul>
+	</$reveal>
+\end
+
+\define process_buttons(tiddlerName)
+	<$set name="state" value="$:/state/process##$tiddlerName$">
+		<$button class="tc-btn-invisible" tooltip="Requirements" 
+			set=<<state>> setTo="requirement" 
+		>
+			{{Requirement.svg}}
+		</$button>
+		<$button class="tc-btn-invisible" tooltip="Components"
+			set=<<state>> setTo="component" 
+		>
+			{{gear.svg}}
+		</$button>
+		<$button class="tc-btn-invisible" tooltip="Actors"
+			set=<<state>> setTo="actor" 
+		>
+			{{Actor.svg}}
+		</$button>
+		<$button class="tc-btn-invisible" tooltip="Prerequisites"
+			set=<<state>> setTo="prerequisite" 
+		>
+			{{$:/core/images/chevron-left}}
+		</$button>
+		<$reveal state=<<state>> type="nomatch" text="">
+			<$button class="tc-btn-invisible" tooltip="cancel"
+				set=<<state>> setTo="" 
+			>
+				{{$:/core/images/cancel-button}}
+			</$button>
+		</$reveal>
+		<$list filter="requirement component actor prerequisite" variable="fieldName">
+			<$macrocall $name="showList" state=<<state>> fieldName=<<fieldName>> />
+		</$list>
+	</$set>
+\end
+<ul>
+	<li>
+		<$checkbox tag="step"> Step</$checkbox>
+	</li>
+	<li>	
+		<$list filter="[all[current]!tag[step]]" variable="temp">
+			Progress Bar:
+			<$macrocall $name="Progress_Bar" 
+				stagesTiddler=""
+				stagesFieldName="process"
+				stageTiddler=""
+				stageFieldName="currentprocess"
+				macro=""
+			/>
+		</$list>
+		<$macrocall $name="process_buttons" tiddlerName=<<currentTiddler>> />
+	</li>
+	<li> Description:
+		<$macrocall $name="View_Edit" 
+			tiddlerName=<<currentTiddler>> 
+			fieldName="description" 
+		/> 
+	</li>
+	<$list filter="[all[current]!tag[step]]" variable="temp">
+		<li>
+			Process Steps
+			<<crazyListHere "process">>
+		</li>
+	</$list> 
+</ul>
