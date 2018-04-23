@@ -1,0 +1,15 @@
+title: $:/StephenTeacher/$:/plugins/danielo515/tiddlypouch
+author: Danielo Rodriguez
+core-version: >=5.1.14
+dependents: 
+description: tiddlypouch for TiddlyWiki
+list: readme
+released: Thu, 25 Jan 2018 19:41:23 GMT
+version: 0.24.1-2
+original-tags: 
+source-wiki-id: StephenTeacher
+source-tiddler-title-as-text: $:/plugins/danielo515/tiddlypouch
+source-tiddler-title-as-link: %24%3a%2fplugins%2fdanielo515%2ftiddlypouch
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

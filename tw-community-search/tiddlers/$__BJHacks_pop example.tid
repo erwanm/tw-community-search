@@ -1,0 +1,35 @@
+title: $:/BJHacks/pop example
+created: 20180422115942663
+modified: 20180422121704666
+original-tags: 
+source-wiki-id: BJHacks
+source-tiddler-title-as-text: pop example
+source-tiddler-title-as-link: pop%20example
+
+use of the pop   ([[$:/bjhacks/pop.js]]) widget
+
+
+```
+<$list filter="a b c">
+
+<$list filter="1 2 3">
+<<currentTiddler>>
+<$pop>
+{{!!title}}
+</$pop>
+
+</$list></$list>
+```
+
+
+
+<$list filter="a b c">
+
+<$list filter="1 2 3">
+<<currentTiddler>>
+<$pop>
+{{!!title}}
+</$pop>
+
+</$list></$list>
+
