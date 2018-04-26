@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/subtiddlerfields Operator (Examples)
+created: 20180403164143915
+modified: 20180403164257147
+type: text/vnd.tiddlywiki
+original-tags: [[plugintiddlers Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: subtiddlerfields Operator (Examples)
+source-tiddler-title-as-link: subtiddlerfields%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[$:/core/copyright.txt]subtiddlerfields[$:/core]]">>
+

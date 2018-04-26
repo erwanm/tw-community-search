@@ -1,7 +1,8 @@
 title: $:/tiddlywiki.com/list-links Macro
 caption: list-links
 created: 20140917083515996
-modified: 20150221223214000
+modified: 20180109171310659
+type: text/vnd.tiddlywiki
 original-tags: Macros [[Core Macros]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: list-links Macro
@@ -21,5 +22,7 @@ If a tiddler has a <<.field caption>> field, this is shown instead of the tiddle
 : An HTML element to use for each item in the list, defaulting to `li`
 ;class
 : A [[CSS|Cascading Style Sheets]] class for the overall list element
+;emptyMessage
+: Optional wikitext to display if there are no tiddlers with the specified tag
 
 <<.macro-examples "list-links">>

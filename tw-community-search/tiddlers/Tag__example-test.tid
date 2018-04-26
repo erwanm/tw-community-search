@@ -1,0 +1,7 @@
+title: Tag: example-test
+tags: CommunityTags
+community-tag: example-test
+community-tag-count: 1
+community-wikis: [[tiddlywiki.com]]
+
+{{||$:/CommunityTagTemplate}}

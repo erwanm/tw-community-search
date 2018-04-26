@@ -1,0 +1,22 @@
+title: $:/tiddlywiki.com/Q: What if a tiddler has no tags?
+created: 20180411173900000
+modified: 20180411173900000
+original-tags: [[Custom Styles FAQ]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Q: What if a tiddler has no tags?
+source-tiddler-title-as-link: Q%3a%20What%20if%20a%20tiddler%20has%20no%20tags%3f
+
+''Answer:'' <<.from-version "5.1.16">>
+
+* If a tiddler has no tags, but needs styling use: `data-tiddler-title` as CSS selector
+** There is only one tiddler 
+
+* If a user wants to style system tiddlers in a custom way: use: `[data-tiddler-title^="$:"/]` as a selector
+** using the TW namespace functionality
+
+* If the user wants special behaviour for tagged tiddlers. eg: Learning
+** use: `[data-tags*="Learning"]` as CSS selector. 
+
+The names I'm using are only used for documentation purpose, without changing the existing wiki. I don't want, that the docs has side effects. 
+
+[[Learn more about possible attributes!|Attribute Selectors]]

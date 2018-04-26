@@ -1,11 +1,16 @@
 title: $:/tiddlywiki.com/How to apply custom styles by tag
+caption: {{!!title}} - ^^deprecated^^
 created: 20141001132300000
-modified: 20151005074702387
+modified: 20180411173900000
 type: text/vnd.tiddlywiki
-original-tags: Learning
+original-tags: [[How to apply custom styles]] $:/deprecated
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: How to apply custom styles by tag
 source-tiddler-title-as-link: How%20to%20apply%20custom%20styles%20by%20tag
+
+<<.deprecated-since "5.1.16 <- click" "Custom styles by data-tags">>. Also see: [[How to apply custom styles]]
+
+----
 
 You can apply custom styles to tiddlers that have a particular tag by defining a CSS class with the name `tc-tagged-<Tag Name>`.
 
