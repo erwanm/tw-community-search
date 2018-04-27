@@ -1,0 +1,13 @@
+title: $:/TW5Hacks/SVG Test currentColor
+created: 20171108191009271
+creator: Thomas Elmiger
+modified: 20171108192222456
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: SVG Test currentColor
+source-tiddler-title-as-link: SVG%20Test%20currentColor
+
+@@color:blue;
+Text {{$:/core/images/done-button}}
+@@

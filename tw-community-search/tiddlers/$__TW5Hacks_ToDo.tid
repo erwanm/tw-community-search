@@ -2,7 +2,7 @@ title: $:/TW5Hacks/ToDo
 created: 20170316225737516
 creator: Thomas Elmiger
 list: 3 1 2
-modified: 20170713195204391
+modified: 20180425204904024
 modifier: Thomas Elmiger
 todo-show-priorities: 2
 type: 
@@ -43,7 +43,7 @@ source-tiddler-title-as-link: ToDo
 </div>
 <ul class="te-list">
 <$list filter=<<listfilter>>>
-   <<todonowShowListItem>>
+   <<todonowShowListItem "ToDo">>
 </$list>
 </ul>
 \end
@@ -51,21 +51,17 @@ source-tiddler-title-as-link: ToDo
 <$wikify name="user-filter1" text="[all[]] {{$:/plugins/telmiger/todonow/settings!!filter}} +[tag[ToDo]tag{$:/state/ToDo-project}has[todo-deadline]!has[draft.of]!tag[ToDoDone]!title[ToDo Item]search{$:/temp/ToDo-search}sort[priority]] +[sort[todo-deadline]]">
 <$wikify name="user-filter2" text="[all[]] {{$:/plugins/telmiger/todonow/settings!!filter}} +[tag[ToDo]tag{$:/state/ToDo-project}!has[todo-deadline]!has[draft.of]!tag[ToDoDone]!title[ToDo Item]search{$:/temp/ToDo-search}sort[created]] +[sort[priority]]">
 <$wikify name="user-filter3" text="[all[]] {{$:/plugins/telmiger/todonow/settings!!filter}} +[tag{$:/state/ToDo-project}has[todo-deadline]!has[draft.of]tag[ToDo]!tag[ToDoDone]!title[ToDo Item]search{$:/temp/ToDo-search}sort[todo-deadline]]">
-
 <$set name="listfilter" value="[tag[ToDo]tag{$:/state/ToDo-project}!has[draft.of]!tag[ToDoDone]!title[ToDo Item]search{$:/temp/ToDo-search}]">
-
-@@.todo-search
-<<todoSearch>> <<todoUserFilter>> <<todoProjectSelect ToDo>>
-@@
+<div class="lr-search te-flex-item">
+   <<todoSearch>> <<todoUserFilter>> <<todoProjectSelect ToDo>>
+</div>
 </$set>
-
 <$reveal type="match" state="$:/plugins/telmiger/todonow/settings##sort-list" text="deadline">
    <$reveal type="match" state="$:/plugins/telmiger/todonow/settings##show-list-deadline" text="top">
 <$set name="listfilter" value=<<user-filter1>>>
    <<list-deadline>>
 </$set>
    </$reveal>
-
 <$set name="listfilter" value=<<user-filter2>>>
 <div class="todo-search-count">
 <$wikify name="after" text=<<telang sorted-by-priority>>>
@@ -98,7 +94,7 @@ source-tiddler-title-as-link: ToDo
 </div>
 <ul class="te-list">
 <$list filter=<<listfilter>>>
-   <<todonowShowListItem>>
+   <<todonowShowListItem "ToDo">>
 </$list>
 </ul>
 </$set>
@@ -125,9 +121,7 @@ source-tiddler-title-as-link: ToDo
 </$list>
 </$set>
 
-<small>
-Don’t have to do it? – Say it’s done!
-</small>
+<small><<telang Motivation-Don’t-do-it>></small>
 </$wikify>
 </$wikify>
 </$wikify>

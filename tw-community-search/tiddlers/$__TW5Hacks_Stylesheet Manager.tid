@@ -1,17 +1,37 @@
 title: $:/TW5Hacks/Stylesheet Manager
 created: 20171010200731322
 creator: Thomas Elmiger
-modified: 20171011051452378
+modified: 20180207193518565
 modifier: Thomas Elmiger
-original-tags: Hacks
+original-tags: StylesheetManager
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Stylesheet Manager
 source-tiddler-title-as-link: Stylesheet%20Manager
 
-\define myfilter() 
-[tag[$:/tags/Stylesheet]search[vanilla/base]sort[title]]
+\define filter-active() 
+[all[shadows+tiddlers]tag[$:/tags/Stylesheet]sort[title]search{$:/temp/StylesheetManager-active}]
 \end
-\define stylemanItem()
+\define filter-inactive() 
+[all[shadows+tiddlers]tag[$:/tagremoved/Stylesheet]sort[title]search{$:/temp/StylesheetManager-inactive}]
+\end
+\define StyleSheetSearch($state$)
+<$vars tagsearchTiddler="$:/temp/StylesheetManager-$state$">
+<$wikify name="placeholder" text=<<telang search>> >
+<div class="tc-search">
+<$edit-text tiddler=<<tagsearchTiddler>> type="search" tag="input" focus="true" placeholder=<<placeholder>>/>
+<$reveal state=<<tagsearchTiddler>> type="nomatch" text="">
+<$wikify name="reset" text=<<telang Reset>> >
+<$button tooltip=<<reset>> class="tc-btn-invisible">
+<$action-setfield $tiddler=<<tagsearchTiddler>> text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$wikify>
+</$reveal>
+</div>
+</$wikify>
+</$vars>
+\end
+\define stylemanItem(tagExclude:"")
 <$set name="tidTitle" value={{!!title}}>
    <li class="todo-item te-flex-item">
       <span class="te-flex-item te-flex-half-full">
@@ -24,14 +44,14 @@ source-tiddler-title-as-link: Stylesheet%20Manager
 <$list filter="[all[current]tag[$:/tagremoved/Stylesheet]]">
 <$wikify name="tt" text="activate">
 <$wikify name="tip" text="add Stylesheet">
-   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-down}}" add-remove="$:/tags/Stylesheet -$:/tagremoved/Stylesheet" tooltip=<<tt>> tip=<<tip>> class="muted"/>
+   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-up}}" add-remove="$:/tags/Stylesheet -$:/tagremoved/Stylesheet" tooltip=<<tt>> tip=<<tip>> class="muted"/>
 </$wikify>
 </$wikify>
 </$list>
 <$list filter="[all[current]tag[$:/tags/Stylesheet]]">
 <$wikify name="tip" text="set inactive">
 <$wikify name="tt" text="remove Stylesheet">
-   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-up}}" add-remove="$:/tagremoved/Stylesheet -$:/tags/Stylesheet" tooltip=<<tt>> tip=<<tip>>/>
+   <$macrocall $name="teBtnTagListops" btntext="{{$:/core/images/chevron-down}}" add-remove="$:/tagremoved/Stylesheet -$:/tags/Stylesheet" tooltip=<<tt>> tip=<<tip>>/>
 </$wikify>
 </$wikify>
 </$list>
@@ -44,40 +64,52 @@ source-tiddler-title-as-link: Stylesheet%20Manager
          </span>
       </span>
 <$wikify name="tpl" text=<<telang date-created-tmpl>> >
-   <$macrocall $name="listrevealContent" title=<<tidTitle>> datetime=<<tpl>>/>
+   <$macrocall $name="listrevealContent" title=<<tidTitle>> datetime=<<tpl>> tagExclude="""$tagExclude$"""/>
 </$wikify>
    </li>
 </$set>
 \end
 
-!! Inactive Stylesheets <<listrevealBtnEdit>>
+<section class="todo-now listreveal">
 
-<section class="todo-now">
-<$set name="listfilter" 
-   value="""[tag[$:/tagremoved/Stylesheet]sort[title]]""">
+!! Active Stylesheets <span class="te-flex-item te-flex-content te-flex-right"><span><$wikify name="tt" text="new stylesheet"><$button tooltip=<<tt>> message="tm-new-tiddler" param="$:/plugins/telmiger/StylesheetManager/template.css" class="te-btn-big te-create">{{$:/core/images/new-button}}</$button></$wikify></span> <<listrevealBtnEdit>></span>
+
+<<StyleSheetSearch "active">>
+<$wikify name="listfilter" text="""<<filter-active>>""">
 <ul class="te-list">
 <$list filter=<<listfilter>>>
-<<stylemanItem>>
-</$list>
-</ul>
-</$set>
-</section>
-
----
-
-!! Active Stylesheets <<listrevealBtnEdit>>
-
-<section class="todo-now">
-<$wikify name="listfilter" 
-   text="""<<myfilter>>""">
-<ul class="te-list">
-<$list filter=<<listfilter>>>
-<<stylemanItem>>
+<<stylemanItem "$:/tags/Stylesheet">>
 </$list>
 </ul>
 </$wikify>
 </section>
 
----
+Generator: [[Compile active Stylesheets|$:/plugins/telmiger/StylesheetManager/generated]] tagged <<tag $:/tags/Stylesheet>>
 
-This handy little tool is based on the [[Listreveal|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2Flistreveal]] plugin that can be imported from https://tid.li/tw5/plugins.html.
+<section class="todo-done listreveal-dim">
+
+!! Inactive Stylesheets <span class="te-flex-item te-flex-content te-flex-right"><<listrevealBtnEdit>></span>
+
+<<StyleSheetSearch "inactive">>
+<$wikify name="listfilter" text="""<<filter-inactive>>""">
+<ul class="te-list">
+<$list filter=<<listfilter>>>
+<<stylemanItem "$:/tagremoved/Stylesheet">>
+</$list>
+</ul>
+</$wikify>
+</section>
+
+This handy //Stylesheet Manager// is based on the [[Listreveal|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2Flistreveal]] plugin that can be imported from https://tid.li/tw5/plugins.html.
+
+<style>
+.tc-tiddler-body .todo-now h2, .tc-tiddler-body .todo-done h2 {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+}
+.tc-tiddler-body .todo-done h2 {
+    margin-top: 3rem;
+    font-weight: 300;
+}
+</style>

@@ -1,15 +1,17 @@
 title: $:/TW5Hacks/Theme: Minimalist
 created: 20161210085959985
 creator: Thomas Elmiger
-modified: 20170206135525160
+description: light-weight, minimalist, mobile-first theme
+modified: 20180307224606958
 modifier: Thomas Elmiger
-priority: 2
-original-tags: ToDo Projects Themes
+priority: 3
+todo-deadline: 20180307225000000
+original-tags: Projects Themes ToDoNow
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Theme: Minimalist
 source-tiddler-title-as-link: Theme%3a%20Minimalist
 
-Create a light-weight, minimalist, mobile first theme for TW5
+Create a light-weight, minimalist, mobile-first theme for TW5
 
 * Theme published
 * Theme tested and in use by others

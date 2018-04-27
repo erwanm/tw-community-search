@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Reporting Optimisations
 created: 20170201212623252
 creator: Thomas Elmiger
-modified: 20170910104159573
+modified: 20171105210549974
 modifier: Thomas Elmiger
 priority: 1
 original-tags: Plugins ToDo
@@ -9,7 +9,7 @@ source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Reporting Optimisations
 source-tiddler-title-as-link: Reporting%20Optimisations
 
-Efficient reporting is one of the main reasons to keep track of tasks in one single tool. 
+Efficient reporting is one of the main reasons to keep track of tasks in one single tool.
 
 !! Optimise Presentation 
 [ ] Give Feedback to users

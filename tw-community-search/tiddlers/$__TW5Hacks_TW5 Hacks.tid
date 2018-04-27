@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/TW5 Hacks
 created: 20160710181212640
 creator: Thomas Elmiger
-modified: 20170409191454603
+modified: 20180421095116092
 modifier: Thomas Elmiger
 original-tags: 
 source-wiki-id: TW5Hacks
@@ -13,6 +13,10 @@ source-tiddler-title-as-link: TW5%20Hacks
 !! Hacks
 
 Quick Extensions for TiddlyWiki 5 – sometimes they come without much documentation. From hacker to hacker. 
+
+!!! Consider the Plugins first
+
+A bunch of useful plugins can be found on https://tid.li/tw5/plugins.html – only use stuff from this hacks page if you can’t find a solution there.
 
 </header>
 
@@ -27,11 +31,6 @@ Quick Extensions for TiddlyWiki 5 – sometimes they come without much documenta
 Hacks that work (somehow), but were not used in real life or in serious projects (yet).
 
 <<list-links filter:"[tag[Experiments]]">>
-
-
-!! Plugins
-
-A bunch of useful plugins can be found on https://tid.li/tw5/plugins.html
 
 ---
 

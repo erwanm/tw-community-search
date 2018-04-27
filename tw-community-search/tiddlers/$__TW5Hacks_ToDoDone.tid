@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/ToDoDone
 created: 20160821091004045
 creator: Thomas Elmiger
-modified: 20170709182232348
+modified: 20171101070549280
 modifier: Thomas Elmiger
 original-tags: ToDoComponents
 source-wiki-id: TW5Hacks
@@ -9,11 +9,9 @@ source-tiddler-title-as-text: ToDoDone
 source-tiddler-title-as-link: ToDoDone
 
 <$set name="listfilter" value="[tag{$:/state/ToDoDone-project}!has[draft.of]tag[ToDoDone]search{$:/temp/ToDo-search}!sort[modified]] +[!sort[todo-done]]">
-
-@@.todo-search
+<div class="todo-search te-flex-item">
 <<todoSearch ToDoDone search reset>> <<todoProjectSelect ToDoDone>>
-@@
-
+</div>
 <ul class="te-list">
 <$list filter=<<listfilter>>>
 <<tododoneShowListItem>>

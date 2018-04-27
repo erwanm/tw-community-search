@@ -1,0 +1,98 @@
+title: $:/TW5Hacks/Cards Manager
+created: 20180414200016138
+creator: Thomas Elmiger
+modified: 20180426195216044
+modifier: Thomas Elmiger
+original-tags: Cardy
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Cards Manager
+source-tiddler-title-as-link: Cards%20Manager
+
+\define filter-active() 
+[all[shadows+tiddlers]tag[CardyCard]tag{$:/state/listreveal/CardyCard-project}!sort[created]search{$:/temp/listreveal/CardsManager-active}]
+\end
+\define filter-inactive() 
+[all[shadows+tiddlers]tag[CardyCardDone]!sort[created]search{$:/temp/listreveal/CardsManager-inactive}]
+\end
+
+\define cardlistItem(tagExclude:"")
+<$set name="tidTitle" value={{!!title}}>
+   <li class="todo-item te-flex-item">
+      <span class="te-flex-item te-flex-half-full">
+         <span class="te-flex-item te-flex-content te-flex-left">
+   <span class="lr-item-title"><$link to={{!!title}}><$view field="title"/></$link></span><span class="te-truncate" title={{!!caption}}><$view field="text"/></span>
+         </span>
+      </span>
+      <span class="te-flex-item te-flex-half-full">
+         <span class="te-flex-item te-flex-content te-flex-right">
+{{||$:/plugins/telmiger/cardy/ui/buttons/active-inactive}}
+<$reveal type="match" state="$:/state/listreveal-mode" text="edit">
+{{||$:/plugins/telmiger/cardy/ui/buttons/delete}}
+</$reveal>
+<<teBtnEditShowModified>>
+<$wikify name="cl" text=<<telang close>> >
+<$wikify name="tt" text=<<telang Details>> >
+   <$macrocall $name="listrevealButton" title=<<tidTitle>> tooltip=<<tt>> close=<<cl>>/>
+</$wikify>
+</$wikify>
+         </span>
+      </span>
+<$wikify name="tpl" text=<<telang date-created-tmpl>> >
+   <$macrocall $name="listrevealContent" title=<<tidTitle>> datetime=<<tpl>> tagExclude="""$tagExclude$"""/>
+</$wikify>
+   </li>
+</$set>
+\end
+
+<section class="todo-now listreveal">
+
+!! Active Cards <span class="te-flex-item te-flex-content te-flex-right">{{$:/plugins/telmiger/cardy/ui/buttons/new}}<<listrevealBtnEdit>></span>
+
+<$wikify name="listfilter" text="""<<filter-active>>""">
+<div class="lr-search te-flex-item">
+<<listrevealSearch "active" "CardsManager">> <<listrevealProjectSelect CardyCard>>
+</div>
+<ul class="te-list">
+<$list filter=<<listfilter>>>
+<<cardlistItem "CardyCard">>
+</$list>
+</ul>
+</$wikify>
+
+{{$:/plugins/telmiger/cardy/ui/buttons/tag-update}}
+</section>
+
+<section class="todo-done listreveal-dim">
+
+!! Inactive Cards <span class="te-flex-item te-flex-content te-flex-right"><<listrevealBtnEdit>></span>
+
+<<listrevealSearch "inactive" "CardsManager">>
+<$wikify name="listfilter" text="""<<filter-inactive>>""">
+<ul class="te-list">
+<$list filter=<<listfilter>>>
+<<cardlistItem "CardyCardDone">>
+</$list>
+</ul>
+</$wikify>
+
+{{$:/plugins/telmiger/cardy/ui/buttons/tag-reuse}}
+</section>
+
+---
+
+Cardy needs the following plugins from [[tid.li/tw5/plugins.html|https://tid.li/tw5/plugins.html]] to function properly: 
+
+* rpn Basic Math
+* Listreveal
+
+<style>
+.tc-tiddler-body .todo-now h2, .tc-tiddler-body .todo-done h2 {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+}
+.tc-tiddler-body .todo-done h2 {
+    margin-top: 3rem;
+    font-weight: 300;
+}
+</style>
