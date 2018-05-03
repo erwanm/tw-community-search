@@ -4,8 +4,8 @@ core-version: >=5.1.14
 dependents: 
 description: tiddlypouch for TiddlyWiki
 list: readme
-released: Thu, 25 Jan 2018 19:41:23 GMT
-version: 0.24.1-2
+released: Tue, 01 May 2018 10:14:20 GMT
+version: 0.24.1-4
 original-tags: 
 source-wiki-id: NoteSelf
 source-tiddler-title-as-text: $:/plugins/danielo515/tiddlypouch
