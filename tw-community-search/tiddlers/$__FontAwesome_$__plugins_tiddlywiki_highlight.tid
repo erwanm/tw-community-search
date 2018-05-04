@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Highlight.js: syntax highlighting
 list: readme usage license
-version: 5.1.15
+version: 5.1.16
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight
