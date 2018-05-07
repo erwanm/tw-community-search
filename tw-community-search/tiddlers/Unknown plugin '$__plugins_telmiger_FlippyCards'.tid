@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/telmiger/FlippyCards'
+name: unknown
+plugin_tiddler: $:/plugins/telmiger/FlippyCards
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
