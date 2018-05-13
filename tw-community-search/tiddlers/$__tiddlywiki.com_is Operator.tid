@@ -14,11 +14,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: is Operator
 source-tiddler-title-as-link: is%20Operator
 
-The parameter <<.place C>> specifies zero or more fundamental categories using the following syntax:
-
-<$railroad text="""
-[{: ("current" | "missing" |: "orphans" | "shadows" | "tags" | "tiddlers" ) +"+" }]
-"""/>
+The parameter <<.place C>> is one of the following fundamental categories:
 
 |!Category |!Matches any tiddler that... |
 |^`current` |is the [[current tiddler|Current Tiddler]] |
