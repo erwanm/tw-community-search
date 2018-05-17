@@ -4,4 +4,6 @@ source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: Shuffle Operator
 source-tiddler-title-as-link: Shuffle%20Operator
 
+Copy this link to add the plugin library [[Matt's Plugin Library]] or Import it directly by dragging this link. [[$:/plugins/mklauber/shuffle]]
+
 <$transclude tiddler="$:/plugins/mklauber/shuffle/readme" />
