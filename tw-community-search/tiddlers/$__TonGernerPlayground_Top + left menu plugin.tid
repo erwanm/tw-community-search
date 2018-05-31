@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top + left menu plugin
 caption: Top + Left menu
 created: 20150719185958949
 creator: TonGerner
-modified: 20170502184232486
+modified: 20180530143122129
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -11,8 +11,6 @@ source-tiddler-title-as-text: Top + left menu plugin
 source-tiddler-title-as-link: Top%20%2b%20left%20menu%20plugin
 
 !! [[Top menu + left menu plugin|Top + left menu plugin]] v<<pversion "topleftmenu">>
-
-''Status:'' @@.RED {{Top + left menu plugin!!status}} v<<version>>@@
 
 @@.sliderBG
 <div>

@@ -3,13 +3,13 @@ author: TonGerner
 core-version: 5.1.15
 created: 20170325114613015
 creator: TonGerner
-description: Tabs on top
+description: Tiddlersbar (tabs on top)
 list: readme combination license
-modified: 20180124182603999
+modified: 20180316170355688
 modifier: TonGerner
 name: Tiddlersbar
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.12
+version: 0.0.13
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/tiddlersbar

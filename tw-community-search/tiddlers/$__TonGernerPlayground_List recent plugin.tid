@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/List recent plugin
 caption: List recent
 created: 20160130132450206
 creator: TonGerner
-modified: 20170502172047846
+modified: 20180530143230845
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -11,8 +11,6 @@ source-tiddler-title-as-text: List recent plugin
 source-tiddler-title-as-link: List%20recent%20plugin
 
 !! [[List recent plugin]] v<<pversion "listrecent">>
-
-''Status:'' @@.RED {{List recent plugin!!status}} v<<version>>@@
 
 <<readme $:/plugins/tongerner/listrecent/readme $:/plugins/tongerner/listrecent>>
 

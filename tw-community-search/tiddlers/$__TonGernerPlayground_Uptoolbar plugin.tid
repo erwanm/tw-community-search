@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Uptoolbar plugin
 caption: Uptoolbar
 created: 20160111103524320
 creator: TonGerner
-modified: 20170430171820656
+modified: 20180530143000859
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -11,8 +11,6 @@ source-tiddler-title-as-text: Uptoolbar plugin
 source-tiddler-title-as-link: Uptoolbar%20plugin
 
 !! [[Uptoolbar plugin]] v<<pversion "uptoolbar">>
-
-''Status:'' @@.RED {{Uptoolbar plugin!!status}} v<<version>>@@
 
 <<readme $:/plugins/tongerner/uptoolbar/readme $:/plugins/tongerner/uptoolbar>>
 * [[$:/plugins/tongerner/layout_adjustment]]

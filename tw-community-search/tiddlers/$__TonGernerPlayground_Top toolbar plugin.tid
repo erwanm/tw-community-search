@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top toolbar plugin
 caption: Top toolbar
 created: 20160111103503636
 creator: TonGerner
-modified: 20180130182103645
+modified: 20180530143031006
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -11,8 +11,6 @@ source-tiddler-title-as-text: Top toolbar plugin
 source-tiddler-title-as-link: Top%20toolbar%20plugin
 
 !! [[Top toolbar plugin]] v<<pversion "toolbar">>
-
-''Status:'' @@.RED {{Toolbar plugin!!status}} v<<version>>@@
 
 <<readme $:/plugins/tongerner/toolbar/readme $:/plugins/tongerner/toolbar>>
 * $:/plugins/tongerner/layout_adjustment
