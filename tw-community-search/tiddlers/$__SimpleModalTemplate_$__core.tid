@@ -1,4 +1,4 @@
-title: $:/SimpleCalendarPlugin/$:/core
+title: $:/SimpleModalTemplate/$:/core
 author: JeremyRuston
 core-version: >=5.0.0
 dependents: 
@@ -7,7 +7,7 @@ list: readme
 plugin-priority: 0
 version: 5.1.17
 original-tags: 
-source-wiki-id: SimpleCalendarPlugin
+source-wiki-id: SimpleModalTemplate
 source-tiddler-title-as-text: $:/core
 source-tiddler-title-as-link: %24%3a%2fcore
 extracted-plugin: true

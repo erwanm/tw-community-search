@@ -5,7 +5,7 @@ dependents:
 description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0
-version: 5.1.14
+version: 5.1.17
 original-tags: 
 source-wiki-id: SimpleCheckList
 source-tiddler-title-as-text: $:/core
