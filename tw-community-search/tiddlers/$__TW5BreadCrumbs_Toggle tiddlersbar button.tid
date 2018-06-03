@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Toggle tiddlersbar button
 created: 20150626124602577
 creator: TonGerner
-modified: 20180224193502590
+modified: 20180602170940689
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: Toggle%20tiddlersbar%20button
 
 !! [[Toggle tiddlersbar button]]
 
-The tiddlersbar menu on top can be toggled on/off with a button ({{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-on}}/{{$:/plugins/tongerner/breadcrumbs/image-breadcrumbs-off}}) in Page Toolbar and/or View Toolbar (visibility programmable).
+The tiddlersbar menu on top can be toggled on/off with a button ({{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}/{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}}) in Page Toolbar and/or View Toolbar (visibility programmable).
 
 The 'Toggle breadcrumbs' button comprises 4 tiddlers.
 

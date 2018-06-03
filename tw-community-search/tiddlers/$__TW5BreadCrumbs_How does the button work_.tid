@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/How does the button work?
 created: 20140227164654509
 creator: TonGerner
-modified: 20180224193340959
+modified: 20180602171437559
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -20,6 +20,9 @@ The tiddler [[$:/plugins/tongerner/tiddlersbar/button]] contains the code to tog
 
 If [[$:/plugins/tongerner/tiddlersbar/styles]] is ''not'' tagged with [[$:/tags/Stylesheet]], [[$:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar]] becomes active which contains `display: none;`. 
 
+<<<
+''Note:''<br>$:/plugins/tongerner/tiddlersbar/styles contains a `list-after` field containing $:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar!
+<<<
 ---
 
 </div>
