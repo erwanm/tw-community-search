@@ -1,0 +1,25 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #078
+created: 20150203202211172
+modified: 20150204010635801
+original-tags: hangouts License TiddlyPip
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #078
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23078
+
+\define hangout() 078
+
+<<header>>
+"""
+<<topic "00:00:00" Introductions>>
+[[Jeremy Ruston]] <<sep>> [[Ed Dixon]] <<sep>> [[Nick Spies|Nicholas Spies]] <<sep>> [[Jed Carty]] <<sep>> [[Mario Pietsch]] <<sep>> [[Steve Schneider]] <<sep>> [[Nathan Cain]] <<sep>> [[Alberto Molina Pérez]]
+<<topic "00:04:20" "Branimir Blanker Theme Question">>
+<<topiclink "00:05:10" "TiddlyPip">>
+<<topiclink "00:30:40" "Kickstarter Campaign Idea">>
+<<topiclink "00:42:55" "Steve Demo's his work">>
+<<topiclink "00:51:10" "Steve Interactive Text Class Walkthrough">>
+<<topic "01:11:30" "~TiddlyWiki is not wysiwyg">>
+<<topiclink "01:19:00" "Federation">>
+<<topiclink "01:30:25" "What else could we do with this architecture">>
+<<topiclink "01:42:00" "Demonstration of Federated Idea for plug ins">>
+<<topic "01:48:30" "Interesting usage discussion with TiddlyDesktop">>
+<<topic "01:52:45" "Thanks and Goodbye">>

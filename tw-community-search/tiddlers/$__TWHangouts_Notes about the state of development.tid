@@ -1,0 +1,13 @@
+title: $:/TWHangouts/Notes about the state of development
+created: 20150108081226377
+modified: 20150108081847479
+original-tags: [[YouTube Video Annotations]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Notes about the state of development
+source-tiddler-title-as-link: Notes%20about%20the%20state%20of%20development
+
+<h2>Notes about the state of development</h2>
+
+I still want to add the option to just copy a youtube URL into the add video place and use regular expressions to pull out the video id. You would still have to give it a name. I will get around to that at some point.
+
+Also, the `Add Video Segment` and `Add Video Timestamp` tiddlers don't work outside of their use in this tiddler. You can change this. The problem is that there are a few places in the two tiddlers that have `{{!!selected_video}}`, which in the tabs here references the `selected_video` field of the `YouTube Video Annotations` tiddler, not the individual tiddlers. If you change it to `{{YouTube Video Annotations!!selected_video}}` than they should work. I am leaving it the way it is because this way changing the name of `YouTube Video Annotations` won't break anything.

@@ -1,0 +1,31 @@
+title: $:/TonGernerPlayground/twCard - Plugin - listrecent
+audience: 
+category: Layout
+created: 20160130134715415
+creator: TonGerner
+date: 10-06-2018
+homepage: http://tongerner.tiddlyspot.com/
+install_link: 
+language: English
+license: MIT
+maintainer: TonGerner
+modified: 20180610124712472
+modifier: TonGerner
+name: List recent results
+plugin_tiddler: $:/plugins/tongerner/listrecent
+release: 
+repository: 
+revision: 0.1.1
+short_description: List recent results; each day in alphabetical order 
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - listrecent
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20listrecent
+
+This plugin overrides the core macro [[$:/core/macros/timeline]] to sort the recent results each day in alphabetical order.
+
+<<<
+''Note:''<br>
+In case you want the possibility to enable/disable the listrecent plugin, drag & drop $:/_toggle-listrecent-plugin-button (available at http://tongerner.tiddlyspot.com/) to your TW5.<br>It creates a button in the right topbar which enables/disables the listrecent plugin. ''You need to click this button twice to perform the action!''
+<<<

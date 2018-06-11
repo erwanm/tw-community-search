@@ -1,0 +1,51 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #011
+created: 20150119003032230
+modified: 20150119035250802
+original-tags: HangOut_011 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #011
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23011
+
+\define hangout() 011
+
+<<header>>
+"""
+<<topic "0:00:00" "fltr: Craig Prichard, David Gifford, Eric Shulman, Jeremy Ruston, Kolmar Kafran, Mario Pietsch, Scott Simmons, Simon Harper, Tobias Beer">>
+<<topic "0:03:45" "Agenda">>
+<<topic "0:04:24" "Jeremy- New Features TW5 - new WikiInfo tiddler">>
+<<topic "0:06:00" "Jeremy- ControlPanel - AnimationDuration tiddler">>
+<<topic "0:07:35" "Jeremy- ThemeTweaks - and how it works with transclusion ...">>
+<<topic "0:11:30" "Jeremy- ThemeTweaks with FF - change story column and colors">>
+<<topic "0:16:05" "Jeremy- AndTidWiki app support">>
+<<topic "0:19:00" "Jeremy/Scott- MathML support">>
+<<topic "0:22:45" "Mario/Jeremy- What was the problem with MathJax">>
+<<topic "0:25:35" "Jeremy- 'What we need is a LaTeX parser ...'">>
+<<topic "0:26:05" "Jeremy- Moving from Alpha to Beta">>
+<<topic "0:27:20" "J- 'We should push to NPM' (node package manager)">>
+<<topic "0:28:00" "J- 'We need Release note and Release announcements'">>
+<<topic "0:28:40" "J- about the update / upgrade mechanism">>
+<<topic "0:29:18" "Scott/Jeremy - Live cycle of TW-classic / Migration points?">>
+<<topic "0:32:23" "Jeremy- When switch tiddlywiki.com to TW5">>
+<<topic "0:34:20" "Jeremy- Analytics about tiddlywiki.com">>
+<<topic "0:38:10" "Jeremy- 'TiddlyWiki-classic is a extremely usefull tool'">>
+<<topic "0:40:35" "Jeremy- There should be a solid upgrade story for TW5!">>
+<<topic "0:42:43" "Dave- Browser back/forward button should work">>
+<<topic "0:44:45" "Dave- about permalinks">>
+<<topic "0:46:00" "Jeremy- Wikitext changes may be disruptive">>
+<<topic "0:47:13" "Scott/Jeremy- about Syntax changes, in the middle of beta?!">>
+<<topic "0:51:25" "Jeremy- summs up from his 'take aways'">>
+<<topic "0:52:38" "Scott/Jeremy- about the show stoppers to beta">>
+<<topic "0:54:20" "Jeremy- TiddlerLink should not be bold. But this causes some 'hickups'">>
+<<topic "0:59:53" "Jeremy- about TiddlerWidget and TranscludeWidget">>
+<<topic "1:06:08" "Jeremy- New way of handling the ViewTemplate">>
+<<topic "1:11:45" "Craig- What defines the order to build the ViewTemplate?">>
+<<topic "1:15:15" "Jeremy/Kolmar- about MathML with FF">>
+<<topic "1:23:23" "Jeremy- any questions?">>
+<<topic "1:23:40" "Kolmar- How to handle images .. eg: SVGs for diagrams">>
+<<topic "1:25:10" "Jeremy- Inserts an image to TW5 and transclude them">>
+<<topic "1:29:10" "Jeremy- needs a pause ...">>
+<<topic "1:30:27" "Jeremy- is back">>
+<<topic "1:30:55" "Jeremy- Any more questions?">>
+<<topic "1:32:40" "Jeremy/Kolmar about translation into portuguese">>
+<<topic "1:34:34" "Kolmar about moneylog ... has an offline version similar to TW">>
+<<topic "1:41:08" "Bye! Bye!">>

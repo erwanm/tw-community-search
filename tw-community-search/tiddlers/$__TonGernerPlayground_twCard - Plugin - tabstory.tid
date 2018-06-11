@@ -1,0 +1,27 @@
+title: $:/TonGernerPlayground/twCard - Plugin - tabstory
+audience: 
+category: Layout
+created: 20160123121815928
+creator: TonGerner
+date: 10-06-2018
+homepage: http://tongerner.tiddlyspot.com/
+install_link: 
+language: English
+license: MIT
+maintainer: TonGerner
+modified: 20180610130656331
+modifier: TonGerner
+name: Tabstory
+plugin_tiddler: $:/plugins/tongerner/tabstory
+release: 
+repository: 
+revision: 0.1.1
+short_description: 'Breadcrumbs' (tabs) on top of story-river
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - tabstory
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20tabstory
+
+Alternative to my [[Tiddlersbar (breadcrumbs) plugin|http://tongerner.tiddlyspot.com/]], based on the work of [[Rich Rath (rcrath)|https://github.com/rcrath/TW5-TabStory/issues]].<br>
+Here the breadcrumbs are on top of the story-river. It works best in Zoomin view.

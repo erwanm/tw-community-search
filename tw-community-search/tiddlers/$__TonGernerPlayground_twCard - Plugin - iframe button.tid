@@ -1,0 +1,26 @@
+title: $:/TonGernerPlayground/twCard - Plugin - iframe button
+audience: 
+category: Editor
+created: 20180610140132382
+creator: TonGerner
+date: 10-06-2018
+homepage: http://tongerner.tiddlyspot.com/
+install_link: 
+language: English
+license: MIT
+maintainer: TonGerner
+modified: 20180610141336220
+modifier: TonGerner
+name: Iframe button
+plugin_tiddler: $:/plugins/tongerner/iframe-button
+release: 
+repository: 
+revision: 0.1.1
+short_description: Adds an iframe button
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - iframe button
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20iframe%20button
+
+A button for the Editor toolbar that inserts an iframe.

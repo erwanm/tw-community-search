@@ -1,0 +1,34 @@
+title: $:/TonGernerPlayground/twCard - Plugin - readonly
+audience: 
+category: Layout
+created: 20180610124848549
+creator: TonGerner
+date: 10-06-2018
+homepage: http://tongerner.tiddlyspot.com/
+install_link: 
+language: English
+license: MIT
+maintainer: TonGerner
+modified: 20180610125839853
+modifier: TonGerner
+name: Readonly plugin
+plugin_tiddler: $:/plugins/tongerner/ro
+release: 
+repository: 
+revision: 0.1.1
+short_description: Make TW readonly
+wiki: http://tongerner.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: twCard - Plugin - readonly
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20readonly
+
+A plugin to make ~TiddlyWiki read-only.
+
+You can hide:
+
+* ''All'' toolbar buttons
+* 'Sidebar' button (to switch Sidebar) and 'Advanced search' button (next to Search)
+* ''All'' Sidebar tabs, even user added tabs.
+
+Click the Publish button next to the sidebar button to start making your TW 'publish-ready'.  A new window with four tabs opens. Follow the 5 steps.
