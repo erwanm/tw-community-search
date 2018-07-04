@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20180610132833532
+modified: 20180703111328046
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,9 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 3-7-2018
+* Upgraded 'Customization' guide
 
 !!! 10-6-2018
 * Re-added twCards for plugins
