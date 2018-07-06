@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20180530151829687
+modified: 20180705115235351
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v6.15 (5-7-2018)
+* Top toolbar: added Field handling in view mode
 
 !!!!v6.14 (30-5-2018)
 * Upgraded to TW v5.1.17
