@@ -1,0 +1,18 @@
+title: $:/t5a/Create color SVG icon from gif
+created: 20180715221622991
+creator: Andrew Harrison
+modified: 20180716020624008
+modifier: Andrew Harrison
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: Create color SVG icon from gif
+source-tiddler-title-as-link: Create%20color%20SVG%20icon%20from%20gif
+
+#With paint.net fill inside and out with Tolerance 33% all areas of gif with alternate color and then white to get thin lined gif.
+#With Inkscape select the thin lined image and then do Path | Trace Bitmap... with settings of Brightness cutoff Threshold of 0.001, Edge detection (selected) with Threshold of 0.000 and with Smooth deselected and Remove background selected.
+#View | Display mode | Outline and Edit paths by nodes tool to remove excess nodes by selecting them and hitting delete key. When done set Display mode | Normal.
+#With Inkscape open color image on half and thin lined image on other half of screen.
+#Select a color using Pick color using image tool to get RGB codes from Fill and Stroke (Shift + Ctrl + F) on the Fill tab and input RGB numbers into the Fill and Stroke on the Fill Tab in the thin lined image. Select Flat color to display the input fields.
+#Fill each area that needs colored with Threshold 100. For smaller area's, it may be necessary to Grow/shrink by 0.30 px in order to completely fill with no white space. Make sure white space is filled with white space by filling with other color and then selecting the space and changing to white to prevent it from being a transparent space.
+#Save as Inkscape SVG and then save it again as Optimized SVG file with select options selected and Number of significant digits for coordinates 3. On SVG Output tab select options selected and Depth of indentation 0. On IDs tab select Remove unused IDs.
+#Use http://editor.method.ac/ to make sure background is transparent but white spaces are white.
