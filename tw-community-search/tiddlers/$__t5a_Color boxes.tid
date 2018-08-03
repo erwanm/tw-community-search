@@ -1,0 +1,32 @@
+title: $:/t5a/Color boxes
+created: 20180802052728997
+creator: Andrew Harrison
+modified: 20180803022021142
+modifier: Andrew Harrison
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: Color boxes
+source-tiddler-title-as-link: Color%20boxes
+
+|Red|<div class="cell red">#e6194b</div>|
+|Green|<div class="cell green">#3cd44b</div>|
+|Yellow|<div class="cell yellow">#ffe119</div>|
+|Blue|<div class="cell blue">#0082c8</div>|
+|Orange|<div class="cell orange">#f58231</div>|
+|Purple|<div class="cell purple">#911eb4</div>|
+|Cyan|<div class="cell cyan">#46f0f0</div>|
+|Magenta|<div class="cell magenta">#f032e6</div>|
+|Lime|<div class="cell lime">#d2f53c</div>|
+|Pink|<div class="cell pink">#fabebe</div>|
+|Teal|<div class="cell teal">#008080</div>|
+|Lavender|<div class="cell lavender">#e6beff</div>|
+|Brown|<div class="cell brown">#aa6e28</div>|
+|Beige|<div class="cell beige">#fffac8</div>|
+|Maroon|<div class="cell maroon">#800000</div>|
+|Mint|<div class="cell mint">#aaffc3</div>|
+|Olive|<div class="cell olive">#808000</div>|
+|Coral|<div class="cell coral">#ffd8b1</div>|
+|Navy|<div class="cell navy">#000080</div>|
+|Grey|<div class="cell grey">#808080</div>|
+|White|<div class="cell white">#FFFFFF</div>|
+|Black|<div class="cell black">@@color:#ffffff;#000000@@</div>|
