@@ -1,7 +1,7 @@
 title: $:/t5a/Color boxes
 created: 20180802052728997
 creator: Andrew Harrison
-modified: 20180803150042933
+modified: 20180804064754999
 modifier: Andrew Harrison
 original-tags: 
 source-wiki-id: t5a
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: Color%20boxes
 |Blue|<div class="cell blue">@@color:#ff0;#00f@@</div>|Yellow|<div class="cell yellow">@@color:#00f;#ff0@@</div>|
 |Orange|<div class="cell orange">#f90</div>|
 |Lime|<div class="cell lime">#cf0</div>|
-|Pink|<div class="cell pink">#f6c</div>|Teal|<div class="cell teal">#066</div>|
+|Rose|<div class="cell rose">@@color:#096;#f69@@</div>|Teal|<div class="cell teal">@@color:#f69;#096@@</div>|
 |Navy|<div class="cell navy">@@color:#ffff7f;#000080@@</div>|
 |Purple|<div class="cell purple">#911eb4</div>|
 |Lavender|<div class="cell lavender">#e6beff</div>|
