@@ -1,7 +1,7 @@
 title: $:/t5a/Color boxes
 created: 20180802052728997
 creator: Andrew Harrison
-modified: 20180804064754999
+modified: 20180805064019033
 modifier: Andrew Harrison
 original-tags: 
 source-wiki-id: t5a
@@ -14,15 +14,16 @@ source-tiddler-title-as-link: Color%20boxes
 |Orange|<div class="cell orange">#f90</div>|
 |Lime|<div class="cell lime">#cf0</div>|
 |Rose|<div class="cell rose">@@color:#096;#f69@@</div>|Teal|<div class="cell teal">@@color:#f69;#096@@</div>|
-|Navy|<div class="cell navy">@@color:#ffff7f;#000080@@</div>|
-|Purple|<div class="cell purple">#911eb4</div>|
-|Lavender|<div class="cell lavender">#e6beff</div>|
-|Brown|<div class="cell brown">#aa6e28</div>|
+|New Midnight Blue|<div class="cell newmidnightblue">@@color:#ff6;#009@@</div>|Laser Lemon|<div class="cell laserlemon">@@color:#009;#ff6@@</div>|
+|Purple|<div class="cell purple">@@color:#6f6;#909@@</div>|Mint|<div class="cell mint">@@color:#909;#6f6@@</div>|
+|Lavender|<div class="cell lavender">#96c</div>|Limeade|<div class="cell limeade">#693</div>|
+|Brown|<div class="cell brown">@@color:#69c;#963@@</div>|Picton|<div class="cell picton">@@color:#963;#69c@@</div>|
 |Beige|<div class="cell beige">#fffac8</div>|
-|Maroon|<div class="cell maroon">#800000</div>|
-|Mint|<div class="cell mint">#aaffc3</div>|
-|Olive|<div class="cell olive">#808000</div>|
+|Crimson|<div class="cell crimson">@@color:#6ff;#900@@</div>|Baby Blue|<div class="cell babyblue">@@color:#900;#6ff@@</div>|
+|Citrus|<div class="cell citrus">#990</div>|Slate Blue|<div class="cell slateblue">#66f</div>|
 |Coral|<div class="cell coral">#ffd8b1</div>|
-|Grey|<div class="cell grey">#808080</div>|
-|White|<div class="cell white">#FFFFFF</div>|
-|Black|<div class="cell black">@@color:#ffffff;#000000@@</div>|
+|Silver|<div class="cell silver">#ccc</div>|Night Rider|<div class="cell nightrider">#333</div>|
+|Nobel|<div class="cell nobel">#999</div>|Dim Gray|<div class="cell dimgray">#666</div>|
+|White|<div class="cell white">#fff</div>|Black|<div class="cell black">@@color:#fff;#000@@</div>|
+|Midnight Express|<div class="cell midnightexpress">@@color:#fff;#003@@</div>|
+|Peach-Orange|<div class="cell peachorange">@@color:#000;#fc9@@</div>|
