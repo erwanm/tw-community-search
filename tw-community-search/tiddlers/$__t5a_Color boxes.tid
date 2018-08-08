@@ -1,7 +1,7 @@
 title: $:/t5a/Color boxes
 created: 20180802052728997
 creator: Andrew Harrison
-modified: 20180807015518313
+modified: 20180808015338845
 modifier: Andrew Harrison
 original-tags: 
 source-wiki-id: t5a
@@ -9,18 +9,42 @@ source-tiddler-title-as-text: Color boxes
 source-tiddler-title-as-link: Color%20boxes
 
 |Red|<div class="cell red">@@color:#0ff;#f00@@</div>|Cyan|<div class="cell cyan">@@color:#f00;#0ff@@</div>|
-|Lime|<div class="cell lime">@@color:#f0f;#0f0@@</div>|Fuchsia|<div class="cell fuchsia">@@color:#0f0;#f0f@@</div>|
-|Blue|<div class="cell blue">@@color:#ff0;#00f@@</div>|Yellow|<div class="cell yellow">@@color:#00f;#ff0@@</div>|
-|Orange Peel|<div class="cell orangepeel">#f90</div>|
+|Red Orange|<div class="cell redorange">@@color:#0cc;#f33@@</div>|Robin's Egg Blue|<div class="cell robinseggblue">@@color:#f33;#0cc@@</div>|
+|Bittersweet|<div class="cell bittersweet">@@color:#099;#f66@@</div>|Persian Green|<div class="cell persiangreen">@@color:#f66;#099@@</div>|
+|Mona Lisa|<div class="cell monalisa">@@color:#066;#f99@@</div>|Mosque|<div class="cell mosque">@@color:#f99;#066@@</div>|
+|Cosmos|<div class="cell cosmos">@@color:#033;#fcc@@</div>|Cyprus|<div class="cell cyprus">@@color:#fcc;#033@@</div>|
+
+|Scarlet|<div class="cell scarlet">@@color:#0cf;#f30@@</div>|Deep Sky Blue|<div class="cell deepskyblue">@@color:#f30;#0cf@@</div>|
+|Safety Orange|<div class="cell safetyorange">@@color:#09f;#f60@@</div>|Azure Radiance|<div class="cell azureradiance">@@color:#f60;#09f@@</div>|
+|Orange Peel|<div class="cell orangepeel">@@color:#06f;#f90@@</div>|Navy Blue|<div class="cell navyblue">@@color:#f90;#06f@@</div>|
+|Tangerine Yellow|<div class="cell tangerineyellow">@@color:#03f;#fc0@@</div>|Blue Ribbon|<div class="cell blueribbon">@@color:#fc0;#03f@@</div>|
+
+|Yellow|<div class="cell yellow">@@color:#00f;#ff0@@</div>|Blue|<div class="cell blue">@@color:#ff0;#00f@@</div>|
+|Gorse|<div class="cell gorse">@@color:#00c;#ff3@@</div>|Medium Blue|<div class="cell mediumblue">@@color:#ff3;#00c@@</div>|
+|Laser Lemon|<div class="cell laserlemon">@@color:#009;#ff6@@</div>|New Midnight Blue|<div class="cell newmidnightblue">@@color:#ff6;#009@@</div>|
+|Canary|<div class="cell canary">@@color:#006;#ff9@@</div>|Navy|<div class="cell navy">@@color:#ff9;#006@@</div>|
+|Cream|<div class="cell cream">@@color:#003;#ffc@@</div>|Midnight Express|<div class="cell midnightexpress">@@color:#ffc;#003@@</div>|
+
 |Peach-Orange|<div class="cell peachorange">@@color:#000;#fc9@@</div>|
-|Cream|<div class="cell cream">#ffc</div>|
-|Electric Lime|<div class="cell electriclime">#cf0</div>|
+
+|Lime|<div class="cell lime">@@color:#f0f;#0f0@@</div>|Fuchsia|<div class="cell fuchsia">@@color:#0f0;#f0f@@</div>|
+|Strong Lime Green|<div class="cell stronglimegreen">@@color:#f3f;#0c0@@</div>|Magenta|<div class="cell magenta">@@color:#0c0;#f3f@@</div>|
+|Japanese Laurel|<div class="cell japaneselaurel">@@color:#f6f;#090@@</div>|Pink Flamingo|<div class="cell pinkflamingo">@@color:#090;#f6f@@</div>|
+|Green|<div class="cell green">@@color:#f9f;#060@@</div>|Violet|<div class="cell violet">@@color:#060;#f9f@@</div>|
+|Myrtle|<div class="cell myrtle">@@color:#fcf;#030@@</div>|Snuff|<div class="cell snuff">@@color:#030;#fcf@@</div>|
+
+|Free Speech Red|<div class="cell freespeechred">@@color:#3ff;#c00@@</div>|Aqua|<div class="cell aqua">@@color:#c00;#3ff@@</div>|
+|Dark Red|<div class="cell darkred">@@color:#6ff;#900@@</div>|Baby Blue|<div class="cell babyblue">@@color:#900;#6ff@@</div>|
+|Maroon|<div class="cell maroon">@@color:#9ff;#600@@</div>|Electric Blue|<div class="cell electricblue">@@color:#600;#9ff@@</div>|
+|Seal Brown|<div class="cell sealbrown">@@color:#cff;#300@@</div>|Light Cyan|<div class="cell lightcyan">@@color:#300;#cff@@</div>|
+
+|Electric Lime|<div class="cell electriclime">@@color:#30f;#cf0@@</div>|Han Purple|<div class="cell hanpurple">@@color:#cf0;#30f@@</div>|
 |Brilliant Rose|<div class="cell brilliantrose">@@color:#096;#f69@@</div>|Shamrock Green|<div class="cell shamrockgreen">@@color:#f69;#096@@</div>|
 |Dark Magenta|<div class="cell darkmagenta">@@color:#6f6;#909@@</div>|Light Lime Green|<div class="cell lightlimegreen">@@color:#909;#6f6@@</div>|
-|Dark Red|<div class="cell darkred">@@color:#6ff;#900@@</div>|Baby Blue|<div class="cell babyblue">@@color:#900;#6ff@@</div>|
+
 |Citrus|<div class="cell citrus">#990</div>|Medium Slate Blue|<div class="cell mediumslateblue">#66f</div>|
-|Japanese Laurel|<div class="cell japaneselaurel">@@color:#f6f;#090@@</div>|Pink Flamingo|<div class="cell pinkflamingo">@@color:#090;#f6f@@</div>|
-|New Midnight Blue|<div class="cell newmidnightblue">@@color:#ff6;#009@@</div>|Laser Lemon|<div class="cell laserlemon">@@color:#009;#ff6@@</div>|
+
+
 |Amethyst|<div class="cell amethyst">#96c</div>|Limeade|<div class="cell limeade">#693</div>|
 |Mai Tai|<div class="cell maitai">@@color:#69c;#963@@</div>|Picton Blue|<div class="cell pictonblue">@@color:#963;#69c@@</div>|
 |Nobel|<div class="cell nobel">#999</div>|Dim Gray|<div class="cell dimgray">#666</div>|
