@@ -6,7 +6,7 @@ description: Tinka - an easy plugin packer
 list: readme usage license
 revision: 0
 source: http://tinkaplugin.github.io
-version: 0.3.0
+version: 0.4.0
 original-tags: 
 source-wiki-id: SimpleCalendarPlugin
 source-tiddler-title-as-text: $:/plugins/ahahn/tinka
