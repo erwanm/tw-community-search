@@ -5,9 +5,9 @@ created: 20140901105647564
 description: FontAwesome embedded font support for TW5
 fa-version: 5.2.0
 list: readme license history
-modified: 20180731174505760
+modified: 20180818153344894
 source: https://github.com/TheDiveO/TW5FontAwesome
-version: 1.2.12
+version: 1.2.13
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/TheDiveO/FontAwesome
