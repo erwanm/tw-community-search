@@ -1,0 +1,10 @@
+title: $:/TiddlyMap/Code Improvements
+created: 20180916143545163
+modified: 20180916143624730
+tmap.id: a0bf5884-9e8e-45f6-b66b-bb410472cfe3
+original-tags: Challenges
+source-wiki-id: TiddlyMap
+source-tiddler-title-as-text: Code Improvements
+source-tiddler-title-as-link: Code%20Improvements
+
+This refers to refactoring code, fixing bugs and making things prettier under the hood.
