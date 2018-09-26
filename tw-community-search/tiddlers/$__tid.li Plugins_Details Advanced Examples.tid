@@ -2,7 +2,7 @@ title: $:/tid.li Plugins/Details Advanced Examples
 caption: Test new stuff
 created: 20170128161049731
 creator: Thomas Elmiger
-modified: 20170202210050709
+modified: 20180925214620910
 modifier: Thomas Elmiger
 priority: W
 original-tags: DetailsWidget
@@ -75,7 +75,7 @@ Summary and details come from the tiddler FollowMe.
 
 <$details tiddler="FollowMe">
 
-Thomas Elmiger
+''Thomas Elmiger''
 
 {{FollowMe}}
 
