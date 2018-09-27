@@ -6,7 +6,7 @@ accordion4:
 caption: details
 created: 20170130234539362
 creator: Thomas Elmiger
-modified: 20180925155941405
+modified: 20180926200742500
 modifier: Thomas Elmiger
 priority: W
 type: text/vnd.tiddlywiki
@@ -52,19 +52,19 @@ The RevealWidget can be used in similar ways, it hides or shows its content depe
 
 </$details>
 
-<$details class="warning" summary="Missing Browser Support" state="!!accordion3">
+<$details class="notification" summary="Missing Browser Support" state="!!accordion3">
 
-* Microsoft has not yet implemented details/summary in their ''Edge'' browser. It is listed with “Roadmap Priority: Medium — Development is likely for a future release” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
-* ''Internet Explorer'' in general and ''Firefox before Version 49'' do not support details/summary either.
-* Other browsers might not support animation effects on opening or closing – at least not in early 2017.
-* Apple iOS mobile browsers lack support of toggle events on details. Therefore we emulate the toggle event using click. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. Firefox mobile seems to work.
-* See http://caniuse.com/#search=details for other browsers and updated information.
+* Microsoft has tried to implement details/summary in their ''Edge'' browser without success. In September 2018 it was listed with “Roadmap Priority: High — We intend to begin development soon.” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
+* ''Internet Explorer'' in general and ''Opera Mini'' do not support details/summary.
+* Other browsers might not support animation effects on opening or closing – one Android browser has problems with accessibility.
+* Apple iOS mobile browsers lacked support of toggle events on details when this was developped, therefore we emulate it using click events. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. 
+* See https://caniuse.com/#search=details for other browsers and updated information.
 
 </$details>
 
 <$details summary="What is needed to use and style the details widget"  state="!!accordion4">
 
-While the author hopes that this handy widget will be part of the core sooner or later, for the moment you will have to drag these two links over to your wiki:
+The author hopes that this handy widget will be part of the official plugin library at some time (and maybe in the core later). For the moment you will have to [[import the DetailsWidget plugin|https://tid.li/tw5/plugins.html]] or drag these links over to your wiki:
 
 !!! Details Components
 * the widget: $:/plugins/telmiger/details/details.js

@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Work-Report
 created: 20170411185841380
 creator: Thomas Elmiger
-modified: 20170413195932569
+modified: 20180527131549228
 modifier: Thomas Elmiger
 original-tags: Reporting [[ToDo Addons]] Plugins
 source-wiki-id: TW5Hacks
@@ -19,7 +19,7 @@ source-tiddler-title-as-link: Work-Report
 <$set name="reportDaysTiddler" value="$:/temp/report-days">
 <$linkcatcher to="$:/temp/report-days">
 
-@@.todo-search
+@@.lr-search
 <div class="tc-search tdn-report-search">
 <$wikify name="placeholder" text=<<telang no.>> >
 <$edit-text tiddler=<<reportDaysTiddler>> type="search" tag="input" placeholder=<<placeholder>> default="1" size="2" focus="true"/>

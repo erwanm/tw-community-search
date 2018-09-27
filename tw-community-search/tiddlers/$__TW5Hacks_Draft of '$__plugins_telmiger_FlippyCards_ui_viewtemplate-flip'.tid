@@ -1,0 +1,74 @@
+title: $:/TW5Hacks/Draft of '$:/plugins/telmiger/FlippyCards/ui/viewtemplate-flip'
+created: 20180501194329173
+creator: Thomas Elmiger
+draft.of: $:/plugins/telmiger/FlippyCards/ui/viewtemplate-flip
+draft.title: $:/plugins/telmiger/FlippyCards/ui/viewtemplate-flip
+list-before: $:/core/ui/ViewTemplate/title
+modified: 20180508055314156
+modifier: Thomas Elmiger
+original-tags: $:/tags/ViewTemplate TemplateTiddler Cardy
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Draft of '$:/plugins/telmiger/FlippyCards/ui/viewtemplate-flip'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugins%2ftelmiger%2fFlippyCards%2fui%2fviewtemplate-flip%27
+
+<$list filter="[all[current]tag[CardyCard]][all[current]tag[CardyCardDone]]">
+<$set name="master" filter="[all[current]lr-mastertiddler[yes]]" emptyValue={{!!lr-mastertiddler}}>
+<$set name="cardid" filter="[<master>removesuffix[A]]">
+<$wikify name="cardmode" text="$:/state/cardy/<<cardid>>mode">
+<$wikify name="cardstate" text="$:/state/cardy/<<cardid>>side">
+<$wikify name="infostate" text="$:/state/cardy/<<cardid>>info">
+<div class="tc-tiddler-body">
+	<div class="te-cardy-actions">
+<$reveal type="match" state=<<cardmode>> text="view">
+<$wikify name="tt" text="<<telang Edit>>">
+<$macrocall $name="teBtnEditLight" text="edit" tiddler=<<cardmode>> tooltip=<<tt>> class="te-cardy-edit"/>
+</$wikify>
+</$reveal>
+<$reveal type="match" state=<<cardmode>> text="edit">
+<$macrocall $name="teBtnSetTiddler" text="view" btntext="{{$:/core/images/done-button}}" tiddler=<<cardmode>> tooltip="confirm changes" class="te-cardy-edit"/>
+</$reveal>
+{{||$:/plugins/telmiger/FlippyCards/ui/buttons/active-inactive}}
+<$reveal type="match" state=<<cardmode>> text="edit">
+{{||$:/plugins/telmiger/FlippyCards/ui/buttons/delete}}
+</$reveal>
+{{||$:/plugins/telmiger/FlippyCards/ui/buttons/close}}
+	</div>
+<$checkbox class="cardy" checked="B" unchecked="A" default="A" tiddler=<<cardstate>> field="text">{{$:/plugins/telmiger/FlippyCards/ui/buttons/flip-pseudo}}
+<div class="card">
+<$list filter="""[prefix<cardid>suffix[A]]""" variable="currentTiddler">
+	<div class="front">
+<article class="te-cardy-content">
+<$reveal type="match" state=<<cardmode>> text="view">
+<span title={{!!title}}>{{||$:/plugins/telmiger/FlippyCards/ui/templates/SingleCard}}</span>
+</$reveal>
+<$reveal type="match" state=<<cardmode>> text="edit">
+{{||$:/plugins/telmiger/FlippyCards/ui/templates/SingleCardEdit}}
+</$reveal>
+</article>
+	</div>
+</$list>
+   <div class="back">
+<$list filter="""[prefix<cardid>!suffix[A]]"""
+variable="currentTiddler">
+<article class="te-cardy-content">
+<$reveal type="match" state=<<cardmode>> text="view">
+<span title={{!!title}}>{{||$:/plugins/telmiger/FlippyCards/ui/templates/SingleCard}}</span>
+</$reveal>
+<$reveal type="match" state=<<cardmode>> text="edit">
+{{||$:/plugins/telmiger/FlippyCards/ui/templates/SingleCardEdit}}
+</$reveal>
+</article>
+</$list>
+   </div>
+</div>
+</$checkbox>
+</div>
+<$reveal type="match" tag="nav" state="$:/plugins/telmiger/FlippyCards/settings##showStoryNav" text="yes">
+{{||$:/plugins/telmiger/lib/telements/story-nav}}
+</$reveal>
+</$wikify>
+</$wikify>
+</$wikify>
+</$set>
+</$set>
+</$list>

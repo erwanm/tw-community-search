@@ -6,7 +6,7 @@ accordion4:
 caption: details
 created: 20170130234539362
 creator: Thomas Elmiger
-modified: 20170618124748029
+modified: 20180926200742500
 modifier: Thomas Elmiger
 priority: W
 type: text/vnd.tiddlywiki
@@ -42,36 +42,36 @@ The first [[summary|http://w3c.github.io/html/interactive-elements.html#elementd
 
 </$details>
 
-<$details summary="Compare the DeatilsWidget and the RevealWidget" state="!!accordion2">
+<$details summary="Compare the RevealWidget and the DeatilsWidget" state="!!accordion2">
 
 The RevealWidget can be used in similar ways, it hides or shows its content depending upon the value of a [[state tiddler|StateTiddlers]]. It is worth noting that:
 
 * The DetailsWidget in its most simple form is independet from a state tiddler. It’s open or closed state falls back to the original state whenever a tiddler or wiki ist refreshed in the browser. 
 * Without a state reference, content can be revealed instantaneous because it is the browser alone that shows or hides it. No TiddlyWiki rendering is needed. 
 * However you can optionally use a //state// reference: a tiddler, field or index that will be updated automagically every time when details is opened or closed. The referenced text must be "open" to show the details. The RevealWidget in contrast can check for any given text.
-* While the RevealWidget can reveal almost anything, the DetailsWidget displays primarily a standard element which of course can contain other elements and can be styled using CSS.
 
 </$details>
 
-<$details class="warning" summary="Missing Browser Support" state="!!accordion3">
+<$details class="notification" summary="Missing Browser Support" state="!!accordion3">
 
-* Microsoft has not yet implemented details/summary in their ''Edge'' browser. It is listed with “Roadmap Priority: Medium — Development is likely for a future release” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
-* ''Internet Explorer'' in general and ''Firefox before Version 49'' do not support details/summary either.
-* Other browsers might not support animation effects on opening or closing – at least not in early 2017.
-* Apple iOS mobile browsers lack support of toggle events on details. Therefore we emulate the toggle event using click. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. Firefox mobile seems to work.
-* See http://caniuse.com/#search=details for other browsers and updated information.
+* Microsoft has tried to implement details/summary in their ''Edge'' browser without success. In September 2018 it was listed with “Roadmap Priority: High — We intend to begin development soon.” – see their [[Platform status|https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/]].
+* ''Internet Explorer'' in general and ''Opera Mini'' do not support details/summary.
+* Other browsers might not support animation effects on opening or closing – one Android browser has problems with accessibility.
+* Apple iOS mobile browsers lacked support of toggle events on details when this was developped, therefore we emulate it using click events. In mobile Safari this can have the side effect, that users must tap twice to open/close details or to activate links in details. 
+* See https://caniuse.com/#search=details for other browsers and updated information.
 
 </$details>
 
 <$details summary="What is needed to use and style the details widget"  state="!!accordion4">
 
-While the author hopes that this handy widget will be part of the core sooner or later, for the moment you will have to drag these two links over to your wiki:
+The author hopes that this handy widget will be part of the official plugin library at some time (and maybe in the core later). For the moment you will have to [[import the DetailsWidget plugin|https://tid.li/tw5/plugins.html]] or drag these links over to your wiki:
 
 !!! Details Components
 * the widget: $:/plugins/telmiger/details/details.js
 * the styles: $:/plugins/telmiger/details/details.css
+* the colours: $:/plugins/telmiger/details/colours.css
 
-''Important:'' I am not a javascript expert! So ''do yourself a favour and save a backup'' of your wiki first. After importing you will have to reload so the widget’s script can take effect. 
+''Important:'' This solution worked for me and for others, but I am not a javascript expert! So ''do yourself a favour and save a backup'' of your wiki first. After importing you will have to reload so the widget’s script can take effect. 
 
 {{!!widget-author}}
 
@@ -96,7 +96,7 @@ How the content of the `<$details>` widget is displayed depends on the parameter
 |state |An optional TextReference containing the state. Wins over open. |
 |field |Optionally, the summary is taken from the field with this name in a given tiddler. Defaults to "title". |
 |tiddler |Optional title of a tiddler to watch, connected to field. Defaults to current tiddler. |
-|class |Optional CSS classes to be assigned to the details tag. |
+|class |Optional CSS classes to be assigned to the details tag. Predefined: "notification", "warning", "success"|
 
 !! Examples
 

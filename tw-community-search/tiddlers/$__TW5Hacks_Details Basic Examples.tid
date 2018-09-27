@@ -1,10 +1,10 @@
 title: $:/TW5Hacks/Details Basic Examples
 created: 20170130231930345
 creator: Thomas Elmiger
-modified: 20170202210200584
+modified: 20180926194830963
 modifier: Thomas Elmiger
 priority: W
-widget-author: <$details summary="Author" tiddler="FollowMe"> ''Thomas Elmiger'' <$transclude tiddler="FollowMe" mode="block"/></$details>
+widget-author: <$details summary="Author" tiddler="FollowMe"> <p>''Thomas Elmiger''</p> <$transclude tiddler="FollowMe" mode="block"/></$details>
 original-tags: DetailsWidget
 source-wiki-id: TW5Hacks
 source-tiddler-title-as-text: Details Basic Examples

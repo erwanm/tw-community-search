@@ -1,0 +1,23 @@
+title: $:/TW5Hacks/Draft of '$:/plugins/telmiger/FlippyCards/ui/buttons/edit-light'
+created: 20180508054923782
+creator: Thomas Elmiger
+draft.of: $:/plugins/telmiger/FlippyCards/ui/buttons/edit-light
+draft.title: $:/plugins/telmiger/FlippyCards/ui/buttons/edit-light
+modified: 20180508182043678
+modifier: Thomas Elmiger
+original-tags: $:/tags/Macro Cardy
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Draft of '$:/plugins/telmiger/FlippyCards/ui/buttons/edit-light'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2fplugins%2ftelmiger%2fFlippyCards%2fui%2fbuttons%2fedit-light%27
+
+\define teBtnEditLight(tiddler,btntext:"{{$:/plugins/telmiger/lib/icons/pencil}}",tooltip:"",tip:"_false_",text,class:"")
+<$vars btnclass="te-btn-action te-edit-light $class$" tip="$tip$">
+<$set name="mytip" filter="""[<tip>removeprefix[_false_]]""" emptyValue='<span class="te-tip">$tip$</span>'>
+<$button class=<<btnclass>> tooltip="""$tooltip$""">
+<$action-setfield $tiddler="""$tiddler$""" $value="""$text$""" />
+$btntext$
+<<mytip>>
+</$button>
+</$set>
+</$vars>
+\end

@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Cards Manager
 created: 20180414200016138
 creator: Thomas Elmiger
-modified: 20180426195216044
+modified: 20180527125855357
 modifier: Thomas Elmiger
 original-tags: Cardy
 source-wiki-id: TW5Hacks
@@ -9,10 +9,10 @@ source-tiddler-title-as-text: Cards Manager
 source-tiddler-title-as-link: Cards%20Manager
 
 \define filter-active() 
-[all[shadows+tiddlers]tag[CardyCard]tag{$:/state/listreveal/CardyCard-project}!sort[created]search{$:/temp/listreveal/CardsManager-active}]
+[all[shadows+tiddlers]tag[CardyCard]tag{$:/state/listreveal/ProjectSelect/CardyCard}!sort[created]search{$:/temp/listreveal/Search/CardsManager-active}]
 \end
 \define filter-inactive() 
-[all[shadows+tiddlers]tag[CardyCardDone]!sort[created]search{$:/temp/listreveal/CardsManager-inactive}]
+[all[shadows+tiddlers]tag[CardyCardDone]tag{$:/state/listreveal/ProjectSelect/CardyCardDone}!sort[created]search{$:/temp/listreveal/Search/CardsManager-inactive}]
 \end
 
 \define cardlistItem(tagExclude:"")
@@ -25,9 +25,9 @@ source-tiddler-title-as-link: Cards%20Manager
       </span>
       <span class="te-flex-item te-flex-half-full">
          <span class="te-flex-item te-flex-content te-flex-right">
-{{||$:/plugins/telmiger/cardy/ui/buttons/active-inactive}}
+{{||$:/plugins/telmiger/FlippyCards/ui/buttons/active-inactive}}
 <$reveal type="match" state="$:/state/listreveal-mode" text="edit">
-{{||$:/plugins/telmiger/cardy/ui/buttons/delete}}
+{{||$:/plugins/telmiger/FlippyCards/ui/buttons/delete}}
 </$reveal>
 <<teBtnEditShowModified>>
 <$wikify name="cl" text=<<telang close>> >
@@ -46,11 +46,11 @@ source-tiddler-title-as-link: Cards%20Manager
 
 <section class="todo-now listreveal">
 
-!! Active Cards <span class="te-flex-item te-flex-content te-flex-right">{{$:/plugins/telmiger/cardy/ui/buttons/new}}<<listrevealBtnEdit>></span>
+!! Active Cards <span class="te-flex-item te-flex-content te-flex-right">{{$:/plugins/telmiger/FlippyCards/ui/buttons/new}}<<listrevealBtnEdit>></span>
 
 <$wikify name="listfilter" text="""<<filter-active>>""">
 <div class="lr-search te-flex-item">
-<<listrevealSearch "active" "CardsManager">> <<listrevealProjectSelect CardyCard>>
+<<listrevealSearch "CardsManager-active">> <<listrevealProjectSelect CardyCard>>
 </div>
 <ul class="te-list">
 <$list filter=<<listfilter>>>
@@ -59,15 +59,17 @@ source-tiddler-title-as-link: Cards%20Manager
 </ul>
 </$wikify>
 
-{{$:/plugins/telmiger/cardy/ui/buttons/tag-update}}
+{{$:/plugins/telmiger/FlippyCards/ui/buttons/tag-update}}
 </section>
 
 <section class="todo-done listreveal-dim">
 
 !! Inactive Cards <span class="te-flex-item te-flex-content te-flex-right"><<listrevealBtnEdit>></span>
 
-<<listrevealSearch "inactive" "CardsManager">>
 <$wikify name="listfilter" text="""<<filter-inactive>>""">
+<div class="lr-search te-flex-item">
+<<listrevealSearch "CardsManager-inactive">> <<listrevealProjectSelect CardyCardDone>>
+</div>
 <ul class="te-list">
 <$list filter=<<listfilter>>>
 <<cardlistItem "CardyCardDone">>
@@ -75,7 +77,7 @@ source-tiddler-title-as-link: Cards%20Manager
 </ul>
 </$wikify>
 
-{{$:/plugins/telmiger/cardy/ui/buttons/tag-reuse}}
+{{$:/plugins/telmiger/FlippyCards/ui/buttons/tag-reuse}}
 </section>
 
 ---
