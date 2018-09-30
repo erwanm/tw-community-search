@@ -7,7 +7,7 @@ list: readme license
 modified: 20180925212742614
 name: Disclosure HTML element
 source: https://tid.li/tw5/plugins.html
-version: 0.7.3
+version: 0.7.4
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/details
