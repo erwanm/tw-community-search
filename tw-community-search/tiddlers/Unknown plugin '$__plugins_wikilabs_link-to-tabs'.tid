@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/wikilabs/link-to-tabs'
-name: unknown
-plugin_tiddler: $:/plugins/wikilabs/link-to-tabs
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
