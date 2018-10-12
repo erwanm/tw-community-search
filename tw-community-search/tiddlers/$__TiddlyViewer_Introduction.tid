@@ -1,0 +1,15 @@
+title: $:/TiddlyViewer/Introduction
+created: 20150813001851256
+modified: 20170527235925534
+original-tags: 
+source-wiki-id: TiddlyViewer
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin displays external pages fully formatted instead of as just plain text. By adding a ''tiddly'' field and path to an external page, it recognizes to display the page in an object frame. [[Example Tiddly]]<br>
+&emsp;&emsp;<mark>@@color:red; ''WARNING'' @@</mark>: Use of Tiddly Viewer to display untrusted web sites could be a security risk.<br>
+&emsp;&emsp;Simply drag $:/plugins/ajh/tiddlyviewer to the top of your tiddlywiki display, save and reload.<br>
+&emsp;&emsp;It includes the tiddlers below packed for easy use:<br>
+[[$:/plugins/ajh/tiddlyviewer/icon]]<br>
+[[$:/plugins/ajh/tiddlyviewer/stylesheet]]<br>
+[[$:/plugins/ajh/tiddlyviewer/template]]

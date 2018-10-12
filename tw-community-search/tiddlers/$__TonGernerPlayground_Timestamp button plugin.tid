@@ -1,0 +1,14 @@
+title: $:/TonGernerPlayground/Timestamp button plugin
+caption: Timestamp button
+created: 20170511194844538
+creator: TonGerner
+modified: 20171030202902460
+modifier: TonGerner
+original-tags: button
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Timestamp button plugin
+source-tiddler-title-as-link: Timestamp%20button%20plugin
+
+!! [[Timestamp button plugin]] v<<pversion "timestamp">>
+
+<<readme $:/plugins/tongerner/timestamp-button/readme $:/plugins/tongerner/timestamp-button>>

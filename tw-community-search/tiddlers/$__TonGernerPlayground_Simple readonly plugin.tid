@@ -1,0 +1,15 @@
+title: $:/TonGernerPlayground/Simple readonly plugin
+caption: Simple readonly
+created: 20170428153954892
+creator: TonGerner
+modified: 20180530143206384
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Simple readonly plugin
+source-tiddler-title-as-link: Simple%20readonly%20plugin
+
+!! [[Simple readonly plugin]] v<<pversion "sro">>
+
+<<readme $:/plugins/tongerner/sro/readme $:/plugins/tongerner/sro>>

@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tongerner/mark-button
+author: TonGerner
+core-version: >=5.1.15
+created: 20180203173037874
+description: Mark selected text
+list: readme
+modified: 20180220161249677
+name: Mark
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.3
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tongerner/mark-button
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftongerner%2fmark-button
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
