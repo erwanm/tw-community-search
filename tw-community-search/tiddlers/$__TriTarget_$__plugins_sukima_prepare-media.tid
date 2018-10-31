@@ -3,7 +3,7 @@ author: Sukima
 core-version: >=5.0.0
 dependents: 
 description: Command to prepare photo media
-version: 5.1.14
+version: 5.1.17
 original-tags: 
 source-wiki-id: TriTarget
 source-tiddler-title-as-text: $:/plugins/sukima/prepare-media
