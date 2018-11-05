@@ -1,18 +1,17 @@
-title: $:/TW5Hacks/Marketing Survey
+title: $:/TW5Hacks/Draft of 'Marketing Survey'
 created: 20170502175027223
 creator: Thomas Elmiger
-example-1: 
-example-2: y
-example-3: y
-modified: 20180928161112686
+draft.of: Marketing Survey
+draft.title: Marketing Survey
+modified: 20181003213624822
 modifier: Thomas Elmiger
 original-tags: Quiz
 source-wiki-id: TW5Hacks
-source-tiddler-title-as-text: Marketing Survey
-source-tiddler-title-as-link: Marketing%20Survey
+source-tiddler-title-as-text: Draft of 'Marketing Survey'
+source-tiddler-title-as-link: Draft%20of%20%27Marketing%20Survey%27
 
-\define check-survey(check:"{{example-1}}",solution:"bar",then:"correct",else:"") 
-<$macrocall $name="ifAisB" A=$check$ B="""$solution$""" then="""$then$""" else="""$else$""" error="<!-- no -->"/>
+\define check-survey(check:"",solution:"bar",then:"correct",else:"") 
+<$macrocall $name="ifAisB" A="""$check$""" B="""$solution$""" then="$then$" else="""$else$""" error="<!-- no -->"/>
 \end
 
 \define resetFields()
@@ -51,7 +50,7 @@ Choose two answers:
 <$checkbox field="example-3" checked="y" unchecked=""> Strategy</$checkbox>
 
 <$wikify name="checked" text="{{!!example-1}}{{!!example-2}}{{!!example-3}}">
-<$macrocall $name="check-survey" check=<<checked>> solution="yy" then="<<solvedButton>>" else="choose 2 please"/>
+<$macrocall $name="check-survey" check=<<checked>> solution='yy' then=<<solvedButton>> else="choose 2 please"/>
 </$wikify>
 
 ---

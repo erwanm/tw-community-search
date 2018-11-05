@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/TW5 Hacks
 created: 20160710181212640
 creator: Thomas Elmiger
-modified: 20180421095116092
+modified: 20180928202416092
 modifier: Thomas Elmiger
 original-tags: 
 source-wiki-id: TW5Hacks
@@ -53,4 +53,4 @@ Components of Hacks and Experiments
 
 <<list-links filter:"[tag[$:/tags/Stylesheet]]">>
 
-{{DWYWBDBM-Licence}}
+<<accordion filter:"DWYWBDBM-Licence" open:"open" class:"success">>

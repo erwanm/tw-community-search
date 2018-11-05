@@ -1,0 +1,77 @@
+title: $:/TW5Hacks/Draft of '$:/_telmiger/ifAisB'
+created: 20170409174526717
+creator: Thomas Elmiger
+draft.of: $:/_telmiger/ifAisB
+draft.title: $:/_telmiger/ifAisB
+modified: 20181003205029243
+modifier: Thomas Elmiger
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: $:/tags/Macro MyMacros
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Draft of '$:/_telmiger/ifAisB'
+source-tiddler-title-as-link: Draft%20of%20%27%24%3a%2f_telmiger%2fifAisB%27
+
+\define ifAisB(A:"_false_",B,then,else,error:"undefined") 
+<$vars a="""$A$""" b="_false_" error="""$error$"""> 
+<$list filter="""[<a>] -[<b>]""" emptyMessage=<<error>>>
+<<ifAisB-compare """$A$""" """$B$""" """$then$""" """$else$""">>
+</$list>
+</$vars>
+\end
+
+\define ifAisB-compare(A,B,equal,else) 
+<$vars a="""$A$""" b="""$B$""" equal="""$equal$""" else="""$else$"""> 
+<$list filter="""[<a>] -[<b>]""" emptyMessage=<<equal>>>
+<<else>>
+</$list>
+</$vars>
+\end
+
+
+<!-- !!! ifAisB Macro
+
+Version: 1.1
+
+This macro allows to test if a value A – a variable or a transcluded value – matches a value B and to react accordingly. It works almost like an if-then-else statement. 
+
+<$details summary="Compare to reveal widgets">
+
+The ''comparison and production of output'' could also be achieved with sets of reveal widgets with match- and nomatch-conditions [[as Eric pointed out|https://groups.google.com/d/msg/tiddlywiki/my9YIZEPGng/g_WCNmGuBwAJ]]: 
+
+```
+<$reveal text=<<var1>> type="match" default=<<var2>> >
+   <<var1>> equals <<var2>>
+</$reveal>
+```
+
+</$details>
+
+!!!! Syntax
+
+```
+<$macrocall $name="ifAisB" A={{!!reference}} B="foo" then="this is foo" else="not foo" error="//reference is empty or does not exist//" />
+```
+
+!!!! Parameters
+* A: first value, can be a string, text reference or variable
+** the macro returns an error message if this is empty or does not exist
+* B: string to test against (same types as A)
+** no testing is applied here
+* then: output if A = B (A is the same as B)
+* else: output if A != B (A is not the same as B)
+* error: output if A is empty or does not exist
+** optional, defaults to "undefined"
+
+!!!! Procedure
+# the macro //ifAisB// tests if A is empty – if this is the case the output will be the error message
+# the macro //ifAisB-compare// checks if the values A and B are identical strings and produces the result
+
+!!!! Known limitations
+* It is not possible to test directly if a string is empty (B="" will not work).
+** A workaround is shown in the [[testcases|Test ifAisB]] in example #3. 
+
+!!!! Version history
+* 1.1 – simplified code using list filters and removing a "title" (instead of set filter and removeprefix)
+
+-->

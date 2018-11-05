@@ -1,14 +1,16 @@
-title: $:/TW5Hacks/Distances Quiz
+title: $:/TW5Hacks/Draft of 'Distances Quiz'
 created: 20170501104422866
 creator: Thomas Elmiger
+draft.of: Distances Quiz
+draft.title: Distances Quiz
 example-1: 12714
 example-2: 384400
-modified: 20180928193919715
+modified: 20180928193919731
 modifier: Thomas Elmiger
 original-tags: Quiz
 source-wiki-id: TW5Hacks
-source-tiddler-title-as-text: Distances Quiz
-source-tiddler-title-as-link: Distances%20Quiz
+source-tiddler-title-as-text: Draft of 'Distances Quiz'
+source-tiddler-title-as-link: Draft%20of%20%27Distances%20Quiz%27
 
 \define check-quiz(check:"{{example-1}}",solution:"bar",then:"correct",else:"") 
 <$macrocall $name="ifAisB" A=$check$ B="$solution$" then="""$then$""" else="$else$" error="<!-- no -->"/>

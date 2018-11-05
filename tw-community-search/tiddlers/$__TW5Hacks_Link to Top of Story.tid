@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/Link to Top of Story
 created: 20160922053307560
 creator: Thomas Elmiger
-modified: 20161228173404413
+modified: 20181014084726000
 modifier: Thomas Elmiger
 original-tags: Hacks
 source-wiki-id: TW5Hacks
@@ -36,7 +36,7 @@ go to the top
 Show your button in some place that is displayed permanently, e.g. by applying the tag <<tag $:/tags/PageTemplate>> to it. 
 
 
-!! 3. Append this to a CSS tiddler
+!! 3. Use this CSS 
 
 ```
 /* link to top */
@@ -65,7 +65,15 @@ button.te-btn-to-top:hover {
    color: rgba(0, 0, 0, .8);
 }
 ```
-I have this at the bottom of $:/plugins/telmiger/lib/telements.css
+
+You can append this to any existing stylesheet or create a new tiddler and tag it $:/tags/Styleseet – I have this at the bottom of $:/plugins/telmiger/lib/telements/linktotop-standalone between the tags
+
+```
+<style>
+... code here
+</style>
+```
+
 
 !! 4. Close tiddler from step 1
 While this tiddler is open you will see multiple copies of the top-link.

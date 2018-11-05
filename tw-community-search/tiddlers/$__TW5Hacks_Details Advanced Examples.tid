@@ -1,8 +1,8 @@
 title: $:/TW5Hacks/Details Advanced Examples
-caption: Test new stuff
+caption: Test new stuff!
 created: 20170128161049731
 creator: Thomas Elmiger
-modified: 20180925215142164
+modified: 20180929212828294
 modifier: Thomas Elmiger
 priority: W
 original-tags: DetailsWidget
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: Details%20Advanced%20Examples
 
 !! Testing the DetailsWidget
 
-Let’s make a widget: $:/plugins/telmiger/details/details.js – click edit to see the concept … styles see $:/plugins/telmiger/details/details.css
+Let’s test the widget.
 
 !!! Standard Details
 
@@ -61,12 +61,20 @@ Find out more about this technology => go to DetailsWidget
 
 </$details>
 
-<$details summary="Local summary wins" tiddler="DetailsWidget" field="caption" class="notification" state="myTempState!!last-open">
+<$details summary="''Local'' summary <b>wins</b>" tiddler="DetailsWidget" field="caption" class="notification" state="myTempState!!last-open">
 
 * local summary wins over field "caption" of DetailsWidget
 * class="notification" 
 * save state in field myTempState!!last-open
 ** note: same state tiddler as above
+
+</$details>
+
+<$details tiddler="Test Title" field="text" class="notification">
+
+Here we use a tiddler’s text as summary: 
+
+{{Test Title}}
 
 </$details>
 

@@ -1,0 +1,23 @@
+title: $:/TW5Hacks/Draft of 'New Tiddler'
+created: 20181103144901190
+creator: Thomas Elmiger
+draft.of: New Tiddler
+draft.title: New Tiddler
+modified: 20181103144931478
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Draft of 'New Tiddler'
+source-tiddler-title-as-link: Draft%20of%20%27New%20Tiddler%27
+
+<$reveal type="nomatch" state="$:/state/EXAMPLE" text="show">
+<$button set="$:/state/EXAMPLE" setTo="show" class="myButton">EXAMPLE</$button>
+</$reveal>
+
+<$reveal type="match" state="$:/state/EXAMPLE" text="show">
+
+EXAMPLEcontentHERE
+
+<$button set="$:/state/EXAMPLE" setTo="hide" class="myButton">Hide this </$button>
+
+</$reveal>
