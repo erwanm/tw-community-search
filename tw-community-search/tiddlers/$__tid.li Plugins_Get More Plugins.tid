@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20181104094331453
+modified: 20181120230523013
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -41,15 +41,16 @@ Great plugins to improve your workflow, the design or the functionality of your 
 
 * $:/plugins/telmiger/Clipboard – store and access text snippets from the editor
 
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditButtons">
+{{$:/core/images/done-close-button}}<span class="btn-text"> ~EditButtons</span></$link></span>
+
+*  $:/plugins/telmiger/EditButtons – the missing buttons to //save and close// as well as //save and keep open// and //cancel and close//.
+
 <span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditorCounter">
 {{$:/core/images/mono-block}}<span class="btn-text"> ~EditorCounter</span></$link></span>
 
 * $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
 
-<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditButtons">
-{{$:/core/images/done-close-button}}<span class="btn-text"> ~EditButtons</span></$link></span>
-
-*  $:/plugins/telmiger/EditButtons – the missing buttons to //save and close// as well as //cancel and close//.
 
 !!! Get Stuff Done
 
@@ -122,13 +123,14 @@ Great plugins to improve your workflow, the design or the functionality of your 
 }
 .tc-btn-big-color svg, 
 .tc-btn-big-color img { 
-   height: 2em;
-   width: 2em;
    margin-top: 0;
    vertical-align: middle;
    fill: #fff;
+   font-size: 2em;
+   height: 1em;
+   width: 1em;
 }
-.tc-btn-big-color .edit-btn-icon.save-close svg:first-of-type {
+.tc-btn-big-color svg.save-close  {
    fill: #fff;
 }
 .tc-btn-big-color a, .tc-btn-big-color a:hover {
