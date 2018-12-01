@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20181120230523013
+modified: 20181130224959788
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -23,6 +23,17 @@ Great plugins to improve your workflow, the design or the functionality of your 
 * $:/plugins/telmiger/simple-search – nice and simple interface for searching
 
 !!! Display
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/WMR">
+{{$:/plugins/telmiger/WMR/icon}}<span class="btn-text"> Wikitext Reference</span></$link></span>
+
+Also available as [[bundles|https://tid.li/tw5/plugins.html#B%3A%2FWMR%2Freference-filter.bundle:B%3A%2FWMR%2Freference-filter.bundle%20B%3A%2FWMR%2Freference.bundle%20%24%3A%2Fplugins%2Ftelmiger%2FWMR%20%5B%5BGet%20More%20Plugins%5D%5D]].
+
+* $:/plugins/telmiger/WMR – learn or look up: the [[Wikitext Markup Reference]] WMR shows how things work.
+* To get results from filter examples you also need these three tiddlers: 
+** $:/plugins/telmiger/WMR/bar
+** $:/plugins/telmiger/WMR/foo
+** $:/plugins/telmiger/WMR/foo-bar
 
 <span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/details">
 {{$:/core/images/right-arrow}}<span class="btn-text"> ~DetailsWidget</span></$link></span>

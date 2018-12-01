@@ -1,0 +1,15 @@
+title: $:/tid.li Plugins/$:/plugins/telmiger/WMR
+author: Thomas Elmiger
+core-version: >=5.1.18
+created: 20181130212016010
+description: Wikitext Markup Reference – WMR
+list: reference about
+modified: 20181130212016577
+version: 0.3.3
+original-tags: 
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: $:/plugins/telmiger/WMR
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftelmiger%2fWMR
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

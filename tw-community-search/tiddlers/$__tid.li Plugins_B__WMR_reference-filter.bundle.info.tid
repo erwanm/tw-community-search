@@ -1,0 +1,19 @@
+title: $:/tid.li Plugins/B:/WMR/reference-filter.bundle.info
+created: 20181130222350048
+modified: 20181130223411972
+original-tags: 
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: B:/WMR/reference-filter.bundle.info
+source-tiddler-title-as-link: B%3a%2fWMR%2freference-filter.bundle.info
+
+<div style="width:100%">
+
+This bundle contains example tiddlers you need to see results of example filters in the reference.
+
+* dummy tiddlers for filter examples
+
+It doesn’t help to include these in the plugin because TW does not list shadow tiddlers (the ones present in plugins) with simple filters. 
+
+If you prefer to fix the filters, you must add `all[shadows]` at the start of every filter.
+
+</div>
