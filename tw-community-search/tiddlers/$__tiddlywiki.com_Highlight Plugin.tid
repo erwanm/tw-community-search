@@ -10,4 +10,4 @@ source-tiddler-title-as-link: Highlight%20Plugin
 
 The Highlight plugin provides the ability to apply syntax colouring to text.
 
-See https://tiddlywiki.com/plugins/tiddlywiki/highlight/
+See [ext[https://tiddlywiki.com/plugins/tiddlywiki/highlight|plugins/tiddlywiki/highlight]]

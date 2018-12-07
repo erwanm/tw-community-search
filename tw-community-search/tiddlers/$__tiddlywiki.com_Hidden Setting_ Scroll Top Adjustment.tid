@@ -1,0 +1,13 @@
+title: $:/tiddlywiki.com/Hidden Setting: Scroll Top Adjustment
+created: 20180816105911495
+modified: 20180816110627713
+type: text/vnd.tiddlywiki
+original-tags: [[Hidden Settings]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hidden Setting: Scroll Top Adjustment
+source-tiddler-title-as-link: Hidden%20Setting%3a%20Scroll%20Top%20Adjustment
+
+As part of navigating to a tiddler, TiddlyWiki scrolls the page so that the top of the tiddler lines up with the top of the browser window.  This means that the upper part of tiddlers can be obscured when using custom `position:fixed` toolbars at the top of the window.
+
+To adjust the scroll position to allow for the toolbar, add the CSS class `tc-adjust-top-of-scroll` to the toolbar. TiddlyWiki's scrolling mechanism will then dynamically adjust the scroll position by the height of that element.
+

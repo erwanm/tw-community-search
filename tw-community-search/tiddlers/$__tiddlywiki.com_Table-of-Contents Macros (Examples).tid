@@ -1,13 +1,13 @@
 title: $:/tiddlywiki.com/Table-of-Contents Macros (Examples)
 created: 20150221193056000
-modified: 20150221205038000
+modified: 20181106221404624
 type: text/vnd.tiddlywiki
 original-tags: [[Table-of-Contents Macros]] [[Macro Examples]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Table-of-Contents Macros (Examples)
 source-tiddler-title-as-link: Table-of-Contents%20Macros%20%28Examples%29
 
-These examples derive tables of contents from the root tag <<.tag Contents>>.
+These examples derive tables of contents from the root tag <<.tag Contents>>. See [[Table-of-Contents Macros]] for details on how to use the Table-of-Contents Macros to make your own structured table-of-contents.
 
 You can explore the same structure with these clickable tag pills:
 

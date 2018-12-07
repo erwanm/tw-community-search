@@ -1,0 +1,9 @@
+title: $:/tiddlywiki.com/Height of text editor
+created: 20160817103854725
+modified: 20160817105415313
+original-tags: [[Editor toolbar]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Height of text editor
+source-tiddler-title-as-link: Height%20of%20text%20editor
+
+The button {{ $:/core/ui/EditorToolbar/editor-height}} let you adjust the height of the text input field.

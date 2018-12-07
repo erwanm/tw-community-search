@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/Translate TiddlyWiki into your language
 created: 20141126153016142
-modified: 20160622141441383
+modified: 20180701185730340
 type: text/vnd.tiddlywiki
 original-tags: Community
 source-wiki-id: tiddlywiki.com
@@ -14,6 +14,6 @@ There is a special edition of TiddlyWiki that simplifies creating and maintainin
 
 Note that no knowledge of Node.js or GitHub is required.
 
-You can translate ~TiddlyWiki on Node.js, type `tiddlywiki editions/translators --server` and visit http://127.0.0.1:8080/ in your browser.
+You can translate ~TiddlyWiki on Node.js, type `tiddlywiki editions/translators --listen` and visit http://127.0.0.1:8080/ in your browser.
 
 See https://tiddlywiki.com/dev for technical details of creating and maintaining translations.

@@ -8,7 +8,7 @@ op-output: those input tiddlers in which field <<.place F>> matches <<.place X>>
 op-parameter: a regular expression
 op-parameter-name: X
 op-purpose: filter the input by pattern-matched field
-op-suffix: the name of a [[field|TiddlerFields]]
+op-suffix: the name of a [[field|TiddlerFields]], defaulting to <<.field title>>
 op-suffix-name: F
 type: text/vnd.tiddlywiki
 original-tags: [[Filter Operators]] [[Field Operators]] [[Negatable Operators]]

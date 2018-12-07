@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/WidgetMessage: tm-edit-text-operation
 caption: tm-edit-text-operation
 created: 20160424211339792
-modified: 20160424230944519
+modified: 20180630073432471
 type: text/vnd.tiddlywiki
 original-tags: Messages
 source-wiki-id: tiddlywiki.com
@@ -84,6 +84,18 @@ Surrounds the current //selection// with the provided <<.param "prefix">> and <<
 </div>
 \end
 
+\define saveSelectionDescription()
+<div>
+
+Saves the text of the current //selection// into the provided <<.param "tiddler">> and <<.param "field">>.
+
+|!Name |!Description |
+|tiddler |Tiddler title to which the selection will be saved |
+|field |Field name (defaults to "text") |
+
+</div>
+\end
+
 
 A `tm-edit-text-operation` invokes one of the available operations on a __surrounding__ text editor. Therefore the message has to be dispatched within the editor in order for it to catch it. The following properties on the `event` object are required:
 
@@ -104,6 +116,7 @@ At this point the following text operations have been implemented:
 |<<.def "prefix-lines">>|<<prefixLinesDescription>> |
 |<<.def "wrap-lines">>|<<wrapLinesDescription>> |
 |<<.def "wrap-selection">>|<<wrapSelectionDescription>> |
+|<<.def "save-selection">>|<<saveSelectionDescription>> |
 
 
 !Example

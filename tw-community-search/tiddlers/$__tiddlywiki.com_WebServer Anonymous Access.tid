@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/WebServer Anonymous Access
+created: 20180701175139654
+modified: 20180701202339421
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Authentication]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Anonymous Access
+source-tiddler-title-as-link: WebServer%20Anonymous%20Access
+
+Anonymous access is only permitted if the special ''(anon)'' token is present in the [[readers|WebServer Parameter: readers]] (for reading) and optionally [[writers|WebServer Parameter: writers]] (for writing) authorization parameters.
+
