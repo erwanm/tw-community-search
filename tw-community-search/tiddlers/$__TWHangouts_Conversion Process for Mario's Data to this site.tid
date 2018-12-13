@@ -1,0 +1,21 @@
+title: $:/TWHangouts/Conversion Process for Mario's Data to this site
+created: 20150105212025919
+modified: 20150105215945368
+original-tags: [[Mario Pietsch]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: Conversion Process for Mario's Data to this site
+source-tiddler-title-as-link: Conversion%20Process%20for%20Mario%27s%20Data%20to%20this%20site
+
+# Copy Data by hand from [[hangouts site|http://hangouts.tiddlyspace.com/]] - do not drag and drop the tiddler - Highlight and Copy and then Clone a "~HangOut_### Tiddler" and paste data into the NEW "~HangOut_### Tiddler" - YOU CLONE THE DATA SO THE TAGS ARE DONE AUTOMATICALLY
+# Copy Data by hand from "~HangOut_### Tiddler" - Paste into Txt Editor
+#VERY IMPORTANT STEP - convert all ` " to ' ` in the Txt Editor
+#Copy Data from Txt Editor to Spreadsheet - Use Fixed Distance to divide the Tiddler into Table Columns - Add Additional Rows or Delete Rows as needed for the hangout
+#Move ~TimeCode and Description Data to the proper spots on the Template
+#Copy Data from Spreadsheet back to Txt Editor and correct Spreadsheet Formatting Errors
+#Use 'New Here' to copy the "~HangOut_###" to create "~TiddlyWiki Hangout #NUM" - This allows them to be linked by the TAG
+##Add tags 'hangouts' 'license' 
+##change the Header define code and the #NUM
+#Paste the data from the Txt Editor
+#Check links
+
+Done

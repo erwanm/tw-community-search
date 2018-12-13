@@ -1,0 +1,74 @@
+title: $:/TWHangouts/HangOut_023
+created: 20150115071601926
+modified: 20150115071700830
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_023
+source-tiddler-title-as-link: HangOut_023
+
+2013-11-26 - [[YouTube| https://www.youtube.com/watch?v=vKJwcY-gx2g]]
+
+"""
+0:00:00 Intro: frtl: Adrian, Bob(later), Dave, Eric, Jeremy, Stephan, Ton, Mario (later)
+0:02:05 Agenda: What's new, Creating DropDown's, about the list widget, tracing the code
+0:03:20 Jeremy- New PageTemplate tag, to modify the page template
+0:07:15 J- Fixed the "list sorting" issue
+0:09:05 J- Control panel - tiddlyspot saver tab. link to backup folder.
+0:10:40 J- about fixed issues. (filter typo causes alert) ...
+0:12:20 J- Changing templates ... Save empty.html
+0:13:50 J- google analytics is now a propper plugin.
+0:14:10 J- new save/download buttons
+0:16:30 J- Josh's question - how to create a dropdown menue
+0:20:03 Eric- some questions about the popup
+0:22:20 Eric- suggestion - add items to the list would be cool
+0:23:40 J- popup source review
+0:29:20 J- about the "linkcatcher" widget ... also used for theme switching
+0:31:10 Bob- What is the "bang bang" for?
+0:33:45 Eric- Is there a "tooltip" ability?
+0:35:55 J- New "fallback" feature of the "view widget".
+0:37:20 Bob- Is the span needed to have the tooltip?
+0:38:00 J- in beta we need to find out the "common idioms" ... and make them easy.
+0:40:30 J- Dave's quesiton - about wikitext filter syntax shortcut
+0:41:50 J- we need to extend the table syntax ... eg: multi line table syntax
+0:45:55 Stephan- Will it interfere with existing table syntax?
+0:47:40 Bob- questions about "escaping"
+0:49:35 J- back to Dave's question ... transclusion in tables
+0:52:20 J- howto - create a table with the "list widget" and templates
+0:57:45 Bob- hangout examples should be copied over to a TW
+1:00:00 back to the table syntax. ... right align.
+1:02:00 Mario- How do you create a "dynamic" table with "list filters" ...
+1:04:00 J- suggest COOL new syntax for "wikitext lists" and tables.
+1:06:35 J- how "dynamic tables" are created atm. ... new wiki syntax
+1:12:50 J- brainstroming about a "generic simple wiki syntax" for several things.
+1:17:25 J- new syntax for "typed transclusion"
+1:20:10 J- atm it's possible to make suggestions to improve TW5 wikitext for table, typed transclusions
+1:23:10 J- Stephan's question about "What happens, when you click the Save button"
+1:25:05 J- review the source for the "save button" ... start with the boot.js kernel
+1:28:17 core/ folder ... plugin.info
+1:28:44 modules/ folder ... startup.js
+1:29:28 have a look at the "new" dev-wiki
+1:31:15 Mario- Where is the code, that "catches the button save message"?
+1:32:40 J- What happens if the save button is clicked. - part of the PageControls
+1:34:25 widgets/button.js ... click event ... .execute
+1:36:15 ... have a look at the "widget render tree" ... $tw.wiki.parseText
+1:41:50 Mario- OT is there a connection between the tree and the source text position?
+1:43:50 J- about the widget architecture
+1:45:10 back to the button widget
+1:45:40 widget.prototype.dispatchEvent ... tw-save-wiki
+1:46:17 find the handler that executes the message. see: startup.js
+1:47:50 $tw.wiki.saveWiki() .. see: wiki.js
+1:51:00 about the savers/ modules
+1:52:50 TiddlyFox saver ... .saverInit()
+1:55:30 test.js widget
+1:55:55 Stephan- wants visual feedback for saving to tiddlyspot .. upload.sh
+1:58:10 progress bar is similar to the notifier.js
+2:01:00 J- coding in TW is very different to jQuery, since the DOM is transient. Similar to angular.js
+2:03:15 J- summing it up
+2:04:40 J- states "parsers are not complicated" ;)
+2:06:15 J- storyviews are "kind of complicated"
+2:08:15 J- The UI is ripe for contributions.
+2:08:50 J- Compare TW5 with other github projects .. number of commits
+2:12:05 J- questions? ... smalltalk
+2:13:20 Mario- Any progress on the "upgrade" mechanism?
+2:18:00 Bye! Bye!
+"""

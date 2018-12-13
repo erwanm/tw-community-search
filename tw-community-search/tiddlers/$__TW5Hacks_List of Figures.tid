@@ -1,0 +1,21 @@
+title: $:/TW5Hacks/List of Figures
+created: 20181212211028608
+creator: Thomas Elmiger
+modified: 20181212215040316
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: List of Figures
+source-tiddler-title-as-link: List%20of%20Figures
+
+!!! Illustration Index
+
+<ul>
+<$list filter="[list[$:/StoryList]tag[Figures]]" variable="storyTid"><li>
+<$link to=<<storyTid>>>
+<$tiddler tiddler=<<storyTid>>>
+<$macrocall $name="sciCaption" prefix="[" number={{!!example-1}} postfix="] " caption={{{[<storyTid>get[figcontent]get[caption]]}}}/>
+</$tiddler>
+</$link></li>
+</$list>
+</ul>

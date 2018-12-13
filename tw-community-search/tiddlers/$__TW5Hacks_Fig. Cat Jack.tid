@@ -1,0 +1,13 @@
+title: $:/TW5Hacks/Fig. Cat Jack
+created: 20181212210722954
+creator: Thomas Elmiger
+example-1: A.1
+figcontent: $:/plugins/telmiger/figure/example-image
+modified: 20181212215514348
+modifier: Thomas Elmiger
+original-tags: Figures
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Fig. Cat Jack
+source-tiddler-title-as-link: Fig.%20Cat%20Jack
+
+<$macrocall $name="sciFigure"  tiddler={{!!figcontent}} chapter="example-1">>

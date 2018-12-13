@@ -1,0 +1,55 @@
+title: $:/TWHangouts/HangOut_028
+created: 20150115052936621
+modified: 20150115053047402
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_028
+source-tiddler-title-as-link: HangOut_028
+
+2013-12-30 - [[YouTube|http://www.youtube.com/watch?v=-fNkYJhGcZA]]
+
+"""
+0:00:00 Intro: rtl: Carlos (later), Dave, Jim, Jeremy, Paul, Stephan, Ton
+0:03.10 Jeremy- agenda and passes over to Ton
+0:03:30 Ton- News about Ton's TW5 guide - "toggle - theme - button"
+0:13:30 Jeremy- short summary .. next steps .. "how to package tiddlers into a plugin"
+0:16:20 Ton- questions about "how to install node.js and npm" (.. wrong links)
+0:19:00 Jeremy- short summary
+0:19:30 Intro: Carlos
+0:20:00 Jeremy/Jim- about task management
+0:21:30 Jeremy- about his observations about task management from TWc
+0:25:00 .. what do others (on the call) think?
+0:26:00 Carlos- about calenders and a WebDav interface
+0:27:45 Jeremy- TW5 node.js could have a WebDav interace ...
+0:28:48 Jeremy- about POSSE "Publish (on your) Own Site, Syndicate Elsewhere" ... IMAP interface for TW5
+0:31:40 Jeremy- about TW5 as a WebDav/CalDav client ... HTTP client for github issues
+0:33:58 Carlos- about his usecase ...
+0:35:20 Jeremy- Dave ask (chat): "What does Jeremy plan to do next?" ... Caching in local storage
+0:37:30 Jeremy- about "avoiding data loss" ... "Download Offline Snapshot" button
+0:40:05 Jeremy- "Helping Hackers" ... translation, making plugins in the browser,
+0:40:30 Jeremy- opens the "RoadMap" tiddler. see RoadMap at tiddlywiki . com
+0:42:15 Jeremy- .. Things that Jeremy really loves ... Cecily
+0:43:00 Jeremy- Browser History handling ...
+0:46:00 Jeremy- Permalink handling ...
+0:47:00 Jeremy- github issue list ... issues should be actionable
+0:56:50 Jeremy- about TiddlySaver ... can Jim help with some "know how"
+1:00:38 - - short break - -
+1:03:02 Paul- proposal: "vertical merging of tables" ... "top" and "bottom" alignemen syntax
+1:13:50 Stephan- about "multi line table layout" with "search and replace pragma"
+1:15:35 Jeremy- about "what should be in the core and what should be plugins" pro and cons ... why things are as they are ..
+1:18:10 Jeremy- about "how contributions influence the core" even if they are not merged. (...pull requests are allways welcome!)
+1:19:50 Jeremy- about the TW5 size
+1:20:30 Paul/Jeremy- about size, plugins, core ...
+1:23:15 Carlos/Jeremy- about users concerns and expectations
+1:27:50 general discussion about community support - contribution - guidance ... turn TW into a team effort
+1:32:47 Carlos- How many people use TW5 compared to TWc?
+1:35:25 Jeremy- "Why TW5 is designed for users, who don't know TWc"
+1:39:50 Jeremy- about the TWc migration path.
+1:41:05 Carlos- Which version is at tiddlywiki . com ?
+1:46:18 Jeremy- technical aspects of the "dates discussion" ... the internal structure of a tiddler
+1:48:20 Jeremy- tiddler fields should get a "type" ...
+1:50:23 Paul- What about the "tiddler representation" ... json, html .. see: hangout #27?
+1:51:40 Jeremy- any questions?
+1:52:05 Carlos- concern about node.js or java dependencies
+1:57:55 Bye! Bye!
+"""
