@@ -1,0 +1,14 @@
+title: $:/TW5Hacks/Fig. Cat Sitting
+created: 20181215084316315
+creator: Thomas Elmiger
+example-1: A.3
+example-2: 2–1
+figcontent: $:/plugins/telmiger/figure/example-image3
+modified: 20181215103422761
+modifier: Thomas Elmiger
+original-tags: Figures
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Fig. Cat Sitting
+source-tiddler-title-as-link: Fig.%20Cat%20Sitting
+
+<$macrocall $name="sciFigure"  tiddler={{!!figcontent}} chapter="example-2">>
