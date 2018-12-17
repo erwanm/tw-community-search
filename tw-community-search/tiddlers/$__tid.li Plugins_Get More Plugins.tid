@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20181130224959788
+modified: 20181215223026266
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -44,6 +44,12 @@ Also available as [[bundles|https://tid.li/tw5/plugins.html#B%3A%2FWMR%2Freferen
 {{$:/plugins/telmiger/HarveyBalls/half/icon.svg}}<span class="btn-text"> ~HarveyBalls</span></$link></span>
 
 * $:/plugins/telmiger/HarveyBalls – ideograms for visual communication of qualitative information
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/ReaderMode">
+{{$:/plugins/telmiger/ReaderMode/icon}}<span class="btn-text"> Reader Mode</span></$link></span>
+
+* $:/plugins/telmiger/ReaderMode – display the story river as a pure flow of content for distraction-free reading.
+
 
 !!! Edit
 
