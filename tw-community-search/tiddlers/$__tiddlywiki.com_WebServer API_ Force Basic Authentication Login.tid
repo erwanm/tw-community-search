@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/WebServer API: Force Basic Authentication Login
 created: 20181002124825195
-modified: 20181002125214104
+modified: 20181216181934282
 type: text/vnd.tiddlywiki
 original-tags: [[WebServer API]]
 source-wiki-id: tiddlywiki.com
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: WebServer%20API%3a%20Force%20Basic%20Authenticatio
 Forces the server to request basic authentication login, and then redirects to the root
 
 ```
-GET /login/basic
+GET /login-basic
 ```
 
 Requests an basic authentication from the browser, and redirects to the root if successful.
