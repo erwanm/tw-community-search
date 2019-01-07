@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Principle
 created: 20170506140304165
 creator: TonGerner
-modified: 20170506140732756
+modified: 20181225090842189
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5ReadOnly
@@ -24,4 +24,4 @@ So first there must be a - hidden - save possibility.<br>
 One way to go is based on creating a tiddler - with a 'non-suspicious' name - wherein the possibility to switch to read-only mode (decoupled from the '~ReadOnly' theme) ''and'' saving this situation (with a special Save button that does not disappear when hiding the standard Save button).<br>
 That is how it is done here.
 
-Thus, ''only you'' know which tiddler (here [[$:/plugins/tongerner/ro/publish]]) contains the possibility to switch to read/write or read-only mode and saving this situation.<br>As long as you can get to that tiddler, you can adjust the settings.
+Thus, ''only you'' know which tiddler (here [[$:/plugins/tongerner/ro/publish]] or [[$:/plugins/tongerner/sro/publish]]) contains the possibility to switch to read/write or read-only mode and saving this situation.<br>As long as you can get to that tiddler, you can adjust the settings.

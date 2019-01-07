@@ -1,13 +1,13 @@
 title: $:/TW5ReadOnly/$:/plugins/tongerner/sro
 author: TonGerner
-core-version: 5.1.15
+core-version: >=5.1.18
 created: 20170320194041545
 description: Makes TW readonly
 list: readme license help
-modified: 20180124184317096
+modified: 20181224150619368
 name: Simple readonly
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.10
+version: 0.1.1
 original-tags: 
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: $:/plugins/tongerner/sro

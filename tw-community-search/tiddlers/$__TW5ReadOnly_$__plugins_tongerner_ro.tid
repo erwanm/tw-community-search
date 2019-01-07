@@ -1,15 +1,15 @@
 title: $:/TW5ReadOnly/$:/plugins/tongerner/ro
 author: TonGerner
-core-version: 5.1.15
+core-version: >=5.1.15
 created: 20140716185113624
 creator: TonGerner
 description: Makes TW read-only
 list: readme license help
-modified: 20180124184151050
+modified: 20181223185008736
 modifier: TonGerner
 name: Read-only
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.16
+version: 0.1.17
 original-tags: 
 source-wiki-id: TW5ReadOnly
 source-tiddler-title-as-text: $:/plugins/tongerner/ro

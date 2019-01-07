@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20181215223026266
+modified: 20190106100911411
 modifier: Thomas Elmiger
 priority: 2
 original-tags: 
@@ -18,9 +18,18 @@ Great plugins to improve your workflow, the design or the functionality of your 
 !!! Search
 
 <span class="tc-btn-big-color gray"><$link to="$:/plugins/telmiger/simple-search">
-{{$:/plugins/telmiger/simple-search/images/search-button}}<span class="btn-text"> Simple Search</span></$link></span>
+{{$:/plugins/telmiger/simple-search/icon}}<span class="btn-text"> Simple Search</span></$link></span>
 
 * $:/plugins/telmiger/simple-search – nice and simple interface for searching
+
+
+!!! Sidebar
+
+<span class="tc-btn-big-color gray"><$link to="$:/plugins/telmiger/MyStory">
+{{$:/plugins/telmiger/MyStory/icon}}<span class="btn-text"> My Story</span></$link></span>
+
+* $:/plugins/telmiger/MyStory – a replacement for the //Open// tab with useful features & options
+
 
 !!! Display
 
@@ -48,7 +57,7 @@ Also available as [[bundles|https://tid.li/tw5/plugins.html#B%3A%2FWMR%2Freferen
 <span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/ReaderMode">
 {{$:/plugins/telmiger/ReaderMode/icon}}<span class="btn-text"> Reader Mode</span></$link></span>
 
-* $:/plugins/telmiger/ReaderMode – display the story river as a pure flow of content for distraction-free reading.
+* $:/plugins/telmiger/ReaderMode – display the story river as a pure flow of content for distraction-free reading
 
 
 !!! Edit

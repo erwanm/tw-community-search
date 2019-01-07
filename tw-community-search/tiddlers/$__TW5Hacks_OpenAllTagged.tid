@@ -1,7 +1,7 @@
 title: $:/TW5Hacks/OpenAllTagged
 created: 20160607203338513
 creator: Thomas Elmiger
-modified: 20170427195538758
+modified: 20190103201918170
 modifier: Thomas Elmiger
 original-tags: ShadowTiddlers TiddlyWikiForum Hacks
 source-wiki-id: TW5Hacks
@@ -19,12 +19,12 @@ What I learned from the [[TiddlyWiki Google Group|https://groups.google.com/foru
 I adapted the receipt from  [[this entry in the forum|https://groups.google.com/d/msg/tiddlywiki/Eqcsb-B6iLk/sVLXmacEQAAJ]] and modified [[$:/core/ui/TagTemplate]]. The following code was inserted just before the last `</$reveal>`. Hint for TW versions 5.1.11 and lower: put the code just before the last `</div>`.
 
 ```
-<!-- edited -->
+<!-- open all -->
 <hr>
 <div class="tc-menu-list-item">
-<$button class="tc-btn-invisible"><$list filter="[all[current]tagging[]]"><$action-navigate $to=<<currentTiddler>> /></$list>Open All</$button>
+<$button class="tc-btn-invisible"><$list filter="[all[current]tagging[]reverse[]]"><$action-navigate $to=<<currentTiddler>> /></$list>Open All</$button>
 </div>
-<!-- /edited -->
+<!-- /open all -->
 ```
 
 To test this, click on the tag pill of a tag with more than one tiddlers associated. Click the last item in the popup menu and see the magic happen.

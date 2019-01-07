@@ -3,11 +3,11 @@ author: Thomas Elmiger
 core-version: >=5.1.16
 created: 20181104091753482
 description: Simple Search
-list: readme support license
-modified: 20181222180216966
+list: readme settings support license
+modified: 20181230142141252
 name: Simple Search
 source: https://tid.li/tw5/plugins.html
-version: 1.0.7
+version: 1.0.16
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/simple-search

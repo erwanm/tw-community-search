@@ -3,7 +3,7 @@ author: JeremyRuston
 dependents: 
 description: CodeMirror _Editor
 list: readme usage keyboard license
-version: 5.1.17
+version: 5.1.19
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror
