@@ -7,7 +7,7 @@ list: readme
 modified: 20190104193055168
 name: StoryAdmin – save and load story lists
 source: https://tid.li/tw5/plugins.html
-version: 0.1.1
+version: 0.1.2
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/JR-telmiger/StoryAdmin
