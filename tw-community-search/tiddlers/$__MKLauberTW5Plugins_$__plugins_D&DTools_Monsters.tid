@@ -1,0 +1,12 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/Monsters
+author: Matt Lauber
+dependents: 
+description: D&D 5e SRD Monsters
+version: 0.0.1
+original-tags: 
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/D&DTools/Monsters
+source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fMonsters
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

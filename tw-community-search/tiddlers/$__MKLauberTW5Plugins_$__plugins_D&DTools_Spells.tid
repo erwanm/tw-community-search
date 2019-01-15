@@ -1,0 +1,12 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/Spells
+author: Matt Lauber
+dependents: 
+description: D&D 5e SRD Spells
+version: 1.0.2
+original-tags: 
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/D&DTools/Spells
+source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fSpells
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
