@@ -1,7 +1,8 @@
 title: $:/tiddlywiki.com/TextWidget
 caption: text
 created: 20140119141900000
-modified: 20140119083700000
+modified: 20190115000000000
+text-test: e=mc^^2^^
 original-tags: Widgets
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: TextWidget
@@ -20,22 +21,16 @@ The content of the `<$text>` widget is not used.
 
 ! Example
 
-```
-<$vars string="//italic//">
+<$macrocall $name='wikitext-example-without-html' src='<$vars string="//italic//">
 
 * <<string>>
 * <$text text=<<string>>/>
 
 </$vars>
-```
+' />
 
-Displays as:
+<$macrocall $name='wikitext-example-without-html' src='
+The text-test field of this tiddler has a field value: <$text text={{!!text-test}}/>
 
-<<<
-<$vars string="//italic//">
-
-* <<string>>
-* <$text text=<<string>>/>
-
-</$vars>
-<<<
+It displays in its normal WikiText format as: {{!!text-test}}
+' />
