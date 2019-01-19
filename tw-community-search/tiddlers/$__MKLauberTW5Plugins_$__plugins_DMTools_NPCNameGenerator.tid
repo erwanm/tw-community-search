@@ -1,0 +1,13 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/DMTools/NPCNameGenerator
+author: Matt Lauber
+dependents: 
+description: NPC Name Generator
+list: readme [[Control Panel]]
+version: 1.0.3
+original-tags: 
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/DMTools/NPCNameGenerator
+source-tiddler-title-as-link: %24%3a%2fplugins%2fDMTools%2fNPCNameGenerator
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

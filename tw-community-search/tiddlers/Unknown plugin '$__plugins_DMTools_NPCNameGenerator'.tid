@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/DMTools/NPCNameGenerator'
+name: unknown
+plugin_tiddler: $:/plugins/DMTools/NPCNameGenerator
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
