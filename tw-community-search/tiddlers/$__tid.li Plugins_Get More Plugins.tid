@@ -1,10 +1,10 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20190106100911411
+modified: 20190119225557230
 modifier: Thomas Elmiger
 priority: 2
-original-tags: 
+original-tags: MyMark
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: Get More Plugins
 source-tiddler-title-as-link: Get%20More%20Plugins
@@ -28,7 +28,7 @@ Great plugins to improve your workflow, the design or the functionality of your 
 <span class="tc-btn-big-color gray"><$link to="$:/plugins/telmiger/MyStory">
 {{$:/plugins/telmiger/MyStory/icon}}<span class="btn-text"> My Story</span></$link></span>
 
-* $:/plugins/telmiger/MyStory – a replacement for the //Open// tab with useful features & options
+* $:/plugins/telmiger/MyStory – a replacement for the //Open// tab with useful features & options, bookmarking tiddlers included.
 
 
 !!! Display
