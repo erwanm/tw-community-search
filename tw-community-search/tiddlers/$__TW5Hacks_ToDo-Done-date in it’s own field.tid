@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/ToDo-Done-date in it’s own field
+created: 20160818062249095
+creator: Thomas Elmiger
+deadline: 
+modified: 20170410213519914
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160818130827
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo-Done-date in it’s own field
+source-tiddler-title-as-link: ToDo-Done-date%20in%20it%2019s%20own%20field
+
+Be exact. Sometimes contents change but tiddlers stay done. Don’t use modified date as Done-date. 
+
+* When the user checks done, the date is written in it’s own field.
+
+Do I hav to use JS and $tw.utils.stringifyDate(now)); for this?

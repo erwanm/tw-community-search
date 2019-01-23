@@ -1,0 +1,17 @@
+title: $:/TW5Hacks/Quiz
+created: 20180928055450608
+creator: Thomas Elmiger
+modified: 20180928055458731
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Quiz
+source-tiddler-title-as-link: Quiz
+
+<$list filter="""[tag[Quiz]]""">
+<$details summary=<<currentTiddler>>>
+
+<$transclude tiddler=<<currentTiddler>>/>
+
+</$details>
+</$list>

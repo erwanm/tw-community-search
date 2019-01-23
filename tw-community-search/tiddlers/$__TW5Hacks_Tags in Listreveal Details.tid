@@ -1,0 +1,16 @@
+title: $:/TW5Hacks/Tags in Listreveal Details
+created: 20160821163244350
+creator: Thomas Elmiger
+modified: 20170410213141516
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20160822225335
+original-tags: Configuration Listreveal ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Tags in Listreveal Details
+source-tiddler-title-as-link: Tags%20in%20Listreveal%20Details
+
+Context is important. Show tags in details (respect configuration, if this is optional).
+
+* Tags are visible in detail view
+** Tags are cklickable
