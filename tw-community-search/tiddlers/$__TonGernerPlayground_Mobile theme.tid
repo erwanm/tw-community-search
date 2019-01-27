@@ -1,0 +1,37 @@
+title: $:/TonGernerPlayground/Mobile theme
+caption: Mobile
+created: 20190124163842275
+creator: TonGerner
+modified: 20190126170726568
+modifier: TonGerner
+status: upgraded to
+original-tags: theme
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Mobile theme
+source-tiddler-title-as-link: Mobile%20theme
+
+!! [[Mobile theme]]  v<<tversion "mobile">>
+
+Bluish palette v{{$:/palettes/Bluish!!version}}
+
+''Status:'' @@.RED Experimental@@
+
+<<slider "Screenshot" Screenshot_Mobile_theme.png>>
+
+@@.sliderBG
+<div>
+<$transclude tiddler="$:/themes/tongerner/mobile" subtiddler="$:/themes/tongerner/mobile/readme" mode="block"/>
+</div>
+@@
+<hr>
+
+Drag & drop the following link(s) to your wiki to install this plugin:
+
+* $:/themes/tongerner/mobile
+
+Drag & drop the following link to your wiki to install the 'Bluish' palette:
+
+* [[$:/palettes/Bluish]]
+
+---
+
