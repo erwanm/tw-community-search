@@ -1,7 +1,7 @@
 title: $:/tid.li Plugins/Get More Plugins
 created: 20170126214112475
 creator: Thomas Elmiger
-modified: 20190121195224944
+modified: 20190127215200542
 modifier: Thomas Elmiger
 priority: 2
 original-tags: MyMark
@@ -110,6 +110,15 @@ Also available as [[bundles|https://tid.li/tw5/plugins.html#B%3A%2FWMR%2Freferen
 {{$:/core/images/new-button}}<span class="btn-text"> rpn Basic Math</span></$link></span>
 
 * $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/PluginSize">
+{{$:/plugins/telmiger/PluginSize/icon}}<span class="btn-text"> Plugin Size</span></$link></span>
+
+* $:/plugins/telmiger/PluginSize – know the weight of addons.
+* You need other plugins to use this:
+** $:/plugins/telmiger/EditorCounter
+** $:/plugins/telmiger/rpn
+** $:/plugins/telmiger/HarveyBalls
 
 ---
 

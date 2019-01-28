@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/CountWidget
 caption: count
 created: 20131024141900000
-modified: 20131030083700000
+modified: 20181231130100000
 original-tags: Widgets
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: CountWidget
@@ -17,3 +17,6 @@ The content of the `<$count>` widget is ignored.
 
 |!Attribute |!Description |
 |filter |The filter expression to count |
+
+! Example
+<<wikitext-example-without-html """There are <$count filter="[tag[Examples]]"/> tiddlers tagged with Examples""">>
