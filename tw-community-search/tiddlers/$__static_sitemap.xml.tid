@@ -1,0 +1,22 @@
+title: $:/static/sitemap.xml
+author: Jim Lehmer
+created: 20150105133844331
+groups: https://groups.google.com/d/msg/tiddlywiki/Xton0F9QtHE/bsoGQuuBh38J
+modified: 20150302113256066
+url: http://dullroar.com/TiddlyWiki%2520plugin%2520to%2520generate%2520sitemap.xml.html
+original-tags: [[Jim Lehmer]] Static
+source-wiki-id: static
+source-tiddler-title-as-text: sitemap.xml
+source-tiddler-title-as-link: sitemap.xml
+
+; github
+: https://github.com/dullroar/TW5-sitemap
+; example
+: http://dullroar.com/sitemap.xml
+:: http://dullroar.com/robots.txt
+; sitemap.xml?
+: ''spec:'' http://www.sitemaps.org/protocol.html
+
+!! Sitemap without macros
+* https://groups.google.com/d/msg/tiddlywiki/Xton0F9QtHE/PdQ6GSjqh-YJ
+* http://novye-podarki.ru/heeg.html#%24%3A%2F_sitemap
