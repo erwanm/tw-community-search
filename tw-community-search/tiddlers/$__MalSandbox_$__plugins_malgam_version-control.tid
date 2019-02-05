@@ -3,7 +3,7 @@ author: malgam
 core-version: 5.1.19
 description: Simple Tiddler Version Control
 list: readme usage
-version: 0.0.4
+version: 0.0.5
 original-tags: 
 source-wiki-id: MalSandbox
 source-tiddler-title-as-text: $:/plugins/malgam/version-control
