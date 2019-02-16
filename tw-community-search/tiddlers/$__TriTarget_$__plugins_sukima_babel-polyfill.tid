@@ -3,7 +3,7 @@ author: Sukima
 core-version: >=5.0.0
 dependents: 
 description: ES2015 Polyfills
-version: 5.1.17
+version: 5.1.14
 original-tags: 
 source-wiki-id: TriTarget
 source-tiddler-title-as-text: $:/plugins/sukima/babel-polyfill
