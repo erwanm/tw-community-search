@@ -1,7 +1,9 @@
 title: $:/SimpleCalendarPlugin/$:/plugins/frd/simplecalendar
 author: FrD
+created: 20190206214756137
 description: Simple Calendar
-version: 0.2.11
+modified: 20190206214756765
+version: 0.2.16
 original-tags: 
 source-wiki-id: SimpleCalendarPlugin
 source-tiddler-title-as-text: $:/plugins/frd/simplecalendar
