@@ -3,7 +3,7 @@ author: Sukima
 core-version: >=5.0.0
 dependents: 
 description: Macro to embed a JS Bin
-version: 5.1.14
+version: 5.1.19
 original-tags: 
 source-wiki-id: TriTarget
 source-tiddler-title-as-text: $:/plugins/sukima/jsbin
