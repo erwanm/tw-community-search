@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/telmiger/Clipboard'
-name: unknown
-plugin_tiddler: $:/plugins/telmiger/Clipboard
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/telmiger/todonow'
-name: unknown
-plugin_tiddler: $:/plugins/telmiger/todonow
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
