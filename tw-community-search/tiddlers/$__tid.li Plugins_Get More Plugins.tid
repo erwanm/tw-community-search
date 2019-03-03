@@ -1,0 +1,213 @@
+title: $:/tid.li Plugins/Get More Plugins
+created: 20170126214112475
+creator: Thomas Elmiger
+modified: 20190127215200542
+modifier: Thomas Elmiger
+priority: 2
+original-tags: MyMark
+source-wiki-id: tid.li Plugins
+source-tiddler-title-as-text: Get More Plugins
+source-tiddler-title-as-link: Get%20More%20Plugins
+
+Great plugins to improve your workflow, the design or the functionality of your wiki. Completely free and open source. 
+
+# ''Make a backup first'' 
+# Drag the button or the link below to your wiki.
+# Save and reload.
+
+!!! Search
+
+<span class="tc-btn-big-color gray"><$link to="$:/plugins/telmiger/simple-search">
+{{$:/plugins/telmiger/simple-search/icon}}<span class="btn-text"> Simple Search</span></$link></span>
+
+* $:/plugins/telmiger/simple-search – nice and simple interface for searching
+
+
+!!! Sidebar
+
+<span class="tc-btn-big-color gray"><$link to="$:/plugins/telmiger/MyStory">
+{{$:/plugins/telmiger/MyStory/icon}}<span class="btn-text"> My Story</span></$link></span>
+
+* $:/plugins/telmiger/MyStory – a replacement for the //Open// tab with useful features & options, bookmarking tiddlers included.
+
+
+!!! Display
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/WMR">
+{{$:/plugins/telmiger/WMR/icon}}<span class="btn-text"> Wikitext Reference</span></$link></span>
+
+Also available as [[bundles|https://tid.li/tw5/plugins.html#B%3A%2FWMR%2Freference-filter.bundle:B%3A%2FWMR%2Freference-filter.bundle%20B%3A%2FWMR%2Freference.bundle%20%24%3A%2Fplugins%2Ftelmiger%2FWMR%20%5B%5BGet%20More%20Plugins%5D%5D]].
+
+* $:/plugins/telmiger/WMR – learn or look up: the [[Wikitext Markup Reference]] WMR shows how things work.
+* To get results from filter examples you also need these three tiddlers: 
+** $:/plugins/telmiger/WMR/bar
+** $:/plugins/telmiger/WMR/foo
+** $:/plugins/telmiger/WMR/foo-bar
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/details">
+{{$:/core/images/right-arrow}}<span class="btn-text"> ~DetailsWidget</span></$link></span>
+
+* $:/plugins/telmiger/details – hide/reveal content using HTML5 details/summary
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/HarveyBalls">
+{{$:/plugins/telmiger/HarveyBalls/half/icon.svg}}<span class="btn-text"> ~HarveyBalls</span></$link></span>
+
+* $:/plugins/telmiger/HarveyBalls – ideograms for visual communication of qualitative information
+
+<span class="tc-btn-big-color dark"><$link to="$:/plugins/telmiger/ReaderMode">
+{{$:/plugins/telmiger/ReaderMode/icon}}<span class="btn-text"> Reader Mode</span></$link></span>
+
+* $:/plugins/telmiger/ReaderMode – display the story river as a pure flow of content for distraction-free reading
+
+
+!!! Edit
+
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/Clipboard">
+{{$:/core/images/file}}<span class="btn-text"> Clipboard</span></$link></span>
+
+* $:/plugins/telmiger/Clipboard – store and access text snippets from the editor
+
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditButtons">
+{{$:/core/images/done-close-button}}<span class="btn-text"> ~EditButtons</span></$link></span>
+
+*  $:/plugins/telmiger/EditButtons – the missing buttons to //save and close// as well as //save and keep open// and //cancel and close//.
+
+<span class="tc-btn-big-color"><$link to="$:/plugins/telmiger/EditorCounter">
+{{$:/core/images/mono-block}}<span class="btn-text"> ~EditorCounter</span></$link></span>
+
+* $:/plugins/telmiger/EditorCounter – count words or characters while editing, autosave after a defined number of characters
+
+
+!!! Get Stuff Done
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/todonow">
+{{$:/core/images/done-button}}<span class="btn-text"> ~ToDoNow</span></$link></span>
+
+* $:/plugins/telmiger/todonow
+* You need $:/plugins/telmiger/listreveal too!
+* Download suggested bundles as JSON files, see list in the right sidebar, //Bundles// tab
+* Download the complete solution from https://tid.li/tw5/tdn.html
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/listreveal">
+{{$:/core/images/list-bullet}}<span class="btn-text"> Listreveal</span></$link></span>
+
+* $:/plugins/telmiger/listreveal – open listed tiddlers within the list
+
+<span class="tc-btn-big-color blue"><$link to="$:/plugins/telmiger/reminders">
+{{$:/core/images/timestamp-on}}<span class="btn-text"> Reminders</span></$link></span>
+
+* $:/plugins/telmiger/reminders – reminders and alerts for ToDoNow
+* You need $:/plugins/telmiger/rpn too!
+
+!!! Calculate
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/ColorAction">
+{{$:/core/images/palette}}<span class="btn-text"> ~ColorAction</span></$link></span>
+
+*  $:/plugins/telmiger/ColorAction – manipulate colors and test contrast with the ~TinyColor library
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/rpn">
+{{$:/core/images/new-button}}<span class="btn-text"> rpn Basic Math</span></$link></span>
+
+* $:/plugins/telmiger/rpn – simple calculations inspired by reverse polish notation
+
+<span class="tc-btn-big-color darkblue"><$link to="$:/plugins/telmiger/PluginSize">
+{{$:/plugins/telmiger/PluginSize/icon}}<span class="btn-text"> Plugin Size</span></$link></span>
+
+* $:/plugins/telmiger/PluginSize – know the weight of addons.
+* You need other plugins to use this:
+** $:/plugins/telmiger/EditorCounter
+** $:/plugins/telmiger/rpn
+** $:/plugins/telmiger/HarveyBalls
+
+---
+
+!!! Experimental
+
+''//ALPHA state – do not use this stuff for production wikis!//''
+
+* You also need [[$:/plugins/telmiger/listreveal]] – ''update if you have it already!''
+* You need $:/plugins/telmiger/rpn too!
+
+<span class="tc-btn-big-color darkred"><$link to="$:/plugins/telmiger/FlippyCards">
+{{$:/plugins/telmiger/FlippyCards/icon}}<span class="btn-text"> ~FlippyCards</span></$link></span>
+
+*  $:/plugins/telmiger/FlippyCards – two sides of the same elegant card: manage content on connected double-tiddlers, e.g. for learning.
+
+<span class="tc-btn-big-color darkred"><$link to="$:/plugins/telmiger/DuoCard">
+{{$:/plugins/telmiger/cardy/cards-icon.svg}}<span class="btn-text"> ~DuoCard</span></$link></span>
+
+*  $:/plugins/telmiger/DuoCard – predecessor of ~FlippyCards: manage content on simple double-tiddlers, e.g. for learning.
+
+<style>
+.tc-btn-big-color {
+   background: #34c734;
+   display: inline-block; 
+   min-width: 13em;
+   padding: 8px;
+   margin: 4px 8px 4px 0;
+   color: #ffffff;
+   fill: #ffffff;
+   border: none;
+   font-size: 1.2em;
+   line-height: 1.4em;
+   text-decoration: none;
+}
+.tc-btn-big-color:hover {
+   background-color: #19a719;
+}
+.tc-btn-big-color svg, 
+.tc-btn-big-color img { 
+   margin-top: 0;
+   vertical-align: middle;
+   fill: #fff;
+   font-size: 2em;
+   height: 1em;
+   width: 1em;
+}
+.tc-btn-big-color svg.save-close  {
+   fill: #fff;
+}
+.tc-btn-big-color a, .tc-btn-big-color a:hover {
+   padding-left: 6px;
+   color: white;
+   text-decoration: none;
+}
+.tc-btn-big-color .btn-text {
+   padding: 16px;
+}
+.tc-btn-big-color.gray {
+   background: #6c6c6c;
+}
+.tc-btn-big-color.gray:hover {
+   background: #333;
+}
+.tc-btn-big-color.dark {
+   background: #19a719;
+}
+.tc-btn-big-color.dark:hover {
+   background: #34c734;
+}
+.tc-btn-big-color.blue {
+   background-color: #2caeff;
+}
+.tc-btn-big-color.blue:hover {
+   background-color: #2a74da;
+}
+.tc-btn-big-color.darkblue {
+   background-color: #2a74da;
+}
+.tc-btn-big-color.darkblue:hover {
+   background-color: #2caeff;
+}
+.tc-btn-big-color.darkred {
+   background-color: #da2a3d;
+}
+.tc-btn-big-color.darkred:hover {
+   background-color: #ff354a;
+}
+.tc-btn-big-color svg.em-icon.ball-half { 
+   fill: #fff;
+   padding: 0.05em;
+}
+</style>
