@@ -1,9 +1,9 @@
-title: $:/tiddlywiki.com/Introduction to filter notation
+title: $:/listops/Introduction to filter notation
 created: 20140410101941871
 modified: 20150228104558000
 type: text/vnd.tiddlywiki
 original-tags: Learning Filters
-source-wiki-id: tiddlywiki.com
+source-wiki-id: listops
 source-tiddler-title-as-text: Introduction to filter notation
 source-tiddler-title-as-link: Introduction%20to%20filter%20notation
 
@@ -86,5 +86,3 @@ as an alternative to `[tag[Vegetarian]]`. This allows the preference to change o
 <<.def "Angle brackets">> `<>` mean that the parameter is the name of a [[variable|Variables]] whose value is to be used instead. Here we use the built-in <<.vlink currentTiddler>> variable in a filter that selects any tiddlers whose text contains the title of the current one:
 
 > `[search<currentTiddler>]`
-
-Note that these special brackets cannot be nested. It is not possible for example to write `[search{<currentTiddler>}]`.
