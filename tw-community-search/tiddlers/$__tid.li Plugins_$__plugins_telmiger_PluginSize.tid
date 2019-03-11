@@ -4,13 +4,13 @@ core-version: >=5.1.17
 created: 20190127213601512
 creator: Thomas Elmiger
 dependents: Editor Counter, RPN, Harvey Balls
-description: Plugin Size
+description: Plugin Size – calculate the extra weight
 list: readme
-modified: 20190127215601720
+modified: 20190310225333591
 modifier: Thomas Elmiger
 name: Plugin Size
 source: https://tid.li/tw5/plugins.html
-version: 0.0.7
+version: 0.0.9
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/PluginSize
