@@ -1,9 +1,0 @@
-title: $:/tiddlywiki.com/Text preview
-created: 20160817104110857
-modified: 20160817104802841
-original-tags: [[Editor toolbar]]
-source-wiki-id: tiddlywiki.com
-source-tiddler-title-as-text: Text preview
-source-tiddler-title-as-link: Text%20preview
-
-Pressing the eye icon {{$:/core/ui/EditorToolbar/preview}} will open or close a preview window (and the eye) of the text you are editing.

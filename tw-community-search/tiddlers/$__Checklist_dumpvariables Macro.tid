@@ -1,0 +1,21 @@
+title: $:/Checklist/dumpvariables Macro
+caption: dumpvariables
+created: 20140908104107181
+modified: 20150221151454000
+type: text/vnd.tiddlywiki
+original-tags: Macros [[Core Macros]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: dumpvariables Macro
+source-tiddler-title-as-link: dumpvariables%20Macro
+
+The <<.def dumpvariables>> [[macro|Macros]] returns a table showing the values of all [[variables|Variables]] and [[macros|Macros]] that exist at that position in the [[widget tree|Widgets]].
+
+It is useful for debugging and exploring ~TiddlyWiki's internals.
+
+Placeholders are replaced with values in the normal way, but using the default values for all macro parameters.
+
+!! Parameters
+
+(none)
+
+<<.macro-examples "dumpvariables">>

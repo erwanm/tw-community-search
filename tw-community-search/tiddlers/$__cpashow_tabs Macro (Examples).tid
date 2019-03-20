@@ -1,0 +1,17 @@
+title: $:/cpashow/tabs Macro (Examples)
+created: 20150221211317000
+modified: 20150221211719000
+type: text/vnd.tiddlywiki
+original-tags: [[tabs Macro]] [[Macro Examples]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: tabs Macro (Examples)
+source-tiddler-title-as-link: tabs%20Macro%20%28Examples%29
+
+<$macrocall $name=".example" n="1"
+eg="""<<tabs "SampleTabOne SampleTabTwo SampleTabThree SampleTabFour" "SampleTabOne" "$:/state/tab1">>"""/>
+
+<$macrocall $name=".example" n="2"
+eg="""<<tabs "[tag[sampletab]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>"""/>
+
+<$macrocall $name=".example" n="3"
+eg="""<<tabs "[tag[sampletab]nsort[order]]" "SampleTabThree" "$:/state/tab3" "tc-vertical">>"""/>
