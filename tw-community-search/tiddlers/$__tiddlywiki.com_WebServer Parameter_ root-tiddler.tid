@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/WebServer Parameter: root-tiddler
+caption: root-tiddler
+created: 20180630180320376
+modified: 20180702160659310
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: root-tiddler
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20root-tiddler
+
+The [[web server configuration parameter|WebServer Parameters]] ''root-tiddler'' determines the title of the tiddler that is rendered as the root wiki. The default setting is `$:/core/save/all`.

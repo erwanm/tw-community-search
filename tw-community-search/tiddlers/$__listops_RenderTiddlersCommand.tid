@@ -1,8 +1,0 @@
-title: $:/listops/RenderTiddlersCommand
-caption: rendertiddlers
-original-tags: Commands
-source-wiki-id: listops
-source-tiddler-title-as-text: RenderTiddlersCommand
-source-tiddler-title-as-link: RenderTiddlersCommand
-
-{{$:/language/Help/rendertiddlers}}

@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/WebServer Parameter: readers
+caption: readers
+created: 20180630180405978
+modified: 20180702155139006
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: readers
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20readers
+
+The [[web server configuration parameter|WebServer Parameters]] ''readers'' is used to specify the security principals with read access to the wiki. See [[WebServer Authorization]] for more details.

@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/WebServer Parameter: authenticated-user-header
+caption: authenticated-user-header
+created: 20180630180213047
+modified: 20180702140416583
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: authenticated-user-header
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20authenticated-user-header
+
+The [[web server configuration parameter|WebServer Parameters]] ''authenticated-user-header'' activates [[header authentication|WebServer Header Authentication]] by specifying the name of the HTTP header that will be used to pass the username to TiddlyWiki.

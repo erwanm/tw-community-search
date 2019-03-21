@@ -1,0 +1,26 @@
+title: $:/tiddlywiki.com/WebServer API: Get Tiddler
+created: 20181002130310180
+modified: 20181002130457330
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer API]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer API: Get Tiddler
+source-tiddler-title-as-link: WebServer%20API%3a%20Get%20Tiddler
+
+Gets the raw fields of a tiddler
+
+```
+GET /recipes/default/tiddlers/{title}
+```
+
+Parameters:
+
+* ''title'' - URI encoded title of the tiddler to retrieve
+
+Response:
+
+
+* 200 OK
+*> `Content-Type: application/json`
+*> Body: tiddler in [[TiddlyWeb JSON tiddler format]] 
+* 404 Not Found

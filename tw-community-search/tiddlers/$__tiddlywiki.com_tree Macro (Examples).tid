@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/tree Macro (Examples)
+created: 20170628164706364
+modified: 20170628164823552
+type: text/vnd.tiddlywiki
+original-tags: [[tree Macro]] [[Macro Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: tree Macro (Examples)
+source-tiddler-title-as-link: tree%20Macro%20%28Examples%29
+
+<$macrocall $name=".example" n="1"
+eg="""<<tree prefix:"$:/">>"""/>

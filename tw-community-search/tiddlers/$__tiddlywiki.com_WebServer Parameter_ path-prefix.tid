@@ -1,0 +1,17 @@
+title: $:/tiddlywiki.com/WebServer Parameter: path-prefix
+caption: path-prefix
+created: 20180630180514893
+modified: 20180702154716090
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: path-prefix
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20path-prefix
+
+The [[web server configuration parameter|WebServer Parameters]] ''path-prefix'' can be used to set an optional prefix for all paths served.
+
+This example causes the server to serve from http://127.0.0.1/MyApp instead of the default http://127.0.0.1/MyApp.
+
+```
+tiddlywiki mywikifolder --listen "path-prefix=/MyApp"
+```

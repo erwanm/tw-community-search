@@ -1,0 +1,29 @@
+title: $:/tiddlywiki.com/Hard Linebreaks with CSS
+created: 20170126174506507
+modified: 20170126211042714
+type: text/vnd.tiddlywiki
+original-tags: [[Hard Linebreaks in WikiText]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hard Linebreaks with CSS
+source-tiddler-title-as-link: Hard%20Linebreaks%20with%20CSS
+
+Since TiddlyWiki Version 5.1.16, it's possible to apply customs styles with `data-` attributes. see: [[How to apply custom styles]]
+
+The [[Custom data-styles]] stylesheet tiddler contains the following definition:
+
+```
+[data-tags*="example-hardlinebreaks"] .tc-tiddler-body {
+  word-break: normal; 
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+```
+
+If rendered without the tag, the content of "Hard Linebreaks with CSS - Example" will be shown like this: 
+
+>{{Hard Linebreaks with CSS - Example}}
+
+----
+
+Open the tiddler to see the custom CSS rules applied: [[Hard Linebreaks with CSS - Example]]
+

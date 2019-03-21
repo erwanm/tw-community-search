@@ -1,0 +1,29 @@
+title: $:/tiddlywiki.com/WebServer Parameter: username
+caption: username
+created: 20180628130114210
+modified: 20180702124624290
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: username
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20username
+
+The [[web server configuration parameter|WebServer Parameters]] ''username'', in conjunction with its companion [[password|WebServer Parameter: password]]:
+
+* Enables [[Basic Authentication|WebServer Basic Authentication]] with the specified username/password combination being added to any credentials specified with the [[credentials|WebServer Parameter: credentials]] parameter
+* The specified username is used as a default value for the [[readers|WebServer Parameter: readers]] and [[writers|WebServer Parameter: writers]] authorization parameters if they are not specified
+
+!! Examples
+
+Serve anonymous users, setting the username to "joe":
+
+```
+tiddlywik mywikifolder --listen anon-username=joe
+```
+
+Restrict access to the user "joe" with a password of "secret":
+
+```
+tiddlywik mywikifolder --listen username=joe password=secret
+```
+

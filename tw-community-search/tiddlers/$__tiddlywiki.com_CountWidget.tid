@@ -1,0 +1,22 @@
+title: $:/tiddlywiki.com/CountWidget
+caption: count
+created: 20131024141900000
+modified: 20181231130100000
+original-tags: Widgets
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: CountWidget
+source-tiddler-title-as-link: CountWidget
+
+! Introduction
+
+The count widget displays the number of unique items in the output of specified [[filter expressions|Filters]].
+
+! Content and Attributes
+
+The content of the `<$count>` widget is ignored.
+
+|!Attribute |!Description |
+|filter |The filter expression to count |
+
+! Example
+<<wikitext-example-without-html """There are <$count filter="[tag[Examples]]"/> tiddlers tagged with Examples""">>

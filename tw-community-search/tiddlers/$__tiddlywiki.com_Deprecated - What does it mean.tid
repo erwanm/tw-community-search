@@ -1,0 +1,20 @@
+title: $:/tiddlywiki.com/Deprecated - What does it mean
+created: 20170126142116898
+modified: 20180411173900000
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Deprecated - What does it mean
+source-tiddler-title-as-link: Deprecated%20-%20What%20does%20it%20mean
+
+First of all: ''Keep calm!''
+
+{{$:/deprecated}}
+
+For ~TiddlyWiki it means, that you should not use this mechanism for new content anymore! ''AND you should update your existing content''!
+
+Deprecated features have a marker. see: [[Custom styles by tag]]
+
+''Tiddlers tagged `$:/deprecated`''
+
+><<list-links "[tag[$:/deprecated]]">>

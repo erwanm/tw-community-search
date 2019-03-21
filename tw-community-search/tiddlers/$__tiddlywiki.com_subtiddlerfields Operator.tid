@@ -1,0 +1,16 @@
+title: $:/tiddlywiki.com/subtiddlerfields Operator
+caption: subtiddlerfields
+created: 20180403164138703
+modified: 20180403164644231
+op-input: a [[selection|Title Selection]] of tiddler titles
+op-output: all field names present in the selected tiddlers within the plugin named <<.place P>>
+op-parameter: the title of a plugin
+op-parameter-name: P
+op-purpose: select all fields present in the selected tiddlers within a plugin
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Special Operators]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: subtiddlerfields Operator
+source-tiddler-title-as-link: subtiddlerfields%20Operator
+
+<<.operator-examples "subtiddlerfields">>

@@ -1,0 +1,14 @@
+title: $:/tiddlywiki.com/WebServer Parameter: debug-level
+caption: debug-level
+created: 20180630180535728
+modified: 20180702142154308
+type: text/vnd.tiddlywiki
+original-tags: [[WebServer Parameters]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: WebServer Parameter: debug-level
+source-tiddler-title-as-link: WebServer%20Parameter%3a%20debug-level
+
+The [[web server configuration parameter|WebServer Parameters]] ''debug-level'' determines the level of debugging information printed to the console:
+
+* ''full'' - maximum logging
+* ''none'' - no logging

@@ -1,0 +1,14 @@
+title: $:/tiddlywiki.com/SystemTag: $:/tags/RawMarkup
+caption: $:/tags/RawMarkup
+created: 20180926170345251
+description: marks tiddlers included as raw text at the bottom of `<head>`
+modified: 20180927084346820
+type: text/vnd.tiddlywiki
+original-tags: SystemTags
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: SystemTag: $:/tags/RawMarkup
+source-tiddler-title-as-link: SystemTag%3a%20%24%3a%2ftags%2fRawMarkup
+
+The [[system tag|SystemTags]] `$:/tags/RawMarkup` marks plain text tiddlers to be included as raw markup at the bottom of the `<head>` section in the generated HTML file.
+
+Note that the wiki must be saved and reloaded in order for a raw markup tiddler to take effect.

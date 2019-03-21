@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/subfilter Operator (Examples)
+created: 20181031175129475
+modified: 20181031175129475
+type: text/vnd.tiddlywiki
+original-tags: [[subfilter Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: subfilter Operator (Examples)
+source-tiddler-title-as-link: subfilter%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[subfilter[one two three]addsuffix[!]]">>
+<<.operator-example 2 "[subfilter{$:/StoryList!!list}]">>
