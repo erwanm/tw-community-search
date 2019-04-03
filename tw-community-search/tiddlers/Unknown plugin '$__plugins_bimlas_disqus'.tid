@@ -1,6 +1,6 @@
-title: Unknown plugin '$:/plugins/sukima/comments'
+title: Unknown plugin '$:/plugins/bimlas/disqus'
 name: unknown
-plugin_tiddler: $:/plugins/sukima/comments
+plugin_tiddler: $:/plugins/bimlas/disqus
 tags: [[Plugin twCard]] CommunityPlugins
 twcs-error: error 5: unknown plugin found
 
