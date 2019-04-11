@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/How to change the sort order of sub-branches in a TOC macro
 created: 20161209172820513
-modified: 20161209174234840
+modified: 20190220000000000
 type: text/vnd.tiddlywiki
 original-tags: Learning
 source-wiki-id: tiddlywiki.com
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: How%20to%20change%20the%20sort%20order%20of%20sub-
 Imagine that you are using a [[Table of Contents|Table-of-Contents Macros]] macro similar to this:
 
 ```
-<<toc-selective-expandable  "TableOfContents" "sort[title]" >>
+<<toc-selective-expandable  "TableOfContents" "sort[title]">>
 ```
 
 The sorting is fine for most cases, but you would like all your items tagged `Journal` to be sorted by the `created` field. How can you apply a separate sort order to just those sub-items tagged `Journal`?
@@ -20,7 +20,7 @@ The trick is to add a field to the parent tagging tiddler (i.e. `Journal`) that 
 Now change your [[Table of Contents|Table-of-Contents Macros]] to look like this:
 
 ```
-<<toc-selective-expandable  "TableOfContents" "sort{fuzzy}" >>
+<<toc-selective-expandable  "TableOfContents" "sort{!!fuzzy}">>
 ```
 
 Now your Table of Contents will sort by title everywhere, except for the children of the `Journal` tiddler, which will sort by the `created `date.
