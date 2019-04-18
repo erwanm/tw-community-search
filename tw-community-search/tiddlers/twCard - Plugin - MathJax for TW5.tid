@@ -17,6 +17,10 @@ short_description: A plugin to add MathJax typesetting to TW5
 title: twCard - Plugin - MathJax for TW5
 wiki: http://mathjax-tw5.kantorsite.net/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: mathjax-tw5.kantorsite
+twcs-extracted-plugin-tiddler: $:/mathjax-tw5.kantorsite/$:/plugins/kantorsite/mathjax
+twcs-description: Adds support of MathJax
+twcs-author: 
+twcs-version: 5.0.12-beta
 
 {{||$:/CommunityPluginTemplate}}
