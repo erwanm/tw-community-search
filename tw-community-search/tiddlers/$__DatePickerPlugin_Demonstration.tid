@@ -1,0 +1,17 @@
+title: $:/DatePickerPlugin/Demonstration
+created: 20150712121212000
+original-tags: 
+source-wiki-id: DatePickerPlugin
+source-tiddler-title-as-text: Demonstration
+source-tiddler-title-as-link: Demonstration
+
+Using `input` tag and showing time:
+
+<$edit-date showTime showSeconds use24hour/>
+
+Using an icon instead of an `input` field:
+
+<$edit-date icon="$:/plugins/kixam/datepicker/icon" tag=div />
+
+!!Result:
+{{!!created}}
