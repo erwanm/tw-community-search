@@ -6,10 +6,10 @@ endx: 10
 endy: 10
 height: 100
 large-arc-flag: 
-last_button: 
-modified: 20170201195320079
-path: M 0 0
-path-elements: 
+last_button: left-down-curve
+modified: 20190614021621023
+path: M 0 0 a 5 5 0 0 0 -5 -5 a 5 5 0 1 0 -10 0 a 5 5 0 0 0 -5 5 a 5 5 0 0 0 -5 -5 a 5 5 0 1 0 -10 0 a 5 5 0 0 0 -5 5 a 5 5 0 0 0 -5 -5 a 5 5 0 1 0 -10 0 v 10 v 10 v 10 v 10 v 10 v 10 h 10 h 10 h 10 h 10 h 10 h 10 h 10 h 10 h 10 h 10 h 10 v -10 v -10 v -10 v -10 v -10 v -10 v 10 v -10 a 5 5 0 0 0 -5 -5 a 5 5 0 0 0 -5 -5 a 5 5 0 1 0 -10 0 a 5 5 0 0 0 -5 5 a 5 5 0 1 0 -10 0 a 5 5 0 0 0 -5 5 a 5 5 0 1 0 -10 0 a 5 5 0 0 0 -5 5
+path-elements:  up-left-curve left-bump left-down-curve up-left-curve left-bump left-down-curve up-left-curve left-bump down down down down down down right right right right right right right right right right right up up up up up up down up up-left-curve up-left-curve left-bump left-down-curve left-bump left-down-curve left-bump left-down-curve
 rx: 
 ry: 
 startx: 50

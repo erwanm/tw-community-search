@@ -1,14 +1,16 @@
 title: $:/cpashow/CRM
 company: [[Evil Corp]] [[Pan Happiness]] [[Pan Happiness Inc]]
 created: 20160408200217295
-modified: 20160408225948673
+modified: 20190614023033080
 person: [[Harry Boxer]] [[Tom Hardy]]
 original-tags: 
 source-wiki-id: cpashow
 source-tiddler-title-as-text: CRM
 source-tiddler-title-as-link: CRM
 
-<<mytabs "Company Person Call">>
+\define qualify()<<nn>>
+<<tabs "Company Person Call">>
+
 <$macrocall $name="section" sectionName="Company" sectionText="""
 
 Company
