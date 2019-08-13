@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/minall Operator (Examples)
+created: 20190611161051108
+modified: 20190611161107239
+type: text/vnd.tiddlywiki
+original-tags: [[minall Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: minall Operator (Examples)
+source-tiddler-title-as-link: minall%20Operator%20%28Examples%29
+
+<<.operator-example 1 "=1 =2 =3 =4 =5 +[minall[]]">>
+<<.operator-example 2 "[tag[HelloThere]get[text]length[]minall[]]">>

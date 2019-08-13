@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/min Operator (Examples)
+created: 20190611131138259
+modified: 20190611131149542
+type: text/vnd.tiddlywiki
+original-tags: [[min Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: min Operator (Examples)
+source-tiddler-title-as-link: min%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[23]min[32]]">>
+<<.operator-example 2 "=1 =2 =3 =4 +[min[3]]">>

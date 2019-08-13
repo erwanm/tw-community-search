@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/precision Operator (Examples)
+created: 20190611151444751
+modified: 20190611154248537
+type: text/vnd.tiddlywiki
+original-tags: [[precision Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: precision Operator (Examples)
+source-tiddler-title-as-link: precision%20Operator%20%28Examples%29
+
+<<.operator-example 1 "123456789 +[precision[3]]">>
+<<.operator-example 2 "123456789 +[precision[13]]">>
+<<.operator-example 3 "1.23E23 +[precision[90]]">>

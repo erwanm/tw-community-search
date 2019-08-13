@@ -9,3 +9,6 @@ source-tiddler-title-as-link: tree%20Macro%20%28Examples%29
 
 <$macrocall $name=".example" n="1"
 eg="""<<tree prefix:"$:/">>"""/>
+
+<$macrocall $name=".example" n="2"
+eg="""<<tree prefix:"tree-macro-example-" separator:"-">>"""/>

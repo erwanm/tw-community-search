@@ -1,0 +1,10 @@
+title: $:/tiddlywiki.com/splitregexp Operator (Examples)
+created: 20190613154934814
+modified: 20190613155013565
+type: text/vnd.tiddlywiki
+original-tags: [[splitregexp Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: splitregexp Operator (Examples)
+source-tiddler-title-as-link: splitregexp%20Operator%20%28Examples%29
+
+<<.operator-example 1 "a=b-c=d-e +[splitregexp[=|-]]">>

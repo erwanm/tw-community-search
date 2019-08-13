@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/subtract Operator (Examples)
+created: 20190611125619962
+modified: 20190611125638512
+type: text/vnd.tiddlywiki
+original-tags: [[subtract Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: subtract Operator (Examples)
+source-tiddler-title-as-link: subtract%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[23]subtract[19]]">>
+<<.operator-example 2 "=1 =2 =3 =4 +[subtract[4]]">>

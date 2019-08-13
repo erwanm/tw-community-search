@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/TiddlerFiles
 created: 20130825150000000
-modified: 20150216171751154
+modified: 20190609154450433
 type: text/vnd.tiddlywiki
 original-tags: [[TiddlyWiki on Node.js]]
 source-wiki-id: tiddlywiki.com
@@ -77,7 +77,9 @@ For example:
 ]
 ```
 
-//The ContentType `application/json` is used internally for these files//
+The ContentType `application/json` is used internally for these files.
+
+Note that JSON files that do not conform to the tiddler structure will instead be imported as a single tiddler containing the JSON data.
 
 !! TiddlyWiki HTML files
 

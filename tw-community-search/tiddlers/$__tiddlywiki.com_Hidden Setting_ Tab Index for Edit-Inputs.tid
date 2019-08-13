@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/Hidden Setting: Tab Index for Edit-Inputs
+created: 20190702074846206
+modified: 20190702074846206
+original-tags: [[Hidden Settings]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hidden Setting: Tab Index for Edit-Inputs
+source-tiddler-title-as-link: Hidden%20Setting%3a%20Tab%20Index%20for%20Edit-Inputs
+
+The input fields of Tiddlers that are being edited can be assigned a ''tabindex'' value (preferably 1) so that the <kbd>Tab</kbd> key can be used to directly move the focus from one input to the next or backwards using <kbd>shift-Tab</kbd>
+
+$:/config/EditTabIndex

@@ -1,0 +1,10 @@
+title: $:/tiddlywiki.com/trim Operator (Examples)
+created: 20190613153847475
+modified: 20190613153924808
+type: text/vnd.tiddlywiki
+original-tags: [[trim Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: trim Operator (Examples)
+source-tiddler-title-as-link: trim%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[ a b ]trim[]addprefix[-]addsuffix[-]]">>

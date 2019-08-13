@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/product Operator (Examples)
+created: 20190611160221390
+modified: 20190611160243829
+type: text/vnd.tiddlywiki
+original-tags: [[product Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: product Operator (Examples)
+source-tiddler-title-as-link: product%20Operator%20%28Examples%29
+
+<<.operator-example 1 "=1 =2 =3 =4 =5 +[product[]]">>
+<<.operator-example 2 "[tag[HelloThere]get[text]length[]product[]]">>

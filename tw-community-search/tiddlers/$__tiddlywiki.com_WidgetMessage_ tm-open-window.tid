@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/WidgetMessage: tm-open-window
 caption: tm-open-window
 created: 20160424181447704
-modified: 20160424182909036
+modified: 20190704145627537
 type: text/vnd.tiddlywiki
 original-tags: Messages
 source-wiki-id: tiddlywiki.com
@@ -13,6 +13,7 @@ The `tm-open-window` message opens a tiddler in a new //browser// window. If no 
 |!Name |!Description |
 |param |Title of the tiddler to be opened in a new browser window, defaults to <<.var "currentTiddler">> if empty |
 |template |Template in which the tiddler will be rendered in |
+|windowTitle |Title string for the opened window |
 |width |Width of the new browser window |
 |height |Height of the new browser window |
 |paramObject |Hashmap of variables that will be provided to the window  |

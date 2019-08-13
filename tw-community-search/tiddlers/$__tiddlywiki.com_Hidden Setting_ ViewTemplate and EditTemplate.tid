@@ -1,0 +1,9 @@
+title: $:/tiddlywiki.com/Hidden Setting: ViewTemplate and EditTemplate
+created: 20190704053532718
+modified: 20190704053532718
+original-tags: [[Hidden Settings]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hidden Setting: ViewTemplate and EditTemplate
+source-tiddler-title-as-link: Hidden%20Setting%3a%20ViewTemplate%20and%20EditTemplate
+
+The configuration Tiddlers $:/config/ui/ViewTemplate and $:/config/ui/EditTemplate can be used to change the ''~ViewTemplate'' respectively the ''~EditTemplate'' used in the [[Story PageTemplate|$:/core/ui/PageTemplate/story]]

@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/multiply Operator (Examples)
+created: 20190611125743568
+modified: 20190611125757767
+type: text/vnd.tiddlywiki
+original-tags: [[multiply Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: multiply Operator (Examples)
+source-tiddler-title-as-link: multiply%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[23]multiply[19]]">>
+<<.operator-example 2 "=1 =2 =3 =4 +[multiply[4]]">>

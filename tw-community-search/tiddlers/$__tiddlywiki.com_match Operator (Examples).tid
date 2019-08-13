@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/match Operator (Examples)
+created: 20190731080350471
+modified: 20190731080435966
+type: text/vnd.tiddlywiki
+original-tags: [[match Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: match Operator (Examples)
+source-tiddler-title-as-link: match%20Operator%20%28Examples%29
+
+<<.operator-example 1 "a b c +[match[b]]">>
+<<.operator-example 1 "[match[HelloThere]]">>

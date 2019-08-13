@@ -3,8 +3,8 @@ author: JoaoBolila
 core-version: >=5.0.0
 dependents: 
 description: Highlight.js: syntax highlighting
-list: readme usage license
-version: 5.1.18
+list: readme usage howto license
+version: 5.1.21-prerelease
 original-tags: 
 source-wiki-id: vis.jsTimeline
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

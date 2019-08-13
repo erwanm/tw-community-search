@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/lowercase Operator (Examples)
+created: 20190613153824151
+modified: 20190613153842330
+type: text/vnd.tiddlywiki
+original-tags: [[lowercase Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: lowercase Operator (Examples)
+source-tiddler-title-as-link: lowercase%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[Abc]lowercase[]]">>
+<<.operator-example 2 "[tag[HelloThere]lowercase[]]">>

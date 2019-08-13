@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/sign Operator (Examples)
+created: 20190613085050151
+modified: 20190613085120851
+type: text/vnd.tiddlywiki
+original-tags: [[sign Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: sign Operator (Examples)
+source-tiddler-title-as-link: sign%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[1.6]sign[]]">>
+<<.operator-example 2 "[[-1.6]sign[]]">>
+<<.operator-example 3 "[[0]sign[]]">>

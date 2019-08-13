@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/round Operator (Examples)
+created: 20190613084626721
+modified: 20190613084651519
+type: text/vnd.tiddlywiki
+original-tags: [[round Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: round Operator (Examples)
+source-tiddler-title-as-link: round%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[1.6]round[]]">>
+<<.operator-example 2 "[[-1.6]round[]]">>
+<<.operator-example 3 "=-1.2 =-2.4 =3.6 =4.8 =5.1 +[round[]]">>

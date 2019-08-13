@@ -1,0 +1,11 @@
+title: $:/tiddlywiki.com/divide Operator (Examples)
+created: 20190611125929173
+modified: 20190611130146154
+type: text/vnd.tiddlywiki
+original-tags: [[divide Operator]] [[Operator Examples]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: divide Operator (Examples)
+source-tiddler-title-as-link: divide%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[[355]divide[113]]">>
+<<.operator-example 2 "=1 =2 =3 =4 +[divide[2]]">>

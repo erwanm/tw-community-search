@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Mobile drag and drop shim
 list: readme license
-version: 5.1.19
+version: 5.1.20
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/mobiledragdrop
