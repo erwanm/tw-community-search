@@ -1,0 +1,30 @@
+title: $:/LibreNote/Des démonstrations d'utilisation de Tiddlywiki
+created: 20151023123441637
+creator: svink
+modified: 20161114170244100
+modifier: svink
+resume: Utiliser ~TiddlyWiki pour créer un blog.
+template: $:/.ln/core/template/BlogTemplate
+titre_news: Utiliser ~TiddlyWiki comme un blog
+url_thumb: https://framadrive.org/public.php?service=files&t=TmNMqQrNdHZxR1I&download
+original-tags: Blog LibreNote TiddlyWiki semisemi
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Des démonstrations d'utilisation de Tiddlywiki
+source-tiddler-title-as-link: Des%20démonstrations%20d%27utilisation%20de%20Tiddlywiki
+
+J'ai créé une nouvelle entrée ''demo'' dans l'arborescence du site afin de partager des démonstrations d'utilisation de ~TiddlyWiki.
+
+La première démo présente une manière d'utiliser ~TiddlyWiki pour créer un blog. Les explications détaillées sont accessibles sur https://librenote.aerobatic.io/demo/tiddlyblog.
+
+Les principaux points sont:
+
+*La création et l'utilisation de modèles (//templates//)
+*La création d'un bouton personnalisé
+*Le trie et le classement des articles
+
+D'autres démos seront mises en ligne par la suite.
+
+<br>
+<div style="text-align:center;">
+<img src="https://framadrive.org/public.php?service=files&t=0lZ906LJQIGTnvs&download">
+</div>

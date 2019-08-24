@@ -1,0 +1,48 @@
+title: $:/LinuxNote/Matériel
+created: 20141217144108400
+modified: 20160419173138587
+original-tags: [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Matériel
+source-tiddler-title-as-link: Matériel
+
+!Périphériques d'entrée
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Permet de configurer le comportement du clavier, touchpad, souris, joystick ou tablette graphique.''
+
+!!Clavier
+
+<<<
+__Configurer le clavier pour les PC portables__<br>
+Pour activer le verrouillage majuscule (Caps Lock) pour les chiffres sur un portable (majuscules accentuées par défaut).<br>
+Périphérique d'entrée → onglet clavier → avancé → //Comportement de la touche Verr Maj// → //Verr. maj. bascule le blocage majuscule (affecte toutes les touches)//
+<<<
+
+!Gestion de l'énergie
+<i class="fa fa-desktop fa-2x pull-left"></i> ''Paramètres globaux pour la gestion de l'énergie, des évènements de boutons...''
+
+!!Économies d'énergie
+
+@@.flotte
+<a href="https://framadrive.org/public.php?service=files&t=hBwQnhRJYr0vYag" target="_blank">[img width="350" [Économies d'énergie|https://framadrive.org/public.php?service=files&t=hBwQnhRJYr0vYag&download]]</a>
+@@
+
+Permet de configurer le comportement de l'écran (luminosité, mise en veille...)
+
+<br>
+
+<<<
+__Utiliser l'hibernation quand l'écran est rabattu__<br>
+Prise en charge des évènements de bouton → Lorsque l'écran du portable est rabattu //Suspendre// (cela active l'hibernation sur mon pc !!). A adapter en fonction.
+<<<
+<br>
+
+!Imprimantes
+Permet d'ajouter facilement vos imprimantes en utilisant le système d'impression opensource CUPS (Common Unix Printing System).
+
+Le serveur d'impression est normalement démarré par défaut, ce qui peut être vérifié avec la commande `systemctl status org.cups.cupsd`.
+
+Si le serveur n'est pas en cours d'exécution il faut le démarrer avec `systemctl start org.cups.cupsd.service`. Pour qu'il se lance automatiquement à chaque démarrage il faut utiliser `systemctl enable org.cups.cupsd.service`.
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"/> L'application //Gestionnaire d'impression// ouvre votre navigateur à l'adresse http://localhost:631 qui vous permet d'ajouter et configurer votre imprimante dans l'interface web de CUPS.
+@@

@@ -1,0 +1,75 @@
+title: $:/LinuxNote/Les composants graphiques
+created: 20141205160207270
+modified: 20160419165456082
+original-tags: [[L'espace de travail]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Les composants graphiques
+source-tiddler-title-as-link: Les%20composants%20graphiques
+
+@@.flotte
+<a href="https://framadrive.org/public.php?service=files&t=ZjV6pRRNdralZFl" target="_blank">[img width='160' [Composants graphiques|https://framadrive.org/public.php?service=files&t=ZjV6pRRNdralZFl&download]]</a>
+@@
+
+<br>
+Les composants graphiques ou plasmoids sont des widgets placés sur le bureau ou dans les panneaux que l'on ajoute par simple glissé-déposé. Le lanceur d'application, l'horloge numérique... sont des plasmoids.
+
+<<<
+On y accède par clic droit ou par la //boite à outils du bureau// → //Ajouter des composants graphiques//<br>
+<<<
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Il faut penser à //''Déverrouiller les composants graphiques''// avant de les manipuler (clic droit sur le bureau ou par la boite à outils du bureau).
+@@
+
+!!Installer d'autres composants graphiques
+
+<<<
+Par la boite de dialogue //Obtenir de nouveaux composants graphiques//
+<<<
+
+On peut aussi installer de nouveaux composants graphiques en cherchant les paquets `plasma5-applets-*` dans le gestionnaire de paquets ou dans CCR.
+
+@@.att
+<i class="fa fa-exclamation-triangle fa-2x pull-left" style="color:#2C3E50"></i> Avoir trop de plasmoids peut augmenter l'utilisation du CPU et réduire les performances.
+@@
+
+!!Configuration
+Tous les plasmoids peuvent être configurés de manière individuelle.
+
+<<<
+Clic droit sur le plasmoid → //Configurer//<br>
+Pour ceux affichés sur le bureau, il faut maintenir le clic droit pour faire apparaitre les options (//redimensionner, faire pivoter, paramètres// et //supprimer//).
+<<<
+
+!!Zoom sur quelques plasmoids
+
+@@.flotte
+<a href="https://framadrive.org/public.php?service=files&t=PMvUQ0asYvxw3eA" target="_blank">[img align="right" width="300" [Editeur de menu|https://framadrive.org/public.php?service=files&t=PMvUQ0asYvxw3eA&download]]</a>
+@@
+
+!!!Les lanceurs d'applications
+Plasma propose trois lanceurs d'applications différents dont un en mode plein écran.
+
+<<<
+Clic droit sur le menu →//Alternatives//  
+<<<
+
+On peut configurer complètement les raccourcis des applications du menu avec //L'éditeur du menu KDE//.
+
+<<<
+Clic droit sur le menu → //Éditer les applications//
+<<<
+
+!!!Les gestionnaires de tâches
+Le gestionnaire de tâches classique peut être remplacé par des //Alternatives// comme le //gestionnaire de tâches par icônes// qui peut aussi être utilisé comme un dock.
+
+<<<
+Pour ajouter des icônes :<br> Clic droit sur l'application dans le menu → //Ajouter comme lanceur// ou lancer l'application puis Clic droit sur l'icône → //Afficher un lanceur lorsqu'elle n'est pas démarrée//.
+<<<
+
+!!!La Boite à miniature
+C'est un plasmoid où sont stockés les miniatures des programmes en arrière plan.
+
+<<<
+Pour la configurer :<br> Clic droit → //Paramètres de boite à miniatures//
+<<<

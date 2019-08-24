@@ -1,0 +1,13 @@
+title: $:/LinuxNote/Réseau
+created: 20141217143718510
+modified: 20160419174719549
+original-tags: [[La configuration du système]]
+source-wiki-id: LinuxNote
+source-tiddler-title-as-text: Réseau
+source-tiddler-title-as-link: Réseau
+
+Permet de configurer les préférences réseau et les partages Windows.
+
+@@.info
+<i class="fa fa-info-circle fa-3x pull-left"></i> Les paquets `kcm-*` (KDE Control Module) sont des modules supplémentaires qui peuvent être ajoutés au centre de configuration.
+@@

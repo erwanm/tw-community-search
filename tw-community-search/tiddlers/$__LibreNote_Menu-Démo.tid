@@ -1,0 +1,16 @@
+title: $:/LibreNote/Menu-Démo
+created: 20161210225903858
+list-tiddlers: DemoListe
+menu-icon: <i class="fa fa-cog" aria-hidden="true"></i>
+menu-title: Démo
+modified: 20171109135554980
+rank: 4
+tooltip: Démonstrations
+original-tags: 
+source-wiki-id: LibreNote
+source-tiddler-title-as-text: Menu-Démo
+source-tiddler-title-as-link: Menu-Démo
+
+<$button class="tc-btn-invisible icon-menu" tooltip={{!!tooltip}} set="$:/StoryList!!list" setTo={{!!list-tiddlers}}>
+{{!!menu-icon}} {{!!menu-title}}
+</$button>
