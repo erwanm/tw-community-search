@@ -21,6 +21,6 @@ twcs-wiki-id: TiddlyMap
 twcs-extracted-plugin-tiddler: $:/TiddlyMap/$:/plugins/felixhayashi/tiddlymap
 twcs-description: TiddlyMap – Map drawing and topic visualization for your wiki
 twcs-author: Felix Küppers
-twcs-version: 0.15.4+9756
+twcs-version: 0.16.1+9773
 
 {{||$:/CommunityPluginTemplate}}
