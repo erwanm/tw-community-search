@@ -1,7 +1,7 @@
 title: Tag: Tags
 tags: CommunityTags
 community-tag: Tags
-community-tag-count: 2
-community-wikis: [[TiddlyNote]]
+community-tag-count: 19
+community-wikis: [[classic]] [[demo]] [[filters]] [[tb5]] [[TiddlyNote]] [[youtube]]
 
 {{||$:/CommunityTagTemplate}}

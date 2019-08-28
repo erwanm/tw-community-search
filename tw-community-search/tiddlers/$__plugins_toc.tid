@@ -1,0 +1,9 @@
+title: $:/plugins/toc
+revision: 0
+tabs: Info Syntax Examples Install
+original-tags: Plugins Filters
+source-wiki-id: plugins
+source-tiddler-title-as-text: toc
+source-tiddler-title-as-link: toc
+
+<<plugin-docs toc>>

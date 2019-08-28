@@ -1,0 +1,15 @@
+title: $:/tb5/bold-italics
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: bold-italics
+source-tiddler-title-as-link: bold-italics
+
+<dt>
+
+```
+''//bold italics//''
+```
+</dt>
+<dd>''//bold italics//''</dd>

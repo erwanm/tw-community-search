@@ -1,0 +1,35 @@
+title: $:/plugins/rate-Styles
+created: 20160105134806091
+creator: Tobias Beer
+modified: 20160105204121462
+modifier: Tobias Beer
+rating: 4
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: rate-Styles
+source-tiddler-title-as-link: rate-Styles
+
+The ''rate'' macro uses the following css classes:
+
+; tc-rating
+: the div wrapping the rating controls
+; tc-rate
+: each rating button
+; tc-selected
+: selected rating button
+; tc-rating-&lt;value>
+: each rating button, e.g.: `tc-rating-5`
+: allows to style individual ratings differently
+:: see `light` class in styles below
+; tc-reset-rating
+: the button to remove ratings
+; tc-rating-template
+: the div wrapping the ratings view-template
+; light
+: a class in addition to `tc-rating` for an opacity effect, see [[examples|rate-Examples]]
+
+The default styles are defined in:
+
+<<source "$:/plugins/tobibeer/rate/styles">>

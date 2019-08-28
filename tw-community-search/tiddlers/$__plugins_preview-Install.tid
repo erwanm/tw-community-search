@@ -1,0 +1,27 @@
+title: $:/plugins/preview-Install
+created: 20160114002002424
+creator: Tobias Beer
+modified: 20160122211758673
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: preview-Install
+source-tiddler-title-as-link: preview-Install
+
+{{preview-Dependencies}}
+
+<<plugin-install preview>>
+
+!! Version History
+
+; 0.5.6 / 2016-01-22
+: fixed positioning issue for link-previews in preview-popups
+; 0.5.5 / 2016-01-20
+: requires <<tb appear>> [[0.6.0|https://github.com/tobibeer/tw5-appear/releases/tag/0.6.0]]!
+: improved handling for nested popups
+: fixed keyboard support
+: fixed bug for iOS devices throwing js error
+; 0.5.2 / 2016-01-14
+: initial version

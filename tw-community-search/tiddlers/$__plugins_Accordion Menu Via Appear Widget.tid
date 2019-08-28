@@ -1,0 +1,37 @@
+title: $:/plugins/Accordion Menu Via Appear Widget
+created: 20160107115650368
+creator: Tobias Beer
+modified: 20160107120432473
+modifier: Tobias Beer
+revision: 0
+summary: use the the [[appear]] widget to create an accordion style menu
+type: text/vnd.tiddlywiki
+original-tags: appear Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: Accordion Menu Via Appear Widget
+source-tiddler-title-as-link: Accordion%20Menu%20Via%20Appear%20Widget
+
+\define slider-label(prefix,suffix)
+@@.grey-svg $prefix$<$text text="$(currentTiddler)$"/>$suffix$@@
+\end
+
+@@.note
+''Note:'' The key to implementing an accordion menu is to define the same ''state'' tiddler for all list items.
+@@
+
+Uses a helper macro for slider buttons to create a list of tiddlers opening as sliders:
+
+```
+\define slider-label(prefix,suffix)
+@@.grey-svg $prefix$<$text text="$(currentTiddler)$"/>$suffix$@@
+\end
+```
+
+<$macrocall $name="`" text="""<$list filter="[all[shadows]prefix[$:/plugins/tobibeer/appear/]sort[title]]">
+<$appear
+show=<<slider-label suffix:"{{$:/core/images/chevron-right}}">>
+tooltip="show/hide tiddler"
+state="$:/state/menu/accordion">
+<$transclude mode="block"/>
+</$appear><br>
+</$list>"""/>

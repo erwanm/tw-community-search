@@ -1,0 +1,13 @@
+title: $:/tb5/TW5 Dev
+revision: 0
+summary: the tw5 developer wiki
+url: http://tiddlywiki.com/dev
+original-tags: Main
+source-wiki-id: tb5
+source-tiddler-title-as-text: TW5 Dev
+source-tiddler-title-as-link: TW5%20Dev
+
+; official
+: http://tiddlywiki.com/dev
+; update by Nicholas Spies
+: https://github.com/nicholas-spies/TW_Doc_for_Dev

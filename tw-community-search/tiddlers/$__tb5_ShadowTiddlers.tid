@@ -1,0 +1,15 @@
+title: $:/tb5/ShadowTiddlers
+created: 20150129121307226
+creator: Tobias Beer
+modified: 20150129121718828
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: tb5
+source-tiddler-title-as-text: ShadowTiddlers
+source-tiddler-title-as-link: ShadowTiddlers
+
+@@background-color:#fee;padding:14px;border-radius:7px;
+Setting a custom field of one of the <<tw SystemFields>> will overwrite a <<tw ShadowTiddler>> provided by the core or a plugin. This will prevent you from getting updates on this component if you upgrade your TiddlyWiki or plugin. Should you notice that some future functionality is missing from your overwritten component, simply delete your customization and create it anew.
+@@

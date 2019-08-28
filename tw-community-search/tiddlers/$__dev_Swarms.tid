@@ -1,0 +1,46 @@
+title: $:/dev/Swarms
+created: 20141210144821327
+creator: Tobias Beer
+modified: 20150112154230370
+modifier: Tobias Beer
+summary: packaging tiddlers on-the fly or as pseudo-shadows in a package, i.e. a "swarm"
+url: https://groups.google.com/forum/#!topic/tiddlywiki/m6qGAjukiQs
+original-tags: Explore
+source-wiki-id: dev
+source-tiddler-title-as-text: Swarms
+source-tiddler-title-as-link: Swarms
+
+; export swarms
+: https://groups.google.com/d/msg/tiddlywiki/m6qGAjukiQs/SFWZMqHoBPMJ
+
+<br>
+
+!! PMario
+; terms recap
+: https://groups.google.com/d/msg/tiddlywikidev/7avA60bauFc/wmiLG2G_qbAJ
+
+; tiddler
+: the fundamental unit of information in TiddlyWiki
+
+; plugin
+: a bundle of tiddlers packaged together as a single tiddler
+: distribute optional, custom components
+
+; swarm
+: //"I have come to think of the mechanism that yields plugins as a more general concept of bundling tiddlers to be reused and repurposed for different usecases, like a bundle or a "swarm of tiddlers"... rushing from one place to another."// — Tobias Beer
+
+;bag (TiddlyWeb)
+: a container of uniquely named tiddlers
+: can have rules for who can edit, delete or read the tiddlers in the bag
+: rules are defined in a policy
+
+: recipe  (TiddlyWeb)
+: an ordered list of bags and filters that generates a list of tiddlers
+
+; tank ([[Tank]])
+: a container for your content
+: each individual piece of content is called a tiddler
+: each tank has a name, an optional description and a policy which controls who can read or manipulate the tiddlers in the tank
+
+; composition ([[Tank]])
+: or "comp", combines two or more tanks to achieve an alternate presentation or tool for managing the content in the tanks

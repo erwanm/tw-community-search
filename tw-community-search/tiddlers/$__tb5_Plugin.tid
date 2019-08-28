@@ -1,0 +1,15 @@
+title: $:/tb5/Plugin
+icon: $:/core/images/plugin-generic-plugin
+revision: 0
+original-tags: 
+source-wiki-id: tb5
+source-tiddler-title-as-text: Plugin
+source-tiddler-title-as-link: Plugin
+
+<$set name="remove" value="Plugin">
+<<list-search
+filter:"[tag[Plugin]sort[title]]"
+search:search
+state:"$:/temp/tb/list-plugins"
+template:"$:/.tb/template/tagged-summary">>
+</$set>

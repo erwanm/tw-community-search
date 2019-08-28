@@ -1,0 +1,9 @@
+title: $:/plugins/Libraries
+revision: 0
+summary: library plugins by [[Tobias Beer]]
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: Libraries
+source-tiddler-title-as-link: Libraries
+
+<<list-plugins>>

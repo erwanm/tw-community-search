@@ -1,0 +1,13 @@
+title: $:/tb5/code
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: code
+source-tiddler-title-as-link: code
+
+<dt><pre>&#96;code&#96;</pre></dt>
+<dd>`code` ...via backticks</dd>
+
+<dt><pre>&#96;&#96;with &#96;backticks&#96; &#96;&#96;</pre></dt>
+<dd>``with `backticks` ``</dd>

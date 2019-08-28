@@ -1,0 +1,18 @@
+title: $:/plugins/dict-Configuration
+created: 20151113120806292
+creator: Tobias Beer
+modified: 20151123101031797
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: dict-Configuration
+source-tiddler-title-as-link: dict-Configuration
+
+You can specify a [[default template macro|dict-Templates]] at:
+
+; [[$:/plugins/tobibeer/dict/config/template]]
+: <$edit-text tiddler="$:/plugins/tobibeer/dict/config/template" tag="input"/>
+
+[[Available macro templates and working with them...|dict-Templates]]

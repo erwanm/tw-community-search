@@ -1,0 +1,71 @@
+title: $:/youtube/AddAnnotation
+created: 20150109114844771
+modified: 20150110160704839
+summary: adding an annotation to a video tiddler
+original-tags: Documentation
+source-wiki-id: youtube
+source-tiddler-title-as-text: AddAnnotation
+source-tiddler-title-as-link: AddAnnotation
+
+[[Add a new video|AddVideo]] first or open an existing video tiddler...
+
+# click the [[+|$:/plugins/tobibeer/youtube/forms/new-annotation]] button below the video to the right
+# enter the desired values into the form<div>
+
+{{Intro — 00:00:00 - 00:00:17||$:/plugins/tobibeer/youtube/forms/new-annotation}}
+
+<table>
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Stored at</th>
+<th>Required</th>
+</tr>
+<tr>
+<td>`start`</td>
+<td>the start position of the annotation</td>
+<td>[[yt-start]]</td>
+<td>mandatory</td>
+</tr>
+<tr>
+<td>`end`</td>
+<td>the end position of the annotation</td>
+<td>[[yt-end]]</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>`title`</td>
+<td>a short description for the annotation displayed as a link</td>
+<td>[[yt-annotation]]</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>`tags`</td>
+<td>tags assigned to the annotation tiddler</td>
+<td>`tags`</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>`text`</td>
+<td>text for the annotation tiddler </td>
+<td>`text`</td>
+<td>optional</td>
+</tr>
+</table>
+</div>
+# actions:
+#; add
+#: adds a new annotation tiddler for the video with the specified contents
+#:* for short annotation tiddler titles, define a `yt-prefix` field at the video tiddler with the desired prefix
+#; set
+#: sets the current player to the given start / end values
+#; reset
+#: resets the current player
+
+!! Example Video [[Introduction To TiddlyWiki]]
+
+{{Introduction To TiddlyWiki||$:/plugins/tobibeer/youtube/ViewTemplate/video}}
+
+!! Example Annotation [[Intro — 00:00:00 - 00:00:17]]
+
+{{Intro — 00:00:00 - 00:00:17||$:/plugins/tobibeer/youtube/ViewTemplate/annotation}}

@@ -1,0 +1,48 @@
+title: $:/dev/DropListUI
+created: 20150201222001600
+creator: Tobias Beer
+modified: 20150201224551316
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: dev
+source-tiddler-title-as-text: DropListUI
+source-tiddler-title-as-link: DropListUI
+
+You grab an item via its handle to the left and drop it onto any of the red bars to insert it there. Clicking on a red bar will create a a new item there.
+
+<div class="tc-drop-list">
+<div class="tc-drop-here">&nbsp;</div>
+<$list filter="1 2 3 4 5 6 7 8 9 10">
+<div class="tc-drop-item"><$view field=title/></div>
+<div class="tc-drop-here">&nbsp;</div>
+</$list>
+</div>
+
+<style>
+.tc-drop-list:hover > .tc-drop-here{
+display:block;
+}
+.tc-drop-here:hover{
+background:#fff6f6;
+}
+.tc-drop-item{
+padding:5px 5px 5px 20px;
+}
+.tc-drop-item:hover{
+background:#f6fff6;
+}
+.tc-drop-item:hover:before{
+content:"&nbsp;";
+background:#f6f6f6;
+display:block;
+float:left;
+width:15px;
+padding:5px 0;
+margin:-5px 0 0 -20px;
+}
+.tc-drop-here{
+display:none;
+height:10px;
+margin:-10px 0 0 0;
+}
+</style>

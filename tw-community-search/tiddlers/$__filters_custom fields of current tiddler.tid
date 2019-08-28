@@ -1,0 +1,16 @@
+title: $:/filters/custom fields of current tiddler
+caption: current tiddler
+created: 20150107201048801
+creator: Tobias Beer
+filter: [all[current]fields[]sort[title]]-[all[shadows]removeprefix[$:/language/Docs/Fields/]]
+modified: 20150122171844156
+modifier: Tobias Beer
+summary: returns fields-names of the current tiddler that are not core fields
+original-tags: removeprefix Filters fields current all shadows Fields
+source-wiki-id: filters
+source-tiddler-title-as-text: custom fields of current tiddler
+source-tiddler-title-as-link: custom%20fields%20of%20current%20tiddler
+
+{{||$:/.tb/template/fields-custom-current}}
+
+Rendered via template <<source "$:/.tb/template/fields-custom-current">>

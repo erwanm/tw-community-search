@@ -1,0 +1,30 @@
+title: $:/demo/OnEmpty
+created: 20150122140726425
+creator: Tobias Beer
+modified: 20150203131416325
+modifier: Tobias Beer
+summary: allows to define behaviour when last tiddler in story is closed
+url: see pull request: <<git5 pull/pull/1407>>
+original-tags: Demo Story History Behaviour
+source-wiki-id: demo
+source-tiddler-title-as-text: OnEmpty
+source-tiddler-title-as-link: OnEmpty
+
+@@color:red;''Deprecated:''@@ This was a modification to [[$:/core/modules/widgets/navigator.js]] allows to define the behaviour of TiddlyWiki when the last tiddler in the story is closed by setting the text of [[$:/config/Story/OnEmpty]] to either of:
+
+; `keep`
+: will keep the last tiddler open
+; `default`
+: will open the default tiddler(s)
+; `open:foo`
+; `show:foo`
+; `show=    foo   `
+: either will open the tiddler `foo`, i.e.
+:: the first 5 characters are truncated
+:: the rest is trimmed
+
+Try modifying [[$:/config/Story/OnEmpty]] right now!
+
+!! Discussion
+
+https://groups.google.com/d/msg/tiddlywiki/-qevGMkbWBQ/lgUu0j_wlnkJ

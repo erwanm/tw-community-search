@@ -1,0 +1,18 @@
+title: $:/tb5/Fields: Core
+caption: core
+created: 20141118195032028
+creator: Tobias Beer
+modified: 20150107195102560
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Fields Lists Filters Core
+source-wiki-id: tb5
+source-tiddler-title-as-text: Fields: Core
+source-tiddler-title-as-link: Fields%3a%20Core
+
+all [[core fields|Fields: Core]] except [[standard fields|Fields: Standard]] as documented in the TiddlyWiki core:
+
+{{$:/.tb/templates/fields-core}}
+
+Rendered via <<source "$:/.tb/templates/fields-core">>

@@ -1,0 +1,42 @@
+title: $:/plugins/contains:<listfield> $exactly[<list>]
+created: 20161218185220541
+creator: Tobias Beer
+listfield: bar baz
+modified: 20161219123504571
+modifier: Tobias Beer
+revision: 0
+summary: {{contains!!listfield}} contains ''exactly'' those titles in ''list''
+type: text/vnd.tiddlywiki
+original-tags: contains Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: contains:<listfield> $exactly[<list>]
+source-tiddler-title-as-link: contains%3a%3clistfield%3e%20%24exactly%5b%3clist%3e%5d
+
+Can use single word titles directly:
+
+<<` """<dl>
+<$list filter="[contains:listfield $exactly[foo]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>""">>
+
+Or using a variable:
+
+<<` """<$vars list="bar baz">
+<dl>
+<$list filter="[contains:listfield $exactly<list>]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>
+</$vars>""">>
+
+{{contains!!negation}}
+
+<<` """<dl>
+<$list filter="[tag[contains]has[listfield]!contains:listfield $exactly[foo bar]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd>''listfield:'' {{!!listfield}}</dd>
+</$list>
+</dl>""">>

@@ -1,0 +1,23 @@
+title: $:/filters/all current tags of type
+created: 20150117094533752
+creator: Tobias Beer
+filter: [all[current]tags[]tag[type]]
+modified: 20150122171728244
+modifier: Tobias Beer
+summary: returns a list of tags that are of a given type, e.g. tagged a certain way or having a certain field
+original-tags: Filters [[Tobias Beer]] tag all current has tags
+source-wiki-id: filters
+source-tiddler-title-as-text: all current tags of type
+source-tiddler-title-as-link: all%20current%20tags%20of%20type
+
+Which of the current tags is itself tagged [[Developer]]?
+
+`<<list-links filter:"[all[current]tags[]tag[Developer]]">>`
+
+> <<list-links filter:"[all[current]tags[]tag[Developer]]">>
+
+Which of the current tags has a field `url`?
+
+`<<list-links filter:"[all[current]tags[]has[url]]">>`
+
+> <<list-links filter:"[all[current]tags[]has[url]]">>

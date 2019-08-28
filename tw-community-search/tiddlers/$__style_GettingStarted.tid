@@ -1,0 +1,53 @@
+title: $:/style/GettingStarted
+created: 20141211092625159
+creator: Tobias Beer
+modified: 20150108095354769
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: style
+source-tiddler-title-as-text: GettingStarted
+source-tiddler-title-as-link: GettingStarted
+
+This wiki introduces you to using your desktop browser to inspect the styles applied to elements in TiddlyWiki and permanently change them. Also see [[style examples|Styles]].
+
+Styling TiddlyWiki is easy, the pattern is always the same...
+
+#[[Inspect]]
+#[[Select]]
+#[[Modify]]
+#[[Save]]
+
+<br>
+
+!! Step 1 — [[Inspect Element|Inspect]]
+{{Inspect}}
+
+<br>
+
+!! Step 2 — [[Select Element|Select]]
+
+{{Select}}
+
+<br>
+
+!! Step 3 — [[Modify CSS|Modify]]
+
+{{Modify}}
+
+<br>
+
+!! Step 4 — [[Save CSS|Save]]
+
+{{Save}}
+
+<br>
+
+! Congratulations
+
+You have successfully applied your first style modifications.
+
+Need more help? Hop over to the [[discussion groups|https://groups.google.com/forum/#!topic/tiddlywiki]].
+
+!! Candy
+
+Interested in more? How about [[FontAwesome|http://fontawesome.tiddlyspot.com]]?

@@ -1,0 +1,19 @@
+title: $:/tb5/internal-links
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: internal-links
+source-tiddler-title-as-link: internal-links
+
+<dt>
+
+```
+[[The Tiddler]]
+[[pretty title|The Tiddler]]
+```
+</dt>
+<dd>
+
+[[The Tiddler]]<br>
+[[pretty title|The Tiddler]]
+</dd>

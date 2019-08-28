@@ -1,0 +1,24 @@
+title: $:/tb5/inline-styles
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: inline-styles
+source-tiddler-title-as-link: inline-styles
+
+<dt>
+
+```
+@@.purple Am I purple?@@
+
+<style>
+.purple{color:purple;}
+</style>
+```
+</dt>
+<dd>
+@@.purple Am I purple?@@
+
+<style>
+.purple{color:purple;}
+</style>
+</dd>

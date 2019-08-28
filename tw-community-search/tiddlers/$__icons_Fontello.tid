@@ -1,0 +1,16 @@
+title: $:/icons/Fontello
+created: 20150130003032328
+modified: 20150130015602324
+summary: icon fonts generator
+url: http://fontello.com
+original-tags: fonts sites
+source-wiki-id: icons
+source-tiddler-title-as-text: Fontello
+source-tiddler-title-as-link: Fontello
+
+; API
+: https://github.com/fontello/fontello#developers-api
+
+!! Listed Icon Fonts
+
+<<summaries>>

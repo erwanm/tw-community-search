@@ -1,0 +1,20 @@
+title: $:/filters/Author
+created: 20150120111052458
+creator: Tobias Beer
+modified: 20150120114120854
+modifier: Tobias Beer
+original-tags: 
+source-wiki-id: filters
+source-tiddler-title-as-text: Author
+source-tiddler-title-as-link: Author
+
+<$list filter="[all[current]tagging[]tagging[]sort[title]]" variable="item">
+<$tiddler tiddler=<<item>>>
+<h3><$link><$view field=title/></$link></h3>
+</$tiddler>
+<blockquote><b><<currentTiddler>>:</b>
+<$list filter="[<item>tags[]] +[tag<currentTiddler>]">
+<$link><$view field=title/></$link>
+</$list>
+</blockquote>
+</$list>

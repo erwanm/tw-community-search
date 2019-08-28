@@ -1,0 +1,160 @@
+title: $:/plugins/appear-Examples
+created: 20150201173223292
+creator: Tobias Beer
+modified: 20160122202311704
+modifier: Tobias Beer
+revision: 0
+summary: examples for the [[appear]] widget
+type: text/vnd.tiddlywiki
+original-tags: appear Examples
+source-wiki-id: plugins
+source-tiddler-title-as-text: appear-Examples
+source-tiddler-title-as-link: appear-Examples
+
+<div class="grey-svg">
+
+!! Simple Slider
+
+<<` """before <$appear>
+
+! Some Heading
+
+Some more text.</$appear> after""">>
+
+@@.note
+''Note:'' The <<x StateMechanism state>> is automatically qualified for you and sufficient for most use cases.
+@@
+
+!! Simple Popup
+
+<<` """before <$appear type="popup">
+
+! I Am Sticky
+
+Clicking anywhere outside will close me.</$appear> after""">>
+
+@@.note
+By [[default|appear-Defaults]], all popups created by <<tb appear>> are "sticky". Meaning: they do not close if you click inside the popup.
+@@
+
+!! Non-Sticky Popup
+
+// to make a popup non-sticky set the attribute ''keep'' to anything but `yes` or `true`.//
+
+<<` """before <$appear type="popup" keep="no" $state="sticky">
+
+! Non-Sticky Popup
+
+I will close as well when you click inside me.</$appear> after""">>
+
+@@.note
+''Note:'' The above uses the ''$state'' attribute to specify a shortcut way to qualify a unique state with respect to the current tiddler.
+@@
+
+!! Nested Popups
+
+// You can nest popups like so://
+
+<<` """<$appear type="popup" $state="click" show="click">
+<$appear type="popup" $state="again" show="again">
+<$appear type="popup" $state="once more" show="once more" style="width:600px">
+
+{{preview}}
+</$appear>
+</$appear>
+</$appear>""">>
+
+!! Simple Slider With Custom Button
+
+<<` """before <$appear show="slide down" $state="slider-button">
+
+! Sliding
+
+Some content for you.</$appear> after""">>
+
+!! Simple Slider With Button With Selected Class
+
+<<` """before <$appear show="slide down" $state="pink-button" selectedClass="pink">
+
+! Sliding
+
+Some content for you.</$appear> after""">>
+
+<style>button.pink {color:deeppink}</style>
+
+!! Simple Slider With Custom Show / Hide Buttons
+
+<<` """before <$appear show="open &raquo;" hide="&laquo; close" $state="slider-buttons">
+
+! Slider Buttons
+
+Can have different states.</$appear> after""">>
+
+!! Inline Slider With Custom Hide Button
+
+<<` """before <$appear hide="&laquo;" mode="inline" $state="inline">//I will be shown inline.//</$appear> after""">>
+
+!! Same As Above In Block-Mode
+
+<<` """before <$appear hide="&laquo;" $state="block">//I will be shown as a block.//</$appear> after""">>
+
+!! Same As Above With Custom Mode
+
+Any non-standard mode is interpreted as //block// mode, however without applying the default slider-styles:
+
+<<` """before <$appear hide="&laquo;" mode="custom" $state="custom-block">//And I am a "plain block".//</$appear> after""">>
+
+!! Custom Button With HTML Markup
+
+Click on the heading to see it unfold...
+
+<<` """<$appear show="<h1>A heading!</h1>" mode="custom" $state="html-markup">
+
+And some content for you.</$appear>""">>
+
+!! Inline Slider Only Showing Once
+
+<<` """before <$appear once mode="inline" $state="inline-once">//I am text, and you cannot hide me once you see me.//</$appear> after""">>
+
+!! Slider With Image Buttons
+
+<<` """before <$appear show="open {{$:/core/images/chevron-right}}" hide="{{$:/core/images/chevron-left}} close" $state="image-buttons">
+
+! Image Buttons
+
+Look real nice.</$appear> after""">>
+
+!! Popup With Custom Button
+
+<<` """before <$appear show="open popup" type=popup $state="popup-button">
+
+! Popups Buttons
+
+Can be customized just as well.</$appear> after""">>
+
+!! Tiddler Slider
+
+<$macrocall $name=` 
+text="""<$vars tid="GettingStarted">
+<$appear show="<$text text=<<tid>>/>" $state="tiddler-slider" mode="block">
+<$transclude mode="block" tiddler=<<tid>>/>
+</$appear>
+</$vars>"""/>
+
+!! List Popup
+
+<$macrocall $name=` 
+text="""before <$appear type="popup" $state="list-popup" class="tc-popup-keep">
+
+{{{[prefix[appear]sort[title]]}}}
+</$appear> after"""/>
+
+@@.note
+''Note:'' The above popup is also made sticky via `tc-popup-keep`.
+@@
+
+!! Remote Popup Handler
+
+// Actually renders the popup into the <<x SystemTags PageTemplate>> [[$:/.tb/ui/PageTemplate/popups]]://
+
+<$macrocall $name="`" text="""| <$appear show="click to show" type="popup" $state="popups-handler" handler="popups">I [[appear]] when you tell me to.</$appear> |eenie meenie miney mo |eenie meenie miney mo <br/><br/> |"""/>

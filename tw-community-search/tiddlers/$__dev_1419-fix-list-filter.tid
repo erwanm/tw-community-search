@@ -1,0 +1,13 @@
+title: $:/dev/1419-fix-list-filter
+created: 20150125193034300
+creator: Tobias Beer
+modified: 20150125193110072
+modifier: Tobias Beer
+summary: fixes list filter 
+url: <<git5 issues/1419>>
+original-tags: Pull Open 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1419-fix-list-filter
+source-tiddler-title-as-link: 1419-fix-list-filter
+
+previously did not correctly handle / match the source but only output the list as is

@@ -1,0 +1,18 @@
+title: $:/node/Building Standalone Wikis
+caption: standalone
+created: 20131124220600000
+modified: 20151014141502578
+summary: building a [[wiki]] or [[static]] pages for consumption in a browser
+original-tags: workflows
+source-wiki-id: node
+source-tiddler-title-as-text: Building Standalone Wikis
+source-tiddler-title-as-link: Building%20Standalone%20Wikis
+
+Before you can [[build|--build]] a [[standalone]] [[wiki]], make sure you have [[installed|Installing TiddlyWiki]] both [[node.js]] and [[tiddlywiki]]. Then use the [[--build]] [[command|commands]] on the <<cl>> to create the desired output wiki.
+
+!! Example
+Execute the following command from your [[wiki]] folder to build a [[standalone]] wiki:
+
+```
+tiddlywiki --rendertiddler $:/core/save/all index.html text/plain
+```
