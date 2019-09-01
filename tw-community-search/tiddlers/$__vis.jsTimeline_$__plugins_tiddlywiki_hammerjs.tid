@@ -1,0 +1,14 @@
+title: $:/vis.jsTimeline/$:/plugins/tiddlywiki/hammerjs
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: HammerJS library by Jorik Tangelder (Eight Media)
+list: readme license
+version: 5.1.21-prerelease
+original-tags: 
+source-wiki-id: vis.jsTimeline
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/hammerjs
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fhammerjs
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
