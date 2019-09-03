@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/flibbles/relink'
+name: unknown
+plugin_tiddler: $:/plugins/flibbles/relink
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
