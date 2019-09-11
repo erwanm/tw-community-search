@@ -1,0 +1,11 @@
+title: $:/mathjax-tw5.kantorsite/$:/plugins/tiddlywiki/fullscreen
+dependents: 
+description: Adds support for HTML5 full screen mode
+version: 5.0.7-beta
+original-tags: 
+source-wiki-id: mathjax-tw5.kantorsite
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/fullscreen
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2ffullscreen
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
