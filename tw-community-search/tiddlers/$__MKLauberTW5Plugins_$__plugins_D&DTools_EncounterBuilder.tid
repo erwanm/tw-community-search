@@ -1,0 +1,16 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/EncounterBuilder
+author: Matt Lauber
+created: NaNNaNNaNNaNNaNNaNNaN
+dependents: 
+description: D&D Encounter Builder
+list: 
+modified: NaNNaNNaNNaNNaNNaNNaN
+plugin-priority: 1
+version: 1.0.8
+original-tags: 
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/D&DTools/EncounterBuilder
+source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fEncounterBuilder
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

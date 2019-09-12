@@ -1,6 +1,6 @@
 title: $:/MKLauberTW5Plugins/$:/plugins/mklauber/aliases
 author: Matthew Lauber
-core-version: >=5.0.1
+core-version: >=5.1.18
 dependents: 
 description: Aliases - Alias Manager
 list: 
