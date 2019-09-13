@@ -7,7 +7,7 @@ list: readme
 modified: 20181104160247695
 name: 2nd level bulleted list button
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.5
+version: 0.0.6
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/list-bullet2-button

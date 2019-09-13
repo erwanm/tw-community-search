@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Tristate sidebar
 created: 20140811154029329
 creator: TonGerner
-modified: 20170504134738633
+modified: 20190912183050033
 modifier: TonGerner
 status: upgraded to
 original-tags: documentation guide
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: Tristate%20sidebar
 
 ''Status:'' @@.RED {{Tristate sidebar!!status}} v<<version>>@@
 
-''Note:'' @@.BROWN Available as plugin.@@
+''Note:'' @@.brown Available as plugin.@@
 
 This guide describes how to change the standard twostate ({{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality to tristate ({{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality of the Sidebar:
 

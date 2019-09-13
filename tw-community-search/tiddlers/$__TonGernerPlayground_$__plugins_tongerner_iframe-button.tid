@@ -6,7 +6,7 @@ description: Iframe button
 list: readme
 modified: 20171030121412918
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.6
+version: 0.0.7
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/iframe-button

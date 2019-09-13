@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20190126171830587
+modified: 20190912192900663
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,15 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 12-9-2019
+* Upgraded to TW v5.1.21
+** this TW + plugins
+** Bookmarklets guide
+** Exploration guide
+** Top menu guide
+** Tristate guide
+** Top toolbar guide
 
 !!! 26-1-2019
 * Added experimental Mobile theme

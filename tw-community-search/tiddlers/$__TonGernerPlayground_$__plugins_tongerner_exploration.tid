@@ -7,7 +7,7 @@ list: readme help license
 modified: 20180125143023890
 name: Exploration
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.6
+version: 0.0.7
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/exploration

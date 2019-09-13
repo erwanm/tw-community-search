@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Emphasized theme
 caption: Emphasized
 created: 20170427192444703
 creator: TonGerner
-modified: 20180224172118151
+modified: 20190911195016452
 modifier: TonGerner
 status: upgraded to
 original-tags: theme
@@ -13,8 +13,6 @@ source-tiddler-title-as-link: Emphasized%20theme
 !! [[Emphasized theme]]  v<<tversion "emphasized">>
 
 Bluish palette v{{$:/palettes/Bluish!!version}}
-
-''Status:'' @@.RED {{Emphasized theme!!status}} v<<version>>@@
 
 <<readme $:/themes/tongerner/emphasized/readme $:/themes/tongerner/emphasized>>
 

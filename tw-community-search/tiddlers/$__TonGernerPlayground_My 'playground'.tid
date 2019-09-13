@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/My 'playground'
 created: 20140203084653907
 creator: TonGerner
-modified: 20180207154756651
+modified: 20190912115204915
 modifier: TonGerner
 status: upgraded to
 original-tags: 
@@ -12,9 +12,9 @@ source-tiddler-title-as-link: My%20%27playground%27
 {{$:/_images_dordrecht.gif}}<br>
 Dordrecht, the Netherlands, my home town.
 
-''Status:'' @@.RED {{Bookmarklets!!status}} v<<version>>@@
+''Status:'' @@.RED {{My 'playground'!!status}} v<<version>>@@
 
-{{Under construction general_}}
+{{Under construction general}}
 
 <<tabs "Introduction [[Guides]] [[All Plugins]] [[Code tiddlers]] [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
 

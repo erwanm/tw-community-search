@@ -1,9 +1,9 @@
 title: $:/TonGernerPlayground/Left + top menu
 created: 20140203085544593
 creator: TonGerner
-modified: 20170504191515251
+modified: 20190911203449754
 modifier: TonGerner
-status: upgraded to
+status: to be upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Left + top menu
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: Left%20%2b%20top%20menu
 
 ''Status:'' @@.RED {{Left + top menu!!status}} v<<version>>@@
 
-''Note:'' @@.BROWN Available as plugin.@@
+''Note:'' @@.brown Available as plugin.@@
 
 This guide describes how to add a top menu and a left menu to a TW5.
 

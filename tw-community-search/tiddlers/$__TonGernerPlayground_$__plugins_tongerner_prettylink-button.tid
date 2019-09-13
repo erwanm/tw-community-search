@@ -4,7 +4,7 @@ created: 20170410194742451
 description: Pretty link button
 list: readme
 modified: 20170726075911758
-version: 0.0.9
+version: 0.0.10
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tongerner/prettylink-button

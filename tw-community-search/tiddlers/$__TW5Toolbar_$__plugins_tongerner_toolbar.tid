@@ -5,11 +5,11 @@ created: 20150805095641947
 creator: TonGerner
 description: Toolbar on top
 list: readme license
-modified: 20181228194231712
+modified: 20190912190319534
 modifier: TonGerner
 name: Top toolbar
 source: http://tongerner.tiddlyspot.com/
-version: 0.3.9
+version: 0.3.11
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tongerner/toolbar
