@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Introduction
 created: 20170506134612257
 creator: TonGerner
-modified: 20171223095731775
+modified: 20190913153542445
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5ReadOnly
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: Introduction
 This guide describes two ways to make TW readonly:
 
 # A 'simple' readonly way: you can hide a predefined set of buttons and sidebar tabs
-# A more advanced readonly way which is more flexible: you can hide every button and every sidebar tab
+# A more advanced readonly way which is more flexible: you can hide every button and the 4  sidebar tabs
 
 <<<
 ''Note 1:''<br>Both ways available as plugin. Just drag & drop one of the following links to your TW:

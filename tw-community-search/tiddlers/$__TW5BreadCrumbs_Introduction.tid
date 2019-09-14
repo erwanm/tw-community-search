@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Introduction
 created: 20140121171138645
 creator: TonGerner
-modified: 20180217092349412
+modified: 20190912200435195
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -19,7 +19,7 @@ source-tiddler-title-as-link: Introduction
 *# [[$:/plugins/tongerner/layout_adjustment]] (v<<pversion "layout_adjustment">>)<br>to your wiki to add the breadcrumbs plugin
 * The layout adjustment plugin contains 'general' settings for the layout, see <<slider "readme of plugin" "$:/plugins/tongerner/layout_adjustment/readme">>
 * The Tiddlersbar works best in zoomin mode.
-* The Tiddlersbar can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/tiddlersbar/combination]].
+* The Tiddlersbar can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tongerner/layout_adjustment/combination]].
 <<<
 
 This guide describes how a <<slider "Tiddlersbar (breadcrumbs)" "Breadcrumbs info">> can be added.

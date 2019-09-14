@@ -5,8 +5,8 @@ author: TonGerner
 title: TW5BreadCrumbs
 type: text/vnd.tiddlywiki
 wiki-address: http://tw5breadcrumbs.tiddlyspot.com/
-wiki-tw-version: 5.1.19
-wiki-latest-modification: 20181229185804697
+wiki-tw-version: 5.1.21
+wiki-latest-modification: 20190913155810182
 wiki-nb-tiddlers: 20
 
 a demo ~TiddlyWiki (''@@color: blue;TW v<<version>>@@'')

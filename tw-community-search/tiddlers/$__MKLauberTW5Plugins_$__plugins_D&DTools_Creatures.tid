@@ -1,0 +1,13 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/Creatures
+author: Matt Lauber
+dependents: 
+description: D&D 5e SRD Creatures
+summary: D&D 5e SRD Creatures
+version: 0.0.1
+original-tags: D&D
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/D&DTools/Creatures
+source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fCreatures
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

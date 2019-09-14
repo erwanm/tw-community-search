@@ -3,11 +3,11 @@ author: TonGerner
 core-version: >=5.1.15
 created: 20161212133231948
 description: Layout tweaks
-list: readme combination license
-modified: 20181229103811946
+list: readme license
+modified: 20190905165303914
 name: Layout adjustment
 source: http://tongerner.tiddlyspot.com/
-version: 0.4.3
+version: 0.4.7
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/layout_adjustment

@@ -4,12 +4,12 @@ core-version: >=5.1.17
 created: 20170325114613015
 creator: TonGerner
 description: Tiddlersbar (tabs on top)
-list: readme combination license
-modified: 20180602163516669
+list: readme license
+modified: 20190905113701323
 modifier: TonGerner
 name: Tiddlersbar
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.14
+version: 0.0.15
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tongerner/tiddlersbar

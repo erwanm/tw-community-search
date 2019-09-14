@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/D&DTools/Monsters'
-name: unknown
-plugin_tiddler: $:/plugins/D&DTools/Monsters
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,9 +1,9 @@
 title: $:/TonGernerPlayground/Read-only
 created: 20140203090002038
 creator: TonGerner
-modified: 20190912171256107
+modified: 20190913160651815
 modifier: TonGerner
-status: to be upgraded to
+status: upgraded to
 original-tags: documentation guide
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Read-only
@@ -28,7 +28,8 @@ So there must be a - hidden - save possibility.<br>One way to go is based on cre
 
 Besides saving the read-only mode it is also possible to hide:
 
-* the Sidebar and Advanced search button (although they remain active!)
-* the tabs in the Sidebar.
+* hide buttons
+** the Sidebar and Advanced search button (although they remain active!)
+* the 4 tabs in the Sidebar.
 
 ''Guide at ~TiddlySpot:''<br>[[How to make TW5 read-only|http://tw5readonly.tiddlyspot.com/]]

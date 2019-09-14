@@ -6,8 +6,9 @@ description: D&D Creature Manager
 list: readme
 modified: NaNNaNNaNNaNNaNNaNNaN
 plugin-priority: 1
+summary: D&D 5e Creature Stat Block Templates
 version: 1.0.8
-original-tags: 
+original-tags: D&D
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/D&DTools/CreatureManager
 source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fCreatureManager
