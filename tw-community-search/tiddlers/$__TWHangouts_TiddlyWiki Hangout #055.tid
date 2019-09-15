@@ -1,0 +1,52 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #055
+created: 20141228212247072
+modified: 20141229013424590
+original-tags: HangOut_055 License hangouts
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #055
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23055
+
+\define hangout() 055
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Branemir, Jeremy, Mario, Nathan" >>
+<<topic "0:01:45" "Hangout Roadmap" >>
+<<topic "0:02:08" "Jeremy- New behaviour for the 'automatic permalink' ... permalinking is off by default - feedback is welcome!" >>
+<<topic "0:05:30" "Mario- likes the new behaviour. ... Is there a possibility for 'permlink -buttons'? .. yes" >>
+<<topic "0:06:35" "Jeremy- Should 'empty.html' have the same behaviour?" >>
+<<topic "0:07:50" "Nathan- The core and tiddlywiki. com should have the same initial behaviour" >>
+<<topic "0:08:41" "Nathan- likes the possibility to share the 'whole story'" >>
+<<topic "0:10:40" "Jeremy- shows a TW adaptation that uses 'story links'" >>
+<<topic "0:11:35" "Mario- There should be a possibility to 'permalink a search result'" >>
+<<topic "0:12:00" "Jeremy- about 'TWc parmifiers' ... He doesn't want to have paramifiers again, because of security concerns" >>
+<<topic "0:14:19" "Jeremy- ... getting the update wizard finished. Changes to the theme tweak handling" >>
+<<topic "0:18:44" "Jeremy- shows the 'upgrader' plugin, that creates the 'special' theme handeling" >>
+<<topic "0:21:37" "Jeremy- (How) Should we deprecate known incompatible plugins?" >>
+<<topic "0:24:54" "Jeremy- Changes to the TW frontpage" >>
+<<topic "0:27:45" "Jeremy- GettingStarted detects the plattform and provides information acordingly" >>
+<<topic "0:29:53" "Jeremy- about the Features tiddler" >>
+<<topic "0:30:16" "Mario- likes the TalkyTalky Features list .." >>
+<<topic "0:31:15" "Jeremy- about changes for the Community tiddler" >>
+<<topic "0:32:40" "Jeremy- The beta ribbon is a 'Find my on GitHub' ribbon now" >>
+<<topic "0:36:00" "Jeremy- about the 'browser sniffing' mechanism and new system tiddlers" >>
+<<topic "0:39:57" "Jeremy- new tiddlywiki.info parameter to specify the 'save location' for new tiddlers (server edition)" >>
+<<topic "0:41:15" "Jeremy- 'must have's' for end of beta" >>
+<<topic "0:43:00" ".. about handling <ctrl>+s" >>
+<<topic "0:43:48" "Mark joined the hangout" >>
+<<topic "0:44:30" "Mario- discussion about FontAwesome and BlackTie icon fonts. ..." >>
+<<topic "0:51:33" "Jeremy- about FlexBox for the Community tiddler and the main layout" >>
+<<topic "0:53:35" "Jeremy- about translations ... getting notified if translations are needed" >>
+<<topic "0:59:10" "Mario- question: would it be possible to have promise based ajax functions" >>
+<<topic "1:07:00" "Jeremy- about 'Analysis and documentation of a single page application based on TiddlyWiki' Mater Thesis ..." >>
+<<topic "1:17:50" "Jeremy- The developer docs should get there own repo" >>
+<<topic "1:19:34" "Mario- What's about your plans to have tiddlywikik frontpage similar to a 'normal' product page." >>
+<<topic "1:22:00" "... about the RoadMap" >>
+<<topic "1:23:58" "Nathan- What's the easiest way for a small group of users to start using TW ... in a role related workflow. ... TiddlyWeb - Tank" >>
+<<topic "1:28:20" ".. about the TW nodejs server and TiddlyWeb - TW5 compatibility" >>
+<<topic "1:35:36" "Nathan- about the envisioned usecase" >>
+<<topic "1:36:35" "Jeremy- about CouchDB .. couch apps" >>
+<<topic "1:41:45" "Jeremy- about SpiderOak and the Crypton project, which would fit to TW" >>
+<<topic "1:46:02" "Jeremy- ... TWc chart on google trends" >>
+<<topic "1:48:10" "Bye! Bye!" >>
+"""

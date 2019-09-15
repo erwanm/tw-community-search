@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/My 'playground'
 created: 20140203084653907
 creator: TonGerner
-modified: 20190912115204915
+modified: 20190914194757054
 modifier: TonGerner
 status: upgraded to
 original-tags: 
@@ -14,7 +14,7 @@ Dordrecht, the Netherlands, my home town.
 
 ''Status:'' @@.RED {{My 'playground'!!status}} v<<version>>@@
 
-{{Under construction general}}
+{{Under construction general_}}
 
 <<tabs "Introduction [[Guides]] [[All Plugins]] [[Code tiddlers]] [[Latest news]]" "Introduction" "$:/state/tab/playground" "tabsstyle">>
 
