@@ -1,9 +1,9 @@
-title: $:/tiddlywiki.com/FieldMangler Widget (Examples)
+title: $:/listops/FieldMangler Widget (Examples)
 created: 20150706160301163
 modified: 20150706172915783
 type: text/vnd.tiddlywiki
 original-tags: [[Widget Examples]] FieldManglerWidget
-source-wiki-id: tiddlywiki.com
+source-wiki-id: listops
 source-tiddler-title-as-text: FieldMangler Widget (Examples)
 source-tiddler-title-as-link: FieldMangler%20Widget%20%28Examples%29
 
@@ -13,15 +13,5 @@ eg="""
 Add tag ''example'' to this tiddler (current)<$button message="tm-add-tag" param="example">{{$:/core/images/new-button}}</$button>
 <br>
 Remove tag ''example'' to this tiddler (current)<$button message="tm-remove-tag" param="example">{{$:/core/images/delete-button}}</$button>
-</$fieldmangler>
-"""/>
-
-
-<$macrocall $name=".example" n="2"
-eg="""
-<$fieldmangler tiddler="Hello World">
-Add tag ''example'' to the Hello World tiddler<$button message="tm-add-tag" param="example">{{$:/core/images/new-button}}</$button>
-<br>
-Remove tag ''example'' to the Hello World tiddler<$button message="tm-remove-tag" param="example">{{$:/core/images/delete-button}}</$button>
 </$fieldmangler>
 """/>
