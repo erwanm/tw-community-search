@@ -1,0 +1,47 @@
+title: $:/TW5 Icon Menus/What is this?
+created: 20150130004543183
+creator: inmysocks
+modified: 20150130022253114
+modifier: inmysocks
+original-tags: 
+source-wiki-id: TW5 Icon Menus
+source-tiddler-title-as-text: What is this?
+source-tiddler-title-as-link: What%20is%20this%3f
+
+This is a demo of the icon menus I have made for TiddlyWiki5 based on the example at http://tw5topleft.tiddlyspot.com, and several good suggestions from this discussion https://groups.google.com/forum/#!topic/tiddlywiki/UO9y7LWy0Lc
+
+!!There are 5 new menu positions as well as the top bar:
+
+*The Top Bar - The bar at the top of the screen, it contains the three top menus
+*The Left Menu - On the left side of the screen between the left edge of the screen and the right edge of the tiddlers
+*The Right Menu - On the right side of the screen
+*The Top Left Menu - in the upper left corner
+*The Top Middle Menu - in the middle of the top of the screen
+*The Top Right Menu - in the upper right corner
+
+Each of these things can be configured in the [[$:/ControlPanel]] in the new `Icon Menu Settings` tab. Things that can be changed include what is displayed in each menu, the width and position of each menu, the text size, background and text colors and the css class that determines the menus appearance. The left and right menus can be set to be mostly transparent until the mouse hovers over them, or they can be mostly hidden off screen and pop out when the mouse hovers over them.
+
+!!Changing the content of the menus
+
+In the `Icon Menu Settings` tab of the [[$:/ControlPanel]] there are 6 smaller tabs, one for each menu and one for the top bar. In each of the menu tabs there is a list of available menu items which can be toggled. The order in which the items appear in the menus is controlled by the order column in the list.
+
+!!Adding things to the menus
+
+Any tiddler with the tag `Menu Item` will appear in the list of possible menu items. The size of the SVG icons is controlled by the font size parameter for each menu (which can be changed for each menu in the tab on the control panel), but if you wish to have items on the menu that won't fit with the current sizes the menu widths can be changed as well.<br>
+For the left and right menus using the pop out on hover classes and making the menus wide allows you to have text entries in each menu that only are fully shown when hovered over. Or you could just make the menus wide using the other classes.
+
+!!Other tweaks
+
+While not actually related to the icon menus there is another new tab in the control panel called `Other Tweaks`. Currently it has an option to display a horizontal black line below each tiddlers title, I find this makes things a bit easier to follow. There is also an option to hide the normal menu. This option doesn't change the width of the tiddlers the way the {{$:/core/images/chevron-right}} button does, it just removes the menu. The normal {{$:/core/images/chevron-right}} button is available as an item in the icon menus.
+
+!!Some Things to be aware of:
+
+The three top menus are partly controlled by the top bar, and if the top bar is turned off than the three top menus are also hidden. If the top menu is set to pop out on hover than the three menus follow it.
+
+For the left and right menus, the `Position of Hidden Menu` parameter in the control panel controls how much of the menu can be seen when it is hidden (not hovered over) using the pop out on hover menu types. This is given in terms of how far the menu edge is from the opposite side of the screen. Unless you are only going to be using a single screen with a set resolution using a percentage may work better for this.
+
+If you have the old menu visible, and it is big enough that it would have a scroll bar of its own, the right menu will partially or fully cover it if the right menu is visible.
+
+!!How to use this in your own wiki
+
+If you click on the {{$:/core/images/advanced-search-button}} icon next to the search in the menu, or on the icon in the upper right menu, you can use the `filter` tab and enter `[tag[Icon Menus]]` as the filter. This will give a list of all the tiddlers used for the icon menus, then click on the {{$:/core/images/export-button}} button to export these tiddlers. Select `JSON Tiddlers File` form the menu that appears and save the file somewhere. Then in the wiki you want to use the icon menus in import that file.
