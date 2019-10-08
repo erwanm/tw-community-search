@@ -1,0 +1,17 @@
+title: $:/DISQUS Comments (inmysocks)/Non-macro button examples
+created: 20150622151359937
+modified: 20150622182742854
+original-tags: 
+source-wiki-id: DISQUS Comments (inmysocks)
+source-tiddler-title-as-text: Non-macro button examples
+source-tiddler-title-as-link: Non-macro%20button%20examples
+
+<$button>Comment Thread Billy
+<$action-reload-comments newid=billy permalink="http://ooktech.com/jed/ExampleWikis/DISQUS%20Demo/#!billy" threadTitle='billy'/>
+</$button>
+<$button>Comment Thread Bob
+<$action-reload-comments newid=bob permalink="http://ooktech.com/jed/ExampleWikis/DISQUS%20Demo/#!bob" threadTitle='bob'/>
+</$button>
+<$button>Comment Thread Joe
+<$action-reload-comments newid=joe permalink="http://ooktech.com/jed/ExampleWikis/DISQUS%20Demo/#!joe" threadTitle='joe'/>
+</$button>

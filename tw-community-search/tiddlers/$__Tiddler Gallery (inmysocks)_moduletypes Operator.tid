@@ -1,0 +1,18 @@
+title: $:/Tiddler Gallery (inmysocks)/moduletypes Operator
+caption: moduletypes
+created: 20140410103123179
+modified: 20150124170640000
+purpose: select the names of all ~TiddlyWiki module types
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Special Operators]] [[Absolute Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: moduletypes Operator
+source-tiddler-title-as-link: moduletypes%20Operator
+
+<$macrocall $name=".operator-def"
+input="ignored"
+parameter="none"
+output="the name of each known ~TiddlyWiki [[module type|ModuleType]], in alphabetical order"
+/>
+
+<<.operator-examples "moduletypes">>

@@ -1,0 +1,14 @@
+title: $:/MathyThing (inmysocks)/TableOfContentsMacro Simple Example
+caption: Simple
+original-tags: table-of-contents-example
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: TableOfContentsMacro Simple Example
+source-tiddler-title-as-link: TableOfContentsMacro%20Simple%20Example
+
+!! Simple Table of Contents
+
+<$macrocall $name='wikitext-example-without-html'
+src='<div class="tc-table-of-contents">
+<<toc "Contents">>
+</div>
+'/>

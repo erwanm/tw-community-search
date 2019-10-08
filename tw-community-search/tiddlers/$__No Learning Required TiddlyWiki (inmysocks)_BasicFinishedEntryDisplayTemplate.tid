@@ -1,0 +1,12 @@
+title: $:/No Learning Required TiddlyWiki (inmysocks)/BasicFinishedEntryDisplayTemplate
+created: 20141204051456012
+display_name: Basic Finished Entry
+modified: 20141206181105485
+no_edit: true
+settings_tiddler: BasicFinishedTaskDisplayTemplateSettings
+original-tags: Templates ToDoEntryDisplayTemplate
+source-wiki-id: No Learning Required TiddlyWiki (inmysocks)
+source-tiddler-title-as-text: BasicFinishedEntryDisplayTemplate
+source-tiddler-title-as-link: BasicFinishedEntryDisplayTemplate
+
+<$checkbox tag="done"> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox><br>

@@ -1,0 +1,15 @@
+title: $:/External Brain (inmysocks)/Setting up a redirect from a dreamhost domain to a dynamic dns thing
+created: 20150514003939770
+modified: 20150514004848381
+original-tags: Tutorials
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Setting up a redirect from a dreamhost domain to a dynamic dns thing
+source-tiddler-title-as-link: Setting%20up%20a%20redirect%20from%20a%20dreamhost%20domain%20to%20a%20dynamic%20dns%20thing
+
+For stuff about dynamic dns using dreamhost go here: http://wiki.dreamhost.com/Dynamic_DNS
+
+This is much simpler than any of that. This is simply a redirect, nothing profound or difficult. As always, it is mainly here so I can remember it.
+
+Log into your [[dreamhost panel|https://panel.dreamhost.com/]]. At the top there is a button that says `Add Hosting to a Domain/ Sub-Domain`, click it. Scroll down to the section labeled `Redirect`. In the top option (`Domain to redirect:`) put in a the domain that you have and want to redirect (or a subdomain, like bob.ooktech.com, subdomains are free if you have the domain). In the bottom option (`Redirect to URL:`) put in the domain for your dynamic dns service (like bob.ddns.com). Then click `Redirect this domain`.
+
+You could get confirmation that it is going to do the redirect. In the panel next to the (sub-)domain name there should be a little icon that says 'updating' or something similar. Once that goes away things should be ready. It may take a few hours. I have this set up for my GitLab server, I don't know if you can do things like `bob.ooktech.com:9090` to get to a specific port after the redirect instead of going to `bob.ddns.com:9090`, which does work. Here `bob.ddns.com` is the url for your dynamic dns stuff, `bob.ooktech.com` is the dreamhost sub-domain.

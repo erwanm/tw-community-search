@@ -1,0 +1,39 @@
+title: $:/External Brain (inmysocks)/Well this sucks
+created: 20150203221158869
+day: 24
+image: 
+image_caption: 
+link: 
+modified: 20150518212428007
+modifier: inmysocks
+month: February
+number_of_comments: 0
+posted: 10:23, 24th February 2015
+summary: My toys keep breaking
+template: BlogDisplayTemplate1
+time: 20150224102333
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[What am I doing?]] [[Computer Problems]] [[Raspberry Pi]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Well this sucks
+source-tiddler-title-as-link: Well%20this%20sucks
+
+I got a raspberry pi 2 that I wanted to play with. I installed raspiban on it and used it a few times to see what it could do, I was planning on using it to do some realtime audio processing with Pure Data. But after spending way too long trying to get puredata installed on my desktop to do development in a nicer environment I finally gave up. Josh said that I was having almost comic amounts of difficulty getting it working on my computer. I had almost everything, but the most useful bits for what I wanted to do, namely the fir object, the generic filter object and the unit delay object, were all missing.
+
+So I set up the raspberry pi to use my nice monitor and plugged it in. There was a rather large spark from the powerbrick I was using to power it. I immediately unplugged it and the power brick is fried now, and smells. The pi doesn't look burnt, but after testing another powerbrick on my phone when I plugged in the pi nothing happened, not even the power led turned on.
+I had just gotten the raspberry pi a few days ago, this was the third time I was trying to use it.
+
+I am not amused.
+
+But what may be the best part is that when I put everything back on my desktop, my larger monitor (the one I had the pi plugged into) wouldn't display anything. At this point I wanted to burn down the house and start over. So instead I watched cartoons and startrek on my tablet. I finally got around to watching first contact. So that wasn't horrible.
+
+This morning after unsuccessfully trying to get my monitor to work using the DVI input I tried using the VGA in and it worked. So the monitor isn't completely fried, just the DVI port. According to the internet this may not be hard to fix, but it will require some surface mount soldering and a potentially hard to find fuse.
+But since my video card only has DVI and HDMI out and my second monitor only has VGA in now I need to find a second DVI to VGA adapter so I can use my second monitor. That or get a new monitor.
+
+As much as I would like a new monitor I don't think that I can really justify getting one considering the other toys I have bought recently, mainly the raspberry pi, which may be broken. The universe may be angry at me. Luckly the pi uses a [[polyfuse|https://en.wikipedia.org/wiki/Resettable_fuse]], so I am going to hope it worked and has reset by now so I can use it again. This time with my smaller monitor.
+
+If I can't fix the fuse or whatever is broken on the monitor myself than I can get a replacement board for the part that is broken, but that would cost ~$40 and if it comes to that I will probably try to get a used monitor with a DVI or HDMI input that is better than my current second monitor. The monitor I can't use because I need an adapter. Did I mention that the universe seems angry at me?
+
+In better news I have created something that lets you effectively run startup scripts in tiddlywiki and may go into the tiddlywiki core. Which would be cool.

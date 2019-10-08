@@ -1,0 +1,9 @@
+title: $:/External Brain (inmysocks)/Change Log Settings
+created: 20150205041135903
+modified: 20150205041349331
+original-tags: [[Wiki Settings]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Change Log Settings
+source-tiddler-title-as-link: Change%20Log%20Settings
+
+Display the <$select tiddler='$:/settings/Change Log Settings' field='num_recent_posts'><$list filter="1 2 3 4 5 6 7 8 9 10"><option><<currentTiddler>></option></$list></$select> most recent changes

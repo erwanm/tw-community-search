@@ -1,0 +1,21 @@
+title: $:/MathyThing (inmysocks)/VersionMacro
+caption: version
+created: 20131228162448664
+modified: 20131228162605081
+type: text/vnd.tiddlywiki
+original-tags: Macros
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: VersionMacro
+source-tiddler-title-as-link: VersionMacro
+
+The version macro returns the current TiddlyWiki version number.
+
+! Example
+
+The version macro takes no parameters:
+
+```
+Version number: <<version>>
+```
+
+Version number: <<version>>

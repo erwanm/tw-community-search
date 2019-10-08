@@ -1,0 +1,13 @@
+title: $:/MathyThing (inmysocks)/Expression 1
+created: 20150211040938141
+modified: 20150211042118876
+sum_default_value: 0
+sum_field: text
+sum_filter: [tag[sum1]!has[draft.of]]
+sum_store_field: text
+sum_store_tiddler: Output 1
+original-tags: sumthing
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: Expression 1
+source-tiddler-title-as-link: Expression%201
+

@@ -1,0 +1,14 @@
+title: $:/External Brain (inmysocks)/My Blog
+created: 20150131234828637
+list-before: 
+modified: 20150516062605476
+original-tags: Dashboard
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: My Blog
+source-tiddler-title-as-link: My%20Blog
+
+If you click on the title of a post it will open up in its own [[tiddler|What is a tiddler?]], you can use this to get a permalink to posts. Click on the # button in the upper right of a post after you open it to set the browser url to the permalink for the post. 
+
+''To leave a comment'' - click on the post title and you can leave comments at the bottom of the posts tiddler that opens up.
+
+<<tabs "[[Normal Posts]][[Small Things]][[Image Posts]]" [[Normal Posts]] [[$:/state/My Blog/Tabs]]>>

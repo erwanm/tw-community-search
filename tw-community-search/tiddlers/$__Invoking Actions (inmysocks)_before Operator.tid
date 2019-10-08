@@ -1,0 +1,21 @@
+title: $:/Invoking Actions (inmysocks)/before Operator
+caption: before
+created: 20140512103123179
+modified: 20150124164952000
+purpose: find which input title precedes a specified one
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: before Operator
+source-tiddler-title-as-link: before%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="one of those titles"
+paramName="t"
+output="the title that immediately precedes <<.place t>> in the input"
+/>
+
+If <<.place t>> is not present in the input, or is the first title there, then the output is empty.
+
+<<.operator-examples "before">>

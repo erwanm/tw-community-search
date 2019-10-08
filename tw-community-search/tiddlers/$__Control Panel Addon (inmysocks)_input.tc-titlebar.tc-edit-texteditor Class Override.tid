@@ -1,0 +1,18 @@
+title: $:/Control Panel Addon (inmysocks)/input.tc-titlebar.tc-edit-texteditor Class Override
+background-color: 
+color: 
+created: 20150602195315891
+font-size: 
+letter-spacing: 
+line-height: 
+modified: 20150602195858158
+original-tags: $:/tags/Stylesheet
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: input.tc-titlebar.tc-edit-texteditor Class Override
+source-tiddler-title-as-link: input.tc-titlebar.tc-edit-texteditor%20Class%20Override
+
+<$list filter='[<currentTiddler>removesuffix[ Class Override]]'><$view field='title'/></$list> {
+<$list filter='[<currentTiddler>fields[]]-[[title]]-[[modified]]-[[text]]-[[created]]-[[tags]]' variable=ThisField>
+<$view tiddler=<<ThisField>> field=title/>: <$transclude tiddler=<<currentTiddler>> field=<<ThisField>>/>;<br>
+</$list>
+}

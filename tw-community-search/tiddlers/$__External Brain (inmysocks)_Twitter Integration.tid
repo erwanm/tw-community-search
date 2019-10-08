@@ -1,0 +1,23 @@
+title: $:/External Brain (inmysocks)/Twitter Integration
+created: 20150305010715536
+modified: 20150510164219806
+original-tags: Dashboard
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Twitter Integration
+source-tiddler-title-as-link: Twitter%20Integration
+
+\define thisTweetURL()
+https://twitter.com/intent/tweet?text=$(TweetText)$&url=$(TweetURL)$
+\end
+
+Tweet Text: <$edit-text tiddler='$:/temp/Twitter Post' field='tweet_text' class='tc-edit-texteditor' placeholder='Tweet text'/>
+
+URL: <$edit-text tiddler='$:/temp/Twitter Post' field='tweet_url' class='tc-edit-texteditor' placeholder='Tweet url'/>
+
+<$set name=TweetText value={{$:/temp/Twitter Post!!tweet_text}}>
+<$set name=TweetURL value={{$:/temp/Twitter Post!!tweet_url}}>
+<a href=<<thisTweetURL>>><<fa fa-twitter>> Tweet</a>
+</$set>
+</$set>
+
+<<tabs "[tag[Twitter List]]" [[My Tweets]]>>

@@ -1,0 +1,13 @@
+title: $:/Extending the d3.js plugin (inmysocks)/$:/plugins/inmysocks/d3extended
+author: JeremyRuston, Jed Carty
+core-version: >=5.0.0
+dependents: 
+description: D3: data visualisation
+version: 5.1.10-prerelease
+original-tags: 
+source-wiki-id: Extending the d3.js plugin (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/d3extended
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fd3extended
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

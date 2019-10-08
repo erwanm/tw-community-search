@@ -1,0 +1,33 @@
+title: $:/Interactive Fiction Engine (inmysocks)/room3
+created: 20141110052317122
+east: room4
+east_button: <<eastButton>>
+explored: false
+modified: 20141129062020064
+north: 
+north_button: 
+south: room8
+south_button: <<southButton>>
+west: room2
+west_button: <<westButton>>
+original-tags: Room
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: room3
+source-tiddler-title-as-link: room3
+
+\define isDoorOpen(name)
+<$tiddler tiddler='Plain Key'>
+<$reveal state='!!location' type='nomatch' text='inventory'>
+<$button message='tm-modal' param=LockedDoor>Open Door</$button>
+</$reveal>
+
+<$reveal state='!!location' type='match' text='inventory'>
+<$button message='tm-modal' param=UnlockedDoor>Open Door</$button>
+</$reveal>
+</$tiddler>
+\end
+
+You are in a bare room<br>
+
+There is a door to the north<br>
+<<isDoorOpen Key>>

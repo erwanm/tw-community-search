@@ -1,0 +1,13 @@
+title: $:/External Brain (inmysocks)/Changes Mar. 4 2015
+created: 20150304231526888
+modified: 20150305051204186
+original-tags: Changes
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Changes Mar. 4 2015
+source-tiddler-title-as-link: Changes%20Mar.%204%202015
+
+I added a view template so that when you look at a blog post tiddler by itself it displays the posting date. I may add more to this at some point. I would like to override the normal view template so that the normal text doesn't show up. I should ask on the group.
+
+I fixed some things about how old posts were listed in the blog archive.
+
+I made the twitter plugin and added the twitter integration stuff to this wiki.

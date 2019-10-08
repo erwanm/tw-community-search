@@ -1,0 +1,14 @@
+title: $:/External Brain (inmysocks)/$:/plugins/inmysocks/LibraryTracker
+author: inmysocks
+core-version: >=5.1.8
+dependents: 
+description: A library tracker for TiddlyWiki
+source: https://github.com/inmysocks/TW5-NoLearningRequired-Full
+version: 0.1.3
+original-tags: 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/LibraryTracker
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fLibraryTracker
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
