@@ -1,8 +1,8 @@
 title: $:/tiddlywiki.com/Installing a plugin from the plugin library
 created: 20160107222352710
-modified: 20160720145836265
+modified: 20191022095637710
 type: text/vnd.tiddlywiki
-original-tags: Plugins
+original-tags: [[TiddlyWiki on Node.js]] Plugins
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Installing a plugin from the plugin library
 source-tiddler-title-as-link: Installing%20a%20plugin%20from%20the%20plugin%20library
@@ -49,3 +49,5 @@ Follow these instructions when using TiddlyWiki under Node.js:
     ]
 }
 ```
+
+See also [[Installing custom plugins on Node.js]].

@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/TiddlyWiki on Node.js
 created: 20131129094353704
-modified: 20150412185457193
+modified: 20191022095309607
 type: text/vnd.tiddlywiki
 original-tags: Platforms
 source-wiki-id: tiddlywiki.com
@@ -21,6 +21,4 @@ There are a few file system limitations you should be aware of that are related 
 
 For more information see:
 
-* [[Installing TiddlyWiki on Node.js]]
-* [[Using TiddlyWiki on Node.js]]
-* [[Upgrading TiddlyWiki on Node.js]]
+<<list-links "[tag[TiddlyWiki on Node.js]]">>
