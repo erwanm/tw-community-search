@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Code tiddlers
 created: 20170427194634553
 creator: TonGerner
-modified: 20190911190316157
+modified: 20191111111322448
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -11,13 +11,18 @@ source-tiddler-title-as-link: Code%20tiddlers
 !! [[Code tiddlers]]
 It isn't very useful to convert a single code tiddler to a plugin (e.g. my formerly System tags plugin). Therefore here some single code tiddlers.
 
-|Code tiddler ||h
+|Code tiddler |<|h
 |$:/_systemtags|adds a 'System tags' tab just below the standard 'Tags' tab|
 |$:/_slider-macro|presents a tiddler as a slider|
 |$:/core/ui/TagTemplate|adds 'Open all' to the tag dropdown list.<br>Overridden shadow tiddler!|
-|$:/_toggle-editor-toolbar_preview|adds toolbar which toggles editor toolbar / preview / scrollable preview / sidebar|
 |$:/_button_to_top|button to top of story river|
 |$:/_toggle-listrecent-plugin-button|toggles listrecent plugin on/off<br>Need to be clicked twice!|
 |$:/_toggle-toolbar-plugin-button|toggles toolbar plugin on/off<br>Need to be clicked twice!|
 |$:/_filter/stylesheets|filter: list order of stylesheets|
 |$:/_filter/user-system|filter: list user defined system tiddlers (starting with`$:/_`)|
+
+One exception uses 2 tiddlers instead of 1:
+
+|Code tiddlers |<|h
+|<$transclude tiddler="Toggle editor toolbar code tiddlers" mode="block"/>|<$transclude tiddler="Toggle editor toolbar" mode="block"/>|
+
