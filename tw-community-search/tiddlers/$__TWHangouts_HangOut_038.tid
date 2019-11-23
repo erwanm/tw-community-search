@@ -1,0 +1,54 @@
+title: $:/TWHangouts/HangOut_038
+created: 20150106015155843
+modified: 20150106015256393
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_038
+source-tiddler-title-as-link: HangOut_038
+
+2014-03-11 - [[YouTube|http://www.youtube.com/watch?v=6obIvP5NiQ4]]
+
+---
+"""
+0:00:00 Intro: rtl - Eric, Jeremy, Mario
+0:00:45 Jeremy- Copy and paste HTML for upcoming 5.0.9 as a plugin.
+0:06:15 Jeremy- Making system tags less visible. Should system tags be visible on the tiddler.
+0:11:55 Jeremy- A tiddler with a system tag, most of the time is also a system tiddler.
+0:14:05 Mario- "User system tiddlers" may start with an underline, just for sorting.
+0:15:25 Jeremy- Advanced Search: Filter tab gets a new "example dropdown"
+0:16:27 Mario- Should ther be an filter with EXOR behaviour.
+0:19:14 Jeremy- Explanation how the filter dropdown mechanism works.
+0:21:00 Mario- Creating automatic documentation from javascript files, or make it extra tiddlers. discussion ...
+0:27:45 Eric- Is it technical docs, or user docs?
+0:31:25 Eric- about, levels of documentation.
+0:34:00 Jeremy- summary about the existing mechanisms.
+0:37:00 Hello Stephan
+0:37:20 Jeremy- about improvements in "filter" documentation.
+0:38:08 Eric- what about a convention for plugin authors? Which info needs to be in the plugin, to have eg: autocomplete.
+0:43:04 Jeremy- Would like to have an "content editable" editor to change parts of the tiddler.
+0:44:40 Jeremy- about "selective editing"
+0:45:20 Eric- Wouldn't it be easier, for selective editing, to start with transcluded content? ... yes
+0:47:35 Mario- about editing transclusions with codemirror in edit mode.
+0:49:50 Jeremy- Tooltip support for the link widget.
+0:53:35 Jeremy- ... A more generic fallback/lookup mechanism for every possible attribute is possible. Do we need this? ... no.
+0:54:55 Mario- about his thoughts. ... Using widgets is allready "advanced" enough.
+0:57:57 Mario- Would it be possible to show the whole tiddler content as a tooltip?
+0:58:53 Jeremy- some fixes in D3 editions
+1:00:20 Jeremy- about "charts.js"
+1:01:13 Mario/Stephan- What about possibilities of the "checkbox, radio, button" widgets. Some work with tags, others with fields. ...
+1:03:54 Jeremy- proposal: .. hiding internal tiddler fields, because they are immutable ... dilscussion.
+1:11:53 Jeremy- proposal: .. different field types, get different functions, to create there representation.
+1:14:40 Mario- feedback from a plugin authors point of view. discussion ... Probably a documentation problem.
+1:18:20 Jeremy- about the plans what has to be changed for the next/last big refactoring.
+1:19:12 Mario- about developer expectations. probably wrong expectations. TW doesn't follow the "jQuery" mechanism.
+1:21:30 Mario- Edit fields in view mode loose the focus because of the refresh mechanism. ...
+1:23:30 Jeremy- about the effort to write code - tests - documentation.
+1:24:40 Jeremy- TW beta is close to RC
+1:25:50 Jeremy- Transition from TWc to TW5 ... brainstorming about the workflow.
+1:28:00 Mario- about Markdown with transclusion and tiddlylinks.
+1:29:10 Jeremy- How can we create a transition workflow, with find and replace.
+1:33:12 Mario- What if one runs a server for TWc to TW5 conversion? .. The browser should do it .. brainstorming.
+1:35:35 Jeremy- What, if we do converion in the "bulk tiddler" view
+1:39:50 Mario- What, if we have a special toolbar with several buttons, that do different magic to convert a tiddler from TWc syntax to TW5 syntax.
+1:44:15 Bye! Bye! 
+"""
