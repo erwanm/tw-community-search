@@ -4,8 +4,8 @@ core-version: >=5.1.14
 dependents: 
 description: The Pouchdb library as a TW5 plugin.
 list: readme
-released: Sun, 22 Jan 2017 14:12:54 GMT
-version: 0.1.0+3
+released: Wed, 24 Jul 2019 16:28:09 GMT
+version: 0.1.0+5
 original-tags: 
 source-wiki-id: NoteSelf
 source-tiddler-title-as-text: $:/plugins/danielo515/pouchdb
