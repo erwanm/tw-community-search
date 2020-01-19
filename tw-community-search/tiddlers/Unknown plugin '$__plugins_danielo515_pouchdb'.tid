@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/danielo515/pouchdb'
-name: unknown
-plugin_tiddler: $:/plugins/danielo515/pouchdb
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
