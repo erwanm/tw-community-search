@@ -5,7 +5,7 @@ dependents:
 description: TiddlyWiki5 core
 list: readme
 plugin-priority: 0
-version: 5.1.21
+version: 5.1.22-prerelease
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/core

@@ -1,10 +1,10 @@
 title: $:/StephenTeacher/$:/plugins/tiddlywiki/mobiledragdrop
-author: Tim Ruffles, adapted by Jeremy Ruston 
-core-version: >=5.0.0
+author: Tim Ruffles
 dependents: 
 description: Mobile drag and drop shim
 list: readme license
-version: 5.1.21
+name: Mobile Drag Drop
+version: 5.1.22-prerelease
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/mobiledragdrop
