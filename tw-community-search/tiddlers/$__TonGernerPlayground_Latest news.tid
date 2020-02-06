@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20191111111511085
+modified: 20200204170059383
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,10 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 5-2- 2020
+* New namespace `$:/plugins/tg/...` (was `$:/plugins/tongerner/...`)
+* Added several tweaks to Layout tweaks plugin
 
 !!! 11-11-2019
 * Added missing style tiddler to $:/_toggle-editor-toolbar_preview

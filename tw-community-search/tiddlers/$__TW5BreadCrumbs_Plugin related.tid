@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Plugin related
 created: 20160113165344115
 creator: TonGerner
-modified: 20170504195311632
+modified: 20200101163907461
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
@@ -12,48 +12,36 @@ source-tiddler-title-as-link: Plugin%20related
 
 The plugin related tiddlers are:
 
-* $:/plugins/tongerner/tiddlersbar/icon
-* $:/plugins/tongerner/tiddlersbar/readme
-* $:/plugins/tongerner/tiddlersbar/combination
-* $:/plugins/tongerner/tiddlersbar/license
+* $:/plugins/tg/tiddlersbar/icon
+* $:/plugins/tg/tiddlersbar/readme
+* $:/plugins/tg/tiddlersbar/license
 
-!!$:/plugins/tongerner/tiddlersbar/icon
+!!$:/plugins/tg/tiddlersbar/icon
 
-<<sslider "$:/plugins/tongerner/tiddlersbar/icon" icon>>
+<<sslider "$:/plugins/tg/tiddlersbar/icon" icon>>
 
 renders as:
 
-{{$:/plugins/tongerner/tiddlersbar/icon}}
+{{$:/plugins/tg/tiddlersbar/icon}}
 
-!! $:/plugins/tongerner/tiddlersbar/readme
+!! $:/plugins/tg/tiddlersbar/readme
 Contains plugin info:
 
 @@.sliderBG
 <div>
 
-{{$:/plugins/tongerner/tiddlersbar/readme}}
+{{$:/plugins/tg/tiddlersbar/readme}}
 
 </div>
 @@
 
-!! $:/plugins/tongerner/tiddlersbar/combination
-Contains info about combining the tiddlersbar with my Toolbar and/or Top menu plugin:
+!! $:/plugins/tg/tiddlersbar/license
+Contains Buggy J's license and my license:
 
 @@.sliderBG
 <div>
 
-{{$:/plugins/tongerner/tiddlersbar/combination}}
-
-</div>
-@@
-
-!! $:/plugins/tongerner/tiddlersbar/license
-Contains Buggy J's license
-
-@@.sliderBG
-<div>
-
-{{$:/plugins/tongerner/tiddlersbar/license}}
+{{$:/plugins/tg/tiddlersbar/license}}
 
 </div>
 @@

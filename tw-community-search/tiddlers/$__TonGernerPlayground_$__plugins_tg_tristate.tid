@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/tristate
+author: TonGerner
+core-version: >=5.1.15
+created: 20191230120718817
+creator: TonGerner
+description: Tristate sidebar
+list: readme license
+modified: 20191230120733528
+modifier: TonGerner
+name: Tristate sidebar
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.13
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/tristate
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftristate
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

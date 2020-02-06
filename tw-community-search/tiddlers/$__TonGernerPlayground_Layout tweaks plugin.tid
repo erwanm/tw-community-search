@@ -1,0 +1,16 @@
+title: $:/TonGernerPlayground/Layout tweaks plugin
+caption: Layout tweaks
+created: 20150729185548862
+creator: TonGerner
+modified: 20200101133022149
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Layout tweaks plugin
+source-tiddler-title-as-link: Layout%20tweaks%20plugin
+
+!! [[Layout tweaks plugin]] v<<pversion "layout">>
+
+<<readme $:/plugins/tg/layout/readme $:/plugins/tg/layout>>
+

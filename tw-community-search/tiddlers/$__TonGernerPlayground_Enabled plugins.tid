@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Enabled plugins
 created: 20160111200537581
 creator: TonGerner
-modified: 20180226125219061
+modified: 20200204143630473
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -12,19 +12,16 @@ source-tiddler-title-as-link: Enabled%20plugins
 |Theme |<|<|h
 |[[Emphasized theme]]|default theme here|combined with Bluish palette|
 |'Normal' plugin|<|<|h
-|[[Layout adjustment plugin]]|click [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]||
+|[[Layout tweaks plugin]]|click [[Plugin tweaks|$:/plugins/tg/layout/tweaks]] or {{$:/plugins/tg/layout/configuration-button}}||
 |[[Top menu plugin]] |see on top||
 |[[Toolbar plugin]]|see on top||
-|[[Disable/enable toolbar plugin |Toolbar plugin]] |click {{$:/plugins/tongerner/toolbar/images/enable-toolbar}} / {{$:/plugins/tongerner/toolbar/images/disable-toolbar}} twice|@@color:red;not possible at ~TiddlySpot (needs saving!)@@|
 |[[Tiddlersbar plugin]] |click {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}} / {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}||
 |[[Tabstory plugin]] |click {{$:/plugins/tongerner/tabstory/image-tabstory-off}} / {{$:/plugins/tongerner/tabstory/image-tabstory-on}}||
 |[[Tristate plugin]]|click {{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}||
 |[[Uptoolbar plugin]]|see every tiddler||
-|[[List recent plugin]] |click 'Recent' tab||
-|[[Disable/enable listrecent plugin|List recent plugin]]|click {{$:/plugins/tongerner/listrecent/images/arrow-down}}/{{$:/plugins/tongerner/listrecent/images/arrow-up}} twice|@@color:red;not possible at ~TiddlySpot (needs saving!)@@|
-|[[Readonly plugin]]|click{{$:/plugins/tongerner/ro/images/publish}}to access the 'Publish' menu|disables/hides buttons and sidebar tabs @@color:red;(but state cannot be saved at Tiddlyspot!)@@|
-|[[Simple readonly plugin]]|click{{$:/plugins/tongerner/sro/images/publish}}to access the 'Publish' menu|disables/hides a set of ''predefined'' buttons & sidebar tabs @@color:red;(but state cannot be saved at Tiddlyspot!)@@|
-|[[Exploration plugin]]|click {{$:/plugins/tongerner/exploration/icon}} to start exploration (in a new window)||
+|[[Readonly plugin]]|click{{$:/plugins/tg/ro/images/publish}}to access the 'Publish' menu|disables/hides buttons and sidebar tabs @@color:red;(demo not possible here at ~TiddlySpot!)@@|
+|[[Simple readonly plugin]]|click{{$:/plugins/tg/sro/images/publish}}to access the 'Publish' menu|disables/hides a set of ''predefined'' buttons & sidebar tabs @@color:red;(demo not possible here at ~TiddlySpot!)@@|
+|[[Exploration plugin]]|click {{$:/plugins/tg/exploration/icon}} to start exploration (in a new window)||
 |[[Tinka plugin|$:/plugins/ahahn/tinka]]| ''-'' |Plugin packer by Andreas Hahn|
 |Editor toolbar button plugin|<|<|h
 |Highlight button|click {{$:/core/images/highlight}} to highlight selected text||

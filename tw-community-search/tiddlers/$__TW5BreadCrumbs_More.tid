@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/More
 created: 20140121191553139
 creator: TonGerner
-modified: 20170506103523896
+modified: 20200123124458648
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -13,7 +13,7 @@ source-tiddler-title-as-link: More
 My guides:
 
 * [[How to customize TW5|http://tw5custom.tiddlyspot.com/]]
-* [[How to make a top menu toolbar|http://tw5toolbar.tiddlyspot.com/]]
+* [[How to make a top toolbar|http://tw5toolbar.tiddlyspot.com/]]
 * [[How to make a top menu|http://tw5topmenu.tiddlyspot.com/]]
 * [[How to make a left menu|http://tw5leftmenu.tiddlyspot.com/]]
 * [[How to make a top menu, and a left menu that can be toggled on/off|http://tw5topleft.tiddlyspot.com/]]

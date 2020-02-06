@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Tabstory plugin
 caption: Tabstory
 created: 20160111103420591
 creator: TonGerner
-modified: 20180530143151465
+modified: 20191231193606666
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,5 +12,5 @@ source-tiddler-title-as-link: Tabstory%20plugin
 
 !! [[Tabstory plugin]] v<<pversion "tabstory">>
 
-<<readme $:/plugins/tongerner/tabstory/readme $:/plugins/tongerner/tabstory>>
-* [[$:/plugins/tongerner/layout_adjustment]]
+<<readme $:/plugins/tg/tabstory/readme $:/plugins/tg/tabstory>>
+* [[$:/plugins/tg/layout]]

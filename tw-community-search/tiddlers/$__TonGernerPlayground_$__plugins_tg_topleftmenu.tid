@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/topleftmenu
+author: TonGerner
+core-version: >=5.1.15
+created: 20191229213240045
+creator: TonGerner
+description: Top + left menu
+list: readme help license
+modified: 20191229213259495
+modifier: TonGerner
+name: Top + left menu
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.21
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/topleftmenu
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftopleftmenu
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

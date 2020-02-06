@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/How does the button work?
 created: 20140227164654509
 creator: TonGerner
-modified: 20180602171437559
+modified: 20200101153042612
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -12,16 +12,16 @@ source-tiddler-title-as-link: How%20does%20the%20button%20work%3f
 
 <div>
 
-The tiddler [[$:/plugins/tongerner/tiddlersbar/button]] contains the code to toggle the tag [[$:/tags/Stylesheet]] of the style sheet tiddler [[$:/plugins/tongerner/tiddlersbar/styles]] ''on/off''.
+The tiddler [[$:/plugins/tg/tiddlersbar/button]] contains the code to toggle the tag [[$:/tags/Stylesheet]] of the style sheet tiddler [[$:/plugins/tg/tiddlersbar/styles]] ''on/off''.
 
-!!!To see the 'Toggle breadcrumbs' button in action:
-# Open [[$:/plugins/tongerner/tiddlersbar/styles]].
-# Click the {{$:/plugins/tongerner/tiddlersbar/image-breadcrumbs-on}}/{{$:/plugins/tongerner/tiddlersbar/image-breadcrumbs-off}} button. Note the toggling of the [[$:/tags/Stylesheet]] tag.
+!!!To see the 'Toggle tiddlersbar' button in action:
+# Open [[$:/plugins/tg/tiddlersbar/styles]].
+# Click the {{$:/plugins/tg/tiddlersbar/image-breadcrumbs-on}}/{{$:/plugins/tg/tiddlersbar/image-breadcrumbs-off}} button. Note the toggling of the [[$:/tags/Stylesheet]] tag.
 
-If [[$:/plugins/tongerner/tiddlersbar/styles]] is ''not'' tagged with [[$:/tags/Stylesheet]], [[$:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar]] becomes active which contains `display: none;`. 
+If [[$:/plugins/tg/tiddlersbar/styles]] is ''not'' tagged with [[$:/tags/Stylesheet]], [[$:/plugins/tg/tiddlersbar/style-no-tiddlersbar]] becomes active which contains `display: none;`. 
 
 <<<
-''Note:''<br>$:/plugins/tongerner/tiddlersbar/styles contains a `list-after` field containing $:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar!
+''Note:''<br>$:/plugins/tg/tiddlersbar/styles contains a `list-after` field containing $:/plugins/tg/tiddlersbar/style-no-tiddlersbar!
 <<<
 ---
 

@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Readonly
 created: 20170506145418301
 creator: TonGerner
-modified: 20170506153208331
+modified: 20200101144141436
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5ReadOnly
@@ -10,9 +10,9 @@ source-tiddler-title-as-link: Readonly
 
 !! [[Readonly]]
 
-<<pslider "Readme of plugin" $:/plugins/tongerner/ro/readme>>
+<<pslider "Readme of plugin" $:/plugins/tg/ro/readme>>
 
-<<pslider "Help of plugin" $:/plugins/tongerner/ro/help>>
+<<pslider "Help of plugin" $:/plugins/tg/ro/help>>
 
 <<slider "Payload tiddlers readonly" "Payload tiddlers readonly">>
 

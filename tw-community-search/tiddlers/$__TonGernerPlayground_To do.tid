@@ -1,15 +1,10 @@
 title: $:/TonGernerPlayground/To do
 created: 20160406162805379
 creator: TonGerner
-modified: 20160725145232499
+modified: 20200204125354041
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: To do
 source-tiddler-title-as-link: To%20do
 
-!My 'playground'
-* ~~Adjust slider macro: `tc-slider` => `tgc-slider`~~
-* ~~Update Bluish theme (with `tc-slider` => `tgc-slider`)~~
-* ~~List recent plugin: drag & drop theme => drag & drop plugin~~
-* ~~Update twCards~~

@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tg/tristate'
+name: unknown
+plugin_tiddler: $:/plugins/tg/tristate
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Go to bottom plugin
 caption: Go to bottom
 created: 20180129123147266
 creator: TonGerner
-modified: 20180530143507336
+modified: 20200125105218101
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,4 +12,11 @@ source-tiddler-title-as-link: Go%20to%20bottom%20plugin
 
 !! [[Go to bottom plugin]] v<<pversion "bottom">>
 
-<<readme $:/plugins/tongerner/bottom/readme $:/plugins/tongerner/bottom>>
+@@.sliderBG
+<div>
+
+!!!!Readme (from plugin)
+<$transclude tiddler="$:/plugins/tg/bottom" subtiddler="$:/plugins/tg/bottom/readme" mode="block"/>
+</div>
+@@
+<hr>

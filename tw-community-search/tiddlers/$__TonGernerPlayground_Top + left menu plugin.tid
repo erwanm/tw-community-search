@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top + left menu plugin
 caption: Top + Left menu
 created: 20150719185958949
 creator: TonGerner
-modified: 20180530143122129
+modified: 20200128154028510
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -16,12 +16,12 @@ source-tiddler-title-as-link: Top%20%2b%20left%20menu%20plugin
 <div>
 
 !!!!Readme (from plugin)
-<$transclude tiddler="$:/plugins/tongerner/topleftmenu" subtiddler="$:/plugins/tongerner/topleftmenu/readme" mode="block"/>
+<$transclude tiddler="$:/plugins/tg/topleftmenu" subtiddler="$:/plugins/tg/topleftmenu/readme" mode="block"/>
 </div>
 @@
 <hr>
 
 Drag & drop the following links to your wiki to install this plugin.
 
-* [[$:/plugins/tongerner/topleftmenu]]
-* [[$:/plugins/tongerner/layout_adjustment]]
+* [[$:/plugins/tg/topleftmenu]]
+* [[$:/plugins/tg/layout]]

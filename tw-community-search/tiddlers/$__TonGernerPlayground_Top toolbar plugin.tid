@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Top toolbar plugin
 caption: Top toolbar
 created: 20160111103503636
 creator: TonGerner
-modified: 20180530143031006
+modified: 20191231193859018
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,8 +12,8 @@ source-tiddler-title-as-link: Top%20toolbar%20plugin
 
 !! [[Top toolbar plugin]] v<<pversion "toolbar">>
 
-<<readme $:/plugins/tongerner/toolbar/readme $:/plugins/tongerner/toolbar>>
-* $:/plugins/tongerner/layout_adjustment
+<<readme $:/plugins/tg/toolbar/readme $:/plugins/tg/toolbar>>
+* $:/plugins/tg/layout
 
 In case you want the possibility to enable/disable the toolbar, drag & drop the following link to your wiki:
 

@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Tinka
 created: 20150626211921889
 creator: TonGerner
-modified: 20171116183805237
+modified: 20200101163953010
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
@@ -10,4 +10,4 @@ source-tiddler-title-as-link: Tinka
 
 !! [[Tinka]]
 
-The plugin [[$:/plugins/tongerner/tiddlersbar]] was made in a standalone version of TW5 with help of Andreas Hahn's [[Tinka plugin|https://tinkaplugin.github.io/]].
+The plugin [[$:/plugins/tg/tiddlersbar]] was made in a standalone version of TW5 with help of Andreas Hahn's [[Tinka plugin|https://tinkaplugin.github.io/]].

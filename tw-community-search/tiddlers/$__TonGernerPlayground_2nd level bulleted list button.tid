@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/2nd level bulleted list button
 caption: 2nd level bulleted list button
 created: 20181224171429542
 creator: TonGerner
-modified: 20190911181724309
+modified: 20191231194037242
 modifier: TonGerner
 original-tags: button
 source-wiki-id: TonGernerPlayground
@@ -11,4 +11,4 @@ source-tiddler-title-as-link: 2nd%20level%20bulleted%20list%20button
 
 !! [[2nd level bulleted list button]] v<<pversion "list-bullet2-button">>
 
-<<readme $:/plugins/tongerner/list-bullet2-button/readme $:/plugins/tongerner/list-bullet2-button>>
+<<readme $:/plugins/tg/list-bullet2-button/readme $:/plugins/tg/list-bullet2-button>>

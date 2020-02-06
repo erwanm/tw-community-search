@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Exploration plugin
 caption: Exploration
 created: 20180224164153830
 creator: TonGerner
-modified: 20180530143538976
+modified: 20191231193143779
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,4 +12,4 @@ source-tiddler-title-as-link: Exploration%20plugin
 
 !! [[Exploration plugin]] v<<pversion "exploration">>
 
-<<readme $:/plugins/tongerner/exploration/readme $:/plugins/tongerner/exploration>>
+<<readme $:/plugins/tg/exploration/readme $:/plugins/tg/exploration>>

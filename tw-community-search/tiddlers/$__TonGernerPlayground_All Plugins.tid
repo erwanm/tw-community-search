@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/All Plugins
 caption: Plugins
 created: 20170512085341962
 creator: TonGerner
-modified: 20180705114319381
+modified: 20200204170238628
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,7 +14,9 @@ source-tiddler-title-as-link: All%20Plugins
 <<<
 ''Note:''
 
-* ''@@color:Blue;When upgrading a plugin it is recommended to delete overridden shadow tiddlers, especially stylesheet tiddlers. Note down the changes you made beforehand.@@''
+* ''@@color:Blue;As of 5-2-2020 the namespace of all my plugins has been changed from `$:/plugins/tongerner/...` to `$/plugins/tg/...`@@''
+** ''@@color:Blue;In case of upgrading one of my plugins, remove the old plugin and all related tiddlers (overridden shadow tiddlers and configuration tiddlers) containing `$:/plugins/tongerner/...`@@''
+* ''When upgrading a plugin it is in general recommended to delete overridden shadow tiddlers, especially stylesheet tiddlers. Note down the changes you made beforehand.''
 * All my plugins (themes, 'normal' plugins and editor toolbar buttons) were made with the [[Tinka plugin|https://tinkaplugin.github.io/]] of Andreas Hahn.
 <<<
 

@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Tristate plugin
 caption: Tristate
 created: 20150719190037428
 creator: TonGerner
-modified: 20180530143015315
+modified: 20191231193934554
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,5 +12,5 @@ source-tiddler-title-as-link: Tristate%20plugin
 
 !! [[Tristate plugin]] v<<pversion "tristate">>
 
-<<readme $:/plugins/tongerner/tristate/readme $:/plugins/tongerner/tristate>>
-* [[$:/plugins/tongerner/layout_adjustment]]
+<<readme $:/plugins/tg/tristate/readme $:/plugins/tg/tristate>>
+* [[$:/plugins/tg/layout]]

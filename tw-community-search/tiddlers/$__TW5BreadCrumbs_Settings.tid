@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Settings
 created: 20140208183031425
 creator: TonGerner
-modified: 20170504193903714
+modified: 20200101183213905
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -13,26 +13,26 @@ source-tiddler-title-as-link: Settings
 <<<
 ''Note:''
 
-* Adjustments to the layout can be made in '~ControlPanel' > 'Appearance' > 'Plugin tweaks', tabs 'Breadcrumbs' and 'Layout' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].
-* In case breadcrumbs are used in combination with other top menus see <<slider "Other adjustments" "Other adjustments">>
+* Adjustments to the layout can be made in ''~ControlPanel > Appearance > Plugin tweaks'', tabs 'Theme tweaks', 'Layout' and 'Tiddlersbar' or direct via [[Plugin tweaks|$:/plugins/tg/layout/tweaks]] or via the Adjust layout button ({{$:/plugins/tg/layout/image/layout}}) in the top right bar..
+* In case the tiddlersbar is used in combination with other top menus see <<pslider "Combine plugins" "$:/plugins/tg/layout/combination">>
 <<<
 
 'Settings' comprises 2 tiddlers:
 
-* [[$:/plugins/tongerner/tiddlersbar/settings]]
-* [[$:/plugins/tongerner/tiddlersbar/settings-help]]
+* [[$:/plugins/tg/tiddlersbar/settings]]
+* [[$:/plugins/tg/tiddlersbar/settings-help]]
 
-!!$:/plugins/tongerner/tiddlersbar/settings
+!!$:/plugins/tg/tiddlersbar/settings
 Tagged with [[$:/tags/SideBar]].
 
-<<sslider "$:/plugins/tongerner/tiddlersbar/settings" settings>>
+<<sslider "$:/plugins/tg/tiddlersbar/settings" settings>>
 
 which renders as an editable table with settings for adjusting the layout of the tiddlersbar:
 
 @@.sliderBG
 <div>
 
-{{$:/plugins/tongerner/tiddlersbar/settings}}
+{{$:/plugins/tg/tiddlersbar/settings}}
 
 </div>
 @@
@@ -41,13 +41,13 @@ which renders as an editable table with settings for adjusting the layout of the
 ''Note:''<br>The values set in this table will be transcluded in the stylesheet (via fields in the stylesheet).
 <<<
 
-!!$:/plugins/tongerner/tiddlersbar/settings-help
-Help can be found in [[$:/plugins/tongerner/tiddlersbar/settings-help]]: 
+!!$:/plugins/tg/tiddlersbar/settings-help
+Help can be found in [[$:/plugins/tg/tiddlersbar/settings-help]] (available by clicking the <button>Help</button> button at the bottom of the Settings tiddler):
 
 @@.sliderBG
 <div>
 
-{{$:/plugins/tongerner/tiddlersbar/settings-help}}
+{{$:/plugins/tg/tiddlersbar/settings-help}}
 
 </div>
 @@

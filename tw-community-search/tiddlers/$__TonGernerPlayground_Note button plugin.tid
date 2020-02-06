@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Note button plugin
 caption: Note button
 created: 20171030195901874
 creator: TonGerner
-modified: 20171030200101918
+modified: 20191231194254083
 modifier: TonGerner
 original-tags: button
 source-wiki-id: TonGernerPlayground
@@ -11,4 +11,4 @@ source-tiddler-title-as-link: Note%20button%20plugin
 
 !! [[Note button plugin]] v<<pversion "note">>
 
-<<readme $:/plugins/tongerner/note-button/readme $:/plugins/tongerner/note-button>>
+<<readme $:/plugins/tg/note-button/readme $:/plugins/tg/note-button>>

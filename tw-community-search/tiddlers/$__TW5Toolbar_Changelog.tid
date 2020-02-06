@@ -1,7 +1,7 @@
 title: $:/TW5Toolbar/Changelog
 created: 20131027171100000
 creator: TonGerner
-modified: 20190912184410350
+modified: 20200204183015617
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v6.18 (5-2-2020)
+* Changed namespace of plugins from `$:/plugins/tongerner/...` to `$:/plugins/tg/...`
 
 !!!!v6.17 (12-9-2019)
 * Upgraded to TW v5.1.21

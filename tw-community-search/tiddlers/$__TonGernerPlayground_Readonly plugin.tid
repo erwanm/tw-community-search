@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Readonly plugin
 caption: Readonly
 created: 20150719185704115
 creator: TonGerner
-modified: 20180530143219271
+modified: 20191231193459604
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -12,7 +12,7 @@ source-tiddler-title-as-link: Readonly%20plugin
 
 !! [[Readonly plugin]] v<<pversion "ro">>
 
-<<readme $:/plugins/tongerner/ro/readme $:/plugins/tongerner/ro>>
+<<readme $:/plugins/tg/ro/readme $:/plugins/tg/ro>>
 
 
 

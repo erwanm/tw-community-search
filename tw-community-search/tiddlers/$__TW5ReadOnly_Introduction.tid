@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Introduction
 created: 20170506134612257
 creator: TonGerner
-modified: 20190913153542445
+modified: 20200204164109694
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5ReadOnly
@@ -18,8 +18,8 @@ This guide describes two ways to make TW readonly:
 <<<
 ''Note 1:''<br>Both ways available as plugin. Just drag & drop one of the following links to your TW:
 
-* [[$:/plugins/tongerner/sro]] (v<<pversion sro>>, the simple readonly plugin)
-* [[$:/plugins/tongerner/ro]] (v<<pversion ro>>)
+* [[$:/plugins/tg/sro]] (v<<pversion sro>>, the simple readonly plugin)
+* [[$:/plugins/tg/ro]] (v<<pversion ro>>)
 <<<
 
 <<<
@@ -30,8 +30,6 @@ This guide describes two ways to make TW readonly:
 ** The 'Readonly' plugin (v<<pversion ro>>)
 ** The Emphasized theme v<<tversion "emphasized">>
 ** The Bluish color palette v{{$:/palettes/Bluish!!version}}
-** A System tags tab (Sidebar > More)
-** The tiddler [[$:/_toggle-editor-toolbar_preview]] which adds a checkbox for the editor toolbar - in edit mode, just below the tags and/or above the editor toolbar. It can toggle preview mode as well.
 ** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins
 * To 'hide' the functionality a little bit for prying eyes the name of the plugin is 'ro'/'sro' instead of 'readonly'/' simple readonly'
 <<<

@@ -1,0 +1,17 @@
+title: $:/TW5ReadOnly/$:/plugins/tg/sro
+author: TonGerner
+core-version: >=5.1.15
+created: 20191230125412182
+description: Makes TW readonly
+list: readme license help
+modified: 20191230125438163
+name: Makes TW readonly
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.4
+original-tags: 
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: $:/plugins/tg/sro
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2fsro
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

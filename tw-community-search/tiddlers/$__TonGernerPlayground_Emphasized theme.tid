@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Emphasized theme
 caption: Emphasized
 created: 20170427192444703
 creator: TonGerner
-modified: 20190911195016452
+modified: 20191231192821716
 modifier: TonGerner
 status: upgraded to
 original-tags: theme
@@ -14,7 +14,7 @@ source-tiddler-title-as-link: Emphasized%20theme
 
 Bluish palette v{{$:/palettes/Bluish!!version}}
 
-<<readme $:/themes/tongerner/emphasized/readme $:/themes/tongerner/emphasized>>
+<<readme $:/themes/tg/emphasized/readme $:/themes/tg/emphasized>>
 
 <<<
 ''Note:''<br>This TW5 uses my Emphasized theme in combination with the Bluish palette.

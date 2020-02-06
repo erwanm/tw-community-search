@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Characters button plugin
 caption: Characters button
 created: 20181224171302484
 creator: TonGerner
-modified: 20190911181659397
+modified: 20191231194100631
 modifier: TonGerner
 original-tags: button
 source-wiki-id: TonGernerPlayground
@@ -11,4 +11,4 @@ source-tiddler-title-as-link: Characters%20button%20plugin
 
 !! [[Characters button plugin]] v<<pversion "chars-button">>
 
-<<readme $:/plugins/tongerner/chars-button/readme $:/plugins/tongerner/chars-button>>
+<<readme $:/plugins/tg/chars-button/readme $:/plugins/tg/chars-button>>

@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Highlight button plugin
 caption: Highlight button
 created: 20170511195508228
 creator: TonGerner
-modified: 20190911181943486
+modified: 20191231194126521
 modifier: TonGerner
 original-tags: button
 source-wiki-id: TonGernerPlayground
@@ -11,4 +11,4 @@ source-tiddler-title-as-link: Highlight%20button%20plugin
 
 !! [[Highlight button plugin]] v<<pversion "highlight-button">>
 
-<<readme $:/plugins/tongerner/highlight-button/readme $:/plugins/tongerner/highlight-button>>
+<<readme $:/plugins/tg/highlight-button/readme $:/plugins/tg/highlight-button>>

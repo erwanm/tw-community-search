@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/tabstory
+author: TonGerner
+core-version: >=5.1.15
+created: 20191229182106947
+creator: TonGerner
+description: Tabs on top of story
+list: readme license
+modified: 20191229182153341
+modifier: TonGerner
+name: Tabstory
+source: http://tongerner.tiddlyspot.com/
+version: 0.1.16
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/tabstory
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftabstory
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
