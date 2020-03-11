@@ -7,7 +7,7 @@ list: readme license
 modified: 20191229192813626
 name: Toolbar above title
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.12
+version: 0.1.13
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tg/uptoolbar
