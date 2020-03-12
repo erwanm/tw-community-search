@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/WebServer Parameter: path-prefix
 caption: path-prefix
 created: 20180630180514893
-modified: 20180702154716090
+modified: 20200311171847360
 type: text/vnd.tiddlywiki
 original-tags: [[WebServer Parameters]]
 source-wiki-id: tiddlywiki.com
@@ -15,3 +15,5 @@ This example causes the server to serve from http://127.0.0.1/MyApp instead of t
 ```
 tiddlywiki mywikifolder --listen "path-prefix=/MyApp"
 ```
+
+Note that further steps are required to configure the client-side components to use the prefix. See [[Using a custom path prefix with the client-server edition]].
