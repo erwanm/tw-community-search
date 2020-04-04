@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/macros/welford/twyt'
-name: unknown
-plugin_tiddler: $:/macros/welford/twyt
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
