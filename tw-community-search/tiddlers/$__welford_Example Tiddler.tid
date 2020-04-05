@@ -1,0 +1,28 @@
+title: $:/welford/Example Tiddler
+created: 20140705202408826
+list: 
+modified: 20141124203226803
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: welford
+source-tiddler-title-as-text: Example Tiddler
+source-tiddler-title-as-link: Example%20Tiddler
+
+!This Tiddler
+!!Does Nothing
+!!!It's just an example
+#numbered 
+#lists
+##are
+##ok
+#sometimes
+*so
+*are
+*Bulletpoints
+
+!!Links
+http://www.google.co.jp
+
+!!TWexe
+<$twexe tiddler="This Is TWEXE" />
