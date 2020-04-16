@@ -7,7 +7,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: TaskManagementExample (Draggable)
 source-tiddler-title-as-link: TaskManagementExample%20%28Draggable%29
 
-This is a version of the TaskManagementDemo enhanced with the ability to drag and drop the task list to re-order them.
+This is a version of the TaskManagementExample enhanced with the ability to drag and drop the task list to re-order them.
 
 ! Outstanding tasks
 

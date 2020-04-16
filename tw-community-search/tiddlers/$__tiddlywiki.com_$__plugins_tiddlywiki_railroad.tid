@@ -1,9 +1,10 @@
 title: $:/tiddlywiki.com/$:/plugins/tiddlywiki/railroad
-author: AstridElocson
+author: Astrid Elocson
 dependents: 
 description: Railroad diagram generator
 list: readme usage syntax example
-version: 5.1.21
+name: Railroad
+version: 5.1.22
 original-tags: 
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/railroad

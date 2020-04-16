@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/WebServer Parameter: port
 caption: port
 created: 20180630180552254
-modified: 20180702155017130
+modified: 20191219123751824
 type: text/vnd.tiddlywiki
 original-tags: [[WebServer Parameters]]
 source-wiki-id: tiddlywiki.com
@@ -13,6 +13,7 @@ The [[web server configuration parameter|WebServer Parameters]] ''port'' specifi
 The ''port'' parameter accepts two types of value:
 
 * Numerical values are interpreted as a decimal port number
+** The special value 0 (zero) causes the operating system to assign an available port
 * Non-numeric values are interpreted as an environment variable from which the port should be read
 
 This example configures the server to listen on port 8090:

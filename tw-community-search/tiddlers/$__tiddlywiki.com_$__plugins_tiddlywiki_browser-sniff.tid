@@ -1,10 +1,9 @@
 title: $:/tiddlywiki.com/$:/plugins/tiddlywiki/browser-sniff
-author: JeremyRuston
-core-version: >=5.0.0
 dependents: 
-description: Browser sniffing
+description: Browser feature detection
 list: readme usage
-version: 5.1.21
+name: Browser Sniff
+version: 5.1.22
 original-tags: 
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/browser-sniff

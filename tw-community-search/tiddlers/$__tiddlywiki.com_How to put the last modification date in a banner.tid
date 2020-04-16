@@ -10,7 +10,7 @@ source-tiddler-title-as-link: How%20to%20put%20the%20last%20modification%20date%
 Here's how to display the last modification date of a wiki in a banner in the corner of the window:
 
 # [[Install the plugin|Installing a plugin from the plugin library]] <<.def "Corner ribbon">> in your ~TiddlyWiki
-# Save ({{$:/core/images/save-button}}) and reload ({{$:/core/images/refresh-button}}) your wiki
+# Save (<<.icon $:/core/images/save-button>>) and reload (<<.icon $:/core/images/refresh-button>>) your wiki
 # Create a new tiddler called [[$:/_MyRibbon]] tagged [[$:/tags/PageControls]] and containing:<div>
 
 ```

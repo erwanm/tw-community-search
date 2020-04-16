@@ -1,0 +1,31 @@
+title: $:/tiddlywiki.com/ActionCreateTiddlerWidget Example 3
+created: 20200131145355658
+modified: 20200131152045990
+type: text/vnd.tiddlywiki
+original-tags: ActionCreateTiddlerWidget
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: ActionCreateTiddlerWidget Example 3
+source-tiddler-title-as-link: ActionCreateTiddlerWidget%20Example%203
+
+\define testCreate()
+<$action-createtiddler $basetitle="base" $template="ActionCreateTiddlerWidget Template"/>
+\end
+
+This example will uses a base-title and a template: [[ActionCreateTiddlerWidget Template]]
+
+It will create: "base", "base 1", "base 2" and so on 
+
+```
+\define testCreate()
+<$action-createtiddler $basetitle="base" $template="ActionCreateTiddlerWidget Template"/>
+\end
+
+<$button actions=<<testCreate>> >
+Create Tiddler
+</$button>
+```
+
+<$button actions=<<testCreate>> >
+<$action-setfield $tiddler="$:/state/tab/sidebar-1206596165" text="$:/core/ui/SideBar/Recent"/>
+Create Tiddler
+</$button> - Clicking this button, will also open the Right sidebar: Recent tab

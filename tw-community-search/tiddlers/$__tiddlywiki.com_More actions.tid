@@ -6,4 +6,4 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: More actions
 source-tiddler-title-as-link: More%20actions
 
-Pressing {{$:/core/images/down-arrow}} Gives you  a dropdown menu with more editing options.
+Pressing <<.icon $:/core/images/down-arrow>> Gives you  a dropdown menu with more editing options.

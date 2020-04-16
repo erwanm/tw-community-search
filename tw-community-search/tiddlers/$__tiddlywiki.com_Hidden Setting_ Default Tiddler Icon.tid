@@ -1,0 +1,10 @@
+title: $:/tiddlywiki.com/Hidden Setting: Default Tiddler Icon
+created: 20200306145004925
+modified: 20200306145004925
+type: text/vnd.tiddlywiki
+original-tags: [[Hidden Settings]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Hidden Setting: Default Tiddler Icon
+source-tiddler-title-as-link: Hidden%20Setting%3a%20Default%20Tiddler%20Icon
+
+A default tiddler icon can be specified by creating a tiddler called $:/config/DefaultTiddlerIcon containing the title of the tiddler containing the icon.

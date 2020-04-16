@@ -1,0 +1,12 @@
+title: $:/tiddlywiki.com/SystemTag: $:/tags/Macro/View
+caption: $:/tags/Macro
+created: 20200103092530990
+description: marks global macros
+modified: 20200103092606462
+type: text/vnd.tiddlywiki
+original-tags: SystemTags
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: SystemTag: $:/tags/Macro/View
+source-tiddler-title-as-link: SystemTag%3a%20%24%3a%2ftags%2fMacro%2fView
+
+The [[system tag|SystemTags]] `$:/tags/Macro/View` marks macros that are only made available within the main view templates and the preview panel.
