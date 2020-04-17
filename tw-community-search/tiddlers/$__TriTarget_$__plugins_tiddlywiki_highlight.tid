@@ -4,7 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: Highlight.js: syntax highlighting
 list: readme usage license
-version: 5.1.21
+version: 5.1.22
 original-tags: 
 source-wiki-id: TriTarget
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

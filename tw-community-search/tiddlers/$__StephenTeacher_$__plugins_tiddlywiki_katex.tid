@@ -4,7 +4,7 @@ description: KaTeX library for mathematical typography
 library-version: v0.10.2
 list: readme usage
 name: KaTeX
-version: 5.1.22-prerelease
+version: 5.1.22
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/katex
