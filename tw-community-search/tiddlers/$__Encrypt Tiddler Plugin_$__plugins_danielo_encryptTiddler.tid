@@ -6,7 +6,7 @@ description: adds the ability to encrypt single tiddlers
 list: Encrypt-Tiddler Changelog
 revision: 0
 source: https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin
-version: 2.1
+version: 2.2
 original-tags: 
 source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: $:/plugins/danielo/encryptTiddler

@@ -21,6 +21,6 @@ twcs-wiki-id: Encrypt Tiddler Plugin
 twcs-extracted-plugin-tiddler: $:/Encrypt Tiddler Plugin/$:/plugins/danielo/encryptTiddler
 twcs-description: adds the ability to encrypt single tiddlers
 twcs-author: DanieloRodrigez
-twcs-version: 2.1
+twcs-version: 2.2
 
 {{||$:/CommunityPluginTemplate}}
