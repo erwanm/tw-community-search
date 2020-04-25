@@ -23,7 +23,7 @@ source-tiddler-title-as-link: Batch%20Encrypt%201
 <$action-setfield $tiddler="$:/temp/encrypt/filter" $field="text" $value=""/>
 {{$:/core/images/close-button}}
 </$button>
-<$transclude tiddler="$:/plugins/danielo/encryptTiddler/crypt-batch-button"/>
+<$transclude tiddler="$:/plugins/danielo515/encryptTiddler/crypt-batch-button"/>
 </$reveal>
 </div>
 

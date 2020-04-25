@@ -8,4 +8,4 @@ source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: Encrypt Tiddler Plugin
 source-tiddler-title-as-link: Encrypt%20Tiddler%20Plugin
 
-{{$:/plugins/danielo/encryptTiddler/Encrypt-Tiddler}}
+{{$:/plugins/danielo515/encryptTiddler/Encrypt-Tiddler}}
