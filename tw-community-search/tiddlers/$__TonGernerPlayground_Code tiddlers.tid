@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Code tiddlers
 created: 20170427194634553
 creator: TonGerner
-modified: 20200204165955846
+modified: 20200426060522051
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,5 @@ It isn't very useful to convert a single code tiddler to a plugin (e.g. my forme
 |Code tiddler |<|h
 |$:/_slider-macro|presents a tiddler as a slider|
 |$:/core/ui/TagTemplate|adds 'Open all' to the tag dropdown list.<br>Overridden shadow tiddler!|
-|$:/_button_to_top|button to top of story river|
 |$:/_filter/stylesheets|filter: list order of stylesheets|
 |$:/_filter/user-system|filter: list user defined system tiddlers (starting with`$:/_`)|

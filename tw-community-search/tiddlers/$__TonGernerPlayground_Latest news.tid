@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20200310154510782
+modified: 20200429185410416
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,11 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 30-4-2020
+* Upgraded to TW v5.1.22
+* Upgraded/updated plugins
+* New Left menu plugin
 
 !!! 10-3-2020
 * Repaired bug in Uptoolbar (Toolbar above title) plugin

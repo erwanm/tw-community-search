@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Enabled plugins
 created: 20160111200537581
 creator: TonGerner
-modified: 20200204143630473
+modified: 20200425122339940
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -15,14 +15,12 @@ source-tiddler-title-as-link: Enabled%20plugins
 |[[Layout tweaks plugin]]|click [[Plugin tweaks|$:/plugins/tg/layout/tweaks]] or {{$:/plugins/tg/layout/configuration-button}}||
 |[[Top menu plugin]] |see on top||
 |[[Toolbar plugin]]|see on top||
-|[[Tiddlersbar plugin]] |click {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}} / {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}||
-|[[Tabstory plugin]] |click {{$:/plugins/tongerner/tabstory/image-tabstory-off}} / {{$:/plugins/tongerner/tabstory/image-tabstory-on}}||
+|[[Tiddlersbar plugin]] |click {{$:/plugins/tg/tiddlersbar/image-tiddlersbar-off}} / {{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}}||
+|[[Tabstory plugin]] |click {{$:/plugins/tg/tabstory/image-tabstory-off}} / {{$:/plugins/tg/tabstory/image-tabstory-on}}||
 |[[Tristate plugin]]|click {{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}||
-|[[Uptoolbar plugin]]|see every tiddler||
 |[[Readonly plugin]]|click{{$:/plugins/tg/ro/images/publish}}to access the 'Publish' menu|disables/hides buttons and sidebar tabs @@color:red;(demo not possible here at ~TiddlySpot!)@@|
 |[[Simple readonly plugin]]|click{{$:/plugins/tg/sro/images/publish}}to access the 'Publish' menu|disables/hides a set of ''predefined'' buttons & sidebar tabs @@color:red;(demo not possible here at ~TiddlySpot!)@@|
 |[[Exploration plugin]]|click {{$:/plugins/tg/exploration/icon}} to start exploration (in a new window)||
-|[[Tinka plugin|$:/plugins/ahahn/tinka]]| ''-'' |Plugin packer by Andreas Hahn|
 |Editor toolbar button plugin|<|<|h
 |Highlight button|click {{$:/core/images/highlight}} to highlight selected text||
 |Timestamp button|click {{$:/core/images/timestamp}} to insert timestamp||

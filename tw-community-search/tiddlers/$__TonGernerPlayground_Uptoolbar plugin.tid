@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Uptoolbar plugin
 caption: Uptoolbar
 created: 20160111103524320
 creator: TonGerner
-modified: 20191231194005685
+modified: 20200325164103717
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -10,7 +10,8 @@ source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: Uptoolbar plugin
 source-tiddler-title-as-link: Uptoolbar%20plugin
 
-!! [[Uptoolbar plugin]] v<<pversion "uptoolbar">>
+!! [[Uptoolbar plugin]]
 
-<<readme $:/plugins/tg/uptoolbar/readme $:/plugins/tg/uptoolbar>>
-* [[$:/plugins/tg/layout]]
+@@.RED Now part of Layout tweaks plugin (checkbox setting).@@
+
+

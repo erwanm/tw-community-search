@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Disabled plugins
-created: 20160111200717362
+created: 20200428105305235
 creator: TonGerner
-modified: 20190911194547702
+modified: 20200428125006307
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -11,6 +11,5 @@ source-tiddler-title-as-link: Disabled%20plugins
 |Plugin |why not enabled?|h
 |[[Mobie theme]]|incompatible with almost all of my plugins|
 |[[Top-left menu plugin|Top + left menu plugin]]|incompatible with 'Tristate' plugin|
+|[[Left menu plugin]]|incompatible with standard layout|
 |[[Go to bottom plugin]]|only for editing|
-|[[Link-to-tabs plugin (PMario)|$:/plugins/wikilabs/link-to-tabs]]|only for editing|
-

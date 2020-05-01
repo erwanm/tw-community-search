@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/All plugins together
 created: 20171223103522151
 creator: TonGerner
-modified: 20200204142829330
+modified: 20200425113353975
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
@@ -20,7 +20,6 @@ source-tiddler-title-as-link: All%20plugins%20together
 |Go to bottom |$:/plugins/tg/bottom| <<pversion bottom>>|
 |Exploration |$:/plugins/tg/exploration| <<pversion exploration>>|
 |~TabStory |$:/plugins/tg/tabstory| <<pversion "tabstory">>|
-|Uptoolbar |$:/plugins/tg/uptoolbar| <<pversion "uptoolbar">>|
 |Top menu |$:/plugins/tg/topmenu| <<pversion "topmenu">>|
 |Top + left menu |$:/plugins/tg/topleftmenu| <<pversion "topleftmenu">>|
 |Tristate  |$:/plugins/tg/tristate| <<pversion "tristate">>|

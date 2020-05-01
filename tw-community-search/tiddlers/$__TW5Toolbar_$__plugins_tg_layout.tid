@@ -4,10 +4,10 @@ core-version: >=5.1.15
 created: 20191227185336422
 description: Layout tweaks
 list: readme license
-modified: 20200125130912384
+modified: 20200316202427165
 name: Layout tweaks
 source: http://tongerner.tiddlyspot.com/
-version: 0.4.29
+version: 0.4.34
 original-tags: 
 source-wiki-id: TW5Toolbar
 source-tiddler-title-as-text: $:/plugins/tg/layout

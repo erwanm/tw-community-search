@@ -1,7 +1,7 @@
 title: $:/TW5BreadCrumbs/Changelog
 created: 20140121191533502
 creator: TonGerner
-modified: 20200204182910678
+modified: 20200429190309033
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5BreadCrumbs
@@ -9,6 +9,9 @@ source-tiddler-title-as-text: Changelog
 source-tiddler-title-as-link: Changelog
 
 !! [[Changelog]]
+
+!!!!v3.11 (30--2020)
+* Upgraded to TW v5.1.22
 
 !!!!v3.10 (5-2-2020)
 * Changed namespace of plugins from `$:/plugins/tongerner/...` to `$:/plugins/tg/...`

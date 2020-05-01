@@ -2,7 +2,7 @@ title: $:/TonGernerPlayground/Tabstory plugin
 caption: Tabstory
 created: 20160111103420591
 creator: TonGerner
-modified: 20191231193606666
+modified: 20200425163242427
 modifier: TonGerner
 status: upgraded to
 original-tags: plugin
@@ -11,6 +11,8 @@ source-tiddler-title-as-text: Tabstory plugin
 source-tiddler-title-as-link: Tabstory%20plugin
 
 !! [[Tabstory plugin]] v<<pversion "tabstory">>
+
+To see the Tabstory plugin in action, click the Show Tabstory button (<<icn $:/plugins/tg/tabstory/image-tabstory-off>>) in Page Controls.
 
 <<readme $:/plugins/tg/tabstory/readme $:/plugins/tg/tabstory>>
 * [[$:/plugins/tg/layout]]

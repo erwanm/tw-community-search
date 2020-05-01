@@ -7,7 +7,7 @@ list: readme license
 modified: 20191229132708169
 name: Go to bottom
 source: http://tongerner.tiddlyspot.com/
-version: 0.0.6
+version: 0.0.7
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tg/bottom

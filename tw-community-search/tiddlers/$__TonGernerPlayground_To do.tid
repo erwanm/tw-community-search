@@ -1,10 +1,14 @@
 title: $:/TonGernerPlayground/To do
 created: 20160406162805379
 creator: TonGerner
-modified: 20200204125354041
+modified: 20200325204810595
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: To do
 source-tiddler-title-as-link: To%20do
 
+Teruggetrokken plugins
+
+* List recent results (now part of Top toolbar plugin)
+* Uptoolbar (now part of Layout tweaks plugin)

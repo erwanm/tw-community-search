@@ -2,7 +2,7 @@ title: $:/TW5Toolbar/Top toolbar plugin
 caption: Top toolbar
 created: 20150812085007286
 creator: TonGerner
-modified: 20200122203156048
+modified: 20200428141344466
 modifier: TonGerner
 original-tags: 
 source-wiki-id: TW5Toolbar
@@ -20,14 +20,14 @@ source-tiddler-title-as-link: Top%20toolbar%20plugin
 * All buttons are tagged with $:/tags/TopLeftBar
 * Many buttons are replicated core buttons (plain transcluded core buttons or transcluded core buttons in a dropdown menu).
 * Special buttons are:
-** 'Rename tags' button (thanks to [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]]; Stephan Hadrek enhanced it a bit)
+** 'Rename tags' button (thanks to Tobias Beer & Richard William Smith)
 ** 'Tagging in view mode' (toggle button)
 ** 'Manage corrupt tiddler' button let you edit the content of a corrupt tiddler.
-** List & search via tags (thanks to [[aSpex Daemon|https://groups.google.com/d/msg/tiddlywiki/XxLT8zJqHYM/5dKWcxFFAAAJ]])
-** Search & delete tiddlers (thanks to [[Stephan Hradek/Matabele|https://groups.google.com/d/msg/tiddlywiki/U9GYlwVXp6M/lubA413asP4J]]/[[Tobias Beer|http://tobibeer.github.io/tb5/#%24%3A%2F.tb%2Ftemplates%2Fdelete-filter]])
+** List all normal, system and added system tags
+** Search & delete tiddlers (thanks to Stephan Hradek/Matabele/Tobias Beer)
 ** Manage tiddlers button
 ** Editor toolbar (toggle button)
-** Preview mode (toggle button)
+** Preview mode (with dropdown for scrollable preview)
 
 !!!Modified shadow tiddlers:
 * [[$:/core/ui/PageTemplate/topleftbar]]. Added visibility options so the buttons can be switched on/off like all other toolbar buttons (Page, Edit & View toolbar)

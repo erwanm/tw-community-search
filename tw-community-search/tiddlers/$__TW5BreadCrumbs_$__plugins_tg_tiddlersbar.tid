@@ -7,7 +7,7 @@ list: readme license
 modified: 20191228211019421
 name: Tiddlersbar
 source: http://tw5custom.tiddlyspot.com/
-version: 0.0.16
+version: 0.0.19
 original-tags: 
 source-wiki-id: TW5BreadCrumbs
 source-tiddler-title-as-text: $:/plugins/tg/tiddlersbar
