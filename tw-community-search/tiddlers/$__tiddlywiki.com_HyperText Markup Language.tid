@@ -7,7 +7,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: HyperText Markup Language
 source-tiddler-title-as-link: HyperText%20Markup%20Language
 
-<<.dlink-ex HTML "http://en.wikipedia.org/wiki/HTML">> is a standard plain-text format used for defining the content of a web page.
+<<.dlink-ex HTML "https://en.wikipedia.org/wiki/HTML">> is a standard plain-text format used for defining the content of a web page.
 
 It consists of a tree of elements expressed using a system of special <<.def tags>> enclosed in angle brackets.
 

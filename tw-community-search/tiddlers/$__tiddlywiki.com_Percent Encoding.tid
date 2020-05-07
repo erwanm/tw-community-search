@@ -7,7 +7,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Percent Encoding
 source-tiddler-title-as-link: Percent%20Encoding
 
-<<.dlink-ex "Percent encoding" "http://en.wikipedia.org/wiki/Percent-encoding">> is a notation that allows otherwise invalid characters to be included in a [[URI]].
+<<.dlink-ex "Percent encoding" "https://en.wikipedia.org/wiki/Percent-encoding">> is a notation that allows otherwise invalid characters to be included in a [[URI]].
 
 Such characters are represented as a percent sign `%` followed by two additional characters.
 

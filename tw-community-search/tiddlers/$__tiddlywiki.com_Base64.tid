@@ -7,4 +7,4 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Base64
 source-tiddler-title-as-link: Base64
 
-<<.dlink-ex Base64 "http://en.wikipedia.org/wiki/Base64">> is a way of representing binary data, such an image, as a string of text.
+<<.dlink-ex Base64 "https://en.wikipedia.org/wiki/Base64">> is a way of representing binary data, such an image, as a string of text.
