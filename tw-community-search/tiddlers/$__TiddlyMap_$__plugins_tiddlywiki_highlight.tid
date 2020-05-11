@@ -1,10 +1,10 @@
 title: $:/TiddlyMap/$:/plugins/tiddlywiki/highlight
-author: JoaoBolila
-core-version: >=5.0.0
+author: Joao Bolila
 dependents: 
-description: Highlight.js: syntax highlighting
-list: readme usage license
-version: 5.1.17
+description: Highlight.js syntax highlighting
+list: readme usage howto license
+name: Highlight
+version: 5.1.23-prerelease
 original-tags: 
 source-wiki-id: TiddlyMap
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight
