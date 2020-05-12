@@ -4,7 +4,7 @@ core-version: >=5.1.18
 dependents: 
 description: Aliases - Alias Manager
 list: 
-version: 1.0.0
+version: 5.1.22
 original-tags: 
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/mklauber/aliases
