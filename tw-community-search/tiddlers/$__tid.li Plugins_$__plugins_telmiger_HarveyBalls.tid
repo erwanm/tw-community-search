@@ -2,9 +2,10 @@ title: $:/tid.li Plugins/$:/plugins/telmiger/HarveyBalls
 author: Thomas Elmiger
 core-version: 
 created: 20171005214018768
-description: HarveyBalls
-list: readme alternatives credits
-modified: 20171005214046725
+description: Harvey balls icon set
+list: readme alternatives credits support
+modified: 20200524115531914
+name: HarveyBalls
 source: https://tid.li/tw5/plugins.html
 version: 0.0.6
 original-tags: 

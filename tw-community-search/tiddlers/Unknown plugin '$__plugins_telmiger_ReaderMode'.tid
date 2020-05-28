@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/telmiger/ReaderMode'
-name: unknown
-plugin_tiddler: $:/plugins/telmiger/ReaderMode
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

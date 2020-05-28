@@ -5,10 +5,10 @@ tags: CommunityWikis
 title: tid.li Plugins
 type: text/vnd.tiddlywiki
 wiki-address: https://tid.li/tw5/plugins.html
-wiki-tw-version: 5.1.19
-wiki-latest-modification: 20190310231341212
-wiki-nb-tiddlers: 26
+wiki-tw-version: 5.1.22
+wiki-latest-modification: 20200527194116922
+wiki-nb-tiddlers: 1
 
-A ~TiddlyWiki Plugin Source
+Utilities for ~TiddlyWiki
 
 {{||$:/CommunityWikiPresentationTemplate}}
