@@ -1,0 +1,15 @@
+title: $:/NoteSelf/$:/plugins/noteself/online
+author: Danielo Rodríguez Rivero
+core-version: >=5.1.13
+dependents: 
+description: Plugin containing specific configurations for the online version of NoteSelf
+list: readme
+released: Sat, 11 Apr 2017 12:23:41 GMT
+version: 1.0.0
+original-tags: 
+source-wiki-id: NoteSelf
+source-tiddler-title-as-text: $:/plugins/noteself/online
+source-tiddler-title-as-link: %24%3a%2fplugins%2fnoteself%2fonline
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
