@@ -1,6 +1,6 @@
 title: $:/tid.li Plugins/Get Plugins
 created: 20200523220552960
-modified: 20200527194116922
+modified: 20200603204115253
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: Get Plugins
@@ -17,6 +17,12 @@ These plugins were made to improve my workflow, the design and the functionality
 # Make a backup first.
 # Drag the title or the icon below to your wiki.
 # Check dependencies.
+
+<$details summary="TiddlyWiki on Node.js">
+
+{{Find these plugins on GitHub}}
+
+</$details>
 
 <section class="te-plugin-list">
 
