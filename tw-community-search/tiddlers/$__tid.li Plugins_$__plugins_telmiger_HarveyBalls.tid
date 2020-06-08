@@ -4,10 +4,10 @@ core-version:
 created: 20171005214018768
 description: Harvey balls icon set
 list: readme alternatives credits support
-modified: 20200524115531914
+modified: 20200605194202377
 name: HarveyBalls
 source: https://tid.li/tw5/plugins.html
-version: 0.0.6
+version: 0.1.0
 original-tags: 
 source-wiki-id: tid.li Plugins
 source-tiddler-title-as-text: $:/plugins/telmiger/HarveyBalls
