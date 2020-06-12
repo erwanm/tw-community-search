@@ -8,6 +8,6 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: How to apply custom styles
 source-tiddler-title-as-link: How%20to%20apply%20custom%20styles
 
-At the moment there are several ways to apply custom styles.
+There are several ways to apply custom styles.
 
 <<list-links filter:"[tag[How to apply custom styles]]">>
