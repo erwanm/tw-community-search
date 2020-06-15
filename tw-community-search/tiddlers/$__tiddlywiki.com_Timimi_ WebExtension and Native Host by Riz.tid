@@ -1,13 +1,15 @@
 title: $:/tiddlywiki.com/Timimi: WebExtension and Native Host by Riz
 caption: Timimi
+color: #4db6ac
+community-author: Riz
 created: 20180830194141190
 delivery: Browser Extension & Native host
 description: Browser extension & native host for desktops
 method: save
-modified: 20200501092235061
+modified: 20200507202633529
 type: text/vnd.tiddlywiki
 url: https://ibnishak.github.io/Timimi/
-original-tags: Windows Linux Chrome Firefox Saving Resources plugins Mac Opera
+original-tags: Windows Linux Chrome Firefox Saving Resources plugins Mac Opera Edge
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Timimi: WebExtension and Native Host by Riz
 source-tiddler-title-as-link: Timimi%3a%20WebExtension%20and%20Native%20Host%20by%20Riz

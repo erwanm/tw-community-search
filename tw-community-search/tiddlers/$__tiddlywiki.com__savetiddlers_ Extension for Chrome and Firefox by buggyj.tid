@@ -1,10 +1,12 @@
 title: $:/tiddlywiki.com/"savetiddlers" Extension for Chrome and Firefox by buggyj
 caption: savetiddlers
+color: #4DB6AC
+community-author: Buggyj
 created: 20171109171935039
 delivery: Browser Extension
 description: Browser extension for Chrome and Firefox
 method: save
-modified: 20171113132624609
+modified: 20200507105459753
 type: text/vnd.tiddlywiki
 url: https://github.com/buggyj/savetiddlers
 original-tags: Chrome Firefox Saving Resources plugins

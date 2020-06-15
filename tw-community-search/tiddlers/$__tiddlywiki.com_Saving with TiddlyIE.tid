@@ -1,12 +1,14 @@
 title: $:/tiddlywiki.com/Saving with TiddlyIE
 caption: ~TiddlyIE
+color: #4DB6AC
+community-author: David Jade
 created: 20131211220000000
 delivery: Browser Extension
 description: Browser extension for Internet Explorer
 method: save
-modified: 20171113110036278
+modified: 20200507201415232
 type: text/vnd.tiddlywiki
-original-tags: Saving InternetExplorer
+original-tags: [[Internet Explorer]] Saving
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Saving with TiddlyIE
 source-tiddler-title-as-link: Saving%20with%20TiddlyIE
