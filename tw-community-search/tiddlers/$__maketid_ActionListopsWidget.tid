@@ -1,4 +1,4 @@
-title: $:/tiddlywiki.com/ActionListopsWidget
+title: $:/maketid/ActionListopsWidget
 caption: action-listops
 created: 20141025120850184
 list: efg hlm pqr
@@ -7,13 +7,13 @@ myfield:
 revision: 0
 type: text/vnd.tiddlywiki
 original-tags: ActionWidgets Widgets
-source-wiki-id: tiddlywiki.com
+source-wiki-id: maketid
 source-tiddler-title-as-text: ActionListopsWidget
 source-tiddler-title-as-link: ActionListopsWidget
 
 \define .operator-rows(filter)
 <$list filter="$filter$"><tr>
-<td><$link>{{!!caption}}</$link></td>
+<td><$link to={{!!title}}>{{!!caption}}</$link></td>
 <td>{{!!op-purpose}} <$list filter="[all[current]tag[Common Operators]]">{{$:/core/images/done-button}}</$list></td>
 <td align="center"><$list filter="[all[current]tag[Negatable Operators]]">`!`</$list></td>
 </tr></$list>
