@@ -1,53 +1,30 @@
 title: $:/SideEditor/About
-created: 20150601142211527
-creator: Mat
-modified: 20161228205804665
-modifier: Mat
+created: 20200707151358517
+modified: 20200707162741811
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: About
 source-tiddler-title-as-link: About
 
-''~SideEditor'' is a plugin that floats a tiddlers editor by the story river side.
+[[SideEditor|$:/plugins/TWaddle/SideEditor]] floats a tiddlers editor by the story river side.
 
-The purpose is a ''"live" view of the effects from your editing'' and to be able to scroll and reference stuff from other tiddlers while you edit. It is intended for full size screens.
+Thus you see the changes //live// in the tiddler and you can scroll to, and reference, stuff from other tiddlers while you edit.
 
-''Demo'' there  ⟶<br>
-For this demo, the editor is intentionally extended to cover much of the //sidebar//. Access the sidebar by hovering above the ~SideEditor, or by toggling or re-sizing the ~SideEditor (see below). Should your testing mess up these instructions, just reload this page.
+;Usage
+*''Activate'' it via the tiddler tool button <span class="about-icon">{{$:/core/images/right-arrow}}</span>
+*''Re-size'' it via the "handle bars" at upper-right and lower-left corner.
+*''Switch focus'' between //Sidebar, River// and //SideEditor// by ''hovering''.
 
-''Usage''
-
-*''Toggle'' the ~SideEditor via the tiddler tool button <span class="mybutton">{{$:/core/images/chevron-right}}</span>
-*''Move'' it via the two gray handles.
-*''Re-size'' width via the lower right corner. Height is automatic from typing.
-*''Flip'' between //Sidebar// and //~SideEditor// by hovering. Exact //flip zones// might take some familiarization but here's a {{PeekToggler}} to clue about some critical areas. (Peek feature not included in the plugin).
-
-''Issues'' and intended eventual dev, see [[here|Issues]].
+;Note!
+:Specifically [[macros|A macro]] are not //live// updated. Instead the changes take effect when<br> the SideEditor <span class="about-icon">{{$:/core/images/done-button}}</span> is clicked to close the editor.
 
 ''Installation'' - grab, drag and drop the link $:/plugins/TWaddle/SideEditor into your TW.
 
-''Plugin components'':
+//Mat von TWaddle// <:-)
 
-|[[$:/plugins/TWaddle/SideEditor/Main]]|The actual ~SideEditor macro|
-|[[$:/plugins/TWaddle/SideEditor/Button]]|The tiddler toolbar button to toggle the ~SideEditor<br>@@font-size:small; Based on  [[$:/core/ui/TopBar/menu]] @@|
-|[[$:/plugins/TWaddle/SideEditor/Revealer]]|Checks if state is set to reveal SE<br>@@font-size:small; Key idea from [[$:/core/ui/PageTemplate/sidebar]] @@|
-|$:/plugins/TWaddle/SideEditor/Stylesheet|General stylesheet for ~SideEditor elements|
-|$:/plugins/TWaddle/SideEditor/StylesheetActive|In-macro Stylesheet to style TW sidebar elements only when ~SideEditor is active.|
-|[[$:/plugins/TWaddle/SideEditor/Metrics]]|Values used in the positioning and sizing|
-|[[$:/plugins/TWaddle/SideEditor/icon]]|An original [[Mondrian|https://www.google.se/search?q=mondrian&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjHjr7NwZXRAhVGXCwKHX1nCR0Q_AUICCgB&biw=1366&bih=638]] nicked at the Louvre|
-|[[$:/plugins/TWaddle/SideEditor/readme]]|For //Plugin Library// - the short description seen there |
-
-
-<br>''For updates'', see http://sideeditor.tiddlyspot.com/
-
-<br>
-by ''Mat <:-) von'' [[TWaddle|http://twaddle.tiddlyspot.com]]
+<div class="about-demo">''Demo''  ⟶<br>//mess it up!//</div>
 
 <style>
-body.tc-body .mybutton svg{
-fill: gray;
-width: 16px;
-height:16px;
-margin-bottom:-2px;
-}
+.about-demo {position:absolute; top:6em; right:5em; color:crimson}
+.about-icon svg { display:inline; max-width:1em; max-height:1em; fill:gray}
 </style>
