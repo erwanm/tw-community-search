@@ -1,7 +1,7 @@
 title: $:/BottomTabs/BottomTabs
 created: 20141215104635693
 creator: Alberto Molina Pérez
-modified: 20141216102004111
+modified: 20200709085657478
 modifier: Alberto Molina Pérez
 original-tags: $:/action/show/modifier
 source-wiki-id: BottomTabs
@@ -56,3 +56,4 @@ An notebook for teaching: http://primitivo.tiddlyspot.com
 
 </div>
 
+[[MIT License]]
