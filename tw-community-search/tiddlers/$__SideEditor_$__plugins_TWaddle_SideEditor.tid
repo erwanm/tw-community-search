@@ -1,12 +1,8 @@
 title: $:/SideEditor/$:/plugins/TWaddle/SideEditor
 author: Mat von TWaddle
-created: 20200708141905327
-creator: Mat von TWaddle
 description: A live editor floating by the river side...
 list: readme
-modified: 20200708142754922
-modifier: Mat von TWaddle
-version: 2.0.3
+version: 2.0.4
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: $:/plugins/TWaddle/SideEditor
