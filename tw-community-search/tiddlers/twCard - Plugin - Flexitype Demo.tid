@@ -17,10 +17,6 @@ short_description: Extended Types
 title: twCard - Plugin - Flexitype Demo
 wiki: http://bjtools.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: BJTools
-twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/typestemplate
-twcs-description: enables user templates for each type
-twcs-author: JeffreyWilkinson
-twcs-version: 1.11.0
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

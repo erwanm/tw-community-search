@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/bj/struc'
-name: unknown
-plugin_tiddler: $:/plugins/bj/struc
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

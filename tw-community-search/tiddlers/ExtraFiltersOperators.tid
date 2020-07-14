@@ -5,10 +5,6 @@ author: JedCarty
 title: ExtraFiltersOperators
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/ExtraFilterOperators/
-wiki-tw-version: 5.1.10-prerelease
-wiki-latest-modification: 20150725194715100
-wiki-nb-tiddlers: 10
 
-some extra filter operators for tiddlywiki 5
 
 {{||$:/CommunityWikiPresentationTemplate}}

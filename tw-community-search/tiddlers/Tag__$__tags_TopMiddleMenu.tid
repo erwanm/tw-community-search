@@ -1,7 +1,7 @@
 title: Tag: $:/tags/TopMiddleMenu
 tags: CommunityTags
 community-tag: $:/tags/TopMiddleMenu
-community-tag-count: 4
-community-wikis: [[inmysocks]] [[Mobile Menus Demo Site (inmysocks)]] [[Popout Menus Site (inmysocks)]] [[Popout Menus Site (inmysocks)]]
+community-tag-count: 2
+community-wikis: [[inmysocks]] [[Mobile App-type Menus]]
 
 {{||$:/CommunityTagTemplate}}

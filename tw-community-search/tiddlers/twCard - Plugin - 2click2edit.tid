@@ -17,10 +17,6 @@ short_description: This plugin adds the ability to edit tiddlers by double click
 title: twCard - Plugin - 2click2edit
 wiki: http://danielorodriguez.com/TW5-2click2edit/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: 2click2edit
-twcs-extracted-plugin-tiddler: $:/2click2edit/$:/plugins/danielo515/2click2edit
-twcs-description: double click to edit tiddlers
-twcs-author: Danielo Rodriguez
-twcs-version: 0.1
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}
