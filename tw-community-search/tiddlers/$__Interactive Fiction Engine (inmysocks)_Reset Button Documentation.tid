@@ -1,0 +1,48 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Reset Button Documentation
+created: 20141129053547737
+modified: 20141129054746062
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Reset Button Documentation
+source-tiddler-title-as-link: Reset%20Button%20Documentation
+
+There is a `Reset Game` button in the upper left corner. You can edit the macro that is run when that button is pressed in the editing screen by selecting `Reset Button` in the `Type to Edit` options.
+
+To reset the game you should do a few things:
+
+#Set the initial player location
+#Reset the location of all items
+#Set all triggers to `inactive`
+#If you have any combination locks reset the tumblers
+
+To set the initial player location add/edit the line
+
+`<$action-setfield $tiddler=MapState $field=text $value=STARTINGROOM/>`
+
+Where `STARTINGROOM` is the name of the room the player should start in.
+
+For items you have (One line per item):
+
+`<$action-setfield $tiddler=ITEMNAME $field=location $value=ITEMLOCATION/>`
+
+Where you replace `ITEMNAME` with the name of the item, and `ITEMLOCATION` with the location of the item at the start of the game.
+
+You will have one line per item.
+
+For triggers you have (one per trigger, plus combination locks get the stuff below this too):
+`<$action-setfield $tiddler=TRIGGERNAME $field=text $value=inactive/>`
+
+Where you replace `TRIGGERNAME` with the name of the trigger.
+
+For combination locks:
+After adding the line for the trigger described above you need to add the following three lines:
+
+`<$action-setfield $tiddler=TRIGGERNAME $field=unlock1 $value=0/>`<br>
+`<$action-setfield $tiddler=TRIGGERNAME $field=unlock2 $value=0/>`<br>
+`<$action-setfield $tiddler=TRIGGERNAME $field=unlock3 $value=0/>`
+
+where `TRIGGERNAME` is the name of the combination lock trigger.
+
+The text editing field has the text to edit. Make sure you leave `\define` at the start and `\end` at the end of the text. Don't do anything other than add lines like described above.
+
+There is a list of all items and all triggers next to the text editing area to help remember what needs to be done. Remember that if any item names, trigger names or locations have spaces in them you need to put the name inside single or double quotes (`' '` or `" "`).

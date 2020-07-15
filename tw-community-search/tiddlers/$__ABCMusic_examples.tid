@@ -1,0 +1,22 @@
+title: $:/ABCMusic/examples
+created: 20151204160547031
+modified: 20151204181910349
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: ABCMusic
+source-tiddler-title-as-text: examples
+source-tiddler-title-as-link: examples
+
+!tt
+{{tt}}
+<$abc source="tt"/>
+
+!tt1
+{{tt1}}
+<$abc source="tt1"/>
+
+!tt2
+{{tt2}}
+<$abc source="tt2"/>
+

@@ -1,0 +1,18 @@
+title: $:/EucalysTiddlyWorld/$:/plugins/eucaly/matchfilter
+author: EucalyJ
+created: 20140911212249587
+creator: EucalyJ
+description: MatchFilter - returns "matching text" by regular expression
+lastupdate: 20140912
+list: readme history
+modified: 20140911212252541
+modifier: EucalyJ
+source: http://eucaly-tw5.tiddlyspot.com/
+version: 0.1.0
+original-tags: $:/_matchfilter $:/_plugin-package
+source-wiki-id: EucalysTiddlyWorld
+source-tiddler-title-as-text: $:/plugins/eucaly/matchfilter
+source-tiddler-title-as-link: %24%3a%2fplugins%2feucaly%2fmatchfilter
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

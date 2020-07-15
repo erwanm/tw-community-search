@@ -1,0 +1,12 @@
+title: Demo Code Macro (inmysocks)
+tags: CommunityWikis
+type: text/vnd.tiddlywiki
+wiki-address: http://ooktech.com/jed/ExampleWikis/DemoCodeMacro
+author: JedCarty
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151115114943984
+wiki-nb-tiddlers: 8
+
+for documentation stuff
+
+{{||$:/CommunityWikiPresentationTemplate}}

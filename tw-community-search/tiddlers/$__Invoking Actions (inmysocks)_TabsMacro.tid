@@ -1,0 +1,39 @@
+title: $:/Invoking Actions (inmysocks)/TabsMacro
+caption: tabs
+created: 20131228162203521
+modified: 20141211141507313
+type: text/vnd.tiddlywiki
+original-tags: Macros
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: TabsMacro
+source-tiddler-title-as-link: TabsMacro
+
+The tabs macro displays a list of tiddlers as a tab control. The user can switch between tabs by clicking on them. The tabs are labelled with the title of the corresponding tiddler, unless there is a `caption` field present in which case it is used instead.
+
+By default the tab control arranges the tabs horizontally with the content underneath. You can also choose to have the tabs arranged vertically by passing the class `tc-vertical`.
+
+! Parameters
+
+|!Position |!Name |!Description |!Default |
+|1st |tabsList |Filter giving the tiddlers to be displayed | |
+|2nd |default |Name of the tiddler containing the default tab | |
+|3rd |state |String to distinguish multiple tabs within the same tiddler (use of the system tiddler prefix is recommended) |''$:/state/tab'' |
+|4th |class |Additional CSS classes for the three wrapper DIVs that make up the tabs (multiple classes can be separated with spaces) | |
+|5th |template |Optional template through which to render the tab content | |
+
+Within the template the title of the current tab is available in the widget variable ''currentTab''. The ''currentTiddler'' variable is not affected by the tabs macro.
+
+! Examples
+
+Here are some examples of the tabs macro:
+
+```
+<<tabs "SampleTabOne SampleTabTwo SampleTabThree SampleTabFour" "SampleTabThree" "$:/state/tab1">>
+
+<<tabs "[tag[sampletab]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>
+```
+
+<<tabs "SampleTabOne SampleTabTwo SampleTabThree SampleTabFour" "SampleTabThree" "$:/state/tab1">>
+
+<<tabs "[tag[sampletab]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>
+//Exercise//: how would you make sure that the second tab list is correctly sorted? Hint : read [[Tagging]] until the end.

@@ -1,7 +1,7 @@
 title: Tag: tags
 tags: CommunityTags
 community-tag: tags
-community-tag-count: 3
-community-wikis: [[filters]]
+community-tag-count: 4
+community-wikis: [[AutoTag]] [[filters]]
 
 {{||$:/CommunityTagTemplate}}

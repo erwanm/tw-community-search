@@ -1,0 +1,129 @@
+title: $:/External Brain (inmysocks)/New Blog Post
+created: 20150203215359083
+list-before: Bookmarks
+modified: 20150513200633675
+original-tags: 
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: New Blog Post
+source-tiddler-title-as-link: New%20Blog%20Post
+
+\define thisMakeTags() [[My Blog]]
+
+\define thisGetCreationTemplate()
+$(SelectedTemplate)$_creation_template
+\end
+
+\define thisTagSelect()
+<$select tiddler='$:/state/New Blog Post' field='selected_tag'>
+<$list filter='[[$:/data/New Blog Post/Blog Post Tags]indexes[]regexp:[(?i)$(tagSearch)$]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+\end
+
+\define thisMakeTweetSummary()
+$(TITLE)$ - $(SUMMARY)$
+\end
+
+\define thisMakePostURL()
+http://ooktech.com/jed/externalbrain%23$(TITLE)$
+\end
+
+Post Title: <$edit-text class='tc-edit-texteditor' tiddler='$:/temp/NewBlogPost' field='new_post_title' placeholder='Post Title'/>
+
+Template: <$select tiddler='$:/templates/blog/BasicBlogPostTemplate' field='template'><$list filter='[tag[Blog Template]]'><option value=<<currentTiddler>>><$view field='caption'/></option></$list></$select>
+
+<$set name=SelectedTemplate value={{$:/templates/blog/BasicBlogPostTemplate!!template}}>
+
+<$transclude tiddler=<<thisGetCreationTemplate>>>
+
+</$transclude>
+
+Summary:
+<$edit-text class='tc-edit-texteditor' tiddler='$:/temp/NewBlogPost' field='summary' placeholder='Post Summary'/>
+
+</$set>
+
+Tags (it will always be tagged with `Blog Post` by default):<br>
+<$reveal type=match state='$:/state/New Blog Post!!add_or_create_tag' text='create'>
+New Tag: <$edit-text tiddler='$:/temp/New Blog Post' field='tag_temp' placeholder='New Tag'/>
+<$reveal type=nomatch state='$:/temp/New Blog Post!!tag_temp' text=''>
+<$button>Create Tag
+<$action-setfield $tiddler='$:/data/New Blog Post/Blog Post Tags' $index={{$:/temp/New Blog Post!!tag_temp}} $value=1/>
+<$action-setfield $tiddler='$:/temp/New Blog Post' $field='tag_temp' $value=''/>
+</$button>
+</$reveal>
+<$reveal type=match state='$:/temp/New Blog Post!!tag_temp' text=''>
+<$button>Create Tag</$button>
+</$reveal>
+<$button set='$:/state/New Blog Post!!add_or_create_tag' setTo='nocreate'>Done</$button><br>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/New Blog Post!!add_or_create_tag' text='create'>
+Tag to add: 
+<$set name=tagSearch value={{$:/temp/New Blog Post!!narrow_tag_select}}>
+<<thisTagSelect>>
+</$set>
+<$edit-text tiddler='$:/temp/New Blog Post' field='narrow_tag_select' placeholder='Narrow Tag List'/>
+<$fieldmangler tiddler='$:/templates/blog/BasicBlogPostTemplate'>
+<$button>
+<$action-setfield $tiddler='$:/temp/New Blog Post/NewBookmark' $field='dummy_field' value='1'/>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/state/New Blog Post!!selected_tag}}/>Add Tag
+</$button>(<$button set='$:/state/New Blog Post!!add_or_create_tag' setTo='create'>New Tag</$button>)
+</$fieldmangler>
+<br>
+</$reveal>
+List of current tags:<br>
+<$fieldmangler tiddler='$:/templates/blog/BasicBlogPostTemplate'>
+<$list filter='[[$:/templates/blog/BasicBlogPostTemplate]tags[]]-[[Blog Post]]-[[My Blog]]'><$view field='title'/> <$button>Remove Tag<$action-sendmessage $message='tm-remove-tag' $param=<<currentTiddler>>/></$button><br> </$list>
+</$fieldmangler>
+
+<$reveal type='nomatch' state='$:/temp/NewBlogPost!!new_post_title' text=''>
+<$list filter='[{$:/temp/NewBlogPost!!new_post_title}!has[text]]'>
+<$fieldmangler tiddler={{$:/temp/NewBlogPost!!new_post_title}}>
+<$set name=TITLE value={{$:/temp/NewBlogPost!!new_post_title}}>
+<$set name=SUMMARY value={{$:/temp/NewBlogPost!!summary}}>
+<$set name=URL value=<<thisMakePostURL>>>
+<$set name=TEXT value={{$:/temp/NewBlogPost}}>
+<$reveal type='nomatch' state='$:/temp/New Blog Post/type' text='Small Thing'>
+<$macrocall $name=twitterify-url text=<<thisMakeTweetSummary>> url=<<URL>>/>
+</$reveal>
+<$reveal type='match' state='$:/temp/New Blog Post/type' text='Small Thing'>
+<$macrocall $name=twitterify-url text=<<TEXT>> url=<<URL>> full=true/>
+</$reveal>
+</$set>
+</$set>
+</$set>
+</$set>
+<$button>Make Post
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='text' $value={{$:/temp/NewBlogPost}}/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='posted' $value=<<now>>/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='year' $value=<<now YYYY>>/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='month' $value=<<now MMM>>/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='day' $value=<<now DD>>/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='time' $value=<<now YYYY0MM0DD0hh0mm0ss>>/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='summary' $value={{$:/temp/NewBlogPost!!summary}}/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' image={{$:/temp/NewBlogPost!!image}} image_caption={{$:/temp/NewBlogPost!!image_caption}} link={{$:/temp/NewBlogPost!!link}} width={{$:/temp/NewBlogPost!!width}}/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' $field='title' $value={{$:/temp/NewBlogPost!!new_post_title}}/>
+<$action-setfield $tiddler='$:/temp/NewBlogPost' text='' new_post_title='' tags='' summary='' image='' image_caption='' link='' width='' tooltip=''/>
+<$action-setfield $tiddler='$:/templates/blog/BasicBlogPostTemplate' text='' posted='' tags=<<thisMakeTags>> summary='' month='' day='' year='' time='' image='' image_caption='' link='' width=''/>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/temp/New Blog Post/type!!text}}/>
+<$action-sendmessage $message='tm-save-wiki'/>
+</$button>
+</$fieldmangler>
+
+<$radio tiddler='$:/temp/New Blog Post/type' field='text' value='Normal Post'>Normal Post</$radio>
+
+<$radio tiddler='$:/temp/New Blog Post/type' field='text' value='Small Thing'>Small Thing</$radio>
+
+<$radio tiddler='$:/temp/New Blog Post/type' field='text' value='Image Post'>Image Post</$radio>
+</$list>
+
+<$list filter='[{$:/temp/NewBlogPost!!new_post_title}has[text]]'>
+''That title is already in use, pick a new title.''
+</$list>
+</$reveal>
+<$reveal type='match'  state='$:/temp/NewBlogPost!!new_post_title' text=''>
+''You need to give the post a title before you can post it.''
+</$reveal>
+
+<<tabs "[[Nothing]][[Preview Blog Post]][[Reference HTML]][[Cheat With HTML]]" "[[Nothing]]">>

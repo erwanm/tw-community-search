@@ -1,0 +1,11 @@
+title: $:/MathyThing (inmysocks)/FilterOperator: butfirst
+caption: butfirst
+created: 20140410103123179
+modified: 20140410103123179
+type: text/vnd.tiddlywiki
+original-tags: Filters
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: FilterOperator: butfirst
+source-tiddler-title-as-link: FilterOperator%3a%20butfirst
+
+The ''butfirst'' filter operator is a synonym for [[FilterOperator: rest]].

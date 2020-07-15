@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Date Macros (inmysocks)
+caption: Date Macros
+category: Macro
+created: 20150604180044182
+description: Adds macros that add some date functions
+follow: yes
+modified: 20151116091125269
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Date%20Macro%20Demos
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Macro
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Date Macros (inmysocks)
+source-tiddler-title-as-link: Date%20Macros%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

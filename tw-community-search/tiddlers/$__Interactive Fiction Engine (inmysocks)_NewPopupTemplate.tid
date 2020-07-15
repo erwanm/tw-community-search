@@ -1,0 +1,59 @@
+title: $:/Interactive Fiction Engine (inmysocks)/NewPopupTemplate
+created: 20141122222713403
+modified: 20141122231909011
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: NewPopupTemplate
+source-tiddler-title-as-link: NewPopupTemplate
+
+\define setPopupLocation()
+
+<$tiddler tiddler=$(popupTiddler)$>
+<$select tiddler=$(popupTiddler)$ field='location'>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Items'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Events'>
+<$list filter='[tag[Event]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$tiddler>
+
+\end
+
+<$set name='popupTiddler' value=PopupTemplate>
+
+Pop-up Name:<br>
+<$edit-text tiddler='popupNameTemp' field='name_temp' placeholder='Pop-up Name'/>
+<$button>
+<$action-setfield $tiddler={{popupNameTemp!!name_temp}} $field=location $value={{PopupTemplate!!location}}/>
+<$action-setfield $tiddler={{popupNameTemp!!name_temp}} $field=text $value={{PopupTemplate!!text}}/>
+<$action-setfield $tiddler={{popupNameTemp!!name_temp}} $field=subtitle $value={{PopupTemplate!!subtitle}}/>
+<$action-setfield $tiddler={{popupNameTemp!!name_temp}} $field=button_text $value={{PopupTemplate!!button_text}}/>
+<$action-setfield $tiddler={{popupNameTemp!!name_temp}} $field=tags $value='Popup'/>
+<$action-setfield $tiddler=PopupTemplate $field=text $value=''/>
+<$action-setfield $tiddler=PopupTemplate $field=location $value=''/>
+<$action-setfield $tiddler=PopupTemplate $field=subtitle $value=''/>
+<$action-setfield $tiddler=PopupTemplate $field=button_text $value=''/>
+<$action-setfield $tiddler='popupNameTemp' $field='name_temp' $value=''/>
+Create Popup</$button>
+
+<br>
+
+| | Pop-up Text | Location | Things in Pop-up |h
+| Button Text<br><$edit-text tiddler=<<popupTiddler>> field='button_text' placeholder='Button Text'/><br>Displayed Pop-up Title<br><$edit-text tiddler=<<popupTiddler>> field=subtitle placeholder='Displayed Title'/> | <$edit-text tiddler=<<popupTiddler>> placeholder='Pop-up Text'/> | <<setPopupLocation>> | Events:<br><$list filter='[tag[Event]location<popupTiddler>]'><$view field='title'/><br></$list><br>Triggers:<br><$list filter='[tag[Trigger]location<popupTiddler>]'><$view field='title'/><br></$list> |
+
+</$set>

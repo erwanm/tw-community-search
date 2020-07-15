@@ -1,0 +1,14 @@
+title: $:/MathyThing (inmysocks)/Releases
+created: 20131109105400007
+modified: 20141126153016142
+type: text/vnd.tiddlywiki
+original-tags: About
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: Releases
+source-tiddler-title-as-link: Releases
+
+Here are the details of recent releases of TiddlyWiki5. See [[TiddlyWiki5 Versioning]] for details of how releases are named.
+
+(BetaReleases and AlphaReleases are listed separately).
+
+<<tabs "[tag[ReleaseNotes]!sort[created]]" "Release 5.1.5" "$:/state/tab2" "tc-vertical" "ReleaseTemplate">>

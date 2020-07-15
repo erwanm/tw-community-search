@@ -17,6 +17,10 @@ short_description: An extendable calendar plugin
 title: twCard - Plugin - ExtendableCalendar
 wiki: http://bjtools.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: BJTools
+twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/Calendar
+twcs-description: calendar with date formatter addons
+twcs-author: JeffreyWilkinson
+twcs-version: 1.11.0
 
 {{||$:/CommunityPluginTemplate}}

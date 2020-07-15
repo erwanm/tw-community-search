@@ -1,0 +1,25 @@
+title: $:/External Brain (inmysocks)/Node on the raspberry pi works
+created: 20150203221158869
+day: 3
+image: 
+image_caption: 
+link: 
+modified: 20150518225421491
+modifier: inmysocks
+month: May
+number_of_comments: 1
+posted: 00:30, 3rd May 2015
+summary: and I can use it for tiddlywiki
+template: BlogDisplayTemplate1
+time: 20150503003044
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Node on the raspberry pi works
+source-tiddler-title-as-link: Node%20on%20the%20raspberry%20pi%20works
+
+There was some trouble because both the tiddlywiki server and the web interface for syncthing wanted to use port 8080. I changed the port that syncthing was listening on for the web interface, but then in just opened a broken version of it while the port I changed it to worked. So I ended up turning off the web interface before realizing that I could change the port node used for tiddlywiki. I should probably turn the syncthing web interface back on at some point.
+
+That is two projects more or less finished today. I can live with that. They were closely related and pretty small projects to start with, but they could end up being very useful.

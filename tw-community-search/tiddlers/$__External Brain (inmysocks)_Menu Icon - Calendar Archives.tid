@@ -1,0 +1,12 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Calendar Archives
+created: 20150227213955809
+left_menu_order: 90
+modified: 20150310225406888
+original-tags: [[Menu Icon]] $:/tags/TopLeftMenu
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Calendar Archives
+source-tiddler-title-as-link: Menu%20Icon%20-%20Calendar%20Archives
+
+@@.tc-icon-menu-icon-calendar
+<$button class='tc-btn-invisible' tooltip='Calendar Archives' to='Calendar Archives'><<fa 'fa-calendar'>></$button>
+@@

@@ -1,0 +1,11 @@
+title: $:/External Brain (inmysocks)/<Name Plate> Macro
+created: 20150203203739451
+modified: 20150203203846606
+original-tags: $:/tags/Macro
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: <Name Plate> Macro
+source-tiddler-title-as-link: %3cName%20Plate%3e%20Macro
+
+\define NamePlate()
+<$text text='<Name Plate>'/> 
+\end

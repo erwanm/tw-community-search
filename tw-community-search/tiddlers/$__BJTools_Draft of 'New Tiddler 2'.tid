@@ -1,0 +1,25 @@
+title: $:/BJTools/Draft of 'New Tiddler 2'
+created: 20160222114827166
+draft.of: New Tiddler 2
+draft.title: New Tiddler 2
+modified: 20160222123655277
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: BJTools
+source-tiddler-title-as-text: Draft of 'New Tiddler 2'
+source-tiddler-title-as-link: Draft%20of%20%27New%20Tiddler%202%27
+
+\define x(a) this $a$
+\define y(b) that $b$
+
+<<y a>>
+
+<<x b>>
+
+<<x """((x b))""">>
+<<x ((y """((hg)'''')"""))>>
+<<x ((y """((b)'''')""" ))>>
+<<y ((y x)) v>>
+
+<<y ((x {{west}} ))>>

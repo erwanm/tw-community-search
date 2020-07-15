@@ -1,0 +1,24 @@
+title: $:/Popout Menus Site (inmysocks)/Floating Menu
+created: 20150418024207893
+modified: 20150424050843342
+original-tags: [[Menu Icon]] $:/tags/TopMiddleMenu $:/tags/LeftMenu
+source-wiki-id: Popout Menus Site (inmysocks)
+source-tiddler-title-as-text: Floating Menu
+source-tiddler-title-as-link: Floating%20Menu
+
+<!--
+<$button class='tc-btn-invisible' popup="$:/state/floatingmenuicon" tooltip='Floating menu demo'>{{$:/core/images/chevron-right}}</$button>
+<$reveal type="popup" state="$:/state/floatingmenuicon">
+
+<div style='background:white;border:solid;border-color:lightgrey;border-width:1px;position:relative;left:30px;top:-45px;width:500px'>
+<$scrollable style='tc-scrollable-demo'>
+<div class='tc-popup-keep' style='height:500px;background:white;'>
+<<MakeMenu "Top Level" "Floating Menu">>
+</div>
+</$scrollable>
+</div>
+
+</$reveal>
+-->
+
+<<PopoutMenu "{{$:/core/images/chevron-right}}" "FloatingMenuPopout" "Menu Mk. 3">>

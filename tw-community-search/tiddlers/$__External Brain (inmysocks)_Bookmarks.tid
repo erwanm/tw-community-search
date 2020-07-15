@@ -1,0 +1,22 @@
+title: $:/External Brain (inmysocks)/Bookmarks
+blurb:  Bookmarks
+created: 20150108180151488
+creator: inmysocks
+list-after: My Blog
+modified: 20150205044426743
+modifier: inmysocks
+original-tags: Dashboard
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Bookmarks
+source-tiddler-title-as-link: Bookmarks
+
+<$reveal type='match' state='$:/state/reveal/Bookmarks/AddBookmark' text='show'>
+<$button set='$:/state/reveal/Bookmarks/AddBookmark' setTo='hide'>Done</$button><br>
+
+<$transclude tiddler='Add Bookmark'/>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/reveal/Bookmarks/AddBookmark' text='show'>
+<$button set='$:/state/reveal/Bookmarks/AddBookmark' setTo='show'>New Bookmark</$button>
+</$reveal>
+
+<<tabs "[[Bookmarks List]][[Bookmarks by Tags]][[Bookmarks Settings]]">>

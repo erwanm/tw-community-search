@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Sidebar Tab Buttons
+created: 20150603171812808
+css_tiddler: .tc-sidebar-lists .tc-tab-buttons button Class Override
+description: Applieis to all tabs, the selected tab can be modified in 'Selected Tab in the Sidebar'
+modified: 20150603171812808
+original-tags: [[Advanced Settings Category]] Sidebar
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Sidebar Tab Buttons
+source-tiddler-title-as-link: Sidebar%20Tab%20Buttons
+
+{{Sidebar Tab Buttons||CSS Options Template}}

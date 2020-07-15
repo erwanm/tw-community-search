@@ -1,0 +1,21 @@
+title: $:/Tiddler Gallery (inmysocks)/next Operator
+caption: next
+created: 20140410103123179
+modified: 20150124171754000
+purpose: find which titles in a <<.field list>> field follow the input ones
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Field Operators]] [[Order Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: next Operator
+source-tiddler-title-as-link: next%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="a tiddler title"
+paramName="t"
+output="a selection containing each title that immediately follows each of the input titles in the <<.field list>> field of <<.place t>>"
+/>
+
+Each input title is processed in turn, and its successor is located in the <<.field list>> field and appended to the output. If a title is not listed in the field, or is the last title there, then it contributes nothing to the output.
+
+<<.operator-examples "next">>

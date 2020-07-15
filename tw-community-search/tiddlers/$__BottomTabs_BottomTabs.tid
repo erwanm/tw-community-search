@@ -1,0 +1,59 @@
+title: $:/BottomTabs/BottomTabs
+created: 20141215104635693
+creator: Alberto Molina Pérez
+modified: 20200709085657478
+modifier: Alberto Molina Pérez
+original-tags: $:/action/show/modifier
+source-wiki-id: BottomTabs
+source-tiddler-title-as-text: BottomTabs
+source-tiddler-title-as-link: BottomTabs
+
+!Description
+
+<div class="box yellow">
+
+BottomTabs is a set of plugins to enhance the TiddlyWiki experience with the following main features:
+
+* A TabsBar at the bottom of every tiddler where you can see and create related tiddlers like comments, notes, etc.
+* [[Meaningful links]] between tiddlers.
+* [[Forms]] to create custom new tiddlers.
+* Tweaks in the "appearance tab" of the [[ControlPanel|$:/ControlPanel]]
+
+</div>
+
+!Demos
+
+<div class="box red">
+
+A notebook for academic readings: http://wikiphilo.tiddlyspot.com
+
+An notebook for teaching: http://primitivo.tiddlyspot.com
+
+[[William Shakespeare]]
+
+</div>
+
+!Plugins
+
+<div class="box">
+
+!!Basic
+*''<$view tiddler="$:/plugins/amp/BT/common" field="description"/>'': //This is the basic plugin, containing the tabsbar and other common tools. It is necesary for the extra plugins to work.//
+*:[[$:/plugins/amp/BT/common]] (version {{$:/plugins/amp/BT/common!!version}})
+
+!!Extras
+
+*''<$view tiddler="$:/plugins/amp/BT/reading" field="description"/>'': //Tabs and tools for taking notes about readings. You can easily create tiddlers for authors, books and papers, chapters, quotes, notes and ideas.//
+*:[[$:/plugins/amp/BT/reading]] (version {{$:/plugins/amp/BT/reading!!version}})
+:
+
+*''<$view tiddler="$:/plugins/amp/BT/teaching" field="description"/>'': //Tabs and tools to manage students, courses, ressources.//
+*:[[$:/plugins/amp/BT/teaching]] (version {{$:/plugins/amp/BT/teaching!!version}})
+
+!!Dependencies
+:The BottomTabs plugin uses [ext[Font-Awesome icons|http://fortawesome.github.io/Font-Awesome/]] to display its icons and other images. While its not absolutely necesary, it is strongly recommended to install the font-awesome plugin from [ext[TheDiveO|http://thediveo.github.io/TW5FontAwesome/]]:
+::[[$:/plugins/TheDiveO/FontAwesome/fonts/FontAwesome]]
+
+</div>
+
+[[MIT License]]

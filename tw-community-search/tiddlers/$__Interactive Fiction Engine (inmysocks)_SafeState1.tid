@@ -1,0 +1,12 @@
+title: $:/Interactive Fiction Engine (inmysocks)/SafeState1
+event_name: SafeState
+event_order: first
+location: Safe
+modified: 20141129045059007
+trigger: TestSafeTrigger
+original-tags: Event
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: SafeState1
+source-tiddler-title-as-link: SafeState1
+
+The safe is locked

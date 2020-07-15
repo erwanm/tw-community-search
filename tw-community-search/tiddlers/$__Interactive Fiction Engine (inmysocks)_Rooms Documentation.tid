@@ -1,0 +1,27 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Rooms Documentation
+created: 20141129022436255
+modified: 20141129023726218
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Rooms Documentation
+source-tiddler-title-as-link: Rooms%20Documentation
+
+Rooms are the building blocks of the game. The player navigates between rooms to move around in the game. A room has a description (text or WikiText) and a list of exits. Exits have both a direction (north, south, east, west, up or down) and a destination. The destination of each exit can be any other room.
+
+!Creating a new room
+To make a room select the `Rooms` option as the `Type to edit` in the editing screen and make sure that the drop down menu directly below the `Type to edit` selection is set to `Create New Room`.
+Give the room a descriptive name (this won't be visible while playing, it is just to identify the room while editing the game.) and type the room description into the text box. The description can be normal text or wikitext. (See www.tiddlywiki.com for more about WikiText).
+
+The preview column of the screen will show the room description the way it will be displayed during the game. 
+
+To add exits to the room click on the check box next to the direction you want the exit to be in (North, South, East, West, Up or Down) and for each exit you check select the destination room. If this is the first room you are making than you won't have any options for destination rooms, this is ok, create more rooms and then edit this room to add the destinations.
+
+The far right column will list any events, items, containers, etc. present in the room. If you are making a new room nothing will be listed.
+
+Once you have given the room a description and any exits you want click the `create room` button by the text box where you entered the room name. This will create the room. Look below to see how to edit existing rooms.
+
+!Editing an existing room
+Change the drop down menu to `Edit existing room` and use the smaller selection menu to pick the room you wish to edit.
+All edits take place immediately, and aside from changing the name of the room everything works the same as for creating a new room. I have not yet added anything to allow you to change the name of rooms you have already created.
+
+Note that if you use anything other than room1, room2, ..., room25 set up in a square grid than the map will not be useful. I will hopefully fix this later.

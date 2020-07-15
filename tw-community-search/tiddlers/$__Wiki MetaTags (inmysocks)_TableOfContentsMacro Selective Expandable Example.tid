@@ -1,0 +1,14 @@
+title: $:/Wiki MetaTags (inmysocks)/TableOfContentsMacro Selective Expandable Example
+caption: Selective Expandable
+original-tags: table-of-contents-example
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: TableOfContentsMacro Selective Expandable Example
+source-tiddler-title-as-link: TableOfContentsMacro%20Selective%20Expandable%20Example
+
+!! Selective Expandable Table of Contents
+
+<$macrocall $name='wikitext-example-without-html'
+src='<div class="tc-table-of-contents">
+<<toc-selective-expandable "Contents">>
+</div>
+'/>

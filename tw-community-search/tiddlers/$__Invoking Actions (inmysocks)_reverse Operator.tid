@@ -1,0 +1,18 @@
+title: $:/Invoking Actions (inmysocks)/reverse Operator
+caption: reverse
+created: 20140410103123179
+modified: 20150124205130000
+purpose: reverse the order of the input titles
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: reverse Operator
+source-tiddler-title-as-link: reverse%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="none"
+output="the input, in reverse order"
+/>
+
+<<.operator-examples "reverse">>

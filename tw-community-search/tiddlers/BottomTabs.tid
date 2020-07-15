@@ -5,6 +5,10 @@ tags: CommunityWikis
 title: BottomTabs
 type: text/vnd.tiddlywiki
 wiki-address: http://bottomtabs.tiddlyspot.com/
+wiki-tw-version: 5.1.7
+wiki-latest-modification: 20200709085719327
+wiki-nb-tiddlers: 18
 
+a set of plugins to enhance the ~TiddlyWiki experience
 
 {{||$:/CommunityWikiPresentationTemplate}}

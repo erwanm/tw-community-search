@@ -1,0 +1,16 @@
+title: $:/External Brain (inmysocks)/GitHub (inmysocks)
+caption: My GitHub page
+created: 20150204223037675
+description: Not much else to say here.
+modified: 20150205051850948
+name_plate_type: GitHub
+url: https://github.com/inmysocks
+original-tags: [[<Name Plate>]] [[Jed Carty (inmysocks)]] Website
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: GitHub (inmysocks)
+source-tiddler-title-as-link: GitHub%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

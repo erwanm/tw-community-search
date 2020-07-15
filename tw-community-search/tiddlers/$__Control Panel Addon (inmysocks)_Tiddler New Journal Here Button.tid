@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler New Journal Here Button
+created: 20150603202446274
+css_tiddler: button.tc-btn-invisible svg.tc-image-new-journal-button.tc-image-button Class Override
+description: Applies to the new journal here button
+modified: 20150603202518569
+original-tags: [[Advanced Settings Category]] [[Toolbar Icons]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler New Journal Here Button
+source-tiddler-title-as-link: Tiddler%20New%20Journal%20Here%20Button
+
+{{Tiddler New Journal Here Button||CSS Options Template}}

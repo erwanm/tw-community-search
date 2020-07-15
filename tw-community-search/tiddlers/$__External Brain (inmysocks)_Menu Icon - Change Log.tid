@@ -1,0 +1,12 @@
+title: $:/External Brain (inmysocks)/Menu Icon - Change Log
+created: 20150310224539521
+left_menu_order: 7
+modified: 20150310231701560
+original-tags: [[Menu Icon]] $:/tags/LeftMenu
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Menu Icon - Change Log
+source-tiddler-title-as-link: Menu%20Icon%20-%20Change%20Log
+
+<$button class='left-menu-text tc-btn-invisible'>Change Log
+<$action-navigate $to='Change Log'/>
+</$button>

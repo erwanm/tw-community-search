@@ -1,0 +1,10 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Permaview Button
+css_tiddler: button.tc-btn-invisible svg.tc-image-permaview-button.tc-image-button Class Override
+description: Applies to the tiddler permaview button
+modified: 20150603201311932
+original-tags: [[Advanced Settings Category]] [[Toolbar Icons]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Permaview Button
+source-tiddler-title-as-link: Tiddler%20Permaview%20Button
+
+{{Tiddler Permaview Button||CSS Options Template}}

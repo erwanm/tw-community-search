@@ -1,0 +1,37 @@
+title: $:/External Brain (inmysocks)/Surveillance sold as security
+created: 20150203221158869
+day: 9
+image: 
+image_caption: 
+link: 
+modified: 20150518212428005
+modifier: inmysocks
+month: May
+number_of_comments: 0
+posted: 22:13, 9th May 2015
+summary: I don't think I can summarize this one well see the
+template: BlogDisplayTemplate1
+time: 20150509221327
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Surveillance sold as security
+source-tiddler-title-as-link: Surveillance%20sold%20as%20security
+
+I haven't decided if I am going to allow myself to use too much profanity here, otherwise there would be a lot more of it in the title.
+
+The news in the US has been depressing enough that I haven't spent much time following other places. Let's consider the news story [[Pentagon Considers Turning Cell Phones Into Walkie-Talkies During Emergencies|http://www.nationaljournal.com/defense/pentagon-terrorism-threat-cellphones-walkie-talkies-20150508]]. With that headline it doesn't seem like it would be a problem at all. It sounds neat. In fact it could be a wonderful idea that allows communication during emergency situations when existing infrastructure isn't up to the task. Which in theory is all true. And if the first two words were missing I would be excited about it. That is exactly the sort of thing I am studying and trying to create.
+
+An emergency broadcast system is great. The government sends you a text saying that something has happened, and then uses your phone to transmit the message on to other phones within range. But in order to do this, the Pentagon has to have control over your phone. To use cell phones as an effective emergency broadcast system the government has to prevent you from using your phone for other purposes. The stated use for this would apply to a very narrow range of situations and be beneficial to everyone involved. But, as we have learned from the NSA (and the TSA, and the CIA, and the FBI, and the....) an organization that has access to a system that can gather large amounts of data on people will use that system, often in illegal ways.
+
+At its simplest, this system would involve some mechanism by which the government could send a command to your phone over something other than the cell network, removing even that tiny bit of a check (not that getting the cooperation of the providers actually means anything, but it would at least be an extra step), this message would cause your phone to deliver some message to you, and then make the phone send on the same command and message to any other phones in range. If it stopped there than it wouldn't be too terrible a thing. But for safety reasons, such as times when evacuation is required, it would be completely reasonable to also make the phone send a message back to wherever the message originated with information like your location. That may not be too terrible in disaster situations, anonymous tracking information on practically every person in the US could save many lives. But then this system would unavoidably have security flaws, and as these flaws are found updates would need to be pushed out to fix them. In a mesh network any node can access the network, and in order for the network to reach everyone all of the nodes along the way have to work. Opting out of these updates would cause the network to become disconnected which would compromise security in a disaster situation, so you can't opt out.
+
+All of this means that, for the basic network functions, some government agency would have to have the ability to, without your consent (possibly without your knowledge), control and modify your phone to force it to send and receive information you have no control over. Even without explicitly adding anything to allow for monitoring through the cell phones they have the ability to take full control of your phone for whatever they want. As has been demonstrated by various parts of the US government, this type of ability will be abused. In the name of national security of course. Just like the TSA exists for safety, not solely for the purpose of finding excuses for the TSA to continue existing.
+
+Now, one thing that makes me so angry about this is that the same sort of technology, that is distributed mesh networks, could be used to prevent this sort of surveillance from being possible. At the most secure end of things you would have the equivalent of the TOR network using mobile phones as nodes. In a more generally useful situation you would just have a distributed mesh network where phones or wifi access points or whatever is available is used as a relay in a network that doesn't require controllers past the users in the network. In this situation there is no way for a central authority (or anyone really) to perform any sort of mass surveillance without controlling a large portion of the nodes in the network. So if someone wanted to take down the network they would have to take down every node. Using this same technology the government is planning on making something that does precisely the opposite. They could just remotely disable your phone for one of their updates.
+
+I think that the solution to this is to get there first and design and start implementing a distributed mesh network independent of them. It would have to be made so that it could work with existing networks, but not so that it relies on them. The technology for this exists, and with some of the newer hardware available it could probably be done relatively cheaply. If there is a demand than the cost would drop quickly. We can have a network that is secure and not subject to any central authority. My biggest fear about it is that it will require just a little more effort or knowledge than the alternatives so no one will use it and we will all be carrying around the telescreens in our pockets instead of having them stuck in our living rooms.
+
+I find it hard to feel like I am being alarmist or pessimistic when the NSA is explicitly trying to do this. The government stated that they want total information awareness, it shouldn't be surprising that they are taking steps to achieve that goal.

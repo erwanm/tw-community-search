@@ -1,0 +1,19 @@
+title: $:/CopyPlugin/Introduction
+created: 20150805131426259
+creator: Andrew
+modified: 20170905043621580
+modifier: Andrew
+original-tags: 
+source-wiki-id: CopyPlugin
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+&emsp;&emsp;This plugin button will copy the contents of a tiddler and rich text format (i.e., you can paste results into a WYSIWYG editor). It can be called by transcluding a tiddler and using the `$:/copy` template as such: `{{Tiddler title to transclude||$:/copy}}`. For example, I create a tiddler titled [[Tiddlywiki]] and in the text area put what is to be copied to the clipboard when the button is pressed. The example has a link to the Tiddlywiki web site. Then transclude it using the template as such: `{{Tiddlywiki||$:/copy}}` and it displays as {{Tiddlywiki||$:/copy}}. This is fundamentally different from other methods, as the browser is actually visibly selecting the content.<br>
+&emsp;&emsp;Simply drag $:/plugins/ajh/copy to the top of your tiddlywiki display, save and reload. It includes the tiddlers below packed for easy use:<br>
+[[$:/copy]]<br>
+[[$:/language/Buttons/Copy/Caption]]<br>
+[[$:/language/Buttons/Copy/Hint]]<br>
+[[$:/language/Buttons/Copy/Notification]]<br>
+[[$:/plugins/ajh/copy/copy.js]]<br>
+[[$:/plugins/ajh/copy/icon]]<br>
+[[$:/plugins/ajh/copy/stylesheet]]

@@ -1,0 +1,34 @@
+title: $:/Backwall/BackWallMacro
+created: 20160413154924103
+creator: twMat
+modified: 20160414110903154
+modifier: twMat
+original-tags: $:/tags/PageTemplate
+source-wiki-id: Backwall
+source-tiddler-title-as-text: BackWallMacro
+source-tiddler-title-as-link: BackWallMacro
+
+\define backwall()
+<style>
+.tc-tagged-$(tid)$ {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background:url(<$macrocall $name="datauri" title="$(tid)$" $output="text/plain"/>)
+                     no-repeat left top fixed;
+  height:100vh;
+  background-size: contain;
+}
+.tc-tagged-$(tid)$ .tc-tiddler-body {
+  max-height:75vh;overflow-y:auto;
+}
+.tc-tagged-$(tid)$ .tc-tiddler-body p {
+color:crimson;
+background:lightgray;
+}
+</style>
+\end
+
+<$list filter="[tag[backwall]]" variable="tid">
+<<backwall>>
+</$list>

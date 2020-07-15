@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Category List Plugin (inmysocks)
+caption: Category List
+category: Plugin
+created: 20150604170308781
+description: A searchable list divided by categories
+follow: yes
+modified: 20151116091125267
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Category%20Lists%20Plugin
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Category List Plugin (inmysocks)
+source-tiddler-title-as-link: Category%20List%20Plugin%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

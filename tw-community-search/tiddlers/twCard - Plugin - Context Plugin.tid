@@ -17,6 +17,10 @@ short_description: Search text in a tiddler with some context
 title: twCard - Plugin - Context Plugin
 wiki: http://contextplugin.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: Context Plugin
+twcs-extracted-plugin-tiddler: $:/Context Plugin/$:/plugins/danielo515/ContextPlugin
+twcs-description: Context search - provides visual highlight of search results
+twcs-author: Danielo Rodrigez
+twcs-version: 2.1.0
 
 {{||$:/CommunityPluginTemplate}}
