@@ -3,11 +3,11 @@ author: TheDiveO
 core-version: >=5.1.0
 created: 20140901105647564
 description: FontAwesome embedded font support for TW5
-fa-version: 5.13.1
+fa-version: 5.14.0
 list: readme license history
-modified: 20200711175503067
+modified: 20200718121759718
 source: https://github.com/TheDiveO/TW5FontAwesome
-version: 1.2.20
+version: 1.2.21
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/TheDiveO/FontAwesome
