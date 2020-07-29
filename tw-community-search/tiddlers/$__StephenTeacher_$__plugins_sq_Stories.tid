@@ -1,0 +1,15 @@
+title: $:/StephenTeacher/$:/plugins/sq/Stories
+core-version: >=5.0.0
+created: 20200425180916159
+dependents: 
+description: Stories - Add a second column to a TiddlyWiki layout using the default layout
+list: settings
+modified: 20200521145818675
+version: 0.90
+original-tags: $:/giffmex/stroll
+source-wiki-id: StephenTeacher
+source-tiddler-title-as-text: $:/plugins/sq/Stories
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsq%2fStories
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -4,7 +4,7 @@ dependents:
 description: Mobile drag and drop shim
 list: readme license
 name: Mobile Drag Drop
-version: 5.1.22
+version: 5.1.23-prerelease
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/mobiledragdrop

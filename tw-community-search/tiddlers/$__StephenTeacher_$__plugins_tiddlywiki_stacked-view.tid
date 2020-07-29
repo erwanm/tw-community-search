@@ -3,7 +3,7 @@ dependents:
 description: Stacked card storyview
 list: readme
 name: Stacked View
-version: 5.1.22
+version: 5.1.23-prerelease
 original-tags: 
 source-wiki-id: StephenTeacher
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/stacked-view
