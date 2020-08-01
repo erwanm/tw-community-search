@@ -17,10 +17,6 @@ short_description: Automatically tag tiddlers based on content
 title: twCard - Plugin - autotag
 wiki: http://danielorodriguez.com/TW5-AutoTag/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: AutoTag
-twcs-extracted-plugin-tiddler: $:/AutoTag/$:/plugins/danielo515/autotag
-twcs-description: double click to edit tiddlers
-twcs-author: Danielo Rodriguez
-twcs-version: 0.1.9
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}
