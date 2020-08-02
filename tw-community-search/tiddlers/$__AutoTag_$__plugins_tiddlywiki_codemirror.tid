@@ -1,0 +1,14 @@
+title: $:/AutoTag/$:/plugins/tiddlywiki/codemirror
+author: JeremyRuston
+dependents: 
+description: CodeMirror: text editor
+list: readme usage
+revision: 0
+version: 5.1.8
+original-tags: 
+source-wiki-id: AutoTag
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fcodemirror
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
