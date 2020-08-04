@@ -1,6 +1,6 @@
 title: $:/SideEditor/About
 created: 20200707151358517
-modified: 20200707162741811
+modified: 20200803203712713
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: About
@@ -8,23 +8,26 @@ source-tiddler-title-as-link: About
 
 [[SideEditor|$:/plugins/TWaddle/SideEditor]] floats a tiddlers editor by the story river side.
 
-Thus you see the changes //live// in the tiddler and you can scroll to, and reference, stuff from other tiddlers while you edit.
+You see the changes //live// in the tiddler and you can scroll to, and reference, stuff from other tiddlers while you edit.
 
-;Usage
-*''Activate'' it via the tiddler tool button <span class="about-icon">{{$:/core/images/right-arrow}}</span>
-*''Re-size'' it via the "handle bars" at upper-right and lower-left corner.
-*''Switch focus'' between //Sidebar, River// and //SideEditor// by ''hovering''.
+''Usage''
 
-;Note!
-:Specifically [[macros|A macro]] are not //live// updated. Instead the changes take effect when<br> the SideEditor <span class="about-icon">{{$:/core/images/done-button}}</span> is clicked to close the editor.
+*''Activate'' SideEditor by clicking the tiddler tool <span class="about-icon">{{$:/core/images/right-arrow}}</span> or page tool <span class="about-icon">{{$:/plugins/TWaddle/SideEditor/new-icon}}</span>
+*''Re-size'' it via the "handle bars" at upper-right and lower-left corner
+*''Switch focus'' between //Sidebar, River// and //SideEditor// by ''hovering''
 
-''Installation'' - grab, drag and drop the link $:/plugins/TWaddle/SideEditor into your TW.
+''Split-out window'' &nbsp; <span class="about-icon">{{$:/core/images/open-window}}</span>
+
+*''Distraction free'' authoring by maximizing the window (@@color:crimson;font-style:italic;Do test it!@@)
+*''Stick'' window by using 3'd party software ([[e.g|https://tinyurl.com/y45fk4o8]]) to easily collect data from other applications and tabs
+
+''Installation'' - drag and drop the link $:/plugins/TWaddle/SideEditor into your TW.
 
 //Mat von TWaddle// <:-)
 
 <div class="about-demo">''Demo''  ⟶<br>//mess it up!//</div>
 
 <style>
-.about-demo {position:absolute; top:6em; right:5em; color:crimson}
-.about-icon svg { display:inline; max-width:1em; max-height:1em; fill:gray}
+.about-demo { position:absolute; top:6em; right:5em; color:crimson; }
+.about-icon svg { display:inline; max-width:1em; max-height:1em; fill:gray; }
 </style>

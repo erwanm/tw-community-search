@@ -3,8 +3,10 @@ author: Mat von TWaddle
 created: 20200716000516863
 description: A live editor floating by the river side...
 list: readme
-modified: 20200716002201711
-version: 2.1.0
+modified: 20200803173340474
+name: SideEditor
+source: http://sideeditor.tiddlyspot.com/
+version: 3.0.9
 original-tags: 
 source-wiki-id: SideEditor
 source-tiddler-title-as-text: $:/plugins/TWaddle/SideEditor
