@@ -7,7 +7,7 @@ source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Hidden Setting: Disable Drag and Drop
 source-tiddler-title-as-link: Hidden%20Setting%3a%20Disable%20Drag%20and%20Drop
 
-To disable all the drag and drop operations that are built into the core, set the following tiddler to "no":
+<.from-version "5.1.22">> To disable all the drag and drop operations that are built into the core, set the following tiddler to "no":
 
 $:/config/DragAndDrop/Enable
 
