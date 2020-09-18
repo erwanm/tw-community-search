@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/sukima/babel-polyfill'
-name: unknown
-plugin_tiddler: $:/plugins/sukima/babel-polyfill
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
