@@ -1,0 +1,25 @@
+title: $:/TW5NewTaskHere/ToDo
+created: 20170201113035842
+creator: HC Haase
+modified: 20170201113038721
+modifier: HC Haase
+original-tags: 
+source-wiki-id: TW5NewTaskHere
+source-tiddler-title-as-text: ToDo
+source-tiddler-title-as-link: ToDo
+
+!! Outstanding tasks
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>
+
+!! Completed tasks
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>
