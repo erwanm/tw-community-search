@@ -1,7 +1,7 @@
 title: Tag: Foo
 tags: CommunityTags
 community-tag: Foo
-community-tag-count: 5
-community-wikis: [[plugins]] [[pv5]] [[tagfilter]]
+community-tag-count: 3
+community-wikis: [[plugins]] [[pv5]]
 
 {{||$:/CommunityTagTemplate}}
