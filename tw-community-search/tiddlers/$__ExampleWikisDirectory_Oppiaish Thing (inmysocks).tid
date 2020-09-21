@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Oppiaish Thing (inmysocks)
+caption: Oppiaish Thing
+category: Website
+created: 20150604162722492
+description: A quick demo of an Oppia clone in TiddlyWiki
+follow: yes
+modified: 20151116091125270
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/Oppiaish%20Thing/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-link: Oppiaish%20Thing%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

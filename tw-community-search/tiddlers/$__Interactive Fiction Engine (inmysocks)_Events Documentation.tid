@@ -1,0 +1,40 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Events Documentation
+created: 20141129024553311
+modified: 20141129030620419
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Events Documentation
+source-tiddler-title-as-link: Events%20Documentation
+
+Changes in the game world are driven by Events controlled by Triggers. An event is a description or bit of WikiText that is conditionally displayed based on the state of the designated trigger.
+
+An event has two states, the initial state and the final state. An event, depending on the trigger used, may be permanently set to the final state when triggered or it can switch between the two states.
+
+When you create an event called `EventName` it will have two states, the initial state will be called `EventName1` and the final state will be called `EventName2`.
+
+The trigger for both the initial and final states MUST be set to the same trigger. Current limits on TiddlyWiki mean you have to set them individually, but they must be the same trigger in order for the game to work.
+
+An event can be placed into everything other than the introduction message and triggers. An example of how you would use an event is to have a coded message that you can decode by reading a book.
+
+To achieve this you could:
+
+#Create an item called `Code Book` and give it a description
+#Create a trigger called `Read Code Book` with type `button`, duration `permanent`, Button Text `Read Book` and location `Code Book`
+#Create an item called `Coded Message`, give it a location and leave the description blank.
+#Create an event called `Inner Coded Message` and for both states give the same description of the coded message.
+#Set the trigger for `Inner Coded Message` to `Read Code Book`
+#Create a trigger called `DecodeCodedMessage` with type `button`, duration `permanent` and button text `Decode Message`, place this trigger in `Inner Coded Message2`
+#Create an event called `Outer Coded Message` and leave the initial state blank, put the description of the decoded message into the final state. Set the trigger to `DecodeCodedMessage`.
+#Set the location of both the initial and final state of `Outer Coded Message` to `Coded Message`
+#Set the location of both the initial and final state of `Inner Coded Message` to `Outer Coded Message1`
+
+Then, the sequence of events to decode the message in the game would be:
+
+#Pick up the coded message and the code book
+#view the code book item and click on `Read Book`
+#view the coded message item and click `Decode Message`
+Then the message will be decoded.
+
+Events can be nested inside other events to create more complex interactions. For example to make the `Read Book` not appear after you have read the book once you would create an event with blank states and put both states inside the code book, then place the `Read Code Book` trigger in the initial state of the event, and set the event trigger to `Read Code Book`. This would make the button only appear when the trigger `Read Code Book` was inactive.
+
+Any number of events can use the same trigger.

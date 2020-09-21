@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Citations Manager (inmysocks)
+caption: Citations Manager
+category: Plugin
+created: 20150604164649851
+description: A plugin for sorting and managing citations
+follow: yes
+modified: 20151116091125268
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Citations%20Plugin
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Citations Manager (inmysocks)
+source-tiddler-title-as-link: Citations%20Manager%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

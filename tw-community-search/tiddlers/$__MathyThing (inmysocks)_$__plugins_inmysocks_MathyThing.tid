@@ -1,0 +1,14 @@
+title: $:/MathyThing (inmysocks)/$:/plugins/inmysocks/MathyThing
+author: inmysocks
+core-version: >=5.0.8
+dependents: 
+description: Some basic math operations for TiddlyWiki
+source: https://github.com/inmysocks/TW5-MathyThing
+version: 0.0.15
+original-tags: 
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/MathyThing
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fMathyThing
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

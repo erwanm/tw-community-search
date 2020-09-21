@@ -1,0 +1,82 @@
+title: $:/Tiddler Gallery (inmysocks)/Variables in WikiText
+caption: Variables
+created: 20141002141231992
+modified: 20150117152625000
+type: text/vnd.tiddlywiki
+original-tags: WikiText
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: Variables in WikiText
+source-tiddler-title-as-link: Variables%20in%20WikiText
+
+\define tags() {{!!tags}}
+
+[[Variables]] contain values. They are available within the scope of the [[widget|Widgets]] in which they are defined, as well as all child widgets in the widget tree.
+
+!!Defining Variables
+
+Variables are defined by...
+
+; [[Macros|Macros in WikiText]]
+: in fact, variables are macro shorthands (see example below)
+; SetWidget
+: sets a variable to a value
+; ListWidget
+: sets list-item and iterator variabes
+; TiddlyWiki
+: in the core and core templates
+
+!!Using Variables
+
+Variables are used...
+
+; via shorthand
+:`<<variableName>>`
+; via variable substitution within [[macros|Macros]]
+:`$(variableName)$`
+; as parameters to [[filter steps|Filters]]
+: `[operator<variableName>]`
+; in [[widgets|Widgets]]
+: internally, or as widget attributes
+: `<$edit tiddler=<<currentTiddler>>/>`
+
+!! Examples
+
+''defining a variable via SetWidget''
+
+```
+<$set name=foo value=bar>
+<<foo>>
+</$set>
+```
+
+<<<
+<$set name=foo value=bar>
+<<foo>>
+</$set>
+<<<
+
+''a variable is a macro''
+
+Below, the `\define` pragma at the beginning of a tiddler [[defines the macro|Macros in WikiText]] `<<tags>>`, valid in the scope of the CurrentTiddler, returning the value of the standard `tags` field.
+
+```
+\define tags() {{!!tags}}
+
+<<tags>>
+```
+
+<<<
+<<tags>>
+<<<
+
+''using a filter variable to get all incoming links''
+
+Using the <<olink backlinks>> [[filter operator|Filter Operators]] to get all tiddlers linking to this one...
+
+```
+<<list-links filter:"[<currentTiddler>backlinks[]]">>
+```
+
+<<<
+<<list-links filter:"[<currentTiddler>backlinks[]]">>
+<<<

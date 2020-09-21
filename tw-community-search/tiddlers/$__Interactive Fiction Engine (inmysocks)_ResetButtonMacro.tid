@@ -1,0 +1,21 @@
+title: $:/Interactive Fiction Engine (inmysocks)/ResetButtonMacro
+created: 20141129053342521
+modified: 20141129055643030
+original-tags: $:/tags/Macro
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: ResetButtonMacro
+source-tiddler-title-as-link: ResetButtonMacro
+
+\define resetButtonTasks()
+<$action-setfield $tiddler=MapState $field=text $value=room1/>
+<$action-setfield $tiddler='Note Written in Code' $field=location  $value=room7/>
+<$action-setfield $tiddler='A few dollars in change' $field=location $value='Couch Cushions'/>
+<$action-setfield $tiddler='Plain Key' $field=location $value=SafeState2/>
+<$action-setfield $tiddler='Dictionary' $field=location $value='Your Bookshelf'/>
+<$action-setfield $tiddler='Note' $field=location $value=room1/>
+<$action-setfield $tiddler='Priceless Vase' $field=location $value=room1/>
+<$action-setfield $tiddler=DictionaryReadTrigger $field=text $value=inactive/>
+<$action-setfield $tiddler=Safe $field=tumbler1 $value=0/>
+<$action-setfield $tiddler=Safe $field=tumbler2 $value=0/>
+<$action-setfield $tiddler=Safe $field=tumbler3 $value=0/>
+\end

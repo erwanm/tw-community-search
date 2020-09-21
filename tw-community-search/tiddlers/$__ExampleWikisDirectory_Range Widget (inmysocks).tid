@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Range Widget (inmysocks)
+caption: Range Widget
+category: Plugin
+created: 20150604170837679
+description: A plugin that adds a html range input as a widget
+follow: yes
+modified: 20151116091125271
+name_plate_type: TiddlyWiki
+type: 
+url: http://inmysocks.tiddlyspot.com/#Range%20Widget%20Plugin
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Plugin
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Range Widget (inmysocks)
+source-tiddler-title-as-link: Range%20Widget%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

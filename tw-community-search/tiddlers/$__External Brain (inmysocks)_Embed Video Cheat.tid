@@ -1,0 +1,81 @@
+title: $:/External Brain (inmysocks)/Embed Video Cheat
+created: 20150226180214590
+modified: 20150303012418390
+original-tags: [[Cheat With HTML]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Embed Video Cheat
+source-tiddler-title-as-link: Embed%20Video%20Cheat
+
+\define thisMakeEmbeddedVideoFixedDimensions()
+
+```
+<iframe width='$(VideoWidth)$' height='$(VideoHeight)$' src='http://www.youtube.com/embed/$(VideoID)$?rel=0' frameborder='0' allowfullscreen></iframe>
+```
+
+Preview:
+
+<iframe width='$(VideoWidth)$' height='$(VideoHeight)$' src='http://www.youtube.com/embed/$(VideoID)$?rel=0' frameborder='0' allowfullscreen></iframe> 
+
+\end
+
+\define thisMakeEmbeddeVideoFixedAspectRatio($aspect$)
+
+```
+<div class=$(Aspect)$>
+<iframe class='video-iframe-css' src='http://www.youtube.com/embed/$(VideoID)$?rel=0' frameborder='0' allowfullscreen></iframe>
+</div>
+```
+
+Preview:
+
+<div class=$(Aspect)$>
+<iframe class='video-iframe-css' src='http://www.youtube.com/embed/$(VideoID)$?rel=0' frameborder='0' allowfullscreen></iframe>
+</div>
+
+\end
+
+Video id (the 11 character string, the url should have a part like ?v=aBpaMz4AcDv, aBpaMz4AcDv is the id):
+<$edit-text tiddler='$:/temp/Embed Video Cheat' field='video_id' class='tc-edit-texteditor'/>
+
+<$select tiddler='$:/state/Embed Video Cheat' field='dim_or_aspect'><option>Fixed Dimensions</option><option>Fixed Aspect Ratio</option></$select>
+
+<$reveal type=match state='$:/state/Embed Video Cheat!!dim_or_aspect' text='Fixed Dimensions'>
+
+Width: <$edit-text tiddler='$:/temp/Embed Video Cheat' field='video_width'/> Height: <$edit-text tiddler='$:/temp/Embed Video Cheat' field='video_height'/> Measurement Unit: Width Unit: <$select tiddler='$:/state/Embed Video Cheat' field='width_unit'>
+<option>px</option>
+<option>%</option>
+</$select>
+
+<$set name=VideoWidth value={{$:/temp/Embed Video Cheat!!video_width}}>
+<$set name=VideoHeight value={{$:/temp/Embed Video Cheat!!video_height}}>
+<$set name=VideoID value={{$:/temp/Embed Video Cheat!!video_id}}>
+<$set name=VideoUnit value={{$:/state/Embed Video Cheat!!width_unit}}>
+
+Fixed Dimensions:
+
+<<thisMakeEmbeddedVideoFixedDimensions>>
+
+</$set>
+</$set>
+</$set>
+</$set>
+
+</$reveal>
+
+<$reveal type=match state='$:/state/Embed Video Cheat!!dim_or_aspect' text='Fixed Aspect Ratio'>
+
+Aspect Ratio: <$select tiddler='$:/state/Embed Video Cheat' field='aspect_ratio'><option value='video-wrapper-16-9'>16/9</option><option value='video-wrapper-4-3'>4/3</option></$select>
+
+<$set name=VideoID value={{$:/temp/Embed Video Cheat!!video_id}}>
+
+Fixed Aspect Ratio:
+
+<$set name=Aspect value={{$:/state/Embed Video Cheat!!aspect_ratio}}>
+
+<<thisMakeEmbeddeVideoFixedAspectRatio>>
+
+</$set>
+
+</$set>
+
+</$reveal>

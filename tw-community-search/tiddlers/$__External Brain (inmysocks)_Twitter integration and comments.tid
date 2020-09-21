@@ -1,0 +1,29 @@
+title: $:/External Brain (inmysocks)/Twitter integration and comments
+created: 20150203221158869
+day: 4
+image: 
+image_caption: 
+link: 
+modified: 20150518212428007
+modifier: inmysocks
+month: March
+number_of_comments: 0
+posted: 19:07, 4th March 2015
+summary: I can post to twitter from here. Maybe other sites to follow.
+template: BlogDisplayTemplate1
+time: 20150304190712
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] TiddlyWiki Twitter [[Social Networking]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Twitter integration and comments
+source-tiddler-title-as-link: Twitter%20integration%20and%20comments
+
+I could turn on a type of commenting using twitter. It wouldn't be hard to make a button that would make a tweet that indicates the post title you are talking about and lets you fill in the rest and post it to me on twitter. But between the post title and pointing it to me you may not get a lot of space for the comments.
+
+The new tweet buttons sort of work, but they have very long urls so not much else can be said. Also, if you click on a post title it will open that post in its own tiddler and have a tweet button. It will also update the url in your browser to be a permalink to that post.
+
+And it isn't a great solution either way. But I am working on it. I think that twitter and facebook play together so I may be able to use posting to twitter as a way to post to facebook. We shall see.
+
+Oh, and people seem to like the calendar plugin. They want me to work on it more. It does what I want it to do so unless someone is going to give me some sort of encouragement it may be a while before I feel like playing with it again.

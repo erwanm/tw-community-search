@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Tiddler Title
+created: 20150602181812549
+css_tiddler: .tc-title Class Override
+description: These apply to all external links
+modified: 20150603004920191
+original-tags: [[Font Settings]] [[Advanced Settings Category]]
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Tiddler Title
+source-tiddler-title-as-link: Tiddler%20Title
+
+{{Tiddler Title||CSS Options Template}}

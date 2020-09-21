@@ -1,0 +1,12 @@
+title: $:/MathyThing (inmysocks)/CurrentTiddler
+created: 20130825144900000
+modified: 20141012154500719
+type: text/vnd.tiddlywiki
+original-tags: Concepts
+source-wiki-id: MathyThing (inmysocks)
+source-tiddler-title-as-text: CurrentTiddler
+source-tiddler-title-as-link: CurrentTiddler
+
+The CurrentTiddler is the current tiddler during WikiText rendering. It is usually set by the TiddlerWidget. It allows you to write references like `<$view field="title"/>` in TemplateTiddlers without explicitly specifying the tiddler that it applies to.
+
+The title of the current tiddler is contained in the [[WidgetVariable: currentTiddler]].

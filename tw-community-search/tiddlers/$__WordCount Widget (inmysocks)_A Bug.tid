@@ -1,0 +1,9 @@
+title: $:/WordCount Widget (inmysocks)/A Bug
+created: 20151207191444801
+modified: 20151207191559437
+original-tags: 
+source-wiki-id: WordCount Widget (inmysocks)
+source-tiddler-title-as-text: A Bug
+source-tiddler-title-as-link: A%20Bug
+
+The count in view mode doesn't work on shadow tiddlers. I don't care enough to fix this edge case at the moment.

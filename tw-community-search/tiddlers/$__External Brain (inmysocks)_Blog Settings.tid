@@ -1,0 +1,10 @@
+title: $:/External Brain (inmysocks)/Blog Settings
+created: 20150203224904011
+modified: 20150205041255645
+num_recent_posts: 5
+original-tags: [[Wiki Settings]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Blog Settings
+source-tiddler-title-as-link: Blog%20Settings
+
+Display the <$select tiddler='$:/settings/Blog Settings' field='num_recent_posts'><$list filter="1 2 3 4 5 6 7 8 9 10"><option><<currentTiddler>></option></$list></$select> most recent posts

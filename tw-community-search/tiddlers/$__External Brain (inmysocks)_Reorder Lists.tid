@@ -1,0 +1,18 @@
+title: $:/External Brain (inmysocks)/Reorder Lists
+created: 20150208215047577
+modified: 20150208215752454
+original-tags: [[Wiki Settings]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Reorder Lists
+source-tiddler-title-as-link: Reorder%20Lists
+
+Filter that makes the list: <$edit-text tiddler='$:/temp/Reorder Lists' field='filter' class='tc-edit-texteditor'/>
+
+Order field name: <$edit-text tiddler='$:/temp/Reorder Lists' field='sort' class='tc-edit-texteditor'/> (use 'order' unless you have a reason to use something different.)
+
+<table>
+<tr><th>Name</th><th>Order</th></tr>
+<$list filter={{$:/temp/Reorder Lists!!filter}}>
+<tr><td><$link to=<<currentTiddler>>><$view field='title'/></$link></td><td><$edit-text tiddler=<<currentTiddler>> field={{$:/temp/Reorder Lists!!sort}}/></td></tr>
+</$list>
+</table>

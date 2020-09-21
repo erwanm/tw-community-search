@@ -1,0 +1,206 @@
+title: $:/External Brain (inmysocks)/Gutting net neutrality is the subversion of the democratic process
+created: 20150203221158869
+creator: inmysocks
+day: 18
+image: 
+image_caption: 
+link: 
+modified: 20150619005905375
+modifier: inmysocks
+month: June
+number_of_comments: 0
+posted: 18:31, 18th June 2015
+summary: damn it, this is important
+template: BlogDisplayTemplate1
+time: 20150618183151
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Gutting net neutrality is the subversion of the democratic process
+source-tiddler-title-as-link: Gutting%20net%20neutrality%20is%20the%20subversion%20of%20the%20democratic%20process
+
+This hasn't been passed, it has to go through the senate where they don't have the offending sections so there is still hope, but the fact that this got as far as it has shows how much the US government is willing to throw out the democratic process.
+
+!Subverting democracy: gutting net neutrality edition!
+
+The United States House Committee on Appropriations voted to include some provisions in the budget that would effectively negate all of the net neutrality progress we have made so far by forbidding the FCC from using any of its funding for the purposes of enforcing any current or future rules regarding net neutrality or the open internet. There are also some parts (namely section 625) forbidding the securities and exchange commission from requiring the disclosure of political contributions, but that is subverting the democratic process in a different way and it has gotten much more news coverage, a bit more on this below. [[Here is the draft of the rules they are proposing|http://appropriations.house.gov/uploadedfiles/bills-114hr-sc-ap-fy2016-fservices-subcommitteedraft.pdf]], the most relevant parts for net neutrality sections 629 and 630. Sections 623 and 628 apply to a lesser extent.
+
+To explain how this is subverting democracy in a very US centric way, here is the fist amendment to the constitution of the united states:
+
+```
+Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+```
+
+A working democratic society requires an informed electorate, an informed electorate requires a free press.
+While print media may not be strictly dying, it is certainly losing relevance. I haven't gotten anything other than local news from a print source in years, and even most local news I get comes from online.
+Almost none of my friends actually follows much news, and from what I know with few exceptions all the news that they get is from online sources.
+In the US the first amendment prevents the government from restricting the free press, but, like the freedom of speech, it does nothing to prevent other entities from limiting it.
+Entities such as cable companies.
+
+If the proposed rules get enacted than by law no significant regulations applying to cable companies will be enforceable, they will have a literal unregulated monopoly protected by federal law.
+In most areas of the US there is already only a single provider so they are effectively monopolies already, but they are currently able to be regulated.
+
+People tend to focus on throttling the speed of communications when talking about net neutrality, but a much more important aspect of it is that a provider can decide to just not allow the connection.
+As it is you need to get special permission from your ISP (for most of them anyway) if you want to run your own email server.
+The reason centurylink (my current ISP) gives for this is 'emails can contain viruses'.
+That is it.
+They won't allow me to do it 'for my protection'.
+In the same way they could decide that they need to track your activities online, and 'for your protection', block access to vpn services because if you use a vpn you could go to websites without them tracking you... and get viruses.
+Or you can't visit unapproved sites, because viruses.
+Or you can't visit sites that don't pay a licensing fee, because profit.
+Or you can't visit sites that the isp doesn't have a stake in, which has already happened with [[internet.org|https://en.wikipedia.org/wiki/Internet.org]], because profit (or AOL keywords for those of you who remember them).
+
+While all of that is evil, it isn't directly subverting the democratic process.
+But they could selectively allow news sites to only allow approved news, which would in effect destroy the free press because almost everyone gets their news from online sources.
+The primary source of news for just about everyone under the age of 30 (and probably most above 30 too) would be filtered by a single controlling entity.
+And because it isn't the government, this would be perfectly legal.
+
+We already know that facebook is doing experiments on emotional manipulation of its users.
+How would they make money off of this?
+By selling premium ad placements in ways that would put a user in a favourable frame of mind while viewing the ad.
+Or by displaying political stories in places designed to evoke a specific emotion, positive or negative, in an attempt to influence public policy even more.
+And this isn't speculation, facebook is actually studying this and it has been shown to have a [[real impact on people|http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2309703]].
+In that context internet.org, which is run and controlled by facebook and is in areas where there isn't another easily accessible form of internet access, becomes a bit more sinister.
+Even if the goal of the studies is just to find ways to foster positive feelings in users while using facebook, this sort of manipulation would help prevent users from wanting to switch to other services when they become available.
+And that is if the data is only used to make users enjoy using facebook.
+What about a free press?
+Emotional manipulation of users in an attempt to influence public policy so facebook can maintain its monopoly on internet access sounds like an attractive prospect.
+
+That is just facebook, and in places that don't already have commonly available internet access so there aren't strong regulations in place.
+Unfortunately without net neutrality that becomes the norm in the US as soon as the cable companies decide to implement it.
+Instead of a state run monopoly on news it would be a corporation run monopoly on news, so it would be legal.
+Did I mention that the FCC wouldn't be allowed to regulate any of this?
+Which makes the monopoly protected by federal law, because the only regulatory body that should have jurisdiction would be powerless.
+
+This isn't some worst case scenario or paranoid fantasy, without regulation this is what happens.
+It is really hard to say I am being alarmist when it is already happening with things like internet.org and google fiber.
+Establishing these rules and negating net neutrality puts a few companies into the same position over the entire united states.
+These companies already give huge campaign contributions to politicians they like, why wouldn't they use other methods at their disposal as well?
+
+
+!What do the proposed rules actually say?
+
+I imagine that no one will actually read this section.
+
+We will go section by section:
+
+!!Section 628
+
+```
+SEC. 628. 
+
+None of the funds made available by this Act may be used to implement, administer, or enforce any rule (as defined in section 551 of title 5, United States Code), or any amendment or repeal of an existing rule, that is adopted by vote of the Federal Communications Commission after the date of the enactment of this Act, unless the Commission publishes the text of such rule, amendment, or repeal on the Internet Web site of the Commission not later than 21 days before the date on which the vote occurs. 
+```
+
+This is by far the mildest of the requirements, but it serves no real purpose other than to put bureaucratic hurdles in place for creating any useful rules. The FCC is slow enough as it is. There isn't much more to be said about this one.
+
+!!Section 629
+
+```
+SEC. 629. 
+
+None of the funds made available by this Act may be used to regulate, directly or indirectly, the prices, other fees, or data caps and allowances (as such terms are described in paragraph 164 of the Report and Order on Remand, Declaratory Ruling, and Order in the matter of protecting and promoting the open Internet, adopted by the Federal Communications Commission on February 26, 2015 (FCC 15–24)) charged or imposed by providers of broadband Internet access service (as defined in the final rules in Appendix A of such Report and Order on Remand, Declaratory Ruling, and Order) for such service, regardless of whether such regulation takes the form of requirements for future conduct or enforcement regarding past conduct. 
+```
+
+This section says that the FCC is prohibited from regulating how much internet providers charge for their services. These are the companies that already have monopolies because they have voluntary divided the country into sections so they don't compete with each other. This is the reason that we have such shitty internet service in the US. To give an idea of how shitty we have it, in Paris the slowest service available is twice the speed of the fastest non-business connection available in Albuquerque. Also in Paris the cost is less than half of what it is here in Albuquerque. So twice the speed for half the cost. If this goes through than they will have explicit permission to charge as much as they want without having to worry about violating some consumer protection rule or another.
+
+!!Section 630
+
+```
+SEC. 630. 
+
+None of the funds made available by this Act may be used to implement, administer, or enforce the Report and Order on Remand, Declaratory Ruling, and Order in the matter of protecting and promoting the open 
+Internet, adopted by the Federal Communications Commission on February 26, 2015 (FCC 15–24), until the first date on which there has been a final disposition (including the exhaustion of or expiration of the time for any appeals) of all of the following civil actions: 
+
+	(1) Alamo Broadband Inc. v. Federal Communications Commission, et al., No. 15-60201, pending in the United States Court of Appeals for the Fifth Circuit as of the date of the enactment of this Act. 
+	(2) United States Telecom Assoc. v. Federal Communications Commission, et al., No. 15-1063, pending in the United States Court of Appeals for the District of Columbia Circuit as of the date of the enactment of this Act. 
+	(3) CenturyLink v. Federal Communications Commission, No. 15-1099, pending in the United States Court of Appeals for the District of Columbia Circuit as of the date of the enactment of this Act.
+```
+
+This says that the FCC can't actually enforce net neutrality. The court cases listed are being taken against the government by the largest providers in the country. They have for all practical purposes an infinite amount of money to throw at the case so they can drag it on indefinitely, and then all of the appeals will have to also be heard before anything can be done. This section will give the cable companies the freedom to prevent the rules from being enforced until they are somehow forced to end the court cases.
+
+In that one paragraph the house is repealing net neutrality in every meaningful sense.
+
+When combined sections 629 and 630 give existing cable companies an unregulated monopoly that is protected by federal law with all the benefits that implies.
+
+!Other things that are probably terrible (almost all the commentary I give here is sarcastic, in case that somehow wasn't obvious.):
+
+Section 621:
+
+```
+SEC. 621. 
+
+None of the funds made available by this Act may be used to pay the salaries and expenses for the following positions: 
+
+(1) Director, White House Office of Health Reform, or any substantially similar position. 
+(2) Assistant to the President for Energy and Climate Change, or any substantially similar position. 
+(3) Senior Advisor to the Secretary of the Treasury assigned to the Presidential Task Force on the Auto Industry and Senior Counselor for Manufacturing Policy, or any substantially similar position. 
+(4) White House Director of Urban Affairs, or any substantially similar position. 
+```
+
+Because of course we don't care about any social causes, or anything that would protect the environment. That would hurt profits of people (because corporations are people) that give large bribes (also known as campaign contributions).
+To further protect these people we have section 625:
+
+```
+SEC. 625. 
+
+None of the funds made available by this Act shall be used by the Securities and Exchange Commission to finalize, issue, or implement any rule, regulation, or order regarding the disclosure of political contributions, contributions to tax exempt organizations, or dues paid to trade associations. 
+```
+
+Because we don't have any problems with government corruption that need to be looked at. Nope. That would hurt the political power wielded by the people (corporations) that give large bribes.
+
+And of course, we can't have any part of the government that could damage the profits of a company by doing their job to actually enforce regulations (The Securities Exchange Act of 1934 is [[here|http://www.sec.gov/about/laws/sea34.pdf]]). Also, transparency is bad.
+
+```
+SEC. 626. 
+
+(a) Section 13(n)(5) of the Securities Exchange Act of 1934 25 (15 U.S.C. 78m(n)(5)) is amended— 
+
+	(1) in subparagraph (G)— 
+		(A) in the matter preceding clause (i), by striking ‘‘all’’ and inserting ‘‘security-based swap’’; and 
+		(B) in subclause (v)— 
+			(i) in subclause (II), by striking ‘‘; and’’ and inserting a semicolon; 
+			(ii) in subclause (III), by striking the period at the end and inserting ‘‘; and’’; and 
+			(iii) by adding at the end the following: ‘‘(IV) other foreign authorities.’’; and 
+	(2) by striking subparagraph (H) and inserting the following: 
+
+	‘‘(H) CONFIDENTIALITY AGREEMENT.— 
+
+	Before the security-based swap data repository may share information with any entity described in subparagraph (G), the security-based swap data repository shall receive a written agreement from each entity stating that the entity shall abide by the confidentiality requirements described in section 24 relating to the information on security-based swap transactions that is provided.’’. 
+
+(b) The amendments made by subsection (a) shall take effect as if enacted on July 21, 2010. 
+```
+
+Now, none of section 626 looks all that interesting, or relevant until you look at what subparagraph 13(n)(5)(H) currently is:
+
+```
+(H) CONFIDENTIALITY   AND   INDEMNIFICATION   AGREEMENT.-
+
+Before the security-based swap data repository may share information with any entity described in subparagraph (G)—
+
+	(i) the security-based swap data repository shall receive a written agreement from each entity stating that the entity shall abide by the confidentiality requirements described in section 24 relating to the information on security-based swap transactions that is provided; and 
+	(ii) each entity shall agree to indemnify the security-based swap data repository and the Commission for any expenses arising from litigation relating to the information provided under section 24
+```
+
+So, what section 626 is doing is removing that pesky little (ii), which would allow people (because corporations are people) to sue the securities and exchange commission for damages if they get sued by a third party. This means that if someone gets sued as a result of information in the data repository people can try to hold the SEC financially responsible instead of actually taking the penalty themselves. ([[Some stuff about security-based swaps|http://www.sec.gov/swaps-chart/swaps-chart.shtml]] and [[why it matters|https://en.wikipedia.org/wiki/Subprime_mortgage_crisis#Credit_default_swaps]].)
+
+
+!Section 627 - Bonus Section!!
+
+```
+SEC 627. 
+
+None of the funds made available in this Act may be used by a governmental entity to require the disclosure by a provider of electronic communication service to the public or remote computing service of the contents of a wire or electronic communication that is in electronic storage with the provider (as such terms are defined in sections 2510 and 2711 of title 18, United States Code) in a manner that violates the Fourth Amendment to the Constitution of the United States. 
+```
+
+At first glance this is awesome, it says that service providers can't be compelled to give information. Then there is that last bit: //in a manner that violates the Fourth Amendment to the Constitution of the United States.// So, the united states government can't use this money to violate the constitution of the united states. Yay pointless provisions!! Note that this doesn't say that requiring the disclosure of information in this context ''IS'' a violation of the 4th amendment, just that they can't violate the 4th amendment.
+
+Here is the text of the 4th amendment to the constitution of the united states, note that it doesn't mention electronic communication:
+
+```
+The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+```
+
+By specifically saying that violating the 4th amendment is the test for what is allowed, this may actually relax the restrictions on data gathering. Yay using rules that were written almost 200 years before the situation in question!

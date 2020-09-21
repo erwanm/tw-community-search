@@ -1,0 +1,84 @@
+title: $:/DISQUS Comments (inmysocks)/What is going on?
+created: 20150620151051146
+modified: 20150622191755907
+original-tags: 
+source-wiki-id: DISQUS Comments (inmysocks)
+source-tiddler-title-as-text: What is going on?
+source-tiddler-title-as-link: What%20is%20going%20on%3f
+
+Click on the `(Re)load Comment Thread` button in [[Example tiddler thread 1]] or [[Example tiddler thread 2]] to open up the comment threads for those tiddlers. The comments will open in the sidebar.
+
+''The first time you tell it to load a comment thread you will get a javascript error, but it will work anyway. No, I don't know why. No, I don't know how to fix it. Yes, it works anyway.''
+
+!Quick overview
+
+!!Tiddlers needed
+
+*[[$:/plugins/inmysocks/DISQUS Comments]]
+
+!!Steps
+
+#Make yourself a [[DISQUS account|https://disqus.com/]] if you don't already have one.
+#After you have made your account go [[here|https://disqus.com/websites/]] so you can set everything up on the DISQUS side.
+##Click on `Add DISQUS to your site`, it is at the top of the page.
+##Enter a site name (the name of the wiki you are adding comments to is a good choice) and a unique DISQUS url (there will be a default suggestion after you give a name, I just used that) for the site and select a category (I used `other`).
+##Click `Finish registration`
+##The next page says 'Choose your platform', click on 'Universal Code', it should be the top choice.
+##In the code that is displayed you need to look at the line that starts with `var disqus_shortname = ` and copy that full line and save it for later. (The disqus_shortname  should be the same as whatever you put for your unique DISQUS url above.)
+#Import the plugin into your wiki.
+#Go to the `DISQUS` tab that is now in the $:/ControlPanel and enter the site url and, if you want, the label for the sidebar tab, the label for the load comments buttons, and the default language to use (if it isn't english).
+#Edit the tiddler [[$:/plugins/inmysocks/DISQUS Comments/Disqus JavaScript]] and replace the line `var disqus_shortname = 'ooktechcomjedexternalbrain';` with the one you copied from the DISQUS site above. (The only difference should be that `ooktechcomjedexternalbrain` is replaced with whatever your sites short name is. You don't have to care about what that means.)
+** (OPTIONAL) If you want to use a language other than english you also need to change the line `this.language = "en";` so instead of `en` it uses the iso language code for the language you want to use. Also go to the [[$:/plugins/inmysocks/DISQUS Comments/DISQUS Settings]] tiddler (or the `DISQUS` tab in the control panel) and set the language there using the same code so that when you reload comments everything uses the correct language.
+
+Doing all of this will put a tab in your side bar called 'DISQUS Comments', all of the comments will be there. To add comments for a single tiddler you put `<<ReloadDisqusComments>>` in that tiddler. Where you put that macro there will be a button, when you click on the button it will switch the sidebar to the comments tab and load the comments for that tiddler. Unfortunately you can only have a single comment thread displayed on a page at one time, so the comments will be in the sidebar. And you have to click on the button in a tiddler to load comments for that tiddler.
+
+But it is a fully working comment system, enjoy!
+
+!More indepth stuff
+
+Most of this is going to be boring or irrelevant for most people. If you want to learn a bit more about how it works and what you can do to customize it than continue reading.
+
+!!The DISQUS javascript code
+
+The code will be something similar to this:
+
+```
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'ooktechcomjedexternalbrain';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+```
+
+The `<div id="disqus_thread"></div>` part is what you put in a tiddler to add the comment thread, you can look at what is in [[$:/plugins/inmysocks/DISQUS Comments/DISQUS Comments]] tiddler to see how to do it. The rest of the code needs to be put into a tiddler tagged with `$:/tags/RawMarkup` the way that [[$:/plugins/inmysocks/DISQUS Comments/Disquis JavaScript]] tiddler is.
+
+The part that would be different in yours is the `var disqus_shortname = 'ooktechcomjedexternalbrain';` line. This is also the reason that having multiple threads at the same URL is a problem because you would need to have different scripts for each thread, but the `<div id="disqus_thread"></div>` has no way to specify which thread to embed.
+
+In order to have multiple pages with comments without having to create a new disqus thing for each page you add a line like `var disqus_identifier = 'a unique identifier for each page where Disqus is present';` to the configuration variables section of the script where you enter whatever unique identifier you want. Note that you need to include the script in every page where you have comments.
+
+In order to load each different comment thread you need to use the action widget in [[$:/plugins/inmysocks/DISQUS Comments/action-reload-comments.js]] (so import that tiddler). To see how to use the buttons look at the code in [[DISQUS Comments]]. You make a button similar to this:
+
+```
+<$button>Comment Thread Billy
+<$action-reload-comments newid=billy permalink="http://ooktech.com/jed/ExampleWikis/DISQUS%20Demo/#!billy" title='billy'/>
+</$button>
+```
+
+where `newid` gets the unique name for the comment thread (so tiddler title or something like that would work), permalink doesn't actually work, but is required for the function. Give it a permalink like tiddlywiki uses, but it needs `#!` instead of just `#`, which keeps tiddlywiki from loading the correct tiddler. The `title` is the displayed title, so it can also be the tiddler title. You can optionally add a `language=en` parameter which sets the language to english (which it is by default), if you want another language than change the `en` part. I think it uses the iso language codes, but I am not sure.
+
+Then if you put `<<ReloadDisqusComments>>` in a tiddler it will make a button that loads the comment thread for that tiddler (you still need to put `<div id="disqus_thread"></div>` in the body of the tiddler).
+
+!!There are a few things to keep in mind:
+
+*ONLY ONE COMMENT THREAD WILL LOAD. This means that if you have two tiddlers with comment threads open ONLY ONE WILL SHOW UP. If you click on a button to load another thread it will load the new thread, but it will load in the tiddler where the comments are currently displayed, not in the new tiddler. This is why the comments are in the sidebar
+*For the moment the comments will only load if the tiddler that has the comments is open when the wiki loads. This should be fixable and is the same problem that muut has. You can click on the 'Reload Comments' button (or whatever you call the button) to load the comments now, or to reload them.
+*The permalink to comment threads doesn't work because disqus uses `#!` and tiddlywiki uses `#`
+*The first time you click on one of the reload buttons after loading the wiki you may get a javascript error unless a thread has already loaded correctly. Everything works, but you get the error anyway. This may be fixable.

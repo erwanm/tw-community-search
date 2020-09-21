@@ -1,0 +1,30 @@
+title: $:/Intense Debate Comments (inmysocks)/What is going on?
+created: 20150620154737559
+modified: 20150620160435643
+original-tags: 
+source-wiki-id: Intense Debate Comments (inmysocks)
+source-tiddler-title-as-text: What is going on?
+source-tiddler-title-as-link: What%20is%20going%20on%3f
+
+!This is showing how to set up ~IntenseDebate comments on a tiddlywiki.
+
+Go to https://intensedebate.com/ and make an account. When making your account one of the options will be 'Add comments to your own site' select that option (or after you have made an account go to the Dashboard and on the right side there will be a link to install intense debate on your site). Give the url and click on next, when it asks for the platform you use pick generic install and click next. On the next page if your url has any capital letters the iframe won't load correctly, ignore this. Copy the code that it says to paste onto your site and paste it into a tiddler and tag that tiddler with `$:/tags/RawMarkup`. Then save and reload your wiki. The comment thread will be at the very bottom of the wiki.
+
+The code will be something like this:
+
+```
+<script>
+var idcomments_acct = '6e2439cd06a6abdd1bce38f71aa8943d';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+```
+
+The line `var idcomments_acct = '6e2439cd06a6abdd1bce38f71aa8943d';` will be different for you. You should be able to use the same account for different comments by giving a value to the `idcomments_post_id` variable.
+
+!Things to keep in mind:
+
+*I have not yet managed to get intense debate to show comments inside tiddlers, so this is cheating by just putting the code in the raw markup for the wiki. It shouldn't make a difference for static sites or if you just want one comment thread on your wiki. It will appear at the bottom, I don't think you can change that part. The good news is that you never need to worry about reloading to make the comments appear, the bad news is that you can't use tiddlywiki to modify any of it.
+*IntenseDebate doesn't understand case sensitive URLs for their previews, but it doesn't break the comments themselves. So don't worry if when you go to the install part of the site it gives you a 404 error in the iframe.

@@ -1,0 +1,14 @@
+title: $:/Tiddler Gallery (inmysocks)/Widgets
+created: 20140908130500000
+modified: 20140910215453457
+type: text/vnd.tiddlywiki
+original-tags: Reference
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: Widgets
+source-tiddler-title-as-link: Widgets
+
+Widgets add dynamic functionality to WikiText.
+
+The following widgets are built into the core:
+
+<<list-links "[tag[Widgets]]">>

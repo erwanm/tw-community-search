@@ -1,0 +1,12 @@
+title: $:/Category List (inmysocks)/Fix the new subsubcategory popup
+category: Plugin
+description: it currently says 'New Subcategory' instead of new subsubcategory
+modified: 20150503164140972
+subcategory: Category Lists
+subsubcategory: Bugs
+original-tags: [[Planned Update]] [[Change Log]]
+source-wiki-id: Category List (inmysocks)
+source-tiddler-title-as-text: Fix the new subsubcategory popup
+source-tiddler-title-as-link: Fix%20the%20new%20subsubcategory%20popup
+
+subsubsubsubsubsubsubcategory. I am tempted to allow an arbitrary number of subs to be added. I think it could be done without too much trouble using some recursive stuff.

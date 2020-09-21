@@ -1,0 +1,11 @@
+title: $:/Control Panel Addon (inmysocks)/Sidebar List Item Headers
+created: 20150603184202999
+css_tiddler: .tc-menu-list-item Class Override
+description: Applies to the lists in the sidebar
+modified: 20150603184255448
+original-tags: [[Advanced Settings Category]] Sidebar
+source-wiki-id: Control Panel Addon (inmysocks)
+source-tiddler-title-as-text: Sidebar List Item Headers
+source-tiddler-title-as-link: Sidebar%20List%20Item%20Headers
+
+{{Sidebar List Item Headers||CSS Options Template}}
