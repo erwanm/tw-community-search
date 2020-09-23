@@ -4,10 +4,10 @@ core-version: >=5.1.17
 created: 20191226185602774
 description: Top toolbar
 list: readme license
-modified: 20200313140310271
+modified: 20200918192839323
 name: Top toolbar
 source: http://tongerner.tiddlyspot.com/
-version: 0.3.38
+version: 0.5.1
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tg/toolbar
