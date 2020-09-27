@@ -7,7 +7,7 @@ list: readme license help
 modified: 20200323202638734
 name: Makes TW readonly
 source: http://tongerner.tiddlyspot.com/
-version: 0.1.7
+version: 0.1.8
 original-tags: 
 source-wiki-id: TonGernerPlayground
 source-tiddler-title-as-text: $:/plugins/tg/sro

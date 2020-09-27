@@ -1,7 +1,7 @@
 title: $:/TonGernerPlayground/Latest news
 created: 20140203095535006
 creator: TonGerner
-modified: 20200922081858637
+modified: 20200926193734549
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TonGernerPlayground
@@ -14,6 +14,9 @@ source-tiddler-title-as-link: Latest%20news
 
 ---
 <br>
+
+!!! 26-9-2020
+* Updated Simple readonly plugin
 
 !!! 22-9-2020
 * Repaired bug in 'tagging in view mode'

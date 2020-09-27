@@ -1,7 +1,7 @@
 title: $:/TW5ReadOnly/Changelog
 created: 20140104122519245
 creator: TonGerner
-modified: 20200429185823856
+modified: 20200926193927506
 modifier: TonGerner
 original-tags: documentation
 source-wiki-id: TW5ReadOnly
@@ -13,6 +13,9 @@ source-tiddler-title-as-link: Changelog
 <<<
 ''Note:''<br><span title="Known 'hitches'"><<slider "Known 'hitches'" "Known hitches">></span>
 <<<
+
+!!!!v4.10
+* Updated Simple readonly plugin
 
 !!!!v4.09 (30-4-2020)
 * Upgraded to TW v5.1.22
