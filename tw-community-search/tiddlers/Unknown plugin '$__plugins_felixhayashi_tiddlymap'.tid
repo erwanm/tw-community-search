@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/felixhayashi/tiddlymap'
+name: unknown
+plugin_tiddler: $:/plugins/felixhayashi/tiddlymap
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

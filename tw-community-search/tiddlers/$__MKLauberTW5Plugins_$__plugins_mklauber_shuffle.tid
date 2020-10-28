@@ -4,6 +4,7 @@ core-version: >=5.0.0
 dependents: 
 description: A Shuffle filter operator
 list: readme
+source: https://github.com/mklauber/tiddly-shuffle
 version: 1.0.2
 original-tags: 
 source-wiki-id: MKLauberTW5Plugins

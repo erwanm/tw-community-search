@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/wikilabs/uni-link'
-name: unknown
-plugin_tiddler: $:/plugins/wikilabs/uni-link
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

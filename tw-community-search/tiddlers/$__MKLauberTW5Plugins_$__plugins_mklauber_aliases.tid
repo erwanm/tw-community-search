@@ -4,6 +4,7 @@ core-version: >=5.1.18
 dependents: 
 description: Aliases - Alias Manager
 list: 
+source: https://github.com/mklauber/tiddly-aliases
 version: 5.1.22
 original-tags: 
 source-wiki-id: MKLauberTW5Plugins

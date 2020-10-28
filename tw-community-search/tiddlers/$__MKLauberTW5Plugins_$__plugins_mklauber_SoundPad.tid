@@ -4,6 +4,7 @@ core-version: >=5.0.1
 dependents: 
 description: SoundPad
 list: 
+source: https://github.com/mklauber/tw5-SoundPad
 version: 1.0.0
 original-tags: 
 source-wiki-id: MKLauberTW5Plugins

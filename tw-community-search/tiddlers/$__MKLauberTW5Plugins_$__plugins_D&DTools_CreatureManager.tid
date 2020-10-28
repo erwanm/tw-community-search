@@ -1,13 +1,15 @@
 title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/CreatureManager
 author: Matt Lauber
+core-version: >=5.1.22
 created: NaNNaNNaNNaNNaNNaNNaN
 dependents: 
 description: D&D Creature Manager
 list: readme
 modified: NaNNaNNaNNaNNaNNaNNaN
 plugin-priority: 1
+source: https://github.com/mklauber/tw-CreatureManager
 summary: D&D 5e Creature Stat Block Templates
-version: 1.0.8
+version: 1.22.0
 original-tags: D&D
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/D&DTools/CreatureManager

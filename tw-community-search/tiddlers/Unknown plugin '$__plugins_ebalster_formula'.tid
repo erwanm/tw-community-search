@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/ebalster/formula'
-name: unknown
-plugin_tiddler: $:/plugins/ebalster/formula
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

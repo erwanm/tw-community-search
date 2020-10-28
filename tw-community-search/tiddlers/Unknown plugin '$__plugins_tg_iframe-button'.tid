@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tg/iframe-button'
-name: unknown
-plugin_tiddler: $:/plugins/tg/iframe-button
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

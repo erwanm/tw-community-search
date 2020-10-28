@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/Zaphod/SideBarShade'
-name: unknown
-plugin_tiddler: $:/plugins/Zaphod/SideBarShade
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

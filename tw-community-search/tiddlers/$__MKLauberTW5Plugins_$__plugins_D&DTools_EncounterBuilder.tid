@@ -6,6 +6,7 @@ description: D&D Encounter Builder
 list: 
 modified: NaNNaNNaNNaNNaNNaNNaN
 plugin-priority: 1
+source: https://github.com/mklauber/tw5-encounter-builder
 summary: D&D 5e Encounter Builder Tool
 version: 1.0.8
 original-tags: D&D

@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/sq/Stories'
-name: unknown
-plugin_tiddler: $:/plugins/sq/Stories
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

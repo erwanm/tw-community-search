@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/sk/Indents'
-name: unknown
-plugin_tiddler: $:/plugins/sk/Indents
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

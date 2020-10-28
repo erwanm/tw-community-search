@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/marxsal/regexps'
-name: unknown
-plugin_tiddler: $:/plugins/marxsal/regexps
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

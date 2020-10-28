@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/MAS/storysnapman'
-name: unknown
-plugin_tiddler: $:/plugins/MAS/storysnapman
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

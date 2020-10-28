@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/JR/MetaTabs'
-name: unknown
-plugin_tiddler: $:/plugins/JR/MetaTabs
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

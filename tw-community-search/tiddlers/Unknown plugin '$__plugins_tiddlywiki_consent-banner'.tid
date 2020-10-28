@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tiddlywiki/consent-banner'
-name: unknown
-plugin_tiddler: $:/plugins/tiddlywiki/consent-banner
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

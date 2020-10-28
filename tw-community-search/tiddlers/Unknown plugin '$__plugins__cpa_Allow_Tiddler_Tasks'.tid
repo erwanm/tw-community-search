@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/_cpa/Allow_Tiddler_Tasks'
-name: unknown
-plugin_tiddler: $:/plugins/_cpa/Allow_Tiddler_Tasks
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -5,10 +5,8 @@ tags: CommunityWikis
 title: CherryPicker
 type: text/vnd.tiddlywiki
 wiki-address: http://cherrypicker.tiddlyspot.com/
-wiki-tw-version: 5.1.11
-wiki-latest-modification: 20160605160117337
-wiki-nb-tiddlers: 22
+wiki-tw-version: wiki-latest-modification: 
+wiki-nb-tiddlers: 0
 
-mark segments to have them aggregated
 
 {{||$:/CommunityWikiPresentationTemplate}}
