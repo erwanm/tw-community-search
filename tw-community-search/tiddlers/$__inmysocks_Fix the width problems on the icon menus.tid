@@ -1,0 +1,20 @@
+title: $:/inmysocks/Fix the width problems on the icon menus
+category: Plugin
+created_day: 01
+created_month: 10
+created_year: 2015
+description: On smaller screen the icons at the top overlap when there are a bunch of them. Find a way to fix this.
+due_day: 
+due_month: 
+due_year: 
+modified: 20151001102118591
+start_day: 
+start_month: 
+start_year: 
+subcategory: Icon Menus
+subsubcategory: Bugs
+original-tags: [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Fix the width problems on the icon menus
+source-tiddler-title-as-link: Fix%20the%20width%20problems%20on%20the%20icon%20menus
+

@@ -1,0 +1,46 @@
+title: $:/TWaddle/Iframing a section of a webpage
+created: 20150407134617718
+creator: Mat
+modified: 20150804101739227
+modifier: Mat
+recent: 15/06/28
+original-tags: Tidbit Iframes Major Tool
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Iframing a section of a webpage
+source-tiddler-title-as-link: Iframing%20a%20section%20of%20a%20webpage
+
+<style>
+   #example_outer {position: relative; width: 100%; }
+   #example_inner {position: absolute; left: 70%; top: -60px; clip:rect(90px 350px 140px 10px); width: 100%; height: 100%; }
+</style>
+
+<div id="example_outer"><div id="example_inner" >
+   <iframe src="http://en.wikipedia.org/wiki/Tiddlywiki" width="1200px" height="600px"  >
+   </iframe>
+</div></div>
+
+You can snip out a rectangle on an external webpage to show up in your TW, anywhere on the viewport.
+
+You use
+
+* an iframe to display the external webpage in your TW
+* the tiddler [[hooker method|The Tiddler Hooker Method]] to position the iframe in or outside of your tiddler but so that it is still "hooked" to move along with the tiddler
+* ...but first you style the inner div of the hook to
+**only show the relevant slice of the external webpage. This uses the CSS `clip` attribute.
+**Then you position this slice on your TW using CSS `top/bottom/left/right`
+
+Check out the code for the Wikipedia example shown.
+
+Just some notes on the clip attribute. It works like this
+
+`clip:rect(distancefromtop distancefromright distancefrombottom distancefromleft)`
+
+The greater the number, the further from that edge on the external(!) page. I think they must be specified in px. It's iffy to get the exact distance right if you must save the tiddler after each try to see the result. This, just like much else, is a lot easier if you use the SideEditor. 
+
+To position the clip-out, you use the tiddler [[hooker method|The Tiddler Hooker Method]]. Imagine the external webpage to be on your screen and your clip to be a toilet paper roll held to your eye for peeking. If you want to see the the middle of the screen, you must move your head down. The clip works the same way. This means that if you, in your TW, want that clipped bit to appear at some other position, say, the very beginning of your tiddler (in this tiddler where the words "You can snip" appears) - then you must "pull up" that clip to there. 
+
+For the example here, the inner part of the hook is set to  `left:70%; top:-60px;` to pull it into place.
+
+Note that difficulties can occur because you rely on the external webpage to not change. I have not found a way to only iframe e.g a specific `<div>` on an external webpage.
+
+I have also not done any testing on different screen sizes... 

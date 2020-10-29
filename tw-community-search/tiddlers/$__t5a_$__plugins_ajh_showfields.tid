@@ -1,0 +1,15 @@
+title: $:/t5a/$:/plugins/ajh/showfields
+author: Andrew
+core-version: >=5.1.14
+dependents: $:/language/showfields/caption $:/language/showfields/hint $:/plugins/ajh/showfields/controls $:/plugins/ajh/showfields/readme $:/plugins/ajh/showfields/icon $:/plugins/ajh/showfields/template
+description: Show Fields
+list: readme
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Fshowfields.json
+version: 0.0.1
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: $:/plugins/ajh/showfields
+source-tiddler-title-as-link: %24%3a%2fplugins%2fajh%2fshowfields
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,77 @@
+title: $:/cpashow/List of Pending Actions
+created: 20150401213015091
+modified: 20150604023205762
+original-tags: Top
+source-wiki-id: cpashow
+source-tiddler-title-as-text: List of Pending Actions
+source-tiddler-title-as-link: List%20of%20Pending%20Actions
+
+\define showTask(current)
+  {{$current$||task}}
+\end
+\define temp() $(sourceTable)$_2_$(targetTable)$_xlate
+\define runMacroAgainstTiddlerField(tiddlerName,fieldName,macroName,param1,value1)
+    <!-- This macro looks up a list of tiddlers from a field in a particular tiddler
+           It then runs a macro against each of those tiddlers
+           The macro being run must have the following parameters
+           tiddlerName = the name passed from the lookup
+           param1 = a parameter named in the call to this macro
+           value1   = a value passed in the call to this macro           
+    -->
+    <$list filter="[list[$tiddlerName$!!$fieldName$]]" variable="targetItem">
+        <$macrocall $name="$macroName$" 
+            tiddlerName=<<targetItem>> 
+            $param1$="$value1$" >
+    </$list>
+\end
+\define showTargetThenXlate(tiddlerName,templateName,SourceName)
+    <$list filter="[[$tiddlerName$]is[missing]]">
+        <$macrocall $name="createTiddlerFromTemplate" 
+                tiddlerName="$tiddlerName$"
+                templateName= "$templateName$" 
+        />
+    </$list>
+    <$list filter="[[$tiddlerName$]is[tiddler]]">
+        <$checkbox tiddler="$SourceName$_2_$tiddlerName$_xlate" tag="xlate"/>
+        <$link to="$SourceName$_2_$tiddlerName$_xlate" >
+            $SourceName$_2_$tiddlerName$_xlate 
+        </$link>
+        <br/>
+    </$list>
+\end
+<!-- End definitions -->
+!! Demonstrate the silently create tiddler from template code 
+* (Click the button . . . notice that the tiddler is created . . . Open it . . . its copied from the template . . . Delete the new tiddler to repeat)
+
+`<$macrocall $name="createTiddlerFromTemplate" 
+    tiddlerName="MyNewTiddler" 
+    templateName="HelloThere"  />;
+`
+
+<$macrocall $name="createTiddlerFromTemplate" 
+    tiddlerName="MyNewTiddler" 
+    templateName="HelloThere"  />
+
+* {{Create a create and mark clone button||task}}
+* [[testTemplate]]
+* [[MyNewTiddler]]
+
+This tiddler lists each of the source tables, the translations that must be built and then the target tables that have to be built. I haven't yet assigned each of these to the task list (Just the target table)
+
+<!-- Find all of the tables tagged as source data -->
+<$list filter="[tag[source]] - $:/_cpa/ViewTemplates/source " variable="sourceTable">
+    __
+    <!-- Display an underlined link to that source table -->
+    <$link to=<<sourceTable>> > <<sourceTable>> </$link>
+    __<br/>
+    <!-- Now look up the targets and display the xlate table for each 
+        Display a button that marks the xlate as xlate and creates the fields
+        Display a checkbox to mark the xlate as completed -->
+    <$macrocall $name="runMacroAgainstTiddlerField" 
+        tiddlerName=<<sourceTable>> 
+        fieldName = "targets"
+        macroName = "showTargetThenXlate"
+        param1 = "SourceName"
+        value1 =  <<sourceTable>> />
+
+</$list>

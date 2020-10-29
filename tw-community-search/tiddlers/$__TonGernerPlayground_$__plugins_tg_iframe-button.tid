@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/iframe-button
+author: TonGerner
+core-version: >=5.1.14
+created: 20170605134736252
+creator: TonGerner
+description: Iframe button
+list: readme
+modified: 20191230200427259
+modifier: TonGerner
+name: Iframe button
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.9
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/iframe-button
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2fiframe-button
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

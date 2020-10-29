@@ -1,0 +1,23 @@
+title: $:/PublicSidebar/PublicMenu
+created: 20150819214803334
+modified: 20150822031447331
+original-tags: $:/tags/SideBar
+source-wiki-id: PublicSidebar
+source-tiddler-title-as-text: PublicMenu
+source-tiddler-title-as-link: PublicMenu
+
+<div class="public">
+
+So this is a __[[public menu|PublicMenu]]__ that can contain<br>
+and be styled any way you want, including<br>
+the title etc above here, of course.
+
+*[[About PublicSidebar]]
+*PublicMenu (this menu)
+*$:/PublicSidebar/main
+*[[Sidebar CSS overview]]
+*[[Set up your menu tiddler like this]]
+
+<br><br><br>@@margin-left:70px; <$link to="Bigger community ⇄ Better TW">[img width=100 [You didn't import this image or the tiddler it leads to|$:/img/fishclick]]</$link>@@
+
+</div>

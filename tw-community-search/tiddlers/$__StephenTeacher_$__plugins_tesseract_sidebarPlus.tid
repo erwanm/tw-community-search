@@ -1,0 +1,16 @@
+title: $:/StephenTeacher/$:/plugins/tesseract/sidebarPlus
+author: Riz
+created: 20161215105453851
+dependents: $:/core
+description: Sidebar Plus
+list: readme
+modified: 20161215165148451
+source: https://tesseract-index.bitbucket.io/
+version: 0.3.12
+original-tags: 
+source-wiki-id: StephenTeacher
+source-tiddler-title-as-text: $:/plugins/tesseract/sidebarPlus
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftesseract%2fsidebarPlus
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

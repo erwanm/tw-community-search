@@ -1,0 +1,35 @@
+title: $:/TWaddle/@ttention
+created: 20150702095356854
+creator: Mat
+modified: 20150728154856084
+modifier: Mat
+summary: Individual attention-calls for various articles
+original-tags: 
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: @ttention
+source-tiddler-title-as-link: %40ttention
+
+\define revatt(who)
+<$reveal type="nomatch" state="$:/state/attention/$who$" text="show">
+
+<$button set="$:/state/attention/$who$" setTo="show"><$view tiddler=$who$ field="title" format="text">$title$</$view></$button>
+
+</$reveal>
+<$reveal type="match" state="$:/state/attention/$who$" text="show">
+
+<$button set="$:/state/attention/$who$" setTo="hide"><$view tiddler=$who$ field="title" format="text">$title$</$view></$button><br>
+
+//@@color:gray; Hi [[$who$]] - here's some stuff that made me think of you specifically.<br>{{$who$!!note}}@@ //
+
+<$list filter="[tag[$who$]]  +[!sort[recent]]">
+<li><<linkify {{!!title}}>></li><dd>@@font-size:95%;color:gray; {{!!summary}}@@</dd>
+</$list>
+
+<$list filter="[{!!title}backlinks[]first[]]">//@@color:gray; BTW, you're mentioned in these articles:@@ //<br></$list><$list filter="[{!!title}backlinks[]sort[title]]">@@font-size:90%;color:crimson; &nbsp;∘  &nbsp; @@<<linkify {{!!title}}>></$list>
+
+</$reveal>
+\end
+
+<$list filter="[all[tiddlers]tags[]prefix[@]] -[[@TWaddle]]">
+  <$macrocall $name=revatt who={{!!title}}/>
+</$list>

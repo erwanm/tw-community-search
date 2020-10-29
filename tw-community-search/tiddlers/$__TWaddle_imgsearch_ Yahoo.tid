@@ -1,0 +1,25 @@
+title: $:/TWaddle/imgsearch: Yahoo
+created: 20150413121329295
+creator: Mat
+modified: 20150715203324771
+modifier: Mat
+note: Overrides my iframe settings. 
+recent: 15/04/13	
+original-tags: imgsearch OK
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: imgsearch: Yahoo
+source-tiddler-title-as-link: imgsearch%3a%20Yahoo
+
+<div style="position:relative;"><div style="position: absolute; width: 100%; top:0px;">
+
+<iframe src="https://se.images.search.yahoo.com/"  
+  style="width: 100%; height: 350px; 
+             margin-top: -25px; 
+             border: 0px; 
+             overflow-x:hidden;
+             overflow-y:auto; ">
+</iframe>
+
+</div></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

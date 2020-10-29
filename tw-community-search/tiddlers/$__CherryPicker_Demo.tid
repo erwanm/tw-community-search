@@ -1,0 +1,51 @@
+title: $:/CherryPicker/Demo
+created: 20160403172747969
+modified: 20160604130632781
+original-tags: About
+source-wiki-id: CherryPicker
+source-tiddler-title-as-text: Demo
+source-tiddler-title-as-link: Demo
+
+<span style="float:right;">(For ''stress/bug testing'', instead go [[here|Stress testing]].)</span>
+<$reveal type="nomatch" state="$:/state/Instrux" text="show">
+
+<$button set="$:/state/Instrux" setTo="show" class="tc-btn-invisible tc-tiddlylink button-border">Instructions ▸</$button><br><br>
+
+</$reveal>
+<$reveal type="match" state="$:/state/Instrux" text="show" style="border: 1px solid lightgreen; padding:0 10px;">
+
+<$button set="$:/state/Instrux" setTo="hide" class="tc-btn-invisible tc-tiddlylink button-border">close instrux</$button>
+
+!!!Marking
+In the two ("live") sample editors below, use either `@bob` or `XXX` as marks. 
+
+To mark a...
+
+*segment; //surround// it with marks XXXlike soXXX (note where spaces are or not)
+*single word; //precede// it with the mark like XXXthis to only get that word ("this").
+
+!!!Cherry Picking
+...is already set up in the Demo, for `@bob` and `XXX`
+
+Hover/click{{cherrybullet.png}} to access source tiddler.
+
+!!!Careful
+*with problematic characters `[ { < "` (more?)
+*Note that e.g marker `@bob` also captures `@bobsled`
+*You can currently not call the macro in the same tiddler where you're picking from! (In the demo, this is solved by using editors to some other tiddlers.)
+
+<br><span style="float:right; margin-top:-1em; font-size:80%;"><$button set="$:/state/Instrux" setTo="hide" class="tc-btn-invisible tc-tiddlylink button-border">close instrux</$button></span>
+
+</$reveal>
+
+
+''Editor'' for [[some tiddler|Source text 1]]
+<$edit-text tiddler="Source text 1" class="myeditor" tag="textarea" autoHeight />
+''Editor'' for [[another tiddler|Source text 2]]
+<$edit-text tiddler="""Source text 2""" class="myeditor" tag="textarea" autoHeight />
+
+...''results'' using `<<cherrypicker "@bob">>` and `<<cherrypicker "xxx">>`
+
+<<cherrypicker "@bob">>
+
+<<cherrypicker "xxx">>

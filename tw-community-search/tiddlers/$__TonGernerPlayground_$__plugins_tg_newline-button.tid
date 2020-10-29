@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/newline-button
+author: TonGerneer
+core-version: <=5.1.13
+created: 20170519144130151
+creator: TonGerner
+description: Newline button
+list: readme
+modified: 20191230200117768
+modifier: TonGerner
+name: Newline button
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.8
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/newline-button
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2fnewline-button
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

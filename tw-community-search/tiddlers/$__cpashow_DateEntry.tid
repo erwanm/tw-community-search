@@ -1,0 +1,193 @@
+title: $:/cpashow/DateEntry
+created: 20150614154316889
+journal: 
+modified: 20150625012012943
+mydatefield: 20160409
+tasks: 
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: DateEntry
+source-tiddler-title-as-link: DateEntry
+
+\define selectDateIntoField(fieldName)
+    <<selectDate>>
+    <$macrocall $name="putDateInField"
+            tiddlerName=<<currentTiddler>>
+            fieldName="$fieldName$"
+            buttonText="Save Date"
+    />
+    Date = <$view tiddler=<<currentTiddler>> field="$fieldName$"/>
+\end
+\define put3ValuesInField((tiddlerName, fieldName, one, two, three, buttonText)
+    <$macrocall $name="putValueInField"
+            tiddlerName="$tiddlerName$"
+            fieldName="$fieldName$"
+            textValue="$one$$two$$three$"
+            buttonText="$buttonText$"
+    />
+\end
+\define putDateInField(tiddlerName, fieldName, buttonText:"Put")
+    <$macrocall $name="put3ValuesInField"
+            tiddlerName="$tiddlerName$"
+            fieldName="$fieldName$"
+            one={{$:/_cpa/temp/DateEntryYear}}
+            two={{$:/_cpa/temp/DateEntryMonth}}
+            three={{$:/_cpa/temp/DateEntryDay}}
+            buttonText="$buttonText$"
+    />
+\end
+\define putValueInField(tiddlerName, fieldName, textValue, buttonText:"Set Date")
+    <$button>
+        <$action-setfield $tiddler="$tiddlerName$" $fieldName$="$textValue$"/>
+        $buttonText$
+    </$button>
+\end
+\define selectDate() <<selectYear>><<selectMonth>><<selectDay>>
+\define selectTimeZone()
+    <$select tiddler="$:/_cpa/temp/DateEntryTimeZone" default="00" >
+        <option value="">--</option>
+        <$list filter="00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23">
+            <option value=<<currentTiddler>> ><<currentTiddler>></option>
+        </$list>
+    </$select>
+\end
+\define selectYear()
+    <$select tiddler="$:/_cpa/temp/DateEntryYear" default=<<now YYYY>> >
+        <option value="">--</option>
+        <$list filter="2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020">
+            <option value=<<currentTiddler>> ><<currentTiddler>></option>
+        </$list>
+    </$select>
+\end
+\define selectMonth()
+    <$select tiddler="$:/_cpa/temp/DateEntryMonth" default=<<now 0MM>> >
+        <option value="">--</option>
+        <$list filter="01 02 03 04 05 06 07 08 09 10 11 12">
+            <option value=<<currentTiddler>> ><<currentTiddler>></option>
+        </$list>
+    </$select>
+\end
+\define selectDay()
+    <$select tiddler="$:/_cpa/temp/DateEntryDay" default=<<now 0DD>> >
+        <option value="">--</option>
+        <$list filter="01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31">
+            <option value=<<currentTiddler>> ><<currentTiddler>></option>
+        </$list>
+    </$select>
+\end
+\define easyShowDate()
+    <$macrocall $name="showDate"
+            Year={{$:/_cpa/temp/DateEntryYear}}
+            Month={{$:/_cpa/temp/DateEntryMonth}}
+            Day={{$:/_cpa/temp/DateEntryDay}}
+            TimeZone={{$:/_cpa/temp/DateEntryTimeZone}}
+    />
+\end
+\define showDate(Year:"2015", Month:"01", Day:"02", TimeZone:""00", format:"MMM-DDth-YYYY")
+    <$view tiddler="$Year$$Month$$Day$$TimeZone$" 
+            field="title" 
+            format="date" 
+            template="$format$" 
+    />
+\end
+
+What we want to do is select a date, display it in the local timezone (Not the default UTC) and store it in a field 
+
+# Final output
+#* <<selectDateIntoField "mydatefield">>
+# Code
+#* <span>
+`<<selectDateIntoField "mydatefield">>`
+</span>
+# Explanation of how this is done
+#* Create 4 select macros to store dates in temp tiddlers <span>
+`<<selectYear>>`, `<<selectMonth>>`, `<<selectDay>>` and `<<selectTimeZone>>`
+</span>
+#* Configure the system by selecting the timezone <<selectTimeZone>>
+#* Then select a date using these 3 select fields:<<selectYear>><<selectMonth>><<selectDay>>
+#* And display them so you can see how it works:
+#** Year   =`{{$:/_cpa/temp/DateEntryYear}}`  ={{$:/_cpa/temp/DateEntryYear}}
+#** Month=`{{$:/_cpa/temp/DateEntryMonth}}`={{$:/_cpa/temp/DateEntryMonth}}
+#** Day    =`{{$:/_cpa/temp/DateEntryDay}}`   ={{$:/_cpa/temp/DateEntryDay}}
+#** ~TimeZone    =`{{$:/_cpa/temp/DateEntryTimeZone}}`   ={{$:/_cpa/temp/DateEntryTimeZone}}
+# Create another macro `<<showDate>>` to display the date using any date format
+#* Use this trick: `<$view tiddler="`{{$:/_cpa/temp/DateEntryYear}}{{$:/_cpa/temp/DateEntryMonth}}{{$:/_cpa/temp/DateEntryDay}}`" field="title" format="date"  template="MMM-DDth-YYYY" />`
+#** <span>
+`\define showDate(Year, Month, Day, TimeZone:""00", format:"MMM-DDth-YYYY")
+    <$view tiddler="$Year$$Month$$Day$$TimeZone$" 
+            field="title" 
+            format="date" 
+            template="$format$"
+    />
+\end`
+</span>
+#* Then execute that macro
+#** <span>
+`<$macrocall $name="showDate"
+        Year={{$:/_cpa/temp/DateEntryYear}}
+        Month={{$:/_cpa/temp/DateEntryMonth}}
+        Day={{$:/_cpa/temp/DateEntryDay}}
+        TimeZone={{$:/_cpa/temp/DateEntryTimeZone}}
+/>`
+</span> <$macrocall $name="showDate"
+        Year={{$:/_cpa/temp/DateEntryYear}}
+        Month={{$:/_cpa/temp/DateEntryMonth}}
+        Day={{$:/_cpa/temp/DateEntryDay}}
+        TimeZone={{$:/_cpa/temp/DateEntryTimeZone}}
+/>
+# So now I'm lazy and I want to execute that macro without typing all that text so I define a macro to type that for me
+#* <span>
+`\define easyShowDate()
+<$macrocall $name="showDate"
+        Year={{$:/_cpa/temp/DateEntryYear}}
+        Month={{$:/_cpa/temp/DateEntryMonth}}
+        Day={{$:/_cpa/temp/DateEntryDay}}
+        TimeZone={{$:/_cpa/temp/DateEntryTimeZone}}
+/>
+\end`
+</span>
+
+#* And execute it `<<easyShowDate>>`
+#* <<easyShowDate>>
+# And I'm lazy and I don't want to type 3 macro names when I want to select a date so I create `<<selectDate>>`
+#* <<selectDate>>
+# To put the date string into a field first I'll need a `<<putValueInField>>` macro
+#* <span>
+`\define putValueInField(tiddlerName, fieldName, textValue, buttonText:"Set Date")
+    <$button>
+        <$action-setfield $tiddler="$tiddlerName$" $fieldName$="$textValue$"/>
+        $buttonText$
+    </$button>
+\end
+`
+</span>
+# Since I'm putting three values into the field I need a 3Values macro
+#* <span>
+`\define put3ValuesInField((tiddlerName, fieldName, one, two, three, buttonText)
+    <$macrocall $name="putValueInField"
+            tiddlerName="$tiddlerName$"
+            fieldName="$fieldName$"
+            textValue="$one$$two$$three$"
+            buttonText="$buttonText$"
+    />
+\end`
+</span>
+#Now the putDateInField macro
+#* <span>
+`\define putDateInField(tiddlerName, fieldName, buttonText:"Put")
+    <$macrocall $name="put3ValuesInField"
+            tiddlerName="$tiddlerName$"
+            fieldName="$fieldName$"
+            one={{$:/_cpa/temp/DateEntryYear}}
+            two={{$:/_cpa/temp/DateEntryMonth}}
+            three={{$:/_cpa/temp/DateEntryDay}}
+            buttonText="$buttonText$"
+    />
+\end
+`
+</span>
+#* To test it we run it against this tiddler and display the field
+#** `<<putDateInField "DateEntry" "mydatefield" "Put Date in My Date Field">>` <<putDateInField "DateEntry" "mydatefield" "Put Date in My Date Field">>
+#* <<selectDate>>
+#** And display that field `{{!!mydatefield}}` = {{!!mydatefield}}
+

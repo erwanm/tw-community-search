@@ -1,0 +1,13 @@
+title: $:/listops/TW2Parser Plugin
+created: 20160107223340750
+list: 
+modified: 20160107223725794
+type: text/vnd.tiddlywiki
+original-tags: [[Plugin Editions]]
+source-wiki-id: listops
+source-tiddler-title-as-text: TW2Parser Plugin
+source-tiddler-title-as-link: TW2Parser%20Plugin
+
+This experimental plugin adds the ability to display WikiText written for the original Classic version of TiddlyWiki.
+
+See http://tiddlywiki.com/plugins/tiddlywiki/tw2parser/

@@ -1,0 +1,11 @@
+title: $:/cpashow/Test a Number
+created: 20160407201423850
+modified: 20160407203619895
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Test a Number
+source-tiddler-title-as-link: Test%20a%20Number
+
+`<<calcNumber "3.2767" "toFixed" "3">>`
+
+<<calcNumber "3.2767" "toFixed" "3">>

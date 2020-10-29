@@ -1,0 +1,13 @@
+title: $:/maketid/Highlight Plugin
+created: 20160107223417655
+list: 
+modified: 20160107223725805
+type: text/vnd.tiddlywiki
+original-tags: [[Plugin Editions]]
+source-wiki-id: maketid
+source-tiddler-title-as-text: Highlight Plugin
+source-tiddler-title-as-link: Highlight%20Plugin
+
+The Highlight plugin provides the ability to apply syntax colouring to text.
+
+See http://tiddlywiki.com/plugins/tiddlywiki/highlight/

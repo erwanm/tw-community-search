@@ -1,0 +1,26 @@
+audience: 
+category: Graphics
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: rboue
+modified: 20151007212627812
+name: Three.js
+plugin_tiddler: $:/plugins/rboue/Three.js
+release: 
+repository: 
+revision: 1.0.0
+short_description: Adds the ability to use three.js to make 3d visualizations and animations in tiddlywiki
+title: twCard - Plugin - Three.js
+wiki: http://rboue.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: rboue plugins
+twcs-extracted-plugin-tiddler: $:/rboue plugins/$:/plugins/rboue/Three.js
+twcs-description: Three.js
+twcs-author: rboue
+twcs-version: 1.0.0
+
+{{||$:/CommunityPluginTemplate}}

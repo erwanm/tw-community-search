@@ -1,0 +1,4 @@
+title: Example
+new-tiddler: Tag: Example
+
+{{||$:/ObsoleteCommunityTagTemplate}}

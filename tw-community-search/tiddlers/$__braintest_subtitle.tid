@@ -1,0 +1,11 @@
+title: $:/braintest/subtitle
+created: 20140217140905905
+creator: Danielo Rodriguez
+modified: 20140217152101595
+modifier: Danielo Rodriguez
+original-tags: 
+source-wiki-id: braintest
+source-tiddler-title-as-text: subtitle
+source-tiddler-title-as-link: subtitle
+
+<div class="tw-subtitle"><$link to={{!!modifier}}><$view field="modifier"/></$link> <$view field="modified" format="relativedate"/></div>

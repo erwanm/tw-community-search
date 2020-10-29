@@ -1,0 +1,24 @@
+audience: 
+category: Data Presentation
+created: 20151015075959708
+creator: Sylvain Comte
+date: 20-12-2016
+homepage: http://sycom.gitalb.io/TiddlyWiki-Plugins
+install_link: 
+language: English
+license: 
+maintainer: sycom
+modified: 20161220134546787
+modifier: Sylvain Comte
+name: Leaflet maps plugin
+plugin_tiddler: $:/plugins/sycom/leaflet
+release: 
+repository: https://framagit.org/sycom/TiddlyWikiPlugins
+revision: 0.7.3
+short_description: A plugin to make geographical maps from and within your tiddlers
+title: twCard - Plugin - Leaflet maps
+wiki: http://sycom.gitalb.io/TiddlyWiki-Plugins
+tags: [[Plugin twCard]] widget- widget-<$leafmap> CommunityPlugins
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+
+{{||$:/CommunityPluginTemplate}}

@@ -5,8 +5,10 @@ tags: CommunityWikis
 title: StretchText
 type: text/vnd.tiddlywiki
 wiki-address: http://stretchtext.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.13
+wiki-latest-modification: 20201004162028609
+wiki-nb-tiddlers: 2
 
+an alternative to links and pop-ups
 
 {{||$:/CommunityWikiPresentationTemplate}}

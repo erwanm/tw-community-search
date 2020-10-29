@@ -1,0 +1,15 @@
+title: $:/cpashow/TiddlyWiki Pre-release
+created: 20150401045053346
+modified: 20150401045059385
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: TiddlyWiki Pre-release
+source-tiddler-title-as-link: TiddlyWiki%20Pre-release
+
+This is a pre-release build of TiddlyWiki. <<version>>
+
+It is provided for testing purposes. Please don't try to use it for anything important -- you should use the latest official release from http://tiddlywiki.com.
+
+Try out the experimental system tiddler browser:
+
+[[$:/core/ui/MoreSideBar/Explore]]

@@ -1,0 +1,32 @@
+title: $:/TWaddle/Local images - embedded AND as file
+created: 20150403225353288
+creator: Mat
+modified: 20150725220412904
+modifier: Mat
+recent: 15/04/04	
+thankyou: @EricShulman
+original-tags: Tidbit Graphics Automation
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Local images - embedded AND as file
+source-tiddler-title-as-link: Local%20images%20-%20embedded%20AND%20as%20file
+
+In a [[discussion|https://groups.google.com/d/msg/tiddlywiki/S8ieFgmorkw/hK3dj_J91OEJ]], [[@EricShulman]] explains how to ....
+
+```
+[...] do *both* embedded and local images... without any need for setting "_canonical_uri":
+
+1) place your image files in a local sub-folder called "images/"
+2) drag and drop the files into your TiddlyWiki to make base64-encoded binary tiddlers (the image filenames will be the tiddler titles)
+3) rename each binary tiddler to add "images/" to the beginning of each title
+4) use "[img[images/filename.ext]]" syntax to embed the images in your content
+
+Because the images are stored as tiddlers, the [img[images/...]] syntax will display the internal base64-encoded images.  However, if the document starts to get too big, you can always just *delete* some or all of the images tiddlers... the embedded [img[images/...]] will then simply use the external, local image files instead, without having to change your content.
+
+Note that the "images/" prefix on the tiddler names is simply to allow you to keep the images in a subfolder.  If you keep your images in the same folder as your TiddlyWiki document, then you can drag and drop the images, skip the renaming, and just use "[img[filename.ext]]" to embed them in your content.
+
+enjoy,
+-e
+```
+
+''Unclear (because I haven't tried yet):''<br>
+For a TW on ~TiddlySpot, where there is no accessible folder, could you still use the technique by hosting your images in some other storage service e.g Google Drive?

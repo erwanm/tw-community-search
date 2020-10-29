@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/inmysocks/extrafilters'
-name: unknown
-plugin_tiddler: $:/plugins/inmysocks/extrafilters
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

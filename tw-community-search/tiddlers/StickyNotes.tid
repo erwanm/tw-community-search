@@ -5,8 +5,9 @@ tags: CommunityWikis
 title: StickyNotes
 type: text/vnd.tiddlywiki
 wiki-address: http://stickynotes.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151204192748271
+wiki-nb-tiddlers: 7
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

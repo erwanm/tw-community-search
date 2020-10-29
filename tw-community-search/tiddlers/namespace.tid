@@ -3,8 +3,10 @@ tags: CommunityWikis
 type: text/vnd.tiddlywiki
 wiki-address: http://namespace.tiddlyspot.com
 author: TobiasBeer
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.5
+wiki-latest-modification: 20141123192734845
+wiki-nb-tiddlers: 13
 
+slicing and dicing tiddler titles
 
 {{||$:/CommunityWikiPresentationTemplate}}

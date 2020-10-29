@@ -3,8 +3,10 @@ tags: CommunityWikis
 type: text/vnd.tiddlywiki
 wiki-address: http://let.tiddlyspot.com
 author: TobiasBeer
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.7
+wiki-latest-modification: 20150107173350409
+wiki-nb-tiddlers: 60
 
+a filter to compare and compute
 
 {{||$:/CommunityWikiPresentationTemplate}}

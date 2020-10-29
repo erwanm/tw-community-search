@@ -1,0 +1,59 @@
+title: $:/ViewFields/TextNeditTemplate
+created: 20160615134335257
+creator: twMat
+list-after: $:/core/ui/EditTemplate/body
+modified: 20160615152559615
+modifier: twMat
+placeholder-text: Type text for the field
+original-tags: $:/tags/EditTemplate
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: TextNeditTemplate
+source-tiddler-title-as-link: TextNeditTemplate
+
+\define lingo-base() $:/language/EditTemplate/Body/
+\define placeholder-text() Type the text for field
+\define delete-textn(textn)
+<span class="delete-textn">{{$:/core/images/delete-button}}<span class="show-hover">$textn$</span></span>
+\end
+
+<$list filter="[is[current]!has[_canonical_uri]]">
+
+<$reveal state="$:/state/showeditpreview" type="match" text="yes">
+
+<$list filter="[all[current]fields[]regexp[^text\d]sort[]]" variable="textn-field">
+<$button class="tc-edit-field-remove tc-btn-invisible" style="float:left;" tooltip={{$:/language/EditTemplate/Field/Remove/Hint}} aria-label={{$:/language/EditTemplate/Field/Remove/Caption}}>
+<$action-deletefield $field=<<textn-field>>/>
+<$macrocall $name="delete-textn" textn=<<textn-field>>/>
+</$button>
+
+<div class="tc-tiddler-preview">
+<div class="tc-tiddler-preview-preview">
+<$set name="tv-tiddler-preview" value="yes">
+
+<$transclude field=<<textn-field>>/>
+
+</$set>
+</div>
+
+<div class="tc-tiddler-preview-edit">
+<$edit-text field=<<textn-field>> tag="textarea" class="tc-edit-texteditor" placeholder={{TextNeditTemplate!!placeholder-text}}/>
+</div>
+</div>
+</$list>
+
+</$reveal>
+
+<$reveal state="$:/state/showeditpreview" type="nomatch" text="yes">
+
+<$list filter="[all[current]fields[]regexp[^text\d]sort[]]" variable="textn-field">
+<$button class="tc-edit-field-remove tc-btn-invisible" style="float:left;" tooltip={{$:/language/EditTemplate/Field/Remove/Hint}} aria-label={{$:/language/EditTemplate/Field/Remove/Caption}}>
+<$action-deletefield $field=<<textn-field>>/>
+<$macrocall $name="delete-textn" textn=<<textn-field>>/>
+</$button>
+
+<$edit-text field=<<textn-field>> tag="textarea" class="tc-edit-texteditor" placeholder={{TextNeditTemplate!!placeholder-text}}/>
+
+</$list>
+</$reveal>
+
+</$list>

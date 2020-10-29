@@ -1,0 +1,43 @@
+title: $:/TW5BreadCrumbs/Introduction
+created: 20140121171138645
+creator: TonGerner
+modified: 20200204163041050
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+!! [[Introduction]]
+
+<<<
+''Note:''
+
+* Based on Buggyj's [[StoryTopTabs plugin|http://bjtools.tiddlyspot.com/#StoryTopTabs]]<br>(my deprecated Breadcrumbs plugin did not show the active tab; the Tiddlersbar does show the active tab)
+* Available as a plugin, just drag & drop:
+*# [[$:/plugins/tg/tiddlersbar]] (v<<pversion "tiddlersbar">>)
+*# [[$:/plugins/tg/layout]] (v<<pversion "layout">>)<br>to your wiki to add the tiddlersbar plugin
+* The layout tweaks plugin contains 'general' settings for the layout, see <<pslider "readme of plugin" "$:/plugins/tg/layout/readme">>
+* The Tiddlersbar works best in zoomin mode.
+* The Tiddlersbar can be combined with  my 'topmenu' and 'toolbar' plugin, see [[$:/plugins/tg/layout/combination]].
+<<<
+
+This guide describes how a <<slider "Tiddlersbar (breadcrumbs)" "Breadcrumbs info">> can be added.
+
+The Tiddlersbar can be toggled ''on/off'' with the {{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}/{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}} button (in Page Toolbar and/or View Toolbar).
+
+To see the Tiddlersbar in action in this demo, open a few tiddlers (Sidebar, tab 'Recent').<br>After that you can go to opened tiddlers by clicking a tab/breadcrumb and/or close them by clicking the 'x' at the right of the tab/breadcrumb (the same functionality as in the Sidebar, tab 'Open').
+
+This guide describes how the Tiddlersbar is made (code and styles involved).
+
+<<<
+''Note:''
+
+* This TW uses:
+** The Tiddlersbar plugin v<<pversion "tiddlersbar">>
+** The Layout tweaks plugin <<pversion "layout">>
+** The Emphasized theme v<<tversion "emphasized">>
+** The Bluish color palette v{{$:/palettes/Bluish!!version}}
+** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]].
+<<<
+

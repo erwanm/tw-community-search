@@ -1,0 +1,27 @@
+title: $:/TonGernerPlayground/Left menu plugin
+caption: Left menu
+created: 20200428124614838
+creator: TonGerner
+modified: 20200428125426014
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Left menu plugin
+source-tiddler-title-as-link: Left%20menu%20plugin
+
+!! [[Left menu plugin]] v<<pversion "leftmenu">>
+
+@@.sliderBG
+<div>
+
+!!!!Readme (from plugin)
+<$transclude tiddler="$:/plugins/tg/leftmenu" subtiddler="$:/plugins/tg/leftmenu/readme" mode="block"/>
+</div>
+@@
+<hr>
+
+Drag & drop the following links to your wiki to install this plugin.
+
+* [[$:/plugins/tg/leftmenu]]
+* [[$:/plugins/tg/layout]]

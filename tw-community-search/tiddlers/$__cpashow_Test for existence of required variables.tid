@@ -1,0 +1,27 @@
+title: $:/cpashow/Test for existence of required variables
+created: 20190614000107995
+creator: Fabulo Profundo
+modified: 20190614001332493
+modifier: Fabulo Profundo
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Test for existence of required variables
+source-tiddler-title-as-link: Test%20for%20existence%20of%20required%20variables
+
+\define test()
+	<$list filter="[[$(targetTiddler)$]] [[$(targetField)$]] -[[]] +[count[]] -2" emptyMessage=
+	""" 
+		its ok
+	""">
+		You must set the values of these variables to use the Button-Manage-Item-To-FieldList macro:
+		<$reveal default="$(targetTiddler)$" text="" type="match">
+			targetTiddler
+		</$reveal>
+		<$reveal default="$(targetField)$" text="" type="match">
+			targetField
+		</$reveal>
+	</$list>
+\end
+<$vars targetTiddler="test" targetField="testing">
+<<test>>
+</$vars>

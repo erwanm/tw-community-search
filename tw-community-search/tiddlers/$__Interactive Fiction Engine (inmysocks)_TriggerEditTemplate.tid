@@ -1,0 +1,213 @@
+title: $:/Interactive Fiction Engine (inmysocks)/TriggerEditTemplate
+created: 20141116170205200
+current_trigger_editing: TestTrigger
+modified: 20141129061632455
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: TriggerEditTemplate
+source-tiddler-title-as-link: TriggerEditTemplate
+
+\define setTriggerLocation()
+
+<$tiddler tiddler=$(triggerTiddler)$>
+<$reveal type='match' state='!!trigger_type' text='item_location'>
+Item<br>
+<$select tiddler=$(triggerTiddler)$ field='item'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select><br>
+Location
+<$select tiddler=$(triggerTiddler)$ field='location'>
+<option value='inventory'>Inventory</option>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$select>
+<br>
+</$reveal>
+<$reveal type='match' state='!!trigger_duration' text='switch'>
+<$reveal type='match' state='!!trigger_type' text='button'>
+Inactive
+</$reveal>
+<$reveal type='match' state='!!trigger_type' text='combination'>
+Inactive
+</$reveal>
+</$reveal>
+<$reveal type='nomatch' state='!!trigger_type' text='item_location'>
+Location
+<$select tiddler=$(triggerTiddler)$ field='location'>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Items'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Events'>
+<$list filter='[tag[Event]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Pop-ups'>
+<$list filter='[tag[Popup]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$select>
+<$reveal type='match' state='!!trigger_duration' text='switch'>
+<$reveal type='nomatch' state='!!trigger_type' text='item_location'>
+<br>Active Location: 
+<$select tiddler=$(triggerTiddler)$ field='location2'>
+<optgroup label='Rooms'>
+<$list filter='[tag[Room]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Items'>
+<$list filter='[tag[Item]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Containers'>
+<$list filter='[tag[Container]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Events'>
+<$list filter='[tag[Event]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+<optgroup label='Pop-ups'>
+<$list filter='[tag[Popup]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</optgroup>
+</$select>
+</$reveal>
+</$reveal>
+</$reveal>
+</$tiddler>
+
+\end
+
+\define setTriggerType()
+
+<$select tiddler=$(triggerTiddler)$ field='trigger_type'>
+<option value='button'>Button</option>
+<option value='item_location'>Item Location</option>
+<option value='combination'>Combination Lock</option>
+</$select>
+
+\end
+
+\define setTriggerDuration()
+<$select tiddler=$(triggerTiddler)$ field='trigger_duration'>
+<option value='permanent'>Permanent</option>
+<option value='switch'>Switch</option>
+</$select>
+\end
+
+\define setTriggerButtonText()
+<$tiddler tiddler=$(triggerTiddler)$>
+<$reveal state='!!trigger_type' type='match' text='button'>
+<$reveal state='!!trigger_duration' type='match' text='permanent'>
+Button Text:<$edit-text tiddler=$(triggerTiddler)$ field='button_text'/>
+</$reveal>
+<$reveal state='!!trigger_duration' type='match' text='switch'>
+Inactive Button Text:<$edit-text tiddler=$(triggerTiddler)$ field='button_text'/>
+Active Button Text:<$edit-text tiddler=$(triggerTiddler)$ field='button_text2'/>
+</$reveal>
+</$reveal>
+<$reveal state='!!trigger_type' type='match' text='combination'>
+Locked Button Text:<$edit-text tiddler=$(triggerTiddler)$ field='button_text'/>
+<$reveal state='!!trigger_duration' type='match' text='switch'>
+Unlocked Button Text:<$edit-text tiddler=$(triggerTiddler)$ field='button_text2'/>
+</$reveal>
+</$reveal>
+</$tiddler>
+\end
+
+\define toggleTriggerState(trigger)
+<$reveal state='$(triggerTiddler)$' type='match' text='inactive'>
+<$button set=<<triggerTiddler>> setTo='active'>Toggle</$button>
+</$reveal>
+<$reveal state='$(triggerTiddler)$' type='match' text='active'>
+<$button set=<<triggerTiddler>> setTo='inactive'>Toggle</$button>
+</$reveal>
+\end
+
+\define listTriggers()
+<$select tiddler='Editing Screen' field='current_trigger_editing'>
+<$list filter='[tag[Trigger]!tag[Template]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+\end
+
+\define setCombination()
+<$tiddler tiddler=$(triggerTiddler)$>
+<$reveal type='match' state='!!trigger_type' text='combination'>
+Set Combination:<br>
+<$select tiddler=$(triggerTiddler)$ field=unlock1>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</$select>
+<$select tiddler=$(triggerTiddler)$ field=unlock2>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</$select>
+<$select tiddler=$(triggerTiddler)$ field=unlock3>
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</$select>
+</$reveal>
+</$tiddler>
+\end
+
+<$set name="triggerTiddler" value={{Editing Screen!!current_trigger_editing}}>
+
+| | Edit | Current State | Location |h
+|Trigger:<br><<listTriggers>> |Type:<<setTriggerType>><br>Duration:<<setTriggerDuration>><br><<setTriggerButtonText>><br><<setCombination>> |<<toggleTriggerState>><$list filter=<<triggerTiddler>>><$transclude/></$list>| <<setTriggerLocation>> |
+
+</$set>

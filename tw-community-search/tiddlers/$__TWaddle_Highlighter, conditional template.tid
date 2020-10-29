@@ -1,0 +1,22 @@
+title: $:/TWaddle/Highlighter, conditional template
+created: 20150319114751221
+creator: Mat
+highlighted: <span style="color:crimson;">{{Highlighter, conditional template}}</span>
+modified: 20150715151359295
+modifier: Mat
+recent: 15/03/19
+original-tags: Highlighting HighlightThis
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Highlighter, conditional template
+source-tiddler-title-as-link: Highlighter%2c%20conditional%20template
+
+Hover on the marker to see the text highlighted.<br><br>
+It uses [[$:/_Highlight]] to //overlay// the text with a formatted (e.g "highlighted and annotated") copy of itself - i.e you have ''two'' texts; one without formatting (maybe a report you pasted into TW, or text clipped from the web) and a second copy with your formatting.<br><br>
+These two texts can be separate tiddlers... but in //this// demo I've cheated; I put the formatted text in a field to keep things in one place... and to avoid work, I used a simple //transclusion// of the text and added formatting to this whole transclusion. Real life highlighting is of course more laborious.<br><br>
+To get around this, maybe the [[anti-highlighter|Anti-highlighter concept]] idea can be used.<br><br>
+It is however not practical to keep a What is less practical is that <br><br>
+[[conditional template<br>
+For some reason, the letters in the highlighted overlay is compressed.<br><br>
+(see [[notes|Highlighter - comments]])
+<br>
+<br>

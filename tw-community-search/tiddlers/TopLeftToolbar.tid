@@ -5,8 +5,10 @@ author: Andrew
 title: TopLeftToolbar
 type: text/vnd.tiddlywiki
 wiki-address: http://toplefttoolbar.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.14
+wiki-latest-modification: 20170902161603436
+wiki-nb-tiddlers: 3
 
+for fixed display of buttons on top
 
 {{||$:/CommunityWikiPresentationTemplate}}

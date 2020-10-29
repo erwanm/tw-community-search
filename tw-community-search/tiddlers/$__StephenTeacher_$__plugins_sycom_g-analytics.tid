@@ -1,0 +1,16 @@
+title: $:/StephenTeacher/$:/plugins/sycom/g-analytics
+author: JeremyRuston
+contributor: Sylvain Comte
+core-version: >=5.0.0
+dependents: 
+description: G-Analytics: website statistics
+list: readme settings usage
+revision: 0
+version: 1.3.2
+original-tags: 
+source-wiki-id: StephenTeacher
+source-tiddler-title-as-text: $:/plugins/sycom/g-analytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2fsycom%2fg-analytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

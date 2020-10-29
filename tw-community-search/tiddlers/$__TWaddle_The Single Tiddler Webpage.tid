@@ -1,0 +1,23 @@
+title: $:/TWaddle/The Single Tiddler Webpage
+created: 20150410144202157
+creator: Mat
+modified: 20150725125215894
+modifier: Mat
+recent: 15/04/10	
+original-tags: tiddlyspot Pie
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: The Single Tiddler Webpage
+source-tiddler-title-as-link: The%20Single%20Tiddler%20Webpage
+
+addendum: In coming back to this article months after I wrote it, I note it has the basic idea for what later became [[Create tiddlyspot directly via TW]].
+
+<hr>
+I would like to be able to direct people to individual tiddlers (e.g from TWaddle), i.e without the surrounding rest of the TW.
+
+This is particularly needed now as I write this because TWaddle has not been officially released yet and I'm not comfortable in directing anyone here yet - but there are individual articles that I do wish to share.
+
+How cool would it be if the export feature, allowing you to export a single static tiddler, was made so that you could easily apply specific styling and and just shoot out a single tiddler to become a mini-webpage in it's own? 
+
+Maybe the excellent tiddlyspot service could be made to accept these outshoots to become a new tiddlyspot all together (//thetiddler.tiddlyspot.com//). Or as a subspot under the current (//twaddle.tiddlyspot.com/thetiddler// or perhaps //thetiddler.twaddle.tiddlyspot.com//).<br>[//''addendum'': This idea is further explored in [[Create tiddlyspot directly via TW]] and [[Pull Requests Galore!]] //]
+
+Would be darn cool and useful. Very easy to set up minimal test cases for questions or demos. Or to just make one-off statements on something.

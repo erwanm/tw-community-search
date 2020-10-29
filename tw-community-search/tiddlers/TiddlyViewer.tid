@@ -5,8 +5,10 @@ author: Andrew
 title: TiddlyViewer
 type: text/vnd.tiddlywiki
 wiki-address: http://tiddlyviewer.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.14
+wiki-latest-modification: 20170901131901581
+wiki-nb-tiddlers: 5
 
+for displaying external pages fully formatted
 
 {{||$:/CommunityWikiPresentationTemplate}}

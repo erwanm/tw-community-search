@@ -1,0 +1,11 @@
+title: $:/Checklist/template
+created: 20151226152339335
+modified: 20151226152454460
+newfield: Joe Bloggs
+original-tags: 
+source-wiki-id: Checklist
+source-tiddler-title-as-text: template
+source-tiddler-title-as-link: template
+
+<$radio field="newfield" value="Joe Bloggs">Joe</$radio>
+<$radio field="newfield" value="Stan Theman">Stan</$radio>

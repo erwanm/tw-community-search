@@ -1,0 +1,16 @@
+title: $:/cpashow/each Operator (Examples)
+created: 20150118134611000
+modified: 20150416025038124
+type: text/vnd.tiddlywiki
+original-tags: [[each Operator]] [[Operator Examples]]
+source-wiki-id: cpashow
+source-tiddler-title-as-text: each Operator (Examples)
+source-tiddler-title-as-link: each%20Operator%20%28Examples%29
+
+<<.operator-example 1 "[each[color]]" "List all of the tiddlers which have a field: color">>
+<<.operator-example 2 "[sort[title]each[type]]" "Alphabetically list all tiddlers. Then filter by type and display the first one of that type (as defined by the field: type)">>
+<<.operator-example 3 "[sort[title]each[library]]" "Alphabetically list all tiddlers. Then filter by field: library. Notice that there are 2 results. 1 for library=yes, the other for library doesn't exist">>
+<<.operator-example 4 "[sort[title]has[library]each[library]]" "Alphabetically list all tiddlers. Filter out any without a field library, and then pick the first one for each value">>
+
+
+For an example of using the <<.op each>> operator to generate a two-tier list of groups and members, see [[GroupedLists]].

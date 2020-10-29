@@ -1,0 +1,25 @@
+title: $:/inmysocks/Add recurring events to the category lists
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: it would be useful
+due_day: 
+due_month: 
+due_year: 
+modified: 20150503215232277
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: New Feature
+original-tags: [[New Feature]] [[Planned Update]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add recurring events to the category lists
+source-tiddler-title-as-link: Add%20recurring%20events%20to%20the%20category%20lists
+
+It would be every n days, or n weeks or months or whatever.
+
+This would use the same thing as setting an event as done after its date passes, but instead of adding the finished tag to the event/task, it increments the date field by the required amount.
+
+This may require the action-increment widget and the trigger actions plugin. Also it would require the trigger actions plugin to be able to work given a state based trigger instead of on change.

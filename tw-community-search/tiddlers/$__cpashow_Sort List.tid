@@ -1,0 +1,62 @@
+title: $:/cpashow/Sort List
+created: 20160411045041877
+modified: 20160411052822129
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Sort List
+source-tiddler-title-as-link: Sort%20List
+
+\define switchrows(thisrow, switchrow, thisvalue, switchvalue)
+	<$action-setfield $tiddler="$thisrow$" 
+		$field="sortorder" 
+		$value="$switchvalue$"
+	/>
+	<$action-setfield $tiddler="$switchrow$"
+		$field="sortorder" 
+		$value="$thisvalue$" 
+	/>
+\end
+
+\define switchbutton(thisrow, switchrow)
+	<$macrocall $name="switchrows"
+		thisrow="$thisrow$"
+		switchrow="$switchrow$"
+		thisvalue={{$thisrow$!!sortorder}}
+		switchvalue={{$switchrow$!!sortorder}}
+	/>
+\end
+
+\define putcells(row)
+	<td>
+		<$list filter="A B C D +[sort[sortorder]before[$row$]]"
+			variable="before"
+		>
+			<$button>Up
+				<$macrocall $name="switchbutton"
+					thisrow="$row$" 
+					switchrow=<<before>> 
+				/>
+			</$button>
+		</$list>
+	</td>
+	<td>
+		<$list filter="A B C D +[sort[sortorder]after[$row$]]"
+			variable="after"
+		>
+			<$button>Down
+				<$macrocall $name="switchbutton"
+					thisrow="$row$" 
+					switchrow=<<after>> 
+				/>
+			</$button>
+		</$list>
+	</td>
+\end
+
+<table><tr><th>Title</th><th>Contents</th><th>Up</th><th>Down></th></tr>
+<$list filter="A B C D +[sort[sortorder]]">
+<tr><td>{{!!title}}</td><td>{{!!text}}</td>
+<$macrocall $name="putcells" row={{!!title}} />
+
+</tr>
+</$list>

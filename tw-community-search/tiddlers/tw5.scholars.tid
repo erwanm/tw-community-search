@@ -5,8 +5,10 @@ author: AlbertoMolina
 title: tw5.scholars
 type: text/vnd.tiddlywiki
 wiki-address: http://tw5.scholars.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.0.15-beta
+wiki-latest-modification: 20140824104532658
+wiki-nb-tiddlers: 33
 
+//a notetaking tool powered by// ~TiddlyWiki <<version>>
 
 {{||$:/CommunityWikiPresentationTemplate}}

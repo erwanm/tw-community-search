@@ -1,0 +1,11 @@
+title: $:/CherryPicker/Concept Background
+created: 20160410201121579
+modified: 20160604125115506
+original-tags: About
+source-wiki-id: CherryPicker
+source-tiddler-title-as-text: Concept Background
+source-tiddler-title-as-link: Concept%20Background
+
+The concept originally came up as a [[request|https://groups.google.com/d/msg/tiddlywiki/8rXt-qVqTb0/Jfvu6_gtCgAJ]] on the boards. I made a [[prototype|http://getsegment.tiddlyspot.com/]] which Tobias then made a (most likely improved) [[variant|http://tobibeer.github.io/tb5/#Text%20Excerpts]] of. However, they both relied on CSS trickery to e.g shrink irrelevant text to size 0 etc which just... I dunno, doesn't seem right.
+
+More critically I want really "off the cuff" marks that don't break the workflow when //composing// tiddler text. //Collecting// the cherries is, I think, more of an admin matter and therefore OK with a `<<special macro call>>`.

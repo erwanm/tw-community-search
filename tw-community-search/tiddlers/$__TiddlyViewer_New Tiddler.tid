@@ -1,0 +1,12 @@
+title: $:/TiddlyViewer/New Tiddler
+created: 20170901125418619
+modified: 20170901125741658
+original-tags: 
+source-wiki-id: TiddlyViewer
+source-tiddler-title-as-text: New Tiddler
+source-tiddler-title-as-link: New%20Tiddler
+
+<$button>
+<$action-deletefield $tiddler="$:/plugins/ajh/tiddlyviewer/stylesheet" modified created/>
+Delete "modifed" and "created"
+</$button>

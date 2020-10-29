@@ -1,0 +1,14 @@
+title: $:/tiddlyclip/localtwpng
+created: 20141218120343240
+modified: 20141218120412095
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: [[Tc Local Rules]]
+source-wiki-id: tiddlyclip
+source-tiddler-title-as-text: localtwpng
+source-tiddler-title-as-link: localtwpng
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|[[TITLETID]]||||{"$_canonical_uri":"((*@sublink(@linkURL)*))"},{"$type":"image/png"}||

@@ -1,0 +1,63 @@
+title: $:/TW5BreadCrumbs/Toggle tiddlersbar button
+created: 20150626124602577
+creator: TonGerner
+modified: 20200101152920760
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5BreadCrumbs
+source-tiddler-title-as-text: Toggle tiddlersbar button
+source-tiddler-title-as-link: Toggle%20tiddlersbar%20button
+
+!! [[Toggle tiddlersbar button]]
+
+The tiddlersbar menu on top can be toggled on/off with a button ({{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}}/{{$:/plugins/tg/tiddlersbar/image-tiddlersbar-off}}) in Page Toolbar and/or View Toolbar.
+
+The 'Toggle breadcrumbs' button comprises 4 tiddlers.
+
+* [[$:/plugins/tg/tiddlersbar/button]]
+* [[$:/plugins/tg/tiddlersbar/image-tiddlersbar-off]]
+* [[$:/plugins/tg/tiddlersbar/image-tiddlersbar-on]]
+* [[$:/plugins/tg/tiddlersbar/style-no-tiddlersbar]]
+
+!!$:/plugins/tg/tiddlersbar/button
+
+<<slider "How does the button work?" "How does the button work?">>
+
+[[$:/plugins/tg/tiddlersbar/button]] - tagged with [[$:/tags/PageControls]], and [[$:/tags/ViewToolbar]].
+
+<<sslider "$:/plugins/tg/tiddlersbar/button" "button">>
+
+<<<
+''Note:''
+
+* In case the tiddlersbar is used in combination with other top menus see <<pslider "Other adjustments" "{{Other adjustments}}">>
+* The 'Toggle tiddlersbar' button can be added to the Page Toolbar and/or View Toolbar.
+<<<
+
+!!$:/plugins/tg/tiddlersbar/image-tiddlersbar-off
+
+<<sslider "$:/plugins/tg/tiddlersbar/image-tiddlersbar-off" "image-tiddlersbar-off">>
+
+renders as:
+
+{{$:/plugins/tg/tiddlersbar/image-tiddlersbar-off}}
+
+!!$:/plugins/tg/tiddlersbar/image-tiddlersbar-on
+
+<<sslider "$:/plugins/tg/tiddlersbar/image-tiddlersbar-on" "image-tiddlersbar-on">>
+
+renders as:
+
+{{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}}
+
+!!$:/plugins/tg/tiddlersbar/style-no-tiddlersbar
+Tagged with [[$:/tags/Stylesheet]].
+
+<<sslider "$:/plugins/tg/tiddlersbar/style-no-tiddlersbar" "style-no-tiddlersbar">>
+
+<<<
+''Note:''
+
+* Default nothing of the tiddlersbar menu will be shown (`display: none`). Without this `display: none`, the tiddlersbar will appear at the bottom of the story-river.
+* The 'real' styles for the tiddlersbar menu can be found in [[$:/plugins/tg/tiddlersbar/styles]]!
+<<<

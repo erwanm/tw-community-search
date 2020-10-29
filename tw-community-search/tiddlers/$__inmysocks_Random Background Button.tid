@@ -1,0 +1,15 @@
+title: $:/inmysocks/Random Background Button
+created: 20150311175618164
+modified: 20150311175639026
+original-tags: [[Making a Button to Randomly Change the Background Image]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Random Background Button
+source-tiddler-title-as-link: Random%20Background%20Button
+
+<$list filter='[[$:/data/Random Background URL List]indexes[]nth{$:/state/Random Background!!number}]' variable=ThisIndex>
+<$button tooltip='Change Background Image'>Change Background
+<$action-storecount $filter='[[$:/data/Random Background URL List]indexes[]]' $tiddler='$:/state/Random Background' $field='total_num'/>
+<$action-randval $tiddler='$:/state/Random Background' $field='number' $lower=1 $upper={{$:/state/Random Background!!total_num}} $step=1 $numrolls=1/>
+<$action-setfield $tiddler='$:/state/Random Background' $field=text $value=<<ThisIndex>>/>
+</$button>
+</$list>

@@ -1,0 +1,28 @@
+title: $:/TWaddle/How to disable CamelCase autolink
+created: 20150404013745817
+creator: Mat
+modified: 20150725215524990
+modifier: Mat
+recent: 15/04/04	
+original-tags: HowTo
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: How to disable CamelCase autolink
+source-tiddler-title-as-link: How%20to%20disable%20CamelCase%20autolink
+
+In a [[discussion|https://github.com/Jermolene/TiddlyWiki5/issues/1629]] Mario documents three ways to turn off autolink for CamelCase:
+
+a) use ~CamelCase so the tilde sign will prevent automatic wiki links.
+
+b) use \rules except wikilink at the very top of the tiddler text. This will disable wikilinks for the whole tiddler. Only this one tiddler will be affected.
+
+c) disable the wikilink rule in the code
+
+    open the system tiddler $:/core/modules/parsers/wikiparser/rules/wikilink.js
+    edit the tiddler. (There will be a warning, but that's ok)
+    at the bottom of the code is a field named module-type value: wikirule
+    either delete the field or change the value from wikirule to eg: wikirule_disabled
+        the value text isn't important, it can be anything different to wikirule. .. I choose wikirule_disabled because it makes sense, if someone opens it.
+
+You can see all the core elements if you open the ControlPanel: Plugins: Core plugin or the tiddler named $:/core
+
+IMPORTANT: If you want to enable the wikilink rule again, delete your modified tiddler, so the core can take over again. If you don't delete your tiddler, an eventual core update will not take effect, because the core still uses your modified tiddler. 

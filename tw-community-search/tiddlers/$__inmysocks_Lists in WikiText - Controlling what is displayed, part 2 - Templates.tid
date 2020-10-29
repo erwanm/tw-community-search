@@ -1,0 +1,32 @@
+title: $:/inmysocks/Lists in WikiText - Controlling what is displayed, part 2 - Templates
+caption: Controlling what is displayed, part 2 - Templates
+created: 20150409050710760
+modified: 20160525103016275
+order: 5
+topics_tags: Lists
+original-tags: [[Lists in WikiText]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Lists in WikiText - Controlling what is displayed, part 2 - Templates
+source-tiddler-title-as-link: Lists%20in%20WikiText%20-%20Controlling%20what%20is%20displayed%2c%20part%202%20-%20Templates
+
+If you want to display the same things in many different lists than it can be much more efficient to use a template instead of manually putting the content in each list. To do this you make a tiddler that contains the same content you would put inside the list widget tags. For example the tiddler AnotherExampleListTemplate contains the following:
+
+`<$view field='title'/> - <$view field='modified'/><br>`
+
+and then make a list using:
+
+```
+<$list filter='[tag[Wiki Examples]]' template=AnotherExampleListTemplate>
+
+</$list>
+```
+
+Which gives:
+
+<<exampleSlider """<$list filter='[tag[Wiki Examples]]' template=AnotherExampleListTemplate>
+
+</$list>""" """Show example""" """Hide example""" """AnotherExampleListTemplate example""">>
+
+This is the same as putting `<$view field='title'/> - <$view field='modified'/><br>` inside the list widget tags, but it is often easier to use this if you are going to use the same thing in many different places.
+
+You can also do much more complex things using templates, like having templates used recursively to create things like the table of contents, or the table of contents manager on the [[Dashboard|$:/plugins/inmysocks/Dashboard/Dashboard]].

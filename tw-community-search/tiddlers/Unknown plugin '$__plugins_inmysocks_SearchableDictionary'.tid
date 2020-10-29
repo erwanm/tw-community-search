@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/inmysocks/SearchableDictionary'
-name: unknown
-plugin_tiddler: $:/plugins/inmysocks/SearchableDictionary
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

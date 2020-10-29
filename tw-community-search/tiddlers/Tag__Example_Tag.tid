@@ -1,0 +1,7 @@
+title: Tag: Example Tag
+tags: CommunityTags
+community-tag: Example Tag
+community-tag-count: 1
+community-wikis: [[inmysocks]]
+
+{{||$:/CommunityTagTemplate}}

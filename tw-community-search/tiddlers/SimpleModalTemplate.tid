@@ -5,8 +5,10 @@ tags: CommunityWikis
 title: SimpleModalTemplate
 type: text/vnd.tiddlywiki
 wiki-address: http://simplemodaltemplate.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.17
+wiki-latest-modification: 20160627191656994
+wiki-nb-tiddlers: 9
+
 
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,0 +1,15 @@
+title: $:/ViewFields/
+created: 20160615101722453
+creator: twMat
+modified: 20160615163448110
+modifier: twMat
+text2: *bullet list item to investigate differences in format
+original-tags: 
+source-wiki-id: ViewFields
+source-tiddler-title-as-text: 
+source-tiddler-title-as-link: 
+
+For some reason transcluding changes the size.
+title: Bullet list demo
+
+*bullet list item to investigate differences in format

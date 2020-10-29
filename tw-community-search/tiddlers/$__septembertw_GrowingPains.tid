@@ -1,0 +1,23 @@
+title: $:/septembertw/GrowingPains
+color: #ff2391
+created: 20140910033115358
+creator: AcD
+modified: 20140916233943089
+modifier: AcD
+type: text/vnd.tiddlywiki
+original-tags: GrowingPains
+source-wiki-id: septembertw
+source-tiddler-title-as-text: GrowingPains
+source-tiddler-title-as-link: GrowingPains
+
+GrowingPains tags items relative to the kind of problems less-technical users are likely to stumble on throughout their early learning stages with TiddlyWiki.
+
+Inasmuch as practical, solutions and tutorials will be offered.
+
+<$list filter="[!is[system]tag<currentTiddler>]">
+<div class="tc-menu-list-item">
+
+* <$link to={{!!title}}><$view field="title"/></$link>
+
+</div>
+</$list>

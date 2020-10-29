@@ -1,0 +1,14 @@
+title: $:/TW5ReadOnly/Tinka
+created: 20140716065300510
+creator: TonGerner
+modified: 20170505184349935
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TW5ReadOnly
+source-tiddler-title-as-text: Tinka
+source-tiddler-title-as-link: Tinka
+
+!! [[Tinka plugin|Tinka]]
+
+The plugin [[$:/plugins/tongerner/ro]] was made in a standalone version of TW5 with help of Andreas Hahn's [[Tinka plugin|https://tinkaplugin.github.io/]].
+

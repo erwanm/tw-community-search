@@ -1,0 +1,25 @@
+title: $:/cpashow/WikiNote
+created: 20150429222740351
+modified: 20150429223538340
+original-tags: $:/tags/AboveStory
+source-wiki-id: cpashow
+source-tiddler-title-as-text: WikiNote
+source-tiddler-title-as-link: WikiNote
+
+\define getProperTag() {{$(properTitle)$||$:/core/ui/EditTemplate/tags}} 
+
+<$button class="tc-btn-invisible" popup="$:/WikiNotePopupState" tooltip="Create a quick tiddler. Add text before adding tags">{{$:/core/images/edit-button}} </$button>
+
+<$reveal type="popup" state="$:/WikiNotePopupState">
+<div class="tc-popup-keep">
+
+<div class="tc-tiddler-frame">
+
+!!! <$link to={{$:/temp/Stealth!!newtitle}}>Quick note</$link>
+
+<$edit tiddler="$:/temp/Stealth" field="newtitle" class="tc-edit-texteditor" default="ooo" placeholder="title"/>
+<$set name="properTitle" value={{$:/temp/Stealth!!newtitle}}><<getProperTag>></$set>
+<$edit field="text" class="tc-edit-texteditor" tiddler={{$:/temp/Stealth!!newtitle}} placeholder="your text"/>
+</div>
+</div>
+</$reveal>

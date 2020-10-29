@@ -1,0 +1,22 @@
+title: $:/TWaddle/Need comparison mechanism for upgraded tiddlers
+created: 20150403105404066
+creator: Mat
+modified: 20150725143121356
+modifier: Mat
+recent: 15/04/03	
+original-tags: Proposals Upgrading Feature Major TWdev
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Need comparison mechanism for upgraded tiddlers
+source-tiddler-title-as-link: Need%20comparison%20mechanism%20for%20upgraded%20tiddlers
+
+When you edit and overwrite a shadow tiddler, a copy is created of the original. On upgrading, this copy is updated so that if you delete your edited copy, you're reverted back to the now upgraded original. 
+
+Good - but it is not certain that the upgrade affected that particular tiddler. And you don't know. So your tampering //might// mean you're missing out on an upgrade... or not.
+
+This is not a desirable situation because you might prefer the upgraded version before your tweaked version ''if you only knew'' that it (a) is updated and (b) what the specific change is.
+
+I propose that some kind of message to appear on overwritten tiddlers stating e.g<br> `This is an overwritten shadow tiddler. After overwriting, the original tiddler has been updated from 5.1.7 in upgrades: 5.1.8, 5.1.9`
+
+...or, even better, some kind of //before and after// comparison.
+
+And maybe not only //shadows// but any core tiddler and perhaps also plugins etc. I'm guessing that plugins that are not part of core will eventually have some kind of flag that "There is a new version avaialble" or such. but that's [[another question|Update Alerter Plugin]].

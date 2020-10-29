@@ -1,0 +1,28 @@
+title: $:/TonGernerPlayground/Tristate sidebar
+created: 20140811154029329
+creator: TonGerner
+modified: 20200426195553203
+modifier: TonGerner
+status: upgraded to
+original-tags: documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Tristate sidebar
+source-tiddler-title-as-link: Tristate%20sidebar
+
+!! [[How to create a 'tristate' Sidebar|Tristate sidebar]]
+
+''Status:'' @@.RED {{Tristate sidebar!!status}} v<<version>>@@
+
+''Note:'' @@.brown Available as plugin.@@
+
+This guide describes how to change the standard twostate ({{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality to tristate ({{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality of the Sidebar:
+
+# standard tiddler width with a broad - fluid - sidebar
+#* showing single right chevron button {{$:/core/images/right-arrow}}
+# small Sidebar (width programmable) and fluid tiddler width
+#* showing double right chevron button {{$:/core/images/chevron-right}}
+# fluid tiddler width without Sidebar
+#* showing double left chevron button {{$:/core/images/chevron-left}}
+
+
+''Guide at ~TiddlySpot:''<br>[[How to make a tristate toggle Sidebar|http://tw5tristate.tiddlyspot.com/]]

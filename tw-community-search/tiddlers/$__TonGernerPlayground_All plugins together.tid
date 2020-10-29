@@ -1,0 +1,27 @@
+title: $:/TonGernerPlayground/All plugins together
+created: 20171223103522151
+creator: TonGerner
+modified: 20200425113353975
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: All plugins together
+source-tiddler-title-as-link: All%20plugins%20together
+
+|Plugin |tiddler |version |h
+|Emphasized theme |$:/themes/tg/emphasized	| <<tversion emphasized>>|
+|Mobie theme |$:/themes/tg/mobie | <<tversion mobie>>|
+|Bluish palette |$:/palettes/Bluish | {{$:/palettes/Bluish!!version}}|
+||||
+||||
+|Layout tweaks |$:/plugins/tg/layout| <<pversion layout>>|
+|Top toolbar |$:/plugins/tg/toolbar| <<pversion toolbar>>|
+|Tiddlersbar |$:/plugins/tg/tiddlersbar| <<pversion tiddlersbar>>|
+|Go to bottom |$:/plugins/tg/bottom| <<pversion bottom>>|
+|Exploration |$:/plugins/tg/exploration| <<pversion exploration>>|
+|~TabStory |$:/plugins/tg/tabstory| <<pversion "tabstory">>|
+|Top menu |$:/plugins/tg/topmenu| <<pversion "topmenu">>|
+|Top + left menu |$:/plugins/tg/topleftmenu| <<pversion "topleftmenu">>|
+|Tristate  |$:/plugins/tg/tristate| <<pversion "tristate">>|
+|Simple readonly |$:/plugins/tg/sro| <<pversion "sro">>|
+|Readonly |$:/plugins/tg/ro| <<pversion "ro">>|

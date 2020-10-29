@@ -1,0 +1,37 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Plan
+created: 20141113062635965
+modified: 20141125212054012
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Plan
+source-tiddler-title-as-link: Plan
+
+I need to come up with a way to automatically generate the reset game button. Or at least provide code to copy and paste into the macro to make it simple. Autogeneration would be best. Can I change the content of a macro like that? Maybe have a bunch of tiddlers that are made, one for each item or other thing that needs to be reset, and the content of that tiddler is the line for the macro to reset that object (so location for items, and state for triggers, that may be all that is needed.) and then the macro would be something like `\define resetMacro() <$list filter='[tag[Reset_State]]'><$transclude field=text/></$list>` and would be called by the `Reset Game` button. I have no idea if that would work or not. I need to try that out. Also this means I need to make the editor create a reset_state tiddler for each object that can be reset when it is made, and add that option for creation and editing.
+
+We need to make the 30 images for rooms (1-4 doors in every configuration, each one of those occupied or unoccupied) - This may be pointless since I don't have a way to auto-generate a map so for something other than the 5x5 grid I have set up you would need to manually make the map. I would like something that generates it based on the room topology, but that would require forcing a square grid layout. I don't think a map is going to happen.
+
+Note: While it would be using something outside the core wiki using the taskgraph plugin by Felix Küppers (or something similar, I haven't explored exactly what the plugin can do) to generate the maps would be awesome. http://wkpr.de/hosting/tmp/tw5/taskgraph/
+
+
+Triggering types we should have:
+
+*~~Simple Button - a simple button that triggers the change, it can be located anywhere. Let the user define the text of the button and where it goes, the rest should be done by the authoring tool.~~ done (EventTriggerTemplate)
+*~~Simple switch - a button that toggles the event between states.~~  done (EventTriggerTemplate)
+*Combination lock (because we already use one in the original game) - like the combination lock for the safe, the user defines the number of tumblers and the correct solution and the location. This should be possible without too much effort.
+*player location - the trigger is dependent on the player location, the author just sets the location for this one
+*location of other item - the trigger is dependent on the location of some item in the game. The author sets the item and the location.
+
+Note: The location based triggers will require some functionality that isn't in the core wiki unless I am missing something (that is without a major rewrite of how the system works, I think it would break more than it would fix). I would rather not use anything outside the core wiki functions for the game because it was meant to be a demonstration of how flexible the core tiddlywiki is. The functionality needed to make this work is a widget that works similar to the reveal widget, but instead of displaying text or other content based on some condition, it triggers a widget message/widget messages.
+
+We need to add temporary triggers are only active when in the triggering state, and go inactive when that state changes. This has the same problems as the location based triggers.
+
+Triggers like this could be tied to the movement buttons or the pickup/drop inventory buttons, but that doesn't work with the rest of the framework for the game.
+If I did a complete rewrite and used data tiddlers to store everything I may be able to make something work, but I am not sure.
+
+More is in the comments in EventTriggerTemplate
+
+A pop-up is a modal window that opens and displays stuff. It can have triggers or items in it. At the moment the window opens when a button is pressed and there are no other options. I will look into this. 
+
+Find a way to set two fields with a single select widget so that we don't have to set the trigger for an event twice (once for the first state and again for the second state)
+
+Find a Way to let an item transform based on a trigger. like being able to break the Vase.

@@ -1,0 +1,37 @@
+title: $:/QuickTid/About
+created: 20160307155729542
+creator: twMat
+modified: 20160427224226247
+modifier: twMat
+original-tags: 
+source-wiki-id: QuickTid
+source-tiddler-title-as-text: About
+source-tiddler-title-as-link: About
+
+@@color:crimson;border:1px crimson solid; STILL IN BETA@@
+
+''QuickTid'' (QT) lets you create individual tiddlers very fast. Features include
+
+*direct edit template access
+*"pin" content to reuse it
+*pre-made, selectable, content
+*silent creation of tiddler
+
+''Demo''
+
+*Hover or click (to pin) the faded pin button {{unpinned.png}} in the upper left corner of this TW page.
+*A good first test is to type in some text and then select the "Example with prepost" to see what happens.
+*The rest should be rather self explanatory<br>...but don't miss out on the difference between the two done-buttons.
+
+''Installation''
+
+*Drag $:/plugins/TWaddle/QuickTid into your TW.
+*Drag whichever of the tiddlers tagged <<tag ContentExample>> that you're interested in - but it is easy to make your own templates:
+**prefix title with `Content/<type>/` where type is either //Tool, Styling// or //Text//<br>- see for example tiddler [[Content/Text/Example with prepost]] in edit view.
+
+''Notes''
+
+*QuickTid should work without problems but the code does need some cleaning up.
+*A/the earlier version of QuickTid called FastNewTiddler can be found [[here|http://fastnewtiddler.tiddlyspot.com]].
+*As noted there, @@color:crimson; cred@@ go to ''Jed Carty / inmysocks '' and ''Alberto Molina''.
+*Cred in this version also to Eric Shulman for [[filters/count.js]]. 

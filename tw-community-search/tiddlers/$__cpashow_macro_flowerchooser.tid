@@ -1,0 +1,16 @@
+title: $:/cpashow/macro_flowerchooser
+created: 20160306000523917
+modified: 20160306000628185
+original-tags: $:/tags/Macro
+source-wiki-id: cpashow
+source-tiddler-title-as-text: macro_flowerchooser
+source-tiddler-title-as-link: macro_flowerchooser
+
+\define flowerchooser()
+<$select tiddler="flowerchooser">
+	<option value=""> -- </option>
+	<$list filter="[tag[Flowers]]" variable="curFlower">
+		<option value=<<curFlower>> > <<curFlower>> </option>
+	</$list>
+</$select>
+\end

@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/gt6796c/graph-tw5'
+name: unknown
+plugin_tiddler: $:/plugins/gt6796c/graph-tw5
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

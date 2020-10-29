@@ -1,0 +1,41 @@
+title: $:/TWaddle/WikiText format: Tables
+created: 20150320225137371
+creator: Mat
+modified: 20150715154058637
+modifier: Mat
+recent: 15/03/20
+original-tags: Formatting Pie
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: WikiText format: Tables
+source-tiddler-title-as-link: WikiText%20format%3a%20Tables
+
+Github has added a [[few commands|https://guides.github.com/features/mastering-markdown/]] in the markdown variant //markup//. Among other stuff, they have this syntax for ''tables'':
+
+`First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column`<br>
+
+It's clever that...;
+
+* only the first row has a line under it
+* testing on Gh, I find minimum line to be `---|---` (3 hyphens, 1 pipe, 3 hyphens) 
+* no outer pipes
+
+It appears that headers are necessary. IMO that initial line would be clear enough to specify it's a table.
+
+For a third column, you must both add a third header //and// extend the cross to be: ` ---|---|---
+`. Again, I think that seems like overkill. It might be //nice// to get a quick clear view of how many columns, but `---|---` should be enough to define it as a table.
+
+I would like to see this in TW.
+
+In addition, it would be great if the tabulator button worked, not as jumping between fields (press it in editor and you jump to type field), but instead as it does in regular text editor. This way you could have pretty(...ish) tables also in editmode. It can be very messy to edit a table.
+It'd be enough to disable the field jumping in only the editfield.
+
+If the tab button could also be made to jump to just before pipe characters, perhaps by using SHIFT+TAB, it would be really good!
+
+!!!General on tables...
+
+I understand tables is so far a bit of a problem in TW. I think this is because tables are complex and they can have many different applications. Maybe multiple solutions to create tables would make sense for this reason? Outside of TW, I guess spreadsheet software ("Excel") is the most perfect we have for tables. If this is what we need, then I just want to point out that each single cell in e.g Excel is almost like a full tiddler. A text field, used in both edit and view mode. An X- and Y- coordinate, perhaps most easily created with two fields in TW. Etc. It would, by the way, be easy to add a Z-coordinate or even further dimensions in a way that I think Excel cannot(?).
+
+A desirable feature(?) is a design that lets a user select individual or multiple rows or columns. (Select as in marking out for e.g Ctrl+C). In most (all?) html tables, trying to select a single column will instead select the row content, in effect marking out the whole table.

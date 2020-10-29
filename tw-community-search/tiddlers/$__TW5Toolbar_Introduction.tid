@@ -1,0 +1,39 @@
+title: $:/TW5Toolbar/Introduction
+created: 20131122170358987
+creator: TonGerner
+modified: 20200122203726266
+modifier: TonGerner
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: Introduction
+source-tiddler-title-as-link: Introduction
+
+!! [[Introduction]]
+
+The 'top toolbar' is available as a plugin, just drag & drop:
+
+# [[$:/plugins/tg/toolbar]] (v<<pversion "toolbar">>)
+# [[$:/plugins/tg/layout]] (v<<pversion "layout">>)<br>to your wiki to add the 'Top toolbar' plugin.
+
+<<<
+''Note 1:''
+
+* [[$:/plugins/tg/layout]] - common to many of my plugins - creates a top bar (tagged with [[$:/tags/PageTemplate]]) as background and boundary for a top menu, top toolbar, tiddlersbar, etc.
+** You can tweak the layout e.g. in case extra top space is required for a top toolbar, top menu, tiddlersbar, ...
+* [[$:/plugins/tg/toolbar]] creates a top toolbar with buttons, tagged with [[$:/tags/TopLeftBar]]
+* The 'top toolbar' plugin can be combined with  my 'topmenu', 'tiddlersbar', 'tabstory', and 'uptoolbar' (toolbar above title) plugins
+* As a demo it does not display all top toolbar buttons (click {{$:/core/images/down-arrow}} to display the remaining buttons.
+** ''Note:'' 'List' buttons don't work from the 'More' menu!
+* Buttons can be switched on/off: ''Control panel > Appearance > Toolbars > [['Top toolbar'|$:/core/ui/ControlPanel/Toolbars/TopToolbar]]''
+<<<
+
+<<<
+''Note 2:''
+
+* This TW uses:
+** The Top toolbar plugin v<<pversion toolbar>>
+** The Layout tweaks plugin v<<pversion layout>>
+** The Emphasized theme v<<tversion emphasized>>
+** The Bluish color palette v{{$:/palettes/Bluish!!version}}
+** Emphasized theme, plugin(s), and code tiddlers available at [[My 'playground'|http://tongerner.tiddlyspot.com/]] > Plugins.
+<<<

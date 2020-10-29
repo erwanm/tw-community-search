@@ -1,0 +1,25 @@
+title: $:/t5a/Tag Button Slider
+created: 20160525024552556
+creator: Andrew Harrison
+list: 
+modified: 20170630033741714
+modifier: Andrew Harrison
+original-tags: Examples
+source-wiki-id: t5a
+source-tiddler-title-as-text: Tag Button Slider
+source-tiddler-title-as-link: Tag%20Button%20Slider
+
+<$reveal type="nomatch" state="$:/state/SampleReveal2" text="show">
+
+<$button set="$:/state/SampleReveal2" setTo="show" class="tc-btn-invisible tc-tag-label">Show me</$button>
+
+
+</$reveal>
+<$reveal type="match" state="$:/state/SampleReveal2" text="show">
+
+<$button set="$:/state/SampleReveal2" setTo="hide" class="tc-btn-invisible tc-tag-label">Hide me</$button>
+
+! This is the revealed content
+And this is some text
+
+</$reveal>

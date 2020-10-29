@@ -1,0 +1,15 @@
+title: $:/CherryPicker/Stress testing
+created: 20160604111604932
+modified: 20160604134839998
+original-tags: About
+source-wiki-id: CherryPicker
+source-tiddler-title-as-text: Stress testing
+source-tiddler-title-as-link: Stress%20testing
+
+<$edit-text tiddler="Stylesheet for tests" class="myeditor" tag="textarea" autoHeight="no" />
+<span style="position:absolute; right:5em; margin-top:-2.2em; font-size:80%;">([[tid|Stylesheet for tests]])</span>
+<$edit-text tiddler="text cp5" class="myeditor" tag="textarea" autoHeight="yes"/>
+<span style="position:absolute; right:5em; margin-top:-2.2em; font-size:80%;">([[tid|text cp5]])</span>
+
+<<cherrypicker "@cc">>
+

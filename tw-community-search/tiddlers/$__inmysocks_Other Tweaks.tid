@@ -1,0 +1,16 @@
+title: $:/inmysocks/Other Tweaks
+created: 20150124133255599
+creator: inmysocks
+modified: 20151230094147033
+modifier: inmysocks
+original-tags: $:/tags/ControlPanel
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Other Tweaks
+source-tiddler-title-as-link: Other%20Tweaks
+
+*<$checkbox tiddler='Black Line' tag='$:/tags/ViewTemplate'>Show Horizontal Rule Under Tiddler Titles</$checkbox>
+*<$checkbox tiddler='$:/core/ui/PageTemplate/sidebar' tag='$:/tags/PageTemplate'>Toggle Old Sidebar</$checkbox> (This only hides the menu, it doesn't change the size of the tiddlers)
+*<$checkbox tiddler='Tiddler Breadcrumbs Template' tag='$:/tags/ViewTemplate'>Show Breadcrumbs on Each Tiddler</$checkbox>
+**Path Length Limit: <$edit-text tiddler='Tiddler Breadcrumbs Template' field='length_limit'/>
+**<$checkbox tiddler='Tiddler Breadcrumbs Template' field='use_apex_tag' checked=true unchecked=false>Use Apex Tag</$checkbox>
+**Apex Tag: <$edit-text tiddler='Tiddler Breadcrumbs Template' field='apex_tag' size=20/>

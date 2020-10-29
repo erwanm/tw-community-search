@@ -1,0 +1,17 @@
+title: $:/TWaddle/GTD
+created: 20150801101111975
+creator: Mat
+modified: 20160108012010849
+modifier: Mat
+recent: 15/07/08	
+summary: Potential [[appetizer|Appetizer TiddlyWikis]] and [[application|Application Categories]]
+original-tags: Application Appetizer ProductivityApplications
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: GTD
+source-tiddler-title-as-link: GTD
+
+<<box "{{sw:GTD}}">>
+
+Even if the initial GTD craze passed several years ago, the method probably still remains as the best comprehensive approach for personal productivity. With TW5 we have fellow [[@RomaHicks]] [[GSD5|http://gsd5.tiddlyspot.com/]] + [[git|https://github.com/roma0104/gsd5]]
+
+IMO, using TW as an engine for a GTD application, offers benefits that I doubt other GTD implementations can have. Maybe fundamental ideas in TW are spot on to be used also in a GTD implementation.

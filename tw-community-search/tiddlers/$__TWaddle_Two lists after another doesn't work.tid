@@ -1,0 +1,56 @@
+title: $:/TWaddle/Two lists after another doesn't work
+created: 20150424215909442
+creator: Mat
+modified: 20150715203134803
+modifier: Mat
+recent: 15/04/24	
+original-tags: Quirk Proposal
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Two lists after another doesn't work
+source-tiddler-title-as-link: Two%20lists%20after%20another%20doesn%27t%20work
+
+<br>
+
+<<<
+1. I don't know how to<br>
+2. make two lists following each others
+
+1. to appear like this<br>
+2. i.e as two separately numbered (or bulleted) lists.
+<<<
+
+<br>Check out the code and you'll see the above has hard coded numbers. The following illustrates the problem.
+
+#So, here's a list with only ''two'' bulleted items
+#followed by an empty row.
+
+#Now here comes my second list!
+#...right?
+
+Apparently wrong... ok, guess I must insert a `<br>` in "the only reasonable place" in the code...
+
+#Two items
+#followed by a separate row containing only a `<br>`
+<br>
+#Now this should work!
+#...right?
+
+Clearly not. It broke. Ah, OK, a list must be preceded by an empty line! Maybe I just need //two// empty lines?
+
+#like
+#so
+
+
+#works?
+#...no...!
+
+AHA!
+
+#I must use
+#//both// a `<br>` and an empty line!
+<br>
+
+#perfect! ...not! 
+#now two empty lines do appear.
+
+<br>...etc. I don't know how to do it using simple markup.

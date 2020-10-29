@@ -1,0 +1,22 @@
+audience: 
+category: Utility
+created: 20150106175012859
+date: 
+homepage: http://twguides.org/tinka.html
+install_link: 
+language: 
+license: 
+maintainer: Andreas Hahn
+modified: 20151007205649734
+name: Tinka
+plugin_tiddler: $:/plugins/ahahn/tinka
+release: 
+repository: 
+revision: 0.2.0
+short_description: A plugin that gives a simple way to create plugins.
+title: twCard - Plugin - Tinka
+wiki: http://twguides.org/wiki/tinka.html
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+
+{{||$:/CommunityPluginTemplate}}

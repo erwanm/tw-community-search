@@ -1,0 +1,15 @@
+title: $:/TWaddle/Tiddler-granular services
+created: 20150415061355427
+creator: Mat
+modified: 20150728130114040
+modifier: Mat
+recent: 15/04/16	
+original-tags: Musing
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Tiddler-granular services
+source-tiddler-title-as-link: Tiddler-granular%20services
+
+There are many services that deal with "information chunks" comparable to //tiddlers//. This is interesting because it is an //indication// that it is a type of service that TW might be applied to.
+
+Here's my (arbitrary!) list of //software categories// that I see relevant for TW in "some way", partly because I note that many of them deal with information that could be treated as tiddlers;
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[SoftwareCategory]]">>

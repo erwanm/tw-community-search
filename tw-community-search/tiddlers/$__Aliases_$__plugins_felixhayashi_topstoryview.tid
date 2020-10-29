@@ -1,0 +1,16 @@
+title: $:/Aliases/$:/plugins/felixhayashi/topstoryview
+author: Felix Küppers
+core-version: >=5.1.5
+dependents: 
+description: TopStoryView – Always scroll navigated tiddlers to the top
+list: Configuration License Readme
+released: 
+source: https://github.com/felixhayashi/TW5-TopStoryView
+version: 0.2.0
+original-tags: 
+source-wiki-id: Aliases
+source-tiddler-title-as-text: $:/plugins/felixhayashi/topstoryview
+source-tiddler-title-as-link: %24%3a%2fplugins%2ffelixhayashi%2ftopstoryview
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

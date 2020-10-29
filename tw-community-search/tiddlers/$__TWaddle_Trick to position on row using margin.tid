@@ -1,0 +1,20 @@
+title: $:/TWaddle/Trick to position on row using margin
+created: 20150325112332844
+creator: Mat
+modified: 20150715154137951
+modifier: Mat
+recent: 15/03/25	
+summary: Using a 1px img but specify margin-width to position element.
+original-tags: Formatting Tidbit
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Trick to position on row using margin
+source-tiddler-title-as-link: Trick%20to%20position%20on%20row%20using%20margin
+
+<br>
+`<img alt="" style="margin-right:30%;" />OUCH, stop pushing me 30%!`
+
+<img alt="" style="margin-right:30%;" />OUCH, stop pushing me 3o%!
+
+You could also use e.g "margin-left" if you prefer the little "thingy" just in front of the text. Or you can use an actual image, say 1px big and transparent if you don't want the thingy at all. For this you would need to use the src attribute (wich of course is what is intended for the img tag).
+
+ 

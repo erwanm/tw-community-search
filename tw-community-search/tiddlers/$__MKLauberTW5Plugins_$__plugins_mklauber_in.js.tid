@@ -1,0 +1,16 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/mklauber/in.js
+author: Matt Lauber
+dependents: 
+description: In Filter Operator
+list: 
+plugin-priority: 1
+source: https://github.com/mklauber/tiddly-dice
+summary: Filter operator for checking if elements are in a list
+version: 1.0.0
+original-tags: 
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/mklauber/in.js
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmklauber%2fin.js
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

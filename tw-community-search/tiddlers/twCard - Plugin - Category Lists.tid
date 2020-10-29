@@ -1,0 +1,21 @@
+category: Data Presentation
+created: 20150429193818951
+date: 03-05-2015
+install_link: $:/plugins/inmysocks/CategoryLists
+maintainer: inmysocks
+modified: 20150503172135037
+name: Category Lists
+plugin_tiddler: $:/plugins/inmysocks/CategoryLists
+release: 
+revision: 0.0.6
+short_description: A task list with categories
+title: twCard - Plugin - Category Lists
+wiki: http://inmysocks.tiddlyspot.com
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: inmysocks
+twcs-extracted-plugin-tiddler: $:/inmysocks/$:/plugins/inmysocks/CategoryLists
+twcs-description: A task list split by categories
+twcs-author: inmysocks
+twcs-version: 0.1.3
+
+{{||$:/CommunityPluginTemplate}}

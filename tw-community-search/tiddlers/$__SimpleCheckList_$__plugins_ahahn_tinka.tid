@@ -1,0 +1,16 @@
+title: $:/SimpleCheckList/$:/plugins/ahahn/tinka
+author: Andreas Hahn
+core-version: >=5.1.8
+dependents: 
+description: Tinka - an easy plugin packer
+list: readme usage license
+revision: 0
+source: http://tinkaplugin.github.io
+version: 0.3.0
+original-tags: 
+source-wiki-id: SimpleCheckList
+source-tiddler-title-as-text: $:/plugins/ahahn/tinka
+source-tiddler-title-as-link: %24%3a%2fplugins%2fahahn%2ftinka
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

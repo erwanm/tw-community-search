@@ -1,0 +1,34 @@
+title: $:/TonGernerPlayground/Basic knowledge
+created: 20140726161157154
+creator: TonGerner
+modified: 20200204143423431
+modifier: TonGerner
+original-tags: documentation
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Basic knowledge
+source-tiddler-title-as-link: Basic%20knowledge
+
+@@.sliderBG
+<div>
+
+<hr>
+
+For an introduction to '~TiddlyWiki 5' see:
+
+* Jeremy Ruston's video [[Getting started with TiddlyWiki|http://youtu.be/1g66s7UbyuU]]
+
+The TW5 documentation can be found at:
+
+* http://tiddlywiki.com/
+
+Further information:
+
+* [[How to tweak a TW5 theme (video by Mario Pietsch)|http://www.youtube.com/watch?v=Jva7Azqu0hs&feature=youtu.be]]
+* [[A lot of useful information by Tobias Beer|http://tb5.tiddlyspot.com/]]
+* [[Wiki Reference Wiki by Jed Carty|http://inmysocks.tiddlyspot.com/#Learning%20TiddlyWiki]]
+* [[TiddlyWiki toolmap by David Gifford|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]]
+* [[Scripts in Tiddlywiki by Mohammad|https://kookma.github.io/TW-Scripts/]]
+* ...
+<hr>
+</div>
+@@
