@@ -1,9 +1,0 @@
-title: $:/plugins/Foo
-parents: Gronk
-revision: 0
-summary: see [[toc-Examples]]
-original-tags: ToC TableOfContents
-source-wiki-id: plugins
-source-tiddler-title-as-text: Foo
-source-tiddler-title-as-link: Foo
-

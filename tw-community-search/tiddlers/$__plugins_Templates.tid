@@ -1,9 +1,0 @@
-title: $:/plugins/Templates
-revision: 0
-summary: plugins providing view-, edit- or page-templates by [[Tobias Beer]]
-original-tags: 
-source-wiki-id: plugins
-source-tiddler-title-as-text: Templates
-source-tiddler-title-as-link: Templates
-
-<<list-plugins>>
