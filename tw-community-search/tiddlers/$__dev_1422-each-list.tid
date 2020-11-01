@@ -1,0 +1,18 @@
+title: $:/dev/1422-each-list
+created: 20150126130813236
+creator: Tobias Beer
+modified: 20150126130929948
+modifier: Tobias Beer
+summary: added list suffix for each filter
+url: <<git5 issues/1422>>
+original-tags: Pull Open 5.1.8
+source-wiki-id: dev
+source-tiddler-title-as-text: 1422-each-list
+source-tiddler-title-as-link: 1422-each-list
+
+; implements
+: <<git5 issues/1369>>
+; demo
+: http://tbdemo.tiddlyspot.com/#each%3Alist
+
+When the suffix is list, the each filter interprets the field as a list of individual tiddler titles equivalent to the core list field and returns all titles referenced in the list field of the source list, existing or not.

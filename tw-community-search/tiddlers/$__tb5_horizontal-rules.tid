@@ -1,0 +1,21 @@
+title: $:/tb5/horizontal-rules
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: horizontal-rules
+source-tiddler-title-as-link: horizontal-rules
+
+<dt>
+
+```
+---
+horizontal rules
+<hr>
+```
+</dt>
+<dd>
+
+---
+horizontal rules
+<hr>
+</dd>

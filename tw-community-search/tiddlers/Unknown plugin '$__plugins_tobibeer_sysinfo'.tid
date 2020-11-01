@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/tobibeer/sysinfo'
+name: unknown
+plugin_tiddler: $:/plugins/tobibeer/sysinfo
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

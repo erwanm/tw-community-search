@@ -1,0 +1,21 @@
+title: $:/plugins/value-Install
+created: 20160918173729354
+creator: Tobias Beer
+modified: 20160918173730459
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: value-Install
+source-tiddler-title-as-link: value-Install
+
+<<plugin-install value>>
+
+!! Version History
+
+; 0.5.1 / 2016-12-19
+: removed console.log
+
+; 0.5.0 / 2016-09-18
+: initial version

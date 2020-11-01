@@ -1,0 +1,18 @@
+title: $:/plugins/$:/plugins/tobibeer/escape
+author: Tobias Beer
+core-version: >=5.1.9
+dependents: 
+description: a filter to escape characters in a title to make it safe for use in regular expressions
+documentation: https://tobibeer.github.io/tw5-escape
+list: readme
+requires: 
+revision: 0
+source: https://github.com/tobibeer/tw5-escape
+version: 0.5.0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: $:/plugins/tobibeer/escape
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2fescape
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

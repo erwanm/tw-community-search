@@ -1,0 +1,18 @@
+title: $:/filters/core fields
+caption: core
+created: 20150107193317486
+creator: Tobias Beer
+filter: [all[shadows]sort[title]prefix[$:/language/Docs/Fields/]]
+modified: 20150122171541264
+modifier: Tobias Beer
+summary: all core fields as documented in the TiddlyWiki core, except [[all standard fields]]
+original-tags: prefix removeprefix Filters Variable all shadows Fields
+source-wiki-id: filters
+source-tiddler-title-as-text: core fields
+source-tiddler-title-as-link: core%20fields
+
+@@color:#999;//see below for the code//@@
+{{$:/.tb/template/fields-core}}
+
+Rendered via...
+<pre><$view tiddler="$:/.tb/template/fields-core"/></pre>

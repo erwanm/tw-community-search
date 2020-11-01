@@ -1,0 +1,24 @@
+title: $:/tb5/attribute-transclusion
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: attribute-transclusion
+source-tiddler-title-as-link: attribute-transclusion
+
+<dt>
+
+```
+[img width={{!!mywidth}} class=<<image-classes>> [example.jpg]]
+
+{{example.jpg}}
+```
+</dt>
+
+<dd>
+
+params via
+[[transclusion|http://tiddlywiki.com/#Transclusion%20in%20WikiText]] or
+[[macro|http://tiddlywiki.com/#Macros%20in%20WikiText]]<br><br>
+
+embed via transclusion
+</dd>

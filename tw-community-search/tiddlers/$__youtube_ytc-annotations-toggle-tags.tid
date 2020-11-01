@@ -1,0 +1,10 @@
+title: $:/youtube/ytc-annotations-toggle-tags
+created: 20150110114258323
+modified: 20150110123207683
+summary: wraps the button that toggles whether or not tags are displayed for annotations
+templates: $:/plugins/tobibeer/youtube/list/annotations
+original-tags: Styles
+source-wiki-id: youtube
+source-tiddler-title-as-text: ytc-annotations-toggle-tags
+source-tiddler-title-as-link: ytc-annotations-toggle-tags
+

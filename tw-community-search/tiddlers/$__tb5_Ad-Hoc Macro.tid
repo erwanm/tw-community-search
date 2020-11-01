@@ -1,0 +1,44 @@
+title: $:/tb5/Ad-Hoc Macro
+created: 20160112155832622
+creator: Tobias Beer
+how-it-is: cool
+modified: 20160112170104345
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Solutions Macros [[Felix Küppers]]
+source-wiki-id: tb5
+source-tiddler-title-as-text: Ad-Hoc Macro
+source-tiddler-title-as-link: Ad-Hoc%20Macro
+
+Based on a [[solution by Felix|https://groups.google.com/d/msg/tiddlywiki/SZsfT7-TPD8/lqxHDUDXCgAJ]], you can use a generic macro to evaluate any text as an ad-hoc macro even passing variables. Here's an example macro <<source "$:/.tb/macros/=">>
+
+Use the above macro like so:
+
+```
+<<= "I am $(currentTiddler)$ for TiddlyWiki $(version)$. This is quite $1$." "cool">>
+```
+
+> <<= "I am $(currentTiddler)$ for TiddlyWiki $(version)$. This is quite $1$." "cool">>
+
+You can spice things up even more by leveraging the evaluated attributes the <<x MacroCallWidget>> provides:
+
+```
+<$macrocall $name="=" text="I am $(currentTiddler)$ for TiddlyWiki $(version)$. This is quite $1$." 1={{!!how-it-is}}/>
+
+; How is it?
+: {{!!how-it-is}}
+```
+
+<<<
+
+<$macrocall $name="=" text="I am $(currentTiddler)$ for TiddlyWiki $(version)$. This is quite $1$." 1={{!!how-it-is}}/>
+
+; How is it?
+: {{!!how-it-is}}
+<<<
+
+To use double-quotes in any macro parameter you can:
+
+# use single quotes to enclose your macro parameters
+# use triple double-quotes for your parameters to allow single double-quotes within

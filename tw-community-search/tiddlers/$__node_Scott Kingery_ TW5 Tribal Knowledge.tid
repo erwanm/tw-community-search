@@ -1,0 +1,13 @@
+title: $:/node/Scott Kingery: TW5 Tribal Knowledge
+created: 20140315085406905
+modified: 20151014141603992
+summary: tips and guides for using [[tiddlywiki]]
+url: [[TW5TribalKnowledge|http://dl.dropboxusercontent.com/u/118970/wiki/tw5tribalknowledge.html]]
+original-tags: References
+source-wiki-id: node
+source-tiddler-title-as-text: Scott Kingery: TW5 Tribal Knowledge
+source-tiddler-title-as-link: Scott%20Kingery%3a%20TW5%20Tribal%20Knowledge
+
+<<<
+I never used [[node.js]] until a couple weeks ago when I wanted to try a [[TW5|tiddlywiki]] installation on [[node|node.js]] and expand my knowledge a bit. I figured someone else may be in the same boat so I wrote it all down.
+<<<

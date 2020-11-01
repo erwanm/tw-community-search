@@ -1,0 +1,30 @@
+title: $:/classic/Tags With Spaces
+created: 20141126100712528
+creator: Tobias Beer
+modified: 20141126102328108
+modifier: Tobias Beer
+url: https://github.com/Jermolene/TiddlyWiki5/pull/1128#commitcomment-8689040
+original-tags: Tags
+source-wiki-id: classic
+source-tiddler-title-as-text: Tags With Spaces
+source-tiddler-title-as-link: Tags%20With%20Spaces
+
+!!tw5
+Simply add tags with strings into the default tag editor to add them:
+
+*`foo bar`
+
+They are internally stored as [[foo bar]].
+
+When using a plain input field for entering tags, you need to use this notation to declare a tag with spaces:
+
+* `[[foo bar]]`
+
+!!twC
+Can use all of these to enter tags with spaces:
+
+* `"foo bar"`
+* `'foo bar'`
+* `[[foo bar]]`
+
+Silently turns all into `[[foo bar]]` when saving, even internally when calling `readBracketedList` on a list of supposed tiddler titles.

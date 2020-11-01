@@ -1,0 +1,19 @@
+title: $:/tb5/List Tiddlers Containing Text
+created: 20141117185319747
+creator: Tobias Beer
+modified: 20141117190139086
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Solutions Search Lists
+source-wiki-id: tb5
+source-tiddler-title-as-text: List Tiddlers Containing Text
+source-tiddler-title-as-link: List%20Tiddlers%20Containing%20Text
+
+Use the [[regexp|http://tiddlywiki.com/#FilterOperator%3A%20regexp]] filter instead of [[search|http://tiddlywiki.com/#FilterOperator%3A%20search]] filter...
+
+;regexp filter
+:`<$list filter="[regexp:text[some string]]"/>`
+:<$list filter="[regexp:text[some string]]"/>
+
+See [[discussion|https://groups.google.com/d/msg/tiddlywiki/FC2KOtlyaYo/KqRIUjNbEbcJ]]...

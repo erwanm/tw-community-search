@@ -1,0 +1,14 @@
+title: $:/plugins/value
+created: 20160918173736097
+creator: Tobias Beer
+modified: 20160918173737787
+modifier: Tobias Beer
+revision: 0
+tabs: Info Syntax Examples Install
+type: text/vnd.tiddlywiki
+original-tags: Filters Plugins
+source-wiki-id: plugins
+source-tiddler-title-as-text: value
+source-tiddler-title-as-link: value
+
+<<plugin-docs value>>

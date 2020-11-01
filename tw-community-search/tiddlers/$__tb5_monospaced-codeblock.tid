@@ -1,0 +1,21 @@
+title: $:/tb5/monospaced-codeblock
+revision: 0
+original-tags: Markup
+source-wiki-id: tb5
+source-tiddler-title-as-text: monospaced-codeblock
+source-tiddler-title-as-link: monospaced-codeblock
+
+<dt>
+<pre>&#96;&#96;&#96;
+monospaced
+codeblock
+&#96;&#96;&#96;</pre>
+</dt>
+
+<dd>
+
+```
+monospaced
+codeblock
+```
+</dd>

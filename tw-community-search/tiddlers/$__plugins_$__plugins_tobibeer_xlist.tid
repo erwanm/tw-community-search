@@ -1,0 +1,17 @@
+title: $:/plugins/$:/plugins/tobibeer/xlist
+author: Tobias Beer
+core-version: >=5.1.9
+dependents: 
+description: Group filtered tiddlers with relations to two categories in a crosslist
+documentation: https://tobibeer.github.io/tw5-plugins#xlist
+list: readme
+revision: 0
+source: https://github.com/tobibeer/tw5-xlist
+version: 0.5.0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: $:/plugins/tobibeer/xlist
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftobibeer%2fxlist
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,14 @@
+title: $:/node/--makelibrary
+created: 20140903085210479
+modified: 20151014123301676
+p.title: (optional) the plugin tiddler<br>» default: `"$:/UpgradeLibrary"`
+params: <title>
+summary: constructs the plugin [[$:/UpgradeLibrary|--makelibrary]] used  by the [[TiddlyWiki Upgrade Wizard|http://tiddlywiki.com/upgrade.html]] for upgrading [[standalone]] wikis
+original-tags: commands
+source-wiki-id: node
+source-tiddler-title-as-text: --makelibrary
+source-tiddler-title-as-link: --makelibrary
+
+The upgrade library is constructed as an ordinary plugin tiddler with the plugin type `library`. It contains a copy of all [[plugins]], [[themes]] and [[languages]] of the [[tiddlywiki]] repo.
+
+See the <<tw UpgradeMechanism>> for more details.

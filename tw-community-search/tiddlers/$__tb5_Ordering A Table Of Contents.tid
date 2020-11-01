@@ -1,0 +1,15 @@
+title: $:/tb5/Ordering A Table Of Contents
+created: 20150116140050958
+creator: Tobias Beer
+modified: 20150116141000182
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Solutions ToC Lists Sorting [[Astrid Elocson]]
+source-wiki-id: tb5
+source-tiddler-title-as-text: Ordering A Table Of Contents
+source-tiddler-title-as-link: Ordering%20A%20Table%20Of%20Contents
+
+As [[Astrid Elocson]] points out [[here|https://groups.google.com/d/msg/tiddlywiki/nxd-Z4UzsJs/ZmLjysHc9f0J]], the item order of a topic in a table of contents is defined at the standard ''list'' field of the tiddler representing the parent topic in the toc.
+
+As an example, take a look at the list field at http://tiddlywiki.com/#Reference.

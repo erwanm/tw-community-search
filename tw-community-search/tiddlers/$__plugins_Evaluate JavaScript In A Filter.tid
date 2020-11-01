@@ -1,0 +1,20 @@
+title: $:/plugins/Evaluate JavaScript In A Filter
+created: 20160107112757364
+creator: Tobias Beer
+modified: 20160107121351788
+modifier: Tobias Beer
+revision: 0
+summary: evaluate a filter attribute via [[eval]] to set a variable using [[setvars]]
+type: text/vnd.tiddlywiki
+original-tags: Examples eval
+source-wiki-id: plugins
+source-tiddler-title-as-text: Evaluate JavaScript In A Filter
+source-tiddler-title-as-link: Evaluate%20JavaScript%20In%20A%20Filter
+
+<$macrocall $name="`" text="""<$set name="evaled" filter="[[1]eval[1 + title]]">
+<<evaled>>
+</$set>"""/>
+
+@@.note
+''Note:'' For js eval to be available, it needs to be [[configured|eval-Configure]]. Now, take a look at the browser console.
+@@

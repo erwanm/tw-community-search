@@ -1,0 +1,14 @@
+title: $:/icons/FontAwesome
+class: fa
+created: 20150129222918395
+font: [[$:/fonts/FontAwesome]]
+modified: 20150130174642381
+prefix: fa
+summary: scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS
+url: http://fortawesome.github.io
+original-tags: picto font
+source-wiki-id: icons
+source-tiddler-title-as-text: FontAwesome
+source-tiddler-title-as-link: FontAwesome
+
+<<font>>

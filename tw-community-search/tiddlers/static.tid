@@ -1,4 +1,12 @@
 title: static
-new-tiddler: Tag: static
+tags: CommunityWikis
+type: text/vnd.tiddlywiki
+wiki-address: http://tobibeer.github.io/tw/static
+author: TobiasBeer
+wiki-tw-version: 5.1.7
+wiki-latest-modification: 20150302113256066
+wiki-nb-tiddlers: 20
 
-{{||$:/ObsoleteCommunityTagTemplate}}
+building a static website with TW
+
+{{||$:/CommunityWikiPresentationTemplate}}

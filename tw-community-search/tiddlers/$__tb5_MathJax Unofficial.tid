@@ -1,0 +1,14 @@
+title: $:/tb5/MathJax Unofficial
+created: 20141201230126906
+creator: Tobias Beer
+modified: 20141201230336927
+modifier: Tobias Beer
+revision: 0
+summary: provides [[MathJax|http://mathjax-tw5.kantorsite.net/]] support for tw5 — requires internet access to access the ~MathJax [[CDN|https://en.wikipedia.org/wiki/Content_delivery_network]] sources
+type: text/vnd.tiddlywiki
+url: http://mathjax-tw5.kantorsite.net
+original-tags: Core Plugin Solutions
+source-wiki-id: tb5
+source-tiddler-title-as-text: MathJax Unofficial
+source-tiddler-title-as-link: MathJax%20Unofficial
+

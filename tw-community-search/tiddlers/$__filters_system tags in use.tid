@@ -1,0 +1,19 @@
+title: $:/filters/system tags in use
+created: 20151229111658483
+creator: Tobias Beer
+filter: [tags[]prefix[$:/tags/]]
+filter2: [all[current]tagging[]]
+modified: 20151229112013976
+modifier: Tobias Beer
+summary: retrieves system tags in use and tiddlers that use them
+original-tags: Filters tags prefix all current tagging
+source-wiki-id: filters
+source-tiddler-title-as-text: system tags in use
+source-tiddler-title-as-link: system%20tags%20in%20use
+
+Here's how to list all system tags and tiddlers that have them:
+
+<$list filter="[tags[]prefix[$:/tags/]]">
+<h2><$link><$view field="title"/></$link></h2>
+<<list-links "[all[current]tagging[]]">>
+</$list>

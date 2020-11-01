@@ -1,0 +1,37 @@
+title: $:/tb5/Simple Quiz Using CSS
+created: 20141116153838488
+creator: Tobias Beer
+modified: 20141124131615110
+modifier: Tobias Beer
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: Styles Education Workflows Solutions [[Stephan Hradek]]
+source-wiki-id: tb5
+source-tiddler-title-as-text: Simple Quiz Using CSS
+source-tiddler-title-as-link: Simple%20Quiz%20Using%20CSS
+
+A simple quiz solution from [[Stephan Hradek]] at [[TW5Magick|http://tw5magick.tiddlyspot.com]] using [[css classes|http://tiddlywiki.com/#Styles%20and%20Classes%20in%20WikiText]] to reveal the answer on mouseover.
+
+```
+@@.Q
+the question
+@@
+
+@@.A
+the answer
+@@
+```
+
+''renders as:''
+
+@@.Q
+the question
+@@
+
+@@.A
+the answer
+@@
+
+<br>
+
+For the css, see <<source [[$:/styles/quiz]]>>

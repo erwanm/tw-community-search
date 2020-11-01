@@ -1,0 +1,16 @@
+title: $:/plugins/sysinfo-Install
+revision: 0
+original-tags: 
+source-wiki-id: plugins
+source-tiddler-title-as-text: sysinfo-Install
+source-tiddler-title-as-link: sysinfo-Install
+
+<<plugin-install sysinfo>>
+
+!! Version History
+
+; 0.6.0 / 2017-02-18
+: added `env` & minified
+
+; 0.5.0 / 2015-11-26
+: initial release
