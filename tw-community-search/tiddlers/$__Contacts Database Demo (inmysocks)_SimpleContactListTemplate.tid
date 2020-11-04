@@ -1,0 +1,16 @@
+title: $:/Contacts Database Demo (inmysocks)/SimpleContactListTemplate
+caption: Contacts List
+created: 20141104211343768
+creator: inmysocks
+display_name: Simple Contacts List
+modified: 20141204202707136
+modifier: inmysocks
+no_edit: true
+original-tags: Templates ContactListTemplate
+source-wiki-id: Contacts Database Demo (inmysocks)
+source-tiddler-title-as-text: SimpleContactListTemplate
+source-tiddler-title-as-link: SimpleContactListTemplate
+
+<$list filter=[tag[Contacts]] template= {{Contacts!!contact_display_template}}>
+
+</$list>

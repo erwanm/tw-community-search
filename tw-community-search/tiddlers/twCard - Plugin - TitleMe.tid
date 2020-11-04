@@ -17,6 +17,10 @@ short_description: Return in-place tiddler title, to link / show / edit the sour
 title: twCard - Plugin - TitleMe
 wiki: http://eucaly-tw5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: EucalysTiddlyWorld
+twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/titleme
+twcs-description: TitleMe - Return in-place tiddler title, to link / show / edit the source tiddler
+twcs-author: EucalyJ
+twcs-version: 0.0.1
 
 {{||$:/CommunityPluginTemplate}}

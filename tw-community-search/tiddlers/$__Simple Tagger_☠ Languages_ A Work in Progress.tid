@@ -1,0 +1,44 @@
+title: $:/Simple Tagger/☠ Languages: A Work in Progress
+created: 20160131033021684
+current-language: 🇧🇪 
+modified: 20160131061534611
+original-tags: languages
+source-wiki-id: Simple Tagger
+source-tiddler-title-as-text: ☠ Languages: A Work in Progress
+source-tiddler-title-as-link: %2620%20Languages%3a%20A%20Work%20in%20Progress
+
+\define moji(title, language:"🇬🇧")
+<$list filter="[regexp[$language$ ]regexp[$title$]limit[1]]">
+<$transclude field="text"/></$list>
+\end
+
+```
+\define moji(title, language:"🇬🇧")
+<$list filter="[regexp[$language$ ]regexp[$title$]]">
+<$transclude field="text"/></$list>
+\end
+```
+
+!! This Works
+
+```
+<<moji Introduction 🇧🇪  >>
+
+<<moji Introduction>>
+```
+
+<<moji Introduction 🇧🇪  >>
+
+<<moji Introduction>>
+
+!! Why not this?
+
+```
+{{!!current-language}}
+
+<<moji Introduction {{!!current-language}}>>
+```
+
+{{!!current-language}}
+
+<<moji Introduction {{!!current-language}}>>
