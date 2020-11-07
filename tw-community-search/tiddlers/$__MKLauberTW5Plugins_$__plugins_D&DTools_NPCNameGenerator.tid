@@ -1,11 +1,11 @@
 title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/NPCNameGenerator
 author: Matt Lauber
-dependents: 
+dependents: $:/plugins/mklauber/shuffle
 description: NPC Name Generator
 list: readme [[Control Panel]]
 source: https://github.com/mklauber/tw-npc-name-gnerator
 summary: Random Name Generator for NPCs
-version: 1.0.3
+version: 1.0.4
 original-tags: D&D
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/D&DTools/NPCNameGenerator

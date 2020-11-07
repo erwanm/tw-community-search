@@ -1,0 +1,19 @@
+title: $:/MKLauberTW5Plugins/$:/plugins/D&DTools/D&DEdition
+author: Matt Lauber
+core-version: >=5.1.22
+created: NaNNaNNaNNaNNaNNaNNaN
+dependents: $:/plugins/D&DTools/CreatureManager $:/plugins/D&DTools/EncounterBuilder $:/plugins/mklauber/in.js $:/plugins/D&DTools/d20.js $:/plugins/mklauber/shuffle $:/plugins/D&DTools/Creatures $:/plugins/D&DTools/Spells $:/plugins/D&DTools/NPCNameGenerator
+description: D&D Creature Manager
+list: 
+modified: NaNNaNNaNNaNNaNNaNNaN
+plugin-priority: 1
+source: https://github.com/mklauber/tw-D-and-D-Edition.git
+summary: D&D Edition
+version: 1.0.1
+original-tags: D&D
+source-wiki-id: MKLauberTW5Plugins
+source-tiddler-title-as-text: $:/plugins/D&DTools/D&DEdition
+source-tiddler-title-as-link: %24%3a%2fplugins%2fD%26DTools%2fD%26DEdition
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

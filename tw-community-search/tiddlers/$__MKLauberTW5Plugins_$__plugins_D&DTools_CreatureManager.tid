@@ -9,7 +9,7 @@ modified: NaNNaNNaNNaNNaNNaNNaN
 plugin-priority: 1
 source: https://github.com/mklauber/tw-CreatureManager
 summary: D&D 5e Creature Stat Block Templates
-version: 1.22.0
+version: 1.23.0
 original-tags: D&D
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/D&DTools/CreatureManager
