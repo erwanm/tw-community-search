@@ -1,0 +1,16 @@
+title: $:/tiddlywiki.com/Utility by Mohammad
+created: 20201117160011169
+modified: 20201117160235750
+type: text/vnd.tiddlywiki
+url: https://kookma.github.io/TW-Utility/
+original-tags: Resources Plugings
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: Utility by Mohammad
+source-tiddler-title-as-link: Utility%20by%20Mohammad
+
+The utility plugin objective is to provide set of tools for developers and authors. 
+
+{{!!url}}
+
+
+These tools include simple transclusions, show raw contents of tiddlers, author tools, wikitext macros, show fields in view mode, etc.
