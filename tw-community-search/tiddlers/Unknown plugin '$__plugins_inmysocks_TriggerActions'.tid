@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/inmysocks/TriggerActions'
+name: unknown
+plugin_tiddler: $:/plugins/inmysocks/TriggerActions
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}
