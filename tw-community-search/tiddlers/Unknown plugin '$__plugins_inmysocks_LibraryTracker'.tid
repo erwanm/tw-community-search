@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/inmysocks/LibraryTracker'
-name: unknown
-plugin_tiddler: $:/plugins/inmysocks/LibraryTracker
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

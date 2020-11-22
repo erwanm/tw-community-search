@@ -1,0 +1,84 @@
+title: $:/inmysocks/Pick a Random Subset from a List
+blurb: Using the randval widget
+created: 20150226232732907
+dummy: 1
+modified: 20160525100120703
+topics_tags: Math Plugins Lists
+original-tags: [[Wiki Examples]] [[RandVal Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Pick a Random Subset from a List
+source-tiddler-title-as-link: Pick%20a%20Random%20Subset%20from%20a%20List
+
+This is a horribly clunky way to do it, when version 5.1.8 comes out this will be much simpler.
+
+This picks {{$:/state/Pick a Random Subset from a List!!limit}} random tiddlers from a list of tiddlers. I want to find a way to have this work
+
+Number of tiddlers to pick <$select tiddler='$:/state/Pick a Random Subset from a List' field='limit'><$list filter='1 2 3 4 5 10 20 30 40 50'><option><<currentTiddler>></option></$list></$select>
+
+<$button>Pick Tiddlers!
+<$action-randval $tiddler='List Item 1' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 2' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 3' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 4' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 5' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 6' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 7' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 8' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 9' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 10' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 11' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 12' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 13' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 14' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 15' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 16' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 17' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 18' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 19' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 20' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 21' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 22' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-setfield dummy=1/>
+</$button>
+
+<$list filter='[tag[List Item]sort[sort_field]limit{$:/state/Pick a Random Subset from a List!!limit}]'>
+
+</$list>
+
+code:
+
+```
+This picks {{$:/state/Pick a Random Subset from a List!!limit}} random tiddlers from a list of tiddlers. I want to find a way to have this work
+
+Number of tiddlers to pick <$select tiddler='$:/state/Pick a Random Subset from a List' field='limit'><$list filter='1 2 3 4 5 10 20 30 40 50'><option><<currentTiddler>></option></$list></$select>
+
+<$button>Pick Tiddlers!
+<$action-randval $tiddler='List Item 1' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 2' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 3' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 4' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 5' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 6' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 7' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 8' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 9' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 10' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 11' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 12' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 13' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 14' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 15' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 16' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 17' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 18' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 19' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 20' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 21' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-randval $tiddler='List Item 22' $field='sort_field' $lower=1 $upper='100' step='1' numrolls='1'/>
+<$action-setfield dummy=1/>
+</$button>
+
+<$list filter='[tag[List Item]sort[sort_field]limit{$:/state/Pick a Random Subset from a List!!limit}]'>
+
+</$list>
+```

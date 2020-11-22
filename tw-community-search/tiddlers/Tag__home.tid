@@ -1,7 +1,7 @@
 title: Tag: home
 tags: CommunityTags
 community-tag: home
-community-tag-count: 1
-community-wikis: [[TidgraphPlugin]]
+community-tag-count: 2
+community-wikis: [[listops]] [[TidgraphPlugin]]
 
 {{||$:/CommunityTagTemplate}}

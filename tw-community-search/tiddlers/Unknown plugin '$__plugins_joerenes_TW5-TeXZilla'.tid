@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/joerenes/TW5-TeXZilla'
-name: unknown
-plugin_tiddler: $:/plugins/joerenes/TW5-TeXZilla
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

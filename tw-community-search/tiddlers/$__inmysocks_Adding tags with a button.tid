@@ -1,0 +1,23 @@
+title: $:/inmysocks/Adding tags with a button
+blurb: Use a button to add a tag to a tiddler
+created: 20140923205442835
+creator: inmysocks
+modified: 20160525100734072
+modifier: inmysocks
+topics_tags: Buttons Tags
+original-tags: unfinished [[Wiki Widgets - buttons, filters, etc.]] [[Buttons - Tips and Tricks]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Adding tags with a button
+source-tiddler-title-as-link: Adding%20tags%20with%20a%20button
+
+Add a tag
+
+```
+<$fieldmangler><$button message="tm-add-tag" param="bob">Add tag</$button></$fieldmangler>
+```
+
+<$fieldmangler><$button message="tm-add-tag" param="bob">Add tag</$button></$fieldmangler>
+
+For a more useful example of how this could be used see [[Search and Replace Tags]].
+
+<<bottomOfTiddler {{!!title}}>>

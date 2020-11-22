@@ -1,0 +1,31 @@
+title: $:/inmysocks/MathyThing - action-prodfield2 Widget
+created: 20150106001330590
+modified: 20150313011423088
+original-tags: [[MathyThing Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: MathyThing - action-prodfield2 Widget
+source-tiddler-title-as-link: MathyThing%20-%20action-prodfield2%20Widget
+
+This is part of the [[MathyThing Plugin]].
+
+Github: https://github.com/inmysocks/TW5-MathyThing
+
+Plugin: [[$:/plugins/inmysocks/MathyThing]]
+
+The prodfield widget takes a filter input and returns the product of two specified fields in each tiddler, and stores the value in a third field. If the filter returns a single tiddler than a separate tiddler can be specified to store the result.
+
+Usage:
+
+```
+<$prodfield2 $filter=<<someFilter>> $prodfield=prodField $prodfield2=prodField2 $tiddler=someTiddler $storefield=storeField $defaultvalue=defaultValue/>
+```
+
+|!Attribute |!Description |
+|$filter |The filter that returns the tiddlers with the field to take the product over |
+|$prodfield |The name of the field field to holding the vaules to take the product of |
+|$prodfield2 |The name of the field field to holding the vaules to take the product of |
+|$tiddler |(optional) The name of the tiddler in which to store the output |
+|$storefield |The name of the field in which to store the output |
+|$defaultvalue |The value to return if the output has an invalid value, or if the filter returns no tiddlers |
+
+<<tiddlerSlider "MathyThing - action-prodfield2 Widget Example">>

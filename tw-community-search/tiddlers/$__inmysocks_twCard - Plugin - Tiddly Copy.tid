@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Tiddly Copy
+audience: 
+category: Interface
+created: 20151015075959708
+date: 12-10-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andrew
+modified: 20151015083128958
+name: Tiddly Copy
+plugin_tiddler: $:/plugin/ajh/tiddlycopy
+release: 
+repository: 
+revision: 0.0.26
+short_description: A plugin that combines the features of the Tiddly Viewer and Copy plugins
+wiki: http://tiddlycopy.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Tiddly Copy
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Tiddly%20Copy
+

@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/rboue/SocialCalc'
-name: unknown
-plugin_tiddler: $:/plugins/rboue/SocialCalc
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

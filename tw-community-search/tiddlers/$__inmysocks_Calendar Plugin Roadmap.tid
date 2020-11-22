@@ -1,0 +1,20 @@
+title: $:/inmysocks/Calendar Plugin Roadmap
+created: 20150228145800516
+modified: 20150503181906409
+original-tags: [[Calendar Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Calendar Plugin Roadmap
+source-tiddler-title-as-link: Calendar%20Plugin%20Roadmap
+
+The `calendar-month` widget probably won't have any significant changes since all it does is build the month, most significant progress will be in the macros included.
+
+*With the startup actions plugin I made I can have the wiki make a modal (or notification) appear to remind you of events.
+*I can make a list that shows up in the sidebar or somewhere like that listing upcoming events and how long until they arrive.
+*Once 5.1.8 is released than I will work on the gallery and use that to let you page through the months of the calendar. - maybe, the list iterators may not happen in 5.1.8
+*I will add configuration to it - this may mainly come from css classes and using different macros
+*I will add the option to list the totals for each month on each months tiddler - this would come from a macro
+*For the counts add a toggle that switches between showing every month/activity and only showing things that aren't zero - same
+*I should integrate the task list into this somehow. - Once again macro.
+*I should add more macros that can be distributed as part of the plugin.
+
+If you have specific features you would like to see [[leave a message|User Feedback]].

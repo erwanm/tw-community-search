@@ -5,8 +5,10 @@ tags: CommunityWikis
 title: maketid
 type: text/vnd.tiddlywiki
 wiki-address: http://maketid.tiddlyspot.com/
-wiki-tw-version: wiki-latest-modification: 
-wiki-nb-tiddlers: 0
+wiki-tw-version: 5.1.10
+wiki-latest-modification: 20160125095608332
+wiki-nb-tiddlers: 758
 
+:: widget to create new tiddlers
 
 {{||$:/CommunityWikiPresentationTemplate}}

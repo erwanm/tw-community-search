@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tgrosinger/tw5-checklist'
-name: unknown
-plugin_tiddler: $:/plugins/tgrosinger/tw5-checklist
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

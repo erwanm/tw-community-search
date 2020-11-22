@@ -1,0 +1,21 @@
+title: $:/inmysocks/Add the option to make the category list show events instead of tasks
+category: Plugin
+created_day: 03
+created_month: 05
+created_year: 2015
+description: So remove the checkbox and list dates
+due_day: 
+due_month: 
+due_year: 
+modified: 20150503214839341
+start_day: 
+start_month: 
+start_year: 
+subcategory: Category Lists
+subsubcategory: New Feature
+original-tags: [[New Feature]] [[Planned Update]] [[Change Log]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Add the option to make the category list show events instead of tasks
+source-tiddler-title-as-link: Add%20the%20option%20to%20make%20the%20category%20list%20show%20events%20instead%20of%20tasks
+
+I could also change it so that the categories list the year, day and month instead of the categories like they do now. Or at least have that option.

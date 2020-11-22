@@ -1,0 +1,17 @@
+title: $:/inmysocks/Topics List
+created: 20160525101448050
+modified: 20160525101908894
+original-tags: Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Topics List
+source-tiddler-title-as-link: Topics%20List
+
+''THIS IS A WORK IN PROGRESS!! NOT EVERYTHING IS CORRECTLY LABELED OR LISTED.''
+
+This is a list of all the topics covered on this site, click on a tag pill to see a list of tiddlers matching that topic:
+
+<$set name=TheField value=topics_tags>
+<$list filter='[tags:topics_tags[]]'>
+{{||$:/plugins/inmysocks/GenericTagFields/LikeTagPills}} 
+</$list>
+</$set>
