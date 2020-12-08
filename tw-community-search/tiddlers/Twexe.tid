@@ -5,6 +5,10 @@ tags: CommunityWikis
 title: Twexe
 type: text/vnd.tiddlywiki
 wiki-address: https://ihm4u.github.io/twexe/
+wiki-tw-version: 5.1.9
+wiki-latest-modification: 20151216031756459
+wiki-nb-tiddlers: 7
 
+Single File Executable  for Tiddlywiki5
 
 {{||$:/CommunityWikiPresentationTemplate}}

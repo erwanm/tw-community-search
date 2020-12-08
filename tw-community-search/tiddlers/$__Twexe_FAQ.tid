@@ -1,0 +1,21 @@
+title: $:/Twexe/FAQ
+created: 20151216021530132
+modified: 20151216022755734
+original-tags: 
+source-wiki-id: Twexe
+source-tiddler-title-as-text: FAQ
+source-tiddler-title-as-link: FAQ
+
+;How do I make it save html also?
+#Go to the control panel -> saving tab
+#Enter a directory name in `Upload Directory`. (It needs to be different from `.` (dot) but you can use `./` to get the same effect).
+#Enter a file name in  `Upload Filename`, the file should have the `.html` extension. 
+:Twexe will now save an html file //in addition// to the twexe every time it saves.
+
+<<warning """Make sure not to modify the html file by itself, since that data will not be available to the twixie. Simply make it a rule to always edit by running the twixie""">>
+
+
+;How do I get the html wiki?
+:You can run the twexe from the comman line with the `-k` option. like this:
+:``empty -k mydirectory``
+:It will generate the wiki html file in `mydirectory`
