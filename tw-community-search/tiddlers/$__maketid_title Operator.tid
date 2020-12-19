@@ -1,4 +1,4 @@
-title: $:/tiddlywiki.com/title Operator
+title: $:/maketid/title Operator
 caption: title
 created: 20140410103123179
 modified: 20150203191749000
@@ -11,11 +11,11 @@ op-parameter-name: T
 op-purpose: select a single title
 type: text/vnd.tiddlywiki
 original-tags: [[Filter Operators]] [[Common Operators]] [[Selection Constructors]] [[Negatable Operators]]
-source-wiki-id: tiddlywiki.com
+source-wiki-id: maketid
 source-tiddler-title-as-text: title Operator
 source-tiddler-title-as-link: title%20Operator
 
-`[title[An Example]]` can be shortened to `[[An Example]]`, because <<.op title>> is the default filter operator. Consequentially, `[!title[An Example]]` can be shortened to `[![An Example]]`.
+`[title[An Example]]` can be shortened to `[[An Example]]`, because <<.op title>> is the default filter operator.
 
 <<.op title>> is a [[constructor|Selection Constructors]] (except in the form `!title`), but <<.olink2 "field:title" field>> is a [[modifier|Selection Constructors]].
 
