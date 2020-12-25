@@ -1,7 +1,7 @@
 title: $:/tiddlywiki.com/ActionPopupWidget
 caption: action-popup
 created: 20200303114556528
-modified: 20200303114556528
+modified: 20200421221304177
 type: text/vnd.tiddlywiki
 original-tags: Widgets ActionWidgets
 source-wiki-id: tiddlywiki.com
@@ -10,7 +10,7 @@ source-tiddler-title-as-link: ActionPopupWidget
 
 ! Introduction
 
-The ''action-popup'' widget is an [[action widget|ActionWidgets]] that triggers the display of a popup defined via a state tiddler. ActionWidgets are used within triggering widgets such as the ButtonWidget.
+The ''action-popup'' widget is an [[action widget|ActionWidgets]] that triggers the display of a popup defined via a state tiddler, or clears all displayed popups. ActionWidgets are used within triggering widgets such as the ButtonWidget.
 
 ! Content and Attributes
 
@@ -19,6 +19,8 @@ The ''action-popup'' widget is invisible. Any content within it is ignored.
 |!Attribute |!Description |
 |$state |The title of the state tiddler for the popup |
 |$coords |Optional coordinates for the handle to which popup is positioned (in the format `(x,y,w,h)`) |
+
+<<.from-version "5.1.23">> If the ''$coords'' attribute is missing or empty then all popups are cancelled.
 
 ! Examples
 

@@ -8,3 +8,5 @@ source-tiddler-title-as-text: jsonstringify Operator (Examples)
 source-tiddler-title-as-link: jsonstringify%20Operator%20%28Examples%29
 
 <<.operator-example 1 """[[Title with "double quotes" and single ' and \backslash]] +[jsonstringify[]]""">>
+<<.operator-example 2 """[[Accents and emojis -> äñøßπ ⌛🎄🍪🍓 without suffix]] +[jsonstringify[]]""">>
+<<.operator-example 3 """[[Accents and emojis -> äñøßπ ⌛🎄🍪🍓 with rawunicode suffix]] +[jsonstringify:rawunicode[]]""">>

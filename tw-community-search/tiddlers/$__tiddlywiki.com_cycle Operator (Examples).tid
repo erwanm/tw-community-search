@@ -1,0 +1,24 @@
+title: $:/tiddlywiki.com/cycle Operator (Examples)
+created: 20201118174250896
+modified: 20201118175415868
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[cycle Operator]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: cycle Operator (Examples)
+source-tiddler-title-as-link: cycle%20Operator%20%28Examples%29
+
+Cycle through a list of values to add as a tag:
+
+```
+<$action-listops $tiddler="target" $tags="+[cycle[todo soon now maybe done ]]" />
+```
+
+Cycle through a list of values to add as a tag, in reverse order:
+
+```
+<$action-listops $tiddler="target" $tags="+[cycle[todo soon now maybe done ],[-1]]" />
+```
+
+<<.using-days-of-week>>
+<<.operator-example 1 """[list[Days of the Week]first[]] +[cycle{Days of the Week!!list}]""">>
+<<.operator-example 1 """[list[Days of the Week]first[]] +[cycle{Days of the Week!!list},[2]]""">>

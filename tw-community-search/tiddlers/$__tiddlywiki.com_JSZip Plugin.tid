@@ -1,0 +1,10 @@
+title: $:/tiddlywiki.com/JSZip Plugin
+created: 20201019084712096
+modified: 20201019084824422
+type: text/vnd.tiddlywiki
+original-tags: OfficialPlugins
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: JSZip Plugin
+source-tiddler-title-as-link: JSZip%20Plugin
+
+This plugin provides primitives for creating Zip files in the browser. It also makes the [[JSZip|https://stuk.github.io/jszip/]] library available for use by other plugins.

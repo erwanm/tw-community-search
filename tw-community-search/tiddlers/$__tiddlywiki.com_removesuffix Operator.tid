@@ -15,4 +15,6 @@ source-tiddler-title-as-link: removesuffix%20Operator
 
 <<.s-matching-is-case-sensitive>>
 
+<<.tip " This filters out input titles that do not end with S. For removing S without filtering out input titles that don't end with S, see [[trim|trim Operator]].">>
+
 <<.operator-examples "removesuffix">>

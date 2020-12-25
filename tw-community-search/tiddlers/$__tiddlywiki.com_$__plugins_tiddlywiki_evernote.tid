@@ -3,7 +3,7 @@ dependents:
 description: Evernote migration tools
 list: readme docs
 name: Evernote
-version: 5.1.22
+version: 5.1.23
 original-tags: 
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/evernote

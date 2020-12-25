@@ -8,3 +8,5 @@ source-tiddler-title-as-text: stringify Operator (Examples)
 source-tiddler-title-as-link: stringify%20Operator%20%28Examples%29
 
 <<.operator-example 1 """[[Title with "double quotes" and single ' and \backslash]] +[stringify[]]""">>
+<<.operator-example 2 """[[Accents and emojis -> äñøßπ ⌛🎄🍪🍓 without suffix]] +[stringify[]]""">>
+<<.operator-example 3 """[[Accents and emojis -> äñøßπ ⌛🎄🍪🍓 with rawunicode suffix]] +[stringify:rawunicode[]]""">>

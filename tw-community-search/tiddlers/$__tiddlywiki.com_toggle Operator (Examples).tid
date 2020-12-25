@@ -1,0 +1,30 @@
+title: $:/tiddlywiki.com/toggle Operator (Examples)
+created: 20201107154352695
+modified: 20201118174726982
+type: text/vnd.tiddlywiki
+original-tags: [[Operator Examples]] [[toggle Operator]]
+source-wiki-id: tiddlywiki.com
+source-tiddler-title-as-text: toggle Operator (Examples)
+source-tiddler-title-as-link: toggle%20Operator%20%28Examples%29
+
+<<.using-days-of-week>>
+
+<<.operator-example 1 """[list[Days of the Week]] +[toggle[Wednesday]]""">>
+
+To toggle a tag in a tiddler:
+
+```
+<$action-listops  $tiddler="target" $tags="+[toggle[done]]" />
+```
+
+To toggle a title in a field:
+
+```
+<$action-listops $tiddler="target" $field="my-field" $subfilter="+[toggle[done]]" />
+```
+
+To toggle between a value pair:
+
+```
+<$action-listops $tiddler="target" $field="my-field" $subfilter="+[toggle[todo],[done]]" />
+```
