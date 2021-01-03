@@ -6,10 +6,10 @@ created: 20171116165500000
 delivery: Browser Extension
 description: Browser extension for Firefox
 method: save
-modified: 20200507105159105
+modified: 20210101170932934
 type: text/vnd.tiddlywiki
 url: https://github.com/pmario/file-backups
-original-tags: Firefox Saving Resources plugins
+original-tags: Firefox Saving [[Other Resources]] plugins
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: "file-backups" Extension for Firefox by pmario
 source-tiddler-title-as-link: %22file-backups%22%20Extension%20for%20Firefox%20by%20pmario

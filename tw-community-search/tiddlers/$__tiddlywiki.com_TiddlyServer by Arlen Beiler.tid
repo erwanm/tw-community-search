@@ -6,10 +6,10 @@ created: 20171109171415540
 delivery: DIY
 description: An extension to TiddlyWiki's Node.js server
 method: sync
-modified: 20200507203417109
+modified: 20210101191843666
 type: text/vnd.tiddlywiki
 url: https://github.com/Arlen22/TiddlyServer
-original-tags: Linux Mac Windows Saving Resources
+original-tags: Linux Mac Windows Saving [[Other Resources]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: TiddlyServer by Arlen Beiler
 source-tiddler-title-as-link: TiddlyServer%20by%20Arlen%20Beiler
