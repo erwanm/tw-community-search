@@ -1,14 +1,14 @@
 title: $:/tiddlywiki.com/Refnotes by Mohammad
 created: 20201117161853918
-modified: 20210101191843666
+modified: 20201117162122822
 type: text/vnd.tiddlywiki
-url: https://kookma.github.io/Refnotes/
-original-tags: [[Community Plugins]] Plugings
+url: https://kookma.github.io/TW-Refnotes/
+original-tags: [[Community Plugins]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Refnotes by Mohammad
 source-tiddler-title-as-link: Refnotes%20by%20Mohammad
 
-Refnotes plugin is a set of macros and stylesheets for creating abbreviations, footnotes and citations. It also makes tables of footnotes, abbreviations (glossaery) and references (bibliography table).
+Refnotes plugin is a set of macros and stylesheets for creating abbreviations, footnotes and citations. It also makes tables of footnotes, abbreviations (glossary) and references (bibliography table).
 
 {{!!url}}
 
@@ -21,5 +21,5 @@ Refnotes contains codes and elements to
 
 ;Create tables of
 :Abbreviations or glossary
-:Footnotes and endnote
+:Footnotes and endnotes
 :References (bibliography) using different output style 

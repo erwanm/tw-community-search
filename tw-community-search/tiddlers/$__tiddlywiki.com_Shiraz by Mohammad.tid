@@ -1,9 +1,9 @@
 title: $:/tiddlywiki.com/Shiraz by Mohammad
 created: 20201116204317018
-modified: 20210101201435693
+modified: 20201116210618803
 type: text/vnd.tiddlywiki
 url: https://kookma.github.io/TW-Shiraz/
-original-tags: [[Community Plugins]] Plugings
+original-tags: [[Community Plugins]]
 source-wiki-id: tiddlywiki.com
 source-tiddler-title-as-text: Shiraz by Mohammad
 source-tiddler-title-as-link: Shiraz%20by%20Mohammad
@@ -32,4 +32,4 @@ Some of Shiraz features are:
 * Stylish buttons
 
 
-Adding Shiraz plugin to any Tiddlywiki, convert it to a full production tool. Shiraz uses modified CSS classes from [[Bootstrap|https://getbootstrap.com/]].
+Adding Shiraz plugin to any Tiddlywiki converts it to a full production tool. Shiraz uses modified CSS classes from [[Bootstrap|https://getbootstrap.com/]].
