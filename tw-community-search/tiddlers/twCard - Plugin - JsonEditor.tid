@@ -17,10 +17,6 @@ short_description: display and edit jsons as trees
 title: twCard - Plugin - JsonEditor
 wiki: http://bjtools.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: BJTools
-twcs-extracted-plugin-tiddler: $:/BJTools/$:/plugins/bj/jsoneditor
-twcs-description: editor of json!
-twcs-author: Jeffrey Wilkinson (BJ)
-twcs-version: 1.11.0
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}
