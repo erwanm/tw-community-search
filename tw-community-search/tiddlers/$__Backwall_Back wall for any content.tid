@@ -1,0 +1,53 @@
+title: $:/Backwall/Back wall for any content
+created: 20160422210651338
+creator: twMat
+modified: 20160423113549184
+modifier: twMat
+original-tags: 
+source-wiki-id: Backwall
+source-tiddler-title-as-text: Back wall for any content
+source-tiddler-title-as-link: Back%20wall%20for%20any%20content
+
+''Back Wall for arbitrary tiddler content'', not just images - I cannot get this to work. The images are currently CSS'added using the `background:url` property, set to be in fixed position so they stack in z-axis. This style property works for images but it does not accept tiddler content as argument.
+
+The most promising approach I've come up with so far is to "emulate" the `background:url` by making a //second body view template// that merely transcludes the original body text - and then setting this (or the original) to be the fixed background. Annoyingly these don't behave like the images do though.
+
+I suspect a reason is what is mentioned in the CSS Tricks article [[Stacking Order of Multiple Backgrounds|https://css-tricks.com/stacking-order-of-multiple-backgrounds/]] 
+
+>//It's like z-index but this isn't z-index, it's parts of one single element.//
+
+>//I think it's slightly confusing, since it's the opposite of how HTML works naturally. If all elements have the same z-index (and are positioned in some way and overlap) the last element will be on top, not the first.//
+
+[[Here|http://vanseodesign.com/css/css-stack-z-index/]] is a more detailed article on the matter and [[this|http://css-discuss.incutio.com/wiki/Overlapping_And_ZIndex]] one has good stuff on the matter of "contexts".
+
+To illustrate the problem (I think), open the following "quares" that represent "arbitrary content" - and open them in this order; [[red]], [[yellow]] and [[blue]]. In this current tiddler, there's a stylesheet for these to make them appear fixed at top, overlapping. The order in which they overlap is the same as the order in which they appear in the river. Red at lower place in river is rendered last so it is what comes on top. As you scroll you'll see how the square has the same z-index as it's tiddler.
+
+Setting different z-indexes for the squares has no effect because they are in different contexts. I think what is needed is to have the squares be in a common context so that one can set their z-indexes in relation to each others.
+
+...oooor maybe this z-index track is just a [[red herring|https://en.wikipedia.org/wiki/Red_herring]]. At least it's not yellow or blue.
+
+<style>
+.aa {box-sizing: border-box;
+  position: fixed;
+  top: 0;  left: 0;
+  width: 320px;
+  height: 60px; z-index:inherit;
+}
+
+.aa .bb {
+    position: absolute;
+    padding: 18px 20px; z-index:1;
+}
+.aa .red {
+    right: 3em;
+    background:red;  z-index:-1000;
+}
+.aa .yellow {
+right:3em;
+   color:red; background:yellow; z-index:10;
+}
+.tc-tiddler-frame .blue {
+    right: 1em;
+    background:blue; z-index:;
+}
+</style>

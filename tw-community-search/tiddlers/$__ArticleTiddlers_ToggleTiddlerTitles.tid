@@ -1,0 +1,11 @@
+title: $:/ArticleTiddlers/ToggleTiddlerTitles
+created: 20160827150609718
+creator: twMat
+modified: 20160828232240233
+modifier: twMat
+original-tags: 
+source-wiki-id: ArticleTiddlers
+source-tiddler-title-as-text: ToggleTiddlerTitles
+source-tiddler-title-as-link: ToggleTiddlerTitles
+
+Hide/show paragraph //tiddler titles// etc - @@color:crimson; Checkbox &nbsp;<$checkbox tiddler="Stylesheet" field="title-display" checked="block" unchecked="none" default="block"></$checkbox> @@ @@color:crimson;font-size:1.5em; 👈@@

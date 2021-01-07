@@ -1,0 +1,32 @@
+title: $:/ABCMusic/Example Conversion
+created: 20150908105830634
+modified: 20150908112745738
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: ABCMusic
+source-tiddler-title-as-text: Example Conversion
+source-tiddler-title-as-link: Example%20Conversion
+
+!!copy this data into text box 
+`@article{yesilada201526,
+  title={26 th ACM International Conference on Hypertext and Social Media},
+  author={Yesilada, Yeliz and Celik, Ilknur and Farzan, Rosta and Houben, Geert-Jan},
+  journal={ACM SIGWEB Newsletter},
+  number={Winter},
+  pages={1},
+  year={2015},
+  publisher={ACM}
+}
+`
+
+
+
+ ---
+
+<$edit-text tiddler="$:/temp/var" tag="input" type="text"/>
+<$button>
+
+<$action-bibtex source={{$:/temp/var}}/>
+convert me!
+</$button>

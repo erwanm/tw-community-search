@@ -1,0 +1,11 @@
+title: $:/OpenAllTagged/example
+created: 20160606084329396
+creator: twMat
+modified: 20160606085409493
+modifier: twMat
+original-tags: 
+source-wiki-id: OpenAllTagged
+source-tiddler-title-as-text: example
+source-tiddler-title-as-link: example
+
+<<openalltagged "aaa">>

@@ -1,0 +1,17 @@
+title: $:/MalSandbox/$:/plugins/malgam/version-control
+author: malgam
+core-version: 5.1.19
+created: 20190207062311983
+creator: malgam
+description: Simple Tiddler Version Control
+list: readme usage history
+modified: 20190208052913254
+modifier: malgam
+version: 0.0.7
+original-tags: 
+source-wiki-id: MalSandbox
+source-tiddler-title-as-text: $:/plugins/malgam/version-control
+source-tiddler-title-as-link: %24%3a%2fplugins%2fmalgam%2fversion-control
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

@@ -1,0 +1,20 @@
+title: $:/Checklist/Installing a plugin from the plugin library
+created: 20160107222352710
+modified: 20160107224746041
+type: text/vnd.tiddlywiki
+original-tags: Plugins
+source-wiki-id: Checklist
+source-tiddler-title-as-text: Installing a plugin from the plugin library
+source-tiddler-title-as-link: Installing%20a%20plugin%20from%20the%20plugin%20library
+
+# Create a backup of your current TiddlyWiki HTML file ([[just in case|The First Rule of Using TiddlyWiki]])
+# Open your TiddlyWiki in a browser
+# Open the [[$:/ControlPanel]], click on the ''Plugins'' tab and then the ''Get more plugins'' button
+# Click ''open plugin library'' to open the official plugin library
+# When the library listing is loaded:
+## Use the dropdown to select between ''plugins'', ''themes'' and ''languages''
+## Use the ''search'' box to search the plugin details
+# Click the ''install'' button to install a plugin
+# Save your TiddlyWiki
+# ''Refresh the page so that TiddlyWiki loads the new plugin''
+# The plugin should now be available for use
