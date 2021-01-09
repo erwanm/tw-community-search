@@ -1,10 +1,10 @@
 title: $:/Encrypt Tiddler Plugin/$:/plugins/tiddlywiki/codemirror
+author: JeremyRuston
 dependents: 
-description: CodeMirror editor
+description: CodeMirror _Editor
 list: readme usage keyboard license
-name: CodeMirror
 revision: 0
-version: 5.1.22
+version: 5.1.21
 original-tags: 
 source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror

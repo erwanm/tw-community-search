@@ -4,10 +4,10 @@ core-version: >=5.1.1
 dependents: 
 description: adds the ability to encrypt single tiddlers
 list: Encrypt-Tiddler Changelog
-released: 2020-12-22T06:47:09.878Z
+released: 2021-01-08T18:11:10.946Z
 revision: 0
 source: https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin
-version: 2.3
+version: 2.4
 original-tags: 
 source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: $:/plugins/danielo515/encryptTiddler

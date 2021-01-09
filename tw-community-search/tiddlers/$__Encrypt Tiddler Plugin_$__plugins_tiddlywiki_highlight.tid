@@ -1,11 +1,11 @@
 title: $:/Encrypt Tiddler Plugin/$:/plugins/tiddlywiki/highlight
-author: Joao Bolila
+author: JoaoBolila
+core-version: >=5.0.0
 dependents: 
-description: Highlight.js syntax highlighting
+description: Highlight.js: syntax highlighting
 list: readme usage howto license
-name: Highlight
 revision: 0
-version: 5.1.22
+version: 5.1.21
 original-tags: 
 source-wiki-id: Encrypt Tiddler Plugin
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

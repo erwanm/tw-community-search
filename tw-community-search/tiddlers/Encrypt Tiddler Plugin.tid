@@ -5,8 +5,8 @@ author: DanieloRodriguez
 title: Encrypt Tiddler Plugin
 type: text/vnd.tiddlywiki
 wiki-address: http://danielorodriguez.com/TW5-EncryptTiddlerPlugin/
-wiki-tw-version: 5.1.22
-wiki-latest-modification: 20200424084900109
+wiki-tw-version: 5.1.21
+wiki-latest-modification: 20210108172448333
 wiki-nb-tiddlers: 8
 
 Encrypt single tiddlers
