@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/bj/clickaction'
-name: unknown
-plugin_tiddler: $:/plugins/bj/clickaction
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

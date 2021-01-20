@@ -1,7 +1,0 @@
-title: $:/GSD5/BestPractice CustomCSS
-original-tags: 
-source-wiki-id: GSD5
-source-tiddler-title-as-text: BestPractice CustomCSS
-source-tiddler-title-as-link: BestPractice%20CustomCSS
-
-If using custom CSS, prefer relative sizing of elements over fixed/absolute.

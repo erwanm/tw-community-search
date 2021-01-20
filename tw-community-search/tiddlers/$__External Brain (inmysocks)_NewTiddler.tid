@@ -1,9 +1,0 @@
-title: $:/External Brain (inmysocks)/NewTiddler
-created: 20150516032559065
-modified: 20150516050519527
-original-tags: 
-source-wiki-id: External Brain (inmysocks)
-source-tiddler-title-as-text: NewTiddler
-source-tiddler-title-as-link: NewTiddler
-
-<$macrocall $name=CommentsJavascriptMacro postname={{!!title}} >>

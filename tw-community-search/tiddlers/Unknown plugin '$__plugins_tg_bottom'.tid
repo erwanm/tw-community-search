@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tg/bottom'
-name: unknown
-plugin_tiddler: $:/plugins/tg/bottom
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

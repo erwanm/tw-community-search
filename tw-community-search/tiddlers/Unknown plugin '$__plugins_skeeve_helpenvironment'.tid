@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/skeeve/helpenvironment'
-name: unknown
-plugin_tiddler: $:/plugins/skeeve/helpenvironment
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

@@ -1,7 +1,7 @@
 title: Tag: test
 tags: CommunityTags
 community-tag: test
-community-tag-count: 7
-community-wikis: [[AutoTag]] [[Context Plugin]] [[ListManagement]] [[List Manipulation (inmysocks)]] [[tiddlywiki.com]]
+community-tag-count: 2
+community-wikis: [[AutoTag]] [[tiddlywiki.com]]
 
 {{||$:/CommunityTagTemplate}}

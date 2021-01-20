@@ -5,10 +5,6 @@ author: c pa
 title: ListManagement
 type: text/vnd.tiddlywiki
 wiki-address: http://cpalists.tiddlyspot.com/
-wiki-tw-version: 5.1.10
-wiki-latest-modification: 20160228085146171
-wiki-nb-tiddlers: 37
 
-<<version>>
 
 {{||$:/CommunityWikiPresentationTemplate}}
