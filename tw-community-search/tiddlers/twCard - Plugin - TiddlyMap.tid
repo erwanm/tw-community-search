@@ -1,0 +1,26 @@
+audience: 
+category: Data Presentation
+created: 20150106175012859
+date: 11-10-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: felixhayashi
+modified: 20151011215752645
+name: TiddlyMap
+plugin_tiddler: $:/plugins/felixhayashi/tiddlymap
+release: 
+repository: 
+revision: 0.9.15
+short_description: A plugin to make mindmaps using TiddlyWiki
+title: twCard - Plugin - TiddlyMap
+wiki: http://tiddlymap.org/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: TiddlyMap
+twcs-extracted-plugin-tiddler: $:/TiddlyMap/$:/plugins/felixhayashi/tiddlymap
+twcs-description: TiddlyMap – Map drawing and topic visualization for your wiki
+twcs-author: Felix Küppers
+twcs-version: 0.17.8+10010
+
+{{||$:/CommunityPluginTemplate}}

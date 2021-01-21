@@ -1,0 +1,15 @@
+title: $:/inmysocks/Dice Example
+created: 20141230051346655
+modified: 20141230065658848
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Dice Example
+source-tiddler-title-as-link: Dice%20Example
+
+<$edit-text tiddler='$:/state/diceexample' field='num_dice' size=2/> d <$edit-text tiddler='$:/state/diceexample' field='dice_size' size=2/> x <$edit-text tiddler='$:/state/diceexample' field='multiplier' size=2/> + <$edit-text tiddler='$:/state/diceexample' field='bonus' size=2/> = {{$:/state/diceexample!!output2}}
+
+<$prodfield2 filter='[[$:/state/diceexample]]' prodfield='die_roll' prodfield2='multiplier' storefield='output'/>
+
+<$sumfield2 filter='[[$:/state/diceexample]]' sumfield='output' sumfield2='bonus' storefield='output2'/>
+
+{{$:/state/diceexample}}

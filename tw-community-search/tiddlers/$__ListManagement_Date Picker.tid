@@ -1,0 +1,10 @@
+title: $:/ListManagement/Date Picker
+created: 20150921024501795
+modified: 20151008231322443
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: Date Picker
+source-tiddler-title-as-link: Date%20Picker
+
+Due date: <$view field="created" format="date"template="mmm DDth YYYY"/>
+<$date field="due"/>

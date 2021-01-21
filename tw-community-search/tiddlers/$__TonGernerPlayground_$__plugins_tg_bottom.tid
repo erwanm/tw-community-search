@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/bottom
+author: TonGerner
+core-version: >=5.1.15
+created: 20191229132523067
+description: Go to bottom
+list: readme license
+modified: 20191229132708169
+name: Go to bottom
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.7
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/bottom
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2fbottom
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

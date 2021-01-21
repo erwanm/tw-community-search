@@ -1,0 +1,77 @@
+title: $:/SimpleCheckList/About
+created: 20170506075246118
+modified: 20170506114148077
+original-tags: 
+source-wiki-id: SimpleCheckList
+source-tiddler-title-as-text: About
+source-tiddler-title-as-link: About
+
+Here is the drag and drop version of the simplechecklist plugin.
+
+To import it, grab this link and drag it into your TW : [[$:/plugins/frd/simplechecklist]]
+
+This macros has not been thoroughly tested, so use with caution and report any bug.
+
+An also :
+
+<<<
+I'm not very good with CSS, so any proposal for improvement in this area is welcome !!!
+<<<
+
+!!How to call the macro
+Each checklist needs a "state" tiddler to keep its data : lists of items, whether an item is checked or not, list of "disabled" or "enabled" items, flags, .... 
+
+''The data are stored in the fields of the "state" tiddler.''
+
+So when you call the macro it's better to specify an explicit "state" tiddler :
+
+``<<ckl_Main "My checklist state">>``
+
+If you don't, and use ``<<ckl_Main>>`` a "state" tiddler will be automatically created. Its name will be the name of the current tiddler followed by ``_state``.
+
+So when you use an explicit "state" tiddler, you can put as many checklists as you want in one tiddler, as long as you use different "state" tiddlers for each one.
+
+!!Enabled and disabled items
+An item can be "enabled" : you can use it (check it or uncheck it).
+
+If disabled, it's no longer usable (as a checkbox) until it's enabled again.
+
+This feature can be useful if you build a checklist for a global use and want to restrict it for a use case that is more specific.
+
+!!The user interface
+At the top you have a toolbar :
+
+* * is a link to the state tiddler
+* the + button is used to add an item to the list
+* the "folder" button is used to import a list from a tiddler
+* the "export" button exports the items to a tiddler
+* the five following buttons perform an action on ''all'' (enabled) tiddlers : checking, unchecking, disabling, enabling, and deleting.
+
+Then you have the list of "enabled" items.
+
+Each item has two buttons :
+
+*the first is used to edit the item,
+*the second one is used to mark (or unmark) as "important (red color)
+
+Then comes three drop zones where you can drag an item
+
+*one for deleting the item,
+*one for "disabling" the item,
+*and one for "enabling" it
+
+And at last you have the list of disabled items (inside a "reveal" area).
+
+!!Drag and Drop features
+
+As said above yous have three areas where to drop items in order to delete, disable or enable it.
+
+You can also reorder the items of the "enabled" list.
+
+!!Import / Export
+You can import a list from a tiddler :
+
+*the tiddler has to be tagged "ckl_RawListForCheckList"
+*and be of type : text/plain (see the examples).
+
+The export button creates (or overwrites) a tiddler of the same format (tagged  "ckl_RawListForCheckList" and type text/plain). When you export a checklist, only the "enabled" items are exported.

@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/matabele/action-maketid'
+name: unknown
+plugin_tiddler: $:/plugins/matabele/action-maketid
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

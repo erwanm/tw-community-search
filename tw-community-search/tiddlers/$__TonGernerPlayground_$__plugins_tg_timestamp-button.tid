@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/timestamp-button
+author: TonGerner
+core-version: >=5.1.13
+created: 20170511203457093
+creator: TonGerner
+description: Timestamp button
+list: readme
+modified: 20191230195515305
+modifier: TonGerner
+name: Timestamp button
+source: http://tongerner.tiddlyspot.com/
+version: 0.0.13
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/timestamp-button
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftimestamp-button
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

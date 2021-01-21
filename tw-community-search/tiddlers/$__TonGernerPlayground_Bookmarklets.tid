@@ -1,0 +1,31 @@
+title: $:/TonGernerPlayground/Bookmarklets
+created: 20140705105355014
+creator: TonGerner
+modified: 20200426194150125
+modifier: TonGerner
+status: upgraded to
+original-tags: documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Bookmarklets
+source-tiddler-title-as-link: Bookmarklets
+
+!! [[How to make/modify bookmarklets|Bookmarklets]]
+
+''Status:'' @@.RED {{Bookmarklets!!status}} v<<version>>@@
+
+This guide describes how to make (modify existing) bookmarklets without ~JavaScript knowledge, just using templates.<br>
+It is based upon the work of Stephan Hadrek, so all credits to him, see:
+
+* http://tw5magick.tiddlyspot.com/
+* [[Google groups|https://groups.google.com/d/msg/tiddlywiki/cUUXichiwdU/8gTL3lsO0MUJ]]
+
+''Guide at ~TiddlySpot:''<br>[[How to make TW5 bookmarklets|http://tw5bookmarklets.tiddlyspot.com/]]
+
+<<<
+''Note:''
+
+* As of TW v5.1.12 TiddlyWiki contains an editor toolbar which makes the use of bookmarklets more or less superfluous
+** @@.red Bookmarklets ''cannot'' be used in combination with the new editor toolbar which uses an iframe for the textarea element!<br>You can use the new editor toolbar ''or'' switch off the editor toolbar and use bookmarklets.@@
+* To get the best of both worlds toggling of the editor toolbar need to be easy. My Layout tweaks plugin contains in edit mode a <<slider "toolbar below the tags:" "$:/plugins/tg/layout/toggle_toolbar">>
+<<<
+

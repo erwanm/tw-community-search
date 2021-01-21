@@ -1,0 +1,13 @@
+title: $:/Interactive Fiction Engine (inmysocks)/DoorState1
+created: 20141115064006589
+event_name: Door
+event_order: first
+location: TestRoom
+modified: 20141119070010971
+trigger: DoorStateTrigger
+original-tags: Event
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: DoorState1
+source-tiddler-title-as-link: DoorState1
+
+The door is locked

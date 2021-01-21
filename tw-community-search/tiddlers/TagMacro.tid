@@ -1,0 +1,4 @@
+title: TagMacro
+new-tiddler: Tag: TagMacro
+
+{{||$:/ObsoleteCommunityTagTemplate}}

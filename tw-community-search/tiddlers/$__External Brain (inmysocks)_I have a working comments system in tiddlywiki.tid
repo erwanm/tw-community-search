@@ -1,0 +1,74 @@
+title: $:/External Brain (inmysocks)/I have a working comments system in tiddlywiki
+created: 20150203221158869
+creator: inmysocks
+day: 16
+image: 
+image_caption: 
+link: 
+modified: 20170218082914524
+modifier: inmysocks
+month: May
+number_of_comments: 19
+posted: 00:24, 16th May 2015
+sort_comments: newest
+summary: it works (mostly)!
+template: BlogDisplayTemplate1
+time: 20150516002427
+tooltip: 
+width: 
+year: 2015
+original-tags: [[My Blog]] [[Normal Post]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: I have a working comments system in tiddlywiki
+source-tiddler-title-as-link: I%20have%20a%20working%20comments%20system%20in%20tiddlywiki
+
+''EDIT 5'' - I am not going to display all of the comments that are variations of 'test', so stop posting them. Go see [[Rejected Comments]] if you really want to see your test comment. Also, I do have to import comments before they show up. If you want to see a bit about how this works go to [[the testing site|http://ooktech.com/jed/externalbrain/testing/#Check%20for%20new%20comments]]
+
+''EDIT 4'' - Ok, comments should actually work now. For real this time.
+
+''EDIT 3'' - PROGRESS!! In a few hours I will either have a working version that isn't part of tiddlywiki to avoid the licensing problems, or I will be at my fathers house eating pizza. Or possibly both. (May 16 2015 15:15)
+
+''EDIT 2'' - Comments are down for a bit while I fix some issues with licensing and stuff.
+
+'' edit'' the defaults for user name and email are set to mine because stuff. I will fix it in the morning. For now just change it, or leave me comments from me. 
+
+
+So I was going to post the stuff that is at the bottom of this (above the comment section!!!) but then I got distracted by the problem of making one of the comment systems work instead of talking about them. So I have a mostly working commenting system now. It is a modification of [[hashover|http://tildehash.com/?page=hashover]] that works with tiddlywiki. It was surprisingly easy to make it work. The biggest problem is that I can't spell. I spent two hours trying to track down a problem that didn't exist because I couldn't tell that write and wirte weren't the same word. I would say that eventually I will learn how to spell, but if I haven't gotten it in 30 years I should just accept that I never will. Anyway, about the comments system! It separates comments by post correctly without any intervention by me, and more than one set of comments can be displayed at the same time. I don't have the comments themselves displayed yet. To do that I need to figure out how to best read a bunch of xml files that contain the contents of each comment. But you can leave comments and I will see them. I may be able to use the php stuff from hashover directly since I am going to be moderating comments so nothing would get posted until I see it anyway. I am pretty sure that I can make a good moderation system using tiddlywiki. The css also breaks when it is inside a tiddler, I don't know why but that should be fixable without too much effort. It is late and I am going to bed, I will work on this more tomorrow.
+
+I am once again stupdily excited.
+
+Also, since this is the first time I have ever touched php, is there someone who has actually used it before that can look over the code to make sure I didn't do something horribly stupid or break some security thing?
+
+And a quick note to myself about how I should set up the moderation stuff:
+
+Take the part of the php script that generates json data, use that as an input to the javascript macro, which will compare the posts there to a list of accepted comments stored in a data tiddler on the wiki here. Any comments listed in the data tiddler get displayed, others don't.
+
+Hopefully that will work. Who knows?
+
+Here is the post I was going to use before I made things work:
+
+---
+
+These are the three that look like they have the best chance of working:
+
+*[[hashover|http://tildehash.com/?page=hashover]]
+*[[isso|http://posativ.org/isso/]]
+*[[juvia|https://github.com/phusion/juvia]]
+
+!!Hashover
+
+There are currently comments using hashover, but only for the entire site, not for individual posts. I need to figure out how to either give it the url fragment (which is impossible according to the all knowing internet) or some other way for it to distinguish between posts. The alternative is to generate static html for each post and when you click on a post title instead of opening up the tiddler for that post it brings you to the static site. All I would need to do there is put the javascript in the html for the static sites and everything would work without further input from me. That may be the solution I end up using.
+
+!!Isso
+
+While it looks promising, and uses javascript, I have no idea how to get it to work. There is supposed to be a deb file for it but none of the links I have found actually work. It may also have the same problem as hashover because it requires a script to place the comments, and you can't put javascript inside normal tiddlers.
+
+!!juvia
+
+This also looks promising, but probably has the same problems as isso.
+
+Also, to anyone reading this, you should try to leave a comment at the bottom of the page. I need people to test it. Any help in how I would go about installing isso or juvia would also be greatly appreciated. I just realized that I may be able to make a javascript macro in tiddlywiki that lets me put the comments where I want them and pass them a parameter to for the correct url. I will look into this.
+
+---
+
+And look!! A comment section!!

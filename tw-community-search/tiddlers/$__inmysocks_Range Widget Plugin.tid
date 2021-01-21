@@ -1,0 +1,48 @@
+title: $:/inmysocks/Range Widget Plugin
+created: 20150604040759103
+modified: 20150604041455861
+original-tags: [[My Plugins]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Range Widget Plugin
+source-tiddler-title-as-link: Range%20Widget%20Plugin
+
+Plugin tiddler: $:/plugin/inmysocks/rangewidget/range.js
+
+Github: not set up yet
+
+Usage:
+
+```
+<$range tiddler=someTiddler field=someField min=minValue max=maxValue step=stepSize class=someCSSClass/>
+```
+
+or
+
+```
+<$range tiddler=someTiddler index=someIndex min=minValue max=maxValue step=stepSize class=someCSSClass/>
+```
+
+Inputs:
+
+|!Name |!Description |
+|tiddler |The tiddler to store the value set by the range widget. |
+|field |The field to store the value |
+|index |The data tiddler index to store the value |
+|min |The minimum value of the widget |
+|max |The maximum value of the widget |
+|step |The step size used by the widget |
+|class |An optional CSS class for the widget |
+
+!!Examples:
+
+```
+<$range tiddler='$:/state/Range Widget Plugin/demo' field='demo_field' min=1 max=50 step=1/> The current value is {{$:/state/Range Widget Plugin/demo!!demo_field}}
+```
+
+<$range tiddler='$:/state/Range Widget Plugin/demo' field='demo_field' min=1 max=50 step=1/> The current value is {{$:/state/Range Widget Plugin/demo!!demo_field}}
+
+```
+<$range tiddler='$:/state/Range Widget Plugin/demo' field='demo_field2' min=-100 max=100 step=10/> The current value is {{$:/state/Range Widget Plugin/demo!!demo_field2}}
+```
+
+<$range tiddler='$:/state/Range Widget Plugin/demo' field='demo_field2' min=-100 max=100 step=10/> The current value is {{$:/state/Range Widget Plugin/demo!!demo_field2}}

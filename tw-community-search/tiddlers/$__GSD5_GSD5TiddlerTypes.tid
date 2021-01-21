@@ -1,0 +1,22 @@
+title: $:/GSD5/GSD5TiddlerTypes
+caption: GSD5 Tiddler Types
+original-tags: GSD5Basics
+source-wiki-id: GSD5
+source-tiddler-title-as-text: GSD5TiddlerTypes
+source-tiddler-title-as-link: GSD5TiddlerTypes
+
+Interaction with GSD5 is primarly through tiddlers that have a `gsd_type`.  The different types define interactions and the user interface presented.  
+
+!GSD5 Tiddler Types
+The following tiddler types is used by the GSD5 core.
+
+| !Type | !Notes |
+|[[Action]] |The most basic GSD5 tiddler; represents basic actions or tasks to be performed. |
+|[[Project]] |Used to group Actions into a common theme or purpose. |
+|[[Contact]] |Tiddler used as a contact card and task accountability. |
+|[[Reference]] |Reference tiddlers are used to store information associated with Projects. |
+|[[Context]] |Allows for grouping Actions that do not share a Project. |
+|[[Realm]] |A grouping mechanic that allows all other types to be divided into usually board categories. |
+
+!Best Practice
+* Creating custom tiddler types is permitted.  Note that core GSD5 functions will not be aware of custom tiddler types.

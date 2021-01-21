@@ -1,0 +1,19 @@
+title: $:/External Brain (inmysocks)/About this site
+created: 20150510151210688
+creator: inmysocks
+modified: 20150730145415028
+modifier: inmysocks
+original-tags: Dashboard
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: About this site
+source-tiddler-title-as-link: About%20this%20site
+
+This site is my experiment trying to make a blog (and hopefully in the future a distributed social media platform). I am making all of this up as I go along so any ideas, comments or suggestions are welcome. I have cheated a bit and used a [[google form for comments|Comments]] for the main site, but each blog post (click on the title of the post in the 'My Blog' section to open up a specific post) has individual comments if you want to leave one. Comments are moderated and I am often terrible about remembering to check them so your comments won't show up immediately. Comments are done using [[hashover|http://tildehash.com/?page=hashover]], which is an open source PHP-based comment system. I have modified it to play well with tiddlywiki and to add comment moderation. Hashover is released under the AGPL, so here is the [[source code|http://ooktech.com/hashover.zip]] used for comments on this site.
+
+''Navigation'' - This page is generated using ~JavaScript, so for the moment it is only one page. I am hoping to make static pages for each blog post to allow search engines to index the site and make permalinks easier. For the moment if you click on the # button in the upper right of a post than the address bar will be updated with the url for that post. clicking on the {{Menu Icon - Calendar Archive}} button in the upper left will bring you to the archives, clicking on the {{$:/core/ui/Buttons/home}} icon any of the places it shows up will bring you to the default dashboard view. Hovering on the left side of the screen will open up a menu with links to the different parts of the site. The {{Menu Icon - Leave Comment}} icon anywhere it shows up will bring you to a form you can use to leave comments. It uses a google form and isn't what I want, but it is all I have that works at the moment. Other icons do other stuff, they have tooltips and won't break the site. Click on stuff and explore.
+
+If you click on the title of a post in the main dashboard view it will open up that post, you can use this to get a permalink to a post.
+
+This site is a [[TiddlyWiki|http://tiddlywiki.com]], a personal single file wiki created by Jeremy Ruston. It is extremely flexible and can be used for anything from a personal journal or blog (like this site) to an [[interactive fiction engine|http://zorklike.tiddlyspot.com/]]. It can be used in most browsers, online or offline. It is an open source project ([[tiddlywiki on github|https://github.com/Jermolene/TiddlyWiki5]]) so contributions are welcome.
+
+This site is a work in progress and will probably always be under development as I decide to try new things.

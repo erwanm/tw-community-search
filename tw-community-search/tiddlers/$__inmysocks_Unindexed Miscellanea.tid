@@ -1,0 +1,62 @@
+title: $:/inmysocks/Unindexed Miscellanea
+created: 20150416173300649
+modified: 20150506002253002
+original-tags: Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Unindexed Miscellanea
+source-tiddler-title-as-link: Unindexed%20Miscellanea
+
+<h2>''How do I make these reveal widgets stop breaking my table/select/other stuff??''</h2>
+
+You have two options:
+
+If it is somewhere like a table that has a tag associated with it, and you only need to use the tag with no other input, you can put a `tag=foo` option in the reveal widget. So in a table if you want a cell (`td`) to be visible controlled by the reveal widget you would have something like:
+
+`<$reveal type='match' state=<<someState>> text=<<someText>> tag=td>(content)</$reveal>`
+
+If that won't work because you need to have something special with the tag, like `<option value=foo>` or something, than you can use a list widget instead like this:
+
+`<$list filter='[<someState>text<someText>]'>(content)</$list>`
+
+this works in every case I have come across where a reveal widget breaks things. If your state is the field of a tiddler than you can use a filter in the form `[[tiddlername]fieldname[text]]` to replace a match type reveal, or `[[tiddlername]!fieldname[text]]` for a nomatch type reveal.
+
+<h2>''How can I use something like `{{!!title}}` and make it show up as a link?''</h2>
+
+You use `<$link to={{!!title}}><$view field='title'/></$link>` which gives <$link to={{!!title}}><$view field='title'/></$link><br>
+If you use `{{!!title}}` you get {{!!title}}<br>
+You can use `<$link to={{!!title}}>{{!!title}}</$link>`, but in some cases that gives strange results.
+
+---
+
+<h2>''In lists, tiddlers with titles that have both spaces and CamelCase display strangely when I use a template. How do I fix this?''</h2>
+
+You use `<$link to={{!!title}}><$view field='title'/></$link>` in your list or template.
+
+
+Without the fix:
+
+```
+<$list filter='[[Some Tiddler with ACamelCaseWord]]'>
+<$link to={{!!title}}>{{!!title}}</$link> - <$view field='modified'/>
+</$list>
+```
+<$list filter='[[Some Tiddler with ACamelCaseWord]]'>
+<$link to={{!!title}}>{{!!title}}</$link> - <$view field='modified'/>
+</$list>
+
+With the fix:
+
+```
+<$list filter='[[Some Tiddler with ACamelCaseWord]]'>
+<$link to={{!!title}}><$view field='title'/></$link> - <$view field='modified'/>
+</$list>
+```
+
+<$list filter='[[Some Tiddler with ACamelCaseWord]]'>
+<$link to={{!!title}}><$view field='title'/></$link> - <$view field='modified'/>
+</$list>
+
+<h2>''Useful built in classes''</h2>
+
+*`tc-popup-keep` - this class, when added to a popup, will keep the popup open when you click inside of it and close the popup when you cilck outside of it. This is different from the default of closing whenever you click anywhere.
+*`tc-btn-invisible` - make a button without the button image

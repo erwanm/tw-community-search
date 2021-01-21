@@ -1,0 +1,14 @@
+title: $:/t5a/5
+created: 20170603014543431
+creator: Andrew Harrison
+modified: 20170603152333993
+modifier: Andrew Harrison
+original-tags: 
+source-wiki-id: t5a
+source-tiddler-title-as-text: 5
+source-tiddler-title-as-link: 5
+
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <path fill="#ccc" stroke="#f00" stroke-width="5" d="m7,36.7l55,-32l55,32l0,58.2l-55,32l-55,-32l0,-58.2z"/>
+<path d='m52,46h55v13h-55v-13zm0,28.5h55v13h-55v-13zm-8,-6h-25v25h25v-25zm-4,9l-10,11l-7,-7l2.5,-2.5l4.5,4.5l8,-9l2.5,2.5zm4,-38h-25v25h25v-25l0,0zm-4,9l-10,11l-7,-7l2.5,-2.5l4.5,4.5l8,-9l2.5,2.5z'/>
+</svg>

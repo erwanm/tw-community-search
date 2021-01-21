@@ -1,0 +1,37 @@
+title: $:/External Brain (inmysocks)/Search and Replace Fields
+blurb:  
+created: 20150201004301795
+modified: 20150203215215895
+selected_field: sort
+selected_tag: DOSBox
+original-tags: Tools [[Wiki Settings]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Search and Replace Fields
+source-tiddler-title-as-link: Search%20and%20Replace%20Fields
+
+\define thisSelectField()
+Field Content to replace: <$select field='selected_field'>
+<$set name=FieldSearch value={{$:/temp/changefield!!search_field}}>
+<$list filter='[fields[]regexp[(?i)$(FieldSearch)$]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$set>
+</$select> <$edit-text tiddler='$:/temp/changefield' field='search_field' class='tc-exit-textexitor' placeholder='Narrow Fields List'/>
+\end
+
+This lets you search for all tiddlers with a specific field and selectivly replace the content of the field. Or if the 'Replace With' field is empty just remove the field from the tiddler(s).
+
+<<thisSelectField>>
+
+Replace With: <$edit-text tiddler='$:/temp/changefield' field='replace_field' class='tc-edit-texteditor'/>
+
+<table>
+<tr><th>Tiddler</th><th>Field Content</th><th>Replace?</th></tr>
+<$list filter='[has{!!selected_field}]'>
+<tr>
+<$fieldmangler tiddler=<<currentTiddler>>>
+<td><$link to=<<currentTiddler>>><$view field='title'/></$link></td><td><$view field={{Search and Replace Fields!!selected_field}}/></td><td><$button>Replace Content<$action-setfield $field={{Search and Replace Fields!!selected_field}} $value={{$:/temp/changefield!!replace_field}}/></$button></td>
+</$fieldmangler>
+</tr>
+</$list>
+</table>

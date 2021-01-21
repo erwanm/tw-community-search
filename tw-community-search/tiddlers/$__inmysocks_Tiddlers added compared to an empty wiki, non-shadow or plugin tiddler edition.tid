@@ -1,0 +1,11 @@
+title: $:/inmysocks/Tiddlers added compared to an empty wiki, non-shadow or plugin tiddler edition
+created: 20150108210603475
+modified: 20150108212355572
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Tiddlers added compared to an empty wiki, non-shadow or plugin tiddler edition
+source-tiddler-title-as-link: Tiddlers%20added%20compared%20to%20an%20empty%20wiki%2c%20non-shadow%20or%20plugin%20tiddler%20edition
+
+<$list filter='[all[]]-[[$:/library/sjcl.js]] -[[$:/boot/bootprefix.js]] -[[$:/boot/boot.js]] -[[$:/boot/boot.css]] -[[$:/core]] -[[$:/isEncrypted]] -[[$:/themes/tiddlywiki/snowwhite]] -[[$:/themes/tiddlywiki/vanilla]] -[[$:/temp/info-plugin]] -[[$:/StoryList]] -[[$:/HistoryList]]'>
+
+</$list>

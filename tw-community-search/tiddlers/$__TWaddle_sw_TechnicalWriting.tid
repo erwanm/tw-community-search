@@ -1,0 +1,26 @@
+title: $:/TWaddle/sw:TechnicalWriting
+created: 20150415215227137
+creator: Mat
+modified: 20150614222208844
+modifier: Mat
+original-tags: SoftwareCategory sw:Authoring sw:Editor
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: sw:TechnicalWriting
+source-tiddler-title-as-link: sw%3aTechnicalWriting
+
+<<boxref "''Technical writing'' is any written form of writing or drafting technical communication used in a variety of technical and occupational fields, such as computer hardware and software, engineering, chemistry, aeronautics, robotics, finance, consumer electronics, and biotechnology. IT encompasses the largest sub-field within technical communication.<br><br>//The Society for Technical Communication// defines technical communication as any form of communication that exhibits one or more of the following characteristics: (1) communicating about technical or specialized topics, such as computer applications, medical procedures, or environmental regulations; (2) communicating through technology, such as web pages, help files, or social media sites; or (3) providing instructions about how to do something, regardless of the task's technical nature." "http://en.wikipedia.org/wiki/Technical_writing">>
+
+The following tools are used by technical writers to author and present documents:
+
+*Desktop publishing tools or word processors.
+*Help authoring tools
+*Image editing software
+*Collaborative software programs
+*Web development tools
+*Graphing software
+*Screen capture tools
+
+[[Here|http://meteortips.com/blog/technical-writing-software/]]'s an informal article comparing tools for writing technical books.
+
+See also other Editor software:
+<<list-links "[all[shadows+tiddlers]!has[draft.of]tag[sw:Editor]!is[current]]">>

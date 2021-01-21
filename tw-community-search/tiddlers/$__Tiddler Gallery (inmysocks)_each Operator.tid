@@ -1,0 +1,23 @@
+title: $:/Tiddler Gallery (inmysocks)/each Operator
+caption: each
+created: 20140410103123179
+modified: 20150124164957000
+purpose: select one of each group of input titles by field
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Group Operators]]
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: each Operator
+source-tiddler-title-as-link: each%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="the name of a [[field|TiddlerFields]]"
+paramName="f"
+output="a selection containing the first input title encountered for each distinct value of field <<.place f>>"
+/>
+
+Each input title is processed in turn. The value of field <<.place f>> in the corresponding tiddler is examined, and as long as the value has not been encountered before, the title is appended to the output set.
+
+If a tiddler doesn't contain field <<.place f>>, or contains it but with an empty value, then it contributes nothing to the output.
+
+<<.operator-examples "each">>

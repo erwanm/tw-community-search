@@ -1,0 +1,31 @@
+title: $:/pv5/FAIL: Wiki ParamAngleBrackets
+created: 20141119194217537
+creator: Tobias Beer
+modified: 20141121073351421
+modifier: Tobias Beer
+original-tags: Test
+source-wiki-id: pv5
+source-tiddler-title-as-text: FAIL: Wiki ParamAngleBrackets
+source-tiddler-title-as-link: FAIL%3a%20Wiki%20ParamAngleBrackets
+
+\define foo(bar)
+<<bar>>
+\end
+
+```
+\define foo(bar)
+<<bar>>
+\end
+
+<<foo GettingStarted>>
+```
+
+output:
+
+<<foo GettingStarted>>
+
+expected:
+
+GettingStarted
+
+@@color:red; This one is particularly confusing as I definitely expected it to work.@@

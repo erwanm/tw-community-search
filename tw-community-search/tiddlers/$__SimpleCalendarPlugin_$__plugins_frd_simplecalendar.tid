@@ -1,0 +1,13 @@
+title: $:/SimpleCalendarPlugin/$:/plugins/frd/simplecalendar
+author: FrD
+created: 20190206214756137
+description: Simple Calendar
+modified: 20190206214756765
+version: 0.2.16
+original-tags: 
+source-wiki-id: SimpleCalendarPlugin
+source-tiddler-title-as-text: $:/plugins/frd/simplecalendar
+source-tiddler-title-as-link: %24%3a%2fplugins%2ffrd%2fsimplecalendar
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

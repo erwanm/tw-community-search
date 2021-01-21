@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Control Panel Addon (inmysocks)
+caption: Extra Control Panel Options
+category: Website
+created: 20150604153855690
+description: A tool that lets you modify many more options than the control panel has by default.
+follow: yes
+modified: 20151116091125268
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/ControlPanelAddon/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Control Panel Addon (inmysocks)
+source-tiddler-title-as-link: Control%20Panel%20Addon%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

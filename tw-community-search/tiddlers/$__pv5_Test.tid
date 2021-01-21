@@ -1,0 +1,15 @@
+title: $:/pv5/Test
+created: 20141121073703581
+modified: 20141121073714527
+original-tags: 
+source-wiki-id: pv5
+source-tiddler-title-as-text: Test
+source-tiddler-title-as-link: Test
+
+*`OK`, i.e. tested OK
+*`nOK` or not OK ...meaning: failure was expected
+*`FAIL`ed test
+*`:` rather sure
+*`?` doubt
+
+<<tagging>>

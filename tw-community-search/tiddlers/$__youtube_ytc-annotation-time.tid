@@ -1,0 +1,10 @@
+title: $:/youtube/ytc-annotation-time
+created: 20150110114702266
+modified: 20150110122248294
+summary: a class for the time link of an annotation in the list of annotations
+templates: $:/plugins/tobibeer/youtube/list/annotations
+original-tags: Styles
+source-wiki-id: youtube
+source-tiddler-title-as-text: ytc-annotation-time
+source-tiddler-title-as-link: ytc-annotation-time
+

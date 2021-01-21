@@ -1,0 +1,33 @@
+title: $:/Language Flash Cards (inmysocks)/Add Adjective
+created: 20151014113411260
+modified: 20151016095232903
+original-tags: Tool
+source-wiki-id: Language Flash Cards (inmysocks)
+source-tiddler-title-as-text: Add Adjective
+source-tiddler-title-as-link: Add%20Adjective
+
+In English:
+
+<$edit-text tiddler='$:/temp/Add Adjective' field='english' class='tc-edit-texteditor'/>
+
+In French:
+
+Masculin
+<$edit-text tiddler='$:/temp/Add Adjective' field='masculin' class='tc-edit-texteditor'/>
+
+Féminin
+<$edit-text tiddler='$:/temp/Add Adjective' field='feminin' class='tc-edit-texteditor'/>
+
+Pluriel Masculin
+<$edit-text tiddler='$:/temp/Add Adjective' field='pluriel_masculin' class='tc-edit-texteditor'/>
+
+Pluriel Féminin
+<$edit-text tiddler='$:/temp/Add Adjective' field='pluriel_feminin' class='tc-edit-texteditor'/>
+
+<$checkbox tiddler='$:/temp/Add Adjective' tag=Nationality>Nationality</$checkbox>
+
+<$button>
+Add Adjective
+<$action-setfield $tiddler='$:/temp/Add Adjective' title={{$:/temp/Add Adjective!!english}}/>
+<$action-setfield $tiddler='$:/temp/Add Adjective' english='' masculin='' feminin='' pluriel_masculin='' pluriel_feminin=''/>
+</$button>

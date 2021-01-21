@@ -5,6 +5,10 @@ tags: CommunityWikis
 title: Aliases
 type: text/vnd.tiddlywiki
 wiki-address: http://aliases.tiddlyspot.com/
+wiki-tw-version: 5.1.19
+wiki-latest-modification: 20190712112422136
+wiki-nb-tiddlers: 3
 
+show another title link
 
 {{||$:/CommunityWikiPresentationTemplate}}

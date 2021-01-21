@@ -1,0 +1,14 @@
+title: $:/TW5Toolbar/$:/plugins/tiddlywiki/googleanalytics
+contributor: Sylvain Comte
+dependents: 
+description: Website visitor statistics from Google
+list: readme settings usage
+name: Google Analytics
+version: 5.1.22
+original-tags: 
+source-wiki-id: TW5Toolbar
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/googleanalytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgoogleanalytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

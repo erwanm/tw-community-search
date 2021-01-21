@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/bj/taglist'
-name: unknown
-plugin_tiddler: $:/plugins/bj/taglist
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

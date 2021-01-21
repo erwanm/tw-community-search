@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/No Learning Required TiddlyWiki (inmysocks)
+caption: No Learning Required TiddlyWiki
+category: Website
+created: 20150203204917549
+description: a collection of tools I made that will (hopefully) allow someone with no knowledge of tiddlywiki get something useful out of it.
+follow: yes
+modified: 20151116091125270
+name_plate_type: TiddlyWiki
+type: 
+url: http://nolearningrequired-full.tiddlyspot.com/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: No Learning Required TiddlyWiki (inmysocks)
+source-tiddler-title-as-link: No%20Learning%20Required%20TiddlyWiki%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

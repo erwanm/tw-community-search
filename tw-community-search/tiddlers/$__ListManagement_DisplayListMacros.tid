@@ -1,0 +1,22 @@
+title: $:/ListManagement/DisplayListMacros
+created: 20151008161936249
+modified: 20151008231831422
+original-tags: 
+source-wiki-id: ListManagement
+source-tiddler-title-as-text: DisplayListMacros
+source-tiddler-title-as-link: DisplayListMacros
+
+\define listname(fieldName)
+<$list filter="[has[$fieldName$]]">
+<li><$link><$view field="title"/></$link> - <$view field="$fieldName$"/></li>
+</$list>
+\end
+
+<$list filter="[fields[]]">
+<$button set="$:/temp/fieldname" setTo=<<currentTiddler>> ><<currentTiddler>></$button>
+</$list>
+<$list filter="[fields[]]">
+<$reveal state="$:/temp/fieldname" type="match" text=<<currentTiddler>> >
+<ul><li>__<<currentTiddler>>__</li><$macrocall $name="listname" fieldName=<<currentTiddler>> /></ul>
+</$reveal>
+</$list>

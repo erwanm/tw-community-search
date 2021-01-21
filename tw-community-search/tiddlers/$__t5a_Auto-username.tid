@@ -1,0 +1,31 @@
+title: $:/t5a/Auto-username
+created: 20150423130435297
+creator: Andrew Harrison
+modified: 20151031183208355
+modifier: Andrew Harrison
+resource: [["aliasing" a username|https://groups.google.com/forum/m/#!topic/tiddlywiki/zqJlW8jEaT4]] (Eric Shulman 3/4/15)
+show-field: resource
+original-tags: Template New
+source-wiki-id: t5a
+source-tiddler-title-as-text: Auto-username
+source-tiddler-title-as-link: Auto-username
+
+1) The username is really just a text string, the value of which is copied into the "modifier" field of a tiddler whenever that tiddler is edited.<br>
+2) The *display* of the username is defined in the core shadow: [[$:/core/ui/ViewTemplate/subtitle]], which contains:
+
+```
+<div class="tc-subtitle">
+<$link to={{!!modifier}}>
+<$view field="modifier"/>
+</$link> <$view field="modified" format="relativedate"/>
+</div>
+```
+
+This is the syntax that actually displays the username in the tiddler subtitle:
+
+```
+<$view field="modifier"/>
+```
+Note that the output of the `<$view>` widget is normally just *plain text*... thus, the wiki syntax contained in the username does not get parsed, and the output shows the username value exactly as defined.  However, it is a simple matter to change this.  Rather than using the `<$view>` widget to display the modifier field, use transclusion, like this:
+   `{{!!modifier}}`
+As with the `<$view>` widget, this will retrieve the value of the 'modifier' field for the current tiddler, but will also then parse that field value so that any wiki syntax it contains will be rendered as intended.  Thus, if you use `"[[NRM|Contact]]"` as your username, then it will display as just "NRM", and link to the `[[Contact]]` tiddler.  Q.E.D.

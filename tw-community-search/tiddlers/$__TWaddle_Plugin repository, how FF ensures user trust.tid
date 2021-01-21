@@ -1,0 +1,29 @@
+title: $:/TWaddle/Plugin repository, how FF ensures user trust
+created: 20150707133923208
+creator: Mat
+modified: 20150725141944682
+modifier: Mat
+recent: 15/07/07	
+original-tags: Plugins tw.com
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: Plugin repository, how FF ensures user trust
+source-tiddler-title-as-link: Plugin%20repository%2c%20how%20FF%20ensures%20user%20trust
+
+If I understand right, Jeremy is positive to a central plugin repository on tw.com but one difficulty is that if they are hosted on this (most) official place, the users assume the plugins work, are safe, are maintained, etc. Let's sum it up as a matter of //trust//. There are more aspects holding such a repository back at the moment but I just want to mention that //Firefox// seems to handle the //trust// aspect with the following approach:
+
+*On browser updates, there is a message of the type "this plugin has not yet been approved / use at your own risk" (my wording)
+*On browser updates, plugins discovered to be incompatible are simply deactivated (maybe even removed from the users own plugin listing? Can't remember)
+
+Further, there is a bunch of //meta data// that adds trust
+
+*The users //rate// and //review// the plugins
+**and it says how many such reviews
+*Number of users is displayed
+*Release date is visible
+*Link to creators profile with info on his/her other plugins, official web page link, ...
+
+I see issues with each of these points but the result is that it works very well.
+
+The first list should not be difficult and are really a result from what users report. 
+
+The difficulty with second list is more about where to store this meta data and, as a consequence, how it is created (i.e what the user needs to do to create the data). Currently tw.com is not capable of receiving user input or meta data and while this would be very desirable, ''even a setup with //embedded// (iframed) such input would be very valuable'' because a plugin depository is such a fundamental issue. [[Comments via 3d part]] looks on some alternatives for this.

@@ -1,0 +1,26 @@
+title: $:/Oppiaish Thing (inmysocks)/Edit Multiple Choice Questions
+created: 20150410051527194
+modified: 20150410065307810
+original-tags: 
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: Edit Multiple Choice Questions
+source-tiddler-title-as-link: Edit%20Multiple%20Choice%20Questions
+
+<$set name=dummy value={{$:/state/Edit Multiple Choice Questions!!selected_question}}>
+Select question to edit: <$select tiddler='$:/state/Edit Multiple Choice Questions' field='selected_question'>
+<$list filter='[!is[system]tag[Multiple Choice]tag[Question]nsort[display_order]]'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<br>
+Set the number of possible answers: <$select tiddler={{$:/state/Edit Multiple Choice Questions!!selected_question}} field='number_of_possible_answers'><$list filter='1 2 3 4 5 6 7 8 9 10'><option><$view field='title'/></option></$list></$select>
+</$set> (''Changing this number doesn't do anything yet'')
+
+Question text:
+<$edit-text tiddler={{$:/state/Edit Multiple Choice Questions!!selected_question}} class='tc-edit-texteditor'/>
+
+Answers/Responses:
+
+<$list filter='[prefix[$:/answer/multiple choice/]question{$:/state/Edit Multiple Choice Questions!!selected_question}nsort[order]]' template=EditMultipleChoicePossibleAnswerTemplate>
+
+</$list>

@@ -1,0 +1,21 @@
+title: $:/Version 5.1.8 Fun (inmysocks)/ThisTiddlerAlsoHasFields
+1: foo
+2: bar
+4: eve
+bar: 2
+baz: it works?
+bye: baz
+created: 20150222200520912
+eve: 4
+foo: 1
+modified: 20150327033139605
+original-tags: 
+source-wiki-id: Version 5.1.8 Fun (inmysocks)
+source-tiddler-title-as-text: ThisTiddlerAlsoHasFields
+source-tiddler-title-as-link: ThisTiddlerAlsoHasFields
+
+This tiddler has the following fields: 
+
+<$list filter='[is[current]fields[]]'>
+
+</$list>

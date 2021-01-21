@@ -1,0 +1,19 @@
+title: $:/inmysocks/Math Plugins
+blurb:  Some plugins to add math features to your wiki
+created: 20150105175020335
+modified: 20150210021347314
+original-tags: [[My Plugins]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Math Plugins
+source-tiddler-title-as-link: Math%20Plugins
+
+Here are the currently available math plugins I have made and their version numbers and date published.
+
+<table>
+<tr><th>Name</th><th>Version</th><th>Date</th><th>Release</th><th>Description</th><th>Install Link</th></tr>
+<$list filter='[tag[Plugin twCard]maintainer[inmysocks]category[Math]]' template=PlugintwCardDisplayTemplate2>
+
+</$list>
+</table>
+
+<<bottomOfTiddler>>

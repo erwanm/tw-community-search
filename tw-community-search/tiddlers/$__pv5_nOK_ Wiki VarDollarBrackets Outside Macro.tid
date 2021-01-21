@@ -1,0 +1,27 @@
+title: $:/pv5/nOK? Wiki VarDollarBrackets Outside Macro
+created: 20141119193929724
+creator: Tobias Beer
+modified: 20141121073458142
+modifier: Tobias Beer
+original-tags: Test
+source-wiki-id: pv5
+source-tiddler-title-as-text: nOK? Wiki VarDollarBrackets Outside Macro
+source-tiddler-title-as-link: nOK%3f%20Wiki%20VarDollarBrackets%20Outside%20Macro
+
+```
+<$set name="myvar" value="GettingStarted">
+$(myvar)$
+</$set>
+```
+
+output:
+
+<$set name="myvar" value=$bar$>
+$(myvar)$
+</$set>
+
+expected:
+
+$(myvar)$
+
+@@color:orange; I expected that not to render the value as we're not in the scope of a macro.@@

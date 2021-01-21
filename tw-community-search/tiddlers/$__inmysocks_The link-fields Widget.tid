@@ -1,0 +1,45 @@
+title: $:/inmysocks/The link-fields Widget
+blurb:  About the link-fields widget, and examples
+created: 20150105044748579
+modified: 20150106165730853
+original-tags: [[TW5Utils Plugin]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: The link-fields Widget
+source-tiddler-title-as-link: The%20link-fields%20Widget
+
+Tobias and Jeremy brought up the very good point that this shouldn't be implemented the way that it is because unconditionally triggering actions in lists can cause infinite loops and the like. 
+
+Changing this isn't really a bad thing since this started out as a way I can be a bit lazy and avoid some set widgets using filters and macro combinations. That isn't really what it has been used for so a large overhaul would be good.
+
+And maybe a name change to make the function more obvious. Something like set-fields but that isn't very good either.
+
+Options:
+
+Make this into an action widget. Let it take a filter to set the target tiddlers and a data tiddler to set the mapping from the sourcefield to the storefield.
+
+Or not an action widget, but something like now, but take the filter as an input instead of putting it inside a list.
+
+Let the action-setfield widget take a filter or data tiddler (or both?) as an input (so like in [[link-fields Widget - Set Multiple Fields Using Select (Data Tiddler Version)]]). 
+
+Usage:
+
+```
+<$link-fields $sourcetiddler=sourceTiddler $sourcefield=sourceField $storetiddler=storeTiddler $storefield=storeField (field_name1=tiddlerName1 field_name2=tiddlerName2 ...)/>
+```
+
+|!Attribute |!Description |
+|$sourcetiddler |The title of the tiddler containing the value source value, defaults to `<<currentTiddler>>` |
+|$sourcefield |The name of the field containing the source value |
+|$sourceindex |The index of a property in a data tiddler holding the source value ($sourcefield takes precedence over $sourceindex if both are present) |
+|$storetiddler |The tiddler that contains the field whose value will match the source field or source index |
+|$storefield |The field in the store tiddler whose value will be set to match that of the source field/index |
+|$storeindex |The index of the store tiddler whose value will be set to match that of the source field/index. ($storefield takes precedence over $storeindex if both are present) |
+|Any field=tiddler pair not starting with `$` |Links the given field of the given tiddler to the source field in the source tiddler, so whenever the source field changes the given field changes with it. This only works with fields, not indexes. |
+
+Examples:
+
+<$list filter='[tag[The link-fields Widget]]'>
+<$macrocall $name=tiddlerSlider tiddlerName=<<currentTiddler>>/>
+</$list>
+
+<<bottomOfTiddler>>

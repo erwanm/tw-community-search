@@ -1,0 +1,62 @@
+title: $:/TWaddle/_TWaddle/CSS/ToCMacroB
+created: 20150416190542381
+modified: 20150416230434716
+original-tags: $:/tags/Stylesheet
+source-wiki-id: TWaddle
+source-tiddler-title-as-text: _TWaddle/CSS/ToCMacroB
+source-tiddler-title-as-link: _TWaddle%2fCSS%2fToCMacroB
+
+.tc-tabbed-table-of-contents .tc-table-of-contents {
+	z-index: 100;
+	display: inline-block;
+	margin-left: -1.2em; /* pull menu left */
+	max-width: 50%;
+	-webkit-flex: 0 0 auto;
+	flex: 0 0 auto;
+	background: transparent; /* <<colour tab-background>>; */
+
+border: 0px; /* previously left/top/botttom 1px; solid <<colour tab-border>>; */
+    background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, lightgrey, transparent); /* Strd syntax (must be last) */
+background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(80%,#ffffff), color-stop(90%,<<color page-background>>),color-stop(100%, rgba(240,67,239,0)));
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a,
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a {
+	display: block; 	padding: 0.12em 1em 0.12em 0.25em;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a {
+border-left: 0px;
+	border-top: 1px solid transparent; /*<<colour tab-background>>; */ 
+		border-bottom: 1px solid transparent;
+*/
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a:hover {
+	text-decoration: none;
+	border-top: 1px solid green /* <<colour tab-border>>; */
+	border-left: 1px solid green;
+	border-bottom: 1px solid green;
+	background: green; /* <<colour tab-border>>; */
+}
+
+
+
+_TWaddle/CSS/ToCMacroC
+
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a:hover { 	text-decoration: none; }
+
+.tc-tabbed-table-of-contents .tc-tabbed-table-of-contents-content {
+	display: inline-block;
+	vertical-align: top;
+padding: 0px;
+	padding-left: 1.5em;
+	padding-right: 0px; /* 1.5em; */
+	border: 0px; /* 1px solid <<colour tab-border>>; */
+	-webkit-flex: 1 0 50%;
+	flex: 1 0 50%;
+}

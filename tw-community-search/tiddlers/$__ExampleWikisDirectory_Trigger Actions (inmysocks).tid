@@ -1,0 +1,19 @@
+title: $:/ExampleWikisDirectory/Trigger Actions (inmysocks)
+caption: Trigger Actions
+category: Website
+created: 20150407173938402
+description: A plugin to add conditionally triggered scripts in TiddlyWiki
+follow: yes
+modified: 20151116091125271
+name_plate_type: TiddlyWiki
+type: 
+url: http://ooktech.com/jed/ExampleWikis/TriggerActions/
+original-tags: [[Jed Carty (inmysocks)]] [[<Name Plate>]] Website
+source-wiki-id: ExampleWikisDirectory
+source-tiddler-title-as-text: Trigger Actions (inmysocks)
+source-tiddler-title-as-link: Trigger%20Actions%20%28inmysocks%29
+
+|Name |<$view field='caption'/> |
+|Type |<$view field='name_plate_type'/> |
+|Description |<$view field='description'/> |
+|URL |<a href={{!!url}} target='_blank'><$view field='url'/></a> |

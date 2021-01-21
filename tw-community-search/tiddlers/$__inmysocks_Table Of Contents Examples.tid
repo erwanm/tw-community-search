@@ -1,0 +1,81 @@
+title: $:/inmysocks/Table Of Contents Examples
+caption: {{!!title}}: {{!!test}}
+created: 20141226235526920
+modified: 20150106224251223
+test: some stuff here
+original-tags: [[Old Tools]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Table Of Contents Examples
+source-tiddler-title-as-link: Table%20Of%20Contents%20Examples
+
+**<div>
+<$reveal state='$:/state/expandabletoc' type='match' text='show'>
+<$button set='$:/state/expandabletoc' setTo='noshow'>Exapndable TOC</$button>
+<div class="tc-table-of-contents">
+<<toc-expandable "Contents">>
+</div>
+</$reveal>
+<$reveal state='$:/state/expandabletoc' type='nomatch' text='show'>
+<$button set='$:/state/expandabletoc' setTo='show'>Exapndable TOC</$button>
+</$reveal>
+</div>
+
+**<div>
+<$reveal state='$:/state/selectexpandabletoc' type='match' text='show'>
+<$button set='$:/state/selectexpandabletoc' setTo='noshow'>Selective Exapndable TOC</$button>
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Contents">>
+</div>
+</$reveal>
+<$reveal state='$:/state/selectexpandabletoc' type='nomatch' text='show'>
+<$button set='$:/state/selectexpandabletoc' setTo='show'>Selective Exapndable TOC</$button>
+</$reveal>
+</div>
+
+**<div>
+<$reveal state='$:/state/simpletoc' type='match' text='show'>
+<$button set='$:/state/simpletoc' setTo='noshow'>Simple TOC</$button>
+<div class="tc-table-of-contents">
+<<toc "Contents">>
+</div>
+</$reveal>
+<$reveal state='$:/state/simpletoc' type='nomatch' text='show'>
+<$button set='$:/state/simpletoc' setTo='show'>Simple TOC</$button>
+</$reveal>
+</div>
+
+**<div>
+<$reveal state='$:/state/sortedexpandabletoc' type='match' text='show'>
+<$button set='$:/state/sortedexpandabletoc' setTo='noshow'>Expandable TOC - Sorted</$button>
+<div class="tc-table-of-contents">
+<<toc-expandable "Contents" "sort[title]">>
+</div>
+</$reveal>
+<$reveal state='$:/state/sortedexpandabletoc' type='nomatch' text='show'>
+<$button set='$:/state/sortedexpandabletoc' setTo='show'>Expandable TOC - Sorted</$button>
+</$reveal>
+</div>
+
+**<div>
+<$reveal state='$:/state/tabbedinternal' type='match' text='show'>
+<$button set='$:/state/tabbedinternal' setTo='noshow'>Tabbed TOC - Internal Navigation</$button>
+<<toc-tabbed-internal-nav tag:"Contents" selectedTiddler:"$:/temp/toc/selectedTiddler" unselectedText:"Select a topic in the table of contents. Click the arrow to expand a topic.">>
+</$reveal>
+<$reveal state='$:/state/tabbedinternal' type='nomatch' text='show'>
+<$button set='$:/state/tabbedinternal' setTo='show'>Tabbed TOC - Internal Navigation</$button>
+</$reveal>
+</div>
+
+**<div>
+<$reveal state='$:/state/tabbedexternal' type='match' text='show'>
+<$button set='$:/state/tabbedexternal' setTo='noshow'>Tabbed TOC - External Navigation</$button>
+<<toc-tabbed-external-nav tag:"Contents" selectedTiddler:"$:/temp/toc/selectedTiddler" unselectedText:"Select a topic in the table of contents. Click the arrow to expand a topic.">>
+</$reveal>
+<$reveal state='$:/state/tabbedexternal' type='nomatch' text='show'>
+<$button set='$:/state/tabbedexternal' setTo='show'>Tabbed TOC - External Navigation</$button>
+</$reveal>
+</div>
+
+The table of contents macros are defined in:
+
+[[$:/core/macros/toc]]

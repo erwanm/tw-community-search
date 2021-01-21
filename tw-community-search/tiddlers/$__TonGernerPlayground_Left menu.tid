@@ -1,0 +1,26 @@
+title: $:/TonGernerPlayground/Left menu
+created: 20160920090705934
+creator: TonGerner
+modified: 20200428183516699
+modifier: TonGerner
+status: to be upgraded to
+original-tags: documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Left menu
+source-tiddler-title-as-link: Left%20menu
+
+!! [[How to make a left menu|Left menu]]
+
+''Status:'' @@.RED {{Left menu!!status}} v<<version>>@@
+
+This guide describes how to add a left menu to a TW5 ''without'' using the Centralised theme.<br>
+The Centralised theme - based on the Snow White theme - gives room for a left menu. If you want to use a left menu with another theme, e.g. your own theme, you have to make your own centralised story river (by using the styles from the Centralised theme).
+
+''Guide at ~TiddlySpot:''<br>[[How to make a left menu|http://tw5leftmenu.tiddlyspot.com/]]
+
+<<<
+''Note:''
+
+* For widescreen monitors where left menu, story river, and sidebar can be displayed together.
+* In case of a limited screen space see my guide [[Left + top menu]] where you can toggle between left menu and sidebar.
+<<<

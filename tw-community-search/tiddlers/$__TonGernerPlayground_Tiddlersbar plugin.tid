@@ -1,0 +1,16 @@
+title: $:/TonGernerPlayground/Tiddlersbar plugin
+caption: Tiddlersbar
+created: 20170428155222076
+creator: TonGerner
+modified: 20200425163637179
+modifier: TonGerner
+status: upgraded to
+original-tags: plugin
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Tiddlersbar plugin
+source-tiddler-title-as-link: Tiddlersbar%20plugin
+
+!! [[Tiddlersbar plugin]] v<<pversion "tiddlersbar">>
+
+<<readme $:/plugins/tg/tiddlersbar/readme $:/plugins/tg/tiddlersbar>>
+* $:/plugins/tg/layout

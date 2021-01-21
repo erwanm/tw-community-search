@@ -1,0 +1,24 @@
+title: $:/Interactive Fiction Engine (inmysocks)/Triggers Documentation
+created: 20141129030628920
+modified: 20141129031517962
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: Triggers Documentation
+source-tiddler-title-as-link: Triggers%20Documentation
+
+Triggers are used to change the state of events. See [[Events Documentation]] for examples.
+
+The types of triggers currently supported are:
+
+Buttons - permanent and switches
+Combination Locks - permanent and switches
+
+''Item location triggers are not implemented yet, and may not be possible using the current structure of the game. I am working on it.'' So location based triggers, while they are listed as an option, don't do anything.
+
+*Buttons
+**A permanent button trigger will have the text entered into the `Button Text` text box, and be in the location set in the editor. Once the button is pressed the trigger is set to active and the button goes away and the trigger remains active forever.
+**A switch button trigger will have two buttons, one displayed when the trigger is inactive (in the inital state) and the other displayed when the trigger is active (in the final state). The buttons can be places anywhere other than inside other triggers, and don't have to be in the same location.
+
+*Combination locks - a combination lock has 3 tumblers that can take values from 0-9. I will hopefully change this in the future to allow users to set both the number of tumblers and the symbols on each tumbler. But you can't do that yet. The `Set Combination` menus set the combination needed to open the lock.
+**Permanent - if the combination lock is set to `permanent` than once it is opened it goes away and can't be changed.
+**Switch - if the combination is set to `switch` than the tumblers will be visible in the location set after the lock is opened, and pressing the button will set the trigger back to `inactive`. If it is set to inactive than the combination will need to be entered again in order to open it again.

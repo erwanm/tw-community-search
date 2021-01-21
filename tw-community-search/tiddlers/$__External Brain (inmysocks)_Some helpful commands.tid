@@ -1,0 +1,19 @@
+title: $:/External Brain (inmysocks)/Some helpful commands
+created: 20150513231506150
+creator: inmysocks
+modified: 20150730152203465
+modifier: inmysocks
+original-tags: [[Logging into your Raspberry Pi via SSH]]
+source-wiki-id: External Brain (inmysocks)
+source-tiddler-title-as-text: Some helpful commands
+source-tiddler-title-as-link: Some%20helpful%20commands
+
+The colors used by your terminal may be different than shown in the example images here. Click on the <<fa fa-plus>> to show the example images.
+
+*`exit` - ends the ssh session (disconnects from the pi)
+*`df` - shows you how much space is available on your sd card <<imageSlider [[Output of df command on a Raspberry Pi - image]] "example output of `df` command">>
+*`top` - show memory usage <<imageSlider [[Output of top command on Raspberry Pi - image]] "example output of `top` command">>
+*`nano` - default command line text editor. The commands are listed at the bottom, note that `^X` means `ctrl+x`, you will be asked if you want to save when you exit. <<imageSlider [[Default view of Nano on Raspberry Pi - image]] "the default view of nano with an empty buffer">>
+*`ls` - lists the contents of the current directory (folder) <<imageSlider [[Output of ls command on Raspberry Pi - image]] "Example output of the `ls` command">>
+*`cd` - change directory
+*`mkdir` - make directory

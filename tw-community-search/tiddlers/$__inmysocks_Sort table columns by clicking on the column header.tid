@@ -1,0 +1,76 @@
+title: $:/inmysocks/Sort table columns by clicking on the column header
+blurb: An example
+created: 20150225173814460
+modified: 20160525100213304
+sort_by: maintainer
+topics_tags: Tables
+original-tags: [[Wiki Examples]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Sort table columns by clicking on the column header
+source-tiddler-title-as-link: Sort%20table%20columns%20by%20clicking%20on%20the%20column%20header
+
+Here is code for a table that will sort by a column when you click on the column header. The table is generated using some html and the data in the table comes from tiddler fields. I don't think there is currently a way to do this with tables holding static content.
+
+Just replace `name` and `maintainer` by whatever fields you wish and add columns as you need them.
+
+code:
+
+```
+<table>
+<tr>
+  <th>
+    <$button class='tc-btn-invisible' style='width:100%;height:100%'>
+      Plugin name
+      <$action-setfield sort_by='name'/>
+    </$button>
+  </th>
+  <th>
+    <$button class='tc-btn-invisible' style='width:100%;height:100%'>
+      Plugin maintainer
+      <$action-setfield sort_by='maintainer'/>
+    </$button>
+  </th>
+</tr>
+<$list filter='[tag[Plugin twCard]has[name]has[maintainer]sort{!!sort_by}]'>
+<tr>
+  <td>
+    <$view field='name'/>
+  </td>
+  <td>
+    <$view field='maintainer'/>
+  </td>
+</tr>
+</$list>
+</table>
+```
+
+Result:
+
+<table>
+<tr>
+  <th>
+    <$button class='tc-btn-invisible' style='width:100%;height:100%'>
+      Plugin name
+      <$action-setfield sort_by='name'/>
+    </$button>
+  </th>
+  <th>
+    <$button class='tc-btn-invisible' style='width:100%;height:100%'>
+      Plugin maintainer
+      <$action-setfield sort_by='maintainer'/>
+    </$button>
+  </th>
+</tr>
+<$list filter='[tag[Plugin twCard]has[name]has[maintainer]sort{!!sort_by}]'>
+<tr>
+  <td>
+    <$view field='name'/>
+  </td>
+  <td>
+    <$view field='maintainer'/>
+  </td>
+</tr>
+</$list>
+</table>
+
+<<bottomOfTiddler>>

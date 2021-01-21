@@ -1,0 +1,26 @@
+title: $:/inmysocks/Changing the icons for the table of contents
+created: 20150206054843058
+modified: 20150311162914423
+original-tags: [[Wiki Customization]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Changing the icons for the table of contents
+source-tiddler-title-as-link: Changing%20the%20icons%20for%20the%20table%20of%20contents
+
+This is the stuff used to change the icons for the expandable table of contents. 
+This modification is only for the `toc-selective-expandable` version, the same thing can be done with the other types, but this is the only one I have modified. 
+These tiddlers will add a tab to the control panel called `Table of Contents Settings`, if you use the Contents tiddler listed below than you can toggle between the normal table of contents icons and the icons using font awesome by changing what the drop down menu labeled `Table of contents icons`.
+
+The other two dropdown menus in the settings tab select the close and open images used for the table of contents. After selecting an icon the menu itself won't display the icon, but it will be displayed next to the menu. I don't know why the menu doesn't show the icon, if you know please tell me.
+
+''Note:'' You have to save and reload your wiki after installing the font awesome fonts or they won't show up.
+
+Tiddlers used:
+
+*[[$:/settings/TableOfContentsSettings]] - the settings tab in the control panel
+*[[Other TOC Macros]] - the alternate macros
+*[[Contents]] - the table of contents tiddler
+*FontAwesomeMacro
+
+This also uses the font awesome plugin from http://fontawesome.tiddlyspot.com/ and won't work if you don't have that also.
+
+If you have trouble either ask in [[the google group|https://groups.google.com/forum/#!forum/tiddlywiki]] or using this sites [[User Feedback]] form.

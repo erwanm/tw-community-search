@@ -1,0 +1,11 @@
+title: $:/TW5 Suitcase/$:/plugins/birthe/suitcase
+description: Suitcase packing
+list: readme
+version: 0.0.2
+original-tags: 
+source-wiki-id: TW5 Suitcase
+source-tiddler-title-as-text: $:/plugins/birthe/suitcase
+source-tiddler-title-as-link: %24%3a%2fplugins%2fbirthe%2fsuitcase
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
