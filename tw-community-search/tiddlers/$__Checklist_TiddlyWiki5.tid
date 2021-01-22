@@ -1,9 +1,0 @@
-title: $:/Checklist/TiddlyWiki5
-created: 20160112110807301
-modified: 20160112110633314
-original-tags: Concepts
-source-wiki-id: Checklist
-source-tiddler-title-as-text: TiddlyWiki5
-source-tiddler-title-as-link: TiddlyWiki5
-
-TiddlyWiki5 is a reboot of TiddlyWiki for the next 25 years. It is a complete interactive wiki in JavaScript that can be run in the browser or on the server under [[Node.js]].
