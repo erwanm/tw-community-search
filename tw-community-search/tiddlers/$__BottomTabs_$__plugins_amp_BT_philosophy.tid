@@ -1,0 +1,15 @@
+title: $:/BottomTabs/$:/plugins/amp/BT/philosophy
+created: 20141229182242711
+creator: Alberto Molina Pérez
+dependents: 
+description: BottomTabs for philosophy: theories and concepts
+modified: 20141229182809437
+modifier: Alberto Molina Pérez
+version: 0.0.10
+original-tags: BottomTabs
+source-wiki-id: BottomTabs
+source-tiddler-title-as-text: $:/plugins/amp/BT/philosophy
+source-tiddler-title-as-link: %24%3a%2fplugins%2famp%2fBT%2fphilosophy
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

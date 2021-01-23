@@ -1,0 +1,25 @@
+title: $:/CherryPicker/Cherrypicker/Stylesheet
+created: 20160403080251613
+modified: 20160603220034904
+original-tags: $:/tags/Stylesheet CherryPickerComponent
+source-wiki-id: CherryPicker
+source-tiddler-title-as-text: Cherrypicker/Stylesheet
+source-tiddler-title-as-link: Cherrypicker%2fStylesheet
+
+.cherryheading {display:block; font-size:120%;  margin:.8em 0 .3em;}
+
+.cherrybullet {position:absolute; margin-left:-25px;}
+
+.cherrybullet:hover {border:1px solid blue;}
+
+.cherrybullet:hover:after {
+    position: absolute; left:-1px;
+    bottom: 1.5em;    z-index: 98;
+    width: 300px;
+    padding: 5px 15px;
+    background: #333;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 3px;
+    content: attr(tooltip);
+}

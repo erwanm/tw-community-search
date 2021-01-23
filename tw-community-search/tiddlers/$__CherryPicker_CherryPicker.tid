@@ -1,0 +1,50 @@
+title: $:/CherryPicker/CherryPicker
+created: 20160603134343247
+modified: 20160604125122101
+original-tags: $:/tags/Macro CherryPickerComponent
+source-wiki-id: CherryPicker
+source-tiddler-title-as-text: CherryPicker
+source-tiddler-title-as-link: CherryPicker
+
+\define cherrypicker(mark)
+@@.cherryheading $mark$@@
+<div style="margin: -0px 0 0 22px;">
+<$list filter="[!is[system]regexp:text[$mark$]!prefix[Draft]!title[About]!tag[About]!regexp:text[cherrypicker ]] -[prefix[CherryPicker]] -[prefix[codeCherry]]" emptyMessage="NO" variable="tid">
+      <$list variable="fulltext" emptyMessage="NOpfx"
+                filter="""[<tid>get[text]]""">
+         <$macrocall $name="scrubprefix" txt=<<fulltext>> mark="$mark$"/>
+      </$list>
+</$list>
+</div>
+\end
+
+\define scrubprefix(txt, mark)
+<$list variable="pfx"
+         filter="[[$txt$]regexp[$mark$\S]splitbefore[$mark$]]" >
+   @@.pfx ''pfx'':<<pfx>><br>@@
+   <$list variable="txt" emptyMessage="NOtxt"
+             filter="[[$txt$]removeprefix<pfx>]">@@.txt ''txt:'' """<<txt>>"""<br>@@
+      <$macrocall $name="pick" txt=<<txt>> mark="$mark$"/>
+   </$list>
+</$list>
+\end
+
+\define pick(txt, mark)
+<$list  variable="cherry" emptyMessage="NOcherry"
+           filter="[[$txt$]regexp[\S$mark$]splitbefore[$mark$]removesuffix[$mark$]]
+                     [[$txt$]!regexp[$mark$]splitbefore[ ]]
+                     [[$txt$]!regexp[\S$mark$\s]splitbefore[$mark$]]
+                     +[first[]]">
+   <span class="cherrybullet" tooltip=<<tid>>>
+      <$link to=<<tid>>>{{cherrybullet.png}}</$link>
+   </span><<cherry>> <br>
+   <$list  variable="rest" emptyMessage="NO3"
+           filter="[[$txt$]removeprefix<cherry>removeprefix[$mark$ ]]
+                     [[$txt$]removeprefix<cherry>] +[first[]]">
+   @@.rest ''rest'':<<rest>><br>@@
+      <$list filter="[<rest>regexp[$mark$]]">
+         <$macrocall $name="scrubprefix" txt=<<rest>> mark="$mark$"/>
+      </$list>
+   </$list>
+</$list>
+\end

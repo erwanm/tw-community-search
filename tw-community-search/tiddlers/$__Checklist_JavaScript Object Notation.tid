@@ -1,0 +1,14 @@
+title: $:/Checklist/JavaScript Object Notation
+created: 20150221152904000
+modified: 20150221181720000
+type: text/vnd.tiddlywiki
+original-tags: Definitions
+source-wiki-id: Checklist
+source-tiddler-title-as-text: JavaScript Object Notation
+source-tiddler-title-as-link: JavaScript%20Object%20Notation
+
+<<.dlink-ex JSON "http://en.wikipedia.org/wiki/JSON">> is a standard plain-text format used for modelling hierarchical structures of objects that contain named fields.
+
+DataTiddlers can have JSON content.
+
+The <<.mlink jsontiddlers>> macro returns tiddler content in JSON format.
