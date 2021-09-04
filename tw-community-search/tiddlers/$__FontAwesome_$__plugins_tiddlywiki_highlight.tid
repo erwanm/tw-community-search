@@ -4,7 +4,7 @@ dependents:
 description: Highlight.js syntax highlighting
 list: readme usage howto license
 name: Highlight
-version: 5.1.22
+version: 5.1.23
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

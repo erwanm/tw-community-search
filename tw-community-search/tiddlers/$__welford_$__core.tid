@@ -4,9 +4,9 @@ core-version: >=5.0.0
 dependents: 
 description: TiddlyWiki5 core
 list: readme
+name: Core
 plugin-priority: 0
-revision: 0
-version: 5.1.14-prerelease
+version: 5.1.23
 original-tags: 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/core

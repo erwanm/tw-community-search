@@ -1,0 +1,51 @@
+title: $:/TWHangouts/HangOut_025
+created: 20150115070528883
+modified: 20150115070703490
+original-tags: License http://hangouts.tiddlyspace.com/
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_025
+source-tiddler-title-as-link: HangOut_025
+
+2013-12-10 - [[YouTube|http://www.youtube.com/watch?v=tGV5F2Gj_mE]]
+
+"""
+0:00:00 Intro: frtl: Jim, Jeremy, Mario, Paul, Stephan, Ton
+0:02:50 Jim's- usecase: "TW5 in the wild". Using tags to create a "parent - child" structure. ... 1-1, 1-many relations
+0:08:20 Jim- question: "How to get backlinks"
+0:10:05 Jeremy's- explanation
+0:13:20 Mario- suggests to use tags ... similar to "TagglyTagging" ... that's not, what Jim wants.
+0:15:30 Jeremy- shows how to add the "backlink" to the ViewTemplate.
+0:21:40 Jeremy- about "asking questions is _important_" because it is valuable feedback.
+0:23:50 Jim- What does !!parent}} mean? ... about "text references"
+0:30:15 Jim- Is "parent" a core field? ... no
+0:31:30 Jeremy- documentation about "backlinks"
+0:32:55 Jeremy- about "Philosophy of Tiddlers"
+0:34:00 Jeremy- about TW Editions
+0:38:18 Paul- about "documentation inconsistencies" ... that may be confusing for newbies
+0:41:00 Jeremy- about the use of "TiddlyWiki" as TW5 and TiddlyWikiClassic
+0:43:15 Paul- "What is a tiddler" ... which tiddler fields are part of the "core". What's default for TWc, TW5 and eg: TiddlyWeb / TiddlySpace
+0:49:00 Mario- about fields that are part of the core.
+0:52:20 Jeremy- about "Going to beta"
+0:54:20 about browser "back / forward" button integration
+-> 0:56:40 Jeremy- about the five(.)tiddlywiki(.)com/static/RoadMap ... (google video recording is kind of broken till: the end :(
+0:58:10 .. multi language support
+0:59:40 .. aliases ... (may affect the "store" structure"
+1:01:40 .. search / replace
+1:02:55 .. rich links tooltips
+1:03:35 .. keyboard shortcuts and focus ... bookmarklets as a workaround
+1:06:00 .. quoting ...
+1:07:00 about "social" widgets .. eg: youtube widget
+1:09:10 .. syntax highlighting
+1:13:45 .. plugin minification
+1:17:10 .. list editor drag and drop
+1:18:10 .. display JSON data .. TW should be "self documenting"
+1:19:20 general TW usability
+1:22:30 about "depricating widgets" in the future
+1:24:50 Paul- .. about $tw.document in the code
+1:31:20 Kamil- .. drag and drop importing pictures
+1:33:50 ... Google recording problems ...
+1:37:10 Jeremy is back .. image support question ...
+1:40:20 Jeremy/Eric- about move to beta and necessary "dot com" changes.
+1:45:40 Ton- There is a problem with five(.)tiddlyspace(.)com
+1:52:35 Bye! Bye!
+"""

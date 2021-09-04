@@ -4,7 +4,7 @@ dependents:
 description: D&D 5e SRD Creatures
 source: https://github.com/mklauber/tw-5eSRD-Monsters
 summary: D&D 5e SRD Creatures
-version: 1.0.0
+version: 1.0.3
 original-tags: D&D
 source-wiki-id: MKLauberTW5Plugins
 source-tiddler-title-as-text: $:/plugins/D&DTools/Creatures

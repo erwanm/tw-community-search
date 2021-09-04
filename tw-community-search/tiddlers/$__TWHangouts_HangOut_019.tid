@@ -1,0 +1,51 @@
+title: $:/TWHangouts/HangOut_019
+created: 20150118205959536
+modified: 20150118210101752
+original-tags: http://hangouts.tiddlyspace.com/ License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: HangOut_019
+source-tiddler-title-as-link: HangOut_019
+
+2013-10-29 - [[YouTube|http://www.youtube.com/watch?v=wYaFsOzXnPY]]
+
+"""
+0:00:00 Intro- fltr: Bauwe Bijl, EricShulmann, Jerey Ruston, Mario Pietsch, Leo Azimov, Stephan Hradeck, Ton Gerner
+0:03:40 Jeremy/Stephan- about Stephan's TW5 usecase as a "handover doc paper"
+0:06:01 Leo/Stephan- How do you merge changes done by different users?
+0:07:50 Intro Bauwe Bijl
+0:08:28 Leo- Feature request. Display TW "interdependencies in the form of a graph"
+0:10:30 Mario- Suggests TiddlyWeb as a backend instead of the "file system"
+0:12:20 Eric- Shows a working HyperGraph TWc plugin - "discovery tools"
+0:13:30 Leo/Mario- About his usecase to split a big TW into "private" and "public" pices. Mario suggests hoster (dot) peermore (dot) com
+0:17:48 Mario/Jeremy- about MindMaps and importing it into TW
+0:21:35 Eric/Leo- shows the TWc RelatedTiddlersPlugin. about tiddler connection structure
+0:25:30 Bauwe/Jeremy- update on his RaspberrPi SVG data collection project
+0:38:35 Bauwe/Jeremy/Mario/Leo- has a filter feature request ... "hide tiddlers until, they are modified" ... "exclude, based on modifier"
+0:43:55 Jeremy- creates a github ticket (#187) for the feature request.
+0:45:14 Jeremy- short summary ... about his "take away" thoughts.
+0:47:16 Jeremy- dynamic SVG handling.
+0:51:30 Jeremy- about the "external link" handling. ... public brainstorming!
+1:03:25 Stephan- confusion about "pretty links" in TW and MediaWiki. ... no more tilde's
+1:08:50 Stephan/Jeremy- is used in too many places ... may be :)
+1:10:40 Jeremy- about refactoring .... !!! here comes the geeky stuff !!!
+1:11:45 Jeremy- review the github pull request
+1:12:30 about static templates .. core/templates/static.template.html.tid
+1:13:54 core/templates/static.tiddler.html.tid
+1:14:10 view widget .. wikified is dropped
+1:15:14 transclude widget code
+1:16:45 core/ui/EditTemplate.tid .. source code
+1:20:45 Mario- did the refactoring make CSS simpler?
+1:22:20 Mario- about the goal to show a "live theme" inside a tiddler
+1:25:30 Jeremy- edit "post render function" is able to "call" the "codemirro plugin" .. general discussion about implementing the tiddlywik cm-parser
+1:31:52 core/ui/FieldEditor.tid
+1:35:30 Would it be possible, that TW creates "x-tags"/"web components"?
+1:37:20 "setvariable" widget .. used in the EditTemplate
+1:40:20 title vs tiddler in field names
+1:41:40 List of "typed" tiddlers ... for filtering
+1:43:25 Mario- short indirection to Bauwe's "data tiddler" filtering
+1:45:01 Import widget on PageTemplate .. discussion about the "drop zone"
+1:49:36 core/ui/TagTemplate .. "hard coded" styles vs. "CSS styled" tag colors .. general discussion about tag coloring.
+2:01:40 about the TW "self documenting" possibilities. Automatically created documentation. snippets templates
+2:05:50 Mario- Will there be a "nodejs TiddlyWeb" version. Jeremy isn't that interested in serversides. The API will be enough.
+2:12:55 Bye! Bye!
+"""

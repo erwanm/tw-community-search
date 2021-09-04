@@ -1,6 +1,6 @@
 title: $:/tiddlywiki.com/RangeWidget Example
 created: 20201130191618831
-modified: 20201130194441670
+modified: 20210307102027763
 type: text/vnd.tiddlywiki
 original-tags: RangeWidget
 source-wiki-id: tiddlywiki.com
@@ -51,7 +51,6 @@ source-tiddler-title-as-link: RangeWidget%20Example
 
 ---
 
-<details>
-    <summary>Show the code [[RangeWidget Example]]</summary>
-    <pre><code><$view mode=text&><pre><code>
-</details>
+The wikitext of this example is shown below:
+
+<$codeblock code={{RangeWidget Example!!text}}/>

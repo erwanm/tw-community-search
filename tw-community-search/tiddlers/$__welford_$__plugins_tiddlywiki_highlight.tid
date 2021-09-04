@@ -1,11 +1,10 @@
 title: $:/welford/$:/plugins/tiddlywiki/highlight
-author: JoaoBolila
-core-version: >=5.0.0
+author: Joao Bolila
 dependents: 
-description: Highlight.js: syntax highlighting
-list: readme usage license
-revision: 0
-version: 5.1.14-prerelease
+description: Highlight.js syntax highlighting
+list: readme usage howto license
+name: Highlight
+version: 5.1.23
 original-tags: 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/highlight

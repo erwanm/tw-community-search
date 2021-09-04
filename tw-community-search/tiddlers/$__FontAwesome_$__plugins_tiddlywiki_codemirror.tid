@@ -3,7 +3,7 @@ dependents:
 description: CodeMirror editor
 list: readme usage keyboard license
 name: CodeMirror
-version: 5.1.22
+version: 5.1.23
 original-tags: 
 source-wiki-id: FontAwesome
 source-tiddler-title-as-text: $:/plugins/tiddlywiki/codemirror

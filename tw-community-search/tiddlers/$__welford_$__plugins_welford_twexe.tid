@@ -2,10 +2,11 @@ title: $:/welford/$:/plugins/welford/twexe
 author: James W. Anderson
 core-version: >=5.0.0
 dependents: 
-description: Runs local exe/batch files. Open in folder, copy to clipboard etc also optional
-revision: 0
+description: twexe. When in HTA Runs local exe/batch files Or those embedded in a Tiddler
+list: readme
+name: twexe
 source: https://github.com/Welford/twexe
-version: 0.0.1
+version: 1.1.1
 original-tags: 
 source-wiki-id: welford
 source-tiddler-title-as-text: $:/plugins/welford/twexe
