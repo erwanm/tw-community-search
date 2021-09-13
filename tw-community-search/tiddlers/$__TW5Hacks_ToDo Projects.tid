@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/ToDo Projects
+created: 20160816155243223
+creator: Thomas Elmiger
+deadline: 
+modified: 20170410213250922
+modifier: Thomas Elmiger
+priority: 2
+todo-deadline: 20160825210000000
+todo-done: 20160829160657
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Projects
+source-tiddler-title-as-link: ToDo%20Projects
+
+Some people work on several parallel projects: They need more than one ToDo list or a project filter. Develop and implement a concept for this.
+
+* dynamic filtering for additional tags
+** starting point <<todoProjectSelect>>

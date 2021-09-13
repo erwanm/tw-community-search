@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Rename todolang
+created: 20160917130331484
+creator: Thomas Elmiger
+modified: 20170410211629381
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160917180046
+original-tags: Translation ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Rename todolang
+source-tiddler-title-as-link: Rename%20todolang
+
+Universal bits of language can be used in several plugins.
+
+* Move todolang to library (lib), rename => telang

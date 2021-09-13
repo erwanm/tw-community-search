@@ -1,0 +1,28 @@
+title: $:/TW5Hacks/Nails in the wall
+created: 20181111165744758
+creator: Thomas Elmiger
+modified: 20181111190841220
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Nails in the wall
+source-tiddler-title-as-link: Nails%20in%20the%20wall
+
+* wl = Wall length: 636 cm
+* ot = Offset total: 22 cm + 22 cm = 44 cm
+* pw = Painting width: 64 cm 
+* np = number of paintings: 6
+
+---
+
+* first nail: ot/2 + pw/2
+* next nails: (wl - (ot + pw))/(np-1)
+
+---
+
+first: <$macrocall $name="rpn" a=<<rpn 44 2 />> b=<<rpn 64 2 />> operation="+" decimals="2" precision="p" locale="de-CH"/> cm
+
+next: 
+<$wikify name="distance" text='<$macrocall $name="rpn" a=636 b=<<rpn 44 64 +>> operation="-"/>'>
+<$macrocall $name="rpn" a=<<distance>> b=<<rpn 6 1 ->> operation="/" decimals="2" precision="p" locale="de-CH"/>  cm
+</$wikify>

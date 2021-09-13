@@ -1,0 +1,34 @@
+title: $:/TW5Hacks/JavaScript
+created: 20150321195134374
+creator: Thomas Elmiger
+modified: 20171126225723370
+modifier: Thomas Elmiger
+original-tags: Exercise Modal Testing Technik
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: JavaScript
+source-tiddler-title-as-link: JavaScript
+
+Mit der objektorientierten Skriptsprache [[JavaScript|http://wiki.selfhtml.org/wiki/JavaScript]] kann man Elemente von Webseiten dynamisch verändern (via DOM-Manipulation). 
+
+Zahl eingeben: <$edit-text tiddler="$:/temp/myNumber" tag="input" default="1"/>
+<$button>
+<$action-sendmessage $message="tm-modal" $param="ErgebnisModal" myNumber={{$:/temp/myNumber}}/>
+Rechnen
+</$button>
+
+{{JavaScript-Beispiel}}
+
+---
+<br>
+Die Suchfunktion in diesem Wiki passt die Trefferliste laufend an – das geht nur mit ~JavaScript.
+
+Die Programme lassen sich speichern in:
+
+* HTML-Dokumenten (inline)
+* separaten Dateien (.js) – wiederverwendbar
+* im Browser als Bookmarklet
+
+~JavaScript basiert auf dem Standard [[ECMAScript|https://en.wikipedia.org/wiki/ECMAScript]].
+
+---
+<span class="slide-link">{{{ [[JavaScript]next[Technik]] }}} </span>

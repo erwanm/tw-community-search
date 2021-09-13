@@ -1,0 +1,52 @@
+title: $:/TW5Hacks/TextStretch Versions
+created: 20160730083208159
+creator: Thomas Elmiger
+modified: 20161014231756818
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TextStretch Versions
+source-tiddler-title-as-link: TextStretch%20Versions
+
+!! Version History
+
+!!! 0.8 Renaming stretchtext => strex / Automated ID
+
+This is a major update, it is not backwards compatible.  
+
+* Renaming of the macro formerly known as //stretchtext//.<<strex "As [[discussed in the Google Group|https://groups.google.com/d/msg/tiddlywiki/biymRJTDWxY/QFNk9afWBQAJ]], textstretch was a clumsy name for a function.">> Finally, I opted for the unique string ''//strex//''. It can be found and replaced easily, if necessary.
+* Moved version history to a separate tiddler.
+* Parameter //class// added for styling purposes.
+* CSS update to show the power of //class//es.
+* [[TextStretch Examples]] added.
+* TiddlyWiki update to version 5.1.13.
+* An //id// parameter is now generated automatically <<strex "as a hash number obtained from the //content// ">>. The macro parameter //id// is still available, but was moved to the end of the parameter list. 
+* Documentation update.
+
+!!!! 0.8.1 Code optimisations
+* Unnecessary var-assignments removed – thanks to ''c pa'' for the hint.
+* State tiddler prefix changed to "strex_", updated Clear-button.
+* CSS improvement for hints <<strex 'like this <br>`<$transclude tiddler="FollowMe" mode="block"/>`' "transcluded" "" "close hint" "hint">> in block mode.
+* Documentation update, [[TextStretch Transclusion Examples]] created.
+
+!!!! 0.8.2 Numbers for References
+* [[Experimental test/example|TextStretch Variant Footnote]] and [[CSS|$:/_telmiger/strex.css]] for numbered references/hints
+* New shortcut `<<ref "your note">>`
+* CSS optimisation (positioning without float and clear)
+
+!!!! 0.8.3 Numbers for References Update
+* the `<<ref>>` macro has it’s own tiddler <<ref $:/_telmiger/ref>> now, so you can store your own configuration there <<ref "… and update $:/_telmiger/strex safely from now on">>.
+* Fix: the `<<ref>>` counter is reset per tiddler now (it was reset on the body tag before). So you should update [[$:/_telmiger/strex.css]].
+
+!!!! 0.8.4 Delete State Tiddlers
+* when a strex element is closed, we [[delete the state tiddler|Clean-up reveal Code]] to avoid too many useless tiddlers.
+
+!!! 0.7 Initial release 
+
+!!!! 0.7.1 Documentation update 
+Deprecated, but still available <<strex "for sentimental reasons: [[TextStretch 0.7.1]]" "here">>.
+
+!! Ideas for next Versions
+
+* make translations possible
+* ~~presets from config-tiddler~~ – solved in version 0.8.3
