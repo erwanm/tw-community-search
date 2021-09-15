@@ -1,0 +1,96 @@
+title: $:/TW5Hacks/SummaryResults
+created: 20161025201520926
+creator: Thomas Elmiger
+internalsummary: <<extract start:"ysy" end:"/ysy">> 
+modified: 20170711211846337
+modifier: Thomas Elmiger
+tweet: test contönt
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: SummaryResults
+source-tiddler-title-as-link: SummaryResults
+
+<div class="nr">
+
+!Tests
+
+<<extract "SummaryTest" start:"`" end:"`">>
+
+!! Start/end not defined
+
+<<extract "SummaryTest" end:"~~~~">> 
+
+
+<<extract "SummaryTest" start:"</hdr>">> 
+
+---
+
+!! Macrocall
+
+<$macrocall $name="extract" tiddler="SummaryTest" start="Quite" end="?"/>
+
+---
+
+!! All italic text
+
+<ul>
+<<extract "SummaryTest" start:"//" end:"//" limit:"no" prefix:"<li>//" suffix:"//</li>">> 
+</ul>
+
+<$wikify name="totweet" text=<<extract "SummaryTest" start:"//" end:"//">> >
+
+Tweet? <$macrocall $name="tweet" text=<<totweet>> tooltip="tweet the first line in italics"/>
+
+</$wikify>
+
+---
+
+!! All bold text, Suffix (bold)
+
+<<extract "SummaryTest" start:"''" end:"''" suffix:"''" limit:"no" prefix:"''">> 
+
+---
+
+The first part of the … 
+
+<<extract "$:/_telmiger/extract" start:"<!--" end:"-->">>
+
+---
+!! Extract all Header Elements
+
+<<extract "SummaryTest" start:"<header>" end:"</header>" limit:"no">> 
+
+---
+
+!! Start and End Comments, Suffix …
+
+<<extract "SummaryTest" start:"<!-- sum -->" end:"<!-- /sum -->" suffix:" …">> 
+
+---
+
+!! Use own tag hdr
+
+<<extract "SummaryTest" start:"<hdr>" end:"</hdr>" limit:"no">> 
+
+---
+
+!! Internal summary hidden in comment
+
+{{!!internalsummary}}
+
+---
+
+!! tl;dr without title
+
+<<extract "SummaryTest" start:"tl;dr" end:"<!-- /tl;dr -->">> 
+
+---
+
+!! tl;dr with title
+
+<<extract "SummaryTest" start:"tl;dr" end:"<!-- /tl;dr -->" prefix:"!!! tl;dr
+">> 
+
+</div>
+
+<!-- ysy This is a hidden summary in this very tiddler – transclude the macro from a field to avoid errors. (The start and end tags are present in the macro call AND surrounding the summary.) /ysy -->

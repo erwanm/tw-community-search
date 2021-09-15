@@ -1,0 +1,17 @@
+title: $:/TW5Hacks/late/today on calendar icon
+created: 20160913134435474
+creator: Thomas Elmiger
+modified: 20170410211640163
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160913222036
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: late/today on calendar icon
+source-tiddler-title-as-link: late%2ftoday%20on%20calendar%20icon
+
+Space is precious.
+
+* late/today is displayed over calendar icon
+* calendar function is still clickable
+* use calendear icon’s place when date-picker plugin is missing

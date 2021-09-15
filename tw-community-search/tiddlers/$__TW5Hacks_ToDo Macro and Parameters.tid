@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/ToDo Macro and Parameters
+created: 20170118215717678
+creator: Thomas Elmiger
+modified: 20170120121153119
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20170120131150
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Macro and Parameters
+source-tiddler-title-as-link: ToDo%20Macro%20and%20Parameters
+
+Eliminate redundant code: Generate ToDo lists using a macro with parameter options.
+
+* $:/plugins/telmiger/todonownow (?) is used for ToDoNow, ToDoDone and ToDo lists
+* parameters control
+** useDeadline
+** usePriority
+** sort=priority/deadline

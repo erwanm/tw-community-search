@@ -1,0 +1,90 @@
+title: $:/TW5Hacks/rpnTest Fields
+created: 20170810054921454
+creator: Thomas Elmiger
+example-1: 5
+modified: 20170810221525891
+modifier: Thomas Elmiger
+url: thomas-elmiger.ch
+original-tags: rpn
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: rpnTest Fields
+source-tiddler-title-as-link: rpnTest%20Fields
+
+A field value from ''the calling tiddler'' can be transcluded as an operand in a macrocall (no quotes!): 
+
+```
+<$macrocall $name="rpn" a={{!!example-1}} b="5" operation="/"/>
+```
+
+Result: <$macrocall $name="rpn" a={{!!example-1}} b="5" operation="/"/>
+
+A field value from ''any tiddler'' can be transcluded as an operand in a macrocall (with quotes!): 
+
+```
+<$macrocall $name="rpn" a="{{rpnTest!!example-1}}" b="5" operation="/"/>
+```
+
+Result: <$macrocall $name="rpn" a="{{rpnTest!!example-1}}" b="5" operation="/"/>
+
+Link to concatenated destination: 
+<a href=<<rpn "https://" "{{rpnTest Fields!!url}}" &>>>{{!!url}}</a>
+
+---
+
+In the shortcut `<<syntax>>` the tiddler from where to get the field value must be specified in the transclusion.
+
+```
+<<rpn "{{rpnTest!!example-1}}" "{{rpnTest!!example-2}}" +>>
+```
+
+Result: <<rpn "{{rpnTest!!example-1}}" "{{rpnTest!!example-2}}" +>>
+
+---
+
+It is possible to use up to 4 fields as input in a macrocall: 
+
+```
+<$macrocall $name="rpn" 
+    a=<<rpn "{{rpnTest Fields!!example-1}}" "{{rpnTest!!example-3}}" *>> 
+    b=<<rpn "{{rpnTest!!example-2}}" "{{rpnTest!!example-1}}" +>> 
+    operation="*"
+/>
+```
+Result:
+<$macrocall $name="rpn" 
+    a=<<rpn "{{rpnTest Fields!!example-1}}" "{{rpnTest!!example-3}}" *>> 
+    b=<<rpn "{{rpnTest!!example-2}}" "{{rpnTest!!example-1}}" +>> 
+    operation="*"
+/>
+
+---
+
+!!! Assign a field reference to a variable using a set widget
+
+
+```
+<$set name="a" value="{{rpnTest!!example-1}}">
+<$macrocall $name="rpn" a=<<a>> b="5"/>
+</$set>
+```
+
+Result: 
+<$set name="a" value="{{rpnTest!!example-1}}">
+<$macrocall $name="rpn" a=<<a>> b="5"/>
+</$set>
+
+This uses the text assigned to the variable as operand: `"{{rpnTest!!example-1}}"`. Therefore, as above, the tiddler must be specified for the macro.
+
+!!! Wikify field values 
+
+This uses the field’s value as operand, therefore it works without tiddler indication:
+
+```
+<$wikify name="a" text="{{!!example-1}}">
+<$macrocall $name="rpn" a=<<a>> b="5" operation="/"/>
+</$wikify>
+```
+Result: 
+<$wikify name="a" text="{{!!example-1}}">
+<$macrocall $name="rpn" a=<<a>> b="5" operation="/"/>
+</$wikify>

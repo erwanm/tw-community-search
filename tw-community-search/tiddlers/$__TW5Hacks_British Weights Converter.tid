@@ -1,0 +1,23 @@
+title: $:/TW5Hacks/British Weights Converter
+created: 20170816155603276
+creator: Thomas Elmiger
+modified: 20170816192332620
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: British Weights Converter
+source-tiddler-title-as-link: British%20Weights%20Converter
+
+The metric weight of
+<$edit-text tiddler="$:/temp/british-weight-converter" field="text" tag="input" size="3"/> ''kg'' is equal to:
+
+<$macrocall $name=rpn a={{$:/temp/british-weight-converter}} b=2.20462 operation=* locale=en-GB/> pounds
+
+<$macrocall $name=rpn a={{$:/temp/british-weight-converter}} b=<<rpn 2.20462 14 />> operation=* decimals=3 locale=en-GB/> stones
+
+
+---
+
+''Important!'' Shortcut macro calls in <<syntax>> are not dynamic and get updated only through re-rendering e.g. when a tiddler is saved or loaded: 
+
+<<rpn {{$:/temp/british-weight-converter}} 2.20462 * locale:en-GB>> pounds

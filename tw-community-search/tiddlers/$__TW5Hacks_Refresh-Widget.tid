@@ -1,0 +1,22 @@
+title: $:/TW5Hacks/Refresh-Widget
+created: 20170707154929020
+creator: Thomas Elmiger
+modified: 20170708220339206
+modifier: Thomas Elmiger
+priority: 2
+todo-deadline: 20170708220000000
+todo-done: 20170709000334
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Refresh-Widget
+source-tiddler-title-as-link: Refresh-Widget
+
+Trigger a refresh of a tiddler (or a section in a tiddler?) whenever anything in the wiki changes.
+
+The now widget can do this – see [[Update View with Every Klick]] – so we do not need another widget for this. The following features are not implemented at the moment.
+
+* let the user set a minimal amount of time between refreshs (to save resources).
+** time in seconds
+* let the user set a field/tiddler/text reference to store a timestamp of the last refresh
+** default to current tiddler
+* `<$refresh interval=3600 field="refreshed"/>`
