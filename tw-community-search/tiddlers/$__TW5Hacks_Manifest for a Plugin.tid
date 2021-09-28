@@ -1,0 +1,35 @@
+title: $:/TW5Hacks/Manifest for a Plugin
+created: 20170601134956616
+creator: Thomas Elmiger
+modified: 20170816054029376
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170816074026
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Manifest for a Plugin
+source-tiddler-title-as-link: Manifest%20for%20a%20Plugin
+
+As drafted by Josiah and Mario
+
+* Check out https://wikilabs.github.io/editions/bundler/
+** file issues: https://github.com/wikilabs/plugins/issues
+** discussion see: https://groups.google.com/forum/#!topic/tiddlywiki/_Uqbg08Pjow
+* Bundle all Plugins available for ToDoNow
+
+---
+!!! Notes
+eg: Create a tiddler named: manifest with the following content
+
+HelloThere
+Learning
+[[Working with TiddlyWiki]]
+
+
+Then open the AdvancedSearch: Filter and enter:
+
+[enlist{manifest}]
+
+Which gives you a nice list, that can be exported as *.json file. If imported it does the expected thing.
+
+https://groups.google.com/d/msgid/tiddlywiki/571bf2f2-22b0-426b-bea4-71f6f731ad53%40googlegroups.com

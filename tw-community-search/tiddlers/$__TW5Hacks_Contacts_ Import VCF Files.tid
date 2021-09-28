@@ -1,0 +1,28 @@
+title: $:/TW5Hacks/Contacts: Import VCF Files
+created: 20161014143614229
+creator: Thomas Elmiger
+modified: 20161226140212699
+modifier: Thomas Elmiger
+original-tags: QR Google Contacts Experiments
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Contacts: Import VCF Files
+source-tiddler-title-as-link: Contacts%3a%20Import%20VCF%20Files
+
+!! QR Codes to Import Contacts on your Phone
+Inspired by a [[question in the Google group|https://groups.google.com/d/msg/tiddlywiki/UsK-MhqA0Kk/F-oXMyXPFAAJ]], I experimented with [[Google’s QR API|https://developers.google.com/chart/infographics/docs/qr_codes]]. Finally I found a way to …
+
+* import a .vcf file [[like mine|http://thomas-elmiger.ch/#kontakt]] by dropping it on the wiki
+* use a [[conditional view template for tiddlers with the suffix .vcf|$:/plugins/telmiger/contacts/templates/vcf-qr]] in the title
+** show a button that loads the QR code from Google on demand
+* thus import tiddlers in vcard format to my phone’s address book, scanning the code. 
+
+!!! Macro to transform tiddlers to QR codes
+My macro [[qr-tid|$:/plugins/telmiger/contacts/qr-tid]] takes a tiddler title as input and optionally a size. To transform a tiddler into a QR code use <br>`<<qr-tid "Tiddler Title">>` or <br>`<<qr-tid "Tiddler Title" size:540>>`.
+
+!!!! QR code size
+The standard size in my macro is set to 370 pixels. It appears, that 177 columns and rows is the maximum information that can be stored in a QR code. I added 4 columns on each side for the default margin that is added by the API. Then I simply doubled this number (185). 
+
+Google seems to limit the size of the png graphic. Sizes above 540 pixels did not return a result.
+
+!!! Example .vcf-Tiddler
+See the result on [[Elmiger-Thomas.vcf]].

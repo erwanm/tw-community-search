@@ -17,6 +17,6 @@ short_description: An easy to use checklist widget
 title: twCard - Plugin - tw5-checklist
 wiki: http://grosinger.net/tw5-checklist/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-error: error 4: found only partial match (plugin title ok), check wiki address
 
 {{||$:/CommunityPluginTemplate}}
