@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Checklists within Tiddlers
+created: 20160825054629531
+creator: Thomas Elmiger
+modified: 20160829140749392
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20160829160747
+original-tags: Plugins ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Checklists within Tiddlers
+source-tiddler-title-as-link: Checklists%20within%20Tiddlers
+
+Subtasks can be small: Give users a possibility to add/check/remove minor subtasks easily. 
+
+* This is a practical solution: https://grosinger.net/tw5-checklist/

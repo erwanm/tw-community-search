@@ -1,0 +1,52 @@
+title: $:/TW5Hacks/ToDo List Search
+created: 20160823221841154
+creator: Thomas Elmiger
+modified: 20170410213134559
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20160824220335
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo List Search
+source-tiddler-title-as-link: ToDo%20List%20Search
+
+Make long lists accessible using search:
+
+* ~~Tasks can be found using a search field~~
+* style search field
+* fix result counter `<$macrocall $name="tagmatches" tagName=<<myTagName>> tempSearch="ToDo-search"/>`
+* Improve todoSearch macro? – No, we don’t need that here.
+** allow tag input using `""` or `''` or `"""`
+** allow input of multimple tags?
+
+---
+
+Example: 
+
+Search tiddlers using the tag ToDo:
+
+<$set name="tagsearchTiddler" value="$:/temp/ToDo-search">
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/ToDo-search" type="search" tag="input" focus="false" placeholder="search for …"/>
+<$reveal state="$:/temp/ToDo-search" type="nomatch" text="">
+<$button tooltip="Reset" class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/ToDo-search" text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+<$button tooltip="Counter" class="tc-btn-invisible">
+<$set name="myTagName" value="ToDo">
+<$macrocall $name="tagmatches" tagName=<<myTagName>> tempSearch="ToDo-search"/>
+</$set>
+</$button>
+</div>
+</$set>
+
+<hr>
+
+<dl>
+<$list filter="[tag[ToDo]search{$:/temp/ToDo-search}sort[title]]">
+<dt><$link><<currentTiddler>></$link></dt>
+<dd>{{!!todo-deadline}}</dd>
+</$list>
+</dl>

@@ -1,0 +1,26 @@
+title: $:/TW5Hacks/Check User Feedback
+created: 20170201203532946
+creator: Thomas Elmiger
+modified: 20170510222305089
+modifier: Thomas Elmiger
+priority: 2
+todo-deadline: 20170510220000000
+todo-done: 20170509215340
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Check User Feedback
+source-tiddler-title-as-link: Check%20User%20Feedback
+
+The best input for further development comes from actual users.
+
+[x] Check the order of the buttons (icons): 1) Stopwatch ''2) Priority'' 3) Move up //''4) Edit''// 5) Ellipsis. – Edit next to "open" seems dangerous to me, but maybe we can test this. My workflow is mostly: 1) peek inside (open) 2) move up or change deadline 3) edit inline (unlock) if appropriate. The most important function is //move up// (and do) and I find it quite reachable and standing out enogh next to the ellipsis.
+[x] Priority Setting Change is done through a simple single entry box that allows you to enter ONE CHARACTER to set priority (letter/number).
+[x] Allow letters and numbers for priorities 
+
+
+!!! Workarounds
+* ~~Set priorities after moving a task up in the todonow section. Then it doesn’t jump around in the list.~~
+* Archive feedback see [[Archive Done]]
+
+!!! Done
+* Remove the word "Project:" next to the filter dropdown. (Use as default on top of the list.)

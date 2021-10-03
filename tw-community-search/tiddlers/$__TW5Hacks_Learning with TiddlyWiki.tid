@@ -1,0 +1,83 @@
+title: $:/TW5Hacks/Learning with TiddlyWiki
+created: 20180514052552654
+creator: Thomas Elmiger
+modified: 20180514055825720
+modifier: Thomas Elmiger
+original-tags: [[TW Group]]
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Learning with TiddlyWiki
+source-tiddler-title-as-link: Learning%20with%20TiddlyWiki
+
+Let me share an interesting article first, about how to get better at learning:
+
+https://hbr.org/2018/05/learning-is-a-learned-behavior-heres-how-to-get-better-at-it
+
+It describes many aspects of learning I learned (and maintain) through TW. Which are:
+
+* frame a problem or devide it in smaller pieces
+* describe a task/the solution
+* know, if you can solve it autonomously, using the docs/web or with help from others
+* know, where to look things up, find solutions fast
+* know, when to take a break
+* know, that the best ideas often come during the break (while jogging in my case)
+* realize, when something is good enough
+* recognize the value of feedback from others
+* know, when to say no
+* write understandable documentation
+* practice English
+* ...
+
+Now, to answer your questions:
+
+<<<
+'Vytas' via TiddlyWiki <tiddlywiki@googlegroups.com> schrieb am Mi. 9. Mai 2018 um 19:40:
+
+What is your favourite application of rpn?
+<<<
+
+I think I developed rpn for the [[Reminders for ToDoNow|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2Freminders]], where I have to calculate the difference from now to a due date (minus a configurable interval for warnings before the due date is reached).
+And this is still the feature I (and my wife and probably other users of ToDoNow) use almost daily.
+
+<<<
+"School of logical thinking. From idea to application I can gradually develop thoughts and tools that matter to me. That makes me a better thinker, I think." Could you elaborate on this, maybe giving an example?
+<<<
+
+To illustrate the points I made above I will use my masterpiece [[ToDoNow (plugin link)|https://tid.li/tw5/tdn.html]]. It was developed over a long time, starting from the original [[TW example for task management|https://tiddlywiki.com/#TaskManagementExample]] and integrating it with my [[Listreveal plugin|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2Flistreveal]] that adds nice functions to lists. Design thinking is popular today and in agile projects you always have a working product after a limited period of time. I tried to stick to those ideas and developed button after button, function after function, always adding to the software I used daily. Search, tag-filter, priorities, a deadline, sorted listings, a work report … 
+After adding substantial value I occasionally released a new version and got invaluable feedback from other real users. Requests from other users led to additions like the archive or user filters. Birthe contributed a danish translation. 
+
+Other users asked for further developments to get a real GSD software – that was the point where I had to say no. And I had to say no on other occasions to stick to the philosophy I had developed for myself, which is that I am most productive when I focus on only one single task. (The one in the Now-section of ToDoNow.)
+
+Developing new stuff without a clear use case like my recent [[card experiment|https://tid.li/tw5/test/flippy.html]] can lead to improvements of older functionality, because I discover new things TW can do or I can do with TW. This was the case with the [[context tagging|https://tid.li/tw5/plugins.html#03%20Context%20Tagging]] functionality of Listreveal, that received an update recently, so new tags can be added too. And as stated above: some of the best ideas came to my mind, while I was running through the woods.
+
+<<<
+Which tools do you use the most?
+<<<
+
+Notetaking: I tend to prepare most content for other software in TW, because it is so easy to write well structured content (titles, subtitles, lists) in wikitext. Then you can copy clean and valid HTML-formatted text to office software, CRM, a blog, ... the most invaluable tool to assist with that is the [[EditorCounter|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2FEditorCounter]] that counts characters and saves my single page wiki in the background after every 200 characters. Also nice if your deliverable is a text of e.g. 2000 characters. (By the way, I could not have done this without studying code from Jed first.) 
+
+The other plugin I always install immediately in new wikis brings the [[edit toolbar buttons to save or cancel and close|https://tid.li/tw5/plugins.html#%24%3A%2Fplugins%2Ftelmiger%2FEditButtons]] – again something I realized many people were missing, so I developed and published it.
+
+In all my main wikis I use ToDoNow to organize and plan some personal tasks. I speculated with Josiah about it’s user base several times, there are about 30 people we personnally know as users – so it might be safe to say it could be one of the more popular TW-based applications.
+
+---
+
+<<<
+You mentioned "In all my main wikis". When do you know it is time to start a new wiki? It seemed to me that there are many people here of the opinion that one can lose a big advantage of TW being a single file/database with a search function, if you have more than one wiki. What do you think?
+<<<
+
+My approach is to have several wikis for several topics:
+
+* work – recently I changed the company and started with an empty wiki again
+* private, mostly learning – also here I tend to make a wiki per subject or course
+* TW hacks in development
+* dedicated wikis for publishing stuff (plugins, experiments, design)
+
+<<<
+I'll will push you a little bit with respect to "many aspects of learning I learned (and maintain) through TW". How does TW help with 
+
+* "know, when to take a break"
+* "know, that the best ideas often come during the break (while jogging in my case)"
+  * realize, when something is good enough"?
+<<<
+
+Well, honestly I think it is regular practice with developing stuff that helps with these points, not TW itself or it’s features :) So for me it is the whole package, including the Google group, that makes TW a fit.

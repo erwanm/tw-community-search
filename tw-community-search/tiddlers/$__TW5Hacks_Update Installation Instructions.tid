@@ -1,0 +1,32 @@
+title: $:/TW5Hacks/Update Installation Instructions
+created: 20160930064950964
+creator: Thomas Elmiger
+deadline: 
+modified: 20170904053224466
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170904073216 20160819082142
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Update Installation Instructions
+source-tiddler-title-as-link: Update%20Installation%20Instructions
+
+Everyone must be able to use it: Make installation easy by providing clear instructions.
+
+* Bundles of recommended additional plugins
+** Kixam’s Datepicker, moment.js
+** Grosinger’s checklist
+* Select for preferred language
+
+---
+
+* Explain TW shortly, link to tiddlywiki.com
+* Recommend FF with TiddlyFox Extension
+* List all components
+** macros
+** CSS
+** tiddlers
+* Describe installation process
+** Adapt [[ToDo Item]] template 
+* Show [[ToDoNow Installation]] in ~ToDoNow section in open state.
+ 
