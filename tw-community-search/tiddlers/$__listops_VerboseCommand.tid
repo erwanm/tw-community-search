@@ -1,0 +1,8 @@
+title: $:/listops/VerboseCommand
+caption: verbose
+original-tags: Commands
+source-wiki-id: listops
+source-tiddler-title-as-text: VerboseCommand
+source-tiddler-title-as-link: VerboseCommand
+
+{{$:/language/Help/verbose}}

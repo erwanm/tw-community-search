@@ -1,0 +1,32 @@
+title: $:/Checklist/MultiTiddlerFileSyntax
+created: 20150621181334837
+modified: 20150621181400844
+type: text/vnd.tiddlywiki
+original-tags: [[TiddlyWiki on Node.js]]
+source-wiki-id: Checklist
+source-tiddler-title-as-text: MultiTiddlerFileSyntax
+source-tiddler-title-as-link: MultiTiddlerFileSyntax
+
+!!! MultiTiddlerFiles
+
+<$railroad text="""
+{<"Header Line">} "Blank Line" {(<"Tiddler Descriptor Line"> | <"Comment Line">)}
+"""/>
+
+!!! Header Line
+
+<$railroad text="""
+<"Identifier"> ":" {"Whitespace"} <"Value"> "New Line"
+"""/>
+
+!!! Tiddler Descriptor Line
+
+<$railroad text="""
+<"File Path"> ":" {"Whitespace"} <"Tiddler Title"> "New Line"
+"""/>
+
+!!! Comment Line
+
+<$railroad text="""
+"#" {("Text" | "Whitespace")} "New Line"
+"""/>
