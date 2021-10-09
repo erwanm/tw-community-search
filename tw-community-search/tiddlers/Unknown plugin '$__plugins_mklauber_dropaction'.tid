@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/mklauber/dropaction'
-name: unknown
-plugin_tiddler: $:/plugins/mklauber/dropaction
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
