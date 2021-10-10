@@ -1,0 +1,47 @@
+title: $:/TW5Hacks/Clean-up State and Temp Tiddlers
+created: 20160904201823493
+creator: Thomas Elmiger
+modified: 20170507155720727
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20160905075031
+original-tags: ToDo
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Clean-up State and Temp Tiddlers
+source-tiddler-title-as-link: Clean-up%20State%20and%20Temp%20Tiddlers
+
+!! Clear States
+
+You can close all TextStretch elements in this Wiki using this button: 
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state/strex_]]"/>
+Clear ~TextStretch States
+</$button>
+
+---
+
+Delete all ToDoNow states in this Wiki: 
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state/ToDo]]"/>
+Clear ~ToDo States
+</$button>
+
+---
+
+{{DeleteTweets}}
+
+---
+
+Delete all state and temp tiddlers in this Wiki: 
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state]]"/>
+Clear all States
+</$button>
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/temp]]"/>
+Clear all Temp
+</$button>

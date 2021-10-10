@@ -1,0 +1,36 @@
+title: $:/TW5Hacks/Test if
+created: 20170409215718909
+creator: Thomas Elmiger
+modified: 20170411210102424
+modifier: Thomas Elmiger
+priority: 2
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Test if
+source-tiddler-title-as-link: Test%20if
+
+\define check-a() <$macrocall $name="if" A={{!!priority}} B="a" then="''priority is a''" else="priority is not a"/>
+\define check-b() <$macrocall $name="if" A={{!!priority}} B="b" then="''priority is b''" else="not b" error="this is not defined"/>
+\define check-empty() <$macrocall $name="if" A={{!!priority}} B="_false_" then="the field value is _false_" else="the field is not empty" error="//the field is empty or does not exist//" />
+\define red-bold-error() <$macrocall $name="if" A={{!!priority}} B="a" then="a is correct" else="it’s not a" error="@@color:red; ''something went wrong'' @@"/>
+
+!!! Test Value
+Set a value for the field //priority//: 
+
+<$checkbox field="priority" checked="a" unchecked="c"> a</$checkbox> 
+<$checkbox field="priority" checked="b" unchecked="d"> b</$checkbox>
+<$checkbox field="priority" checked="anything" unchecked="e"> anything</$checkbox>
+
+<$button set="!!priority" setTo=""> reset priority</$button>
+
+---
+
+!!! Test Results: if A is B
+
+Is it a? – <<check-a>>
+
+Is it b? – <<check-b>>
+
+Is it empty? – <<check-empty>>
+
+Error red and bold? – <<red-bold-error>>

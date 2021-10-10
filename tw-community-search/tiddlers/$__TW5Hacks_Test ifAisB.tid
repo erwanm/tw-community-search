@@ -1,0 +1,45 @@
+title: $:/TW5Hacks/Test ifAisB
+created: 20170409193917974
+creator: Thomas Elmiger
+modified: 20181003204900544
+modifier: Thomas Elmiger
+priority: 
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Test ifAisB
+source-tiddler-title-as-link: Test%20ifAisB
+
+\define check-a() <$macrocall $name="ifAisB" A={{!!priority}} B="a" then="priority is a" else="priority is not a"/>
+\define check-b() <$macrocall $name="ifAisB" A={{!!priority}} B="b" then="priority is b" else="not b" error="this is not defined"/>
+\define check-empty() <$macrocall $name="ifAisB" A={{!!priority}} B="" then="_this is never shown_" else="the field is not empty" error="//the field is empty or does not exist//" />
+\define red-bold-error() <$macrocall $name="ifAisB" A={{!!priority}} B="a" then="a is correct" else="it’s not a" error="@@color:red; ''something went wrong'' @@"/>
+
+!! Tests and Examples for the Macro ifAisB
+
+!!! Test Value
+Set a value for the field //priority//: 
+
+<$checkbox field="priority" checked="a" unchecked="c"> a</$checkbox> 
+<$checkbox field="priority" checked="b" unchecked="d"> b</$checkbox>
+<$checkbox field="priority" checked="anything" unchecked="e"> anything</$checkbox>
+
+<$button set="!!priority" setTo=""> reset priority</$button>
+
+---
+
+!!! Test Results for Transcluded Values
+
+# Is it a? – <<check-a>>
+# Is it b? – <<check-b>>
+# Is it empty? – <<check-empty>>
+# Error red and bold? – <<red-bold-error>>
+
+!!! Test Results for a Value in a Variable
+<$vars var="a">
+
+* Is variable value "a" = `{{!!priority}}`? – <$macrocall $name="ifAisB" A=<<var>> B={{!!priority}} then="''priority is a''" else="priority is not a" error="missing value"/>
+* Is the variable //"a"//? (always true) – <$macrocall $name="ifAisB" A=<<var>> B="a" then="true" else="false" error="var is missing or empty"/>
+* Is the priority "a"? – <$macrocall $name="ifAisB" A={{!!priority}} B=<<var>> then="prio a" else="false" error="priority is missing or empty"/>
+* No error shown? – <$macrocall $name="ifAisB" A={{!!priority}} B=<<var>> then="prio a" else="false" error="<!-- no -->"/>
+
+</$vars>

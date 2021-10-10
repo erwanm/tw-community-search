@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/ErgebnisModal
+created: 20150325201701397
+creator: Thomas Elmiger
+footer: <$button message="tm-close-tiddler">Schliessen</$button>
+modified: 20171120222241905
+modifier: Thomas Elmiger
+subtitle: Du hast <<myNumber>> eingegeben.
+original-tags: Modal Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ErgebnisModal
+source-tiddler-title-as-link: ErgebnisModal
+
+! Resultat
+
+Deine Zahl im Quadrat ist: <$macrocall $name="quadratur" eingabe=<<myNumber>> />
