@@ -1,0 +1,14 @@
+title: $:/Tiddler Gallery (inmysocks)/TiddlyWiki Pre-release
+modified: 20141013204930183
+original-tags: 
+source-wiki-id: Tiddler Gallery (inmysocks)
+source-tiddler-title-as-text: TiddlyWiki Pre-release
+source-tiddler-title-as-link: TiddlyWiki%20Pre-release
+
+This is a pre-release build of TiddlyWiki.
+
+It is provided for testing purposes. Please don't try to use it for anything important -- you should use the latest official release from http://tiddlywiki.com.
+
+Try out the experimental system tiddler browser:
+
+[[$:/core/ui/MoreSideBar/Explore]]

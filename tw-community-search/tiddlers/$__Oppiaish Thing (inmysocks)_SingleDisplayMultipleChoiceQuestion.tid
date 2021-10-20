@@ -1,0 +1,55 @@
+title: $:/Oppiaish Thing (inmysocks)/SingleDisplayMultipleChoiceQuestion
+created: 20150410062612152
+modified: 20150410065040987
+original-tags: Templates
+source-wiki-id: Oppiaish Thing (inmysocks)
+source-tiddler-title-as-text: SingleDisplayMultipleChoiceQuestion
+source-tiddler-title-as-link: SingleDisplayMultipleChoiceQuestion
+
+\define thisAnswerEntry()
+<$radio tiddler="$:/question/multiple choice/$(CurrentQuestion)$/selected response" value={{!!order}}><$transclude/> </$radio><br>
+\end
+
+\define thisMakeState()
+$:/question/multiple choice/$(CurrentQuestion)$/selected response!!show_response
+\end
+
+\define thisShowResponse()
+Your answer:<br><br>
+<$list filter='[tag[Multiple Choice]tag[Answer]question<CurrentQuestion>order{$:/question/multiple choice/$(CurrentQuestion)$/selected response}]'>
+<$transclude/>
+</$list><br><br>
+
+Response:
+
+<$set name=ResponseNumber value={{$:/question/multiple choice/$(CurrentQuestion)$/selected response}}>
+
+<$list filter='[tag[Response]question<CurrentQuestion>order<ResponseNumber>]'>
+<$transclude/>
+<br><br>
+<$button>Next Question
+<$action-setfield $tiddler='$:/Current Question' text={{!!next_question}}/>
+</$button>
+</$list>
+
+</$set>
+
+\end
+
+<h2><$view tiddler=<<CurrentQuestion>> field='title'/></h2>
+
+<$view tiddler=<<CurrentQuestion>> field='text'/><br>
+
+<$reveal type='nomatch' state=<<thisMakeState>> text=show>
+
+<$list filter='[tag[Multiple Choice]tag[Answer]question<CurrentQuestion>]'>
+<<thisAnswerEntry>>
+</$list>
+<$button set=<<thisMakeState>> setTo=show>Check Answer</$button>
+</$reveal>
+
+<$reveal type='match' state=<<thisMakeState>> text=show>
+<<thisShowResponse>>
+
+</$reveal>
+

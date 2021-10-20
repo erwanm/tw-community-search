@@ -1,0 +1,14 @@
+title: $:/Invoking Actions (inmysocks)/$:/plugins/tiddlywiki/googleanalytics
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: Google Analytics plugin for TiddlyWiki5
+list: readme
+version: 5.1.8-prerelease
+original-tags: 
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: $:/plugins/tiddlywiki/googleanalytics
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftiddlywiki%2fgoogleanalytics
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

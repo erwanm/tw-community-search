@@ -1,0 +1,14 @@
+title: $:/Invoking Actions (inmysocks)/$:/plugins/inmysocks/WidgetsInvokeActions
+author: inmysocks
+core-version: >=5.0.8
+dependents: 
+description: A plugin let widgets other than the button widget trigger action widgets
+source: 
+version: 0.0.1
+original-tags: 
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: $:/plugins/inmysocks/WidgetsInvokeActions
+source-tiddler-title-as-link: %24%3a%2fplugins%2finmysocks%2fWidgetsInvokeActions
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

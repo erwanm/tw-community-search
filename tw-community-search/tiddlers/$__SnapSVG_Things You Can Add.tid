@@ -1,0 +1,21 @@
+title: $:/SnapSVG/Things You Can Add
+created: 20151219201518691
+modified: 20151219212441992
+original-tags: 
+source-wiki-id: SnapSVG
+source-tiddler-title-as-text: Things You Can Add
+source-tiddler-title-as-link: Things%20You%20Can%20Add
+
+Things need to be cleaned up a lot, particularly things that apply to actions and click events. And I need to add some better way to set if something is initialized when the image is loaded or if it is added in response to some other event. And  a way to sequence events other than just have one animation happen once another has finished.
+
+[[SVG Image Surfaces|SVG Image Surfaces Help]] - These are the images themselves
+
+[[Elements|Elements Help]] - These are individual shapes like circles, ellipses, rectangles and polygons.
+
+[[Groups|Groups Help]] - These are collections of elements that can be manipulated as a single unit
+
+[[Animations|Animations Help]] - These define moving parts of the image, it can be scaling, rotation and movement, later I should add color changes too. Maybe other stuff.
+
+[[Actions|Actions Help]] - Actions are things like adding/removing elements or groups, trigging animations
+
+[[Click Events|Click Events Help]] - definitions for triggering events by clicking on elements or groups.

@@ -1,0 +1,23 @@
+title: $:/Invoking Actions (inmysocks)/get Operator
+caption: get
+created: 20140426183123179
+modified: 20150124165013000
+purpose: select all values of a field in the input titles
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Field Operators]]
+source-wiki-id: Invoking Actions (inmysocks)
+source-tiddler-title-as-text: get Operator
+source-tiddler-title-as-link: get%20Operator
+
+<$macrocall $name=".operator-def"
+input="a [[selection of titles|Title Selection]]"
+parameter="the name of a [[field|TiddlerFields]]"
+paramName="f"
+output="the values of field <<.place f>> in each of the input titles"
+/>
+
+Each input title is processed in turn. If the corresponding tiddler contains field <<.place f>>, and the value of this field is not empty, then its value is appended to the output.
+
+Unlike most other [[Filter Operators]], the [[selection|Title Selection]] output by <<.op get>> can contain duplicates. To avoid duplicates, use `each[f]get[f]`.
+
+<<.operator-examples "get">>
