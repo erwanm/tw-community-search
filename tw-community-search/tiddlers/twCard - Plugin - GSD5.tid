@@ -17,10 +17,6 @@ short_description: TiddlyWiki5 Getting Stuff Done plugin
 title: twCard - Plugin - GSD5
 wiki: http://gsd5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: GSD5
-twcs-extracted-plugin-tiddler: $:/GSD5/$:/plugins/gsd5/core
-twcs-description: TiddlyWiki5 Getting Stuff Done plugin
-twcs-author: Roma Hicks
-twcs-version: 0.6.0-beta
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}
