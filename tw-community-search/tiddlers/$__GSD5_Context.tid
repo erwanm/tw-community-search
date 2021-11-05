@@ -1,0 +1,29 @@
+title: $:/GSD5/Context
+original-tags: GSD5TiddlerTypes
+source-wiki-id: GSD5
+source-tiddler-title-as-text: Context
+source-tiddler-title-as-link: Context
+
+! Summary
+
+Contexts are a means to group Actions by categories that extend beyond just Projects.  Contexts make use of the TW5 tagging system.  Existing Contexts additionally track all Actions that have been associated with it, allowing the user to create lists or easily track these Actions.
+
+! Detail
+
+!! Field Variables
+The following field variables are used by Contexts.
+
+| !Field | !Values | !Note |
+|gsd_type |context |Required value. |
+|gsd_realm |all | |
+|~|<span style="font-style:italic">user-defined</span> |<span style="font-style:italic">Value is an existing tiddler title.</span> |
+
+!! UI Controls
+Action tiddlers also display specific controls in the [[Blue-Box]].  UI Controls can be added to the Blue-Box using the following system tags.
+
+* [[$:/tags/GSD5ActionCore|GSD5ContextCore]]
+* [[$:/tags/GSD5ActionPlugin|GSD5ContextPlugin]]
+
+! Best Practice
+
+* {{BestPractice InterRealm!!text}}

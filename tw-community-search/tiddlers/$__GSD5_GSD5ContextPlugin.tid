@@ -1,0 +1,26 @@
+title: $:/GSD5/GSD5ContextPlugin
+caption: $:/tags/GSD5ContextPlugin
+original-tags: BlueBoxTags API
+source-wiki-id: GSD5
+source-tiddler-title-as-text: GSD5ContextPlugin
+source-tiddler-title-as-link: GSD5ContextPlugin
+
+! Summary
+
+Adds custom controls to the BlueBox for Contexts.
+
+! Detail
+
+The `$:/tags/GSD5ContextPlugin` tag is used to provide a end-user interface in [[Context]] tiddlers.  A tiddler with this tag will have its contents rendered in the right column of the [[Blue-Box]].
+
+! Best Practice
+
+* If creating custom controls prefer this tag over [[$:/tags/GSD5ContextCore|GSD5ContextCore]].
+* {{BestPractice OrderedList!!text}}
+* {{BestPractice CustomCSS!!text}}
+
+---
+
+__''Also See:''__
+
+* [[$:/tags/GSD5ContextCore|GSD5ContextCore]]
