@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/Apply fill=currentColor to SVG icons
+created: 20171108195242612
+creator: Thomas Elmiger
+modified: 20171108204312296
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20171108214308
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Apply fill=currentColor to SVG icons
+source-tiddler-title-as-link: Apply%20fill%3dcurrentColor%20to%20SVG%20icons
+
+Let icons inherit the colour of surrounding text. Apply fill="currentColor"
+
+* Harvey Balls
+* done icon
+
+Test here: [[SVG Test currentColor]]

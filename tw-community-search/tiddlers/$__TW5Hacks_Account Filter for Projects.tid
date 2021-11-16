@@ -1,0 +1,20 @@
+title: $:/TW5Hacks/Account Filter for Projects
+created: 20160920084829845
+creator: Thomas Elmiger
+modified: 20170206135424523
+modifier: Thomas Elmiger
+priority: 2
+original-tags: ToDo Projects Listreveal
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Account Filter for Projects
+source-tiddler-title-as-link: Account%20Filter%20for%20Projects
+
+Consider tag hierarchy: Offer a filter for grouped projecs.
+
+* Account (KeyAccount)
+** Project (ToDo tagged with KeyAccount)
+
+
+Build a filter with all tags that 
+
+* are tags on tiddlers tagged ToDo/ToDoDone

@@ -1,0 +1,17 @@
+title: $:/TW5Hacks/Edit Template for ToDo Items?
+created: 20160816114234273
+creator: Thomas Elmiger
+deadline: 20161231225900000
+modified: 20170410213159766
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20160821205303
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Edit Template for ToDo Items?
+source-tiddler-title-as-link: Edit%20Template%20for%20ToDo%20Items%3f
+
+Users do not know what to enter in the standard fields provided by [[ToDo Item]] template: ~~Help them with placeholder text or useful data.~~
+
+* priority: 2 (of 3) – we have this as default value now
+* todo-deadline: (20161231235900000) – we do not provide that: the field is no longer in the template, it is set automatically by the date picker.

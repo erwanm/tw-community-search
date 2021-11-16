@@ -1,0 +1,38 @@
+title: $:/TW5Hacks/TextStretch Footnotes Extracted as List
+created: 20161108214651612
+creator: Thomas Elmiger
+footnotes-collection: <<extract start:"ref " end:">" limit:"no" rmQuotes:"y" mode:"inline" prefix:"<li>" suffix:"</li>">>
+modified: 20170109060736597
+modifier: Thomas Elmiger
+original-tags: TextStretch Experiments
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TextStretch Footnotes Extracted as List
+source-tiddler-title-as-link: TextStretch%20Footnotes%20Extracted%20as%20List
+
+!! Warning: Experimental Stuff!
+
+!!! Hints
+This hack is based on [[TextStretch Variant Footnote]]. There was no time for proper documentation, this is why it is published as a hack. It needs 
+
+* TextStretch including the //ref// shorthand macro
+* the //extract macro//, which can be found here: $:/_telmiger/extract – tests and test results for other extractions this macro can do (more or less) can be found under SummaryResults where content is extracted from the macro tiddler itself (docs!) as well as from SummaryTest.
+
+<article>
+
+!!! Numbered Hints/Notes
+
+Tis paragraph is built using the `<<ref>>` shorthand <<ref "Firstly: A longer note can be helpful to illustrate facts and findings or to promote a link to http://thomas-elmiger.ch">> and more text after the example. <<ref "test footnote 2">> – more text <<ref "3rd footnote">> and more text after the example. Even more text <<ref "A tale of horror and CSS (4)">> and more text after the example. <<ref "test footnote 5">> – more text <<ref "6th footnote">> and more text after the example. <<ref "My footnote number 7">><<ref "My footnote number 8">>
+
+The second paragraph works as well as the first one <<ref "My footnote number 9">> even if the footnote-numbers go as high as 10 or more. The footnote summary is an ordered list now.<<ref "The styling of the NEW footnote summary does now also cover numbers with more than one digit, like in 10.">>
+
+</article>
+
+---
+
+<footer class="footnotes">
+
+<ol>
+{{!!footnotes-collection}}
+</ol>
+
+</footer>

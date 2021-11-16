@@ -1,0 +1,17 @@
+title: $:/TW5Hacks/Hide Done (Separate Tiddler)
+created: 20160820045825165
+creator: Thomas Elmiger
+modified: 20170410213207740
+modifier: Thomas Elmiger
+priority: 3
+todo-deadline: 
+todo-done: 20160821132840
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Hide Done (Separate Tiddler)
+source-tiddler-title-as-link: Hide%20Done%20%28Separate%20Tiddler%29
+
+Done lists can be long: Hide them to omit distraction.
+
+* Done list can be hidden/revealed by clicking a button
+* Done list can be viewed on tag ToDoDone
