@@ -1,0 +1,9 @@
+title: $:/Interactive Fiction Engine (inmysocks)/OpenEditingScreen
+created: 20141116032202607
+modified: 20141116033657935
+original-tags: $:/tags/TopLeftBar
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: OpenEditingScreen
+source-tiddler-title-as-link: OpenEditingScreen
+
+<$button><$action-navigate $to='Editing Screen'/>Open Editing Screen</$button>

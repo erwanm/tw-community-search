@@ -1,0 +1,14 @@
+title: $:/Interactive Fiction Engine (inmysocks)/MapSquareTemplate
+created: 20141110053024735
+modified: 20141110054532785
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: MapSquareTemplate
+source-tiddler-title-as-link: MapSquareTemplate
+
+<$reveal state={{MapState!!current_room}} type='match' text={{!!title}} default={{$:core/images/refresh-button}}>
+{{$:/core/images/star-filled}}
+</$reveal>
+<$reveal state={{MapState!!current_room}} type='nomatch' text={{!!title}} default={{$:core/images/refresh-button}}>
+{{$:/core/images/cancel-button}}
+</$reveal>
