@@ -1,0 +1,42 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #075
+created: 20141230184145980
+modified: 20150106051037208
+type: 
+original-tags: hangouts [[Jed Carty]] [[Mario Pietsch]] [[Nicholas Spies]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #075
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23075
+
+\define hangout() 075
+
+<<header>>
+"""
+''Thanks to Astrid for all her help with the Hangouts and the Macros she has created and updated.''
+
+<<topic "00:00:00" "Introductions">> [[Jeremy Ruston|JeremyRuston]] - [[Jed Carty]] - [[Mario Pietsch]] - Nathan - [[Nicholas Spies]] <<sep>> Holiday Break
+<<topiclink "00:01:45" "Discussion of the Hangout and creating Tiddlers">>
+<<topic "00:04:34" "Nathan says Hi">>
+"""
+<<topilink "00:05:17" "Jed YouTube Macros"">>
+"""
+<<topiclink "00:14:00" "Nicholas Question Double Scroll Bar Issue">>
+<<topiclink "00:21:35" "Nicholas Introduction and Question about Navigation Back and Forward Buttons">>
+<<topiclink "00:26:00" "Nicholas Question - Zoomable User Interface">>
+<<topiclink "00:38:00" "Nicholas Question - TW as an email client">>
+<<topiclink "00:44:50" "Nicholas Question - Other desirable linkages would be Wolfram Alpha, FRINK, General Conversions">> - Look at Wolfram Alpha - Degree of implemenation with Wolfram is based on the API - Probably easiest in TiddlyDesktop - Downloadable content is only with Pro Account - [[Wolfram Alpha|http://www.wolframalpha.com/]] - [[Frink|http://futureboy.us/fsp/frink.fsp]] - We should be able to take advantage of the API with the single TW version - Probably need to be done on the Node.js Version of TiddlyWiki or in TiddlyDesktop
+<<topiclink "00:51:00" "Nicholas Mock Up of Sidebar">> Could not find the mock up from Jeremy's Email or where it was posted
+<<topiclink "00:53:48" "I Remembered - Timelapse of TW Development - Fun thing from the Summer">> [[Timelapse video of TW development|https://www.youtube.com/watch?v=aROD7iUM85g]] - Every committed GitHub version of TW5 - Originally TW5 had a positionally linked Top bar - Layout of a horizonal tool bar
+<<topiclink "00:58:40" "TiddlyWiki Desktop Update and Plan">> Not a lot has changed since last weeks demo because of the holidays - [[LessBackupsPlugin|http://mptw.tiddlyspot.com/#LessBackupsPlugin]] by Daniel Baird - Mario - Do the compression on the OS level using ZIP - Jeremy include zip.js
+<<topiclink "01:02:41" "Introduction - Nick Spies">> Introduction by Nick - Primarily using TW as Email Integration by hand - Working with it for several weeks - heard about it from writing a book on Kplus - Dropped ~TiddlyWiki at the same time - What tools have you used in the past - He has written in linear editors like EMACS - Pre WWI Russia Financial Empire - LaTEX is what he used - Straight translation with some modifications for readability - Video Editor and Multimedia work
+<<topiclink "01:06:56" "Switching Topics - Video Editing Concept of Learning TW">>Finding the optimal path between the material - It would be nice to have the optimal way of learning in a branching medium - Gets off on a sidetrack and can't easily get back - What is the optimal path for learning TW5 - By using Tags or something like that - The Groups are Confusing - [[GitHub|https://github.com/Jermolene/TiddlyWiki5]] - [[Google Groups TW5 and Classic|https://groups.google.com/forum/#!forum/tiddlywiki]] - [[Google Groups Dev|https://groups.google.com/forum/#!forum/tiddlywikidev]] - [[Google Groups Docs|https://groups.google.com/forum/#!forum/tiddlywikidocs]]
+<<topiclink "01:09:50" "Question by Mario about TW.Com to Nick">>  Is the Contents Tab not sufficient at TiddlyWikiDotCom? Within ~TiddlyWiki itself there doesn't seem to be a mechanism for 'learn' mode with one or more paths to follow when you are learning - Discussion of learning ~TiddlyWiki mechanism - Create the Introduction ~TiddlyWiki into a guided learning experience - Preset Path is very interesting - Tabs at top would have a preset story - Introduction - Latest - and would feel hopefully like a 'normal' website - Using a Non-Linear Tool to provide a Linear Experience with ~TiddlyWiki
+<<topiclink "01:16:30" "History 'mode' inside TiddlyWiki">> Magic Tiddler - [[History|$:/HistoryList]] - Discussion of OS usage
+<<topiclink "01:21:35" "Nick shows his mock up">> Demonstration of Nick's TiddlyWiki Mock Up - [[Go|http://en.wikipedia.org/wiki/Go_%28game%29]] Game Discussion as it applies to ~TiddlyWiki - Textual representation to another system - Make TW an Environment to be easily bring in other notation systems - [[SGF or Smart Game Format|http://senseis.xmp.net/?SmartGameFormat]] - Choreographers have a notation system for writing down the movements - Chord diagrams would be another example
+<<topiclink "01:29:20" "Write a Novel - Dump it to another system">> Use ~TiddlyWiki to create the book and then dump to another system like [[TeX|http://en.wikipedia.org/wiki/TeX]]
+<<topiclink "01:30:09" "Zooming Interface">>  Demonstation of Zoom Interface and [[Taskgraph]] - Social Networks can be mapped in [[Mathematica|http://www.wolfram.com/mathematica/]] not Wolfram Alpha
+<<topiclink "01:33:54" "Nick's Programming Background">> Wrote a book on [[forth|http://www.goodreads.com/book/show/7034911-forth-a-text-and-reference]] - Linelife written in 4 lines of fourth code - This formed the foundation for [[A New Kind of Science by Stephen Wolfram|http://en.wikipedia.org/wiki/A_New_Kind_of_Science]] - Jeremy was interested in [[forth|http://en.wikipedia.org/wiki/Forth_%28programming_language%29]] - BBC Micro had a music synth in forth -  Mention of [[PETIL|http://tiddlywiki.com/#%22PETTIL%20-%20Forth%20for%20the%20Commodore%20PET%22%20by%20Charlie%20Hitselberger]] by Charlie Hitselberger - [[His Site Directly|http://chitselb.com/files/tiddlypettil.html]] - Commodore Pet - MK14 - 6502 Processor - Nick also did [[Hypercard|http://en.wikipedia.org/wiki/HyperCard]] programming received program from Bill Atkinson - Taught Hypercard at Carnegie Mellon for lay people
+Mario mentions [[RASPBERRY PI|http://www.raspberrypi.org]] PROJECT and they are using Sketch
+<<topiclink "01:43:40" "Having growing up and learning all this hardcore type programming">>  People don't understand if they haven't written certain things - Hypercard - [[Lingo|http://en.wikipedia.org/wiki/Lingo_%28programming_language%29]] - Still [[Supercard|http://en.wikipedia.org/wiki/SuperCard]] - [[Revolution currently LiveCode|http://en.wikipedia.org/wiki/LiveCode]] - Transclusion Definition - Reference to content that is listed already somewhere else
+<<topiclink "01:48:46" "Critical Skills to have to contribute to TiddlyWiki">> GitHub is essential to contribute to the group.  You don't need to know JavaScript per se.  GitHub Pull Request is probably the best start.
+<<topic "01:52:14" "Thank you and Wave Goodbye">>
+"""
