@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/Options: Due Date and Time
+created: 20160815145651249
+creator: Thomas Elmiger
+deadline: 2016-08-16
+modified: 20170410213350191
+modifier: Thomas Elmiger
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Options: Due Date and Time
+source-tiddler-title-as-link: Options%3a%20Due%20Date%20and%20Time
+
+Deadlines can be important: Let users edit and see them if they want.
+
+* Fields to enter deadline in [[ToDo Item]] template
+* Show fields in lists
+* Use fields for list sorting
+** Next due entries on top
+* use http://kixam.github.io/TW5-datePicker/ (see [[Usage|$:/plugins/kixam/datepicker/usage]]) 

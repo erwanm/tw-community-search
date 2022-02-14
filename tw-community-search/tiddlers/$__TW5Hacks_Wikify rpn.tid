@@ -1,0 +1,34 @@
+title: $:/TW5Hacks/Wikify rpn
+created: 20170701192614704
+creator: Thomas Elmiger
+modified: 20170701220621711
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Wikify rpn
+source-tiddler-title-as-link: Wikify%20rpn
+
+\define foo() <<rpn 2 2 *>>
+\define yearOfBirth() 1990 
+
+Test: 16 = <$macrocall $name="rpn" a=<<foo>> b=<<rpn 2 2 *>> operation="*"/>
+
+Test concatenation = <$macrocall $name="rpn" a=<<foo>> b=<<rpn 2 2 *>> operation="&"/>
+
+Test concatenation 2 = <$macrocall $name="rpn" a=<<foo>> b=<<strex "Test me">> operation="&"/>
+
+---
+
+People born in <<yearOfBirth>> are about <$macrocall $name="rpn" a=<<now YYYY>> b=<<yearOfBirth>> operation="-"/> year(s) old now.
+
+2000 was <$macrocall $name="rpn" a=<<makeDate "Wikify rpn" modified YYYY>> b=2000 operation="-"/> year(s) before this tiddler was last modified.
+
+---
+
+!!! Macros containing filters must still be wikified
+
+<$wikify name="aTest" text=<<dateValue YYYY created>>>
+
+This tiddler was created <$macrocall $name="rpn" a=<<now YYYY>> b=<<aTest>> operation="-"/> year(s) ago
+
+</$wikify>

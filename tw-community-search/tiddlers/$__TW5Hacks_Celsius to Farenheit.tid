@@ -1,0 +1,13 @@
+title: $:/TW5Hacks/Celsius to Farenheit
+created: 20170819201805359
+creator: Thomas Elmiger
+modified: 20170819202654979
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Celsius to Farenheit
+source-tiddler-title-as-link: Celsius%20to%20Farenheit
+
+\define CtoF(C) <$macrocall $name=rpn a=<<rpn $C$ 1.8 *>> b=32 operation=+ />
+
+<$edit-text tiddler="$:/temp/celsius-to-farenheit" field="text" tag="input" size="3"/> °C = <<CtoF {{$:/temp/celsius-to-farenheit}}>> °F

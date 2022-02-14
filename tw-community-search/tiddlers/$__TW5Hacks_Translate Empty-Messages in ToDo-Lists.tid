@@ -1,0 +1,16 @@
+title: $:/TW5Hacks/Translate Empty-Messages in ToDo-Lists
+created: 20170512194851062
+creator: Thomas Elmiger
+modified: 20170713200900560
+modifier: Thomas Elmiger
+priority: 2
+todo-deadline: 20170713202300000
+todo-done: 20170713220857
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Translate Empty-Messages in ToDo-Lists
+source-tiddler-title-as-link: Translate%20Empty-Messages%20in%20ToDo-Lists
+
+Add i18n.
+
+* Empty messages are available in translation tiddlers.
