@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/welford/twsr'
-name: unknown
-plugin_tiddler: $:/plugins/welford/twsr
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}
