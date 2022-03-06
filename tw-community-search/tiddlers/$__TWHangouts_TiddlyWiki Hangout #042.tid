@@ -1,0 +1,41 @@
+title: $:/TWHangouts/TiddlyWiki Hangout #042
+created: 20150105224218309
+modified: 20150105224312089
+original-tags: HangOut_042 hangouts License
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Hangout #042
+source-tiddler-title-as-link: TiddlyWiki%20Hangout%20%23042
+
+\define hangout() 042
+
+<<header>>
+"""
+<<topic "0:00:00" "Intro frtl: Arlen, Danielo, Eric, Jeremy, Mario, Stephan, Ton">>
+<<topic "0:02:40" "Detailed intro: Danielo, since he is new.">>
+<<topic "0:03:56" "Danielo- Shows some of his documents and encryption.">>
+<<topic "0:05:20" "- general discussion about TW usage">>
+<<topic "0:06:40" "Danielo: About the NewTiddler widget.">>
+<<topic "0:09:10" "About the overview index and top search to open tiddlers">>
+<<topic "0:10:25" "Jeremy- How many tiddlers do you have? 388 content">>
+<<topic "0:11:10" "Jeremy- What did you use before TW .. several, Evernote OneNote">>
+<<topic "0:13:40" "Jeremy- What about the customisation differences ...">>
+<<topic "0:15:00" "Danielo- 'In place editing' of table cells">>
+<<topic "0:21:25" "Stephan- Idea, to make the 'new tiddler' part of the core.">>
+<<topic "0:22:25" "Danielo- is back ... phone battery was empty. ... the edit template.">>
+<<topic "0:27:27" "- multi column list of all tiddlers">>
+<<topic "0:28:10" "question: Where does TW search at the moment?">>
+<<topic "0:41:00" "Danielo- Introduction of the tiddler encryption plugin">>
+<<topic "0:51:15" "Jeremy- about single tiddler encryption in the core. ... some general discussion about passwords">>
+<<topic "0:57:00" "Jeremy- about the 'New tiddler' widget contributed from Arlen">>
+<<topic "0:59:30" "Intro: Miriam (Danielo's girlfriend)">>
+<<topic "1:02:40" "Jeremy- back at the New tiddler widget.">>
+<<topic "1:05:50" "Arlen- shares his take on the new tiddler widget">>
+<<topic "1:10:27" "Jeremy- technical discussion ...">>
+<<topic "1:28:40" "Jeremy- Nathan any questions? .. braintest . tiddlyspace . com">>
+<<topic "1:30:15" "Mario- with Stephans question about the (missing) structure of a TW document.">>
+<<topic "1:31:20" "Jeremy- Recaps Stephan's the story">>
+<<topic "1:36:06" "Jeremy- about the structure of a 'big tiddler' transcluding othere tiddlers. ..">>
+<<topic "1:38:00" "Jeremy- about transclusions manipulating the heading level.">>
+<<topic "1:41:15" "Danielo- about WYSIWYG editor on BJ's spot.">>
+<<topic "1:46:50" "Danielo- What about integration for snippets? ... some ideas ..">>
+<<topic "1:51:10" "Bye! Bye!">>

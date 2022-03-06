@@ -1,0 +1,16 @@
+title: $:/TWHangouts/TwHo#73 - Inline Discussion
+created: 20141219084231685
+modified: 20141230235007226
+original-tags: [[TiddlyWiki Hangout #73]] underscore.js [[TiddlyWiki Hangout #073]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TwHo#73 - Inline Discussion
+source-tiddler-title-as-link: TwHo%2373%20-%20Inline%20Discussion
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/EU-H0xhga08?rel=0&start=2760&end=3078&autoplay=0" frameborder="0" allowfullscreen></iframe>
+"""
+
+[[46:00|http://www.youtube.com/watch?v=EU-H0xhga08&t=46m00s]] ''---''  Inline Discussion            
+Inline Explanation might be the best way.
+DIscussion of how [[underscore.js]] handles it with a markdown type process.
+TW had a javascript parser and that was removed.  On the list of something that is useful.
+"""
