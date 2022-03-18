@@ -1,0 +1,49 @@
+title: $:/TW5Hacks/Icon Test
+created: 20170102092445482
+creator: Thomas Elmiger
+footnotes-collection: <<extract start:"{{" end:"}}" limit:"no" prefix:"<li>" suffix:"</li>" mode:"link">>
+modified: 20170112233039843
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Icon Test
+source-tiddler-title-as-link: Icon%20Test
+
+* [[$:/core/images/timestamp-off]]
+* [[$:/core/images/timestamp-on]]
+
+---
+
+{{$:/core/images/new-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/options-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/timestamp-on}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/advanced-search-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/save-button}}
+
+{{$:/core/images/new-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/options-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/timestamp-off}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/advanced-search-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/save-button}}
+
+---
+
+{{$:/core/images/new-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/options-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{timestamp-on7.svg}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/advanced-search-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/save-button}}
+
+{{$:/core/images/new-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/options-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{timestamp-off7.svg}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/advanced-search-button}} &nbsp;&nbsp;&nbsp;&nbsp; 
+{{$:/core/images/save-button}}
+
+---
+
+!! A list of all transclusions in this tiddler
+
+<ol>
+<$transclude field="footnotes-collection"/>
+</ol>
