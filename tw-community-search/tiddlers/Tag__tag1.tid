@@ -1,7 +1,7 @@
 title: Tag: tag1
 tags: CommunityTags
 community-tag: tag1
-community-tag-count: 2
-community-wikis: [[inmysocks]] [[Link CSS Stuff (inmysocks)]]
+community-tag-count: 1
+community-wikis: [[Link CSS Stuff (inmysocks)]]
 
 {{||$:/CommunityTagTemplate}}
