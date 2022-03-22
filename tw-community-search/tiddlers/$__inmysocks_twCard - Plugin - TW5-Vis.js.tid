@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - TW5-Vis.js
+audience: 
+category: Graphics
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: felixhayashi
+modified: 20151011215921918
+name: TW5-Vis.js
+plugin_tiddler: $:/plugins/felixhayashi/vis
+release: 
+repository: 
+revision: 4.9.0
+short_description: A tiddlywiki plugin for the vis.js library.
+wiki: http://tiddlymap.org/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - TW5-Vis.js
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20TW5-Vis.js
+

@@ -1,0 +1,14 @@
+title: $:/maketid/Release 5.0.3-beta
+caption: 5.0.3-beta
+created: 20131215170000000
+modified: 20131215170000000
+released: 201312151700
+type: text/vnd.tiddlywiki
+original-tags: BetaReleaseNotes
+source-wiki-id: maketid
+source-tiddler-title-as-text: Release 5.0.3-beta
+source-tiddler-title-as-link: Release%205.0.3-beta
+
+//[[See GitHub for detailed change history of this release|https://github.com/Jermolene/TiddlyWiki5/compare/v5.0.2-beta...v5.0.3-beta]]//
+
+This release includes minor bug fixes and documentation updates.

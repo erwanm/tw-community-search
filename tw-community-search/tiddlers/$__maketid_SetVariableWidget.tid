@@ -1,0 +1,10 @@
+title: $:/maketid/SetVariableWidget
+caption: setvariable
+created: 20131024141900000
+modified: 20141025115603373
+original-tags: Widgets
+source-wiki-id: maketid
+source-tiddler-title-as-text: SetVariableWidget
+source-tiddler-title-as-link: SetVariableWidget
+
+The `<$setvariable>` widget is a synonym for `<$set/>`; see SetWidget for more details.

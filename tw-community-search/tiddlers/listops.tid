@@ -5,6 +5,10 @@ tags: CommunityWikis
 title: listops
 type: text/vnd.tiddlywiki
 wiki-address: http://listops.tiddlyspot.com/
+wiki-tw-version: 5.1.10
+wiki-latest-modification: 20160122092610764
+wiki-nb-tiddlers: 763
 
+ :: extended list operators ::
 
 {{||$:/CommunityWikiPresentationTemplate}}

@@ -1,0 +1,14 @@
+title: $:/cpashow/run
+created: 20160406034339039
+modified: 20160406142813444
+testfield: set
+original-tags: Done testfield
+source-wiki-id: cpashow
+source-tiddler-title-as-text: run
+source-tiddler-title-as-link: run
+
+This is content in the tiddler "run".
+
+See you can edit the text of the run tiddler in view mode from this interface
+
+The testfield template also allows us to set the field "testfield"

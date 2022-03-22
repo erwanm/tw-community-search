@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/gsd5/core'
-name: unknown
-plugin_tiddler: $:/plugins/gsd5/core
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

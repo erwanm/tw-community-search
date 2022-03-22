@@ -1,0 +1,17 @@
+title: $:/inmysocks/A Note to Plugin Authors
+created: 20151015080814152
+modified: 20151015082628720
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: A Note to Plugin Authors
+source-tiddler-title-as-link: A%20Note%20to%20Plugin%20Authors
+
+I maintain this list of community plugins and try to keep it up to date but with the number of potential sources, sites moving and time constraints it isn't always possible for me to update everything in a reasonable amount of time.
+
+So, if you would like your plugins listed here it would be very helpful if you would come to this site and use the [[Plugin twCard]] tiddler to create and update the information for your plugins. Since you can't save content on this site I am hoping that you will make/update the info using the appropriate tab and then copy the new/updated tiddler to your plugin site. Then either [[contact me|http://ooktech.com/jed/externalbrain/#Who%20is%20this%20inmysocks%20guy%3F]] or put news on the community site and I will hopefully see it and copy the new or updated tiddler here.
+
+For the moment it is probably best to keep a single listing of the plugin information instead of having the information on each site to prevent duplicate cards appearing on different sites and naming conflicts. We may be able to come up with a solution that doesn't require a list like this at some point, but I don't think we can do that yet.
+
+Also, if you fill out the card than you can include a long description and the other fields (or suggest useful fields for me to add) and then we may be able to put a more complete description on the community search. Only the first 8 fields are currently used (plugin_tiddler and above), but that may change.
+
+Please make or update your plugins! It will help a lot.

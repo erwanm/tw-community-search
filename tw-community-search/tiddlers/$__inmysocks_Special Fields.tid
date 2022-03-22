@@ -1,0 +1,20 @@
+title: $:/inmysocks/Special Fields
+blurb:  Special fields used by TiddlyWiki
+created: 20141227174056532
+modified: 20141227181320757
+original-tags: [[Tiddler Fields]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Special Fields
+source-tiddler-title-as-link: Special%20Fields
+
+There are some special fields used in ~TiddlyWiki. Here is a (partial) list:
+
+*[[title|The Title Field]] - The tiddler title
+*[[text|The Text Field]] - The main body/text of a tiddler
+*[[modified|The Modified Field]] - The time that the tiddler was last modified
+*[[created|The Created Field]] - The time that the tiddler was created
+*[[caption|The Caption Field]] - Used in the table of contents (other uses?)
+*[[footer|The Footer Field]] - Used for modal dialogues
+*[[subtitle|The Subtitle Field]] - Used for modal dialogues
+
+<<bottomOfTiddler>>

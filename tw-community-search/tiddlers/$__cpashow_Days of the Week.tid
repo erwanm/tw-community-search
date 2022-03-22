@@ -1,0 +1,25 @@
+title: $:/cpashow/Days of the Week
+created: 20150117192110000
+list: Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+modified: 20150416022126767
+my-special-list: [[listed Operator (Examples)]]
+short: Mon Tue Wed Thu Fri Sat Sun
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Days of the Week
+source-tiddler-title-as-link: Days%20of%20the%20Week
+
+<<.this-is-operator-example>>
+
+It has a <<.field list>> field containing the following items:
+
+<<list-links "[list[]]">>
+
+It has a <<.field short>> field containing the following items:
+
+<<list-links "[list[!!short]]">>
+
+It has a <<.field my-special-list>> field containing the following items:
+
+<<list-links "[list[!!my-special-list]]">>

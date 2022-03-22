@@ -1,0 +1,11 @@
+title: $:/inmysocks/Awesome Things (Not Mine)
+created: 20150525181232341
+modified: 20150525182353932
+original-tags: Contents
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Awesome Things (Not Mine)
+source-tiddler-title-as-link: Awesome%20Things%20%28Not%20Mine%29
+
+<$list filter='[tag[Awesome Thing]sort[title]]'>
+<$link><$view field='title'/></$link> - <$transclude field='description'/> (<a href={{!!url}} target='_blank'>Go to site</a>)<br>
+</$list>

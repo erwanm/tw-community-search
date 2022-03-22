@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Copy
+audience: 
+category: Interface
+created: 20150106175012859
+date: 14-10-2015
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andrew
+modified: 20151015075559705
+name: Copy
+plugin_tiddler: $:/plugin/ajh/copy
+release: 
+repository: 
+revision: 0.0.18
+short_description: A plugin for copying rich text content to the clipboard
+wiki: http://copy.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Copy
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Copy
+

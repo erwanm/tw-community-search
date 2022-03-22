@@ -1,0 +1,16 @@
+title: $:/cpashow/Core Variables
+created: 20150220161908000
+modified: 20150228134138000
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Core Variables
+source-tiddler-title-as-link: Core%20Variables
+
+The following [[variables|Variables]] are built into ~TiddlyWiki's core:
+
+<<list-links "[tag[Core Variables]] -[tag[Configuration Variables]]">>
+
+The core will also use various configuration variables and macros if you define them:
+
+<<list-links "[tag[Configuration Variables]]">>

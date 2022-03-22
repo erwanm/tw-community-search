@@ -1,0 +1,23 @@
+title: $:/inmysocks/twCard - Plugin - Breadcrumbs
+audience: 
+category: Interface
+created: 20150106175012859
+date: 08-07-2015
+homepage: http://tw5breadcrumbs.tiddlyspot.com/
+install_link: 
+language: 
+license: 
+maintainer: TonGerner
+modified: 20151007205417797
+name: Breadcrumbs
+plugin_tiddler: $:/plugins/tongerner/breadcrumbs
+release: 
+repository: 
+revision: 0.0.7
+short_description: Puts a list of open tiddlers at the top of the screen showing the order they have been looked at.
+wiki: http://tw5breadcrumbs.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Breadcrumbs
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Breadcrumbs
+

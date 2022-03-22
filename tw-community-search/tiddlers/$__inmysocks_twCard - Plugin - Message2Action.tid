@@ -1,0 +1,24 @@
+title: $:/inmysocks/twCard - Plugin - Message2Action
+audience: 
+category: Utility
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andreas Hahn
+modified: 20150221164441351
+name: Message2Action
+plugin_tiddler: $:/plugins/AndreasHahn/Message2Action
+release: 
+repository: 
+revision: 0.0.1
+short_description: Catches a widget message and treats them as an action-widget
+wiki: http://inmysocks.tiddlyspot.com/
+original-tags: [[Plugin twCard]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: twCard - Plugin - Message2Action
+source-tiddler-title-as-link: twCard%20-%20Plugin%20-%20Message2Action
+
+This widget converts a conventional widget message into an action. Specifically I used this in combination with a keyboard widget to open up all Title matches in the standard search upon pressing 'Enter'.

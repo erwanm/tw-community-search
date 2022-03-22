@@ -1,0 +1,26 @@
+audience: 
+category: Utility
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Andreas Hahn
+modified: 20150221164441351
+name: Message2Action
+plugin_tiddler: $:/plugins/AndreasHahn/Message2Action
+release: 
+repository: 
+revision: 0.0.1
+short_description: Catches a widget message and treats them as an action-widget
+title: twCard - Plugin - Message2Action
+wiki: http://inmysocks.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: inmysocks
+twcs-extracted-plugin-tiddler: $:/inmysocks/$:/plugins/AndreasHahn/Message2Action
+twcs-description: A widget that catches a widget message and turns it into an action-widget.
+twcs-author: AndreasHahn
+twcs-version: 0.0.1
+
+{{||$:/CommunityPluginTemplate}}

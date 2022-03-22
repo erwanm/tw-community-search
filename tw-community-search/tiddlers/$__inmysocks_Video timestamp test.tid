@@ -1,0 +1,141 @@
+title: $:/inmysocks/Video timestamp test
+created: 20141223163857805
+modified: 20150106224201477
+selected_video: Feynman Lectures - Part 1 The Law of Gravitation
+original-tags: [[Old Tools]]
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Video timestamp test
+source-tiddler-title-as-link: Video%20timestamp%20test
+
+\define topic(description, timecode)
+<$macrocall $name="youtube-link" video={{$:/.rich/data/videos##$(hangout)$}} time="$timecode$"/> <<sep>> $description$
+\end
+
+\define thisGetName()
+$(tidName)$ - $(timeStamp)$
+\end
+
+\define thisGetTags()
+$(tidName)$ Hangouts
+\end
+
+\define thisMakeURL()
+https://www.youtube.com/watch?v=$(youtubeid)$&t=$(hours)$h$(minutes)$m$(seconds)$s
+\end
+
+\define thisGetYoutubeID()
+<$set name=youtubeid value={{$:/.rich/data/videos##$(selectedVideo)$}}>
+<<thisMakeURL>>
+</$set>
+\end
+
+''I can't take much credit for most of this, I am ~~mostly stealing~~ heavily borrowing from Rich Shumaker and Astrid Elocson in this thread https://groups.google.com/forum/#!topic/tiddlywiki/5FugIFRgYLs''
+
+!Look below for version 2 (broken) and version 3 (working)
+
+Instructions:
+
+For taking notes on the video embedded below, fill out the timestamp field in the HH:MM:SS form and then enter a description. Click `Add Timestamp` and it will be added to the list. The dropdown menu selects between the currently available videos. To add a video click on the `Add Video` button and give the video a name and enter the ~YouTube video id, then the video will be available in the dropdown menu. You can add tags to each timestamp. The list of available tags is created slightly differently than most tags, each tiddler that can be used as a tag here has a field `video_tag` set to `true`, this is so that you can use existing tiddlers as tags and create new tags without messing anything up. The list of tags isn't cleared when you make a new timestamp so that you can have a list of tags that are shared by multiple successive timestamps without having to readd all of them.
+
+Things to add:
+
+*An option for the displayed video to jump to the time when the link in each timestamp is clicked.
+*An option to remove tags from the potential video tags list
+*(Possibly) If/when data tiddlers get upgraded to be able to deal with multi-level json data convert this so that it uses a data tiddler instead of creating a new tiddler for each timestamp. This may be a bad idea if people want to be able to put more extensive notes in a timestamp.
+*Is there a way to automatically get the timestamp from a paused video? Because that would be awesome.
+*probably some other stuff
+
+<$macrocall $name=embed hangout={{!!selected_video}}/>
+
+<$reveal type='nomatch' state='$:/state/videotimestampreveal' text='show'>
+<$select field='selected_video'>
+<$list filter='[[$:/.rich/data/videos]indexes[]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+<$button set='$:/state/videotimestampreveal' setTo='show'>New Video</$button>
+</$reveal>
+<$reveal type='match' state='$:/state/videotimestampreveal' text='show'>
+~YouTube ID:<$edit-text tiddler='$:/temp/videotimestame' field='youtubeid' placeholder='YouTube ID'/><br>
+Video Name:<$edit-text tiddler='$:/temp/videotimestame' field='vidname' placeholder='Video Name'/><br>
+<$button>Add Video
+<$action-setfield $tiddler='$:/.rich/data/videos' $index={{$:/temp/videotimestame!!vidname}} $value={{$:/temp/videotimestame!!youtubeid}}/>
+<$action-setfield $tiddler='$:/temp/videotimestame' vidname='' youtubeid=''/>
+</$button>
+<$button set='$:/state/videotimestampreveal' setTo='noshow'>Done</$button>
+</$reveal>
+
+Timestamp:<br><$edit-text tiddler='$:/temp/videotimestame' field='timestamp'  size=40 placeholder='hh:mm:ss' class='tc-edit-texteditor'/><br>
+Description:<br><$edit-text tiddler='$:/temp/videotimestame' field='description' class='tc-edit-texteditor' placeholder='Description for Timestamp' class='tc-edit-texteditor'/><br>
+Tags (it will always be tagged with the name of the video by default):<br>
+<$reveal type=match state='$:/state/videotag!!add_or_create_tag' text='create'>
+New Tag: <$edit-text tiddler='$:/state/videotag' field='tag_temp' placeholder='New Tag'/><$fieldmangler tiddler='$:/state/videotag'>
+<$button>Create Tag
+<$action-setfield $tiddler={{$:/state/videotag!!tag_temp}} $field='video_tag' $value='true'/>
+<$action-setfield $tiddler='$:/state/videotag' $field='tag_temp' $value=''/>
+</$button>
+</$fieldmangler><$button set='$:/state/videotag!!add_or_create_tag' setTo='nocreate'>Done</$button><br>
+</$reveal>
+<$reveal type='nomatch' state='$:/state/videotag!!add_or_create_tag' text='create'>
+Tag to add: 
+<$select tiddler='$:/state/videotag' field='selected_tag'>
+<$list filter='[video_tag[true]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+<$fieldmangler tiddler='$:/temp/videotimestame'>
+<$button>
+<$action-sendmessage $message='tm-add-tag' $param={{$:/state/videotag!!selected_tag}}/>Add Tag
+</$button><$button set='$:/state/videotag!!add_or_create_tag' setTo='create'>New Tag</$button>
+</$fieldmangler>
+<br>
+</$reveal>
+List of current tags:<br>
+<$fieldmangler tiddler='$:/temp/videotimestame'>
+<$list filter='[[$:/temp/videotimestame]tags[]]'><$view field='title'/> <$button>Remove Tag<$action-sendmessage $message='tm-remove-tag' $param=<<currentTiddler>>/></$button><br> </$list>
+</$fieldmangler>
+
+<$set name=tidName value={{!!selected_video}}>
+<$set name=timeStamp value={{$:/temp/videotimestame!!timestamp}}>
+<$fieldmangler tiddler=<<thisGetName>>>
+<$button>Add Timestamp
+<$action-setfield $tiddler='$:/temp/videotimestame' title=<<thisGetName>>/>
+<$action-setfield $tiddler='$:/temp/videotimestame' timestamp='' link='' description=''/>
+<$action-sendmessage $message='tm-add-tag' $param=<<tidName>>/>
+</$button>
+</$fieldmangler>
+<br>
+<$list filter='[tag<tidName>sort[timestamp]]'>
+<$set name=hangout value={{Video timestamp test!!selected_video}}>
+<$macrocall $name=topic timecode={{!!timestamp}} description={{!!description}}/><br>
+</$set>
+</$list>
+
+</$set>
+</$set>
+
+
+!!Version 2
+
+---
+This uses the same video selection as the one above but does it all using only the core wiki. Later we can see about adding in the option to input time in hh:mm:ss form. The big question is why can't I use the `<a>` html tag with it? Or even set a field to the value.
+<br>
+<$edit-text tiddler='$:/temp/test' field=hours size='2'/><$edit-text tiddler='$:/temp/test' field=minutes size='2'/><$edit-text tiddler='$:/temp/test' field=seconds size='2'/>
+
+<$set name=selectedVideo value={{!!selected_video}}>
+<$set name=hours value={{$:/temp/test!!hours}}>
+<$set name=minutes value={{$:/temp/test!!minutes}}>
+<$set name=seconds value={{$:/temp/test!!seconds}}>
+
+Without using `<a>`: <<thisGetYoutubeID>>
+
+<a href=<<thisGetYoutubeID>>>Using `<a>`</a>
+
+</$set>
+</$set>
+</$set>
+</$set>
+
+!!Version 3
+
+{{Video Timestamp Version 3}}

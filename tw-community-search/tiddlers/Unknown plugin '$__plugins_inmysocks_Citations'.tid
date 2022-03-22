@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/inmysocks/Citations'
-name: unknown
-plugin_tiddler: $:/plugins/inmysocks/Citations
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

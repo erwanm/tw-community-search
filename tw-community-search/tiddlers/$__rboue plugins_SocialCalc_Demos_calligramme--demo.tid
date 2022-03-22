@@ -1,0 +1,16 @@
+title: $:/rboue plugins/SocialCalc/Demos/calligramme--demo
+created: 20141031181426120
+modified: 20150216190235394
+revision: 0
+type: text/vnd.tiddlywiki
+original-tags: 
+source-wiki-id: rboue plugins
+source-tiddler-title-as-text: SocialCalc/Demos/calligramme--demo
+source-tiddler-title-as-link: SocialCalc%2fDemos%2fcalligramme--demo
+
+"""
+''Il pleut'' by Guillaume Apollinaire. Calligrammes (1918).
+[[English translation|SocialCalc/Demos/calligramme-in-english--demo]]
+
+"""
+<$edit-socialcalc tiddler="SocialCalc/Demos/calligramme" mode="view" grid="no" height=500/>

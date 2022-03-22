@@ -1,0 +1,73 @@
+title: $:/cpashow/Progress_Bar
+created: 20160410171107113
+modified: 20160419185323366
+stage: six
+stages: one two three four five six
+original-tags: $:/tags/Macro
+source-wiki-id: cpashow
+source-tiddler-title-as-text: Progress_Bar
+source-tiddler-title-as-link: Progress_Bar
+
+\define Progress_Bar_Pill(stageTiddler:"", stageFieldName:"stage", stage:"none", macro:"", border-radius:"25", background:blue; width:"40", height:"5", opacity:".3")
+	<$button 
+		set="$stageTiddler$!!$stageFieldName$"
+		setTo="$stage$"
+		tooltip="$stage$"
+		style="
+			border-radius: $border-radius$px;
+			background: $background$;
+			width: $width$px;
+			height: $height$px;
+			border:1px solid black;
+			opacity:$opacity$;
+		"
+	>
+		$macro$
+	</$button>
+\end
+\define Progress_Bar(stagesTiddler:"", stagesFieldName:"stages", stageTiddler:"", stageFieldName:"stage", macro:"")
+	<!-- Print out a darker pill for each stage before the current stage -->
+	<$list 
+		filter="[list[$stagesTiddler$!!$stagesFieldName$]allbefore{$stageTiddler$!!$stageFieldName$}]" variable="curStage">
+		<$macrocall 
+			$name="Progress_Bar_Pill" 
+			opacity=".7" 
+			stageTiddler="$stageTiddler$"
+			stageFieldName="$stageFieldName$"
+			stage=<<curStage>>
+		/>
+	</$list>
+	<!-- Print out a darker pill for the current stage -->
+	<$macrocall 
+			$name="Progress_Bar_Pill" 
+			opacity=".7" 
+			stageTiddler="$stageTiddler$"
+			stageFieldName="$stageFieldName$"
+			stage={{$stageTiddler$!!$stageFieldName$}}
+	/>
+	<!-- Print out a lighter pill for each stage after the current stage -->
+	<$list filter="[list[$stagesTiddler$!!$stagesFieldName$]allafter{$stageTiddler$!!$stageFieldName$}]" variable="curStage">
+		<$macrocall 
+			$name="Progress_Bar_Pill" 
+			opacity=".3" 
+			stageTiddler="$stageTiddler$"
+			stageFieldName="$stageFieldName$"
+			stage=<<curStage>>
+		/>
+	</$list>
+\end
+`<$macrocall $name="Progress_Bar" 
+	stagesTiddler=""
+	stagesFieldName="stages"
+	stageTiddler=""
+	stageFieldName="stage"
+	macro=""
+/>`
+
+<$macrocall $name="Progress_Bar" 
+	stagesTiddler=""
+	stagesFieldName="stages"
+	stageTiddler=""
+	stageFieldName="stage"
+	macro=""
+/>

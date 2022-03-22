@@ -1,0 +1,13 @@
+title: $:/maketid/CodeMirror Plugin
+created: 20160107223435497
+list: 
+modified: 20160107223725809
+type: text/vnd.tiddlywiki
+original-tags: [[Plugin Editions]]
+source-wiki-id: maketid
+source-tiddler-title-as-text: CodeMirror Plugin
+source-tiddler-title-as-link: CodeMirror%20Plugin
+
+The CodeMirror plugin adds a sophisticated web-based editor to TiddlyWiki.
+
+See http://tiddlywiki.com/plugins/tiddlywiki/codemirror/

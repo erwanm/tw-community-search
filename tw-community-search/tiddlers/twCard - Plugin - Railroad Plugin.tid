@@ -1,0 +1,26 @@
+audience: 
+category: Data Presentation
+created: 20150106175012859
+date: 
+homepage: 
+install_link: 
+language: 
+license: 
+maintainer: Astrid Elocson
+modified: 20150210021901470
+name: Railroad Plugin
+plugin_tiddler: $:/plugins/tiddlywiki/railroad
+release: 
+repository: 
+revision: 
+short_description: A plugin to make railroad diagrams
+title: twCard - Plugin - Railroad Plugin
+wiki: http://ae-railroad.tiddlyspot.com/
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-wiki-id: ae-railroad
+twcs-extracted-plugin-tiddler: $:/ae-railroad/$:/plugins/tiddlywiki/railroad
+twcs-description: Plugin for generating SVG railroad diagrams
+twcs-author: Astrid Elocson
+twcs-version: 5.1.8-prerelease
+
+{{||$:/CommunityPluginTemplate}}

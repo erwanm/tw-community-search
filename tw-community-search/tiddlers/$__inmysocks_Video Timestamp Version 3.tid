@@ -1,0 +1,73 @@
+title: $:/inmysocks/Video Timestamp Version 3
+created: 20141227183713757
+modified: 20141227191529140
+test_field: m2JyJWjAUns
+test_field2: https://www.youtube.com/watch?v=m2JyJWjAUns&t=00h10m00s
+original-tags: 
+source-wiki-id: inmysocks
+source-tiddler-title-as-text: Video Timestamp Version 3
+source-tiddler-title-as-link: Video%20Timestamp%20Version%203
+
+\define getAddress()
+http://www.principiadiscordia.com/book/$(page)$.php
+\end
+
+\define makeOption()
+<$set name=optionValue value={{$:/.rich/data/videos##$(currentThing)$}}>
+<option value=<<optionValue>>><$view field='title'/></option>
+</$set>
+\end
+
+\define thisMakeURL()
+https://www.youtube.com/watch?v=$(youtubeid)$&t=$(hours)$h$(minutes)$m$(seconds)$s
+\end
+
+\define thisMakeEmbedURL()
+http://www.youtube.com/embed/$(youtubeid)$?rel=0&start=$(startTime)$&end=$(endTime)$&autoplay=0
+\end
+
+\define topic(description, timecode)
+<$macrocall $name="youtube-link" video={{$:/.rich/data/videos##$(hangout)$}} time="$timecode$"/> <<sep>> $description$
+\end
+
+''Setting the start and end times for the embedded video still doesn't work, other than that it works well enough.''
+
+<$set name=startTime value={{$:/temp/test!!start}}>
+<$set name=minutes value={{$:/temp/test!!end}}>
+<$set name=youtubeid value={{!!test_field}}>
+<iframe width='640' height='360' src=<<thisMakeEmbedURL>> frameborder='0' allowfullscreen></iframe>
+</$set>
+</$set>
+</$set>
+
+
+Start:
+<$edit-text tiddler='$:/temp/test' field=start size='2'/>
+End:
+<$edit-text tiddler='$:/temp/test' field=end size='2'/>
+
+<$select field='test_field'>
+<$list filter='[[$:/.rich/data/videos]indexes[]]'>
+<$set name=currentThing value=<<currentTiddler>>>
+<<makeOption>>
+</$set>
+</$list>
+</$select>
+
+Timestamp:
+<$edit-text tiddler='$:/temp/test' field=hours size='2'/><$edit-text tiddler='$:/temp/test' field=minutes size='2'/><$edit-text tiddler='$:/temp/test' field=seconds size='2'/>
+
+<$set name=hours value={{$:/temp/test!!hours}}>
+<$set name=minutes value={{$:/temp/test!!minutes}}>
+<$set name=seconds value={{$:/temp/test!!seconds}}>
+<$set name=youtubeid value={{!!test_field}}>
+<a href=<<thisMakeURL>> target="_blank">Go to <<hours>>:<<minutes>>:<<seconds>></a><br>
+<$button>Test Storing Link
+<$action-setfield $field='test_field2' $value=<<thisMakeURL>>/>
+</$button>
+</$set>
+</$set>
+</$set>
+</$set>
+
+Contents of test_field2: <$view field='test_field2'/>
