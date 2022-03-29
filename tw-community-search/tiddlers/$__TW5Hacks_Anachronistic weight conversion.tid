@@ -1,0 +1,34 @@
+title: $:/TW5Hacks/Anachronistic weight conversion
+created: 20170816191516700
+creator: Thomas Elmiger
+modified: 20170817121120759
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Anachronistic weight conversion
+source-tiddler-title-as-link: Anachronistic%20weight%20conversion
+
+\define pounds2kgs(lbs) <<rpn $lbs$ 2.20462 / 2>>  
+\define stones2pounds()
+<$wikify name="stonelbs" text='<$macrocall $name="rpn" a=$(stones)$ b=14 operation="*"/>'>
+
+<$wikify name="totlbs" text='<$macrocall $name="rpn" a=<<stonelbs>> b=$(pounds)$ operation="+" />'>
+
+$(name)$ weighs <$macrocall $name=pounds2kgs lbs=<<totlbs>>/> kgs
+
+</$wikify>
+</$wikify>
+
+\end
+!! Anachronistic Weight Calculator
+Name of person: <$edit-text tiddler="temp/stone/person" tag="input" size=50 default="Enter Name"/><br/>
+Weight, stones: <$edit-text tiddler="temp/stone/stones" tag="input" size=10 placeholder="Weight in stones" default="0"/><br/>
+Weight, pounds: <$edit-text tiddler="temp/stone/pounds" tag="input" size=10 placeholder="Weight in pounds" default="0"/>
+
+<$vars name={{temp/stone/person}} stones={{temp/stone/stones}} pounds={{temp/stone/pounds}}>
+
+<<stones2pounds>>
+
+</$vars>
+
+(Author: Mark S.)

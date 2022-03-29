@@ -1,0 +1,20 @@
+title: $:/TW5Hacks/TestButton Prio
+created: 20170316122629430
+creator: Thomas Elmiger
+modified: 20170316224927624
+modifier: Thomas Elmiger
+priority: 3
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TestButton Prio
+source-tiddler-title-as-link: TestButton%20Prio
+
+<$wikify name="tt" text="set prio">
+  <$macrocall $name="teBtnPrio" btntext="{{$:/core/images/star-filled}}" priority={{!!priority}} prioritylist="ToDo" tooltip=<<tt>> class=""/>
+</$wikify>
+
+<$set name="tid" value=<<currentTiddler>>>
+<$wikify name="tt" text="set prio">
+  <$macrocall $name="teBtnPrioPopup" tiddler=<<tid>> btntext="{{$:/core/images/star-filled}}" priority={{!!priority}} prioritylist="ToDo" tooltip=<<tt>> class=""/>
+</$wikify>
+</$set>

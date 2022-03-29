@@ -1,0 +1,31 @@
+title: $:/TW5Hacks/TextStretch Transclusion Examples
+created: 20160809190613719
+creator: Thomas Elmiger
+example-1: <<strex "more {{!!example-2}}</2>" "more" "" "" "noclose">>
+example-2: <<strex "and {{!!example-3}}</3>" "go deeper" "" "" "noclose">>
+example-3: tell <<strex '<$transclude tiddler="FollowMe" mode="block"/></4>' "me" "" "me" "hint">> what you like
+modified: 20160809210459806
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TextStretch Transclusion Examples
+source-tiddler-title-as-link: TextStretch%20Transclusion%20Examples
+
+!! 1. Nested ~TextStretch Elements
+
+Please click <<strex "then explore {{!!example-1}}</1>" "here" "" "" "noclose">> and enjoy. 
+
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state/strex_]]"/>
+Reset
+</$button>
+
+```
+1. <<strex "then explore {{!!example-1}}</1>" "here" "" "" "noclose">>
+
+2. <<strex "more {{!!example-2}}</2>" "more" "" "" "noclose">>
+
+3. <<strex "and {{!!example-3}}</3>" "go deeper" "" "" "noclose">>
+
+4. tell <<strex '<$transclude tiddler="FollowMe" mode="block"/></4>' "me" "" "me" "hint">> what you like
+```

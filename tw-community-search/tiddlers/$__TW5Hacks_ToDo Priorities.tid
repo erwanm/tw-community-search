@@ -1,0 +1,31 @@
+title: $:/TW5Hacks/ToDo Priorities
+created: 20160811163121148
+creator: Thomas Elmiger
+modified: 20170410213355946
+modifier: Thomas Elmiger
+priority: 1
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Priorities
+source-tiddler-title-as-link: ToDo%20Priorities
+
+!! Task Priority
+
+* [[ToDo Item]] has a field "priority" for a number (1 is the highest priority)
+* List view is sorted by priority/date? (make this a parameter?)
+* Prioritiy 1 is marked with $:/core/images/star-filled in the list (after deadline date)
+* Set transparency of star according to priority and show number over it, if the number is 1 or 2 !!!
+* ~~Link on deadline to set priority to 1?~~
+
+!!! Change Priority
+* Array "3 1 2"
+* use element n
+** n=1: 3
+** n=2: 1
+** n=3: 2
+
+!! Timeline Priorities
+
+* Do now
+* Do later
+* Don’t => done

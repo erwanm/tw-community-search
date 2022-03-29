@@ -1,0 +1,28 @@
+title: $:/TW5Hacks/Update View with Every Klick
+created: 20170708183406817
+creator: Thomas Elmiger
+modified: 20170708184743628
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Update View with Every Klick
+source-tiddler-title-as-link: Update%20View%20with%20Every%20Klick
+
+There is an important difference between the two macros below. Look at how they use wikify differently for the first variable: 
+* the first wikifies directly into variable //a//
+* the second sets a variable //an// first with the value of the now macro and wikifies the returned value in the next step
+
+```
+\define DELETE-minutesDiff(date-field:"modified",tiddler)
+<$wikify name="a" text='<<now 0mm>>'><$wikify name="b" text='<$macrocall $name="minutesValue" field=$date-field$ tiddler="""$tiddler$"""/>'><$macrocall $name="rpn" a=<<a>> b=<<b>> operation="-"/></$wikify></$wikify>
+\end
+```
+
+The version above wikifies the now-value once and works with the stored value from then. The version below gets a new now-value with every klick or keystroke that happens in your wiki:
+
+```
+\define minutesDiff(date-field:"modified",tiddler)
+<$set name="an" value=<<now 0mm>>><$wikify name="a" text="<<an>>"><$wikify name="b" text='<$macrocall $name="minutesValue" field=$date-field$ tiddler="""$tiddler$"""/>'><$macrocall $name="rpn" a=<<a>> b=<<b>> operation="-"/></$wikify></$wikify></$set>
+\end
+```
+This updates tiddlers using this macro //every time anything happens//. Great for showing or updating alerts in your wiki!

@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/$:/plugins/ihm/tidgraph
+author: ihm4u
+core-version: >=5.1.9
+dependents: 
+description: Tidgraph - Easy tiddler graphs for TW5
+list: readme changelog documentation
+source: https://ihm4u.github.io/tw5plugs
+version: 0.9.6
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: $:/plugins/ihm/tidgraph
+source-tiddler-title-as-link: %24%3a%2fplugins%2fihm%2ftidgraph
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}
