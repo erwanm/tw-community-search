@@ -1,0 +1,12 @@
+title: $:/Wiki MetaTags (inmysocks)/bf Operator
+caption: bf
+created: 20140410103123179
+modified: 20150124200504000
+purpose: same as <<.op rest>>
+type: text/vnd.tiddlywiki
+original-tags: [[Filter Operators]] [[Order Operators]]
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: bf Operator
+source-tiddler-title-as-link: bf%20Operator
+
+<<.op bf>> is a synonym for <<.olink rest>>, also known as <<.olink butfirst>>.

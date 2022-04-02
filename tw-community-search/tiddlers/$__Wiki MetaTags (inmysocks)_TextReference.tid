@@ -1,0 +1,23 @@
+title: $:/Wiki MetaTags (inmysocks)/TextReference
+created: 20130827075900000
+modified: 20150124211238000
+original-tags: Concepts
+source-wiki-id: Wiki MetaTags (inmysocks)
+source-tiddler-title-as-text: TextReference
+source-tiddler-title-as-link: TextReference
+
+A TextReference identifies a chunk of text from a tiddler that can be retrieved or modified depending on the context.
+
+Text references are made up of several parts, most of which can be optional:
+
+* `<tiddler title>` - the text [[field|TiddlerFields]] of the specified tiddler
+* `<tiddler title>!!<metadata field>` - a tiddler metadata [[field|TiddlerFields]] (eg, `modified`, `modifier`, `type` etc)
+* `!!<metadata field>` - a metadata [[field|TiddlerFields]] of the current tiddler
+* `<tiddler title>##<property index>` - extracts a named property from DataTiddlers
+
+Text references can be used in several places:
+
+* As [[indirect parameters|Filter Parameter]] within [[Filters]] (eg, `<$list filter="[tag{MyTag!!name}]"/>`)
+* As IndirectAttributes of an element or widget (eg, `<$widget attrib={{Title!!description}}/>`)
+* As the operand of a shortcut transclusion (eg, `{{MyTiddler!!title}}`)
+* As the `state` attribute of the RevealWidget and the LinkCatcherWidget

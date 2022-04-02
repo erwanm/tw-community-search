@@ -1,0 +1,31 @@
+title: $:/TidBursts/stylesheet-toggle-macros
+created: 20160811171613957
+modified: 20160812140934162
+original-tags: $:/tags/Macro backgroundstuff
+source-wiki-id: TidBursts
+source-tiddler-title-as-text: stylesheet-toggle-macros
+source-tiddler-title-as-link: stylesheet-toggle-macros
+
+\define add-tag-prefix(a)
+.tc-tagged-$a$
+\end
+
+\define note-is-tagged(a)
+<$macrocall $name="add-tag-prefix" $output="text/plain" a=$a$ >
+\end
+
+\define hide-note-title-button(stylesheet text:"text" )
+<$button class="tc-btn-invisible tc-btn-mini">
+<$action-setfield $tiddler=$stylesheet$ tags="$:/tags/Stylesheet"/>
+$text$
+</$button>
+\end
+
+\define show-note-title-button(stylesheet text:"full" )
+<$button class="tc-btn-invisible tc-btn-mini">
+<$action-setfield $tiddler=$stylesheet$ tags=""/>
+$text$
+</$button>
+\end
+
+<<hide-note-title-button stylesheet:"disable-title-subtitle-stylesheet">> / <<show-note-title-button stylesheet:"disable-title-subtitle-stylesheet">>

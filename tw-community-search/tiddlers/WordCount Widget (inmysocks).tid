@@ -3,6 +3,9 @@ tags: CommunityWikis
 type: text/vnd.tiddlywiki
 wiki-address: http://ooktech.com/jed/ExampleWikis/WordCount
 author: JedCarty
+wiki-tw-version: 5.1.8
+wiki-latest-modification: 20151207191611892
+wiki-nb-tiddlers: 2
 
 
 {{||$:/CommunityWikiPresentationTemplate}}
