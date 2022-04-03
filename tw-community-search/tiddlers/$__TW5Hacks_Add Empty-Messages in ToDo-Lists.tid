@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Add Empty-Messages in ToDo-Lists
+created: 20170512191950816
+creator: Thomas Elmiger
+modified: 20170512195058973
+modifier: Thomas Elmiger
+priority: 1
+todo-done: 20170512215043
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Add Empty-Messages in ToDo-Lists
+source-tiddler-title-as-link: Add%20Empty-Messages%20in%20ToDo-Lists
+
+Give clear instructions to users when needed.
+
+* When a list is empty, guide users how to add tasks.

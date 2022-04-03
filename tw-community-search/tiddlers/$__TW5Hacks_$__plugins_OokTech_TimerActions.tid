@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/$:/plugins/OokTech/TimerActions
+author: inmysocks
+core-version: >=5.1.8
+dependents: 
+description: Timers to trigger actionwidgets.
+list: readme [[Manage Timers]] [[New Timer]] Configuration
+source: 
+version: 0.0.1
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: $:/plugins/OokTech/TimerActions
+source-tiddler-title-as-link: %24%3a%2fplugins%2fOokTech%2fTimerActions
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

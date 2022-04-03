@@ -1,0 +1,77 @@
+title: $:/TW5Hacks/TweetTesting
+created: 20161222223229305
+creator: Thomas Elmiger
+modified: 20170107231800097
+modifier: Thomas Elmiger
+tweet: All dreams spin out from the same web. #HopiWisdom – via @telmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TweetTesting
+source-tiddler-title-as-link: TweetTesting
+
+Tests, demo and prototype for the macro $:/_telmiger/tweet – let me know if this works for you!
+
+!! The Tests
+
+!!! Tweet Macro Output
+
+<<<
+We are the ones we have been waiting for.
+<<< Hopi wisdom
+
+<<tweet "We are the ones we have been waiting for. #HopiWisdom – via @telmiger">>
+
+<<<
+All dreams spin out from the same web.
+<<< Hopi wisdom
+
+<$macrocall $name="tweet" text={{!!tweet}} label=" " tooltip="Tweet this proverb!" close="Go away"/>
+
+
+!! Tweet Your Test Result
+
+<<tweet "
+
+Yes, @telmiger – Tweet Testing for TW5 worked for me. 
+
+tid.li/tw5/hacks.html#TweetTesting #TiddlyWiki" label:"Tweet: Yes">>
+
+<<tweet "@telmiger – Sorry, Tweet Testing for TW5 failed." label:"Tweet: No">>
+
+Thank you!
+
+---
+
+{{DeleteTweets}}
+
+---
+
+!! The Design Prototype
+
+
+<<<
+All dreams spin out from the same web.
+<<< Hopi wisdom
+
+<span class="te-tweet-intent">
+<$reveal type="nomatch" state="$:/state/tweet-text!!active" text="yes">
+
+<$button set="$:/state/tweet-text!!active" setTo="yes" tooltip="show text to tweet" class="te-tweet-button">
+<$action-setfield $tiddler="$:/state/tweet-text" text="A wider text to tweet. With some line breaks if text is long. Can contain #Hashtags"/>
+{{$:/core/images/twitter}} <span class="te-tweet-button-label">Tweet</span>
+</$button>
+
+</$reveal>
+
+<$reveal type="match" state="$:/state/tweet-text!!active" text="yes">
+
+<a target='_blank' href='https://twitter.com/intent/tweet?text=URIEncodedTextWithLinkHere%20%E2%80%93%20via%20@telmiger' class="te-tweet-link" rel="noopener noreferrer">
+
+<span class="te-tweet-content">{{$:/state/tweet-text}}</span>
+
+<span class="te-tweet-button">{{$:/core/images/twitter}} <span class="te-tweet-button-label">Tweet</span></span></a>
+
+<$button set="$:/state/tweet-text!!active" setTo="no" class="te-reset">Hide</$button>
+
+</$reveal>
+</span>

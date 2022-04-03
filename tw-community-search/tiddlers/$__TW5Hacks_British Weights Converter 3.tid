@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/British Weights Converter 3
+created: 20170816202103464
+creator: Thomas Elmiger
+modified: 20170816211414512
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: British Weights Converter 3
+source-tiddler-title-as-link: British%20Weights%20Converter%203
+
+\define stones() <$macrocall $name=rpn a={{$:/temp/british-weight-converter}} b=<<rpn 2.20462 14 / >> operation=*/>
+
+The metric weight of
+<$edit-text tiddler="$:/temp/british-weight-converter" field="text" tag="input" size="3"/> ''kg'' is equal to:
+
+<$wikify name=toPounds text="<$macrocall $name=rpn a=<<stones>> b=1 operation=%/>">
+<$macrocall $name=rpn a=<<stones>> b=0 precision=f/> stones <$macrocall $name=rpn a=<<toPounds>> b=14 operation=* decimals=1/> pounds
+</$wikify>

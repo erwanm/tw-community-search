@@ -1,0 +1,54 @@
+title: $:/TW5Hacks/Field for Notes on Tiddlers with a Defined Tag
+created: 20170322201325658
+creator: Thomas Elmiger
+modified: 20170427200510789
+modifier: Thomas Elmiger
+original-tags: ShowNotes CookBook Hacks
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Field for Notes on Tiddlers with a Defined Tag
+source-tiddler-title-as-link: Field%20for%20Notes%20on%20Tiddlers%20with%20a%20Defined%20Tag
+
+A conditional view template as I have [[learned|http://tobibeer.github.io/tb5/#Conditional%20ViewTemplate%20Section]] once from Tobias Beer. This way we make something that shows up on any tiddler meeting predefined conditions. The condition I use is that a tiddler must be tagged with a tag <<tag ShowNotes>> so that the notes are shown. Of course you can change this to something more meanigful for you.
+
+Ingredients for this receipe: a tag, some wikitext code, a list-after field.
+
+!! Limitations
+* If you rename a tiddler, the notes will not show any longer as the note-storage tiddler is connected via title.
+** The notes are still there: Search and rename accordingly and they show up again.
+
+!! a) Your template tiddler must be tagged 
+with <<tag $:/tags/ViewTemplate>>
+
+!! b) Put in the text field
+
+```
+<$list filter="[all[current]tag[ShowNotes]]">
+<$set name="tid" value="Notes-for $(currentTiddler)$">
+<$edit-text tiddler=<<tid>> placeholder="Your text goes here" default="The tiddler for storage will be created automagically." rows="3" minHeight="3em" autoHeight="yes" class="te-vt-note-field"/>
+<div class="te-vt-note-source"><$link to=<<tid>>><<tid>></$link></div>
+</$set>
+
+<style>
+.te-vt-note-field {
+   width: 100%;
+}
+.te-vt-note-source {
+   font-size: 0.6em;
+   text-align: right;
+   line-height: 1.2em;
+}
+</style>
+</$list>
+```
+
+For actual code see $:/_telmiger/ui/ViewTemplate/notes-field
+
+!! c) Create a //list-after// field for your tiddler
+call it list-after and enter this as value: $:/core/ui/ViewTemplate/tags
+
+After you have created this tiddler you can tag any tiddler you like with "ShowNotes" and it will show a field for notes after saving.
+
+!!! How it works in short
+* the `<$list filter` part shows it’s content only if the condition with the tag is met.
+* the `<$set `statement creates a variable tid that contains the title for the storage tiddler. You can change the prefix Notes-for- if you like.
+* the `list-after` field defines, where our notes appear in the view template: right after the tags.

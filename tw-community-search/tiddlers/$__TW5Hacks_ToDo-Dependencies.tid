@@ -1,0 +1,30 @@
+title: $:/TW5Hacks/ToDo-Dependencies
+created: 20160924211103620
+creator: Thomas Elmiger
+modified: 20170120160814620
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo-Dependencies
+source-tiddler-title-as-link: ToDo-Dependencies
+
+Can we make this list the same as 
+`[tag[ToDo]] +[tags[]] +[tagged[]] -ToDo`?
+
+<ul>
+<$list filter="[tag[ToDo]] +[tags[]] +[tagged[]] -ToDo">
+<li><$transclude field="title"/></li>
+</$list>
+</ul>
+
+Can we style tasks tagged ToDoDone using the nodetemplate [[tidgraph/TDNtemplate]]?
+
+---
+
+<$tidgraph start="Listreveal" startat="0" mode="tagging" filter="[has[priority]]" nodetemplate="tidgraph/TDNtemplate"/>
+
+<style>
+.tidgraph-green-node {
+   background-color: lightgreen;
+}
+</style>

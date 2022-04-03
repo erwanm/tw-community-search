@@ -1,0 +1,31 @@
+title: $:/TW5Hacks/ToDo Versions/Plugin(s)
+created: 20160816104043737
+creator: Thomas Elmiger
+deadline: 
+modified: 20160911200523761
+modifier: Thomas Elmiger
+priority: 1
+todo-deadline: 20160910220000000
+todo-done: 20160911220517
+original-tags: Plugins ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: ToDo Versions/Plugin(s)
+source-tiddler-title-as-link: ToDo%20Versions%2fPlugin%28s%29
+
+Installation must be easy: Pack everything in a plugin. Use http://twguides.org/tinka.html (http://twguides.org/wiki/tinka.html).
+
+Organize files like recommended [[for developers|http://tiddlywiki.com/dev/#How%20to%20create%20plugins%20in%20the%20browser]]
+
+* $:/plugins/telmiger/todo
+* $:/plugins/telmiger/todo/anything
+
+!!! Can state-tiddlers be included?
+This would allow to remove these steps from installation process:
+
+* set projects-filter to all
+* do a test search
+
+!!! ~~Don’t make two plugins:~~ Datepicker is optional now
+* A simple ToDo plugin without/with optional deadline
+
+Done: Check for Kixam Plugins with filter `[all[]prefix[$:/plugins/kixam/datepicker]]` and activate datepicker button accordingly
