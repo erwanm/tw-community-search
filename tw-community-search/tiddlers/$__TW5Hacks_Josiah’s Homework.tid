@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Josiah’s Homework
+created: 20170819202749975
+creator: Thomas Elmiger
+modified: 20170819203915138
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Josiah’s Homework
+source-tiddler-title-as-link: Josiah%2019s%20Homework
+
+''Stones''
+
+<$edit-text tiddler="$:/temp/stone-converter" field="text" tag="input" size="4"/> stones = 
+<$macrocall $name=rpn a={{$:/temp/stone-converter}} b=6.35029 operation=* decimals=2 /> kilograms = 
+<$macrocall $name=rpn a={{$:/temp/stone-converter}} b=14 operation=* decimals=2 locale=en-GB/> pounds

@@ -1,0 +1,32 @@
+title: $:/TW5Hacks/telements Macro Library
+created: 20160818112806141
+creator: Thomas Elmiger
+modified: 20170410213203820
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160821182210
+original-tags: ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: telements Macro Library
+source-tiddler-title-as-link: telements%20Macro%20Library
+
+Some elements like buttons could be used by different macros: collect them in a macro library tiddler
+
+* $:/plugins/telmiger/listreveal/telements
+* $:/plugins/telmiger/listreveal/telements.css
+
+Example <br>
+ `<<teBtnTagListops btntext="click me" add-remove="Tag1 -Tag2">>`
+
+
+```
+\define teBtnTagListops(btntext,add-remove,tooltip,tip,class:"")
+<$set name="btnclass" value="te-btn-action $class$">
+<$button class=<<btnclass>> tooltip="""$tooltip$""">
+<$action-listops $tags="$add-remove$" />
+$btntext$
+<span class="te-tip">$tip$</span>
+</$button>
+</$set>
+\end
+```

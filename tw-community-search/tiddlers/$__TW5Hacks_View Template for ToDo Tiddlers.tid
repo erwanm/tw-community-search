@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/View Template for ToDo Tiddlers
+created: 20170513134018864
+creator: Thomas Elmiger
+modified: 20170513150806436
+modifier: Thomas Elmiger
+priority: 1
+todo-deadline: 20170512220000000
+todo-done: 20170513170757 20170513163526
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: View Template for ToDo Tiddlers
+source-tiddler-title-as-link: View%20Template%20for%20ToDo%20Tiddlers
+
+Show priority and relevant dates as in the list
+
+* priority is visible (button)
+* todo-deadline is visible
+* todo-donedate is visible
+* show ALL buttons?

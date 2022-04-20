@@ -1,0 +1,67 @@
+title: $:/TW5Hacks/Marketing Survey
+created: 20170502175027223
+creator: Thomas Elmiger
+example-1: 
+example-2: y
+example-3: y
+modified: 20180928161112686
+modifier: Thomas Elmiger
+original-tags: Quiz
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Marketing Survey
+source-tiddler-title-as-link: Marketing%20Survey
+
+\define check-survey(check:"{{example-1}}",solution:"bar",then:"correct",else:"") 
+<$macrocall $name="ifAisB" A=$check$ B="""$solution$""" then="""$then$""" else="""$else$""" error="<!-- no -->"/>
+\end
+
+\define resetFields()
+<$action-deletefield example-1 />
+<$action-deletefield example-2 />
+<$action-deletefield example-3 />
+\end
+
+\define solvedButton(btntext:"Next",add-remove:"Solved",tooltip:"show next step",class:"")
+<$set name="btnclass" value="$class$">
+<$button class=<<btnclass>> tooltip="""$tooltip$""">
+<$action-listops $tags="$add-remove$" />
+$btntext$
+</$button>
+</$set>
+\end
+
+\define resetButton(btntext:"Next",add-remove:"-Solved",tooltip:"Reset",class:"")
+<$set name="btnclass" value="$class$">
+<$button class=<<btnclass>> tooltip="""$tooltip$""">
+<$action-listops $tags="$add-remove$" />
+<<resetFields>>
+$btntext$
+</$button>
+</$set>
+\end
+
+
+!! Demo Survey
+
+!!! What should a brand communicate?
+Choose two answers:
+
+<$checkbox field="example-1" checked="y" unchecked=""> Vision</$checkbox> 
+<$checkbox field="example-2" checked="y" unchecked=""> Mission</$checkbox>
+<$checkbox field="example-3" checked="y" unchecked=""> Strategy</$checkbox>
+
+<$wikify name="checked" text="{{!!example-1}}{{!!example-2}}{{!!example-3}}">
+<$macrocall $name="check-survey" check=<<checked>> solution="yy" then="<<solvedButton>>" else="choose 2 please"/>
+</$wikify>
+
+---
+
+<$list filter="[all[current]tag[Solved]]">
+
+Finished – Thank you!
+
+---
+
+<<resetButton btntext:"Reset survey" tooltip:"Start again">>
+
+</$list>

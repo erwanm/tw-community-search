@@ -1,0 +1,56 @@
+title: $:/TW5Hacks/TextStretch Variant Footnote
+created: 20160826051057576
+creator: Thomas Elmiger
+modified: 20161108214708077
+modifier: Thomas Elmiger
+original-tags: TextStretch
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TextStretch Variant Footnote
+source-tiddler-title-as-link: TextStretch%20Variant%20Footnote
+
+!! Warning: Experimental Stuff!
+
+!!! Numbering TextStretch elements with CSS
+
+An experiment inspired by the discussion [[here|https://groups.google.com/d/msg/tiddlywiki/bY0K5_Jy1uI/D3RI3wkaFAAJ]].
+
+First I tried pseudo classes like nth-child or nth-of-type – but as classes they can not be used to number elements. Maybe this will become possible with CSS 4 (nth-match).
+
+Then I found [[CSS Counter|https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters]] – and this seems to work :–)
+
+<article>
+
+!! Numbered Hints/Notes
+
+```
+<<strex "your footnote" "&#x200b;" "start" "&#x200b;" "hint numbers">>
+```
+
+or
+
+```
+<<strex "your footnote" "&#x200b;" " [" "] " "storynumbers">>
+```
+
+The class "numbers" will number your references<<strex "this is an example for the numbers-class" "&#x200b;" "start" "&#x200b;" "hint numbers">> within a single tiddler. <<strex "and start at number 1 again in the next tiddler" "&#x200b;" "start" "&#x200b;" "hint numbers">> 
+
+Tis paragraph is built using the `<<ref>>` shorthand <<ref "A longer note can be helpful to illustrate facts and findings or to promote a link to http://thomas-elmiger.ch">> and more text after the example. <<ref "test footnote 4">> – more text <<ref "5th footnote">> and more text after the example. Even more text <<ref "A tale of horror and CSS">> and more text after the example. <<ref "test footnote 7">> – more text <<ref "8th footnote">> and more text after the example. 
+
+The class "storynumbers" <<strex "this is an example for the storynumbers-class" "&#x200b;" " [" "] " "storynumbers">> will number references throughout the whole story <<strex "The counter starts from the HTML-body tag and thus will never be reset" "&#x200b;" " [" "] " "storynumbers">>. 
+
+!!! Hints 
+* This is based on TextStretch hints as seen in [[Example 7|TextStretch Examples]] 
+* The additional CSS is integrated near the bottom of $:/_telmiger/strex.css since TextStretch version 0.8.2.
+* `&#x200b;` is the hex equivalent for `&ZeroWidthSpace;` (the latter is not accepted by TW).
+* You can use the shortcut macro to call it like this: <br>`<<ref "your content">>`
+
+</article>
+---
+
+!! Clear States
+
+You can close all TextStretch elements in this Wiki using this button: 
+<$button>
+<$action-deletetiddler $filter="[prefix[$:/state/strex_]]"/>
+Clear ~TextStretch States
+</$button>

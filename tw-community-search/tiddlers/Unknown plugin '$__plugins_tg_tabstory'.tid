@@ -1,7 +1,0 @@
-title: Unknown plugin '$:/plugins/tg/tabstory'
-name: unknown
-plugin_tiddler: $:/plugins/tg/tabstory
-tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 5: unknown plugin found
-
-{{||$:/CommunityPluginTemplate}}

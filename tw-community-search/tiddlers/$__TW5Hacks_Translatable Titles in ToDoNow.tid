@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Translatable Titles in ToDoNow
+created: 20180205170404850
+creator: Thomas Elmiger
+modified: 20180205170757893
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20180205180738
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Translatable Titles in ToDoNow
+source-tiddler-title-as-link: Translatable%20Titles%20in%20ToDoNow
+
+Users can personalize the tool and keep their settings in translation files – no need to change stuff again after (most) updates.
+
+* Titles on ToDoNow are changed automagically when language changes
