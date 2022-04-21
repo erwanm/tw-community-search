@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/tiddlersbar
+author: TonGerner
+core-version: >=5.1.15
+created: 20191228205111942
+description: Tiddlersbar
+list: readme license
+modified: 20191228211019421
+name: Tiddlersbar
+source: http://tw5custom.tiddlyspot.com/
+version: 0.0.19
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/tiddlersbar
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftiddlersbar
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

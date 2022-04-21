@@ -1,0 +1,15 @@
+title: $:/TabActions/About
+created: 20160830194546702
+creator: twMat
+modified: 20160830200452317
+modifier: twMat
+original-tags: 
+source-wiki-id: TabActions
+source-tiddler-title-as-text: About
+source-tiddler-title-as-link: About
+
+See notifications appearing in screen upper right corner. 
+
+<<tabs "aa bb cc" "aa">>
+
+$:/core/macros/tabs

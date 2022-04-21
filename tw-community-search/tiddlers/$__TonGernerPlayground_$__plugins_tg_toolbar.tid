@@ -1,0 +1,17 @@
+title: $:/TonGernerPlayground/$:/plugins/tg/toolbar
+author: TonGerner
+core-version: >=5.1.17
+created: 20191226185602774
+description: Top toolbar
+list: readme license
+modified: 20200918192839323
+name: Top toolbar
+source: http://tongerner.tiddlyspot.com/
+version: 0.5.1
+original-tags: 
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: $:/plugins/tg/toolbar
+source-tiddler-title-as-link: %24%3a%2fplugins%2ftg%2ftoolbar
+extracted-plugin: true
+
+{{||$:/CommunityExtractedPluginTemplate}}

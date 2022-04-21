@@ -1,0 +1,25 @@
+title: $:/TonGernerPlayground/Top toolbar
+created: 20140203085533289
+creator: TonGerner
+modified: 20200427195724398
+modifier: TonGerner
+status: upgraded to
+original-tags: documentation guide
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Top toolbar
+source-tiddler-title-as-link: Top%20toolbar
+
+!! [[How to create a top toolbar|Top toolbar]]
+
+''Status:'' @@.RED {{Top toolbar!!status}} v<<version>>@@
+
+''Note:'' @@.brown Available as plugin.@@
+
+This guide describes how to:
+
+* add a top toolbar
+* add buttons to the top toolbar
+
+As a demo it does not show all toolbar buttons that can be added to the top toolbar!
+
+''Guide at ~TiddlySpot:''<br>[[How to make a top toolbar|http://tw5toolbar.tiddlyspot.com/]]

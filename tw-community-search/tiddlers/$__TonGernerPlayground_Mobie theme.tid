@@ -1,0 +1,19 @@
+title: $:/TonGernerPlayground/Mobie theme
+caption: Mobie
+created: 20190124163842275
+creator: TonGerner
+modified: 20200204130710749
+modifier: TonGerner
+status: upgraded to
+original-tags: theme
+source-wiki-id: TonGernerPlayground
+source-tiddler-title-as-text: Mobie theme
+source-tiddler-title-as-link: Mobie%20theme
+
+!! [[Mobile theme: Mobie|Mobie theme]] <<tversion mobie>>
+
+<<readme "Readme Mobie theme" $:/themes/tg/mobie>>
+
+<<slider "Screenshot" Screenshot_Mobile_theme.jpg>>
+
+See also demo site: http://tw5mobile.tiddlyspot.com/
