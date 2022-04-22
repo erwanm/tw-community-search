@@ -1,0 +1,15 @@
+title: $:/TW5Hacks/Separate Listreveal from ToDoNow
+created: 20160911185114373
+creator: Thomas Elmiger
+modified: 20170410213928856
+modifier: Thomas Elmiger
+priority: 2
+todo-done: 20160917180224
+original-tags: Listreveal Plugins ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Separate Listreveal from ToDoNow
+source-tiddler-title-as-link: Separate%20Listreveal%20from%20ToDoNow
+
+Do not mix things up: Remove all todo-elements from Listreveal plugin.
+
+* search for //todo// in $:/plugins/telmiger/listreveal/lr without result

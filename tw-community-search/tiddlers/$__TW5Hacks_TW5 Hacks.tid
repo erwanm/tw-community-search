@@ -1,0 +1,56 @@
+title: $:/TW5Hacks/TW5 Hacks
+created: 20160710181212640
+creator: Thomas Elmiger
+modified: 20181206213708562
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: TW5 Hacks
+source-tiddler-title-as-link: TW5%20Hacks
+
+<header>
+
+!!! Consider the Plugins first
+
+A bunch of useful plugins can be found on https://tid.li/tw5/plugins.html – only use stuff from this hacks page if you can’t find a solution there.
+
+</header>
+
+!!! Hacks
+
+Quick Extensions for [[TiddlyWiki 5|https://tiddlywiki.com/]] – sometimes they come without much documentation. From hacker to hacker. 
+
+<<list-links filter:"[tag[Hacks]]">>
+
+!! Widget
+
+* DetailsWidget
+
+!! Experiments
+
+Hacks that work (somehow), but were not used in real life or in serious projects (yet).
+
+<<list-links filter:"[tag[Experiments]]">>
+
+---
+
+Components of Hacks and Experiments
+
+!! Macros
+
+<<list-links filter:"[tag[MyMacros]sort[]]">>
+
+!! Templates
+!!! Conditional View Templates
+
+<<list-links filter:"[tag[$:/tags/ViewTemplate]]">>
+
+!!! Page Template
+
+<<list-links filter:"[tag[$:/tags/PageTemplate]]">>
+
+!! Stylesheets
+
+<<list-links filter:"[tag[$:/tags/Stylesheet]]">>
+
+<<accordion filter:"DWYWBDBM-Licence" open:"open" class:"success">>

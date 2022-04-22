@@ -1,0 +1,19 @@
+title: $:/TW5Hacks/Checklist-CSS
+created: 20160905071639037
+creator: Thomas Elmiger
+modified: 20170410213824802
+modifier: Thomas Elmiger
+priority: 2
+todo-deadline: 20160912220000000
+todo-done: 20160917214708
+original-tags: Listreveal Usability ToDoArchive
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Checklist-CSS
+source-tiddler-title-as-link: Checklist-CSS
+
+Checklists generated via https://grosinger.net/tw5-checklist/ should have optimized indentation.
+
+[x] Inform Grosinger on Github
+[x] Optimise view outside //listreveal// (e.g. on [[Checklist-CSS]])
+[x] Elements on more than one line<br>Emust look good.
+[x] This is a demo of TiddlyWiki5 incorporating a checklist plugin. The example  demonstrates the usage of Grosinger’s plugin with longer texts.

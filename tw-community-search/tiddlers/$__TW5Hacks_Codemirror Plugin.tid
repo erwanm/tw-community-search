@@ -1,0 +1,40 @@
+title: $:/TW5Hacks/Codemirror Plugin
+created: 20180203142808630
+creator: Thomas Elmiger
+modified: 20180203152541815
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Codemirror Plugin
+source-tiddler-title-as-link: Codemirror%20Plugin
+
+!!! Codemirror Keyboard Controls
+
+; Ctrl-F / Cmd-F
+: Start searching
+
+; esc
+: close / exit / abort
+
+; Alt-F
+: Persistent search (dialog doesn't autoclose, enter to find next, Shift-Enter to find previous) 
+
+; Shift-Ctrl-F / Cmd-Option-F
+: Replace (multi-step)
+
+; Shift-Ctrl-R / Shift-Cmd-Option-F
+: Replace all
+
+; Ctrl-G / Cmd-G
+: Find next
+
+; Shift-Ctrl-G / Shift-Cmd-G
+: Find previous
+
+See https://codemirror.net/doc/manual.html#commands for more.
+
+---
+
+This adds about 900 kb to your Wiki: $:/plugins/tiddlywiki/codemirror then I imported also $:/config/CodeMirror and $:/plugins/tiddlywiki/codemirror/addon/search/search.js from Simon BurningTreeC on http://muritest.tiddlyspot.com/ 
+
+See discussion in the [[Google group|https://groups.google.com/d/msg/tiddlywiki/4eQjOdayctY/gcr21ZYBAwAJ]].

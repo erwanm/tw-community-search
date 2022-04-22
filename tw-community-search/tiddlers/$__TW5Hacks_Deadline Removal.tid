@@ -1,0 +1,20 @@
+title: $:/TW5Hacks/Deadline Removal
+created: 20170120101526526
+creator: Thomas Elmiger
+modified: 20170510052252564
+modifier: Thomas Elmiger
+priority: 1
+todo-deadline: 20170508215500000
+todo-done: 20170507235153 20170120215944
+original-tags: ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Deadline Removal
+source-tiddler-title-as-link: Deadline%20Removal
+
+Sometimes it turns out, that a deadline does not make sense. 
+
+* Users can remove the deadline in list view with two clicks max.
+
+!! Ideas
+* Link in yellow tip
+* Show & remove in details (not so good, keep this standard!)
