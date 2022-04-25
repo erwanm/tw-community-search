@@ -17,10 +17,6 @@ short_description: Flexibly tweak sidebar width for TiddlyWiki 5
 title: twCard - Plugin - FlexWidth
 wiki: http://eucaly-tw5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: EucalysTiddlyWorld
-twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/flexwidth
-twcs-description: FlexWidth - Flexibly tweak sidebar width for TiddlyWiki 5
-twcs-author: EucalyJ
-twcs-version: 0.0.4
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

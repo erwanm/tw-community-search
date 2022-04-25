@@ -17,10 +17,6 @@ short_description: Quick jump to tiddlers in story list
 title: twCard - Plugin - QuickJump
 wiki: http://eucaly-tw5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: EucalysTiddlyWorld
-twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/quickjump
-twcs-description: QuickJump - Quick jump to tiddlers in story list
-twcs-author: EucalyJ
-twcs-version: 0.0.2
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}

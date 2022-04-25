@@ -1,9 +1,0 @@
-title: $:/CherryPicker/temp
-created: 20160409194935375
-modified: 20160409195319418
-original-tags: 
-source-wiki-id: CherryPicker
-source-tiddler-title-as-text: temp
-source-tiddler-title-as-link: temp
-
-                       [[$string$]removeprefix<prfx>addsuffix[rowend]splitbefore[rowend]removesuffix[rowend]]
