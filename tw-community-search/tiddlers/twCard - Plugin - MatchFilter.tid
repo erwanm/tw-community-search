@@ -17,6 +17,10 @@ short_description: returns "matching text" by regular expression
 title: twCard - Plugin - MatchFilter
 wiki: http://eucaly-tw5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: EucalysTiddlyWorld
+twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/matchfilter
+twcs-description: MatchFilter - returns "matching text" by regular expression
+twcs-author: EucalyJ
+twcs-version: 0.1.0
 
 {{||$:/CommunityPluginTemplate}}

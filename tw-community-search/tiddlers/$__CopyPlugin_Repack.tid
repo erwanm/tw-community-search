@@ -1,0 +1,13 @@
+title: $:/CopyPlugin/Repack
+created: 20150806051342294
+creator: Andrew
+modified: 20151014060311337
+modifier: Andrew
+original-tags: 
+source-wiki-id: CopyPlugin
+source-tiddler-title-as-text: Repack
+source-tiddler-title-as-link: Repack
+
+Another Example of the copy button:
+
+Copy {{RepackCommand||$:/copy}} and paste it into developer console.

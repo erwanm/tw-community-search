@@ -1,7 +1,7 @@
 title: Tag: $:/tags/PluginLibrary
 tags: CommunityTags
 community-tag: $:/tags/PluginLibrary
-community-tag-count: 7
-community-wikis: [[FavoritesPlugin]] [[OpenAll]] [[RandomBackgroundPlugin]] [[ReduceEditorToolbar]] [[TiddlyTime]] [[TiddlyViewer]] [[TopLeftToolbar]]
+community-tag-count: 8
+community-wikis: [[CopyPlugin]] [[FavoritesPlugin]] [[OpenAll]] [[RandomBackgroundPlugin]] [[ReduceEditorToolbar]] [[TiddlyTime]] [[TiddlyViewer]] [[TopLeftToolbar]]
 
 {{||$:/CommunityTagTemplate}}

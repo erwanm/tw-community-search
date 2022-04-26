@@ -17,6 +17,10 @@ short_description: TagBar / TagTable with popup list of tags
 title: twCard - Plugin - PopupTagger
 wiki: http://eucaly-tw5.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: EucalysTiddlyWorld
+twcs-extracted-plugin-tiddler: $:/EucalysTiddlyWorld/$:/plugins/eucaly/popuptagger
+twcs-description: PopupTagger - TagBar / TagTable with popup list of tags
+twcs-author: EucalyJ
+twcs-version: 0.1.4
 
 {{||$:/CommunityPluginTemplate}}
