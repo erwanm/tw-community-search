@@ -1,0 +1,26 @@
+title: $:/TWHangouts/YouTube API - iFrame
+created: 20150101201305145
+modified: 20150101201606180
+original-tags: YouTube
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: YouTube API - iFrame
+source-tiddler-title-as-link: YouTube%20API%20-%20iFrame
+
+[[Google Site|https://developers.google.com/youtube/iframe_api_reference]]
+
+Sinpet from the site
+
+```
+The constructor for the video player specifies the following parameters:
+
+The first parameter specifies either the DOM element or the id of the HTML element where the API will insert the <iframe> tag containing the player.
+
+The IFrame API will replace the specified element with the <iframe> element containing the player. This could affect the layout of your page if the element being replaced has a different display style than the inserted <iframe> element. By default, an <iframe> displays as an inline-block element.
+
+The second parameter is an object that specifies player options. The object contains the following properties:
+width (number) – The width of the video player. The default value is 640.
+height (number) – The height of the video player. The default value is 390.
+videoId (string) – The YouTube video ID that identifies the video that the player will load.
+playerVars (object) – The object's properties identify player parameters that can be used to customize the player.
+events (object) – The object's properties identify the events that the API fires and the functions (event listeners) that the API will call when those events occur. In the example, the constructor indicates that the onPlayerReady function will execute when the onReady event fires and that the onPlayerStateChange function will execute when the onStateChange event fires.
+```

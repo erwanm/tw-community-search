@@ -1,0 +1,20 @@
+title: $:/TWHangouts/TiddlyWiki Google Groups Data
+created: 20141225002920355
+modified: 20150106152344631
+original-tags: twCard [[twCard Event]]
+source-wiki-id: TWHangouts
+source-tiddler-title-as-text: TiddlyWiki Google Groups Data
+source-tiddler-title-as-link: TiddlyWiki%20Google%20Groups%20Data
+
+"""
+This is the data that runs the [[Macros|Macros for Hangout Wiki Project]] on the site and are the best thing to grab if you want to re-organize the data another way.  I am working on a way to get the data I put in the Tiddlers to be pulled out and reused another way.
+
+Dates - [[$:/.rich/data/twhangoutdates]]
+Google Hangouts - [[$:/.rich/data/googlehangouts]]
+~YouTube Videos - [[$:/.rich/data/videos]]
+TW Versions - [[$:/.rich/data/twversion]]
+Tags [[$:/.rich/data/twtags]]
+Exceptions - Not Recorded & Special Events - [[$:/.rich/data/twhangout_exceptions]]
+
+One other list that is needed is the list of the start stop points for all the individual tiddlers in a Hangout.  This gives the embed times for creating short snippet embedded videos.  Ideally that would spawn the ability to watch a thread from the beginning forward or from the end backward.
+"""
