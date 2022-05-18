@@ -17,10 +17,6 @@ short_description: Adds the list select widget
 title: twCard - Plugin - ListSelect
 wiki: http://tiddlystuff.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-wiki-id: tiddlystuff
-twcs-extracted-plugin-tiddler: $:/tiddlystuff/$:/plugins/skeeve/listselect
-twcs-description: listselect widget
-twcs-author: 
-twcs-version: 0.1.1
+twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
 
 {{||$:/CommunityPluginTemplate}}
