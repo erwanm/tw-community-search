@@ -17,6 +17,10 @@ short_description: Clip things from webpages and add them to your wiki
 title: twCard - Plugin - Tiddlyclip
 wiki: http://tiddlyclip.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 4: found only partial match (plugin title ok), check wiki address
+twcs-wiki-id: tiddlyclip
+twcs-extracted-plugin-tiddler: $:/tiddlyclip/$:/plugins/bj/tiddlyclip
+twcs-description: include web content
+twcs-author: Jeffrey Wilkinson (aka BJ)
+twcs-version: 0.0.7-alpha
 
 {{||$:/CommunityPluginTemplate}}

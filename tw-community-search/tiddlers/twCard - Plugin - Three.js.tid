@@ -17,6 +17,10 @@ short_description: Adds the ability to use three.js to make 3d visualizations an
 title: twCard - Plugin - Three.js
 wiki: http://rboue.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: rboue plugins
+twcs-extracted-plugin-tiddler: $:/rboue plugins/$:/plugins/rboue/Three.js
+twcs-description: Three.js
+twcs-author: rboue
+twcs-version: 1.0.0
 
 {{||$:/CommunityPluginTemplate}}

@@ -1,0 +1,7 @@
+title: Unknown plugin '$:/plugins/ajh/tiddlycopy'
+name: unknown
+plugin_tiddler: $:/plugins/ajh/tiddlycopy
+tags: [[Plugin twCard]] CommunityPlugins
+twcs-error: error 5: unknown plugin found
+
+{{||$:/CommunityPluginTemplate}}

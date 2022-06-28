@@ -17,6 +17,10 @@ short_description: A widget for creating new tiddlers
 title: twCard - Plugin - New Tiddler
 wiki: http://tiddlystuff.tiddlyspot.com/
 tags: [[Plugin twCard]] CommunityPlugins
-twcs-error: error 3: no match found on plugin title (unknown wiki? discontinued plugin?)
+twcs-wiki-id: tiddlystuff
+twcs-extracted-plugin-tiddler: $:/tiddlystuff/$:/plugins/skeeve/newtiddler
+twcs-description: newtiddler widget
+twcs-author: 
+twcs-version: 0.2.1
 
 {{||$:/CommunityPluginTemplate}}

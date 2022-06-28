@@ -1,0 +1,40 @@
+title: $:/youtube/Start
+created: 20150108120438774
+modified: 20150111124339658
+original-tags: 
+source-wiki-id: youtube
+source-tiddler-title-as-text: Start
+source-tiddler-title-as-link: Start
+
+YoutubePlugin allows to easily embed and annotate videos.<br>
+
+!! [[2DO]]
+@@color:#f6f;
+
+: experimental => do test
+: not yet packaged as a plugin
+: please don't use just yet
+:: may be restructured a lot, because...
+: will likely evolve to a more generic plugin
+:: not sure about the PluginName => [[any ideas?|https://groups.google.com/d/msg/tiddlywiki/_dqbubfSm1c/oe4JcJlpzUIJ]]
+@@
+
+!! [[Example|Introduction To TiddlyWiki]]
+
+@@.yt-demo
+<$link to="Introduction To TiddlyWiki">{{$:/core/images/video}}Introduction To TiddlyWiki</$link>
+@@
+
+!! [[Documentation]]
+
+{{Documentation}}
+
+!! [[Inspired by|TiddlyWiki]]
+
+; Astrid Elocson
+: [[Youtube Macros|https://groups.google.com/d/msg/tiddlywiki/5FugIFRgYLs/d6QEmHPjfF4J]]
+; Jed Carty
+: [[YouTube Video Annotations|http://inmysocks.tiddlyspot.com/#YouTube%20Video%20Annotations]] @ [[inmysocks|http://inmysocks.tiddlyspot.com]]
+; Rich Shumaker
+: [[richshumaker.com|http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html]]
+: and his kickoff discussion: [[Idea for a Hangouts TiddlyWiki|https://groups.google.com/d/msg/tiddlywiki/5FugIFRgYLs/fdD9jvWeH34J]]

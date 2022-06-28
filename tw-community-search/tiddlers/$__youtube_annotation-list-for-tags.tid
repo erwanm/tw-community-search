@@ -1,0 +1,19 @@
+title: $:/youtube/annotation-list-for-tags
+created: 20150111011747850
+modified: 20150111011945081
+summary: allow to output an annotation list for tags with a player for various videos
+url: https://groups.google.com/d/msg/tiddlywiki/_dqbubfSm1c/IDIaLh6ASS8J
+original-tags: 2DO
+source-wiki-id: youtube
+source-tiddler-title-as-text: annotation-list-for-tags
+source-tiddler-title-as-link: annotation-list-for-tags
+
+''Rich Shuhmaker''
+
+<<<
+I have said this before, the end goal would be to watch all the video segments on a specific subject via playlist.
+
+So all Tiddlers Tagged 'Awesome' would show up in a video list and hopefully we could stitch them together somehow.
+
+Not a playlist of videos but a playlist of video subsections, so you could disect a video into smaller bite sized parts to watch on specific subjects.
+<<<
