@@ -1,0 +1,30 @@
+title: $:/Interactive Fiction Engine (inmysocks)/EventListTemplate2
+created: 20141116234854065
+modified: 20141119054334594
+original-tags: 
+source-wiki-id: Interactive Fiction Engine (inmysocks)
+source-tiddler-title-as-text: EventListTemplate2
+source-tiddler-title-as-link: EventListTemplate2
+
+\define thisFilter()
+[tag[Event]trigger[$(currentTriggerName)$]event_order[second]location[$(currentMapState)$]]
+\end
+
+\define thatFilter(order)
+[tag[Event]location[$(InnerEvent)$]event_order[$order$]]
+\end
+
+<$set name='currentMapState' value={{MapState!!text}}>
+<$set name='currentTriggerName' value={{!!title}}>
+<$reveal state='!!text' type=match text='inactive'>
+<$list filter=<<thisFilter>>>
+<$view field=text/><br>
+<!-- here I need to list any events or triggers that are inside the listed events -->
+<$list filter='[location[current]]'>
+</$list>
+</$list>
+</$reveal>
+
+</$set>
+</$set>
+

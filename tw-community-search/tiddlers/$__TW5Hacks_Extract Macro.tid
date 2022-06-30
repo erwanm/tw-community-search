@@ -1,0 +1,45 @@
+title: $:/TW5Hacks/Extract Macro
+created: 20161004203755164
+creator: Thomas Elmiger
+internalsummary: <<extract tiddler:"$:/_telmiger/extract" start:"<!--" end:"-->" limit:"no">>
+modified: 20170107232903413
+modifier: Thomas Elmiger
+original-tags: Hacks
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Extract Macro
+source-tiddler-title-as-link: Extract%20Macro
+
+<header>
+
+The extract macro retreives content from tiddlers based on common markup, comments or your own tags. Start and end markers can be the same, e.g. wiki styles `''` or `//` or they can be different like `{{` and `}}`. When extracting the beginning or the end of a tiddler, only one marker is needed, so `~~~~` is enough. The macro can be set to collect //one// or //all// matching snippets from the same tiddler.
+
+</header>
+
+<<tweet "Extract content from tiddlers based on common markup, comments or own tags. tid.li/tw5/hacks.html#Extract%20Macro #TiddlyWiki #Macro – via @telmiger">>
+
+!! Hints
+
+!!! New in Version 0.9
+* ''mode parameter for block, inline or link output in 0.9.2''
+* prefix parameter for tuning results (see list examples)
+* class="summary $class$" was changed to class="te-summary $class$"
+** use your own class as a parameter to be safe
+* documentation update ''with additional examples in 0.9.1''
+
+!!! Extract Macro Components
+* $:/_telmiger/extract
+
+!!! Examples: What Extract Can Do
+* List all suggested tweets from this wiki: [[Tweeting]] 
+* The [[Work-Report]] shows the first `<header>` of tiddlers I worked on (where available)
+* [[TextStretch Footnotes Extracted as List]] collects footnotes from the text in a tiddler.
+** see also the Documentation by Jan about his usage: http://slidesnstories.tiddlyspot.com/#About%20Footnotes – Jan also made an editor button for footnotes. Thank you Jan!
+** or my demo at http://tid.li/tw5/numbers.html
+* Show the comments in system tiddlers, when a tiddler ist displayed using conditional view templates: 
+** for macros $:/_telmiger/ui/ViewTemplate/macro-comments
+*** result: $:/_telmiger/tweet
+** TO RETHINK: do the same for view templates: $:/_telmiger/ui/ViewTemplate/template-comments – //this is not working yet.//
+
+---
+
+{{!!internalsummary}}

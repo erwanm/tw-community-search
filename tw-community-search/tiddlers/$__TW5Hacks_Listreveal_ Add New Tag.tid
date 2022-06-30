@@ -1,0 +1,18 @@
+title: $:/TW5Hacks/Listreveal: Add New Tag
+created: 20170316230520971
+creator: Thomas Elmiger
+modified: 20180527130515462
+modifier: Thomas Elmiger
+priority: 3
+todo-done: 20180527150512
+original-tags: Listreveal ToDoDone
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Listreveal: Add New Tag
+source-tiddler-title-as-link: Listreveal%3a%20Add%20New%20Tag
+
+Make tag adding faster.
+
+* A user can click on the tag icon to change tags.
+** On click a popup* with all choices is shown (fixed lists ATM).
+* Add a field to the popup?
+* Add tag finder from edit view in edit mode?

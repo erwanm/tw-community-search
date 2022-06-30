@@ -1,0 +1,28 @@
+title: $:/TW5Hacks/Character Countdown
+created: 20170819204209632
+creator: Thomas Elmiger
+modified: 20170819214812482
+modifier: Thomas Elmiger
+original-tags: Testing
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Character Countdown
+source-tiddler-title-as-link: Character%20Countdown
+
+\define charLimit() 140
+\define charCount(tid) <$editor-counter tiddler="""$tid$"""/>
+
+''Text''
+
+<$edit-text tiddler="$:/temp/text-to-count-down" field="text" rows="3" minHeight="3em" autoHeight="yes" class="te-vt-note-field"/> 
+
+<$reveal type=nomatch state="$:/temp/text-to-count-down" text="">
+<$wikify name=count text='<$macrocall $name="charCount" tid="$:/temp/text-to-count-down"/>'>
+<$macrocall $name=rpn a=<<charLimit>> b=<<count>>  operation=-/>
+</$wikify>
+</$reveal>
+
+<style>
+.te-vt-note-field {
+   width: 100%;
+}
+</style>

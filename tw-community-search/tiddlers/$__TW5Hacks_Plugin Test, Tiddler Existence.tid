@@ -1,0 +1,20 @@
+title: $:/TW5Hacks/Plugin Test, Tiddler Existence
+created: 20170708122900017
+creator: Thomas Elmiger
+modified: 20170712061852527
+modifier: Thomas Elmiger
+original-tags: 
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Plugin Test, Tiddler Existence
+source-tiddler-title-as-link: Plugin%20Test%2c%20Tiddler%20Existence
+
+!!! Performance
+
+<$list filter="[all[]][all[shadows]]">
+<$macrocall $name="ifTiddlerExists" tiddler=<<currentTiddler>>/>
+</$list>
+
+!!! Fail
+
+<<ifTiddlerExists "$:/plugins/kixam/datepick" true:"todoBtnSetDeadline" false:"noplugin">>
+

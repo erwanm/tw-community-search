@@ -1,0 +1,14 @@
+title: $:/TW5Hacks/Show Tasks on Timeline
+created: 20160812153130353
+creator: Thomas Elmiger
+modified: 20160827135956445
+modifier: Thomas Elmiger
+priority: 3
+original-tags: ToDo Plugins
+source-wiki-id: TW5Hacks
+source-tiddler-title-as-text: Show Tasks on Timeline
+source-tiddler-title-as-link: Show%20Tasks%20on%20Timeline
+
+Projects need Milestones: A calendar view on tasks would be helpful for planning and review.
+
+* Check if task data could be presented with a tool like http://kixam.github.io/TW5-visjsTimeline/
